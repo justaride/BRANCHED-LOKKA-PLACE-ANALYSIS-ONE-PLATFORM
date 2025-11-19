@@ -163,17 +163,17 @@ export const TENANTS: Record<string, TenantConfig> = {
       showAnalyser: false,
     },
   },
-  'spabo-eiendom': {
-    slug: 'spabo-eiendom',
+  'spabo': {
+    slug: 'spabo',
     name: 'Spabo Eiendom',
     displayName: 'Eiendomsanalyse - Spabo Eiendom',
     type: 'company',
     primaryLogo: '/images/logos/natural-state.png',
-    secondaryLogo: '/images/logos/spabo-eiendom.png',
+    secondaryLogo: '/images/logos/spabo.png',
     websiteUrl: 'https://spabo.no',
     description: 'Placeanalyser for Spabo Eiendom - Grünerløkka properties',
     keywords: ['Oslo', 'Grünerløkka', 'eiendom', 'placeanalyse', 'Spabo Eiendom'],
-    passwordEnvVar: 'SPABO_EIENDOM_PASSWORD',
+    passwordEnvVar: 'SPABO_PASSWORD',
     requiresAuth: true,
     features: {
       showMainBoardLink: true,
