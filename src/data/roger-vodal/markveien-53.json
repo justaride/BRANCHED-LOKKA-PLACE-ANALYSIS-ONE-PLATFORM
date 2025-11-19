@@ -1,0 +1,66 @@
+{
+  "id": "markveien-53",
+  "adresse": "Markveien 53",
+  "gnr": null,
+  "bnr": null,
+  "beskrivelse": "Eiendom i Oslo eid av Roger Vodal",
+  "heroImage": "/images/roger-vodal/markveien-53/hero.jpg",
+  "mapImage": "/images/roger-vodal/markveien-53/map.png",
+  "coordinates": {
+    "lat": 59.92,
+    "lng": 10.76
+  },
+  "plaaceData": {
+    "rapportDato": "2025-11-17T13:31:49.546Z",
+    "screenshots": [
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/roger-vodal/markveien-53/besokende.jpg",
+        "beskrivelse": "Besøkende",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Bevegelse",
+        "path": "/images/roger-vodal/markveien-53/bevegelse.jpg",
+        "beskrivelse": "Bevegelse",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Demografi",
+        "path": "/images/roger-vodal/markveien-53/demografi.jpg",
+        "beskrivelse": "Demografi",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Korthandel",
+        "path": "/images/roger-vodal/markveien-53/korthandel.jpg",
+        "beskrivelse": "Korthandel",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Nøkkeldarta",
+        "path": "/images/roger-vodal/markveien-53/nokkeldata.jpg",
+        "beskrivelse": "Nøkkeldarta",
+        "kategori": "oversikt"
+      }
+    ],
+    "nokkeldata": {
+      "prisniva": null,
+      "leieinntekter": null,
+      "befolkning": null,
+      "gjennomsnittsinntekt": null,
+      "arbeidsledighet": null
+    }
+  },
+  "tilleggsinfo": {
+    "historikk": "# Markveien 53\n\nHistorikk og informasjon om eiendommen kommer her.",
+    "kontaktperson": "Roger Vodal",
+    "notater": []
+  },
+  "metadata": {
+    "opprettet": "2025-11-17T13:31:49.546Z",
+    "sistOppdatert": "2025-11-17T13:31:49.546Z",
+    "status": "publisert",
+    "versjon": 1
+  }
+}

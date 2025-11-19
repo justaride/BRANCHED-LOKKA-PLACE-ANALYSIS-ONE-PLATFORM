@@ -1,0 +1,72 @@
+{
+  "id": "brenneriveien-11",
+  "adresse": "Brenneriveien 11",
+  "gnr": null,
+  "bnr": null,
+  "beskrivelse": "Eiendom i Oslo eid av SiO",
+  "heroImage": "/images/sio/brenneriveien-11/hero.jpg",
+  "mapImage": "/images/sio/brenneriveien-11/map.png",
+  "coordinates": {
+    "lat": 59.9,
+    "lng": 10.75
+  },
+  "plaaceData": {
+    "rapportDato": "2025-11-17T12:37:55.133Z",
+    "screenshots": [
+      {
+        "filnavn": "Nøkkeldata",
+        "path": "/images/sio/plaace/brenneriveien-11/nokkeldata.jpg",
+        "beskrivelse": "Nøkkeldata",
+        "kategori": "oversikt"
+      },
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/sio/plaace/brenneriveien-11/besokende.jpg",
+        "beskrivelse": "Besøkende",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Bevegelse",
+        "path": "/images/sio/plaace/brenneriveien-11/bevegelse.jpg",
+        "beskrivelse": "Bevegelse",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Demografi",
+        "path": "/images/sio/plaace/brenneriveien-11/demografi.jpg",
+        "beskrivelse": "Demografi",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Konkurransebildet",
+        "path": "/images/sio/plaace/brenneriveien-11/konkurransebildet.jpg",
+        "beskrivelse": "Konkurransebildet",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Korthandel",
+        "path": "/images/sio/plaace/brenneriveien-11/korthandel.jpg",
+        "beskrivelse": "Korthandel",
+        "kategori": "marked"
+      }
+    ],
+    "nokkeldata": {
+      "prisniva": null,
+      "leieinntekter": null,
+      "befolkning": null,
+      "gjennomsnittsinntekt": null,
+      "arbeidsledighet": null
+    }
+  },
+  "tilleggsinfo": {
+    "historikk": "# Brenneriveien 11\n\nHistorikk og informasjon om eiendommen kommer her.",
+    "kontaktperson": "SiO",
+    "notater": []
+  },
+  "metadata": {
+    "opprettet": "2025-11-17T12:37:55.133Z",
+    "sistOppdatert": "2025-11-17T12:37:55.133Z",
+    "status": "publisert",
+    "versjon": 1
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "thorvaldmeyers-gate-55",
+  "adresse": "Thorvald Meyers gate 55",
+  "gnr": 209,
+  "bnr": 55,
+  "beskrivelse": "Eiendom på Thorvald Meyers gate 55, plassert i det livlige handelsstrekket på Grünerløkka med omfattende tilbud av restaurant, detaljhandel og servicenæringer.",
+  "heroImage": "/images/brodrene-evensen/thorvaldmeyers-gate-55/hero.jpg",
+  "mapImage": "/images/brodrene-evensen/thorvaldmeyers-gate-55/map.png",
+  "coordinates": {
+    "lat": 59.9247,
+    "lng": 10.7596
+  },
+  "plaaceData": {
+    "rapportDato": "2024-11-18T00:00:00Z",
+    "screenshots": [
+      {
+        "filnavn": "Nøkkeldata",
+        "path": "/images/brodrene-evensen/thorvaldmeyers-gate-55/nokkeldata.jpg",
+        "beskrivelse": "Nøkkeldata",
+        "kategori": "oversikt"
+      },
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/brodrene-evensen/thorvaldmeyers-gate-55/besokende.jpg",
+        "beskrivelse": "Besøkende",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Bevegelse",
+        "path": "/images/brodrene-evensen/thorvaldmeyers-gate-55/bevegelse.jpg",
+        "beskrivelse": "Bevegelse",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Demografi",
+        "path": "/images/brodrene-evensen/thorvaldmeyers-gate-55/demografi.jpg",
+        "beskrivelse": "Demografi",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Konkurransebildet",
+        "path": "/images/brodrene-evensen/thorvaldmeyers-gate-55/konkurransebildet.jpg",
+        "beskrivelse": "Konkurransebildet",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Korthandel",
+        "path": "/images/brodrene-evensen/thorvaldmeyers-gate-55/korthandel.jpg",
+        "beskrivelse": "Korthandel",
+        "kategori": "marked"
+      }
+    ],
+    "nokkeldata": {
+      "prisniva": "N/A",
+      "leieinntekter": "N/A",
+      "befolkning": 8600,
+      "gjennomsnittsinntekt": "N/A",
+      "arbeidsledighet": 95
+    }
+  },
+  "tilleggsinfo": {
+    "historikk": "# Thorvald Meyers gate 55 – Eiendomsprofil\n\n## Beliggenhet\n\nEiendommen ligger på Thorvald Meyers gate 55, umiddelbart ved siden av nr. 53 i det samme attraktive handelsstrekket på Grünerløkka. Beliggenheten sikrer tilgang til samme sterke handelsmiljø som nabo-eiendommen.\n\n## Nærområdet\n\nOmrådet rundt Thorvald Meyers gate 55 har 171 registrerte bedrifter i nærområdet:\n- 53 restauranter\n- 22 skjønnhet og velvære-bedrifter\n- 19 klesbutikker\n- 15 bakerier og kafeer\n- 13 mat og drikke butikker\n- Bredt spekter av hjem, interiør, sport og andre handelskategorier\n\n## Transport og tilgjengelighet\n\n- Utmerket kollektivdekning\n- Umiddelbar nærhet til Birkelunden park\n- Høy fottrafikk og levende bymiljø\n- Lett tilgjengelig med sykkel og gange\n\n## Utviklingsmuligheter\n\nMed 171 aktører i nærområdet og strategisk plassering ved Birkelunden, har eiendommen tilgang til et av Oslos mest etablerte og attraktive handelsmiljøer. Nærområdet preges av høy aktivitet og sterk kundestrøm.\n\n## Merkevareposisjonering (USP)\n\n- Strategisk beliggenhet ved Birkelunden\n- 171 aktører i et dynamisk handelsmiljø\n- Sterk restaurant-konsentrasjon (53 enheter)\n- Omfattende kleshandel og lifestyle-tilbud\n- Del av Grünerløkkas mest etablerte handelsstrøk",
+    "kontaktperson": "Brødrene Evensen",
+    "notater": [
+      "171 aktører i nærområdet",
+      "Dominerende kategorier: Restaurant (53), Skjønnhet (22), Klesbutikker (19)",
+      "Nærhet til Birkelunden park",
+      "Del av samme sterke handelsklynge som nr. 53"
+    ]
+  },
+  "metadata": {
+    "opprettet": "2025-11-18T15:00:00Z",
+    "sistOppdatert": "2025-11-18T15:00:00Z",
+    "status": "publisert",
+    "versjon": 1
+  }
+}

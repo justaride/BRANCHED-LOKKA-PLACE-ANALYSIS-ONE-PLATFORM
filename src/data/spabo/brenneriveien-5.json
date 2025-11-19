@@ -1,0 +1,92 @@
+{
+  "id": "brenneriveien-5",
+  "adresse": "Brenneriveien 5",
+  "gnr": 208,
+  "bnr": 62,
+  "beskrivelse": "Moderne kontorlokaler i historisk industribygg ved Akerselva. Bygget fra 1966 er transformert til kreativt kontormiljø med 2 545 m² BTA fordelt på 5 etasjer. Eiendommen tilbyr autentisk industriell karakter kombinert med moderne fasiliteter, og huser kreative og kulturelle virksomheter i hjertet av Grünerløkka.",
+  "heroImage": "/images/spabo/brenneriveien-5/hero.jpg",
+  "mapImage": "/images/spabo/brenneriveien-5/map.png",
+  "coordinates": {
+    "lat": 59.9198549,
+    "lng": 10.7520967
+  },
+  "plaaceData": {
+    "rapportDato": "2024-11-10T00:00:00Z",
+    "screenshots": [
+      {
+        "filnavn": "Nøkkeldata",
+        "path": "/images/spabo/brenneriveien-5/nokkeldata.jpg",
+        "beskrivelse": "Nøkkeldata",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Demografi",
+        "path": "/images/spabo/brenneriveien-5/demografi.jpg",
+        "beskrivelse": "Demografi",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Konkurransebildet",
+        "path": "/images/spabo/brenneriveien-5/konkurransebildet.jpg",
+        "beskrivelse": "Konkurransebildet",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Korthandel",
+        "path": "/images/spabo/brenneriveien-5/korthandel.jpg",
+        "beskrivelse": "Korthandel analyse",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Bevegelse",
+        "path": "/images/spabo/brenneriveien-5/bevegelse.jpg",
+        "beskrivelse": "Bevegelsesmønster",
+        "kategori": "utvikling"
+      },
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/spabo/brenneriveien-5/besokende.jpg",
+        "beskrivelse": "Besøkende analyse",
+        "kategori": "marked"
+      }
+    ],
+    "nokkeldata": {
+      "prisniva": "55-70 MNOK",
+      "leieinntekter": "1 690 NOK/m²/år",
+      "befolkning": 2545,
+      "gjennomsnittsinntekt": "5 230 000 NOK",
+      "arbeidsledighet": 98
+    },
+    "demografi": {
+      "totalBefolkning": 2545,
+      "husstandsstorrelse": 5
+    },
+    "marked": {
+      "omsetning": 5230000,
+      "kvadratmeterpris": 1690
+    }
+  },
+  "tilleggsinfo": {
+    "historikk": "## Om Eiendommen\n\nBrenneriveien 5 er et moderne kontorlokale i et transformert industribygg fra 1966, strategisk plassert ved Akerselva miljøpark på Grünerløkka. Eiendommen representerer siste generasjon industrilokaler langs elven før områdets deindustrialisering.\n\n### Nøkkelinformasjon\n\n**Bygningstekniske spesifikasjoner:**\n- Totalareal: 2 545 m² BTA\n- 5 etasjer + kjeller med 7 bilplasser\n- 4 rentable etasjer à ca. 500 m² hver\n- Plasstøpt betong med spekkmuret teglfasade\n- Heis installert 2013\n- Moderne ventilasjon med kjøling\n\n**Fasiliteter:**\n- Stor felles takterrasse\n- Brenneriet Café i 1. etasje\n- Møterom og sosiale soner\n- Fiber og moderne infrastruktur\n\n### Eierskap\n\n**Juridisk eier:** Brenneriveien 5 AS (Org.nr. 993 637 726)\n**Forvalter:** Spabo Eiendom AS\n**Eierkjede:** Spabogruppen (Spandow-familien) → Spabo AS → Spabo Næring AS → Brenneriveien 5 AS\n\n### Beliggenhet\n\nEiendommen har en unik plassering:\n- Ved Akerselva miljøpark (nasjonalt kulturminneområde)\n- Nabo til Vulkan matdestinasjon\n- Ved Blå musikksted\n- Walk Score: 98/100 (Walker's Paradise)\n- 12+ kollektivlinjer i umiddelbar nærhet\n\n### Leietakere\n\nEiendommen huser kreative og kulturelle virksomheter:\n- Brenneriet Café\n- Kulturmeglerne AS\n- Reactor Retail\n- Design Without Borders\n- Flere kreative næringer",
+    "kontaktperson": "Spabo Eiendom AS - 23 22 29 00",
+    "notater": [
+      "Byggeår: 1966",
+      "Renovert: 2013-2016",
+      "Energimerking: F",
+      "Belegg: 70-85%",
+      "Ledig: 4. etasje (530 m²)"
+    ],
+    "lenker": [
+      {
+        "tekst": "Spabo Eiendom",
+        "url": "https://www.spabo.no"
+      }
+    ]
+  },
+  "metadata": {
+    "opprettet": "2024-11-10T18:30:00Z",
+    "sistOppdatert": "2024-11-10T18:30:00Z",
+    "status": "publisert",
+    "versjon": 1
+  }
+}

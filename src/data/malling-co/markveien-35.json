@@ -1,0 +1,75 @@
+{
+  "id": "markveien-35",
+  "adresse": "Markveien 35, 0554 Oslo",
+  "gnr": 208,
+  "bnr": 456,
+  "beskrivelse": "Markveien 35 ligger midt i hjertet av Grünerløkka, et av Oslos mest livlige og attraktive bydeler. Eiendommen er sentralt plassert med god tilgang til kollektivtransport, handel og serveringstilbud.",
+  "heroImage": "/images/malling-co/markveien-35-hero.jpg",
+  "mapImage": "/images/malling-co/markveien-35-map.png",
+  "coordinates": {
+    "lat": 59.9252,
+    "lng": 10.7585
+  },
+  "plaaceData": {
+    "rapportDato": "2025-11-14T00:00:00Z",
+    "screenshots": [
+      {
+        "filnavn": "Nøkkeldata",
+        "path": "/images/malling-co/plaace/markveien-35/noekkeldata.jpg",
+        "beskrivelse": "Nøkkeldata",
+        "kategori": "oversikt"
+      },
+      {
+        "filnavn": "Demografi",
+        "path": "/images/malling-co/plaace/markveien-35/demografi.jpg",
+        "beskrivelse": "Demografi",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/malling-co/plaace/markveien-35/besokende.jpg",
+        "beskrivelse": "Besøkende",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Bevegelse",
+        "path": "/images/malling-co/plaace/markveien-35/bevegelse.jpg",
+        "beskrivelse": "Bevegelse",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Korthandel",
+        "path": "/images/malling-co/plaace/markveien-35/korthandel.jpg",
+        "beskrivelse": "Korthandel",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Konkurransebildet",
+        "path": "/images/malling-co/plaace/markveien-35/konkurransebildet.jpg",
+        "beskrivelse": "Konkurransebildet",
+        "kategori": "marked"
+      }
+    ],
+    "nokkeldata": {
+      "bydel": "Grünerløkka",
+      "område": "Grünerløkka Sør"
+    }
+  },
+  "tilleggsinfo": {
+    "historikk": "# Markveien 35 – Eiendomsprofil\n\n## Nøkkeldata\n\n**Adresse:** Markveien 35, 0554 Oslo\n**Bydel:** Grünerløkka\n**Eier / forvalter:** Malling&Co\n\n## Profil og betydning\n\nMarkveien 35 ligger i hjertet av Grünerløkka, et av Oslos mest attraktive og livlige områder. Bydelen er kjent for sin unike blanding av historisk arkitektur, kulturelt mangfold og urban livsstil.\n\n## Beliggenhet\n\nEiendommen har en sentral beliggenhet på Grünerløkka med umiddelbar nærhet til:\n\n**Nærmiljø:**\n- Birkelunden park\n- Thorvald Meyers gate - handlegate\n- Olaf Ryes plass\n- Godt utvalg av kaféer, restauranter og butikker\n- Kort gangavstand til kollektivtransport\n\n**Konkurrenter i området:**\n- Extra Birkelunden (Thorvald Meyers gate 35) - NOK 87 mill. omsetning\n- Vinmonopolet Nordregate Oslo (Nordre gate 16) - NOK 73 mill. omsetning\n- Rema 1000 Vulkan (Maridalsveien 15) - NOK 72 mill. omsetning\n- Kiwi Minipris Markveien (Markveien 35 B) - NOK 69 mill. omsetning\n- McDonald's Thorvald Meyers Gate - NOK 58 mill. omsetning\n\n**Walk Score:** 98/100 – Walker's Paradise\n\n## Markedsanalyse\n\nGrünerløkka er ett av Oslos mest attraktive bolig- og forretningsområder, med høy trafikk av både beboere og besøkende. Området har sterkt fokus på lokal handel, kultur og uteliv.\n\n## Konklusjon\n\nMarkveien 35 representerer en attraktiv eiendom i et av Oslos mest ettertraktede områder. Beliggenheten på Grünerløkka gir høy eksponering og god tilgang til et mangfoldig kundeunderlag.",
+    "kontaktperson": "Malling&Co",
+    "notater": [
+      "Sentral beliggenhet på Grünerløkka",
+      "Nærhet til Birkelunden park",
+      "Sterkt handelsområde med høy trafikk",
+      "Walk Score 98/100",
+      "Omfattende serveringstilbud i nærområdet"
+    ]
+  },
+  "metadata": {
+    "opprettet": "2025-11-14T00:00:00Z",
+    "sistOppdatert": "2025-11-14T00:00:00Z",
+    "status": "publisert",
+    "versjon": 1
+  }
+}

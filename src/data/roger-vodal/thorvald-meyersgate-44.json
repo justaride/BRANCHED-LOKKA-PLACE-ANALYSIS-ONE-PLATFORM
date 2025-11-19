@@ -1,0 +1,66 @@
+{
+  "id": "thorvald-meyersgate-44",
+  "adresse": "Thorvald Meyersgate 44",
+  "gnr": null,
+  "bnr": null,
+  "beskrivelse": "Eiendom i Oslo eid av Roger Vodal",
+  "heroImage": "/images/roger-vodal/thorvald-meyersgate-44/hero.jpg",
+  "mapImage": "/images/roger-vodal/thorvald-meyersgate-44/map.png",
+  "coordinates": {
+    "lat": 59.92,
+    "lng": 10.76
+  },
+  "plaaceData": {
+    "rapportDato": "2025-11-17T13:31:49.548Z",
+    "screenshots": [
+      {
+        "filnavn": "Besøkedne",
+        "path": "/images/roger-vodal/thorvald-meyersgate-44/besokende.jpg",
+        "beskrivelse": "Besøkedne",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Bevegelse",
+        "path": "/images/roger-vodal/thorvald-meyersgate-44/bevegelse.jpg",
+        "beskrivelse": "Bevegelse",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Demografi",
+        "path": "/images/roger-vodal/thorvald-meyersgate-44/demografi.jpg",
+        "beskrivelse": "Demografi",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Korthandel",
+        "path": "/images/roger-vodal/thorvald-meyersgate-44/korthandel.jpg",
+        "beskrivelse": "Korthandel",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Nøkkeldata",
+        "path": "/images/roger-vodal/thorvald-meyersgate-44/nokkeldata.jpg",
+        "beskrivelse": "Nøkkeldata",
+        "kategori": "oversikt"
+      }
+    ],
+    "nokkeldata": {
+      "prisniva": null,
+      "leieinntekter": null,
+      "befolkning": null,
+      "gjennomsnittsinntekt": null,
+      "arbeidsledighet": null
+    }
+  },
+  "tilleggsinfo": {
+    "historikk": "# Thorvald Meyersgate 44\n\nHistorikk og informasjon om eiendommen kommer her.",
+    "kontaktperson": "Roger Vodal",
+    "notater": []
+  },
+  "metadata": {
+    "opprettet": "2025-11-17T13:31:49.548Z",
+    "sistOppdatert": "2025-11-17T13:31:49.548Z",
+    "status": "publisert",
+    "versjon": 1
+  }
+}

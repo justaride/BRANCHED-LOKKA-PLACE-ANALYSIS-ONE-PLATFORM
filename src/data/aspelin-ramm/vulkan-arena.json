@@ -1,0 +1,77 @@
+{
+  "id": "vulkan-arena",
+  "adresse": "Vulkan 26, 0178 Oslo",
+  "gnr": 218,
+  "bnr": 260,
+  "beskrivelse": "Moderne konsert- og eventarena med blackbox-konsept. Kapasitet 800 stående / 400 sittende. Meyer Sound PA-system, GrandMA3 lysrigg og LED-skjerm. Sentral intimscene i Oslo siden 2010.",
+  "heroImage": "/images/aspelin-ramm/vulkan-arena-hero.jpg",
+  "mapImage": "/images/aspelin-ramm/vulkan-arena-map.png",
+  "coordinates": {
+    "lat": 59.9240,
+    "lng": 10.7520
+  },
+  "plaaceData": {
+    "rapportDato": "2025-11-12T00:00:00Z",
+    "screenshots": [
+      {
+        "filnavn": "Nøkkeldata",
+        "path": "/images/aspelin-ramm/plaace/vulkan-arena/noekkeldata.jpg",
+        "beskrivelse": "Nøkkeldata",
+        "kategori": "oversikt"
+      },
+      {
+        "filnavn": "Demografi",
+        "path": "/images/aspelin-ramm/plaace/vulkan-arena/demografi.jpg",
+        "beskrivelse": "Demografi",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/aspelin-ramm/plaace/vulkan-arena/besokende.jpg",
+        "beskrivelse": "Besøkende",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Bevegelse",
+        "path": "/images/aspelin-ramm/plaace/vulkan-arena/bevegelse.jpg",
+        "beskrivelse": "Bevegelse",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Korthandel",
+        "path": "/images/aspelin-ramm/plaace/vulkan-arena/korthandel.jpg",
+        "beskrivelse": "Korthandel",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Konkurransebildet",
+        "path": "/images/aspelin-ramm/plaace/vulkan-arena/konkurransebildet.jpg",
+        "beskrivelse": "Konkurransebildet",
+        "kategori": "marked"
+      }
+    ],
+    "nokkeldata": {
+      "areal": "1 400 m²",
+      "byggeaar": 2010,
+      "kapasitet": "800 stående / 400 sittende"
+    }
+  },
+  "tilleggsinfo": {
+    "historikk": "# Vulkan Arena – Eiendomsprofil\n\n## Nøkkeldata\n\n**Adresse:** Vulkan 26, 0178 Oslo\n**Bydel:** Grünerløkka / St. Hanshaugen-grensen\n**Eier:** Aspelin Eiendom AS (via Vulkan Oslo AS)\n**Operatør:** Vulkan Booking AS (50% Aspelin / 50% Skagstindgruppen)\n**Areal:** ca. 1 400 m² BTA\n**Byggeår:** 2010\n**Arkitekt:** LPO Arkitekter\n\n## Bygg og funksjon\n\nModerne konsert- og eventarena (blackbox-konsept) med tre etasjer:\n- **Underetasje:** Pokalen sportsbar/scene, garderobe, toaletter\n- **Hovedetasje:** Hovedsal (kapasitet 800), bar, backstage, teknisk rom\n- **Øverste etasje:** Balkong, lounge, møterom/VIP\n\n**Kapasitet:** 800 stående / 400 sittende\n\n### Teknisk standard\n- Meyer Sound PA-system\n- GrandMA3 lysrigg\n- LED-skjerm 6,5 × 3,1 m\n- Takhøyde 7 m (frihøyde under rigg ca. 5,7 m)\n- Full rigginfrastruktur, 32 A/3-fas strømuttak, LAN for streaming\n- Universell utforming: HC-heis, HC-toalett, hørselsslynge, ramper\n\n## Historikk og bruk\n\n**2010:** Åpning som del av Vulkan fase 2, sammen med Mathallen og Dansens Hus\n**2010–2019:** 80–100 konserter/år, sentral intimscene i Oslo\n**2020–2021:** Nedstengt under pandemien\n**2022–2025:** Gjenåpning – ca. 40–60 konserter, 20–30 corporate events, 10–20 private arrangementer årlig\n\n**Årlig besøk (estimert):** 50 000–80 000 personer\n\n## Økonomiske nøkkeltall\n\n- **Markedsverdi bygg:** 80–120 MNOK\n- **Potensiell leieinntekt:** 8–12 MNOK/år\n- **Yield (estimat):** 8–12%\n- **Driftskostnader:** 2–4 MNOK (eiendom) + 3–5 MNOK (operasjon)\n\n## Beliggenhet\n\nVulkan ved Akerselva – nasjonalt anerkjent byutviklingsområde (Europa Nostra pris 2013).\n\n**Naboer innen 200 m:**\n- Mathallen Oslo (50 m)\n- Dansens Hus (140 m)\n- Scandic Vulkan (150 m)\n- PS:hotell (100 m)\n\n**Transport:**\n- Buss 34/54 (Møllerveien 2 min)\n- Trikk 11/12/13 (Schous plass 8 min)\n- 450 plasser i Vulkan P-hus (100 m)\n- Walk Score 98 / Bike 95 / Transit 96\n\n**Områdeprofil:** ca. 3 mill. besøkende/år; 60 000 m² kultur, næring og servering\n\n## Bærekraft\n\n- **Energisystem:** Tilknyttet Vulkan Energisentralen (geoenergi + sjøvannskjøling)\n- **Energiforbruk:** 135–235 kWh/m²/år → 10–45% under TEK10-referanse\n- **CO₂-reduksjon:** ca. 70% lavere enn fossil oppvarming\n- **Kildesortering:** > 60%, mål 80% innen 2030",
+    "kontaktperson": "Vulkan Booking AS",
+    "notater": [
+      "Blackbox-konsept med full teknisk fleksibilitet",
+      "Meyer Sound PA og GrandMA3 lysrigg",
+      "Kapasitet 800 stående / 400 sittende",
+      "Pokalen sportsbar med 200–300 plasser",
+      "50 000–80 000 besøkende årlig",
+      "73 næringsaktører i området"
+    ]
+  },
+  "metadata": {
+    "opprettet": "2025-11-12T00:00:00Z",
+    "sistOppdatert": "2025-11-12T00:00:00Z",
+    "status": "publisert",
+    "versjon": 1
+  }
+}

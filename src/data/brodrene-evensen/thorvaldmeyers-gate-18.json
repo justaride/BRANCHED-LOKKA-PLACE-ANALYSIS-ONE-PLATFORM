@@ -1,0 +1,76 @@
+{
+  "id": "thorvaldmeyers-gate-18",
+  "adresse": "Thorvald Meyers gate 18",
+  "gnr": 209,
+  "bnr": 1,
+  "beskrivelse": "Eiendom på Thorvald Meyers gate 18, sentralt plassert på Grünerløkka med god tilgang til handel, transport og byliv.",
+  "heroImage": "/images/brodrene-evensen/thorvaldmeyers-gate-18/hero.jpg",
+  "mapImage": "/images/brodrene-evensen/thorvaldmeyers-gate-18/map.png",
+  "coordinates": {
+    "lat": 59.9225,
+    "lng": 10.7585
+  },
+  "plaaceData": {
+    "rapportDato": "2024-11-18T00:00:00Z",
+    "screenshots": [
+      {
+        "filnavn": "Nøkkeldata",
+        "path": "/images/brodrene-evensen/thorvaldmeyers-gate-18/nokkeldata.jpg",
+        "beskrivelse": "Nøkkeldata",
+        "kategori": "oversikt"
+      },
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/brodrene-evensen/thorvaldmeyers-gate-18/besokende.jpg",
+        "beskrivelse": "Besøkende",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Bevegelse",
+        "path": "/images/brodrene-evensen/thorvaldmeyers-gate-18/bevegelse.jpg",
+        "beskrivelse": "Bevegelse",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Demografi",
+        "path": "/images/brodrene-evensen/thorvaldmeyers-gate-18/demografi.jpg",
+        "beskrivelse": "Demografi",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Konkurransebildet",
+        "path": "/images/brodrene-evensen/thorvaldmeyers-gate-18/konkurransebildet.jpg",
+        "beskrivelse": "Konkurransebildet",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Korthandel",
+        "path": "/images/brodrene-evensen/thorvaldmeyers-gate-18/korthandel.jpg",
+        "beskrivelse": "Korthandel",
+        "kategori": "marked"
+      }
+    ],
+    "nokkeldata": {
+      "prisniva": "N/A",
+      "leieinntekter": "N/A",
+      "befolkning": 8500,
+      "gjennomsnittsinntekt": "N/A",
+      "arbeidsledighet": 95
+    }
+  },
+  "tilleggsinfo": {
+    "historikk": "# Thorvald Meyers gate 18 – Eiendomsprofil\n\n## Beliggenhet\n\nEiendommen ligger på Thorvald Meyers gate 18, en av Oslo's mest livlige gater på Grünerløkka. Området kjennetegnes av høy fottrafikk, variert handel og et sterkt kulturliv.\n\n## Nærområdet\n\nOmrådet rundt Thorvald Meyers gate 18 har et rikt og variert tilbud med 128 registrerte bedrifter i nærområdet:\n- 39 restauranter\n- 22 skjønnhet og velvære-bedrifter\n- 12 bakerier og kafeer\n- 10 mat og drikke butikker\n- Variert handel innen klær, hjem, interiør og sport\n\n## Transport og tilgjengelighet\n\n- God kollektivdekning med trikk og buss\n- Kort avstand til Birkelunden og Olaf Ryes plass\n- Høy fottrafikk og sykkeltrafikk\n\n## Utviklingsmuligheter\n\nEiendommen ligger i et etablert og attraktivt område med sterk kundestrøm og høy aktivitet. Nærområdet har et solid fundament av servicenæringer og handelsbedrifter som trekker besøkende fra hele Oslo.\n\n## Merkevareposisjonering (USP)\n\n- Sentral beliggenhet på en av Oslos mest populære gater\n- 128 aktører i nærområdet skaper dynamisk handelsmiljø\n- Sterk blanding av restaurant, detaljhandel og tjenester\n- Høy fottrafikk og godt etablert byliv",
+    "kontaktperson": "Brødrene Evensen",
+    "notater": [
+      "128 aktører i nærområdet",
+      "Dominerende kategorier: Restaurant (39), Skjønnhet (22), Bakeri/kafé (12)",
+      "Thorvald Meyers gate - hovedgate på Grünerløkka"
+    ]
+  },
+  "metadata": {
+    "opprettet": "2025-11-18T15:00:00Z",
+    "sistOppdatert": "2025-11-18T15:00:00Z",
+    "status": "publisert",
+    "versjon": 1
+  }
+}

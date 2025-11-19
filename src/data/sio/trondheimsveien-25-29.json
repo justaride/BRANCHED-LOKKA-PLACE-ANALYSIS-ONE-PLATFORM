@@ -1,0 +1,72 @@
+{
+  "id": "trondheimsveien-25-29",
+  "adresse": "Trondheimsveien 25-29",
+  "gnr": null,
+  "bnr": null,
+  "beskrivelse": "Eiendom i Oslo eid av SiO",
+  "heroImage": "/images/sio/trondheimsveien-25-29/hero.jpg",
+  "mapImage": "/images/sio/trondheimsveien-25-29/map.png",
+  "coordinates": {
+    "lat": 59.9,
+    "lng": 10.75
+  },
+  "plaaceData": {
+    "rapportDato": "2025-11-17T12:37:55.135Z",
+    "screenshots": [
+      {
+        "filnavn": "Nøkkeldata",
+        "path": "/images/sio/plaace/trondheimsveien-25-29/nokkeldata.jpg",
+        "beskrivelse": "Nøkkeldata",
+        "kategori": "oversikt"
+      },
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/sio/plaace/trondheimsveien-25-29/besokende.jpg",
+        "beskrivelse": "Besøkende",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Bevegelse",
+        "path": "/images/sio/plaace/trondheimsveien-25-29/bevegelse.jpg",
+        "beskrivelse": "Bevegelse",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Demografi",
+        "path": "/images/sio/plaace/trondheimsveien-25-29/demografi.jpg",
+        "beskrivelse": "Demografi",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Konkurransebildet",
+        "path": "/images/sio/plaace/trondheimsveien-25-29/konkurransebildet.jpg",
+        "beskrivelse": "Konkurransebildet",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Korthandel",
+        "path": "/images/sio/plaace/trondheimsveien-25-29/korthandel.jpg",
+        "beskrivelse": "Korthandel",
+        "kategori": "marked"
+      }
+    ],
+    "nokkeldata": {
+      "prisniva": null,
+      "leieinntekter": null,
+      "befolkning": null,
+      "gjennomsnittsinntekt": null,
+      "arbeidsledighet": null
+    }
+  },
+  "tilleggsinfo": {
+    "historikk": "# Trondheimsveien 25-29\n\nHistorikk og informasjon om eiendommen kommer her.",
+    "kontaktperson": "SiO",
+    "notater": []
+  },
+  "metadata": {
+    "opprettet": "2025-11-17T12:37:55.135Z",
+    "sistOppdatert": "2025-11-17T12:37:55.135Z",
+    "status": "publisert",
+    "versjon": 1
+  }
+}

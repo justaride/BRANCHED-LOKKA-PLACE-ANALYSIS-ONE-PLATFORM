@@ -1,0 +1,66 @@
+{
+  "id": "markveien-48",
+  "adresse": "Markveien 48",
+  "gnr": null,
+  "bnr": null,
+  "beskrivelse": "Eiendom i Oslo eid av Roger Vodal",
+  "heroImage": "/images/roger-vodal/markveien-48/hero.jpg",
+  "mapImage": "/images/roger-vodal/markveien-48/map.png",
+  "coordinates": {
+    "lat": 59.92,
+    "lng": 10.76
+  },
+  "plaaceData": {
+    "rapportDato": "2025-11-17T13:31:49.544Z",
+    "screenshots": [
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/roger-vodal/markveien-48/besokende.jpg",
+        "beskrivelse": "Besøkende",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Bevegelse",
+        "path": "/images/roger-vodal/markveien-48/bevegelse.jpg",
+        "beskrivelse": "Bevegelse",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Demografi",
+        "path": "/images/roger-vodal/markveien-48/demografi.jpg",
+        "beskrivelse": "Demografi",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Korthandel",
+        "path": "/images/roger-vodal/markveien-48/korthandel.jpg",
+        "beskrivelse": "Korthandel",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Nøkkeldata",
+        "path": "/images/roger-vodal/markveien-48/nokkeldata.jpg",
+        "beskrivelse": "Nøkkeldata",
+        "kategori": "oversikt"
+      }
+    ],
+    "nokkeldata": {
+      "prisniva": null,
+      "leieinntekter": null,
+      "befolkning": null,
+      "gjennomsnittsinntekt": null,
+      "arbeidsledighet": null
+    }
+  },
+  "tilleggsinfo": {
+    "historikk": "# Markveien 48\n\nHistorikk og informasjon om eiendommen kommer her.",
+    "kontaktperson": "Roger Vodal",
+    "notater": []
+  },
+  "metadata": {
+    "opprettet": "2025-11-17T13:31:49.544Z",
+    "sistOppdatert": "2025-11-17T13:31:49.544Z",
+    "status": "publisert",
+    "versjon": 1
+  }
+}

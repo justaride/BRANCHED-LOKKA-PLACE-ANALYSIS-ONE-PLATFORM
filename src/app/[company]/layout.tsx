@@ -8,9 +8,10 @@ import type { Metadata } from 'next';
 export async function generateMetadata({
   params,
 }: {
-  params: { company: string };
+  params: Promise<{ company: string }>;
 }): Promise<Metadata> {
-  const tenant = getTenant(params.company);
+  const { company } = await params;
+  const tenant = getTenant(company);
 
   if (!tenant) {
     return {};
@@ -26,14 +27,15 @@ export async function generateMetadata({
   };
 }
 
-export default function CompanyLayout({
+export default async function CompanyLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: { company: string };
+  params: Promise<{ company: string }>;
 }) {
-  const tenant = getTenant(params.company);
+  const { company } = await params;
+  const tenant = getTenant(company);
 
   if (!tenant || tenant.type !== 'company') {
     notFound();

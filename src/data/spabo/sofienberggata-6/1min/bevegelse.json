@@ -1,0 +1,503 @@
+{
+  "perUkedag": [
+    {
+      "dag": "man.",
+      "besøkende": 1515,
+      "påJobb": 436,
+      "hjemme": 1181
+    },
+    {
+      "dag": "tir.",
+      "besøkende": 1624,
+      "påJobb": 454,
+      "hjemme": 1203
+    },
+    {
+      "dag": "ons.",
+      "besøkende": 1742,
+      "påJobb": 471,
+      "hjemme": 1217
+    },
+    {
+      "dag": "tor.",
+      "besøkende": 1808,
+      "påJobb": 469,
+      "hjemme": 1219
+    },
+    {
+      "dag": "fre.",
+      "besøkende": 2170,
+      "påJobb": 504,
+      "hjemme": 1264
+    },
+    {
+      "dag": "lør.",
+      "besøkende": 2639,
+      "påJobb": 574,
+      "hjemme": 1274
+    },
+    {
+      "dag": "søn.",
+      "besøkende": 1847,
+      "påJobb": 395,
+      "hjemme": 1145
+    }
+  ],
+  "perTime": [
+    {
+      "time": "00:00",
+      "besøk": 133
+    },
+    {
+      "time": "01:00",
+      "besøk": 116
+    },
+    {
+      "time": "02:00",
+      "besøk": 107
+    },
+    {
+      "time": "03:00",
+      "besøk": 82
+    },
+    {
+      "time": "04:00",
+      "besøk": 67
+    },
+    {
+      "time": "05:00",
+      "besøk": 66
+    },
+    {
+      "time": "06:00",
+      "besøk": 72
+    },
+    {
+      "time": "07:00",
+      "besøk": 81
+    },
+    {
+      "time": "08:00",
+      "besøk": 89
+    },
+    {
+      "time": "09:00",
+      "besøk": 92
+    },
+    {
+      "time": "10:00",
+      "besøk": 104
+    },
+    {
+      "time": "11:00",
+      "besøk": 133
+    },
+    {
+      "time": "12:00",
+      "besøk": 186
+    },
+    {
+      "time": "13:00",
+      "besøk": 246
+    },
+    {
+      "time": "14:00",
+      "besøk": 289
+    },
+    {
+      "time": "15:00",
+      "besøk": 314
+    },
+    {
+      "time": "16:00",
+      "besøk": 335
+    },
+    {
+      "time": "17:00",
+      "besøk": 339
+    },
+    {
+      "time": "18:00",
+      "besøk": 321
+    },
+    {
+      "time": "19:00",
+      "besøk": 294
+    },
+    {
+      "time": "20:00",
+      "besøk": 256
+    },
+    {
+      "time": "21:00",
+      "besøk": 213
+    },
+    {
+      "time": "22:00",
+      "besøk": 177
+    },
+    {
+      "time": "23:00",
+      "besøk": 151
+    }
+  ],
+  "bevegelsesmønster": [
+    {
+      "category": "Q1'2023",
+      "besøkende": 2477,
+      "påJobb": 715,
+      "hjemme": 1653
+    },
+    {
+      "category": "Q2'2023",
+      "besøkende": 1892,
+      "påJobb": 468,
+      "hjemme": 1121
+    },
+    {
+      "category": "Q3'2023",
+      "besøkende": 1752,
+      "påJobb": 429,
+      "hjemme": 1077
+    },
+    {
+      "category": "Q4'2023",
+      "besøkende": 1650,
+      "påJobb": 442,
+      "hjemme": 1207
+    },
+    {
+      "category": "Q1'2024",
+      "besøkende": 1530,
+      "påJobb": 442,
+      "hjemme": 1199
+    },
+    {
+      "category": "Q2'2024",
+      "besøkende": 2182,
+      "påJobb": 478,
+      "hjemme": 1283
+    },
+    {
+      "category": "Q3'2024",
+      "besøkende": 1980,
+      "påJobb": 422,
+      "hjemme": 1188
+    },
+    {
+      "category": "Q4'2024",
+      "besøkende": 1684,
+      "påJobb": 428,
+      "hjemme": 1176
+    },
+    {
+      "category": "Q1'2025",
+      "besøkende": 1576,
+      "påJobb": 436,
+      "hjemme": 1137
+    },
+    {
+      "category": "Q2'2025",
+      "besøkende": 2059,
+      "påJobb": 458,
+      "hjemme": 1142
+    },
+    {
+      "category": "Q3'2025",
+      "besøkende": 2175,
+      "påJobb": 470,
+      "hjemme": 1178
+    }
+  ],
+  "nøkkeltall": {
+    "dagligBesøk": 3473,
+    "besøkPerKm2": 55600,
+    "travlesteDag": "Lørdag",
+    "lørdagAndel": 18,
+    "periode": "01.01.2023 - 30.09.2025"
+  },
+  "opprinnelseOmråder": [
+    {
+      "område": "Grünerløkka",
+      "prosent": 30.03
+    },
+    {
+      "område": "Gamle Aker",
+      "prosent": 7.67
+    },
+    {
+      "område": "Sentrum 2",
+      "prosent": 7.65
+    },
+    {
+      "område": "Rodeløkka",
+      "prosent": 5.88
+    },
+    {
+      "område": "Torshov",
+      "prosent": 3.85
+    },
+    {
+      "område": "Tøyen",
+      "prosent": 2.77
+    },
+    {
+      "område": "Ila",
+      "prosent": 2.16
+    },
+    {
+      "område": "Grønland",
+      "prosent": 2.13
+    },
+    {
+      "område": "Grefsenlia",
+      "prosent": 2.03
+    },
+    {
+      "område": "Hasle",
+      "prosent": 1.99
+    },
+    {
+      "område": "St.hanshaugen",
+      "prosent": 1.8
+    },
+    {
+      "område": "Ulven",
+      "prosent": 1.66
+    },
+    {
+      "område": "Bjerke",
+      "prosent": 1.6
+    },
+    {
+      "område": "Åsen",
+      "prosent": 1.55
+    },
+    {
+      "område": "Sinsen",
+      "prosent": 1.5
+    },
+    {
+      "område": "Tåsen",
+      "prosent": 1.42
+    },
+    {
+      "område": "Manglerud",
+      "prosent": 1.38
+    },
+    {
+      "område": "Bjølsen",
+      "prosent": 1.21
+    },
+    {
+      "område": "Majorstuen",
+      "prosent": 1.07
+    },
+    {
+      "område": "Kampen",
+      "prosent": 1.06
+    },
+    {
+      "område": "Østensjø",
+      "prosent": 1.03
+    },
+    {
+      "område": "Homansbyen",
+      "prosent": 0.96
+    },
+    {
+      "område": "Grorud",
+      "prosent": 0.91
+    },
+    {
+      "område": "Frogner",
+      "prosent": 0.91
+    },
+    {
+      "område": "Fossum",
+      "prosent": 0.9
+    },
+    {
+      "område": "Bekkelaget",
+      "prosent": 0.83
+    },
+    {
+      "område": "Ris",
+      "prosent": 0.8
+    },
+    {
+      "område": "Sagene",
+      "prosent": 0.8
+    },
+    {
+      "område": "Langerud",
+      "prosent": 0.77
+    },
+    {
+      "område": "Lindern",
+      "prosent": 0.77
+    },
+    {
+      "område": "Gamlebyen",
+      "prosent": 0.77
+    },
+    {
+      "område": "Ulsholt",
+      "prosent": 0.74
+    },
+    {
+      "område": "Sandaker",
+      "prosent": 0.74
+    },
+    {
+      "område": "Sentrum 3",
+      "prosent": 0.71
+    },
+    {
+      "område": "Ljansbyen",
+      "prosent": 0.71
+    },
+    {
+      "område": "Rudene",
+      "prosent": 0.7
+    },
+    {
+      "område": "Alfaset",
+      "prosent": 0.62
+    },
+    {
+      "område": "Uranienborg",
+      "prosent": 0.6
+    },
+    {
+      "område": "Vålerenga",
+      "prosent": 0.6
+    },
+    {
+      "område": "Fagerborg",
+      "prosent": 0.51
+    },
+    {
+      "område": "Holmen",
+      "prosent": 0.49
+    },
+    {
+      "område": "Røabyen",
+      "prosent": 0.48
+    },
+    {
+      "område": "Grefsenmarka",
+      "prosent": 0.45
+    },
+    {
+      "område": "Sentrum 1",
+      "prosent": 0.42
+    },
+    {
+      "område": "Loenga",
+      "prosent": 0.42
+    },
+    {
+      "område": "Nordstrand",
+      "prosent": 0.41
+    },
+    {
+      "område": "Borgen",
+      "prosent": 0.41
+    },
+    {
+      "område": "Nordmarka",
+      "prosent": 0.38
+    },
+    {
+      "område": "Østmarka",
+      "prosent": 0.38
+    },
+    {
+      "område": "Skillebekk",
+      "prosent": 0.38
+    }
+  ],
+  "opprinnelseLand": [
+    {
+      "land": "Denmark",
+      "prosent": 13.56
+    },
+    {
+      "land": "Poland",
+      "prosent": 10.54
+    },
+    {
+      "land": "Germany",
+      "prosent": 9.75
+    },
+    {
+      "land": "France",
+      "prosent": 9.15
+    },
+    {
+      "land": "United Kingdom of Great Britain and Northern Ireland",
+      "prosent": 9.05
+    },
+    {
+      "land": "Sweden",
+      "prosent": 8.83
+    },
+    {
+      "land": "United States of America",
+      "prosent": 6.42
+    },
+    {
+      "land": "Spain",
+      "prosent": 5.0
+    },
+    {
+      "land": "Netherlands",
+      "prosent": 3.8
+    },
+    {
+      "land": "Ukraine",
+      "prosent": 3.14
+    },
+    {
+      "land": "Italy",
+      "prosent": 2.77
+    },
+    {
+      "land": "Romania",
+      "prosent": 2.26
+    },
+    {
+      "land": "Belgium",
+      "prosent": 1.71
+    },
+    {
+      "land": "Austria",
+      "prosent": 1.56
+    },
+    {
+      "land": "India",
+      "prosent": 1.5
+    },
+    {
+      "land": "Finland",
+      "prosent": 1.29
+    },
+    {
+      "land": "Greece",
+      "prosent": 1.02
+    },
+    {
+      "land": "Portugal",
+      "prosent": 1.02
+    },
+    {
+      "land": "Korea, Republic of",
+      "prosent": 0.95
+    },
+    {
+      "land": "China",
+      "prosent": 0.73
+    }
+  ]
+}

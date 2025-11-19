@@ -2,12 +2,13 @@ import { getTenant } from '@/config/tenants';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
-export default function CompanyHomePage({
+export default async function CompanyHomePage({
   params,
 }: {
-  params: { company: string };
+  params: Promise<{ company: string }>;
 }) {
-  const tenant = getTenant(params.company);
+  const { company } = await params;
+  const tenant = getTenant(company);
 
   if (!tenant || tenant.type !== 'company') {
     notFound();
@@ -30,7 +31,7 @@ export default function CompanyHomePage({
         </h2>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           <Link
-            href={`/${params.company}/eiendommer`}
+            href={`/${company}/eiendommer`}
             className="rounded-lg border border-gray-200 bg-white p-6 transition-all hover:border-lokka-primary hover:shadow-lg"
           >
             <h3 className="mb-2 text-lg font-semibold text-lokka-primary">
@@ -42,7 +43,7 @@ export default function CompanyHomePage({
           </Link>
 
           <Link
-            href={`/${params.company}/om-prosjektet`}
+            href={`/${company}/om-prosjektet`}
             className="rounded-lg border border-gray-200 bg-white p-6 transition-all hover:border-lokka-primary hover:shadow-lg"
           >
             <h3 className="mb-2 text-lg font-semibold text-lokka-primary">

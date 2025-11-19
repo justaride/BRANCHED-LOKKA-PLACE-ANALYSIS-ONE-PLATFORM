@@ -1,0 +1,524 @@
+<!doctype html>
+
+
+
+
+<html class="no-js" lang="no">
+
+    <head>
+        
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<meta charset="UTF-8"/>
+
+
+    <link rel="preconnect" href="https://aspelinramm.b-cdn.net/"/>
+    <link rel="dns-prefetch" href="https://aspelinramm.b-cdn.net//">
+
+<link rel="home" href="https://www.aspelineiendom.no/">
+
+<meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:see_also" content="https://www.linkedin.com/company/aspelin-ramm-eiendom"><meta property="og:see_also" content="https://www.facebook.com/AspelinEiendom"><meta property="og:see_also" content="https://www.instagram.com/aspelin_eiendom/">
+    <title>Aspelin Eiendom – Aspelin Eiendom</title>
+    <meta name="description" content="Vi utfører komplekse prosjekter hvor målet er å skape gode bymiljøer og attraktive byrom. Enten vi arbeider alene eller i samarbeid med andre er prosessene forankret i profesjonalitet, tillit og langsiktighet.">
+    <meta name="image" content="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Vulkan/Fredrikke-Wiheden/FW-Vulkan-red-1_2024-11-26-175959_gzik.jpg?width=1200&height=675&format=jpg&quality=80&crop=2250%2C1266%2C0%2C117">
+    <meta property="og:title" content="Aspelin Eiendom">
+    <meta property="og:description" content="Vi utfører komplekse prosjekter hvor målet er å skape gode bymiljøer og attraktive byrom. Enten vi arbeider alene eller i samarbeid med andre er prosessene forankret i profesjonalitet, tillit og langsiktighet.">
+    <meta property="og:image" content="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Vulkan/Fredrikke-Wiheden/FW-Vulkan-red-1_2024-11-26-175959_gzik.jpg?width=1200&height=630&format=jpg&quality=80&crop=2250%2C1182%2C0%2C159">
+    <meta name="twitter:title" content="Aspelin Eiendom">
+    <meta name="twitter:description" content="Vi utfører komplekse prosjekter hvor målet er å skape gode bymiljøer og attraktive byrom. Enten vi arbeider alene eller i samarbeid med andre er prosessene forankret i profesjonalitet, tillit og langsiktighet.">
+    <meta name="twitter:image" content="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Vulkan/Fredrikke-Wiheden/FW-Vulkan-red-1_2024-11-26-175959_gzik.jpg?width=1200&height=600&format=jpg&quality=80&crop=2250%2C1125%2C0%2C187">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="twitter:widgets:csp" content="on"/>
+
+<style>
+        :root {
+            --vh: 1vh;
+        }
+        @supports (height: 1svh) {
+            :root {
+                --vh: 1svh;
+            }
+        }
+    </style><script>
+        window.onerror = function () {
+            document.documentElement.className += " js-error";
+            window.onerror = null;
+        };
+        document.documentElement.className += (window.self !== window.top ? ' is-iframe' : '');
+                                        !function(e,t){var n=t.documentElement,s=!1,o=!1,i=Date.now();function a(){return"ontouchstart"in e||navigator.maxTouchPoints>0||navigator.msMaxTouchPoints>0}function r(){var e=this;return this.test("js",!0),this.test("outline",!1),this.test("touch",a),this.test("objectfit","objectFit"in t.documentElement.style!=0),t.addEventListener&&(t.addEventListener("keydown",(function(t){9!==t.keyCode&&9!==t.which||e.test("outline",!0)})),t.addEventListener("mousedown",(function(t){e.test("outline",!1)})),t.addEventListener("touchstart",(function(t){o||(o=!0,s=!1,e.addClass("using-touch"),e.removeClass("using-mouse")),i=Date.now()})),t.addEventListener("touchend",(function(e){i=Date.now()})),t.addEventListener("mousemove",(function(t){s||Date.now()-i>300&&(o=!1,s=!0,e.removeClass("using-touch"),e.addClass("using-mouse"))}))),this}r.prototype={getCookie:function(e){e=e.replace(/([.*+?^=!:${}()|[\]\/\\])/g,"\\$1");var n=new RegExp("(?:^|;)\\s?"+e+"=(.*?)(?:;|$)","i"),s=t.cookie.match(n);return s&&unescape(s[1])},deleteCookie:function(e){return this.getCookie(e)&&this.setCookie(e,"",-1),this},setCookie:function(e,n,s,o){var i="";if(s){var a=new Date;a.setTime(a.getTime()+24*s*60*60*1e3),i=";expires="+a.toGMTString()}return o=";path="+(o||"/"),t.cookie=e+"="+n+i+o,this},addClass:function(e,t){return"classList"in(t=t||n)?t.classList.add(e):this.hasClass(e,t)||(t.className+=" "+e),this},hasClass:function(e,t){return"classList"in(t=t||n)?t.classList.contains(e):!!t.className.match(new RegExp("(\\s|^)"+e+"(\\s|$)"))},removeClass:function(e,t){return"classList"in(t=t||n)?t.classList.remove(e):t.className=t.className.replace(new RegExp("(^|\\b)"+e.split(" ").join("|")+"(\\b|$)","gi")," "),this},test:function(e,t){("function"==typeof t?t():t)?this.removeClass("no-"+e).addClass(e):this.removeClass(e).addClass("no-"+e)}},e.vrsg=new r}(window,document),function(){var e=document.createElement("script");if(!("noModule"in e)&&"onbeforeload"in e){var t=!1;document.addEventListener("beforeload",(function(n){if(n.target===e)t=!0;else if(!n.target.hasAttribute("nomodule")||!t)return;n.preventDefault()}),!0),e.type="module",e.src=".",document.head.appendChild(e),e.remove()}}();
+//# sourceMappingURL=/assets/inline.js.map
+        
+                        window.vrsgConfig = {
+            urls: {
+                loadModalSlideshow: 'https://www.aspelineiendom.no/ajax/load-modal-slideshow'
+            }
+        };
+    </script>
+    <link rel="preload" href="https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-Regular.woff2" as="font" type="font/woff2" crossorigin/>
+    <link rel="preload" href="https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-Italic.woff2" as="font" type="font/woff2" crossorigin/>
+    <link rel="preload" href="https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-Medium.woff2" as="font" type="font/woff2" crossorigin/>
+    <link rel="preload" href="https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-Bold.woff2" as="font" type="font/woff2" crossorigin/>
+
+
+<style>
+    @font-face {
+        font-family: 'ModernEra';
+        src: url('https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-Regular.woff2') format('woff2'),
+             url('https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'ModernEra';
+        src: url('https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-Italic.woff2') format('woff2'),
+             url('https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-Italic.woff') format('woff');
+        font-weight: 400;
+        font-style: italic;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'ModernEra';
+        src: url('https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-Medium.woff2') format('woff2'),
+             url('https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-Medium.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'ModernEra';
+        src: url('https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-MediumItalic.woff2') format('woff2'),
+             url('https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-MediumItalic.woff') format('woff');
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'ModernEra';
+        src: url('https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-Bold.woff2') format('woff2'),
+             url('https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-Bold.woff') format('woff');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'ModernEra';
+        src: url('https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-BoldItalic.woff2') format('woff2'),
+             url('https://aspelinramm.b-cdn.net/assets/static/fonts/ModernEra-BoldItalic.woff') format('woff');
+        font-weight: 700;
+        font-style: italic;
+        font-display: swap;
+    }
+</style>
+
+
+            <link rel="stylesheet" href="/assets/1755166606/bundle.css" />
+    
+<script>;</script>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/static/apple-touch-icon.png?v=20240918">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/static/favicon-32x32.png?v=20240918">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/static/favicon-16x16.png?v=20240918">
+<link rel="manifest" href="/assets/static/site.webmanifest?v=20240918">
+<link rel="mask-icon" href="/assets/static/safari-pinned-tab.svg?v=20240918" color="#4f3622">
+<link rel="shortcut icon" href="/assets/static/favicon.ico?v=20240918">
+<meta name="msapplication-TileColor" content="#fff8e9">
+<meta name="msapplication-config" content="/assets/static/browserconfig.xml?v=20240918">
+<meta name="theme-color" content="#fff8e9">
+
+<script defer data-domain="aspelineiendom.no" src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+<meta name="google-site-verification" content="AHyVN2xX2tL1Isy0gs-8X7-qLGh-Sd2fxfbGvfQSfgA"/>
+
+    </head>
+
+        
+            
+    <body class="theme-orange text-theme-fg bg-theme-bg transition-colors duration-600 ease-out-sine p font-modern-era flex flex-col min-h-full is-404" data-page-theme="theme-orange">
+
+        
+        
+    <header id="top" class="page-header is-transparent relative z-800" data-component="PageHeader">
+        <div class="page-header__bar absolute z-800 left-0 top-0 w-full h-[60px] m:h-[80px] l:h-[110px] js:fixed js:opacity-0" data-page-header-bar>
+            <div class="grapper grid-cols-6 m:grid-cols-12 relative z-2">
+                <div class="col-span-3 m:col-span-6 l:col-span-7">
+                    <a href="https://www.aspelineiendom.no/" aria-label="Til forsiden">
+                                                    <svg class="h-auto w-[132px] m:w-[165px] l:w-[180px] mt-24 m:mt-33 l:mt-48" xmlns="http://www.w3.org/2000/svg" viewBox="103.5 102 1040.01 102"><path fill="currentColor" d="M786.64,183.6h-126.12v-20.4h126.12v-20.4h-126.12v-20.4h126.12v-20.4h-147.84v102h147.84v-20.4ZM103.5,102v102h21.72v-40.8h104.41v40.8h21.72v-102H103.5ZM229.63,142.8h-104.41v-20.4h104.41v20.4ZM429.78,204v-61.2h-126.13v-20.4h126.13v-20.4h-147.84v61.2h126.13v20.4h-126.13v20.4h147.84ZM912.76,204v-20.4h-73.82v-81.6h-21.72v102h95.54ZM995.66,102v102h21.72v-81.6h104.41v81.6h21.72v-102h-147.84ZM965.07,102h-21.72v102h21.72v-102ZM608.21,102h-147.84v102h21.72v-40.8h126.13v-61.2ZM586.49,142.8h-104.41v-20.4h104.41v20.4Z"></path></svg>
+
+                                            </a>
+                </div>
+                <div class="col-span-3 m:flex m:justify-between m:col-span-6 l:col-span-5">
+                    <div class="hidden m:block">
+                                                    <a class="btn btn--small btn--theme-aware m:mt-24 l:mt-36 mr-24" href="#portfolio-menu" data-portfolio-toggle-btn>Portefølje</a>
+                        
+                                            </div>
+                    <div class="flex flex-wrap items-start justify-end lp:justify-center pt-21 m:pt-31 l:pt-45 whitespace-nowrap">
+                        <a class="inline-block relative hit fakta font-medium hover:opacity-60 transition-opacity duration-200" href="#menu" data-menu-toggle-btn>Meny</a>
+                    </div>
+                </div>
+            </div>
+            <span class="page-header__bar-bg block absolute full bg-theme-bg z-1 js:opacity-0" data-page-header-bar-bg></span>
+        </div>
+
+        <script>
+            window.addEventListener('DOMContentLoaded',function(){var barBg=document.querySelector('[data-page-header-bar-bg]');var bar=document.querySelector('[data-page-header-bar]');if(window.scrollY===0){barBg.classList.remove('js:opacity-0');bar.classList.remove('js:opacity-0')}})        </script>
+
+                <div id="menu" class="fixed bg-bb-7 text-yellow anti full z-900 hidden no-js:target:block [&_a:hover]:text-bb-5 [&_a]:transition-colors [&_a]:duration-200">
+            <div class="absolute flex w-full h-[100dvh] overflow-auto">
+                <div class="flex flex-col w-full justify-between" data-panel-content>
+                    <div>
+                        <div class="grapper grid-cols-6 m:grid-cols-12 h-[60px] m:h-[80px]">
+                            <div class="col-span-3 m:col-span-6 l:col-span-7 relative">
+                                <a class="absolute left-0 top-0 l:top-[65px]" href="https://www.aspelineiendom.no/" aria-label="Til forsiden">
+                                                                            <svg class="h-auto w-[132px] m:w-[165px] l:w-[180px] mt-24 m:mt-33 l:mt-48" xmlns="http://www.w3.org/2000/svg" viewBox="103.5 102 1040.01 102"><path fill="currentColor" d="M786.64,183.6h-126.12v-20.4h126.12v-20.4h-126.12v-20.4h126.12v-20.4h-147.84v102h147.84v-20.4ZM103.5,102v102h21.72v-40.8h104.41v40.8h21.72v-102H103.5ZM229.63,142.8h-104.41v-20.4h104.41v20.4ZM429.78,204v-61.2h-126.13v-20.4h126.13v-20.4h-147.84v61.2h126.13v20.4h-126.13v20.4h147.84ZM912.76,204v-20.4h-73.82v-81.6h-21.72v102h95.54ZM995.66,102v102h21.72v-81.6h104.41v81.6h21.72v-102h-147.84ZM965.07,102h-21.72v102h21.72v-102ZM608.21,102h-147.84v102h21.72v-40.8h126.13v-61.2ZM586.49,142.8h-104.41v-20.4h104.41v20.4Z"></path></svg>
+
+                                                                    </a>
+                            </div>
+                            <div class="hidden m:block m:col-span-3">
+                                <!-- Knapp her også? -->
+                            </div>
+                            <div class="col-span-3 l:col-span-2 text-right">
+                                <a class="inline-block relative hit fakta font-medium pt-21 m:pt-31 l:pt-45" href="#top" data-menu-toggle-btn>Lukk</a>
+                            </div>
+                        </div>
+
+                        <div class="grapper grid-cols-1 sp:grid-cols-2 l:grid-cols-12 mt-96 l:mt-30">
+                                                        
+                            <div class="col-span-1 sp:col-start-2 l:col-span-4 l:col-start-8">
+                                <nav class="">
+                                    <ul class="h2">
+                                                                                                                                                                                                                                    
+                                                <li class="mb-8 last:mb-0 l:mb-11"><a href="https://www.aspelineiendom.no/aktuelt">Aktuelt</a></li>
+                                                                                                                                                                                                                                                                                
+                                                <li class="mb-8 last:mb-0 l:mb-11"><a href="https://www.aspelineiendom.no/om-oss">Om oss</a></li>
+                                                                                                                                                                                                                                                                                
+                                                <li class="mb-8 last:mb-0 l:mb-11"><a href="https://www.aspelineiendom.no/kontakt">Kontakt oss</a></li>
+                                                                                                                        </ul>
+                                </nav>
+                                
+                                                                                                    <nav class="mt-48 m:mt-64">
+                                        <h2 class="fakta font-medium text-bb-5 mb-11">Portefølje</h2>
+    
+                                            
+                                        <ul class="h2">
+                                                                                            <li class="mb-8 last:mb-0 l:mb-11"><a href="https://www.aspelineiendom.no/prosjekter">Prosjekter</a></li>
+                                                                                            <li class="mb-8 last:mb-0 l:mb-11"><a href="https://www.aspelineiendom.no/eiendommer">Eiendommer</a></li>
+                                                                                            <li class="mb-8 last:mb-0 l:mb-11"><a href="https://www.aspelineiendom.no/tidligere-prosjekter">Tidligere prosjekter</a></li>
+                                                                                        
+                                                                                                                                            <li class="mb-8 last:mb-0 l:mb-11"><a href="https://www.aspelineiendom.no/historier">Historier</a></li>
+                                                                                    </ul>
+                                    </nav>
+                                                            </div>
+                            
+                            <nav class="col-span-1 sp:col-start-1 sp:row-start-1 l:col-span-3 l:col-start-5 mt-64 sp:mt-6 fakta">
+                                <ul>
+                                                                            
+                                        <li class="mb-8 last:mb-0"><a href="https://www.aspelineiendom.no/karriere">Karriere</a></li>
+                                                                            
+                                        <li class="mb-8 last:mb-0"><a href="https://www.aspelineiendom.no/om-oss/baerekraft">Bærekraft</a></li>
+                                                                            
+                                        <li class="mb-8 last:mb-0"><a href="https://konsern.aspelineiendom.no/" target="_blank" rel="noreferrer noopener">Konsern</a></li>
+                                                                    </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="grapper grid-cols-1 l:grid-cols-12 mt-64 self-end">
+                        
+<form class="relative fakta col-span-1 l:col-span-5 l:col-start-8 pb-65 m:pb-40 l:pb-outer-margin" action="https://www.aspelineiendom.no/sok" method="get">
+    <label for="pageHeaderSearchInput" class="sr-only">Søk</label>
+    <input class="w-full border-b-1 border-current bg-transparent py-16 pr-80 placeholder-current" id="pageHeaderSearchInput" name="q" type="text" value="" placeholder="Hva leter du etter?">
+    <button class="absolute right-0 top-0 font-medium py-16 hit">Søk</button>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                            <div id="portfolio-menu" class="fixed full z-900 max-m:!hidden hidden no-js:target:block">
+                <div class="absolute flex w-full bg-bb-7 text-yellow anti overflow-auto" data-panel-wrapper>
+                    <div class="flex flex-col w-full justify-between" data-panel-content>
+                        <div>
+                            <div class="grapper grid-cols-6 m:grid-cols-12 h-[60px] m:h-[80px]">
+                                <div class="col-span-12 text-right">
+                                    <a class="inline-block relative hit fakta font-medium pt-19 m:pt-33 l:pt-45" href="#top" data-portfolio-toggle-btn>Lukk</a>
+                                </div>
+                            </div>
+    
+                                                                                                                
+                                                        
+                                                                                                                                                                                                                                            
+                                                                                                                    
+                            
+                            <div class="grapper grid-cols-1 m:grid-cols-12 pb-45 pt-10 l:pt-40" data-component="PortfolioImageHover">
+                                <div class="m:col-span-3">
+                                    <div class="relative w-full h-0 pb-[110%]">
+                                            
+                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                            
+                                                                                    <img class="absolute full object-contain !object-top opacity-0" src="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Inkognitogata35-2.jpg?width=500&amp;height=667&amp;quality=80&amp;crop=1600%2C2135%2C0%2C132" srcset="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Inkognitogata35-2.jpg?width=500&amp;height=667&amp;quality=80&amp;crop=1600%2C2135%2C0%2C132 500w" width="500" height="667" alt sizes="100vw" style="object-position: 50% 50%;" loading="lazy" decoding="auto" data-category-image="prosjekter">
+                                                                                    <img class="absolute full object-contain !object-top opacity-0" src="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Landbrukskvartalet/View05_update2-low.jpg?width=500&amp;height=333&amp;quality=80&amp;crop=2400%2C1599%2C0%2C119" srcset="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Landbrukskvartalet/View05_update2-low.jpg?width=500&amp;height=333&amp;quality=80&amp;crop=2400%2C1599%2C0%2C119 500w" width="500" height="333" alt sizes="100vw" style="object-position: 50% 50%;" loading="lazy" decoding="auto" data-category-image="prosjekter">
+                                                                                    <img class="absolute full object-contain !object-top opacity-0" src="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Spektrum/Spektrum_fra_gangbro_night-kopi.jpg?width=500&amp;height=667&amp;quality=80&amp;crop=1680%2C2241%2C170%2C0" srcset="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Spektrum/Spektrum_fra_gangbro_night-kopi.jpg?width=500&amp;height=667&amp;quality=80&amp;crop=1680%2C2241%2C170%2C0 500w" width="500" height="667" alt sizes="100vw" style="object-position: 50% 50%;" loading="lazy" decoding="auto" data-category-image="prosjekter">
+                                                                                    <img class="absolute full object-contain !object-top opacity-0" src="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Vulkan/Fredrikke-Wiheden/FW-Vulkan-red-1_2024-11-26-175959_gzik.jpg?width=500&amp;height=333&amp;quality=80&amp;crop=2250%2C1499%2C0%2C0" srcset="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Vulkan/Fredrikke-Wiheden/FW-Vulkan-red-1_2024-11-26-175959_gzik.jpg?width=500&amp;height=333&amp;quality=80&amp;crop=2250%2C1499%2C0%2C0 500w" width="500" height="333" alt sizes="100vw" style="object-position: 50% 50%;" loading="lazy" decoding="auto" data-category-image="eiendommer">
+                                                                                    <img class="absolute full object-contain !object-top opacity-0" src="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Scandic-Vulkan/Scandic-Vulkan-fasade-logo.jpg?width=500&amp;height=333&amp;quality=80&amp;crop=2400%2C1599%2C0%2C0" srcset="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Scandic-Vulkan/Scandic-Vulkan-fasade-logo.jpg?width=500&amp;height=333&amp;quality=80&amp;crop=2400%2C1599%2C0%2C0 500w" width="500" height="333" alt sizes="100vw" style="object-position: 50% 50%;" loading="lazy" decoding="auto" data-category-image="eiendommer">
+                                                                                    <img class="absolute full object-contain !object-top opacity-0" src="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Alna/Alna-bow/AspelinRamm_ABV24-103.jpg?width=500&amp;height=333&amp;quality=80&amp;crop=2388%2C1590%2C6%2C0" srcset="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Alna/Alna-bow/AspelinRamm_ABV24-103.jpg?width=500&amp;height=333&amp;quality=80&amp;crop=2388%2C1590%2C6%2C0 500w" width="500" height="333" alt sizes="100vw" style="object-position: 50% 50%;" loading="lazy" decoding="auto" data-category-image="eiendommer">
+                                                                                    <img class="absolute full object-contain !object-top opacity-0" src="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Tjuvholmen/Fredrikke-Wiheden/FW-Tjuvholmen-red-14.jpg?width=500&amp;height=333&amp;quality=80&amp;crop=2250%2C1499%2C0%2C0" srcset="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Tjuvholmen/Fredrikke-Wiheden/FW-Tjuvholmen-red-14.jpg?width=500&amp;height=333&amp;quality=80&amp;crop=2250%2C1499%2C0%2C0 500w" width="500" height="333" alt sizes="100vw" style="object-position: 50% 50%;" loading="lazy" decoding="auto" data-category-image="tidligere-prosjekter">
+                                                                                    <img class="absolute full object-contain !object-top opacity-0" src="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Nordre-gate/Inger-Marie-Grini/IngerMarieGrini_AspelinRamm_Nordregt-_63B2996_web.jpg?width=500&amp;height=333&amp;quality=80&amp;crop=1382%2C921%2C0%2C0" srcset="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Nordre-gate/Inger-Marie-Grini/IngerMarieGrini_AspelinRamm_Nordregt-_63B2996_web.jpg?width=500&amp;height=333&amp;quality=80&amp;crop=1382%2C921%2C0%2C0 500w" width="500" height="333" alt sizes="100vw" style="object-position: 50% 50%;" loading="lazy" decoding="auto" data-category-image="tidligere-prosjekter">
+                                                                                    <img class="absolute full object-contain !object-top opacity-0" src="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Hotell-33/Hotell-33-fasade-detalj.jpg?width=500&amp;height=333&amp;quality=80&amp;crop=2394%2C1594%2C3%2C0" srcset="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Eiendommer-og-prosjekter/Hotell-33/Hotell-33-fasade-detalj.jpg?width=500&amp;height=333&amp;quality=80&amp;crop=2394%2C1594%2C3%2C0 500w" width="500" height="333" alt sizes="100vw" style="object-position: 50% 50%;" loading="lazy" decoding="auto" data-category-image="tidligere-prosjekter">
+                                                                                    <img class="absolute full object-contain !object-top opacity-0" src="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Historier/Kenneth-Harstad/AspelinRammAArsrapport-16.jpg?width=500&amp;height=667&amp;quality=80&amp;crop=1600%2C2135%2C0%2C132" srcset="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Historier/Kenneth-Harstad/AspelinRammAArsrapport-16.jpg?width=500&amp;height=667&amp;quality=80&amp;crop=1600%2C2135%2C0%2C132 500w" width="500" height="667" alt sizes="100vw" style="object-position: 50% 50%;" loading="lazy" decoding="auto" data-category-image="stories">
+                                                                                    <img class="absolute full object-contain !object-top opacity-0" src="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Historier/Ulrik-Aakervik-Andersen/AspelinRammAArsrapport-1.jpg?width=500&amp;height=667&amp;quality=80&amp;crop=1600%2C2135%2C0%2C132" srcset="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Historier/Ulrik-Aakervik-Andersen/AspelinRammAArsrapport-1.jpg?width=500&amp;height=667&amp;quality=80&amp;crop=1600%2C2135%2C0%2C132 500w" width="500" height="667" alt sizes="100vw" style="object-position: 50% 50%;" loading="lazy" decoding="auto" data-category-image="stories">
+                                                                                    <img class="absolute full object-contain !object-top opacity-0" src="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Historier/LBK-Fredrik-Helen-Hard/Fredrik_HHA_LBK-11_2024-11-27-160255_izvn.jpg?width=500&amp;height=667&amp;quality=80&amp;crop=1267%2C1691%2C0%2C104" srcset="https://i1.vrs.gd/aspelinramm/uploads/images/Norge/Historier/LBK-Fredrik-Helen-Hard/Fredrik_HHA_LBK-11_2024-11-27-160255_izvn.jpg?width=500&amp;height=667&amp;quality=80&amp;crop=1267%2C1691%2C0%2C104 500w" width="500" height="667" alt sizes="100vw" style="object-position: 50% 50%;" loading="lazy" decoding="auto" data-category-image="stories">
+                                                                            </div>
+                                </div>
+                                <nav class="m:col-span-5 m:col-start-7 l:col-span-3 l:col-start-8">
+                                    <ul class="h2">
+                                                                                    <li class="mb-8 last:mb-0 l:mb-11">
+                                                <a class="group flex items-center hover:text-bb-5 transition-colors duration-200" href="https://www.aspelineiendom.no/prosjekter" data-category-link="prosjekter">
+                                                    <span>Prosjekter</span>
+
+                                                    <span class="block relative size-[24px] opacity-0 translate-x-[8px] group-hover:opacity-100 group-hover:translate-x-[0px] duration-400 ease-sine-out delay-0 group-hover:delay-100">
+                                                        <svg class="absolute l:-top-[1px] -scale-x-100 text-bb-5" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m18.354 12-6.373-6.35-1.085 1.05 4.606 4.589-2.151-.05H7.25V7.75h-1.5v5.01h7.595l2.14-.032-4.59 4.572 1.086 1.05L18.354 12Z" clip-rule="evenodd"/></svg>
+
+                                                    </span>
+                                                </a>
+                                            </li>
+                                                                                    <li class="mb-8 last:mb-0 l:mb-11">
+                                                <a class="group flex items-center hover:text-bb-5 transition-colors duration-200" href="https://www.aspelineiendom.no/eiendommer" data-category-link="eiendommer">
+                                                    <span>Eiendommer</span>
+
+                                                    <span class="block relative size-[24px] opacity-0 translate-x-[8px] group-hover:opacity-100 group-hover:translate-x-[0px] duration-400 ease-sine-out delay-0 group-hover:delay-100">
+                                                        <svg class="absolute l:-top-[1px] -scale-x-100 text-bb-5" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m18.354 12-6.373-6.35-1.085 1.05 4.606 4.589-2.151-.05H7.25V7.75h-1.5v5.01h7.595l2.14-.032-4.59 4.572 1.086 1.05L18.354 12Z" clip-rule="evenodd"/></svg>
+
+                                                    </span>
+                                                </a>
+                                            </li>
+                                                                                    <li class="mb-8 last:mb-0 l:mb-11">
+                                                <a class="group flex items-center hover:text-bb-5 transition-colors duration-200" href="https://www.aspelineiendom.no/tidligere-prosjekter" data-category-link="tidligere-prosjekter">
+                                                    <span>Tidligere prosjekter</span>
+
+                                                    <span class="block relative size-[24px] opacity-0 translate-x-[8px] group-hover:opacity-100 group-hover:translate-x-[0px] duration-400 ease-sine-out delay-0 group-hover:delay-100">
+                                                        <svg class="absolute l:-top-[1px] -scale-x-100 text-bb-5" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m18.354 12-6.373-6.35-1.085 1.05 4.606 4.589-2.151-.05H7.25V7.75h-1.5v5.01h7.595l2.14-.032-4.59 4.572 1.086 1.05L18.354 12Z" clip-rule="evenodd"/></svg>
+
+                                                    </span>
+                                                </a>
+                                            </li>
+                                                                                    <li class="mb-8 last:mb-0 l:mb-11">
+                                                <a class="group flex items-center hover:text-bb-5 transition-colors duration-200" href="https://www.aspelineiendom.no/historier" data-category-link="stories">
+                                                    <span>Historier</span>
+
+                                                    <span class="block relative size-[24px] opacity-0 translate-x-[8px] group-hover:opacity-100 group-hover:translate-x-[0px] duration-400 ease-sine-out delay-0 group-hover:delay-100">
+                                                        <svg class="absolute l:-top-[1px] -scale-x-100 text-bb-5" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m18.354 12-6.373-6.35-1.085 1.05 4.606 4.589-2.151-.05H7.25V7.75h-1.5v5.01h7.595l2.14-.032-4.59 4.572 1.086 1.05L18.354 12Z" clip-rule="evenodd"/></svg>
+
+                                                    </span>
+                                                </a>
+                                            </li>
+                                                                            </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </header>
+
+
+        <main id="main" class="flex flex-col flex-auto">
+                    <div class="min-fullheight top-bar-padding flex">
+            <div class="grapper grid-cols-1 m:grid-cols-12 grid-rows-[auto_minmax(0px,_max-content)]">
+                <div class="col-span-1 m:col-span-6 l:col-span-5 pt-104 m:pt-112 l:flex l:pt-0">
+                    <h1 class="h1 l:self-center l:pb-200">Beklager, vi kunne ikke finne innholdet.</h1>
+                </div>
+                <div class="col-span-1 m:col-span-12 pb-27 m:pb-35 l:pb-outer-margin m:grid m:grid-cols-12 m:gutters-x">
+                    <div class="fakta m:col-span-4 m:self-end l:grid l:gutters-x l:grid-cols-2">
+                        <p>404</p>
+                        <p><a href="https://www.aspelineiendom.no/">Gå til forsiden</a></p>
+                    </div>
+                    
+                    <div class="m:col-span-8 l:col-span-5 l:col-start-8">
+                        
+<form class="relative fakta col-span-1 l:col-span-5 l:col-start-8" action="https://www.aspelineiendom.no/sok" method="get">
+    <label for="notFoundPage-pageHeaderSearchInput" class="sr-only">Søk</label>
+    <input class="w-full border-b-1 border-current bg-transparent py-16 pr-80 placeholder-current" id="notFoundPage-pageHeaderSearchInput" name="q" type="text" value="" placeholder="Hva leter du etter?">
+    <button class="absolute right-0 top-0 font-medium py-16 hit">Søk</button>
+</form>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+        </main>
+
+        <div class="fixed full theme-bb-7 bg-theme-bg py-28 m:py-40 l:pb-55 text-theme-fg z-2000 overflow-hidden" style="display: none" data-modal-slideshow>
+    <div class="outer-margins flex flex-row h-full" data-modal-inner>
+        <div class="flex-col items-stretch w-full relative">
+            <div class="absolute full flex flex-col">
+                <div class="flex-none flex w-full justify-between items-center pb-48 l:pb-64">
+                    <p class="h1" data-modal-heading></p>
+                    <button class="size-[48px] m:size-[64px]" data-close-btn>
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="32" fill="#2F2116"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M32.8797 19.749L32.859 31.3615L44.4715 31.3408L44.5156 28.701L37.3326 28.7138L38.4485 27.6483L45.1941 20.9027L43.3178 19.0264L36.5838 25.7603L35.5067 26.8711L35.5195 19.7049L32.8797 19.749ZM19.0273 43.3186L20.9037 45.195L27.6446 38.4541L28.7148 37.3335L28.702 44.5164L31.3418 44.4723L31.3624 32.8599L19.75 32.8805L19.7059 35.5203L26.8721 35.5076L25.7644 36.5815L19.0273 43.3186Z" fill="#E8D1AD"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="w-full h-full relative" data-modal-contents-wrapper>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="fixed full theme-bb-2 bg-theme-bg text-theme-fg z-2000 overflow-auto" style="display: none" data-modal-interest-form>
+    <div class="outer-margins flex flex-row h-full" data-modal-inner>
+        <div class="flex-col items-stretch w-full relative">
+            <div class="absolute full flex flex-col">
+                <button class="group absolute z-2 right-0 top-[30px] size-[48px] m:size-[64px]" data-close-btn>
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="32" cy="32" r="32" fill="#fff" class="opacity-0 group-hover:opacity-100 transition-opacity duration-100"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M32.8797 19.749L32.859 31.3615L44.4715 31.3408L44.5156 28.701L37.3326 28.7138L38.4485 27.6483L45.1941 20.9027L43.3178 19.0264L36.5838 25.7603L35.5067 26.8711L35.5195 19.7049L32.8797 19.749ZM19.0273 43.3186L20.9037 45.195L27.6446 38.4541L28.7148 37.3335L28.702 44.5164L31.3418 44.4723L31.3624 32.8599L19.75 32.8805L19.7059 35.5203L26.8721 35.5076L25.7644 36.5815L19.0273 43.3186Z" fill="currentColor"/>
+                    </svg>
+                </button>
+
+                <div class="w-full relative overflow-auto py-40 m:py-88" data-modal-contents-wrapper>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+        
+        
+    <footer id="bottom" class="page-footer mt-auto w-full theme-bb-7 [&_a:hover]:text-bb-4 text-theme-fg bg-theme-bg fakta anti [&_a]:transition-colors [&_a]:duration-200">
+        <div class="grapper grid-cols-2 m:grid-cols-12 pb-64 pt-40 m:pt-64 l:pt-85">
+            <div class="col-span-2 m:col-span-5 m:order-1 mb-48 l:mb-100">
+                <h2 class="h2 mb-16 m:mb-24 l:mb-34">Aspelin Eiendom</h2>
+
+                                    <p class="mb-8 m:mb-12 l:mb-14">Org. nr.: 916 314 981</p>
+                
+                                    <p><a href="mailto:post@aspelineiendom.no">post@aspelineiendom.no</a></p>
+                            </div>
+
+            <div class="col-span-1 m:col-span-4 m:order-2 [&_li]:mb-8 m:[&_li]:mb-12 mb-48 l:mb-100">
+                
+                                    <ul>
+    
+                        
+            <li><a href="https://www.aspelineiendom.no/om-oss">Om oss</a></li>
+                                            
+            <li><a href="https://www.aspelineiendom.no/om-oss/baerekraft">Bærekraft</a></li>
+                                            
+            <li><a href="https://www.aspelineiendom.no/karriere">Karriere</a></li>
+                                            
+            <li><a href="https://www.aspelineiendom.no/aktuelt">Aktuelt</a></li>
+                                            
+            <li><a href="https://www.aspelineiendom.no/kontakt">Kontakt</a></li>
+                                                                            
+            <li class="mt-16 m:mt-24 l:mt-36"><a href="https://konsern.aspelineiendom.no/" target="_blank" rel="noreferrer noopener">Konsern</a></li>
+                        </ul>
+
+                            </div>
+
+                            <div class="col-span-1 m:col-span-3 m:order-3 [&_li]:mb-8 m:[&_li]:mb-12 mb-48 l:mb-100">
+                    <h3 class="h2 mb-8 m:mb-12 l:mb-16">Portefølje</h3>
+
+                                        
+                    <ul>
+                                                    <li><a href="https://www.aspelineiendom.no/prosjekter">Prosjekter</a></li>
+                                                    <li><a href="https://www.aspelineiendom.no/eiendommer">Eiendommer</a></li>
+                                                    <li><a href="https://www.aspelineiendom.no/tidligere-prosjekter">Tidligere prosjekter</a></li>
+                                                                            <li><a href="https://www.aspelineiendom.no/historier">Historier</a></li>
+                                            </ul>
+                </div>
+            
+            <div class="col-span-1 m:col-span-4 m:order-5 [&_li]:mb-8 m:[&_li]:mb-12 mb-48 m:mb-60">
+                
+                                    <ul>
+    
+                        
+            <li><a href="https://www.aspelineiendom.no/personvern">Personvern og cookies</a></li>
+                                            
+            <li><a href="https://www.aspelineiendom.no/personvernerklaering-for-prosjektselskapene">Personvern for prosjektselskapene</a></li>
+                                            
+            <li><a href="https://www.aspelineiendom.no/personvernerklaering-for-forvaltningsselskaper">Personvern for forvaltningsselskaper</a></li>
+                                            
+            <li><a href="https://www.aspelineiendom.no/aapenhetsloven">Åpenhetsloven</a></li>
+                        </ul>
+
+                            </div>
+
+                            <div class="col-span-1 m:col-span-3 m:order-6 [&_li]:mb-8 m:[&_li]:mb-12 mb-48 m:mb-60">
+                    
+                                            <h3 class="h2 mb-8 m:mb-12 l:mb-16">Sosialt</h3>
+                        <ul>
+                                                            <li><a href="https://www.linkedin.com/company/aspelin-ramm-eiendom">LinkedIn</a></li>
+                                                            <li><a href="https://www.facebook.com/AspelinEiendom">Facebook</a></li>
+                                                            <li><a href="https://www.instagram.com/aspelin_eiendom/">Instagram</a></li>
+                                                    </ul>
+                                    </div>
+                        
+            <div class="m:col-span-5 m:order-4">
+                                    <svg class="h-auto w-[94px] l:w-[190px]" width="190" height="79" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 190 79"><path fill="currentColor" d="M99.815 35.732c-.018.063-.018.143-.018.178 0 .529.578.978 1.264.978.623 0 1.104-.37 1.104-.85s-.289-.72-1.539-1.169c-2.34-.832-3.252-1.81-3.252-3.442 0-2.002 1.473-3.349 3.701-3.349 1.441 0 2.625.61 3.251 1.65.303.498.449.96.561 1.712h-2.642c-.08-.737-.449-1.072-1.184-1.072-.64 0-1.058.338-1.058.85 0 .32.16.578.498.769.191.129.4.223 1.218.53 1.218.462 1.793.768 2.273 1.2.592.543.898 1.28.898 2.147 0 1.984-1.538 3.314-3.829 3.314-2.29 0-3.794-1.33-3.794-3.442h2.544l.004-.004ZM108.542 32.561h3.523v2.1h-3.523v2.21h3.523v2.098h-6.117V28.287h6.117v2.099h-3.523v2.179-.004ZM116.374 38.966h-2.594V28.284h3.461c1.409 0 2.433.257 3.139.8.738.578 1.153 1.539 1.153 2.705 0 1.618-.69 2.704-2.065 3.25l2.354 3.923h-3.105l-2.34-4.131v4.131l-.003.004Zm.832-5.587c1.072 0 1.698-.543 1.698-1.472 0-.93-.609-1.49-1.538-1.49h-.992v2.962h.832ZM127.423 38.966h-2.593v-8.584h-2.465v-2.098h7.513v2.098h-2.451v8.584h-.004ZM133.505 38.966h-2.594V28.284h2.594v10.682ZM138.134 32.561h3.555v2.1h-3.555v4.308h-2.593V28.287h6.151v2.099h-3.554v2.179l-.004-.004ZM145.692 38.966h-2.593V28.284h2.593v10.682ZM149.696 35.732c-.018.063-.018.143-.018.178 0 .529.578.978 1.264.978.623 0 1.103-.37 1.103-.85s-.289-.72-1.538-1.169c-2.34-.832-3.252-1.81-3.252-3.442 0-2.002 1.473-3.349 3.701-3.349 1.441 0 2.625.61 3.251 1.65.303.498.449.96.561 1.712h-2.643c-.08-.737-.449-1.072-1.183-1.072-.641 0-1.058.338-1.058.85 0 .32.16.578.497.769.192.129.401.223 1.219.53 1.218.462 1.793.768 2.273 1.2.592.543.898 1.28.898 2.147 0 1.984-1.539 3.314-3.829 3.314-2.291 0-3.795-1.33-3.795-3.442h2.545l.004-.004ZM158.423 32.561h3.522v2.1h-3.522v2.21h3.522v2.098h-6.116V28.287h6.116v2.099h-3.522v2.179-.004ZM166.252 38.966h-2.594V28.284h3.46c1.41 0 2.434.257 3.14.8.738.578 1.153 1.539 1.153 2.705 0 1.618-.69 2.704-2.065 3.25l2.354 3.923h-3.106l-2.339-4.131v4.131l-.003.004Zm.832-5.587c1.072 0 1.698-.543 1.698-1.472 0-.93-.609-1.49-1.538-1.49h-.992v2.962h.832ZM177.301 38.966h-2.593v-8.584h-2.465v-2.098h7.512v2.098h-2.45v8.584h-.004ZM103.257 44.298h2.674l-3.22 10.682h-2.82l-3.06-10.682h2.674l1.81 6.516 1.939-6.516h.003ZM109.614 54.977h-2.593V44.295h2.593v10.682ZM114.244 54.977h-2.594V44.295h3.461c1.409 0 2.433.257 3.14.8.738.578 1.152 1.538 1.152 2.705 0 1.618-.689 2.704-2.064 3.25l2.353 3.923h-3.105l-2.34-4.131v4.131l-.003.004Zm.832-5.587c1.072 0 1.699-.543 1.699-1.472 0-.93-.61-1.49-1.539-1.49h-.992v2.962h.832ZM123.882 54.977h-2.593V44.295h2.593v4.514l2.5-4.514h2.98l-2.98 5.074 2.98 5.604h-2.98l-2.5-4.674v4.678ZM132.447 51.743c-.018.063-.018.143-.018.178 0 .529.578.978 1.264.978.623 0 1.103-.37 1.103-.85s-.289-.72-1.538-1.17c-2.34-.831-3.252-1.809-3.252-3.441 0-2.002 1.473-3.345 3.701-3.345 1.441 0 2.625.609 3.251 1.65.303.497.449.96.561 1.712h-2.643c-.08-.738-.449-1.072-1.183-1.072-.641 0-1.058.337-1.058.85 0 .32.16.577.497.768.192.13.401.223 1.219.53 1.218.462 1.793.769 2.273 1.2.592.543.898 1.281.898 2.148 0 1.984-1.539 3.313-3.829 3.313-2.291 0-3.795-1.33-3.795-3.442h2.545l.004-.007ZM149.953 49.662c0 3.06-2.499 5.523-5.59 5.523-3.092 0-5.717-2.433-5.717-5.51 0-1.552.624-2.993 1.793-4.1 1.024-.96 2.42-1.49 3.99-1.49 3.154 0 5.524 2.385 5.524 5.573v.004Zm-8.664-.018c0 1.762 1.329 3.14 3.025 3.14 1.695 0 3.011-1.378 3.011-3.091 0-1.827-1.281-3.202-2.994-3.202-1.713 0-3.042 1.343-3.042 3.153ZM154.099 54.977h-2.593V44.295h3.028l2.834 5.75 2.802-5.75h3.043v10.682h-2.594v-6.102l-3.251 6.533-3.265-6.533v6.102h-.004ZM167.836 54.977h-2.594V44.295h2.594v4.371h3.509v-4.371h2.593v10.682h-2.593v-4.212h-3.509v4.212ZM178.084 48.572h3.523v2.099h-3.523v2.21h3.523v2.1h-6.117V44.297h6.117v2.099h-3.523v2.179-.004ZM187.549 54.977h-2.593v-8.584h-2.465v-2.098h7.512v2.098h-2.45v8.584h-.004Z"/><path stroke="currentColor" stroke-miterlimit="10" stroke-width="3" d="M87.832 0v79"/><path fill="currentColor" d="M.049 21.253h1.528l.223 7.619 1.88.115-3.631 18.74V21.253Zm4.71 33.362a4.716 4.716 0 0 1-4.64-3.92h.013l4.32-22.31-2.026-.122-.222-7.658H.049v-1.187l8.79-10.267 11.47 11.44-16.292.394 1.187 6.279h8.877l2.18 1.204-1.414.108 4.519 26.046H4.759v-.007Zm15.264 0-4.417-25.45 1.566-.12v-.076l37.913 20.926c-5.078-4.267-8.313-10.658-8.313-17.797 0-4.486 1.282-8.68 3.492-12.234l-29.06.703L8.797 8.197.049 18.42v-7.018a4.715 4.715 0 0 1 4.71-4.709h68.41a4.712 4.712 0 0 1 4.544 3.484 23.122 23.122 0 0 0-7.707-1.315c-8.324 0-15.634 4.403-19.738 11.002l.369-.01.003-.007c.136 0 .268 0 .404.003a22.456 22.456 0 0 0-3.62 12.245c0 8.127 4.316 15.266 10.774 19.244h-.007l-3.102-1.448a23.214 23.214 0 0 0 9.166 4.72H20.024v.004Zm50.978-1.647-2.162-1.406-8.163-1.11 7.384.146c-2.061-1.504-5.212-4.086-5.212-4.086l-7.909-1.915 6.98.728-3.499-3.812-8.292-4.869 7.297 3.206c-6.976-10.971-4.536-16.659-4.536-16.659-.488 6.335 2.263 10.098 2.263 10.098l3.592-6.975c-1.518 4.723-3.022 7.904-3.022 7.904.725 2.687 3.172 5.823 3.172 5.823l4.856-7.459-4.1 8.712c2.053 3.088 4.998 5.218 4.998 5.218l3.708-7.922-2.782 8.935 6.37 5.11-.94.337-.003-.004Zm6.879-3.063a4.712 4.712 0 0 1-3.168 4.445c.404-4.723 1.88-34.444-23.668-34.497 4.028-6.216 11.018-10.34 18.962-10.34 2.66 0 5.263.456 7.735 1.357l.118.045c.017.16.024.324.024.488v38.499l-.003.003ZM73.807 59.084c0-1.173.964-2.117 2.12-2.117 1.155 0 2.12.95 2.12 2.117a2.12 2.12 0 1 1-4.24 0Zm2.116-1.838c-1.002 0-1.779.818-1.779 1.834 0 1.017.77 1.835 1.78 1.835 1.009 0 1.778-.811 1.778-1.835 0-1.023-.766-1.834-1.779-1.834Zm-.487 3.122h-.282v-2.583h.933c.449 0 .793.227.793.714 0 .404-.222.686-.612.72l.724 1.15h-.352l-.686-1.15h-.522v1.15h.004Zm0-1.4h.585c.337 0 .578-.072.578-.469 0-.334-.255-.463-.578-.463h-.585v.936-.003ZM2.043 68.154H0V58.2h2.315l2.97 6.046L8.27 58.2h2.315v9.954H8.543v-6.21l-3.255 6.51-3.241-6.51v6.21h-.004ZM14.558 59.29c0 .58-.45 1.03-1.045 1.03s-1.058-.45-1.058-1.045.45-1.058 1.058-1.058c.61 0 1.045.449 1.045 1.076v-.004Zm-.105 8.864h-1.897v-6.909h1.897v6.91ZM16.333 68.154V58.2h1.897v9.954h-1.897ZM22.008 68.38c0 1.045-.209 1.748-.658 2.21-.463.495-1.149.746-2.03.746-.104 0-.299 0-.508-.014v-1.734h.286c.64 0 1.016-.449 1.016-1.207v-7.136h1.898v7.136h-.004Zm.105-9.09c0 .58-.45 1.03-1.045 1.03s-1.058-.45-1.058-1.045.45-1.058 1.058-1.058c.61 0 1.045.449 1.045 1.076v-.004ZM23.933 68.318l-.477-.494.777-.763c-.554-.685-.79-1.402-.79-2.36 0-2.15 1.552-3.703 3.703-3.703.971 0 1.73.254 2.507.822l.821-.79.45.494-.79.776c.58.79.835 1.52.835 2.433 0 2.074-1.63 3.658-3.764 3.658-.94 0-1.747-.268-2.478-.835l-.79.762h-.004Zm4.421-5.252a1.87 1.87 0 0 0-1.148-.359c-1.15 0-1.912.804-1.912 2.03 0 .417.073.685.268 1.057l2.792-2.732v.004Zm-2.329 3.254c.373.268.763.39 1.194.39 1.104 0 1.88-.822 1.88-2.002 0-.462-.073-.776-.3-1.148l-2.777 2.76h.003ZM34.414 68.154h-1.897V62.84h-.762v-1.597h.762v-.39c0-1.852.912-2.718 2.806-2.656v1.747c-.658.074-.912.328-.912.912v.39h.912v1.598h-.912v5.315l.003-.004ZM40.97 61.245h2.015l-3.895 10.06h-2.03l1.299-3.314-2.42-6.746h2.016l1.403 4.104 1.612-4.104ZM45.808 61.245v1.017c.195-.509.328-.717.613-.926.3-.21.703-.328 1.121-.328.045 0 .118 0 .223.014v1.94c-.15-.015-.3-.032-.404-.032-.522 0-1 .24-1.267.626-.223.314-.286.613-.286 1.27v3.328h-1.897v-6.909h1.897ZM51.124 66.125c0 .327.118.418.536.45h.327v1.58H50.48c-.926-.032-1.27-.404-1.253-1.313v-4.03h-.79v-1.598h.79v-1.852h1.897v1.852h.867v1.598h-.867v3.313ZM58.647 61.245h1.897v6.91h-1.897V67.2c-.64.821-1.389 1.194-2.402 1.194-1.939 0-3.328-1.508-3.328-3.613 0-2.106 1.462-3.777 3.478-3.777.94 0 1.584.327 2.255 1.12v-.88h-.003Zm-3.7 3.509c0 1.207.79 2.12 1.82 2.12s1.911-.986 1.911-2.18c0-1.193-.776-2.088-1.897-2.088-1.12 0-1.834.88-1.834 2.151v-.003Zm3.282-5.615c0 .731-.612 1.33-1.375 1.33-.762 0-1.389-.595-1.389-1.357 0-.763.613-1.358 1.39-1.358.775 0 1.374.595 1.374 1.389v-.004Zm-2.06-.027c0 .372.299.671.685.671a.671.671 0 1 0 0-1.344c-.372 0-.686.3-.686.673ZM64.307 61.245v1.017c.195-.509.328-.717.613-.926.3-.21.703-.328 1.121-.328.045 0 .118 0 .223.014v1.94c-.15-.015-.3-.032-.404-.032-.522 0-1 .24-1.267.626-.223.314-.286.613-.286 1.27v3.328H62.41v-6.909h1.897ZM69.191 61.245v.85c.508-.79 1.017-1.09 1.88-1.09.658 0 1.285.24 1.702.64.45.45.613 1 .613 2.134v4.372h-1.897v-4.285c0-.39-.046-.612-.164-.807-.177-.282-.536-.463-.909-.463-.73 0-1.225.553-1.225 1.357v4.194h-1.897v-6.909h1.897v.007Z"/></svg>
+
+                            </div>
+
+            <div class="m:col-span-7 m:col-start-6 m:order-7">
+                <span class="inline-block whitespace-nowrap mr-20">Design: <a href="https://spoonagency.no/">Spoon</a></span>
+                <span class="inline-block whitespace-nowrap">Kode: <a href="https://www.vaersaagod.no/">Værsågod</a></span>
+            </div>
+        </div>
+
+        <svg class="m:hidden w-full h-auto text-bb-6" width="335" height="368" viewBox="0 0 335 368" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0.217773V104.662H22.2998V62.8841H129.497V104.662H151.797V0.217773H0ZM129.497 41.9953H22.2998V21.1066H129.497V41.9953ZM334.99 104.662V41.9953H205.493V21.1066H334.99V0.217773H183.203V62.8841H312.7V83.7729H183.203V104.662H334.99Z" fill="currentColor"/>
+<path d="M98.0904 346.549V367.438H0V262.994H22.2998V346.549H98.0904Z" fill="currentColor"/>
+<path d="M183.203 367.438V262.994H183.214H335V367.438H312.7V283.883H205.503V367.438H183.203Z" fill="currentColor"/>
+<path d="M129.497 262.994H151.797V367.438H129.497V262.994Z" fill="currentColor"/>
+<path d="M151.797 194.55H22.2998V236.328H0V131.884H151.797V194.55ZM334.979 152.772H205.493V173.661H334.979V194.55H205.493V215.438H334.979V236.328H183.193V131.884H334.979V152.772ZM22.2891 173.661H129.486V152.772H22.2891V173.661Z" fill="currentColor"/>
+</svg>
+
+        <svg class="hidden m:block w-full h-auto text-bb-6" width="834" height="94" viewBox="0 0 834 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_4073_16213)">
+        <path d="M575.242 75.2H458.703V56.4H575.242V37.6H458.703V18.8H575.242V0H438.633V94H575.242V75.2ZM-56 0V94H-35.9301V56.4H60.5479V94H80.6178V0H-56ZM60.5479 37.6H-35.9301V18.8H60.5479V37.6ZM245.492 94V37.6H128.945V18.8H245.492V0H108.884V56.4H225.432V75.2H108.884V94H245.492ZM691.78 94V75.2H623.568V0H603.498V94H691.78ZM768.382 0V94H788.452V18.8H884.93V94H905V0H768.391H768.382ZM740.116 0H720.046V94H740.116V0ZM410.367 0H273.758V94H293.828V56.4H410.376V0H410.367ZM390.297 37.6H293.819V18.8H390.297V37.6Z"
+              fill="currentColor"/>
+    </g>
+    <defs>
+        <clipPath id="clip0_4073_16213">
+            <rect width="961" height="94" fill="white" transform="translate(-56)"/>
+        </clipPath>
+    </defs>
+</svg>
+
+    </footer>
+
+
+        
+
+        <script type="module" src="/assets/1754899410/bundle.es.js"></script>
+        <script src="/assets/1754899410/bundle.legacy.js" nomodule defer></script>
+
+
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","legalName":"Aspelin Eiendom","areaServed":"Norge","founder":"Gustaf Aspelin","foundingDate":"1977-09-08T00:00:00+01:00","award":["2020–2021 - Sundts Premie","2023 - Green Roof Award","2019 - Houens fonds diplom","2018 - Byggeindustriens «Årets Bygg»","2017 - Cityprisen NORD","2017 - Cityprisen","2015 - Arkitekturprisen","2015 - Enovaprisen","2014 - ULI – Global Award for Excellence","2014 - Cityprisen","2014 - Sundts Premie","2014 - Olavsrosa","2014 - VVS-prisen","2014 - Oslo Kommunes hagepris","2013 - Byggeindustriens «Årets Bygg»","2012 - Betongelementprisen","2012 - Oslo Bys arkitekturpris","2012 - Statens Bymiljøpris","2011 - Futurebuiltprisen","2010 - Venstres miljøpris","2008 - Olavsrosa","2007 - Cityprisen","2006 - Statens Byggeskikkpris","2006 - Oslo bys jubileumspris","2003 - Cityprisen","2002 - Cityprisen","1996 - Betongelementprisen","2020 - Murverksprisen","2021 - Oslo arkitektforenings arkitekturpris","2021 - Årets grønne driftsteam","2022 - Oslo bys arkitekturpris","2023 - Cityprisen 2023"]}</script>
+
+
+                
+
+        
+    </body>
+</html>

@@ -8,6 +8,7 @@ export function middleware(request: NextRequest) {
   // Public routes - no authentication needed
   if (
     pathname === '/' ||
+    pathname === '/login' ||
     pathname.startsWith('/_next') ||
     pathname.startsWith('/api') ||
     pathname.startsWith('/images') ||

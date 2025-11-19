@@ -46,6 +46,20 @@ export function CardTitle({
   );
 }
 
+export function CardDescription({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) {
+  return (
+    <p className={cn('text-sm text-gray-600', className)}>
+      {children}
+    </p>
+  );
+}
+
 export function CardContent({
   children,
   className,
