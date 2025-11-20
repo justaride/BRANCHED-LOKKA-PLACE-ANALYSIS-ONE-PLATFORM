@@ -8,10 +8,10 @@ export interface PropertyData {
   adresse: string;
   gnr: number;
   bnr: number;
-  beskrivelse: string;
-  heroImage: string;
-  mapImage: string;
-  coordinates: {
+  beskrivelse?: string;
+  heroImage?: string;
+  mapImage?: string;
+  coordinates?: {
     lat: number;
     lng: number;
   };
@@ -26,8 +26,8 @@ export interface PropertyData {
     nokkeldata: Record<string, string>;
   };
   tilleggsinfo: {
-    historikk: string;
-    kontaktperson: string;
+    historikk?: string;
+    kontaktperson?: string;
     notater: string[];
   };
   metadata: {
