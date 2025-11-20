@@ -23,7 +23,18 @@ export interface PropertyData {
       beskrivelse: string;
       kategori: string;
     }>;
-    nokkeldata: Record<string, string>;
+    nokkeldata: {
+      prisniva?: string;
+      leieinntekter?: string;
+      befolkning?: number;
+      gjennomsnittsinntekt?: string;
+      arbeidsledighet?: number;
+      areal?: string;
+      arealKontor?: string;
+      arealServering?: string;
+      byggeaar?: string;
+      energimerke?: string;
+    };
   };
   tilleggsinfo: {
     historikk?: string;
