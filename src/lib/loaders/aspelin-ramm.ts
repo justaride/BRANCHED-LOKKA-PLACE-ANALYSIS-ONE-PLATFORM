@@ -3,56 +3,12 @@
  * Uses static imports for Vercel compatibility
  */
 
-export interface PropertyData {
-  id: string;
-  adresse: string;
-  gnr: number;
-  bnr: number;
-  beskrivelse?: string;
-  heroImage?: string;
-  mapImage?: string;
-  coordinates?: {
-    lat: number;
-    lng: number;
-  };
-  plaaceData: {
-    rapportDato: string;
-    screenshots: Array<{
-      filnavn: string;
-      path: string;
-      beskrivelse: string;
-      kategori: string;
-    }>;
-    nokkeldata: {
-      prisniva?: string;
-      leieinntekter?: string;
-      befolkning?: number;
-      gjennomsnittsinntekt?: string;
-      arbeidsledighet?: number;
-      areal?: string;
-      arealKontor?: string;
-      arealServering?: string;
-      byggeaar?: string;
-      energimerke?: string;
-    };
-  };
-  tilleggsinfo: {
-    historikk?: string;
-    kontaktperson?: string;
-    notater?: string[];
-  };
-  metadata: {
-    opprettet: string;
-    sistOppdatert: string;
-    status: string;
-    versjon: number;
-  };
-}
+import type { Eiendom } from '@/types/eiendom';
 
 /**
  * Load all Aspelin Ramm properties
  */
-export async function loadAllEiendommer(): Promise<PropertyData[]> {
+export async function loadAllEiendommer(): Promise<Eiendom[]> {
   try {
     const data = await Promise.all([
       import('@/data/aspelin-ramm/bellonabygget.json'),
@@ -61,7 +17,7 @@ export async function loadAllEiendommer(): Promise<PropertyData[]> {
       import('@/data/aspelin-ramm/vulkan-arena.json'),
     ]);
 
-    return data.map((m) => m.default as PropertyData);
+    return data.map((m) => m.default as Eiendom);
   } catch (error) {
     console.error('Error loading Aspelin Ramm properties:', error);
     return [];
@@ -71,10 +27,10 @@ export async function loadAllEiendommer(): Promise<PropertyData[]> {
 /**
  * Load a specific property by ID
  */
-export async function loadEiendom(id: string): Promise<PropertyData | null> {
+export async function loadEiendom(id: string): Promise<Eiendom | null> {
   try {
     const data = await import(`@/data/aspelin-ramm/${id}.json`);
-    return data.default as PropertyData;
+    return data.default as Eiendom;
   } catch (error) {
     console.error(`Error loading property ${id}:`, error);
     return null;
