@@ -38,8 +38,10 @@ export interface PlaceAnalysis {
 export interface TimePeriod {
   type: PeriodType;
   month?: number; // 1-12
-  year: number;
+  year?: number;
   quarter?: number; // 1-4
+  startYear?: number;
+  endYear?: number;
   startDate: string; // ISO date
   endDate: string; // ISO date
   label: string; // e.g., "Januar 2025"
