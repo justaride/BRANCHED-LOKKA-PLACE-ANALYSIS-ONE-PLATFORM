@@ -16,10 +16,10 @@ export async function loadAllAnalyses(): Promise<PlaceAnalysis[]> {
   try {
     // Import all main board analysis files
     const analyses = await Promise.all([
-      import('@/data/main-board/analyser/kvartalsrapport-banktransaksjoner.json').then(m => m.default as PlaceAnalysis),
-      import('@/data/main-board/analyser/2024-arsrapport.json').then(m => m.default as PlaceAnalysis),
-      import('@/data/main-board/analyser/demografi-2017-2023.json').then(m => m.default as PlaceAnalysis),
-      import('@/data/main-board/analyser/sammenligning-2024.json').then(m => m.default as PlaceAnalysis),
+      import('@/data/main-board/analyser/kvartalsrapport-banktransaksjoner.json').then(m => m.default as any as PlaceAnalysis),
+      import('@/data/main-board/analyser/2024-arsrapport.json').then(m => m.default as any as PlaceAnalysis),
+      import('@/data/main-board/analyser/demografi-2017-2023.json').then(m => m.default as any as PlaceAnalysis),
+      import('@/data/main-board/analyser/sammenligning-2024.json').then(m => m.default as any as PlaceAnalysis),
     ]);
 
     // Sort by date (newest first)
@@ -40,7 +40,7 @@ export async function loadAllAnalyses(): Promise<PlaceAnalysis[]> {
 export async function loadAnalysis(id: string): Promise<PlaceAnalysis | null> {
   try {
     const data = await import(`@/data/main-board/analyser/${id}.json`);
-    return data.default as PlaceAnalysis;
+    return data.default as any as PlaceAnalysis;
   } catch (error) {
     console.error(`Error loading analysis ${id}:`, error);
     return null;
