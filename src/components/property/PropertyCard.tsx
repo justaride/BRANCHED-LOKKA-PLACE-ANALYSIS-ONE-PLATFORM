@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import type { PropertyData } from '@/lib/loaders/aspelin-ramm';
+import type { Eiendom } from '@/types/eiendom';
 
 interface PropertyCardProps {
-  property: PropertyData;
+  property: Eiendom;
   basePath: string;
 }
 

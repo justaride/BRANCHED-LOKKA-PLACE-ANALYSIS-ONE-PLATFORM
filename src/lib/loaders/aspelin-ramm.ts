@@ -39,7 +39,7 @@ export interface PropertyData {
   tilleggsinfo: {
     historikk?: string;
     kontaktperson?: string;
-    notater: string[];
+    notater?: string[];
   };
   metadata: {
     opprettet: string;
