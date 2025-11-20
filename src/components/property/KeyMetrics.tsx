@@ -3,12 +3,12 @@
 import FadeIn from '@/components/ui/FadeIn';
 
 interface KeyMetricsProps {
-  totalRevenue?: number;
-  totalActors?: number;
-  topCategory?: string;
-  growthRate?: number;
-  energyRating?: string;
-  buildingArea?: string;
+  totalRevenue?: number | null;
+  totalActors?: number | null;
+  topCategory?: string | null;
+  growthRate?: number | null;
+  energyRating?: string | null;
+  buildingArea?: string | null;
 }
 
 export default function KeyMetrics({
