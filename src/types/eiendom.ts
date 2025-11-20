@@ -4,8 +4,8 @@
 export interface Eiendom {
   id: string;
   adresse: string;
-  gnr?: number;
-  bnr?: number;
+  gnr?: number | null;
+  bnr?: number | null;
   beskrivelse?: string;
   heroImage?: string;
   mapImage?: string;
