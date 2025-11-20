@@ -53,7 +53,7 @@ export interface AreaDefinition {
   name: string; // e.g., "Grunerløkka"
   displayName: string; // e.g., "Grünerløkka, Oslo"
   areaSize?: string; // e.g., "1.14 km²"
-  type: 'district' | 'neighborhood' | 'custom';
+  type?: 'district' | 'neighborhood' | 'custom';
   coordinates?: {
     lat: number;
     lng: number;
