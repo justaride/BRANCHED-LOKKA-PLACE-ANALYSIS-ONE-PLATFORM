@@ -74,19 +74,44 @@ export default function LandingPage() {
           </p>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {companies.map((company) => (
-              <Link
-                key={company.slug}
-                href={`/${company.slug}`}
-                className="group rounded-lg border border-gray-200 bg-white p-6 transition-all hover:border-lokka-primary hover:shadow-lg"
-              >
-                <div className="flex h-32 items-center justify-center">
-                  <h4 className="text-center text-lg font-semibold text-lokka-primary transition-transform group-hover:scale-105">
-                    {company.name}
-                  </h4>
-                </div>
-              </Link>
-            ))}
+            {companies.map((company) => {
+              // Map slug to image file
+              const imageMap: Record<string, string> = {
+                'aspelin-ramm': '/images/companies/aspelin-ramm.webp',
+                'brodrene-evensen': '/images/companies/brodrene-evensen.webp',
+                'eiendomsspar': '/images/companies/eiendomsspar.jpg',
+                'malling-co': '/images/companies/malling-co.jpg',
+                'maya-eiendom': '/images/companies/maya-eiendom.jpg',
+                'roger-vodal': '/images/companies/roger-vodal.jpg',
+                'sio': '/images/companies/sio.jpg',
+                'spabo': '/images/companies/spabo.jpg',
+              };
+
+              return (
+                <Link
+                  key={company.slug}
+                  href={`/${company.slug}`}
+                  className="group rounded-lg border border-gray-200 bg-white overflow-hidden transition-all hover:border-lokka-primary hover:shadow-lg"
+                >
+                  <div className="p-4">
+                    <h4 className="mb-4 text-center text-base font-semibold text-lokka-primary">
+                      {company.name}
+                    </h4>
+                    {imageMap[company.slug] && (
+                      <div className="relative h-32 w-full overflow-hidden rounded-lg">
+                        <Image
+                          src={imageMap[company.slug]}
+                          alt={company.name}
+                          fill
+                          className="object-contain transition-transform duration-300 group-hover:scale-105"
+                          sizes="(max-width: 768px) 50vw, 25vw"
+                        />
+                      </div>
+                    )}
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
