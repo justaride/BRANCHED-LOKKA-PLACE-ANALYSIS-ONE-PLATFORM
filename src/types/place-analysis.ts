@@ -121,7 +121,7 @@ export interface KeyMetrics {
  */
 export interface DemographicMetrics {
   totalBefolkning: number;
-  befolkningsutvikling: number; // percentage change
+  befolkningsutvikling?: number; // percentage change
   aldersfordeling: {
     '0-17': number;
     '18-29': number;
