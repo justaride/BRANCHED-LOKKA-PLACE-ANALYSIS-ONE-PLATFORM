@@ -321,9 +321,14 @@ export default function PropertyOwnerAnalysis({
                       cx="50%"
                       cy="50%"
                       labelLine={false}
-                      label={({ name, percentage }) =>
-                        `${name}: ${percentage}%`
-                      }
+                      label={({ name, value }) => {
+                        const total = categoryPerformance.distribution.reduce(
+                          (sum, entry) => sum + entry.value,
+                          0
+                        );
+                        const percentage = ((value / total) * 100).toFixed(1);
+                        return `${name}: ${percentage}%`;
+                      }}
                       outerRadius={80}
                       fill="#8884d8"
                       dataKey="value"
