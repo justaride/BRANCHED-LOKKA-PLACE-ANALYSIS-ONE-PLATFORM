@@ -146,7 +146,7 @@ export default async function KvartalsrapportPage() {
             <div className="mt-20">
               <PropertyOwnerAnalysis
                 quarterlyData={quarterlyData}
-                dailyData={dailyData}
+                dailyData={dailyData || undefined}
               />
             </div>
           </>
