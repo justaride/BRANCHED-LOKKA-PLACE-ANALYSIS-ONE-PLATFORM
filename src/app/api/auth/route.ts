@@ -24,6 +24,15 @@ export async function POST(request: NextRequest) {
     const correctPassword = process.env[tenantConfig.passwordEnvVar];
     const adminPassword = process.env.ADMIN_PASSWORD;
 
+    // Debug logging for production
+    console.log('Auth attempt:', {
+      tenant,
+      passwordEnvVar: tenantConfig.passwordEnvVar,
+      hasCorrectPassword: !!correctPassword,
+      hasAdminPassword: !!adminPassword,
+      envVarExists: tenantConfig.passwordEnvVar in process.env,
+    });
+
     if (!correctPassword) {
       console.error(
         `Missing environment variable: ${tenantConfig.passwordEnvVar}`
@@ -37,6 +46,13 @@ export async function POST(request: NextRequest) {
     // Verify password (either tenant-specific or admin password)
     const isAdminPassword = adminPassword && password === adminPassword;
     const isTenantPassword = password === correctPassword;
+
+    console.log('Password verification:', {
+      isAdminPassword,
+      isTenantPassword,
+      passwordLength: password?.length,
+      correctPasswordLength: correctPassword?.length,
+    });
 
     if (isAdminPassword || isTenantPassword) {
       const response = NextResponse.json({ success: true });
