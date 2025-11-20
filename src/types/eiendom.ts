@@ -56,7 +56,7 @@ export interface Screenshot {
   filnavn: string;
   path: string;
   beskrivelse: string;
-  kategori: 'oversikt' | 'demografi' | 'marked' | 'utvikling' | 'annet';
+  kategori: string;
 }
 
 export interface Nokkeldata {
