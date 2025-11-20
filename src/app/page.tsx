@@ -11,14 +11,26 @@ export default function LandingPage() {
       <section className="border-b border-gray-200 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="mb-6 text-5xl font-bold text-lokka-primary">
-              Løkka Gårdeierforening
+            {/* Natural State Logo */}
+            <div className="mb-8 flex justify-center">
+              <div className="relative h-24 w-64">
+                <Image
+                  src="/images/logos/natural-state.png"
+                  alt="Natural State"
+                  fill
+                  className="object-contain"
+                  priority
+                  sizes="256px"
+                />
+              </div>
+            </div>
+
+            {/* Title */}
+            <h1 className="mb-4 text-4xl font-bold text-lokka-primary md:text-5xl">
+              Løkka Gårdeierforening & Natural State
             </h1>
-            <h2 className="mb-8 text-3xl font-light text-lokka-secondary">
-              og Natural State
-            </h2>
-            <p className="mx-auto mb-12 max-w-3xl text-xl text-gray-700">
-              Stedsutvikling Grunerløkka
+            <p className="mx-auto mb-12 max-w-3xl text-2xl font-light text-gray-700">
+              Det finnes bare en Løkka
             </p>
           </div>
         </div>

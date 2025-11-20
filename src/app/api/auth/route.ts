@@ -22,6 +22,7 @@ export async function POST(request: NextRequest) {
 
     // Get password from environment
     const correctPassword = process.env[tenantConfig.passwordEnvVar];
+    const adminPassword = process.env.ADMIN_PASSWORD;
 
     if (!correctPassword) {
       console.error(
@@ -33,8 +34,11 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Verify password
-    if (password === correctPassword) {
+    // Verify password (either tenant-specific or admin password)
+    const isAdminPassword = adminPassword && password === adminPassword;
+    const isTenantPassword = password === correctPassword;
+
+    if (isAdminPassword || isTenantPassword) {
       const response = NextResponse.json({ success: true });
 
       // Set tenant-specific cookie
