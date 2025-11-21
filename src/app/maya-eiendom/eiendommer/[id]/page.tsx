@@ -4,6 +4,7 @@ import Container from '@/components/ui/Container';
 import AnalyseSelector from '@/components/property/AnalyseSelector';
 import KeyMetrics from '@/components/property/KeyMetrics';
 import EiendomsprofilExpander from '@/components/property/EiendomsprofilExpander';
+import BusinessActors from '@/components/property/BusinessActors';
 import FadeIn from '@/components/ui/FadeIn';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -43,6 +44,19 @@ export default async function MayaEiendomEiendomPage({ params }: PageProps) {
   if (!eiendom) {
     notFound();
   }
+
+  // Calculate metrics from næringsaktører data
+  const totalRevenue = eiendom.naringsaktorer?.actors?.reduce(
+    (sum, actor) => sum + (actor.omsetning || 0),
+    0
+  ) || 0;
+
+  const totalActors = eiendom.naringsaktorer?.metadata?.totalActors || 0;
+
+  const topCategory = eiendom.naringsaktorer?.categoryStats
+    ? Object.entries(eiendom.naringsaktorer.categoryStats)
+        .sort((a, b) => b[1].count - a[1].count)[0]?.[0] || ''
+    : '';
 
   return (
     <>
@@ -116,6 +130,9 @@ export default async function MayaEiendomEiendomPage({ params }: PageProps) {
       <KeyMetrics
         energyRating={eiendom.plaaceData.nokkeldata?.energimerke}
         buildingArea={eiendom.plaaceData.nokkeldata?.areal}
+        totalRevenue={totalRevenue}
+        totalActors={totalActors}
+        topCategory={topCategory}
       />
 
       {/* Location Section */}
@@ -189,6 +206,15 @@ export default async function MayaEiendomEiendomPage({ params }: PageProps) {
           plaaceData={eiendom.plaaceData}
         />
       </Container>
+
+      {/* Business Actors Section */}
+      {eiendom.naringsaktorer && (
+        <BusinessActors
+          actors={eiendom.naringsaktorer.actors}
+          categoryStats={eiendom.naringsaktorer.categoryStats}
+          metadata={eiendom.naringsaktorer.metadata}
+        />
+      )}
     </>
   );
 }

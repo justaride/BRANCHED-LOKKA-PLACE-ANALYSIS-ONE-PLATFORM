@@ -17,6 +17,7 @@ export interface Eiendom {
   plaaceAnalyses?: PlaaceAnalyse[]; // Multiple analyses support
   tilleggsinfo: Tilleggsinfo;
   metadata: Metadata;
+  naringsaktorer?: NaringsAktorData; // Business actors in the area
 }
 
 /**
@@ -107,4 +108,45 @@ export interface Metadata {
   sistOppdatert: string; // ISO date
   status: 'utkast' | 'publisert' | 'arkivert';
   versjon: number;
+}
+
+/**
+ * Business actor (næringsaktør) data for a property area
+ */
+export interface NaringsAktorData {
+  actors: BusinessActor[];
+  categoryStats: Record<string, CategoryStats>;
+  metadata: {
+    totalActors: number;
+    totalCategories: number;
+    generatedAt?: string;
+    migratedAt?: string;
+  };
+}
+
+/**
+ * Individual business actor with financial and operational data
+ */
+export interface BusinessActor {
+  rank: string;
+  navn: string;
+  type: string;
+  adresse: string;
+  kommune: string;
+  omsetning: number | null;
+  kjedeProsent: string | null;
+  yoyVekst: number | null;
+  ansatteLokalt: number | null;
+  ansatteKjede: number | null;
+  kjedeLokasjoner: number | null;
+  markedsandel: number | null;
+}
+
+/**
+ * Aggregated statistics for a business category
+ */
+export interface CategoryStats {
+  count: number;
+  totalRevenue: number;
+  avgRevenue: number;
 }

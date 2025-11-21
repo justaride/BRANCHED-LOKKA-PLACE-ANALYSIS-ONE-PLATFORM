@@ -19,6 +19,11 @@ export default function KeyMetrics({
   energyRating,
   buildingArea,
 }: KeyMetricsProps) {
+  // Format number with Norwegian thousand separators
+  const formatNumber = (num: number) => {
+    return new Intl.NumberFormat('nb-NO').format(Math.round(num));
+  };
+
   // Dynamically build metrics based on available data
   const metrics = [];
 
@@ -45,7 +50,7 @@ export default function KeyMetrics({
   if (totalRevenue && totalRevenue > 0) {
     metrics.push({
       label: 'Total omsetning',
-      value: totalRevenue,
+      value: formatNumber(totalRevenue),
       suffix: 'M NOK',
       icon: '💰',
       description: 'Område totalt',
@@ -55,7 +60,7 @@ export default function KeyMetrics({
   if (totalActors && totalActors > 0) {
     metrics.push({
       label: 'Aktører',
-      value: totalActors,
+      value: formatNumber(totalActors),
       suffix: '',
       icon: '🏢',
       description: 'Registrerte bedrifter',
