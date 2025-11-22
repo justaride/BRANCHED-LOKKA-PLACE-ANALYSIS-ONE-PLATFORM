@@ -92,7 +92,7 @@ export default function AspelinRammOmProsjektetPage() {
                     eller innsikter du gjerne skulle kikket nærmere på.
                   </p>
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSeo32aBhqz7MhKLaKT5MY3mv5zazND2Fb8hfM3t92SeFIRS-w/viewform?usp=publish-editor"
+                    href="https://forms.gle/btff6meFZSHaYHUE9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-lg bg-lokka-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-lokka-secondary"
