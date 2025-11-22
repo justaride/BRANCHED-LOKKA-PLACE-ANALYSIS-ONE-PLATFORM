@@ -43,8 +43,8 @@ export default function MainBoardPage() {
               </h1>
               <p className="mb-8 text-xl text-white/90">
                 Omfattende stedsanalyser av Grünerløkka gjennom hele 2025.
-                Utforsk månedlige utviklingstrender, sammenlign med andre bydeler,
-                analyser hendelsers innvirkning, og følg mediadekningen av området.
+                Utforsk månedlige utviklingstrender, analyser hendelsers innvirkning,
+                og følg mediadekningen av området.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/main-board/analyser">
@@ -53,15 +53,6 @@ export default function MainBoardPage() {
                     className="bg-white text-natural-forest hover:bg-white/90"
                   >
                     Utforsk Analyser
-                  </Button>
-                </Link>
-                <Link href="/main-board/sammenligninger">
-                  <Button
-                    size="lg"
-                    variant="outline"
-                    className="border-white text-white hover:bg-white hover:text-natural-forest"
-                  >
-                    Se Sammenligninger
                   </Button>
                 </Link>
                 <Link href="/main-board/om-prosjektet">
@@ -107,7 +98,7 @@ export default function MainBoardPage() {
         <h2 className="mb-12 text-center text-3xl font-bold text-natural-forest">
           Hva du finner her
         </h2>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-3">
           <Card className="hover:shadow-medium transition-shadow">
             <CardHeader>
               <div className="mb-3 text-4xl">📊</div>
@@ -139,19 +130,6 @@ export default function MainBoardPage() {
 
           <Card className="hover:shadow-medium transition-shadow">
             <CardHeader>
-              <div className="mb-3 text-4xl">⚖️</div>
-              <CardTitle>Sammenligninger</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-gray-600">
-                Hvordan står Grünerløkka i forhold til andre bydeler?
-                Sammenlign nøkkelmetrikker med Grønland, Majorstuen, Frogner og flere.
-              </p>
-            </CardContent>
-          </Card>
-
-          <Card className="hover:shadow-medium transition-shadow">
-            <CardHeader>
               <div className="mb-3 text-4xl">📅</div>
               <CardTitle>Hendelsesanalyse</CardTitle>
             </CardHeader>
@@ -173,18 +151,12 @@ export default function MainBoardPage() {
             Klar til å utforske?
           </h2>
           <p className="mb-8 text-lg text-white/90">
-            Start med de månedlige analysene eller dykk rett inn i sammenligninger
-            mellom ulike bydeler.
+            Dykk inn i de månedlige analysene og se hvordan Grünerløkka utvikler seg gjennom året.
           </p>
           <div className="flex justify-center gap-4">
             <Link href="/main-board/analyser">
               <Button size="lg" variant="primary">
                 Se Analyser
-              </Button>
-            </Link>
-            <Link href="/main-board/sammenligninger">
-              <Button size="lg" variant="outline">
-                Sammenlign Områder
               </Button>
             </Link>
           </div>
