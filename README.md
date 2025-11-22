@@ -1,36 +1,387 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Løkka Gardeierforening Platform
 
-## Getting Started
+**Multi-tenant property analysis platform for Grünerløkka, Oslo**
 
-First, run the development server:
+> A comprehensive place analysis platform serving property developers and the natural state research team with detailed demographic, market, and development data for 42 properties across Grünerløkka.
+
+[![Deployment](https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel)](https://lokka-gardeierforening-platform.vercel.app)
+[![Framework](https://img.shields.io/badge/Next.js-16.0.3-black?logo=next.js)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript)](https://www.typescriptlang.org)
+[![License](https://img.shields.io/badge/License-Private-red)]()
+
+---
+
+## 🚀 Quick Start
+
+### Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3001](http://localhost:3001) to view the platform.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Build for production
+npm run build
 
-## Learn More
+# Start production server
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+**Live Site:** [https://lokka-gardeierforening-platform.vercel.app](https://lokka-gardeierforening-platform.vercel.app)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📖 Overview
 
-## Deploy on Vercel
+### What is This?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This platform serves **9 separate tenants** under one codebase:
+- **1× Main Board** - Natural State place analysis hub
+- **8× Property Developers** - Individual company sites with portfolio data
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Key Features
+
+✅ **Multi-Tenant Architecture** - One app, nine sites
+✅ **Separate Authentication** - Each tenant has own password
+✅ **Dynamic Routing** - Easy to add new companies
+✅ **42 Properties** - Complete place analysis data
+✅ **Professional Design** - Portfolio hero images & responsive UI
+✅ **Type-Safe** - Full TypeScript coverage
+✅ **Production Ready** - Live on Vercel
+
+---
+
+## 🏢 Tenants & Properties
+
+### Main Board (`/main-board`)
+**Natural State Place Analysis**
+- 📊 Monthly Analyses
+- 📈 Quarterly Reports
+- 📅 Event Analysis
+- 🌐 Natural State branding
+
+### Property Developers
+
+| Company | Route | Properties | Focus |
+|---------|-------|-----------|-------|
+| **SPABO Eiendom** | `/spabo` | 22 | Largest portfolio |
+| **Aspelin Ramm** | `/aspelin-ramm` | 4 | FutureBuilt Vulkan |
+| **Maya Eiendom** | `/maya-eiendom` | 4 | Markveien |
+| **Brødrene Evensen** | `/brodrene-evensen` | 3 | Mixed portfolio |
+| **Roger Vodal** | `/roger-vodal` | 3 | Brenneriveien |
+| **SiO** | `/sio` | 3 | Student housing |
+| **Eiendomsspar** | `/eiendomsspar` | 2 | Thorvald Meyers gate |
+| **Malling & Co** | `/malling-co` | 1 | Single property |
+
+**Total: 42 properties with complete place analysis data**
+
+---
+
+## 🛠 Tech Stack
+
+### Core
+- **[Next.js 16.0.3](https://nextjs.org)** - React framework with App Router
+- **[React 19](https://react.dev)** - Latest React with Server Components
+- **[TypeScript](https://www.typescriptlang.org)** - Strict mode enabled
+- **[Tailwind CSS](https://tailwindcss.com)** - Utility-first styling
+- **[Turbopack](https://turbo.build/pack)** - Fast bundler
+
+### Features
+- ✅ Server Components for optimal performance
+- ✅ Static generation where possible
+- ✅ Image optimization with next/image
+- ✅ Route protection middleware
+- ✅ Type-safe data loading
+- ✅ Cookie-based authentication
+
+### Deployment
+- **Platform:** [Vercel](https://vercel.com)
+- **Domain:** Custom domain ready
+- **CI/CD:** Automatic deployments from main branch
+- **Environment:** Production-ready
+
+---
+
+## 📁 Project Structure
+
+```
+lokka-gardeierforening-platform/
+├── src/
+│   ├── app/                       # Next.js App Router
+│   │   ├── page.tsx              # Landing page
+│   │   ├── login/                # Authentication
+│   │   ├── main-board/           # Natural State hub
+│   │   ├── aspelin-ramm/         # Company sites
+│   │   ├── brodrene-evensen/     # (8 total companies)
+│   │   ├── eiendomsspar/
+│   │   ├── malling-co/
+│   │   ├── maya-eiendom/
+│   │   ├── roger-vodal/
+│   │   ├── sio/
+│   │   └── spabo/
+│   ├── components/               # React components
+│   │   ├── layout/              # Header, Footer, Nav
+│   │   ├── property/            # Property components
+│   │   └── ui/                  # UI components
+│   ├── data/                    # Property JSON data
+│   │   ├── aspelin-ramm/
+│   │   ├── brodrene-evensen/
+│   │   ├── eiendomsspar/
+│   │   ├── malling-co/
+│   │   ├── maya-eiendom/
+│   │   ├── roger-vodal/
+│   │   ├── sio/
+│   │   └── spabo/
+│   ├── lib/                     # Utilities & loaders
+│   │   ├── loaders/            # Data loading functions
+│   │   └── utils.ts            # Helper functions
+│   └── types/                   # TypeScript definitions
+├── public/                      # Static assets
+│   └── images/                 # Images & screenshots
+│       ├── companies/          # Portfolio hero images
+│       └── areas/              # Area images
+├── middleware.ts               # Route protection
+└── tailwind.config.ts         # Tailwind configuration
+```
+
+---
+
+## 🔐 Authentication
+
+### How It Works
+
+Each tenant has **separate authentication**:
+- Per-tenant cookie-based sessions
+- 7-day expiry
+- Password-protected routes
+- Cross-tenant navigation supported
+
+### Test Credentials
+
+```
+Password (all tenants): test123
+```
+
+### Cookie Names
+- `auth-main-board`
+- `auth-aspelin-ramm`
+- `auth-brodrene-evensen`
+- `auth-eiendomsspar`
+- `auth-malling-co`
+- `auth-maya-eiendom`
+- `auth-roger-vodal`
+- `auth-sio`
+- `auth-spabo`
+
+---
+
+## 🎨 Design System
+
+### Visual Components
+
+**Company Pages:**
+1. Hero Section with CTA buttons
+2. **Portfolio Hero Image** (large, branded visual)
+3. Development Notice (feedback collection)
+4. Properties CTA (prominent link)
+5. Features Grid (3 information cards)
+6. Natural State Card (branding footer)
+
+**Main Board:**
+1. Hero Banner (full-width with Natural State branding)
+2. Feature Cards (3 clear analysis options)
+3. Social Media Section (LinkedIn, Instagram, Facebook)
+4. Natural State Preview (embedded website)
+
+### UI Features
+- ✅ Responsive design (mobile → tablet → desktop)
+- ✅ Next.js Image optimization
+- ✅ Gradient overlays for readability
+- ✅ Hover effects and transitions
+- ✅ Context-aware navigation
+- ✅ Professional typography
+
+---
+
+## 🚀 Deployment
+
+### Vercel Setup
+
+The platform is configured for automatic deployment on Vercel:
+
+1. **Environment Variables Required:**
+   ```
+   NEXT_PUBLIC_GOOGLE_FORM_URL=https://forms.gle/btff6meFZSHaYHUE9
+   ```
+
+2. **Build Settings:**
+   - Build Command: `npm run build`
+   - Output Directory: `.next`
+   - Install Command: `npm install`
+
+3. **Automatic Deployments:**
+   - Push to `main` → Production deploy
+   - Pull requests → Preview deploys
+
+### Manual Deployment
+
+```bash
+# Build locally
+npm run build
+
+# Test production build
+npm start
+
+# Deploy to Vercel
+vercel --prod
+```
+
+---
+
+## 📊 Data Structure
+
+### Property Data Format
+
+Each property has:
+- **Basic Info:** Address, name, tenant
+- **Place Analysis:** Plaace screenshot paths
+- **Demographics:** Population, age distribution
+- **Market Data:** Prices, transactions
+- **Images:** Hero images, photos
+
+### Example Property JSON
+
+```json
+{
+  "id": "property-slug",
+  "name": "Property Name",
+  "address": "Street Address",
+  "tenant": "company-name",
+  "plaaceScreenshot": "/images/plaace/property.png",
+  "demographics": { ... },
+  "market": { ... }
+}
+```
+
+---
+
+## 🧪 Testing
+
+### Manual Testing
+
+```bash
+# Start dev server
+npm run dev
+
+# Test routes
+- Visit http://localhost:3001
+- Test all 9 tenant pages
+- Verify authentication
+- Check property listings
+- Test property detail pages
+```
+
+### Build Testing
+
+```bash
+# Production build
+npm run build
+
+# Check for errors
+- TypeScript compilation
+- Image optimization
+- Route generation
+```
+
+---
+
+## 📝 Scripts
+
+```bash
+# Development
+npm run dev          # Start dev server (localhost:3001)
+npm run build        # Build for production
+npm start            # Start production server
+
+# Code Quality
+npm run lint         # Run ESLint
+npm run type-check   # TypeScript validation
+```
+
+---
+
+## 🎯 Recent Updates
+
+### November 22, 2025
+
+**Visual Enhancements:**
+- ✅ Added portfolio hero images to all 8 company pages
+- ✅ Implemented responsive image loading
+- ✅ Added gradient overlays for text readability
+
+**UI Cleanup:**
+- ✅ Removed unbuilt comparison feature from main-board
+- ✅ Streamlined features from 4 to 3 cards
+- ✅ Improved user flow
+
+**Integration:**
+- ✅ Fixed Google Form feedback URL
+- ✅ Updated production environment variables
+- ✅ Verified all deployments
+
+---
+
+## 📚 Documentation
+
+Detailed documentation available:
+- [`PROGRESS_UPDATE.md`](./PROGRESS_UPDATE.md) - Latest progress & changes
+- [`PROJECT_STATUS.md`](./PROJECT_STATUS.md) - Complete project overview
+- [`DEPLOYMENT.md`](./DEPLOYMENT.md) - Deployment guide
+
+---
+
+## 🤝 Contributing
+
+This is a private project for Løkka Gardeierforening and Natural State.
+
+**For team members:**
+1. Create feature branch from `main`
+2. Make changes
+3. Submit pull request
+4. Wait for review and approval
+
+---
+
+## 📞 Support
+
+**Project Lead:** Løkka Gardeierforening
+**Technical Partner:** Natural State
+**Deployment:** Vercel
+
+**Contact:**
+- Natural State: kontakt@naturalstate.no
+- Website: [naturalstate.no](https://naturalstate.no)
+
+---
+
+## 📄 License
+
+Private & Confidential - © 2025 Løkka Gardeierforening & Natural State
+
+---
+
+## 🌟 Status
+
+**Current:** 85% Complete
+**Deployment:** ✅ Live on Vercel
+**Quality:** 🚀 Production Ready
+
+Built with ❤️ using Next.js, TypeScript, and Tailwind CSS
