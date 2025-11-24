@@ -3,8 +3,8 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Nedre Løkka Dashboard - Komplett Markedsanalyse',
-  description: 'Omfattende analyse av Nedre Løkka med demografi, besøkende, virksomheter og omsetning',
+  title: 'LØKKA RAPPORTEN - Komplett Markedsanalyse',
+  description: 'Omfattende markedsrapport for Nedre Løkka med demografi, besøkende, virksomheter og omsetning',
 };
 
 export default function NedreLokkaDashboard() {
@@ -26,10 +26,10 @@ export default function NedreLokkaDashboard() {
             </div>
 
             <h1 className="mb-4 text-4xl font-bold leading-tight tracking-tight md:text-5xl lg:text-6xl">
-              Nedre Løkka Dashboard
+              LØKKA RAPPORTEN
             </h1>
             <p className="mb-6 max-w-3xl text-lg leading-relaxed text-white/90 md:text-xl">
-              Komplett markedsanalyse for det definerte området Nedre Løkka med demografi,
+              Komplett markedsrapport for det definerte området Nedre Løkka med demografi,
               besøkende, virksomheter og omsetningsdata.
             </p>
 
