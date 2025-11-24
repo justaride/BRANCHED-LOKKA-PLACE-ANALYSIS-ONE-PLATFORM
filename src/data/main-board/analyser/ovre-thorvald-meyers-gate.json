@@ -1,0 +1,106 @@
+{
+  "id": "ovre-thorvald-meyers-gate",
+  "title": "Øvre Thorvald Meyers Gate",
+  "analysisType": "location-specific",
+  "period": {
+    "type": "multi-year",
+    "startYear": 2022,
+    "endYear": 2025,
+    "startDate": "2022-10-01",
+    "endDate": "2025-09-30",
+    "label": "01.10.2022 – 30.09.2025"
+  },
+  "area": {
+    "id": "ovre-thorvald-meyers-gate",
+    "name": "Øvre Thorvald Meyers Gate",
+    "displayName": "Thorvald Meyers gate 30 område",
+    "type": "micro-area",
+    "areaSize": "0.018 km²",
+    "coordinates": {
+      "lat": 59.9239,
+      "lng": 10.7579
+    },
+    "description": "Komplett stedsanalyse for området rundt Thorvald Meyers gate 30 med demografi, besøkende, virksomheter og omsetning"
+  },
+  "description": "Omfattende markedsanalyse for Øvre Thorvald Meyers Gate med fokus på besøksmønstre, demografisk profil, konseptmiks og korthandel. Området har 13,614 daglige besøk, 371 innbyggere og 28 virksomheter med samlet omsetning på NOK 317 millioner.",
+  "tags": [
+    "stedsanalyse",
+    "bevegelse",
+    "demografi",
+    "virksomheter",
+    "korthandel",
+    "konseptmiks"
+  ],
+  "dataSource": "Plaace.ai / Telia / BankAxept / Analysebutikken / SSB",
+  "metadata": {
+    "status": "publisert",
+    "version": "1.0",
+    "author": "Natural State",
+    "createdAt": "2025-11-24",
+    "updatedAt": "2025-11-24",
+    "heroImage": "/images/analyser/ovre-thorvald-meyers-gate.jpg",
+    "sistOppdatert": "2025-11-24",
+    "notater": [
+      "Komplett stedsanalyse basert på data fra flere kilder over 3-års periode.",
+      "Området preges av høy besøkstetthet (71,272 per km²) og ung befolkning (43% i 23-34 år).",
+      "Extra Birkelunden dominerer med 27.3% markedsandel."
+    ]
+  },
+  "plaaceData": {
+    "datakilder": [
+      "Telia (mobildata)",
+      "BankAxept (korttransaksjoner)",
+      "Analysebutikken (virksomhetsdata)",
+      "SSB (demografi)"
+    ]
+  },
+  "highlights": [
+    {
+      "title": "Daglige Besøk",
+      "value": "13,614",
+      "description": "Gjennomsnittlig daglige besøk i området (71,272 per km²)"
+    },
+    {
+      "title": "Daglig Korthandel",
+      "value": "NOK 1.7M",
+      "description": "Total daglig korthandel, NOK 4.2 mrd. over perioden"
+    },
+    {
+      "title": "Virksomheter",
+      "value": "28",
+      "description": "Konseptmiks: Mat (39%), Handel (50%), Tjenester (11%)"
+    },
+    {
+      "title": "Total Omsetning",
+      "value": "NOK 317M",
+      "description": "Estimert årlig omsetning (2024), -1% endring"
+    }
+  ],
+  "visualizations": [
+    {
+      "type": "bar-chart",
+      "title": "Aldersfordeling",
+      "description": "Kjønnsfordelt alderspyramide viser dominans av 23-34 år (43%)"
+    },
+    {
+      "type": "bar-chart",
+      "title": "Inntektsfordeling",
+      "description": "12 inntektsbraketter fra 0 til 1.5M+ NOK årlig"
+    },
+    {
+      "type": "bar-chart",
+      "title": "Besøk per Ukedag",
+      "description": "Lørdag er travleste dag med 8,249 besøk (16% av uken)"
+    },
+    {
+      "type": "table",
+      "title": "Top 10 Virksomheter",
+      "description": "Rangering etter omsetning med markedsandel og YoY-vekst"
+    },
+    {
+      "type": "pie-chart",
+      "title": "Konseptmiks",
+      "description": "Fordeling på tvers av hovedkategorier og underkategorier"
+    }
+  ]
+}

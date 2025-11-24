@@ -20,6 +20,7 @@ export async function loadAllAnalyses(): Promise<PlaceAnalysis[]> {
       import('@/data/main-board/analyser/2024-arsrapport.json').then(m => m.default as any as PlaceAnalysis),
       import('@/data/main-board/analyser/demografi-2017-2023.json').then(m => m.default as any as PlaceAnalysis),
       import('@/data/main-board/analyser/sammenligning-2024.json').then(m => m.default as any as PlaceAnalysis),
+      import('@/data/main-board/analyser/ovre-thorvald-meyers-gate.json').then(m => m.default as any as PlaceAnalysis),
     ]);
 
     // Sort by date (newest first)
@@ -55,7 +56,8 @@ export async function getAllAnalysisIds(): Promise<string[]> {
     'kvartalsrapport-banktransaksjoner',
     '2024-arsrapport',
     'demografi-2017-2023',
-    'sammenligning-2024'
+    'sammenligning-2024',
+    'ovre-thorvald-meyers-gate'
   ];
 }
 
