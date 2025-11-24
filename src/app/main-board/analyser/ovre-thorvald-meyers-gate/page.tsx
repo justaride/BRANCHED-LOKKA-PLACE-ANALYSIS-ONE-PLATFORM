@@ -1,4 +1,6 @@
 import Container from '@/components/ui/Container';
+import Image from 'next/image';
+import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -9,41 +11,67 @@ export const metadata: Metadata = {
 export default function OvreThorvaldMeyersGatePage() {
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative overflow-hidden border-b border-gray-200/30 bg-gradient-to-br from-natural-forest via-natural-sage to-natural-moss py-16 text-white">
-        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+      {/* Hero Section with Image */}
+      <section className="relative overflow-hidden border-b border-gray-200">
+        <div className="relative aspect-[16/9] w-full md:aspect-[21/9]">
+          <Image
+            src="/images/analyser/ovre-thorvald-meyers-gate-aerial.png"
+            alt="Fugleperspektiv av Øvre Thorvald Meyers Gate"
+            fill
+            priority
+            className="object-cover"
+            sizes="100vw"
+            quality={85}
+          />
 
-        <Container className="relative z-10">
-          <div className="mx-auto max-w-4xl text-center">
-            <h1 className="mb-6 text-4xl font-bold md:text-5xl lg:text-6xl">
-              Øvre Thorvald Meyers Gate
-            </h1>
-            <p className="mb-4 text-lg text-white/90 md:text-xl">
-              Komplett stedsanalyse for området rundt Thorvald Meyers gate 30
-            </p>
-            <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-white/80">
-              <div className="flex items-center gap-2">
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          {/* Gradient overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+
+          {/* Colored overlay */}
+          <div className="absolute inset-0 bg-gradient-to-br from-natural-sage/20 to-natural-moss/20 opacity-40 mix-blend-overlay" />
+
+          <Container className="absolute inset-0 flex flex-col justify-between py-8">
+            {/* Back link */}
+            <div>
+              <Link
+                href="/main-board/analyser"
+                className="inline-flex items-center gap-2 rounded-full bg-white/20 px-4 py-2 text-sm font-medium text-white backdrop-blur-sm transition-colors hover:bg-white/30"
+              >
+                <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                 </svg>
-                <span>Område: 0.018 km²</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
-                <span>Befolkning: 371 (2023)</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span>Periode: 01.10.2022 – 30.09.2025</span>
+                Tilbake til oversikt
+              </Link>
+            </div>
+
+            {/* Title and metadata */}
+            <div>
+              <span className="mb-3 inline-block rounded-full bg-white/20 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-sm">
+                Stedsanalyse
+              </span>
+              <h1 className="mb-3 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
+                Øvre Thorvald Meyers Gate
+              </h1>
+              <p className="mb-4 text-lg text-white/90 md:text-xl">
+                Thorvald Meyers gate 30 område (0.018 km²)
+              </p>
+              <div className="flex flex-wrap items-center gap-4 text-sm text-white/80">
+                <div className="flex items-center gap-2">
+                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                  <span>Befolkning: 371 (2023)</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <span>Periode: 01.10.2022 – 30.09.2025</span>
+                </div>
               </div>
             </div>
-          </div>
-        </Container>
+          </Container>
+        </div>
       </section>
 
       {/* Quick Stats Overview */}
@@ -132,6 +160,27 @@ export default function OvreThorvaldMeyersGatePage() {
             <p className="text-lg text-lokka-secondary">
               Befolkningsdata og inntektsfordeling i området
             </p>
+          </div>
+
+          {/* Location Map */}
+          <div className="mb-8">
+            <div className="overflow-hidden rounded-2xl border-2 border-natural-sage shadow-medium">
+              <Image
+                src="/images/analyser/ovre-thorvald-meyers-gate-streetmap.png"
+                alt="Detaljert lokasjonskart - Øvre Thorvald Meyers Gate"
+                width={1200}
+                height={800}
+                className="w-full h-auto"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+                quality={80}
+              />
+              <div className="bg-natural-sage/10 p-4">
+                <p className="text-sm text-lokka-secondary">
+                  <strong>Lokasjonskart:</strong> Området dekker Thorvald Meyers gate 30 og umiddelbar nærhet,
+                  med god tilgang til offentlig transport og nærliggende parker.
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* Nøkkeltall demografi */}
@@ -548,6 +597,54 @@ export default function OvreThorvaldMeyersGatePage() {
             </div>
           </div>
 
+          {/* Heat Map - Visitor Origins */}
+          <div className="mb-8">
+            <h3 className="mb-4 text-xl font-bold text-lokka-primary">
+              Geografisk Fordeling av Besøkende
+            </h3>
+            <p className="mb-6 text-sm text-lokka-secondary">
+              Heat map viser hvor de besøkende kommer fra. Røde/varme områder indikerer høy konsentrasjon av besøkende,
+              mens grønne/kalde områder viser lavere aktivitet.
+            </p>
+
+            <div className="overflow-hidden rounded-2xl border-2 border-blue-200 shadow-medium">
+              <Image
+                src="/images/analyser/ovre-thorvald-meyers-gate-heatmap.png"
+                alt="Heat map - Geografisk opprinnelse av besøkende til Øvre Thorvald Meyers Gate"
+                width={1200}
+                height={800}
+                className="w-full h-auto"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+                quality={75}
+                loading="lazy"
+              />
+              <div className="bg-blue-50 p-4">
+                <div className="flex flex-wrap items-center gap-4 text-sm">
+                  <div className="flex items-center gap-2">
+                    <div className="h-4 w-4 rounded bg-red-500"></div>
+                    <span className="text-lokka-secondary">Høy konsentrasjon</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="h-4 w-4 rounded bg-orange-400"></div>
+                    <span className="text-lokka-secondary">Middels-høy</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="h-4 w-4 rounded bg-yellow-400"></div>
+                    <span className="text-lokka-secondary">Middels</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="h-4 w-4 rounded bg-green-400"></div>
+                    <span className="text-lokka-secondary">Lav konsentrasjon</span>
+                  </div>
+                </div>
+                <p className="mt-3 text-xs text-lokka-secondary">
+                  Majoriteten av besøkende kommer fra Østkanten og sentrale Oslo-områder,
+                  med sterk konsentrasjon fra Grünerløkka og nærliggende bydeler.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Metadata */}
           <div className="rounded-xl bg-blue-50 p-6">
             <h4 className="mb-3 font-semibold text-blue-900">Datakilde og Status</h4>
@@ -593,6 +690,37 @@ export default function OvreThorvaldMeyersGatePage() {
               </h3>
               <p className="mb-1 text-3xl font-bold text-purple-900">3</p>
               <p className="text-sm text-purple-700">konsepter (11%)</p>
+            </div>
+          </div>
+
+          {/* Aerial View - Concept Density */}
+          <div className="mb-8">
+            <h3 className="mb-4 text-xl font-bold text-lokka-primary">
+              Konsepttetthet og Lokasjon
+            </h3>
+            <p className="mb-6 text-sm text-lokka-secondary">
+              Fugleperspektiv viser gatestrekningen med høy tetthet av konsepter.
+              Området består av 28 virksomheter fordelt over en kort strekning, noe som bidrar til en levende gatebruksopplevelse.
+            </p>
+
+            <div className="overflow-hidden rounded-2xl border-2 border-purple-200 shadow-medium">
+              <Image
+                src="/images/analyser/ovre-thorvald-meyers-gate-aerial-zoom.png"
+                alt="Satellittbilde - Øvre Thorvald Meyers Gate med virksomhetsmarkering"
+                width={1600}
+                height={1200}
+                className="w-full h-auto"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1400px"
+                quality={80}
+                loading="lazy"
+              />
+              <div className="bg-purple-50 p-4">
+                <p className="text-sm text-lokka-secondary">
+                  <strong>Området:</strong> Strekningen er kompakt men har høy konsentrasjon av virksomheter.
+                  Virksomhetene er markert med fargede prikker på kartet, som viser fordelingen langs gateløpet.
+                  Nærhet til Sofienbergparken gir god tilgang til grøntområder.
+                </p>
+              </div>
             </div>
           </div>
 
