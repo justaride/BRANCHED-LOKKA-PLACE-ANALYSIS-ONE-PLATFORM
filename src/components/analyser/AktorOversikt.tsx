@@ -34,7 +34,7 @@ interface AktorOversiktProps {
 
 export default function AktorOversikt({ actors, categoryStats, metadata }: AktorOversiktProps) {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
-  const [showAllActors, setShowAllActors] = useState(false);
+  const [showAllActors, setShowAllActors] = useState(true); // Changed to true - show all actors by default
   const [currentPage, setCurrentPage] = useState(1);
   const [sortField, setSortField] = useState<'rank' | 'omsetning' | 'yoy_vekst'>('rank');
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
