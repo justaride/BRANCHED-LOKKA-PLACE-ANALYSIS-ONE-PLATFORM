@@ -1,4 +1,5 @@
 import Container from '@/components/ui/Container';
+import ExpandableImage from '@/components/ui/ExpandableImage';
 import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
@@ -164,23 +165,21 @@ export default function OvreThorvaldMeyersGatePage() {
 
           {/* Location Map */}
           <div className="mb-8">
-            <div className="overflow-hidden rounded-2xl border-2 border-natural-sage shadow-medium">
-              <Image
-                src="/images/analyser/ovre-thorvald-meyers-gate-streetmap.png"
-                alt="Detaljert lokasjonskart - Øvre Thorvald Meyers Gate"
-                width={1200}
-                height={800}
-                className="w-full h-auto"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-                quality={80}
-              />
-              <div className="bg-natural-sage/10 p-4">
+            <ExpandableImage
+              src="/images/analyser/ovre-thorvald-meyers-gate-streetmap.png"
+              alt="Detaljert lokasjonskart - Øvre Thorvald Meyers Gate"
+              width={1200}
+              height={800}
+              borderColor="natural-sage"
+              bgColor="natural-sage/10"
+              quality={80}
+              caption={
                 <p className="text-sm text-lokka-secondary">
                   <strong>Lokasjonskart:</strong> Området dekker Thorvald Meyers gate 30 og umiddelbar nærhet,
                   med god tilgang til offentlig transport og nærliggende parker.
                 </p>
-              </div>
-            </div>
+              }
+            />
           </div>
 
           {/* Nøkkeltall demografi */}
@@ -607,42 +606,41 @@ export default function OvreThorvaldMeyersGatePage() {
               mens grønne/kalde områder viser lavere aktivitet.
             </p>
 
-            <div className="overflow-hidden rounded-2xl border-2 border-blue-200 shadow-medium">
-              <Image
-                src="/images/analyser/ovre-thorvald-meyers-gate-heatmap.png"
-                alt="Heat map - Geografisk opprinnelse av besøkende til Øvre Thorvald Meyers Gate"
-                width={1200}
-                height={800}
-                className="w-full h-auto"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-                quality={75}
-                loading="lazy"
-              />
-              <div className="bg-blue-50 p-4">
-                <div className="flex flex-wrap items-center gap-4 text-sm">
-                  <div className="flex items-center gap-2">
-                    <div className="h-4 w-4 rounded bg-red-500"></div>
-                    <span className="text-lokka-secondary">Høy konsentrasjon</span>
+            <ExpandableImage
+              src="/images/analyser/ovre-thorvald-meyers-gate-heatmap.png"
+              alt="Heat map - Geografisk opprinnelse av besøkende til Øvre Thorvald Meyers Gate"
+              width={1200}
+              height={800}
+              borderColor="blue"
+              bgColor="blue-50"
+              quality={75}
+              caption={
+                <>
+                  <div className="flex flex-wrap items-center gap-4 text-sm">
+                    <div className="flex items-center gap-2">
+                      <div className="h-4 w-4 rounded bg-red-500"></div>
+                      <span className="text-lokka-secondary">Høy konsentrasjon</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="h-4 w-4 rounded bg-orange-400"></div>
+                      <span className="text-lokka-secondary">Middels-høy</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="h-4 w-4 rounded bg-yellow-400"></div>
+                      <span className="text-lokka-secondary">Middels</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="h-4 w-4 rounded bg-green-400"></div>
+                      <span className="text-lokka-secondary">Lav konsentrasjon</span>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <div className="h-4 w-4 rounded bg-orange-400"></div>
-                    <span className="text-lokka-secondary">Middels-høy</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <div className="h-4 w-4 rounded bg-yellow-400"></div>
-                    <span className="text-lokka-secondary">Middels</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <div className="h-4 w-4 rounded bg-green-400"></div>
-                    <span className="text-lokka-secondary">Lav konsentrasjon</span>
-                  </div>
-                </div>
-                <p className="mt-3 text-xs text-lokka-secondary">
-                  Majoriteten av besøkende kommer fra Østkanten og sentrale Oslo-områder,
-                  med sterk konsentrasjon fra Grünerløkka og nærliggende bydeler.
-                </p>
-              </div>
-            </div>
+                  <p className="mt-3 text-xs text-lokka-secondary">
+                    Majoriteten av besøkende kommer fra Østkanten og sentrale Oslo-områder,
+                    med sterk konsentrasjon fra Grünerløkka og nærliggende bydeler.
+                  </p>
+                </>
+              }
+            />
           </div>
 
           {/* Metadata */}
@@ -703,25 +701,23 @@ export default function OvreThorvaldMeyersGatePage() {
               Området består av 28 virksomheter fordelt over en kort strekning, noe som bidrar til en levende gatebruksopplevelse.
             </p>
 
-            <div className="overflow-hidden rounded-2xl border-2 border-purple-200 shadow-medium">
-              <Image
-                src="/images/analyser/ovre-thorvald-meyers-gate-aerial-zoom.png"
-                alt="Satellittbilde - Øvre Thorvald Meyers Gate med virksomhetsmarkering"
-                width={1600}
-                height={1200}
-                className="w-full h-auto"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1400px"
-                quality={80}
-                loading="lazy"
-              />
-              <div className="bg-purple-50 p-4">
+            <ExpandableImage
+              src="/images/analyser/ovre-thorvald-meyers-gate-aerial-zoom.png"
+              alt="Satellittbilde - Øvre Thorvald Meyers Gate med virksomhetsmarkering"
+              width={1600}
+              height={1200}
+              borderColor="purple"
+              bgColor="purple-50"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1400px"
+              quality={80}
+              caption={
                 <p className="text-sm text-lokka-secondary">
                   <strong>Området:</strong> Strekningen er kompakt men har høy konsentrasjon av virksomheter.
                   Virksomhetene er markert med fargede prikker på kartet, som viser fordelingen langs gateløpet.
                   Nærhet til Sofienbergparken gir god tilgang til grøntområder.
                 </p>
-              </div>
-            </div>
+              }
+            />
           </div>
 
           {/* Detaljert konseptmiks */}
