@@ -1,0 +1,91 @@
+{
+  "id": "nedre-thorvald-meyers-gate",
+  "title": "Nedre Thorvald Meyers Gate",
+  "analysisType": "location-specific",
+  "period": {
+    "type": "multi-year",
+    "startYear": 2022,
+    "endYear": 2025,
+    "startDate": "2022-10-01",
+    "endDate": "2025-09-30",
+    "label": "01.10.2022 – 30.09.2025"
+  },
+  "area": {
+    "id": "nedre-thorvald-meyers-gate",
+    "name": "Nedre Thorvald Meyers Gate",
+    "displayName": "Nedre Thorvald Meyers gate område",
+    "type": "micro-area",
+    "areaSize": "0.020 km²",
+    "coordinates": {
+      "lat": 59.9195,
+      "lng": 10.7575
+    },
+    "description": "Komplett stedsanalyse for Nedre Thorvald Meyers Gate med demografi, besøkende, virksomheter og omsetning"
+  },
+  "description": "Omfattende markedsanalyse for Nedre Thorvald Meyers Gate med fokus på besøksmønstre, demografisk profil, konseptmiks og korthandel. Området har 40 virksomheter med samlet omsetning på NOK 265 millioner.",
+  "tags": [
+    "stedsanalyse",
+    "bevegelse",
+    "demografi",
+    "virksomheter",
+    "korthandel",
+    "konseptmiks"
+  ],
+  "dataSource": "Plaace.ai / Telia / BankAxept / Analysebutikken / SSB",
+  "metadata": {
+    "status": "publisert",
+    "version": "1.0",
+    "author": "Natural State",
+    "createdAt": "2025-11-25",
+    "updatedAt": "2025-11-25",
+    "heroImage": "/images/analyser/nedre-thorvald-meyers-gate-aerial.png",
+    "sistOppdatert": "2025-11-25",
+    "notater": [
+      "Komplett stedsanalyse basert på data fra flere kilder over 3-års periode.",
+      "Området preges av høy restauranttetthet med 21 spisesteder.",
+      "Bunnpris Thorvald Meyers Gate dominerer med 12.5% markedsandel."
+    ]
+  },
+  "plaaceData": {
+    "datakilder": [
+      "Telia (mobildata)",
+      "BankAxept (korttransaksjoner)",
+      "Analysebutikken (virksomhetsdata)",
+      "SSB (demografi)"
+    ]
+  },
+  "highlights": [
+    {
+      "title": "Virksomheter",
+      "value": "40",
+      "description": "Totalt antall virksomheter i området"
+    },
+    {
+      "title": "Total Omsetning",
+      "value": "NOK 265M",
+      "description": "Estimert årlig omsetning (2024)"
+    },
+    {
+      "title": "Ansatte",
+      "value": "351",
+      "description": "Totalt antall ansatte i området"
+    },
+    {
+      "title": "Kategorier",
+      "value": "3",
+      "description": "Hovedkategorier: Mat, Handel, Tjenester"
+    }
+  ],
+  "visualizations": [
+    {
+      "type": "bar-chart",
+      "title": "Konseptmiks",
+      "description": "Fordeling på tvers av hovedkategorier"
+    },
+    {
+      "type": "table",
+      "title": "Top 40 Virksomheter",
+      "description": "Rangering etter omsetning med markedsandel og YoY-vekst"
+    }
+  ]
+}
