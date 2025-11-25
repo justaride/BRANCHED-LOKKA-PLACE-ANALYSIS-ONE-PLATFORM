@@ -3,6 +3,8 @@ import ExpandableImage from '@/components/ui/ExpandableImage';
 import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import AktorOversikt from '@/components/analyser/AktorOversikt';
+import aktorData from '@/data/main-board/aktorer/2024-arsrapport.json';
 
 export const metadata: Metadata = {
   title: 'Øvre Thorvald Meyers Gate - Stedsanalyse',
@@ -987,6 +989,13 @@ export default function OvreThorvaldMeyersGatePage() {
             </div>
           </div>
         </section>
+
+        {/* Actor Overview Section */}
+        <AktorOversikt
+          actors={aktorData.actors}
+          categoryStats={aktorData.categoryStats}
+          metadata={aktorData.metadata}
+        />
       </Container>
     </>
   );
