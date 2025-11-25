@@ -22,7 +22,7 @@
     },
     "description": "Komplett stedsanalyse for Nedre Thorvald Meyers Gate med demografi, besøkende, virksomheter og omsetning"
   },
-  "description": "Omfattende markedsanalyse for Nedre Thorvald Meyers Gate med fokus på besøksmønstre, demografisk profil, konseptmiks og korthandel. Området har 40 virksomheter med samlet omsetning på NOK 265 millioner.",
+  "description": "Omfattende markedsanalyse for Nedre Thorvald Meyers Gate med fokus på besøksmønstre, demografisk profil, konseptmiks og korthandel. Området har 21,143 daglige besøk, 40 virksomheter med samlet omsetning på NOK 260 millioner, og total korthandel på NOK 7,5 milliarder over perioden.",
   "tags": [
     "stedsanalyse",
     "bevegelse",
@@ -42,8 +42,10 @@
     "sistOppdatert": "2025-11-25",
     "notater": [
       "Komplett stedsanalyse basert på data fra flere kilder over 3-års periode.",
-      "Området preges av høy restauranttetthet med 21 spisesteder.",
-      "Bunnpris Thorvald Meyers Gate dominerer med 12.5% markedsandel."
+      "Området preges av høy besøkstetthet (55,322 per km²) og sterk vekst (+17%).",
+      "Mat og opplevelser dominerer med 53% av virksomhetene (21 spisesteder).",
+      "Bunnpris Thorvald Meyers Gate er største aktør med 12.5% markedsandel.",
+      "Konsepttetthet på 978/km² viser stor tetthet av virksomheter."
     ]
   },
   "plaaceData": {
@@ -56,24 +58,24 @@
   },
   "highlights": [
     {
+      "title": "Daglige Besøk",
+      "value": "21,143",
+      "description": "Gjennomsnittlig daglige besøk i området (55,322 per km²)"
+    },
+    {
+      "title": "Daglig Korthandel",
+      "value": "NOK 3M",
+      "description": "Total daglig korthandel, NOK 7.5 mrd. over perioden"
+    },
+    {
       "title": "Virksomheter",
       "value": "40",
-      "description": "Totalt antall virksomheter i området"
+      "description": "Konseptmiks: Mat (53%), Handel (23%), Tjenester (23%)"
     },
     {
       "title": "Total Omsetning",
-      "value": "NOK 265M",
-      "description": "Estimert årlig omsetning (2024)"
-    },
-    {
-      "title": "Ansatte",
-      "value": "351",
-      "description": "Totalt antall ansatte i området"
-    },
-    {
-      "title": "Kategorier",
-      "value": "3",
-      "description": "Hovedkategorier: Mat, Handel, Tjenester"
+      "value": "NOK 260M",
+      "description": "Estimert årlig omsetning (2024), +17% endring"
     }
   ],
   "visualizations": [

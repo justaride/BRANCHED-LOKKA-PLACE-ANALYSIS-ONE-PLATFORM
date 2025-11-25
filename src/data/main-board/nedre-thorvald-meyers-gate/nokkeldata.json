@@ -1,0 +1,99 @@
+{
+  "Besøkende verktøy oversikt": {
+    "Besøkende": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "Telia"
+      ]
+    },
+    "Demografi av Besøkende": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "Telia",
+        "Statistisk sentralbyrå"
+      ]
+    }
+  },
+  "Bevegelse NØKKELTALL": {
+    "Bevegelse": {
+      "Datoperiode": "01.10.2022 – 30.09.2025",
+      "Status": "Faktiske data",
+      "Datakilde": [
+        "Telia"
+      ]
+    },
+    "Gjennomsnittlig daglige besøk": {
+      "Verdi": 21143,
+      "Kommentar": "Basert på alle besøk"
+    },
+    "Gjennomsnittlig daglige besøk per km2": {
+      "Verdi": 55322
+    },
+    "Travleste dag": {
+      "Dag": "Lørdag",
+      "Andel": "17% av ukesbesøk"
+    }
+  },
+  "Korthandel NØKKELTALL": {
+    "Korthandel": {
+      "Status": "Faktiske data",
+      "Datakilde": [
+        "BankAxept"
+      ]
+    },
+    "Daglig korthandel for valgt periode": "NOK 3 mill.",
+    "Total korthandel for valgt periode": "NOK 7,5 mrd.",
+    "Beløp per transaksjon for valgt periode": "255 NOK"
+  },
+  "konkurransebildet NØKKELTALL": {
+    "Konkurransebildet": {
+      "Status": "Estimerte tall",
+      "Datakilde": [
+        "Analysebutikken"
+      ]
+    },
+    "Konsepttetthet": "978/km2",
+    "Konsepttetthet endring": "+11%",
+    "Total omsetning": {
+      "Verdi": "NOK 260 mill.",
+      "Endring": "+17%"
+    },
+    "Omsetningstetthet": {
+      "Verdi": "NOK 6,4 mrd./km2",
+      "Endring": "+17%"
+    }
+  },
+  "DEMOGRAFI NØKKELTALL": {
+    "Demografi": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "Statistisk sentralbyrå",
+        "Geodata"
+      ]
+    },
+    "Områdestørrelse": "0.020 km2"
+  },
+  "NØKKELTALL MAIN": {
+    "Travleste dag": {
+      "Dag": "Lørdag",
+      "Periode": "01.10.2022 – 30.09.2025",
+      "Andel": "17% av ukesbesøk"
+    },
+    "Kortbruk": {
+      "Daglig korthandel": "NOK 3 mill.",
+      "Total korthandel": "NOK 7,5 mrd.",
+      "Periode": "01.10.2022 – 30.09.2025"
+    },
+    "Konseptmiks": {
+      "Mat og opplevelser": "53%",
+      "Tjenester": "23%",
+      "Handel": "23%",
+      "Konsepttetthet": "978/km2",
+      "Endring": "+11%"
+    },
+    "Størrelse": {
+      "Areal": "0.020 km2",
+      "Besøk per km2": 55322
+    }
+  }
+}
