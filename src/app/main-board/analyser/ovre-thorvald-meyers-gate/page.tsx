@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import AktorOversikt from '@/components/analyser/AktorOversikt';
-import aktorData from '@/data/main-board/aktorer/2024-arsrapport.json';
+import aktorData from '@/data/main-board/aktorer/ovre-thorvald-meyers-gate.json';
 
 export const metadata: Metadata = {
   title: 'Øvre Thorvald Meyers Gate - Stedsanalyse',
