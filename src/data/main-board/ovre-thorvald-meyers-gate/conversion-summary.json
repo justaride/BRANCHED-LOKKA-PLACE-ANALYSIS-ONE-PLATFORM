@@ -1,0 +1,120 @@
+{
+  "converted_files": [
+    {
+      "source": "Aldersfordeling DEMOGRAFI.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/demografi/aldersfordeling.json",
+      "category": "demografi",
+      "records": 12
+    },
+    {
+      "source": "Antall-Husholdninger DEMOGRAFI.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/demografi/antall-husholdninger.json",
+      "category": "demografi",
+      "records": 5
+    },
+    {
+      "source": "Antall-hus DEMOGRAFI.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/demografi/antall-hus.json",
+      "category": "demografi",
+      "records": 6
+    },
+    {
+      "source": "Årlig vekst KORTHANDEL.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/korthandel/arlig-vekst.json",
+      "category": "korthandel",
+      "records": 6
+    },
+    {
+      "source": "Besøk per time i tidsperioden (daglig gjennomsnitt) BEVEGELSE.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/bevegelse/besok-per-time.json",
+      "category": "bevegelse",
+      "records": 24
+    },
+    {
+      "source": "Besøk per ukedag i tidsperioden (daglig gjennomsnitt) BEVEGELSE.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/bevegelse/besok-per-ukedag.json",
+      "category": "bevegelse",
+      "records": 7
+    },
+    {
+      "source": "Bevegelsesmønster (gjennomsnittlig daglige besøk) BEVEGELSE.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/bevegelse/bevegelsesmonster.json",
+      "category": "bevegelse",
+      "records": 11
+    },
+    {
+      "source": "Demografi-over-tid DEMOGRAFI.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/demografi/demografi-over-tid.json",
+      "category": "demografi",
+      "records": 7
+    },
+    {
+      "source": "Indeksert vekst (indeks = 100) KORTHANDEL.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/korthandel/indeksert-vekst.json",
+      "category": "korthandel",
+      "records": 7
+    },
+    {
+      "source": "Inntektsfordeling DEMOGRAFI.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/demografi/inntektsfordeling.json",
+      "category": "demografi",
+      "records": 12
+    },
+    {
+      "source": "Kjeder vs. uavhengige konsepter KONKURRANSEBILDET.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/konkurransebilde/kjeder-vs-uavhengige.json",
+      "category": "konkurransebilde",
+      "records": 11
+    },
+    {
+      "source": "Konseptmiks KONKURRANSEBILDET.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/konkurransebilde/konseptmiks.json",
+      "category": "konkurransebilde",
+      "records": 10
+    },
+    {
+      "source": "Korthandel i valgt tidsrom KORTHANDEL.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/korthandel/korthandel-tidsrom.json",
+      "category": "korthandel",
+      "records": 2514
+    },
+    {
+      "source": "Korthandel per ukedag KORTHANDEL.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/korthandel/korthandel-per-ukedag.json",
+      "category": "korthandel",
+      "records": 7
+    },
+    {
+      "source": "Medianinntekt-per-husholdningstype-DEMOGRAFI.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/demografi/medianinntekt-per-husholdningstype.json",
+      "category": "demografi",
+      "records": 5
+    },
+    {
+      "source": "Omrader_besokende_kommer_fra BESØKENDE.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/besokende/omrader-besokende-kommer-fra.json",
+      "category": "besokende",
+      "records": 100
+    },
+    {
+      "source": "Over- og underandel vs. kommune KONKURRANSEBILDET.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/konkurransebilde/over-og-underandel-vs-kommune.json",
+      "category": "konkurransebilde",
+      "records": 3
+    },
+    {
+      "source": "Topp 20 land besøkende til området (i %) INTERNASJONALT BESØKENDE.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/internasjonalt/topp-20-land.json",
+      "category": "internasjonalt",
+      "records": 20
+    },
+    {
+      "source": "Utvikling-per-år KONKURRANSEBILDET.csv",
+      "destination": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate/konkurransebilde/utvikling-per-ar.json",
+      "category": "konkurransebilde",
+      "records": 10
+    }
+  ],
+  "total_files": 19,
+  "successful": 19
+}

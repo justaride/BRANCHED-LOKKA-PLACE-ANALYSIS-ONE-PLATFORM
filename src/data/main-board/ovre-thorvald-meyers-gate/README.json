@@ -1,0 +1,141 @@
+{
+  "conversion_date": "2025-11-25",
+  "source_directory": "/Users/gabrielboen/Downloads/LØKKA PROJECTS UPDATED AND BACKUPS FOLDER/Øvre Thorvald Meyers Gate",
+  "destination_directory": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/ovre-thorvald-meyers-gate",
+  "total_files_converted": 19,
+  "categories": {
+    "demografi": {
+      "description": "Demographic data",
+      "files": [
+        {
+          "filename": "aldersfordeling.json",
+          "records": 12,
+          "description": "Age distribution by gender"
+        },
+        {
+          "filename": "antall-husholdninger.json",
+          "records": 5,
+          "description": "Number of households"
+        },
+        {
+          "filename": "antall-hus.json",
+          "records": 6,
+          "description": "Number of houses"
+        },
+        {
+          "filename": "demografi-over-tid.json",
+          "records": 7,
+          "description": "Demographics over time"
+        },
+        {
+          "filename": "inntektsfordeling.json",
+          "records": 12,
+          "description": "Income distribution"
+        },
+        {
+          "filename": "medianinntekt-per-husholdningstype.json",
+          "records": 5,
+          "description": "Median income per household type"
+        }
+      ]
+    },
+    "bevegelse": {
+      "description": "Movement patterns",
+      "files": [
+        {
+          "filename": "besok-per-time.json",
+          "records": 24,
+          "description": "Visits per hour (daily average)"
+        },
+        {
+          "filename": "besok-per-ukedag.json",
+          "records": 7,
+          "description": "Visits per weekday (daily average)"
+        },
+        {
+          "filename": "bevegelsesmonster.json",
+          "records": 11,
+          "description": "Movement pattern (average daily visits)"
+        }
+      ]
+    },
+    "korthandel": {
+      "description": "Card transactions data",
+      "files": [
+        {
+          "filename": "arlig-vekst.json",
+          "records": 6,
+          "description": "Annual growth"
+        },
+        {
+          "filename": "indeksert-vekst.json",
+          "records": 7,
+          "description": "Indexed growth (index = 100)"
+        },
+        {
+          "filename": "korthandel-tidsrom.json",
+          "records": 2514,
+          "description": "Card transactions in selected time period"
+        },
+        {
+          "filename": "korthandel-per-ukedag.json",
+          "records": 7,
+          "description": "Card transactions per weekday"
+        }
+      ]
+    },
+    "konkurransebilde": {
+      "description": "Competition landscape",
+      "files": [
+        {
+          "filename": "kjeder-vs-uavhengige.json",
+          "records": 11,
+          "description": "Chains vs independent concepts"
+        },
+        {
+          "filename": "konseptmiks.json",
+          "records": 10,
+          "description": "Concept mix"
+        },
+        {
+          "filename": "over-og-underandel-vs-kommune.json",
+          "records": 3,
+          "description": "Over and under share vs municipality"
+        },
+        {
+          "filename": "utvikling-per-ar.json",
+          "records": 10,
+          "description": "Development per year"
+        }
+      ]
+    },
+    "besokende": {
+      "description": "Visitors data",
+      "files": [
+        {
+          "filename": "omrader-besokende-kommer-fra.json",
+          "records": 100,
+          "description": "Areas visitors come from"
+        }
+      ]
+    },
+    "internasjonalt": {
+      "description": "International visitors",
+      "files": [
+        {
+          "filename": "topp-20-land.json",
+          "records": 20,
+          "description": "Top 20 countries visitors to the area (in %)"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "All CSV files successfully converted to JSON format",
+    "Norwegian characters (æ, ø, å) properly preserved",
+    "Numeric values automatically detected and converted",
+    "BOM (Byte Order Mark) removed from headers",
+    "Files organized by category in subdirectories",
+    "Kebab-case naming convention applied"
+  ]
+}

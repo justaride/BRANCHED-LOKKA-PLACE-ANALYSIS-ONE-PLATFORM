@@ -1,0 +1,123 @@
+{
+  "total_files": 23,
+  "converted": 23,
+  "skipped": 0,
+  "files": [
+    {
+      "source": "Aldersfordeling DEMOGRAFI.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/demografi/aldersfordeling.json",
+      "records": 12
+    },
+    {
+      "source": "Antall hus (besøkende) BESØKENDE.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/besokende/antall-hus.json",
+      "records": 6
+    },
+    {
+      "source": "Antall hus DEMOGRAFI.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/demografi/antall-hus.json",
+      "records": 6
+    },
+    {
+      "source": "Antall husholdninger DEMOGRAFI.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/demografi/antall-husholdninger.json",
+      "records": 5
+    },
+    {
+      "source": "Årlig vekst KORTHANDEL.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/korthandel/arlig-vekst.json",
+      "records": 6
+    },
+    {
+      "source": "Besøk per time i tidsperioden (daglig gjennomsnitt) BEVEGELSE.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/bevegelse/besok-per-time.json",
+      "records": 24
+    },
+    {
+      "source": "Besøk per ukedag i tidsperioden (daglig gjennomsnitt) BEVEGELSE.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/bevegelse/besok-per-ukedag.json",
+      "records": 7
+    },
+    {
+      "source": "Bevegelsesmønster (gjennomsnittlig daglige besøk) BEVEGELSE.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/bevegelse/bevegelsesmonster.json",
+      "records": 11
+    },
+    {
+      "source": "Demografi over tid DEMOGRAFI.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/demografi/demografi-over-tid.json",
+      "records": 7
+    },
+    {
+      "source": "Husholdningstypefordeling (besøkende) BESØKENDE.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/besokende/husholdningstypefordeling.json",
+      "records": 5
+    },
+    {
+      "source": "Hvem er de besøkende? (Besøkendes demografi) BESØKENDE.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/besokende/besokende-demografi.json",
+      "records": 12
+    },
+    {
+      "source": "Indeksert vekst (indeks = 100) KORTHANDEL.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/korthandel/indeksert-vekst.json",
+      "records": 7
+    },
+    {
+      "source": "Inntektsfordeling (besøkende) BESØKENDE.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/besokende/inntektsfordeling.json",
+      "records": 12
+    },
+    {
+      "source": "Inntektsfordeling DEMOGRAFI.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/demografi/inntektsfordeling.json",
+      "records": 12
+    },
+    {
+      "source": "Kjeder vs. uavhengige konsepter KONKURRANSEBILDET.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/konkurransebilde/kjeder-vs-uavhengige.json",
+      "records": 11
+    },
+    {
+      "source": "Konseptmiks KONKURRANSEBILDET.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/konkurransebilde/konseptmiks.json",
+      "records": 12
+    },
+    {
+      "source": "Korthandel i valgt tidsrom KORTHANDEL.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/korthandel/korthandel-tidsrom.json",
+      "records": 2514
+    },
+    {
+      "source": "Korthandel per ukedag KORTHANDEL.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/korthandel/korthandel-per-ukedag.json",
+      "records": 7
+    },
+    {
+      "source": "Medianinntekt per husholdningstype (besøkende) BESØKENDE.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/besokende/medianinntekt-per-husholdningstype.json",
+      "records": 5
+    },
+    {
+      "source": "Medianinntekt per husholdningstype DEMOGRAFI.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/demografi/medianinntekt-per-husholdningstype.json",
+      "records": 5
+    },
+    {
+      "source": "Over- og underandel vs. kommune KONKURRANSEBILDET.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/konkurransebilde/over-underandel-vs-kommune.json",
+      "records": 3
+    },
+    {
+      "source": "Topp 20 land besøkende til området (i %) INTERNASJONALT BESØKENDE.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/internasjonalt/topp-20-land.json",
+      "records": 20
+    },
+    {
+      "source": "Utvikling per år KONKURRANSEBILDET.csv",
+      "destination": "src/data/main-board/nedre-thorvald-meyers-gate/konkurransebilde/utvikling-per-ar.json",
+      "records": 10
+    }
+  ],
+  "skipped_files": []
+}
