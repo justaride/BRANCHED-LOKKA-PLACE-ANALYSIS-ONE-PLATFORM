@@ -14,7 +14,7 @@ interface BusinessActorsProps {
 }
 
 export default function BusinessActors({ actors, categoryStats, metadata }: BusinessActorsProps) {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(true); // Changed to true - show all actors by default
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
   // Filter actors by category and sort by revenue (highest first)
