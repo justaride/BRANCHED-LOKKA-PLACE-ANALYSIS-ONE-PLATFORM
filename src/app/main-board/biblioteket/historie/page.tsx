@@ -1,6 +1,8 @@
 import Container from '@/components/ui/Container';
 import Link from 'next/link';
 import { getHistorieTimeline, getHistorieEvents, getHistorieSections, getHistorieTags, getHistorieEntities } from '@/lib/loaders/biblioteket-loader';
+import ImageCarousel from '@/components/biblioteket/ImageCarousel';
+import { translateHistorieText } from '@/lib/translate-historie';
 
 export const metadata = {
     title: 'Byhistorie - Løkka Biblioteket',
@@ -27,6 +29,50 @@ const tagColors: Record<string, string> = {
     working_class: 'bg-orange-100 text-orange-700',
     grassroots: 'bg-cyan-100 text-cyan-700',
 };
+
+const tagTranslations: Record<string, string> = {
+    industry: 'Industri',
+    urban_expansion: 'Byekspansjon',
+    housing: 'Bolig',
+    clearance: 'Sanering',
+    byfornyelse: 'Byfornyelse',
+    gentrification: 'Gentrifisering',
+    heritage_preservation: 'Verneplaner',
+    culture: 'Kultur',
+    working_class: 'Arbeiderklasse',
+    grassroots: 'Grasrotbevegelse',
+    architecture: 'Arkitektur',
+    infrastructure: 'Infrastruktur',
+    protest: 'Protest',
+    activism: 'Aktivisme',
+    unemployment: 'Arbeidsløshet',
+    renovation: 'Renovering',
+    commerce: 'Handel',
+    education: 'Utdanning',
+    health: 'Helse',
+    war: 'Krig',
+    occupation: 'Okkupasjon',
+    resistance: 'Motstand',
+};
+
+// Historical images
+const historicalImages = [
+    '/images/biblioteket/historie/131437476_10157472308051816_5613509697897702049_n.jpg',
+    '/images/biblioteket/historie/143582441_10159029327632929_8546087818736402491_n.jpg',
+    '/images/biblioteket/historie/481263659_23905664919022129_2137822039716910527_n.jpg',
+    '/images/biblioteket/historie/485985039_10160382453116739_5393528813767313680_n.jpg',
+    '/images/biblioteket/historie/489025491_10160427834576739_3923494743279028896_n.jpg',
+    '/images/biblioteket/historie/490582077_9800162713431517_7431391571685646946_n.jpg',
+    '/images/biblioteket/historie/494887379_10160837846541816_8786451453550421570_n.jpg',
+    '/images/biblioteket/historie/509241208_10232953091283538_164274311214702453_n.jpg',
+    '/images/biblioteket/historie/512667533_10161045930676816_6143960965611382927_n.jpg',
+    '/images/biblioteket/historie/515278527_10160780998601739_3401247089254822682_n.jpg',
+    '/images/biblioteket/historie/515385023_10161098785301816_8143255531457919833_n.jpg',
+    '/images/biblioteket/historie/515444094_10161098895651816_3149696159658364459_n.jpg',
+    '/images/biblioteket/historie/516349845_10160780635401739_4676736649482318304_n.jpg',
+    '/images/biblioteket/historie/537759121_10160989190266739_8443019286027018674_n.jpg',
+    '/images/biblioteket/historie/Skjermbilde-2020-04-01-kl.-14.07.21-1200x891.png',
+];
 
 export default function HistoriePage() {
     const timeline = getHistorieTimeline();
@@ -106,6 +152,41 @@ export default function HistoriePage() {
                 </Container>
             </section>
 
+            {/* Introduction Section with Image Carousel */}
+            <section className="border-b border-gray-200 bg-white py-16">
+                <Container>
+                    <div className="grid gap-12 lg:grid-cols-2">
+                        {/* Text Column */}
+                        <div>
+                            <div className="rounded-2xl border border-gray-100 bg-gradient-to-br from-white to-gray-50 p-8 shadow-sm md:p-10">
+                                <h2 className="mb-6 text-3xl font-bold text-gray-900">
+                                    Om Grünerløkkas Utvikling
+                                </h2>
+                                <div className="prose prose-lg max-w-none">
+                                    <p className="text-lg text-gray-700 leading-relaxed">
+                                        Fra åker til fabrikk, fra slum til kulturbydel – Grünerløkka har gjennomgått en enestående transformasjon gjennom mer enn 170 år.
+                                    </p>
+                                    <p className="text-gray-700 leading-relaxed">
+                                        På 1850-tallet var området fortsatt preget av jordbruk og spredt bebyggelse. Med industrialiseringen vokste det raskt fram en tett arbeiderbydel rundt tekstilfabrikker og verksteder. Trange gater ble fylt med leiegårder hvor arbeiderklassen bodde under krevende forhold.
+                                    </p>
+                                    <p className="text-gray-700 leading-relaxed">
+                                        Gjennom 1900-tallet ble Grünerløkka både et senter for arbeiderorganisering og politisk aktivisme, men også et område preget av sosiale utfordringer. På 1970- og 80-tallet sto bydelen overfor forfall og nedleggelse av industri, samtidig som en aktiv motstand mot rivningsplaner samlet et kreativt og engasjert miljø.
+                                    </p>
+                                    <p className="text-gray-700 leading-relaxed">
+                                        Fra 1990-tallet tok gentrifiseringen til, og bydelen ble gradvis omdannet til et av Oslos mest populære og livlige strøk – et kulturelt kraftsenter med kafeer, gallerier, musikksteder og mangfold. Historien om Grünerløkka er en fortelling om klassekamp, byutvikling og identitet.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Image Carousel Column */}
+                        <div className="flex items-center">
+                            <ImageCarousel images={historicalImages} interval={5000} />
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
             {/* Main Content */}
             <Container className="py-16">
                 <div className="grid gap-12 lg:grid-cols-4">
@@ -137,7 +218,7 @@ export default function HistoriePage() {
                                         key={tag}
                                         className={`inline-block rounded-full px-3 py-1 text-xs font-medium ${tagColors[tag] || 'bg-gray-100 text-gray-700'}`}
                                     >
-                                        {tag.replace(/_/g, ' ')}
+                                        {tagTranslations[tag] || tag.replace(/_/g, ' ')}
                                     </span>
                                 ))}
                             </div>
@@ -192,10 +273,10 @@ export default function HistoriePage() {
                                                     {/* Content */}
                                                     <div className="flex-1 rounded-lg border border-gray-200 bg-white p-6 hover:shadow-md transition-shadow">
                                                         <h3 className="mb-2 text-lg font-semibold text-gray-900">
-                                                            {event.label}
+                                                            {translateHistorieText(event.label)}
                                                         </h3>
                                                         <p className="mb-4 text-gray-600">
-                                                            {event.summary}
+                                                            {translateHistorieText(event.summary)}
                                                         </p>
                                                         <div className="flex flex-wrap gap-2">
                                                             {event.tags.map((tag) => (
@@ -203,7 +284,7 @@ export default function HistoriePage() {
                                                                     key={tag}
                                                                     className={`inline-block rounded-full px-2 py-0.5 text-xs font-medium ${tagColors[tag] || 'bg-gray-100 text-gray-600'}`}
                                                                 >
-                                                                    {tag.replace(/_/g, ' ')}
+                                                                    {tagTranslations[tag] || tag.replace(/_/g, ' ')}
                                                                 </span>
                                                             ))}
                                                         </div>
