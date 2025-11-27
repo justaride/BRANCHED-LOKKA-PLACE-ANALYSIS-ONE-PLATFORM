@@ -1,0 +1,82 @@
+{
+  "site": {
+    "title": "Litteratur og Grünerløkka",
+    "description": "En oversikt over sakprosa, byhistorie og forskning om Grünerløkka – fra industriarbeiderbydel til gentrifisert kulturbydel.",
+    "pages": [
+      {
+        "id": "frontpage",
+        "slug": "/",
+        "title": "Litteratur og Grünerløkka",
+        "sections": [
+          {
+            "id": "intro",
+            "type": "text",
+            "heading": "Litteratur og Grünerløkka – et overblikk",
+            "paragraphs": [
+              "Grünerløkka er en av Oslos mest beskrevne bydeler i moderne sakprosa. I løpet av hundre år har forskere, lokalhistorikere, journalister og beboere skrevet om alt fra industri og arbeiderbevegelse til byfornyelse, boligmarked, gentrifisering og kaffebarkultur.",
+              "Litteraturen viser hvordan bydelen har skiftet rolle flere ganger: fra jordbrukslandskap og løkkeeiendommer til tett industrialisert arbeiderstrøk, via nedslitt og «saneringsmoden» bydel på 1960–70-tallet, til et av hovedstadens mest attraktive bolig- og utelivsområder."
+            ]
+          },
+          {
+            "id": "historiske_faser",
+            "type": "text",
+            "heading": "Fra industriarbeiderby til gentrifisert kulturbydel",
+            "paragraphs": [
+              "Før 1945 tegner kildene et bilde av Grünerløkka som «arbeiderbyen» langs Akerselva: tett murbebyggelse, fabrikker som Schous, Ringnes og Freia, trange boliger og sterke arbeider- og foreningsmiljøer. Etter krigen ble mange gårder slitt, og bydelen ble i perioder betraktet som problemområde.",
+              "På 1960–70-tallet sto valget mellom sanering og bevaring. Arkitekt- og planrapporter beskrev Grünerløkka som saneringsmoden, men leieboerbevegelse, fagmiljøer og politikere presset fram en ny linje: byfornyelse og rehabilitering fremfor riving. Husbanklån, kommunale kjøp og borettslag la grunnlaget for en fysisk oppgradert bydel.",
+              "Fra 1990-tallet til i dag har forskning og sakprosa fulgt hvordan denne oppgraderingen kombinert med uteliv, kultur og image-løft har bidratt til gentrifisering. Bydelen har gått fra å være typisk arbeiderstrøk til å få høy boligpris, nytt næringsliv og en annen sosial profil enn tidligere."
+            ]
+          },
+          {
+            "id": "timeline_embed",
+            "type": "timeline-ref",
+            "heading": "Tidslinje over litteratur og nøkkelhendelser",
+            "timelineId": "litteratur_og_grunerlokka"
+          }
+        ]
+      },
+      {
+        "id": "tidslinje",
+        "slug": "/tidslinje",
+        "title": "Tidslinje",
+        "sections": [
+          {
+            "id": "tidslinje_intro",
+            "type": "text",
+            "heading": "Tidslinje for litteratur og byutvikling",
+            "paragraphs": [
+              "Tidslinjen viser utvalgte bøker, rapporter og artikler som har satt ord på Grünerløkkas utvikling. Hvert punkt gir både en litterær referanse og en kort forklaring på hva som skjedde i bydelen i den aktuelle perioden."
+            ]
+          },
+          {
+            "id": "tidslinje_selve",
+            "type": "timeline-ref",
+            "heading": "Litteratur om Grünerløkka kronologisk",
+            "timelineId": "litteratur_og_grunerlokka"
+          }
+        ]
+      },
+      {
+        "id": "arkiver_og_analyse",
+        "slug": "/arkiver-og-analyse",
+        "title": "Arkiver og dype analyser",
+        "sections": [
+          {
+            "id": "arkiver_intro",
+            "type": "text",
+            "heading": "Arkiver, institusjoner og kildetyper",
+            "paragraphs": [
+              "Bak bøkene og artiklene om Grünerløkka ligger et stort nettverk av arkiver, museer og historielag: Oslo byarkiv, Arbeiderbevegelsens arkiv og bibliotek, Nasjonalbiblioteket, Oslo Museum og lokale historielag.",
+              "Her kan du filtrere kilder på tema, periode og institusjon for å se hvilke verk som sier mest om industri, byfornyelse, gentrifisering, erindringer og lokalhistorie."
+            ]
+          },
+          {
+            "id": "source_explorer",
+            "type": "source-explorer",
+            "heading": "Utforsk kilder og arkiver"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,306 @@
+[
+  {
+    "id": "anna-rogstad",
+    "name": "Anna Rogstad",
+    "birthYear": 1854,
+    "deathYear": 1938,
+    "mainPeriod": {
+      "from": 1900,
+      "to": 1923
+    },
+    "categories": [
+      "utdanning-og-likestilling",
+      "politikk"
+    ],
+    "summary": "Lærer og kvinnesakspioner som bodde på Grünerløkka, grunnla pikeskole og ble Norges første kvinnelige stortingsrepresentant.",
+    "description": "Bodde på Grünerløkka rundt århundreskiftet 1900, arbeidet for bedre utdanning for jenter og ledet en kommunal pikeskole i bydelen. Hun er også kjent som den første kvinnen som møtte på Stortinget.",
+    "connectionToGrunerlokka": "Bodde og arbeidet i bydelen i om lag 30 år, som lærer og bestyrer for pikeskolen på Grünerløkka.",
+    "relatedPlaces": [
+      "Grünerløkka pikeskole"
+    ],
+    "relatedOrganizations": [
+      "Grünerløkka pikeskole",
+      "Stortinget"
+    ],
+    "relatedPlaceIds": [
+      "grunerlokka-pikeskole"
+    ],
+    "imageUrl": "/images/ildsjeler/anna-rogstad.jpg",
+    "profileUrl": "/ildsjeler/anna-rogstad",
+    "links": [],
+    "isLiving": false
+  },
+  {
+    "id": "rolf-hofmo",
+    "name": "Rolf Hofmo",
+    "birthYear": 1898,
+    "deathYear": 1966,
+    "mainPeriod": {
+      "from": 1920,
+      "to": 1960
+    },
+    "categories": [
+      "arbeideridrett-og-samfunn"
+    ],
+    "summary": "Arbeideridrettens frontfigur med røtter på Grünerløkka, pådriver for idrettsanlegg og breddeidrett.",
+    "description": "Vokste opp på østkanten og engasjerte seg tidlig i lokal ungdomsbevegelse. Var med å stifte idrettslaget Spartacus i 1920 og ble senere sentral i arbeideridretten og utviklingen av idrettsanlegg som Dælenenga.",
+    "connectionToGrunerlokka": "Deltok i lokalt politisk arbeid og idrettsbevegelse på Grünerløkka, særlig gjennom ungdomsforening og idrettslag.",
+    "relatedPlaces": [
+      "Dælenenga idrettsplass"
+    ],
+    "relatedOrganizations": [
+      "Spartacus",
+      "Arbeidernes Idrettsforbund"
+    ],
+    "relatedPlaceIds": [
+      "daelenenga-idrettsanlegg"
+    ],
+    "imageUrl": "/images/ildsjeler/rolf-hofmo.jpg",
+    "profileUrl": "/ildsjeler/rolf-hofmo",
+    "links": [],
+    "isLiving": false
+  },
+  {
+    "id": "randi-spenningsby",
+    "name": "Randi Spenningsby",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 1970,
+      "to": 1980
+    },
+    "categories": [
+      "byutvikling-og-bevaring"
+    ],
+    "summary": "Frontfigur i beboerkampen for å bevare trehusbebyggelsen på Rodeløkka på 1970-tallet.",
+    "description": "Leder for aksjonsutvalget for bevaring av Rodeløkka, som mobiliserte beboere mot kommunens saneringsplaner. Tok direkte kontakt med politikere og bidro til at bystyret i 1977 vedtok å bevare det meste av trehusmiljøet.",
+    "connectionToGrunerlokka": "Ledet beboeraksjoner på Rodeløkka og påvirket byutviklingen i hele Grünerløkka.",
+    "relatedPlaces": [
+      "Rodeløkka"
+    ],
+    "relatedOrganizations": [
+      "Aksjonsutvalget for bevaring av Rodeløkka"
+    ],
+    "relatedPlaceIds": [
+      "rodelokka"
+    ],
+    "imageUrl": "/images/ildsjeler/randi-spenningsby.jpg",
+    "profileUrl": "/ildsjeler/randi-spenningsby",
+    "links": [],
+    "isLiving": null
+  },
+  {
+    "id": "magnhild-johansen",
+    "name": "Magnhild Johansen",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 1970,
+      "to": 1980
+    },
+    "categories": [
+      "byutvikling-og-bevaring"
+    ],
+    "summary": "Leieboerleder som samarbeidet med grunneierne for å redde Rodeløkka fra sanering.",
+    "description": "Ledet leieboerforeningen på Rodeløkka og stod skulder ved skulder med aksjonsutvalget i kampen mot kommunens rivingsplaner. Var viktig for å samle både leieboere og eiere om samme sak.",
+    "connectionToGrunerlokka": "Sentral i Rodeløkka-aksjonene som sikret bevaring av småhusmiljøet.",
+    "relatedPlaces": [
+      "Rodeløkka"
+    ],
+    "relatedOrganizations": [
+      "Leieboerforeningen på Rodeløkka"
+    ],
+    "relatedPlaceIds": [
+      "rodelokka"
+    ],
+    "imageUrl": "/images/ildsjeler/magnhild-johansen.jpg",
+    "profileUrl": "/ildsjeler/magnhild-johansen",
+    "links": [],
+    "isLiving": null
+  },
+  {
+    "id": "jan-vardoen",
+    "name": "Jan Vardøen",
+    "birthYear": 1962,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 1990,
+      "to": null
+    },
+    "categories": [
+      "kultur-og-utested",
+      "naeringsliv-og-grundere"
+    ],
+    "summary": "Gründer og kulturentreprenør bak flere av Grünerløkkas mest kjente utesteder og møteplasser.",
+    "description": "Står bak steder som Bar Boca, Parkteatret, Villa Paradiso, Aku Aku og The Nighthawk Diner. Har vært en viktig kraft i å gjøre Grünerløkka til en levende kultur- og utelivsbydel, med vekt på særpreg og historisk forankring.",
+    "connectionToGrunerlokka": "Har etablert og drevet en rekke utesteder og kulturarenaer i bydelen siden 1990-tallet.",
+    "relatedPlaces": [
+      "Bar Boca",
+      "Parkteatret",
+      "Villa Paradiso",
+      "Aku Aku",
+      "The Nighthawk Diner"
+    ],
+    "relatedOrganizations": [
+      "Parkteatret",
+      "Villa Paradiso"
+    ],
+    "relatedPlaceIds": [
+      "thorvald-meyers-gate",
+      "olaf-ryes-plass"
+    ],
+    "imageUrl": "/images/ildsjeler/jan-vardoen.jpg",
+    "profileUrl": "/ildsjeler/jan-vardoen",
+    "links": [],
+    "isLiving": true
+  },
+  {
+    "id": "tim-wendelboe",
+    "name": "Tim Wendelboe",
+    "birthYear": 1979,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2007,
+      "to": null
+    },
+    "categories": [
+      "mat-og-drikke",
+      "naeringsliv-og-grundere"
+    ],
+    "summary": "Verdenskjent barista og kaffebrenner som har gjort Grünerløkka til en destinasjon for kvalitetskaffe.",
+    "description": "Åpnet espressobar og mikrobrenneri i Grüners gate, og har siden bygget opp et miljø for spesialkaffe med kurs, foredrag og internasjonalt samarbeid. Bidrar til å profilere bydelen som et sted for håndverk og smak.",
+    "connectionToGrunerlokka": "Driver kaffebar og brenneri i Grüners gate, og tiltrekker kaffeinteresserte fra hele verden til Grünerløkka.",
+    "relatedPlaces": [
+      "Grüners gate"
+    ],
+    "relatedOrganizations": [
+      "Tim Wendelboe"
+    ],
+    "relatedPlaceIds": [
+      "gruners-gate"
+    ],
+    "imageUrl": "/images/ildsjeler/tim-wendelboe.jpg",
+    "profileUrl": "/ildsjeler/tim-wendelboe",
+    "links": [],
+    "isLiving": true
+  },
+  {
+    "id": "marianne-westbye",
+    "name": "Marianne Westbye",
+    "birthYear": 1966,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2000,
+      "to": null
+    },
+    "categories": [
+      "lokalhistorie",
+      "frivillighet"
+    ],
+    "summary": "Styreleder i Grünerløkka historielag og aktiv formidler av bydelens historie.",
+    "description": "Arrangerer historiske vandringer, foredrag og digitale kalenderprosjekter, med mål om å gjøre lokalhistorien tilgjengelig for både unge og gamle. Engasjerer seg også for bedre vern og vedlikehold av gamle gårder.",
+    "connectionToGrunerlokka": "Langvarig frivillig arbeid gjennom historielaget og politisk engasjement for bydelens kulturmiljø.",
+    "relatedPlaces": [
+      "Grünerløkka"
+    ],
+    "relatedOrganizations": [
+      "Grünerløkka historielag"
+    ],
+    "relatedPlaceIds": [
+      "grunerlokka"
+    ],
+    "imageUrl": "/images/ildsjeler/marianne-westbye.jpg",
+    "profileUrl": "/ildsjeler/marianne-westbye",
+    "links": [],
+    "isLiving": true
+  },
+  {
+    "id": "torgny-hasaas",
+    "name": "Torgny Hasås",
+    "birthYear": 1951,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 1995,
+      "to": null
+    },
+    "categories": [
+      "idrett-og-frivillighet"
+    ],
+    "summary": "Idrettsfrivillig som har jobbet i flere tiår for barn og unge i Grünerløkka og for bygging av ny flerbrukshall.",
+    "description": "Har vært aktiv i Grüner Idrettslag og Idrettens samarbeidsutvalg, og tok initiativ til arbeidet med en flerbrukshall ved Dælenenga på slutten av 1990-tallet. Fikk Oslo bys pris Årets ildsjel i 2020 for lang og målrettet innsats.",
+    "connectionToGrunerlokka": "Har jobbet med idretts- og anleggsutvikling i bydelen siden 1990-tallet, med særlig fokus på Dælenenga.",
+    "relatedPlaces": [
+      "Dælenenga idrettsplass",
+      "Dælenenga flerbrukshall"
+    ],
+    "relatedOrganizations": [
+      "Grüner Idrettslag",
+      "Idrettens samarbeidsutvalg Grünerløkka"
+    ],
+    "relatedPlaceIds": [
+      "daelenenga-idrettsanlegg"
+    ],
+    "imageUrl": "/images/ildsjeler/torgny-hasaas.jpg",
+    "profileUrl": "/ildsjeler/torgny-hasaas",
+    "links": [],
+    "isLiving": true
+  },
+  {
+    "id": "vegard-holm",
+    "name": "Vegard Holm",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 1970,
+      "to": null
+    },
+    "categories": [
+      "idrett-og-frivillighet"
+    ],
+    "summary": "Livslang Løkka-beboer og ildsjel i Grüner Idrettslag, særlig rundt Grüner Hockey.",
+    "description": "Har bodd på Grünerløkka i over 70 år og hatt en rekke verv i Grüner IL. Var en av pådriverne bak innsamlingen som skulle sikre økonomien til Grüner Hockey da klubben rykket opp i eliteserien.",
+    "connectionToGrunerlokka": "Sterk lokal tilknytning gjennom idrettslag, frivillig arbeid og støtte til hockeysatsingen på Dælenenga.",
+    "relatedPlaces": [
+      "Dælenenga ishall"
+    ],
+    "relatedOrganizations": [
+      "Grüner Idrettslag",
+      "Grüner Hockey"
+    ],
+    "relatedPlaceIds": [
+      "daelenenga-ishall"
+    ],
+    "imageUrl": "/images/ildsjeler/vegard-holm.jpg",
+    "profileUrl": "/ildsjeler/vegard-holm",
+    "links": [],
+    "isLiving": null
+  },
+  {
+    "id": "sollin-saele",
+    "name": "Sollin Sæle",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2020,
+      "to": null
+    },
+    "categories": [
+      "naeringsliv-og-grundere",
+      "ungt-engasjement"
+    ],
+    "summary": "Ung gründer fra Grünerløkka som har jobbet for å løfte fram lokale butikker og ildsjeler.",
+    "description": "Har blant annet vært involvert i kampanjer for å støtte småbutikker under pandemien og i nominasjoner av lokale steder til priser som «Lokal stjerne». Representerer en ny generasjon engasjerte gründere med sterk lokal forankring.",
+    "connectionToGrunerlokka": "Bor og jobber i bydelen, med prosjekter som retter seg direkte mot lokale næringsdrivende.",
+    "relatedPlaces": [
+      "Grünerløkka"
+    ],
+    "relatedOrganizations": [],
+    "relatedPlaceIds": [
+      "grunerlokka"
+    ],
+    "imageUrl": "/images/ildsjeler/sollin-saele.jpg",
+    "profileUrl": "/ildsjeler/sollin-saele",
+    "links": [],
+    "isLiving": true
+  }
+]

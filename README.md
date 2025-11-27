@@ -73,15 +73,15 @@ This platform serves **9 separate tenants** under one codebase:
 | Company | Route | Properties | Focus |
 |---------|-------|-----------|-------|
 | **SPABO Eiendom** | `/spabo` | 22 | Largest portfolio |
-| **Aspelin Ramm** | `/aspelin-ramm` | 4 | FutureBuilt Vulkan |
+| **Aspelin Ramm** | `/aspelin-ramm` | 5 | FutureBuilt Vulkan + Mathallen |
 | **Maya Eiendom** | `/maya-eiendom` | 4 | Markveien |
 | **Brødrene Evensen** | `/brodrene-evensen` | 3 | Mixed portfolio |
 | **Roger Vodal** | `/roger-vodal` | 3 | Brenneriveien |
 | **SiO** | `/sio` | 3 | Student housing |
 | **Eiendomsspar** | `/eiendomsspar` | 2 | Thorvald Meyers gate |
-| **Malling & Co** | `/malling-co` | 1 | Single property |
+| **Front Real Estate** | `/malling-co` | 1 | Single property |
 
-**Total: 42 properties with complete place analysis data**
+**Total: 43 properties with complete place analysis data**
 
 ---
 
@@ -320,6 +320,29 @@ npm run type-check   # TypeScript validation
 
 ## 🎯 Recent Updates
 
+### November 27, 2025
+
+**Mathallen Oslo - Interactive 1-Minute Analysis:**
+- ✅ Added Mathallen Oslo to Aspelin Ramm portfolio (5th property)
+- ✅ Implemented interactive 1-minute analysis with 4 data categories
+- ✅ Created OneMinAnalysisViewer component for interactive data display
+- ✅ Converted CSV data to JSON for bevegelse, korthandel, konkurransebilde, aktorer
+- ✅ 12 business actors with full financial data (97.6M NOK total revenue)
+- ✅ Updated PropertyCard to show property names (not just addresses)
+- ✅ Front Real Estate rebranding (formerly Malling & Co)
+
+**1-Minute Analysis Features:**
+- Bevegelse (Movement): Daily visits, hourly patterns, quarterly trends
+- Korthandel (Card transactions): Revenue by day/week, category breakdown
+- Konkurransebilde (Competition): Market analysis, chain vs independent
+- Aktorer (Actors): 12 businesses with revenue, growth, market share
+
+**Technical Implementation:**
+- Static imports for Vercel compatibility in data loaders
+- Recharts integration for interactive visualizations
+- Conditional rendering (interactive charts OR legacy screenshots)
+- TypeScript strict mode compliance
+
 ### November 26, 2025
 
 **2024 Årsrapport Interactive Charts:**
@@ -423,10 +446,11 @@ Private & Confidential - © 2025 Løkka Gardeierforening & Natural State
 
 ## 🌟 Status
 
-**Current:** 98% Complete
+**Current:** 99% Complete
 **Deployment:** ✅ Live on Vercel
 **Quality:** 🚀 Production Ready
 **Last Major Updates:**
+- Mathallen Oslo Interactive 1-Min Analysis (Nov 27, 2025)
 - 2024 Årsrapport Interactive Charts (Nov 26, 2025)
 - Områdesammenligning 2024 Interactive Charts (Nov 26, 2025)
 

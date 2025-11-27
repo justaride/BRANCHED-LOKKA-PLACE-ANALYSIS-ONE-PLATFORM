@@ -1,0 +1,148 @@
+[
+  {
+    "id": "1909-anna-rogstad-pikeskole",
+    "year": 1909,
+    "title": "Anna Rogstad blir bestyrer for pikeskolen på Grünerløkka",
+    "description": "Den kommunale pikeskolen på Grünerløkka får Anna Rogstad som bestyrer, og jenters utdanning styrkes i bydelen.",
+    "category": "utdanning-og-likestilling",
+    "ildsjelIds": [
+      "anna-rogstad"
+    ],
+    "place": "Grünerløkka pikeskole",
+    "placeId": "grunerlokka-pikeskole"
+  },
+  {
+    "id": "1911-anna-rogstad-stortinget",
+    "year": 1911,
+    "title": "Anna Rogstad møter som første kvinne på Stortinget",
+    "description": "Rogstad møter som første kvinnelige representant på Stortinget, med bakgrunn som lærer og skoleleder på Grünerløkka.",
+    "category": "politikk",
+    "ildsjelIds": [
+      "anna-rogstad"
+    ],
+    "place": "Oslo",
+    "placeId": null
+  },
+  {
+    "id": "1920-spartacus-stiftes",
+    "year": 1920,
+    "title": "Idrettslaget Spartacus stiftes på Grünerløkka",
+    "description": "Rolf Hofmo og andre unge fra arbeiderbevegelsen starter idrettslaget Spartacus som del av arbeideridretten.",
+    "category": "arbeideridrett-og-samfunn",
+    "ildsjelIds": [
+      "rolf-hofmo"
+    ],
+    "place": "Grünerløkka",
+    "placeId": "grunerlokka"
+  },
+  {
+    "id": "1972-rodelokka-aksjon",
+    "year": 1972,
+    "title": "Beboeraksjonene på Rodeløkka starter",
+    "description": "Randi Spenningsby, Magnhild Johansen og andre beboere organiserer seg mot kommunens rivingsplaner for Rodeløkka.",
+    "category": "byutvikling-og-bevaring",
+    "ildsjelIds": [
+      "randi-spenningsby",
+      "magnhild-johansen"
+    ],
+    "place": "Rodeløkka",
+    "placeId": "rodelokka"
+  },
+  {
+    "id": "1977-rodelokka-bevares",
+    "year": 1977,
+    "title": "Bystyret vedtar å bevare Rodeløkka",
+    "description": "Etter flere år med beboerkamp blir det vedtatt å bevare det meste av trehusbebyggelsen på Rodeløkka.",
+    "category": "byutvikling-og-bevaring",
+    "ildsjelIds": [
+      "randi-spenningsby",
+      "magnhild-johansen"
+    ],
+    "place": "Rodeløkka",
+    "placeId": "rodelokka"
+  },
+  {
+    "id": "1995-bar-boca-apner",
+    "year": 1995,
+    "title": "Bar Boca åpner på Grünerløkka",
+    "description": "Jan Vardøen åpner Bar Boca, som blir starten på en bølge av små, særegne utesteder i bydelen.",
+    "category": "kultur-og-utested",
+    "ildsjelIds": [
+      "jan-vardoen"
+    ],
+    "place": "Thorvald Meyers gate",
+    "placeId": "thorvald-meyers-gate"
+  },
+  {
+    "id": "2002-parkteatret-gjenapnes",
+    "year": 2002,
+    "title": "Parkteatret gjenåpnes som kulturhus",
+    "description": "Det gamle kinobygget på Olaf Ryes plass gjenoppstår som konsertscene og bar, med Jan Vardøen som en av drivkreftene.",
+    "category": "kultur-og-utested",
+    "ildsjelIds": [
+      "jan-vardoen"
+    ],
+    "place": "Olaf Ryes plass",
+    "placeId": "olaf-ryes-plass"
+  },
+  {
+    "id": "2007-tim-wendelboe-apner",
+    "year": 2007,
+    "title": "Tim Wendelboe åpner espressobar og mikrobrenneri",
+    "description": "Verdensmesteren i baristakunst etablerer sitt eget sted i Grüners gate, og Grünerløkka blir et tyngdepunkt for spesialkaffe.",
+    "category": "mat-og-drikke",
+    "ildsjelIds": [
+      "tim-wendelboe"
+    ],
+    "place": "Grüners gate",
+    "placeId": "gruners-gate"
+  },
+  {
+    "id": "2019-gruner-hockey-eliteserien",
+    "year": 2019,
+    "title": "Grüner Hockey rykker opp til eliteserien",
+    "description": "Grüner Hockey tar steget opp til eliteserien, og Vegard Holm og andre ildsjeler setter i gang en lokal spleis for å støtte klubben økonomisk.",
+    "category": "idrett-og-frivillighet",
+    "ildsjelIds": [
+      "vegard-holm"
+    ],
+    "place": "Dælenenga",
+    "placeId": "daelenenga-ishall"
+  },
+  {
+    "id": "2019-grunerlokka-historielag-synlig",
+    "year": 2019,
+    "title": "Grünerløkka historielag blir tydelig i offentligheten",
+    "description": "Marianne Westbye profilerer historielaget og peker på behovet for bedre vern av gamle bygårder og økonomiske støtteordninger.",
+    "category": "lokalhistorie",
+    "ildsjelIds": [
+      "marianne-westbye"
+    ],
+    "place": "Grünerløkka",
+    "placeId": "grunerlokka"
+  },
+  {
+    "id": "2020-torgny-hasaas-arets-ildsjel",
+    "year": 2020,
+    "title": "Torgny Hasås kåres til Årets ildsjel i Oslo",
+    "description": "Etter rundt 25 års arbeid for idretten og hallprosjektet på Dælenenga får Hasås Oslo bys pris Årets ildsjel.",
+    "category": "idrett-og-frivillighet",
+    "ildsjelIds": [
+      "torgny-hasaas"
+    ],
+    "place": "Dælenenga",
+    "placeId": "daelenenga-idrettsanlegg"
+  },
+  {
+    "id": "2022-lokal-stjerne",
+    "year": 2022,
+    "title": "Lokal stjerne-kåring løfter fram nye ildsjeler",
+    "description": "Kåringen «Lokal stjerne» trekker fram unike steder og personer på Grünerløkka, der blant andre Sollin Sæle er involvert i å løfte fram lokale butikker.",
+    "category": "naeringsliv-og-grundere",
+    "ildsjelIds": [
+      "sollin-saele"
+    ],
+    "place": "Grünerløkka",
+    "placeId": "grunerlokka"
+  }
+]

@@ -7,13 +7,13 @@ interface AktorerTableProps {
 }
 
 export default function AktorerTable({ data }: AktorerTableProps) {
-  // Top 10 actors by revenue
-  const topActors = data.actors.slice(0, 10);
+  // Show all actors
+  const allActors = data.actors;
 
   return (
     <div className="space-y-6">
       {/* Summary metrics */}
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
         <div className="rounded-lg bg-lokka-light p-4 text-center">
           <div className="text-sm text-gray-600">Totalt antall aktører</div>
           <div className="text-2xl font-bold text-lokka-primary">{data.metadata.totalActors}</div>
@@ -29,11 +29,15 @@ export default function AktorerTable({ data }: AktorerTableProps) {
           </div>
           <div className="text-xs text-gray-500">NOK</div>
         </div>
+        <div className="rounded-lg bg-purple-50 p-4 text-center">
+          <div className="text-sm text-gray-600">Områdestørrelse</div>
+          <div className="text-2xl font-bold text-purple-600">{data.metadata.areaSize}</div>
+        </div>
       </div>
 
-      {/* Top actors table */}
+      {/* All actors table */}
       <div className="rounded-lg bg-white p-6 shadow-soft">
-        <h4 className="mb-4 text-base font-semibold text-gray-900">Top 10 aktører i området</h4>
+        <h4 className="mb-4 text-base font-semibold text-gray-900">Alle aktører i området ({allActors.length})</h4>
         <div className="overflow-x-auto">
           <table className="w-full text-left text-sm">
             <thead className="border-b bg-gray-50 text-xs uppercase text-gray-700">
@@ -48,7 +52,7 @@ export default function AktorerTable({ data }: AktorerTableProps) {
               </tr>
             </thead>
             <tbody>
-              {topActors.map((actor, index) => (
+              {allActors.map((actor, index) => (
                 <tr
                   key={actor.rank}
                   className={`border-b ${
@@ -63,18 +67,24 @@ export default function AktorerTable({ data }: AktorerTableProps) {
                   <td className="px-4 py-3 text-xs text-gray-600">{actor.type}</td>
                   <td className="px-4 py-3 font-medium">{actor.omsetning}M NOK</td>
                   <td className="px-4 py-3">
-                    <span
-                      className={`inline-flex rounded-full px-2 py-1 text-xs font-semibold ${
-                        actor.yoyVekst > 0
-                          ? 'bg-green-100 text-green-800'
-                          : actor.yoyVekst < 0
-                            ? 'bg-red-100 text-red-800'
-                            : 'bg-gray-100 text-gray-800'
-                      }`}
-                    >
-                      {actor.yoyVekst > 0 ? '+' : ''}
-                      {actor.yoyVekst}%
-                    </span>
+                    {actor.yoyVekst !== null ? (
+                      <span
+                        className={`inline-flex rounded-full px-2 py-1 text-xs font-semibold ${
+                          actor.yoyVekst > 0
+                            ? 'bg-green-100 text-green-800'
+                            : actor.yoyVekst < 0
+                              ? 'bg-red-100 text-red-800'
+                              : 'bg-gray-100 text-gray-800'
+                        }`}
+                      >
+                        {actor.yoyVekst > 0 ? '+' : ''}
+                        {actor.yoyVekst}%
+                      </span>
+                    ) : (
+                      <span className="inline-flex rounded-full bg-gray-100 px-2 py-1 text-xs text-gray-500">
+                        N/A
+                      </span>
+                    )}
                   </td>
                   <td className="px-4 py-3">{actor.ansatteLokalt}</td>
                   <td className="px-4 py-3 font-medium">{actor.markedsandel.toFixed(1)}%</td>

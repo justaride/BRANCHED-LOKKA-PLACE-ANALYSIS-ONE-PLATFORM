@@ -1,0 +1,449 @@
+{
+  "id": "grunerlokka_timeline",
+  "title": "Grünerløkka – Urban Development Timeline",
+  "place": {
+    "name": "Grünerløkka",
+    "city": "Oslo",
+    "country": "Norway"
+  },
+  "time_span": {
+    "start_year": 1850,
+    "end_year": 2010
+  },
+  "events": [
+    {
+      "id": "1850s_land_subdivision",
+      "label": "Hans Grüner begins subdividing and selling plots",
+      "start_year": 1850,
+      "end_year": 1859,
+      "precision": "decade",
+      "section_id": "19th_century_origins_industry_and_expansion",
+      "summary": "In the 1850s, landowner Hans Grüner starts subdividing and selling plots in anticipation of the area being incorporated into Christiania, triggering rapid wooden house construction later dubbed 'Ny York'.",
+      "tags": [
+        "urban_expansion",
+        "land_development",
+        "housing"
+      ],
+      "entities": [
+        "person_hans_gruner",
+        "place_ny_york",
+        "place_akerselva"
+      ]
+    },
+    {
+      "id": "1856_christiania_seildugsfabrik",
+      "label": "Christiania Seildugsfabrik established by Akerselva",
+      "start_year": 1856,
+      "end_year": 1856,
+      "precision": "year",
+      "section_id": "19th_century_origins_industry_and_expansion",
+      "summary": "Christiania Seildugsfabrik opens by the Akerselva river and becomes a key industrial workplace, embedding Grünerløkka into Oslo's factory belt.",
+      "tags": [
+        "industry",
+        "akerselva",
+        "workplaces"
+      ],
+      "entities": [
+        "org_christiania_seildugsfabrik",
+        "place_akerselva"
+      ]
+    },
+    {
+      "id": "1858_city_boundary_expansion",
+      "label": "Grünerløkka incorporated into Christiania",
+      "start_year": 1858,
+      "end_year": 1858,
+      "precision": "year",
+      "section_id": "19th_century_origins_industry_and_expansion",
+      "summary": "With the 1858 city boundary expansion, Grünerløkka becomes part of Christiania and stricter masonry building codes halt the uncontrolled wooden building in Ny York.",
+      "tags": [
+        "administrative_change",
+        "urban_expansion",
+        "regulation"
+      ],
+      "entities": [
+        "place_grunerlokka",
+        "place_ny_york"
+      ]
+    },
+    {
+      "id": "1861_ny_york_growth",
+      "label": "Ny York reaches 69 houses and 1,500 residents",
+      "start_year": 1861,
+      "end_year": 1861,
+      "precision": "year",
+      "section_id": "19th_century_origins_industry_and_expansion",
+      "summary": "By spring 1861, the hastily built Ny York wooden district counts 69 buildings and about 1,500 inhabitants, symbolising explosive, low-standard growth.",
+      "tags": [
+        "housing",
+        "population",
+        "slum"
+      ],
+      "entities": [
+        "place_ny_york"
+      ]
+    },
+    {
+      "id": "1861_thorvald_meyer_invests",
+      "label": "Thorvald Meyer invests and lays out the main street",
+      "start_year": 1861,
+      "end_year": 1861,
+      "precision": "year",
+      "section_id": "19th_century_origins_industry_and_expansion",
+      "summary": "Merchant Thorvald Meyer buys large tracts on Grünerløkka, finances the main street (now Thorvald Meyers gate) and donates land for parks, a school and a church.",
+      "tags": [
+        "urban_planning",
+        "philanthropy",
+        "infrastructure"
+      ],
+      "entities": [
+        "person_thorvald_meyer",
+        "street_thorvald_meyers_gate",
+        "place_birkelunden",
+        "place_olaf_ryes_plass"
+      ]
+    },
+    {
+      "id": "1875_foss_jernstoperi",
+      "label": "Foss Jernstøperi established",
+      "start_year": 1875,
+      "end_year": 1875,
+      "precision": "year",
+      "section_id": "19th_century_origins_industry_and_expansion",
+      "summary": "Foss Jernstøperi is established on the upper Akerselva, reinforcing Grünerløkka's role in the industrial corridor.",
+      "tags": [
+        "industry",
+        "akerselva"
+      ],
+      "entities": [
+        "org_foss_jernstoperi",
+        "place_akerselva"
+      ]
+    },
+    {
+      "id": "1892_paulus_church_built",
+      "label": "Paulus Church built",
+      "start_year": 1892,
+      "end_year": 1892,
+      "precision": "year",
+      "section_id": "early_20th_century_the_working_class_community",
+      "summary": "Paulus Church is completed, providing a central religious and social space for the working-class community.",
+      "tags": [
+        "religion",
+        "social_infrastructure",
+        "community"
+      ],
+      "entities": [
+        "org_paulus_church"
+      ]
+    },
+    {
+      "id": "1895_grunerlokka_school",
+      "label": "Grünerløkka School opens",
+      "start_year": 1895,
+      "end_year": 1895,
+      "precision": "year",
+      "section_id": "early_20th_century_the_working_class_community",
+      "summary": "Grünerløkka School is built to serve the rapidly growing number of children in the district.",
+      "tags": [
+        "education",
+        "social_infrastructure"
+      ],
+      "entities": [
+        "org_grunerlokka_school"
+      ]
+    },
+    {
+      "id": "1900_population_peak",
+      "label": "Population reaches around 22,000",
+      "start_year": 1900,
+      "end_year": 1900,
+      "precision": "year",
+      "section_id": "19th_century_origins_industry_and_expansion",
+      "summary": "Around 1900, Paulus parish counts roughly 22,000 inhabitants, making Grünerløkka one of Oslo's most densely populated areas.",
+      "tags": [
+        "population",
+        "density",
+        "working_class"
+      ],
+      "entities": [
+        "place_grunerlokka"
+      ]
+    },
+    {
+      "id": "1907_parkteatret_opens",
+      "label": "Parkteatret opens at Olaf Ryes plass",
+      "start_year": 1907,
+      "end_year": 1907,
+      "precision": "year",
+      "section_id": "early_20th_century_the_working_class_community",
+      "summary": "Parkteatret opens as a theatre and later cinema at Olaf Ryes plass, becoming a key local cultural venue.",
+      "tags": [
+        "culture",
+        "leisure",
+        "cinema"
+      ],
+      "entities": [
+        "org_parkteatret",
+        "place_olaf_ryes_plass"
+      ]
+    },
+    {
+      "id": "1907_cooperative_womens_association",
+      "label": "Cooperative Women's Association founded",
+      "start_year": 1907,
+      "end_year": 1907,
+      "precision": "year",
+      "section_id": "early_20th_century_the_working_class_community",
+      "summary": "A cooperative women's association is founded to organise housewives around thrift and social improvement.",
+      "tags": [
+        "cooperative",
+        "social_movement",
+        "gender"
+      ],
+      "entities": []
+    },
+    {
+      "id": "1930s_great_depression",
+      "label": "Great Depression hits Grünerløkka",
+      "start_year": 1930,
+      "end_year": 1939,
+      "precision": "decade",
+      "section_id": "early_20th_century_the_working_class_community",
+      "summary": "During the interwar years and the Great Depression, unemployment rises sharply and many families on Grünerløkka live in cramped and poor conditions, though neighbourhood solidarity remains strong.",
+      "tags": [
+        "economic_crisis",
+        "working_class",
+        "poverty"
+      ],
+      "entities": []
+    },
+    {
+      "id": "1940_1945_occupation",
+      "label": "German occupation and wartime everyday life",
+      "start_year": 1940,
+      "end_year": 1945,
+      "precision": "range_years",
+      "section_id": "world_war_ii_and_postwar_challenges",
+      "summary": "During WWII, Grünerløkka is marked by rationing, blackouts, military presence and local acts of resistance, as residents try to maintain everyday life under occupation.",
+      "tags": [
+        "world_war_ii",
+        "occupation",
+        "rationing"
+      ],
+      "entities": [
+        "org_freia",
+        "org_schous_bryggeri",
+        "org_ringnes_bryggeri"
+      ]
+    },
+    {
+      "id": "1947_clearance_plan",
+      "label": "First clearance plan approved",
+      "start_year": 1947,
+      "end_year": 1947,
+      "precision": "year",
+      "section_id": "world_war_ii_and_postwar_challenges",
+      "summary": "Oslo City Council approves a clearance scheme involving parts of Grünerløkka and Enerhaugen, aiming to replace old tenements with modern housing.",
+      "tags": [
+        "urban_planning",
+        "clearance",
+        "modernism"
+      ],
+      "entities": [
+        "org_oslo_city_council"
+      ]
+    },
+    {
+      "id": "1961_drabantby_competition",
+      "label": "Architectural competition for 'new drabantby'",
+      "start_year": 1961,
+      "end_year": 1961,
+      "precision": "year",
+      "section_id": "world_war_ii_and_postwar_challenges",
+      "summary": "Oslo Byes Vel launches an architectural competition that proposes replacing most of Grünerløkka with a modernist high-rise satellite town.",
+      "tags": [
+        "modernism",
+        "urban_planning",
+        "highrise"
+      ],
+      "entities": [
+        "org_oslo_byes_vel"
+      ]
+    },
+    {
+      "id": "1969_1970_motorway_decision",
+      "label": "Motorway decided through the district",
+      "start_year": 1969,
+      "end_year": 1970,
+      "precision": "range_years",
+      "section_id": "world_war_ii_and_postwar_challenges",
+      "summary": "In the late 1960s, the city council decides that a four-lane motorway should run through Grünerløkka, and a building freeze is imposed along the planned route.",
+      "tags": [
+        "transport_planning",
+        "motorway",
+        "threat_to_heritage"
+      ],
+      "entities": [
+        "org_oslo_city_council"
+      ]
+    },
+    {
+      "id": "1971_tenants_association",
+      "label": "Grünerløkka Tenants' Association founded",
+      "start_year": 1971,
+      "end_year": 1971,
+      "precision": "year",
+      "section_id": "world_war_ii_and_postwar_challenges",
+      "summary": "On 8 December 1971, residents form Grünerløkka Leieboerforening to fight demolition plans and the motorway, and to advocate for renewal on residents' terms.",
+      "tags": [
+        "grassroots",
+        "tenants_movement",
+        "heritage_preservation"
+      ],
+      "entities": [
+        "org_grunerlokka_leieboerforening"
+      ]
+    },
+    {
+      "id": "1973_sondre_grunerlokka_clearance_vote",
+      "label": "Council votes to clear Søndre Grünerløkka",
+      "start_year": 1973,
+      "end_year": 1973,
+      "precision": "year",
+      "section_id": "world_war_ii_and_postwar_challenges",
+      "summary": "In 1973, the city council votes for large-scale clearance of Søndre Grünerløkka, including Ny York, affecting hundreds of dwellings and businesses.",
+      "tags": [
+        "urban_planning",
+        "conflict",
+        "clearance"
+      ],
+      "entities": [
+        "org_oslo_city_council",
+        "place_ny_york"
+      ]
+    },
+    {
+      "id": "1977_byfornyelse_program",
+      "label": "Official byfornyelse program adopted",
+      "start_year": 1977,
+      "end_year": 1977,
+      "precision": "year",
+      "section_id": "world_war_ii_and_postwar_challenges",
+      "summary": "Oslo abandons full clearance and adopts a byfornyelse (urban renewal) program that prioritizes rehabilitation of existing tenements and careful infill.",
+      "tags": [
+        "byfornyelse",
+        "policy_shift",
+        "heritage_preservation"
+      ],
+      "entities": [
+        "org_oslo_city_council"
+      ]
+    },
+    {
+      "id": "1979_ny_york_rehabilitation",
+      "label": "Rehabilitation of Ny York blocks begins",
+      "start_year": 1979,
+      "end_year": 1979,
+      "precision": "year",
+      "section_id": "world_war_ii_and_postwar_challenges",
+      "summary": "Two condemned Ny York blocks are saved from demolition and are gradually rehabilitated as part of the byfornyelse program.",
+      "tags": [
+        "byfornyelse",
+        "rehabilitation",
+        "heritage_preservation"
+      ],
+      "entities": [
+        "place_ny_york"
+      ]
+    },
+    {
+      "id": "1986_stolmakergata_project",
+      "label": "OBOS completes Stolmakergata housing project",
+      "start_year": 1986,
+      "end_year": 1986,
+      "precision": "year",
+      "section_id": "world_war_ii_and_postwar_challenges",
+      "summary": "OBOS completes a major housing complex in Stolmakergata with about 240 apartments, replacing some of the old Ny York fabric but matching the street scale.",
+      "tags": [
+        "housing",
+        "byfornyelse",
+        "infill_development"
+      ],
+      "entities": [
+        "org_obos"
+      ]
+    },
+    {
+      "id": "1990s_gentrification",
+      "label": "Gentrification accelerates on Grünerløkka",
+      "start_year": 1990,
+      "end_year": 1999,
+      "precision": "decade",
+      "section_id": "byfornyelse_and_gentrification_1970s_2000s",
+      "summary": "During the 1990s, students, artists and young middle-class families move into renovated apartments, giving the district a bohemian and café-oriented character.",
+      "tags": [
+        "gentrification",
+        "demographic_change",
+        "culture"
+      ],
+      "entities": [
+        "place_grunerlokka"
+      ]
+    },
+    {
+      "id": "1995_fru_hagen_opens",
+      "label": "Café 'Fru Hagen' opens on Thorvald Meyers gate",
+      "start_year": 1995,
+      "end_year": 1995,
+      "precision": "year",
+      "section_id": "byfornyelse_and_gentrification_1970s_2000s",
+      "summary": "The opening of café Fru Hagen becomes a symbol of the new café culture and gentrification wave along Thorvald Meyers gate.",
+      "tags": [
+        "cafe_culture",
+        "gentrification",
+        "nightlife"
+      ],
+      "entities": [
+        "street_thorvald_meyers_gate"
+      ]
+    },
+    {
+      "id": "2006_birkelunden_heritage",
+      "label": "Birkelunden heritage area designated",
+      "start_year": 2006,
+      "end_year": 2006,
+      "precision": "year",
+      "section_id": "byfornyelse_and_gentrification_1970s_2000s",
+      "summary": "Birkelunden and 15 surrounding blocks with 135 buildings are designated as a protected cultural heritage environment.",
+      "tags": [
+        "heritage_preservation",
+        "planning_regulation"
+      ],
+      "entities": [
+        "place_birkelunden"
+      ]
+    },
+    {
+      "id": "2000s_cultural_district",
+      "label": "Grünerløkka established as cultural hub",
+      "start_year": 2000,
+      "end_year": 2010,
+      "precision": "range_years",
+      "section_id": "byfornyelse_and_gentrification_1970s_2000s",
+      "summary": "From the 2000s, Grünerløkka becomes known for a dense network of cafés, bars, venues and creative workplaces, while its working-class history remains visible in the built environment.",
+      "tags": [
+        "culture",
+        "nightlife",
+        "creative_industries"
+      ],
+      "entities": [
+        "org_bla",
+        "org_dansens_hus",
+        "org_riksscenen",
+        "org_parkteatret"
+      ]
+    }
+  ],
+  "version": 1
+}

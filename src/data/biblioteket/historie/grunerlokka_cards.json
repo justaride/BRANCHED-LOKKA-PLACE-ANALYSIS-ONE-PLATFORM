@@ -1,0 +1,22 @@
+{
+  "id": "grunerlokka_cards",
+  "place_id": "grunerlokka",
+  "version": 1,
+  "cards": [
+    {
+      "document_id": "grunerlokka_urban_development",
+      "slug": "grunerlokka-urban-development",
+      "title": "Grünerløkka",
+      "subtitle": "Fra fabrikkbelte til kulturbydel",
+      "years": "1850–2010-tallet",
+      "primary_tag": "urban_development",
+      "secondary_tags": [
+        "byfornyelse",
+        "gentrification",
+        "industry"
+      ],
+      "teaser": "På rundt 170 år har Grünerløkka gått fra jordbruksland langs Akerselva til et av Oslos mest ettertraktede kulturstrøk – via fabrikkby, arbeiderstrøk, saneringsplaner og byfornyelse.",
+      "hero_image": "/images/grunerlokka/birkelunden.jpg"
+    }
+  ]
+}

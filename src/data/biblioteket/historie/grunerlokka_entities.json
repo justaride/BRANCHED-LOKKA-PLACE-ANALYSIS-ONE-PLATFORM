@@ -1,0 +1,284 @@
+{
+  "id": "grunerlokka_entities",
+  "topic_id": "grunerlokka_urban_development",
+  "place": {
+    "id": "grunerlokka",
+    "name": "Grünerløkka",
+    "city": "Oslo",
+    "country": "Norway"
+  },
+  "version": 1,
+  "entities": [
+    {
+      "id": "person_friedrich_gruner",
+      "name": "Friedrich Grüner",
+      "type": "person",
+      "roles": [
+        "mill_owner",
+        "landowner"
+      ],
+      "description": "Owner of Nedre Foss mill and surrounding property; the Grünerløkka district is named after him.",
+      "mentions": [
+        {
+          "section_id": "19th_century_origins_industry_and_expansion",
+          "event_ids": []
+        }
+      ]
+    },
+    {
+      "id": "person_hans_gruner",
+      "name": "Hans Grüner",
+      "type": "person",
+      "roles": [
+        "landowner",
+        "developer"
+      ],
+      "description": "Landowner who began subdividing and selling plots on Grünerløkka in the 1850s, triggering rapid wooden house construction later called 'Ny York'.",
+      "mentions": [
+        {
+          "section_id": "19th_century_origins_industry_and_expansion",
+          "event_ids": [
+            "1850s_land_subdivision",
+            "1861_ny_york_growth"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "person_thorvald_meyer",
+      "name": "Thorvald Meyer",
+      "type": "person",
+      "roles": [
+        "investor",
+        "landowner",
+        "philanthropist"
+      ],
+      "description": "Investor who bought large tracts on Grünerløkka in 1861, financed the main street (now Thorvald Meyers gate) and donated plots for parks, a school and a church.",
+      "mentions": [
+        {
+          "section_id": "19th_century_origins_industry_and_expansion",
+          "event_ids": [
+            "1861_thorvald_meyer_invests",
+            "1900_population_peak"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "person_georg_andreas_bull",
+      "name": "Georg Andreas Bull",
+      "type": "person",
+      "roles": [
+        "city_planner",
+        "architect"
+      ],
+      "description": "City planner who drew up an orderly plan for Grünerløkka with parks and a regular street grid in the late 19th century.",
+      "mentions": [
+        {
+          "section_id": "19th_century_origins_industry_and_expansion",
+          "event_ids": []
+        }
+      ]
+    },
+    {
+      "id": "person_edvard_bull",
+      "name": "Edvard Bull d.y.",
+      "type": "person",
+      "roles": [
+        "historian"
+      ],
+      "description": "Historian who described Ny York as 'a monument to our nascent industrialization' and characterized Grünerløkka as 'beste østkant'.",
+      "mentions": [
+        {
+          "section_id": "19th_century_origins_industry_and_expansion",
+          "event_ids": []
+        },
+        {
+          "section_id": "conclusion_continuity_and_change_in_a_city_district",
+          "event_ids": []
+        }
+      ]
+    },
+    {
+      "id": "org_christiania_seildugsfabrik",
+      "name": "Christiania Seildugsfabrik",
+      "type": "organisation",
+      "roles": [
+        "factory"
+      ],
+      "description": "Canvas factory established by Akerselva in 1856, contributing to Grünerløkka's role as part of the industrial belt.",
+      "mentions": [
+        {
+          "section_id": "19th_century_origins_industry_and_expansion",
+          "event_ids": [
+            "1856_christiania_seildugsfabrik"
+          ]
+        },
+        {
+          "section_id": "byfornyelse_and_gentrification_1970s_2000s",
+          "event_ids": [
+            "2000s_cultural_district"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "org_schous_bryggeri",
+      "name": "Schous Bryggeri",
+      "type": "organisation",
+      "roles": [
+        "brewery"
+      ],
+      "description": "Brewery founded in 1821 at Schous plass; a key industrial employer in and around Grünerløkka.",
+      "mentions": [
+        {
+          "section_id": "19th_century_origins_industry_and_expansion",
+          "event_ids": []
+        },
+        {
+          "section_id": "byfornyelse_and_gentrification_1970s_2000s",
+          "event_ids": [
+            "2000s_cultural_district"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "org_grunerlokka_leieboerforening",
+      "name": "Grünerløkka Leieboerforening",
+      "type": "organisation",
+      "roles": [
+        "tenants_association",
+        "grassroots_movement"
+      ],
+      "description": "Tenants' association founded 8 December 1971 to fight demolition and motorway plans and to promote renewal on residents' terms.",
+      "mentions": [
+        {
+          "section_id": "world_war_ii_and_postwar_challenges",
+          "event_ids": [
+            "1971_tenants_association",
+            "1977_byfornyelse_program"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "org_oslo_city_council",
+      "name": "Oslo City Council",
+      "type": "organisation",
+      "roles": [
+        "municipal_authority"
+      ],
+      "description": "Municipal decision-making body responsible for clearance plans, motorway decisions and later the byfornyelse program for Grünerløkka.",
+      "mentions": [
+        {
+          "section_id": "world_war_ii_and_postwar_challenges",
+          "event_ids": [
+            "1947_clearance_plan",
+            "1969_1970_motorway_decision",
+            "1973_sondre_grunerlokka_clearance_vote",
+            "1977_byfornyelse_program"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "org_parkteatret",
+      "name": "Parkteatret",
+      "type": "organisation",
+      "roles": [
+        "cinema",
+        "theatre",
+        "concert_venue"
+      ],
+      "description": "Theatre and later cinema opened in 1907 at Olaf Ryes plass; today a concert stage and bar.",
+      "mentions": [
+        {
+          "section_id": "early_20th_century_the_working_class_community",
+          "event_ids": [
+            "1907_parkteatret_opens"
+          ]
+        },
+        {
+          "section_id": "byfornyelse_and_gentrification_1970s_2000s",
+          "event_ids": [
+            "2000s_cultural_district"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "place_birkelunden",
+      "name": "Birkelunden",
+      "type": "place",
+      "subtype": "park",
+      "description": "Central park and square on Grünerløkka, created on land donated by Thorvald Meyer and later designated part of the Birkelunden heritage area.",
+      "mentions": [
+        {
+          "section_id": "19th_century_origins_industry_and_expansion",
+          "event_ids": [
+            "1861_thorvald_meyer_invests"
+          ]
+        },
+        {
+          "section_id": "byfornyelse_and_gentrification_1970s_2000s",
+          "event_ids": [
+            "2006_birkelunden_heritage",
+            "2000s_cultural_district"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "place_ny_york",
+      "name": "Ny York",
+      "type": "place",
+      "subtype": "subdistrict",
+      "description": "Nickname for the rapidly built wooden-house area on southern Grünerløkka in the 1850s–1860s, later threatened by clearance.",
+      "mentions": [
+        {
+          "section_id": "19th_century_origins_industry_and_expansion",
+          "event_ids": [
+            "1850s_land_subdivision",
+            "1861_ny_york_growth"
+          ]
+        },
+        {
+          "section_id": "world_war_ii_and_postwar_challenges",
+          "event_ids": [
+            "1973_sondre_grunerlokka_clearance_vote",
+            "1979_ny_york_rehabilitation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "place_akerselva",
+      "name": "Akerselva",
+      "type": "place",
+      "subtype": "river",
+      "description": "River forming the western edge of Grünerløkka; historically an industrial belt and later an important green corridor.",
+      "mentions": [
+        {
+          "section_id": "19th_century_origins_industry_and_expansion",
+          "event_ids": [
+            "1856_christiania_seildugsfabrik",
+            "1875_foss_jernstoperi"
+          ]
+        },
+        {
+          "section_id": "world_war_ii_and_postwar_challenges",
+          "event_ids": [
+            "1940_1945_occupation"
+          ]
+        },
+        {
+          "section_id": "byfornyelse_and_gentrification_1970s_2000s",
+          "event_ids": [
+            "2000s_cultural_district"
+          ]
+        }
+      ]
+    }
+  ]
+}

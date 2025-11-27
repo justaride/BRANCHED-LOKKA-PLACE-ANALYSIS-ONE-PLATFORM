@@ -1,0 +1,63 @@
+{
+  "archives": [
+    {
+      "id": "oslo-byarkiv",
+      "name": "Oslo byarkiv",
+      "type": "kommunalt arkiv",
+      "url": "https://www.oslo.kommune.no/byarkivet/",
+      "description": "Kommunens arkiv med byggesaker, byfornyelsesdokumenter, kart og foto fra Grünerløkka.",
+      "topics": [
+        "byfornyelse",
+        "boligpolitikk",
+        "kommunale planer"
+      ]
+    },
+    {
+      "id": "arbark",
+      "name": "Arbeiderbevegelsens arkiv og bibliotek",
+      "type": "privat arkiv",
+      "url": "https://www.arbark.no/",
+      "description": "Arkiv for fagforeninger, arbeiderpartilag og andre organisasjoner knyttet til arbeiderbevegelsen.",
+      "topics": [
+        "arbeiderbevegelse",
+        "fagforeninger",
+        "arbeiderkultur"
+      ]
+    },
+    {
+      "id": "nasjonalbiblioteket",
+      "name": "Nasjonalbiblioteket",
+      "type": "nasjonalt bibliotek",
+      "url": "https://www.nb.no/",
+      "description": "Samler trykt litteratur, aviser, foto, kart og lydopptak – inkludert mye om Grünerløkka.",
+      "topics": [
+        "sakprosa",
+        "aviser",
+        "foto"
+      ]
+    },
+    {
+      "id": "oslo-museum",
+      "name": "Oslo Museum / Bymuseet",
+      "type": "museum",
+      "url": "https://www.oslomuseum.no/",
+      "description": "Byhistorisk museum med store fotosamlinger og utstillinger om indre by og Akerselva.",
+      "topics": [
+        "foto",
+        "byhistorie",
+        "utstillinger"
+      ]
+    },
+    {
+      "id": "grunerlokka-historielag",
+      "name": "Grünerløkka historielag",
+      "type": "historielag",
+      "url": "",
+      "description": "Lokalt historielag som gir ut årbøker, hefter og arrangerer byvandringer på Grünerløkka.",
+      "topics": [
+        "lokalhistorie",
+        "erindringer"
+      ]
+    }
+  ]
+}

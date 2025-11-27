@@ -19,6 +19,10 @@ interface BevegelseChartProps {
 }
 
 export default function BevegelseChart({ data }: BevegelseChartProps) {
+  if (!data || !data.nøkkeltall) {
+    return null;
+  }
+
   return (
     <div className="space-y-6">
       {/* Key metrics */}

@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "place_id": "grunerlokka",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "birkelunden",
+        "label": "Birkelunden",
+        "type": "park",
+        "first_mentioned_event": "1861_thorvald_meyer_invests"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7613,
+          59.9234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "schous_bryggeri",
+        "label": "Schous bryggeri",
+        "type": "industrial_site",
+        "first_mentioned_event": "1850s_land_subdivision"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7595,
+          59.9189
+        ]
+      }
+    }
+  ]
+}

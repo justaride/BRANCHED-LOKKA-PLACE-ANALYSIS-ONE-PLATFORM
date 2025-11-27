@@ -1,0 +1,240 @@
+{
+  "timelines": [
+    {
+      "id": "litteratur_og_grunerlokka",
+      "title": "Tidslinje for litteratur om Grünerløkka",
+      "description": "Utvalgte bøker, rapporter og artikler som belyser Grünerløkkas utvikling fra industriarbeiderby til gentrifisert kulturbydel.",
+      "events": [
+        {
+          "id": "e1913_reusch",
+          "year": 1913,
+          "title": "Grünerløkka som del av den nordøstre «arbeiderbyen»",
+          "description": "Hans Reusch beskriver Kristianias geografi og peker ut Grünerløkka som en del av den nordøstre arbeiderbyen – et tidlig uttrykk for bydelens klassestempel.",
+          "works": [
+            "reusch_1913"
+          ],
+          "categories": [
+            "byhistorie",
+            "forarbeid"
+          ],
+          "tags": [
+            "arbeiderby",
+            "kart"
+          ]
+        },
+        {
+          "id": "e1927_arntzen_overn",
+          "year": 1927,
+          "title": "Lokalhistorie om Grünerløkka, Rodeløkka og Sagene",
+          "description": "Arntzen og Overn gir en av de første samlede lokalhistoriske framstillingene av arbeiderstrøkene langs Akerselva.",
+          "works": [
+            "arntzen_overn_1927"
+          ],
+          "categories": [
+            "lokalhistorie"
+          ],
+          "tags": [
+            "arbeiderstrøk"
+          ]
+        },
+        {
+          "id": "e1962_bull",
+          "year": 1962,
+          "title": "«Grünerløkka: beste østkant»",
+          "description": "Edvard Bull d.y. publiserer klassikeren som beskriver Grünerløkka som «beste østkant» – relativt velstilt arbeiderstrøk med sterke organisasjoner og tett industri.",
+          "works": [
+            "bull_1962_beste_ostkant"
+          ],
+          "categories": [
+            "arbeiderhistorie"
+          ],
+          "tags": [
+            "beste østkant"
+          ]
+        },
+        {
+          "id": "e1972_martens",
+          "year": 1972,
+          "title": "Grünerløkka som saneringsmoden bydel",
+          "description": "Arkitektstudentene Martens, Hvattum og Kjellstad spør om bydelen er saneringsmoden og skisserer riving og nybygg – et høydepunkt i saneringsdiskursen.",
+          "works": [
+            "martens_1972_saneringsmoden"
+          ],
+          "categories": [
+            "byplanlegging",
+            "sanering"
+          ],
+          "tags": [
+            "saneringsplaner"
+          ]
+        },
+        {
+          "id": "e1974_boligundersokelse",
+          "year": 1974,
+          "title": "Boligundersøkelser på Grünerløkka",
+          "description": "Sandereid, Larsen og Martens dokumenterer boligsituasjonen i bydelen og viser omfanget av forfall og trangboddhet – viktig kunnskapsgrunnlag for byfornyelsen.",
+          "works": [
+            "sandereid_1974_boligundersokelse"
+          ],
+          "categories": [
+            "bolig",
+            "levekår"
+          ],
+          "tags": [
+            "boligundersøkelse"
+          ]
+        },
+        {
+          "id": "e1981_aaen",
+          "year": 1981,
+          "title": "Byfornyelse i stedet for riving",
+          "description": "Solveig Aaens rapport om byfornyelse av Grünerløkka markerer overgangen fra sanering til rehabilitering, med Husbanklån, kommunale kjøp og borettslag.",
+          "works": [
+            "aaen_1981_byfornyelse"
+          ],
+          "categories": [
+            "byfornyelse",
+            "boligpolitikk"
+          ],
+          "tags": [
+            "byfornyelse"
+          ]
+        },
+        {
+          "id": "e1990_byhistorie",
+          "year": 1990,
+          "title": "Grünerløkka i Oslo bys historie",
+          "description": "Myhre og Kjeldstadli plasserer Grünerløkka i den brede historien om øst–vest-skillet og hovedstadens vekst.",
+          "works": [
+            "myhre_1990_hovedstaden",
+            "kjeldstadli_1990_delte_byen"
+          ],
+          "categories": [
+            "byhistorie"
+          ],
+          "tags": [
+            "øst–vest"
+          ]
+        },
+        {
+          "id": "e1994_benum",
+          "year": 1994,
+          "title": "Etterkrigstidens byutvikling og byfornyelse",
+          "description": "Benum viser hvordan etterkrigstidens sanerings- og byfornyelsespolitikk endrer indre øst og peker på Grünerløkka som tidlig case.",
+          "works": [
+            "benum_1994_byraokratienes_by"
+          ],
+          "categories": [
+            "byutvikling"
+          ],
+          "tags": [
+            "etterkrigstid"
+          ]
+        },
+        {
+          "id": "e1998_hoel_thuesen",
+          "year": 1998,
+          "title": "Lokalhistorisk praktbok om «Løkka»",
+          "description": "Hoel og Thuesen gir en helhetlig vandring gjennom Grünerløkkas historie og fanger overgangen fra industristrøk til urban kulturbydel.",
+          "works": [
+            "hoel_thuesen_1998_vandring"
+          ],
+          "categories": [
+            "lokalhistorie"
+          ],
+          "tags": [
+            "praktbok"
+          ]
+        },
+        {
+          "id": "e1999_2005_gentrifisering",
+          "year": 2005,
+          "title": "Tidlig gentrifisering på Grünerløkka",
+          "description": "Gabrielsen, Andreassen, Aspen og Børrud analyserer bydelen som «bydel i forandring», med fokus på boligmarked, image og nye middelklassegrupper.",
+          "works": [
+            "gabrielsen_1999_bydel_i_forandring",
+            "aspen_2005_by_og_byliv",
+            "borrud_2005_hva_skjer"
+          ],
+          "categories": [
+            "gentrifisering",
+            "byliv"
+          ],
+          "tags": [
+            "1990-tallet"
+          ]
+        },
+        {
+          "id": "e2001_brattbakk_dyb",
+          "year": 2001,
+          "title": "Byfornyelse, utflytting og «byfordyrelse»",
+          "description": "Brattbakk og Dyb viser hvordan byfornyelsen førte til høy beboerutskifting og mer ressurssterk befolkning i rehabiliterte gårder i indre øst.",
+          "works": [
+            "brattbakk_dyb_2001_byfornyelsen"
+          ],
+          "categories": [
+            "byfornyelse",
+            "sosialgeografi"
+          ],
+          "tags": [
+            "utflytting"
+          ]
+        },
+        {
+          "id": "e2014_hoeg_sofienbergparken",
+          "year": 2014,
+          "title": "Sofienbergparken som sosialt rom",
+          "description": "Elida Høeg viser hvordan Sofienbergparken både er tumleplass for byens folk og et territorium for de utstøtte – et speil av sosiale spenninger i bydelen.",
+          "works": [
+            "hoeg_2014_sofienbergparken"
+          ],
+          "categories": [
+            "byrom",
+            "sosialhistorie"
+          ],
+          "tags": [
+            "park",
+            "offentlig rom"
+          ]
+        },
+        {
+          "id": "e2020_kohne_iglebaek",
+          "year": 2020,
+          "title": "Gentrifisering, kamp og fortellinger",
+          "description": "Kohnes doktoravhandling og Iglebæks artikkel «Slaget om Grünerløkka» kobler internasjonal gentrifiseringsforskning med lokale kamper mot sanering og for bevaring.",
+          "works": [
+            "kohne_2020_gentrifiseringens_flertydighet",
+            "iglebaek_2020_slaget_om_lokka"
+          ],
+          "categories": [
+            "gentrifisering",
+            "byfornyelse"
+          ],
+          "tags": [
+            "kamp",
+            "internasjonal sammenligning"
+          ]
+        },
+        {
+          "id": "e2023_2025_ny_debatt",
+          "year": 2025,
+          "title": "Ny debatt om gentrifisering og boligpolitikk",
+          "description": "Ofstad, Fossen og Hewitt/Brattbakk/Cucca oppsummerer erfaringene fra Grünerløkka i debatter om gentrifisering, velferdsstat og boligpolitikk.",
+          "works": [
+            "ofstad_2023_reddet_fra_rasering",
+            "fossen_2025_frykten_for_gentrifisering",
+            "hewitt_brattbakk_cucca_2025_kronikk"
+          ],
+          "categories": [
+            "gentrifisering",
+            "boligpolitikk"
+          ],
+          "tags": [
+            "debatt",
+            "velferdsstat"
+          ]
+        }
+      ]
+    }
+  ]
+}

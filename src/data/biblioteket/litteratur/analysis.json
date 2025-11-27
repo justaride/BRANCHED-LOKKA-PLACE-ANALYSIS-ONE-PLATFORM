@@ -1,0 +1,42 @@
+{
+  "analyses": [
+    {
+      "id": "industri_arbeiderbevegelse",
+      "title": "Industri og arbeiderbevegelse",
+      "description": "Verk som særlig belyser industrihistorie, arbeidsliv og organisering i og rundt Grünerløkka.",
+      "filters": {
+        "topics": [
+          "industri",
+          "industrihistorie",
+          "arbeiderhistorie",
+          "arbeiderbevegelse"
+        ]
+      }
+    },
+    {
+      "id": "byfornyelse_boligpolitikk",
+      "title": "Byfornyelse og boligpolitikk",
+      "description": "Rapporter og bøker om sanering, byfornyelse, Husbank, borettslag og levekår.",
+      "filters": {
+        "topics": [
+          "byfornyelse",
+          "bolig",
+          "boligpolitikk",
+          "levekår"
+        ]
+      }
+    },
+    {
+      "id": "gentrifisering_og_byliv",
+      "title": "Gentrifisering og nytt byliv",
+      "description": "Litteratur som diskuterer gentrifisering, boligpriser, image og kafé- og kulturliv på Løkka.",
+      "filters": {
+        "topics": [
+          "gentrifisering",
+          "byliv",
+          "boligmarked"
+        ]
+      }
+    }
+  ]
+}

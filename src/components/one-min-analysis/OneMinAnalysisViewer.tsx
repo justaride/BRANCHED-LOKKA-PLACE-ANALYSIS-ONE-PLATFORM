@@ -44,45 +44,76 @@ export default function OneMinAnalysisViewer({
               priority
             />
           </div>
-          <div className="mt-4 grid grid-cols-2 gap-4 md:grid-cols-4">
-            <div className="rounded-lg bg-gray-50 p-4 text-center">
-              <div className="text-sm text-gray-600">Befolkning</div>
-              <div className="text-2xl font-bold text-gray-900">
-                {data.demografi.nøkkeltall.befolkning}
+          {data.demografi ? (
+            <div className="mt-4 grid grid-cols-2 gap-4 md:grid-cols-4">
+              <div className="rounded-lg bg-gray-50 p-4 text-center">
+                <div className="text-sm text-gray-600">Befolkning</div>
+                <div className="text-2xl font-bold text-gray-900">
+                  {data.demografi.nøkkeltall.befolkning}
+                </div>
+              </div>
+              <div className="rounded-lg bg-gray-50 p-4 text-center">
+                <div className="text-sm text-gray-600">Befolkningstetthet</div>
+                <div className="text-2xl font-bold text-gray-900">
+                  {data.demografi.nøkkeltall.befolkningstetthet.toLocaleString('nb-NO')}
+                </div>
+                <div className="text-xs text-gray-500">per km²</div>
+              </div>
+              <div className="rounded-lg bg-gray-50 p-4 text-center">
+                <div className="text-sm text-gray-600">Områdestørrelse</div>
+                <div className="text-2xl font-bold text-gray-900">
+                  {data.demografi.nøkkeltall.områdestørrelse}
+                </div>
+                <div className="text-xs text-gray-500">km²</div>
+              </div>
+              <div className="rounded-lg bg-gray-50 p-4 text-center">
+                <div className="text-sm text-gray-600">Vekst</div>
+                <div className={`text-2xl font-bold ${
+                  data.demografi.nøkkeltall.vekst > 0 ? 'text-green-600' : 'text-red-600'
+                }`}>
+                  {data.demografi.nøkkeltall.vekst > 0 ? '+' : ''}
+                  {data.demografi.nøkkeltall.vekst}%
+                </div>
               </div>
             </div>
-            <div className="rounded-lg bg-gray-50 p-4 text-center">
-              <div className="text-sm text-gray-600">Befolkningstetthet</div>
-              <div className="text-2xl font-bold text-gray-900">
-                {data.demografi.nøkkeltall.befolkningstetthet.toLocaleString('nb-NO')}
+          ) : (
+            <div className="mt-4 grid grid-cols-2 gap-4 md:grid-cols-4">
+              <div className="rounded-lg bg-gray-50 p-4 text-center">
+                <div className="text-sm text-gray-600">Daglig besøk</div>
+                <div className="text-2xl font-bold text-gray-900">
+                  {data.bevegelse.nøkkeltall.dagligBesøk.toLocaleString('nb-NO')}
+                </div>
               </div>
-              <div className="text-xs text-gray-500">per km²</div>
-            </div>
-            <div className="rounded-lg bg-gray-50 p-4 text-center">
-              <div className="text-sm text-gray-600">Områdestørrelse</div>
-              <div className="text-2xl font-bold text-gray-900">
-                {data.demografi.nøkkeltall.områdestørrelse}
+              <div className="rounded-lg bg-gray-50 p-4 text-center">
+                <div className="text-sm text-gray-600">Besøk per km²</div>
+                <div className="text-2xl font-bold text-gray-900">
+                  {data.bevegelse.nøkkeltall.besøkPerKm2.toLocaleString('nb-NO')}
+                </div>
               </div>
-              <div className="text-xs text-gray-500">km²</div>
-            </div>
-            <div className="rounded-lg bg-gray-50 p-4 text-center">
-              <div className="text-sm text-gray-600">Vekst</div>
-              <div className={`text-2xl font-bold ${
-                data.demografi.nøkkeltall.vekst > 0 ? 'text-green-600' : 'text-red-600'
-              }`}>
-                {data.demografi.nøkkeltall.vekst > 0 ? '+' : ''}
-                {data.demografi.nøkkeltall.vekst}%
+              <div className="rounded-lg bg-gray-50 p-4 text-center">
+                <div className="text-sm text-gray-600">Travleste dag</div>
+                <div className="text-2xl font-bold text-gray-900">
+                  {data.bevegelse.nøkkeltall.travlesteDag}
+                </div>
+              </div>
+              <div className="rounded-lg bg-gray-50 p-4 text-center">
+                <div className="text-sm text-gray-600">Lørdag-andel</div>
+                <div className="text-2xl font-bold text-gray-900">
+                  {data.bevegelse.nøkkeltall.lørdagAndel}%
+                </div>
               </div>
             </div>
-          </div>
+          )}
         </section>
       )}
 
-      {/* Demografi Section */}
-      <section>
-        <h3 className="mb-6 text-2xl font-bold text-gray-900">Demografi</h3>
-        <AldersfordelingChart data={data.demografi} />
-      </section>
+      {/* Demografi Section - only show if demografi data exists */}
+      {data.demografi && (
+        <section>
+          <h3 className="mb-6 text-2xl font-bold text-gray-900">Demografi</h3>
+          <AldersfordelingChart data={data.demografi} />
+        </section>
+      )}
 
       {/* Bevegelse Section */}
       <section>

@@ -1,0 +1,425 @@
+{
+  "sources": [
+    {
+      "id": "ovrebo-barndom-grunerlokka",
+      "title": "Barndom på Grünerløkka: erindringer fra en oppvekst 1920–1940",
+      "creators": [
+        "Turid Øvrebø (red.)"
+      ],
+      "year": 2002,
+      "type": "book",
+      "category": "lokalhistorie",
+      "summary": "Erindringer fra mennesker som vokste opp på Grünerløkka i mellomkrigstiden.",
+      "period": {
+        "from": 1920,
+        "to": 1940
+      },
+      "places": [
+        "grunerlokka",
+        "birkelunden",
+        "akerselva"
+      ],
+      "themes": [
+        "arbeiderklasse",
+        "trangboddhet",
+        "bakgardslek",
+        "historisk-bakgrunn"
+      ],
+      "url": "https://www.nb.no/items/ca7eabdcafc84908d42ca14e760b3125"
+    },
+    {
+      "id": "wardenaer-oppvekst-grunerlokka",
+      "title": "En oppvekst på Grünerløkka",
+      "creators": [
+        "Raymond Wardenær"
+      ],
+      "year": 2018,
+      "type": "book",
+      "category": "memoar",
+      "summary": "Memoarbok med foto fra barndom i Karlstadgata på 1940–50-tallet.",
+      "period": {
+        "from": 1940,
+        "to": 1960
+      },
+      "places": [
+        "grunerlokka",
+        "karlstadgata",
+        "daelenenga",
+        "freia-fabrikk"
+      ],
+      "themes": [
+        "etterkrigstid",
+        "arbeiderklasse",
+        "gatelek",
+        "foto"
+      ],
+      "url": "https://www.vartoslo.no/bydel-grnerlokka-raymond-wardenaer-volleyballforbundet/en-personlig-fortelling-med-egne-bilder-om-oppvekst-pa-grnerløkka-eller-gronnlokka/273047"
+    },
+    {
+      "id": "fretheim-ingenting-sa-sebastian",
+      "title": "Ingenting, sa Sebastian",
+      "creators": [
+        "Tor Fretheim"
+      ],
+      "year": 2005,
+      "type": "book",
+      "category": "skjonnlitteratur",
+      "summary": "Barneroman om Sebastian (9) som bor alene med faren på Grünerløkka og opplever en flerkulturell bysommer.",
+      "period": {
+        "from": 2000,
+        "to": 2005
+      },
+      "places": [
+        "grunerlokka",
+        "akerselva"
+      ],
+      "themes": [
+        "barn",
+        "flerkulturell-barndom",
+        "byliv",
+        "vennskap"
+      ],
+      "url": "https://www.cappelendamm.no/boker/ingenting-sa-sebastian-tor-fretheim-9788202246570"
+    },
+    {
+      "id": "fretheim-gruners-gronne-hage",
+      "title": "Grüners grønne hage",
+      "creators": [
+        "Tor Fretheim"
+      ],
+      "year": 2002,
+      "type": "book",
+      "category": "skjonnlitteratur",
+      "summary": "Ungdomsroman som kobler Edvard Munchs barndom på Løkka med en gutt på 2000-tallet, rundt Kuba og Akerselva.",
+      "period": {
+        "from": 1875,
+        "to": 2000
+      },
+      "places": [
+        "grunerlokka",
+        "kuba-parken",
+        "akerselva"
+      ],
+      "themes": [
+        "historisk-bakgrunn",
+        "oppvekst",
+        "kunst",
+        "kontinuitet-og-endring"
+      ],
+      "url": "https://www.ark.no/produkt/boker/barneboker/gruners-gronne-hage-9788202225032"
+    },
+    {
+      "id": "johansen-grunerlokka-fortellinger",
+      "title": "Grünerløkka: fortellinger",
+      "creators": [
+        "Carl Johansen"
+      ],
+      "year": 2017,
+      "type": "book",
+      "category": "skjonnlitteratur",
+      "summary": "Novellesamling med korte fortellinger fra miljøer på Grünerløkka i nyere tid.",
+      "period": {
+        "from": 1990,
+        "to": 2017
+      },
+      "places": [
+        "grunerlokka"
+      ],
+      "themes": [
+        "oppvekst",
+        "ungdomskultur",
+        "gentrifisering",
+        "lokalkultur"
+      ],
+      "url": "https://www.ark.no/produkt/boker/skjonnlitteratur/grunerlokka-9788241915369"
+    },
+    {
+      "id": "aaby-barns-blikk-pa-lokka",
+      "title": "Barns blikk på Løkka",
+      "creators": [
+        "Anne Aaby"
+      ],
+      "year": 2016,
+      "type": "thesis",
+      "category": "forskning",
+      "summary": "Masteroppgave der elever ved Grünerløkka skole tegner mentale kart og forteller om nærmiljøet.",
+      "period": {
+        "from": 2010,
+        "to": 2016
+      },
+      "places": [
+        "grunerlokka",
+        "grunerlokka-skole",
+        "birkelunden",
+        "sofienbergparken"
+      ],
+      "themes": [
+        "barns-perspektiv",
+        "byrom",
+        "frihet-og-kontroll"
+      ],
+      "url": "https://core.ac.uk/download/pdf/30900643.pdf"
+    },
+    {
+      "id": "grimsrud-barn-pa-lokka",
+      "title": "Barn på Løkka",
+      "creators": [
+        "Synne Aker Grimsrud"
+      ],
+      "year": 2019,
+      "type": "thesis",
+      "category": "forskning",
+      "summary": "Masteroppgave om barns og foreldres bruk av uterom og byrom på Grünerløkka.",
+      "period": {
+        "from": 2010,
+        "to": 2019
+      },
+      "places": [
+        "grunerlokka",
+        "birkelunden",
+        "sofienbergparken",
+        "kuba-parken"
+      ],
+      "themes": [
+        "barn",
+        "uterom",
+        "trygghet",
+        "barnefamilier-i-indre-by"
+      ],
+      "url": "https://www.uio.no/om/samarbeid/samfunn-og-naringsliv/osloforskning/tidligere-master-og-hovedfagsoppgaver/"
+    },
+    {
+      "id": "hernes-bofaste-barnefamilier",
+      "title": "Bofaste barnefamilier i indre by",
+      "creators": [
+        "Helga Rognstad Hernes"
+      ],
+      "year": 2019,
+      "type": "thesis",
+      "category": "forskning",
+      "summary": "Masteroppgave om barnefamilier som velger å bli boende på Grünerløkka og hvilke kvaliteter de verdsetter.",
+      "period": {
+        "from": 2010,
+        "to": 2019
+      },
+      "places": [
+        "grunerlokka"
+      ],
+      "themes": [
+        "barnefamilier-i-indre-by",
+        "bomiljo",
+        "gentrifisering"
+      ],
+      "url": "https://hdl.handle.net/11250/2647004"
+    },
+    {
+      "id": "asefaw-det-finnes-ingen-naboer",
+      "title": "Det finnes ingen naboer her lenger",
+      "creators": [
+        "Signe Rosenlund-Hauglid",
+        "Hanna Asefaw"
+      ],
+      "year": 2023,
+      "type": "film",
+      "category": "film",
+      "summary": "Kortdokumentar om oppvekst i kommunal blokk i Sannergata 32 på Nedre Grünerløkka.",
+      "period": {
+        "from": 1995,
+        "to": 2023
+      },
+      "places": [
+        "sannergata-32",
+        "grunerlokka"
+      ],
+      "themes": [
+        "kommunale-boliger",
+        "flerkulturell-barndom",
+        "nabofellesskap",
+        "gentrifisering"
+      ],
+      "url": ""
+    },
+    {
+      "id": "kaveh-intervju-2013",
+      "title": "Grünerløkka var ikke hipster-område da jeg vokste opp",
+      "creators": [
+        "Kaveh Kholardi",
+        "Under Dusken"
+      ],
+      "year": 2013,
+      "type": "article",
+      "category": "intervju",
+      "summary": "Intervju med rapperen Kaveh om ungdomstid på Grünerløkka rundt år 2000.",
+      "period": {
+        "from": 2000,
+        "to": 2013
+      },
+      "places": [
+        "grunerlokka"
+      ],
+      "themes": [
+        "ungdomskultur",
+        "ostkantidentitet",
+        "flerkulturelt-miljo",
+        "gentrifisering"
+      ],
+      "url": "https://www.underdusken.no/kultur/grnerlokka-var-ikke-hipster-omrade-da-jeg-vokste-opp/124183"
+    },
+    {
+      "id": "asle-beck-grunerlokka-song",
+      "title": "Grünerløkka",
+      "creators": [
+        "Asle Beck"
+      ],
+      "year": 2013,
+      "type": "music",
+      "category": "musikk",
+      "summary": "Nostalgisk vise om ungdomstid og minner knyttet til Grünerløkka.",
+      "period": {
+        "from": 1975,
+        "to": 2013
+      },
+      "places": [
+        "birkelunden",
+        "olaf-ryes-plass",
+        "grunerlokka"
+      ],
+      "themes": [
+        "nostalgi",
+        "oppvekst",
+        "musikk",
+        "gentrifisering"
+      ],
+      "url": "https://open.spotify.com/track/4IbwMckXJ1eQ0Y22ZJe3HL"
+    },
+    {
+      "id": "don-martin-nilsen",
+      "title": "Nilsen",
+      "creators": [
+        "Don Martin"
+      ],
+      "year": 2013,
+      "type": "music",
+      "category": "musikk",
+      "summary": "Rap-låt om Oslo øst/vest der Løkka nevnes som eksempel på et gentrifisert område.",
+      "period": {
+        "from": 1990,
+        "to": 2013
+      },
+      "places": [
+        "grunerlokka",
+        "oslo-ost"
+      ],
+      "themes": [
+        "gentrifisering",
+        "ostkantidentitet",
+        "musikk"
+      ],
+      "url": "https://www.youtube.com/watch?v=7jdkVCWWrfI"
+    },
+    {
+      "id": "vise-grunerlokka-1929",
+      "title": "Grünerløkka (revyvise)",
+      "creators": [
+        "Henrik Fjeld",
+        "Hilmar Høiensahl"
+      ],
+      "year": 1929,
+      "type": "music",
+      "category": "musikk",
+      "summary": "Revyvise som skildrer Grünerløkka som fattig men sjarmerende arbeiderstrøk i mellomkrigstiden.",
+      "period": {
+        "from": 1920,
+        "to": 1930
+      },
+      "places": [
+        "grunerlokka"
+      ],
+      "themes": [
+        "arbeiderklasse",
+        "ostkantidentitet",
+        "historisk-bakgrunn"
+      ],
+      "url": ""
+    },
+    {
+      "id": "byfornyelse-oslo",
+      "title": "Byfornyelse i indre øst (eksempler fra Grünerløkka)",
+      "creators": [
+        "Oslo kommune",
+        "Oslo Byarkiv"
+      ],
+      "year": 1985,
+      "type": "article",
+      "category": "kommunalt-arkiv",
+      "summary": "Dokumentasjon om byfornyelse, rehabilitering av gårder og sanering i indre øst på 1970–80-tallet.",
+      "period": {
+        "from": 1970,
+        "to": 1990
+      },
+      "places": [
+        "grunerlokka",
+        "indre-oslo"
+      ],
+      "themes": [
+        "byfornyelse",
+        "boligpolitikk",
+        "sanering"
+      ],
+      "url": ""
+    },
+    {
+      "id": "oslobilder-arkiv",
+      "title": "Oslobilder – barndom på Grünerløkka",
+      "creators": [
+        "Oslo Museum",
+        "Oslo Byarkiv"
+      ],
+      "year": 2010,
+      "type": "photo-archive",
+      "category": "fotoarkiv",
+      "summary": "Digitalt fotoarkiv med historiske bilder fra barndom og oppvekst på Grünerløkka.",
+      "period": {
+        "from": 1900,
+        "to": 2000
+      },
+      "places": [
+        "grunerlokka",
+        "sofienbergparken",
+        "birkelunden",
+        "grunerlokka-skole"
+      ],
+      "themes": [
+        "foto",
+        "historisk-bakgrunn",
+        "oppvekst"
+      ],
+      "url": "https://oslobilder.no"
+    },
+    {
+      "id": "aftenposten-lokka-som-ble-kul",
+      "title": "Løkka som ble kul",
+      "creators": [
+        "Liss Hegge",
+        "Aftenposten"
+      ],
+      "year": 2005,
+      "type": "article",
+      "category": "avisartikkel",
+      "summary": "Reportasje om hvordan Grünerløkka gikk fra arbeiderstrøk til trendbydel.",
+      "period": {
+        "from": 1980,
+        "to": 2005
+      },
+      "places": [
+        "grunerlokka"
+      ],
+      "themes": [
+        "gentrifisering",
+        "byfornyelse",
+        "bomiljo"
+      ],
+      "url": ""
+    }
+  ]
+}

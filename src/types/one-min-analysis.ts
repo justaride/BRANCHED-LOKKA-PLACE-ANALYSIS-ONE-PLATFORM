@@ -150,7 +150,7 @@ export interface Actor {
   kommune: string; // Municipality
   omsetning: number; // Revenue in millions NOK
   kjedeProsent: string | null; // Percentage of chain revenue
-  yoyVekst: number; // Year-over-year growth percentage
+  yoyVekst: number | null; // Year-over-year growth percentage (null if unknown)
   ansatteLokalt: number; // Local employees
   ansatteKjede: number; // Chain employees
   kjedeLokasjoner: number; // Number of chain locations
@@ -181,7 +181,7 @@ export interface AktorerData {
 // ============================================================================
 
 export interface OneMinAnalysisData {
-  demografi: DemografiData;
+  demografi: DemografiData | null; // Null for commercial properties without residents
   korthandel: KorthandelData;
   bevegelse: BevegelseData;
   konkurransebilde: KonkurransebildeData;

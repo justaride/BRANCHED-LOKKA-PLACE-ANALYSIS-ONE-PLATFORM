@@ -1,0 +1,37 @@
+{
+  "id": "document_index",
+  "version": 1,
+  "documents": [
+    {
+      "id": "grunerlokka_urban_development",
+      "slug": "grunerlokka-urban-development",
+      "title": "Grünerløkka: Urban Development Through History",
+      "place": {
+        "id": "grunerlokka",
+        "name": "Grünerløkka",
+        "city": "Oslo",
+        "country": "Norway"
+      },
+      "time_span": {
+        "start_year": 1850,
+        "end_year": 2015
+      },
+      "section_ids": [
+        "19th_century_origins_industry_and_expansion",
+        "early_20th_century_the_working_class_community",
+        "world_war_ii_and_postwar_challenges",
+        "byfornyelse_and_gentrification_1970s_2000s",
+        "conclusion_continuity_and_change_in_a_city_district"
+      ],
+      "timeline_id": "grunerlokka_timeline",
+      "main_tags": [
+        "urban_development",
+        "industrialization",
+        "working_class",
+        "byfornyelse",
+        "gentrification"
+      ],
+      "language": "en"
+    }
+  ]
+}

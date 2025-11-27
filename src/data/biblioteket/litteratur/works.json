@@ -1,0 +1,560 @@
+{
+  "works": [
+    {
+      "id": "reusch_1913",
+      "title": "Kristiania geografi: med et tillæg \"Kristiania set fra sporvogn\" og to karter",
+      "authors": [
+        "Hans Reusch"
+      ],
+      "year": 1913,
+      "type": "book",
+      "topics": [
+        "byhistorie",
+        "geografi",
+        "arbeiderby"
+      ],
+      "note": "Tidlig geografisk beskrivelse av Kristiania der Grünerløkka omtales som del av den nordøstre arbeiderbyen."
+    },
+    {
+      "id": "arntzen_overn_1927",
+      "title": "En bok om Grünerløkken, Rodeløkken og Sagene",
+      "authors": [
+        "A.G. Arntzen",
+        "O.M. Overn"
+      ],
+      "year": 1927,
+      "type": "book",
+      "topics": [
+        "lokalhistorie",
+        "arbeiderstrøk"
+      ],
+      "note": "En av de første samlede lokalhistoriske framstillingene av arbeiderstrøkene langs Akerselva."
+    },
+    {
+      "id": "oslo_byleksikon_1938",
+      "title": "Oslo Byleksikon (1. utgave)",
+      "authors": [
+        "Aksel Arstal (red.)"
+      ],
+      "year": 1938,
+      "type": "reference",
+      "topics": [
+        "oppslagsverk",
+        "byhistorie"
+      ],
+      "note": "Oppslagsverk med egen artikkel om Grünerløkka og en rekke relaterte oppslagsord."
+    },
+    {
+      "id": "bull_1962_beste_ostkant",
+      "title": "Grünerløkka: beste østkant",
+      "authors": [
+        "Edvard Bull d.y."
+      ],
+      "year": 1962,
+      "type": "book",
+      "topics": [
+        "arbeiderhistorie",
+        "lokalhistorie"
+      ],
+      "note": "Klassisk historisk skildring av Grünerløkkas første hundre år som arbeiderbydel."
+    },
+    {
+      "id": "grunerlokka_skole_1970",
+      "title": "Grünerløkka skole 1895–1970",
+      "authors": [
+        "Bokkomité v/ Anna Blix m.fl."
+      ],
+      "year": 1970,
+      "type": "booklet",
+      "topics": [
+        "skole",
+        "lokalhistorie"
+      ],
+      "note": "Jubileumsskrift for Grünerløkka skole med glimt fra elevenes og lærernes hverdag."
+    },
+    {
+      "id": "martens_1972_saneringsmoden",
+      "title": "Grünerløkka. B.1: En saneringsmoden bydel?",
+      "authors": [
+        "Johan-D. Martens",
+        "Ivar Hvattum",
+        "Amund Kjellstad"
+      ],
+      "year": 1972,
+      "type": "report",
+      "topics": [
+        "byplanlegging",
+        "byfornyelse",
+        "bolig"
+      ],
+      "note": "Del av AHO-diplom som vurderer Grünerløkka som saneringsområde på 1970-tallet."
+    },
+    {
+      "id": "martens_1972_borettslag",
+      "title": "Grünerløkka. B.2: Borettslag og gårdsromfornyelse",
+      "authors": [
+        "Johan-D. Martens",
+        "Ivar Hvattum",
+        "Amund Kjellstad"
+      ],
+      "year": 1972,
+      "type": "report",
+      "topics": [
+        "byfornyelse",
+        "borettslag",
+        "utearealer"
+      ],
+      "note": "Analyserer borettslag og gårdsromsfornyelse som alternativ til total sanering."
+    },
+    {
+      "id": "sandereid_1974_boligundersokelse",
+      "title": "Grünerløkka: en boligundersøkelse",
+      "authors": [
+        "Lise Sandereid",
+        "Jan Larsen",
+        "Johan-D. Martens"
+      ],
+      "year": 1974,
+      "type": "report",
+      "topics": [
+        "bolig",
+        "levekår"
+      ],
+      "note": "Sosiologisk/boligfaglig studie av boligsituasjonen på Grünerløkka midt på 1970-tallet."
+    },
+    {
+      "id": "engelstad_1977_byfornyelse",
+      "title": "Byfornyelse – hvem bestemmer over byen?",
+      "authors": [
+        "Harald Engelstad",
+        "Randi Hjorthol",
+        "Inger M. Skogseid"
+      ],
+      "year": 1977,
+      "type": "book",
+      "topics": [
+        "byplanlegging",
+        "byfornyelse",
+        "politikk"
+      ],
+      "note": "Diskuterer byfornyelsespolitikken i Oslo, med saneringsplanene for indre øst som bakteppe."
+    },
+    {
+      "id": "aaen_1981_byfornyelse",
+      "title": "Grünerløkka: rapport om byfornyelse av en stor bydel i Oslo",
+      "authors": [
+        "Solveig Aaen"
+      ],
+      "year": 1981,
+      "type": "report",
+      "topics": [
+        "byfornyelse",
+        "boligpolitikk"
+      ],
+      "note": "Offisiell rapport fra Bymiljøkampanjen 80/81 om byfornyelse av Grünerløkka."
+    },
+    {
+      "id": "malmstrom_1982_fabrikk_bolig",
+      "title": "Fabrikk og bolig ved Akerselva – et industrimiljø på 1800-tallet",
+      "authors": [
+        "Kari Hoel Malmstrøm"
+      ],
+      "year": 1982,
+      "type": "book",
+      "topics": [
+        "industrihistorie",
+        "bolig",
+        "Akerselva"
+      ],
+      "note": "Studie av industrimiljø og arbeiderboliger langs Akerselva, med relevans for Grünerløkka."
+    },
+    {
+      "id": "myhre_1990_hovedstaden",
+      "title": "Hovedstaden Christiania: fra 1814–1900",
+      "authors": [
+        "Jan Eivind Myhre"
+      ],
+      "year": 1990,
+      "type": "book",
+      "topics": [
+        "byhistorie",
+        "urbanisering"
+      ],
+      "note": "Bind 3 av Oslo bys historie; beskriver byutvidelsen og framveksten av Grünerløkka."
+    },
+    {
+      "id": "kjeldstadli_1990_delte_byen",
+      "title": "Den delte byen: fra 1900 til 1948",
+      "authors": [
+        "Knut Kjeldstadli"
+      ],
+      "year": 1990,
+      "type": "book",
+      "topics": [
+        "byhistorie",
+        "sosialhistorie",
+        "øst-vest"
+      ],
+      "note": "Bind 4 av Oslo bys historie; Grünerløkka som typisk østkantstrøk."
+    },
+    {
+      "id": "benum_1994_byraokratienes_by",
+      "title": "Byråkratienes by: fra 1948 til våre dager",
+      "authors": [
+        "Edgeir Benum"
+      ],
+      "year": 1994,
+      "type": "book",
+      "topics": [
+        "byhistorie",
+        "byutvikling"
+      ],
+      "note": "Bind 5 av Oslo bys historie; sanering, byfornyelse og gentrifisering i indre øst."
+    },
+    {
+      "id": "hvindenhaug_1998_fargebruk",
+      "title": "Tradisjonell fargebruk på bygårder: Grünerløkka i Oslo",
+      "authors": [
+        "Lars J. Hvinden-Haug",
+        "Ingrid Torp",
+        "Tone M. Olstad"
+      ],
+      "year": 1998,
+      "type": "report",
+      "topics": [
+        "arkitektur",
+        "bevaring"
+      ],
+      "note": "NIKU-rapport om historisk fargesetting på murgårdene i bydelen."
+    },
+    {
+      "id": "hoel_thuesen_1998_vandring",
+      "title": "Grünerløkka – en vandring gjennom 1000 år",
+      "authors": [
+        "Merete Lie Hoel",
+        "Nils Petter Thuesen"
+      ],
+      "year": 1998,
+      "type": "book",
+      "topics": [
+        "lokalhistorie",
+        "byutvikling"
+      ],
+      "note": "Rikt illustrert praktbok som gir en helhetlig historisk vandring gjennom bydelen."
+    },
+    {
+      "id": "ibsen_1998_freia",
+      "title": "Et lite stykke Norge – Freia 100 år",
+      "authors": [
+        "Hilde Ibsen"
+      ],
+      "year": 1998,
+      "type": "book",
+      "topics": [
+        "industri",
+        "bedriftshistorie"
+      ],
+      "note": "Bedriftshistorie om Freia på Rodeløkka/Grünerløkka som hjørnesteinsbedrift."
+    },
+    {
+      "id": "gabrielsen_1999_bydel_i_forandring",
+      "title": "Grünerløkka: en bydel i forandring – kultur og urbanitet på slutten av nittitallet",
+      "authors": [
+        "Guro Voss Gabrielsen"
+      ],
+      "year": 1999,
+      "type": "thesis",
+      "topics": [
+        "gentrifisering",
+        "byliv"
+      ],
+      "note": "Hovedoppgave om Grünerløkka som bydel i forandring mot slutten av 1990-tallet."
+    },
+    {
+      "id": "johnsen_2000_vedhandlern",
+      "title": "Vedhandler'n på Grünerløkka",
+      "authors": [
+        "Per-Erling Johnsen"
+      ],
+      "year": 2000,
+      "type": "book",
+      "topics": [
+        "lokalhistorie",
+        "erindring"
+      ],
+      "note": "Biografi om ved- og kullhandler Rolf Johannessen og hverdagsliv på Løkka."
+    },
+    {
+      "id": "brattbakk_dyb_2001_byfornyelsen",
+      "title": "Byfornyelsen i Oslo 1998–2000: Evaluering av de nye virkemidlene",
+      "authors": [
+        "Ingar Brattbakk",
+        "Evelyn Dyb"
+      ],
+      "year": 2001,
+      "type": "report",
+      "topics": [
+        "byfornyelse",
+        "gentrifisering",
+        "levekår"
+      ],
+      "note": "Evaluerer konsekvensene av byfornyelse i indre by, inkludert Grünerløkka."
+    },
+    {
+      "id": "ovrebo_2002_barndom",
+      "title": "Barndom på Grünerløkka – erindringer fra en oppvekst i mellomkrigstiden (1920–1940)",
+      "authors": [
+        "Turid Øvrebø"
+      ],
+      "year": 2002,
+      "type": "book",
+      "topics": [
+        "erindring",
+        "lokalhistorie"
+      ],
+      "note": "Erindringsbok om barndom på Løkka i mellomkrigstiden."
+    },
+    {
+      "id": "oyan_2003_oppvekst_okkupasjon",
+      "title": "Oppvekst under okkupasjon – erindringer fra barne- og ungdomsår på Grünerløkka 1940–1945",
+      "authors": [
+        "Tuva Gry Øyan"
+      ],
+      "year": 2003,
+      "type": "book",
+      "topics": [
+        "erindring",
+        "krigshistorie"
+      ],
+      "note": "Erindringer om oppvekst på Grünerløkka under andre verdenskrig."
+    },
+    {
+      "id": "hansen_2004_skiftet_ham",
+      "title": "Bydelen som \"skiftet ham\" – kulturhistoriske bilder av 1900-tallets Grünerløkka",
+      "authors": [
+        "Lars Emil Hansen"
+      ],
+      "year": 2004,
+      "type": "thesis",
+      "topics": [
+        "kulturhistorie",
+        "gentrifisering"
+      ],
+      "note": "Masteroppgave om hvordan forestillinger om Grünerløkka endres gjennom 1900-tallet."
+    },
+    {
+      "id": "aspen_2005_by_og_byliv",
+      "title": "By og byliv i endring: studier av byrom og handlingsrom i Oslo",
+      "authors": [
+        "Jonny Aspen (red.)"
+      ],
+      "year": 2005,
+      "type": "book",
+      "topics": [
+        "byutvikling",
+        "byliv"
+      ],
+      "note": "Antologi med flere bidrag om Oslo, blant annet om utviklingen på Grünerløkka."
+    },
+    {
+      "id": "borrud_2005_hva_skjer",
+      "title": "Hva skjer på Grünerløkka? – raske endringer og stabiliserende transformasjon",
+      "authors": [
+        "Elin Børrud"
+      ],
+      "year": 2005,
+      "type": "chapter",
+      "topics": [
+        "gentrifisering",
+        "byutvikling"
+      ],
+      "note": "Kapittel i Aspen (red.) om raske sosio-kulturelle endringer på Grünerløkka."
+    },
+    {
+      "id": "oslo_byleksikon_2010",
+      "title": "Oslo byleksikon (5. utgave)",
+      "authors": [
+        "Knut Are Tvedt (red.) m.fl."
+      ],
+      "year": 2010,
+      "type": "reference",
+      "topics": [
+        "oppslagsverk",
+        "byhistorie"
+      ],
+      "note": "Oppdatert oppslagsverk med artikler om Grünerløkka og relaterte stikkord."
+    },
+    {
+      "id": "moland_2011_akerselva",
+      "title": "Historien om Akerselva – gjennom de siste 400 år",
+      "authors": [
+        "Tallak Moland"
+      ],
+      "year": 2011,
+      "type": "book",
+      "topics": [
+        "industrihistorie",
+        "byutvikling"
+      ],
+      "note": "Helhetlig framstilling av Akerselvas historie, inkludert industrien ved Grünerløkka."
+    },
+    {
+      "id": "hoeg_2014_sofienbergparken",
+      "title": "Sofienbergparken – byfolkets tumleplass, de utstøttes territorium",
+      "authors": [
+        "Elida Høeg"
+      ],
+      "year": 2014,
+      "type": "book",
+      "topics": [
+        "byrom",
+        "sosialhistorie"
+      ],
+      "note": "Dokumentarbok om Sofienbergparken som sosialt og politisk rom i bydelen."
+    },
+    {
+      "id": "gjestvang_2015_boligattraktivitet",
+      "title": "Boligattraktivitet på Grünerløkka gjennom teori og empiri",
+      "authors": [
+        "Thea Cecilie Gjestvang"
+      ],
+      "year": 2015,
+      "type": "thesis",
+      "topics": [
+        "boligmarked",
+        "gentrifisering"
+      ],
+      "note": "Masteroppgave om hva som gjør boliger og beliggenhet på Løkka attraktive."
+    },
+    {
+      "id": "borjesson_amundsen_2018_gatelangs",
+      "title": "Grünerløkka – gatelangs med kamera og noen bakgårdsbetraktninger uten slips og pensko",
+      "authors": [
+        "Terje Børjesson",
+        "Tommy Amundsen"
+      ],
+      "year": 2018,
+      "type": "book",
+      "topics": [
+        "fotografi",
+        "erindring",
+        "lokalhistorie"
+      ],
+      "note": "Fotobok og epistler som skildrer 1970-tallets og senere Grünerløkka."
+    },
+    {
+      "id": "gaux_2020_kriser_og_krig",
+      "title": "Kriser og krig 1900–40. Årbok for Grünerløkka historielag",
+      "authors": [
+        "Martina Gaux (red.) m.fl."
+      ],
+      "year": 2020,
+      "type": "book",
+      "topics": [
+        "lokalhistorie",
+        "krigshistorie"
+      ],
+      "note": "Årbok med artikler om Grünerløkka i første del av 1900-tallet."
+    },
+    {
+      "id": "iglebaek_2020_slaget_om_lokka",
+      "title": "Slaget om Grünerløkka",
+      "authors": [
+        "Odd Iglebæk"
+      ],
+      "year": 2020,
+      "type": "article",
+      "topics": [
+        "byfornyelse",
+        "leieboerbevegelse"
+      ],
+      "note": "Artikkel i St. Hallvard om kampen mot sanering og motorvei på Løkka."
+    },
+    {
+      "id": "kohne_2020_gentrifiseringens_flertydighet",
+      "title": "Gentrifiseringens flertydighet: En kulturvitenskapelig studie av endringer i to byområder i Berlin og Oslo",
+      "authors": [
+        "Sara Kohne"
+      ],
+      "year": 2020,
+      "type": "thesis",
+      "topics": [
+        "gentrifisering",
+        "komparativ studie"
+      ],
+      "note": "PhD-avhandling som bruker Grünerløkka som norsk gentrifiseringscase."
+    },
+    {
+      "id": "oyan_2021_mills",
+      "title": "Mills – bedriften som holder stand",
+      "authors": [
+        "Erlend Øyan"
+      ],
+      "year": 2021,
+      "type": "article",
+      "topics": [
+        "industri",
+        "næringsmiddelindustri"
+      ],
+      "note": "Nettartikkel om Mills som en av de gjenværende industribedriftene på Grünerløkka."
+    },
+    {
+      "id": "ofstad_2023_reddet_fra_rasering",
+      "title": "Slik ble Grünerløkka reddet fra rasering",
+      "authors": [
+        "Bjørg Ofstad"
+      ],
+      "year": 2023,
+      "type": "article",
+      "topics": [
+        "byfornyelse",
+        "boligpolitikk"
+      ],
+      "note": "Debattinnlegg i Dagsavisen om boligpolitikk og byfornyelse som reddet Løkka fra riving."
+    },
+    {
+      "id": "slapgard_2024_werna_gerhardsen",
+      "title": "Werna Gerhardsen – jenta fra Løkka",
+      "authors": [
+        "Sigrun Slapgard"
+      ],
+      "year": 2024,
+      "type": "book",
+      "topics": [
+        "biografi",
+        "arbeiderhistorie"
+      ],
+      "note": "Biografi om Werna Gerhardsen, med oppvekst på Grünerløkka som sentralt tema."
+    },
+    {
+      "id": "fossen_2025_frykten_for_gentrifisering",
+      "title": "Frykten for gentrifisering",
+      "authors": [
+        "Erling Fossen"
+      ],
+      "year": 2025,
+      "type": "article",
+      "topics": [
+        "gentrifisering",
+        "debatt"
+      ],
+      "note": "Kommentar i Estate som bruker Grünerløkka som eksempel på gentrifisering."
+    },
+    {
+      "id": "hewitt_brattbakk_cucca_2025_kronikk",
+      "title": "Når de rike flytter inn, må de fattige ut. Eller?",
+      "authors": [
+        "Iselin Hewitt",
+        "Ingar Brattbakk",
+        "Roberta Cucca"
+      ],
+      "year": 2025,
+      "type": "article",
+      "topics": [
+        "gentrifisering",
+        "boligpolitikk"
+      ],
+      "note": "Kronikk i Dagsavisen om gentrifisering og sosial boligpolitikk, med referanser til Grünerløkka."
+    }
+  ]
+}

@@ -1,55 +1,18 @@
 {
   "id": "mathallen",
+  "navn": "Mathallen Oslo",
   "adresse": "Vulkan 5, 0178 Oslo",
   "gnr": 218,
   "bnr": 260,
   "beskrivelse": "Mathallen Oslo er Norges første innendørs matmarked, åpnet i 2012. Over 30 spesialbutikker og spisesteder samlet under ett tak, med fokus på kvalitetsmat, håndverk og lokale produsenter. Et levende møtested for matentusiaster.",
   "heroImage": "/images/aspelin-ramm/mathallen-hero.jpg",
-  "mapImage": "/images/aspelin-ramm/mathallen-map.png",
   "coordinates": {
     "lat": 59.9229,
     "lng": 10.7520
   },
   "plaaceData": {
     "rapportDato": "2025-11-27T00:00:00Z",
-    "screenshots": [
-      {
-        "filnavn": "Nøkkeldata",
-        "path": "/images/aspelin-ramm/plaace/mathallen/noekkeldata.jpg",
-        "beskrivelse": "Nøkkeldata",
-        "kategori": "oversikt"
-      },
-      {
-        "filnavn": "Demografi",
-        "path": "/images/aspelin-ramm/plaace/mathallen/demografi.jpg",
-        "beskrivelse": "Demografi",
-        "kategori": "demografi"
-      },
-      {
-        "filnavn": "Besøkende",
-        "path": "/images/aspelin-ramm/plaace/mathallen/besokende.jpg",
-        "beskrivelse": "Besøkende",
-        "kategori": "demografi"
-      },
-      {
-        "filnavn": "Bevegelse",
-        "path": "/images/aspelin-ramm/plaace/mathallen/bevegelse.jpg",
-        "beskrivelse": "Bevegelse",
-        "kategori": "demografi"
-      },
-      {
-        "filnavn": "Korthandel",
-        "path": "/images/aspelin-ramm/plaace/mathallen/korthandel.jpg",
-        "beskrivelse": "Korthandel",
-        "kategori": "marked"
-      },
-      {
-        "filnavn": "Konkurransebildet",
-        "path": "/images/aspelin-ramm/plaace/mathallen/konkurransebildet.jpg",
-        "beskrivelse": "Konkurransebildet",
-        "kategori": "marked"
-      }
-    ],
+    "screenshots": [],
     "nokkeldata": {
       "areal": "5 000 m²",
       "byggeaar": 2012,

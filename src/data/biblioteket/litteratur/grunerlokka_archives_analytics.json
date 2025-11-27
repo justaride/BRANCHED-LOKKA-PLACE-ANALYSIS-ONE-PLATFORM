@@ -1,0 +1,154 @@
+{
+  "archives": [
+    {
+      "id": "deichman-grunerlokka",
+      "name": "Deichman Grünerløkka",
+      "type": "library",
+      "url": "https://deichman.no/bibliotekene/gr%C3%BCnerl%C3%B8kka",
+      "description": "Lokalbibliotek på Schous plass med stor Oslosamling og lokalhistorie fra Løkka.",
+      "keyCollections": [
+        "Oslo-samlingen",
+        "lokalhistorie om Grünerløkka",
+        "barne- og ungdomslitteratur med handling fra bydelen"
+      ],
+      "relatedSources": [
+        "fretheim-ingenting-sa-sebastian",
+        "fretheim-gruners-gronne-hage",
+        "johansen-grunerlokka-fortellinger",
+        "wardenaer-oppvekst-grunerlokka",
+        "ovrebo-barndom-grunerlokka"
+      ]
+    },
+    {
+      "id": "grunerlokka-sofienberg-historielag",
+      "name": "Grünerløkka/Sofienberg historielag",
+      "type": "historielag",
+      "url": "https://lokalhistoriewiki.no/Gr%C3%BCnerl%C3%B8kka_historielag",
+      "description": "Historielag som samler inn bilder, erindringer og artikler fra bydelen.",
+      "keyCollections": [
+        "årbøker og hefter",
+        "erindringer om barndom på Løkka",
+        "fotomateriale"
+      ],
+      "relatedSources": [
+        "ovrebo-barndom-grunerlokka"
+      ]
+    },
+    {
+      "id": "oslobilder",
+      "name": "Oslobilder",
+      "type": "photo-archive",
+      "url": "https://oslobilder.no",
+      "description": "Digitalt fotoarkiv med bilder fra hele Oslo, inkludert mange motiver fra Grünerløkka.",
+      "keyCollections": [
+        "barn i Sofienbergparken",
+        "første skoledag på Grünerløkka skole",
+        "gate- og bakgårdsbilder fra bydelen"
+      ],
+      "relatedSources": [
+        "oslobilder-arkiv"
+      ]
+    },
+    {
+      "id": "oslo-byarkiv",
+      "name": "Oslo Byarkiv",
+      "type": "city-archive",
+      "url": "https://www.oslo.kommune.no/byarkivet/",
+      "description": "Kommunens arkiv for dokumentasjon om byfornyelse, boliger, skoler og sosiale forhold.",
+      "keyCollections": [
+        "Oslo Byfornyelse A/S",
+        "saksmapper om gårdsrehabilitering på Grünerløkka",
+        "planer for lekeplasser og uterom"
+      ],
+      "relatedSources": [
+        "byfornyelse-oslo"
+      ]
+    }
+  ],
+  "analytics": {
+    "dimensions": {
+      "time": [
+        "year",
+        "decade",
+        "period"
+      ],
+      "space": [
+        "places"
+      ],
+      "topic": [
+        "themes"
+      ],
+      "source_type": [
+        "type",
+        "category"
+      ]
+    },
+    "functions": [
+      {
+        "id": "filterSourcesByTopicAndPeriod",
+        "name": "Filtrer kilder etter tema og tidsperiode",
+        "description": "Returnerer kilder som matcher tema og ligger innenfor en gitt årrekkevidde.",
+        "input": {
+          "topic": "string",
+          "fromYear": "number",
+          "toYear": "number"
+        },
+        "output": {
+          "sources": "Source[]"
+        }
+      },
+      {
+        "id": "timelineForPlace",
+        "name": "Tidslinje for et sted",
+        "description": "Henter alle tidslinje-hendelser knyttet til et sted.",
+        "input": {
+          "placeId": "string"
+        },
+        "output": {
+          "events": "TimelineEvent[]"
+        }
+      },
+      {
+        "id": "compareGenerations",
+        "name": "Sammenlign generasjoner på samme sted",
+        "description": "Grupperer kilder fra ulike tiår for et sted for å kunne sammenligne oppvekst på tvers av generasjoner.",
+        "input": {
+          "placeId": "string",
+          "decades": "number[]"
+        },
+        "output": {
+          "groups": [
+            {
+              "decade": "number",
+              "sources": "Source[]"
+            }
+          ]
+        }
+      },
+      {
+        "id": "childVsParentPerspectives",
+        "name": "Barn vs foreldre-perspektiv",
+        "description": "Skiller mellom kilder som primært gir barns stemmer og kilder som gir foreldre/voksnes blikk.",
+        "input": {
+          "topicFilter": "string?"
+        },
+        "output": {
+          "children": "Source[]",
+          "parents": "Source[]"
+        }
+      },
+      {
+        "id": "mapVisualMaterial",
+        "name": "Knytt kilde til visuelt materiale",
+        "description": "Foreslår arkiver og søkeord for å finne bilder/film knyttet til en kilde.",
+        "input": {
+          "sourceId": "string"
+        },
+        "output": {
+          "archives": "Archive[]",
+          "suggestedSearchTerms": "string[]"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "timeline": {
+    "id": "oppvekst-grunerlokka-1920-2025",
+    "title": "Oppvekst på Grünerløkka 1920–2025",
+    "description": "Oversikt over viktige faser i oppveksthistorien på Grünerløkka.",
+    "events": [
+      {
+        "id": "1920-1940-mellomkrigsbarndom",
+        "label": "Mellomkrigsbarndom på Løkka",
+        "startYear": 1920,
+        "endYear": 1940,
+        "summary": "Barn vokser opp i trange leiegårder i en uttalt arbeiderbydel.",
+        "detail": "Grünerløkka preges av trangboddhet, fabrikkarbeid og sterke nabofellesskap. Bakgårder og gater fungerer som lekeplass, og mange barn må bidra i husarbeid og arbeid tidlig.",
+        "keyPlaces": [
+          "grunerlokka",
+          "birkelunden",
+          "akerselva"
+        ],
+        "keySources": [
+          "ovrebo-barndom-grunerlokka",
+          "vise-grunerlokka-1929"
+        ],
+        "themes": [
+          "arbeiderklasse",
+          "trangboddhet",
+          "bakgardsliv"
+        ]
+      },
+      {
+        "id": "1940-1955-etterkrigstid",
+        "label": "Etterkrigsoppvekst i Karlstadgata og omegn",
+        "startYear": 1940,
+        "endYear": 1955,
+        "summary": "Barn leker i gatene rundt Karlstadgata, Dælenenga og Freia.",
+        "detail": "Wardenærs erindringer viser et miljø med slåball i gata, hester med kjerre og små butikker som sosiale knutepunkt. Kårene er enkle, men friheten og naboskapet oppleves som sterkt.",
+        "keyPlaces": [
+          "karlstadgata",
+          "daelenenga",
+          "freia-fabrikk"
+        ],
+        "keySources": [
+          "wardenaer-oppvekst-grunerlokka"
+        ],
+        "themes": [
+          "etterkrigstid",
+          "gatelek",
+          "nabofellesskap"
+        ]
+      },
+      {
+        "id": "1970-1989-byfornyelse",
+        "label": "Byfornyelse og rehabilitering",
+        "startYear": 1970,
+        "endYear": 1989,
+        "summary": "Gamle gårder på Løkka blir rehabilitert, og bydelen forandres fysisk.",
+        "detail": "Kommunale byfornyelsesprosjekter gir bedre standard i leilighetene, men innebærer også midlertidig flytting, rivning og nye beboersammensetninger.",
+        "keyPlaces": [
+          "grunerlokka"
+        ],
+        "keySources": [
+          "byfornyelse-oslo"
+        ],
+        "themes": [
+          "byfornyelse",
+          "boligpolitikk",
+          "sanering"
+        ]
+      },
+      {
+        "id": "1990-1999-kommunale-blokker",
+        "label": "Kommunale blokker og flerkulturell oppvekst på nedre Løkka",
+        "startYear": 1990,
+        "endYear": 1999,
+        "summary": "Barn vokser opp i kommunale blokker på Nedre Grünerløkka.",
+        "detail": "Sannergata 32 og lignende blokker rommer familier med ulik bakgrunn. Bakgården fungerer som felles lekeplass, og nabodørene står ofte åpne.",
+        "keyPlaces": [
+          "sannergata-32",
+          "grunerlokka"
+        ],
+        "keySources": [
+          "asefaw-det-finnes-ingen-naboer"
+        ],
+        "themes": [
+          "kommunale-boliger",
+          "flerkulturell-barndom",
+          "nabofellesskap"
+        ]
+      },
+      {
+        "id": "2000-2005-ungdom-for-hipsterbolge",
+        "label": "Ungdom på Løkka før full hipsterbølge",
+        "startYear": 2000,
+        "endYear": 2005,
+        "summary": "Ungdom beskriver en røffere Løkka med tydelig østkantpreg.",
+        "detail": "Kavehs intervju peker på likheter mellom datidens Løkka og områder som Grønland og Tøyen: blandede miljøer, slang og gatekultur, før bydelen blir sterkt kafépreget.",
+        "keyPlaces": [
+          "grunerlokka"
+        ],
+        "keySources": [
+          "kaveh-intervju-2013"
+        ],
+        "themes": [
+          "ungdomskultur",
+          "ostkantidentitet",
+          "flerkulturelt-miljo"
+        ]
+      },
+      {
+        "id": "2000-2010-flerkulturell-klasse",
+        "label": "Barn i flerkulturelle klasser og bysommer",
+        "startYear": 2000,
+        "endYear": 2010,
+        "summary": "Barn går på skole i flerkulturelle klasserom og tilbringer sommeren i byen.",
+        "detail": "Fretheims roman om Sebastian illustrerer et flerkulturelt klassemiljø, vennskap på tvers og en sommer der byen og nabolaget er rammen.",
+        "keyPlaces": [
+          "grunerlokka",
+          "akerselva"
+        ],
+        "keySources": [
+          "fretheim-ingenting-sa-sebastian"
+        ],
+        "themes": [
+          "flerkulturell-barndom",
+          "skolemiljo",
+          "byliv"
+        ]
+      },
+      {
+        "id": "2010-2019-barns-blikk-og-barnefamilier",
+        "label": "Barns blikk og barnefamilier som blir",
+        "startYear": 2010,
+        "endYear": 2019,
+        "summary": "Forskning dokumenterer barns og foreldres erfaringer med å bo på Løkka.",
+        "detail": "Aaby, Grimsrud og Hernes viser hvordan barn navigerer uterommene, og hvordan foreldre vurderer fordeler og ulemper ved å bli boende i en tett, urban bydel.",
+        "keyPlaces": [
+          "birkelunden",
+          "sofienbergparken",
+          "kuba-parken",
+          "grunerlokka-skole"
+        ],
+        "keySources": [
+          "aaby-barns-blikk-pa-lokka",
+          "grimsrud-barn-pa-lokka",
+          "hernes-bofaste-barnefamilier"
+        ],
+        "themes": [
+          "barns-perspektiv",
+          "barnefamilier-i-indre-by",
+          "byrom",
+          "gentrifisering"
+        ]
+      },
+      {
+        "id": "2010-2025-lokka-som-symbol",
+        "label": "Løkka som symbol på gentrifisering og barnevognsbydel",
+        "startYear": 2010,
+        "endYear": 2025,
+        "summary": "Grünerløkka omtales nasjonalt som gentrifisert, men også som attraktiv barnebydel.",
+        "detail": "Musikk, medier og forskning beskriver Løkka som et sted der historisk arbeiderarv og moderne kafé- og barnevognsliv eksisterer side om side.",
+        "keyPlaces": [
+          "thorvald-meyers-gate",
+          "birkelunden",
+          "olaf-ryes-plass"
+        ],
+        "keySources": [
+          "song-asle-beck-grunerlokka",
+          "don-martin-nilsen",
+          "aftenposten-lokka-som-ble-kul"
+        ],
+        "themes": [
+          "gentrifisering",
+          "klasse",
+          "barnefamilier-i-indre-by"
+        ]
+      }
+    ]
+  }
+}

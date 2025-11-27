@@ -1,0 +1,318 @@
+{
+  "entities": [
+    {
+      "id": "grunerlokka",
+      "name": "Grünerløkka",
+      "type": "area",
+      "description": "Bydel i Oslo som har gått fra industrielt arbeiderstrøk til gentrifisert og trendy område.",
+      "relatedSources": [
+        "ovrebo-barndom-grunerlokka",
+        "wardenaer-oppvekst-grunerlokka",
+        "fretheim-ingenting-sa-sebastian",
+        "fretheim-gruners-gronne-hage",
+        "johansen-grunerlokka-fortellinger",
+        "aaby-barns-blikk-pa-lokka",
+        "grimsrud-barn-pa-lokka",
+        "hernes-bofaste-barnefamilier",
+        "asefaw-det-finnes-ingen-naboer",
+        "kaveh-intervju-2013",
+        "asle-beck-grunerlokka-song",
+        "don-martin-nilsen",
+        "vise-grunerlokka-1929",
+        "byfornyelse-oslo",
+        "oslobilder-arkiv",
+        "aftenposten-lokka-som-ble-kul"
+      ],
+      "relatedTimeline": [
+        "1920-1940-mellomkrigsbarndom",
+        "1940-1955-etterkrigstid",
+        "1970-1989-byfornyelse",
+        "1990-1999-kommunale-blokker",
+        "2000-2005-ungdom-for-hipsterbolge",
+        "2000-2010-flerkulturell-klasse",
+        "2010-2019-barns-blikk-og-barnefamilier",
+        "2010-2025-lokka-som-symbol"
+      ],
+      "tags": [
+        "bydel",
+        "oppvekst",
+        "ostkant"
+      ]
+    },
+    {
+      "id": "birkelunden",
+      "name": "Birkelunden",
+      "type": "place",
+      "description": "Stor park på øvre Grünerløkka, viktig leke- og møteplass for barn og unge.",
+      "relatedSources": [
+        "ovrebo-barndom-grunerlokka",
+        "aaby-barns-blikk-pa-lokka",
+        "grimsrud-barn-pa-lokka",
+        "asle-beck-grunerlokka-song"
+      ],
+      "relatedTimeline": [
+        "1920-1940-mellomkrigsbarndom",
+        "2010-2019-barns-blikk-og-barnefamilier",
+        "2010-2025-lokka-som-symbol"
+      ],
+      "tags": [
+        "park",
+        "lekeplass",
+        "oppvekst"
+      ]
+    },
+    {
+      "id": "olaf-ryes-plass",
+      "name": "Olaf Ryes plass",
+      "type": "place",
+      "description": "Park og torg midt på Løkka, knutepunkt for barn, unge og rusmiljøer over tid.",
+      "relatedSources": [
+        "asle-beck-grunerlokka-song"
+      ],
+      "relatedTimeline": [
+        "2010-2025-lokka-som-symbol"
+      ],
+      "tags": [
+        "park",
+        "torg",
+        "ungdom",
+        "rusmiljo"
+      ]
+    },
+    {
+      "id": "sofienbergparken",
+      "name": "Sofienbergparken",
+      "type": "place",
+      "description": "Park på nedre Grünerløkka, mye brukt av barn og ungdom.",
+      "relatedSources": [
+        "aaby-barns-blikk-pa-lokka",
+        "grimsrud-barn-pa-lokka",
+        "oslobilder-arkiv"
+      ],
+      "relatedTimeline": [
+        "2010-2019-barns-blikk-og-barnefamilier"
+      ],
+      "tags": [
+        "park",
+        "lekeplass"
+      ]
+    },
+    {
+      "id": "kuba-parken",
+      "name": "Kuba-parken",
+      "type": "place",
+      "description": "Park ved Akerselva mellom Grünerløkka og Sagene.",
+      "relatedSources": [
+        "fretheim-gruners-gronne-hage",
+        "grimsrud-barn-pa-lokka"
+      ],
+      "relatedTimeline": [
+        "2010-2019-barns-blikk-og-barnefamilier"
+      ],
+      "tags": [
+        "park",
+        "elv"
+      ]
+    },
+    {
+      "id": "sannergata-32",
+      "name": "Sannergata 32",
+      "type": "place",
+      "description": "Kommunal blokk på Nedre Grünerløkka, kjent fra diktet «Sannergata 32».",
+      "relatedSources": [
+        "asefaw-det-finnes-ingen-naboer"
+      ],
+      "relatedTimeline": [
+        "1990-1999-kommunale-blokker"
+      ],
+      "tags": [
+        "kommunale-boliger",
+        "oppvekst"
+      ]
+    },
+    {
+      "id": "akerselva",
+      "name": "Akerselva",
+      "type": "place",
+      "description": "Elva som har vært industriakse og lekeområde for barn på Løkka.",
+      "relatedSources": [
+        "ovrebo-barndom-grunerlokka",
+        "fretheim-ingenting-sa-sebastian",
+        "fretheim-gruners-gronne-hage"
+      ],
+      "relatedTimeline": [
+        "1920-1940-mellomkrigsbarndom",
+        "2000-2010-flerkulturell-klasse"
+      ],
+      "tags": [
+        "elv",
+        "industri",
+        "lekeomrade"
+      ]
+    },
+    {
+      "id": "grunerlokka-skole",
+      "name": "Grünerløkka skole",
+      "type": "place",
+      "description": "Barneskole midt på Løkka.",
+      "relatedSources": [
+        "ovrebo-barndom-grunerlokka",
+        "aaby-barns-blikk-pa-lokka",
+        "oslobilder-arkiv"
+      ],
+      "relatedTimeline": [
+        "1920-1940-mellomkrigsbarndom",
+        "2010-2019-barns-blikk-og-barnefamilier"
+      ],
+      "tags": [
+        "skole",
+        "oppvekst"
+      ]
+    },
+    {
+      "id": "karlstadgata",
+      "name": "Karlstadgata",
+      "type": "place",
+      "description": "Gate på øvre Grünerløkka der Wardenær vokste opp.",
+      "relatedSources": [
+        "wardenaer-oppvekst-grunerlokka"
+      ],
+      "relatedTimeline": [
+        "1940-1955-etterkrigstid"
+      ],
+      "tags": [
+        "gate",
+        "arbeiderstrøk"
+      ]
+    },
+    {
+      "id": "daelenenga",
+      "name": "Dælenenga idrettsplass",
+      "type": "place",
+      "description": "Idrettsplass og møtested for barn og unge.",
+      "relatedSources": [
+        "wardenaer-oppvekst-grunerlokka"
+      ],
+      "relatedTimeline": [
+        "1940-1955-etterkrigstid"
+      ],
+      "tags": [
+        "idrett",
+        "fritid"
+      ]
+    },
+    {
+      "id": "freia-fabrikk",
+      "name": "Freia sjokoladefabrikk",
+      "type": "place",
+      "description": "Stor fabrikk i nabolaget til øvre Grünerløkka.",
+      "relatedSources": [
+        "wardenaer-oppvekst-grunerlokka"
+      ],
+      "relatedTimeline": [
+        "1940-1955-etterkrigstid"
+      ],
+      "tags": [
+        "fabrikk",
+        "arbeiderklasse"
+      ]
+    },
+    {
+      "id": "thorvald-meyers-gate",
+      "name": "Thorvald Meyers gate",
+      "type": "place",
+      "description": "Hovedgate gjennom Løkka, tydelig arena for gentrifisering og kaféliv.",
+      "relatedSources": [
+        "aftenposten-lokka-som-ble-kul"
+      ],
+      "relatedTimeline": [
+        "2010-2025-lokka-som-symbol"
+      ],
+      "tags": [
+        "handelsgate",
+        "byliv"
+      ]
+    },
+    {
+      "id": "tor-fretheim",
+      "name": "Tor Fretheim",
+      "type": "person",
+      "description": "Forfatter av flere barne- og ungdomsbøker med handling fra Grünerløkka.",
+      "relatedSources": [
+        "fretheim-ingenting-sa-sebastian",
+        "fretheim-gruners-gronne-hage"
+      ],
+      "relatedTimeline": [
+        "2000-2010-flerkulturell-klasse"
+      ],
+      "tags": [
+        "forfatter",
+        "litteratur"
+      ]
+    },
+    {
+      "id": "raymond-wardenaer",
+      "name": "Raymond Wardenær",
+      "type": "person",
+      "description": "Fotograf og forfatter som dokumenterte sin barndom på Løkka.",
+      "relatedSources": [
+        "wardenaer-oppvekst-grunerlokka"
+      ],
+      "relatedTimeline": [
+        "1940-1955-etterkrigstid"
+      ],
+      "tags": [
+        "forfatter",
+        "fotograf"
+      ]
+    },
+    {
+      "id": "hanna-asefaw",
+      "name": "Hanna Asefaw",
+      "type": "person",
+      "description": "Forfatter og kunstner med oppvekst i Sannergata 32.",
+      "relatedSources": [
+        "asefaw-det-finnes-ingen-naboer"
+      ],
+      "relatedTimeline": [
+        "1990-1999-kommunale-blokker"
+      ],
+      "tags": [
+        "forfatter",
+        "mangfold"
+      ]
+    },
+    {
+      "id": "kaveh-kholardi",
+      "name": "Kaveh Kholardi",
+      "type": "person",
+      "description": "Rapper oppvokst på Grünerløkka, kjent som Kaveh.",
+      "relatedSources": [
+        "kaveh-intervju-2013"
+      ],
+      "relatedTimeline": [
+        "2000-2005-ungdom-for-hipsterbolge"
+      ],
+      "tags": [
+        "musiker",
+        "rap"
+      ]
+    },
+    {
+      "id": "don-martin",
+      "name": "Don Martin",
+      "type": "person",
+      "description": "Rapper fra Oslo øst som bruker Løkka som eksempel på gentrifisering.",
+      "relatedSources": [
+        "don-martin-nilsen"
+      ],
+      "relatedTimeline": [
+        "2010-2025-lokka-som-symbol"
+      ],
+      "tags": [
+        "musiker",
+        "rap"
+      ]
+    }
+  ]
+}

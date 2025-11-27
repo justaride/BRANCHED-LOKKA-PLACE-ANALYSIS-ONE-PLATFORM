@@ -1,0 +1,57 @@
+[
+  {
+    "id": "utdanning-og-likestilling",
+    "name": "Utdanning og likestilling",
+    "description": "Ildsjelers arbeid med skoler, oppvekst og likestilling."
+  },
+  {
+    "id": "politikk",
+    "name": "Politikk",
+    "description": "Politisk representasjon og påvirkningsarbeid fra lokalmiljøet."
+  },
+  {
+    "id": "arbeideridrett-og-samfunn",
+    "name": "Arbeideridrett og samfunn",
+    "description": "Idrett og folkehelse med røtter i arbeiderbevegelsen."
+  },
+  {
+    "id": "byutvikling-og-bevaring",
+    "name": "Byutvikling og bevaring",
+    "description": "Kamp for å bevare bygninger, gater og nærmiljø, og påvirke byutviklingen."
+  },
+  {
+    "id": "kultur-og-utested",
+    "name": "Kultur og utested",
+    "description": "Kulturarenaer, scener, utesteder og møteplasser."
+  },
+  {
+    "id": "mat-og-drikke",
+    "name": "Mat og drikke",
+    "description": "Kafeer, restauranter og andre mat- og drikkeinitiativ."
+  },
+  {
+    "id": "naeringsliv-og-grundere",
+    "name": "Næringsliv og gründere",
+    "description": "Lokale bedrifter og gründere med ekstra engasjement for bydelen."
+  },
+  {
+    "id": "lokalhistorie",
+    "name": "Lokalhistorie",
+    "description": "Arbeid med å dokumentere, formidle og bevare bydelens historie."
+  },
+  {
+    "id": "frivillighet",
+    "name": "Frivillighet",
+    "description": "Frivillig innsats for fellesskapet, utenom idrett."
+  },
+  {
+    "id": "idrett-og-frivillighet",
+    "name": "Idrett og frivillighet",
+    "description": "Frivillig idrettsarbeid og tilbud til barn, unge og voksne."
+  },
+  {
+    "id": "ungt-engasjement",
+    "name": "Ungt engasjement",
+    "description": "Yngre ildsjeler og initiativ som kommer nedenfra."
+  }
+]

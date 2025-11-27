@@ -1,0 +1,202 @@
+{
+  "actors": [
+    {
+      "rank": "#1",
+      "navn": "Vulkanfisk Butikk Mathallen Oslo",
+      "type": "Handel / Mat og drikke",
+      "adresse": "VULKAN 5",
+      "kommune": "Oslo",
+      "omsetning": 27,
+      "kjedeProsent": null,
+      "yoyVekst": 14,
+      "ansatteLokalt": 19,
+      "ansatteKjede": 26,
+      "kjedeLokasjoner": 1,
+      "markedsandel": 26.69
+    },
+    {
+      "rank": "#2",
+      "navn": "Galopin",
+      "type": "Handel / Mat og drikke",
+      "adresse": "VULKAN 5",
+      "kommune": "Oslo",
+      "omsetning": 16,
+      "kjedeProsent": null,
+      "yoyVekst": 15,
+      "ansatteLokalt": 17,
+      "ansatteKjede": 15,
+      "kjedeLokasjoner": 1,
+      "markedsandel": 15.96
+    },
+    {
+      "rank": "#3",
+      "navn": "Gutta På Haugen AS Avd Mathallen",
+      "type": "Handel / Mat og drikke",
+      "adresse": "VULKAN 5",
+      "kommune": "Oslo",
+      "omsetning": 15,
+      "kjedeProsent": null,
+      "yoyVekst": 3,
+      "ansatteLokalt": 0,
+      "ansatteKjede": 0,
+      "kjedeLokasjoner": 1,
+      "markedsandel": 14.85
+    },
+    {
+      "rank": "#4",
+      "navn": "Breddos Tacos AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "MUNKERUDÅSEN 22 F",
+      "kommune": "Oslo",
+      "omsetning": 9,
+      "kjedeProsent": null,
+      "yoyVekst": -13,
+      "ansatteLokalt": 21,
+      "ansatteKjede": 15,
+      "kjedeLokasjoner": 1,
+      "markedsandel": 8.51
+    },
+    {
+      "rank": "#5",
+      "navn": "Barramon Mathallen Oslo",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "VULKAN 5",
+      "kommune": "Oslo",
+      "omsetning": 8,
+      "kjedeProsent": null,
+      "yoyVekst": 8,
+      "ansatteLokalt": 10,
+      "ansatteKjede": 17,
+      "kjedeLokasjoner": 1,
+      "markedsandel": 7.59
+    },
+    {
+      "rank": "#6",
+      "navn": "Atelier Asian Tapas Mathallen Oslo",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "VULKAN 5",
+      "kommune": "Oslo",
+      "omsetning": 6,
+      "kjedeProsent": null,
+      "yoyVekst": 3,
+      "ansatteLokalt": 8,
+      "ansatteKjede": 9,
+      "kjedeLokasjoner": 1,
+      "markedsandel": 6.32
+    },
+    {
+      "rank": "#7",
+      "navn": "Pizzeria & Vino La Famiglia AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "VULKAN 5",
+      "kommune": "Oslo",
+      "omsetning": 4,
+      "kjedeProsent": null,
+      "yoyVekst": null,
+      "ansatteLokalt": 8,
+      "ansatteKjede": 8,
+      "kjedeLokasjoner": 1,
+      "markedsandel": 3.63
+    },
+    {
+      "rank": "#8",
+      "navn": "Simply Tasty AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "VULKAN 5",
+      "kommune": "Oslo",
+      "omsetning": 4,
+      "kjedeProsent": null,
+      "yoyVekst": 4,
+      "ansatteLokalt": 7,
+      "ansatteKjede": 5,
+      "kjedeLokasjoner": 1,
+      "markedsandel": 4.4
+    },
+    {
+      "rank": "#9",
+      "navn": "Vulkanfisk Sjømatbar Mathallen Oslo",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "VULKAN 5",
+      "kommune": "Oslo",
+      "omsetning": 3,
+      "kjedeProsent": null,
+      "yoyVekst": 14,
+      "ansatteLokalt": 2,
+      "ansatteKjede": 3,
+      "kjedeLokasjoner": 1,
+      "markedsandel": 3.36
+    },
+    {
+      "rank": "#10",
+      "navn": "Le Pain Mathallen AS",
+      "type": "Mat og opplevelser / Bakeri og kafé",
+      "adresse": "VULKAN 5",
+      "kommune": "Oslo",
+      "omsetning": 3,
+      "kjedeProsent": null,
+      "yoyVekst": -10,
+      "ansatteLokalt": 9,
+      "ansatteKjede": 18,
+      "kjedeLokasjoner": 1,
+      "markedsandel": 3.39
+    },
+    {
+      "rank": "#11",
+      "navn": "Refresh Mathallen",
+      "type": "Mat og opplevelser / Pub og bar",
+      "adresse": "VULKAN 5",
+      "kommune": "Oslo",
+      "omsetning": 2,
+      "kjedeProsent": null,
+      "yoyVekst": 4,
+      "ansatteLokalt": 12,
+      "ansatteKjede": 10,
+      "kjedeLokasjoner": 1,
+      "markedsandel": 1.99
+    },
+    {
+      "rank": "#12",
+      "navn": "Bakeriet Cupcake & Pie AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "VULKAN 5",
+      "kommune": "Oslo",
+      "omsetning": 0.62,
+      "kjedeProsent": null,
+      "yoyVekst": null,
+      "ansatteLokalt": 5,
+      "ansatteKjede": 5,
+      "kjedeLokasjoner": 1,
+      "markedsandel": 0.61
+    }
+  ],
+  "categoryStats": {
+    "Handel / Mat og drikke": {
+      "count": 3,
+      "totalRevenue": 58,
+      "avgRevenue": 19.33
+    },
+    "Mat og opplevelser / Restaurant": {
+      "count": 7,
+      "totalRevenue": 34.62,
+      "avgRevenue": 4.95
+    },
+    "Mat og opplevelser / Bakeri og kafé": {
+      "count": 1,
+      "totalRevenue": 3,
+      "avgRevenue": 3
+    },
+    "Mat og opplevelser / Pub og bar": {
+      "count": 1,
+      "totalRevenue": 2,
+      "avgRevenue": 2
+    }
+  },
+  "metadata": {
+    "totalActors": 12,
+    "totalCategories": 4,
+    "totalRevenue": 97.62,
+    "generatedAt": "2025-11-27T00:00:00Z",
+    "analysisType": "mathallen-intern",
+    "areaSize": "0.005 km²"
+  }
+}

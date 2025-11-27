@@ -1,10 +1,12 @@
 import { notFound } from 'next/navigation';
 import { loadEiendom, getAllPropertyIds } from '@/lib/loaders/aspelin-ramm';
+import { loadOneMinAnalysisData } from '@/lib/loaders/one-min-loader';
 import Container from '@/components/ui/Container';
 import AnalyseSelector from '@/components/property/AnalyseSelector';
 import KeyMetrics from '@/components/property/KeyMetrics';
 import EiendomsprofilExpander from '@/components/property/EiendomsprofilExpander';
 import BusinessActors from '@/components/property/BusinessActors';
+import OneMinAnalysisViewer from '@/components/one-min-analysis/OneMinAnalysisViewer';
 import FadeIn from '@/components/ui/FadeIn';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -31,9 +33,11 @@ export async function generateMetadata({ params }: PageProps) {
     };
   }
 
+  const displayName = eiendom.navn || eiendom.adresse;
+
   return {
-    title: `${eiendom.adresse} - Aspelin Ramm`,
-    description: eiendom.beskrivelse || `Placeanalyse for ${eiendom.adresse}`,
+    title: `${displayName} - Aspelin Ramm`,
+    description: eiendom.beskrivelse || `Placeanalyse for ${displayName}`,
   };
 }
 
@@ -44,6 +48,12 @@ export default async function AspelinRammEiendomPage({ params }: PageProps) {
   if (!eiendom) {
     notFound();
   }
+
+  // Load 1-minute analysis data if available
+  const oneMinData = await loadOneMinAnalysisData('aspelin-ramm', id);
+
+  // Display name (use navn if available, otherwise adresse)
+  const displayName = eiendom.navn || eiendom.adresse;
 
   // Calculate metrics from næringsaktører data
   const totalRevenue = eiendom.naringsaktorer?.actors?.reduce(
@@ -81,7 +91,10 @@ export default async function AspelinRammEiendomPage({ params }: PageProps) {
             {/* Text Content */}
             <div className="flex-1">
               <FadeIn delay={100} direction="up">
-                <h1 className="mb-4 text-3xl font-bold leading-tight tracking-tight md:mb-6 md:text-5xl lg:text-6xl">{eiendom.adresse}</h1>
+                <h1 className="mb-2 text-3xl font-bold leading-tight tracking-tight md:mb-4 md:text-5xl lg:text-6xl">{displayName}</h1>
+                {eiendom.navn && (
+                  <p className="mb-4 text-lg text-white/70 md:mb-6 md:text-xl">{eiendom.adresse}</p>
+                )}
               </FadeIn>
               {eiendom.beskrivelse && (
                 <FadeIn delay={200} direction="up">
@@ -199,14 +212,21 @@ export default async function AspelinRammEiendomPage({ params }: PageProps) {
           />
         )}
 
-        {/* Plaace Analytics */}
-        <AnalyseSelector
-          plaaceData={eiendom.plaaceData}
-        />
+        {/* Show interactive 1-min analysis OR legacy screenshots (not both) */}
+        {oneMinData ? (
+          <OneMinAnalysisViewer
+            data={oneMinData}
+            propertyName={displayName}
+          />
+        ) : (
+          <AnalyseSelector
+            plaaceData={eiendom.plaaceData}
+          />
+        )}
       </Container>
 
-      {/* Business Actors Section */}
-      {eiendom.naringsaktorer && (
+      {/* Business Actors Section - only show if we don't have 1-min data (which includes aktorer) */}
+      {!oneMinData && eiendom.naringsaktorer && eiendom.naringsaktorer.actors.length > 0 && (
         <BusinessActors
           actors={eiendom.naringsaktorer.actors}
           categoryStats={eiendom.naringsaktorer.categoryStats}

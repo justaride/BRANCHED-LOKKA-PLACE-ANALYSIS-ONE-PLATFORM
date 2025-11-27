@@ -1,0 +1,29 @@
+{
+  "id": "themes",
+  "version": 1,
+  "themes": [
+    {
+      "id": "housing",
+      "label": "Housing & living conditions",
+      "description": "Development, overcrowding, renewal and standard of housing.",
+      "event_ids": [
+        "1850s_land_subdivision",
+        "1861_ny_york_growth",
+        "1900_population_peak",
+        "1977_byfornyelse_program",
+        "1979_ny_york_rehabilitation",
+        "1986_stolmakergata_project"
+      ]
+    },
+    {
+      "id": "industry",
+      "label": "Industry & work",
+      "description": "Factories, breweries and work along Akerselva.",
+      "event_ids": [
+        "1856_christiania_seildugsfabrik",
+        "1875_foss_jernstoperi",
+        "1940_1945_occupation"
+      ]
+    }
+  ]
+}

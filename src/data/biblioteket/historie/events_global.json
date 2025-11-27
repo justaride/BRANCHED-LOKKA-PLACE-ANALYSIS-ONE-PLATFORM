@@ -1,0 +1,41 @@
+{
+  "id": "events_global",
+  "version": 1,
+  "events": [
+    {
+      "id": "grunerlokka_1947_clearance_plan",
+      "place_id": "grunerlokka",
+      "place_label": "Grünerløkka",
+      "start_year": 1947,
+      "end_year": 1947,
+      "precision": "year",
+      "section_id": "world_war_ii_and_postwar_challenges",
+      "label": "First clearance plan for Grünerløkka approved",
+      "tags": [
+        "urban_planning",
+        "clearance",
+        "modernism"
+      ],
+      "entities": [
+        "org_oslo_city_council"
+      ]
+    },
+    {
+      "id": "grunerlokka_1977_byfornyelse",
+      "place_id": "grunerlokka",
+      "place_label": "Grünerløkka",
+      "start_year": 1977,
+      "end_year": 1977,
+      "precision": "year",
+      "section_id": "world_war_ii_and_postwar_challenges",
+      "label": "Byfornyelse program adopted for Grünerløkka",
+      "tags": [
+        "byfornyelse",
+        "policy_shift"
+      ],
+      "entities": [
+        "org_oslo_city_council"
+      ]
+    }
+  ]
+}

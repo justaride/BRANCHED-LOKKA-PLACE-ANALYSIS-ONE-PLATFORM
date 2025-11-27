@@ -27,9 +27,12 @@ export default function PropertyCard({ property, basePath }: PropertyCardProps) 
         <div className="p-8">
           {/* Header */}
           <div className="mb-6">
-            <h3 className="text-2xl font-bold text-lokka-primary mb-3 group-hover:text-lokka-secondary transition-colors">
-              {property.adresse}
+            <h3 className="text-2xl font-bold text-lokka-primary mb-2 group-hover:text-lokka-secondary transition-colors">
+              {property.navn || property.adresse}
             </h3>
+            {property.navn && (
+              <p className="text-sm text-lokka-neutral mb-3">{property.adresse}</p>
+            )}
             <div className="flex gap-3 text-xs">
               <span className="rounded-full bg-lokka-secondary/10 px-3 py-1.5 font-medium text-lokka-secondary">
                 Gnr: {property.gnr}

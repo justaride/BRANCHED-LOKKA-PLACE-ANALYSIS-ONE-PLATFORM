@@ -5,6 +5,30 @@
 
 import type { OneMinAnalysisData } from '@/types/one-min-analysis';
 
+// Static imports for known 1-min analysis data (required for Next.js/Vercel compatibility)
+const STATIC_DATA: Record<string, () => Promise<OneMinAnalysisData>> = {
+  'spabo/sofienberggata-6': async () => {
+    const [demografi, korthandel, bevegelse, konkurransebilde, aktorer] = await Promise.all([
+      import('@/data/spabo/sofienberggata-6/1min/demografi.json').then(m => m.default),
+      import('@/data/spabo/sofienberggata-6/1min/korthandel.json').then(m => m.default),
+      import('@/data/spabo/sofienberggata-6/1min/bevegelse.json').then(m => m.default),
+      import('@/data/spabo/sofienberggata-6/1min/konkurransebilde.json').then(m => m.default),
+      import('@/data/spabo/sofienberggata-6/1min/aktorer.json').then(m => m.default),
+    ]);
+    return { demografi, korthandel, bevegelse, konkurransebilde, aktorer };
+  },
+  'aspelin-ramm/mathallen': async () => {
+    const [korthandel, bevegelse, konkurransebilde, aktorer] = await Promise.all([
+      import('@/data/aspelin-ramm/mathallen/1min/korthandel.json').then(m => m.default),
+      import('@/data/aspelin-ramm/mathallen/1min/bevegelse.json').then(m => m.default),
+      import('@/data/aspelin-ramm/mathallen/1min/konkurransebilde.json').then(m => m.default),
+      import('@/data/aspelin-ramm/mathallen/1min/aktorer.json').then(m => m.default),
+    ]);
+    // Mathallen has no demografi (commercial property, no residents)
+    return { demografi: null, korthandel, bevegelse, konkurransebilde, aktorer };
+  },
+};
+
 /**
  * Load 1-minute analysis data for a specific property
  *
@@ -16,26 +40,46 @@ export async function loadOneMinAnalysisData(
   tenant: string,
   propertyId: string
 ): Promise<OneMinAnalysisData | null> {
+  const key = `${tenant}/${propertyId}`;
+  console.log(`[one-min-loader] Loading data for: ${key}`);
+
+  // Use static imports for known properties (Vercel compatibility)
+  if (STATIC_DATA[key]) {
+    console.log(`[one-min-loader] Found static loader for: ${key}`);
+    try {
+      const data = await STATIC_DATA[key]();
+      console.log(`[one-min-loader] Successfully loaded data for: ${key}`, !!data);
+      return data;
+    } catch (error: any) {
+      console.error(`[one-min-loader] Error loading ${key}:`, error);
+      if (error.code !== 'MODULE_NOT_FOUND') {
+        console.warn(`Error loading 1-minute analysis data for ${key}:`, error);
+      }
+      return null;
+    }
+  } else {
+    console.log(`[one-min-loader] No static loader found for: ${key}`);
+  }
+
+  // Fallback to dynamic imports for other properties
   try {
-    // Try to load all 5 data files in parallel
-    const [demografi, korthandel, bevegelse, konkurransebilde, aktorer] = await Promise.all([
-      import(`@/data/${tenant}/${propertyId}/1min/demografi.json`).then(m => m.default),
+    const [korthandel, bevegelse, konkurransebilde, aktorer] = await Promise.all([
       import(`@/data/${tenant}/${propertyId}/1min/korthandel.json`).then(m => m.default),
       import(`@/data/${tenant}/${propertyId}/1min/bevegelse.json`).then(m => m.default),
       import(`@/data/${tenant}/${propertyId}/1min/konkurransebilde.json`).then(m => m.default),
       import(`@/data/${tenant}/${propertyId}/1min/aktorer.json`).then(m => m.default),
     ]);
 
-    return {
-      demografi,
-      korthandel,
-      bevegelse,
-      konkurransebilde,
-      aktorer,
-    };
+    // Try to load demografi (optional)
+    let demografi = null;
+    try {
+      demografi = await import(`@/data/${tenant}/${propertyId}/1min/demografi.json`).then(m => m.default);
+    } catch {
+      // Demografi is optional
+    }
+
+    return { demografi, korthandel, bevegelse, konkurransebilde, aktorer };
   } catch (error: any) {
-    // If any file is missing, return null.
-    // We suppress MODULE_NOT_FOUND logs as this is expected for many properties.
     if (error.code !== 'MODULE_NOT_FOUND') {
       console.warn(`Error loading 1-minute analysis data for ${tenant}/${propertyId}:`, error);
     }

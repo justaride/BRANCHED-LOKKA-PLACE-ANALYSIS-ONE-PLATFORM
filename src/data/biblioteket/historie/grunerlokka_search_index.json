@@ -1,0 +1,20 @@
+{
+  "id": "grunerlokka_search_index",
+  "place_id": "grunerlokka",
+  "version": 1,
+  "documents": [
+    {
+      "doc_id": "sec_19c_p0",
+      "document_id": "grunerlokka_urban_development",
+      "section_id": "19th_century_origins_industry_and_expansion",
+      "paragraph_index": 0,
+      "text": "Grünerløkka’s transformation from rural land to a bustling urban district began in the mid-1800s, driven by industrialization along the Akerselva and speculative land development by owners like Friedrich and Hans Grüner.",
+      "year_start": 1850,
+      "year_end": 1900,
+      "tags": [
+        "industry",
+        "urban_expansion"
+      ]
+    }
+  ]
+}

@@ -3,6 +3,7 @@
  */
 export interface Eiendom {
   id: string;
+  navn?: string; // Display name (e.g., "Mathallen", "Bellonabygget")
   adresse: string;
   gnr?: number | null;
   bnr?: number | null;

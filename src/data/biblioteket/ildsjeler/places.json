@@ -1,0 +1,74 @@
+[
+  {
+    "id": "grunerlokka",
+    "name": "Grünerløkka",
+    "type": "bydel",
+    "address": "Grünerløkka, Oslo",
+    "lat": null,
+    "lng": null,
+    "description": "Bydelen som helhet, brukt når ildsjelen er knyttet til flere steder eller generelt nærmiljø."
+  },
+  {
+    "id": "grunerlokka-pikeskole",
+    "name": "Grünerløkka pikeskole",
+    "type": "skole",
+    "address": "Grünerløkka, Oslo",
+    "lat": null,
+    "lng": null,
+    "description": "Tidligere kommunal pikeskole på Grünerløkka, der Anna Rogstad var bestyrer."
+  },
+  {
+    "id": "rodelokka",
+    "name": "Rodeløkka",
+    "type": "område",
+    "address": "Rodeløkka, 0560 Oslo",
+    "lat": null,
+    "lng": null,
+    "description": "Trehusområdet på østsiden av Grünerløkka, bevart etter beboeraksjoner på 1970-tallet."
+  },
+  {
+    "id": "daelenenga-idrettsanlegg",
+    "name": "Dælenenga idrettsanlegg",
+    "type": "idrettsanlegg",
+    "address": "Dælenenggata, 0567 Oslo",
+    "lat": null,
+    "lng": null,
+    "description": "Idrettsanlegg med fotballbane, ishall og flerbrukshall, sentralt i historien til Grüner Idrettslag."
+  },
+  {
+    "id": "daelenenga-ishall",
+    "name": "Dælenenga ishall",
+    "type": "ishall",
+    "address": "Dælenenggata, 0567 Oslo",
+    "lat": null,
+    "lng": null,
+    "description": "Hjemmebane for Grüner Hockey."
+  },
+  {
+    "id": "thorvald-meyers-gate",
+    "name": "Thorvald Meyers gate",
+    "type": "gate",
+    "address": "Thorvald Meyers gate, 0555 Oslo",
+    "lat": null,
+    "lng": null,
+    "description": "Hovedgate på Grünerløkka, med blant annet Bar Boca."
+  },
+  {
+    "id": "olaf-ryes-plass",
+    "name": "Olaf Ryes plass",
+    "type": "torg",
+    "address": "Olaf Ryes plass, 0552 Oslo",
+    "lat": null,
+    "lng": null,
+    "description": "Sentral plass på Grünerløkka, kjent for Parkteatret og parkmiljøet."
+  },
+  {
+    "id": "gruners-gate",
+    "name": "Grüners gate",
+    "type": "gate",
+    "address": "Grüners gate, 0552 Oslo",
+    "lat": null,
+    "lng": null,
+    "description": "Gate der blant annet kaffebaren og brenneriet Tim Wendelboe holder til."
+  }
+]
