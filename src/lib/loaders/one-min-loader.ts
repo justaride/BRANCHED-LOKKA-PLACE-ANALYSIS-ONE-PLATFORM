@@ -33,9 +33,12 @@ export async function loadOneMinAnalysisData(
       konkurransebilde,
       aktorer,
     };
-  } catch (error) {
-    // If any file is missing, log and return null
-    console.warn(`1-minute analysis data not available for ${tenant}/${propertyId}:`, error);
+  } catch (error: any) {
+    // If any file is missing, return null.
+    // We suppress MODULE_NOT_FOUND logs as this is expected for many properties.
+    if (error.code !== 'MODULE_NOT_FOUND') {
+      console.warn(`Error loading 1-minute analysis data for ${tenant}/${propertyId}:`, error);
+    }
     return null;
   }
 }
