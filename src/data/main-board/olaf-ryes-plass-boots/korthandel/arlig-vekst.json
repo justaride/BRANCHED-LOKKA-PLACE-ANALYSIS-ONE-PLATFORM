@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "source": "Årlig vekst KORTHANDEL.csv",
+    "rows": 6,
+    "columns": [
+      "DateTime",
+      "Birkelunden / Olaf Ryes Plass (Urbant område) (x)",
+      "Birkelunden / Olaf Ryes Plass (Urbant område) - year-to-date (%)",
+      "NOK (M)",
+      "Oslo (Kommune) (x)",
+      "Oslo (Kommune) - year-to-date (%)",
+      "NOK (M)",
+      "Norway (Land) (x)",
+      "Norway (Land) - year-to-date (%)",
+      "NOK (M)"
+    ]
+  },
+  "data": [
+    {
+      "DateTime": 2020,
+      "Birkelunden / Olaf Ryes Plass (Urbant område) (x)": 2020,
+      "Birkelunden / Olaf Ryes Plass (Urbant område) - year-to-date (%)": -4.36,
+      "NOK (M)": 476752.314992,
+      "Oslo (Kommune) (x)": 2020,
+      "Oslo (Kommune) - year-to-date (%)": 1.71,
+      "Norway (Land) (x)": 2020,
+      "Norway (Land) - year-to-date (%)": 7.64
+    },
+    {
+      "DateTime": 2021,
+      "Birkelunden / Olaf Ryes Plass (Urbant område) (x)": 2021,
+      "Birkelunden / Olaf Ryes Plass (Urbant område) - year-to-date (%)": -0.18,
+      "NOK (M)": 494134.093363,
+      "Oslo (Kommune) (x)": 2021,
+      "Oslo (Kommune) - year-to-date (%)": 0.21,
+      "Norway (Land) (x)": 2021,
+      "Norway (Land) - year-to-date (%)": 3.65
+    },
+    {
+      "DateTime": 2022,
+      "Birkelunden / Olaf Ryes Plass (Urbant område) (x)": 2022,
+      "Birkelunden / Olaf Ryes Plass (Urbant område) - year-to-date (%)": 5.82,
+      "NOK (M)": 492969.823281,
+      "Oslo (Kommune) (x)": 2022,
+      "Oslo (Kommune) - year-to-date (%)": 7.5,
+      "Norway (Land) (x)": 2022,
+      "Norway (Land) - year-to-date (%)": -0.24
+    },
+    {
+      "DateTime": 2023,
+      "Birkelunden / Olaf Ryes Plass (Urbant område) (x)": 2023,
+      "Birkelunden / Olaf Ryes Plass (Urbant område) - year-to-date (%)": -6,
+      "NOK (M)": 490016.448431,
+      "Oslo (Kommune) (x)": 2023,
+      "Oslo (Kommune) - year-to-date (%)": -2.25,
+      "Norway (Land) (x)": 2023,
+      "Norway (Land) - year-to-date (%)": -0.6
+    },
+    {
+      "DateTime": 2024,
+      "Birkelunden / Olaf Ryes Plass (Urbant område) (x)": 2024,
+      "Birkelunden / Olaf Ryes Plass (Urbant område) - year-to-date (%)": -15.18,
+      "NOK (M)": 479116.671372,
+      "Oslo (Kommune) (x)": 2024,
+      "Oslo (Kommune) - year-to-date (%)": -4.43,
+      "Norway (Land) (x)": 2024,
+      "Norway (Land) - year-to-date (%)": -2.22
+    },
+    {
+      "DateTime": 2025,
+      "Birkelunden / Olaf Ryes Plass (Urbant område) (x)": 2025,
+      "Birkelunden / Olaf Ryes Plass (Urbant område) - year-to-date (%)": -8.5,
+      "NOK (M)": 474066.276191,
+      "Oslo (Kommune) (x)": 2025,
+      "Oslo (Kommune) - year-to-date (%)": -2.5,
+      "Norway (Land) (x)": 2025,
+      "Norway (Land) - year-to-date (%)": -1.05
+    }
+  ]
+}

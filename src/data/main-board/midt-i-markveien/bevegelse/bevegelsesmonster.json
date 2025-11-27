@@ -1,0 +1,68 @@
+[
+  {
+    "kvartal": "Q1'2023",
+    "besokende": 4553,
+    "paJobb": 1449,
+    "hjemme": 3057
+  },
+  {
+    "kvartal": "Q2'2023",
+    "besokende": 4871,
+    "paJobb": 1247,
+    "hjemme": 2764
+  },
+  {
+    "kvartal": "Q3'2023",
+    "besokende": 4623,
+    "paJobb": 1167,
+    "hjemme": 2713
+  },
+  {
+    "kvartal": "Q4'2023",
+    "besokende": 4146,
+    "paJobb": 1217,
+    "hjemme": 2973
+  },
+  {
+    "kvartal": "Q1'2024",
+    "besokende": 3740,
+    "paJobb": 1197,
+    "hjemme": 2908
+  },
+  {
+    "kvartal": "Q2'2024",
+    "besokende": 5175,
+    "paJobb": 1259,
+    "hjemme": 3106
+  },
+  {
+    "kvartal": "Q3'2024",
+    "besokende": 4669,
+    "paJobb": 1089,
+    "hjemme": 2855
+  },
+  {
+    "kvartal": "Q4'2024",
+    "besokende": 4222,
+    "paJobb": 1173,
+    "hjemme": 2951
+  },
+  {
+    "kvartal": "Q1'2025",
+    "besokende": 3939,
+    "paJobb": 1169,
+    "hjemme": 2854
+  },
+  {
+    "kvartal": "Q2'2025",
+    "besokende": 4698,
+    "paJobb": 1104,
+    "hjemme": 2712
+  },
+  {
+    "kvartal": "Q3'2025",
+    "besokende": 4571,
+    "paJobb": 1052,
+    "hjemme": 2605
+  }
+]

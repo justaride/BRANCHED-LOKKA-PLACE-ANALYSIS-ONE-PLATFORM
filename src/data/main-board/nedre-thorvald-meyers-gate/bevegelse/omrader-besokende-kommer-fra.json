@@ -1,0 +1,1002 @@
+[
+  {
+    "område": "Grünerløkka",
+    "antallBesøk": 5307510,
+    "andel": 22.35
+  },
+  {
+    "område": "Sentrum 2",
+    "antallBesøk": 2322627,
+    "andel": 9.78
+  },
+  {
+    "område": "Rodeløkka",
+    "antallBesøk": 1277372,
+    "andel": 5.38
+  },
+  {
+    "område": "Tøyen",
+    "antallBesøk": 1139505,
+    "andel": 4.8
+  },
+  {
+    "område": "Grønland",
+    "antallBesøk": 935636,
+    "andel": 3.94
+  },
+  {
+    "område": "Torshov",
+    "antallBesøk": 614054,
+    "andel": 2.59
+  },
+  {
+    "område": "Gamle Aker",
+    "antallBesøk": 565946,
+    "andel": 2.38
+  },
+  {
+    "område": "Hasle",
+    "antallBesøk": 419307,
+    "andel": 1.77
+  },
+  {
+    "område": "Bjerke",
+    "antallBesøk": 402548,
+    "andel": 1.7
+  },
+  {
+    "område": "Grefsenlia",
+    "antallBesøk": 383322,
+    "andel": 1.62
+  },
+  {
+    "område": "Ulven",
+    "antallBesøk": 359829,
+    "andel": 1.52
+  },
+  {
+    "område": "Sinsen",
+    "antallBesøk": 321954,
+    "andel": 1.36
+  },
+  {
+    "område": "Manglerud",
+    "antallBesøk": 307722,
+    "andel": 1.3
+  },
+  {
+    "område": "Åsen",
+    "antallBesøk": 299034,
+    "andel": 1.26
+  },
+  {
+    "område": "Fossum",
+    "antallBesøk": 267967,
+    "andel": 1.13
+  },
+  {
+    "område": "Kampen",
+    "antallBesøk": 257829,
+    "andel": 1.09
+  },
+  {
+    "område": "Grorud",
+    "antallBesøk": 255560,
+    "andel": 1.08
+  },
+  {
+    "område": "Tåsen",
+    "antallBesøk": 246386,
+    "andel": 1.04
+  },
+  {
+    "område": "Ila",
+    "antallBesøk": 239618,
+    "andel": 1.01
+  },
+  {
+    "område": "St.hanshaugen",
+    "antallBesøk": 238762,
+    "andel": 1.01
+  },
+  {
+    "område": "Østensjø",
+    "antallBesøk": 238166,
+    "andel": 1
+  },
+  {
+    "område": "Ulsholt",
+    "antallBesøk": 213078,
+    "andel": 0.9
+  },
+  {
+    "område": "Bjølsen",
+    "antallBesøk": 210369,
+    "andel": 0.89
+  },
+  {
+    "område": "Rudene",
+    "antallBesøk": 203330,
+    "andel": 0.86
+  },
+  {
+    "område": "Langerud",
+    "antallBesøk": 199464,
+    "andel": 0.84
+  },
+  {
+    "område": "Majorstuen",
+    "antallBesøk": 195119,
+    "andel": 0.82
+  },
+  {
+    "område": "Ljansbyen",
+    "antallBesøk": 184619,
+    "andel": 0.78
+  },
+  {
+    "område": "Bekkelaget",
+    "antallBesøk": 184432,
+    "andel": 0.78
+  },
+  {
+    "område": "Homansbyen",
+    "antallBesøk": 175511,
+    "andel": 0.74
+  },
+  {
+    "område": "Gamlebyen",
+    "antallBesøk": 171361,
+    "andel": 0.72
+  },
+  {
+    "område": "Frogner",
+    "antallBesøk": 166185,
+    "andel": 0.7
+  },
+  {
+    "område": "Alfaset",
+    "antallBesøk": 155451,
+    "andel": 0.66
+  },
+  {
+    "område": "Ris",
+    "antallBesøk": 151428,
+    "andel": 0.64
+  },
+  {
+    "område": "Sentrum 3",
+    "antallBesøk": 143877,
+    "andel": 0.61
+  },
+  {
+    "område": "Sandaker",
+    "antallBesøk": 137751,
+    "andel": 0.58
+  },
+  {
+    "område": "Vålerenga",
+    "antallBesøk": 134334,
+    "andel": 0.57
+  },
+  {
+    "område": "Sagene",
+    "antallBesøk": 130545,
+    "andel": 0.55
+  },
+  {
+    "område": "Lindern",
+    "antallBesøk": 122220,
+    "andel": 0.52
+  },
+  {
+    "område": "Uranienborg",
+    "antallBesøk": 107826,
+    "andel": 0.46
+  },
+  {
+    "område": "Røabyen",
+    "antallBesøk": 105347,
+    "andel": 0.44
+  },
+  {
+    "område": "Sentrum 1",
+    "antallBesøk": 102829,
+    "andel": 0.43
+  },
+  {
+    "område": "Østmarka",
+    "antallBesøk": 97690,
+    "andel": 0.41
+  },
+  {
+    "område": "Holmen",
+    "antallBesøk": 97074,
+    "andel": 0.41
+  },
+  {
+    "område": "Nordstrand",
+    "antallBesøk": 95184,
+    "andel": 0.4
+  },
+  {
+    "område": "Grefsenmarka",
+    "antallBesøk": 92497,
+    "andel": 0.39
+  },
+  {
+    "område": "Loenga",
+    "antallBesøk": 91816,
+    "andel": 0.39
+  },
+  {
+    "område": "Fagerborg",
+    "antallBesøk": 88303,
+    "andel": 0.37
+  },
+  {
+    "område": "Borgen",
+    "antallBesøk": 81843,
+    "andel": 0.34
+  },
+  {
+    "område": "Ullern",
+    "antallBesøk": 71558,
+    "andel": 0.3
+  },
+  {
+    "område": "Skillebekk",
+    "antallBesøk": 69683,
+    "andel": 0.3
+  },
+  {
+    "område": "Huseby",
+    "antallBesøk": 62505,
+    "andel": 0.26
+  },
+  {
+    "område": "Nordmarka",
+    "antallBesøk": 60824,
+    "andel": 0.26
+  },
+  {
+    "område": "Skårer",
+    "antallBesøk": 58643,
+    "andel": 0.25
+  },
+  {
+    "område": "Snarøya",
+    "antallBesøk": 51651,
+    "andel": 0.22
+  },
+  {
+    "område": "Skøyen",
+    "antallBesøk": 51356,
+    "andel": 0.22
+  },
+  {
+    "område": "Kjenn - Fjellhamar",
+    "antallBesøk": 48433,
+    "andel": 0.21
+  },
+  {
+    "område": "Berger",
+    "antallBesøk": 45068,
+    "andel": 0.19
+  },
+  {
+    "område": "Slattum",
+    "antallBesøk": 44167,
+    "andel": 0.19
+  },
+  {
+    "område": "Bygdøy",
+    "antallBesøk": 42375,
+    "andel": 0.18
+  },
+  {
+    "område": "Marienlyst",
+    "antallBesøk": 41676,
+    "andel": 0.18
+  },
+  {
+    "område": "Kolbotn",
+    "antallBesøk": 38807,
+    "andel": 0.17
+  },
+  {
+    "område": "Holmenkollen",
+    "antallBesøk": 38435,
+    "andel": 0.17
+  },
+  {
+    "område": "Jar",
+    "antallBesøk": 37692,
+    "andel": 0.16
+  },
+  {
+    "område": "Ås",
+    "antallBesøk": 33919,
+    "andel": 0.15
+  },
+  {
+    "område": "Voll",
+    "antallBesøk": 32636,
+    "andel": 0.14
+  },
+  {
+    "område": "Stabekk",
+    "antallBesøk": 32634,
+    "andel": 0.14
+  },
+  {
+    "område": "Langhus",
+    "antallBesøk": 32524,
+    "andel": 0.15
+  },
+  {
+    "område": "Lysaker",
+    "antallBesøk": 32145,
+    "andel": 0.14
+  },
+  {
+    "område": "Jessheim",
+    "antallBesøk": 31871,
+    "andel": 0.14
+  },
+  {
+    "område": "Stalsberg",
+    "antallBesøk": 31603,
+    "andel": 0.14
+  },
+  {
+    "område": "Tangen",
+    "antallBesøk": 31154,
+    "andel": 0.15
+  },
+  {
+    "område": "Haneborglia",
+    "antallBesøk": 30936,
+    "andel": 0.14
+  },
+  {
+    "område": "Lilleaker",
+    "antallBesøk": 30565,
+    "andel": 0.14
+  },
+  {
+    "område": "Grav",
+    "antallBesøk": 30530,
+    "andel": 0.14
+  },
+  {
+    "område": "Lysås - Løken",
+    "antallBesøk": 29764,
+    "andel": 0.13
+  },
+  {
+    "område": "Greverud",
+    "antallBesøk": 28536,
+    "andel": 0.14
+  },
+  {
+    "område": "Nordby",
+    "antallBesøk": 27686,
+    "andel": 0.13
+  },
+  {
+    "område": "Kjeller",
+    "antallBesøk": 27674,
+    "andel": 0.13
+  },
+  {
+    "område": "Filipstad",
+    "antallBesøk": 27092,
+    "andel": 0.13
+  },
+  {
+    "område": "Retten",
+    "antallBesøk": 26841,
+    "andel": 0.13
+  },
+  {
+    "område": "Løkeberg - Blommenholm",
+    "antallBesøk": 26180,
+    "andel": 0.13
+  },
+  {
+    "område": "Rotnes",
+    "antallBesøk": 23454,
+    "andel": 0.12
+  },
+  {
+    "område": "Haslum",
+    "antallBesøk": 22572,
+    "andel": 0.12
+  },
+  {
+    "område": "Tårnåsen",
+    "antallBesøk": 22319,
+    "andel": 0.12
+  },
+  {
+    "område": "Rykkinn",
+    "antallBesøk": 21642,
+    "andel": 0.11
+  },
+  {
+    "område": "Kløfta",
+    "antallBesøk": 21070,
+    "andel": 0.11
+  },
+  {
+    "område": "Østre Bærumsmarka",
+    "antallBesøk": 20968,
+    "andel": 0.11
+  },
+  {
+    "område": "Finstad - Losby",
+    "antallBesøk": 20794,
+    "andel": 0.1
+  },
+  {
+    "område": "Stortorget",
+    "antallBesøk": 20376,
+    "andel": 0.11
+  },
+  {
+    "område": "Sandvika - Valler",
+    "antallBesøk": 19747,
+    "andel": 0.11
+  },
+  {
+    "område": "Slependen - Tanum",
+    "antallBesøk": 19712,
+    "andel": 0.11
+  },
+  {
+    "område": "Høvik",
+    "antallBesøk": 19672,
+    "andel": 0.1
+  },
+  {
+    "område": "Hovinhøgda",
+    "antallBesøk": 19607,
+    "andel": 0.1
+  },
+  {
+    "område": "Bjørnholt - Kurland",
+    "antallBesøk": 19564,
+    "andel": 0.1
+  },
+  {
+    "område": "Gjelleråsen",
+    "antallBesøk": 18783,
+    "andel": 0.1
+  },
+  {
+    "område": "Ski Øst",
+    "antallBesøk": 18702,
+    "andel": 0.1
+  },
+  {
+    "område": "Vigernes",
+    "antallBesøk": 18474,
+    "andel": 0.1
+  },
+  {
+    "område": "Frogner",
+    "antallBesøk": 17174,
+    "andel": 0.1
+  },
+  {
+    "område": "Gjerdrum",
+    "antallBesøk": 16847,
+    "andel": 0.1
+  },
+  {
+    "område": "Gjelleråsen",
+    "antallBesøk": 16621,
+    "andel": 0.1
+  },
+  {
+    "område": "Såner",
+    "antallBesøk": 16201,
+    "andel": 0.1
+  },
+  {
+    "område": "Vestby",
+    "antallBesøk": 16072,
+    "andel": 0.1
+  },
+  {
+    "område": "Skedsmokorset",
+    "antallBesøk": 15518,
+    "andel": 0.09
+  },
+  {
+    "område": "Kolsås",
+    "antallBesøk": 14763,
+    "andel": 0.1
+  },
+  {
+    "område": "Sofiemyr",
+    "antallBesøk": 14632,
+    "andel": 0.1
+  },
+  {
+    "område": "Østbygda Slemmestad",
+    "antallBesøk": 14471,
+    "andel": 0.1
+  },
+  {
+    "område": "Hosle Sør",
+    "antallBesøk": 14457,
+    "andel": 0.09
+  },
+  {
+    "område": "Jong",
+    "antallBesøk": 13980,
+    "andel": 0.09
+  },
+  {
+    "område": "Søndre Hakadal",
+    "antallBesøk": 13306,
+    "andel": 0.09
+  },
+  {
+    "område": "Vettre",
+    "antallBesøk": 13218,
+    "andel": 0.09
+  },
+  {
+    "område": "Rud",
+    "antallBesøk": 12916,
+    "andel": 0.09
+  },
+  {
+    "område": "Dønski - Rud",
+    "antallBesøk": 12318,
+    "andel": 0.09
+  },
+  {
+    "område": "Ytre Enebakk",
+    "antallBesøk": 12223,
+    "andel": 0.09
+  },
+  {
+    "område": "Bærums Verk",
+    "antallBesøk": 12173,
+    "andel": 0.09
+  },
+  {
+    "område": "Sørkedalen",
+    "antallBesøk": 11945,
+    "andel": 0.08
+  },
+  {
+    "område": "Lommedalen",
+    "antallBesøk": 10957,
+    "andel": 0.08
+  },
+  {
+    "område": "Østerås - Eiksmarka",
+    "antallBesøk": 10898,
+    "andel": 0.09
+  },
+  {
+    "område": "Norderhov",
+    "antallBesøk": 10860,
+    "andel": 0.08
+  },
+  {
+    "område": "Billingstad",
+    "antallBesøk": 10301,
+    "andel": 0.08
+  },
+  {
+    "område": "Frogn Nord",
+    "antallBesøk": 9930,
+    "andel": 0.08
+  },
+  {
+    "område": "Frogn Syd",
+    "antallBesøk": 9824,
+    "andel": 0.08
+  },
+  {
+    "område": "Fusdal",
+    "antallBesøk": 9287,
+    "andel": 0.08
+  },
+  {
+    "område": "Finstad",
+    "antallBesøk": 9271,
+    "andel": 0.09
+  },
+  {
+    "område": "Strømsø",
+    "antallBesøk": 9234,
+    "andel": 0.08
+  },
+  {
+    "område": "Skjetten",
+    "antallBesøk": 8982,
+    "andel": 0.08
+  },
+  {
+    "område": "Nesbru",
+    "antallBesøk": 8823,
+    "andel": 0.08
+  },
+  {
+    "område": "Volla",
+    "antallBesøk": 8480,
+    "andel": 0.08
+  },
+  {
+    "område": "Hvam",
+    "antallBesøk": 8185,
+    "andel": 0.08
+  },
+  {
+    "område": "Kirkerud - Sollihøgda",
+    "antallBesøk": 8058,
+    "andel": 0.07
+  },
+  {
+    "område": "Nesøya",
+    "antallBesøk": 7890,
+    "andel": 0.08
+  },
+  {
+    "område": "Vollen",
+    "antallBesøk": 7857,
+    "andel": 0.08
+  },
+  {
+    "område": "Danvik - Fjell",
+    "antallBesøk": 7855,
+    "andel": 0.08
+  },
+  {
+    "område": "Åsenhagen",
+    "antallBesøk": 7769,
+    "andel": 0.08
+  },
+  {
+    "område": "Svartskog",
+    "antallBesøk": 7255,
+    "andel": 0.07
+  },
+  {
+    "område": "Heggedal",
+    "antallBesøk": 6733,
+    "andel": 0.08
+  },
+  {
+    "område": "Sentrum",
+    "antallBesøk": 6659,
+    "andel": 0.07
+  },
+  {
+    "område": "Nordby",
+    "antallBesøk": 6591,
+    "andel": 0.07
+  },
+  {
+    "område": "Åssiden",
+    "antallBesøk": 6417,
+    "andel": 0.08
+  },
+  {
+    "område": "Sentrum",
+    "antallBesøk": 6214,
+    "andel": 0.07
+  },
+  {
+    "område": "Borgen",
+    "antallBesøk": 6025,
+    "andel": 0.07
+  },
+  {
+    "område": "Siggerud",
+    "antallBesøk": 6009,
+    "andel": 0.07
+  },
+  {
+    "område": "Harestua",
+    "antallBesøk": 5804,
+    "andel": 0.06
+  },
+  {
+    "område": "Udnes",
+    "antallBesøk": 5586,
+    "andel": 0.07
+  },
+  {
+    "område": "Midtbygda",
+    "antallBesøk": 5554,
+    "andel": 0.07
+  },
+  {
+    "område": "Øyene",
+    "antallBesøk": 5450,
+    "andel": 0.06
+  },
+  {
+    "område": "Algarheim",
+    "antallBesøk": 5424,
+    "andel": 0.08
+  },
+  {
+    "område": "Spydeberg",
+    "antallBesøk": 5418,
+    "andel": 0.08
+  },
+  {
+    "område": "Hosle Nord",
+    "antallBesøk": 5114,
+    "andel": 0.07
+  },
+  {
+    "område": "Sørum",
+    "antallBesøk": 5096,
+    "andel": 0.06
+  },
+  {
+    "område": "Fjerdingby",
+    "antallBesøk": 4922,
+    "andel": 0.06
+  },
+  {
+    "område": "Sørumsand",
+    "antallBesøk": 4426,
+    "andel": 0.07
+  },
+  {
+    "område": "Drengsrud",
+    "antallBesøk": 4288,
+    "andel": 0.07
+  },
+  {
+    "område": "Hvalstad",
+    "antallBesøk": 4206,
+    "andel": 0.06
+  },
+  {
+    "område": "Riddersand",
+    "antallBesøk": 4157,
+    "andel": 0.06
+  },
+  {
+    "område": "Hebekk",
+    "antallBesøk": 4009,
+    "andel": 0.07
+  },
+  {
+    "område": "Bragernes Sentrum",
+    "antallBesøk": 3820,
+    "andel": 0.07
+  },
+  {
+    "område": "Råholt",
+    "antallBesøk": 3750,
+    "andel": 0.06
+  },
+  {
+    "område": "Bjerke",
+    "antallBesøk": 3702,
+    "andel": 0.06
+  },
+  {
+    "område": "Blaker",
+    "antallBesøk": 3543,
+    "andel": 0.05
+  },
+  {
+    "område": "Solberg",
+    "antallBesøk": 3464,
+    "andel": 0.07
+  },
+  {
+    "område": "Hegg",
+    "antallBesøk": 3262,
+    "andel": 0.06
+  },
+  {
+    "område": "Nannestad",
+    "antallBesøk": 3206,
+    "andel": 0.06
+  },
+  {
+    "område": "Årnes",
+    "antallBesøk": 3163,
+    "andel": 0.07
+  },
+  {
+    "område": "Konnerud",
+    "antallBesøk": 2996,
+    "andel": 0.07
+  },
+  {
+    "område": "Holter",
+    "antallBesøk": 2803,
+    "andel": 0.07
+  },
+  {
+    "område": "Grua",
+    "antallBesøk": 2798,
+    "andel": 0.06
+  },
+  {
+    "område": "Blakstad",
+    "antallBesøk": 2794,
+    "andel": 0.07
+  },
+  {
+    "område": "Gulskogen - Sundhaugen",
+    "antallBesøk": 2784,
+    "andel": 0.06
+  },
+  {
+    "område": "Eidsvoll Verk",
+    "antallBesøk": 2715,
+    "andel": 0.06
+  },
+  {
+    "område": "Borgen",
+    "antallBesøk": 2612,
+    "andel": 0.06
+  },
+  {
+    "område": "Leirsund",
+    "antallBesøk": 2589,
+    "andel": 0.05
+  },
+  {
+    "område": "Dalen",
+    "antallBesøk": 2510,
+    "andel": 0.05
+  },
+  {
+    "område": "Bjørnemyr",
+    "antallBesøk": 2410,
+    "andel": 0.06
+  },
+  {
+    "område": "Vikersund",
+    "antallBesøk": 2309,
+    "andel": 0.06
+  },
+  {
+    "område": "Sand",
+    "antallBesøk": 2305,
+    "andel": 0.05
+  },
+  {
+    "område": "Fjellstrand",
+    "antallBesøk": 2301,
+    "andel": 0.06
+  },
+  {
+    "område": "Løvenstad",
+    "antallBesøk": 2227,
+    "andel": 0.06
+  },
+  {
+    "område": "Østsida",
+    "antallBesøk": 2104,
+    "andel": 0.06
+  },
+  {
+    "område": "Nordre Jeløy",
+    "antallBesøk": 2099,
+    "andel": 0.06
+  },
+  {
+    "område": "Nordøstre Hurum",
+    "antallBesøk": 1966,
+    "andel": 0.06
+  },
+  {
+    "område": "Sem",
+    "antallBesøk": 1953,
+    "andel": 0.05
+  },
+  {
+    "område": "Tangen - Åskollen",
+    "antallBesøk": 1932,
+    "andel": 0.06
+  },
+  {
+    "område": "Drøbak",
+    "antallBesøk": 1815,
+    "andel": 0.06
+  },
+  {
+    "område": "Aurskog",
+    "antallBesøk": 1794,
+    "andel": 0.06
+  },
+  {
+    "område": "Mjøndalen",
+    "antallBesøk": 1779,
+    "andel": 0.05
+  },
+  {
+    "område": "Fjellheim",
+    "antallBesøk": 1726,
+    "andel": 0.05
+  },
+  {
+    "område": "Flateby",
+    "antallBesøk": 1705,
+    "andel": 0.06
+  },
+  {
+    "område": "Sylling",
+    "antallBesøk": 1652,
+    "andel": 0.04
+  },
+  {
+    "område": "Jaer",
+    "antallBesøk": 1650,
+    "andel": 0.06
+  },
+  {
+    "område": "Myklerud",
+    "antallBesøk": 1450,
+    "andel": 0.07
+  },
+  {
+    "område": "Syverstad",
+    "antallBesøk": 1404,
+    "andel": 0.06
+  },
+  {
+    "område": "Rom",
+    "antallBesøk": 1401,
+    "andel": 0.06
+  },
+  {
+    "område": "Krokstadelva",
+    "antallBesøk": 1220,
+    "andel": 0.06
+  },
+  {
+    "område": "Ekholt",
+    "antallBesøk": 1217,
+    "andel": 0.06
+  },
+  {
+    "område": "Skaugum",
+    "antallBesøk": 1190,
+    "andel": 0.05
+  },
+  {
+    "område": "Høvik",
+    "antallBesøk": 1125,
+    "andel": 0.04
+  },
+  {
+    "område": "Lierskogen",
+    "antallBesøk": 1090,
+    "andel": 0.06
+  },
+  {
+    "område": "Gjedsjø - Kråkstad",
+    "antallBesøk": 1089,
+    "andel": 0.06
+  },
+  {
+    "område": "Dal",
+    "antallBesøk": 1081,
+    "andel": 0.05
+  },
+  {
+    "område": "Tjøme",
+    "antallBesøk": 1056,
+    "andel": 0.06
+  }
+]

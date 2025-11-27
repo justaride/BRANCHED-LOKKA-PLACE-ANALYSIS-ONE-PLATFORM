@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "source": "Demografi over tid DEMOGRAFI.csv",
+    "rows": 7,
+    "columns": [
+      "Category",
+      "Sofienberggata 6 (Område 0.01 km²)",
+      "Trendline"
+    ]
+  },
+  "data": [
+    {
+      "Category": 2017,
+      "Sofienberggata 6 (Område 0.01 km²)": 146,
+      "Trendline": 175.2
+    },
+    {
+      "Category": 2018,
+      "Sofienberggata 6 (Område 0.01 km²)": 145,
+      "Trendline": 174
+    },
+    {
+      "Category": 2019,
+      "Sofienberggata 6 (Område 0.01 km²)": 155,
+      "Trendline": 186
+    },
+    {
+      "Category": 2020,
+      "Sofienberggata 6 (Område 0.01 km²)": 157,
+      "Trendline": 188.4
+    },
+    {
+      "Category": 2021,
+      "Sofienberggata 6 (Område 0.01 km²)": 155,
+      "Trendline": 186
+    },
+    {
+      "Category": 2022,
+      "Sofienberggata 6 (Område 0.01 km²)": 156,
+      "Trendline": 187.2
+    },
+    {
+      "Category": 2023,
+      "Sofienberggata 6 (Område 0.01 km²)": 161,
+      "Trendline": 193.2
+    }
+  ]
+}

@@ -40,7 +40,12 @@
   },
   "plaaceData": {
     "rapportDato": "2024-12-31",
-    "datakilder": ["Plaace.ai"],
+    "datakilder": ["Plaace.ai", "Telia (bevegelsesdata)", "BankAxept (korthandeldata)", "Analysebutikken (konkurransedata)"],
+    "interactiveCharts": {
+      "enabled": true,
+      "basePath": "/data/main-board/sammenligning-2024",
+      "categories": ["besokende", "bevegelse", "demografi", "internasjonal"]
+    },
     "screenshots": [
       {
         "id": "oversikt-hovedbilde",
@@ -246,9 +251,9 @@
   },
   "metadata": {
     "opprettet": "2024-12-31",
-    "sistOppdatert": "2024-12-31",
+    "sistOppdatert": "2025-11-26",
     "status": "publisert",
-    "versjon": 1,
+    "versjon": 2,
     "forfatter": "Natural State",
     "kilde": ["Plaace.ai"],
     "heroImage": "/images/areas/sammenligning-collage.jpg",
@@ -256,7 +261,9 @@
       "Sammenligning av fire sentrale bydeler i Oslo",
       "Omfattende data på demografi, bevegelse, handel og besøkende",
       "Inkluderer internasjonale besøkstall per kvartal",
-      "28 detaljerte analysebilder"
+      "28 detaljerte analysebilder",
+      "9 interaktive JSON-baserte datasett (108 rader, 23.64 KB)",
+      "Data fra Plaace.ai, Telia, BankAxept, Analysebutikken"
     ]
   }
 }

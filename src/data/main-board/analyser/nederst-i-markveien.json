@@ -1,0 +1,97 @@
+{
+  "id": "nederst-i-markveien",
+  "title": "Nederst i Markveien ved Kaffebrenneriet",
+  "analysisType": "location-specific",
+  "period": {
+    "type": "multi-year",
+    "startYear": 2022,
+    "endYear": 2025,
+    "startDate": "2022-10-01",
+    "endDate": "2025-09-30",
+    "label": "01.10.2022 – 30.09.2025"
+  },
+  "area": {
+    "id": "nederst-i-markveien",
+    "name": "Nederst i Markveien ved Kaffebrenneriet",
+    "displayName": "Nederst i Markveien ved Kaffebrenneriet område",
+    "type": "micro-area",
+    "areaSize": "0.01 km²",
+    "coordinates": {
+      "lat": 59.920,
+      "lng": 10.755
+    },
+    "description": "Komplett stedsanalyse for Nederst i Markveien ved Kaffebrenneriet med demografi, besøkende, virksomheter og omsetning"
+  },
+  "description": "Omfattende markedsanalyse for Nederst i Markveien ved Kaffebrenneriet med fokus på besøksmønstre, demografisk profil, konseptmiks og korthandel. Området har 7,177 daglige besøk (56,262 per km²), dominert av Sharika AS (30.33% markedsandel), med total omsetning på NOK 122 millioner og 4% vekst.",
+  "tags": [
+    "stedsanalyse",
+    "bevegelse",
+    "demografi",
+    "virksomheter",
+    "korthandel",
+    "konseptmiks",
+    "kaffebrenneriet",
+    "markveien"
+  ],
+  "dataSource": "Plaace.ai / Telia / BankAxept / Analysebutikken / SSB",
+  "metadata": {
+    "status": "publisert",
+    "version": "1.0",
+    "author": "Natural State",
+    "createdAt": "2025-11-25",
+    "updatedAt": "2025-11-25",
+    "heroImage": "/images/analyser/nederst-i-markveien-aerial.png",
+    "sistOppdatert": "2025-11-25",
+    "notater": [
+      "Komplett stedsanalyse basert på data fra flere kilder over 3-års periode.",
+      "Området ligger nederst i Markveien ved Kaffebrenneriet med høy fotgjengertrafikk.",
+      "Sharika AS dominerer med 30.33% markedsandel og NOK 37M omsetning (+77% YoY).",
+      "Mat og opplevelser dominerer med 64% konseptmiks og 9 av 12 aktører.",
+      "Total omsetning NOK 122M med positiv vekst på 4%.",
+      "Lørdag er travleste dag med 17% av ukesbesøk."
+    ]
+  },
+  "plaaceData": {
+    "datakilder": [
+      "Telia (mobildata)",
+      "BankAxept (korttransaksjoner)",
+      "Analysebutikken (virksomhetsdata)",
+      "SSB (demografi)",
+      "GEODATA"
+    ]
+  },
+  "highlights": [
+    {
+      "title": "Daglige Besøk",
+      "value": "7,177",
+      "description": "Gjennomsnittlig daglige besøk (56,262 per km²)"
+    },
+    {
+      "title": "Daglig Korthandel",
+      "value": "NOK 1.3M",
+      "description": "Total daglig korthandel, NOK 3.3 mrd. over perioden"
+    },
+    {
+      "title": "Dominerende Aktør",
+      "value": "Sharika AS",
+      "description": "30.33% markedsandel, NOK 37M omsetning (+77% YoY)"
+    },
+    {
+      "title": "Total Omsetning",
+      "value": "NOK 122M",
+      "description": "Estimert årlig omsetning (2024), +4% vekst"
+    }
+  ],
+  "visualizations": [
+    {
+      "type": "bar-chart",
+      "title": "Konseptmiks",
+      "description": "Fordeling på tvers av hovedkategorier"
+    },
+    {
+      "type": "table",
+      "title": "Virksomhetsoversikt",
+      "description": "Rangering etter omsetning med markedsandel og YoY-vekst"
+    }
+  ]
+}

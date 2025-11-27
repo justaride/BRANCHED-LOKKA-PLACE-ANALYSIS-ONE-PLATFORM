@@ -1,0 +1,85 @@
+{
+  "Besøkende verktøy oversikt": {
+    "Besøkende": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "Telia"
+      ]
+    },
+    "Demografi av Besøkende": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "Telia",
+        "Statistisk sentralbyrå"
+      ]
+    }
+  },
+  "Bevegelse NØKKELTALL": {
+    "Bevegelse": {
+      "Datoperiode": "01.10.2022 – 30.09.2025",
+      "Status": "Faktiske data",
+      "Datakilde": [
+        "Telia"
+      ]
+    },
+    "Gjennomsnittlig daglige besøk": {
+      "Verdi": "Data fra bevegelse JSON",
+      "Kommentar": "Basert på alle besøk"
+    },
+    "Travleste dag": {
+      "Dag": "Data fra JSON",
+      "Andel": "Data fra JSON"
+    }
+  },
+  "Korthandel NØKKELTALL": {
+    "Korthandel": {
+      "Status": "Faktiske data",
+      "Datakilde": [
+        "BankAxept"
+      ]
+    },
+    "Daglig korthandel for valgt periode": "Data fra JSON",
+    "Total korthandel for valgt periode": "Data fra JSON"
+  },
+  "konkurransebildet NØKKELTALL": {
+    "Konkurransebildet": {
+      "Status": "Estimerte tall",
+      "Datakilde": [
+        "Analysebutikken"
+      ]
+    },
+    "Konsepttetthet": "Data fra JSON",
+    "Total omsetning": {
+      "Verdi": "NOK 80 mill.",
+      "Endring": "Data fra JSON"
+    }
+  },
+  "DEMOGRAFI NØKKELTALL": {
+    "Demografi": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "Statistisk sentralbyrå",
+        "Geodata"
+      ]
+    },
+    "Befolkning": {
+      "Verdi": "Data fra JSON",
+      "År": 2023,
+      "Endring": "Data fra JSON"
+    },
+    "Områdestørrelse": "Data fra JSON"
+  },
+  "NØKKELTALL MAIN": {
+    "Travleste dag": {
+      "Dag": "Data fra JSON",
+      "Periode": "01.10.2022 – 30.09.2025"
+    },
+    "Kortbruk": {
+      "Periode": "01.10.2022 – 30.09.2025"
+    },
+    "Konseptmiks": {
+      "Dominerende": "Ark Grünerløkka",
+      "Markedsandel": "26.11%"
+    }
+  }
+}

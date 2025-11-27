@@ -1,0 +1,502 @@
+[
+  {
+    "Område": "Grünerløkka",
+    "Antall besøk": 2401120,
+    "Antall besøk(%)": 18.24
+  },
+  {
+    "Område": "Sentrum 2",
+    "Antall besøk": 1820276,
+    "Antall besøk(%)": 13.84
+  },
+  {
+    "Område": "Grønland",
+    "Antall besøk": 606181,
+    "Antall besøk(%)": 4.61
+  },
+  {
+    "Område": "Tøyen",
+    "Antall besøk": 560364,
+    "Antall besøk(%)": 4.26
+  },
+  {
+    "Område": "Rodeløkka",
+    "Antall besøk": 498837,
+    "Antall besøk(%)": 3.79
+  },
+  {
+    "Område": "Torshov",
+    "Antall besøk": 372869,
+    "Antall besøk(%)": 2.83
+  },
+  {
+    "Område": "Gamle Aker",
+    "Antall besøk": 329895,
+    "Antall besøk(%)": 2.5
+  },
+  {
+    "Område": "Hasle",
+    "Antall besøk": 265005,
+    "Antall besøk(%)": 2.02
+  },
+  {
+    "Område": "Bjerke",
+    "Antall besøk": 264352,
+    "Antall besøk(%)": 2.01
+  },
+  {
+    "Område": "Grefsenlia",
+    "Antall besøk": 255342,
+    "Antall besøk(%)": 1.94
+  },
+  {
+    "Område": "Ulven",
+    "Antall besøk": 232656,
+    "Antall besøk(%)": 1.77
+  },
+  {
+    "Område": "Manglerud",
+    "Antall besøk": 213193,
+    "Antall besøk(%)": 1.62
+  },
+  {
+    "Område": "Sinsen",
+    "Antall besøk": 198953,
+    "Antall besøk(%)": 1.51
+  },
+  {
+    "Område": "Åsen",
+    "Antall besøk": 191152,
+    "Antall besøk(%)": 1.46
+  },
+  {
+    "Område": "Fossum",
+    "Antall besøk": 182958,
+    "Antall besøk(%)": 1.39
+  },
+  {
+    "Område": "Tåsen",
+    "Antall besøk": 172475,
+    "Antall besøk(%)": 1.31
+  },
+  {
+    "Område": "Grorud",
+    "Antall besøk": 170881,
+    "Antall besøk(%)": 1.3
+  },
+  {
+    "Område": "Østensjø",
+    "Antall besøk": 162308,
+    "Antall besøk(%)": 1.23
+  },
+  {
+    "Område": "Ila",
+    "Antall besøk": 160649,
+    "Antall besøk(%)": 1.22
+  },
+  {
+    "Område": "Kampen",
+    "Antall besøk": 160530,
+    "Antall besøk(%)": 1.22
+  },
+  {
+    "Område": "St.hanshaugen",
+    "Antall besøk": 157642,
+    "Antall besøk(%)": 1.2
+  },
+  {
+    "Område": "Ulsholt",
+    "Antall besøk": 142652,
+    "Antall besøk(%)": 1.08
+  },
+  {
+    "Område": "Bjølsen",
+    "Antall besøk": 141941,
+    "Antall besøk(%)": 1.08
+  },
+  {
+    "Område": "Langerud",
+    "Antall besøk": 139211,
+    "Antall besøk(%)": 1.06
+  },
+  {
+    "Område": "Rudene",
+    "Antall besøk": 138739,
+    "Antall besøk(%)": 1.06
+  },
+  {
+    "Område": "Ljansbyen",
+    "Antall besøk": 128357,
+    "Antall besøk(%)": 0.98
+  },
+  {
+    "Område": "Majorstuen",
+    "Antall besøk": 127851,
+    "Antall besøk(%)": 0.97
+  },
+  {
+    "Område": "Bekkelaget",
+    "Antall besøk": 124633,
+    "Antall besøk(%)": 0.95
+  },
+  {
+    "Område": "Gamlebyen",
+    "Antall besøk": 113622,
+    "Antall besøk(%)": 0.86
+  },
+  {
+    "Område": "Homansbyen",
+    "Antall besøk": 113435,
+    "Antall besøk(%)": 0.86
+  },
+  {
+    "Område": "Frogner",
+    "Antall besøk": 109750,
+    "Antall besøk(%)": 0.83
+  },
+  {
+    "Område": "Alfaset",
+    "Antall besøk": 104388,
+    "Antall besøk(%)": 0.79
+  },
+  {
+    "Område": "Ris",
+    "Antall besøk": 102492,
+    "Antall besøk(%)": 0.78
+  },
+  {
+    "Område": "Sentrum 3",
+    "Antall besøk": 93969,
+    "Antall besøk(%)": 0.72
+  },
+  {
+    "Område": "Sandaker",
+    "Antall besøk": 89405,
+    "Antall besøk(%)": 0.68
+  },
+  {
+    "Område": "Vålerenga",
+    "Antall besøk": 89032,
+    "Antall besøk(%)": 0.68
+  },
+  {
+    "Område": "Sagene",
+    "Antall besøk": 88275,
+    "Antall besøk(%)": 0.67
+  },
+  {
+    "Område": "Lindern",
+    "Antall besøk": 82103,
+    "Antall besøk(%)": 0.63
+  },
+  {
+    "Område": "Røabyen",
+    "Antall besøk": 74651,
+    "Antall besøk(%)": 0.57
+  },
+  {
+    "Område": "Uranienborg",
+    "Antall besøk": 70809,
+    "Antall besøk(%)": 0.54
+  },
+  {
+    "Område": "Sentrum 1",
+    "Antall besøk": 70177,
+    "Antall besøk(%)": 0.53
+  },
+  {
+    "Område": "Holmen",
+    "Antall besøk": 69103,
+    "Antall besøk(%)": 0.53
+  },
+  {
+    "Område": "Østmarka",
+    "Antall besøk": 66906,
+    "Antall besøk(%)": 0.51
+  },
+  {
+    "Område": "Nordstrand",
+    "Antall besøk": 66561,
+    "Antall besøk(%)": 0.51
+  },
+  {
+    "Område": "Grefsenmarka",
+    "Antall besøk": 61174,
+    "Antall besøk(%)": 0.47
+  },
+  {
+    "Område": "Loenga",
+    "Antall besøk": 60823,
+    "Antall besøk(%)": 0.46
+  },
+  {
+    "Område": "Fagerborg",
+    "Antall besøk": 58605,
+    "Antall besøk(%)": 0.44
+  },
+  {
+    "Område": "Borgen",
+    "Antall besøk": 56899,
+    "Antall besøk(%)": 0.43
+  },
+  {
+    "Område": "Ullern",
+    "Antall besøk": 49125,
+    "Antall besøk(%)": 0.37
+  },
+  {
+    "Område": "Skillebekk",
+    "Antall besøk": 45509,
+    "Antall besøk(%)": 0.35
+  },
+  {
+    "Område": "Huseby",
+    "Antall besøk": 43809,
+    "Antall besøk(%)": 0.33
+  },
+  {
+    "Område": "Nordmarka",
+    "Antall besøk": 41948,
+    "Antall besøk(%)": 0.32
+  },
+  {
+    "Område": "Skårer",
+    "Antall besøk": 38236,
+    "Antall besøk(%)": 0.29
+  },
+  {
+    "Område": "Skøyen",
+    "Antall besøk": 35445,
+    "Antall besøk(%)": 0.27
+  },
+  {
+    "Område": "Snarøya",
+    "Antall besøk": 34456,
+    "Antall besøk(%)": 0.26
+  },
+  {
+    "Område": "Kjenn - Fjellhamar",
+    "Antall besøk": 31471,
+    "Antall besøk(%)": 0.24
+  },
+  {
+    "Område": "Slattum",
+    "Antall besøk": 30206,
+    "Antall besøk(%)": 0.23
+  },
+  {
+    "Område": "Berger",
+    "Antall besøk": 30072,
+    "Antall besøk(%)": 0.23
+  },
+  {
+    "Område": "Bygdøy",
+    "Antall besøk": 28330,
+    "Antall besøk(%)": 0.22
+  },
+  {
+    "Område": "Marienlyst",
+    "Antall besøk": 27788,
+    "Antall besøk(%)": 0.21
+  },
+  {
+    "Område": "Holmenkollen",
+    "Antall besøk": 27083,
+    "Antall besøk(%)": 0.21
+  },
+  {
+    "Område": "Kolbotn",
+    "Antall besøk": 26444,
+    "Antall besøk(%)": 0.2
+  },
+  {
+    "Område": "Jar",
+    "Antall besøk": 24813,
+    "Antall besøk(%)": 0.19
+  },
+  {
+    "Område": "Voll",
+    "Antall besøk": 23348,
+    "Antall besøk(%)": 0.18
+  },
+  {
+    "Område": "Ås",
+    "Antall besøk": 23191,
+    "Antall besøk(%)": 0.18
+  },
+  {
+    "Område": "Stabekk",
+    "Antall besøk": 22960,
+    "Antall besøk(%)": 0.18
+  },
+  {
+    "Område": "Langhus",
+    "Antall besøk": 22520,
+    "Antall besøk(%)": 0.17
+  },
+  {
+    "Område": "Lysaker",
+    "Antall besøk": 21937,
+    "Antall besøk(%)": 0.17
+  },
+  {
+    "Område": "Jessheim",
+    "Antall besøk": 21839,
+    "Antall besøk(%)": 0.17
+  },
+  {
+    "Område": "Stalsberg",
+    "Antall besøk": 21809,
+    "Antall besøk(%)": 0.17
+  },
+  {
+    "Område": "Grav",
+    "Antall besøk": 21713,
+    "Antall besøk(%)": 0.17
+  },
+  {
+    "Område": "Lilleaker",
+    "Antall besøk": 21644,
+    "Antall besøk(%)": 0.17
+  },
+  {
+    "Område": "Tangen",
+    "Antall besøk": 21325,
+    "Antall besøk(%)": 0.17
+  },
+  {
+    "Område": "Haneborglia",
+    "Antall besøk": 20800,
+    "Antall besøk(%)": 0.16
+  },
+  {
+    "Område": "Greverud",
+    "Antall besøk": 20328,
+    "Antall besøk(%)": 0.16
+  },
+  {
+    "Område": "Kjeller",
+    "Antall besøk": 19268,
+    "Antall besøk(%)": 0.15
+  },
+  {
+    "Område": "Lysås - Løken",
+    "Antall besøk": 19180,
+    "Antall besøk(%)": 0.14
+  },
+  {
+    "Område": "Retten",
+    "Antall besøk": 19143,
+    "Antall besøk(%)": 0.14
+  },
+  {
+    "Område": "Filipstad",
+    "Antall besøk": 18827,
+    "Antall besøk(%)": 0.14
+  },
+  {
+    "Område": "Nordby",
+    "Antall besøk": 18641,
+    "Antall besøk(%)": 0.14
+  },
+  {
+    "Område": "Løkeberg - Blommenholm",
+    "Antall besøk": 18336,
+    "Antall besøk(%)": 0.14
+  },
+  {
+    "Område": "Rotnes",
+    "Antall besøk": 17677,
+    "Antall besøk(%)": 0.14
+  },
+  {
+    "Område": "Haslum",
+    "Antall besøk": 16716,
+    "Antall besøk(%)": 0.13
+  },
+  {
+    "Område": "Tårnåsen",
+    "Antall besøk": 16371,
+    "Antall besøk(%)": 0.13
+  },
+  {
+    "Område": "Østre Bærumsmarka",
+    "Antall besøk": 15912,
+    "Antall besøk(%)": 0.12
+  },
+  {
+    "Område": "Sandvika - Valler",
+    "Antall besøk": 15333,
+    "Antall besøk(%)": 0.12
+  },
+  {
+    "Område": "Kløfta",
+    "Antall besøk": 15146,
+    "Antall besøk(%)": 0.12
+  },
+  {
+    "Område": "Rykkinn",
+    "Antall besøk": 15145,
+    "Antall besøk(%)": 0.12
+  },
+  {
+    "Område": "Slependen - Tanum",
+    "Antall besøk": 15064,
+    "Antall besøk(%)": 0.12
+  },
+  {
+    "Område": "Hovinhøgda",
+    "Antall besøk": 14716,
+    "Antall besøk(%)": 0.12
+  },
+  {
+    "Område": "Høvik",
+    "Antall besøk": 14603,
+    "Antall besøk(%)": 0.12
+  },
+  {
+    "Område": "Finstad - Losby",
+    "Antall besøk": 14538,
+    "Antall besøk(%)": 0.11
+  },
+  {
+    "Område": "Stortorget",
+    "Antall besøk": 14497,
+    "Antall besøk(%)": 0.12
+  },
+  {
+    "Område": "Gjelleråsen",
+    "Antall besøk": 14159,
+    "Antall besøk(%)": 0.11
+  },
+  {
+    "Område": "Ski Øst",
+    "Antall besøk": 14072,
+    "Antall besøk(%)": 0.11
+  },
+  {
+    "Område": "Vigernes",
+    "Antall besøk": 13764,
+    "Antall besøk(%)": 0.11
+  },
+  {
+    "Område": "Bjørnholt - Kurland",
+    "Antall besøk": 13690,
+    "Antall besøk(%)": 0.11
+  },
+  {
+    "Område": "Gjelleråsen",
+    "Antall besøk": 13113,
+    "Antall besøk(%)": 0.11
+  },
+  {
+    "Område": "Frogner",
+    "Antall besøk": 12838,
+    "Antall besøk(%)": 0.11
+  },
+  {
+    "Område": "Gjerdrum",
+    "Antall besøk": 12553,
+    "Antall besøk(%)": 0.11
+  }
+]

@@ -4,6 +4,10 @@ import { Card, CardContent } from '@/components/ui/Card';
 import TabbedImageViewer from '@/components/analyser/TabbedImageViewer';
 import AreaComparisonStats from '@/components/analyser/AreaComparisonStats';
 import MultiAreaAktorOversikt from '@/components/analyser/MultiAreaAktorOversikt';
+import BevegelseComparisonCharts from '@/components/analyser/BevegelseComparisonCharts';
+import DemografiComparisonCharts from '@/components/analyser/DemografiComparisonCharts';
+import InternasjonalComparisonCharts from '@/components/analyser/InternasjonalComparisonCharts';
+import BesokendeComparisonCharts from '@/components/analyser/BesokendeComparisonCharts';
 import { loadAnalysis } from '@/lib/loaders/place-loader';
 import { MainBoardLoaders } from '@/lib/loaders/main-board';
 import Link from 'next/link';
@@ -170,29 +174,20 @@ export default async function Sammenligning2024Page() {
           />
         )}
 
-        {/* 2. Demografi */}
-        {demografiScreenshots.length > 0 && (
-          <TabbedImageViewer
-            screenshots={demografiScreenshots}
-            title="Demografi"
-          />
-        )}
+        {/* 2. Demografi - Interactive Charts */}
+        <div className="mb-16">
+          <DemografiComparisonCharts basePath="/data/main-board/sammenligning-2024" />
+        </div>
 
-        {/* 3. Besøkende */}
-        {besokendeScreenshots.length > 0 && (
-          <TabbedImageViewer
-            screenshots={besokendeScreenshots}
-            title="Besøkende"
-          />
-        )}
+        {/* 3. Besøkende - Interactive Charts */}
+        <div className="mb-16">
+          <BesokendeComparisonCharts basePath="/data/main-board/sammenligning-2024" />
+        </div>
 
-        {/* 4. Bevegelse */}
-        {bevegelseScreenshots.length > 0 && (
-          <TabbedImageViewer
-            screenshots={bevegelseScreenshots}
-            title="Bevegelse"
-          />
-        )}
+        {/* 4. Bevegelse - Interactive Charts */}
+        <div className="mb-16">
+          <BevegelseComparisonCharts basePath="/data/main-board/sammenligning-2024" />
+        </div>
 
         {/* 5. Konkurranse */}
         {konkurranseScreenshots.length > 0 && (
@@ -218,13 +213,10 @@ export default async function Sammenligning2024Page() {
           </>
         )}
 
-        {/* 7. Internasjonal Besøkende */}
-        {internasjonalScreenshots.length > 0 && (
-          <TabbedImageViewer
-            screenshots={internasjonalScreenshots}
-            title="Internasjonalt Besøkende"
-          />
-        )}
+        {/* 7. Internasjonal Besøkende - Interactive Charts */}
+        <div className="mb-16">
+          <InternasjonalComparisonCharts basePath="/data/main-board/sammenligning-2024" />
+        </div>
 
         {/* Notes */}
         {analysis.metadata.notater && analysis.metadata.notater.length > 0 && (

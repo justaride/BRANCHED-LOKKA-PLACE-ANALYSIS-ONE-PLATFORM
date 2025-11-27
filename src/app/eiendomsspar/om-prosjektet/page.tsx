@@ -1,6 +1,6 @@
 import Container from '@/components/ui/Container';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
-import NaturalStateCard from '@/components/ui/NaturalStateCard';
+
 
 export const metadata = {
   title: 'Om Prosjektet - Eiendomsspar',
@@ -105,8 +105,7 @@ export default function EiendomssparOmProsjektetPage() {
           </div>
         </div>
 
-        {/* Natural State Card - Full Width */}
-        <NaturalStateCard />
+
       </div>
     </Container>
   );

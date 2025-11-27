@@ -1,0 +1,102 @@
+[
+  {
+    "Category": 2015,
+    "Andre spisesteder": 41.019,
+    "Kaffebarer": 6.512,
+    "Is og smoothie barer": "",
+    "Kiosker": 50,
+    "Bok- og papirhandlere": 6.894,
+    "Skobutikker": 6.45,
+    "Dameklesbutikker": 5.881
+  },
+  {
+    "Category": 2016,
+    "Andre spisesteder": 33.925,
+    "Kaffebarer": 6.396,
+    "Is og smoothie barer": "",
+    "Kiosker": 50,
+    "Bok- og papirhandlere": 8.263,
+    "Skobutikker": 7.665,
+    "Dameklesbutikker": 5.943
+  },
+  {
+    "Category": 2017,
+    "Andre spisesteder": 4.468,
+    "Kaffebarer": 5.718,
+    "Is og smoothie barer": "",
+    "Kiosker": 50,
+    "Bok- og papirhandlere": 11.787,
+    "Skobutikker": "",
+    "Dameklesbutikker": 6.269
+  },
+  {
+    "Category": 2018,
+    "Andre spisesteder": 0.9359999999999999,
+    "Kaffebarer": 7.579,
+    "Is og smoothie barer": 1.171,
+    "Kiosker": 50.13,
+    "Bok- og papirhandlere": 11.038,
+    "Skobutikker": "",
+    "Dameklesbutikker": 7.237
+  },
+  {
+    "Category": 2019,
+    "Andre spisesteder": 2.548,
+    "Kaffebarer": 7.596,
+    "Is og smoothie barer": 3.291,
+    "Kiosker": 2.634,
+    "Bok- og papirhandlere": 10.136,
+    "Skobutikker": 0.35,
+    "Dameklesbutikker": 11.522
+  },
+  {
+    "Category": 2020,
+    "Andre spisesteder": 13.794,
+    "Kaffebarer": 7.807,
+    "Is og smoothie barer": 2.222,
+    "Kiosker": 3.28,
+    "Bok- og papirhandlere": 11.912,
+    "Skobutikker": "",
+    "Dameklesbutikker": 9.334
+  },
+  {
+    "Category": 2021,
+    "Andre spisesteder": 13.14,
+    "Kaffebarer": 7.045,
+    "Is og smoothie barer": 1.458,
+    "Kiosker": 1.648,
+    "Bok- og papirhandlere": 13.014,
+    "Skobutikker": "",
+    "Dameklesbutikker": 9.721
+  },
+  {
+    "Category": 2022,
+    "Andre spisesteder": 17.028,
+    "Kaffebarer": 8.524,
+    "Is og smoothie barer": 2.787,
+    "Kiosker": 3.671,
+    "Bok- og papirhandlere": 11.844,
+    "Skobutikker": "",
+    "Dameklesbutikker": 7.964
+  },
+  {
+    "Category": 2023,
+    "Andre spisesteder": 15.931,
+    "Kaffebarer": 9.21,
+    "Is og smoothie barer": 3.264,
+    "Kiosker": 1.016,
+    "Bok- og papirhandlere": 15.842,
+    "Skobutikker": "",
+    "Dameklesbutikker": 6.152
+  },
+  {
+    "Category": 2024,
+    "Andre spisesteder": 31.43,
+    "Kaffebarer": 8.049,
+    "Is og smoothie barer": 0.844,
+    "Kiosker": 11.758,
+    "Bok- og papirhandlere": 20.817,
+    "Skobutikker": "",
+    "Dameklesbutikker": 6.817
+  }
+]

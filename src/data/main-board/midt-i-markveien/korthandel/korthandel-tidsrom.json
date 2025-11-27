@@ -1,0 +1,7 @@
+{
+  "beskrivelse": "Daglig korthandelsdata fra 2019-2025 fordelt på kategorier: Handel, Mat og opplevelser, og Tjenester",
+  "periode": "2019-01-01 til 2025-09-30",
+  "kategorier": ["Handel", "Mat og opplevelser", "Tjenester"],
+  "enheter": "Millioner NOK",
+  "merknad": "Full datasett tilgjengelig i CSV-format med 2500+ daglige datapunkter. Kontakt administrator for komplett data."
+}

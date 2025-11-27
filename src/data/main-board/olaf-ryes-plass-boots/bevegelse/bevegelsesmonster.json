@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "source": "Bevegelsesmønster (gjennomsnittlig daglige besøk) BEVEGELSE.csv",
+    "rows": 11,
+    "columns": [
+      "Category",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende",
+      "Sofienberggata 6 (Område 0.01 km²), På jobb",
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme"
+    ]
+  },
+  "data": [
+    {
+      "Category": "Q1'2023",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende": 2477,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb": 715,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme": 1653
+    },
+    {
+      "Category": "Q2'2023",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende": 1892,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb": 468,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme": 1121
+    },
+    {
+      "Category": "Q3'2023",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende": 1752,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb": 429,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme": 1077
+    },
+    {
+      "Category": "Q4'2023",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende": 1650,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb": 442,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme": 1207
+    },
+    {
+      "Category": "Q1'2024",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende": 1530,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb": 442,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme": 1199
+    },
+    {
+      "Category": "Q2'2024",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende": 2182,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb": 478,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme": 1283
+    },
+    {
+      "Category": "Q3'2024",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende": 1980,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb": 422,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme": 1188
+    },
+    {
+      "Category": "Q4'2024",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende": 1684,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb": 428,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme": 1176
+    },
+    {
+      "Category": "Q1'2025",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende": 1576,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb": 436,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme": 1137
+    },
+    {
+      "Category": "Q2'2025",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende": 2059,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb": 458,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme": 1142
+    },
+    {
+      "Category": "Q3'2025",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende": 2175,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb": 470,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme": 1178
+    }
+  ]
+}

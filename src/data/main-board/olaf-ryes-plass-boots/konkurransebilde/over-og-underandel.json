@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "source": "Over- og underandel vs. kommune KONKURRANSEBILDET.csv",
+    "rows": 3,
+    "columns": [
+      "Category",
+      "Dining and Experiences (Sofienberggata 6 (Område 0.01 km²))",
+      "Retail (Sofienberggata 6 (Område 0.01 km²))",
+      "Services (Sofienberggata 6 (Område 0.01 km²))"
+    ]
+  },
+  "data": [
+    {
+      "Category": "Mat og opplevelser",
+      "Dining and Experiences (Sofienberggata 6 (Område 0.01 km²))": -13.67738915632864,
+      "Retail (Sofienberggata 6 (Område 0.01 km²))": null,
+      "Services (Sofienberggata 6 (Område 0.01 km²))": null
+    },
+    {
+      "Category": "Handel",
+      "Dining and Experiences (Sofienberggata 6 (Område 0.01 km²))": null,
+      "Retail (Sofienberggata 6 (Område 0.01 km²))": -43.39003626877616,
+      "Services (Sofienberggata 6 (Område 0.01 km²))": null
+    },
+    {
+      "Category": "Tjenester",
+      "Dining and Experiences (Sofienberggata 6 (Område 0.01 km²))": null,
+      "Retail (Sofienberggata 6 (Område 0.01 km²))": null,
+      "Services (Sofienberggata 6 (Område 0.01 km²))": 57.06742542510479
+    }
+  ]
+}

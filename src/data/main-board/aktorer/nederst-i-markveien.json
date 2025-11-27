@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "generated": "2025-11-26",
+    "source": "Plaace.ai Aktørkartlegging - Nederst i Markveien ved Kaffebrenneriet",
+    "totalActors": 12,
+    "totalRevenue": 122,
+    "totalEmployees": 182,
+    "totalCategories": 3
+  },
+  "actors": [
+    {
+      "rank": "#1",
+      "navn": "Sharika AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "LEIRFALLSGATA 6",
+      "kommune": "Oslo",
+      "omsetning": 37,
+      "omsetning_raw": "NOK 37 mill.",
+      "yoy_vekst": 77,
+      "ansatte": 42,
+      "ansatte_raw": "42",
+      "markedsandel": 28.59
+    },
+    {
+      "rank": "#2",
+      "navn": "Sabrura Markveien AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "OLAV TRYGGVASONS GATE 40",
+      "kommune": "Oslo",
+      "omsetning": 14,
+      "omsetning_raw": "NOK 14 mill.",
+      "yoy_vekst": -21,
+      "ansatte": 19,
+      "ansatte_raw": "19",
+      "markedsandel": 10.7
+    },
+    {
+      "rank": "#3",
+      "navn": "Flamme Burger Grunerløkka AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "THORVALD MEYERS GATE 87",
+      "kommune": "Oslo",
+      "omsetning": 13,
+      "omsetning_raw": "NOK 13 mill.",
+      "yoy_vekst": -8,
+      "ansatte": 12,
+      "ansatte_raw": "12",
+      "markedsandel": 10.18
+    },
+    {
+      "rank": "#4",
+      "navn": "Territoriet AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "MARKVEIEN 58",
+      "kommune": "Oslo",
+      "omsetning": 12,
+      "omsetning_raw": "NOK 12 mill.",
+      "yoy_vekst": 2,
+      "ansatte": 10,
+      "ansatte_raw": "10",
+      "markedsandel": 8.91
+    },
+    {
+      "rank": "#5",
+      "navn": "Kaffebrenneriet Markveien",
+      "type": "Mat og opplevelser / Bakeri og kafé",
+      "adresse": "MARKVEIEN 60 A",
+      "kommune": "Oslo",
+      "omsetning": 12,
+      "omsetning_raw": "NOK 12 mill.",
+      "yoy_vekst": 4,
+      "ansatte": 15,
+      "ansatte_raw": "15",
+      "markedsandel": 9.18
+    },
+    {
+      "rank": "#6",
+      "navn": "Markveien Mat & Vinhus",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "TORVBAKKGATA 12",
+      "kommune": "Oslo",
+      "omsetning": 11,
+      "omsetning_raw": "NOK 11 mill.",
+      "yoy_vekst": -11,
+      "ansatte": 23,
+      "ansatte_raw": "23",
+      "markedsandel": 8.28
+    },
+    {
+      "rank": "#7",
+      "navn": "Hunting Lodge AS",
+      "type": "Handel / Annen handel",
+      "adresse": "MARKVEIEN 58",
+      "kommune": "Oslo",
+      "omsetning": 9,
+      "omsetning_raw": "NOK 9 mill.",
+      "yoy_vekst": -8,
+      "ansatte": 5,
+      "ansatte_raw": "5",
+      "markedsandel": 6.72
+    },
+    {
+      "rank": "#8",
+      "navn": "New Anarkali",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "THORVALD MEYERS GATE 76",
+      "kommune": "Oslo",
+      "omsetning": 8,
+      "omsetning_raw": "NOK 8 mill.",
+      "yoy_vekst": 3,
+      "ansatte": 10,
+      "ansatte_raw": "10",
+      "markedsandel": 6.17
+    },
+    {
+      "rank": "#9",
+      "navn": "Benedikte Vippeextensions AS",
+      "type": "Tjenester / Skjønnhet og velvære",
+      "adresse": "SØNDRE GATE 2",
+      "kommune": "Oslo",
+      "omsetning": 2,
+      "omsetning_raw": "NOK 2 mill.",
+      "yoy_vekst": -12,
+      "ansatte": 4,
+      "ansatte_raw": "4",
+      "markedsandel": 1.3
+    },
+    {
+      "rank": "#10",
+      "navn": "Grød Avd Markveien 67",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "MARKVEIEN 60",
+      "kommune": "Oslo",
+      "omsetning": 2,
+      "omsetning_raw": "NOK 2 mill.",
+      "yoy_vekst": 0,
+      "ansatte": 11,
+      "ansatte_raw": "11",
+      "markedsandel": 1.57
+    },
+    {
+      "rank": "#11",
+      "navn": "Papaya Butikkdrift AS Avd Leirfalls",
+      "type": "Handel / Annen handel",
+      "adresse": "LEIRFALLSGATA 6",
+      "kommune": "Oslo",
+      "omsetning": 1,
+      "omsetning_raw": "NOK 1 mill.",
+      "yoy_vekst": -48,
+      "ansatte": 24,
+      "ansatte_raw": "24",
+      "markedsandel": 0.87
+    },
+    {
+      "rank": "#12",
+      "navn": "Kondracki AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "MARKVEIEN 59 A",
+      "kommune": "Oslo",
+      "omsetning": 1,
+      "omsetning_raw": "NOK 1 mill.",
+      "yoy_vekst": 29,
+      "ansatte": 7,
+      "ansatte_raw": "7",
+      "markedsandel": 1.14
+    }
+  ],
+  "categoryStats": {
+    "Mat og opplevelser": {
+      "count": 9,
+      "omsetning": 110,
+      "ansatte": 149,
+      "avgRevenue": 12.22
+    },
+    "Handel": {
+      "count": 2,
+      "omsetning": 10,
+      "ansatte": 29,
+      "avgRevenue": 5
+    },
+    "Tjenester": {
+      "count": 1,
+      "omsetning": 2,
+      "ansatte": 4,
+      "avgRevenue": 2
+    }
+  }
+}

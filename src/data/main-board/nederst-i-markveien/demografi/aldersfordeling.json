@@ -1,0 +1,62 @@
+[
+  {
+    "Category": "0-5",
+    "Mann (Markveien 65 (Område 0.01 km²))": 4,
+    "Kvinne (Markveien 65 (Område 0.01 km²))": 4
+  },
+  {
+    "Category": "6-12",
+    "Mann (Markveien 65 (Område 0.01 km²))": 3,
+    "Kvinne (Markveien 65 (Område 0.01 km²))": 3
+  },
+  {
+    "Category": "13-15",
+    "Mann (Markveien 65 (Område 0.01 km²))": 1,
+    "Kvinne (Markveien 65 (Område 0.01 km²))": 1
+  },
+  {
+    "Category": "16-18",
+    "Mann (Markveien 65 (Område 0.01 km²))": 1,
+    "Kvinne (Markveien 65 (Område 0.01 km²))": 1
+  },
+  {
+    "Category": "19-23",
+    "Mann (Markveien 65 (Område 0.01 km²))": 8,
+    "Kvinne (Markveien 65 (Område 0.01 km²))": 11
+  },
+  {
+    "Category": "23-34",
+    "Mann (Markveien 65 (Område 0.01 km²))": 34,
+    "Kvinne (Markveien 65 (Område 0.01 km²))": 30
+  },
+  {
+    "Category": "35-44",
+    "Mann (Markveien 65 (Område 0.01 km²))": 16,
+    "Kvinne (Markveien 65 (Område 0.01 km²))": 11
+  },
+  {
+    "Category": "45-54",
+    "Mann (Markveien 65 (Område 0.01 km²))": 8,
+    "Kvinne (Markveien 65 (Område 0.01 km²))": 6
+  },
+  {
+    "Category": "55-64",
+    "Mann (Markveien 65 (Område 0.01 km²))": 6,
+    "Kvinne (Markveien 65 (Område 0.01 km²))": 5
+  },
+  {
+    "Category": "65-74",
+    "Mann (Markveien 65 (Område 0.01 km²))": 3,
+    "Kvinne (Markveien 65 (Område 0.01 km²))": 4
+  },
+  {
+    "Category": "75-84",
+    "Mann (Markveien 65 (Område 0.01 km²))": 2,
+    "Kvinne (Markveien 65 (Område 0.01 km²))": 2
+  },
+  {
+    "Category": "85+",
+    "Mann (Markveien 65 (Område 0.01 km²))": 0,
+    "Kvinne (Markveien 65 (Område 0.01 km²))": 0
+  }
+]

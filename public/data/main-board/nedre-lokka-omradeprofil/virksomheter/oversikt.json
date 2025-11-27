@@ -1,0 +1,123 @@
+{
+  "omrade": "Nedre Løkka",
+  "totalVirksomheter": 103,
+  "totalOmsetning": 967,
+  "kategoriOversikt": [
+    {
+      "kategori": "Mat og opplevelser / Restaurant",
+      "antall": 40,
+      "omsetning": 388.14,
+      "andel": 39
+    },
+    {
+      "kategori": "Handel / Klesbutikker",
+      "antall": 12,
+      "omsetning": 37.9,
+      "andel": 12
+    },
+    {
+      "kategori": "Mat og opplevelser / Bakeri og kafé",
+      "antall": 9,
+      "omsetning": 64,
+      "andel": 9
+    },
+    {
+      "kategori": "Handel / Mat og drikke",
+      "antall": 8,
+      "omsetning": 227,
+      "andel": 8
+    },
+    {
+      "kategori": "Handel / Hjem og interiør",
+      "antall": 8,
+      "omsetning": 31.79,
+      "andel": 8
+    },
+    {
+      "kategori": "Handel / Annen handel",
+      "antall": 8,
+      "omsetning": 45.78,
+      "andel": 8
+    },
+    {
+      "kategori": "Tjenester / Skjønnhet og velvære",
+      "antall": 5,
+      "omsetning": 13,
+      "andel": 5
+    },
+    {
+      "kategori": "Handel / Sport og fritid",
+      "antall": 4,
+      "omsetning": 58,
+      "andel": 4
+    },
+    {
+      "kategori": "Mat og opplevelser / Pub og bar",
+      "antall": 3,
+      "omsetning": 24.53,
+      "andel": 3
+    },
+    {
+      "kategori": "Mat og opplevelser / Barer",
+      "antall": 2,
+      "omsetning": 1.68,
+      "andel": 2
+    },
+    {
+      "kategori": "Tjenester / Profesjoner",
+      "antall": 1,
+      "omsetning": 18,
+      "andel": 1
+    },
+    {
+      "kategori": "Handel / Elektrobutikker",
+      "antall": 1,
+      "omsetning": 20,
+      "andel": 1
+    },
+    {
+      "kategori": "Tjenester / Andre tjenester",
+      "antall": 1,
+      "omsetning": 0.98,
+      "andel": 1
+    },
+    {
+      "kategori": "Tjenester / Treningssentre",
+      "antall": 1,
+      "omsetning": 36,
+      "andel": 1
+    }
+  ],
+  "omradeOversikt": [
+    {
+      "omrade": "Nedre Thorvald Meyers gate",
+      "antall": 40,
+      "andel": 39
+    },
+    {
+      "omrade": "Øvre Thorvald Meyers gate",
+      "antall": 28,
+      "andel": 27
+    },
+    {
+      "omrade": "Nederst i Markveien",
+      "antall": 12,
+      "andel": 12
+    },
+    {
+      "omrade": "Olaf Ryes Plass v/ Boots",
+      "antall": 9,
+      "andel": 9
+    },
+    {
+      "omrade": "Olaf Ryes Plass v/ 7-Eleven",
+      "antall": 9,
+      "andel": 9
+    },
+    {
+      "omrade": "Midt i Markveien",
+      "antall": 5,
+      "andel": 5
+    }
+  ]
+}

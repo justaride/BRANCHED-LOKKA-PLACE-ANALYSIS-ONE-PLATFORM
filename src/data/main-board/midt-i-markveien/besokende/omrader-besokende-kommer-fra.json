@@ -1,0 +1,252 @@
+[
+  {
+    "omrade": "Grünerløkka",
+    "antallBesok": 1529015,
+    "prosentAndel": 27.63
+  },
+  {
+    "omrade": "Sentrum 2",
+    "antallBesok": 710016,
+    "prosentAndel": 12.83
+  },
+  {
+    "omrade": "Rodeløkka",
+    "antallBesok": 252272,
+    "prosentAndel": 4.56
+  },
+  {
+    "omrade": "Tøyen",
+    "antallBesok": 233509,
+    "prosentAndel": 4.22
+  },
+  {
+    "omrade": "Grønland",
+    "antallBesok": 216898,
+    "prosentAndel": 3.92
+  },
+  {
+    "omrade": "Gamle Aker",
+    "antallBesok": 188862,
+    "prosentAndel": 3.41
+  },
+  {
+    "omrade": "Torshov",
+    "antallBesok": 176715,
+    "prosentAndel": 3.20
+  },
+  {
+    "omrade": "Hasle",
+    "antallBesok": 111406,
+    "prosentAndel": 2.01
+  },
+  {
+    "omrade": "Grefsenlia",
+    "antallBesok": 107565,
+    "prosentAndel": 1.94
+  },
+  {
+    "omrade": "Bjerke",
+    "antallBesok": 97962,
+    "prosentAndel": 1.77
+  },
+  {
+    "omrade": "Ulven",
+    "antallBesok": 95524,
+    "prosentAndel": 1.73
+  },
+  {
+    "omrade": "Manglerud",
+    "antallBesok": 87985,
+    "prosentAndel": 1.59
+  },
+  {
+    "omrade": "Sinsen",
+    "antallBesok": 82452,
+    "prosentAndel": 1.49
+  },
+  {
+    "omrade": "Åsen",
+    "antallBesok": 81828,
+    "prosentAndel": 1.48
+  },
+  {
+    "omrade": "Ila",
+    "antallBesok": 76956,
+    "prosentAndel": 1.39
+  },
+  {
+    "omrade": "Tåsen",
+    "antallBesok": 74981,
+    "prosentAndel": 1.36
+  },
+  {
+    "omrade": "St.hanshaugen",
+    "antallBesok": 72665,
+    "prosentAndel": 1.31
+  },
+  {
+    "omrade": "Kampen",
+    "antallBesok": 65681,
+    "prosentAndel": 1.19
+  },
+  {
+    "omrade": "Østensjø",
+    "antallBesok": 62895,
+    "prosentAndel": 1.14
+  },
+  {
+    "omrade": "Fossum",
+    "antallBesok": 62512,
+    "prosentAndel": 1.14
+  },
+  {
+    "omrade": "Bjølsen",
+    "antallBesok": 61914,
+    "prosentAndel": 1.12
+  },
+  {
+    "omrade": "Grorud",
+    "antallBesok": 60291,
+    "prosentAndel": 1.10
+  },
+  {
+    "omrade": "Majorstuen",
+    "antallBesok": 54997,
+    "prosentAndel": 0.99
+  },
+  {
+    "omrade": "Bekkelaget",
+    "antallBesok": 52120,
+    "prosentAndel": 0.94
+  },
+  {
+    "omrade": "Langerud",
+    "antallBesok": 51166,
+    "prosentAndel": 0.93
+  },
+  {
+    "omrade": "Ulsholt",
+    "antallBesok": 49485,
+    "prosentAndel": 0.90
+  },
+  {
+    "omrade": "Homansbyen",
+    "antallBesok": 49002,
+    "prosentAndel": 0.89
+  },
+  {
+    "omrade": "Gamlebyen",
+    "antallBesok": 48844,
+    "prosentAndel": 0.89
+  },
+  {
+    "omrade": "Frogner",
+    "antallBesok": 48195,
+    "prosentAndel": 0.87
+  },
+  {
+    "omrade": "Rudene",
+    "antallBesok": 47591,
+    "prosentAndel": 0.86
+  },
+  {
+    "omrade": "Ljansbyen",
+    "antallBesok": 45753,
+    "prosentAndel": 0.83
+  },
+  {
+    "omrade": "Ris",
+    "antallBesok": 42105,
+    "prosentAndel": 0.77
+  },
+  {
+    "omrade": "Sentrum 3",
+    "antallBesok": 39463,
+    "prosentAndel": 0.71
+  },
+  {
+    "omrade": "Sagene",
+    "antallBesok": 39443,
+    "prosentAndel": 0.71
+  },
+  {
+    "omrade": "Vålerenga",
+    "antallBesok": 39030,
+    "prosentAndel": 0.70
+  },
+  {
+    "omrade": "Sandaker",
+    "antallBesok": 38762,
+    "prosentAndel": 0.70
+  },
+  {
+    "omrade": "Alfaset",
+    "antallBesok": 37817,
+    "prosentAndel": 0.69
+  },
+  {
+    "omrade": "Lindern",
+    "antallBesok": 35776,
+    "prosentAndel": 0.65
+  },
+  {
+    "omrade": "Uranienborg",
+    "antallBesok": 31026,
+    "prosentAndel": 0.56
+  },
+  {
+    "omrade": "Holmen",
+    "antallBesok": 28211,
+    "prosentAndel": 0.52
+  },
+  {
+    "omrade": "Røabyen",
+    "antallBesok": 28183,
+    "prosentAndel": 0.52
+  },
+  {
+    "omrade": "Sentrum 1",
+    "antallBesok": 27052,
+    "prosentAndel": 0.49
+  },
+  {
+    "omrade": "Fagerborg",
+    "antallBesok": 25777,
+    "prosentAndel": 0.46
+  },
+  {
+    "omrade": "Nordstrand",
+    "antallBesok": 25451,
+    "prosentAndel": 0.46
+  },
+  {
+    "omrade": "Grefsenmarka",
+    "antallBesok": 24788,
+    "prosentAndel": 0.45
+  },
+  {
+    "omrade": "Loenga",
+    "antallBesok": 24334,
+    "prosentAndel": 0.44
+  },
+  {
+    "omrade": "Østmarka",
+    "antallBesok": 24030,
+    "prosentAndel": 0.44
+  },
+  {
+    "omrade": "Borgen",
+    "antallBesok": 23664,
+    "prosentAndel": 0.42
+  },
+  {
+    "omrade": "Skillebekk",
+    "antallBesok": 19677,
+    "prosentAndel": 0.36
+  },
+  {
+    "omrade": "Ullern",
+    "antallBesok": 19585,
+    "prosentAndel": 0.36
+  }
+]

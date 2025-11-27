@@ -1,0 +1,102 @@
+[
+  {
+    "ar": "2015",
+    "kaffebarer": null,
+    "andreSpisesteder": null,
+    "alkoholutsalg": 78.61,
+    "klesbutikker": 6.53,
+    "kiosker": 1.56,
+    "multivarebutikker": null,
+    "frisorsalonger": null
+  },
+  {
+    "ar": "2016",
+    "kaffebarer": null,
+    "andreSpisesteder": null,
+    "alkoholutsalg": 83.42,
+    "klesbutikker": 8.80,
+    "kiosker": 0,
+    "multivarebutikker": null,
+    "frisorsalonger": null
+  },
+  {
+    "ar": "2017",
+    "kaffebarer": null,
+    "andreSpisesteder": null,
+    "alkoholutsalg": 12.54,
+    "klesbutikker": 14.28,
+    "kiosker": null,
+    "multivarebutikker": null,
+    "frisorsalonger": null
+  },
+  {
+    "ar": "2018",
+    "kaffebarer": null,
+    "andreSpisesteder": null,
+    "alkoholutsalg": 94.16,
+    "klesbutikker": 13.95,
+    "kiosker": null,
+    "multivarebutikker": null,
+    "frisorsalonger": null
+  },
+  {
+    "ar": "2019",
+    "kaffebarer": null,
+    "andreSpisesteder": null,
+    "alkoholutsalg": 92.58,
+    "klesbutikker": 11.34,
+    "kiosker": null,
+    "multivarebutikker": null,
+    "frisorsalonger": null
+  },
+  {
+    "ar": "2020",
+    "kaffebarer": 3.00,
+    "andreSpisesteder": null,
+    "alkoholutsalg": 105.87,
+    "klesbutikker": 9.15,
+    "kiosker": null,
+    "multivarebutikker": null,
+    "frisorsalonger": 4.53
+  },
+  {
+    "ar": "2021",
+    "kaffebarer": 5.04,
+    "andreSpisesteder": null,
+    "alkoholutsalg": 120.48,
+    "klesbutikker": 9.81,
+    "kiosker": null,
+    "multivarebutikker": null,
+    "frisorsalonger": 4.18
+  },
+  {
+    "ar": "2022",
+    "kaffebarer": 5.38,
+    "andreSpisesteder": null,
+    "alkoholutsalg": 66.66,
+    "klesbutikker": 6.26,
+    "kiosker": null,
+    "multivarebutikker": 1.93,
+    "frisorsalonger": 4.62
+  },
+  {
+    "ar": "2023",
+    "kaffebarer": 7.04,
+    "andreSpisesteder": 4.04,
+    "alkoholutsalg": 76.95,
+    "klesbutikker": 3.54,
+    "kiosker": null,
+    "multivarebutikker": 8.18,
+    "frisorsalonger": 3.27
+  },
+  {
+    "ar": "2024",
+    "kaffebarer": 7.97,
+    "andreSpisesteder": null,
+    "alkoholutsalg": 73.36,
+    "klesbutikker": 4.07,
+    "kiosker": null,
+    "multivarebutikker": 8.90,
+    "frisorsalonger": 3.97
+  }
+]

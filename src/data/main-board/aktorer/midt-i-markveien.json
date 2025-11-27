@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "generated": "2025-11-25",
+    "source": "Plaace.ai Aktørkartlegging - Midt i Markveien v: Polet",
+    "totalActors": 5,
+    "totalRevenue": 98,
+    "totalEmployees": 37,
+    "totalCategories": 3
+  },
+  "actors": [
+    {
+      "rank": "#1",
+      "navn": "Vinmonopolet Nordregate Oslo",
+      "type": "Handel / Mat og drikke",
+      "adresse": "NORDRE GATE 16",
+      "kommune": "Oslo",
+      "omsetning": 73,
+      "omsetning_raw": "73 mill.",
+      "yoy_vekst": -5,
+      "ansatte": 13,
+      "ansatte_raw": "13",
+      "markedsandel": 74.65
+    },
+    {
+      "rank": "#2",
+      "navn": "Kjell & Co Norway No031 Markveien",
+      "type": "Handel / Annen handel",
+      "adresse": "MARKVEIEN 51 A",
+      "kommune": "Oslo",
+      "omsetning": 9,
+      "omsetning_raw": "9 mill.",
+      "yoy_vekst": 8,
+      "ansatte": 6,
+      "ansatte_raw": "6",
+      "markedsandel": 9.06
+    },
+    {
+      "rank": "#3",
+      "navn": "Espresso House Nordregate 801",
+      "type": "Mat og opplevelser / Bakeri og kafé",
+      "adresse": "NORDRE GATE 18",
+      "kommune": "Oslo",
+      "omsetning": 8,
+      "omsetning_raw": "8 mill.",
+      "yoy_vekst": 13,
+      "ansatte": 13,
+      "ansatte_raw": "13",
+      "markedsandel": 8.11
+    },
+    {
+      "rank": "#4",
+      "navn": "Pelspels Markveien",
+      "type": "Tjenester / Skjønnhet og velvære",
+      "adresse": "MARKVEIEN 51 C",
+      "kommune": "Oslo",
+      "omsetning": 4,
+      "omsetning_raw": "4 mill.",
+      "yoy_vekst": 21,
+      "ansatte": 5,
+      "ansatte_raw": "5",
+      "markedsandel": 4.04
+    },
+    {
+      "rank": "#5",
+      "navn": "Sjøden Gudrun AS",
+      "type": "Handel / Klesbutikker",
+      "adresse": "MARKVEIEN 51 A",
+      "kommune": "Oslo",
+      "omsetning": 4,
+      "omsetning_raw": "4 mill.",
+      "yoy_vekst": 14,
+      "ansatte": 0,
+      "ansatte_raw": "0",
+      "markedsandel": 4.14
+    }
+  ],
+  "categoryStats": {
+    "Handel": {
+      "count": 3,
+      "omsetning": 86,
+      "ansatte": 19,
+      "avgRevenue": 28.67
+    },
+    "Mat og opplevelser": {
+      "count": 1,
+      "omsetning": 8,
+      "ansatte": 13,
+      "avgRevenue": 8.0
+    },
+    "Tjenester": {
+      "count": 1,
+      "omsetning": 4,
+      "ansatte": 5,
+      "avgRevenue": 4.0
+    }
+  }
+}

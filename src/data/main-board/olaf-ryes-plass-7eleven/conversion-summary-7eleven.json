@@ -1,0 +1,28 @@
+{
+  "csv_conversions": [
+    {
+      "file": "Olaf Ryes Plass  ( 7-Eleven )  Omrader_besokende_kommer_fra.csv",
+      "target": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/olaf-ryes-plass-7eleven/bevegelse/omrader-besokende-kommer-fra.json",
+      "rows": 50,
+      "status": "SUCCESS"
+    },
+    {
+      "file": "Olaf Ryes Plass  ( 7-Eleven ) - Over- og underandel vs. kommune.csv",
+      "target": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/olaf-ryes-plass-7eleven/konkurransebilde/over-og-underandel-vs-kommune.json",
+      "rows": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "file": "Olaf Ryes Plass  ( 7-Eleven ) Korthandel i valgt tidsrom.csv",
+      "target": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/olaf-ryes-plass-7eleven/korthandel/korthandel-i-valgt-tidsrom.json",
+      "rows": 2514,
+      "status": "SUCCESS"
+    }
+  ],
+  "image_copy": {
+    "file": "Olaf Ryes Plass  ( 7-Eleven )  HVOR DE BESØKENDE KOMMER FRA.png",
+    "target": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/public/images/analyser/olaf-ryes-plass-7eleven-visitor-origins.png",
+    "status": "SUCCESS"
+  },
+  "errors": []
+}

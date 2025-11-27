@@ -1,0 +1,78 @@
+{
+  "konverteringsDato": "2025-11-25",
+  "kildemappe": "/Users/gabrielboen/Downloads/LØKKA PROJECTS UPDATED AND BACKUPS FOLDER/Midt i Markveien v: Polet/",
+  "målmappe": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/",
+  "totaltFilerKonvertert": 19,
+  "totaltDatapunkter": 352,
+  "kategorier": {
+    "aktorer": {
+      "filer": 1,
+      "datapunkter": 5,
+      "beskrivelse": "Hovedaktører i området med omsetning, vekst og markedsandel"
+    },
+    "demografi": {
+      "filer": 5,
+      "datapunkter": 44,
+      "beskrivelse": "Aldersfordeling, hustyper, inntektsfordeling og demografisk utvikling"
+    },
+    "bevegelse": {
+      "filer": 3,
+      "datapunkter": 42,
+      "beskrivelse": "Besøksmønstre per time, ukedag og kvartal"
+    },
+    "korthandel": {
+      "filer": 4,
+      "datapunkter": 65,
+      "beskrivelse": "Årlig vekst, indeksert vekst og korthandel per ukedag. Full tidsseriedata tilgjengelig i CSV."
+    },
+    "konkurransebilde": {
+      "filer": 4,
+      "datapunkter": 93,
+      "beskrivelse": "Kjeder vs uavhengige, konseptmiks, avvik vs kommune og utvikling per år"
+    },
+    "besokende": {
+      "filer": 1,
+      "datapunkter": 50,
+      "beskrivelse": "Geografisk fordeling av besøkende fra ulike områder i Oslo"
+    },
+    "internasjonalt": {
+      "filer": 1,
+      "datapunkter": 20,
+      "beskrivelse": "Topp 20 land besøkende kommer fra"
+    }
+  },
+  "filerOpprettet": [
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/aktorer/midt-i-markveien.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/demografi/aldersfordeling.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/demografi/antall-hus.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/demografi/demografi-over-tid.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/demografi/inntektsfordeling.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/demografi/medianinntekt-per-husholdningstype.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/bevegelse/besok-per-time.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/bevegelse/besok-per-ukedag.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/bevegelse/bevegelsesmonster.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/korthandel/arlig-vekst.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/korthandel/indeksert-vekst.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/korthandel/korthandel-per-ukedag.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/korthandel/korthandel-tidsrom.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/konkurransebilde/kjeder-vs-uavhengige.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/konkurransebilde/konseptmiks.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/konkurransebilde/over-og-underandel-vs-kommune.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/konkurransebilde/utvikling-per-ar.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/besokende/omrader-besokende-kommer-fra.json",
+    "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/midt-i-markveien/internasjonalt/topp-20-land.json"
+  ],
+  "karakterbehandling": {
+    "utfRemoved": true,
+    "norwegianCharactersPreserved": true,
+    "encoding": "UTF-8"
+  },
+  "databehandling": {
+    "numericConversion": "Prosent og valutaverdier konvertert til tall",
+    "nullHandling": "Tomme verdier representert som null",
+    "kebabCase": "Alle filnavn bruker kebab-case"
+  },
+  "advarsler": [
+    "Korthandel i valgt tidsrom KORTHANDEL.csv (319KB) er for stor til full konvertering. Dokumentasjonsfil opprettet i stedet."
+  ]
+}

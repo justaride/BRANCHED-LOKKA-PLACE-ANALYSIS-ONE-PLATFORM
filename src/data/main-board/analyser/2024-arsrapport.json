@@ -159,7 +159,27 @@
   ],
   "plaaceData": {
     "rapportDato": "2024-12-31",
-    "datakilder": ["Plaace.ai", "Aktivitetskartlegging 2024 (156 arrangementer)", "Mediekartlegging 2024 (78 artikler)"],
+    "datakilder": ["Plaace.ai", "Aktivitetskartlegging 2024 (156 arrangementer)", "Mediekartlegging 2024 (78 artikler)", "BankAxept", "Telia", "Analysebutikken", "SSB"],
+    "dataFiles": {
+      "konkurransebilde": [
+        "konkurransebilde/kjeder-vs-uavhengige.json",
+        "konkurransebilde/konseptmiks.json",
+        "konkurransebilde/over-og-underandel-vs-kommune.json",
+        "konkurransebilde/utvikling-per-ar.json"
+      ],
+      "korthandel": [
+        "korthandel/arlig-vekst.json",
+        "korthandel/korthandel-i-valgt-tidsrom.json",
+        "korthandel/korthandel-per-ukedag.json",
+        "korthandel/indeksert-vekst.json"
+      ],
+      "bevegelse": [
+        "bevegelse/besok-per-time.json",
+        "bevegelse/besok-per-ukedag.json",
+        "bevegelse/bevegelsesmonster.json",
+        "bevegelse/omrader-besokende-kommer-fra.json"
+      ]
+    },
     "screenshots": [
       {
         "id": "konkurranse-aktorer-kart",
@@ -311,9 +331,12 @@
     ],
     "nokkeldata": {
       "befolkning": 58200,
-      "dagligTrafikk": 43500,
-      "besokende": 165000,
-      "handelsomsetning": 3970000000
+      "dagligTrafikk": 54286,
+      "besokende": 19814390,
+      "handelsomsetning": 4008571000,
+      "korthandel": 2289824000,
+      "antallKonsepter": 374,
+      "omrade": "1.14 km²"
     },
     "demografi": {
       "totalBefolkning": 58200,
@@ -327,12 +350,12 @@
       "husstandsstorrelse": 1.7
     },
     "marked": {
-      "omsetning": 3970000000,
-      "totalAktorer": 359,
+      "omsetning": 4008571000,
+      "totalAktorer": 374,
       "ansatte": 4005
     },
     "bevegelse": {
-      "dagligTrafikk": 43500,
+      "dagligTrafikk": 54286,
       "besoksmønster": {
         "ukedag": 64,
         "helg": 36
@@ -341,16 +364,18 @@
   },
   "metadata": {
     "opprettet": "2024-12-31",
-    "sistOppdatert": "2024-12-31",
+    "sistOppdatert": "2025-11-26",
     "status": "publisert",
-    "versjon": 2,
+    "versjon": 3,
     "forfatter": "Natural State",
     "kilde": ["Plaace.ai"],
     "heroImage": "/images/areas/grunerlokka.jpg",
     "notater": [
       "Komplett årsrapport for Grünerløkka 2024",
-      "359 aktører kartlagt med detaljert informasjon",
-      "Total omsetning på 3.97 milliarder NOK",
+      "374 aktører kartlagt med detaljert informasjon (område: 1.14 km²)",
+      "Total omsetning på 4.01 milliarder NOK (+1.0% fra forrige estimat)",
+      "Korthandel: 2.29 milliarder NOK (-10.07% YoY)",
+      "Daglig besøkende: 54,286 gjennomsnitt (19.8 millioner årlig)",
       "Omfattende data for bevegelse, handel og besøkende",
       "Inkluderer internasjonale besøkstall per kvartal",
       "156 arrangementer dokumentert gjennom hele året",
@@ -363,7 +388,9 @@
       "Aftenposten Vink dominerer positiv dekning med 18 restaurantanmeldelser",
       "Juni hadde flest artikler (16) primært på grunn av Oslo Pride",
       "41% positiv sentiment, 36% nøytral, 18% negativ, 5% balansert",
-      "Fullstendig mediedekning tilgjengelig i /data/mediedekning-2024.json"
+      "Fullstendig mediedekning tilgjengelig i /data/mediedekning-2024.json",
+      "12 strukturerte JSON-datafiler tilgjengelig for konkurransebilde, korthandel og bevegelse",
+      "Datakilder: BankAxept (korthandel), Telia (bevegelse), Analysebutikken (konkurranse), SSB (demografi)"
     ]
   }
 }

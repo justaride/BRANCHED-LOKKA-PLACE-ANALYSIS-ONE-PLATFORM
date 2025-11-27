@@ -1,0 +1,134 @@
+[
+  {
+    "category": "0-5",
+    "grunerlokka_mann": 2321.28,
+    "grunerlokka_kvinne": 2244.56,
+    "bjorvika_mann": 2705.53,
+    "bjorvika_kvinne": 2613.32,
+    "sentrum_mann": 6722.87,
+    "sentrum_kvinne": 6482.33,
+    "majorstuen_mann": 3366.29,
+    "majorstuen_kvinne": 3295.71
+  },
+  {
+    "category": "6-12",
+    "grunerlokka_mann": 2516.75,
+    "grunerlokka_kvinne": 2382.11,
+    "bjorvika_mann": 3090.39,
+    "bjorvika_kvinne": 2910.29,
+    "sentrum_mann": 7512.73,
+    "sentrum_kvinne": 7082.35,
+    "majorstuen_mann": 3751.11,
+    "majorstuen_kvinne": 3564.67
+  },
+  {
+    "category": "13-15",
+    "grunerlokka_mann": 1086.95,
+    "grunerlokka_kvinne": 1050.53,
+    "bjorvika_mann": 1342.63,
+    "bjorvika_kvinne": 1292.54,
+    "sentrum_mann": 3245.52,
+    "sentrum_kvinne": 3128.46,
+    "majorstuen_mann": 1631.87,
+    "majorstuen_kvinne": 1623.82
+  },
+  {
+    "category": "16-18",
+    "grunerlokka_mann": 1069.98,
+    "grunerlokka_kvinne": 1039.9,
+    "bjorvika_mann": 1305.97,
+    "bjorvika_kvinne": 1268.34,
+    "sentrum_mann": 3166.65,
+    "sentrum_kvinne": 3092.57,
+    "majorstuen_mann": 1645.54,
+    "majorstuen_kvinne": 1661.79
+  },
+  {
+    "category": "19-23",
+    "grunerlokka_mann": 2386.15,
+    "grunerlokka_kvinne": 2775.71,
+    "bjorvika_mann": 2558.11,
+    "bjorvika_kvinne": 2865.7,
+    "sentrum_mann": 6617.6,
+    "sentrum_kvinne": 7585.82,
+    "majorstuen_mann": 3714.06,
+    "majorstuen_kvinne": 4531.93
+  },
+  {
+    "category": "23-34",
+    "grunerlokka_mann": 10182.35,
+    "grunerlokka_kvinne": 10207.07,
+    "bjorvika_mann": 9859.5,
+    "bjorvika_kvinne": 10067.3,
+    "sentrum_mann": 26778.34,
+    "sentrum_kvinne": 27207.97,
+    "majorstuen_mann": 15684.7,
+    "majorstuen_kvinne": 16593.33
+  },
+  {
+    "category": "35-44",
+    "grunerlokka_mann": 6758.11,
+    "grunerlokka_kvinne": 5786.25,
+    "bjorvika_mann": 7252.84,
+    "bjorvika_kvinne": 6532.45,
+    "sentrum_mann": 18656.86,
+    "sentrum_kvinne": 16486.7,
+    "majorstuen_mann": 9753.66,
+    "majorstuen_kvinne": 8680.98
+  },
+  {
+    "category": "45-54",
+    "grunerlokka_mann": 5199.22,
+    "grunerlokka_kvinne": 4580.44,
+    "bjorvika_mann": 5871.65,
+    "bjorvika_kvinne": 5343.47,
+    "sentrum_mann": 14802.51,
+    "sentrum_kvinne": 13303.17,
+    "majorstuen_mann": 7941.99,
+    "majorstuen_kvinne": 7380.51
+  },
+  {
+    "category": "55-64",
+    "grunerlokka_mann": 4043.07,
+    "grunerlokka_kvinne": 3701.93,
+    "bjorvika_mann": 4684.22,
+    "bjorvika_kvinne": 4387.45,
+    "sentrum_mann": 11733.21,
+    "sentrum_kvinne": 10939.31,
+    "majorstuen_mann": 6863.22,
+    "majorstuen_kvinne": 6742.62
+  },
+  {
+    "category": "65-74",
+    "grunerlokka_mann": 2568.17,
+    "grunerlokka_kvinne": 2704.13,
+    "bjorvika_mann": 3029.02,
+    "bjorvika_kvinne": 3233.95,
+    "sentrum_mann": 7552.34,
+    "sentrum_kvinne": 8024.13,
+    "majorstuen_mann": 4713.43,
+    "majorstuen_kvinne": 5143.03
+  },
+  {
+    "category": "75-84",
+    "grunerlokka_mann": 1556.95,
+    "grunerlokka_kvinne": 1791.04,
+    "bjorvika_mann": 1902.84,
+    "bjorvika_kvinne": 2190.33,
+    "sentrum_mann": 4721.44,
+    "sentrum_kvinne": 5411.59,
+    "majorstuen_mann": 3279.93,
+    "majorstuen_kvinne": 3804.77
+  },
+  {
+    "category": "85+",
+    "grunerlokka_mann": 386.69,
+    "grunerlokka_kvinne": 708.1,
+    "bjorvika_mann": 479.37,
+    "bjorvika_kvinne": 880.18,
+    "sentrum_mann": 1182.69,
+    "sentrum_kvinne": 2166.85,
+    "majorstuen_mann": 814.33,
+    "majorstuen_kvinne": 1473.51
+  }
+]

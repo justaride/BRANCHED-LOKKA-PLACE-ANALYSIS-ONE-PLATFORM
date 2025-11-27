@@ -1,0 +1,82 @@
+[
+  {
+    "land": "Denmark",
+    "prosent": 13.56
+  },
+  {
+    "land": "Poland",
+    "prosent": 10.54
+  },
+  {
+    "land": "Germany",
+    "prosent": 9.75
+  },
+  {
+    "land": "France",
+    "prosent": 9.15
+  },
+  {
+    "land": "United Kingdom of Great Britain and Northern Ireland",
+    "prosent": 9.05
+  },
+  {
+    "land": "Sweden",
+    "prosent": 8.83
+  },
+  {
+    "land": "United States of America",
+    "prosent": 6.42
+  },
+  {
+    "land": "Spain",
+    "prosent": 5.00
+  },
+  {
+    "land": "Netherlands",
+    "prosent": 3.80
+  },
+  {
+    "land": "Ukraine",
+    "prosent": 3.14
+  },
+  {
+    "land": "Italy",
+    "prosent": 2.77
+  },
+  {
+    "land": "Romania",
+    "prosent": 2.26
+  },
+  {
+    "land": "Belgium",
+    "prosent": 1.71
+  },
+  {
+    "land": "Austria",
+    "prosent": 1.56
+  },
+  {
+    "land": "India",
+    "prosent": 1.50
+  },
+  {
+    "land": "Finland",
+    "prosent": 1.29
+  },
+  {
+    "land": "Greece",
+    "prosent": 1.02
+  },
+  {
+    "land": "Portugal",
+    "prosent": 1.02
+  },
+  {
+    "land": "Korea, Republic of",
+    "prosent": 0.95
+  },
+  {
+    "land": "China",
+    "prosent": 0.73
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "source": "Kjeder vs. uavhengige konsepter KONKURRANSEBILDET.csv",
+    "rows": 11,
+    "columns": [
+      "Category",
+      "Uavhengig (mNOK)",
+      "Kjeder (mNOK)"
+    ]
+  },
+  "data": [
+    {
+      "Category": 2015,
+      "Uavhengig (mNOK)": 25.680066254698346,
+      "Kjeder (mNOK)": 74.31993374530165
+    },
+    {
+      "Category": 2016,
+      "Uavhengig (mNOK)": 31.40726591485142,
+      "Kjeder (mNOK)": 68.59273408514859
+    },
+    {
+      "Category": 2017,
+      "Uavhengig (mNOK)": 78.39980071109902,
+      "Kjeder (mNOK)": 21.600199288900964
+    },
+    {
+      "Category": 2018,
+      "Uavhengig (mNOK)": 57.70146090642208,
+      "Kjeder (mNOK)": 42.298539093577915
+    },
+    {
+      "Category": 2019,
+      "Uavhengig (mNOK)": 69.53927471868784,
+      "Kjeder (mNOK)": 30.46072528131215
+    },
+    {
+      "Category": 2020,
+      "Uavhengig (mNOK)": 69.73055102524428,
+      "Kjeder (mNOK)": 30.269448974755708
+    },
+    {
+      "Category": 2021,
+      "Uavhengig (mNOK)": 53.55561100368037,
+      "Kjeder (mNOK)": 46.44438899631964
+    },
+    {
+      "Category": 2022,
+      "Uavhengig (mNOK)": 60.29017468516046,
+      "Kjeder (mNOK)": 39.709825314839534
+    },
+    {
+      "Category": 2023,
+      "Uavhengig (mNOK)": 67.0472384758099,
+      "Kjeder (mNOK)": 32.952761524190095
+    },
+    {
+      "Category": 2024,
+      "Uavhengig (mNOK)": 70.717569458325,
+      "Kjeder (mNOK)": 29.282430541674998
+    },
+    {
+      "Category": 2025,
+      "Uavhengig (mNOK)": 55.71531791907515,
+      "Kjeder (mNOK)": 44.28468208092486
+    }
+  ]
+}

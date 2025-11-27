@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "source": "Inntektsfordeling DEMOGRAFI.csv",
+    "rows": 12,
+    "columns": [
+      "Category",
+      "Sofienberggata 6 (Område 0.01 km²)"
+    ]
+  },
+  "data": [
+    {
+      "Category": "0 NOK",
+      "Sofienberggata 6 (Område 0.01 km²)": 21.502490809327373
+    },
+    {
+      "Category": "0 NOK - NOK 100k",
+      "Sofienberggata 6 (Område 0.01 km²)": 20.59148068007904
+    },
+    {
+      "Category": "NOK 100k - NOK 200k",
+      "Sofienberggata 6 (Område 0.01 km²)": 17.846141251327285
+    },
+    {
+      "Category": "NOK 200k - NOK 300k",
+      "Sofienberggata 6 (Område 0.01 km²)": 15.575723149234765
+    },
+    {
+      "Category": "NOK 300k - NOK 400k",
+      "Sofienberggata 6 (Område 0.01 km²)": 14.501362449462913
+    },
+    {
+      "Category": "NOK 400k - NOK 500k",
+      "Sofienberggata 6 (Område 0.01 km²)": 13.86006251554087
+    },
+    {
+      "Category": "NOK 500k - NOK 600k",
+      "Sofienberggata 6 (Område 0.01 km²)": 11.705476765521828
+    },
+    {
+      "Category": "NOK 600k - NOK 700k",
+      "Sofienberggata 6 (Område 0.01 km²)": 7.2551737105763525
+    },
+    {
+      "Category": "NOK 700k - NOK 800k",
+      "Sofienberggata 6 (Område 0.01 km²)": 4.6025514905133145
+    },
+    {
+      "Category": "NOK 800k - NOK 1 mill.",
+      "Sofienberggata 6 (Område 0.01 km²)": 9.54812481929175
+    },
+    {
+      "Category": "NOK 1 mill. - NOK 1,5 mill.",
+      "Sofienberggata 6 (Område 0.01 km²)": 1.271016247934206
+    },
+    {
+      "Category": "NOK 1,5 mill.+",
+      "Sofienberggata 6 (Område 0.01 km²)": 0.7264429612776147
+    }
+  ]
+}

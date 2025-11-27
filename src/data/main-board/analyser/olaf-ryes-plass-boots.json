@@ -1,0 +1,96 @@
+{
+  "id": "olaf-ryes-plass-boots",
+  "title": "Olaf Ryes PlassV:Boots",
+  "analysisType": "location-specific",
+  "period": {
+    "type": "multi-year",
+    "startYear": 2022,
+    "endYear": 2025,
+    "startDate": "2022-10-01",
+    "endDate": "2025-09-30",
+    "label": "01.10.2022 – 30.09.2025"
+  },
+  "area": {
+    "id": "olaf-ryes-plass-boots",
+    "name": "Olaf Ryes PlassV:Boots",
+    "displayName": "Olaf Ryes PlassV:Boots område",
+    "type": "micro-area",
+    "areaSize": "0.005 km²",
+    "coordinates": {
+      "lat": 59.921,
+      "lng": 10.761
+    },
+    "description": "Komplett stedsanalyse for Olaf Ryes PlassV:Boots med demografi, besøkende, virksomheter og omsetning"
+  },
+  "description": "Omfattende markedsanalyse for Olaf Ryes PlassV:Boots med fokus på besøksmønstre, demografisk profil, konseptmiks og korthandel. Området har høy daglig besøksfrekvens, dominert av Fitness 24 Seven (40.08% markedsandel) og Boots Apotek (22.15%), med total omsetning på NOK 89 millioner.",
+  "tags": [
+    "stedsanalyse",
+    "bevegelse",
+    "demografi",
+    "virksomheter",
+    "korthandel",
+    "konseptmiks",
+    "olaf-ryes-plass",
+    "boots-apotek"
+  ],
+  "dataSource": "Plaace.ai / Telia / BankAxept / Analysebutikken / SSB",
+  "metadata": {
+    "status": "publisert",
+    "version": "1.0",
+    "author": "Natural State",
+    "createdAt": "2025-11-25",
+    "updatedAt": "2025-11-25",
+    "heroImage": "/images/analyser/olaf-ryes-plass-boots-map.png",
+    "sistOppdatert": "2025-11-25",
+    "notater": [
+      "Komplett stedsanalyse basert på data fra flere kilder over 3-års periode.",
+      "Området omfatter Olaf Ryes Plass og Sofienberggata 6 med Boots Apotek som navngitt ankerpunkt.",
+      "Fitness 24 Seven dominerer med 40.08% markedsandel og NOK 36M omsetning.",
+      "Boots Apotek er nest største aktør med 22.15% markedsandel og NOK 20M omsetning.",
+      "Mat og opplevelser-segmentet har høyt ansatte-tall (80 ansatte) til tross for lavere omsetning."
+    ]
+  },
+  "plaaceData": {
+    "datakilder": [
+      "Telia (mobildata)",
+      "BankAxept (korttransaksjoner)",
+      "Analysebutikken (virksomhetsdata)",
+      "SSB (demografi)",
+      "GEODATA"
+    ]
+  },
+  "highlights": [
+    {
+      "title": "Daglige Besøk",
+      "value": "9,500",
+      "description": "Gjennomsnittlig daglige besøk i området"
+    },
+    {
+      "title": "Daglig Korthandel",
+      "value": "NOK 2.8M",
+      "description": "Total daglig korthandel i området"
+    },
+    {
+      "title": "Dominerende Aktør",
+      "value": "Fitness 24 Seven",
+      "description": "40.08% markedsandel, NOK 36M omsetning årlig"
+    },
+    {
+      "title": "Total Omsetning",
+      "value": "NOK 89M",
+      "description": "Estimert årlig omsetning (2024)"
+    }
+  ],
+  "visualizations": [
+    {
+      "type": "bar-chart",
+      "title": "Konseptmiks",
+      "description": "Fordeling på tvers av hovedkategorier"
+    },
+    {
+      "type": "table",
+      "title": "Virksomhetsoversikt",
+      "description": "Rangering etter omsetning med markedsandel og YoY-vekst"
+    }
+  ]
+}

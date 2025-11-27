@@ -14,6 +14,7 @@ export function middleware(request: NextRequest) {
     pathname.startsWith('/images') ||
     pathname.startsWith('/pdf') ||
     pathname.startsWith('/fonts') ||
+    pathname.startsWith('/data') ||
     pathname === '/favicon.ico'
   ) {
     return NextResponse.next();
@@ -51,8 +52,8 @@ export const config = {
      * - _next/static (static files)
      * - _next/image (image optimization files)
      * - favicon.ico (favicon file)
-     * - public files (images, pdf, etc)
+     * - public files (images, pdf, data, etc)
      */
-    '/((?!_next/static|_next/image|favicon.ico|images|pdf|fonts).*)',
+    '/((?!_next/static|_next/image|favicon.ico|images|pdf|fonts|data).*)',
   ],
 };

@@ -1,0 +1,108 @@
+{
+  "Besøkende verktøy oversikt": {
+    "Besøkende": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "Telia"
+      ]
+    },
+    "Demografi av Besøkende": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "Telia",
+        "Statistisk sentralbyrå"
+      ]
+    }
+  },
+  "Bevegelse NØKKELTALL": {
+    "Bevegelse": {
+      "Datoperiode": "01.10.2022 – 30.09.2025",
+      "Status": "Faktiske data",
+      "Datakilde": [
+        "Telia"
+      ]
+    },
+    "Gjennomsnittlig daglige besøk": {
+      "Verdi": 8243,
+      "Kommentar": "Basert på alle besøk"
+    },
+    "Gjennomsnittlig daglige besøk per km2": {
+      "Verdi": 64003
+    },
+    "Travleste dag": {
+      "Dag": "Lørdag",
+      "Andel": "17% av ukesbesøk"
+    }
+  },
+  "Korthandel NØKKELTALL": {
+    "Korthandel": {
+      "Status": "Faktiske data",
+      "Datakilde": [
+        "BankAxept"
+      ]
+    },
+    "Daglig korthandel for valgt periode": "NOK 3 mill.",
+    "Total korthandel for valgt periode": "NOK 7,5 mrd.",
+    "Beløp per transaksjon for valgt periode": "255 NOK"
+  },
+  "konkurransebildet NØKKELTALL": {
+    "Konkurransebildet": {
+      "Status": "Estimerte tall",
+      "Datakilde": [
+        "Analysebutikken"
+      ]
+    },
+    "Konsepttetthet": "1117/km2",
+    "Konsepttetthet endring": "-17%",
+    "Total omsetning": {
+      "Verdi": "NOK 98 mill.",
+      "Endring": "-5%"
+    },
+    "Omsetningstetthet": {
+      "Verdi": "NOK 22 mrd./km2",
+      "Endring": "-5%"
+    }
+  },
+  "DEMOGRAFI NØKKELTALL": {
+    "Demografi": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "Statistisk sentralbyrå",
+        "Geodata"
+      ]
+    },
+    "Befolkning": {
+      "Verdi": 117,
+      "År": 2023,
+      "Endring": "+4%"
+    },
+    "Befolkningstetthet": {
+      "Verdi": "26138/km2",
+      "År": 2023
+    },
+    "Områdestørrelse": "0.004 km2"
+  },
+  "NØKKELTALL MAIN": {
+    "Travleste dag": {
+      "Dag": "Lørdag",
+      "Periode": "01.10.2022 – 30.09.2025",
+      "Andel": "17% av ukesbesøk"
+    },
+    "Kortbruk": {
+      "Daglig korthandel": "NOK 3 mill.",
+      "Total korthandel": "NOK 7,5 mrd.",
+      "Periode": "01.10.2022 – 30.09.2025"
+    },
+    "Konseptmiks": {
+      "Dominerende": "Vinmonopolet",
+      "Markedsandel": "74.65%",
+      "Konsepttetthet": "1117/km2",
+      "Endring": "-17%"
+    },
+    "Størrelse": {
+      "Areal": "0.004 km2",
+      "Besøk per km2": 64003,
+      "Befolkningstetthet": "26138/km2"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "source": "Topp 20 land besøkende til området (i %) INTERNASJONALT BESØKENDE.csv",
+    "rows": 20,
+    "columns": [
+      "Category",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)"
+    ]
+  },
+  "data": [
+    {
+      "Category": "Denmark",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 13.56
+    },
+    {
+      "Category": "Poland",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 10.54
+    },
+    {
+      "Category": "Germany",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 9.75
+    },
+    {
+      "Category": "France",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 9.15
+    },
+    {
+      "Category": "United Kingdom of Great Britain and Northern Ireland",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 9.05
+    },
+    {
+      "Category": "Sweden",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 8.83
+    },
+    {
+      "Category": "United States of America",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 6.42
+    },
+    {
+      "Category": "Spain",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 5
+    },
+    {
+      "Category": "Netherlands",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 3.8
+    },
+    {
+      "Category": "Ukraine",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 3.14
+    },
+    {
+      "Category": "Italy",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 2.77
+    },
+    {
+      "Category": "Romania",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 2.26
+    },
+    {
+      "Category": "Belgium",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 1.71
+    },
+    {
+      "Category": "Austria",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 1.56
+    },
+    {
+      "Category": "India",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 1.5
+    },
+    {
+      "Category": "Finland",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 1.29
+    },
+    {
+      "Category": "Greece",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 1.02
+    },
+    {
+      "Category": "Portugal",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 1.02
+    },
+    {
+      "Category": "Korea, Republic of",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 0.95
+    },
+    {
+      "Category": "China",
+      "Sofienberggata 6 (Område 0.01 km²) (2024, Q2)": 0.73
+    }
+  ]
+}

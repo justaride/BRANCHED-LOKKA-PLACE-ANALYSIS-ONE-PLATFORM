@@ -1,0 +1,727 @@
+{
+  "omrade": "Nedre Løkka",
+  "antall": 103,
+  "virksomheter": [
+    {
+      "navn": "Extra Birkelunden",
+      "type": "Handel / Mat og drikke",
+      "omsetning": 87,
+      "adresse": "THORVALD MEYERS GATE 35",
+      "ansatte": 21
+    },
+    {
+      "navn": "Mcdonald's Thorvald Meyers Gate",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 58,
+      "adresse": "THORVALD MEYERS GATE 35",
+      "ansatte": 55
+    },
+    {
+      "navn": "Ark Grünerløkka",
+      "type": "Handel / Sport og fritid",
+      "omsetning": 21,
+      "adresse": "THORVALD MEYERS GATE 55",
+      "ansatte": 13
+    },
+    {
+      "navn": "Ses Optikk AS",
+      "type": "Tjenester / Profesjoner",
+      "omsetning": 18,
+      "adresse": "THORVALD MEYERS GATE 41",
+      "ansatte": 8
+    },
+    {
+      "navn": "Art & Mat AS",
+      "type": "Mat og opplevelser / Pub og bar",
+      "omsetning": 18,
+      "adresse": "THORVALD MEYERS GATE 30",
+      "ansatte": 29
+    },
+    {
+      "navn": "Mucho Mas",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 17,
+      "adresse": "THORVALD MEYERS GATE 36",
+      "ansatte": 14
+    },
+    {
+      "navn": "Smæg AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 14,
+      "adresse": "AKERSHUSSTRANDA 25",
+      "ansatte": 13
+    },
+    {
+      "navn": "Birkelundens Lille Franske",
+      "type": "Mat og opplevelser / Bakeri og kafé",
+      "omsetning": 10,
+      "adresse": "THORVALD MEYERS GATE 27",
+      "ansatte": 15
+    },
+    {
+      "navn": "Kaffebrenneriet Thv Meyers Gate",
+      "type": "Mat og opplevelser / Bakeri og kafé",
+      "omsetning": 8,
+      "adresse": "THORVALD MEYERS GATE 55",
+      "ansatte": 10
+    },
+    {
+      "navn": "Carlings Grünerløkka",
+      "type": "Handel / Klesbutikker",
+      "omsetning": 7,
+      "adresse": "THORVALD MEYERS GATE 51",
+      "ansatte": 5
+    },
+    {
+      "navn": "Couch AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 7,
+      "adresse": "THORVALD MEYERS GATE 33 C",
+      "ansatte": 6
+    },
+    {
+      "navn": "Baker Samson Grünerløkka",
+      "type": "Mat og opplevelser / Bakeri og kafé",
+      "omsetning": 6,
+      "adresse": "THORVALD MEYERS GATE 27 A",
+      "ansatte": 10
+    },
+    {
+      "navn": "Røtter Grünerløkka",
+      "type": "Handel / Mat og drikke",
+      "omsetning": 6,
+      "adresse": "THORVALD MEYERS GATE 46",
+      "ansatte": 6
+    },
+    {
+      "navn": "Velouria Vintage AS",
+      "type": "Handel / Klesbutikker",
+      "omsetning": 5,
+      "adresse": "THORVALD MEYERS GATE 34",
+      "ansatte": 10
+    },
+    {
+      "navn": "Palazzo Pizzeria AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 5,
+      "adresse": "THORVALD MEYERS GATE 48",
+      "ansatte": 7
+    },
+    {
+      "navn": "Lush Dive AS",
+      "type": "Handel / Sport og fritid",
+      "omsetning": 5,
+      "adresse": "THORVALD MEYERS GATE 19",
+      "ansatte": 3
+    },
+    {
+      "navn": "Digg Pizza Grunerløkka",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 4,
+      "adresse": "THORVALD MEYERS GATE 40 A",
+      "ansatte": 0
+    },
+    {
+      "navn": "Cutters Thorvald Meyers Gate",
+      "type": "Tjenester / Skjønnhet og velvære",
+      "omsetning": 4,
+      "adresse": "THORVALD MEYERS GATE 37",
+      "ansatte": 5
+    },
+    {
+      "navn": "Brinner",
+      "type": "Mat og opplevelser / Bakeri og kafé",
+      "omsetning": 4,
+      "adresse": "THORVALD MEYERS GATE 26",
+      "ansatte": 8
+    },
+    {
+      "navn": "Deli De Luca Thv Meyersgate",
+      "type": "Handel / Mat og drikke",
+      "omsetning": 3,
+      "adresse": "THORVALD MEYERS GATE 34",
+      "ansatte": 10
+    },
+    {
+      "navn": "Ny York Vintage & 2nd Hand",
+      "type": "Handel / Klesbutikker",
+      "omsetning": 2,
+      "adresse": "THORVALD MEYERS GATE 50",
+      "ansatte": 8
+    },
+    {
+      "navn": "Oslo Sy Og Servicesenter Ans",
+      "type": "Handel / Hjem og interiør",
+      "omsetning": 2,
+      "adresse": "THORVALD MEYERS GATE 48 A",
+      "ansatte": 4
+    },
+    {
+      "navn": "Birken Lunch AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 2,
+      "adresse": "BØLERLIA 59",
+      "ansatte": 0
+    },
+    {
+      "navn": "Jagger Junk Oslo AS Avd Grunerløkka",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 1,
+      "adresse": "THORVALD MEYERS GATE 36 A",
+      "ansatte": 0
+    },
+    {
+      "navn": "Floyd Frünerløkka",
+      "type": "Handel / Klesbutikker",
+      "omsetning": 1,
+      "adresse": "THORVALD MEYERS GATE 53",
+      "ansatte": 0
+    },
+    {
+      "navn": "Maanesten AS Avd Grünerløkka",
+      "type": "Handel / Annen handel",
+      "omsetning": 0.89,
+      "adresse": "THORVALD MEYERS GATE 46",
+      "ansatte": 0
+    },
+    {
+      "navn": "Creative Bars AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 0.64,
+      "adresse": "THORVALD MEYERS GATE 33 C",
+      "ansatte": 4
+    },
+    {
+      "navn": "Fogg Gildeskål AS",
+      "type": "Handel / Klesbutikker",
+      "omsetning": 0.45,
+      "adresse": "THORVALD MEYERS GATE 46",
+      "ansatte": 0
+    },
+    {
+      "navn": "Bunnpris Thorvald Meyers Gate",
+      "type": "Handel / Mat og drikke",
+      "omsetning": 33,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 21
+    },
+    {
+      "navn": "Nedre Løkka AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 20,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 16
+    },
+    {
+      "navn": "Elektropluss",
+      "type": "Handel / Elektrobutikker",
+      "omsetning": 20,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 5
+    },
+    {
+      "navn": "Bislett Kebab House Grûnerløkka",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 19,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 11
+    },
+    {
+      "navn": "Tmg 56 AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 13,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 21
+    },
+    {
+      "navn": "Nye Tijuana AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 11,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 33
+    },
+    {
+      "navn": "Sykkelpikene Grünerløkka",
+      "type": "Handel / Sport og fritid",
+      "omsetning": 11,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 7
+    },
+    {
+      "navn": "Bolia Norsk Avd Av Utenl Foretak Av",
+      "type": "Handel / Hjem og interiør",
+      "omsetning": 11,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 9
+    },
+    {
+      "navn": "Tmg Drift AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 11,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 21
+    },
+    {
+      "navn": "Tmg78 AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 9,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 13
+    },
+    {
+      "navn": "Granit  Thorvald Meyersgate",
+      "type": "Handel / Hjem og interiør",
+      "omsetning": 9,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 6
+    },
+    {
+      "navn": "Hunger",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 9,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 8
+    },
+    {
+      "navn": "Tropico Ans",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 8,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 17
+    },
+    {
+      "navn": "7-Eleven Thorvald Meyers Gate",
+      "type": "Handel / Mat og drikke",
+      "omsetning": 7,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 13
+    },
+    {
+      "navn": "Stockfleths Schous Plass",
+      "type": "Mat og opplevelser / Bakeri og kafé",
+      "omsetning": 6,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 14
+    },
+    {
+      "navn": "Sangam Da",
+      "type": "Mat og opplevelser / Pub og bar",
+      "omsetning": 6,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 19
+    },
+    {
+      "navn": "Røtter Grünerløkka",
+      "type": "Handel / Mat og drikke",
+      "omsetning": 6,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 6
+    },
+    {
+      "navn": "O'connors",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 5,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 8
+    },
+    {
+      "navn": "Palazzo Pizzeria AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 5,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 7
+    },
+    {
+      "navn": "Sirin Restaurant AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 5,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 0
+    },
+    {
+      "navn": "Happy Time Oslo AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 4,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 6
+    },
+    {
+      "navn": "Miss Gin",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 4,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 10
+    },
+    {
+      "navn": "Texas Grill Og Pizza Da",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 4,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 5
+    },
+    {
+      "navn": "Emil Flaten AS",
+      "type": "Handel / Hjem og interiør",
+      "omsetning": 3,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 5
+    },
+    {
+      "navn": "Ny York Vintage & 2nd Hand",
+      "type": "Handel / Klesbutikker",
+      "omsetning": 2,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 8
+    },
+    {
+      "navn": "Smash By Ghost Town AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 2,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 7
+    },
+    {
+      "navn": "Dogman Butikker AS Avd Grünerløkka",
+      "type": "Handel / Annen handel",
+      "omsetning": 2,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 5
+    },
+    {
+      "navn": "Signature Nails & Spa AS",
+      "type": "Tjenester / Skjønnhet og velvære",
+      "omsetning": 2,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 3
+    },
+    {
+      "navn": "Thai City Sata Wanthaphirom",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 2,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 2
+    },
+    {
+      "navn": "Isabella Melike Ates",
+      "type": "Mat og opplevelser / Bakeri og kafé",
+      "omsetning": 2,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 2
+    },
+    {
+      "navn": "Oslo Sy Og Servicesenter Ans",
+      "type": "Handel / Hjem og interiør",
+      "omsetning": 2,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 4
+    },
+    {
+      "navn": "Ohk Grunerløkka AS",
+      "type": "Tjenester / Skjønnhet og velvære",
+      "omsetning": 1,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 3
+    },
+    {
+      "navn": "Retrolykke AS",
+      "type": "Handel / Hjem og interiør",
+      "omsetning": 1,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 4
+    },
+    {
+      "navn": "Werken Tattoo & Art Gallery AS",
+      "type": "Tjenester / Andre tjenester",
+      "omsetning": 0.98,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 2
+    },
+    {
+      "navn": "Maanesten AS Avd Grünerløkka",
+      "type": "Handel / Annen handel",
+      "omsetning": 0.89,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 0
+    },
+    {
+      "navn": "Smoothie Xchange Thorvald Meyers Gate",
+      "type": "Mat og opplevelser / Barer",
+      "omsetning": 0.84,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 10
+    },
+    {
+      "navn": "Nilsen Ekata",
+      "type": "Handel / Hjem og interiør",
+      "omsetning": 0.79,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 1
+    },
+    {
+      "navn": "Wining AS",
+      "type": "Mat og opplevelser / Pub og bar",
+      "omsetning": 0.53,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 0
+    },
+    {
+      "navn": "Dp Grünerløkka",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 0.5,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 0
+    },
+    {
+      "navn": "Fogg Gildeskål AS",
+      "type": "Handel / Klesbutikker",
+      "omsetning": 0.45,
+      "adresse": "Thorvald Meyers Gate, Nedre",
+      "ansatte": 0
+    },
+    {
+      "navn": "Fitness 24 Seven Markveien Senter",
+      "type": "Tjenester / Treningssentre",
+      "omsetning": 36,
+      "adresse": "ØSTRE AKER VEI 17",
+      "ansatte": 12
+    },
+    {
+      "navn": "Boots Apotek Grünerløkka",
+      "type": "Handel / Annen handel",
+      "omsetning": 20,
+      "adresse": "SOFIENBERGGATA 6",
+      "ansatte": 8
+    },
+    {
+      "navn": "Illegal Burger Ryes Plass AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 9,
+      "adresse": "OLAF RYES PLASS 4 A",
+      "ansatte": 70
+    },
+    {
+      "navn": "Fretex Miljø Butikk Grunerløkka Oslo",
+      "type": "Handel / Klesbutikker",
+      "omsetning": 6,
+      "adresse": "OLAF RYES PLASS 3",
+      "ansatte": 11
+    },
+    {
+      "navn": "Roma Pizzeria Oslo",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 5,
+      "adresse": "SOFIENBERGGATA 6",
+      "ansatte": 5
+    },
+    {
+      "navn": "Hvice AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 4,
+      "adresse": "OLAF RYES PLASS 3 A",
+      "ansatte": 5
+    },
+    {
+      "navn": "Fontanas Kjøkken Markveien Senter",
+      "type": "Handel / Hjem og interiør",
+      "omsetning": 3,
+      "adresse": "MARKVEIEN 35 A",
+      "ansatte": 4
+    },
+    {
+      "navn": "Tint",
+      "type": "Handel / Klesbutikker",
+      "omsetning": 3,
+      "adresse": "SOFIENBERGGATA 6",
+      "ansatte": 3
+    },
+    {
+      "navn": "M35 Collective AS",
+      "type": "Handel / Annen handel",
+      "omsetning": 3,
+      "adresse": "MARKVEIEN 35 A",
+      "ansatte": 3
+    },
+    {
+      "navn": "Ark Grünerløkka",
+      "type": "Handel / Sport og fritid",
+      "omsetning": 21,
+      "adresse": "THORVALD MEYERS GATE 55",
+      "ansatte": 13
+    },
+    {
+      "navn": "Smæg AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 14,
+      "adresse": "AKERSHUSSTRANDA 25",
+      "ansatte": 13
+    },
+    {
+      "navn": "Skaal Matbar AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 14,
+      "adresse": "OLAF RYES PLASS 12",
+      "ansatte": 33
+    },
+    {
+      "navn": "7-Eleven Grunerløkka",
+      "type": "Handel / Mat og drikke",
+      "omsetning": 12,
+      "adresse": "THORVALD MEYERS GATE 42",
+      "ansatte": 19
+    },
+    {
+      "navn": "Kaffebrenneriet Thv Meyers Gate",
+      "type": "Mat og opplevelser / Bakeri og kafé",
+      "omsetning": 8,
+      "adresse": "THORVALD MEYERS GATE 55",
+      "ansatte": 10
+    },
+    {
+      "navn": "Vila Grünerløkka",
+      "type": "Handel / Klesbutikker",
+      "omsetning": 6,
+      "adresse": "THORVALD MEYERS GATE 42 B",
+      "ansatte": 5
+    },
+    {
+      "navn": "Digg Pizza Grunerløkka",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 4,
+      "adresse": "THORVALD MEYERS GATE 40 A",
+      "ansatte": 0
+    },
+    {
+      "navn": "Floyd Frünerløkka",
+      "type": "Handel / Klesbutikker",
+      "omsetning": 1,
+      "adresse": "THORVALD MEYERS GATE 53",
+      "ansatte": 0
+    },
+    {
+      "navn": "Smoothie Xchange Thorvald Meyers Gate",
+      "type": "Mat og opplevelser / Barer",
+      "omsetning": 0.84,
+      "adresse": "THORVALD MEYERS GATE 44",
+      "ansatte": 10
+    },
+    {
+      "navn": "Vinmonopolet Nordregate Oslo",
+      "type": "Handel / Mat og drikke",
+      "omsetning": 73,
+      "adresse": "NORDRE GATE 16",
+      "ansatte": 13
+    },
+    {
+      "navn": "Kjell & Co Norway No031 Markveien",
+      "type": "Handel / Annen handel",
+      "omsetning": 9,
+      "adresse": "MARKVEIEN 51 A",
+      "ansatte": 6
+    },
+    {
+      "navn": "Espresso House Nordregate 801",
+      "type": "Mat og opplevelser / Bakeri og kafé",
+      "omsetning": 8,
+      "adresse": "NORDRE GATE 18",
+      "ansatte": 13
+    },
+    {
+      "navn": "Pelspels Markveien",
+      "type": "Tjenester / Skjønnhet og velvære",
+      "omsetning": 4,
+      "adresse": "MARKVEIEN 51 C",
+      "ansatte": 5
+    },
+    {
+      "navn": "Sjøden Gudrun AS",
+      "type": "Handel / Klesbutikker",
+      "omsetning": 4,
+      "adresse": "MARKVEIEN 51 A",
+      "ansatte": 0
+    },
+    {
+      "navn": "Sharika AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 37,
+      "adresse": "LEIRFALLSGATA 6",
+      "ansatte": 42
+    },
+    {
+      "navn": "Sabrura Markveien AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 14,
+      "adresse": "OLAV TRYGGVASONS GATE 40",
+      "ansatte": 19
+    },
+    {
+      "navn": "Flamme Burger Grunerløkka AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 13,
+      "adresse": "THORVALD MEYERS GATE 87",
+      "ansatte": 12
+    },
+    {
+      "navn": "Territoriet AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 12,
+      "adresse": "MARKVEIEN 58",
+      "ansatte": 10
+    },
+    {
+      "navn": "Kaffebrenneriet Markveien",
+      "type": "Mat og opplevelser / Bakeri og kafé",
+      "omsetning": 12,
+      "adresse": "MARKVEIEN 60 A",
+      "ansatte": 15
+    },
+    {
+      "navn": "Markveien Mat & Vinhus",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 11,
+      "adresse": "TORVBAKKGATA 12",
+      "ansatte": 23
+    },
+    {
+      "navn": "Hunting Lodge AS",
+      "type": "Handel / Annen handel",
+      "omsetning": 9,
+      "adresse": "MARKVEIEN 58",
+      "ansatte": 5
+    },
+    {
+      "navn": "New Anarkali",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 8,
+      "adresse": "THORVALD MEYERS GATE 76",
+      "ansatte": 10
+    },
+    {
+      "navn": "Benedikte Vippeextensions AS",
+      "type": "Tjenester / Skjønnhet og velvære",
+      "omsetning": 2,
+      "adresse": "SØNDRE GATE 2",
+      "ansatte": 4
+    },
+    {
+      "navn": "Grød Avd Markveien 67",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 2,
+      "adresse": "MARKVEIEN 60",
+      "ansatte": 11
+    },
+    {
+      "navn": "Papaya Butikkdrift AS Avd Leirfalls",
+      "type": "Handel / Annen handel",
+      "omsetning": 1,
+      "adresse": "LEIRFALLSGATA 6",
+      "ansatte": 24
+    },
+    {
+      "navn": "Kondracki AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "omsetning": 1,
+      "adresse": "MARKVEIEN 59 A",
+      "ansatte": 7
+    }
+  ]
+}

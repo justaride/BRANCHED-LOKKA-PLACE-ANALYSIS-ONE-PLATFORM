@@ -1,0 +1,32 @@
+[
+  {
+    "kategori": "Mat og opplevelser",
+    "underkategori": "Restaurant",
+    "antall": 1
+  },
+  {
+    "kategori": "Mat og opplevelser",
+    "underkategori": "Bakeri og kafé",
+    "antall": 1
+  },
+  {
+    "kategori": "Handel",
+    "underkategori": "Klesbutikker",
+    "antall": 1
+  },
+  {
+    "kategori": "Handel",
+    "underkategori": "Mat og drikke",
+    "antall": 1
+  },
+  {
+    "kategori": "Handel",
+    "underkategori": "Annen handel",
+    "antall": 1
+  },
+  {
+    "kategori": "Tjenester",
+    "underkategori": "Skjønnhet og velvære",
+    "antall": 1
+  }
+]

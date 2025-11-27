@@ -1,0 +1,95 @@
+{
+  "id": "midt-i-markveien",
+  "title": "Midt i Markveien v: Polet",
+  "analysisType": "location-specific",
+  "period": {
+    "type": "multi-year",
+    "startYear": 2022,
+    "endYear": 2025,
+    "startDate": "2022-10-01",
+    "endDate": "2025-09-30",
+    "label": "01.10.2022 – 30.09.2025"
+  },
+  "area": {
+    "id": "midt-i-markveien",
+    "name": "Midt i Markveien v: Polet",
+    "displayName": "Midt i Markveien v: Polet område",
+    "type": "micro-area",
+    "areaSize": "0.004 km²",
+    "coordinates": {
+      "lat": 59.9215,
+      "lng": 10.7545
+    },
+    "description": "Komplett stedsanalyse for Midt i Markveien med demografi, besøkende, virksomheter og omsetning"
+  },
+  "description": "Omfattende markedsanalyse for Midt i Markveien v: Polet med fokus på besøksmønstre, demografisk profil, konseptmiks og korthandel. Området har 8,243 daglige besøk, dominert av Vinmonopolet Nordregate Oslo (74.65% markedsandel), med total korthandel på NOK 7,5 milliarder over perioden.",
+  "tags": [
+    "stedsanalyse",
+    "bevegelse",
+    "demografi",
+    "virksomheter",
+    "korthandel",
+    "konseptmiks",
+    "vinmonopolet"
+  ],
+  "dataSource": "Plaace.ai / Telia / BankAxept / Analysebutikken / SSB",
+  "metadata": {
+    "status": "publisert",
+    "version": "1.0",
+    "author": "Natural State",
+    "createdAt": "2025-11-25",
+    "updatedAt": "2025-11-25",
+    "heroImage": "/images/analyser/midt-i-markveien-map.png",
+    "sistOppdatert": "2025-11-25",
+    "notater": [
+      "Komplett stedsanalyse basert på data fra flere kilder over 3-års periode.",
+      "Området preges av svært høy besøkstetthet (64,003 per km²) til tross for liten størrelse (0.004 km²).",
+      "Vinmonopolet Nordregate Oslo dominerer med 74.65% markedsandel og NOK 73M omsetning.",
+      "Konsepttetthet på 1117/km² viser ekstremt tett virksomhetskonsentrasjon.",
+      "Negativ utvikling: -17% konsepttetthet, -5% omsetning, men stabil korthandel."
+    ]
+  },
+  "plaaceData": {
+    "datakilder": [
+      "Telia (mobildata)",
+      "BankAxept (korttransaksjoner)",
+      "Analysebutikken (virksomhetsdata)",
+      "SSB (demografi)",
+      "GEODATA"
+    ]
+  },
+  "highlights": [
+    {
+      "title": "Daglige Besøk",
+      "value": "8,243",
+      "description": "Gjennomsnittlig daglige besøk i området (64,003 per km²)"
+    },
+    {
+      "title": "Daglig Korthandel",
+      "value": "NOK 3M",
+      "description": "Total daglig korthandel, NOK 7.5 mrd. over perioden"
+    },
+    {
+      "title": "Dominerende Aktør",
+      "value": "Vinmonopolet",
+      "description": "74.65% markedsandel, NOK 73M omsetning årlig"
+    },
+    {
+      "title": "Total Omsetning",
+      "value": "NOK 98M",
+      "description": "Estimert årlig omsetning (2024), -5% endring"
+    }
+  ],
+  "visualizations": [
+    {
+      "type": "bar-chart",
+      "title": "Konseptmiks",
+      "description": "Fordeling på tvers av hovedkategorier"
+    },
+    {
+      "type": "table",
+      "title": "Virksomhetsoversikt",
+      "description": "Rangering etter omsetning med markedsandel og YoY-vekst"
+    }
+  ]
+}

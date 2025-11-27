@@ -10,7 +10,7 @@ interface Aktor {
   kommune: string;
   omsetning: number;
   omsetning_raw: string;
-  yoy_vekst: number;
+  yoy_vekst: number | null;
   ansatte: number;
   ansatte_raw: string;
   markedsandel: number;
@@ -307,13 +307,15 @@ export default function MultiAreaAktorOversikt({ areas, areaData }: MultiAreaAkt
                 </td>
                 <td className="px-4 py-4 md:px-6">
                   <span className={`font-medium ${
-                    actor.yoy_vekst > 0
-                      ? 'text-green-600'
-                      : actor.yoy_vekst < 0
-                        ? 'text-red-600'
-                        : 'text-gray-600'
+                    actor.yoy_vekst === null
+                      ? 'text-gray-600'
+                      : actor.yoy_vekst > 0
+                        ? 'text-green-600'
+                        : actor.yoy_vekst < 0
+                          ? 'text-red-600'
+                          : 'text-gray-600'
                   }`}>
-                    {actor.yoy_vekst > 0 ? '+' : ''}{actor.yoy_vekst}%
+                    {actor.yoy_vekst === null ? 'N/A' : `${actor.yoy_vekst > 0 ? '+' : ''}${actor.yoy_vekst}%`}
                   </span>
                 </td>
                 <td className="hidden px-4 py-4 text-gray-600 md:table-cell md:px-6">

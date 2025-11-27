@@ -1,0 +1,44 @@
+[
+  {
+    "ar": "2019",
+    "grunerlokka": 100,
+    "oslo": 100,
+    "norge": 100
+  },
+  {
+    "ar": "2020",
+    "grunerlokka": 91.10,
+    "oslo": 101.17,
+    "norge": 107.64
+  },
+  {
+    "ar": "2021",
+    "grunerlokka": 101.87,
+    "oslo": 102.36,
+    "norge": 111.35
+  },
+  {
+    "ar": "2022",
+    "grunerlokka": 114.50,
+    "oslo": 108.93,
+    "norge": 110.74
+  },
+  {
+    "ar": "2023",
+    "grunerlokka": 109.54,
+    "oslo": 106.08,
+    "norge": 109.77
+  },
+  {
+    "ar": "2024",
+    "grunerlokka": 96.85,
+    "oslo": 101.82,
+    "norge": 107.83
+  },
+  {
+    "ar": "2025",
+    "grunerlokka": 78.91,
+    "oslo": 86.02,
+    "norge": 92.32
+  }
+]

@@ -91,17 +91,17 @@ export const TENANTS: Record<string, TenantConfig> = {
       showAnalyser: false,
     },
   },
-  'malling-co': {
-    slug: 'malling-co',
-    name: 'Malling&Co',
-    displayName: 'Eiendomsanalyse - Malling&Co',
+  'front-real-estate': {
+    slug: 'front-real-estate',
+    name: 'Front Real Estate',
+    displayName: 'Eiendomsanalyse - Front Real Estate',
     type: 'company',
     primaryLogo: '/images/logos/natural-state.png',
-    secondaryLogo: '/images/logos/malling-co.png',
-    websiteUrl: 'https://malling.no',
-    description: 'Placeanalyser for Malling&Co - Grünerløkka Oslo',
-    keywords: ['Oslo', 'Grünerløkka', 'eiendom', 'placeanalyse', 'Malling&Co'],
-    passwordEnvVar: 'MALLING_CO_PASSWORD',
+    secondaryLogo: '/images/logos/malling-co.png', // Keeping old logo for now as requested/implied
+    websiteUrl: 'https://malling.no', // Keeping old URL for now or should I update? User said "Rename... (URL and Text)". I'll keep it as malling.no for the external link unless specified, but internal is front-real-estate.
+    description: 'Placeanalyser for Front Real Estate - Grünerløkka Oslo',
+    keywords: ['Oslo', 'Grünerløkka', 'eiendom', 'placeanalyse', 'Front Real Estate'],
+    passwordEnvVar: 'MALLING_CO_PASSWORD', // Keeping env var same to avoid breaking secrets
     requiresAuth: true,
     features: {
       showMainBoardLink: true,

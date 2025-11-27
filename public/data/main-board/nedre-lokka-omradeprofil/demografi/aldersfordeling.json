@@ -1,0 +1,78 @@
+{
+  "omrade": "Nedre Løkka",
+  "totalBefolkning": 1674,
+  "aldersfordeling": [
+    {
+      "aldersgruppe": "0-5",
+      "mann": 38,
+      "kvinne": 35,
+      "total": 73
+    },
+    {
+      "aldersgruppe": "6-12",
+      "mann": 31,
+      "kvinne": 31,
+      "total": 62
+    },
+    {
+      "aldersgruppe": "13-15",
+      "mann": 13,
+      "kvinne": 16,
+      "total": 29
+    },
+    {
+      "aldersgruppe": "16-18",
+      "mann": 13,
+      "kvinne": 14,
+      "total": 27
+    },
+    {
+      "aldersgruppe": "19-23",
+      "mann": 71,
+      "kvinne": 94,
+      "total": 165
+    },
+    {
+      "aldersgruppe": "23-34",
+      "mann": 338,
+      "kvinne": 329,
+      "total": 667
+    },
+    {
+      "aldersgruppe": "35-44",
+      "mann": 153,
+      "kvinne": 117,
+      "total": 270
+    },
+    {
+      "aldersgruppe": "45-54",
+      "mann": 95,
+      "kvinne": 76,
+      "total": 171
+    },
+    {
+      "aldersgruppe": "55-64",
+      "mann": 65,
+      "kvinne": 49,
+      "total": 114
+    },
+    {
+      "aldersgruppe": "65-74",
+      "mann": 30,
+      "kvinne": 31,
+      "total": 61
+    },
+    {
+      "aldersgruppe": "75-84",
+      "mann": 15,
+      "kvinne": 16,
+      "total": 31
+    },
+    {
+      "aldersgruppe": "85+",
+      "mann": 1,
+      "kvinne": 3,
+      "total": 4
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "generated": "2025-11-25",
+    "source": "Plaace.ai Aktørkartlegging - Olaf Ryes PlassV:Boots",
+    "totalActors": 9,
+    "totalRevenue": 89,
+    "totalEmployees": 121,
+    "totalCategories": 3
+  },
+  "actors": [
+    {
+      "rank": "#1",
+      "navn": "Fitness 24 Seven Markveien Senter",
+      "type": "Tjenester / Treningssentre",
+      "adresse": "ØSTRE AKER VEI 17",
+      "kommune": "Oslo",
+      "omsetning": 36,
+      "omsetning_raw": "36 mill.",
+      "yoy_vekst": 12,
+      "ansatte": 12,
+      "ansatte_raw": "12",
+      "markedsandel": 40.08
+    },
+    {
+      "rank": "#2",
+      "navn": "Boots Apotek Grünerløkka",
+      "type": "Handel / Annen handel",
+      "adresse": "SOFIENBERGGATA 6",
+      "kommune": "Oslo",
+      "omsetning": 20,
+      "omsetning_raw": "20 mill.",
+      "yoy_vekst": -10,
+      "ansatte": 8,
+      "ansatte_raw": "8",
+      "markedsandel": 22.15
+    },
+    {
+      "rank": "#3",
+      "navn": "Illegal Burger Ryes Plass AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "OLAF RYES PLASS 4 A",
+      "kommune": "Oslo",
+      "omsetning": 9,
+      "omsetning_raw": "9 mill.",
+      "yoy_vekst": 0,
+      "ansatte": 70,
+      "ansatte_raw": "70",
+      "markedsandel": 10.27
+    },
+    {
+      "rank": "#4",
+      "navn": "Fretex Miljø Butikk Grunerløkka Oslo",
+      "type": "Handel / Klesbutikker",
+      "adresse": "OLAF RYES PLASS 3",
+      "kommune": "Oslo",
+      "omsetning": 6,
+      "omsetning_raw": "6 mill.",
+      "yoy_vekst": -19,
+      "ansatte": 11,
+      "ansatte_raw": "11",
+      "markedsandel": 7.13
+    },
+    {
+      "rank": "#5",
+      "navn": "Roma Pizzeria Oslo",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "SOFIENBERGGATA 6",
+      "kommune": "Oslo",
+      "omsetning": 5,
+      "omsetning_raw": "5 mill.",
+      "yoy_vekst": 5,
+      "ansatte": 5,
+      "ansatte_raw": "5",
+      "markedsandel": 5.54
+    },
+    {
+      "rank": "#6",
+      "navn": "Hvice AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "OLAF RYES PLASS 3 A",
+      "kommune": "Oslo",
+      "omsetning": 4,
+      "omsetning_raw": "4 mill.",
+      "yoy_vekst": 22,
+      "ansatte": 5,
+      "ansatte_raw": "5",
+      "markedsandel": 4.21
+    },
+    {
+      "rank": "#7",
+      "navn": "Fontanas Kjøkken Markveien Senter",
+      "type": "Handel / Hjem og interiør",
+      "adresse": "MARKVEIEN 35 A",
+      "kommune": "Oslo",
+      "omsetning": 3,
+      "omsetning_raw": "3 mill.",
+      "yoy_vekst": -25,
+      "ansatte": 4,
+      "ansatte_raw": "4",
+      "markedsandel": 3.12
+    },
+    {
+      "rank": "#8",
+      "navn": "Tint",
+      "type": "Handel / Klesbutikker",
+      "adresse": "SOFIENBERGGATA 6",
+      "kommune": "Oslo",
+      "omsetning": 3,
+      "omsetning_raw": "3 mill.",
+      "yoy_vekst": -5,
+      "ansatte": 3,
+      "ansatte_raw": "3",
+      "markedsandel": 3.61
+    },
+    {
+      "rank": "#9",
+      "navn": "M35 Collective AS",
+      "type": "Handel / Annen handel",
+      "adresse": "MARKVEIEN 35 A",
+      "kommune": "Oslo",
+      "omsetning": 3,
+      "omsetning_raw": "3 mill.",
+      "yoy_vekst": -25,
+      "ansatte": 3,
+      "ansatte_raw": "3",
+      "markedsandel": 3.89
+    }
+  ],
+  "categoryStats": {
+    "Tjenester": {
+      "count": 1,
+      "omsetning": 36,
+      "ansatte": 12,
+      "avgRevenue": 36.0
+    },
+    "Handel": {
+      "count": 5,
+      "omsetning": 35,
+      "ansatte": 29,
+      "avgRevenue": 7.0
+    },
+    "Mat og opplevelser": {
+      "count": 3,
+      "omsetning": 18,
+      "ansatte": 80,
+      "avgRevenue": 6.0
+    }
+  }
+}

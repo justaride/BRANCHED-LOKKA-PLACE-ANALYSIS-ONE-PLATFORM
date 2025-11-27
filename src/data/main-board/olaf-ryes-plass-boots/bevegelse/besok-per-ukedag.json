@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "source": "Besøk per ukedag i tidsperioden (daglig gjennomsnitt) BEVEGELSE.csv",
+    "rows": 7,
+    "columns": [
+      "Category",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025",
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025",
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025"
+    ]
+  },
+  "data": [
+    {
+      "Category": "man.",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 1515,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 436,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 1181
+    },
+    {
+      "Category": "tir.",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 1624,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 454,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 1203
+    },
+    {
+      "Category": "ons.",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 1742,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 471,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 1217
+    },
+    {
+      "Category": "tor.",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 1808,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 469,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 1219
+    },
+    {
+      "Category": "fre.",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 2170,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 504,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 1264
+    },
+    {
+      "Category": "lør.",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 2639,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 574,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 1274
+    },
+    {
+      "Category": "søn.",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 1847,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 395,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 1145
+    }
+  ]
+}

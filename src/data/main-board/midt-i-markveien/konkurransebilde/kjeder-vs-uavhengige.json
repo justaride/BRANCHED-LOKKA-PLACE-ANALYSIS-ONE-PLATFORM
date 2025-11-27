@@ -1,0 +1,299 @@
+[
+  {
+    "ar": "2015",
+    "bakeriOgKafe": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "restaurant": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "klesbutikker": {
+      "uavhengig": 7.53,
+      "kjeder": 0
+    },
+    "matOgDrikke": {
+      "uavhengig": 1.79,
+      "kjeder": 90.68
+    },
+    "annenHandel": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "skjonnhetOgVelvare": {
+      "uavhengig": null,
+      "kjeder": null
+    }
+  },
+  {
+    "ar": "2016",
+    "bakeriOgKafe": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "restaurant": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "klesbutikker": {
+      "uavhengig": 9.54,
+      "kjeder": 0
+    },
+    "matOgDrikke": {
+      "uavhengig": 0,
+      "kjeder": 90.46
+    },
+    "annenHandel": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "skjonnhetOgVelvare": {
+      "uavhengig": null,
+      "kjeder": null
+    }
+  },
+  {
+    "ar": "2017",
+    "bakeriOgKafe": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "restaurant": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "klesbutikker": {
+      "uavhengig": 53.24,
+      "kjeder": 0
+    },
+    "matOgDrikke": {
+      "uavhengig": 0,
+      "kjeder": 46.76
+    },
+    "annenHandel": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "skjonnhetOgVelvare": {
+      "uavhengig": null,
+      "kjeder": null
+    }
+  },
+  {
+    "ar": "2018",
+    "bakeriOgKafe": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "restaurant": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "klesbutikker": {
+      "uavhengig": 12.90,
+      "kjeder": 0
+    },
+    "matOgDrikke": {
+      "uavhengig": 0,
+      "kjeder": 87.10
+    },
+    "annenHandel": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "skjonnhetOgVelvare": {
+      "uavhengig": null,
+      "kjeder": null
+    }
+  },
+  {
+    "ar": "2019",
+    "bakeriOgKafe": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "restaurant": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "klesbutikker": {
+      "uavhengig": 10.91,
+      "kjeder": 0
+    },
+    "matOgDrikke": {
+      "uavhengig": 0,
+      "kjeder": 89.09
+    },
+    "annenHandel": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "skjonnhetOgVelvare": {
+      "uavhengig": null,
+      "kjeder": null
+    }
+  },
+  {
+    "ar": "2020",
+    "bakeriOgKafe": {
+      "uavhengig": 0,
+      "kjeder": 2.45
+    },
+    "restaurant": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "klesbutikker": {
+      "uavhengig": 7.47,
+      "kjeder": 0
+    },
+    "matOgDrikke": {
+      "uavhengig": 0,
+      "kjeder": 86.40
+    },
+    "annenHandel": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "skjonnhetOgVelvare": {
+      "uavhengig": 0,
+      "kjeder": 3.69
+    }
+  },
+  {
+    "ar": "2021",
+    "bakeriOgKafe": {
+      "uavhengig": 0,
+      "kjeder": 3.61
+    },
+    "restaurant": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "klesbutikker": {
+      "uavhengig": 7.03,
+      "kjeder": 0
+    },
+    "matOgDrikke": {
+      "uavhengig": 0,
+      "kjeder": 86.36
+    },
+    "annenHandel": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "skjonnhetOgVelvare": {
+      "uavhengig": 0,
+      "kjeder": 3.00
+    }
+  },
+  {
+    "ar": "2022",
+    "bakeriOgKafe": {
+      "uavhengig": 0,
+      "kjeder": 6.35
+    },
+    "restaurant": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "klesbutikker": {
+      "uavhengig": 7.37,
+      "kjeder": 0
+    },
+    "matOgDrikke": {
+      "uavhengig": 0,
+      "kjeder": 78.56
+    },
+    "annenHandel": {
+      "uavhengig": 0,
+      "kjeder": 2.28
+    },
+    "skjonnhetOgVelvare": {
+      "uavhengig": 0,
+      "kjeder": 5.44
+    }
+  },
+  {
+    "ar": "2023",
+    "bakeriOgKafe": {
+      "uavhengig": 0,
+      "kjeder": 6.83
+    },
+    "restaurant": {
+      "uavhengig": 3.93,
+      "kjeder": 0
+    },
+    "klesbutikker": {
+      "uavhengig": 3.44,
+      "kjeder": 0
+    },
+    "matOgDrikke": {
+      "uavhengig": 0,
+      "kjeder": 74.69
+    },
+    "annenHandel": {
+      "uavhengig": 0,
+      "kjeder": 7.94
+    },
+    "skjonnhetOgVelvare": {
+      "uavhengig": 0,
+      "kjeder": 3.18
+    }
+  },
+  {
+    "ar": "2024",
+    "bakeriOgKafe": {
+      "uavhengig": 0,
+      "kjeder": 8.11
+    },
+    "restaurant": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "klesbutikker": {
+      "uavhengig": 4.14,
+      "kjeder": 0
+    },
+    "matOgDrikke": {
+      "uavhengig": 0,
+      "kjeder": 74.65
+    },
+    "annenHandel": {
+      "uavhengig": 0,
+      "kjeder": 9.06
+    },
+    "skjonnhetOgVelvare": {
+      "uavhengig": 0,
+      "kjeder": 4.04
+    }
+  },
+  {
+    "ar": "2025",
+    "bakeriOgKafe": {
+      "uavhengig": 0,
+      "kjeder": 6.14
+    },
+    "restaurant": {
+      "uavhengig": null,
+      "kjeder": null
+    },
+    "klesbutikker": {
+      "uavhengig": 15.53,
+      "kjeder": 0
+    },
+    "matOgDrikke": {
+      "uavhengig": 0,
+      "kjeder": 63.98
+    },
+    "annenHandel": {
+      "uavhengig": 0,
+      "kjeder": 9.75
+    },
+    "skjonnhetOgVelvare": {
+      "uavhengig": 0,
+      "kjeder": 4.61
+    }
+  }
+]

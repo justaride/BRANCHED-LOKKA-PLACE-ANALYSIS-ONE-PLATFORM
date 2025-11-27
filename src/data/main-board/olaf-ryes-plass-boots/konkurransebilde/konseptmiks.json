@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "source": "Konseptmiks KONKURRANSEBILDET.csv",
+    "rows": 5,
+    "columns": [
+      "Bydelnavn",
+      "Kategori (Nivå 1)",
+      "Kategori (Nivå 2)",
+      "No."
+    ]
+  },
+  "data": [
+    {
+      "Bydelnavn": "Sofienberggata 6 (Område 0.01 km²)",
+      "Kategori (Nivå 1)": "Mat og opplevelser",
+      "Kategori (Nivå 2)": "Restaurant",
+      "No.": 3
+    },
+    {
+      "Bydelnavn": "Sofienberggata 6 (Område 0.01 km²)",
+      "Kategori (Nivå 1)": "Handel",
+      "Kategori (Nivå 2)": "Klesbutikker",
+      "No.": 2
+    },
+    {
+      "Bydelnavn": "Sofienberggata 6 (Område 0.01 km²)",
+      "Kategori (Nivå 1)": "Handel",
+      "Kategori (Nivå 2)": "Annen handel",
+      "No.": 2
+    },
+    {
+      "Bydelnavn": "Sofienberggata 6 (Område 0.01 km²)",
+      "Kategori (Nivå 1)": "Handel",
+      "Kategori (Nivå 2)": "Hjem og interiør",
+      "No.": 1
+    },
+    {
+      "Bydelnavn": "Sofienberggata 6 (Område 0.01 km²)",
+      "Kategori (Nivå 1)": "Tjenester",
+      "Kategori (Nivå 2)": "Treningssentre",
+      "No.": 1
+    }
+  ]
+}

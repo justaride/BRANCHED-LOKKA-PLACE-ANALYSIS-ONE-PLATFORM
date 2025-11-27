@@ -1,0 +1,92 @@
+[
+  {
+    "ar": "2020",
+    "grunerlokka": {
+      "omsetningMillioner": 894.17,
+      "vekstProsent": -6.47
+    },
+    "oslo": {
+      "omsetningMillioner": 61210.18,
+      "vekstProsent": 1.71
+    },
+    "norge": {
+      "omsetningMillioner": 476752.31,
+      "vekstProsent": 7.64
+    }
+  },
+  {
+    "ar": "2021",
+    "grunerlokka": {
+      "omsetningMillioner": 980.37,
+      "vekstProsent": 9.64
+    },
+    "oslo": {
+      "omsetningMillioner": 61339.97,
+      "vekstProsent": 0.21
+    },
+    "norge": {
+      "omsetningMillioner": 494134.09,
+      "vekstProsent": 3.65
+    }
+  },
+  {
+    "ar": "2022",
+    "grunerlokka": {
+      "omsetningMillioner": 1107.43,
+      "vekstProsent": 12.96
+    },
+    "oslo": {
+      "omsetningMillioner": 65938.88,
+      "vekstProsent": 7.5
+    },
+    "norge": {
+      "omsetningMillioner": 492969.82,
+      "vekstProsent": -0.24
+    }
+  },
+  {
+    "ar": "2023",
+    "grunerlokka": {
+      "omsetningMillioner": 1062.55,
+      "vekstProsent": -4.05
+    },
+    "oslo": {
+      "omsetningMillioner": 64452.96,
+      "vekstProsent": -2.25
+    },
+    "norge": {
+      "omsetningMillioner": 490016.45,
+      "vekstProsent": -0.6
+    }
+  },
+  {
+    "ar": "2024",
+    "grunerlokka": {
+      "omsetningMillioner": 936.57,
+      "vekstProsent": -11.86
+    },
+    "oslo": {
+      "omsetningMillioner": 61598.00,
+      "vekstProsent": -4.43
+    },
+    "norge": {
+      "omsetningMillioner": 479116.67,
+      "vekstProsent": -2.22
+    }
+  },
+  {
+    "ar": "2025",
+    "grunerlokka": {
+      "omsetningMillioner": 866.37,
+      "vekstProsent": -7.5
+    },
+    "oslo": {
+      "omsetningMillioner": 60055.09,
+      "vekstProsent": -2.5
+    },
+    "norge": {
+      "omsetningMillioner": 474066.28,
+      "vekstProsent": -1.05
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Eneboliger",
+    "grunerlokka": 5939.13,
+    "bjorvika": 7202.26,
+    "sentrum": 16708.17,
+    "majorstuen": 8781.51
+  },
+  {
+    "category": "Småhus",
+    "grunerlokka": 1992.12,
+    "bjorvika": 2706.71,
+    "sentrum": 6319.67,
+    "majorstuen": 2669.5
+  },
+  {
+    "category": "Leilighetsbygg",
+    "grunerlokka": 1394.36,
+    "bjorvika": 1343.19,
+    "sentrum": 3753.13,
+    "majorstuen": 2793.76
+  },
+  {
+    "category": "Næringsbygg",
+    "grunerlokka": 1308.53,
+    "bjorvika": 1729.47,
+    "sentrum": 4016.51,
+    "majorstuen": 1715.36
+  },
+  {
+    "category": "Andre bygg",
+    "grunerlokka": 47.66,
+    "bjorvika": 47.5,
+    "sentrum": 121.34,
+    "majorstuen": 83.26
+  },
+  {
+    "category": "Hytter",
+    "grunerlokka": 5316.34,
+    "bjorvika": 10645.41,
+    "sentrum": 22741.37,
+    "majorstuen": 11368.21
+  }
+]

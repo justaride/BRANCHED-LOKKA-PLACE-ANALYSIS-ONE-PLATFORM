@@ -1,0 +1,97 @@
+{
+  "id": "olaf-ryes-plass-7eleven",
+  "title": "Olaf Ryes Plass V:7Eleven",
+  "analysisType": "location-specific",
+  "period": {
+    "type": "multi-year",
+    "startYear": 2022,
+    "endYear": 2025,
+    "startDate": "2022-10-01",
+    "endDate": "2025-09-30",
+    "label": "01.10.2022 – 30.09.2025"
+  },
+  "area": {
+    "id": "olaf-ryes-plass-7eleven",
+    "name": "Olaf Ryes Plass V:7Eleven",
+    "displayName": "Olaf Ryes Plass V:7Eleven område",
+    "type": "micro-area",
+    "areaSize": "0.005 km²",
+    "coordinates": {
+      "lat": 59.922,
+      "lng": 10.758
+    },
+    "description": "Komplett stedsanalyse for Olaf Ryes Plass V:7Eleven med demografi, besøkende, virksomheter og omsetning"
+  },
+  "description": "Omfattende markedsanalyse for Olaf Ryes Plass V:7Eleven med fokus på besøksmønstre, demografisk profil, konseptmiks og korthandel. Området har høy daglig besøkstrafikk, dominert av Ark Grünerløkka (26.11% markedsandel), fulgt av restaurantvirksomhet og 7-Eleven med eksepsjonell vekst på 1057% YoY. Total årlig omsetning på NOK 80.84 millioner.",
+  "tags": [
+    "stedsanalyse",
+    "bevegelse",
+    "demografi",
+    "virksomheter",
+    "korthandel",
+    "konseptmiks",
+    "7-eleven",
+    "grünerløkka"
+  ],
+  "dataSource": "Plaace.ai / Telia / BankAxept / Analysebutikken / SSB",
+  "metadata": {
+    "status": "publisert",
+    "version": "1.0",
+    "author": "Natural State",
+    "createdAt": "2025-11-25",
+    "updatedAt": "2025-11-25",
+    "heroImage": "/images/analyser/olaf-ryes-plass-7eleven-map.png",
+    "sistOppdatert": "2025-11-25",
+    "notater": [
+      "Komplett stedsanalyse basert på data fra flere kilder over 3-års periode.",
+      "Området ligger rundt Olaf Ryes Plass og Thorvald Meyers Gate med høy fotgjengertrafikk.",
+      "Ark Grünerløkka leder med 26.11% markedsandel og NOK 21M omsetning.",
+      "7-Eleven viser ekstraordinær vekst med 1057% YoY, NOK 12M omsetning.",
+      "Diversifisert konseptmiks: 5 restauranter/barer, 3 handelsvirksomheter, totalt 9 aktører.",
+      "Mat og opplevelser dominerer med NOK 40.84M (50.5% av total omsetning)."
+    ]
+  },
+  "plaaceData": {
+    "datakilder": [
+      "Telia (mobildata)",
+      "BankAxept (korttransaksjoner)",
+      "Analysebutikken (virksomhetsdata)",
+      "SSB (demografi)",
+      "GEODATA"
+    ]
+  },
+  "highlights": [
+    {
+      "title": "Daglige Besøk",
+      "value": "12,500",
+      "description": "Estimert gjennomsnittlig daglige besøk i området"
+    },
+    {
+      "title": "Daglig Korthandel",
+      "value": "NOK 2.5M",
+      "description": "Estimert daglig korthandel"
+    },
+    {
+      "title": "Dominerende Aktør",
+      "value": "Ark Grünerløkka",
+      "description": "26.11% markedsandel, NOK 21M omsetning årlig"
+    },
+    {
+      "title": "Total Omsetning",
+      "value": "NOK 80.84M",
+      "description": "Estimert årlig omsetning (2024) for 9 aktører"
+    }
+  ],
+  "visualizations": [
+    {
+      "type": "bar-chart",
+      "title": "Konseptmiks",
+      "description": "Fordeling på tvers av hovedkategorier"
+    },
+    {
+      "type": "table",
+      "title": "Virksomhetsoversikt",
+      "description": "Rangering etter omsetning med markedsandel og YoY-vekst"
+    }
+  ]
+}

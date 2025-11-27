@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "source": "Utvikling per år KONKURRANSEBILDET.csv",
+    "rows": 10,
+    "columns": [
+      "Category",
+      "Mat og opplevelser",
+      "Handel",
+      "Tjenester"
+    ]
+  },
+  "data": [
+    {
+      "Category": 2015,
+      "Mat og opplevelser": 3.145,
+      "Handel": 28.249000000000002,
+      "Tjenester": null
+    },
+    {
+      "Category": 2016,
+      "Mat og opplevelser": 3.812,
+      "Handel": 23.410999999999998,
+      "Tjenester": null
+    },
+    {
+      "Category": 2017,
+      "Mat og opplevelser": 4.929,
+      "Handel": 9.538,
+      "Tjenester": 29.69
+    },
+    {
+      "Category": 2018,
+      "Mat og opplevelser": 3.811,
+      "Handel": 26.406999999999996,
+      "Tjenester": 27.349
+    },
+    {
+      "Category": 2019,
+      "Mat og opplevelser": 13.976,
+      "Handel": 29.091,
+      "Tjenester": 30.339
+    },
+    {
+      "Category": 2020,
+      "Mat og opplevelser": 14.966,
+      "Handel": 30.555,
+      "Tjenester": 26.218
+    },
+    {
+      "Category": 2021,
+      "Mat og opplevelser": 14.945,
+      "Handel": 37.507,
+      "Tjenester": 11.672
+    },
+    {
+      "Category": 2022,
+      "Mat og opplevelser": 15.376000000000001,
+      "Handel": 44.835,
+      "Tjenester": 25.944
+    },
+    {
+      "Category": 2023,
+      "Mat og opplevelser": 17.084,
+      "Handel": 41.863,
+      "Tjenester": 32.144
+    },
+    {
+      "Category": 2024,
+      "Mat og opplevelser": 18.025000000000002,
+      "Handel": 35.938,
+      "Tjenester": 36.091
+    }
+  ]
+}

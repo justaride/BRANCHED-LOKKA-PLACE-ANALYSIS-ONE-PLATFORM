@@ -1,0 +1,32 @@
+[
+  {
+    "category": "2023",
+    "grunerlokka_besokende": 57842,
+    "bjorvika_besokende": 61850,
+    "sentrum_besokende": 57335,
+    "majorstuen_besokende": 57659,
+    "grunerlokka_paJobb": 20082,
+    "bjorvika_paJobb": 16904,
+    "sentrum_paJobb": 27679,
+    "majorstuen_paJobb": 21150,
+    "grunerlokka_hjemme": 39509,
+    "bjorvika_hjemme": 6490,
+    "sentrum_hjemme": 4704,
+    "majorstuen_hjemme": 37146
+  },
+  {
+    "category": "2024",
+    "grunerlokka_besokende": 54281,
+    "bjorvika_besokende": 58965,
+    "sentrum_besokende": 54828,
+    "majorstuen_besokende": 56873,
+    "grunerlokka_paJobb": 19529,
+    "bjorvika_paJobb": 16560,
+    "sentrum_paJobb": 26899,
+    "majorstuen_paJobb": 21089,
+    "grunerlokka_hjemme": 38716,
+    "bjorvika_hjemme": 6067,
+    "sentrum_hjemme": 4562,
+    "majorstuen_hjemme": 36254
+  }
+]

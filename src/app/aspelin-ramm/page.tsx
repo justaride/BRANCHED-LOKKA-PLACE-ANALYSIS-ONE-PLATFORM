@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Container from '@/components/ui/Container';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
-import NaturalStateCard from '@/components/ui/NaturalStateCard';
+
 
 export default function AspelinRammHome() {
   return (
@@ -157,10 +157,7 @@ export default function AspelinRammHome() {
           </Card>
         </div>
 
-        {/* Natural State Card */}
-        <div className="mt-12">
-          <NaturalStateCard />
-        </div>
+
       </Container>
     </>
   );

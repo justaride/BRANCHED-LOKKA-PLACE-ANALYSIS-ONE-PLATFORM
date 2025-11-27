@@ -1,0 +1,92 @@
+{
+  "Nederst i Markveien ved Kaffebrenneriet": {
+    "Bevegelse NØKKELTALL": {
+      "Bevegelse": {
+        "Datoperiode": "01.10.2022 – 30.09.2025",
+        "Status": "Faktiske data",
+        "Datakilde": [
+          "Telia"
+        ]
+      },
+      "Gjennomsnittlig daglige besøk": {
+        "Verdi": 7177,
+        "Kommentar": "Basert på alle besøk"
+      },
+      "Gjennomsnittlig daglige besøk per km2": {
+        "Verdi": 56262
+      },
+      "Travleste dag": {
+        "Dag": "Lørdag",
+        "Andel": "17% av ukesbesøk"
+      }
+    },
+    "Korthandel NØKKELTALL": {
+      "Korthandel": {
+        "Status": "Faktiske data",
+        "Datakilde": [
+          "BankAxept"
+        ]
+      },
+      "Daglig korthandel for valgt periode": "NOK 1,3 mill.",
+      "Total korthandel for valgt periode": "NOK 3,3 mrd.",
+      "Beløp per transaksjon for valgt periode": "333 NOK"
+    },
+    "Konkurransebildet NØKKELTALL": {
+      "Konkurransebildet": {
+        "Status": "Estimerte tall",
+        "Datakilde": [
+          "Analysebutikken"
+        ]
+      },
+      "Konsepttetthet": {
+        "Verdi": "1244/km2",
+        "Endring": "0% ↓"
+      },
+      "Total omsetning": {
+        "Verdi": "NOK 122 mill.",
+        "Endring": "4% ↑"
+      },
+      "Omsetningstetthet": {
+        "Verdi": "NOK 13 mrd./km2",
+        "Endring": "4% ↑"
+      }
+    },
+    "DEMOGRAFI NØKKELTALL": {
+      "Demografi": {
+        "Status": "Estimert",
+        "Datakilde": [
+          "Statistisk sentralbyrå",
+          "Geodata"
+        ]
+      },
+      "Befolkning 2023": {
+        "Verdi": 165,
+        "Endring": "0.6% ↑"
+      },
+      "Befolkningstetthet 2023": "17102/km2",
+      "Områdestørrelse": "0.01 km2"
+    },
+    "NØKKELTALL MAIN": {
+      "Travleste dag": {
+        "Dag": "Lørdag",
+        "Periode": "01.07.2025 – 30.09.2025",
+        "Andel": "16% av ukesbesøk"
+      },
+      "Kortbruk": {
+        "Endring siste 30 dager": "-0.7%",
+        "Periode": "26.10.2025 – 24.11.2025"
+      },
+      "Konseptmiks": {
+        "Mat": "64%",
+        "Helse": "7%",
+        "Handel": "29%",
+        "Konsepttetthet": "Lav"
+      },
+      "Størrelse": {
+        "Areal": "0.01 km2",
+        "Befolkning": 165,
+        "År": 2023
+      }
+    }
+  }
+}

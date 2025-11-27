@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "source": "Antall husholdninger DEMOGRAFI.csv",
+    "rows": 5,
+    "columns": [
+      "Category",
+      "Sofienberggata 6 (Område 0.01 km²)"
+    ]
+  },
+  "data": [
+    {
+      "Category": "Par uten hjemmeboende barn",
+      "Sofienberggata 6 (Område 0.01 km²)": 18
+    },
+    {
+      "Category": "Par med barn",
+      "Sofienberggata 6 (Område 0.01 km²)": 8
+    },
+    {
+      "Category": "Aleneboende",
+      "Sofienberggata 6 (Område 0.01 km²)": 54
+    },
+    {
+      "Category": "Enslig forelder med barn",
+      "Sofienberggata 6 (Område 0.01 km²)": 4
+    },
+    {
+      "Category": "Andre husholdninger",
+      "Sofienberggata 6 (Område 0.01 km²)": 2
+    }
+  ]
+}

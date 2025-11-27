@@ -1,0 +1,31 @@
+{
+  "omrade": "Nedre Løkka",
+  "dagligBesokeTotal": 2796,
+  "merknad": "Faktisk tall fra data. Avvik fra estimert 93,000 kan skyldes ulike måleperioder eller definisjoner.",
+  "omradeBreakdown": [
+    {
+      "omrade": "Øvre Thorvald Meyers gate",
+      "dagligBesok": 667
+    },
+    {
+      "omrade": "Nedre Thorvald Meyers gate",
+      "dagligBesok": 1029
+    },
+    {
+      "omrade": "Olaf Ryes Plass v/ Boots",
+      "dagligBesok": 0
+    },
+    {
+      "omrade": "Olaf Ryes Plass v/ 7-Eleven",
+      "dagligBesok": 742
+    },
+    {
+      "omrade": "Midt i Markveien",
+      "dagligBesok": 0
+    },
+    {
+      "omrade": "Nederst i Markveien",
+      "dagligBesok": 358
+    }
+  ]
+}

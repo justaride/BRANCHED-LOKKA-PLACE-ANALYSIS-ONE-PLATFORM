@@ -1,0 +1,47 @@
+{
+  "conversion_date": "2025-11-25T21:36:31.479013",
+  "source_directory": "/Users/gabrielboen/Downloads/LØKKA PROJECTS UPDATED AND BACKUPS FOLDER/Nederst i Markveien ved Kaffebrenneriet",
+  "target_directory": "/Users/gabrielboen/Downloads/lokka-gardeierforening-platform/src/data/main-board/nederst-i-markveien",
+  "statistics": {
+    "files_converted": 20,
+    "total_data_points": 2770,
+    "categories_created": 6,
+    "actor_statistics": {
+      "total_actors": 12,
+      "total_revenue": 122,
+      "total_employees": 182,
+      "total_categories": 3
+    }
+  },
+  "directory_structure": {
+    "demografi": 6,
+    "bevegelse": 4,
+    "korthandel": 4,
+    "konkurransebilde": 4,
+    "internasjonalt": 1,
+    "aktorer": 1
+  },
+  "category_details": {
+    "Mat og opplevelser": {
+      "actors": 9,
+      "revenue": 110,
+      "employees": 149,
+      "avg_revenue": 12.22
+    },
+    "Handel": {
+      "actors": 2,
+      "revenue": 10,
+      "employees": 29,
+      "avg_revenue": 5.0
+    },
+    "Tjenester": {
+      "actors": 1,
+      "revenue": 2,
+      "employees": 4,
+      "avg_revenue": 2.0
+    }
+  },
+  "encoding": "UTF-8",
+  "norwegian_characters_preserved": true,
+  "errors": []
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "source": "Antall hus DEMOGRAFI.csv",
+    "rows": 6,
+    "columns": [
+      "Category",
+      "Sofienberggata 6 (Område 0.01 km²)"
+    ]
+  },
+  "data": [
+    {
+      "Category": "Eneboliger",
+      "Sofienberggata 6 (Område 0.01 km²)": 0
+    },
+    {
+      "Category": "Småhus",
+      "Sofienberggata 6 (Område 0.01 km²)": 1
+    },
+    {
+      "Category": "Leilighetsbygg",
+      "Sofienberggata 6 (Område 0.01 km²)": 5
+    },
+    {
+      "Category": "Næringsbygg",
+      "Sofienberggata 6 (Område 0.01 km²)": 1
+    },
+    {
+      "Category": "Andre bygg",
+      "Sofienberggata 6 (Område 0.01 km²)": 0
+    },
+    {
+      "Category": "Hytter",
+      "Sofienberggata 6 (Område 0.01 km²)": 0
+    }
+  ]
+}

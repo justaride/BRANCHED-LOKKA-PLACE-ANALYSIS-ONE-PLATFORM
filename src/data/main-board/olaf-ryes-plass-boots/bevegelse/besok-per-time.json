@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "source": "Besøk per time i tidsperioden (daglig gjennomsnitt) BEVEGELSE.csv",
+    "rows": 24,
+    "columns": [
+      "Category",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025",
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025",
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025"
+    ]
+  },
+  "data": [
+    {
+      "Category": "00:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 133,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 42,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 595
+    },
+    {
+      "Category": "01:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 116,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 52,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 537
+    },
+    {
+      "Category": "02:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 107,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 82,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 571
+    },
+    {
+      "Category": "03:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 82,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 89,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 589
+    },
+    {
+      "Category": "04:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 67,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 94,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 598
+    },
+    {
+      "Category": "05:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 66,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 98,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 604
+    },
+    {
+      "Category": "06:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 72,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 114,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 607
+    },
+    {
+      "Category": "07:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 81,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 141,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 591
+    },
+    {
+      "Category": "08:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 89,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 192,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 543
+    },
+    {
+      "Category": "09:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 92,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 234,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 481
+    },
+    {
+      "Category": "10:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 104,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 271,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 448
+    },
+    {
+      "Category": "11:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 133,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 307,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 429
+    },
+    {
+      "Category": "12:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 186,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 327,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 416
+    },
+    {
+      "Category": "13:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 246,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 319,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 421
+    },
+    {
+      "Category": "14:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 289,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 290,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 448
+    },
+    {
+      "Category": "15:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 314,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 242,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 504
+    },
+    {
+      "Category": "16:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 335,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 185,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 585
+    },
+    {
+      "Category": "17:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 339,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 136,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 656
+    },
+    {
+      "Category": "18:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 321,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 96,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 713
+    },
+    {
+      "Category": "19:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 294,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 68,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 759
+    },
+    {
+      "Category": "20:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 256,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 51,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 790
+    },
+    {
+      "Category": "21:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 213,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 44,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 798
+    },
+    {
+      "Category": "22:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 177,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 44,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 771
+    },
+    {
+      "Category": "23:00",
+      "Sofienberggata 6 (Område 0.01 km²), Besøkende, 01.10.2022 - 30.09.2025": 151,
+      "Sofienberggata 6 (Område 0.01 km²), På jobb, 01.10.2022 - 30.09.2025": 46,
+      "Sofienberggata 6 (Område 0.01 km²), Hjemme, 01.10.2022 - 30.09.2025": 710
+    }
+  ]
+}

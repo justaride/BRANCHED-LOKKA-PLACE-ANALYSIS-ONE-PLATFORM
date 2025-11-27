@@ -1,0 +1,171 @@
+{
+  "id": "nedre-lokka-omradeprofil",
+  "title": "Nedre Løkka Områdeprofil",
+  "tittel": "Nedre Løkka Områdeprofil",
+  "beskrivelse": "Omfattende stedsanalyse av 6 mikro-områder på Nedre Løkka",
+  "dato": "2025-11-26",
+  "kategori": "Områdeanalyse",
+  "analysisType": "aggregated-area",
+  "period": {
+    "type": "multi-year",
+    "startYear": 2022,
+    "endYear": 2025,
+    "year": 2024,
+    "startDate": "2022-01-01",
+    "endDate": "2025-11-26",
+    "label": "2022-2025"
+  },
+  "omrade": {
+    "navn": "Nedre Løkka",
+    "mikroOmrader": [
+      "Øvre Thorvald Meyers gate",
+      "Nedre Thorvald Meyers gate",
+      "Olaf Ryes Plass v/ Boots",
+      "Olaf Ryes Plass v/ 7-Eleven",
+      "Midt i Markveien",
+      "Nederst i Markveien"
+    ],
+    "antallOmrader": 6
+  },
+  "area": {
+    "id": "nedre-lokka-omradeprofil",
+    "name": "Nedre Løkka",
+    "displayName": "Nedre Løkka Områdeprofil",
+    "type": "aggregated-area",
+    "description": "Aggregert stedsanalyse av 6 mikro-områder på Nedre Løkka med demografi, bevegelse og virksomhetsdata",
+    "subAreas": [
+      "Øvre Thorvald Meyers gate",
+      "Nedre Thorvald Meyers gate",
+      "Olaf Ryes Plass v/ Boots",
+      "Olaf Ryes Plass v/ 7-Eleven",
+      "Midt i Markveien",
+      "Nederst i Markveien"
+    ],
+    "areaCount": 6
+  },
+  "description": "Omfattende områdeanalyse av Nedre Løkka basert på 6 mikro-områder. Analysen inkluderer 1,674 innbyggere, 2,796 daglige besøk, 103 virksomheter med samlet omsetning på NOK 967 millioner. Komplett visualisering av demografi, bevegelsesmønster og virksomhetsfordeling.",
+  "metadata": {
+    "status": "publisert",
+    "version": "1.0",
+    "author": "Natural State",
+    "createdAt": "2025-11-26",
+    "updatedAt": "2025-11-26",
+    "heroImage": "/images/analyser/nedre-lokka-aerial.jpg",
+    "sistOppdatert": "2025-11-26",
+    "notater": [
+      "Aggregert data fra 6 mikro-områder på Nedre Løkka",
+      "2 av 6 områder har 0-data for bevegelse (Olaf Ryes Plass Boots, Midt i Markveien)",
+      "Omfattende visualiseringer med befolkningspyramide, bevegelsesmønster og virksomhetsanalyse"
+    ]
+  },
+  "highlights": [
+    {
+      "title": "Befolkning",
+      "value": "1,674",
+      "description": "Innbyggere i området, dominert av 23-34 år (40%)"
+    },
+    {
+      "title": "Daglige Besøk",
+      "value": "2,796",
+      "description": "Gjennomsnittlig daglige besøk (data fra 4 av 6 områder)"
+    },
+    {
+      "title": "Virksomheter",
+      "value": "103",
+      "description": "Kommersielle lokaler, 40% restauranter"
+    },
+    {
+      "title": "Total Omsetning",
+      "value": "NOK 967M",
+      "description": "Estimert årlig omsetning"
+    }
+  ],
+
+  "datamerknader": {
+    "besokende": "Faktisk tall fra data. 2 av 6 områder returnerte 0 data. Totalen kan være lavere enn forventet.",
+    "virksomheter": "103 virksomheter registrert. Noen aktører kan mangle i datagrunnlaget.",
+    "transport": "Krever data fra Oslo Sporveier for fullstendig transportmiddel-statistikk."
+  },
+
+  "tags": [
+    "Grünerløkka",
+    "Nedre Løkka",
+    "Stedsanalyse",
+    "Demografi",
+    "Bevegelse",
+    "Virksomheter",
+    "Områdeprofil"
+  ],
+  "dataSource": "Plaace.ai / Telia / SSB",
+  "datakilder": [
+    "Plaace.ai",
+    "Telia (bevegelsesdata)",
+    "SSB (demografi)",
+    "Oslo Sporveier (mangler - transport data)"
+  ],
+
+  "interactiveData": {
+    "enabled": true,
+    "basePath": "/data/main-board/nedre-lokka-omradeprofil",
+    "komponenter": [
+      "NedreLokkaOverview"
+    ]
+  },
+
+  "seksjoner": [
+    {
+      "id": "oversikt",
+      "tittel": "Oversikt",
+      "beskrivelse": "Nøkkeltall og sammendrag for Nedre Løkka",
+      "type": "summary"
+    },
+    {
+      "id": "demografi",
+      "tittel": "Folk på Løkka",
+      "beskrivelse": "Befolkningsdata og aldersfordeling",
+      "type": "chart"
+    },
+    {
+      "id": "bevegelse",
+      "tittel": "Bevegelsesmønster",
+      "beskrivelse": "Daglige besøkstall og tidsmønstre",
+      "type": "chart"
+    },
+    {
+      "id": "transport",
+      "tittel": "Reisevaner",
+      "beskrivelse": "Transportmiddel-fordeling (krever Oslo Sporveier data)",
+      "type": "placeholder"
+    },
+    {
+      "id": "virksomheter",
+      "tittel": "Virksomheter",
+      "beskrivelse": "Antall og type kommersielle lokaler",
+      "type": "chart"
+    },
+    {
+      "id": "omsetning",
+      "tittel": "Omsetning",
+      "beskrivelse": "Handelsvaner og revenue data",
+      "type": "chart"
+    }
+  ],
+
+  "tags": [
+    "Grünerløkka",
+    "Stedsanalyse",
+    "Demografi",
+    "Bevegelse",
+    "Virksomheter",
+    "Nedre Løkka"
+  ],
+
+  "relaterte": [
+    "ovre-thorvald-meyers-gate",
+    "nedre-thorvald-meyers-gate",
+    "olaf-ryes-plass-boots",
+    "olaf-ryes-plass-7eleven",
+    "midt-i-markveien",
+    "nederst-i-markveien"
+  ]
+}

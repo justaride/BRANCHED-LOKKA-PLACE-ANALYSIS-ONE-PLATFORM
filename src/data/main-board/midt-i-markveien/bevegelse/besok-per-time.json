@@ -1,0 +1,146 @@
+[
+  {
+    "time": "00:00",
+    "besokende": 300,
+    "paJobb": 104,
+    "hjemme": 1433
+  },
+  {
+    "time": "01:00",
+    "besokende": 259,
+    "paJobb": 123,
+    "hjemme": 1279
+  },
+  {
+    "time": "02:00",
+    "besokende": 248,
+    "paJobb": 193,
+    "hjemme": 1370
+  },
+  {
+    "time": "03:00",
+    "besokende": 189,
+    "paJobb": 210,
+    "hjemme": 1411
+  },
+  {
+    "time": "04:00",
+    "besokende": 154,
+    "paJobb": 220,
+    "hjemme": 1428
+  },
+  {
+    "time": "05:00",
+    "besokende": 151,
+    "paJobb": 231,
+    "hjemme": 1440
+  },
+  {
+    "time": "06:00",
+    "besokende": 168,
+    "paJobb": 270,
+    "hjemme": 1451
+  },
+  {
+    "time": "07:00",
+    "besokende": 194,
+    "paJobb": 346,
+    "hjemme": 1414
+  },
+  {
+    "time": "08:00",
+    "besokende": 223,
+    "paJobb": 503,
+    "hjemme": 1305
+  },
+  {
+    "time": "09:00",
+    "besokende": 235,
+    "paJobb": 618,
+    "hjemme": 1166
+  },
+  {
+    "time": "10:00",
+    "besokende": 261,
+    "paJobb": 708,
+    "hjemme": 1085
+  },
+  {
+    "time": "11:00",
+    "besokende": 322,
+    "paJobb": 791,
+    "hjemme": 1039
+  },
+  {
+    "time": "12:00",
+    "besokende": 437,
+    "paJobb": 834,
+    "hjemme": 1007
+  },
+  {
+    "time": "13:00",
+    "besokende": 570,
+    "paJobb": 809,
+    "hjemme": 1016
+  },
+  {
+    "time": "14:00",
+    "besokende": 665,
+    "paJobb": 728,
+    "hjemme": 1081
+  },
+  {
+    "time": "15:00",
+    "besokende": 734,
+    "paJobb": 599,
+    "hjemme": 1213
+  },
+  {
+    "time": "16:00",
+    "besokende": 800,
+    "paJobb": 448,
+    "hjemme": 1402
+  },
+  {
+    "time": "17:00",
+    "besokende": 819,
+    "paJobb": 324,
+    "hjemme": 1565
+  },
+  {
+    "time": "18:00",
+    "besokende": 780,
+    "paJobb": 228,
+    "hjemme": 1700
+  },
+  {
+    "time": "19:00",
+    "besokende": 708,
+    "paJobb": 164,
+    "hjemme": 1808
+  },
+  {
+    "time": "20:00",
+    "besokende": 604,
+    "paJobb": 124,
+    "hjemme": 1883
+  },
+  {
+    "time": "21:00",
+    "besokende": 492,
+    "paJobb": 107,
+    "hjemme": 1903
+  },
+  {
+    "time": "22:00",
+    "besokende": 406,
+    "paJobb": 107,
+    "hjemme": 1845
+  },
+  {
+    "time": "23:00",
+    "besokende": 346,
+    "paJobb": 112,
+    "hjemme": 1707
+  }
+]

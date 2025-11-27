@@ -1,0 +1,37 @@
+[
+  {
+    "category": "Par uten hjemmeboende barn",
+    "grunerlokka": 8981.01,
+    "bjorvika": 9702.63,
+    "sentrum": 25193.24,
+    "majorstuen": 15774.72
+  },
+  {
+    "category": "Par med barn",
+    "grunerlokka": 6100.15,
+    "bjorvika": 7319.68,
+    "sentrum": 18031.0,
+    "majorstuen": 9356.51
+  },
+  {
+    "category": "Aleneboende",
+    "grunerlokka": 21155.55,
+    "bjorvika": 21450.09,
+    "sentrum": 57501.2,
+    "majorstuen": 35881.01
+  },
+  {
+    "category": "Enslig forelder med barn",
+    "grunerlokka": 2920.67,
+    "bjorvika": 3453.2,
+    "sentrum": 8501.99,
+    "majorstuen": 4713.32
+  },
+  {
+    "category": "Andre husholdninger",
+    "grunerlokka": 772.12,
+    "bjorvika": 885.86,
+    "sentrum": 2200.79,
+    "majorstuen": 1133.99
+  }
+]

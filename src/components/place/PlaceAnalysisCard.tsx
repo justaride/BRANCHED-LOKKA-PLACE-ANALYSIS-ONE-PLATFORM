@@ -25,7 +25,8 @@ export default function PlaceAnalysisCard({ analysis, basePath = '/analyser' }: 
       'comparative': 'Sammenligning',
       'event-impact': 'Hendelsesanalyse',
       'timeline': 'Tidslinje',
-      'media': 'Media'
+      'media': 'Media',
+      'location-specific': 'Stedsanalyse'
     };
     return labels[type];
   };
@@ -36,7 +37,8 @@ export default function PlaceAnalysisCard({ analysis, basePath = '/analyser' }: 
       'comparative': 'bg-analysis-highlight',
       'event-impact': 'bg-natural-sage',
       'timeline': 'bg-natural-earth',
-      'media': 'bg-analysis-neutral'
+      'media': 'bg-analysis-neutral',
+      'location-specific': 'bg-natural-forest'
     };
     return colors[type];
   };

@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "generated": "2025-11-25",
+    "source": "Plaace.ai Aktørkartlegging - Olaf Ryes Plass V:7Eleven",
+    "totalActors": 9,
+    "totalRevenue": 80.84,
+    "totalEmployees": 103,
+    "totalCategories": 3
+  },
+  "actors": [
+    {
+      "rank": "#1",
+      "navn": "Ark Grünerløkka",
+      "type": "Handel / Sport og fritid",
+      "adresse": "THORVALD MEYERS GATE 55",
+      "kommune": "Oslo",
+      "omsetning": 21,
+      "omsetning_raw": "21 mill.",
+      "yoy_vekst": 31,
+      "ansatte": 13,
+      "ansatte_raw": "13",
+      "markedsandel": 26.11
+    },
+    {
+      "rank": "#2",
+      "navn": "Smæg AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "AKERSHUSSTRANDA 25",
+      "kommune": "Oslo",
+      "omsetning": 14,
+      "omsetning_raw": "14 mill.",
+      "yoy_vekst": 0,
+      "ansatte": 13,
+      "ansatte_raw": "13",
+      "markedsandel": 17.16
+    },
+    {
+      "rank": "#3",
+      "navn": "Skaal Matbar AS",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "OLAF RYES PLASS 12",
+      "kommune": "Oslo",
+      "omsetning": 14,
+      "omsetning_raw": "14 mill.",
+      "yoy_vekst": -12,
+      "ansatte": 33,
+      "ansatte_raw": "33",
+      "markedsandel": 17.6
+    },
+    {
+      "rank": "#4",
+      "navn": "7-Eleven Grunerløkka",
+      "type": "Handel / Mat og drikke",
+      "adresse": "THORVALD MEYERS GATE 42",
+      "kommune": "Oslo",
+      "omsetning": 12,
+      "omsetning_raw": "12 mill.",
+      "yoy_vekst": 1057,
+      "ansatte": 19,
+      "ansatte_raw": "19",
+      "markedsandel": 14.75
+    },
+    {
+      "rank": "#5",
+      "navn": "Kaffebrenneriet Thv Meyers Gate",
+      "type": "Mat og opplevelser / Bakeri og kafé",
+      "adresse": "THORVALD MEYERS GATE 55",
+      "kommune": "Oslo",
+      "omsetning": 8,
+      "omsetning_raw": "8 mill.",
+      "yoy_vekst": -13,
+      "ansatte": 10,
+      "ansatte_raw": "10",
+      "markedsandel": 10.1
+    },
+    {
+      "rank": "#6",
+      "navn": "Vila Grünerløkka",
+      "type": "Handel / Klesbutikker",
+      "adresse": "THORVALD MEYERS GATE 42 B",
+      "kommune": "Oslo",
+      "omsetning": 6,
+      "omsetning_raw": "6 mill.",
+      "yoy_vekst": 9,
+      "ansatte": 5,
+      "ansatte_raw": "5",
+      "markedsandel": 6.92
+    },
+    {
+      "rank": "#7",
+      "navn": "Digg Pizza Grunerløkka",
+      "type": "Mat og opplevelser / Restaurant",
+      "adresse": "THORVALD MEYERS GATE 40 A",
+      "kommune": "Oslo",
+      "omsetning": 4,
+      "omsetning_raw": "4 mill.",
+      "yoy_vekst": 0,
+      "ansatte": 0,
+      "ansatte_raw": "0",
+      "markedsandel": 4.66
+    },
+    {
+      "rank": "#8",
+      "navn": "Floyd Frünerløkka",
+      "type": "Handel / Klesbutikker",
+      "adresse": "THORVALD MEYERS GATE 53",
+      "kommune": "Oslo",
+      "omsetning": 1,
+      "omsetning_raw": "1 mill.",
+      "yoy_vekst": 17,
+      "ansatte": 0,
+      "ansatte_raw": "0",
+      "markedsandel": 1.63
+    },
+    {
+      "rank": "#9",
+      "navn": "Smoothie Xchange Thorvald Meyers Gate",
+      "type": "Mat og opplevelser / Barer",
+      "adresse": "THORVALD MEYERS GATE 44",
+      "kommune": "Oslo",
+      "omsetning": 0.84,
+      "omsetning_raw": "840k",
+      "yoy_vekst": -74,
+      "ansatte": 10,
+      "ansatte_raw": "10",
+      "markedsandel": 1.06
+    }
+  ],
+  "categoryStats": {
+    "Handel": {
+      "count": 3,
+      "omsetning": 40,
+      "ansatte": 37,
+      "avgRevenue": 13.33
+    },
+    "Mat og opplevelser": {
+      "count": 5,
+      "omsetning": 40.84,
+      "ansatte": 66,
+      "avgRevenue": 8.17
+    },
+    "Tjenester": {
+      "count": 0,
+      "omsetning": 0,
+      "ansatte": 0,
+      "avgRevenue": 0
+    }
+  }
+}

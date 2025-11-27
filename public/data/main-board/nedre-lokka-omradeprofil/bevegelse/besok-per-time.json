@@ -1,0 +1,173 @@
+{
+  "omrade": "Nedre Løkka",
+  "besokPerTime": [
+    {
+      "time": "00:00",
+      "besokende": 2089,
+      "paJobb": 854,
+      "hjemme": 11650,
+      "total": 14593
+    },
+    {
+      "time": "01:00",
+      "besokende": 1858,
+      "paJobb": 1022,
+      "hjemme": 10710,
+      "total": 13590
+    },
+    {
+      "time": "02:00",
+      "besokende": 1864,
+      "paJobb": 1583,
+      "hjemme": 11533,
+      "total": 14980
+    },
+    {
+      "time": "03:00",
+      "besokende": 1484,
+      "paJobb": 1710,
+      "hjemme": 11789,
+      "total": 14983
+    },
+    {
+      "time": "04:00",
+      "besokende": 1256,
+      "paJobb": 1784,
+      "hjemme": 11867,
+      "total": 14907
+    },
+    {
+      "time": "05:00",
+      "besokende": 1237,
+      "paJobb": 1863,
+      "hjemme": 11909,
+      "total": 15009
+    },
+    {
+      "time": "06:00",
+      "besokende": 1357,
+      "paJobb": 2142,
+      "hjemme": 11868,
+      "total": 15367
+    },
+    {
+      "time": "07:00",
+      "besokende": 1494,
+      "paJobb": 2685,
+      "hjemme": 11429,
+      "total": 15608
+    },
+    {
+      "time": "08:00",
+      "besokende": 1644,
+      "paJobb": 3787,
+      "hjemme": 10324,
+      "total": 15755
+    },
+    {
+      "time": "09:00",
+      "besokende": 1692,
+      "paJobb": 4525,
+      "hjemme": 9018,
+      "total": 15235
+    },
+    {
+      "time": "10:00",
+      "besokende": 1854,
+      "paJobb": 5073,
+      "hjemme": 8262,
+      "total": 15189
+    },
+    {
+      "time": "11:00",
+      "besokende": 2191,
+      "paJobb": 5569,
+      "hjemme": 7801,
+      "total": 15561
+    },
+    {
+      "time": "12:00",
+      "besokende": 2794,
+      "paJobb": 5744,
+      "hjemme": 7458,
+      "total": 15996
+    },
+    {
+      "time": "13:00",
+      "besokende": 3521,
+      "paJobb": 5499,
+      "hjemme": 7451,
+      "total": 16471
+    },
+    {
+      "time": "14:00",
+      "besokende": 4044,
+      "paJobb": 4897,
+      "hjemme": 7885,
+      "total": 16826
+    },
+    {
+      "time": "15:00",
+      "besokende": 4469,
+      "paJobb": 4016,
+      "hjemme": 8871,
+      "total": 17356
+    },
+    {
+      "time": "16:00",
+      "besokende": 4943,
+      "paJobb": 2992,
+      "hjemme": 10333,
+      "total": 18268
+    },
+    {
+      "time": "17:00",
+      "besokende": 5136,
+      "paJobb": 2172,
+      "hjemme": 11555,
+      "total": 18863
+    },
+    {
+      "time": "18:00",
+      "besokende": 4987,
+      "paJobb": 1566,
+      "hjemme": 12541,
+      "total": 19094
+    },
+    {
+      "time": "19:00",
+      "besokende": 4612,
+      "paJobb": 1143,
+      "hjemme": 13366,
+      "total": 19121
+    },
+    {
+      "time": "20:00",
+      "besokende": 4015,
+      "paJobb": 889,
+      "hjemme": 14010,
+      "total": 18914
+    },
+    {
+      "time": "21:00",
+      "besokende": 3354,
+      "paJobb": 788,
+      "hjemme": 14320,
+      "total": 18462
+    },
+    {
+      "time": "22:00",
+      "besokende": 2809,
+      "paJobb": 817,
+      "hjemme": 14116,
+      "total": 17742
+    },
+    {
+      "time": "23:00",
+      "besokende": 2393,
+      "paJobb": 884,
+      "hjemme": 13352,
+      "total": 16629
+    }
+  ]
+}

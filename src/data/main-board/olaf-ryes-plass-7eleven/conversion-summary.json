@@ -1,0 +1,123 @@
+{
+  "total_files": 19,
+  "successful": 19,
+  "failed": 0,
+  "total_data_points": 2681,
+  "files": [
+    {
+      "filename": "aldersfordeling.json",
+      "subdirectory": "demografi",
+      "rows": 12,
+      "status": "success"
+    },
+    {
+      "filename": "antall-hus.json",
+      "subdirectory": "demografi",
+      "rows": 6,
+      "status": "success"
+    },
+    {
+      "filename": "antall-husholdninger.json",
+      "subdirectory": "demografi",
+      "rows": 5,
+      "status": "success"
+    },
+    {
+      "filename": "demografi-over-tid.json",
+      "subdirectory": "demografi",
+      "rows": 7,
+      "status": "success"
+    },
+    {
+      "filename": "inntektsfordeling.json",
+      "subdirectory": "demografi",
+      "rows": 12,
+      "status": "success"
+    },
+    {
+      "filename": "medianinntekt-per-husholdningstype.json",
+      "subdirectory": "demografi",
+      "rows": 5,
+      "status": "success"
+    },
+    {
+      "filename": "besok-per-time.json",
+      "subdirectory": "bevegelse",
+      "rows": 24,
+      "status": "success"
+    },
+    {
+      "filename": "besok-per-ukedag.json",
+      "subdirectory": "bevegelse",
+      "rows": 7,
+      "status": "success"
+    },
+    {
+      "filename": "bevegelsesmonster.json",
+      "subdirectory": "bevegelse",
+      "rows": 11,
+      "status": "success"
+    },
+    {
+      "filename": "arlig-vekst.json",
+      "subdirectory": "korthandel",
+      "rows": 6,
+      "status": "success"
+    },
+    {
+      "filename": "indeksert-vekst.json",
+      "subdirectory": "korthandel",
+      "rows": 7,
+      "status": "success"
+    },
+    {
+      "filename": "korthandel-i-valgt-tidsrom.json",
+      "subdirectory": "korthandel",
+      "rows": 2514,
+      "status": "success"
+    },
+    {
+      "filename": "korthandel-per-ukedag.json",
+      "subdirectory": "korthandel",
+      "rows": 7,
+      "status": "success"
+    },
+    {
+      "filename": "kjeder-vs-uavhengige.json",
+      "subdirectory": "konkurransebilde",
+      "rows": 11,
+      "status": "success"
+    },
+    {
+      "filename": "konseptmiks.json",
+      "subdirectory": "konkurransebilde",
+      "rows": 6,
+      "status": "success"
+    },
+    {
+      "filename": "over-og-underandel.json",
+      "subdirectory": "konkurransebilde",
+      "rows": 2,
+      "status": "success"
+    },
+    {
+      "filename": "utvikling-per-ar.json",
+      "subdirectory": "konkurransebilde",
+      "rows": 10,
+      "status": "success"
+    },
+    {
+      "filename": "topp-20-land.json",
+      "subdirectory": "internasjonalt",
+      "rows": 20,
+      "status": "success"
+    },
+    {
+      "filename": "olaf-ryes-plass-7eleven.json",
+      "subdirectory": "aktorer",
+      "rows": 9,
+      "categories": 1,
+      "status": "success"
+    }
+  ]
+}

@@ -5,6 +5,9 @@ import TabbedImageViewer from '@/components/analyser/TabbedImageViewer';
 import AktorOversikt from '@/components/analyser/AktorOversikt';
 import SimpleEventTimeline from '@/components/analyser/SimpleEventTimeline';
 import BankTransactionChart from '@/components/analyser/BankTransactionChart';
+import KonkurransebildeCharts from '@/components/analyser/KonkurransebildeCharts';
+import KorthandelCharts from '@/components/analyser/KorthandelCharts';
+import BevegelseCharts from '@/components/analyser/BevegelseCharts';
 import { loadAnalysis } from '@/lib/loaders/place-loader';
 import { MainBoardLoaders } from '@/lib/loaders/main-board';
 import {
@@ -561,40 +564,30 @@ export default async function Analyse2024Page() {
             </div>
           )}
 
-          {/* Tabbed Content */}
-          {konkurranseScreenshots.length > 0 && (
-            <TabbedImageViewer
-              screenshots={konkurranseScreenshots}
-              title=""
-            />
-          )}
+          {/* Interactive Charts */}
+          <KonkurransebildeCharts basePath="/data/main-board/2024-arsrapport" />
         </div>
 
         {/* 2. Korthandel */}
-        {korthandelScreenshots.length > 0 && (
-          <>
-            <TabbedImageViewer
-              screenshots={korthandelScreenshots}
-              title="Korthandel"
-            />
-            {/* Aktør Oversikt */}
-            {aktorData && (
+        <div className="mb-12 md:mb-20">
+          <KorthandelCharts basePath="/data/main-board/2024-arsrapport" />
+
+          {/* Aktør Oversikt */}
+          {aktorData && (
+            <div className="mt-12">
               <AktorOversikt
                 actors={aktorData.actors}
                 categoryStats={aktorData.categoryStats}
                 metadata={aktorData.metadata}
               />
-            )}
-          </>
-        )}
+            </div>
+          )}
+        </div>
 
         {/* 3. Bevegelse */}
-        {bevegelseScreenshots.length > 0 && (
-          <TabbedImageViewer
-            screenshots={bevegelseScreenshots}
-            title="Bevegelse"
-          />
-        )}
+        <div className="mb-12 md:mb-20">
+          <BevegelseCharts basePath="/data/main-board/2024-arsrapport" />
+        </div>
 
         {/* 4. Besøkende */}
         {besokendeScreenshots.length > 0 && (

@@ -1,0 +1,111 @@
+{
+  "Besøkende verktøy oversikt": {
+    "Besøkende": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "Telia"
+      ]
+    },
+    "Demografi av Besøkende": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "Telia",
+        "Statistisk sentralbyrå"
+      ]
+    }
+  },
+  "Bevegelse NØKKELTALL": {
+    "Bevegelse": {
+      "Datoperiode": "01.10.2022 – 30.09.2025",
+      "Status": "Faktiske data",
+      "Datakilde": [
+        "Telia"
+      ]
+    },
+    "Gjennomsnittlig daglige besøk": {
+      "Verdi": 13614,
+      "Kommentar": "Basert på alle besøk"
+    },
+    "Gjennomsnittlig daglige besøk per km2": {
+      "Verdi": 71272
+    },
+    "Travleste dag": {
+      "Dag": "Lørdag",
+      "Andel": "16% av ukesbesøk"
+    }
+  },
+  "Korthandel NØKKELTALL": {
+    "Korthandel": {
+      "Status": "Faktiske data",
+      "Datakilde": [
+        "BankAxept"
+      ]
+    },
+    "Daglig korthandel for valgt periode": "NOK 1,7 mill.",
+    "Total korthandel for valgt periode": "NOK 4,2 mrd.",
+    "Beløp per transaksjon for valgt periode": "216 NOK"
+  },
+  "konkurransebildet NØKKELTALL": {
+    "Konkurransebildet": {
+      "Status": "Estimerte tall",
+      "Datakilde": [
+        "Analysebutikken"
+      ]
+    },
+    "Konsepttetthet": "1553/km2",
+    "Konsepttetthet endring": "0%",
+    "Total omsetning": {
+      "Verdi": "NOK 317 mill.",
+      "Endring": "-1%"
+    },
+    "Omsetningstetthet": {
+      "Verdi": "NOK 18 mrd./km2",
+      "Endring": "-1%"
+    }
+  },
+  "DEMOGRAFI NØKKELTALL": {
+    "Demografi": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "Statistisk sentralbyrå",
+        "Geodata"
+      ]
+    },
+    "Befolkning": {
+      "Verdi": 371,
+      "År": 2023,
+      "Endring": "+2%"
+    },
+    "Befolkningstetthet": {
+      "Verdi": "20582/km2",
+      "År": 2023
+    },
+    "Områdestørrelse": "0.018 km2"
+  },
+  "NØKKELTALL MAIN": {
+    "Travleste dag": {
+      "Dag": "Lørdag",
+      "Periode": "01.07.2025 – 30.09.2025",
+      "Andel": "16% av ukesbesøk"
+    },
+    "Kortbruk": {
+      "Daglig korthandel": "NOK 1,7 mill.",
+      "Total korthandel": "NOK 4,2 mrd.",
+      "Periode": "25.10.2025 – 23.11.2025",
+      "Endring": "-0.9% siste 30d"
+    },
+    "Konseptmiks": {
+      "Lav konsepttetthet": "39%",
+      "Middels konsepttetthet": "11%",
+      "Høy konsepttetthet": "50%",
+      "Konsepttetthet": "1553/km2",
+      "Endring": "0%"
+    },
+    "Størrelse": {
+      "Areal": "0.018 km2",
+      "Besøk per km2": 71272,
+      "Befolkning": 371,
+      "Befolkningstetthet": "20582/km2"
+    }
+  }
+}

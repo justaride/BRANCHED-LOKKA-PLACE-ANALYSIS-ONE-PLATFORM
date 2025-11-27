@@ -2,7 +2,7 @@
  * Core type definitions for place analysis
  */
 
-export type AnalysisType = 'monthly' | 'comparative' | 'event-impact' | 'timeline' | 'media';
+export type AnalysisType = 'monthly' | 'comparative' | 'event-impact' | 'timeline' | 'media' | 'location-specific';
 export type PeriodType = 'month' | 'quarter' | 'year' | 'custom';
 
 /**

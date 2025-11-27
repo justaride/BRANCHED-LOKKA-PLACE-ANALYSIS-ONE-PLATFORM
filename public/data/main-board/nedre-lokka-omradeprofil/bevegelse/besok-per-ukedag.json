@@ -1,0 +1,54 @@
+{
+  "omrade": "Nedre Løkka",
+  "besokPerUkedag": [
+    {
+      "ukedag": "man.",
+      "besokende": 24324,
+      "paJobb": 7889,
+      "hjemme": 21318,
+      "total": 53531
+    },
+    {
+      "ukedag": "tir.",
+      "besokende": 25920,
+      "paJobb": 8284,
+      "hjemme": 21708,
+      "total": 55912
+    },
+    {
+      "ukedag": "ons.",
+      "besokende": 27570,
+      "paJobb": 8488,
+      "hjemme": 21863,
+      "total": 57921
+    },
+    {
+      "ukedag": "tor.",
+      "besokende": 28411,
+      "paJobb": 8486,
+      "hjemme": 21845,
+      "total": 58742
+    },
+    {
+      "ukedag": "fre.",
+      "besokende": 33162,
+      "paJobb": 8985,
+      "hjemme": 21911,
+      "total": 64058
+    },
+    {
+      "ukedag": "lør.",
+      "besokende": 37178,
+      "paJobb": 8976,
+      "hjemme": 21645,
+      "total": 67799
+    },
+    {
+      "ukedag": "søn.",
+      "besokende": 27401,
+      "paJobb": 6614,
+      "hjemme": 20203,
+      "total": 54218
+    }
+  ]
+}

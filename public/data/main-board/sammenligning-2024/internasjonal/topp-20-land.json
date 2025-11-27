@@ -1,0 +1,163 @@
+[
+  {
+    "category": "Denmark",
+    "grunerlokka": 11.45,
+    "bjorvika": 9.09,
+    "sentrum": 7.97,
+    "majorstuen": 12.23
+  },
+  {
+    "category": "Germany",
+    "grunerlokka": 9.86,
+    "bjorvika": 11.48,
+    "sentrum": 11.69,
+    "majorstuen": 11.68
+  },
+  {
+    "category": "Poland",
+    "grunerlokka": 10.37,
+    "bjorvika": 10.46,
+    "sentrum": 8.95,
+    "majorstuen": 11.32
+  },
+  {
+    "category": "France",
+    "grunerlokka": 8.45,
+    "bjorvika": 7.16,
+    "sentrum": 8.25,
+    "majorstuen": 8.35
+  },
+  {
+    "category": "United States of America",
+    "grunerlokka": 7.55,
+    "bjorvika": 8.38,
+    "sentrum": 9.38,
+    "majorstuen": 8.26
+  },
+  {
+    "category": "United Kingdom of Great Britain and Northern Ireland",
+    "grunerlokka": 9.41,
+    "bjorvika": 8.91,
+    "sentrum": 9.66,
+    "majorstuen": 7.96
+  },
+  {
+    "category": "Sweden",
+    "grunerlokka": 9.34,
+    "bjorvika": 10.62,
+    "sentrum": 9.13,
+    "majorstuen": 7.95
+  },
+  {
+    "category": "Spain",
+    "grunerlokka": 4.92,
+    "bjorvika": 3.96,
+    "sentrum": 4.49,
+    "majorstuen": 4.59
+  },
+  {
+    "category": "Netherlands",
+    "grunerlokka": 3.58,
+    "bjorvika": 3.22,
+    "sentrum": 3.46,
+    "majorstuen": 3.11
+  },
+  {
+    "category": "India",
+    "grunerlokka": 2.11,
+    "bjorvika": 2.01,
+    "sentrum": 2.16,
+    "majorstuen": 2.39
+  },
+  {
+    "category": "Italy",
+    "grunerlokka": 2.61,
+    "bjorvika": 1.96,
+    "sentrum": 2.4,
+    "majorstuen": 2.09
+  },
+  {
+    "category": "Belgium",
+    "grunerlokka": 1.85,
+    "bjorvika": 2.12,
+    "sentrum": 2.13,
+    "majorstuen": 1.98
+  },
+  {
+    "category": "Ukraine",
+    "grunerlokka": 2.94,
+    "bjorvika": 2.07,
+    "sentrum": 2.31,
+    "majorstuen": 1.94
+  },
+  {
+    "category": "Romania",
+    "grunerlokka": 2.13,
+    "bjorvika": 1.75,
+    "sentrum": 1.6,
+    "majorstuen": 1.78
+  },
+  {
+    "category": "Austria",
+    "grunerlokka": 1.58,
+    "bjorvika": 1.6,
+    "sentrum": 1.7,
+    "majorstuen": 1.44
+  },
+  {
+    "category": "Finland",
+    "grunerlokka": 1.4,
+    "bjorvika": 1.36,
+    "sentrum": 1.38,
+    "majorstuen": 1.41
+  },
+  {
+    "category": "China",
+    "grunerlokka": 0.91,
+    "bjorvika": 1.34,
+    "sentrum": 1.45,
+    "majorstuen": 1.27
+  },
+  {
+    "category": "Korea, Republic of",
+    "grunerlokka": null,
+    "bjorvika": 1.04,
+    "sentrum": 0.95,
+    "majorstuen": 1.16
+  },
+  {
+    "category": "Lithuania",
+    "grunerlokka": 0.71,
+    "bjorvika": 1.25,
+    "sentrum": null,
+    "majorstuen": 0.97
+  },
+  {
+    "category": "Czechia",
+    "grunerlokka": null,
+    "bjorvika": null,
+    "sentrum": null,
+    "majorstuen": 0.8
+  },
+  {
+    "category": "Greece",
+    "grunerlokka": 0.93,
+    "bjorvika": null,
+    "sentrum": 0.91,
+    "majorstuen": null
+  },
+  {
+    "category": "Portugal",
+    "grunerlokka": 0.92,
+    "bjorvika": null,
+    "sentrum": 0.89,
+    "majorstuen": null
+  },
+  {
+    "category": "Latvia",
+    "grunerlokka": null,
+    "bjorvika": 0.91,
+    "sentrum": null,
+    "majorstuen": null
+  }
+]
