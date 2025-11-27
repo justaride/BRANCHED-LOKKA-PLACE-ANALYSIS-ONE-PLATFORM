@@ -4,13 +4,13 @@
   "documents": [
     {
       "id": "grunerlokka_urban_development",
-      "slug": "grunerlokka-urban-development",
-      "title": "Grünerløkka: Urban Development Through History",
+      "slug": "grunerlokka-byutvikling",
+      "title": "Grünerløkka: Byutvikling gjennom historien",
       "place": {
         "id": "grunerlokka",
         "name": "Grünerløkka",
         "city": "Oslo",
-        "country": "Norway"
+        "country": "Norge"
       },
       "time_span": {
         "start_year": 1850,
@@ -25,13 +25,13 @@
       ],
       "timeline_id": "grunerlokka_timeline",
       "main_tags": [
-        "urban_development",
-        "industrialization",
-        "working_class",
+        "byutvikling",
+        "industrialisering",
+        "arbeiderklasse",
         "byfornyelse",
-        "gentrification"
+        "gentrifisering"
       ],
-      "language": "en"
+      "language": "no"
     }
   ]
 }

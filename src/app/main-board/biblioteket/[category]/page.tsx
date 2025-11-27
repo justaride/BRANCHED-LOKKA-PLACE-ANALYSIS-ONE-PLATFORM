@@ -1,5 +1,6 @@
 import Container from '@/components/ui/Container';
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import {
     getBibliotekCategories,
@@ -161,20 +162,27 @@ export default async function CategoryPage({ params }: PageProps) {
         }
     };
 
+    // Hero image mapping
+    const heroImages: Record<string, string> = {
+        'ildsjeler': '/images/biblioteket/ildsjeler-banner-hero.jpg',
+        'litteratur': '/images/biblioteket/litteratur-banner-hero.jpeg',
+        'kultur': '/images/biblioteket/kultur-banner-hero.jpg',
+        'historie': '/images/biblioteket/byhistorie-banner-hero.jpg',
+    };
+
     return (
         <>
             {/* Hero Section */}
-            <section className={`relative overflow - hidden border - b border - gray - 200 py - 16 text - white bg - ${currentCategory.color} -900`}>
-                {/* Fallback background if color classes don't match exactly, or use style */}
-                <div
-                    className="absolute inset-0 bg-natural-forest"
-                    style={{
-                        backgroundColor: currentCategory.color === 'orange' ? '#c2410c' :
-                            currentCategory.color === 'blue' ? '#1e40af' :
-                                currentCategory.color === 'amber' ? '#b45309' :
-                                    currentCategory.color === 'purple' ? '#6b21a8' : undefined
-                    }}
+            <section className="relative overflow-hidden border-b border-gray-200 py-16 text-white">
+                {/* Hero Background Image */}
+                <Image
+                    src={heroImages[category] || heroImages.ildsjeler}
+                    alt={currentCategory.title}
+                    fill
+                    className="object-cover"
+                    priority
                 />
+                <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
                 <Container className="relative z-10">
                     <div className="max-w-3xl">
                         <Link

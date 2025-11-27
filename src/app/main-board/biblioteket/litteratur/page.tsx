@@ -1,5 +1,6 @@
 import Container from '@/components/ui/Container';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getLitteratur, getLitteraturTopics, getLitteraturTypes } from '@/lib/loaders/biblioteket-loader';
 
 export const metadata = {
@@ -55,8 +56,17 @@ export default function LitteraturPage() {
     return (
         <>
             {/* Hero Section */}
-            <section className="relative overflow-hidden border-b border-gray-200 bg-gradient-to-br from-blue-600 to-blue-700 py-20 text-white">
-                <Container>
+            <section className="relative overflow-hidden border-b border-gray-200 py-20 text-white">
+                {/* Hero Background Image */}
+                <Image
+                    src="/images/biblioteket/litteratur-banner-hero.jpeg"
+                    alt="Litteratur om Grünerløkka"
+                    fill
+                    className="object-cover"
+                    priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
+                <Container className="relative z-10">
                     <div className="max-w-3xl">
                         <Link
                             href="/main-board/biblioteket"

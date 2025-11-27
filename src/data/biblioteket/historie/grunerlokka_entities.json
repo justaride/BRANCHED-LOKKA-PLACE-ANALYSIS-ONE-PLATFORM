@@ -5,7 +5,7 @@
     "id": "grunerlokka",
     "name": "Grünerløkka",
     "city": "Oslo",
-    "country": "Norway"
+    "country": "Norge"
   },
   "version": 1,
   "entities": [
@@ -14,10 +14,10 @@
       "name": "Friedrich Grüner",
       "type": "person",
       "roles": [
-        "mill_owner",
-        "landowner"
+        "mølleeier",
+        "grunneier"
       ],
-      "description": "Owner of Nedre Foss mill and surrounding property; the Grünerløkka district is named after him.",
+      "description": "Eier av Nedre Foss mølle og omkringliggende eiendom; bydelen Grünerløkka er oppkalt etter ham.",
       "mentions": [
         {
           "section_id": "19th_century_origins_industry_and_expansion",
@@ -30,10 +30,10 @@
       "name": "Hans Grüner",
       "type": "person",
       "roles": [
-        "landowner",
-        "developer"
+        "grunneier",
+        "utbygger"
       ],
-      "description": "Landowner who began subdividing and selling plots on Grünerløkka in the 1850s, triggering rapid wooden house construction later called 'Ny York'.",
+      "description": "Grunneier som begynte å dele opp og selge tomter på Grünerløkka på 1850-tallet, noe som utløste rask trehusbygging senere kalt «Ny York».",
       "mentions": [
         {
           "section_id": "19th_century_origins_industry_and_expansion",
@@ -50,10 +50,10 @@
       "type": "person",
       "roles": [
         "investor",
-        "landowner",
-        "philanthropist"
+        "grunneier",
+        "filantrop"
       ],
-      "description": "Investor who bought large tracts on Grünerløkka in 1861, financed the main street (now Thorvald Meyers gate) and donated plots for parks, a school and a church.",
+      "description": "Investor som kjøpte store tomtearealer på Grünerløkka i 1861, finansierte hovedgaten (nå Thorvald Meyers gate) og donerte tomter til parker, skole og kirke.",
       "mentions": [
         {
           "section_id": "19th_century_origins_industry_and_expansion",
@@ -69,10 +69,10 @@
       "name": "Georg Andreas Bull",
       "type": "person",
       "roles": [
-        "city_planner",
-        "architect"
+        "byplanlegger",
+        "arkitekt"
       ],
-      "description": "City planner who drew up an orderly plan for Grünerløkka with parks and a regular street grid in the late 19th century.",
+      "description": "Byplanlegger som utarbeidet en ordnet plan for Grünerløkka med parker og et regulært gatenett på slutten av 1800-tallet.",
       "mentions": [
         {
           "section_id": "19th_century_origins_industry_and_expansion",
@@ -85,9 +85,9 @@
       "name": "Edvard Bull d.y.",
       "type": "person",
       "roles": [
-        "historian"
+        "historiker"
       ],
-      "description": "Historian who described Ny York as 'a monument to our nascent industrialization' and characterized Grünerløkka as 'beste østkant'.",
+      "description": "Historiker som beskrev Ny York som «et monument over vår gryende industrialisering» og karakteriserte Grünerløkka som «beste østkant».",
       "mentions": [
         {
           "section_id": "19th_century_origins_industry_and_expansion",
@@ -102,11 +102,11 @@
     {
       "id": "org_christiania_seildugsfabrik",
       "name": "Christiania Seildugsfabrik",
-      "type": "organisation",
+      "type": "organisasjon",
       "roles": [
-        "factory"
+        "fabrikk"
       ],
-      "description": "Canvas factory established by Akerselva in 1856, contributing to Grünerløkka's role as part of the industrial belt.",
+      "description": "Seilduksfabrikk etablert ved Akerselva i 1856, som bidro til Grünerløkkas rolle som del av industribeltet.",
       "mentions": [
         {
           "section_id": "19th_century_origins_industry_and_expansion",
@@ -125,11 +125,11 @@
     {
       "id": "org_schous_bryggeri",
       "name": "Schous Bryggeri",
-      "type": "organisation",
+      "type": "organisasjon",
       "roles": [
-        "brewery"
+        "bryggeri"
       ],
-      "description": "Brewery founded in 1821 at Schous plass; a key industrial employer in and around Grünerløkka.",
+      "description": "Bryggeri grunnlagt i 1821 ved Schous plass; en viktig industriarbeidsgiver i og rundt Grünerløkka.",
       "mentions": [
         {
           "section_id": "19th_century_origins_industry_and_expansion",
@@ -146,12 +146,12 @@
     {
       "id": "org_grunerlokka_leieboerforening",
       "name": "Grünerløkka Leieboerforening",
-      "type": "organisation",
+      "type": "organisasjon",
       "roles": [
-        "tenants_association",
-        "grassroots_movement"
+        "leieboerforening",
+        "grasrotbevegelse"
       ],
-      "description": "Tenants' association founded 8 December 1971 to fight demolition and motorway plans and to promote renewal on residents' terms.",
+      "description": "Leieboerforening stiftet 8. desember 1971 for å kjempe mot rive- og motorveiplaner og fremme fornyelse på beboernes premisser.",
       "mentions": [
         {
           "section_id": "world_war_ii_and_postwar_challenges",
@@ -164,12 +164,12 @@
     },
     {
       "id": "org_oslo_city_council",
-      "name": "Oslo City Council",
-      "type": "organisation",
+      "name": "Oslo bystyre",
+      "type": "organisasjon",
       "roles": [
-        "municipal_authority"
+        "kommunal_myndighet"
       ],
-      "description": "Municipal decision-making body responsible for clearance plans, motorway decisions and later the byfornyelse program for Grünerløkka.",
+      "description": "Kommunalt beslutningsorgan ansvarlig for saneringsplaner, motorveivedtak og senere byfornyelsesprogrammet for Grünerløkka.",
       "mentions": [
         {
           "section_id": "world_war_ii_and_postwar_challenges",
@@ -185,13 +185,13 @@
     {
       "id": "org_parkteatret",
       "name": "Parkteatret",
-      "type": "organisation",
+      "type": "organisasjon",
       "roles": [
-        "cinema",
-        "theatre",
-        "concert_venue"
+        "kino",
+        "teater",
+        "konsertscene"
       ],
-      "description": "Theatre and later cinema opened in 1907 at Olaf Ryes plass; today a concert stage and bar.",
+      "description": "Teater og senere kino som åpnet i 1907 på Olaf Ryes plass; i dag konsertscene og bar.",
       "mentions": [
         {
           "section_id": "early_20th_century_the_working_class_community",
@@ -210,9 +210,9 @@
     {
       "id": "place_birkelunden",
       "name": "Birkelunden",
-      "type": "place",
+      "type": "sted",
       "subtype": "park",
-      "description": "Central park and square on Grünerløkka, created on land donated by Thorvald Meyer and later designated part of the Birkelunden heritage area.",
+      "description": "Sentral park og plass på Grünerløkka, anlagt på tomt donert av Thorvald Meyer og senere vernet som del av Birkelunden kulturmiljø.",
       "mentions": [
         {
           "section_id": "19th_century_origins_industry_and_expansion",
@@ -232,9 +232,9 @@
     {
       "id": "place_ny_york",
       "name": "Ny York",
-      "type": "place",
-      "subtype": "subdistrict",
-      "description": "Nickname for the rapidly built wooden-house area on southern Grünerløkka in the 1850s–1860s, later threatened by clearance.",
+      "type": "sted",
+      "subtype": "delområde",
+      "description": "Kallenavn på det raskt oppførte trehusstrøket på søndre Grünerløkka på 1850–60-tallet, senere truet av sanering.",
       "mentions": [
         {
           "section_id": "19th_century_origins_industry_and_expansion",
@@ -255,9 +255,9 @@
     {
       "id": "place_akerselva",
       "name": "Akerselva",
-      "type": "place",
-      "subtype": "river",
-      "description": "River forming the western edge of Grünerløkka; historically an industrial belt and later an important green corridor.",
+      "type": "sted",
+      "subtype": "elv",
+      "description": "Elv som danner Grünerløkkas vestlige grense; historisk et industribelte og senere en viktig grønn korridor.",
       "mentions": [
         {
           "section_id": "19th_century_origins_industry_and_expansion",

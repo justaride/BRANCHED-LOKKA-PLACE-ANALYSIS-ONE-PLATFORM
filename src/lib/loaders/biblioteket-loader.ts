@@ -264,3 +264,119 @@ export function getBibliotekStats() {
         },
     };
 }
+
+// ============================================================================
+// MASTER TIMELINE (Combined view of all categories)
+// ============================================================================
+
+export interface MasterTimelineEvent {
+    id: string;
+    year: number;
+    category: 'historie' | 'kultur' | 'litteratur' | 'ildsjeler';
+    title: string;
+    description: string;
+    image?: string;
+    link: string;
+    color: string;
+}
+
+// Import translation function
+import { translateHistorieText } from '../translate-historie';
+
+export function getMasterTimelineEvents(): MasterTimelineEvent[] {
+    const events: MasterTimelineEvent[] = [];
+
+    // HISTORIE - Significantly expanded selection
+    const historieEvents = getHistorieEvents();
+    const keyHistorieIds = [
+        '1850s_land_subdivision',
+        '1856_christiania_seildugsfabrik',
+        '1858_city_boundary_expansion',
+        '1861_ny_york_growth',
+        '1861_thorvald_meyer_invests',
+        '1870s_1880s_masonry_expansion',
+        '1900s_working_class_neighbourhood',
+        '1920s_first_labour_activism',
+        '1940s_german_occupation',
+        '1950s_postwar_housing_crisis',
+        '1970s_grassroots_protests',
+        '1972_saneringsplan',
+        '1980s_byfornyelse_plans',
+        '1980s_alternative_scene',
+        '1990_gentrification_begins',
+        '1995_fru_hagen',
+        '2000s_cultural_hub',
+        '2006_birkelunden_heritage'
+    ];
+    keyHistorieIds.forEach(id => {
+        const event = historieEvents.find(e => e.id === id);
+        if (event) {
+            events.push({
+                id: `historie-${event.id}`,
+                year: event.start_year,
+                category: 'historie',
+                title: translateHistorieText(event.label),
+                description: translateHistorieText(event.summary),
+                link: `/main-board/biblioteket/historie`,
+                color: '#d97706' // amber
+            });
+        }
+    });
+
+    // KULTUR - Expanded selection (pick more years)
+    const kulturEvents = getKulturTimeline();
+    const keyKulturYears = [1900, 1920, 1940, 1960, 1970, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015];
+    keyKulturYears.forEach(year => {
+        const event = kulturEvents.find(e => e.period.includes(String(year)));
+        if (event) {
+            events.push({
+                id: `kultur-${year}`,
+                year: year,
+                category: 'kultur',
+                title: event.event,
+                description: `${event.names.join(', ')} - ${event.places.join(', ')}`,
+                link: `/main-board/biblioteket/kultur`,
+                color: '#7c3aed' // purple
+            });
+        }
+    });
+
+    // LITTERATUR - More comprehensive selection
+    const litteratur = getLitteratur();
+    const keyLitteraturYears = [1913, 1920, 1930, 1940, 1950, 1960, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015];
+    keyLitteraturYears.forEach(year => {
+        const work = litteratur.find(w => w.year === year);
+        if (work) {
+            events.push({
+                id: `litteratur-${work.id}`,
+                year: work.year,
+                category: 'litteratur',
+                title: work.title,
+                description: `${work.authors.join(', ')} - ${work.type}`,
+                link: `/main-board/biblioteket/litteratur`,
+                color: '#1e40af' // blue
+            });
+        }
+    });
+
+    // ILDSJELER - Include all available
+    const ildsjeler = getIldsjeler();
+    ildsjeler.slice(0, 15).forEach(ildsjel => {
+        const fromYear = parseInt(ildsjel.mainPeriod.from.toString());
+        if (!isNaN(fromYear) && fromYear >= 1850) {
+            events.push({
+                id: `ildsjel-${ildsjel.id}`,
+                year: fromYear,
+                category: 'ildsjeler',
+                title: ildsjel.name,
+                description: ildsjel.summary,
+                image: ildsjel.imageUrl,
+                link: `/main-board/biblioteket/ildsjeler/${ildsjel.id}`,
+                color: '#c2410c' // orange
+            });
+        }
+    });
+
+    // Sort by year
+    return events.sort((a, b) => a.year - b.year);
+}

@@ -1,7 +1,8 @@
 import Container from '@/components/ui/Container';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getBibliotekCategories, getBibliotekStats } from '@/lib/loaders/biblioteket-loader';
+import { getBibliotekCategories, getBibliotekStats, getMasterTimelineEvents } from '@/lib/loaders/biblioteket-loader';
+import MasterTimeline from '@/components/biblioteket/MasterTimeline';
 
 export const metadata = {
     title: 'Løkka Biblioteket - Løkka Gårdeierforening',
@@ -11,6 +12,7 @@ export const metadata = {
 export default function LokkaBiblioteketPage() {
     const categories = getBibliotekCategories();
     const stats = getBibliotekStats();
+    const masterTimelineEvents = getMasterTimelineEvents();
 
     return (
         <>
@@ -18,8 +20,8 @@ export default function LokkaBiblioteketPage() {
             <section className="relative overflow-hidden border-b border-gray-200 py-20 text-white">
                 {/* Historical Map Background */}
                 <Image
-                    src="/images/biblioteket/kart-hero.jpg"
-                    alt="Historisk kart over Grünerløkka"
+                    src="/images/biblioteket/lokka-bibliotek-hero.jpg"
+                    alt="Løkka Biblioteket"
                     fill
                     className="object-cover"
                     priority
@@ -75,32 +77,55 @@ export default function LokkaBiblioteketPage() {
                 </Container>
             </section>
 
-            {/* Categories Grid */}
-            <Container className="py-16">
-                <h2 className="mb-8 text-3xl font-bold text-gray-900">Utforsk Kategorier</h2>
-                <div className="grid gap-6 md:grid-cols-2">
-                    {categories.map((category) => (
-                        <Link
-                            key={category.slug}
-                            href={`/main-board/biblioteket/${category.slug}`}
-                            className="group relative aspect-[4/3] overflow-hidden rounded-2xl"
-                        >
-                            <Image
-                                src={category.image}
-                                alt={category.title}
-                                fill
-                                className="object-cover transition-transform duration-500 group-hover:scale-105"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-                            <div className="absolute bottom-0 left-0 right-0 p-6">
-                                <h3 className="text-3xl font-bold text-white">
-                                    {category.title}
-                                </h3>
-                            </div>
-                        </Link>
-                    ))}
-                </div>
-            </Container>
+            {/* Categories Grid - Now positioned before timeline */}
+            <section className="border-b border-gray-200 bg-white py-12">
+                <Container>
+                    <h2 className="mb-6 text-2xl font-bold text-gray-900">Utforsk Kategorier</h2>
+                    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                        {categories.map((category) => (
+                            <Link
+                                key={category.slug}
+                                href={`/main-board/biblioteket/${category.slug}`}
+                                className="group relative aspect-[4/3] overflow-hidden rounded-xl"
+                            >
+                                <Image
+                                    src={category.image}
+                                    alt={category.title}
+                                    fill
+                                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+                                <div className="absolute bottom-0 left-0 right-0 p-4">
+                                    <h3 className="text-xl font-bold text-white">
+                                        {category.title}
+                                    </h3>
+                                    <p className="mt-1 text-sm text-white/80 line-clamp-2">
+                                        {category.description}
+                                    </p>
+                                </div>
+                            </Link>
+                        ))}
+                    </div>
+                </Container>
+            </section>
+
+            {/* Master Timeline Section - "Løkkas Livsstrøm" */}
+            <section className="border-b border-gray-200 bg-gradient-to-b from-gray-50 to-white py-20">
+                <Container>
+                    <div className="mb-16 text-center">
+                        <div className="mb-4 inline-block rounded-full bg-gradient-to-r from-blue-500 to-teal-500 px-4 py-1.5 text-sm font-medium text-white">
+                            Tidslinje
+                        </div>
+                        <h2 className="mb-4 text-4xl font-bold text-gray-900">
+                            Løkkas Livsstrøm
+                        </h2>
+                        <p className="mx-auto max-w-2xl text-lg text-gray-600">
+                            Opplev Grünerløkkas historie som en flytende elv av hendelser – fra de første parselleringene på 1850-tallet til kulturknutepunktet vi kjenner i dag.
+                        </p>
+                    </div>
+                    <MasterTimeline events={masterTimelineEvents} />
+                </Container>
+            </section>
 
             {/* About Section */}
             <section className="border-t border-gray-200 bg-gray-50 py-16">

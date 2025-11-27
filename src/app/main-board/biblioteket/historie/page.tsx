@@ -1,5 +1,6 @@
 import Container from '@/components/ui/Container';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getHistorieTimeline, getHistorieEvents, getHistorieSections, getHistorieTags, getHistorieEntities } from '@/lib/loaders/biblioteket-loader';
 import ImageCarousel from '@/components/biblioteket/ImageCarousel';
 import { translateHistorieText } from '@/lib/translate-historie';
@@ -102,8 +103,17 @@ export default function HistoriePage() {
     return (
         <>
             {/* Hero Section */}
-            <section className="relative overflow-hidden border-b border-gray-200 bg-gradient-to-br from-amber-600 to-amber-700 py-20 text-white">
-                <Container>
+            <section className="relative overflow-hidden border-b border-gray-200 py-20 text-white">
+                {/* Hero Background Image */}
+                <Image
+                    src="/images/biblioteket/byhistorie-banner-hero.jpg"
+                    alt="Grünerløkkas byhistorie"
+                    fill
+                    className="object-cover"
+                    priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
+                <Container className="relative z-10">
                     <div className="max-w-3xl">
                         <Link
                             href="/main-board/biblioteket"

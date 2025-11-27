@@ -182,13 +182,27 @@ Images should be placed in `/public/images/biblioteket/`
 
 ---
 
-## Pending
+## Completed Tasks
 
-- [ ] Add 4 category images to `/public/images/biblioteket/`
-  - `ildsjeler.jpg`
-  - `litteratur.jpg`
-  - `historie.jpg`
-  - `kultur.jpg`
+### November 28, 2025 Updates
+
+#### Hero Images Added
+All 4 category pages now have custom hero banner images:
+- `ildsjeler-banner-hero.jpg` - Ildsjeler page
+- `litteratur-banner-hero.jpeg` - Litteratur page
+- `byhistorie-banner-hero.jpg` - Historie page
+- `kultur-banner-hero.jpg` - Kultur page
+- `lokka-bibliotek-hero.jpg` - Main biblioteket landing page
+
+#### Norwegian Translation
+All historie JSON files translated from English to Norwegian (7 files):
+- `grunerlokka_timeline.json` - 26 events with labels, summaries, tags
+- `themes.json` - 2 themes
+- `grunerlokka_entities.json` - 13 entities (persons, orgs, places)
+- `events_global.json` - 2 global events
+- `grunerlokka_document_index.json` - Document metadata
+- `grunerlokka_tag_index.json` - 6 tag definitions
+- `grunerlokka_search_index.json` - Search index text
 
 ---
 
@@ -196,11 +210,12 @@ Images should be placed in `/public/images/biblioteket/`
 
 - **Pages Created:** 6
 - **TypeScript Files:** 2 (types + loader)
-- **Data Files:** 4 JSON files
+- **Data Files:** 4 JSON + 7 historie files
 - **Total Items:** 50+ across all categories
 - **Lines of Code:** ~1,500+
+- **Hero Images:** 5 banner images
 
 ---
 
-*Session completed: November 27, 2025*
+*Session completed: November 28, 2025*
 *Documentation updated: PROJECT_STATUS.md, DOCUMENTATION_INDEX.md*

@@ -4,8 +4,8 @@
   "version": 1,
   "tags": {
     "industry": {
-      "label": "Industry & work",
-      "description": "Factories, breweries and industrial labour along Akerselva.",
+      "label": "Industri og arbeid",
+      "description": "Fabrikker, bryggerier og industriarbeid langs Akerselva.",
       "document_ids": [
         "grunerlokka_urban_development"
       ],
@@ -16,8 +16,8 @@
       ]
     },
     "housing": {
-      "label": "Housing & living conditions",
-      "description": "Housing construction, overcrowding, tenements and renewal.",
+      "label": "Bolig og boforhold",
+      "description": "Boligbygging, trangboddhet, leiegårder og fornyelse.",
       "document_ids": [
         "grunerlokka_urban_development"
       ],
@@ -31,8 +31,8 @@
       ]
     },
     "world_war_ii": {
-      "label": "World War II",
-      "description": "Occupation, rationing and wartime everyday life 1940–1945.",
+      "label": "Andre verdenskrig",
+      "description": "Okkupasjon, rasjonering og hverdagsliv i krig 1940–1945.",
       "document_ids": [
         "grunerlokka_urban_development"
       ],
@@ -41,8 +41,8 @@
       ]
     },
     "urban_renewal": {
-      "label": "Urban renewal & planning",
-      "description": "Clearance plans, byfornyelse, motorway debates and planning conflict.",
+      "label": "Byfornyelse og planlegging",
+      "description": "Saneringsplaner, byfornyelse, motorveidebatter og planleggingskonflikt.",
       "document_ids": [
         "grunerlokka_urban_development"
       ],
@@ -58,8 +58,8 @@
       ]
     },
     "gentrification": {
-      "label": "Gentrification",
-      "description": "Social and economic shifts from the 1980s onwards.",
+      "label": "Gentrifisering",
+      "description": "Sosiale og økonomiske endringer fra 1980-tallet og fremover.",
       "document_ids": [
         "grunerlokka_urban_development"
       ],
@@ -71,8 +71,8 @@
       ]
     },
     "culture": {
-      "label": "Culture & nightlife",
-      "description": "Cinemas, cafés, venues and urban cultural life.",
+      "label": "Kultur og uteliv",
+      "description": "Kinoer, kafeer, scener og urbant kulturliv.",
       "document_ids": [
         "grunerlokka_urban_development"
       ],
