@@ -12,6 +12,7 @@ export async function loadAllEiendommer(): Promise<Eiendom[]> {
   try {
     const data = await Promise.all([
       import('@/data/aspelin-ramm/bellonabygget.json'),
+      import('@/data/aspelin-ramm/mathallen.json'),
       import('@/data/aspelin-ramm/nye-broverkstedet.json'),
       import('@/data/aspelin-ramm/scandic-hotel-vulkan.json'),
       import('@/data/aspelin-ramm/vulkan-arena.json'),
@@ -43,6 +44,7 @@ export async function loadEiendom(id: string): Promise<Eiendom | null> {
 export function getAllPropertyIds(): string[] {
   return [
     'bellonabygget',
+    'mathallen',
     'nye-broverkstedet',
     'scandic-hotel-vulkan',
     'vulkan-arena',

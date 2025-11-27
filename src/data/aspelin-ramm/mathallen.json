@@ -1,0 +1,86 @@
+{
+  "id": "mathallen",
+  "adresse": "Vulkan 5, 0178 Oslo",
+  "gnr": 218,
+  "bnr": 260,
+  "beskrivelse": "Mathallen Oslo er Norges første innendørs matmarked, åpnet i 2012. Over 30 spesialbutikker og spisesteder samlet under ett tak, med fokus på kvalitetsmat, håndverk og lokale produsenter. Et levende møtested for matentusiaster.",
+  "heroImage": "/images/aspelin-ramm/mathallen-hero.jpg",
+  "mapImage": "/images/aspelin-ramm/mathallen-map.png",
+  "coordinates": {
+    "lat": 59.9229,
+    "lng": 10.7520
+  },
+  "plaaceData": {
+    "rapportDato": "2025-11-27T00:00:00Z",
+    "screenshots": [
+      {
+        "filnavn": "Nøkkeldata",
+        "path": "/images/aspelin-ramm/plaace/mathallen/noekkeldata.jpg",
+        "beskrivelse": "Nøkkeldata",
+        "kategori": "oversikt"
+      },
+      {
+        "filnavn": "Demografi",
+        "path": "/images/aspelin-ramm/plaace/mathallen/demografi.jpg",
+        "beskrivelse": "Demografi",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/aspelin-ramm/plaace/mathallen/besokende.jpg",
+        "beskrivelse": "Besøkende",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Bevegelse",
+        "path": "/images/aspelin-ramm/plaace/mathallen/bevegelse.jpg",
+        "beskrivelse": "Bevegelse",
+        "kategori": "demografi"
+      },
+      {
+        "filnavn": "Korthandel",
+        "path": "/images/aspelin-ramm/plaace/mathallen/korthandel.jpg",
+        "beskrivelse": "Korthandel",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Konkurransebildet",
+        "path": "/images/aspelin-ramm/plaace/mathallen/konkurransebildet.jpg",
+        "beskrivelse": "Konkurransebildet",
+        "kategori": "marked"
+      }
+    ],
+    "nokkeldata": {
+      "areal": "5 000 m²",
+      "byggeaar": 2012,
+      "kapasitet": "30+ butikker og spisesteder"
+    }
+  },
+  "tilleggsinfo": {
+    "historikk": "# Mathallen Oslo – Eiendomsprofil\n\n## Nøkkeldata\n\n**Adresse:** Vulkan 5, 0178 Oslo\n**Bydel:** Grünerløkka / St. Hanshaugen-grensen\n**Eier:** Aspelin Eiendom AS (via Vulkan Oslo AS)\n**Operatør:** Mathallen AS\n**Areal:** ca. 5 000 m² BTA\n**Byggeår:** 2012\n**Arkitekt:** LPO Arkitekter\n\n## Bygg og funksjon\n\nNorges første innendørs matmarked, inspirert av internasjonale konsepter som Borough Market i London og Boqueria i Barcelona.\n\n### Hovedfunksjoner\n- **30+ spesialbutikker:** Ost, fisk, kjøtt, bakevarer, kaffe, vin\n- **Spisesteder:** Fra casual street food til mer sofistikerte restauranter\n- **Arrangement:** Matfestivaler, kurs, private events\n- **Fellesområde:** Sitteområder, bar, felles spiseområde\n\n### Konsept\n- Fokus på kvalitetsmat og håndverk\n- Lokale og regionale produsenter\n- Bærekraft og kortreist mat\n- Matkultur og kunnskapsformidling\n\n## Historikk og bruk\n\n**2012:** Åpning som del av Vulkan-utbyggingen\n**2012–2019:** Etablering som Oslos fremste matdestinasjon, 1+ million besøkende årlig\n**2020–2021:** Pandemi med redusert drift, økt fokus på take-away\n**2022–2025:** Sterk gjenåpning med nye konsepter og økt besøk\n\n**Årlig besøk (estimert):** 1 200 000–1 500 000 personer\n\n## Økonomiske nøkkeltall\n\n- **Markedsverdi bygg:** 200–300 MNOK\n- **Total omsetning leietakere:** 250–350 MNOK/år\n- **Potensiell leieinntekt:** 25–35 MNOK/år\n- **Yield (estimat):** 8–10%\n\n## Beliggenhet\n\nVulkan ved Akerselva – nasjonalt anerkjent byutviklingsområde (Europa Nostra pris 2013).\n\n**Naboer innen 200 m:**\n- Vulkan Arena (50 m)\n- Dansens Hus (100 m)\n- Scandic Vulkan (100 m)\n- PS:hotell (50 m)\n- Westerdals (200 m)\n\n**Transport:**\n- Buss 34/54 (Møllerveien 2 min)\n- Trikk 11/12/13 (Schous plass 8 min)\n- 450 plasser i Vulkan P-hus (50 m)\n- Walk Score 98 / Bike 95 / Transit 96\n\n**Områdeprofil:** ca. 3 mill. besøkende/år i Vulkan-området\n\n## Bærekraft\n\n- **Energisystem:** Tilknyttet Vulkan Energisentralen (geoenergi + sjøvannskjøling)\n- **Energiforbruk:** 120–200 kWh/m²/år\n- **CO₂-reduksjon:** ca. 70% lavere enn fossil oppvarming\n- **Avfallshåndtering:** Sentral kildesortering, matavfall til biogass\n- **Bærekraft-fokus:** Kortreist mat, minimal emballasje, gjenbrukbare materialer",
+    "kontaktperson": "Mathallen AS",
+    "notater": [
+      "Norges første og største innendørs matmarked",
+      "Over 30 spesialbutikker og spisesteder",
+      "1,2–1,5 millioner besøkende årlig",
+      "Fokus på kvalitetsmat og lokale produsenter",
+      "Del av Vulkan-utbyggingen med felles energisentral",
+      "Arrangement og matkultur-aktiviteter hele året"
+    ]
+  },
+  "metadata": {
+    "opprettet": "2025-11-27T00:00:00Z",
+    "sistOppdatert": "2025-11-27T00:00:00Z",
+    "status": "publisert",
+    "versjon": 1
+  },
+  "naringsaktorer": {
+    "actors": [],
+    "categoryStats": {},
+    "metadata": {
+      "totalActors": 0,
+      "totalCategories": 0,
+      "generatedAt": "2025-11-27T00:00:00Z"
+    }
+  }
+}

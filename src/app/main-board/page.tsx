@@ -4,8 +4,10 @@ import Container from '@/components/ui/Container';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import NaturalStateInfo from '@/components/layout/NaturalStateInfo';
+import { getCompanyTenants } from '@/config/tenants';
 
 export default function MainBoardPage() {
+  const companies = getCompanyTenants();
   return (
     <>
       {/* Hero Section with Banner */}
@@ -143,6 +145,36 @@ export default function MainBoardPage() {
             </div>
           </Link>
         </div>
+
+        {/* Løkka Biblioteket - Full Width */}
+        <div className="mt-6">
+          <Link
+            href="/main-board/biblioteket"
+            className="group relative block h-[400px] overflow-hidden rounded-2xl shadow-lg transition-all hover:scale-[1.01] hover:shadow-xl"
+          >
+            <Image
+              src="/images/areas/grunerlokka.jpg" // Using generic image for now
+              alt="Løkka Biblioteket"
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-natural-forest/90 via-natural-forest/60 to-transparent transition-opacity duration-300 group-hover:from-natural-forest/95" />
+
+            <div className="relative z-10 flex h-full flex-col justify-center p-8 text-white md:p-12">
+              <div className="max-w-2xl">
+                <div className="mb-4 text-4xl opacity-90">📚</div>
+                <h3 className="mb-4 text-4xl font-bold drop-shadow-md">Løkka Biblioteket</h3>
+                <p className="mb-8 text-xl text-white/90 drop-shadow-sm">
+                  Få tilgang til en omfattende samling av dokumenter, rapporter og ressurser.
+                  Din kunnskapsbank for utviklingen på Grünerløkka.
+                </p>
+                <div className="inline-flex w-fit items-center gap-2 rounded-lg bg-white/20 px-6 py-3 text-lg font-semibold backdrop-blur-sm transition-colors group-hover:bg-white group-hover:text-natural-forest">
+                  Gå til biblioteket →
+                </div>
+              </div>
+            </div>
+          </Link>
+        </div>
       </Container>
 
       {/* Features Section */}
@@ -230,6 +262,73 @@ export default function MainBoardPage() {
         </div>
       </Container>
 
+
+      {/* Company Grid */}
+      <section className="py-16 bg-gray-50">
+        <Container>
+          <h3 className="mb-8 text-center text-2xl font-bold text-natural-forest">
+            Eiendomsanalyser
+          </h3>
+          <p className="mb-12 text-center text-gray-600">
+            Velg din eiendomsaktør for å se placeanalyser og porteføljeinformasjon
+          </p>
+
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            {companies.map((company) => {
+              // Map slug to image file
+              const imageMap: Record<string, string> = {
+                'aspelin-ramm': '/images/companies/aspelin-ramm.webp',
+                'brodrene-evensen': '/images/companies/brodrene-evensen.webp',
+                'eiendomsspar': '/images/companies/eiendomsspar.jpg',
+                'front-real-estate': '/images/companies/malling-co.jpg', // Using existing image for now
+                'maya-eiendom': '/images/companies/maya-eiendom.jpg',
+                'roger-vodal': '/images/companies/roger-vodal.jpg',
+                'sio': '/images/companies/sio.jpg',
+                'spabo': '/images/companies/spabo.jpg',
+              };
+
+              return (
+                <Link
+                  key={company.slug}
+                  href={`/${company.slug}`}
+                  className="group relative overflow-hidden rounded-xl bg-white shadow-md transition-all hover:shadow-xl"
+                >
+                  {/* Image Container */}
+                  <div className="relative aspect-[4/3] w-full overflow-hidden">
+                    {imageMap[company.slug] ? (
+                      <Image
+                        src={imageMap[company.slug]}
+                        alt={company.name}
+                        fill
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                      />
+                    ) : (
+                      <div className="flex h-full w-full items-center justify-center bg-gray-100 text-gray-400">
+                        <span>Ingen bilde</span>
+                      </div>
+                    )}
+
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 transition-opacity duration-300 group-hover:opacity-70" />
+                  </div>
+
+                  {/* Content Overlay */}
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <h4 className="text-xl font-bold text-white drop-shadow-md">
+                      {company.name}
+                    </h4>
+                    <div className="mt-2 flex items-center gap-2 text-sm font-medium text-white/90 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100 translate-y-2">
+                      <span>Utforsk portefølje</span>
+                      <span>→</span>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </Container>
+      </section>
 
       {/* Natural State Info */}
       <NaturalStateInfo />

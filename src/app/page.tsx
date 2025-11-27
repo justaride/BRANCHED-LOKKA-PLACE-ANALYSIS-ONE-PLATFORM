@@ -57,17 +57,16 @@ export default function LandingPage() {
               <div className="absolute inset-0 flex items-center">
                 <div className="px-8 md:px-12">
                   <div className="mb-4 inline-block rounded-full bg-white/20 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-sm">
-                    Natural State Place Analysis
+                    Medlemsportal
                   </div>
                   <h2 className="mb-3 text-4xl font-bold text-white md:text-5xl">
-                    Områdeanalyser
+                    Hovedsiden
                   </h2>
                   <p className="mb-6 max-w-2xl text-lg text-white/90 md:text-xl">
-                    Omfattende stedsanalyser av Grünerløkka. Utforsk demografi, handel,
-                    bevegelsesmønstre og utviklingstrender.
+                    En plattform for medlemmene i Grünerløkka Gårdeierforening for å forstå utviklingen på Løkka.
                   </p>
                   <div className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 text-lg font-semibold text-lokka-primary transition-all group-hover:bg-lokka-primary group-hover:text-white">
-                    Se analyser
+                    Login
                     <span className="transition-transform group-hover:translate-x-1">→</span>
                   </div>
                 </div>

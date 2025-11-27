@@ -55,7 +55,7 @@ export default async function RogerVodalEiendomPage({ params }: PageProps) {
 
   const topCategory = eiendom.naringsaktorer?.categoryStats
     ? Object.entries(eiendom.naringsaktorer.categoryStats)
-        .sort((a, b) => b[1].count - a[1].count)[0]?.[0] || ''
+      .sort((a, b) => b[1].count - a[1].count)[0]?.[0] || ''
     : '';
 
   return (
@@ -99,7 +99,7 @@ export default async function RogerVodalEiendomPage({ params }: PageProps) {
                   )}
                   <div className="rounded-lg bg-white/10 px-3 py-1.5 backdrop-blur md:px-4 md:py-2">
                     <span className="font-semibold">Rapport:</span>{' '}
-                    {formaterDato(eiendom.plaaceData.rapportDato)}
+                    {eiendom.plaaceData?.rapportDato ? formaterDato(eiendom.plaaceData.rapportDato) : 'N/A'}
                   </div>
                 </div>
               </FadeIn>
@@ -128,8 +128,8 @@ export default async function RogerVodalEiendomPage({ params }: PageProps) {
 
       {/* Key Metrics Section */}
       <KeyMetrics
-        energyRating={eiendom.plaaceData.nokkeldata?.energimerke}
-        buildingArea={eiendom.plaaceData.nokkeldata?.areal}
+        energyRating={eiendom.plaaceData?.nokkeldata?.energimerke}
+        buildingArea={eiendom.plaaceData?.nokkeldata?.areal}
         totalRevenue={totalRevenue}
         totalActors={totalActors}
         topCategory={topCategory}

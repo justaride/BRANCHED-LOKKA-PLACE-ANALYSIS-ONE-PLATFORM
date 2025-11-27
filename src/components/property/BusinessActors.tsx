@@ -18,18 +18,20 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
   // Filter actors by category and sort by revenue (highest first)
+  const safeActors = actors || [];
   const filteredActors = (selectedCategory === 'all'
-    ? actors
-    : actors.filter(a => a.type === selectedCategory))
+    ? safeActors
+    : safeActors.filter(a => a.type === selectedCategory))
     .sort((a, b) => (b.omsetning || 0) - (a.omsetning || 0));
 
   // Top 3 categories by count
-  const topCategories = Object.entries(categoryStats)
+  const safeCategoryStats = categoryStats || {};
+  const topCategories = Object.entries(safeCategoryStats)
     .sort((a, b) => b[1].count - a[1].count)
     .slice(0, 3);
 
   // Calculate total revenue
-  const totalRevenue = actors.reduce((sum, a) => sum + (a.omsetning || 0), 0);
+  const totalRevenue = safeActors.reduce((sum, a) => sum + (a.omsetning || 0), 0);
 
   // Format number with thousand separators
   const formatNumber = (num: number) => {
@@ -79,8 +81,8 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
             <div className="mb-2 text-xs font-medium uppercase tracking-wider text-slate-600 md:text-sm">
               Største aktør
             </div>
-            <div className="text-base font-bold text-slate-900 md:text-lg line-clamp-2">{actors[0]?.navn || 'N/A'}</div>
-            <div className="mt-1 text-xs text-indigo-600 md:mt-2 md:text-sm">NOK {actors[0]?.omsetning || 0} mill.</div>
+            <div className="text-base font-bold text-slate-900 md:text-lg line-clamp-2">{safeActors[0]?.navn || 'N/A'}</div>
+            <div className="mt-1 text-xs text-indigo-600 md:mt-2 md:text-sm">NOK {safeActors[0]?.omsetning || 0} mill.</div>
           </div>
         </div>
 
@@ -122,7 +124,7 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
               className="w-full rounded-lg border-2 border-gray-300 bg-white px-4 py-3 text-sm font-medium text-slate-900 shadow-sm transition-all hover:border-indigo-500 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-600/20 md:w-auto md:min-w-[280px]"
             >
               <option value="all">Alle kategorier ({metadata.totalActors})</option>
-              {Object.entries(categoryStats)
+              {Object.entries(safeCategoryStats)
                 .sort((a, b) => b[1].count - a[1].count)
                 .map(([category, stats]) => (
                   <option key={category} value={category}>
@@ -134,11 +136,10 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
             {/* Vis alle aktører button - STØRRE */}
             <button
               onClick={() => setIsExpanded(!isExpanded)}
-              className={`group flex w-full items-center justify-center gap-3 rounded-lg px-8 py-4 text-base font-bold shadow-lg transition-all hover:shadow-xl md:w-auto md:min-w-[240px] ${
-                isExpanded
-                  ? 'border-2 border-indigo-300 bg-white text-slate-900 hover:bg-indigo-50'
-                  : 'border-2 border-indigo-600 bg-indigo-600 text-white hover:bg-indigo-700 hover:border-indigo-700'
-              }`}
+              className={`group flex w-full items-center justify-center gap-3 rounded-lg px-8 py-4 text-base font-bold shadow-lg transition-all hover:shadow-xl md:w-auto md:min-w-[240px] ${isExpanded
+                ? 'border-2 border-indigo-300 bg-white text-slate-900 hover:bg-indigo-50'
+                : 'border-2 border-indigo-600 bg-indigo-600 text-white hover:bg-indigo-700 hover:border-indigo-700'
+                }`}
               aria-expanded={isExpanded}
               aria-controls="aktor-liste"
             >
@@ -171,9 +172,8 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
         {/* Collapsible Table */}
         <div
           id="aktor-liste"
-          className={`overflow-hidden transition-all duration-700 ease-out ${
-            isExpanded ? 'max-h-[10000px] opacity-100' : 'max-h-0 opacity-0'
-          }`}
+          className={`overflow-hidden transition-all duration-700 ease-out ${isExpanded ? 'max-h-[10000px] opacity-100' : 'max-h-0 opacity-0'
+            }`}
           style={{
             transitionTimingFunction: isExpanded
               ? 'cubic-bezier(0.4, 0, 0.2, 1)'
@@ -239,13 +239,12 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
                       )}
                     </td>
                     <td
-                      className={`hidden whitespace-nowrap px-4 py-3 text-right text-sm font-semibold md:table-cell md:px-6 md:py-4 ${
-                        aktor.yoyVekst === null
-                          ? 'text-slate-600'
-                          : aktor.yoyVekst < 0
+                      className={`hidden whitespace-nowrap px-4 py-3 text-right text-sm font-semibold md:table-cell md:px-6 md:py-4 ${aktor.yoyVekst === null
+                        ? 'text-slate-600'
+                        : aktor.yoyVekst < 0
                           ? 'text-red-600'
                           : 'text-green-600'
-                      }`}
+                        }`}
                     >
                       {aktor.yoyVekst !== null ? `${aktor.yoyVekst > 0 ? '+' : ''}${aktor.yoyVekst}%` : '-'}
                     </td>
@@ -273,7 +272,7 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
         <div className="mt-8 md:mt-12">
           <h3 className="mb-4 text-lg font-bold text-slate-900 md:mb-6 md:text-xl">Fordeling per kategori</h3>
           <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-            {Object.entries(categoryStats)
+            {Object.entries(safeCategoryStats)
               .sort((a, b) => b[1].count - a[1].count)
               .map(([category, stats]) => {
                 const percentage = (stats.count / metadata.totalActors) * 100;
@@ -281,11 +280,10 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
                 return (
                   <div
                     key={category}
-                    className={`group relative cursor-pointer rounded-lg border p-4 transition-all hover:shadow-md ${
-                      isSelected
-                        ? 'border-indigo-600 bg-indigo-50 shadow-sm'
-                        : 'border-gray-200/50 bg-white hover:border-indigo-600'
-                    }`}
+                    className={`group relative cursor-pointer rounded-lg border p-4 transition-all hover:shadow-md ${isSelected
+                      ? 'border-indigo-600 bg-indigo-50 shadow-sm'
+                      : 'border-gray-200/50 bg-white hover:border-indigo-600'
+                      }`}
                     onClick={() => {
                       setSelectedCategory(category);
                       setIsExpanded(true);
@@ -313,9 +311,8 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
                     </div>
                     <div className="mb-2 h-2 overflow-hidden rounded-full bg-slate-100">
                       <div
-                        className={`h-full rounded-full transition-all ${
-                          isSelected ? 'bg-indigo-700' : 'bg-indigo-600 group-hover:bg-indigo-700'
-                        }`}
+                        className={`h-full rounded-full transition-all ${isSelected ? 'bg-indigo-700' : 'bg-indigo-600 group-hover:bg-indigo-700'
+                          }`}
                         style={{ width: `${percentage}%` }}
                       />
                     </div>
