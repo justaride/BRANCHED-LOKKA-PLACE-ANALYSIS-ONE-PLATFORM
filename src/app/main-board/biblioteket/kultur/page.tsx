@@ -2,6 +2,8 @@ import Container from '@/components/ui/Container';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getKulturMaster, getKulturTimeline, getKulturIndexes, getKulturMasterText } from '@/lib/loaders/biblioteket-loader';
+import ImageCarousel from '@/components/biblioteket/ImageCarousel';
+import { biblioteketCarouselImages } from '@/lib/constants/carousel-images';
 
 export const metadata = {
     title: 'Kunst og Kultur - Løkka Biblioteket',
@@ -91,17 +93,25 @@ export default function KulturPage() {
                 </Container>
             </section>
 
-            {/* Main Text */}
+            {/* Main Text with Carousel */}
             <section className="border-b border-gray-200 bg-gray-50 py-16">
                 <Container>
-                    <div className="mx-auto max-w-3xl">
-                        <h2 className="mb-8 text-2xl font-bold text-gray-900">Om kulturlivet på Grünerløkka</h2>
-                        <div className="prose prose-lg prose-gray">
-                            {paragraphs.slice(0, 3).map((p, i) => (
-                                <p key={i} className="mb-6 text-gray-700 leading-relaxed">
-                                    {p}
-                                </p>
-                            ))}
+                    <div className="grid gap-12 lg:grid-cols-2 items-center">
+                        <div>
+                            <h2 className="mb-8 text-2xl font-bold text-gray-900">Om kulturlivet på Grünerløkka</h2>
+                            <div className="prose prose-lg prose-gray">
+                                {paragraphs.slice(0, 3).map((p, i) => (
+                                    <p key={i} className="mb-6 text-gray-700 leading-relaxed">
+                                        {p}
+                                    </p>
+                                ))}
+                            </div>
+                        </div>
+                        <div>
+                            <ImageCarousel images={biblioteketCarouselImages} />
+                            <p className="mt-3 text-center text-sm text-gray-500 italic">
+                                Kulturelle øyeblikk fra bydelen
+                            </p>
                         </div>
                     </div>
                 </Container>

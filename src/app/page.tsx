@@ -10,7 +10,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-lokka-light to-white">
       {/* Hero Section */}
-      <section className="border-b border-gray-200 py-20">
+      <section className="border-b border-gray-200 py-20" style={{ backgroundColor: '#F3F6F4' }}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             {/* Natural State Logo */}
@@ -39,7 +39,7 @@ export default function LandingPage() {
       </section>
 
       {/* Main Board Featured Section */}
-      <section className="py-16">
+      <section className="py-16" style={{ backgroundColor: '#F3F6F4' }}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Link
             href="/main-board"

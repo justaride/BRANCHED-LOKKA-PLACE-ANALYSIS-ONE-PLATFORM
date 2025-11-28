@@ -273,7 +273,7 @@
     "imageUrl": "/images/ildsjeler/vegard-holm.jpg",
     "profileUrl": "/ildsjeler/vegard-holm",
     "links": [],
-    "isLiving": null
+    "isLiving": true
   },
   {
     "id": "sollin-saele",
@@ -300,6 +300,127 @@
     ],
     "imageUrl": "/images/ildsjeler/sollin-saele.jpg",
     "profileUrl": "/ildsjeler/sollin-saele",
+    "links": [],
+    "isLiving": true
+  },
+  {
+    "id": "jon-christensen",
+    "name": "Jon Christensen",
+    "birthYear": 1943,
+    "deathYear": 2020,
+    "mainPeriod": {
+      "from": 1960,
+      "to": 2020
+    },
+    "categories": [
+      "kultur-og-utested"
+    ],
+    "summary": "Verdenskjent jazztrommeslager som vokste opp på Grünerløkka og ble en av Europas mest innflytelsesrike jazzmusikere.",
+    "description": "Vokste opp på Grünerløkka og startet sin musikalske karriere i lokalmiljøet. Ble internasjonalt anerkjent som en av de mest nyskapende trommeslagerne i europeisk jazz, med samarbeid med Jan Garbarek, Keith Jarrett og Terje Rypdal. Hans røtter på Løkka formet hans unike tilnærming til musikk.",
+    "connectionToGrunerlokka": "Vokste opp i bydelen og hentet inspirasjon fra østkantens musikalske miljø før han ble en internasjonal jazzsensasjon.",
+    "relatedPlaces": [
+      "Grünerløkka",
+      "Jordal Amfi"
+    ],
+    "relatedOrganizations": [
+      "ECM Records"
+    ],
+    "relatedPlaceIds": [
+      "grunerlokka"
+    ],
+    "imageUrl": "/images/ildsjeler/jon-christensen.jpg",
+    "profileUrl": "/ildsjeler/jon-christensen",
+    "links": [],
+    "isLiving": false
+  },
+  {
+    "id": "claire-de-wangen",
+    "name": "Claire de Wangen",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2004,
+      "to": null
+    },
+    "categories": [
+      "kultur-og-utested"
+    ],
+    "summary": "Teaterregissør og kunstner som har gjort Grünerløkkas byrom til scener for stedsspesifikke forestillinger.",
+    "description": "Pionér innen stedsspesifikt teater i Norge, med prosjekter som «DRIVE-IN» på parkeringsplassen ved Kuba og «Deichmans komplott» inne på Deichman Grünerløkka. Hennes arbeider utforsker forholdet mellom kunst, arkitektur og publikum i bydelens unike miljøer.",
+    "connectionToGrunerlokka": "Har brukt bydelens gater, parkeringsplasser og bibliotek som scener for nyskapende teaterprosjekter.",
+    "relatedPlaces": [
+      "Kuba",
+      "Deichman Grünerløkka"
+    ],
+    "relatedOrganizations": [],
+    "relatedPlaceIds": [
+      "kuba",
+      "deichman-grunerlokka"
+    ],
+    "imageUrl": "/images/ildsjeler/claire-de-wangen.jpg",
+    "profileUrl": "/ildsjeler/claire-de-wangen",
+    "links": [],
+    "isLiving": true
+  },
+  {
+    "id": "guro-lidahl",
+    "name": "Guro Lidahl",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2015,
+      "to": null
+    },
+    "categories": [
+      "kultur-og-utested"
+    ],
+    "summary": "Gallerist og kunstformidler som etablerte Galleri 69 grader Nord i Markveien.",
+    "description": "Grunnlegger av Galleri 69 grader Nord, et viktig visningssted for samtidskunst på Grünerløkka. Har bidratt til å styrke bydelens posisjon som kunstdestinasjon gjennom kuraterte utstillinger og støtte til både etablerte og nye kunstnere.",
+    "connectionToGrunerlokka": "Driver galleri i Markveien og bidrar aktivt til bydelens kunstscene.",
+    "relatedPlaces": [
+      "Markveien",
+      "Galleri 69 grader Nord"
+    ],
+    "relatedOrganizations": [
+      "Galleri 69 grader Nord"
+    ],
+    "relatedPlaceIds": [
+      "markveien"
+    ],
+    "imageUrl": "/images/ildsjeler/guro-lidahl.jpg",
+    "profileUrl": "/ildsjeler/guro-lidahl",
+    "links": [],
+    "isLiving": true
+  },
+  {
+    "id": "martin-horntveth",
+    "name": "Martin Horntveth",
+    "birthYear": 1974,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 1994,
+      "to": null
+    },
+    "categories": [
+      "kultur-og-utested"
+    ],
+    "summary": "Trommeslager og komponist, grunnlegger av Jaga Jazzist – et av Norges mest internasjonalt anerkjente band.",
+    "description": "Medgrunnlegger og trommeslager i Jaga Jazzist, bandet som har vært sentral i å forme Grünerløkkas musikkscene siden 1990-tallet. Bandet øvde og utviklet seg i bydelens øvingslokaler, og har bidratt til å sette norsk musikk på verdenskartet fra sin base på Løkka.",
+    "connectionToGrunerlokka": "Startet og utviklet Jaga Jazzist på Grünerløkka, med øvingslokaler og tilknytning til bydelens musikkscene.",
+    "relatedPlaces": [
+      "Grünerløkka Lufthavn",
+      "Blå"
+    ],
+    "relatedOrganizations": [
+      "Jaga Jazzist",
+      "Smalltown Supersound"
+    ],
+    "relatedPlaceIds": [
+      "grunerlokka-lufthavn",
+      "bla"
+    ],
+    "imageUrl": "/images/ildsjeler/martin-horntveth.jpg",
+    "profileUrl": "/ildsjeler/martin-horntveth",
     "links": [],
     "isLiving": true
   }

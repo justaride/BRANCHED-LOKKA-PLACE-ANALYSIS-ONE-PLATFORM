@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { getHistorieTimeline, getHistorieEvents, getHistorieSections, getHistorieTags, getHistorieEntities } from '@/lib/loaders/biblioteket-loader';
 import ImageCarousel from '@/components/biblioteket/ImageCarousel';
 import { translateHistorieText } from '@/lib/translate-historie';
+import { biblioteketCarouselImages } from '@/lib/constants/carousel-images';
 
 export const metadata = {
     title: 'Byhistorie - Løkka Biblioteket',
@@ -191,7 +192,7 @@ export default function HistoriePage() {
 
                         {/* Image Carousel Column */}
                         <div className="flex items-center">
-                            <ImageCarousel images={historicalImages} interval={5000} />
+                            <ImageCarousel images={biblioteketCarouselImages} />
                         </div>
                     </div>
                 </Container>

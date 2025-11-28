@@ -18,16 +18,16 @@ export default async function AnalyserPage() {
   return (
     <>
       {/* Header Section */}
-      <section className="border-b border-gray-200 bg-gradient-to-br from-natural-forest to-natural-sage py-12 text-white">
+      <section className="border-b border-gray-200 bg-gradient-to-br from-natural-forest to-natural-sage py-12">
         <Container>
           <Link
             href="/main-board"
-            className="mb-4 inline-flex items-center text-sm text-white/80 hover:text-white transition-colors"
+            className="mb-4 inline-flex items-center text-sm text-gray-700 hover:text-gray-900 transition-colors"
           >
             ← Tilbake til hovedsiden
           </Link>
-          <h1 className="mb-4 text-4xl font-bold">Stedsanalyser</h1>
-          <p className="text-lg text-white/90">
+          <h1 className="mb-4 text-4xl font-bold text-gray-900">Stedsanalyser</h1>
+          <p className="text-lg text-gray-700">
             Utforsk stedsanalyser for Grünerløkka
           </p>
         </Container>

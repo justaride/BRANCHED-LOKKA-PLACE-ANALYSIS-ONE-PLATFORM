@@ -2,6 +2,8 @@ import Container from '@/components/ui/Container';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getIldsjeler, getIldsjelKategorier, getIldsjelTidslinje } from '@/lib/loaders/biblioteket-loader';
+import ImageCarousel from '@/components/biblioteket/ImageCarousel';
+import { biblioteketCarouselImages, ildsjelerCarouselImages } from '@/lib/constants/carousel-images';
 
 export const metadata = {
     title: 'Ildsjeler - Løkka Biblioteket',
@@ -50,10 +52,37 @@ export default function IldsjelerPage() {
                         </p>
                     </div>
                 </Container>
-            </section>
+            </section >
+
+            {/* Intro Section with Carousel */}
+            < section className="border-b border-gray-200 bg-gray-50 py-16" >
+                <Container>
+                    <div className="grid gap-12 lg:grid-cols-2 items-center">
+                        <div className="space-y-6">
+                            <h2 className="text-3xl font-bold text-gray-900">
+                                Menneskene som bygget Løkka
+                            </h2>
+                            <div className="prose prose-lg text-gray-600">
+                                <p>
+                                    Grünerløkkas historie er ikke bare murstein og asfalt – det er historien om menneskene som har bodd her, kjempet for bydelen sin, og skapt det unike fellesskapet vi kjenner i dag.
+                                </p>
+                                <p>
+                                    Fra fabrikkarbeiderne som organiserte seg for bedre kår på 1800-tallet, til aksjonistene som stoppet rivingen på 70-tallet, og dagens kulturentreprenører. Ildsjeler har alltid vært drivkraften i bydelens utvikling.
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <ImageCarousel images={ildsjelerCarouselImages} />
+                            <p className="mt-3 text-center text-sm text-gray-500 italic">
+                                Engasjement og fellesskap gjennom tidene
+                            </p>
+                        </div>
+                    </div>
+                </Container>
+            </section >
 
             {/* Stats Section */}
-            <section className="border-b border-gray-200 bg-white py-8">
+            < section className="border-b border-gray-200 bg-white py-8" >
                 <Container>
                     <div className="flex flex-wrap gap-8 justify-center">
                         <div className="text-center">
@@ -74,104 +103,108 @@ export default function IldsjelerPage() {
                         </div>
                     </div>
                 </Container>
-            </section>
+            </section >
 
             {/* Main Content */}
-            <Container className="py-16">
+            < Container className="py-16" >
                 {/* Living Ildsjeler */}
-                {livingIldsjeler.length > 0 && (
-                    <section className="mb-16">
-                        <h2 className="mb-8 text-2xl font-bold text-gray-900 flex items-center gap-2">
-                            <span className="text-green-500">●</span> Aktive Ildsjeler i dag
-                        </h2>
-                        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                            {livingIldsjeler.map((ildsjel) => (
-                                <Link
-                                    key={ildsjel.id}
-                                    href={`/main-board/biblioteket/ildsjeler/${ildsjel.id}`}
-                                    className="group rounded-xl border border-gray-200 bg-white p-6 transition-all hover:shadow-lg hover:border-orange-200"
-                                >
-                                    <div className="mb-4">
-                                        <h3 className="text-xl font-bold text-gray-900 group-hover:text-orange-600">
-                                            {ildsjel.name}
-                                        </h3>
-                                        {ildsjel.birthYear && (
-                                            <p className="text-sm text-gray-500">
-                                                f. {ildsjel.birthYear}
-                                                {ildsjel.mainPeriod.from && ` · Aktiv fra ${ildsjel.mainPeriod.from}`}
-                                            </p>
-                                        )}
-                                    </div>
-                                    <p className="mb-4 text-gray-600 line-clamp-3">
-                                        {ildsjel.summary}
-                                    </p>
-                                    <div className="flex flex-wrap gap-2">
-                                        {ildsjel.categories.slice(0, 2).map((cat) => {
-                                            const kategori = kategorier.find((k) => k.id === cat);
-                                            return (
-                                                <span
-                                                    key={cat}
-                                                    className="inline-block rounded-full bg-orange-50 px-3 py-1 text-xs font-medium text-orange-700"
-                                                >
-                                                    {kategori?.name || cat}
-                                                </span>
-                                            );
-                                        })}
-                                    </div>
-                                </Link>
-                            ))}
-                        </div>
-                    </section>
-                )}
+                {
+                    livingIldsjeler.length > 0 && (
+                        <section className="mb-16">
+                            <h2 className="mb-8 text-2xl font-bold text-gray-900 flex items-center gap-2">
+                                <span className="text-green-500">●</span> Aktive Ildsjeler i dag
+                            </h2>
+                            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                                {livingIldsjeler.map((ildsjel) => (
+                                    <Link
+                                        key={ildsjel.id}
+                                        href={`/main-board/biblioteket/ildsjeler/${ildsjel.id}`}
+                                        className="group rounded-xl border border-gray-200 bg-white p-6 transition-all hover:shadow-lg hover:border-orange-200"
+                                    >
+                                        <div className="mb-4">
+                                            <h3 className="text-xl font-bold text-gray-900 group-hover:text-orange-600">
+                                                {ildsjel.name}
+                                            </h3>
+                                            {ildsjel.birthYear && (
+                                                <p className="text-sm text-gray-500">
+                                                    f. {ildsjel.birthYear}
+                                                    {ildsjel.mainPeriod.from && ` · Aktiv fra ${ildsjel.mainPeriod.from}`}
+                                                </p>
+                                            )}
+                                        </div>
+                                        <p className="mb-4 text-gray-600 line-clamp-3">
+                                            {ildsjel.summary}
+                                        </p>
+                                        <div className="flex flex-wrap gap-2">
+                                            {ildsjel.categories.slice(0, 2).map((cat) => {
+                                                const kategori = kategorier.find((k) => k.id === cat);
+                                                return (
+                                                    <span
+                                                        key={cat}
+                                                        className="inline-block rounded-full bg-orange-50 px-3 py-1 text-xs font-medium text-orange-700"
+                                                    >
+                                                        {kategori?.name || cat}
+                                                    </span>
+                                                );
+                                            })}
+                                        </div>
+                                    </Link>
+                                ))}
+                            </div>
+                        </section>
+                    )
+                }
 
                 {/* Historical Ildsjeler */}
-                {historicalIldsjeler.length > 0 && (
-                    <section className="mb-16">
-                        <h2 className="mb-8 text-2xl font-bold text-gray-900 flex items-center gap-2">
-                            <span className="text-gray-400">●</span> Historiske Ildsjeler
-                        </h2>
-                        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                            {historicalIldsjeler.map((ildsjel) => (
-                                <Link
-                                    key={ildsjel.id}
-                                    href={`/main-board/biblioteket/ildsjeler/${ildsjel.id}`}
-                                    className="group rounded-xl border border-gray-200 bg-white p-6 transition-all hover:shadow-lg hover:border-orange-200"
-                                >
-                                    <div className="mb-4">
-                                        <h3 className="text-xl font-bold text-gray-900 group-hover:text-orange-600">
-                                            {ildsjel.name}
-                                        </h3>
-                                        <p className="text-sm text-gray-500">
-                                            {ildsjel.birthYear && ildsjel.deathYear
-                                                ? `${ildsjel.birthYear}–${ildsjel.deathYear}`
-                                                : ildsjel.mainPeriod.from && ildsjel.mainPeriod.to
-                                                    ? `Aktiv ${ildsjel.mainPeriod.from}–${ildsjel.mainPeriod.to}`
-                                                    : ildsjel.mainPeriod.from
-                                                        ? `Aktiv fra ${ildsjel.mainPeriod.from}`
-                                                        : ''}
+                {
+                    historicalIldsjeler.length > 0 && (
+                        <section className="mb-16">
+                            <h2 className="mb-8 text-2xl font-bold text-gray-900 flex items-center gap-2">
+                                <span className="text-gray-400">●</span> Historiske Ildsjeler
+                            </h2>
+                            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                                {historicalIldsjeler.map((ildsjel) => (
+                                    <Link
+                                        key={ildsjel.id}
+                                        href={`/main-board/biblioteket/ildsjeler/${ildsjel.id}`}
+                                        className="group rounded-xl border border-gray-200 bg-white p-6 transition-all hover:shadow-lg hover:border-orange-200"
+                                    >
+                                        <div className="mb-4">
+                                            <h3 className="text-xl font-bold text-gray-900 group-hover:text-orange-600">
+                                                {ildsjel.name}
+                                            </h3>
+                                            <p className="text-sm text-gray-500">
+                                                {ildsjel.birthYear && ildsjel.deathYear
+                                                    ? `${ildsjel.birthYear}–${ildsjel.deathYear}`
+                                                    : ildsjel.mainPeriod.from && ildsjel.mainPeriod.to
+                                                        ? `Aktiv ${ildsjel.mainPeriod.from}–${ildsjel.mainPeriod.to}`
+                                                        : ildsjel.mainPeriod.from
+                                                            ? `Aktiv fra ${ildsjel.mainPeriod.from}`
+                                                            : ''}
+                                            </p>
+                                        </div>
+                                        <p className="mb-4 text-gray-600 line-clamp-3">
+                                            {ildsjel.summary}
                                         </p>
-                                    </div>
-                                    <p className="mb-4 text-gray-600 line-clamp-3">
-                                        {ildsjel.summary}
-                                    </p>
-                                    <div className="flex flex-wrap gap-2">
-                                        {ildsjel.categories.slice(0, 2).map((cat) => {
-                                            const kategori = kategorier.find((k) => k.id === cat);
-                                            return (
-                                                <span
-                                                    key={cat}
-                                                    className="inline-block rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700"
-                                                >
-                                                    {kategori?.name || cat}
-                                                </span>
-                                            );
-                                        })}
-                                    </div>
-                                </Link>
-                            ))}
-                        </div>
-                    </section>
-                )}
+                                        <div className="flex flex-wrap gap-2">
+                                            {ildsjel.categories.slice(0, 2).map((cat) => {
+                                                const kategori = kategorier.find((k) => k.id === cat);
+                                                return (
+                                                    <span
+                                                        key={cat}
+                                                        className="inline-block rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700"
+                                                    >
+                                                        {kategori?.name || cat}
+                                                    </span>
+                                                );
+                                            })}
+                                        </div>
+                                    </Link>
+                                ))}
+                            </div>
+                        </section>
+                    )
+                }
 
                 {/* Categories */}
                 <section className="mb-16">
@@ -231,7 +264,7 @@ export default function IldsjelerPage() {
                         ))}
                     </div>
                 </section>
-            </Container>
+            </Container >
         </>
     );
 }

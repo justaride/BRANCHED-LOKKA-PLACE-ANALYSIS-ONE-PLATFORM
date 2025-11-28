@@ -15,6 +15,17 @@ export function translateHistorieText(text: string): string {
         'reaches': 'når',
         'invests': 'investerer',
         'lays out': 'legger ut',
+        'subdividing': 'parsellering',
+        'selling': 'salg',
+        'starts': 'starter',
+        'starts subdividing': 'starter parsellering',
+        'anticipation': 'forventning',
+        'being incorporated': 'bli innlemmet',
+        'triggering': 'utløser',
+        'rapid': 'rask',
+        'construction': 'konstruksjon',
+        'later dubbed': 'senere kalt',
+        'by': 'av',
 
         // Common nouns/phrases
         'cultural hub': 'kulturelt knutepunkt',
@@ -48,8 +59,15 @@ export function translateHistorieText(text: string): string {
         'as a protected': 'som et beskyttet',
         'cultural heritage environment': 'kulturarvmiljø',
         'and': 'og',
+        'plots': 'tomter',
+        'landowner': 'grunneier',
+        'wooden house': 'trehus',
+        'area': 'området',
 
         // Specific phrases
+        'Hans Grüner begins subdividing and selling plots': 'Hans Grüner starter parsellering og salg av tomter',
+        'In the 1850s, landowner Hans Grüner starts subdividing and selling plots in anticipation of the area being incorporated into Christiania, triggering rapid wooden house construction later dubbed \'Ny York\'.': 'På 1850-tallet starter grunneier Hans Grüner parsellering og salg av tomter i forventning om at området skal innlemmes i Christiania, noe som utløser rask trehusbygging senere kalt \'Ny York\'.',
+        'Grünerløkka incorporated into Christiania': 'Grünerløkka innlemmet i Christiania',
         'Gentrification accelerates on Grünerløkka': 'Gentrifiseringen akselererer på Grünerløkka',
         'During the 1990s': 'I løpet av 1990-årene',
         'From the 2000s': 'Fra 2000-tallet',

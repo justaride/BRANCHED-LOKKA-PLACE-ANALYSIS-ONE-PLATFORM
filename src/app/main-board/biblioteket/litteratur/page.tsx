@@ -2,6 +2,7 @@ import Container from '@/components/ui/Container';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getLitteratur, getLitteraturTopics, getLitteraturTypes } from '@/lib/loaders/biblioteket-loader';
+import ImageCarousel from '@/components/biblioteket/ImageCarousel';
 
 export const metadata = {
     title: 'Litteratur - Løkka Biblioteket',
@@ -109,6 +110,39 @@ export default function LitteraturPage() {
                         <div className="text-center">
                             <div className="text-3xl font-bold text-blue-600">{topics.length}</div>
                             <div className="text-sm text-gray-500">Emner</div>
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
+            {/* Intro Section with Carousel */}
+            <section className="border-b border-gray-200 bg-gray-50 py-16">
+                <Container>
+                    <div className="grid gap-12 lg:grid-cols-2 items-center">
+                        {/* Text Content */}
+                        <div className="space-y-6">
+                            <h2 className="text-3xl font-bold text-gray-900">
+                                En litterær reise gjennom Løkka
+                            </h2>
+                            <div className="prose prose-lg text-gray-600">
+                                <p>
+                                    Litteratur om Grünerløkka er en rikholdig samling som speiler bydelens dramatiske forvandling gjennom over hundre år. Fra de tidlige arbeiderklasse-skildringene til dagens analyser av gentrifisering og byutvikling, gir disse verkene et unikt innblikk i Løkkas sjel.
+                                </p>
+                                <p>
+                                    Samlingen omfatter alt fra historiske oppslagsverk og akademiske avhandlinger til levende kulturrapporter. Den dekker sentrale temaer som industrialiseringens fremvekst, den bitre saneringsstriden på 70-tallet som reddet bydelen fra riving, og transformasjonen til dagens pulserende kulturknutepunkt.
+                                </p>
+                                <p>
+                                    Her finner du både tunge akademiske analyser av byutviklingen og nære skildringer av menneskene som har formet bydelen. Det er en historie om motstand, fellesskap og kjærlighet til en av Oslos mest ikoniske bydeler.
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Image Carousel */}
+                        <div>
+                            <ImageCarousel />
+                            <p className="mt-3 text-center text-sm text-gray-500 italic">
+                                Historiske glimt fra Grünerløkka gjennom tidene
+                            </p>
                         </div>
                     </div>
                 </Container>
