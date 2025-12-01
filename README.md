@@ -43,9 +43,9 @@ npm start
 
 ### What is This?
 
-This platform serves **9 separate tenants** under one codebase:
+This platform serves **10 separate tenants** under one codebase:
 - **1× Main Board** - Natural State place analysis hub
-- **8× Property Developers** - Individual company sites with portfolio data
+- **9× Property Developers** - Individual company sites with portfolio data
 
 ### Key Features
 
@@ -80,8 +80,9 @@ This platform serves **9 separate tenants** under one codebase:
 | **SiO** | `/sio` | 3 | Student housing |
 | **Eiendomsspar** | `/eiendomsspar` | 2 | Thorvald Meyers gate |
 | **Front Real Estate** | `/malling-co` | 1 | Single property |
+| **Carucel** | `/carucel` | 1 | Olaf Ryes plass 4 (1-min analysis) |
 
-**Total: 43 properties with complete place analysis data**
+**Total: 44 properties with complete place analysis data**
 
 ---
 

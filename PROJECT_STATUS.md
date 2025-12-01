@@ -1,10 +1,14 @@
 # Løkka Gardeierforening Platform - Project Status
 
-**Last Updated:** November 28, 2025 - 01:00 CET
+**Last Updated:** December 1, 2025 - 10:45 CET
 **Current Status:** 🚀 **PRODUCTION READY** (99% Complete)
 **Deployment:** ✅ Live on Vercel
 **URL:** https://lokka-gardeierforening-platform.vercel.app
 **Latest Updates:**
+- **NEW: Carucel Tenant Added** - New property developer with Olaf Ryes plass 4 analysis
+- Carucel 1-minute walk analysis with interactive charts (demografi, bevegelse, korthandel, konkurransebilde, aktorer)
+- 21 business actors tracked with full financial data
+- Light theme hero banners for Carucel pages
 - Historie JSON data translated from English to Norwegian (7 files)
 - Hero images added to all 4 Biblioteket category pages
 - Custom hero image for Biblioteket landing page
