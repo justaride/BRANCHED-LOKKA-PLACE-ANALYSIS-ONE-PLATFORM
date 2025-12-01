@@ -1,0 +1,34 @@
+{
+  "konseptmiks": [
+    { "kategori1": "Mat og opplevelser", "kategori2": "Restaurant", "antall": 5 },
+    { "kategori1": "Handel", "kategori2": "Klesbutikker", "antall": 3 },
+    { "kategori1": "Handel", "kategori2": "Mat og drikke", "antall": 2 },
+    { "kategori1": "Handel", "kategori2": "Annen handel", "antall": 3 },
+    { "kategori1": "Handel", "kategori2": "Hjem og interiør", "antall": 2 },
+    { "kategori1": "Tjenester", "kategori2": "Skjønnhet og velvære", "antall": 3 },
+    { "kategori1": "Tjenester", "kategori2": "Profesjoner", "antall": 4 },
+    { "kategori1": "Tjenester", "kategori2": "Treningssentre", "antall": 1 }
+  ],
+  "kjederVsUavhengige": [
+    { "year": "2015", "uavhengig": 39.19, "kjeder": 60.81 },
+    { "year": "2016", "uavhengig": 37.07, "kjeder": 62.93 },
+    { "year": "2017", "uavhengig": 48.88, "kjeder": 51.12 },
+    { "year": "2018", "uavhengig": 44.53, "kjeder": 55.47 },
+    { "year": "2019", "uavhengig": 34.34, "kjeder": 65.66 },
+    { "year": "2020", "uavhengig": 33.99, "kjeder": 66.01 },
+    { "year": "2021", "uavhengig": 30.30, "kjeder": 69.70 },
+    { "year": "2022", "uavhengig": 35.56, "kjeder": 64.44 },
+    { "year": "2023", "uavhengig": 37.08, "kjeder": 62.92 },
+    { "year": "2024", "uavhengig": 41.01, "kjeder": 58.99 },
+    { "year": "2025", "uavhengig": 35.39, "kjeder": 64.61 }
+  ],
+  "nøkkeltall": {
+    "konseptTetthet": 920,
+    "totalOmsetning": 236,
+    "omsetningTetthet": 9440,
+    "trend": {
+      "konseptTetthet": -3,
+      "omsetning": -8
+    }
+  }
+}

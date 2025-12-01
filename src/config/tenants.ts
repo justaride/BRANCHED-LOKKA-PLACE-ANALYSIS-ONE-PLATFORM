@@ -181,6 +181,24 @@ export const TENANTS: Record<string, TenantConfig> = {
       showAnalyser: false,
     },
   },
+  'carucel': {
+    slug: 'carucel',
+    name: 'Carucel',
+    displayName: 'Eiendomsanalyse - Carucel',
+    type: 'company',
+    primaryLogo: '/images/logos/natural-state.png',
+    secondaryLogo: '/images/companies/carucel/logo.png',
+    websiteUrl: 'https://carucel.no',
+    description: 'Placeanalyser for Carucel - Olaf Ryes plass, Grünerløkka',
+    keywords: ['Oslo', 'Grünerløkka', 'Olaf Ryes plass', 'eiendom', 'placeanalyse', 'Carucel'],
+    passwordEnvVar: 'CARUCEL_PASSWORD',
+    requiresAuth: true,
+    features: {
+      showMainBoardLink: true,
+      showEiendommer: true,
+      showAnalyser: false,
+    },
+  },
 };
 
 export function getTenant(slug: string): TenantConfig | null {

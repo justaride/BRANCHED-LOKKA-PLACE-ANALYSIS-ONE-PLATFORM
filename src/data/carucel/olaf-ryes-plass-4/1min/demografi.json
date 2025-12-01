@@ -1,0 +1,68 @@
+{
+  "aldersfordeling": {
+    "mann": [
+      { "category": "0-5", "value": 17 },
+      { "category": "6-12", "value": 14 },
+      { "category": "13-15", "value": 6 },
+      { "category": "16-18", "value": 6 },
+      { "category": "19-23", "value": 28 },
+      { "category": "23-34", "value": 100 },
+      { "category": "35-44", "value": 57 },
+      { "category": "45-54", "value": 40 },
+      { "category": "55-64", "value": 23 },
+      { "category": "65-74", "value": 12 },
+      { "category": "75-84", "value": 7 },
+      { "category": "85+", "value": 1 }
+    ],
+    "kvinne": [
+      { "category": "0-5", "value": 16 },
+      { "category": "6-12", "value": 11 },
+      { "category": "13-15", "value": 5 },
+      { "category": "16-18", "value": 8 },
+      { "category": "19-23", "value": 29 },
+      { "category": "23-34", "value": 115 },
+      { "category": "35-44", "value": 47 },
+      { "category": "45-54", "value": 34 },
+      { "category": "55-64", "value": 21 },
+      { "category": "65-74", "value": 13 },
+      { "category": "75-84", "value": 5 },
+      { "category": "85+", "value": 1 }
+    ]
+  },
+  "inntektsfordeling": [
+    { "category": "0 NOK", "value": 73.63 },
+    { "category": "0 NOK - NOK 100k", "value": 78.52 },
+    { "category": "NOK 100k - NOK 200k", "value": 60.30 },
+    { "category": "NOK 200k - NOK 300k", "value": 58.50 },
+    { "category": "NOK 300k - NOK 400k", "value": 57.86 },
+    { "category": "NOK 400k - NOK 500k", "value": 58.55 },
+    { "category": "NOK 500k - NOK 600k", "value": 48.88 },
+    { "category": "NOK 600k - NOK 700k", "value": 30.22 },
+    { "category": "NOK 700k - NOK 800k", "value": 20.68 },
+    { "category": "NOK 800k - NOK 1 mill.", "value": 40.24 },
+    { "category": "NOK 1 mill. - NOK 1,5 mill.", "value": 5.28 },
+    { "category": "NOK 1,5 mill.+", "value": 3.74 }
+  ],
+  "husholdninger": [
+    { "type": "Par uten hjemmeboende barn", "value": 73 },
+    { "type": "Par med barn", "value": 35 },
+    { "type": "Aleneboende", "value": 201 },
+    { "type": "Enslig forelder med barn", "value": 15 },
+    { "type": "Andre husholdninger", "value": 5 }
+  ],
+  "nøkkeltall": {
+    "befolkning": 616,
+    "befolkningstetthet": 24640,
+    "områdestørrelse": 0.025,
+    "vekst": 2.8,
+    "totalMann": 311,
+    "totalKvinne": 305
+  },
+  "medianInntektPerHusholdstype": [
+    { "type": "Alle husholdninger", "median": 479000.0 },
+    { "type": "Par uten hjemmeboende barn", "median": 826000.0 },
+    { "type": "Par med barn", "median": 1015000.0 },
+    { "type": "Aleneboende", "median": 383000.0 },
+    { "type": "Enslig forelder med barn", "median": 457000.0 }
+  ]
+}

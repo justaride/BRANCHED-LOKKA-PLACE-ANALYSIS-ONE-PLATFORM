@@ -1,0 +1,205 @@
+{
+  "id": "olaf-ryes-plass-4",
+  "adresse": "Olaf Ryes Plass 4",
+  "gnr": 228,
+  "bnr": 388,
+  "beskrivelse": "Sentralt plassert eiendom på Grünerløkkas mest kjente torg. 1 minutts gangavstand-analyse viser et hyperurbant område med høy fotgjengertrafikk, sterk restaurantsektor og en demografisk profil dominert av unge voksne og aleneboende.",
+  "heroImage": "/images/companies/carucel/olaf-ryes-plass-4-hero.jpg",
+  "mapImage": "/images/companies/carucel/olaf-ryes-plass-4-map.png",
+  "coordinates": {
+    "lat": 59.9226,
+    "lng": 10.7585
+  },
+  "plaaceData": {
+    "rapportDato": "2024-12-01T00:00:00Z",
+    "screenshots": [
+      {
+        "filnavn": "Områdebildet",
+        "path": "/images/companies/carucel/olaf-ryes-plass-4-omradebildet.png",
+        "beskrivelse": "Oversikt over området",
+        "kategori": "oversikt"
+      },
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/companies/carucel/olaf-ryes-plass-4-besokende.png",
+        "beskrivelse": "Hvor besøkende kommer fra",
+        "kategori": "bevegelse"
+      },
+      {
+        "filnavn": "Kart",
+        "path": "/images/companies/carucel/olaf-ryes-plass-4-map.png",
+        "beskrivelse": "Markert område for 1 min analyse",
+        "kategori": "oversikt"
+      }
+    ],
+    "nokkeldata": {
+      "prisniva": "105 000 kr/m²",
+      "leieinntekter": "2 500-3 500 NOK/m²/år",
+      "befolkning": 616,
+      "gjennomsnittsinntekt": "479 000 NOK",
+      "arbeidsledighet": null,
+      "areal": null,
+      "byggeaar": null,
+      "energimerke": null
+    },
+    "demografi": {
+      "totalBefolkning": 616,
+      "husstandsstorrelse": 1.87
+    },
+    "marked": {
+      "omsetning": 236,
+      "kvadratmeterpris": 105000
+    }
+  },
+  "plaaceAnalyses": [
+    {
+      "id": "1min-gange",
+      "tittel": "1 minutts gange",
+      "beskrivelse": "Hyperlokal analyse av umiddelbar nærhet til eiendommen",
+      "parametere": {
+        "gangeavstand": "1 minutt",
+        "radius": 80,
+        "transporttype": "gange",
+        "notater": "Fokusområde rundt Olaf Ryes plass"
+      },
+      "rapportDato": "2024-12-01T00:00:00Z",
+      "screenshots": [
+        {
+          "filnavn": "Områdebildet",
+          "path": "/images/companies/carucel/olaf-ryes-plass-4-omradebildet.png",
+          "beskrivelse": "Oversikt over området",
+          "kategori": "oversikt"
+        }
+      ],
+      "nokkeldata": {
+        "befolkning": 616,
+        "gjennomsnittsinntekt": "479 000 NOK"
+      }
+    }
+  ],
+  "tilleggsinfo": {
+    "historikk": "# Olaf Ryes Plass 4 - Eiendomsanalyse\n\n## Beliggenhet\n\nOlaf Ryes Plass 4 ligger i hjertet av Grünerløkka, Oslos mest levende bydel. Eiendommen har direkte beliggenhet ved Birkelunden/Olaf Ryes plass - bydelens viktigste sosiale møtepunkt.\n\n## Næringsaktører\n\nEiendommen ligger i et område med høy konsentrasjon av serveringssteder og handel. Illegal Burger holder til i Olaf Ryes Plass 4A og er en etablert aktør på plassen.\n\n### Topp aktører i området:\n- **Kiwi Minipris Markveien** - 29% markedsandel, NOK 69 mill. omsetning\n- **Fitness 24 Seven** - 15% markedsandel, NOK 36 mill. omsetning\n- **Villa Paradiso** - 15% markedsandel, NOK 34 mill. omsetning\n\n## Demografi\n\n1-minutts gangavstand-analysen viser:\n- **616 innbyggere** i umiddelbar nærhet\n- **329 husholdninger** - dominert av aleneboende (61%)\n- **Aldersgruppen 23-34** er størst med 215 personer\n- **Medianinntekt:** 479 000 NOK for alle husholdninger\n\n## Bevegelsesmønster\n\n- **3 495 daglige besøkende** i gjennomsnitt\n- **Lørdag** er travleste dag med 4 702 besøkende\n- Peak-tid er **16:00-18:00** med rundt 600 besøkende per time\n- **30% av besøkende** kommer fra Grünerløkka-området\n\n## Korthandel\n\nOmrådet har opplevd nedgang i korthandel sammenlignet med Oslo og Norge:\n- **-15% YoY** i 2024 vs Oslo (-4%)\n- Området presterer under Oslo-gjennomsnittet\n- Sterk lørdag-dominans i handlemønster\n\n## Konkurransebilde\n\n- **Mat og opplevelser** har overindeks (+16% vs kommune)\n- **Handel** har underindeks (-22% vs kommune)\n- **Ca. 40% uavhengige** vs 60% kjeder i 2024\n- 5 restauranter, 10 handelsaktører, 8 tjenesteytere i 1 min radius",
+    "kontaktperson": "Carucel AS",
+    "notater": [
+      "1 minutts gangavstand-analyse",
+      "Hyperlokal analyse - 0.025 km²",
+      "Data fra Plaace, BankAxept, Telia, SSB",
+      "Rapportdato: Desember 2024",
+      "616 innbyggere i analyseområdet",
+      "329 husholdninger",
+      "21 næringsaktører kartlagt",
+      "Total omsetning: NOK 236 mill.",
+      "Besøkende per dag: 3 495"
+    ],
+    "lenker": []
+  },
+  "metadata": {
+    "opprettet": "2024-12-01T00:00:00Z",
+    "sistOppdatert": "2024-12-01T00:00:00Z",
+    "status": "publisert",
+    "versjon": 1
+  },
+  "naringsaktorer": {
+    "actors": [
+      {
+        "rank": "#1",
+        "navn": "Kiwi Minipris Markveien",
+        "type": "Handel / Mat og drikke",
+        "adresse": "MARKVEIEN 35 B",
+        "kommune": "Oslo",
+        "omsetning": 69,
+        "kjedeProsent": "0.1%",
+        "yoyVekst": 7,
+        "ansatteLokalt": 18,
+        "ansatteKjede": 14363,
+        "kjedeLokasjoner": 728,
+        "markedsandel": 29.29
+      },
+      {
+        "rank": "#2",
+        "navn": "Fitness 24 Seven Markveien Senter",
+        "type": "Tjenester / Treningssentre",
+        "adresse": "ØSTRE AKER VEI 17",
+        "kommune": "Oslo",
+        "omsetning": 36,
+        "kjedeProsent": null,
+        "yoyVekst": 12,
+        "ansatteLokalt": 12,
+        "ansatteKjede": 11,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 15.25
+      },
+      {
+        "rank": "#3",
+        "navn": "Villa Paradiso Grunerløkka",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "OLAF RYES PLASS 8",
+        "kommune": "Oslo",
+        "omsetning": 34,
+        "kjedeProsent": "35%",
+        "yoyVekst": -8,
+        "ansatteLokalt": 29,
+        "ansatteKjede": 93,
+        "kjedeLokasjoner": 3,
+        "markedsandel": 14.54
+      },
+      {
+        "rank": "#4",
+        "navn": "Boots Apotek Grünerløkka",
+        "type": "Handel / Annen handel",
+        "adresse": "SOFIENBERGGATA 6",
+        "kommune": "Oslo",
+        "omsetning": 20,
+        "kjedeProsent": "0.4%",
+        "yoyVekst": -10,
+        "ansatteLokalt": 8,
+        "ansatteKjede": 1534,
+        "kjedeLokasjoner": 156,
+        "markedsandel": 8.43
+      },
+      {
+        "rank": "#5",
+        "navn": "Kristiania Bar & Café",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "OLAF RYES PLASS 9",
+        "kommune": "Oslo",
+        "omsetning": 14,
+        "kjedeProsent": null,
+        "yoyVekst": -5,
+        "ansatteLokalt": 20,
+        "ansatteKjede": 25,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 5.73
+      },
+      {
+        "rank": "#6",
+        "navn": "Illegal Burger Ryes Plass AS",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "OLAF RYES PLASS 4 A",
+        "kommune": "Oslo",
+        "omsetning": 9,
+        "kjedeProsent": null,
+        "yoyVekst": 0,
+        "ansatteLokalt": 70,
+        "ansatteKjede": 55,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 3.91
+      }
+    ],
+    "categoryStats": {
+      "Handel / Mat og drikke": { "count": 2, "totalRevenue": 73, "avgRevenue": 36.5 },
+      "Tjenester / Treningssentre": { "count": 1, "totalRevenue": 36, "avgRevenue": 36 },
+      "Mat og opplevelser / Restaurant": { "count": 5, "totalRevenue": 66, "avgRevenue": 13.2 },
+      "Handel / Annen handel": { "count": 2, "totalRevenue": 23, "avgRevenue": 11.5 },
+      "Tjenester / Profesjoner": { "count": 3, "totalRevenue": 10.25, "avgRevenue": 3.42 },
+      "Tjenester / Skjønnhet og velvære": { "count": 3, "totalRevenue": 10, "avgRevenue": 3.33 },
+      "Handel / Klesbutikker": { "count": 3, "totalRevenue": 10, "avgRevenue": 3.33 },
+      "Handel / Hjem og interiør": { "count": 2, "totalRevenue": 7, "avgRevenue": 3.5 }
+    },
+    "metadata": {
+      "totalActors": 21,
+      "totalCategories": 8,
+      "generatedAt": "2024-12-01T00:00:00Z"
+    }
+  }
+}
