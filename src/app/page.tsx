@@ -125,6 +125,7 @@ export default function LandingPage() {
                 'roger-vodal': '/images/companies/roger-vodal.jpg',
                 'sio': '/images/companies/sio.jpg',
                 'spabo': '/images/companies/spabo.jpg',
+                'carucel': '/images/companies/carucel/olaf-ryes-plass-4-card.webp',
               };
 
               return (
