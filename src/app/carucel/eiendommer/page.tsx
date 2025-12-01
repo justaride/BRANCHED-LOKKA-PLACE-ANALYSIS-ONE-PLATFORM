@@ -13,10 +13,10 @@ export default async function CarucelEiendommerPage() {
   return (
     <>
       {/* Header Section */}
-      <section className="border-b border-gray-200 bg-gradient-to-br from-lokka-primary to-lokka-secondary py-12 text-white">
+      <section className="border-b border-gray-200 bg-gradient-to-br from-gray-50 via-white to-gray-100 py-12">
         <Container>
-          <h1 className="mb-4 text-4xl font-bold">Eiendommer</h1>
-          <p className="text-lg text-white/90">
+          <h1 className="mb-4 text-4xl font-bold text-gray-900">Eiendommer</h1>
+          <p className="text-lg text-gray-700">
             Utforsk placeanalyser og eiendomsinformasjon for Carucel sin
             portefølje på Grünerløkka
           </p>
