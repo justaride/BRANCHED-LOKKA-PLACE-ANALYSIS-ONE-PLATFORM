@@ -65,16 +65,13 @@ export default async function CarucelEiendomPage({ params }: PageProps) {
   return (
     <>
       {/* Header Section with Image */}
-      <section className="relative overflow-hidden border-b border-gray-200/30 bg-gradient-to-br from-slate-900 via-indigo-950 to-purple-900 py-8 text-white md:py-16">
-        {/* Animated gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 via-purple-600/20 to-pink-600/20 opacity-50 mix-blend-overlay" />
-
+      <section className="relative overflow-hidden border-b border-gray-200 bg-gradient-to-br from-gray-50 via-white to-gray-100 py-8 text-gray-900 md:py-16">
         <Container>
           <FadeIn direction="down">
             <div className="relative mb-4 md:mb-6">
               <Link
                 href="/carucel/eiendommer"
-                className="inline-flex items-center gap-2 text-xs text-white/80 transition-colors hover:text-white md:text-sm"
+                className="inline-flex items-center gap-2 text-xs text-gray-600 transition-colors hover:text-gray-900 md:text-sm"
               >
                 <span>←</span> Tilbake til oversikt
               </Link>
@@ -91,17 +88,17 @@ export default async function CarucelEiendomPage({ params }: PageProps) {
                     alt="Carucel Logo"
                     width={50}
                     height={50}
-                    className="rounded-lg bg-white p-1"
+                    className="rounded-lg bg-white p-1 shadow-md"
                   />
-                  <span className="rounded-full bg-white/20 px-3 py-1 text-sm">
+                  <span className="rounded-full bg-lokka-primary/10 px-3 py-1 text-sm text-lokka-primary font-medium">
                     1 min analyse
                   </span>
                 </div>
-                <h1 className="mb-4 text-3xl font-bold leading-tight tracking-tight md:mb-6 md:text-5xl lg:text-6xl">{eiendom.adresse}</h1>
+                <h1 className="mb-4 text-3xl font-bold leading-tight tracking-tight text-gray-900 md:mb-6 md:text-5xl lg:text-6xl">{eiendom.adresse}</h1>
               </FadeIn>
               {eiendom.beskrivelse && (
                 <FadeIn delay={200} direction="up">
-                  <p className="mb-4 max-w-3xl text-sm leading-relaxed text-white/90 md:mb-6 md:text-lg lg:text-xl">
+                  <p className="mb-4 max-w-3xl text-sm leading-relaxed text-gray-700 md:mb-6 md:text-lg lg:text-xl">
                     {eiendom.beskrivelse}
                   </p>
                 </FadeIn>
@@ -109,11 +106,11 @@ export default async function CarucelEiendomPage({ params }: PageProps) {
               <FadeIn delay={300} direction="up">
                 <div className="flex flex-wrap gap-2 text-xs md:gap-3 md:text-sm">
                   {eiendom.gnr && eiendom.bnr && (
-                    <div className="rounded-lg bg-white/10 px-3 py-1.5 backdrop-blur md:px-4 md:py-2">
+                    <div className="rounded-lg bg-gray-100 px-3 py-1.5 text-gray-700 md:px-4 md:py-2">
                       <span className="font-semibold">Gnr/Bnr:</span> {eiendom.gnr}/{eiendom.bnr}
                     </div>
                   )}
-                  <div className="rounded-lg bg-white/10 px-3 py-1.5 backdrop-blur md:px-4 md:py-2">
+                  <div className="rounded-lg bg-gray-100 px-3 py-1.5 text-gray-700 md:px-4 md:py-2">
                     <span className="font-semibold">Rapport:</span>{' '}
                     {formaterDato(eiendom.plaaceData.rapportDato)}
                   </div>
@@ -125,7 +122,7 @@ export default async function CarucelEiendomPage({ params }: PageProps) {
             {eiendom.heroImage && (
               <FadeIn delay={400} direction="right">
                 <div className="flex-shrink-0">
-                  <div className="relative h-48 w-48 overflow-hidden rounded-2xl shadow-large ring-2 ring-white/20 md:h-64 md:w-64 lg:h-72 lg:w-72">
+                  <div className="relative h-48 w-48 overflow-hidden rounded-2xl shadow-large ring-2 ring-gray-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
                     <Image
                       src={eiendom.heroImage}
                       alt={eiendom.adresse}
