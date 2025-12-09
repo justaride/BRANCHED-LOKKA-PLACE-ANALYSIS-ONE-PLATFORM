@@ -98,10 +98,11 @@ export default function MainBoardPage() {
 
       {/* Navigation Boxes */}
       <Container className="pb-8">
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-3">
+          {/* Utforsk Analyser - Larger (2 columns) */}
           <Link
             href="/main-board/analyser"
-            className="group relative h-64 overflow-hidden rounded-2xl shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl"
+            className="group relative h-80 overflow-hidden rounded-2xl shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl md:col-span-2"
           >
             <Image
               src="/images/navigation/analyser-bg.jpg"
@@ -112,19 +113,20 @@ export default function MainBoardPage() {
             <div className="absolute inset-0 bg-black/40 transition-opacity duration-300 group-hover:bg-black/30" />
 
             <div className="relative z-10 flex h-full flex-col justify-end p-8 text-white">
-              <h3 className="mb-2 text-3xl font-bold drop-shadow-md">Utforsk Analyser</h3>
-              <p className="mb-6 max-w-md text-white/90 drop-shadow-sm">
+              <h3 className="mb-2 text-4xl font-bold drop-shadow-md">Utforsk Analyser</h3>
+              <p className="mb-6 max-w-lg text-lg text-white/90 drop-shadow-sm">
                 Gå til oversikten over månedlige analyser, statistikk og innsikt for Grünerløkka.
               </p>
-              <div className="inline-flex w-fit items-center gap-2 rounded-lg bg-white/20 px-4 py-2 font-semibold backdrop-blur-sm transition-colors group-hover:bg-white group-hover:text-natural-forest">
+              <div className="inline-flex w-fit items-center gap-2 rounded-lg bg-white/20 px-5 py-3 text-lg font-semibold backdrop-blur-sm transition-colors group-hover:bg-white group-hover:text-natural-forest">
                 Gå til analyser →
               </div>
             </div>
           </Link>
 
+          {/* Om Prosjektet - Smaller (1 column) */}
           <Link
             href="/main-board/om-prosjektet"
-            className="group relative h-64 overflow-hidden rounded-2xl shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl"
+            className="group relative h-80 overflow-hidden rounded-2xl shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl"
           >
             <Image
               src="/images/navigation/om-prosjektet-bg.jpg"
@@ -134,10 +136,10 @@ export default function MainBoardPage() {
             />
             <div className="absolute inset-0 bg-black/40 transition-opacity duration-300 group-hover:bg-black/30" />
 
-            <div className="relative z-10 flex h-full flex-col justify-end p-8 text-white">
-              <h3 className="mb-2 text-3xl font-bold drop-shadow-md">Om Prosjektet</h3>
-              <p className="mb-6 max-w-md text-white/90 drop-shadow-sm">
-                Les mer om bakgrunnen for prosjektet, metoden vår og samarbeidspartnerne.
+            <div className="relative z-10 flex h-full flex-col justify-end p-6 text-white">
+              <h3 className="mb-2 text-2xl font-bold drop-shadow-md">Om Prosjektet</h3>
+              <p className="mb-4 text-sm text-white/90 drop-shadow-sm">
+                Les mer om bakgrunnen for prosjektet og metoden vår.
               </p>
               <div className="inline-flex w-fit items-center gap-2 rounded-lg bg-white/20 px-4 py-2 font-semibold backdrop-blur-sm transition-colors group-hover:bg-white group-hover:text-natural-forest">
                 Les mer →
@@ -146,7 +148,8 @@ export default function MainBoardPage() {
           </Link>
         </div>
 
-        {/* Løkka Biblioteket - Full Width */}
+        {/* Løkka Biblioteket - Hidden for now */}
+        {/*
         <div className="mt-6">
           <Link
             href="/main-board/biblioteket"
@@ -175,6 +178,7 @@ export default function MainBoardPage() {
             </div>
           </Link>
         </div>
+        */}
       </Container>
 
       {/* Features Section */}
