@@ -817,7 +817,7 @@ export default function OvreThorvaldMeyersGatePage() {
                   </tr>
                   <tr>
                     <td className="py-3 text-sm font-bold text-lokka-primary">2</td>
-                    <td className="py-3 text-sm">McDonald's</td>
+                    <td className="py-3 text-sm">McDonald&apos;s</td>
                     <td className="py-3 text-xs text-lokka-secondary">Restaurant</td>
                     <td className="py-3 text-right text-sm font-semibold">NOK 58M</td>
                     <td className="py-3 text-right text-sm">18.3%</td>
@@ -894,7 +894,7 @@ export default function OvreThorvaldMeyersGatePage() {
             <div className="mt-6 rounded-lg bg-purple-50 p-4">
               <p className="text-sm text-purple-900">
                 <strong>Observasjon:</strong> Extra Birkelunden dominerer med 27.3% markedsandel,
-                mens de to største aktørene (Extra og McDonald's) står for 45.6% av total omsetning i området.
+                mens de to største aktørene (Extra og McDonald&apos;s) står for 45.6% av total omsetning i området.
               </p>
             </div>
           </div>

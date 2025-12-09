@@ -2,6 +2,7 @@
 
 import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import Link from 'next/link';
 import { getTenant } from '@/config/tenants';
 
 function LoginForm() {
@@ -57,7 +58,7 @@ function LoginForm() {
         setError(data.error || 'Ugyldig passord');
         setLoading(false);
       }
-    } catch (err) {
+    } catch {
       setError('En feil oppstod. Vennligst prøv igjen.');
       setLoading(false);
     }
@@ -137,12 +138,12 @@ function LoginForm() {
           </form>
 
           <div className="mt-6 text-center">
-            <a
+            <Link
               href="/"
               className="text-sm text-blue-600 hover:text-blue-800"
             >
               ← Tilbake til forsiden
-            </a>
+            </Link>
           </div>
         </div>
       </div>

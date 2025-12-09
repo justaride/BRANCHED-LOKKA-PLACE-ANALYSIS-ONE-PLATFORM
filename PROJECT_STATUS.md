@@ -701,16 +701,64 @@ a0cb255 - fix: Update feedback form URL
 
 ---
 
-## 🐛 Known Issues
+## 🐛 Known Issues & Technical Debt
 
-### None Critical ✅
+**Last Health Check:** December 9, 2025
 
-All major issues have been resolved:
+### ESLint Status: 84 errors, 34 warnings
+
+#### Critical (Fixed December 9, 2025)
+- [x] Malformed directory `src/app/[company]/{eiendommer` - DELETED
+- [x] `<a>` instead of `<Link>` in login page - FIXED
+- [x] setState in useEffect (TypingScrollAnimation) - FIXED
+- [x] Unescaped apostrophes in analysis pages - FIXED
+
+#### High Priority (Pending)
+- [ ] 45 instances of `any` type usage in loaders/components
+- [ ] 34 unused variable warnings
+
+#### Medium Priority (Technical Debt)
+- [ ] Route duplication: 11 explicit tenant dirs duplicate `[company]` route
+- [ ] Layout duplication: 12 nearly identical layout.tsx files
+- [ ] Data loader inconsistency: Mix of dynamic imports and static index patterns
+- [ ] Empty `src/data/companies/` directory
+- [ ] Broken `TEMPLATES/company-loader-template.ts`
+
+### Previously Resolved ✅
 - ✅ Dead links fixed
 - ✅ Missing om-prosjektet pages created
 - ✅ Image paths corrected
 - ✅ TypeScript errors resolved
 - ✅ Build errors fixed
+- ✅ Critical RCE vulnerability (Next.js 16.0.3 → 16.0.8)
+
+---
+
+## 🔧 Technical Debt Reduction Plan
+
+### Phase 1: Quick Fixes (Completed Dec 9)
+- Delete malformed directories
+- Fix ESLint critical errors
+- Security updates
+
+### Phase 2: Code Quality (Pending)
+- Replace `any` types with proper TypeScript types
+- Remove unused imports/variables
+- Clean up empty directories
+
+### Phase 3: Architecture Refactor (Future)
+- Consolidate tenant routing to use `[company]` dynamic route
+- Create shared layout component for all tenants
+- Standardize data loader pattern across all companies
+
+### Data Statistics
+| Metric | Value |
+|--------|-------|
+| JSON data files | 257 |
+| Data directory size | 9.7 MB |
+| Total properties | 44 |
+| Tenants | 10 |
+| Static pages generated | 111 |
 
 ---
 

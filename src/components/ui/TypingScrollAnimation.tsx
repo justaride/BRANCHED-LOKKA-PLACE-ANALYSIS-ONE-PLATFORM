@@ -35,8 +35,10 @@ export default function TypingScrollAnimation({
                     setDisplayedText(fullText.slice(0, displayedText.length + 1));
                 }, typingSpeed);
             } else {
-                // Finished typing
-                setIsTyping(false);
+                // Finished typing - use setTimeout to avoid synchronous setState in effect
+                timeout = setTimeout(() => {
+                    setIsTyping(false);
+                }, 0);
             }
         } else if (isScrolling) {
             // Scroll animation
