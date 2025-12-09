@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import {
-    getBibliotekCategories,
     getIldsjelById,
     getIldsjeler
 } from '@/lib/loaders/biblioteket-loader';
@@ -16,7 +15,6 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-    const categories = getBibliotekCategories();
     const params = [];
 
     // Add Ildsjeler paths

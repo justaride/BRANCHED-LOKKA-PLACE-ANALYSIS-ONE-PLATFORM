@@ -7,7 +7,6 @@ import {
     getIldsjeler,
     getLitteratur,
     getHistorieEvents,
-    getHistorieTimeline,
     getKulturTimeline,
     getIldsjelPlaces
 } from '@/lib/loaders/biblioteket-loader';
@@ -93,7 +92,6 @@ export default async function CategoryPage({ params }: PageProps) {
                 );
             case 'historie':
                 const events = getHistorieEvents();
-                const timeline = getHistorieTimeline();
                 return (
                     <div className="space-y-16">
                         {/* Introduction Section */}

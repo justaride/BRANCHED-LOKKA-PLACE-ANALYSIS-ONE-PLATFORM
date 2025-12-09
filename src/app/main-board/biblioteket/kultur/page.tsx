@@ -1,7 +1,7 @@
 import Container from '@/components/ui/Container';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getKulturMaster, getKulturTimeline, getKulturIndexes, getKulturMasterText } from '@/lib/loaders/biblioteket-loader';
+import { getKulturTimeline, getKulturIndexes, getKulturMasterText } from '@/lib/loaders/biblioteket-loader';
 import ImageCarousel from '@/components/biblioteket/ImageCarousel';
 import { biblioteketCarouselImages } from '@/lib/constants/carousel-images';
 
@@ -26,7 +26,6 @@ const categoryColors: Record<string, string> = {
 };
 
 export default function KulturPage() {
-    const master = getKulturMaster();
     const timeline = getKulturTimeline();
     const indexes = getKulturIndexes();
     const masterText = getKulturMasterText();

@@ -1,5 +1,4 @@
 import { IldsjelPlace } from '@/types/biblioteket';
-import Image from 'next/image';
 
 interface IldsjelMapProps {
     places: IldsjelPlace[];

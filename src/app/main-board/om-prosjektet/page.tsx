@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Container from '@/components/ui/Container';
-import { Card, CardContent } from '@/components/ui/Card';
 
 export default function OmProsjektetPage() {
   return (

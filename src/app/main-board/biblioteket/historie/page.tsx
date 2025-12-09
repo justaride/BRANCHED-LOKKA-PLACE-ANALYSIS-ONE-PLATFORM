@@ -57,24 +57,6 @@ const tagTranslations: Record<string, string> = {
     resistance: 'Motstand',
 };
 
-// Historical images
-const historicalImages = [
-    '/images/biblioteket/historie/131437476_10157472308051816_5613509697897702049_n.jpg',
-    '/images/biblioteket/historie/143582441_10159029327632929_8546087818736402491_n.jpg',
-    '/images/biblioteket/historie/481263659_23905664919022129_2137822039716910527_n.jpg',
-    '/images/biblioteket/historie/485985039_10160382453116739_5393528813767313680_n.jpg',
-    '/images/biblioteket/historie/489025491_10160427834576739_3923494743279028896_n.jpg',
-    '/images/biblioteket/historie/490582077_9800162713431517_7431391571685646946_n.jpg',
-    '/images/biblioteket/historie/494887379_10160837846541816_8786451453550421570_n.jpg',
-    '/images/biblioteket/historie/509241208_10232953091283538_164274311214702453_n.jpg',
-    '/images/biblioteket/historie/512667533_10161045930676816_6143960965611382927_n.jpg',
-    '/images/biblioteket/historie/515278527_10160780998601739_3401247089254822682_n.jpg',
-    '/images/biblioteket/historie/515385023_10161098785301816_8143255531457919833_n.jpg',
-    '/images/biblioteket/historie/515444094_10161098895651816_3149696159658364459_n.jpg',
-    '/images/biblioteket/historie/516349845_10160780635401739_4676736649482318304_n.jpg',
-    '/images/biblioteket/historie/537759121_10160989190266739_8443019286027018674_n.jpg',
-    '/images/biblioteket/historie/Skjermbilde-2020-04-01-kl.-14.07.21-1200x891.png',
-];
 
 export default function HistoriePage() {
     const timeline = getHistorieTimeline();

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getIldsjeler, getIldsjelKategorier, getIldsjelTidslinje } from '@/lib/loaders/biblioteket-loader';
 import ImageCarousel from '@/components/biblioteket/ImageCarousel';
-import { biblioteketCarouselImages, ildsjelerCarouselImages } from '@/lib/constants/carousel-images';
+import { ildsjelerCarouselImages } from '@/lib/constants/carousel-images';
 
 export const metadata = {
     title: 'Ildsjeler - Løkka Biblioteket',

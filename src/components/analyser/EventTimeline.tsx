@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 import {
   ComposedChart,
   Line,
@@ -27,8 +27,88 @@ interface EventTimelineProps {
   startDate?: string;
   endDate?: string;
   bankData?: { date: string; amount: number }[];
-  visitorData?: { date: string; amount: number }[]; // Changed from 'count' to 'amount' for consistency
+  visitorData?: { date: string; amount: number }[];
   className?: string;
+}
+
+interface TimelinePoint {
+  date: string;
+  events: EventReference[];
+  banktransaksjoner?: number;
+  besokende?: number;
+}
+
+interface TooltipPayload {
+  payload: {
+    date: string;
+  };
+}
+
+interface EventTooltipProps {
+  active?: boolean;
+  payload?: TooltipPayload[];
+  timelineData: TimelinePoint[];
+  aggregation: 'day' | 'week' | 'month';
+  showBank: boolean;
+  showVisitors: boolean;
+}
+
+function EventTooltip({ active, payload, timelineData, aggregation, showBank, showVisitors }: EventTooltipProps) {
+  if (!active || !payload || !payload.length) return null;
+
+  const data = payload[0].payload;
+  const point = timelineData.find((p) => p.date === data.date);
+
+  if (!point) return null;
+
+  return (
+    <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-lg">
+      <p className="mb-2 font-semibold text-gray-900">
+        {formatTimelineDate(point.date, aggregation)}
+      </p>
+
+      {point.events.length > 0 && (
+        <div className="mb-3">
+          <p className="mb-1 text-xs font-medium text-gray-500">Arrangementer ({point.events.length})</p>
+          <div className="space-y-1">
+            {point.events.slice(0, 5).map((event) => (
+              <div key={event.id} className="flex items-start gap-2">
+                <span
+                  className="mt-1 h-2 w-2 flex-shrink-0 rounded-full"
+                  style={{ backgroundColor: getEventColor(event.type) }}
+                />
+                <div className="text-xs">
+                  <p className="font-medium text-gray-900">{event.title}</p>
+                  {event.estimatedAttendees && (
+                    <p className="text-gray-500">{event.estimatedAttendees.toLocaleString('nb-NO')} besøkende</p>
+                  )}
+                </div>
+              </div>
+            ))}
+            {point.events.length > 5 && (
+              <p className="text-xs italic text-gray-500">+{point.events.length - 5} flere</p>
+            )}
+          </div>
+        </div>
+      )}
+
+      {showBank && point.banktransaksjoner && (
+        <div className="mb-2">
+          <p className="text-xs text-gray-500">
+            Transaksjoner: <span className="font-medium text-blue-600">{point.banktransaksjoner.toLocaleString('nb-NO')}</span>
+          </p>
+        </div>
+      )}
+
+      {showVisitors && point.besokende && (
+        <div>
+          <p className="text-xs text-gray-500">
+            Besøkende: <span className="font-medium text-green-600">{point.besokende.toLocaleString('nb-NO')}</span>
+          </p>
+        </div>
+      )}
+    </div>
+  );
 }
 
 export default function EventTimeline({
@@ -102,64 +182,20 @@ export default function EventTimeline({
     });
   }, [timelineData, aggregation]);
 
-  // Custom tooltip
-  const CustomTooltip = ({ active, payload }: any) => {
-    if (!active || !payload || !payload.length) return null;
-
-    const data = payload[0].payload;
-    const point = timelineData.find((p) => p.date === data.date);
-
-    if (!point) return null;
-
-    return (
-      <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-lg">
-        <p className="mb-2 font-semibold text-gray-900">
-          {formatTimelineDate(point.date, aggregation)}
-        </p>
-
-        {point.events.length > 0 && (
-          <div className="mb-3">
-            <p className="mb-1 text-xs font-medium text-gray-500">Arrangementer ({point.events.length})</p>
-            <div className="space-y-1">
-              {point.events.slice(0, 5).map((event) => (
-                <div key={event.id} className="flex items-start gap-2">
-                  <span
-                    className="mt-1 h-2 w-2 flex-shrink-0 rounded-full"
-                    style={{ backgroundColor: getEventColor(event.type) }}
-                  />
-                  <div className="text-xs">
-                    <p className="font-medium text-gray-900">{event.title}</p>
-                    {event.estimatedAttendees && (
-                      <p className="text-gray-500">{event.estimatedAttendees.toLocaleString('nb-NO')} besøkende</p>
-                    )}
-                  </div>
-                </div>
-              ))}
-              {point.events.length > 5 && (
-                <p className="text-xs italic text-gray-500">+{point.events.length - 5} flere</p>
-              )}
-            </div>
-          </div>
-        )}
-
-        {showBank && point.banktransaksjoner && (
-          <div className="mb-2">
-            <p className="text-xs text-gray-500">
-              Transaksjoner: <span className="font-medium text-blue-600">{point.banktransaksjoner.toLocaleString('nb-NO')}</span>
-            </p>
-          </div>
-        )}
-
-        {showVisitors && point.besokende && (
-          <div>
-            <p className="text-xs text-gray-500">
-              Besøkende: <span className="font-medium text-green-600">{point.besokende.toLocaleString('nb-NO')}</span>
-            </p>
-          </div>
-        )}
-      </div>
-    );
-  };
+  // Memoized tooltip render function
+  const renderTooltip = useCallback(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (props: any) => (
+      <EventTooltip
+        {...props}
+        timelineData={timelineData as TimelinePoint[]}
+        aggregation={aggregation}
+        showBank={showBank}
+        showVisitors={showVisitors}
+      />
+    ),
+    [timelineData, aggregation, showBank, showVisitors]
+  );
 
   return (
     <div className={`rounded-xl bg-white p-6 shadow-sm ${className}`}>
@@ -270,7 +306,7 @@ export default function EventTimeline({
                 label={{ value: showBank ? 'Transaksjoner (kr)' : 'Besøkende', angle: 90, position: 'insideRight', style: { fontSize: 12, fill: '#6b7280' } }}
               />
             )}
-            <Tooltip content={<CustomTooltip />} />
+            <Tooltip content={renderTooltip} />
             <Legend wrapperStyle={{ paddingTop: '20px' }} />
 
             {/* Bank transaction line */}

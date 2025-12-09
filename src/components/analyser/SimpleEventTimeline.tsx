@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 import {
   ComposedChart,
   Bar,
@@ -26,6 +26,71 @@ interface SimpleEventTimelineProps {
   bankData?: { date: string; amount: number }[];
   visitorData?: { date: string; amount: number }[];
   className?: string;
+}
+
+interface TooltipData {
+  eventCount: number;
+  totalAttendees: number;
+  banktransaksjoner?: number;
+  besokende?: number;
+  events?: EventReference[];
+}
+
+interface TooltipPayload {
+  payload: TooltipData;
+}
+
+interface SimpleTooltipProps {
+  active?: boolean;
+  payload?: TooltipPayload[];
+  label?: string;
+  showBank: boolean;
+  showVisitors: boolean;
+}
+
+function SimpleTooltip({ active, payload, label, showBank, showVisitors }: SimpleTooltipProps) {
+  if (!active || !payload || !payload.length) return null;
+
+  const data = payload[0].payload;
+
+  return (
+    <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-lg">
+      <p className="mb-2 font-semibold text-gray-900">{label}</p>
+
+      <div className="space-y-1 text-sm">
+        <p className="text-gray-700">
+          <span className="font-medium">Arrangementer:</span> {data.eventCount}
+        </p>
+        {data.totalAttendees > 0 && (
+          <p className="text-gray-700">
+            <span className="font-medium">Besøkende:</span> {Math.round(data.totalAttendees)}k
+          </p>
+        )}
+        {showBank && data.banktransaksjoner && data.banktransaksjoner > 0 && (
+          <p className="text-blue-600">
+            <span className="font-medium">Transaksjoner:</span>{' '}
+            {(data.banktransaksjoner / 1_000_000).toFixed(1)}M kr
+          </p>
+        )}
+        {showVisitors && data.besokende && data.besokende > 0 && (
+          <p className="text-green-600">
+            <span className="font-medium">Besøkende:</span> {data.besokende.toLocaleString('nb-NO')}
+          </p>
+        )}
+      </div>
+
+      {data.events && data.events.length > 0 && (
+        <div className="mt-3 border-t border-gray-200 pt-2">
+          <p className="mb-1 text-xs font-medium text-gray-500">Topp-arrangementer:</p>
+          {data.events.slice(0, 3).map((event: EventReference) => (
+            <p key={event.id} className="text-xs text-gray-700">
+              • {event.title}
+            </p>
+          ))}
+        </div>
+      )}
+    </div>
+  );
 }
 
 export default function SimpleEventTimeline({
@@ -76,51 +141,14 @@ export default function SimpleEventTimeline({
 
   console.log('[Timeline] Rendering with data:', chartData.slice(0, 3));
 
-  // Custom tooltip
-  const CustomTooltip = ({ active, payload, label }: any) => {
-    if (!active || !payload || !payload.length) return null;
-
-    const data = payload[0].payload;
-
-    return (
-      <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-lg">
-        <p className="mb-2 font-semibold text-gray-900">{label}</p>
-
-        <div className="space-y-1 text-sm">
-          <p className="text-gray-700">
-            <span className="font-medium">Arrangementer:</span> {data.eventCount}
-          </p>
-          {data.totalAttendees > 0 && (
-            <p className="text-gray-700">
-              <span className="font-medium">Besøkende:</span> {Math.round(data.totalAttendees)}k
-            </p>
-          )}
-          {showBank && data.banktransaksjoner > 0 && (
-            <p className="text-blue-600">
-              <span className="font-medium">Transaksjoner:</span>{' '}
-              {(data.banktransaksjoner / 1_000_000).toFixed(1)}M kr
-            </p>
-          )}
-          {showVisitors && data.besokende > 0 && (
-            <p className="text-green-600">
-              <span className="font-medium">Besøkende:</span> {data.besokende.toLocaleString('nb-NO')}
-            </p>
-          )}
-        </div>
-
-        {data.events && data.events.length > 0 && (
-          <div className="mt-3 border-t border-gray-200 pt-2">
-            <p className="mb-1 text-xs font-medium text-gray-500">Topp-arrangementer:</p>
-            {data.events.slice(0, 3).map((event: EventReference) => (
-              <p key={event.id} className="text-xs text-gray-700">
-                • {event.title}
-              </p>
-            ))}
-          </div>
-        )}
-      </div>
-    );
-  };
+  // Memoized tooltip render function
+  const renderTooltip = useCallback(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (props: any) => (
+      <SimpleTooltip {...props} showBank={showBank} showVisitors={showVisitors} />
+    ),
+    [showBank, showVisitors]
+  );
 
   return (
     <div className={`rounded-xl bg-white p-6 shadow-sm ${className}`}>
@@ -191,7 +219,7 @@ export default function SimpleEventTimeline({
                 }}
               />
             )}
-            <Tooltip content={<CustomTooltip />} />
+            <Tooltip content={renderTooltip} />
             <Legend wrapperStyle={{ paddingTop: '10px' }} iconType="line" />
 
             {/* Event count bars */}

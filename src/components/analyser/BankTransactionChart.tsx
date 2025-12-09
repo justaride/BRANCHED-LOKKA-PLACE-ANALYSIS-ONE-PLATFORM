@@ -18,6 +18,38 @@ interface BankTransactionChartProps {
   className?: string;
 }
 
+interface TooltipPayload {
+  payload: {
+    date: string;
+    amount: number;
+  };
+}
+
+interface CustomTooltipProps {
+  active?: boolean;
+  payload?: TooltipPayload[];
+}
+
+function CustomTooltip({ active, payload }: CustomTooltipProps) {
+  if (!active || !payload || !payload.length) return null;
+
+  const data = payload[0].payload;
+  const fullDate = new Date(data.date).toLocaleDateString('nb-NO', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
+
+  return (
+    <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
+      <p className="mb-1 text-xs font-medium text-gray-500">{fullDate}</p>
+      <p className="text-sm font-semibold text-blue-600">
+        NOK {data.amount.toFixed(1)} mil.
+      </p>
+    </div>
+  );
+}
+
 export default function BankTransactionChart({
   data,
   height = 200,
@@ -35,27 +67,6 @@ export default function BankTransactionChart({
       }),
     }));
   }, [data]);
-
-  // Custom tooltip
-  const CustomTooltip = ({ active, payload }: any) => {
-    if (!active || !payload || !payload.length) return null;
-
-    const data = payload[0].payload;
-    const fullDate = new Date(data.date).toLocaleDateString('nb-NO', {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-    });
-
-    return (
-      <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
-        <p className="mb-1 text-xs font-medium text-gray-500">{fullDate}</p>
-        <p className="text-sm font-semibold text-blue-600">
-          NOK {data.amount.toFixed(1)} mil.
-        </p>
-      </div>
-    );
-  };
 
   // Calculate tick positions for x-axis (show every month)
   const xAxisTicks = useMemo(() => {

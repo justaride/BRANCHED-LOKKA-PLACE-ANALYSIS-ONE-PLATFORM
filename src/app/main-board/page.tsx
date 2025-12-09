@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Container from '@/components/ui/Container';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import NaturalStateInfo from '@/components/layout/NaturalStateInfo';
 import { getCompanyTenants } from '@/config/tenants';
