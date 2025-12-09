@@ -8,9 +8,6 @@ export default function Navigation() {
   const pathname = usePathname();
   const tenant = useTenant();
 
-  const isActive = (path: string) =>
-    pathname === path || pathname.startsWith(`${path}/`);
-
   const linkClass = (path: string) =>
     `font-medium transition-colors ${
       pathname === path

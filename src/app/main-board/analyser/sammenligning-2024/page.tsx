@@ -55,15 +55,16 @@ export default async function Sammenligning2024Page() {
     (s) => s.kategori === 'oversikt'
   ) || [];
 
-  const demografiScreenshots = analysis.plaaceData.screenshots?.filter(
+  // Screenshot variables kept for potential fallback to static images
+  const _demografiScreenshots = analysis.plaaceData.screenshots?.filter(
     (s) => s.kategori === 'demografi'
   ) || [];
 
-  const besokendeScreenshots = analysis.plaaceData.screenshots?.filter(
+  const _besokendeScreenshots = analysis.plaaceData.screenshots?.filter(
     (s) => s.kategori === 'besokende'
   ) || [];
 
-  const bevegelseScreenshots = analysis.plaaceData.screenshots?.filter(
+  const _bevegelseScreenshots = analysis.plaaceData.screenshots?.filter(
     (s) => s.kategori === 'bevegelse'
   ) || [];
 
@@ -75,9 +76,15 @@ export default async function Sammenligning2024Page() {
     (s) => s.kategori === 'korthandel'
   ) || [];
 
-  const internasjonalScreenshots = analysis.plaaceData.screenshots?.filter(
+  const _internasjonalScreenshots = analysis.plaaceData.screenshots?.filter(
     (s) => s.kategori === 'internasjonal'
   ) || [];
+
+  // Suppress unused variable warnings for fallback screenshot variables
+  void _demografiScreenshots;
+  void _besokendeScreenshots;
+  void _bevegelseScreenshots;
+  void _internasjonalScreenshots;
 
   return (
     <>

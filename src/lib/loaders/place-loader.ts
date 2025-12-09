@@ -7,8 +7,6 @@
 
 import type { PlaceAnalysis } from '@/types/place-analysis';
 
-const DATA_DIR_MAIN_BOARD = '/data/main-board/analyser';
-
 /**
  * Load all analyses for Main Board
  */
@@ -16,17 +14,17 @@ export async function loadAllAnalyses(): Promise<PlaceAnalysis[]> {
   try {
     // Import all main board analysis files
     const analyses = await Promise.all([
-      import('@/data/main-board/analyser/kvartalsrapport-banktransaksjoner.json').then(m => m.default as any as PlaceAnalysis),
-      import('@/data/main-board/analyser/2024-arsrapport.json').then(m => m.default as any as PlaceAnalysis),
-      import('@/data/main-board/analyser/demografi-2017-2023.json').then(m => m.default as any as PlaceAnalysis),
-      import('@/data/main-board/analyser/sammenligning-2024.json').then(m => m.default as any as PlaceAnalysis),
-      import('@/data/main-board/analyser/nedre-lokka-omradeprofil.json').then(m => m.default as any as PlaceAnalysis),
-      import('@/data/main-board/analyser/ovre-thorvald-meyers-gate.json').then(m => m.default as any as PlaceAnalysis),
-      import('@/data/main-board/analyser/nedre-thorvald-meyers-gate.json').then(m => m.default as any as PlaceAnalysis),
-      import('@/data/main-board/analyser/midt-i-markveien.json').then(m => m.default as any as PlaceAnalysis),
-      import('@/data/main-board/analyser/olaf-ryes-plass-7eleven.json').then(m => m.default as any as PlaceAnalysis),
-      import('@/data/main-board/analyser/olaf-ryes-plass-boots.json').then(m => m.default as any as PlaceAnalysis),
-      import('@/data/main-board/analyser/nederst-i-markveien.json').then(m => m.default as any as PlaceAnalysis),
+      import('@/data/main-board/analyser/kvartalsrapport-banktransaksjoner.json').then(m => m.default as unknown as PlaceAnalysis),
+      import('@/data/main-board/analyser/2024-arsrapport.json').then(m => m.default as unknown as PlaceAnalysis),
+      import('@/data/main-board/analyser/demografi-2017-2023.json').then(m => m.default as unknown as PlaceAnalysis),
+      import('@/data/main-board/analyser/sammenligning-2024.json').then(m => m.default as unknown as PlaceAnalysis),
+      import('@/data/main-board/analyser/nedre-lokka-omradeprofil.json').then(m => m.default as unknown as PlaceAnalysis),
+      import('@/data/main-board/analyser/ovre-thorvald-meyers-gate.json').then(m => m.default as unknown as PlaceAnalysis),
+      import('@/data/main-board/analyser/nedre-thorvald-meyers-gate.json').then(m => m.default as unknown as PlaceAnalysis),
+      import('@/data/main-board/analyser/midt-i-markveien.json').then(m => m.default as unknown as PlaceAnalysis),
+      import('@/data/main-board/analyser/olaf-ryes-plass-7eleven.json').then(m => m.default as unknown as PlaceAnalysis),
+      import('@/data/main-board/analyser/olaf-ryes-plass-boots.json').then(m => m.default as unknown as PlaceAnalysis),
+      import('@/data/main-board/analyser/nederst-i-markveien.json').then(m => m.default as unknown as PlaceAnalysis),
     ]);
 
     // Sort by date (newest first)
@@ -47,7 +45,7 @@ export async function loadAllAnalyses(): Promise<PlaceAnalysis[]> {
 export async function loadAnalysis(id: string): Promise<PlaceAnalysis | null> {
   try {
     const data = await import(`@/data/main-board/analyser/${id}.json`);
-    return data.default as any as PlaceAnalysis;
+    return data.default as unknown as PlaceAnalysis;
   } catch (error) {
     console.error(`Error loading analysis ${id}:`, error);
     return null;

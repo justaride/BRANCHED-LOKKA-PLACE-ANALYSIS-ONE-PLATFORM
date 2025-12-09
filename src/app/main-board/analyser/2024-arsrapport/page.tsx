@@ -58,18 +58,23 @@ export default async function Analyse2024Page() {
   // Extract map image separately
   const aktorkartImage = allKonkurranseScreenshots.find(s => s.id === 'konkurranse-aktorer-kart');
 
-  // Remaining konkurranse screenshots (without map)
-  const konkurranseScreenshots = allKonkurranseScreenshots.filter(
+  // Remaining konkurranse screenshots (without map) - kept for potential fallback
+  const _konkurranseScreenshots = allKonkurranseScreenshots.filter(
     s => s.id !== 'konkurranse-aktorer-kart'
   );
 
-  const korthandelScreenshots = analysis.plaaceData.screenshots?.filter(
+  const _korthandelScreenshots = analysis.plaaceData.screenshots?.filter(
     (s) => s.kategori === 'korthandel'
   ) || [];
 
-  const bevegelseScreenshots = analysis.plaaceData.screenshots?.filter(
+  const _bevegelseScreenshots = analysis.plaaceData.screenshots?.filter(
     (s) => s.kategori === 'bevegelse'
   ) || [];
+
+  // Suppress unused variable warnings
+  void _konkurranseScreenshots;
+  void _korthandelScreenshots;
+  void _bevegelseScreenshots;
 
   const besokendeScreenshots = analysis.plaaceData.screenshots?.filter(
     (s) => s.kategori === 'besokende'

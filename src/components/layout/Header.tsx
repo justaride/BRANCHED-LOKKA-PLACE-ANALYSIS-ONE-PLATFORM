@@ -1,12 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import { useTenant } from '@/lib/tenant-context';
 import Navigation from './Navigation';
 
 export default function Header() {
-  const pathname = usePathname();
   const tenant = useTenant();
 
   return (

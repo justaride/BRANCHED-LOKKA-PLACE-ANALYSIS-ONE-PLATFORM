@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getTenant, isValidTenant } from '@/config/tenants';
+import { getTenant } from '@/config/tenants';
 import { TenantProvider } from '@/lib/tenant-context';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';

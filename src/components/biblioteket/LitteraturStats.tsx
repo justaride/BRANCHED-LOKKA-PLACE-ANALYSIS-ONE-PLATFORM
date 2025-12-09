@@ -1,7 +1,7 @@
 'use client';
 
 import { LitteraryWork } from '@/types/biblioteket';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 interface LitteraturStatsProps {
     works: LitteraryWork[];

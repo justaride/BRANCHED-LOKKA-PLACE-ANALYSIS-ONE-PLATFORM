@@ -50,9 +50,10 @@ export async function loadOneMinAnalysisData(
       const data = await STATIC_DATA[key]();
       console.log(`[one-min-loader] Successfully loaded data for: ${key}`, !!data);
       return data;
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error(`[one-min-loader] Error loading ${key}:`, error);
-      if (error.code !== 'MODULE_NOT_FOUND') {
+      const errorWithCode = error as { code?: string };
+      if (errorWithCode.code !== 'MODULE_NOT_FOUND') {
         console.warn(`Error loading 1-minute analysis data for ${key}:`, error);
       }
       return null;
@@ -79,8 +80,9 @@ export async function loadOneMinAnalysisData(
     }
 
     return { demografi, korthandel, bevegelse, konkurransebilde, aktorer };
-  } catch (error: any) {
-    if (error.code !== 'MODULE_NOT_FOUND') {
+  } catch (error: unknown) {
+    const errorWithCode = error as { code?: string };
+    if (errorWithCode.code !== 'MODULE_NOT_FOUND') {
       console.warn(`Error loading 1-minute analysis data for ${tenant}/${propertyId}:`, error);
     }
     return null;
