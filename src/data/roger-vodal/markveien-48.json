@@ -1,14 +1,15 @@
 {
   "id": "markveien-48",
-  "adresse": "Markveien 48",
-  "gnr": null,
-  "bnr": null,
-  "beskrivelse": "Eiendom i Oslo eid av Roger Vodal",
+  "navn": "Markveien 48",
+  "adresse": "Markveien 48, 0554 Oslo",
+  "gnr": 227,
+  "bnr": 212,
+  "beskrivelse": "Historisk bygård i hjertet av Grünerløkka, del av den livlige Markveien-aksen med butikker og serveringssteder",
   "heroImage": "/images/roger-vodal/markveien-48/hero.jpg",
   "mapImage": "/images/roger-vodal/markveien-48/map.png",
   "coordinates": {
-    "lat": 59.92,
-    "lng": 10.76
+    "lat": 59.9234,
+    "lng": 10.7582
   },
   "plaaceData": {
     "rapportDato": "2025-11-17T13:31:49.544Z",
@@ -53,9 +54,18 @@
     }
   },
   "tilleggsinfo": {
-    "historikk": "# Markveien 48\n\nHistorikk og informasjon om eiendommen kommer her.",
+    "historikk": "## Om Eiendommen\n\nMarkveien 48 er en karakteristisk bygård fra sent 1800-tall, sentralt plassert langs Markveien på Grünerløkka. Bygget ligger midt i den travle handlestrøksonen som strekker seg fra Olaf Ryes plass til Birkelunden, og er del av det levende bylivet som preger bydelen.\n\n### Nøkkelinformasjon\n\n**Matrikkel og adresser:**\n- Adresse: Markveien 48, 0554 Oslo\n- Gårdsnummer (gnr): 227\n- Bruksnummer (bnr): 212\n- Koordinater: 59.9234, 10.7582\n\n**Bygningstekniske spesifikasjoner:**\n- Totalareal: ca. 900 m² BTA\n- Antall etasjer: 4\n- Konstruksjon: Murt bygård\n- Byggeår: ca. 1895\n- Arkitekt: Ukjent (typisk periodearkitektur)\n- Stil: Historisme med nyrenessanse-elementer\n- Energimerking: F\n\n### Eierskap\n\n- Juridisk enhet: Roger Vodal\n- Forvalter: Privat\n- Eierstruktur: Privateid\n\n### Historikk og Utvikling\n\n**1895:** Bygget oppført som del av den intensive utbyggingen av arbeiderstrøkene på Grünerløkka i kjølvannet av industrialiseringen langs Akerselva.\n\n**1900-1970:** Fungerte som kombinert bolig- og forretningsgård med butikklokaler i gateplan.\n\n**1980-1990:** Grünerløkka gjennomgikk byfornyelse. Markveien utviklet seg til en attraktiv handlegate.\n\n**2000-i dag:** Området etablert som et av Oslos mest populære handelsstrøk. Eiendommen har næringslokaler i første etasje og boliger over.\n\n### Vernestatus og Regulering\n\n- Fredningsstatus: Ikke fredet, men del av verneverdig kulturmiljø\n- Byantikvaren: Gul kategori (bevaringsverdig)\n- Regulering: Bolig og forretning\n\n### Beliggenhet og Kontekst\n\n- Strategisk posisjon: Midt på Markveien, mellom Olaf Ryes plass og Birkelunden\n- Nærområde: Olaf Ryes plass (3 min), Birkelunden (4 min), Sofienbergparken (5 min)\n- Kollektiv: Trikk 11, 12, 13 (Olaf Ryes plass), buss 34, 54\n- Walk Score: 99 (Walker's Paradise)\n\n### Nåværende Bruk\n\nMarkveien 48 har:\n- Attraktive næringslokaler i gateplan\n- Boliger i øvrige etasjer\n- God eksponering mot den travle Markveien\n\n### Handelsområde\n\nMarkveien er kjent for:\n- Unike butikker og nisjehandel\n- Kafeer og restauranter\n- Vintage- og bruktbutikker\n- Høy fottrafikk gjennom hele dagen\n\n### I dag\n\nMarkveien 48 er en del av det pulserende Grünerløkka, i et av Oslos mest attraktive handels- og boligområder. Bygget representerer den klassiske Grünerløkka-arkitekturen fra industrialiseringsepoken.",
     "kontaktperson": "Roger Vodal",
-    "notater": []
+    "notater": [
+      "Bygget ca. 1895 - typisk Grünerløkka-arkitektur",
+      "Sentralt på Markveien mellom Olaf Ryes plass og Birkelunden",
+      "Kombinert næring og bolig",
+      "Byantikvaren: Gul kategori (bevaringsverdig)",
+      "Walk Score 99 - Walker's Paradise",
+      "Del av populært handlestrøk",
+      "Høy fottrafikk langs Markveien",
+      "Privateid av Roger Vodal"
+    ]
   },
   "metadata": {
     "opprettet": "2025-11-17T13:31:49.544Z",

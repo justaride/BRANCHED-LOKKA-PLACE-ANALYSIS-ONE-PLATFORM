@@ -13,6 +13,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from 'recharts';
+import { safeNumber } from '@/lib/utils/safe-data';
 
 interface BevegelseChartsProps {
   basePath: string;
@@ -88,26 +89,26 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
     loadData();
   }, [basePath]);
 
-  // Transform data for simpler chart rendering
+  // Transform data for simpler chart rendering with null-safe handling
   const timeChartData = useMemo(() => {
     return besokTimeData.map(d => ({
-      time: d.Category,
-      Besøkende: d['Thorvald Meyers gate 40B (Område 1.14 km²), Besøkende, 01.01.2024 - 31.12.2024'],
-      'På jobb': d['Thorvald Meyers gate 40B (Område 1.14 km²), På jobb, 01.01.2024 - 31.12.2024'],
-      Hjemme: d['Thorvald Meyers gate 40B (Område 1.14 km²), Hjemme, 01.01.2024 - 31.12.2024'],
+      time: d.Category ?? 'Ukjent',
+      Besøkende: safeNumber(d['Thorvald Meyers gate 40B (Område 1.14 km²), Besøkende, 01.01.2024 - 31.12.2024'], 0),
+      'På jobb': safeNumber(d['Thorvald Meyers gate 40B (Område 1.14 km²), På jobb, 01.01.2024 - 31.12.2024'], 0),
+      Hjemme: safeNumber(d['Thorvald Meyers gate 40B (Område 1.14 km²), Hjemme, 01.01.2024 - 31.12.2024'], 0),
     }));
   }, [besokTimeData]);
 
   const ukedagChartData = useMemo(() => {
     return besokUkedagData.map(d => ({
-      ukedag: d.Category,
-      Besøkende: d['Thorvald Meyers gate 40B (Område 1.14 km²), Besøkende, 01.01.2024 - 31.12.2024'],
-      'På jobb': d['Thorvald Meyers gate 40B (Område 1.14 km²), På jobb, 01.01.2024 - 31.12.2024'],
-      Hjemme: d['Thorvald Meyers gate 40B (Område 1.14 km²), Hjemme, 01.01.2024 - 31.12.2024'],
+      ukedag: d.Category ?? 'Ukjent',
+      Besøkende: safeNumber(d['Thorvald Meyers gate 40B (Område 1.14 km²), Besøkende, 01.01.2024 - 31.12.2024'], 0),
+      'På jobb': safeNumber(d['Thorvald Meyers gate 40B (Område 1.14 km²), På jobb, 01.01.2024 - 31.12.2024'], 0),
+      Hjemme: safeNumber(d['Thorvald Meyers gate 40B (Område 1.14 km²), Hjemme, 01.01.2024 - 31.12.2024'], 0),
     }));
   }, [besokUkedagData]);
 
-  // Flatten bevegelsesmonster data for line chart
+  // Flatten bevegelsesmonster data for line chart with null-safe handling
   const bevegelseLineData = useMemo(() => {
     const flattened: any[] = [];
     bevegelsesmonsterData.forEach(q => {
@@ -116,12 +117,12 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
         const paJobb = q[`Thorvald Meyers gate 40B (Område 1.14 km²), På jobb, ${year}` as keyof Bevegelsesmonster];
         const hjemme = q[`Thorvald Meyers gate 40B (Område 1.14 km²), Hjemme, ${year}` as keyof Bevegelsesmonster];
 
-        if (besokende !== null) {
+        if (besokende !== null && besokende !== undefined) {
           flattened.push({
-            quarter: `${q.Category} ${year}`,
-            Besøkende: besokende,
-            'På jobb': paJobb,
-            Hjemme: hjemme,
+            quarter: `${q.Category ?? 'Q?'} ${year}`,
+            Besøkende: safeNumber(besokende, 0),
+            'På jobb': safeNumber(paJobb, 0),
+            Hjemme: safeNumber(hjemme, 0),
           });
         }
       });
@@ -129,10 +130,11 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
     return flattened;
   }, [bevegelsesmonsterData]);
 
-  // Top 20 areas
+  // Top 20 areas with null-safe sorting
   const top20Areas = useMemo(() => {
     return omraderData
-      .sort((a, b) => b['Antall besøk'] - a['Antall besøk'])
+      .filter(d => d['Antall besøk'] !== null && d['Antall besøk'] !== undefined)
+      .sort((a, b) => safeNumber(b['Antall besøk'], 0) - safeNumber(a['Antall besøk'], 0))
       .slice(0, 20);
   }, [omraderData]);
 
@@ -143,8 +145,9 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
     { id: 3, label: 'Områder' },
   ];
 
-  const formatNumber = (num: number) => {
-    return num.toLocaleString('nb-NO');
+  const formatNumber = (num: unknown) => {
+    const value = safeNumber(num, 0);
+    return value.toLocaleString('nb-NO');
   };
 
   const CustomTooltip = ({ active, payload, label }: any) => {
@@ -152,7 +155,7 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
 
     return (
       <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
-        <p className="mb-1 text-xs font-medium text-gray-500">{label}</p>
+        <p className="mb-1 text-xs font-medium text-gray-500">{label ?? 'Ukjent'}</p>
         {payload.map((entry: any, index: number) => (
           <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
             {entry.name}: {formatNumber(entry.value)}

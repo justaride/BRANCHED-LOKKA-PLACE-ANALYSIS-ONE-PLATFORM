@@ -1,4 +1,7 @@
 import type { Eiendom } from '@/types/eiendom';
+import { ensureEiendomDefaults, ensureAllEiendomDefaults } from '@/lib/utils/property-defaults';
+
+const TENANT = 'maya-eiendom';
 
 export async function loadAllEiendommer(): Promise<Eiendom[]> {
   try {
@@ -8,7 +11,7 @@ export async function loadAllEiendommer(): Promise<Eiendom[]> {
       import('@/data/maya-eiendom/thorvald-meyersgate-38.json'),
       import('@/data/maya-eiendom/trondheimsveien-80.json'),
     ]);
-    return data.map((m) => m.default as Eiendom);
+    return ensureAllEiendomDefaults(data.map((m) => m.default), TENANT);
   } catch (error) {
     console.error('Error loading Maya Eiendom properties:', error);
     return [];
@@ -18,7 +21,7 @@ export async function loadAllEiendommer(): Promise<Eiendom[]> {
 export async function loadEiendom(id: string): Promise<Eiendom | null> {
   try {
     const eiendom = await import(`@/data/maya-eiendom/${id}.json`);
-    return eiendom.default as Eiendom;
+    return ensureEiendomDefaults(eiendom.default, TENANT);
   } catch (error) {
     console.error(`Failed to load Maya Eiendom eiendom ${id}:`, error);
     return null;

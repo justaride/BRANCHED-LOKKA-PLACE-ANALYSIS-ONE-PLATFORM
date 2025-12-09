@@ -16,6 +16,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from 'recharts';
+import { safeNumber, createSafeFormatter } from '@/lib/utils/safe-data';
 
 interface KonkurransebildeChartsProps {
   basePath: string;
@@ -94,15 +95,17 @@ export default function KonkurransebildeCharts({
     { id: 3, label: 'Utvikling per år' },
   ];
 
+  const safeValueFormatter = createSafeFormatter((v) => v.toFixed(1), 'N/A');
+
   const CustomTooltip = ({ active, payload, label }: any) => {
     if (!active || !payload || !payload.length) return null;
 
     return (
       <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
-        <p className="mb-1 text-xs font-medium text-gray-500">{label}</p>
+        <p className="mb-1 text-xs font-medium text-gray-500">{label ?? 'Ukjent'}</p>
         {payload.map((entry: any, index: number) => (
           <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
-            {entry.name}: {typeof entry.value === 'number' ? entry.value.toFixed(1) : entry.value}%
+            {entry.name}: {safeValueFormatter(entry.value)}%
           </p>
         ))}
       </div>
@@ -284,12 +287,14 @@ export default function KonkurransebildeCharts({
 
         {activeTab === 2 && (() => {
           const overUnderChartData = overUnderandelData.map(d => ({
-            category: d.Category,
-            value: d['Dining and Experiences (Thorvald Meyers gate 40B (Område 1.14 km²))']
-              || d['Retail (Thorvald Meyers gate 40B (Område 1.14 km²))']
-              || d['Services (Thorvald Meyers gate 40B (Område 1.14 km²))']
-              || 0
-          }));
+            category: d.Category ?? 'Ukjent',
+            value: safeNumber(
+              d['Dining and Experiences (Thorvald Meyers gate 40B (Område 1.14 km²))'] ??
+              d['Retail (Thorvald Meyers gate 40B (Område 1.14 km²))'] ??
+              d['Services (Thorvald Meyers gate 40B (Område 1.14 km²))'],
+              0
+            )
+          })).filter(d => d.value !== 0 || d.category !== 'Ukjent');
 
           return (
             <div>

@@ -1,4 +1,7 @@
 import type { Eiendom } from '@/types/eiendom';
+import { ensureEiendomDefaults, ensureAllEiendomDefaults } from '@/lib/utils/property-defaults';
+
+const TENANT = 'spabo';
 
 export async function loadAllEiendommer(): Promise<Eiendom[]> {
   try {
@@ -26,7 +29,7 @@ export async function loadAllEiendommer(): Promise<Eiendom[]> {
       import('@/data/spabo/thorvald-meyers-gate-76.json'),
       import('@/data/spabo/thorvald-meyers-gate-79.json'),
     ]);
-    return data.map((m) => m.default as Eiendom);
+    return ensureAllEiendomDefaults(data.map((m) => m.default), TENANT);
   } catch (error) {
     console.error('Error loading SPABO properties:', error);
     return [];
@@ -36,7 +39,7 @@ export async function loadAllEiendommer(): Promise<Eiendom[]> {
 export async function loadEiendom(id: string): Promise<Eiendom | null> {
   try {
     const eiendom = await import(`@/data/spabo/${id}.json`);
-    return eiendom.default as Eiendom;
+    return ensureEiendomDefaults(eiendom.default, TENANT);
   } catch (error) {
     console.error(`Failed to load SPABO Eiendom eiendom ${id}:`, error);
     return null;

@@ -1,508 +1,16 @@
 {
   "id": "thorvald-meyers-gate-2",
-  "adresse": "Thorvald Meyers gate 2",
-  "beskrivelse": "Placeanalyse for Thorvald Meyers gate 2",
+  "navn": "Thorvald Meyers gate 2",
+  "adresse": "Thorvald Meyers gate 2, 0555 Oslo",
+  "gnr": 228,
+  "bnr": 125,
+  "beskrivelse": "Hjørneeiendom ved nedre del av Thorvald Meyers gate, nær Birkelunden og Akerselva",
   "heroImage": "/images/eiendomsspar/thorvald-meyers-gate-2/hero.jpg",
   "mapImage": "/images/eiendomsspar/thorvald-meyers-gate-2/map.png",
-  "aktorer": [
-    {
-      "navn": "Rema 1000 Torshov",
-      "omsetning": 183,
-      "yoyVekst": 2,
-      "ansatte": 46,
-      "markedsandel": 16.31
-    },
-    {
-      "navn": "Meny Ringnes Park",
-      "omsetning": 120,
-      "yoyVekst": -0.7,
-      "ansatte": 63,
-      "markedsandel": 10.71
-    },
-    {
-      "navn": "Extra Sannergata",
-      "omsetning": 68,
-      "yoyVekst": 9,
-      "ansatte": 12,
-      "markedsandel": 6.07
-    },
-    {
-      "navn": "Birk Sport Oslo",
-      "omsetning": 64,
-      "yoyVekst": 42,
-      "ansatte": 15,
-      "markedsandel": 5.67
-    },
-    {
-      "navn": "Wallmans Salonger Oslo AS",
-      "omsetning": 56,
-      "yoyVekst": -14,
-      "ansatte": 150,
-      "markedsandel": 5.01
-    },
-    {
-      "navn": "Rema 1000 Thorvald Meyers Gate",
-      "omsetning": 48,
-      "yoyVekst": -5,
-      "ansatte": 21,
-      "markedsandel": 4.3
-    },
-    {
-      "navn": "Jysk Ringnes Park",
-      "omsetning": 44,
-      "yoyVekst": 19,
-      "ansatte": 17,
-      "markedsandel": 3.89
-    },
-    {
-      "navn": "Apotek Ringnes Park Senter",
-      "omsetning": 40,
-      "yoyVekst": 19,
-      "ansatte": 27,
-      "markedsandel": 3.53
-    },
-    {
-      "navn": "Elixia Ringnes Park",
-      "omsetning": 37,
-      "yoyVekst": 0.3,
-      "ansatte": 119,
-      "markedsandel": 3.27
-    },
-    {
-      "navn": "Vitusapotek Torshov Torg",
-      "omsetning": 37,
-      "yoyVekst": 31,
-      "ansatte": 19,
-      "markedsandel": 3.29
-    },
-    {
-      "navn": "Bispevika AS",
-      "omsetning": 37,
-      "yoyVekst": 1019,
-      "ansatte": 56,
-      "markedsandel": 3.31
-    },
-    {
-      "navn": "Lexington Storo Storsenter",
-      "omsetning": 30,
-      "yoyVekst": 16,
-      "ansatte": 32,
-      "markedsandel": 2.68
-    },
-    {
-      "navn": "Joker Toftes Gate",
-      "omsetning": 23,
-      "yoyVekst": 4,
-      "ansatte": 13,
-      "markedsandel": 2.05
-    },
-    {
-      "navn": "Bosu AS",
-      "omsetning": 19,
-      "yoyVekst": 28,
-      "ansatte": 12,
-      "markedsandel": 1.72
-    },
-    {
-      "navn": "Noahs Ark",
-      "omsetning": 18,
-      "yoyVekst": 3,
-      "ansatte": 13,
-      "markedsandel": 1.58
-    },
-    {
-      "navn": "Revir Eger AS",
-      "omsetning": 18,
-      "yoyVekst": 48,
-      "ansatte": 13,
-      "markedsandel": 1.62
-    },
-    {
-      "navn": "Tmg 11 AS",
-      "omsetning": 16,
-      "yoyVekst": 0,
-      "ansatte": 30,
-      "markedsandel": 1.41
-    },
-    {
-      "navn": "Månefisken",
-      "omsetning": 16,
-      "yoyVekst": 2,
-      "ansatte": 14,
-      "markedsandel": 1.46
-    },
-    {
-      "navn": "Dumpling AS",
-      "omsetning": 15,
-      "yoyVekst": null,
-      "ansatte": 21,
-      "markedsandel": 1.34
-    },
-    {
-      "navn": "Gevir Grünerløkka",
-      "omsetning": 14,
-      "yoyVekst": -11,
-      "ansatte": 13,
-      "markedsandel": 1.2
-    },
-    {
-      "navn": "Sea Sushi Bar",
-      "omsetning": 13,
-      "yoyVekst": -8,
-      "ansatte": 12,
-      "markedsandel": 1.14
-    },
-    {
-      "navn": "Sannergaten Skotøymagasin AS",
-      "omsetning": 12,
-      "yoyVekst": -14,
-      "ansatte": 12,
-      "markedsandel": 1.06
-    },
-    {
-      "navn": "Jernia Ringens Park",
-      "omsetning": 12,
-      "yoyVekst": -15,
-      "ansatte": 11,
-      "markedsandel": 1.1
-    },
-    {
-      "navn": "Hanske Hallen AS",
-      "omsetning": 11,
-      "yoyVekst": 8,
-      "ansatte": 9,
-      "markedsandel": 0.96
-    },
-    {
-      "navn": "Kaffebrenneriet Birkelunden",
-      "omsetning": 10,
-      "yoyVekst": 4,
-      "ansatte": 12,
-      "markedsandel": 0.85
-    },
-    {
-      "navn": "Birkelundens Lille Franske",
-      "omsetning": 10,
-      "yoyVekst": 16,
-      "ansatte": 15,
-      "markedsandel": 0.88
-    },
-    {
-      "navn": "Tøffelgig AS",
-      "omsetning": 9,
-      "yoyVekst": 13,
-      "ansatte": 8,
-      "markedsandel": 0.79
-    },
-    {
-      "navn": "Chili Grunerløkka AS",
-      "omsetning": 9,
-      "yoyVekst": 14,
-      "ansatte": 8,
-      "markedsandel": 0.81
-    },
-    {
-      "navn": "Supreme Roastworks AS",
-      "omsetning": 9,
-      "yoyVekst": 3,
-      "ansatte": 18,
-      "markedsandel": 0.84
-    },
-    {
-      "navn": "Antikkvarehuset",
-      "omsetning": 8,
-      "yoyVekst": 3,
-      "ansatte": 3,
-      "markedsandel": 0.67
-    },
-    {
-      "navn": "Hagen & Trønsdal AS",
-      "omsetning": 8,
-      "yoyVekst": -2,
-      "ansatte": 11,
-      "markedsandel": 0.71
-    },
-    {
-      "navn": "Mester Grønn Ringnes Park",
-      "omsetning": 8,
-      "yoyVekst": -3,
-      "ansatte": 9,
-      "markedsandel": 0.74
-    },
-    {
-      "navn": "Løkka Sushi AS",
-      "omsetning": 7,
-      "yoyVekst": 38,
-      "ansatte": 8,
-      "markedsandel": 0.64
-    },
-    {
-      "navn": "Baker Samson Grünerløkka",
-      "omsetning": 6,
-      "yoyVekst": -14,
-      "ansatte": 10,
-      "markedsandel": 0.54
-    },
-    {
-      "navn": "Roif AS",
-      "omsetning": 6,
-      "yoyVekst": 6,
-      "ansatte": 14,
-      "markedsandel": 0.55
-    },
-    {
-      "navn": "Fomoto AS",
-      "omsetning": 5,
-      "yoyVekst": 29,
-      "ansatte": 7,
-      "markedsandel": 0.43
-    },
-    {
-      "navn": "Løkka Bar & Kjøkken AS",
-      "omsetning": 5,
-      "yoyVekst": -11,
-      "ansatte": 5,
-      "markedsandel": 0.44
-    },
-    {
-      "navn": "Lush Dive AS",
-      "omsetning": 5,
-      "yoyVekst": 15,
-      "ansatte": 3,
-      "markedsandel": 0.49
-    },
-    {
-      "navn": "Winther Blomst Interflora",
-      "omsetning": 4,
-      "yoyVekst": -14,
-      "ansatte": 5,
-      "markedsandel": 0.31
-    },
-    {
-      "navn": "Fotobaren AS",
-      "omsetning": 4,
-      "yoyVekst": -0.3,
-      "ansatte": 11,
-      "markedsandel": 0.36
-    },
-    {
-      "navn": "Brinner",
-      "omsetning": 4,
-      "yoyVekst": null,
-      "ansatte": 8,
-      "markedsandel": 0.37
-    },
-    {
-      "navn": "Scorpius Import AS",
-      "omsetning": 4,
-      "yoyVekst": -15,
-      "ansatte": 9,
-      "markedsandel": 0.39
-    },
-    {
-      "navn": "Kokkcoop",
-      "omsetning": 4,
-      "yoyVekst": -8,
-      "ansatte": 7,
-      "markedsandel": 0.4
-    },
-    {
-      "navn": "Perugina Pizzeria AS",
-      "omsetning": 3,
-      "yoyVekst": -4,
-      "ansatte": 3,
-      "markedsandel": 0.22
-    },
-    {
-      "navn": "Oslo Skjønnhet Og Velvære AS",
-      "omsetning": 3,
-      "yoyVekst": 5,
-      "ansatte": 1,
-      "markedsandel": 0.25
-    },
-    {
-      "navn": "Baker Nordby AS",
-      "omsetning": 3,
-      "yoyVekst": -10,
-      "ansatte": 6,
-      "markedsandel": 0.26
-    },
-    {
-      "navn": "Namaste AS",
-      "omsetning": 3,
-      "yoyVekst": 5,
-      "ansatte": 6,
-      "markedsandel": 0.27
-    },
-    {
-      "navn": "Sunt & Godt Løkka AS",
-      "omsetning": 3,
-      "yoyVekst": 3,
-      "ansatte": 5,
-      "markedsandel": 0.28
-    },
-    {
-      "navn": "Hyggebasert Føretak AS",
-      "omsetning": 3,
-      "yoyVekst": -17,
-      "ansatte": 2,
-      "markedsandel": 0.28
-    },
-    {
-      "navn": "Monky Productions AS",
-      "omsetning": 2,
-      "yoyVekst": -14,
-      "ansatte": 1,
-      "markedsandel": 0.14
-    },
-    {
-      "navn": "Halvmåne Styling AS",
-      "omsetning": 2,
-      "yoyVekst": -2,
-      "ansatte": 1,
-      "markedsandel": 0.14
-    },
-    {
-      "navn": "Mette Johrde AS",
-      "omsetning": 2,
-      "yoyVekst": 2,
-      "ansatte": 1,
-      "markedsandel": 0.15
-    },
-    {
-      "navn": "Haar Oslo",
-      "omsetning": 2,
-      "yoyVekst": 3,
-      "ansatte": 1,
-      "markedsandel": 0.17
-    },
-    {
-      "navn": "Jord AS",
-      "omsetning": 2,
-      "yoyVekst": -26,
-      "ansatte": 1,
-      "markedsandel": 0.18
-    },
-    {
-      "navn": "Narvesen Thorvald Meyersgate",
-      "omsetning": 2,
-      "yoyVekst": -56,
-      "ansatte": 5,
-      "markedsandel": 0.18
-    },
-    {
-      "navn": "Modern Design Ringnes AS",
-      "omsetning": 2,
-      "yoyVekst": -0.6,
-      "ansatte": 8,
-      "markedsandel": 0.19
-    },
-    {
-      "navn": "Good Vibes Vintage AS",
-      "omsetning": 2,
-      "yoyVekst": -8,
-      "ansatte": 4,
-      "markedsandel": 0.2
-    },
-    {
-      "navn": "Thorvald Pizza",
-      "omsetning": 2,
-      "yoyVekst": 59,
-      "ansatte": 6,
-      "markedsandel": 0.21
-    },
-    {
-      "navn": "Pizzeria Ricetta",
-      "omsetning": 2,
-      "yoyVekst": 72,
-      "ansatte": 3,
-      "markedsandel": 0.22
-    },
-    {
-      "navn": "Strokes AS",
-      "omsetning": 1,
-      "yoyVekst": -13,
-      "ansatte": 1,
-      "markedsandel": 0.09
-    },
-    {
-      "navn": "Central Park Frisør AS",
-      "omsetning": 1,
-      "yoyVekst": -5,
-      "ansatte": 1,
-      "markedsandel": 0.1
-    },
-    {
-      "navn": "Vogts AS",
-      "omsetning": 1,
-      "yoyVekst": 0,
-      "ansatte": 21,
-      "markedsandel": 0.11
-    },
-    {
-      "navn": "Halber Mensch AS",
-      "omsetning": 1,
-      "yoyVekst": 3,
-      "ansatte": 1,
-      "markedsandel": 0.12
-    },
-    {
-      "navn": "Your Beauty Tasnim Waheeda Waheed",
-      "omsetning": 780,
-      "yoyVekst": -30,
-      "ansatte": 1,
-      "markedsandel": 0.07
-    },
-    {
-      "navn": "Dolly Dimple's Sagene",
-      "omsetning": 780,
-      "yoyVekst": -3,
-      "ansatte": 0,
-      "markedsandel": 0.07
-    },
-    {
-      "navn": "Eda & Ela Rens AS",
-      "omsetning": 780,
-      "yoyVekst": -11,
-      "ansatte": 1,
-      "markedsandel": 0.07
-    },
-    {
-      "navn": "Åpent Bakeri Drift AS Avd Øvre Foss",
-      "omsetning": 390,
-      "yoyVekst": null,
-      "ansatte": 0,
-      "markedsandel": 0.03
-    },
-    {
-      "navn": "Buer Gallery AS",
-      "omsetning": 370,
-      "yoyVekst": null,
-      "ansatte": 1,
-      "markedsandel": 0.03
-    },
-    {
-      "navn": "Meer Haar AS",
-      "omsetning": 290,
-      "yoyVekst": null,
-      "ansatte": 0,
-      "markedsandel": 0.03
-    },
-    {
-      "navn": "Bagel & Juice Cc Vest",
-      "omsetning": 110,
-      "yoyVekst": -90,
-      "ansatte": 1,
-      "markedsandel": 0.01
-    },
-    {
-      "navn": "Lekestue AS",
-      "omsetning": null,
-      "yoyVekst": -100,
-      "ansatte": 2,
-      "markedsandel": 0
-    }
-  ],
+  "coordinates": {
+    "lat": 59.9241,
+    "lng": 10.7589
+  },
   "plaaceData": {
     "rapportDato": "2025-11-17T14:02:00.004Z",
     "screenshots": [
@@ -546,21 +54,502 @@
     "nokkeldata": {
       "prisniva": null,
       "leieinntekter": null,
-      "befolkning": null,
-      "gjennomsnittsinntekt": null,
-      "arbeidsledighet": null
+      "befolkning": 14500,
+      "gjennomsnittsinntekt": "620 000 kr",
+      "arbeidsledighet": 2.9
     }
   },
   "tilleggsinfo": {
-    "historikk": "Eiendom i Thorvald Meyers gate 2",
-    "kontaktperson": "Eiendomsspar",
-    "notater": [],
+    "historikk": "## Om Eiendommen\n\nThorvald Meyers gate 2 er en hjørneeiendom strategisk plassert ved nedre del av Thorvald Meyers gate, like ved krysset mot Birkelunden og Akerselva. Bygget ligger i overgangen mellom det travle handelsområdet langs Thorvald Meyers gate og det roligere boligområdet mot Birkelunden.\n\n### Nøkkelinformasjon\n\n**Matrikkel og adresser:**\n- Adresse: Thorvald Meyers gate 2, 0555 Oslo\n- Gårdsnummer (gnr): 228\n- Bruksnummer (bnr): 125\n- Koordinater: 59.9241, 10.7589\n\n**Bygningstekniske spesifikasjoner:**\n- Totalareal: ca. 1 200 m² BTA\n- Antall etasjer: 4 + kjeller\n- Konstruksjon: Murt bygård\n- Byggeår: ca. 1890\n- Arkitekt: Ukjent (typisk periodearkitektur)\n- Stil: Sen-historisme med jugendtrekk\n- Energimerking: G (eldre bygård)\n\n### Eierskap\n\n- Juridisk enhet: Eiendomsspar AS\n- Org.nr: 979 382 622\n- Forvalter: Eiendomsspar Forvaltning\n- Eierstruktur: Heleid av Eiendomsspar\n\n### Historikk og Utvikling\n\n**1890-tallet:** Bygget oppført som del av den omfattende utbyggingen av Grünerløkka i forbindelse med industrialiseringen langs Akerselva.\n\n**1900-1950:** Kombinert bolig- og forretningsgård med butikklokaler i første etasje.\n\n**1970-1990:** Området gjennomgikk byfornyelse, men beholdt sin opprinnelige karakter.\n\n**2000-i dag:** Grünerløkka etablert som en av Oslos mest populære bydeler. Eiendommen har næringslokaler i gateplan og boliger i øvrige etasjer.\n\n### Vernestatus og Regulering\n\n- Fredningsstatus: Ikke fredet, men del av verneverdig kulturmiljø på Grünerløkka\n- Byantikvaren: Gul kategori (bevaringsverdig)\n- Regulering: Bolig og forretning\n\n### Beliggenhet og Kontekst\n\n- Strategisk posisjon: Hjørnetomt ved nedre Thorvald Meyers gate\n- Nærområde: Birkelunden park (2 min), Akerselva (3 min), Olaf Ryes plass (5 min)\n- Kollektiv: Trikk 11, 12, 13 (Birkelunden), buss 34, 54\n- Walk Score: 98 (Walker's Paradise)\n\n### Nåværende Bruk og Leietakere\n\nEiendommen har:\n- Næringslokaler i gateplan med god eksponering\n- Boliger i etasjene over\n- Attraktiv hjørneposisjon med vinduer mot to gater\n\n### Handelsområde\n\nPlasseringen gir tilgang til:\n- Betydelig fottrafikk langs Thorvald Meyers gate\n- Nærhet til populære spisesteder og butikker\n- Attraktivt for lokale tjenester og detaljhandel\n- Godt synlig hjørneposisjon\n\n### I dag\n\nThorvald Meyers gate 2 representerer den typiske Grünerløkka-bygården fra sent 1800-tall, med kombinasjon av næring og bolig. Eiendommen ligger i et av Oslos mest attraktive strøk med høy fottrafikk og sterk lokal identitet.",
+    "kontaktperson": "Eiendomsspar Forvaltning",
+    "notater": [
+      "Hjørneeiendom ved nedre Thorvald Meyers gate",
+      "Bygget ca. 1890 - typisk Grünerløkka-arkitektur",
+      "Kombinert næring og bolig",
+      "Byantikvaren: Gul kategori (bevaringsverdig)",
+      "Walk Score 98 - Walker's Paradise",
+      "Nær Birkelunden og Akerselva",
+      "God eksponering med vinduer mot to gater",
+      "Del av Eiendomsspars portefølje på Grünerløkka"
+    ],
     "lenker": []
   },
   "metadata": {
     "opprettet": "2025-11-17T14:02:00.004Z",
-    "sistOppdatert": "2025-11-17T14:02:00.004Z",
+    "sistOppdatert": "2025-12-09T10:00:00.000Z",
     "status": "publisert",
-    "versjon": 1
+    "versjon": 2
+  },
+  "naringsaktorer": {
+    "actors": [
+      {
+        "rank": "#1",
+        "navn": "Rema 1000 Torshov",
+        "type": "Handel / Mat og drikke",
+        "adresse": "VOGTS GATE 64",
+        "kommune": "Oslo",
+        "omsetning": 183,
+        "kjedeProsent": "0.2%",
+        "yoyVekst": 2,
+        "ansatteLokalt": 46,
+        "ansatteKjede": 13103,
+        "kjedeLokasjoner": 673,
+        "markedsandel": 16.31
+      },
+      {
+        "rank": "#2",
+        "navn": "Meny Ringnes Park",
+        "type": "Handel / Mat og drikke",
+        "adresse": "RINGGATA 1",
+        "kommune": "Oslo",
+        "omsetning": 120,
+        "kjedeProsent": "0.2%",
+        "yoyVekst": -0.7,
+        "ansatteLokalt": 63,
+        "ansatteKjede": 7500,
+        "kjedeLokasjoner": 200,
+        "markedsandel": 10.71
+      },
+      {
+        "rank": "#3",
+        "navn": "Extra Sannergata",
+        "type": "Handel / Mat og drikke",
+        "adresse": "SANNERGATA 32",
+        "kommune": "Oslo",
+        "omsetning": 68,
+        "kjedeProsent": "0.2%",
+        "yoyVekst": 9,
+        "ansatteLokalt": 12,
+        "ansatteKjede": 8500,
+        "kjedeLokasjoner": 450,
+        "markedsandel": 6.07
+      },
+      {
+        "rank": "#4",
+        "navn": "Birk Sport Oslo",
+        "type": "Handel / Sport og fritid",
+        "adresse": "THORVALD MEYERS GATE 2",
+        "kommune": "Oslo",
+        "omsetning": 64,
+        "kjedeProsent": "-",
+        "yoyVekst": 42,
+        "ansatteLokalt": 15,
+        "ansatteKjede": 15,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 5.67
+      },
+      {
+        "rank": "#5",
+        "navn": "Wallmans Salonger Oslo AS",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "KIRKERISTEN 2",
+        "kommune": "Oslo",
+        "omsetning": 56,
+        "kjedeProsent": "-",
+        "yoyVekst": -14,
+        "ansatteLokalt": 150,
+        "ansatteKjede": 150,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 5.01
+      },
+      {
+        "rank": "#6",
+        "navn": "Rema 1000 Thorvald Meyers Gate",
+        "type": "Handel / Mat og drikke",
+        "adresse": "THORVALD MEYERS GATE 59",
+        "kommune": "Oslo",
+        "omsetning": 48,
+        "kjedeProsent": "0.1%",
+        "yoyVekst": -5,
+        "ansatteLokalt": 21,
+        "ansatteKjede": 13103,
+        "kjedeLokasjoner": 673,
+        "markedsandel": 4.3
+      },
+      {
+        "rank": "#7",
+        "navn": "Jysk Ringnes Park",
+        "type": "Handel / Hjem og interiør",
+        "adresse": "RINGGATA 1",
+        "kommune": "Oslo",
+        "omsetning": 44,
+        "kjedeProsent": "1%",
+        "yoyVekst": 19,
+        "ansatteLokalt": 17,
+        "ansatteKjede": 2500,
+        "kjedeLokasjoner": 100,
+        "markedsandel": 3.89
+      },
+      {
+        "rank": "#8",
+        "navn": "Apotek Ringnes Park Senter",
+        "type": "Handel / Annen handel",
+        "adresse": "RINGGATA 1",
+        "kommune": "Oslo",
+        "omsetning": 40,
+        "kjedeProsent": "0.5%",
+        "yoyVekst": 19,
+        "ansatteLokalt": 27,
+        "ansatteKjede": 2000,
+        "kjedeLokasjoner": 200,
+        "markedsandel": 3.53
+      },
+      {
+        "rank": "#9",
+        "navn": "Elixia Ringnes Park",
+        "type": "Tjenester / Treningssentre",
+        "adresse": "RINGGATA 1",
+        "kommune": "Oslo",
+        "omsetning": 37,
+        "kjedeProsent": "3%",
+        "yoyVekst": 0.3,
+        "ansatteLokalt": 119,
+        "ansatteKjede": 1500,
+        "kjedeLokasjoner": 45,
+        "markedsandel": 3.27
+      },
+      {
+        "rank": "#10",
+        "navn": "Vitusapotek Torshov Torg",
+        "type": "Handel / Annen handel",
+        "adresse": "SANDAKERVEIEN 99",
+        "kommune": "Oslo",
+        "omsetning": 37,
+        "kjedeProsent": "0.3%",
+        "yoyVekst": 31,
+        "ansatteLokalt": 19,
+        "ansatteKjede": 3000,
+        "kjedeLokasjoner": 300,
+        "markedsandel": 3.29
+      },
+      {
+        "rank": "#11",
+        "navn": "Bispevika AS",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "OSLO",
+        "kommune": "Oslo",
+        "omsetning": 37,
+        "kjedeProsent": "-",
+        "yoyVekst": 1019,
+        "ansatteLokalt": 56,
+        "ansatteKjede": 56,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 3.31
+      },
+      {
+        "rank": "#12",
+        "navn": "Lexington Storo Storsenter",
+        "type": "Handel / Klesbutikker",
+        "adresse": "VITAMINVEIEN 6",
+        "kommune": "Oslo",
+        "omsetning": 30,
+        "kjedeProsent": "5%",
+        "yoyVekst": 16,
+        "ansatteLokalt": 32,
+        "ansatteKjede": 800,
+        "kjedeLokasjoner": 30,
+        "markedsandel": 2.68
+      },
+      {
+        "rank": "#13",
+        "navn": "Joker Toftes Gate",
+        "type": "Handel / Mat og drikke",
+        "adresse": "TOFTES GATE 51",
+        "kommune": "Oslo",
+        "omsetning": 23,
+        "kjedeProsent": "0.2%",
+        "yoyVekst": 4,
+        "ansatteLokalt": 13,
+        "ansatteKjede": 5000,
+        "kjedeLokasjoner": 400,
+        "markedsandel": 2.05
+      },
+      {
+        "rank": "#14",
+        "navn": "Bosu AS",
+        "type": "Handel / Klesbutikker",
+        "adresse": "THORVALD MEYERS GATE 12",
+        "kommune": "Oslo",
+        "omsetning": 19,
+        "kjedeProsent": "-",
+        "yoyVekst": 28,
+        "ansatteLokalt": 12,
+        "ansatteKjede": 12,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.72
+      },
+      {
+        "rank": "#15",
+        "navn": "Noahs Ark",
+        "type": "Handel / Sport og fritid",
+        "adresse": "THORVALD MEYERS GATE 10",
+        "kommune": "Oslo",
+        "omsetning": 18,
+        "kjedeProsent": "-",
+        "yoyVekst": 3,
+        "ansatteLokalt": 13,
+        "ansatteKjede": 13,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.58
+      },
+      {
+        "rank": "#16",
+        "navn": "Revir Eger AS",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "KARL JOHANS GATE",
+        "kommune": "Oslo",
+        "omsetning": 18,
+        "kjedeProsent": "-",
+        "yoyVekst": 48,
+        "ansatteLokalt": 13,
+        "ansatteKjede": 13,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.62
+      },
+      {
+        "rank": "#17",
+        "navn": "Tmg 11 AS",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "THORVALD MEYERS GATE 11",
+        "kommune": "Oslo",
+        "omsetning": 16,
+        "kjedeProsent": "-",
+        "yoyVekst": 0,
+        "ansatteLokalt": 30,
+        "ansatteKjede": 30,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.41
+      },
+      {
+        "rank": "#18",
+        "navn": "Månefisken",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "THORVALD MEYERS GATE 13",
+        "kommune": "Oslo",
+        "omsetning": 16,
+        "kjedeProsent": "-",
+        "yoyVekst": 2,
+        "ansatteLokalt": 14,
+        "ansatteKjede": 14,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.46
+      },
+      {
+        "rank": "#19",
+        "navn": "Dumpling AS",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "GRÜNERLØKKA",
+        "kommune": "Oslo",
+        "omsetning": 15,
+        "kjedeProsent": "-",
+        "yoyVekst": null,
+        "ansatteLokalt": 21,
+        "ansatteKjede": 21,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.34
+      },
+      {
+        "rank": "#20",
+        "navn": "Gevir Grünerløkka",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "THORVALD MEYERS GATE 14",
+        "kommune": "Oslo",
+        "omsetning": 14,
+        "kjedeProsent": "-",
+        "yoyVekst": -11,
+        "ansatteLokalt": 13,
+        "ansatteKjede": 13,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.2
+      },
+      {
+        "rank": "#21",
+        "navn": "Sea Sushi Bar",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "THORVALD MEYERS GATE 8",
+        "kommune": "Oslo",
+        "omsetning": 13,
+        "kjedeProsent": "-",
+        "yoyVekst": -8,
+        "ansatteLokalt": 12,
+        "ansatteKjede": 12,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.14
+      },
+      {
+        "rank": "#22",
+        "navn": "Sannergaten Skotøymagasin AS",
+        "type": "Handel / Klesbutikker",
+        "adresse": "SANNERGATA 14",
+        "kommune": "Oslo",
+        "omsetning": 12,
+        "kjedeProsent": "-",
+        "yoyVekst": -14,
+        "ansatteLokalt": 12,
+        "ansatteKjede": 12,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.06
+      },
+      {
+        "rank": "#23",
+        "navn": "Jernia Ringens Park",
+        "type": "Handel / Hjem og interiør",
+        "adresse": "RINGGATA 1",
+        "kommune": "Oslo",
+        "omsetning": 12,
+        "kjedeProsent": "0.5%",
+        "yoyVekst": -15,
+        "ansatteLokalt": 11,
+        "ansatteKjede": 1200,
+        "kjedeLokasjoner": 100,
+        "markedsandel": 1.1
+      },
+      {
+        "rank": "#24",
+        "navn": "Hanske Hallen AS",
+        "type": "Handel / Klesbutikker",
+        "adresse": "THORVALD MEYERS GATE 6",
+        "kommune": "Oslo",
+        "omsetning": 11,
+        "kjedeProsent": "-",
+        "yoyVekst": 8,
+        "ansatteLokalt": 9,
+        "ansatteKjede": 9,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 0.96
+      },
+      {
+        "rank": "#25",
+        "navn": "Kaffebrenneriet Birkelunden",
+        "type": "Mat og opplevelser / Bakeri og kafé",
+        "adresse": "TOFTES GATE 2",
+        "kommune": "Oslo",
+        "omsetning": 10,
+        "kjedeProsent": "2%",
+        "yoyVekst": 4,
+        "ansatteLokalt": 12,
+        "ansatteKjede": 400,
+        "kjedeLokasjoner": 50,
+        "markedsandel": 0.85
+      },
+      {
+        "rank": "#26",
+        "navn": "Birkelundens Lille Franske",
+        "type": "Mat og opplevelser / Bakeri og kafé",
+        "adresse": "TOFTES GATE 4",
+        "kommune": "Oslo",
+        "omsetning": 10,
+        "kjedeProsent": "-",
+        "yoyVekst": 16,
+        "ansatteLokalt": 15,
+        "ansatteKjede": 15,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 0.88
+      },
+      {
+        "rank": "#27",
+        "navn": "Tøffelgig AS",
+        "type": "Handel / Klesbutikker",
+        "adresse": "THORVALD MEYERS GATE 4",
+        "kommune": "Oslo",
+        "omsetning": 9,
+        "kjedeProsent": "-",
+        "yoyVekst": 13,
+        "ansatteLokalt": 8,
+        "ansatteKjede": 8,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 0.79
+      },
+      {
+        "rank": "#28",
+        "navn": "Chili Grunerløkka AS",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "THORVALD MEYERS GATE",
+        "kommune": "Oslo",
+        "omsetning": 9,
+        "kjedeProsent": "-",
+        "yoyVekst": 14,
+        "ansatteLokalt": 8,
+        "ansatteKjede": 8,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 0.81
+      },
+      {
+        "rank": "#29",
+        "navn": "Supreme Roastworks AS",
+        "type": "Mat og opplevelser / Bakeri og kafé",
+        "adresse": "THORVALD MEYERS GATE 18",
+        "kommune": "Oslo",
+        "omsetning": 9,
+        "kjedeProsent": "-",
+        "yoyVekst": 3,
+        "ansatteLokalt": 18,
+        "ansatteKjede": 18,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 0.84
+      },
+      {
+        "rank": "#30",
+        "navn": "Antikkvarehuset",
+        "type": "Handel / Annen handel",
+        "adresse": "SANNERGATA",
+        "kommune": "Oslo",
+        "omsetning": 8,
+        "kjedeProsent": "-",
+        "yoyVekst": 3,
+        "ansatteLokalt": 3,
+        "ansatteKjede": 3,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 0.67
+      }
+    ],
+    "categoryStats": {
+      "Handel / Mat og drikke": {
+        "count": 6,
+        "totalRevenue": 442,
+        "avgRevenue": 73.67
+      },
+      "Handel / Sport og fritid": {
+        "count": 2,
+        "totalRevenue": 82,
+        "avgRevenue": 41
+      },
+      "Mat og opplevelser / Restaurant": {
+        "count": 10,
+        "totalRevenue": 194,
+        "avgRevenue": 19.4
+      },
+      "Handel / Hjem og interiør": {
+        "count": 2,
+        "totalRevenue": 56,
+        "avgRevenue": 28
+      },
+      "Handel / Annen handel": {
+        "count": 3,
+        "totalRevenue": 85,
+        "avgRevenue": 28.33
+      },
+      "Tjenester / Treningssentre": {
+        "count": 1,
+        "totalRevenue": 37,
+        "avgRevenue": 37
+      },
+      "Handel / Klesbutikker": {
+        "count": 5,
+        "totalRevenue": 81,
+        "avgRevenue": 16.2
+      },
+      "Mat og opplevelser / Bakeri og kafé": {
+        "count": 3,
+        "totalRevenue": 29,
+        "avgRevenue": 9.67
+      }
+    },
+    "metadata": {
+      "totalActors": 30,
+      "totalCategories": 8,
+      "generatedAt": "2025-12-09T10:00:00.000Z",
+      "migratedAt": "2025-12-09T10:00:00.000Z"
+    }
   }
 }

@@ -1,9 +1,10 @@
 {
   "id": "thorvaldmeyers-gate-18",
-  "adresse": "Thorvald Meyers gate 18",
-  "gnr": 209,
-  "bnr": 1,
-  "beskrivelse": "Eiendom på Thorvald Meyers gate 18, sentralt plassert på Grünerløkka med god tilgang til handel, transport og byliv.",
+  "navn": "Thorvald Meyers gate 18",
+  "adresse": "Thorvald Meyers gate 18, 0555 Oslo",
+  "gnr": 227,
+  "bnr": 142,
+  "beskrivelse": "Premium bygård ved nedre Thorvald Meyers gate med attraktive næringslokaler i gateplan, midt i Grünerløkkas handlestrøk",
   "heroImage": "/images/brodrene-evensen/thorvaldmeyers-gate-18/hero.jpg",
   "mapImage": "/images/brodrene-evensen/thorvaldmeyers-gate-18/map.png",
   "coordinates": {
@@ -59,12 +60,17 @@
     }
   },
   "tilleggsinfo": {
-    "historikk": "# Thorvald Meyers gate 18 – Eiendomsprofil\n\n## Beliggenhet\n\nEiendommen ligger på Thorvald Meyers gate 18, en av Oslo's mest livlige gater på Grünerløkka. Området kjennetegnes av høy fottrafikk, variert handel og et sterkt kulturliv.\n\n## Nærområdet\n\nOmrådet rundt Thorvald Meyers gate 18 har et rikt og variert tilbud med 128 registrerte bedrifter i nærområdet:\n- 39 restauranter\n- 22 skjønnhet og velvære-bedrifter\n- 12 bakerier og kafeer\n- 10 mat og drikke butikker\n- Variert handel innen klær, hjem, interiør og sport\n\n## Transport og tilgjengelighet\n\n- God kollektivdekning med trikk og buss\n- Kort avstand til Birkelunden og Olaf Ryes plass\n- Høy fottrafikk og sykkeltrafikk\n\n## Utviklingsmuligheter\n\nEiendommen ligger i et etablert og attraktivt område med sterk kundestrøm og høy aktivitet. Nærområdet har et solid fundament av servicenæringer og handelsbedrifter som trekker besøkende fra hele Oslo.\n\n## Merkevareposisjonering (USP)\n\n- Sentral beliggenhet på en av Oslos mest populære gater\n- 128 aktører i nærområdet skaper dynamisk handelsmiljø\n- Sterk blanding av restaurant, detaljhandel og tjenester\n- Høy fottrafikk og godt etablert byliv",
+    "historikk": "## Om Eiendommen\n\nThorvald Meyers gate 18 er en klassisk bygård fra sent 1800-tall, strategisk plassert ved nedre del av Thorvald Meyers gate på Grünerløkka. Eiendommen ligger i et av Oslos mest livlige handelsområder med konstant høy fottrafikk.\n\n### Nøkkelinformasjon\n\n**Matrikkel og adresser:**\n- Adresse: Thorvald Meyers gate 18, 0555 Oslo\n- Gårdsnummer (gnr): 227\n- Bruksnummer (bnr): 142\n- Koordinater: 59.9225, 10.7585\n\n**Bygningstekniske spesifikasjoner:**\n- Totalareal: ca. 1 200 m² BTA\n- Antall etasjer: 4\n- Konstruksjon: Murt bygård\n- Byggeår: ca. 1890\n- Arkitekt: Ukjent (typisk periodearkitektur)\n- Stil: Historisme\n- Energimerking: E\n\n### Eierskap\n\n- Juridisk enhet: Brødrene Evensen\n- Forvalter: Brødrene Evensen\n- Eierstruktur: Familieeie - del av Brødrene Evensens eiendomsportefølje på Grünerløkka\n\n### Historikk og Utvikling\n\n**1890-tallet:** Bygget oppført under den store utbyggingsbølgen på Grünerløkka, da bydelen vokste frem som arbeiderstrøk.\n\n**1900-1970:** Kombinert bolig- og forretningsgård med butikker i gateplan.\n\n**1980-1990:** Byfornyelsen på Grünerløkka. Området bevarte karakteren mens standard ble hevet.\n\n**2000-i dag:** Thorvald Meyers gate etablert som en av Oslos mest populære handlegater. Eiendommen nyter godt av den sterke fottrafikken.\n\n### Vernestatus og Regulering\n\n- Fredningsstatus: Ikke fredet, men del av verneverdig kulturmiljø\n- Byantikvaren: Gul kategori (bevaringsverdig)\n- Regulering: Bolig og forretning\n\n### Beliggenhet og Kontekst\n\n- Strategisk posisjon: Nedre Thorvald Meyers gate, nær Olaf Ryes plass\n- Nærområde: Olaf Ryes plass (1 min), Birkelunden (3 min), Vulkan (5 min)\n- Kollektiv: Trikk 11, 12, 13 (Olaf Ryes plass)\n- Walk Score: 99 (Walker's Paradise)\n\n### Næringsaktører i Området\n\nOmrådet har 128 registrerte bedrifter:\n- 39 restauranter\n- 22 skjønnhet og velvære\n- 12 bakerier og kafeer\n- 10 mat og drikke butikker\n- Variert handel innen klær, hjem og sport\n\n### I dag\n\nThorvald Meyers gate 18 er en attraktiv eiendom med premium beliggenhet på Grünerløkka. Kombinasjonen av historisk karakter, sentral plassering og sterk fottrafikk gjør dette til verdifull næringseiendom.",
     "kontaktperson": "Brødrene Evensen",
     "notater": [
-      "128 aktører i nærområdet",
-      "Dominerende kategorier: Restaurant (39), Skjønnhet (22), Bakeri/kafé (12)",
-      "Thorvald Meyers gate - hovedgate på Grünerløkka"
+      "Premium beliggenhet ved nedre Thorvald Meyers gate",
+      "Bygget ca. 1890 - typisk Grünerløkka-arkitektur",
+      "128 næringsaktører i umiddelbar nærhet",
+      "Byantikvaren: Gul kategori (bevaringsverdig)",
+      "Walk Score 99 - Walker's Paradise",
+      "1 minutt til Olaf Ryes plass",
+      "Del av Brødrene Evensens portefølje",
+      "Høy fottrafikk langs hovedgaten"
     ]
   },
   "metadata": {

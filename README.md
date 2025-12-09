@@ -5,7 +5,7 @@
 > A comprehensive place analysis platform serving property developers and the natural state research team with detailed demographic, market, and development data for 42 properties across Grünerløkka.
 
 [![Deployment](https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel)](https://lokka-gardeierforening-platform.vercel.app)
-[![Framework](https://img.shields.io/badge/Next.js-16.0.3-black?logo=next.js)](https://nextjs.org)
+[![Framework](https://img.shields.io/badge/Next.js-16.0.8-black?logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript)](https://www.typescriptlang.org)
 [![License](https://img.shields.io/badge/License-Private-red)]()
 
@@ -89,11 +89,12 @@ This platform serves **10 separate tenants** under one codebase:
 ## 🛠 Tech Stack
 
 ### Core
-- **[Next.js 16.0.3](https://nextjs.org)** - React framework with App Router
-- **[React 19](https://react.dev)** - Latest React with Server Components
+- **[Next.js 16.0.8](https://nextjs.org)** - React framework with App Router (security patched)
+- **[React 19.2](https://react.dev)** - Latest React with Server Components
 - **[TypeScript](https://www.typescriptlang.org)** - Strict mode enabled
-- **[Tailwind CSS](https://tailwindcss.com)** - Utility-first styling
+- **[Tailwind CSS 4](https://tailwindcss.com)** - Utility-first styling
 - **[Turbopack](https://turbo.build/pack)** - Fast bundler
+- **[Recharts](https://recharts.org)** - Interactive data visualizations
 
 ### Features
 - ✅ Server Components for optimal performance
@@ -102,6 +103,8 @@ This platform serves **10 separate tenants** under one codebase:
 - ✅ Route protection middleware
 - ✅ Type-safe data loading
 - ✅ Cookie-based authentication
+- ✅ Silent failure detection with prebuild verification
+- ✅ Jest unit tests with 70% coverage threshold
 
 ### Deployment
 - **Platform:** [Vercel](https://vercel.com)
@@ -143,13 +146,19 @@ lokka-gardeierforening-platform/
 │   │   └── spabo/
 │   ├── lib/                     # Utilities & loaders
 │   │   ├── loaders/            # Data loading functions
-│   │   └── utils.ts            # Helper functions
+│   │   └── utils/              # Utility modules
+│   │       ├── safe-data.ts    # Null-safe data utilities
+│   │       ├── property-defaults.ts # Property field defaults
+│   │       └── __tests__/      # Unit tests
 │   └── types/                   # TypeScript definitions
+├── scripts/                     # Build & verification scripts
+│   └── verify-project.js       # Silent failure detection
 ├── public/                      # Static assets
 │   └── images/                 # Images & screenshots
 │       ├── companies/          # Portfolio hero images
 │       └── areas/              # Area images
 ├── middleware.ts               # Route protection
+├── jest.config.js              # Jest test configuration
 └── tailwind.config.ts         # Tailwind configuration
 ```
 
@@ -276,6 +285,23 @@ Each property has:
 
 ## 🧪 Testing
 
+### Automated Testing
+
+```bash
+# Run all tests
+npm run test
+
+# Watch mode for development
+npm run test:watch
+
+# Coverage report
+npm run test:coverage
+```
+
+**Test Coverage:**
+- `src/lib/utils/__tests__/safe-data.test.ts` - Null-safe utility tests
+- `src/lib/utils/__tests__/property-defaults.test.ts` - Property default tests
+
 ### Manual Testing
 
 ```bash
@@ -293,13 +319,14 @@ npm run dev
 ### Build Testing
 
 ```bash
-# Production build
+# Production build (runs verify + type-check automatically)
 npm run build
 
 # Check for errors
 - TypeScript compilation
 - Image optimization
 - Route generation
+- Silent failure detection
 ```
 
 ---
@@ -309,17 +336,54 @@ npm run build
 ```bash
 # Development
 npm run dev          # Start dev server (localhost:3001)
-npm run build        # Build for production
+npm run build        # Build for production (includes verify + type-check)
 npm start            # Start production server
 
 # Code Quality
 npm run lint         # Run ESLint
 npm run type-check   # TypeScript validation
+npm run verify       # Silent failure detection scan
+
+# Testing
+npm run test         # Run Jest tests
+npm run test:watch   # Run tests in watch mode
+npm run test:coverage # Run tests with coverage report
 ```
 
 ---
 
 ## 🎯 Recent Updates
+
+### December 9, 2025
+
+**Silent Failure Detection System (Latest):**
+- ✅ Created `scripts/verify-project.js` - Automated silent failure detection
+- ✅ Created `src/lib/utils/safe-data.ts` - Null-safe data utilities for charts
+- ✅ Created `src/lib/utils/property-defaults.ts` - Property field defaults
+- ✅ Added Jest testing framework with 70% coverage threshold
+- ✅ Implemented prebuild hook for automatic verification
+- ✅ Updated all 7 property loaders with sanitization
+- ✅ Fixed null handling in chart components (Recharts)
+
+**Verification System Features:**
+- JSON file validation (257 files scanned)
+- Loader integrity checks
+- Null value detection in critical paths
+- Build-time safety with prebuild hook
+
+**Project Health & Code Quality Improvements:**
+- ✅ Security: Upgraded Next.js 16.0.3 → 16.0.8 (fixed critical RCE vulnerability)
+- ✅ ESLint errors reduced from 118 → 64 (46% reduction)
+- ✅ Fixed component render bugs (CustomTooltip moved outside render)
+- ✅ Cleaned up unused imports/variables across 15+ files
+- ✅ Removed malformed directories and broken templates
+- ✅ Build verified with 111 static pages generated
+
+**Code Quality Phases Completed:**
+- Phase 1: Quick fixes (malformed dirs, Link components, setState fixes)
+- Phase 2: Unused imports, any types in loaders, empty directories
+- Phase 3: Component render bugs, biblioteket cleanup, type improvements
+- Phase 4: Silent failure detection, null handling, test coverage
 
 ### November 27, 2025
 
@@ -450,9 +514,12 @@ Private & Confidential - © 2025 Løkka Gardeierforening & Natural State
 **Current:** 99% Complete
 **Deployment:** ✅ Live on Vercel
 **Quality:** 🚀 Production Ready
+**Build:** ✅ 111 static pages, 64 ESLint issues (down from 118)
+**Tests:** ✅ Jest configured with 70% coverage threshold
 **Last Major Updates:**
+- Silent Failure Detection System (Dec 9, 2025)
+- Code Quality & Security Improvements (Dec 9, 2025)
 - Mathallen Oslo Interactive 1-Min Analysis (Nov 27, 2025)
 - 2024 Årsrapport Interactive Charts (Nov 26, 2025)
-- Områdesammenligning 2024 Interactive Charts (Nov 26, 2025)
 
-Built with ❤️ using Next.js, TypeScript, Tailwind CSS, and Recharts
+Built with ❤️ using Next.js 16.0.8, TypeScript, Tailwind CSS 4, Recharts, and Jest

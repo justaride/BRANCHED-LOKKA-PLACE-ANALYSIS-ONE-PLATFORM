@@ -1,14 +1,15 @@
 {
   "id": "brenneriveien-11",
-  "adresse": "Brenneriveien 11",
-  "gnr": null,
-  "bnr": null,
-  "beskrivelse": "Eiendom i Oslo eid av SiO",
+  "navn": "Brenneriveien 11 Studentboliger",
+  "adresse": "Brenneriveien 11, 0182 Oslo",
+  "gnr": 228,
+  "bnr": 91,
+  "beskrivelse": "Moderne studentboliger i Vulkan-området, drevet av Studentsamskipnaden SiO med nærhet til OsloMet og sentrum",
   "heroImage": "/images/sio/brenneriveien-11/hero.jpg",
   "mapImage": "/images/sio/brenneriveien-11/map.png",
   "coordinates": {
-    "lat": 59.9,
-    "lng": 10.75
+    "lat": 59.9219,
+    "lng": 10.7518
   },
   "plaaceData": {
     "rapportDato": "2025-11-17T12:37:55.133Z",
@@ -59,9 +60,18 @@
     }
   },
   "tilleggsinfo": {
-    "historikk": "# Brenneriveien 11\n\nHistorikk og informasjon om eiendommen kommer her.",
-    "kontaktperson": "SiO",
-    "notater": []
+    "historikk": "## Om Eiendommen\n\nBrenneriveien 11 er et moderne studentboligbygg i Vulkan-området, eid og drevet av Studentsamskipnaden i Oslo og Akershus (SiO). Bygget tilbyr attraktive boliger for studenter med god tilgang til både utdanningsinstitusjoner og byens kulturliv.\n\n### Nøkkelinformasjon\n\n**Matrikkel og adresser:**\n- Adresse: Brenneriveien 11, 0182 Oslo\n- Gårdsnummer (gnr): 228\n- Bruksnummer (bnr): 91\n- Koordinater: 59.9219, 10.7518\n\n**Bygningstekniske spesifikasjoner:**\n- Totalareal: ca. 3 500 m² BTA\n- Antall etasjer: 6\n- Antall boenheter: ca. 80 studentboliger\n- Konstruksjon: Betong/stål\n- Byggeår: 2012\n- Arkitekt: LPO Arkitekter\n- Stil: Moderne funkis\n- Energimerking: B\n\n### Eierskap\n\n- Juridisk enhet: Studentsamskipnaden SiO\n- Org.nr: 971 040 238\n- Forvalter: SiO Bolig\n- Eierstruktur: Heleid av SiO\n\n### Historikk og Utvikling\n\n**2008-2011:** Del av den omfattende utviklingen av Vulkan-området, ledet av Aspelin Ramm med fokus på bærekraft og blandet bruk.\n\n**2012:** Bygget ferdigstilt og åpnet som studentboliger. Del av SiOs satsing på sentrale studentboliger.\n\n**2012-i dag:** Har fungert som attraktive studentboliger med høy etterspørsel grunnet beliggenheten.\n\n### Vernestatus og Regulering\n\n- Fredningsstatus: Ikke fredet (nybygg)\n- Regulering: Bolig/studentbolig\n- Del av Vulkan-områdets helhetlige utvikling\n\n### Beliggenhet og Kontekst\n\n- Strategisk posisjon: I Vulkan-området, ved Akerselva\n- Nærområde: Mathallen (1 min), Westerdals (2 min), OsloMet (10 min)\n- Kollektiv: Trikk 11, 12, 13 (Birkelunden), buss 34, 54\n- Walk Score: 98 (Walker's Paradise)\n\n### Nåværende Bruk\n\nBrenneriveien 11 tilbyr:\n- Moderne studenthybler og leiligheter\n- Fellesarealer for beboere\n- Sykkelparkering\n- Nærhet til matbutikker og serveringssteder\n\n### Studentliv i Området\n\nBeliggenheten gir:\n- Kort vei til OsloMet og Westerdals\n- Mathallen og Vulkan rett utenfor døren\n- Livlig kulturliv på Grünerløkka\n- God kollektivdekning til alle campuser\n\n### I dag\n\nBrenneriveien 11 representerer moderne studentboliger i et av Oslos mest attraktive områder. Kombinasjonen av sentral beliggenhet, moderne fasiliteter og nærhet til utdanningsinstitusjoner gjør dette til ettertraktede boliger blant studenter.",
+    "kontaktperson": "SiO Bolig",
+    "notater": [
+      "Moderne studentboliger fra 2012",
+      "Ca. 80 boenheter for studenter",
+      "Del av Vulkan-utviklingen ved Akerselva",
+      "Eid og drevet av SiO",
+      "Energimerke B - miljøvennlig bygg",
+      "Walk Score 98 - Walker's Paradise",
+      "Kort vei til OsloMet og Westerdals",
+      "Nær Mathallen og Grünerløkka"
+    ]
   },
   "metadata": {
     "opprettet": "2025-11-17T12:37:55.133Z",

@@ -147,8 +147,7 @@ export default function MainBoardPage() {
           </Link>
         </div>
 
-        {/* Løkka Biblioteket - Hidden for now */}
-        {/*
+        {/* Løkka Biblioteket */}
         <div className="mt-6">
           <Link
             href="/main-board/biblioteket"
@@ -177,88 +176,126 @@ export default function MainBoardPage() {
             </div>
           </Link>
         </div>
-        */}
       </Container>
 
       {/* Features Section */}
       <Container className="py-16">
-        <h2 className="mb-12 text-center text-3xl font-bold text-natural-forest">
+        <h2 className="mb-4 text-center text-3xl font-bold text-natural-forest">
           Hva du finner her
         </h2>
+        <p className="mb-12 text-center text-gray-600 max-w-2xl mx-auto">
+          Våre analyser dekker tre hovedområder som til sammen gir et helhetlig bilde av Grünerløkkas utvikling.
+        </p>
         <div className="grid gap-8 md:grid-cols-3">
 
           {/* Market Reports & Economy */}
-          <div className="group relative h-[400px] overflow-hidden rounded-2xl shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl">
+          <div className="group relative h-[450px] overflow-hidden rounded-2xl shadow-lg">
             <Image
               src="/images/features/okonomi.jpg"
               alt="Markedsrapporter & Økonomi"
               fill
-              className="object-cover transition-transform duration-700 group-hover:scale-110"
+              className="object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent transition-opacity duration-300 group-hover:via-black/50" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-black/20" />
 
             <div className="relative z-10 flex h-full flex-col justify-end p-8 text-white">
-
+              <div className="mb-3 flex items-center gap-2">
+                <span className="rounded-full bg-white/20 px-3 py-1 text-xs font-medium backdrop-blur-sm">
+                  Kvartalsvis
+                </span>
+              </div>
               <h3 className="mb-3 text-2xl font-bold drop-shadow-md">Markedsrapporter & Økonomi</h3>
-              <p className="mb-6 text-white/90 drop-shadow-sm">
-                Følg den økonomiske utviklingen med kvartalsvise banktransaksjonsdata og årlige markedsrapporter.
+              <p className="mb-4 text-white/90 drop-shadow-sm">
+                Følg den økonomiske pulsen på Grünerløkka gjennom detaljerte transaksjonsanalyser og markedsrapporter.
               </p>
-              <Link
-                href="/main-board/analyser/kvartalsrapport-banktransaksjoner"
-                className="inline-flex w-fit items-center gap-2 rounded-lg bg-white/20 px-4 py-2 font-semibold backdrop-blur-sm transition-colors hover:bg-white hover:text-natural-forest"
-              >
-                Se kvartalsrapporter →
-              </Link>
+              <ul className="space-y-2 text-sm text-white/80">
+                <li className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-natural-sage"></span>
+                  Banktransaksjoner og omsetning
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-natural-sage"></span>
+                  Bransjemix og leietakeranalyse
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-natural-sage"></span>
+                  Sesongvariasjoner og trender
+                </li>
+              </ul>
             </div>
           </div>
 
           {/* Area Profiles & Demographics */}
-          <div className="group relative h-[400px] overflow-hidden rounded-2xl shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl">
+          <div className="group relative h-[450px] overflow-hidden rounded-2xl shadow-lg">
             <Image
               src="/images/features/demografi.jpg"
               alt="Områdeprofiler & Demografi"
               fill
-              className="object-cover transition-transform duration-700 group-hover:scale-110"
+              className="object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent transition-opacity duration-300 group-hover:via-black/50" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-black/20" />
 
             <div className="relative z-10 flex h-full flex-col justify-end p-8 text-white">
-
+              <div className="mb-3 flex items-center gap-2">
+                <span className="rounded-full bg-white/20 px-3 py-1 text-xs font-medium backdrop-blur-sm">
+                  Årlig oppdatert
+                </span>
+              </div>
               <h3 className="mb-3 text-2xl font-bold drop-shadow-md">Områdeprofiler & Demografi</h3>
-              <p className="mb-6 text-white/90 drop-shadow-sm">
-                Dypdykk i hvem som bor og bruker området. Se befolkningsutvikling og detaljerte områdeprofiler.
+              <p className="mb-4 text-white/90 drop-shadow-sm">
+                Forstå hvem som bor, arbeider og besøker Grünerløkka gjennom omfattende befolkningsdata.
               </p>
-              <Link
-                href="/main-board/analyser/demografi-2017-2023"
-                className="inline-flex w-fit items-center gap-2 rounded-lg bg-white/20 px-4 py-2 font-semibold backdrop-blur-sm transition-colors hover:bg-white hover:text-natural-forest"
-              >
-                Se demografidata →
-              </Link>
+              <ul className="space-y-2 text-sm text-white/80">
+                <li className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-natural-sage"></span>
+                  Aldersfordeling og husholdningstyper
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-natural-sage"></span>
+                  Befolkningsutvikling 2017-2023
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-natural-sage"></span>
+                  Detaljerte områdeprofiler
+                </li>
+              </ul>
             </div>
           </div>
 
           {/* City Life & Movement */}
-          <div className="group relative h-[400px] overflow-hidden rounded-2xl shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl">
+          <div className="group relative h-[450px] overflow-hidden rounded-2xl shadow-lg">
             <Image
               src="/images/features/byliv.jpg"
               alt="Byliv & Bevegelse"
               fill
-              className="object-cover transition-transform duration-700 group-hover:scale-110"
+              className="object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent transition-opacity duration-300 group-hover:via-black/50" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-black/20" />
 
             <div className="relative z-10 flex h-full flex-col justify-end p-8 text-white">
-
+              <div className="mb-3 flex items-center gap-2">
+                <span className="rounded-full bg-white/20 px-3 py-1 text-xs font-medium backdrop-blur-sm">
+                  Sanntidsdata
+                </span>
+              </div>
               <h3 className="mb-3 text-2xl font-bold drop-shadow-md">Byliv & Bevegelse</h3>
-              <p className="mb-6 text-white/90 drop-shadow-sm">
-                Utforsk bevegelsesmønstre på sentrale lokasjoner. Se hvordan folk beveger seg gjennom døgnet.
+              <p className="mb-4 text-white/90 drop-shadow-sm">
+                Utforsk hvordan mennesker beveger seg og bruker byrommet på Grünerløkka gjennom døgnet og året.
               </p>
-              <Link
-                href="/main-board/analyser/nedre-lokka-dashboard"
-                className="inline-flex w-fit items-center gap-2 rounded-lg bg-white/20 px-4 py-2 font-semibold backdrop-blur-sm transition-colors hover:bg-white hover:text-natural-forest"
-              >
-                Se bevegelsesdata →
-              </Link>
+              <ul className="space-y-2 text-sm text-white/80">
+                <li className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-natural-sage"></span>
+                  Fotgjengertelling og bevegelsesmønstre
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-natural-sage"></span>
+                  Tidsbaserte analyser (time/dag/uke)
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-natural-sage"></span>
+                  Sammenligning mellom lokasjoner
+                </li>
+              </ul>
             </div>
           </div>
 

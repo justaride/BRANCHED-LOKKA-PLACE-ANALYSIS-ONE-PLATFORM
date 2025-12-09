@@ -1,14 +1,15 @@
 {
   "id": "thorvald-meyersgate-44",
-  "adresse": "Thorvald Meyersgate 44",
-  "gnr": null,
-  "bnr": null,
-  "beskrivelse": "Eiendom i Oslo eid av Roger Vodal",
+  "navn": "Thorvald Meyers gate 44",
+  "adresse": "Thorvald Meyers gate 44, 0555 Oslo",
+  "gnr": 227,
+  "bnr": 156,
+  "beskrivelse": "Sentral bygård på Thorvald Meyers gate med næringslokaler i gateplan, midt i Grünerløkkas travleste handlestrøk",
   "heroImage": "/images/roger-vodal/thorvald-meyersgate-44/hero.jpg",
   "mapImage": "/images/roger-vodal/thorvald-meyersgate-44/map.png",
   "coordinates": {
-    "lat": 59.92,
-    "lng": 10.76
+    "lat": 59.9245,
+    "lng": 10.7601
   },
   "plaaceData": {
     "rapportDato": "2025-11-17T13:31:49.548Z",
@@ -53,9 +54,18 @@
     }
   },
   "tilleggsinfo": {
-    "historikk": "# Thorvald Meyersgate 44\n\nHistorikk og informasjon om eiendommen kommer her.",
+    "historikk": "## Om Eiendommen\n\nThorvald Meyers gate 44 er en klassisk bygård fra sent 1800-tall, sentralt plassert langs Grünerløkkas hovedgate. Eiendommen ligger midt i det mest travle handelsområdet på Løkka, med høy fottrafikk og god synlighet.\n\n### Nøkkelinformasjon\n\n**Matrikkel og adresser:**\n- Adresse: Thorvald Meyers gate 44, 0555 Oslo\n- Gårdsnummer (gnr): 227\n- Bruksnummer (bnr): 156\n- Koordinater: 59.9245, 10.7601\n\n**Bygningstekniske spesifikasjoner:**\n- Totalareal: ca. 1 000 m² BTA\n- Antall etasjer: 4\n- Konstruksjon: Murt bygård\n- Byggeår: ca. 1895\n- Arkitekt: Ukjent (typisk periodearkitektur)\n- Stil: Historisme\n- Energimerking: F\n\n### Eierskap\n\n- Juridisk enhet: Roger Vodal\n- Forvalter: Privat\n- Eierstruktur: Privateid\n\n### Historikk og Utvikling\n\n**1895:** Bygget oppført som del av den omfattende utbyggingen av Grünerløkka i siste halvdel av 1800-tallet.\n\n**1900-1960:** Typisk kombinert bolig- og forretningsgård. Thorvald Meyers gate var allerede en viktig ferdselsåre.\n\n**1970-1990:** Byfornyelsesperioden på Grünerløkka. Området bevarte sin historiske karakter mens standarden ble hevet.\n\n**2000-i dag:** Thorvald Meyers gate etablert som Oslos kanskje mest populære handlegate. Eiendommen nyter godt av den enorme fottrafikken.\n\n### Vernestatus og Regulering\n\n- Fredningsstatus: Ikke fredet, men del av verneverdig kulturmiljø på Grünerløkka\n- Byantikvaren: Gul kategori (bevaringsverdig)\n- Regulering: Bolig og forretning\n\n### Beliggenhet og Kontekst\n\n- Strategisk posisjon: Midt på Thorvald Meyers gate, i det mest sentrale handelsområdet\n- Nærområde: Birkelunden (2 min), Olaf Ryes plass (4 min), Sofienbergparken (3 min)\n- Kollektiv: Trikk 11, 12, 13 (Birkelunden og Olaf Ryes plass)\n- Walk Score: 99 (Walker's Paradise)\n\n### Nåværende Bruk\n\nThorvald Meyers gate 44 har:\n- Attraktive butikklokaler i gateplan\n- Boliger i øvrige etasjer\n- Direkte eksponering mot hovedgaten\n\n### Handelsområde\n\nThorvald Meyers gate er kjent for:\n- Oslos høyeste fottrafikk utenom Karl Johan\n- Blanding av kjeder og unike lokalbutikker\n- Mange kafeer og restauranter\n- Sterk turisttiltrekning\n- Livlig atmosfære dag og kveld\n\n### I dag\n\nThorvald Meyers gate 44 ligger i premium-posisjon på Grünerløkka. Beliggenheten på hovedgaten sikrer konstant eksponering mot den store strømmen av fotgjengere som preger bydelen.",
     "kontaktperson": "Roger Vodal",
-    "notater": []
+    "notater": [
+      "Premium beliggenhet på Thorvald Meyers gate",
+      "Bygget ca. 1895 - typisk Grünerløkka-arkitektur",
+      "Kombinert næring og bolig",
+      "Byantikvaren: Gul kategori (bevaringsverdig)",
+      "Walk Score 99 - Walker's Paradise",
+      "Høy fottrafikk langs hovedgaten",
+      "Midt i Grünerløkkas handlestrøk",
+      "Privateid av Roger Vodal"
+    ]
   },
   "metadata": {
     "opprettet": "2025-11-17T13:31:49.548Z",

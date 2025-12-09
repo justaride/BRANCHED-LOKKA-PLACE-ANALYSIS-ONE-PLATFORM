@@ -1,14 +1,15 @@
 {
   "id": "marselis-gate-24",
-  "adresse": "Marselis gate 24",
-  "gnr": null,
-  "bnr": null,
-  "beskrivelse": "Eiendom i Oslo eid av SiO",
+  "navn": "Marselis gate 24 Studentboliger",
+  "adresse": "Marselis gate 24, 0551 Oslo",
+  "gnr": 227,
+  "bnr": 89,
+  "beskrivelse": "Studentboliger på Grünerløkka, sentralt plassert nær Sofienbergparken og Grünerløkka Studenthus",
   "heroImage": "/images/sio/marselis-gate-24/hero.jpg",
   "mapImage": "/images/sio/marselis-gate-24/map.png",
   "coordinates": {
-    "lat": 59.9,
-    "lng": 10.75
+    "lat": 59.9256,
+    "lng": 10.7628
   },
   "plaaceData": {
     "rapportDato": "2025-11-17T12:37:55.135Z",
@@ -59,9 +60,18 @@
     }
   },
   "tilleggsinfo": {
-    "historikk": "# Marselis gate 24\n\nHistorikk og informasjon om eiendommen kommer her.",
-    "kontaktperson": "SiO",
-    "notater": []
+    "historikk": "## Om Eiendommen\n\nMarselis gate 24 er et studentboligbygg på Grünerløkka, eid og drevet av Studentsamskipnaden i Oslo og Akershus (SiO). Bygget ligger i et rolig boligområde med kort vei til både Sofienbergparken og det livlige sentrum av Grünerløkka.\n\n### Nøkkelinformasjon\n\n**Matrikkel og adresser:**\n- Adresse: Marselis gate 24, 0551 Oslo\n- Gårdsnummer (gnr): 227\n- Bruksnummer (bnr): 89\n- Koordinater: 59.9256, 10.7628\n\n**Bygningstekniske spesifikasjoner:**\n- Totalareal: ca. 2 800 m² BTA\n- Antall etasjer: 5\n- Antall boenheter: ca. 45 studentboliger\n- Konstruksjon: Murt bygård (renovert)\n- Byggeår: ca. 1920, ombygget 1990-tallet\n- Stil: Funksjonalisme (etter ombygging)\n- Energimerking: D\n\n### Eierskap\n\n- Juridisk enhet: Studentsamskipnaden SiO\n- Org.nr: 971 040 238\n- Forvalter: SiO Bolig\n- Eierstruktur: Heleid av SiO\n\n### Historikk og Utvikling\n\n**1920-tallet:** Bygget oppført som vanlig boligbygg i den typiske Grünerløkka-stilen.\n\n**1990-tallet:** Ombygget og tilrettelagt for studentboliger som del av SiOs utvidelse av studentboligtilbudet i Oslo.\n\n**2000-i dag:** Har fungert som ettertraktede studentboliger med god beliggenhet og rimelig husleie.\n\n### Vernestatus og Regulering\n\n- Fredningsstatus: Ikke fredet\n- Regulering: Bolig/studentbolig\n- Del av boligområdet ved Sofienbergparken\n\n### Beliggenhet og Kontekst\n\n- Strategisk posisjon: Rolig sidegate nær Sofienbergparken\n- Nærområde: Sofienbergparken (1 min), Grünerløkka Studenthus (5 min), Birkelunden (5 min)\n- Kollektiv: Trikk 11, 12, 13 (Birkelunden), buss 34\n- Walk Score: 96 (Walker's Paradise)\n\n### Nåværende Bruk\n\nMarselis gate 24 tilbyr:\n- Studenthybler og mindre leiligheter\n- Fellesarealer\n- Sykkelparkering\n- Rolige omgivelser i grønt nabolag\n\n### Studentliv i Området\n\nBeliggenheten gir:\n- Nærhet til Grünerløkka Studenthus med kantine og aktiviteter\n- Sofienbergparken rett utenfor døren\n- Gangavstand til Thorvald Meyers gate\n- God kollektivdekning\n\n### I dag\n\nMarselis gate 24 tilbyr studentboliger i et av Oslos mest populære boligområder. Kombinasjonen av rolige omgivelser og nærhet til byens puls gjør dette til attraktive boliger for studenter.",
+    "kontaktperson": "SiO Bolig",
+    "notater": [
+      "Studentboliger nær Sofienbergparken",
+      "Ca. 45 boenheter for studenter",
+      "Opprinnelig bygget 1920-tallet, ombygget 1990-tallet",
+      "Eid og drevet av SiO",
+      "Rolig beliggenhet i grønt nabolag",
+      "Walk Score 96 - Walker's Paradise",
+      "Nær Grünerløkka Studenthus",
+      "Kort vei til Birkelunden og sentrum"
+    ]
   },
   "metadata": {
     "opprettet": "2025-11-17T12:37:55.135Z",

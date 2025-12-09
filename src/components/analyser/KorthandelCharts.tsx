@@ -15,6 +15,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from 'recharts';
+import { safeNumber, createSafeFormatter } from '@/lib/utils/safe-data';
 
 interface KorthandelChartsProps {
   basePath: string;
@@ -91,14 +92,17 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
     loadData();
   }, [basePath]);
 
-  // Aggregate daily data to monthly for better readability
+  // Aggregate daily data to monthly for better readability with null-safe handling
   const monthlyData = useMemo(() => {
     const monthly: Record<string, { month: string; Handel: number; 'Mat og opplevelser': number; Tjenester: number; count: number }> = {};
 
     tidsromData.forEach(day => {
-      if (!day['Handel (batchDate)']) return;
+      const batchDate = day['Handel (batchDate)'] || day['Mat og opplevelser (batchDate)'];
+      if (!batchDate) return;
 
-      const date = new Date(day['Handel (batchDate)']);
+      const date = new Date(batchDate);
+      if (isNaN(date.getTime())) return;
+
       const monthKey = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
 
       if (!monthly[monthKey]) {
@@ -111,18 +115,20 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
         };
       }
 
-      monthly[monthKey].Handel += day.sumTransactionAmount || 0;
-      monthly[monthKey]['Mat og opplevelser'] += day.sumTransactionAmount || 0;
-      monthly[monthKey].Tjenester += day.sumTransactionAmount || 0;
+      monthly[monthKey].Handel += safeNumber(day.sumTransactionAmount, 0);
+      monthly[monthKey]['Mat og opplevelser'] += safeNumber(day.sumTransactionAmount, 0);
+      monthly[monthKey].Tjenester += safeNumber(day.sumTransactionAmount, 0);
       monthly[monthKey].count += 1;
     });
 
-    return Object.values(monthly).map(m => ({
-      month: m.month,
-      Handel: m.Handel,
-      'Mat og opplevelser': m['Mat og opplevelser'],
-      Tjenester: m.Tjenester,
-    }));
+    return Object.values(monthly)
+      .filter(m => m.count > 0)
+      .map(m => ({
+        month: m.month,
+        Handel: m.Handel,
+        'Mat og opplevelser': m['Mat og opplevelser'],
+        Tjenester: m.Tjenester,
+      }));
   }, [tidsromData]);
 
   // Map English weekday names to Norwegian
@@ -150,15 +156,17 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
     { id: 3, label: 'Indeksert vekst' },
   ];
 
+  const safeValueFormatter = createSafeFormatter((v) => v.toFixed(2), 'N/A');
+
   const CustomTooltip = ({ active, payload, label }: any) => {
     if (!active || !payload || !payload.length) return null;
 
     return (
       <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
-        <p className="mb-1 text-xs font-medium text-gray-500">{label}</p>
+        <p className="mb-1 text-xs font-medium text-gray-500">{label ?? 'Ukjent'}</p>
         {payload.map((entry: any, index: number) => (
           <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
-            {entry.name}: {typeof entry.value === 'number' ? entry.value.toFixed(2) : entry.value}%
+            {entry.name}: {safeValueFormatter(entry.value)}%
           </p>
         ))}
       </div>

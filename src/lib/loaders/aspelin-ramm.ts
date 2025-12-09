@@ -4,6 +4,9 @@
  */
 
 import type { Eiendom } from '@/types/eiendom';
+import { ensureEiendomDefaults, ensureAllEiendomDefaults } from '@/lib/utils/property-defaults';
+
+const TENANT = 'aspelin-ramm';
 
 /**
  * Load all Aspelin Ramm properties
@@ -18,7 +21,7 @@ export async function loadAllEiendommer(): Promise<Eiendom[]> {
       import('@/data/aspelin-ramm/vulkan-arena.json'),
     ]);
 
-    return data.map((m) => m.default as Eiendom);
+    return ensureAllEiendomDefaults(data.map((m) => m.default), TENANT);
   } catch (error) {
     console.error('Error loading Aspelin Ramm properties:', error);
     return [];
@@ -31,7 +34,7 @@ export async function loadAllEiendommer(): Promise<Eiendom[]> {
 export async function loadEiendom(id: string): Promise<Eiendom | null> {
   try {
     const data = await import(`@/data/aspelin-ramm/${id}.json`);
-    return data.default as Eiendom;
+    return ensureEiendomDefaults(data.default, TENANT);
   } catch (error) {
     console.error(`Error loading property ${id}:`, error);
     return null;

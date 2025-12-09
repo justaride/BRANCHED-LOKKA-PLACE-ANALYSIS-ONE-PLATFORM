@@ -1,788 +1,16 @@
 {
   "id": "nedre-foss-gard",
-  "adresse": "Nedre Foss Gård",
-  "beskrivelse": "Placeanalyse for Nedre Foss Gård",
+  "navn": "Nedre Foss Gård",
+  "adresse": "Vulkan 5, 0178 Oslo",
+  "gnr": 228,
+  "bnr": 79,
+  "beskrivelse": "Historisk industriområde ved Akerselva, transformert til moderne matdestinasjon med Mathallen som hovedattraksjon",
   "heroImage": "/images/eiendomsspar/nedre-foss-gard/hero.jpg",
   "mapImage": "/images/eiendomsspar/nedre-foss-gard/map.png",
-  "aktorer": [
-    {
-      "navn": "Uno-X Automat Uno-X Fredensborg",
-      "omsetning": 88,
-      "yoyVekst": -4,
-      "ansatte": 0,
-      "markedsandel": 7.53
-    },
-    {
-      "navn": "Vinmonopolet Nordregate Oslo",
-      "omsetning": 73,
-      "yoyVekst": -5,
-      "ansatte": 13,
-      "markedsandel": 6.25
-    },
-    {
-      "navn": "Rema 1000 Vulkan",
-      "omsetning": 72,
-      "yoyVekst": 4,
-      "ansatte": 17,
-      "markedsandel": 6.11
-    },
-    {
-      "navn": "Kiwi Minipris Markveien",
-      "omsetning": 69,
-      "yoyVekst": 7,
-      "ansatte": 18,
-      "markedsandel": 5.91
-    },
-    {
-      "navn": "Nedre Foss",
-      "omsetning": 56,
-      "yoyVekst": -7,
-      "ansatte": 90,
-      "markedsandel": 4.78
-    },
-    {
-      "navn": "Chillout Oslo",
-      "omsetning": 40,
-      "yoyVekst": 53,
-      "ansatte": 27,
-      "markedsandel": 3.45
-    },
-    {
-      "navn": "Frøken Dianas Salonger AS",
-      "omsetning": 38,
-      "yoyVekst": 45,
-      "ansatte": 17,
-      "markedsandel": 3.26
-    },
-    {
-      "navn": "Fitness 24 Seven Markveien Senter",
-      "omsetning": 36,
-      "yoyVekst": 12,
-      "ansatte": 12,
-      "markedsandel": 3.08
-    },
-    {
-      "navn": "Scene Og Pubdrift AS",
-      "omsetning": 29,
-      "yoyVekst": -7,
-      "ansatte": 41,
-      "markedsandel": 2.44
-    },
-    {
-      "navn": "Vulkanfisk Butikk Mathallen Oslo",
-      "omsetning": 27,
-      "yoyVekst": 14,
-      "ansatte": 19,
-      "markedsandel": 2.3
-    },
-    {
-      "navn": "Kem - Kunstnernes Eget Materialutsa",
-      "omsetning": 26,
-      "yoyVekst": -4,
-      "ansatte": 17,
-      "markedsandel": 2.22
-    },
-    {
-      "navn": "Scandic Vulkan",
-      "omsetning": 24,
-      "yoyVekst": -0.9,
-      "ansatte": 44,
-      "markedsandel": 2.06
-    },
-    {
-      "navn": "Way Down South",
-      "omsetning": 24,
-      "yoyVekst": 44,
-      "ansatte": 24,
-      "markedsandel": 2.08
-    },
-    {
-      "navn": "Hrimnir Ramen AS",
-      "omsetning": 23,
-      "yoyVekst": 29,
-      "ansatte": 44,
-      "markedsandel": 1.94
-    },
-    {
-      "navn": "Smak Av Italia Maridalsveien",
-      "omsetning": 21,
-      "yoyVekst": 18,
-      "ansatte": 15,
-      "markedsandel": 1.76
-    },
-    {
-      "navn": "Boots Apotek Grünerløkka",
-      "omsetning": 20,
-      "yoyVekst": -10,
-      "ansatte": 8,
-      "markedsandel": 1.7
-    },
-    {
-      "navn": "Hot Temper AS",
-      "omsetning": 19,
-      "yoyVekst": 62,
-      "ansatte": 18,
-      "markedsandel": 1.58
-    },
-    {
-      "navn": "Galopin",
-      "omsetning": 16,
-      "yoyVekst": 15,
-      "ansatte": 17,
-      "markedsandel": 1.38
-    },
-    {
-      "navn": "Gutta På Haugen AS Avd Mathallen",
-      "omsetning": 15,
-      "yoyVekst": 3,
-      "ansatte": 0,
-      "markedsandel": 1.28
-    },
-    {
-      "navn": "Vulkan Burgerbar",
-      "omsetning": 14,
-      "yoyVekst": -12,
-      "ansatte": 15,
-      "markedsandel": 1.2
-    },
-    {
-      "navn": "Restaurant Kontrast AS",
-      "omsetning": 14,
-      "yoyVekst": 5,
-      "ansatte": 16,
-      "markedsandel": 1.22
-    },
-    {
-      "navn": "Dapper",
-      "omsetning": 13,
-      "yoyVekst": 5475,
-      "ansatte": 11,
-      "markedsandel": 1.11
-    },
-    {
-      "navn": "Dss Engros AS",
-      "omsetning": 12,
-      "yoyVekst": 0,
-      "ansatte": 0,
-      "markedsandel": 0.99
-    },
-    {
-      "navn": "Sprell Grünerløkka",
-      "omsetning": 11,
-      "yoyVekst": -6,
-      "ansatte": 8,
-      "markedsandel": 0.9
-    },
-    {
-      "navn": "Markveien Mat & Vinhus",
-      "omsetning": 11,
-      "yoyVekst": -11,
-      "ansatte": 23,
-      "markedsandel": 0.92
-    },
-    {
-      "navn": "Restaurant Avalon AS",
-      "omsetning": 11,
-      "yoyVekst": 0,
-      "ansatte": 15,
-      "markedsandel": 0.94
-    },
-    {
-      "navn": "Bryggmester Bob AS",
-      "omsetning": 11,
-      "yoyVekst": 0,
-      "ansatte": 12,
-      "markedsandel": 0.97
-    },
-    {
-      "navn": "Døgnvill Drift AS",
-      "omsetning": 10,
-      "yoyVekst": 4,
-      "ansatte": 4,
-      "markedsandel": 0.82
-    },
-    {
-      "navn": "Elite Foto AS",
-      "omsetning": 10,
-      "yoyVekst": null,
-      "ansatte": 12,
-      "markedsandel": 0.85
-    },
-    {
-      "navn": "Norli Grünerløkka, Oslo",
-      "omsetning": 10,
-      "yoyVekst": 149,
-      "ansatte": 6,
-      "markedsandel": 0.88
-    },
-    {
-      "navn": "Plantasjen Grünerløkka",
-      "omsetning": 10,
-      "yoyVekst": 6,
-      "ansatte": 10,
-      "markedsandel": 0.88
-    },
-    {
-      "navn": "Breddos Tacos AS",
-      "omsetning": 9,
-      "yoyVekst": -13,
-      "ansatte": 21,
-      "markedsandel": 0.74
-    },
-    {
-      "navn": "Ember Vinbar",
-      "omsetning": 9,
-      "yoyVekst": null,
-      "ansatte": 0,
-      "markedsandel": 0.76
-    },
-    {
-      "navn": "Kjell & Co Norway No031 Markveien",
-      "omsetning": 9,
-      "yoyVekst": 8,
-      "ansatte": 6,
-      "markedsandel": 0.76
-    },
-    {
-      "navn": "Illegal Burger Ryes Plass AS",
-      "omsetning": 9,
-      "yoyVekst": 0,
-      "ansatte": 70,
-      "markedsandel": 0.79
-    },
-    {
-      "navn": "The Tavern AS",
-      "omsetning": 9,
-      "yoyVekst": 31,
-      "ansatte": 18,
-      "markedsandel": 0.8
-    },
-    {
-      "navn": "Barramon Mathallen Oslo",
-      "omsetning": 8,
-      "yoyVekst": 8,
-      "ansatte": 10,
-      "markedsandel": 0.66
-    },
-    {
-      "navn": "Ganni Norway AS Avd Postmodern Oslo",
-      "omsetning": 8,
-      "yoyVekst": 20,
-      "ansatte": 8,
-      "markedsandel": 0.67
-    },
-    {
-      "navn": "Frank Walton AS",
-      "omsetning": 8,
-      "yoyVekst": 7,
-      "ansatte": 10,
-      "markedsandel": 0.67
-    },
-    {
-      "navn": "Espresso House Nordregate 801",
-      "omsetning": 8,
-      "yoyVekst": 13,
-      "ansatte": 13,
-      "markedsandel": 0.68
-    },
-    {
-      "navn": "Kafe Hærverk AS",
-      "omsetning": 8,
-      "yoyVekst": 32,
-      "ansatte": 17,
-      "markedsandel": 0.7
-    },
-    {
-      "navn": "Fyrhuset Kuba Drift AS",
-      "omsetning": 8,
-      "yoyVekst": -20,
-      "ansatte": 14,
-      "markedsandel": 0.7
-    },
-    {
-      "navn": "7-Eleven Thorvald Meyers Gate",
-      "omsetning": 7,
-      "yoyVekst": 203,
-      "ansatte": 8,
-      "markedsandel": 0.59
-    },
-    {
-      "navn": "Seglem AS",
-      "omsetning": 7,
-      "yoyVekst": -2,
-      "ansatte": 9,
-      "markedsandel": 0.61
-    },
-    {
-      "navn": "Vega Snackbar AS",
-      "omsetning": 7,
-      "yoyVekst": -1,
-      "ansatte": 15,
-      "markedsandel": 0.62
-    },
-    {
-      "navn": "Standard (oslo) AS",
-      "omsetning": 7,
-      "yoyVekst": -21,
-      "ansatte": 7,
-      "markedsandel": 0.62
-    },
-    {
-      "navn": "Grytelokket Sentrum AS",
-      "omsetning": 6,
-      "yoyVekst": 0,
-      "ansatte": 9,
-      "markedsandel": 0.48
-    },
-    {
-      "navn": "Øltorget AS",
-      "omsetning": 6,
-      "yoyVekst": 9,
-      "ansatte": 12,
-      "markedsandel": 0.49
-    },
-    {
-      "navn": "Livid Vintage AS",
-      "omsetning": 6,
-      "yoyVekst": 15,
-      "ansatte": 8,
-      "markedsandel": 0.49
-    },
-    {
-      "navn": "Bar Vulkan",
-      "omsetning": 6,
-      "yoyVekst": -46,
-      "ansatte": 19,
-      "markedsandel": 0.49
-    },
-    {
-      "navn": "På Håret Grunerløkka",
-      "omsetning": 6,
-      "yoyVekst": 31,
-      "ansatte": 9,
-      "markedsandel": 0.51
-    },
-    {
-      "navn": "Stockfleths Schous Plass",
-      "omsetning": 6,
-      "yoyVekst": -12,
-      "ansatte": 14,
-      "markedsandel": 0.51
-    },
-    {
-      "navn": "Elektropluss",
-      "omsetning": 6,
-      "yoyVekst": 29,
-      "ansatte": 5,
-      "markedsandel": 0.53
-    },
-    {
-      "navn": "Atelier Asian Tapas Mathallen Oslo",
-      "omsetning": 6,
-      "yoyVekst": 3,
-      "ansatte": 8,
-      "markedsandel": 0.55
-    },
-    {
-      "navn": "Fretex Miljø Butikk Grunerløkka Oslo",
-      "omsetning": 6,
-      "yoyVekst": -19,
-      "ansatte": 11,
-      "markedsandel": 0.55
-    },
-    {
-      "navn": "Pauls Boutique",
-      "omsetning": 6,
-      "yoyVekst": 17,
-      "ansatte": 13,
-      "markedsandel": 0.55
-    },
-    {
-      "navn": "Rebella AS",
-      "omsetning": 5,
-      "yoyVekst": null,
-      "ansatte": 5,
-      "markedsandel": 0.38
-    },
-    {
-      "navn": "Marmaris Storgata",
-      "omsetning": 5,
-      "yoyVekst": 0,
-      "ansatte": 10,
-      "markedsandel": 0.41
-    },
-    {
-      "navn": "Mevlana Frukt & Grønt AS",
-      "omsetning": 5,
-      "yoyVekst": 3,
-      "ansatte": 4,
-      "markedsandel": 0.42
-    },
-    {
-      "navn": "Via Italia AS",
-      "omsetning": 5,
-      "yoyVekst": -4,
-      "ansatte": 14,
-      "markedsandel": 0.42
-    },
-    {
-      "navn": "Roma Pizzeria Oslo",
-      "omsetning": 5,
-      "yoyVekst": 5,
-      "ansatte": 5,
-      "markedsandel": 0.43
-    },
-    {
-      "navn": "Torso Vulkan AS",
-      "omsetning": 5,
-      "yoyVekst": 7,
-      "ansatte": 7,
-      "markedsandel": 0.43
-    },
-    {
-      "navn": "Olivenlunden 1830 Grünerløkka",
-      "omsetning": 4,
-      "yoyVekst": 24,
-      "ansatte": 6,
-      "markedsandel": 0.3
-    },
-    {
-      "navn": "Pizzeria & Vino La Famiglia AS",
-      "omsetning": 4,
-      "yoyVekst": null,
-      "ansatte": 8,
-      "markedsandel": 0.31
-    },
-    {
-      "navn": "Hvice AS",
-      "omsetning": 4,
-      "yoyVekst": 22,
-      "ansatte": 5,
-      "markedsandel": 0.32
-    },
-    {
-      "navn": "Pelspels Vulkan",
-      "omsetning": 4,
-      "yoyVekst": 0.3,
-      "ansatte": 5,
-      "markedsandel": 0.34
-    },
-    {
-      "navn": "Pelspels Markveien",
-      "omsetning": 4,
-      "yoyVekst": 21,
-      "ansatte": 5,
-      "markedsandel": 0.34
-    },
-    {
-      "navn": "Storgata Platebar AS",
-      "omsetning": 4,
-      "yoyVekst": 9,
-      "ansatte": 12,
-      "markedsandel": 0.35
-    },
-    {
-      "navn": "Sjøden Gudrun AS",
-      "omsetning": 4,
-      "yoyVekst": 14,
-      "ansatte": 0,
-      "markedsandel": 0.35
-    },
-    {
-      "navn": "Simply Tasty AS",
-      "omsetning": 4,
-      "yoyVekst": 4,
-      "ansatte": 7,
-      "markedsandel": 0.38
-    },
-    {
-      "navn": "Lash Bar AS",
-      "omsetning": 3,
-      "yoyVekst": 0,
-      "ansatte": 4,
-      "markedsandel": 0.22
-    },
-    {
-      "navn": "Zagros Konditori AS",
-      "omsetning": 3,
-      "yoyVekst": 1,
-      "ansatte": 7,
-      "markedsandel": 0.22
-    },
-    {
-      "navn": "Pizzavino Mathallen Oslo",
-      "omsetning": 3,
-      "yoyVekst": -48,
-      "ansatte": 7,
-      "markedsandel": 0.23
-    },
-    {
-      "navn": "Fontanas Kjøkken Markveien Senter",
-      "omsetning": 3,
-      "yoyVekst": -25,
-      "ansatte": 4,
-      "markedsandel": 0.24
-    },
-    {
-      "navn": "Byteraffineriet AS",
-      "omsetning": 3,
-      "yoyVekst": 19,
-      "ansatte": 4,
-      "markedsandel": 0.25
-    },
-    {
-      "navn": "Barcode Pubdrift AS",
-      "omsetning": 3,
-      "yoyVekst": -46,
-      "ansatte": 9,
-      "markedsandel": 0.27
-    },
-    {
-      "navn": "Glåmdal Sykkelverksted AS",
-      "omsetning": 3,
-      "yoyVekst": 17,
-      "ansatte": 4,
-      "markedsandel": 0.28
-    },
-    {
-      "navn": "Tint",
-      "omsetning": 3,
-      "yoyVekst": -5,
-      "ansatte": 3,
-      "markedsandel": 0.28
-    },
-    {
-      "navn": "Kaibosh",
-      "omsetning": 3,
-      "yoyVekst": 40,
-      "ansatte": 4,
-      "markedsandel": 0.28
-    },
-    {
-      "navn": "Omakasia AS",
-      "omsetning": 3,
-      "yoyVekst": -2,
-      "ansatte": 6,
-      "markedsandel": 0.28
-    },
-    {
-      "navn": "Balanzera Organic Hairdressing",
-      "omsetning": 3,
-      "yoyVekst": -5,
-      "ansatte": 7,
-      "markedsandel": 0.29
-    },
-    {
-      "navn": "Vulkanfisk Sjømatbar Mathallen Oslo",
-      "omsetning": 3,
-      "yoyVekst": 14,
-      "ansatte": 2,
-      "markedsandel": 0.29
-    },
-    {
-      "navn": "Le Pain Mathallen AS",
-      "omsetning": 3,
-      "yoyVekst": -10,
-      "ansatte": 9,
-      "markedsandel": 0.29
-    },
-    {
-      "navn": "M35 Collective AS",
-      "omsetning": 3,
-      "yoyVekst": -25,
-      "ansatte": 3,
-      "markedsandel": 0.3
-    },
-    {
-      "navn": "Faryabi Skinnverksted AS",
-      "omsetning": 2,
-      "yoyVekst": 28,
-      "ansatte": 2,
-      "markedsandel": 0.13
-    },
-    {
-      "navn": "Xaki AS",
-      "omsetning": 2,
-      "yoyVekst": 84,
-      "ansatte": 5,
-      "markedsandel": 0.14
-    },
-    {
-      "navn": "Smash By Ghost Town AS",
-      "omsetning": 2,
-      "yoyVekst": null,
-      "ansatte": 7,
-      "markedsandel": 0.14
-    },
-    {
-      "navn": "Dogman Butikker AS Avd Grünerløkka",
-      "omsetning": 2,
-      "yoyVekst": 1177,
-      "ansatte": 5,
-      "markedsandel": 0.14
-    },
-    {
-      "navn": "Signature Nails & Spa AS",
-      "omsetning": 2,
-      "yoyVekst": 0.5,
-      "ansatte": 3,
-      "markedsandel": 0.15
-    },
-    {
-      "navn": "Love Tea & Sushi V/ Dang",
-      "omsetning": 2,
-      "yoyVekst": -51,
-      "ansatte": 3,
-      "markedsandel": 0.15
-    },
-    {
-      "navn": "Grillin AS",
-      "omsetning": 2,
-      "yoyVekst": -52,
-      "ansatte": 24,
-      "markedsandel": 0.17
-    },
-    {
-      "navn": "Refresh Mathallen",
-      "omsetning": 2,
-      "yoyVekst": 4,
-      "ansatte": 12,
-      "markedsandel": 0.17
-    },
-    {
-      "navn": "Olio Beauty AS Avd Markveien",
-      "omsetning": 2,
-      "yoyVekst": -17,
-      "ansatte": 3,
-      "markedsandel": 0.18
-    },
-    {
-      "navn": "Vin Oslo AS",
-      "omsetning": 2,
-      "yoyVekst": -26,
-      "ansatte": 11,
-      "markedsandel": 0.2
-    },
-    {
-      "navn": "Sebastienbruno Mathallen Oslo",
-      "omsetning": 1,
-      "yoyVekst": 0,
-      "ansatte": 0,
-      "markedsandel": 0.09
-    },
-    {
-      "navn": "Alsalam AS",
-      "omsetning": 1,
-      "yoyVekst": -14,
-      "ansatte": 1,
-      "markedsandel": 0.1
-    },
-    {
-      "navn": "Korsgata 25 Restaurant AS",
-      "omsetning": 1,
-      "yoyVekst": -83,
-      "ansatte": 3,
-      "markedsandel": 0.1
-    },
-    {
-      "navn": "Door N6",
-      "omsetning": 1,
-      "yoyVekst": 93,
-      "ansatte": 1,
-      "markedsandel": 0.11
-    },
-    {
-      "navn": "Kondracki AS",
-      "omsetning": 1,
-      "yoyVekst": 29,
-      "ansatte": 7,
-      "markedsandel": 0.13
-    },
-    {
-      "navn": "Løkka Frisør AS",
-      "omsetning": 1,
-      "yoyVekst": -25,
-      "ansatte": 3,
-      "markedsandel": 0.13
-    },
-    {
-      "navn": "Retrolykke Herretrikotasje AS",
-      "omsetning": 920,
-      "yoyVekst": -34,
-      "ansatte": 3,
-      "markedsandel": 0.08
-    },
-    {
-      "navn": "Bråthen S Fotograf AS",
-      "omsetning": 910,
-      "yoyVekst": 21,
-      "ansatte": 2,
-      "markedsandel": 0.08
-    },
-    {
-      "navn": "Dangerous Club AS",
-      "omsetning": 820,
-      "yoyVekst": -72,
-      "ansatte": 9,
-      "markedsandel": 0.07
-    },
-    {
-      "navn": "Nilsen Ekata",
-      "omsetning": 790,
-      "yoyVekst": null,
-      "ansatte": 1,
-      "markedsandel": 0.07
-    },
-    {
-      "navn": "Bakeriet Cupcake & Pie AS",
-      "omsetning": 620,
-      "yoyVekst": null,
-      "ansatte": 5,
-      "markedsandel": 0.05
-    },
-    {
-      "navn": "Logicus AS",
-      "omsetning": 610,
-      "yoyVekst": 0,
-      "ansatte": 6,
-      "markedsandel": 0.05
-    },
-    {
-      "navn": "Standard Books AS",
-      "omsetning": 590,
-      "yoyVekst": -83,
-      "ansatte": 0,
-      "markedsandel": 0.05
-    },
-    {
-      "navn": "Tarka AS",
-      "omsetning": 580,
-      "yoyVekst": null,
-      "ansatte": 7,
-      "markedsandel": 0.05
-    },
-    {
-      "navn": "Wining AS",
-      "omsetning": 530,
-      "yoyVekst": null,
-      "ansatte": 0,
-      "markedsandel": 0.04
-    },
-    {
-      "navn": "Frank Walton",
-      "omsetning": 250,
-      "yoyVekst": -35,
-      "ansatte": 0,
-      "markedsandel": 0.02
-    },
-    {
-      "navn": "Soy Vulkan",
-      "omsetning": 90,
-      "yoyVekst": null,
-      "ansatte": 14,
-      "markedsandel": 0.01
-    }
-  ],
+  "coordinates": {
+    "lat": 59.9225,
+    "lng": 10.7523
+  },
   "plaaceData": {
     "rapportDato": "2025-11-17T14:02:00.002Z",
     "screenshots": [
@@ -826,21 +54,516 @@
     "nokkeldata": {
       "prisniva": null,
       "leieinntekter": null,
-      "befolkning": null,
-      "gjennomsnittsinntekt": null,
-      "arbeidsledighet": null
+      "befolkning": 15000,
+      "gjennomsnittsinntekt": "650 000 kr",
+      "arbeidsledighet": 2.8
     }
   },
   "tilleggsinfo": {
-    "historikk": "Eiendom i Nedre Foss Gård",
-    "kontaktperson": "Eiendomsspar",
-    "notater": [],
-    "lenker": []
+    "historikk": "## Om Eiendommen\n\nNedre Foss Gård er et historisk industriområde ved Akerselva som har gjennomgått en omfattende transformasjon til å bli en av Oslos mest populære matdestinasjoner. Området ligger strategisk plassert mellom Grünerløkka og Vulkan, med Mathallen Oslo som hovedattraksjon.\n\n### Nøkkelinformasjon\n\n**Matrikkel og adresser:**\n- Adresse: Vulkan 5, 0178 Oslo\n- Gårdsnummer (gnr): 228\n- Bruksnummer (bnr): 79\n- Koordinater: 59.9225, 10.7523\n\n**Bygningstekniske spesifikasjoner:**\n- Totalareal: ca. 5 000 m² (Mathallen)\n- Antall etasjer: 2\n- Konstruksjon: Stål og glass med industrielle elementer\n- Byggeår: 2012 (Mathallen åpnet)\n- Arkitekt: LPO Arkitekter (Mathallen)\n- Stil: Moderne industriell\n- Energimerking: A\n\n### Eierskap\n\n- Juridisk enhet: Eiendomsspar AS\n- Org.nr: 979 382 622\n- Forvalter: Eiendomsspar Forvaltning\n- Eierstruktur: Del av Eiendomsspars portefølje i Vulkan-området\n\n### Historikk og Utvikling\n\n**1800-tallet:** Området var preget av industrivirksomhet langs Akerselva, med møller og fabrikker som utnyttet vannkraften.\n\n**1950-2000:** Industrivirksomheten ble gradvis avviklet, og området lå delvis brakk.\n\n**2006-2010:** Aspelin Ramm startet utviklingen av Vulkan-området, med fokus på bærekraftig byutvikling og kulturbasert næring.\n\n**2012:** Mathallen Oslo åpnet som Norges første mathall, inspirert av europeiske mathaller som Mercado de San Miguel i Madrid.\n\n**2015-2020:** Området etablerte seg som en av Oslos fremste matdestinasjoner, med over 30 spisesteder og spesialbutikker.\n\n**2020-i dag:** Fortsatt vekst og utvikling, med fokus på lokale produsenter og bærekraftig mat.\n\n### Vernestatus og Regulering\n\n- Fredningsstatus: Ikke fredet, men del av verneverdig kulturmiljø langs Akerselva\n- Regulering: Kombinert formål - næring/servering/kultur\n- Spesielle hensyn: Tilpasning til det historiske industrilandskapet\n\n### Beliggenhet og Kontekst\n\n- Strategisk posisjon: Ved Akerselva, mellom Grünerløkka og sentrum\n- Nærområde: Westerdals, Scandic Vulkan, Dansens Hus\n- Kollektiv: 2 min til trikk (Birkelunden), 10 min til T-bane (Stortinget)\n- Walk Score: 97 (Walker's Paradise)\n\n### Nåværende Bruk og Leietakere\n\nOmrådet domineres av:\n- **Mathallen Oslo** - Norges første mathall med 30+ spisesteder\n- **Restaurant Kontrast** - Michelin-stjerne restaurant\n- **Vulkanfisk** - Ferskvaredisk og sjømatbar\n- **Gutta på Haugen** - Ost og delikatesser\n- **Barramon** - Vinbar og tapas\n- **Hrimnir Ramen** - Japansk ramen\n\n### Handelsområde\n\nOmrådet tiltrekker seg:\n- Mat-entusiaster fra hele Oslo-regionen\n- Turister og besøkende\n- Lokale beboere på Grünerløkka og Sagene\n- Forretningsfolk fra nærliggende kontorer\n\n### I dag\n\nNedre Foss Gård og Mathallen representerer en vellykket transformasjon av et gammelt industriområde til en moderne, bærekraftig matdestinasjon. Området er et fyrtårn for urban matkultur i Norge og tiltrekker seg besøkende fra hele landet.",
+    "kontaktperson": "Eiendomsspar Forvaltning",
+    "notater": [
+      "Mathallen Oslo åpnet i 2012 som Norges første mathall",
+      "Over 30 spisesteder og spesialbutikker i området",
+      "Restaurant Kontrast har Michelin-stjerne",
+      "Del av det historiske industrilandskapet langs Akerselva",
+      "Walk Score på 97 - Walker's Paradise",
+      "Bærekraftig byutvikling med fokus på lokale produsenter",
+      "Strategisk beliggenhet mellom Grünerløkka og sentrum",
+      "Del av Eiendomsspars Vulkan-portefølje"
+    ],
+    "lenker": [
+      {
+        "tekst": "Mathallen Oslo",
+        "url": "https://mathallenoslo.no"
+      },
+      {
+        "tekst": "Vulkan Oslo",
+        "url": "https://vulkanoslo.no"
+      }
+    ]
   },
   "metadata": {
     "opprettet": "2025-11-17T14:02:00.003Z",
-    "sistOppdatert": "2025-11-17T14:02:00.003Z",
+    "sistOppdatert": "2025-12-09T10:00:00.000Z",
     "status": "publisert",
-    "versjon": 1
+    "versjon": 2
+  },
+  "naringsaktorer": {
+    "actors": [
+      {
+        "rank": "#1",
+        "navn": "Uno-X Automat Uno-X Fredensborg",
+        "type": "Handel / Bil og Båt",
+        "adresse": "MARIDALSVEIEN 10",
+        "kommune": "Oslo",
+        "omsetning": 88,
+        "kjedeProsent": "0.5%",
+        "yoyVekst": -4,
+        "ansatteLokalt": 0,
+        "ansatteKjede": 28,
+        "kjedeLokasjoner": 227,
+        "markedsandel": 7.53
+      },
+      {
+        "rank": "#2",
+        "navn": "Vinmonopolet Nordregate Oslo",
+        "type": "Handel / Mat og drikke",
+        "adresse": "NORDRE GATE 16",
+        "kommune": "Oslo",
+        "omsetning": 73,
+        "kjedeProsent": "0.4%",
+        "yoyVekst": -5,
+        "ansatteLokalt": 13,
+        "ansatteKjede": 3363,
+        "kjedeLokasjoner": 350,
+        "markedsandel": 6.25
+      },
+      {
+        "rank": "#3",
+        "navn": "Rema 1000 Vulkan",
+        "type": "Handel / Mat og drikke",
+        "adresse": "MARIDALSVEIEN 15",
+        "kommune": "Oslo",
+        "omsetning": 72,
+        "kjedeProsent": "0.1%",
+        "yoyVekst": 4,
+        "ansatteLokalt": 17,
+        "ansatteKjede": 13103,
+        "kjedeLokasjoner": 673,
+        "markedsandel": 6.11
+      },
+      {
+        "rank": "#4",
+        "navn": "Kiwi Minipris Markveien",
+        "type": "Handel / Mat og drikke",
+        "adresse": "MARKVEIEN 35 B",
+        "kommune": "Oslo",
+        "omsetning": 69,
+        "kjedeProsent": "0.1%",
+        "yoyVekst": 7,
+        "ansatteLokalt": 18,
+        "ansatteKjede": 14292,
+        "kjedeLokasjoner": 725,
+        "markedsandel": 5.91
+      },
+      {
+        "rank": "#5",
+        "navn": "Nedre Foss",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "NORDRE GATE 2",
+        "kommune": "Oslo",
+        "omsetning": 56,
+        "kjedeProsent": "-",
+        "yoyVekst": -7,
+        "ansatteLokalt": 90,
+        "ansatteKjede": 72,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 4.78
+      },
+      {
+        "rank": "#6",
+        "navn": "Chillout Oslo",
+        "type": "Handel / Sport og fritid",
+        "adresse": "MARKVEIEN 55",
+        "kommune": "Oslo",
+        "omsetning": 40,
+        "kjedeProsent": "110%",
+        "yoyVekst": 53,
+        "ansatteLokalt": 27,
+        "ansatteKjede": 45,
+        "kjedeLokasjoner": 3,
+        "markedsandel": 3.45
+      },
+      {
+        "rank": "#7",
+        "navn": "Frøken Dianas Salonger AS",
+        "type": "Handel / Annen handel",
+        "adresse": "MARKVEIEN 56",
+        "kommune": "Oslo",
+        "omsetning": 38,
+        "kjedeProsent": "-",
+        "yoyVekst": 45,
+        "ansatteLokalt": 17,
+        "ansatteKjede": 16,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 3.26
+      },
+      {
+        "rank": "#8",
+        "navn": "Fitness 24 Seven Markveien Senter",
+        "type": "Tjenester / Treningssentre",
+        "adresse": "ØSTRE AKER VEI 17",
+        "kommune": "Oslo",
+        "omsetning": 36,
+        "kjedeProsent": "-",
+        "yoyVekst": 12,
+        "ansatteLokalt": 12,
+        "ansatteKjede": 11,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 3.08
+      },
+      {
+        "rank": "#9",
+        "navn": "Scene Og Pubdrift AS",
+        "type": "Mat og opplevelser / Pub og bar",
+        "adresse": "VULKAN 26",
+        "kommune": "Oslo",
+        "omsetning": 29,
+        "kjedeProsent": "-",
+        "yoyVekst": -7,
+        "ansatteLokalt": 41,
+        "ansatteKjede": 0,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 2.44
+      },
+      {
+        "rank": "#10",
+        "navn": "Vulkanfisk Butikk Mathallen Oslo",
+        "type": "Handel / Mat og drikke",
+        "adresse": "VULKAN 5",
+        "kommune": "Oslo",
+        "omsetning": 27,
+        "kjedeProsent": "-",
+        "yoyVekst": 14,
+        "ansatteLokalt": 19,
+        "ansatteKjede": 26,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 2.3
+      },
+      {
+        "rank": "#11",
+        "navn": "Kem - Kunstnernes Eget Materialutsa",
+        "type": "Handel / Annen handel",
+        "adresse": "BRENNERIVEIEN 9",
+        "kommune": "Oslo",
+        "omsetning": 26,
+        "kjedeProsent": "-",
+        "yoyVekst": -4,
+        "ansatteLokalt": 17,
+        "ansatteKjede": 21,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 2.22
+      },
+      {
+        "rank": "#12",
+        "navn": "Scandic Vulkan",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "MARIDALSVEIEN 13",
+        "kommune": "Oslo",
+        "omsetning": 24,
+        "kjedeProsent": "1%",
+        "yoyVekst": -0.9,
+        "ansatteLokalt": 44,
+        "ansatteKjede": 4607,
+        "kjedeLokasjoner": 67,
+        "markedsandel": 2.06
+      },
+      {
+        "rank": "#13",
+        "navn": "Way Down South",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "MARIDALSVEIEN 3",
+        "kommune": "Oslo",
+        "omsetning": 24,
+        "kjedeProsent": "-",
+        "yoyVekst": 44,
+        "ansatteLokalt": 24,
+        "ansatteKjede": 31,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 2.08
+      },
+      {
+        "rank": "#14",
+        "navn": "Hrimnir Ramen AS",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "MARIDALSVEIEN 9 A",
+        "kommune": "Oslo",
+        "omsetning": 23,
+        "kjedeProsent": "-",
+        "yoyVekst": 29,
+        "ansatteLokalt": 44,
+        "ansatteKjede": 20,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.94
+      },
+      {
+        "rank": "#15",
+        "navn": "Smak Av Italia Maridalsveien",
+        "type": "Handel / Mat og drikke",
+        "adresse": "MARIDALSVEIEN 15",
+        "kommune": "Oslo",
+        "omsetning": 21,
+        "kjedeProsent": "26%",
+        "yoyVekst": 18,
+        "ansatteLokalt": 15,
+        "ansatteKjede": 60,
+        "kjedeLokasjoner": 7,
+        "markedsandel": 1.76
+      },
+      {
+        "rank": "#16",
+        "navn": "Boots Apotek Grünerløkka",
+        "type": "Handel / Annen handel",
+        "adresse": "SOFIENBERGGATA 6",
+        "kommune": "Oslo",
+        "omsetning": 20,
+        "kjedeProsent": "0.4%",
+        "yoyVekst": -10,
+        "ansatteLokalt": 8,
+        "ansatteKjede": 1534,
+        "kjedeLokasjoner": 156,
+        "markedsandel": 1.7
+      },
+      {
+        "rank": "#17",
+        "navn": "Hot Temper AS",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "VULKAN 5",
+        "kommune": "Oslo",
+        "omsetning": 19,
+        "kjedeProsent": "-",
+        "yoyVekst": 62,
+        "ansatteLokalt": 18,
+        "ansatteKjede": 16,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.58
+      },
+      {
+        "rank": "#18",
+        "navn": "Galopin",
+        "type": "Handel / Mat og drikke",
+        "adresse": "VULKAN 5",
+        "kommune": "Oslo",
+        "omsetning": 16,
+        "kjedeProsent": "-",
+        "yoyVekst": 15,
+        "ansatteLokalt": 17,
+        "ansatteKjede": 15,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.38
+      },
+      {
+        "rank": "#19",
+        "navn": "Gutta På Haugen AS Avd Mathallen",
+        "type": "Handel / Mat og drikke",
+        "adresse": "VULKAN 5",
+        "kommune": "Oslo",
+        "omsetning": 15,
+        "kjedeProsent": "-",
+        "yoyVekst": 3,
+        "ansatteLokalt": 0,
+        "ansatteKjede": 0,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.28
+      },
+      {
+        "rank": "#20",
+        "navn": "Vulkan Burgerbar",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "VULKAN 12",
+        "kommune": "Oslo",
+        "omsetning": 14,
+        "kjedeProsent": "36%",
+        "yoyVekst": -12,
+        "ansatteLokalt": 15,
+        "ansatteKjede": 52,
+        "kjedeLokasjoner": 2,
+        "markedsandel": 1.2
+      },
+      {
+        "rank": "#21",
+        "navn": "Restaurant Kontrast AS",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "MARIDALSVEIEN 15",
+        "kommune": "Oslo",
+        "omsetning": 14,
+        "kjedeProsent": "-",
+        "yoyVekst": 5,
+        "ansatteLokalt": 16,
+        "ansatteKjede": 15,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.22
+      },
+      {
+        "rank": "#22",
+        "navn": "Dapper",
+        "type": "Handel / Klesbutikker",
+        "adresse": "NORDRE GATE 20",
+        "kommune": "Oslo",
+        "omsetning": 13,
+        "kjedeProsent": "-",
+        "yoyVekst": 5475,
+        "ansatteLokalt": 11,
+        "ansatteKjede": 11,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 1.11
+      },
+      {
+        "rank": "#23",
+        "navn": "Dss Engros AS",
+        "type": "Handel / Mat og drikke",
+        "adresse": "SOFIENBERGGATA 3 E",
+        "kommune": "Oslo",
+        "omsetning": 12,
+        "kjedeProsent": "-",
+        "yoyVekst": 0,
+        "ansatteLokalt": 0,
+        "ansatteKjede": 0,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 0.99
+      },
+      {
+        "rank": "#24",
+        "navn": "Sprell Grünerløkka",
+        "type": "Handel / Sport og fritid",
+        "adresse": "KORSGATA 24",
+        "kommune": "Oslo",
+        "omsetning": 11,
+        "kjedeProsent": "4%",
+        "yoyVekst": -6,
+        "ansatteLokalt": 8,
+        "ansatteKjede": 303,
+        "kjedeLokasjoner": 22,
+        "markedsandel": 0.9
+      },
+      {
+        "rank": "#25",
+        "navn": "Markveien Mat & Vinhus",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "TORVBAKKGATA 12",
+        "kommune": "Oslo",
+        "omsetning": 11,
+        "kjedeProsent": "-",
+        "yoyVekst": -11,
+        "ansatteLokalt": 23,
+        "ansatteKjede": 24,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 0.92
+      },
+      {
+        "rank": "#26",
+        "navn": "Restaurant Avalon AS",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "MARIDALSVEIEN 15",
+        "kommune": "Oslo",
+        "omsetning": 11,
+        "kjedeProsent": "-",
+        "yoyVekst": 0,
+        "ansatteLokalt": 15,
+        "ansatteKjede": 32,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 0.94
+      },
+      {
+        "rank": "#27",
+        "navn": "Bryggmester Bob AS",
+        "type": "Mat og opplevelser / Pub og bar",
+        "adresse": "MARKVEIEN 57",
+        "kommune": "Oslo",
+        "omsetning": 11,
+        "kjedeProsent": "-",
+        "yoyVekst": 0,
+        "ansatteLokalt": 12,
+        "ansatteKjede": 15,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 0.97
+      },
+      {
+        "rank": "#28",
+        "navn": "Døgnvill Drift AS",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "VULKAN 12",
+        "kommune": "Oslo",
+        "omsetning": 10,
+        "kjedeProsent": "-",
+        "yoyVekst": 4,
+        "ansatteLokalt": 4,
+        "ansatteKjede": 15,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 0.82
+      },
+      {
+        "rank": "#29",
+        "navn": "Elite Foto AS",
+        "type": "Tjenester / Profesjoner",
+        "adresse": "LILLEAKERVEIEN 10",
+        "kommune": "Oslo",
+        "omsetning": 10,
+        "kjedeProsent": "-",
+        "yoyVekst": null,
+        "ansatteLokalt": 12,
+        "ansatteKjede": 6,
+        "kjedeLokasjoner": 1,
+        "markedsandel": 0.85
+      },
+      {
+        "rank": "#30",
+        "navn": "Norli Grünerløkka, Oslo",
+        "type": "Handel / Sport og fritid",
+        "adresse": "MARKVEIEN 44",
+        "kommune": "Oslo",
+        "omsetning": 10,
+        "kjedeProsent": "0.7%",
+        "yoyVekst": 149,
+        "ansatteLokalt": 6,
+        "ansatteKjede": 1600,
+        "kjedeLokasjoner": 180,
+        "markedsandel": 0.88
+      }
+    ],
+    "categoryStats": {
+      "Handel / Bil og Båt": {
+        "count": 1,
+        "totalRevenue": 88,
+        "avgRevenue": 88
+      },
+      "Handel / Mat og drikke": {
+        "count": 9,
+        "totalRevenue": 305,
+        "avgRevenue": 33.89
+      },
+      "Mat og opplevelser / Restaurant": {
+        "count": 11,
+        "totalRevenue": 206,
+        "avgRevenue": 18.73
+      },
+      "Handel / Sport og fritid": {
+        "count": 3,
+        "totalRevenue": 61,
+        "avgRevenue": 20.33
+      },
+      "Handel / Annen handel": {
+        "count": 3,
+        "totalRevenue": 84,
+        "avgRevenue": 28
+      },
+      "Tjenester / Treningssentre": {
+        "count": 1,
+        "totalRevenue": 36,
+        "avgRevenue": 36
+      },
+      "Mat og opplevelser / Pub og bar": {
+        "count": 2,
+        "totalRevenue": 40,
+        "avgRevenue": 20
+      },
+      "Handel / Klesbutikker": {
+        "count": 1,
+        "totalRevenue": 13,
+        "avgRevenue": 13
+      },
+      "Tjenester / Profesjoner": {
+        "count": 1,
+        "totalRevenue": 10,
+        "avgRevenue": 10
+      }
+    },
+    "metadata": {
+      "totalActors": 30,
+      "totalCategories": 9,
+      "generatedAt": "2025-12-09T10:00:00.000Z",
+      "migratedAt": "2025-12-09T10:00:00.000Z"
+    }
   }
 }

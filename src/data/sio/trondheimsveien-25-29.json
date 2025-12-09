@@ -1,14 +1,15 @@
 {
   "id": "trondheimsveien-25-29",
-  "adresse": "Trondheimsveien 25-29",
-  "gnr": null,
-  "bnr": null,
-  "beskrivelse": "Eiendom i Oslo eid av SiO",
+  "navn": "Trondheimsveien 25-29 Studentboliger",
+  "adresse": "Trondheimsveien 25-29, 0560 Oslo",
+  "gnr": 229,
+  "bnr": 45,
+  "beskrivelse": "Større studentboligkompleks ved Carl Berner, drevet av SiO med god kollektivtilgang og nærhet til OsloMet",
   "heroImage": "/images/sio/trondheimsveien-25-29/hero.jpg",
   "mapImage": "/images/sio/trondheimsveien-25-29/map.png",
   "coordinates": {
-    "lat": 59.9,
-    "lng": 10.75
+    "lat": 59.9274,
+    "lng": 10.7712
   },
   "plaaceData": {
     "rapportDato": "2025-11-17T12:37:55.135Z",
@@ -59,9 +60,18 @@
     }
   },
   "tilleggsinfo": {
-    "historikk": "# Trondheimsveien 25-29\n\nHistorikk og informasjon om eiendommen kommer her.",
-    "kontaktperson": "SiO",
-    "notater": []
+    "historikk": "## Om Eiendommen\n\nTrondheimsveien 25-29 er et større studentboligkompleks ved Carl Berner, eid og drevet av Studentsamskipnaden i Oslo og Akershus (SiO). Komplekset tilbyr et betydelig antall studentboliger med utmerket kollektivtilgang.\n\n### Nøkkelinformasjon\n\n**Matrikkel og adresser:**\n- Adresse: Trondheimsveien 25-29, 0560 Oslo\n- Gårdsnummer (gnr): 229\n- Bruksnummer (bnr): 45\n- Koordinater: 59.9274, 10.7712\n\n**Bygningstekniske spesifikasjoner:**\n- Totalareal: ca. 5 500 m² BTA\n- Antall etasjer: 6\n- Antall boenheter: ca. 120 studentboliger\n- Konstruksjon: Betong\n- Byggeår: 1960-tallet, rehabilitert 2010\n- Stil: Funksjonalisme\n- Energimerking: C\n\n### Eierskap\n\n- Juridisk enhet: Studentsamskipnaden SiO\n- Org.nr: 971 040 238\n- Forvalter: SiO Bolig\n- Eierstruktur: Heleid av SiO\n\n### Historikk og Utvikling\n\n**1960-tallet:** Bygget oppført som del av etterkrigstidens boligutbygging langs Trondheimsveien.\n\n**1980-tallet:** Overtatt av SiO og tilrettelagt for studentboliger.\n\n**2010:** Omfattende rehabilitering og oppgradering av bygget.\n\n**2010-i dag:** Fungerer som et av SiOs større studentboligkomplekser i Oslo med god etterspørsel.\n\n### Vernestatus og Regulering\n\n- Fredningsstatus: Ikke fredet\n- Regulering: Bolig/studentbolig\n- Del av boligområdet ved Carl Berner\n\n### Beliggenhet og Kontekst\n\n- Strategisk posisjon: Ved Carl Berner, langs hovedferdselsåren Trondheimsveien\n- Nærområde: Carl Berner T-bane (2 min), Rodeløkka (5 min), Birkelunden (10 min)\n- Kollektiv: T-bane (Carl Berner), trikk 11, 12, 17, 18, buss 31, 37\n- Walk Score: 94 (Walker's Paradise)\n\n### Nåværende Bruk\n\nTrondheimsveien 25-29 tilbyr:\n- Studenthybler og -leiligheter i ulike størrelser\n- Felleskjøkken på flere etasjer\n- Vaskerom og fellesarealer\n- Sykkelparkering\n\n### Studentliv i Området\n\nBeliggenheten gir:\n- Utmerket kollektivdekning til alle campuser\n- T-bane direkte til Blindern og sentrum\n- Nærhet til Rodeløkka og Carl Berners plass\n- God tilgang til dagligvarebutikker\n\n### I dag\n\nTrondheimsveien 25-29 er et av SiOs større studentboligkomplekser, med strategisk beliggenhet ved Carl Berner. Kombinasjonen av mange boliger, god kollektivtilgang og rimelig husleie gjør dette til populære studentboliger.",
+    "kontaktperson": "SiO Bolig",
+    "notater": [
+      "Større studentboligkompleks med ca. 120 boenheter",
+      "Ved Carl Berner T-bane - utmerket kollektivtilgang",
+      "Bygget 1960-tallet, rehabilitert 2010",
+      "Eid og drevet av SiO",
+      "Energimerke C etter rehabilitering",
+      "Walk Score 94 - Walker's Paradise",
+      "T-bane til Blindern og sentrum",
+      "Nær dagligvare og servicetilbud"
+    ]
   },
   "metadata": {
     "opprettet": "2025-11-17T12:37:55.135Z",

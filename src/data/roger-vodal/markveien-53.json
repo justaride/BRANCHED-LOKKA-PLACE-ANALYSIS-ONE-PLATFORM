@@ -1,14 +1,15 @@
 {
   "id": "markveien-53",
-  "adresse": "Markveien 53",
-  "gnr": null,
-  "bnr": null,
-  "beskrivelse": "Eiendom i Oslo eid av Roger Vodal",
+  "navn": "Markveien 53",
+  "adresse": "Markveien 53, 0554 Oslo",
+  "gnr": 227,
+  "bnr": 218,
+  "beskrivelse": "Karakteristisk hjørneeiendom på Markveien med god eksponering, i hjertet av Grünerløkkas handlestrøk",
   "heroImage": "/images/roger-vodal/markveien-53/hero.jpg",
   "mapImage": "/images/roger-vodal/markveien-53/map.png",
   "coordinates": {
-    "lat": 59.92,
-    "lng": 10.76
+    "lat": 59.9237,
+    "lng": 10.7586
   },
   "plaaceData": {
     "rapportDato": "2025-11-17T13:31:49.546Z",
@@ -53,9 +54,18 @@
     }
   },
   "tilleggsinfo": {
-    "historikk": "# Markveien 53\n\nHistorikk og informasjon om eiendommen kommer her.",
+    "historikk": "## Om Eiendommen\n\nMarkveien 53 er en staselig hjørnebygård fra rundt 1890, strategisk plassert langs Markveien på Grünerløkka. Eiendommen har en fremtredende posisjon i gatebildet og representerer den typiske bygårdsarkitekturen fra områdets utbyggingsperiode.\n\n### Nøkkelinformasjon\n\n**Matrikkel og adresser:**\n- Adresse: Markveien 53, 0554 Oslo\n- Gårdsnummer (gnr): 227\n- Bruksnummer (bnr): 218\n- Koordinater: 59.9237, 10.7586\n\n**Bygningstekniske spesifikasjoner:**\n- Totalareal: ca. 1 100 m² BTA\n- Antall etasjer: 4 + loft\n- Konstruksjon: Murt bygård\n- Byggeår: ca. 1890\n- Arkitekt: Ukjent (typisk periodearkitektur)\n- Stil: Historisme med nyrenessanse-detaljer\n- Energimerking: F\n\n### Eierskap\n\n- Juridisk enhet: Roger Vodal\n- Forvalter: Privat\n- Eierstruktur: Privateid\n\n### Historikk og Utvikling\n\n**1890:** Bygget oppført under den store utbyggingsbølgen på Grünerløkka, da området ble utviklet som arbeiderstrøk nær Akerselvas industri.\n\n**1900-1960:** Fungerte som typisk leiegård med kombinert bolig og næring. Butikklokaler i gateplan tjente lokalbefolkningen.\n\n**1970-1990:** Byfornyelsen på Grünerløkka moderniserte bygget samtidig som det historiske preget ble bevart.\n\n**2000-i dag:** Markveien etablert som en av Oslos mest attraktive handlegater. Eiendommen nyter godt av den sterke fottrafikken.\n\n### Vernestatus og Regulering\n\n- Fredningsstatus: Ikke fredet, men del av verneverdig kulturmiljø\n- Byantikvaren: Gul kategori (bevaringsverdig)\n- Regulering: Bolig og forretning\n\n### Beliggenhet og Kontekst\n\n- Strategisk posisjon: Hjørnetomt på Markveien med god synlighet\n- Nærområde: Olaf Ryes plass (2 min), Birkelunden (5 min), Vulkan (5 min)\n- Kollektiv: Trikk 11, 12, 13 (Olaf Ryes plass)\n- Walk Score: 99 (Walker's Paradise)\n\n### Nåværende Bruk\n\nMarkveien 53 har:\n- Attraktive hjørnelokaler i gateplan\n- Boliger i øvrige etasjer\n- Eksponering mot to gater\n\n### Handelsområde\n\nOmrådet rundt Markveien 53 tilbyr:\n- Trendy butikker og designforretninger\n- Populære kafeer og restauranter\n- Livlig atmosfære gjennom hele uken\n- Sterk lokal identitet\n\n### I dag\n\nMarkveien 53 er en attraktiv eiendom i et av Oslos mest ettertraktede strøk. Hjørneposisjonen gir god eksponering og bygget er godt vedlikeholdt med bevart historisk karakter.",
     "kontaktperson": "Roger Vodal",
-    "notater": []
+    "notater": [
+      "Hjørneeiendom med eksponering mot to gater",
+      "Bygget ca. 1890 - historisme med nyrenessanse-detaljer",
+      "Kombinert næring og bolig",
+      "Byantikvaren: Gul kategori (bevaringsverdig)",
+      "Walk Score 99 - Walker's Paradise",
+      "Sentralt på Markveien handlestrøk",
+      "God synlighet i gatebildet",
+      "Privateid av Roger Vodal"
+    ]
   },
   "metadata": {
     "opprettet": "2025-11-17T13:31:49.546Z",

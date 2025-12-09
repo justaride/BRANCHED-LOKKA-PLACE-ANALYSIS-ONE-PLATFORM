@@ -171,28 +171,35 @@ export default async function CategoryPage({ params }: PageProps) {
     return (
         <>
             {/* Hero Section */}
-            <section className="relative overflow-hidden border-b border-gray-200 py-16 text-white">
+            <section className="relative overflow-hidden border-b border-gray-200 py-16 md:py-20 text-white">
                 {/* Hero Background Image */}
                 <Image
                     src={heroImages[category] || heroImages.ildsjeler}
                     alt={currentCategory.title}
                     fill
-                    className="object-cover"
+                    className="object-cover object-center"
                     priority
+                    sizes="100vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
+                <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-black/30" />
                 <Container className="relative z-10">
                     <div className="max-w-3xl">
                         <Link
                             href="/main-board/biblioteket"
-                            className="mb-6 inline-flex items-center gap-2 text-sm font-medium text-white/80 hover:text-white"
+                            className="mb-6 inline-flex items-center gap-2 text-sm font-medium text-white/80 hover:text-white transition-colors group"
                         >
-                            ← Tilbake til biblioteket
+                            <svg className="h-4 w-4 transition-transform group-hover:-translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                            </svg>
+                            Tilbake til biblioteket
                         </Link>
-                        <h1 className="mb-4 text-4xl font-bold leading-tight">
+                        <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-white/15 px-4 py-2 text-sm font-medium text-white backdrop-blur-md border border-white/20">
+                            {currentCategory.itemCount} elementer
+                        </div>
+                        <h1 className="mb-4 text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight">
                             {currentCategory.title}
                         </h1>
-                        <p className="text-lg text-white/90">
+                        <p className="text-base md:text-lg text-white/90 leading-relaxed max-w-2xl">
                             {currentCategory.description}
                         </p>
                     </div>
@@ -200,7 +207,7 @@ export default async function CategoryPage({ params }: PageProps) {
             </section>
 
             {/* Content Section */}
-            <Container className="py-16">
+            <Container className="py-12 md:py-16">
                 {renderContent()}
             </Container>
         </>
