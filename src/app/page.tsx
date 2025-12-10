@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { getCompanyTenants } from '@/config/tenants';
-import TypingScrollAnimation from '@/components/ui/TypingScrollAnimation';
 import NaturalStateInfo from '@/components/layout/NaturalStateInfo';
 
 export default function LandingPage() {
@@ -73,33 +72,6 @@ export default function LandingPage() {
               </div>
             </div>
           </Link>
-        </div>
-      </section>
-
-      {/* Poem Section */}
-      <section className="py-32 bg-white">
-        <div className="mx-auto max-w-4xl px-4 text-center">
-          <h3 className="mb-12 text-sm font-medium uppercase tracking-widest text-gray-500">
-            GRÜNERLØKKA
-          </h3>
-          <TypingScrollAnimation
-            texts={[
-              "Og daga kommer til varme,\nsola skinner i Oslo igjen.\nFontena nede i parken\nstår likt som i ’75.",
-              "Det er så lenge siden jeg var i parken\nog så de gamle satt og drakk.\nSneik på trikken fra Birkelunden\nned til Olav Ryes plass.",
-              "Vi vassa i Spikersuppa,\nkjøpte is i Saras telt.\nPlukka blomster ved Ankerbrua\ntil den første forelskelsen.",
-              "Vi hadde drømmer og visjoner\nom hvordan livet ville bli.\nSatt vi i en bakgård\ni Thorvald Meyers gate nummer 47.",
-              "Så møt meg igjen på Grünerløkka.\nMøt meg i parken så vil du nok se\nat her fins minner\nfra Grüner Hagen og Petrine Nielsen\neller Gamle Min Kafé.\nMøt meg i parken, så vil du se.",
-              "Det er så rart at denne tida,\nsom en gate, forandrer alt.\nFra å være to små gutter\ntil en dag å bli mann.",
-              "Ja, se fuglene ved brua,\nde som alltid vender hjem.\nDu kan se dem der hver sommer\nom og om og om og om igjen.",
-              "Så møt meg igjen på Grünerløkka.\nMøt meg i parken så vil du nok se\nat her fins minner\nfra Grüner Hagen og Petrine Nielsen\neller Gamle Min Kafé.\nMøt meg i parken, så vil du se.",
-              "Ei brosteinsgate med mange restauranter,\nmang en kafé med glade par.\nDet skjer i dansen og trikken stopper,\nog jeg vinker farvel.",
-              "Kjære Grünerløkka,\ntakk for i kveld.\n\nav/Asle Beck"
-            ]}
-            typingSpeed={15}
-            pauseBeforeScroll={1500}
-            scrollSpeed={20}
-            className="h-64"
-          />
         </div>
       </section>
 

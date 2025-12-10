@@ -147,35 +147,6 @@ export default function MainBoardPage() {
           </Link>
         </div>
 
-        {/* Løkka Biblioteket */}
-        <div className="mt-6">
-          <Link
-            href="/main-board/biblioteket"
-            className="group relative block h-[400px] overflow-hidden rounded-2xl shadow-lg transition-all hover:scale-[1.01] hover:shadow-xl"
-          >
-            <Image
-              src="/images/areas/lokka-biblioteket.jpg"
-              alt="Løkka Biblioteket"
-              fill
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
-              style={{ objectPosition: 'center 40%' }}
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-natural-forest/90 via-natural-forest/60 to-transparent transition-opacity duration-300 group-hover:from-natural-forest/95" />
-
-            <div className="relative z-10 flex h-full flex-col justify-center p-8 text-white md:p-12">
-              <div className="max-w-2xl">
-                <h3 className="mb-4 text-4xl font-bold drop-shadow-md">Løkka Biblioteket</h3>
-                <p className="mb-8 text-xl text-white/90 drop-shadow-sm">
-                  Få tilgang til en omfattende samling av dokumenter, rapporter og ressurser.
-                  Din kunnskapsbank for utviklingen på Grünerløkka.
-                </p>
-                <div className="inline-flex w-fit items-center gap-2 rounded-lg bg-white/20 px-6 py-3 text-lg font-semibold backdrop-blur-sm transition-colors group-hover:bg-white group-hover:text-natural-forest">
-                  Gå til biblioteket →
-                </div>
-              </div>
-            </div>
-          </Link>
-        </div>
       </Container>
 
       {/* Features Section */}
