@@ -32,7 +32,7 @@ interface Konseptmiks {
   Bydelnavn: string;
   'Kategori (Nivå 1)': string;
   'Kategori (Nivå 2)': string;
-  No: number;
+  'No.': number;
 }
 
 interface OverUnderandel {
@@ -153,7 +153,7 @@ export default function KonkurransebildeCharts({
   const konseptChartData = Object.entries(konseptGrouped).map(([category, items]) => {
     const dataPoint: any = { category };
     items.forEach(item => {
-      dataPoint[item['Kategori (Nivå 2)']] = item.No;
+      dataPoint[item['Kategori (Nivå 2)']] = item['No.'];
     });
     return dataPoint;
   });

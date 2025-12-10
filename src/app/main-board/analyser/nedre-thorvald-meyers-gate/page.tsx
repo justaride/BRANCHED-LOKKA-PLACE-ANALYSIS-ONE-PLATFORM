@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import AktorOversikt from '@/components/analyser/AktorOversikt';
+import MikroOmradeCharts from '@/components/analyser/MikroOmradeCharts';
 import aktorData from '@/data/main-board/aktorer/nedre-thorvald-meyers-gate.json';
 
 export const metadata: Metadata = {
@@ -56,7 +57,7 @@ export default function NedreThorvaldMeyersGatePage() {
                 Nedre Thorvald Meyers Gate
               </h1>
               <p className="mb-4 text-lg text-white/90 md:text-xl">
-                Thorvald Meyers gate 30 område (0.018 km²)
+                Nedre Thorvald Meyers gate område (0.020 km²)
               </p>
               <div className="flex flex-wrap items-center gap-4 text-sm text-white/80">
                 <div className="flex items-center gap-2">
@@ -92,10 +93,10 @@ export default function NedreThorvaldMeyersGatePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                 </svg>
               </div>
-              <p className="mb-2 text-4xl font-bold text-lokka-primary">13,614</p>
+              <p className="mb-2 text-4xl font-bold text-lokka-primary">21,143</p>
               <p className="text-sm text-lokka-secondary">Gjennomsnitt (alle besøk)</p>
               <div className="mt-4 text-xs text-natural-forest/60">
-                <p>71,272 per km²</p>
+                <p>55,322 per km²</p>
               </div>
             </div>
 
@@ -109,11 +110,11 @@ export default function NedreThorvaldMeyersGatePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                 </svg>
               </div>
-              <p className="mb-2 text-4xl font-bold text-blue-900">NOK 1.7M</p>
+              <p className="mb-2 text-4xl font-bold text-blue-900">NOK 3M</p>
               <p className="text-sm text-blue-700">Per dag i perioden</p>
               <div className="mt-4 text-xs text-blue-600">
-                <p>Total: NOK 4.2 mrd.</p>
-                <p>Snitt: NOK 216 per transaksjon</p>
+                <p>Total: NOK 7.5 mrd.</p>
+                <p>Over 3-års periode</p>
               </div>
             </div>
 
@@ -127,10 +128,10 @@ export default function NedreThorvaldMeyersGatePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <p className="mb-2 text-4xl font-bold text-purple-900">28</p>
+              <p className="mb-2 text-4xl font-bold text-purple-900">40</p>
               <p className="text-sm text-purple-700">Totalt antall konsepter</p>
               <div className="mt-4 text-xs text-purple-600">
-                <p>1,553 per km²</p>
+                <p>978 per km²</p>
               </div>
             </div>
 
@@ -144,13 +145,13 @@ export default function NedreThorvaldMeyersGatePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <p className="mb-2 text-4xl font-bold text-amber-900">NOK 317M</p>
+              <p className="mb-2 text-4xl font-bold text-amber-900">NOK 260M</p>
               <p className="text-sm text-amber-700">Estimert årlig (2024)</p>
-              <div className="mt-4 flex items-center gap-1 text-xs text-red-600">
+              <div className="mt-4 flex items-center gap-1 text-xs text-green-600">
                 <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
                 </svg>
-                <span>-1% endring</span>
+                <span>+17% endring</span>
               </div>
             </div>
           </div>
@@ -722,9 +723,14 @@ export default function NedreThorvaldMeyersGatePage() {
             />
           </div>
 
-          {/* Detaljert konseptmiks */}
+          {/* Interaktiv Konseptmiks Visualisering */}
+          <div className="mb-8">
+            <MikroOmradeCharts basePath="/data/main-board/mikro-omrader/nedre-thorvald-meyers-gate" />
+          </div>
+
+          {/* Detaljert konseptmiks (tekst-versjon) */}
           <div className="mb-8 rounded-2xl border-2 border-gray-200 bg-white p-6 shadow-small md:p-8">
-            <h3 className="mb-6 text-xl font-bold text-lokka-primary">Detaljert Konseptfordeling</h3>
+            <h3 className="mb-6 text-xl font-bold text-lokka-primary">Detaljert Konseptfordeling (Tekstversjon)</h3>
 
             <div className="space-y-6">
               {/* Mat og opplevelser */}

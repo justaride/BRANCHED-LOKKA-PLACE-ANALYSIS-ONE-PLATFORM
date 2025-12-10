@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import AktorOversikt from '@/components/analyser/AktorOversikt';
+import MikroOmradeCharts from '@/components/analyser/MikroOmradeCharts';
 import aktorData from '@/data/main-board/aktorer/ovre-thorvald-meyers-gate.json';
 
 export const metadata: Metadata = {
@@ -722,9 +723,14 @@ export default function OvreThorvaldMeyersGatePage() {
             />
           </div>
 
-          {/* Detaljert konseptmiks */}
+          {/* Interaktiv Konseptmiks Visualisering */}
+          <div className="mb-8">
+            <MikroOmradeCharts basePath="/data/main-board/mikro-omrader/ovre-thorvald-meyers-gate" />
+          </div>
+
+          {/* Detaljert konseptmiks (tekst-versjon) */}
           <div className="mb-8 rounded-2xl border-2 border-gray-200 bg-white p-6 shadow-small md:p-8">
-            <h3 className="mb-6 text-xl font-bold text-lokka-primary">Detaljert Konseptfordeling</h3>
+            <h3 className="mb-6 text-xl font-bold text-lokka-primary">Detaljert Konseptfordeling (Tekstversjon)</h3>
 
             <div className="space-y-6">
               {/* Mat og opplevelser */}

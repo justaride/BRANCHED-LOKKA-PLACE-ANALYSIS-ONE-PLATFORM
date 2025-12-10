@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "total": 28,
+    "categories": [
+      { "name": "Mat og opplevelser", "count": 11, "percentage": 39 },
+      { "name": "Handel", "count": 14, "percentage": 50 },
+      { "name": "Tjenester", "count": 3, "percentage": 11 }
+    ]
+  },
+  "detailed": [
+    { "category": "Mat og opplevelser", "subcategory": "Restaurant", "count": 7 },
+    { "category": "Mat og opplevelser", "subcategory": "Bakeri og kafé", "count": 3 },
+    { "category": "Mat og opplevelser", "subcategory": "Pub og bar", "count": 1 },
+    { "category": "Handel", "subcategory": "Klesbutikker", "count": 6 },
+    { "category": "Handel", "subcategory": "Mat og drikke", "count": 4 },
+    { "category": "Handel", "subcategory": "Sport og fritid", "count": 2 },
+    { "category": "Handel", "subcategory": "Hjem og interiør", "count": 1 },
+    { "category": "Handel", "subcategory": "Annen handel", "count": 1 },
+    { "category": "Tjenester", "subcategory": "Skjønnhet og velvære", "count": 2 },
+    { "category": "Tjenester", "subcategory": "Profesjoner", "count": 1 }
+  ]
+}
