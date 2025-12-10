@@ -15,6 +15,7 @@
     "prebuild": "npm run verify && npm run type-check"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.24",
     "next": "^16.0.8",
