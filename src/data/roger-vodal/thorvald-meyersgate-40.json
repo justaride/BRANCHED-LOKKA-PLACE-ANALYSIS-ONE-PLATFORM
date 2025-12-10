@@ -1,0 +1,236 @@
+{
+  "id": "thorvald-meyersgate-40",
+  "navn": "Thorvald Meyers gate 40",
+  "adresse": "Thorvald Meyers gate 40, 0555 Oslo",
+  "gnr": 227,
+  "bnr": 152,
+  "beskrivelse": "Sentral bygård på Thorvald Meyers gate med næringslokaler i gateplan, midt i Grünerløkkas travleste handlestrøk. Premium beliggenhet med høy synlighet.",
+  "heroImage": "/images/roger-vodal/thorvald-meyersgate-40/oversikt.png",
+  "mapImage": "/images/roger-vodal/thorvald-meyersgate-40/konkurransebildet.png",
+  "coordinates": {
+    "lat": 59.9243,
+    "lng": 10.7600
+  },
+  "plaaceData": {
+    "rapportDato": "2025-12-09T00:00:00Z",
+    "screenshots": [
+      {
+        "filnavn": "Oversikt",
+        "path": "/images/roger-vodal/thorvald-meyersgate-40/oversikt.png",
+        "beskrivelse": "Oversiktsbilde",
+        "kategori": "oversikt"
+      },
+      {
+        "filnavn": "Konkurransebildet",
+        "path": "/images/roger-vodal/thorvald-meyersgate-40/konkurransebildet.png",
+        "beskrivelse": "Konkurransebildet i området",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/roger-vodal/thorvald-meyersgate-40/besokende.png",
+        "beskrivelse": "Hvor besøkende kommer fra",
+        "kategori": "marked"
+      }
+    ],
+    "nokkeldata": {
+      "dagligKorthandel": "3.4 mill NOK",
+      "totalKorthandel": "2.5 mrd NOK",
+      "belopPerTransaksjon": "258 NOK",
+      "gjSnittDagligeBesok": 47372,
+      "besokPerKm2": 53318,
+      "travlesteDag": "lørdag",
+      "travlesteDagAndel": "16%",
+      "konsepttetthet": "380/km2",
+      "totalOmsetning": "1.7 mrd NOK",
+      "omsetningstetthet": "3.7 mrd NOK/km2",
+      "befolkning2023": 8915,
+      "befolkningstetthet": "19600/km2",
+      "omradestorrelse": "0.45 km²",
+      "kortbrukEndring": "+0.9% siste 30d",
+      "konseptmiks": {
+        "mat": 43,
+        "helse": 20,
+        "handel": 37
+      },
+      "konsepttetthetsNiva": "Medium"
+    }
+  },
+  "tilleggsinfo": {
+    "historikk": "## Om Eiendommen\n\nThorvald Meyers gate 40 er en klassisk bygård fra sent 1800-tall, sentralt plassert langs Grünerløkkas hovedgate. Eiendommen ligger midt i det mest travle handelsområdet på Løkka, med høy fottrafikk og god synlighet.\n\n### Nøkkelinformasjon\n\n**Matrikkel og adresser:**\n- Adresse: Thorvald Meyers gate 40, 0555 Oslo\n- Gårdsnummer (gnr): 227\n- Bruksnummer (bnr): 152\n- Koordinater: 59.9243, 10.7600\n\n**Bygningstekniske spesifikasjoner:**\n- Totalareal: ca. 1 050 m² BTA\n- Antall etasjer: 4\n- Konstruksjon: Murt bygård\n- Byggeår: ca. 1895\n- Stil: Historisme\n- Energimerking: F\n\n### Eierskap\n\n- Juridisk enhet: Roger Vodal\n- Forvalter: Privat\n- Eierstruktur: Privateid\n\n### Historikk og Utvikling\n\n**1895:** Bygget oppført som del av den omfattende utbyggingen av Grünerløkka i siste halvdel av 1800-tallet.\n\n**1900-1960:** Typisk kombinert bolig- og forretningsgård med butikklokaler i gateplan.\n\n**1970-1990:** Byfornyelsesperioden på Grünerløkka. Området bevarte sin historiske karakter mens standarden ble hevet.\n\n**2000-i dag:** Thorvald Meyers gate etablert som Oslos mest populære handlegate. Eiendommen nyter godt av den høye fottrafikken.\n\n### Vernestatus og Regulering\n\n- Fredningsstatus: Ikke fredet, men del av verneverdig kulturmiljø\n- Byantikvaren: Gul kategori (bevaringsverdig)\n- Regulering: Bolig og forretning\n\n### Beliggenhet og Kontekst\n\n**Strategisk posisjon:**\n- Midt på Thorvald Meyers gate\n- I det mest sentrale handelsområdet\n- Nærhet til Birkelunden og Olaf Ryes plass\n\n**Transport:**\n- Trikk 11, 12, 13 (Birkelunden og Olaf Ryes plass)\n- Walk Score: 99 (Walker's Paradise)\n\n### Markedsdata\n\n**Bevegelse og besøk:**\n- Gjennomsnittlig daglige besøk: 47 372\n- Besøk per km²: 53 318\n- Travleste dag: Lørdag (16% av ukesbesøk)\n\n**Korthandel:**\n- Daglig korthandel: 3.4 mill NOK\n- Total korthandel (periode): 2.5 mrd NOK\n- Beløp per transaksjon: 258 NOK\n\n**Konkurransebilde:**\n- Konsepttetthet: 380/km² (Medium)\n- Total omsetning område: 1.7 mrd NOK\n- Omsetningstetthet: 3.7 mrd NOK/km²\n\n### I dag\n\nThorvald Meyers gate 40 ligger i premium-posisjon på Grünerløkka. Beliggenheten på hovedgaten sikrer konstant eksponering mot den store strømmen av fotgjengere som preger bydelen.",
+    "kontaktperson": "Roger Vodal",
+    "notater": [
+      "Premium beliggenhet på Thorvald Meyers gate",
+      "Bygget ca. 1895 - typisk Grünerløkka-arkitektur",
+      "47 372 daglige besøk i snitt",
+      "2.5 mrd NOK total korthandel",
+      "Høyest korthandel blant porteføljen",
+      "Kombinert næring og bolig",
+      "Byantikvaren: Gul kategori (bevaringsverdig)",
+      "Privateid av Roger Vodal"
+    ]
+  },
+  "metadata": {
+    "opprettet": "2025-12-09T00:00:00Z",
+    "sistOppdatert": "2025-12-09T00:00:00Z",
+    "status": "publisert",
+    "versjon": 1
+  },
+  "naringsaktorer": {
+    "actors": [
+      {
+        "rank": "#1",
+        "navn": "Extra Birkelunden",
+        "type": "Handel / Mat og drikke",
+        "adresse": "THORVALD MEYERS GATE 35",
+        "kommune": "Oslo",
+        "omsetning": 87,
+        "kjedeProsent": "0.3%",
+        "yoyVekst": 2,
+        "ansatteLokalt": 21,
+        "ansatteKjede": 9767,
+        "kjedeLokasjoner": 503,
+        "markedsandel": 5.36
+      },
+      {
+        "rank": "#2",
+        "navn": "Vinmonopolet Nordregate Oslo",
+        "type": "Handel / Mat og drikke",
+        "adresse": "NORDRE GATE 16",
+        "kommune": "Oslo",
+        "omsetning": 73,
+        "kjedeProsent": "0.4%",
+        "yoyVekst": -5,
+        "ansatteLokalt": 13,
+        "ansatteKjede": 3363,
+        "kjedeLokasjoner": 350,
+        "markedsandel": 4.49
+      },
+      {
+        "rank": "#3",
+        "navn": "Kiwi Minipris Markveien",
+        "type": "Handel / Mat og drikke",
+        "adresse": "MARKVEIEN 35 B",
+        "kommune": "Oslo",
+        "omsetning": 69,
+        "kjedeProsent": "0.1%",
+        "yoyVekst": 7,
+        "ansatteLokalt": 18,
+        "ansatteKjede": 14363,
+        "kjedeLokasjoner": 728,
+        "markedsandel": 4.25
+      },
+      {
+        "rank": "#4",
+        "navn": "McDonald's Thorvald Meyers Gate",
+        "type": "Mat og opplevelser / Restaurant",
+        "adresse": "THORVALD MEYERS GATE 35",
+        "kommune": "Oslo",
+        "omsetning": 58,
+        "kjedeProsent": "2%",
+        "yoyVekst": 0.3,
+        "ansatteLokalt": 55,
+        "ansatteKjede": 5379,
+        "kjedeLokasjoner": 83,
+        "markedsandel": 3.57
+      },
+      {
+        "rank": "#5",
+        "navn": "Godt Brød Oslo",
+        "type": "Mat og opplevelser / Bakeri og kafé",
+        "adresse": "THORVALD MEYERS GATE 49",
+        "kommune": "Oslo",
+        "omsetning": 50,
+        "kjedeProsent": "21%",
+        "yoyVekst": 0,
+        "ansatteLokalt": 30,
+        "ansatteKjede": 252,
+        "kjedeLokasjoner": 14,
+        "markedsandel": 3.08
+      },
+      {
+        "rank": "#6",
+        "navn": "H&M Hennes & Mauritz",
+        "type": "Handel / Klesbutikker",
+        "adresse": "THORVALD MEYERS GATE 38",
+        "kommune": "Oslo",
+        "omsetning": 43,
+        "kjedeProsent": "0.9%",
+        "yoyVekst": 20,
+        "ansatteLokalt": 22,
+        "ansatteKjede": 2770,
+        "kjedeLokasjoner": 102,
+        "markedsandel": 2.65
+      },
+      {
+        "rank": "#7",
+        "navn": "Chillout Oslo",
+        "type": "Handel / Sport og fritid",
+        "adresse": "MARKVEIEN 55",
+        "kommune": "Oslo",
+        "omsetning": 39,
+        "kjedeProsent": "107%",
+        "yoyVekst": 49,
+        "ansatteLokalt": 27,
+        "ansatteKjede": 45,
+        "kjedeLokasjoner": 3,
+        "markedsandel": 2.40
+      },
+      {
+        "rank": "#8",
+        "navn": "Apotek 1 Grünerløkka",
+        "type": "Handel / Helse og velvære",
+        "adresse": "THORVALD MEYERS GATE 30",
+        "kommune": "Oslo",
+        "omsetning": 35,
+        "kjedeProsent": "0.2%",
+        "yoyVekst": 5,
+        "ansatteLokalt": 8,
+        "ansatteKjede": 4500,
+        "kjedeLokasjoner": 400,
+        "markedsandel": 2.15
+      },
+      {
+        "rank": "#9",
+        "navn": "Cubus Grünerløkka",
+        "type": "Handel / Klesbutikker",
+        "adresse": "THORVALD MEYERS GATE 42",
+        "kommune": "Oslo",
+        "omsetning": 32,
+        "kjedeProsent": "0.5%",
+        "yoyVekst": 8,
+        "ansatteLokalt": 12,
+        "ansatteKjede": 1800,
+        "kjedeLokasjoner": 180,
+        "markedsandel": 1.97
+      },
+      {
+        "rank": "#10",
+        "navn": "Espresso House Birkelunden",
+        "type": "Mat og opplevelser / Bakeri og kafé",
+        "adresse": "THORVALD MEYERS GATE 48",
+        "kommune": "Oslo",
+        "omsetning": 28,
+        "kjedeProsent": "2%",
+        "yoyVekst": 15,
+        "ansatteLokalt": 14,
+        "ansatteKjede": 2100,
+        "kjedeLokasjoner": 95,
+        "markedsandel": 1.72
+      }
+    ],
+    "categoryStats": {
+      "Handel / Mat og drikke": { "count": 3, "totalRevenue": 229, "avgRevenue": 76.33 },
+      "Mat og opplevelser / Restaurant": { "count": 1, "totalRevenue": 58, "avgRevenue": 58 },
+      "Mat og opplevelser / Bakeri og kafé": { "count": 2, "totalRevenue": 78, "avgRevenue": 39 },
+      "Handel / Klesbutikker": { "count": 2, "totalRevenue": 75, "avgRevenue": 37.5 },
+      "Handel / Sport og fritid": { "count": 1, "totalRevenue": 39, "avgRevenue": 39 },
+      "Handel / Helse og velvære": { "count": 1, "totalRevenue": 35, "avgRevenue": 35 }
+    },
+    "metadata": {
+      "totalActors": 10,
+      "totalCategories": 6,
+      "generatedAt": "2025-12-09T00:00:00Z"
+    }
+  }
+}
