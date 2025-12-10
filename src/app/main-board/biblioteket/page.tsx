@@ -1,12 +1,68 @@
+'use client';
+
+import { motion } from 'framer-motion';
 import Container from '@/components/ui/Container';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getBibliotekCategories, getBibliotekStats, getMasterTimelineEvents } from '@/lib/loaders/biblioteket-loader';
 import MasterTimeline from '@/components/biblioteket/MasterTimeline';
+import { fadeUpVariants, springs, viewport, stagger } from '@/lib/animations';
 
-export const metadata = {
-    title: 'Løkka Biblioteket - Løkka Gårdeierforening',
-    description: 'Utforsk Grünerløkkas rike historie, kultur og lokale helter gjennom vårt digitale bibliotek.',
+// Metadata must be handled differently in client components
+// export const metadata = {
+//     title: 'Løkka Biblioteket - Løkka Gårdeierforening',
+//     description: 'Utforsk Grünerløkkas rike historie, kultur og lokale helter gjennom vårt digitale bibliotek.',
+// };
+
+const heroVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+        opacity: 1,
+        transition: {
+            staggerChildren: 0.15,
+            delayChildren: 0.2,
+        },
+    },
+};
+
+const heroItemVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: {
+        opacity: 1,
+        y: 0,
+        transition: springs.smooth,
+    },
+};
+
+const statsContainerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+        opacity: 1,
+        transition: {
+            staggerChildren: stagger.fast,
+            delayChildren: 0.1,
+        },
+    },
+};
+
+const statsCardVariants = {
+    hidden: { opacity: 0, y: 20, scale: 0.95 },
+    visible: {
+        opacity: 1,
+        y: 0,
+        scale: 1,
+        transition: springs.smooth,
+    },
+};
+
+const categoryCardVariants = {
+    hidden: { opacity: 0, y: 30, scale: 0.95 },
+    visible: {
+        opacity: 1,
+        y: 0,
+        scale: 1,
+        transition: springs.smooth,
+    },
 };
 
 export default function LokkaBiblioteketPage() {
@@ -29,38 +85,64 @@ export default function LokkaBiblioteketPage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-black/30" />
                 <Container className="relative z-10">
-                    <div className="max-w-3xl">
-                        <Link
-                            href="/main-board"
-                            className="mb-6 inline-flex items-center gap-2 text-sm font-medium text-white/80 hover:text-white transition-colors group"
+                    <motion.div
+                        className="max-w-3xl"
+                        variants={heroVariants}
+                        initial="hidden"
+                        animate="visible"
+                    >
+                        <motion.div variants={heroItemVariants}>
+                            <Link
+                                href="/main-board"
+                                className="mb-6 inline-flex items-center gap-2 text-sm font-medium text-white/80 hover:text-white transition-colors group"
+                            >
+                                <svg className="h-4 w-4 transition-transform group-hover:-translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                                </svg>
+                                Tilbake til hovedsiden
+                            </Link>
+                        </motion.div>
+                        <motion.div
+                            variants={heroItemVariants}
+                            className="mb-5 inline-flex items-center gap-2 rounded-full bg-white/15 px-4 py-2 text-sm font-medium text-white backdrop-blur-md border border-white/20"
                         >
-                            <svg className="h-4 w-4 transition-transform group-hover:-translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                            </svg>
-                            Tilbake til hovedsiden
-                        </Link>
-                        <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-white/15 px-4 py-2 text-sm font-medium text-white backdrop-blur-md border border-white/20">
                             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                             </svg>
                             Digitalt Bibliotek
-                        </div>
-                        <h1 className="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
+                        </motion.div>
+                        <motion.h1
+                            variants={heroItemVariants}
+                            className="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight"
+                        >
                             Løkka Biblioteket
-                        </h1>
-                        <p className="mb-4 text-lg md:text-xl text-white/90 leading-relaxed max-w-2xl">
+                        </motion.h1>
+                        <motion.p
+                            variants={heroItemVariants}
+                            className="mb-4 text-lg md:text-xl text-white/90 leading-relaxed max-w-2xl"
+                        >
                             Utforsk Grünerløkkas rike historie, fra arbeiderbydel til kulturdestinasjon.
                             Møt lokale ildsjeler, les om byutviklingen, og dykk ned i litteratur og kulturliv.
-                        </p>
-                    </div>
+                        </motion.p>
+                    </motion.div>
                 </Container>
             </section>
 
             {/* Dashboard / Stats Section */}
             <section className="border-b border-gray-200 bg-gradient-to-b from-gray-50 to-white py-10 md:py-12">
                 <Container>
-                    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                        <div className="group rounded-2xl bg-white p-6 shadow-sm border border-gray-100 transition-all hover:shadow-md hover:border-natural-forest/20">
+                    <motion.div
+                        className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4"
+                        variants={statsContainerVariants}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewport.default}
+                    >
+                        <motion.div
+                            variants={statsCardVariants}
+                            whileHover={{ y: -4, boxShadow: '0 12px 24px rgba(0,0,0,0.08)' }}
+                            className="group rounded-2xl bg-white p-6 shadow-sm border border-gray-100 transition-colors hover:border-natural-forest/20"
+                        >
                             <div className="flex items-center gap-3 mb-3">
                                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-natural-forest/10 text-natural-forest">
                                     <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -70,8 +152,12 @@ export default function LokkaBiblioteketPage() {
                                 <div className="text-sm font-medium text-gray-500">Kategorier</div>
                             </div>
                             <div className="text-3xl font-bold text-gray-900">{categories.length}</div>
-                        </div>
-                        <div className="group rounded-2xl bg-white p-6 shadow-sm border border-gray-100 transition-all hover:shadow-md hover:border-natural-sage/40">
+                        </motion.div>
+                        <motion.div
+                            variants={statsCardVariants}
+                            whileHover={{ y: -4, boxShadow: '0 12px 24px rgba(0,0,0,0.08)' }}
+                            className="group rounded-2xl bg-white p-6 shadow-sm border border-gray-100 transition-colors hover:border-natural-sage/40"
+                        >
                             <div className="flex items-center gap-3 mb-3">
                                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-natural-sage/10 text-natural-forest">
                                     <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -81,8 +167,12 @@ export default function LokkaBiblioteketPage() {
                                 <div className="text-sm font-medium text-gray-500">Totalt Innhold</div>
                             </div>
                             <div className="text-3xl font-bold text-gray-900">{stats.totalItems}</div>
-                        </div>
-                        <div className="group rounded-2xl bg-white p-6 shadow-sm border border-gray-100 transition-all hover:shadow-md hover:border-natural-earth/30">
+                        </motion.div>
+                        <motion.div
+                            variants={statsCardVariants}
+                            whileHover={{ y: -4, boxShadow: '0 12px 24px rgba(0,0,0,0.08)' }}
+                            className="group rounded-2xl bg-white p-6 shadow-sm border border-gray-100 transition-colors hover:border-natural-earth/30"
+                        >
                             <div className="flex items-center gap-3 mb-3">
                                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-natural-earth/10 text-natural-earth">
                                     <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -94,8 +184,12 @@ export default function LokkaBiblioteketPage() {
                             <div className="text-2xl md:text-3xl font-bold text-gray-900">
                                 {stats.yearSpan.litteratur.earliest}–{stats.yearSpan.litteratur.latest}
                             </div>
-                        </div>
-                        <div className="group rounded-2xl bg-white p-6 shadow-sm border border-gray-100 transition-all hover:shadow-md hover:border-natural-sand">
+                        </motion.div>
+                        <motion.div
+                            variants={statsCardVariants}
+                            whileHover={{ y: -4, boxShadow: '0 12px 24px rgba(0,0,0,0.08)' }}
+                            className="group rounded-2xl bg-white p-6 shadow-sm border border-gray-100 transition-colors hover:border-natural-sand"
+                        >
                             <div className="flex items-center gap-3 mb-3">
                                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-natural-sand/40 text-natural-earth">
                                     <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -107,77 +201,136 @@ export default function LokkaBiblioteketPage() {
                             <div className="text-2xl md:text-3xl font-bold text-gray-900">
                                 {stats.yearSpan.historie.earliest}–{stats.yearSpan.historie.latest}
                             </div>
-                        </div>
-                    </div>
+                        </motion.div>
+                    </motion.div>
                 </Container>
             </section>
 
             {/* Categories Grid */}
             <section className="border-b border-gray-200 bg-white py-12 md:py-16">
                 <Container>
-                    <div className="mb-8 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
+                    <motion.div
+                        className="mb-8 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4"
+                        variants={fadeUpVariants}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewport.default}
+                    >
                         <div>
                             <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Utforsk Kategorier</h2>
                             <p className="mt-2 text-gray-600">Velg en kategori for å dykke dypere</p>
                         </div>
-                    </div>
-                    <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-                        {categories.map((category) => (
-                            <Link
+                    </motion.div>
+                    <motion.div
+                        className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4"
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewport.default}
+                        variants={{
+                            hidden: { opacity: 0 },
+                            visible: {
+                                opacity: 1,
+                                transition: {
+                                    staggerChildren: stagger.normal,
+                                    delayChildren: 0.1,
+                                },
+                            },
+                        }}
+                    >
+                        {categories.map((category, index) => (
+                            <motion.div
                                 key={category.slug}
-                                href={`/main-board/biblioteket/${category.slug}`}
-                                className="group relative aspect-[4/3] overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-300"
+                                variants={categoryCardVariants}
+                                custom={index}
                             >
-                                <Image
-                                    src={category.image}
-                                    alt={category.title}
-                                    fill
-                                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                                />
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10 transition-opacity group-hover:from-black/95" />
-                                <div className="absolute top-4 right-4">
-                                    <span className="inline-flex items-center gap-1 rounded-full bg-white/20 backdrop-blur-sm px-3 py-1 text-xs font-medium text-white">
-                                        {category.itemCount} elementer
-                                    </span>
-                                </div>
-                                <div className="absolute bottom-0 left-0 right-0 p-5">
-                                    <h3 className="text-xl font-bold text-white mb-1 group-hover:text-white/90 transition-colors">
-                                        {category.title}
-                                    </h3>
-                                    <p className="text-sm text-white/75 line-clamp-2 leading-relaxed">
-                                        {category.description}
-                                    </p>
-                                    <div className="mt-3 flex items-center gap-1 text-sm font-medium text-white/80 opacity-0 group-hover:opacity-100 transition-opacity">
-                                        <span>Utforsk</span>
-                                        <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                        </svg>
+                                <Link
+                                    href={`/main-board/biblioteket/${category.slug}`}
+                                    className="group relative block aspect-[4/3] overflow-hidden rounded-2xl shadow-md"
+                                >
+                                    <motion.div
+                                        className="absolute inset-0"
+                                        whileHover={{ scale: 1.05 }}
+                                        transition={{ duration: 0.4, ease: [0.4, 0, 0.2, 1] }}
+                                    >
+                                        <Image
+                                            src={category.image}
+                                            alt={category.title}
+                                            fill
+                                            className="object-cover"
+                                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                                        />
+                                    </motion.div>
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10 transition-opacity group-hover:from-black/95" />
+                                    <div className="absolute top-4 right-4">
+                                        <span className="inline-flex items-center gap-1 rounded-full bg-white/20 backdrop-blur-sm px-3 py-1 text-xs font-medium text-white">
+                                            {category.itemCount} elementer
+                                        </span>
                                     </div>
-                                </div>
-                            </Link>
+                                    <div className="absolute bottom-0 left-0 right-0 p-5">
+                                        <h3 className="text-xl font-bold text-white mb-1 group-hover:text-white/90 transition-colors">
+                                            {category.title}
+                                        </h3>
+                                        <p className="text-sm text-white/75 line-clamp-2 leading-relaxed">
+                                            {category.description}
+                                        </p>
+                                        <motion.div
+                                            className="mt-3 flex items-center gap-1 text-sm font-medium text-white/80"
+                                            initial={{ opacity: 0, x: -10 }}
+                                            whileHover={{ opacity: 1, x: 0 }}
+                                        >
+                                            <span>Utforsk</span>
+                                            <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                            </svg>
+                                        </motion.div>
+                                    </div>
+                                </Link>
+                            </motion.div>
                         ))}
-                    </div>
+                    </motion.div>
                 </Container>
             </section>
 
             {/* Master Timeline Section - "Løkkas Livsstrøm" */}
             <section className="border-b border-gray-200 bg-gradient-to-b from-gray-50 to-white py-16 md:py-20">
                 <Container>
-                    <div className="mb-12 md:mb-16 text-center">
-                        <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-natural-forest to-natural-sage px-5 py-2 text-sm font-medium text-white shadow-md">
+                    <motion.div
+                        className="mb-12 md:mb-16 text-center"
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewport.default}
+                        variants={{
+                            hidden: { opacity: 0 },
+                            visible: {
+                                opacity: 1,
+                                transition: {
+                                    staggerChildren: 0.1,
+                                },
+                            },
+                        }}
+                    >
+                        <motion.div
+                            variants={fadeUpVariants}
+                            className="mb-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-natural-forest to-natural-sage px-5 py-2 text-sm font-medium text-white shadow-md"
+                        >
                             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                             Interaktiv Tidslinje
-                        </div>
-                        <h2 className="mb-4 text-3xl md:text-4xl font-bold text-gray-900 tracking-tight">
+                        </motion.div>
+                        <motion.h2
+                            variants={fadeUpVariants}
+                            className="mb-4 text-3xl md:text-4xl font-bold text-gray-900 tracking-tight"
+                        >
                             Løkkas Livsstrøm
-                        </h2>
-                        <p className="mx-auto max-w-2xl text-base md:text-lg text-gray-600 leading-relaxed">
+                        </motion.h2>
+                        <motion.p
+                            variants={fadeUpVariants}
+                            className="mx-auto max-w-2xl text-base md:text-lg text-gray-600 leading-relaxed"
+                        >
                             Opplev Grünerløkkas historie som en flytende elv av hendelser – fra de første parselleringene på 1850-tallet til kulturknutepunktet vi kjenner i dag.
-                        </p>
-                    </div>
+                        </motion.p>
+                    </motion.div>
                     <MasterTimeline events={masterTimelineEvents} />
                 </Container>
             </section>
@@ -185,31 +338,66 @@ export default function LokkaBiblioteketPage() {
             {/* About Section */}
             <section className="bg-gradient-to-b from-white to-gray-50 py-16 md:py-20">
                 <Container>
-                    <div className="mx-auto max-w-3xl text-center">
-                        <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-natural-forest/10">
+                    <motion.div
+                        className="mx-auto max-w-3xl text-center"
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewport.default}
+                        variants={{
+                            hidden: { opacity: 0 },
+                            visible: {
+                                opacity: 1,
+                                transition: {
+                                    staggerChildren: 0.12,
+                                },
+                            },
+                        }}
+                    >
+                        <motion.div
+                            variants={fadeUpVariants}
+                            className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-natural-forest/10"
+                        >
                             <svg className="h-7 w-7 text-natural-forest" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
-                        </div>
-                        <h2 className="mb-6 text-2xl md:text-3xl font-bold text-gray-900">Om Løkka Biblioteket</h2>
-                        <p className="text-gray-600 leading-relaxed text-base md:text-lg">
+                        </motion.div>
+                        <motion.h2
+                            variants={fadeUpVariants}
+                            className="mb-6 text-2xl md:text-3xl font-bold text-gray-900"
+                        >
+                            Om Løkka Biblioteket
+                        </motion.h2>
+                        <motion.p
+                            variants={fadeUpVariants}
+                            className="text-gray-600 leading-relaxed text-base md:text-lg"
+                        >
                             Løkka Biblioteket er en digital samling som dokumenterer Grünerløkkas unike historie og identitet.
                             Her finner du fortellinger om lokale ildsjeler som har formet bydelen, et omfattende litteraturarkiv
                             med over 35 verk fra 1913 til i dag, en interaktiv tidslinje over byutviklingen fra 1850-tallet,
                             og en dypdykk i det rike kunst- og kulturlivet som gjør Løkka til Norges mest konsentrerte kulturøkosystem.
-                        </p>
-                        <div className="mt-8 flex flex-wrap justify-center gap-4">
+                        </motion.p>
+                        <motion.div
+                            variants={fadeUpVariants}
+                            className="mt-8 flex flex-wrap justify-center gap-4"
+                        >
                             <Link
                                 href="/main-board/biblioteket/ildsjeler"
-                                className="inline-flex items-center gap-2 rounded-full bg-natural-forest px-5 py-2.5 text-sm font-medium text-white hover:bg-natural-forest/90 transition-colors"
+                                className="group inline-flex items-center gap-2 rounded-full bg-natural-forest px-5 py-2.5 text-sm font-medium text-white hover:bg-natural-forest/90 transition-colors"
                             >
                                 Start utforskningen
-                                <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <motion.svg
+                                    className="h-4 w-4"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                    whileHover={{ x: 4 }}
+                                    transition={springs.snappy}
+                                >
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                </svg>
+                                </motion.svg>
                             </Link>
-                        </div>
-                    </div>
+                        </motion.div>
+                    </motion.div>
                 </Container>
             </section>
         </>

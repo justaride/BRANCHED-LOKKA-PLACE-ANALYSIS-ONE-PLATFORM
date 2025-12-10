@@ -33,11 +33,11 @@ export default async function CompanyHomePage({
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       {/* Hero Section with Company Image */}
-      <section className="mb-12 overflow-hidden rounded-lg border border-gray-200 bg-gradient-to-br from-lokka-primary to-lokka-secondary text-white">
+      <section className="mb-12 overflow-hidden rounded-lg border border-gray-200 bg-gray-50">
         <div className="grid gap-8 p-8 md:grid-cols-2 md:p-12">
           <div className="flex flex-col justify-center">
-            <h1 className="mb-4 text-4xl font-bold">{tenant.name}</h1>
-            <p className="text-xl text-white/90">
+            <h1 className="mb-4 text-4xl font-bold text-gray-900">{tenant.name}</h1>
+            <p className="text-xl text-gray-600">
               Eiendomsanalyse og porteføljeinformasjon
             </p>
           </div>

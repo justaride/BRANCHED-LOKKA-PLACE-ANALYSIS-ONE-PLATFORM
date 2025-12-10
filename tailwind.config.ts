@@ -54,6 +54,13 @@ const config: Config = {
           neutral: '#6B7280',
           highlight: '#F59E0B',
         },
+        // Category colors for Biblioteket
+        category: {
+          historie: '#2C5F2D',
+          kultur: '#8B7355',
+          litteratur: '#97BC62',
+          ildsjeler: '#6B7280',
+        },
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
@@ -68,6 +75,14 @@ const config: Config = {
         'fade-in': 'fadeIn 0.5s ease-in-out',
         'slide-up': 'slideUp 0.4s ease-out',
         'slide-in': 'slideIn 0.3s ease-out',
+        // New animations for Biblioteket redesign
+        'shimmer': 'shimmer 1.5s linear infinite',
+        'pulse-subtle': 'pulseSubtle 2s ease-in-out infinite',
+        'float': 'float 3s ease-in-out infinite',
+        'glow-pulse': 'glowPulse 2s ease-in-out infinite',
+        'scale-in': 'scaleIn 0.3s ease-out',
+        'fade-up': 'fadeUp 0.4s ease-out',
+        'fade-down': 'fadeDown 0.4s ease-out',
       },
       keyframes: {
         fadeIn: {
@@ -81,6 +96,35 @@ const config: Config = {
         slideIn: {
           '0%': { transform: 'translateX(-20px)', opacity: '0' },
           '100%': { transform: 'translateX(0)', opacity: '1' },
+        },
+        // New keyframes for Biblioteket redesign
+        shimmer: {
+          '0%': { backgroundPosition: '-200% 0' },
+          '100%': { backgroundPosition: '200% 0' },
+        },
+        pulseSubtle: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0.7' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-8px)' },
+        },
+        glowPulse: {
+          '0%, 100%': { boxShadow: '0 0 0 0 rgba(44, 95, 45, 0.4)' },
+          '50%': { boxShadow: '0 0 0 8px rgba(44, 95, 45, 0)' },
+        },
+        scaleIn: {
+          '0%': { transform: 'scale(0.95)', opacity: '0' },
+          '100%': { transform: 'scale(1)', opacity: '1' },
+        },
+        fadeUp: {
+          '0%': { transform: 'translateY(16px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+        fadeDown: {
+          '0%': { transform: 'translateY(-16px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
         },
       },
     },

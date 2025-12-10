@@ -19,6 +19,7 @@ export async function loadAllEiendommer(): Promise<Eiendom[]> {
       import('@/data/aspelin-ramm/nye-broverkstedet.json'),
       import('@/data/aspelin-ramm/scandic-hotel-vulkan.json'),
       import('@/data/aspelin-ramm/vulkan-arena.json'),
+      import('@/data/aspelin-ramm/vulkan-omradet.json'),
     ]);
 
     return ensureAllEiendomDefaults(data.map((m) => m.default), TENANT);
@@ -51,5 +52,6 @@ export function getAllPropertyIds(): string[] {
     'nye-broverkstedet',
     'scandic-hotel-vulkan',
     'vulkan-arena',
+    'vulkan-omradet',
   ];
 }

@@ -1,0 +1,202 @@
+{
+  "nøkkeltall": {
+    "konseptTetthet": 396,
+    "totalOmsetning": 1587,
+    "omsetningTetthet": 4700,
+    "trend": {
+      "konseptTetthet": 0,
+      "omsetning": 1
+    }
+  },
+  "konseptmiks": [
+    {
+      "kategori1": "Mat og opplevelser",
+      "kategori2": "Restaurant",
+      "antall": 66
+    },
+    {
+      "kategori1": "Mat og opplevelser",
+      "kategori2": "Bakeri og kafé",
+      "antall": 6
+    },
+    {
+      "kategori1": "Mat og opplevelser",
+      "kategori2": "Pub og bar",
+      "antall": 6
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Elektrobutikker",
+      "antall": 1
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Klesbutikker",
+      "antall": 13
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Sport og fritid",
+      "antall": 6
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Mat og drikke",
+      "antall": 16
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Annen handel",
+      "antall": 12
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Hjem og interiør",
+      "antall": 6
+    },
+    {
+      "kategori1": "Tjenester",
+      "kategori2": "Skjønnhet og velvære",
+      "antall": 19
+    },
+    {
+      "kategori1": "Tjenester",
+      "kategori2": "Profesjoner",
+      "antall": 1
+    },
+    {
+      "kategori1": "Tjenester",
+      "kategori2": "Andre tjenester",
+      "antall": 2
+    },
+    {
+      "kategori1": "Tjenester",
+      "kategori2": "Treningssentre",
+      "antall": 4
+    }
+  ],
+  "kjederVsUavhengige": [
+    {
+      "år": "2015",
+      "uavhengig": 50.92,
+      "kjeder": 49.08
+    },
+    {
+      "år": "2016",
+      "uavhengig": 46.42,
+      "kjeder": 53.58
+    },
+    {
+      "år": "2017",
+      "uavhengig": 60.32,
+      "kjeder": 39.68
+    },
+    {
+      "år": "2018",
+      "uavhengig": 54.59,
+      "kjeder": 45.41
+    },
+    {
+      "år": "2019",
+      "uavhengig": 53.95,
+      "kjeder": 46.05
+    },
+    {
+      "år": "2020",
+      "uavhengig": 46.33,
+      "kjeder": 53.67
+    },
+    {
+      "år": "2021",
+      "uavhengig": 47.86,
+      "kjeder": 52.14
+    },
+    {
+      "år": "2022",
+      "uavhengig": 56.98,
+      "kjeder": 43.02
+    },
+    {
+      "år": "2023",
+      "uavhengig": 56.18,
+      "kjeder": 43.82
+    },
+    {
+      "år": "2024",
+      "uavhengig": 59.99,
+      "kjeder": 40.01
+    },
+    {
+      "år": "2025",
+      "uavhengig": 61.28,
+      "kjeder": 38.72
+    }
+  ],
+  "overUnderandel": {
+    "matOpplevelser": 7.36,
+    "handel": -14.27,
+    "tjenester": 6.9
+  },
+  "utviklingPerÅr": [
+    {
+      "år": "2015",
+      "matOpplevelser": 349,
+      "handel": 616.3,
+      "tjenester": 51.1
+    },
+    {
+      "år": "2016",
+      "matOpplevelser": 383.6,
+      "handel": 651.7,
+      "tjenester": 63
+    },
+    {
+      "år": "2017",
+      "matOpplevelser": 426.3,
+      "handel": 475.3,
+      "tjenester": 105.1
+    },
+    {
+      "år": "2018",
+      "matOpplevelser": 466.6,
+      "handel": 641.9,
+      "tjenester": 94.3
+    },
+    {
+      "år": "2019",
+      "matOpplevelser": 508.2,
+      "handel": 647.6,
+      "tjenester": 94.8
+    },
+    {
+      "år": "2020",
+      "matOpplevelser": 349.1,
+      "handel": 720.6,
+      "tjenester": 86
+    },
+    {
+      "år": "2021",
+      "matOpplevelser": 411.7,
+      "handel": 727.1,
+      "tjenester": 74.5
+    },
+    {
+      "år": "2022",
+      "matOpplevelser": 630.2,
+      "handel": 691.1,
+      "tjenester": 117.3
+    },
+    {
+      "år": "2023",
+      "matOpplevelser": 711.8,
+      "handel": 697.7,
+      "tjenester": 137.9
+    },
+    {
+      "år": "2024",
+      "matOpplevelser": 765.1,
+      "handel": 663.2,
+      "tjenester": 158.8
+    }
+  ]
+}

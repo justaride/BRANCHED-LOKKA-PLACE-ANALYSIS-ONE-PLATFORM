@@ -1,0 +1,85 @@
+{
+  "id": "vulkan-omradet",
+  "navn": "Vulkan Området",
+  "adresse": "Vulkan, 0178 Oslo",
+  "gnr": 218,
+  "bnr": 260,
+  "beskrivelse": "Vulkan er et prisbelønt byutviklingsområde ved Akerselva, utviklet av Aspelin Ramm. Området inkluderer Mathallen, Dansens Hus, Vulkan Arena, hoteller og boliger - et komplett bydelssenter med 4 600 daglige besøkende.",
+  "heroImage": "/images/properties/aspelin-ramm/vulkan-omradet/hero.jpg",
+  "mapImage": "/images/properties/aspelin-ramm/vulkan-omradet/konkurransebildet.png",
+  "coordinates": {
+    "lat": 59.9225,
+    "lng": 10.7515
+  },
+  "plaaceData": {
+    "rapportDato": "2025-12-10T00:00:00Z",
+    "analysisType": "5min-gange",
+    "screenshots": [
+      {
+        "filnavn": "Oversikt",
+        "path": "/images/properties/aspelin-ramm/vulkan-omradet/oversikt.png",
+        "beskrivelse": "Oversiktsbilde av Vulkan-området",
+        "kategori": "oversikt"
+      },
+      {
+        "filnavn": "Konkurransebildet",
+        "path": "/images/properties/aspelin-ramm/vulkan-omradet/konkurransebildet.png",
+        "beskrivelse": "Konkurransebildet i området",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/properties/aspelin-ramm/vulkan-omradet/besokende-fra.png",
+        "beskrivelse": "Hvor besøkende kommer fra",
+        "kategori": "marked"
+      }
+    ],
+    "nokkeldata": {
+      "dagligTrafikk": 4641,
+      "gjennomsnittligBesøkPerKm2": 35636,
+      "travlesteDag": "Fredag",
+      "dagligKorthandel": 1100000,
+      "totalKorthandel": 779000000,
+      "beløpPerTransaksjon": 239,
+      "konseptTetthet": 1318,
+      "totalOmsetning": 360000000,
+      "omsetningTetthet": 13000000000,
+      "befolkning": 241,
+      "befolkningsTetthet": 8826,
+      "områdeStørrelse": 0.027,
+      "konseptmiks": {
+        "mat": 80,
+        "helse": 3,
+        "handel": 17
+      }
+    }
+  },
+  "tilleggsinfo": {
+    "historikk": "## Om Vulkan-området\n\nVulkan er et prisbelønt byutviklingsområde langs Akerselva på Grünerløkka, utviklet av Aspelin Ramm. Området har vunnet Europa Nostra-prisen (2013) for fremragende byutvikling.\n\n### Nøkkelinformasjon\n\n**Beliggenhet:**\n- Vulkan, 0178 Oslo\n- Ved Akerselva, mellom Grünerløkka og St. Hanshaugen\n- Områdestørrelse: 0,027 km²\n\n**Nøkkeltall:**\n- 4 641 daglige besøkende i snitt\n- 35 636 besøk per km² (svært høy tetthet)\n- Travleste dag: Fredag (15% av ukesbesøk)\n- Daglig korthandel: 1,1 mill NOK\n- Total korthandel: 779 mill NOK\n\n### Konseptmiks\n\nVulkan har en unik sammensetning:\n- **80% Mat og opplevelser** - Mathallen, restauranter, kafeer\n- **17% Handel** - Spesialbutikker, dagligvare\n- **3% Tjenester** - Diverse servicetilbud\n\nKonsepttetthet: 1 318 per km² (Meget høy)\n\n### Eiendommer i Vulkan\n\n1. **Mathallen Oslo** - Norges første innendørs matmarked\n2. **Vulkan Arena** - Konserter og arrangementer\n3. **Scandic Hotel Vulkan** - Miljøsertifisert hotell\n4. **Nye Broverkestedet** - Boliger og næringslokaler\n5. **Bellonabygget** - FutureBuilt-prosjekt\n\n### Bærekraft\n\n- Felles energisentral (geoenergi + sjøvannskjøling)\n- 70% lavere CO₂-utslipp enn fossil oppvarming\n- Europa Nostra-pris for bærekraftig byutvikling\n- FutureBuilt-prosjekter\n\n### Tilgjengelighet\n\n- Buss 34/54 (Møllerveien, 2 min)\n- Trikk 11/12/13 (Schous plass, 8 min)\n- 450 p-plasser i Vulkan P-hus\n- Walk Score: 98",
+    "kontaktperson": "Aspelin Ramm",
+    "notater": [
+      "Prisbelønt byutviklingsområde (Europa Nostra 2013)",
+      "4 641 daglige besøkende",
+      "80% mat og opplevelser - Oslos matdestinasjon",
+      "36 næringsaktører kartlagt",
+      "Felles energisentral med geoenergi",
+      "5-minutters analyse med full Plaace-data"
+    ]
+  },
+  "metadata": {
+    "opprettet": "2025-12-10T00:00:00Z",
+    "sistOppdatert": "2025-12-10T00:00:00Z",
+    "status": "aktiv",
+    "versjon": 1
+  },
+  "naringsaktorer": {
+    "actors": [],
+    "categoryStats": {},
+    "metadata": {
+      "totalActors": 36,
+      "totalCategories": 2,
+      "generatedAt": "2025-12-10T00:00:00Z",
+      "note": "Full aktørliste tilgjengelig i 5min/aktorer.json"
+    }
+  }
+}

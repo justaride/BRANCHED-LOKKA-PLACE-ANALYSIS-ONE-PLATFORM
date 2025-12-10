@@ -9,13 +9,13 @@ export default function SpaboHome() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-lokka-primary to-lokka-secondary py-20 text-white">
+      <section className="bg-gray-50 py-20">
         <Container>
           <div className="max-w-3xl">
-            <h1 className="mb-6 text-5xl font-bold leading-tight">
+            <h1 className="mb-6 text-5xl font-bold leading-tight text-gray-900">
               SPABO Eiendom
             </h1>
-            <p className="mb-8 text-xl text-white/90">
+            <p className="mb-8 text-xl text-gray-600">
               Omfattende placeanalyser og eiendomsinformasjon for SPABO Eiendoms
               portefølje på Grünerløkka. Utforsk demografi, markedsdata og
               utviklingstrender for fem eiendommer i området.
@@ -24,7 +24,7 @@ export default function SpaboHome() {
               <Link href="/spabo/eiendommer">
                 <Button
                   size="lg"
-                  className="bg-white text-lokka-primary hover:bg-white/90"
+                  className="bg-gray-900 text-white hover:bg-gray-800"
                 >
                   Se Eiendommer
                 </Button>
@@ -33,7 +33,7 @@ export default function SpaboHome() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-lokka-primary"
+                  className="border-gray-300 text-gray-700 hover:bg-gray-100"
                 >
                   Om Prosjektet
                 </Button>
@@ -95,20 +95,19 @@ export default function SpaboHome() {
       </Container>
 
       {/* Properties CTA Section */}
-      <section className="bg-gradient-to-br from-indigo-600 to-purple-600 py-16">
+      <section className="border-y border-gray-200 bg-gray-50 py-16">
         <Container>
           <div className="mx-auto max-w-4xl text-center">
-            <div className="mb-6 text-6xl">🏢</div>
-            <h2 className="mb-4 text-4xl font-bold text-white">
+            <h2 className="mb-4 text-3xl font-bold text-gray-900">
               Utforsk Våre Eiendommer
             </h2>
-            <p className="mb-8 text-xl text-white/90">
+            <p className="mb-8 text-lg text-gray-600">
               Se detaljerte placeanalyser, markedsdata og nøkkelinformasjon for alle 22 eiendommer i SPABO sin portefølje på Grünerløkka.
             </p>
             <Link href="/spabo/eiendommer">
               <Button
                 size="lg"
-                className="bg-white text-indigo-600 hover:bg-white/90 shadow-xl text-lg px-8 py-6"
+                className="bg-gray-900 text-white hover:bg-gray-800 text-lg px-8 py-6"
               >
                 Se Alle Eiendommer →
               </Button>

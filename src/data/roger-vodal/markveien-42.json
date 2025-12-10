@@ -4,38 +4,73 @@
   "adresse": "Markveien 42, 0554 Oslo",
   "gnr": 227,
   "bnr": 202,
-  "beskrivelse": "Historisk bygård på Markveien, del av Grünerløkkas populære handlestrøk med unike butikker og kafeer.",
+  "beskrivelse": "Historisk bygård fra sent 1800-tall på Markveien, Grünerløkkas populære handlestrøk med et mangfoldig tilbud av butikker, kafeer og restauranter.",
+  "heroImage": "/images/properties/roger-vodal/markveien-42/hero.jpg",
   "coordinates": {
-    "lat": 59.9231,
+    "lat": 59.9232,
     "lng": 10.7580
   },
   "plaaceData": {
-    "rapportDato": "2025-12-09T00:00:00Z",
-    "screenshots": [],
-    "nokkeldata": {}
+    "rapportDato": "2025-12-10T00:00:00Z",
+    "analysisType": "5min-gange",
+    "screenshots": [
+      {
+        "filnavn": "Oversikt",
+        "path": "/images/properties/roger-vodal/markveien-42/oversikt.png",
+        "beskrivelse": "Oversiktsbilde",
+        "kategori": "oversikt"
+      },
+      {
+        "filnavn": "Aktørkartlegging",
+        "path": "/images/properties/roger-vodal/markveien-42/aktorkartlegging.png",
+        "beskrivelse": "Aktørkartlegging i området",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/properties/roger-vodal/markveien-42/besokende-fra.png",
+        "beskrivelse": "Hvor besøkende kommer fra",
+        "kategori": "marked"
+      }
+    ],
+    "nokkeldata": {
+      "dagligTrafikk": 48121,
+      "gjennomsnittligBesøkPerKm2": 58141,
+      "travlesteDag": "Lørdag",
+      "dagligKorthandel": 3000000,
+      "totalKorthandel": 2200000000,
+      "beløpPerTransaksjon": 267,
+      "konseptTetthet": 462,
+      "totalOmsetning": 2100000000,
+      "omsetningTetthet": 4700000000,
+      "befolkning": 7915,
+      "befolkningsTetthet": 17669,
+      "områdeStørrelse": 0.45
+    }
   },
   "tilleggsinfo": {
-    "historikk": "## Om Eiendommen\n\nMarkveien 42 er en karakteristisk bygård fra sent 1800-tall, sentralt plassert langs Markveien på Grünerløkka.\n\n### Nøkkelinformasjon\n\n**Matrikkel og adresser:**\n- Adresse: Markveien 42, 0554 Oslo\n- Gårdsnummer (gnr): 227\n- Bruksnummer (bnr): 202\n\n### Eierskap\n\n- Juridisk enhet: Roger Vodal\n- Forvalter: Privat\n\n### Beliggenhet\n\nMarkveien er kjent for:\n- Unike butikker og nisjehandel\n- Kafeer og restauranter\n- Høy fottrafikk\n- Nærhet til Olaf Ryes plass og Birkelunden",
+    "historikk": "## Om Eiendommen\n\nMarkveien 42 er en karakteristisk bygård fra sent 1800-tall, sentralt plassert langs Markveien på Grünerløkka.\n\n### Nøkkelinformasjon\n\n**Matrikkel og adresser:**\n- Adresse: Markveien 42, 0554 Oslo\n- Gårdsnummer (gnr): 227\n- Bruksnummer (bnr): 202\n\n### Beliggenhet og Nærområde\n\nMarkveien er kjent for:\n- Unike butikker og nisjehandel\n- Kafeer og restauranter\n- Høy fottrafikk (48 121 daglige besøk)\n- Nærhet til Olaf Ryes plass og Birkelunden\n\n### Markedsdata (5 min radius)\n\n- **Daglig korthandel:** 3 mill NOK\n- **Total korthandel (2 år):** 2,2 mrd NOK\n- **Befolkning:** 7 915\n- **Konsepttetthet:** 462 per km²\n- **207 næringsaktører** kartlagt innenfor 5 minutters gange",
     "kontaktperson": "Roger Vodal",
     "notater": [
-      "Bygård på Markveien",
+      "Bygård på Markveien med høy fottrafikk",
       "Del av Roger Vodals portefølje",
-      "Detaljert analyse kommer"
+      "5-minutters analyse med full Plaace-data"
     ]
   },
   "metadata": {
     "opprettet": "2025-12-09T00:00:00Z",
-    "sistOppdatert": "2025-12-09T00:00:00Z",
-    "status": "utkast",
-    "versjon": 1
+    "sistOppdatert": "2025-12-10T00:00:00Z",
+    "status": "aktiv",
+    "versjon": 2
   },
   "naringsaktorer": {
     "actors": [],
     "categoryStats": {},
     "metadata": {
-      "totalActors": 0,
-      "totalCategories": 0,
-      "generatedAt": "2025-12-09T00:00:00Z"
+      "totalActors": 207,
+      "totalCategories": 3,
+      "generatedAt": "2025-12-10T00:00:00Z",
+      "note": "Full aktørliste tilgjengelig i 5min/aktorer.json"
     }
   }
 }

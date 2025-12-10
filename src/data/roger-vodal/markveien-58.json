@@ -1,41 +1,76 @@
 {
   "id": "markveien-58",
   "navn": "Markveien 58",
-  "adresse": "Markveien 58, 0554 Oslo",
+  "adresse": "Markveien 58, 0550 Oslo",
   "gnr": 227,
-  "bnr": 225,
-  "beskrivelse": "Historisk bygård på Markveien, del av Grünerløkkas populære handlestrøk med unike butikker og kafeer.",
+  "bnr": 230,
+  "beskrivelse": "Historisk bygård fra sent 1800-tall på øvre Markveien, nær Birkelunden. Området har høy aktivitet med 57 000 daglige besøkende og sterkt handelsfokus.",
+  "heroImage": "/images/properties/roger-vodal/markveien-58/hero.jpg",
   "coordinates": {
-    "lat": 59.9240,
-    "lng": 10.7585
+    "lat": 59.9258,
+    "lng": 10.7588
   },
   "plaaceData": {
-    "rapportDato": "2025-12-09T00:00:00Z",
-    "screenshots": [],
-    "nokkeldata": {}
+    "rapportDato": "2025-12-10T00:00:00Z",
+    "analysisType": "5min-gange",
+    "screenshots": [
+      {
+        "filnavn": "Oversikt",
+        "path": "/images/properties/roger-vodal/markveien-58/oversikt.png",
+        "beskrivelse": "Oversiktsbilde",
+        "kategori": "oversikt"
+      },
+      {
+        "filnavn": "Aktørkartlegging",
+        "path": "/images/properties/roger-vodal/markveien-58/aktorkartlegging.png",
+        "beskrivelse": "Aktørkartlegging i området",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Besøkende",
+        "path": "/images/properties/roger-vodal/markveien-58/besokende-fra.png",
+        "beskrivelse": "Hvor besøkende kommer fra",
+        "kategori": "marked"
+      }
+    ],
+    "nokkeldata": {
+      "dagligTrafikk": 57219,
+      "gjennomsnittligBesøkPerKm2": 75555,
+      "travlesteDag": "Fredag",
+      "dagligKorthandel": 12000000,
+      "totalKorthandel": 8600000000,
+      "beløpPerTransaksjon": 272,
+      "konseptTetthet": 396,
+      "totalOmsetning": 1600000000,
+      "omsetningTetthet": 4200000000,
+      "befolkning": 6816,
+      "befolkningsTetthet": 17894,
+      "områdeStørrelse": 0.38
+    }
   },
   "tilleggsinfo": {
-    "historikk": "## Om Eiendommen\n\nMarkveien 58 er en karakteristisk bygård fra sent 1800-tall, sentralt plassert langs Markveien på Grünerløkka.\n\n### Nøkkelinformasjon\n\n**Matrikkel og adresser:**\n- Adresse: Markveien 58, 0554 Oslo\n- Gårdsnummer (gnr): 227\n- Bruksnummer (bnr): 225\n\n### Eierskap\n\n- Juridisk enhet: Roger Vodal\n- Forvalter: Privat\n\n### Beliggenhet\n\nMarkveien er kjent for:\n- Unike butikker og nisjehandel\n- Kafeer og restauranter\n- Høy fottrafikk\n- Nærhet til Olaf Ryes plass og Birkelunden",
+    "historikk": "## Om Eiendommen\n\nMarkveien 58 er en karakteristisk bygård fra sent 1800-tall, plassert på øvre del av Markveien nær Birkelunden.\n\n### Nøkkelinformasjon\n\n**Matrikkel og adresser:**\n- Adresse: Markveien 58, 0550 Oslo\n- Gårdsnummer (gnr): 227\n- Bruksnummer (bnr): 230\n\n### Beliggenhet og Nærområde\n\nØvre Markveien har:\n- Svært høy fottrafikk (57 219 daglige besøk)\n- Nærhet til Birkelunden park\n- Sterk handelsprofil\n- Fredag som travleste dag\n\n### Markedsdata (5 min radius)\n\n- **Daglig korthandel:** 12 mill NOK\n- **Total korthandel (2 år):** 8,6 mrd NOK\n- **Befolkning:** 6 816\n- **Konsepttetthet:** 396 per km²\n- **151 næringsaktører** kartlagt innenfor 5 minutters gange",
     "kontaktperson": "Roger Vodal",
     "notater": [
-      "Bygård på Markveien",
+      "Bygård på øvre Markveien nær Birkelunden",
       "Del av Roger Vodals portefølje",
-      "Detaljert analyse kommer"
+      "5-minutters analyse med full Plaace-data"
     ]
   },
   "metadata": {
     "opprettet": "2025-12-09T00:00:00Z",
-    "sistOppdatert": "2025-12-09T00:00:00Z",
-    "status": "utkast",
-    "versjon": 1
+    "sistOppdatert": "2025-12-10T00:00:00Z",
+    "status": "aktiv",
+    "versjon": 2
   },
   "naringsaktorer": {
     "actors": [],
     "categoryStats": {},
     "metadata": {
-      "totalActors": 0,
-      "totalCategories": 0,
-      "generatedAt": "2025-12-09T00:00:00Z"
+      "totalActors": 151,
+      "totalCategories": 3,
+      "generatedAt": "2025-12-10T00:00:00Z",
+      "note": "Full aktørliste tilgjengelig i 5min/aktorer.json"
     }
   }
 }

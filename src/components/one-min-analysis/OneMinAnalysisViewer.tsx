@@ -31,10 +31,10 @@ export default function OneMinAnalysisViewer({
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div className="rounded-2xl bg-gradient-to-r from-lokka-primary to-lokka-secondary p-6 text-white shadow-soft md:p-8">
-        <h2 className="mb-2 text-2xl font-bold md:text-3xl">5-minutts Analyse</h2>
-        <p className="text-lg opacity-90">{propertyName}</p>
-        <p className="mt-2 text-sm opacity-75">
+      <div className="rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-soft md:p-8">
+        <h2 className="mb-2 text-2xl font-bold text-gray-900 md:text-3xl">5-minutts Analyse</h2>
+        <p className="text-lg text-gray-700">{propertyName}</p>
+        <p className="mt-2 text-sm text-gray-500">
           Hyperlokal analyse av området innenfor 5 minutters gange
         </p>
       </div>

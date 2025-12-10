@@ -1,3 +1,6 @@
+'use client';
+
+import { motion } from 'framer-motion';
 import Container from '@/components/ui/Container';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -5,10 +8,56 @@ import { getHistorieTimeline, getHistorieEvents, getHistorieSections, getHistori
 import ImageCarousel from '@/components/biblioteket/ImageCarousel';
 import { translateHistorieText } from '@/lib/translate-historie';
 import { biblioteketCarouselImages } from '@/lib/constants/carousel-images';
+import { fadeUpVariants, springs, viewport, stagger } from '@/lib/animations';
 
-export const metadata = {
-    title: 'Byhistorie - Løkka Biblioteket',
-    description: 'Fra fabrikkbelte til kulturbydel – 170 år med byutvikling på Grünerløkka.',
+const heroVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+        opacity: 1,
+        transition: {
+            staggerChildren: 0.12,
+            delayChildren: 0.1,
+        },
+    },
+};
+
+const heroItemVariants = {
+    hidden: { opacity: 0, y: 25 },
+    visible: {
+        opacity: 1,
+        y: 0,
+        transition: springs.smooth,
+    },
+};
+
+const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+        opacity: 1,
+        transition: {
+            staggerChildren: stagger.normal,
+            delayChildren: 0.1,
+        },
+    },
+};
+
+const cardVariants = {
+    hidden: { opacity: 0, y: 20, scale: 0.97 },
+    visible: {
+        opacity: 1,
+        y: 0,
+        scale: 1,
+        transition: springs.smooth,
+    },
+};
+
+const statsVariants = {
+    hidden: { opacity: 0, scale: 0.9 },
+    visible: {
+        opacity: 1,
+        scale: 1,
+        transition: springs.bouncy,
+    },
 };
 
 const sectionLabels: Record<string, string> = {
@@ -57,7 +106,6 @@ const tagTranslations: Record<string, string> = {
     resistance: 'Motstand',
 };
 
-
 export default function HistoriePage() {
     const timeline = getHistorieTimeline();
     const events = getHistorieEvents();
@@ -65,10 +113,8 @@ export default function HistoriePage() {
     const tags = getHistorieTags();
     const entities = getHistorieEntities();
 
-    // Sort events by year
     const sortedEvents = [...events].sort((a, b) => a.start_year - b.start_year);
 
-    // Group events by section
     const eventsBySection = new Map<string, typeof events>();
     sections.forEach((section) => {
         eventsBySection.set(
@@ -77,7 +123,6 @@ export default function HistoriePage() {
         );
     });
 
-    // Count entities by type
     const entityTypes = entities.reduce((acc, e) => {
         acc[e.type] = (acc[e.type] || 0) + 1;
         return acc;
@@ -87,7 +132,6 @@ export default function HistoriePage() {
         <>
             {/* Hero Section */}
             <section className="relative overflow-hidden border-b border-gray-200 py-20 text-white">
-                {/* Hero Background Image */}
                 <Image
                     src="/images/biblioteket/byhistorie-banner-hero.jpg"
                     alt="Grünerløkkas byhistorie"
@@ -97,86 +141,122 @@ export default function HistoriePage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
                 <Container className="relative z-10">
-                    <div className="max-w-3xl">
-                        <Link
-                            href="/main-board/biblioteket"
-                            className="mb-4 inline-flex items-center text-sm text-white/80 hover:text-white transition-colors"
+                    <motion.div
+                        className="max-w-3xl"
+                        variants={heroVariants}
+                        initial="hidden"
+                        animate="visible"
+                    >
+                        <motion.div variants={heroItemVariants}>
+                            <Link
+                                href="/main-board/biblioteket"
+                                className="mb-4 inline-flex items-center gap-2 text-sm text-white/80 hover:text-white transition-colors group"
+                            >
+                                <svg className="h-4 w-4 transition-transform group-hover:-translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                                </svg>
+                                Tilbake til biblioteket
+                            </Link>
+                        </motion.div>
+                        <motion.div
+                            variants={heroItemVariants}
+                            className="mb-4 inline-block rounded-full bg-white/20 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-sm border border-white/10"
                         >
-                            ← Tilbake til biblioteket
-                        </Link>
-                        <div className="mb-4 inline-block rounded-full bg-white/20 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-sm">
                             Byhistorie
-                        </div>
-                        <h1 className="mb-6 text-5xl font-bold leading-tight">
+                        </motion.div>
+                        <motion.h1
+                            variants={heroItemVariants}
+                            className="mb-6 text-4xl md:text-5xl font-bold leading-tight"
+                        >
                             Grünerløkkas Byhistorie
-                        </h1>
-                        <p className="mb-4 text-xl text-white/90">
+                        </motion.h1>
+                        <motion.p
+                            variants={heroItemVariants}
+                            className="mb-4 text-lg md:text-xl text-white/90"
+                        >
                             {timeline.place.name}, {timeline.place.city}
-                        </p>
-                        <p className="text-lg text-white/80">
+                        </motion.p>
+                        <motion.p
+                            variants={heroItemVariants}
+                            className="text-base md:text-lg text-white/80 leading-relaxed"
+                        >
                             Fra fabrikkbelte til kulturbydel – {timeline.time_span.end_year - timeline.time_span.start_year} år
                             med byutvikling fra {timeline.time_span.start_year} til {timeline.time_span.end_year}-tallet.
-                        </p>
-                    </div>
+                        </motion.p>
+                    </motion.div>
                 </Container>
             </section>
 
             {/* Stats Section */}
-            <section className="border-b border-gray-200 bg-white py-8">
+            <section className="border-b border-gray-200 bg-white py-10">
                 <Container>
-                    <div className="flex flex-wrap gap-8 justify-center">
-                        <div className="text-center">
-                            <div className="text-3xl font-bold text-amber-600">{events.length}</div>
-                            <div className="text-sm text-gray-500">Historiske hendelser</div>
-                        </div>
-                        <div className="text-center">
-                            <div className="text-3xl font-bold text-amber-600">{sections.length}</div>
-                            <div className="text-sm text-gray-500">Epoker</div>
-                        </div>
-                        <div className="text-center">
-                            <div className="text-3xl font-bold text-amber-600">{entities.length}</div>
-                            <div className="text-sm text-gray-500">Personer & steder</div>
-                        </div>
-                        <div className="text-center">
-                            <div className="text-3xl font-bold text-amber-600">{tags.length}</div>
-                            <div className="text-sm text-gray-500">Temaer</div>
-                        </div>
-                    </div>
+                    <motion.div
+                        className="flex flex-wrap gap-8 md:gap-12 justify-center"
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewport.default}
+                        variants={{
+                            hidden: { opacity: 0 },
+                            visible: {
+                                opacity: 1,
+                                transition: { staggerChildren: 0.1 },
+                            },
+                        }}
+                    >
+                        {[
+                            { value: events.length, label: 'Historiske hendelser' },
+                            { value: sections.length, label: 'Epoker' },
+                            { value: entities.length, label: 'Personer & steder' },
+                            { value: tags.length, label: 'Temaer' },
+                        ].map((stat, index) => (
+                            <motion.div
+                                key={index}
+                                className="text-center"
+                                variants={statsVariants}
+                            >
+                                <div className="text-3xl md:text-4xl font-bold text-category-historie">{stat.value}</div>
+                                <div className="text-sm text-gray-500 mt-1">{stat.label}</div>
+                            </motion.div>
+                        ))}
+                    </motion.div>
                 </Container>
             </section>
 
             {/* Introduction Section with Image Carousel */}
             <section className="border-b border-gray-200 bg-white py-16">
                 <Container>
-                    <div className="grid gap-12 lg:grid-cols-2">
-                        {/* Text Column */}
-                        <div>
+                    <motion.div
+                        className="grid gap-12 lg:grid-cols-2"
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewport.default}
+                        variants={containerVariants}
+                    >
+                        <motion.div variants={fadeUpVariants}>
                             <div className="rounded-2xl border border-gray-100 bg-gradient-to-br from-white to-gray-50 p-8 shadow-sm md:p-10">
-                                <h2 className="mb-6 text-3xl font-bold text-gray-900">
+                                <h2 className="mb-6 text-2xl md:text-3xl font-bold text-gray-900">
                                     Om Grünerløkkas Utvikling
                                 </h2>
-                                <div className="prose prose-lg max-w-none">
+                                <div className="prose prose-lg max-w-none space-y-4">
                                     <p className="text-lg text-gray-700 leading-relaxed">
                                         Fra åker til fabrikk, fra slum til kulturbydel – Grünerløkka har gjennomgått en enestående transformasjon gjennom mer enn 170 år.
                                     </p>
                                     <p className="text-gray-700 leading-relaxed">
-                                        På 1850-tallet var området fortsatt preget av jordbruk og spredt bebyggelse. Med industrialiseringen vokste det raskt fram en tett arbeiderbydel rundt tekstilfabrikker og verksteder. Trange gater ble fylt med leiegårder hvor arbeiderklassen bodde under krevende forhold.
+                                        På 1850-tallet var området fortsatt preget av jordbruk og spredt bebyggelse. Med industrialiseringen vokste det raskt fram en tett arbeiderbydel rundt tekstilfabrikker og verksteder.
                                     </p>
                                     <p className="text-gray-700 leading-relaxed">
-                                        Gjennom 1900-tallet ble Grünerløkka både et senter for arbeiderorganisering og politisk aktivisme, men også et område preget av sosiale utfordringer. På 1970- og 80-tallet sto bydelen overfor forfall og nedleggelse av industri, samtidig som en aktiv motstand mot rivningsplaner samlet et kreativt og engasjert miljø.
+                                        Gjennom 1900-tallet ble Grünerløkka både et senter for arbeiderorganisering og politisk aktivisme, men også et område preget av sosiale utfordringer.
                                     </p>
                                     <p className="text-gray-700 leading-relaxed">
-                                        Fra 1990-tallet tok gentrifiseringen til, og bydelen ble gradvis omdannet til et av Oslos mest populære og livlige strøk – et kulturelt kraftsenter med kafeer, gallerier, musikksteder og mangfold. Historien om Grünerløkka er en fortelling om klassekamp, byutvikling og identitet.
+                                        Fra 1990-tallet tok gentrifiseringen til, og bydelen ble gradvis omdannet til et av Oslos mest populære og livlige strøk.
                                     </p>
                                 </div>
                             </div>
-                        </div>
-
-                        {/* Image Carousel Column */}
-                        <div className="flex items-center">
+                        </motion.div>
+                        <motion.div className="flex items-center" variants={fadeUpVariants}>
                             <ImageCarousel images={biblioteketCarouselImages} />
-                        </div>
-                    </div>
+                        </motion.div>
+                    </motion.div>
                 </Container>
             </section>
 
@@ -184,26 +264,38 @@ export default function HistoriePage() {
             <Container className="py-16">
                 <div className="grid gap-12 lg:grid-cols-4">
                     {/* Sidebar */}
-                    <div className="lg:col-span-1 space-y-8">
+                    <motion.div
+                        className="lg:col-span-1 space-y-8"
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewport.default}
+                        variants={containerVariants}
+                    >
                         {/* Sections Navigation */}
-                        <section className="rounded-xl border border-gray-200 bg-white p-6">
+                        <motion.section
+                            variants={cardVariants}
+                            className="rounded-xl border border-gray-200 bg-white p-6"
+                        >
                             <h3 className="mb-4 text-lg font-bold text-gray-900">Epoker</h3>
                             <ul className="space-y-2">
                                 {sections.map((section) => (
                                     <li key={section}>
                                         <a
                                             href={`#${section}`}
-                                            className="block text-sm text-gray-600 hover:text-amber-600 transition-colors"
+                                            className="block text-sm text-gray-600 hover:text-category-historie transition-colors"
                                         >
                                             {sectionLabels[section] || section}
                                         </a>
                                     </li>
                                 ))}
                             </ul>
-                        </section>
+                        </motion.section>
 
                         {/* Tags */}
-                        <section className="rounded-xl border border-gray-200 bg-white p-6">
+                        <motion.section
+                            variants={cardVariants}
+                            className="rounded-xl border border-gray-200 bg-white p-6"
+                        >
                             <h3 className="mb-4 text-lg font-bold text-gray-900">Temaer</h3>
                             <div className="flex flex-wrap gap-2">
                                 {tags.slice(0, 15).map((tag) => (
@@ -215,47 +307,68 @@ export default function HistoriePage() {
                                     </span>
                                 ))}
                             </div>
-                        </section>
+                        </motion.section>
 
                         {/* Entity Types */}
-                        <section className="rounded-xl border border-gray-200 bg-white p-6">
+                        <motion.section
+                            variants={cardVariants}
+                            className="rounded-xl border border-gray-200 bg-white p-6"
+                        >
                             <h3 className="mb-4 text-lg font-bold text-gray-900">Aktører</h3>
                             <ul className="space-y-2">
                                 {Object.entries(entityTypes).map(([type, count]) => (
                                     <li key={type} className="flex items-center justify-between text-sm">
-                                        <span className="text-gray-600 capitalize">{type === 'person' ? 'Personer' : type === 'organisation' ? 'Organisasjoner' : type === 'place' ? 'Steder' : type}</span>
-                                        <span className="font-medium text-amber-600">{count}</span>
+                                        <span className="text-gray-600 capitalize">
+                                            {type === 'person' ? 'Personer' : type === 'organisation' ? 'Organisasjoner' : type === 'place' ? 'Steder' : type}
+                                        </span>
+                                        <span className="font-medium text-category-historie">{count}</span>
                                     </li>
                                 ))}
                             </ul>
-                        </section>
-                    </div>
+                        </motion.section>
+                    </motion.div>
 
                     {/* Timeline by Section */}
                     <div className="lg:col-span-3 space-y-16">
-                        {sections.map((section) => {
+                        {sections.map((section, sectionIndex) => {
                             const sectionEvents = eventsBySection.get(section) || [];
                             if (sectionEvents.length === 0) return null;
 
                             return (
-                                <section key={section} id={section}>
-                                    <h2 className="mb-8 text-2xl font-bold text-gray-900 pb-4 border-b border-gray-200">
+                                <motion.section
+                                    key={section}
+                                    id={section}
+                                    initial="hidden"
+                                    whileInView="visible"
+                                    viewport={viewport.default}
+                                    variants={containerVariants}
+                                >
+                                    <motion.h2
+                                        variants={fadeUpVariants}
+                                        className="mb-8 text-2xl font-bold text-gray-900 pb-4 border-b border-gray-200"
+                                    >
                                         {sectionLabels[section] || section}
-                                    </h2>
+                                    </motion.h2>
                                     <div className="relative">
                                         {/* Timeline line */}
-                                        <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-amber-200" />
+                                        <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-category-historie/20" />
 
                                         <div className="space-y-6">
-                                            {sectionEvents.map((event) => (
-                                                <div
+                                            {sectionEvents.map((event, eventIndex) => (
+                                                <motion.div
                                                     key={event.id}
                                                     className="relative flex gap-6"
+                                                    variants={cardVariants}
+                                                    custom={eventIndex}
                                                 >
                                                     {/* Year marker */}
                                                     <div className="flex-shrink-0 w-16 relative">
-                                                        <div className="absolute right-0 top-1 w-4 h-4 rounded-full bg-amber-500 border-4 border-amber-100" />
-                                                        <span className="text-sm font-bold text-amber-600">
+                                                        <motion.div
+                                                            className="absolute right-0 top-1 w-4 h-4 rounded-full bg-category-historie border-4 border-category-historie/20"
+                                                            whileInView={{ scale: [0.5, 1.2, 1] }}
+                                                            transition={{ duration: 0.4, delay: eventIndex * 0.05 }}
+                                                        />
+                                                        <span className="text-sm font-bold text-category-historie">
                                                             {event.start_year}
                                                             {event.end_year !== event.start_year && (
                                                                 <span className="text-gray-400">–{event.end_year}</span>
@@ -264,11 +377,14 @@ export default function HistoriePage() {
                                                     </div>
 
                                                     {/* Content */}
-                                                    <div className="flex-1 rounded-lg border border-gray-200 bg-white p-6 hover:shadow-md transition-shadow">
+                                                    <motion.div
+                                                        className="flex-1 rounded-xl border border-gray-200 bg-white p-6 transition-colors hover:border-category-historie/30"
+                                                        whileHover={{ y: -3, boxShadow: '0 8px 24px rgba(0,0,0,0.06)' }}
+                                                    >
                                                         <h3 className="mb-2 text-lg font-semibold text-gray-900">
                                                             {translateHistorieText(event.label)}
                                                         </h3>
-                                                        <p className="mb-4 text-gray-600">
+                                                        <p className="mb-4 text-gray-600 leading-relaxed">
                                                             {translateHistorieText(event.summary)}
                                                         </p>
                                                         <div className="flex flex-wrap gap-2">
@@ -281,12 +397,12 @@ export default function HistoriePage() {
                                                                 </span>
                                                             ))}
                                                         </div>
-                                                    </div>
-                                                </div>
+                                                    </motion.div>
+                                                </motion.div>
                                             ))}
                                         </div>
                                     </div>
-                                </section>
+                                </motion.section>
                             );
                         })}
                     </div>
@@ -296,23 +412,38 @@ export default function HistoriePage() {
             {/* Key Entities */}
             <section className="border-t border-gray-200 bg-gray-50 py-16">
                 <Container>
-                    <h2 className="mb-8 text-2xl font-bold text-gray-900">Nøkkelpersoner og steder</h2>
-                    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                        {entities.slice(0, 12).map((entity) => (
-                            <div
-                                key={entity.id}
-                                className="rounded-lg border border-gray-200 bg-white p-5"
-                            >
-                                <div className="flex items-center gap-2 mb-2">
-                                    <span className="text-xs font-medium text-amber-600 uppercase">
-                                        {entity.type === 'person' ? 'Person' : entity.type === 'organisation' ? 'Organisasjon' : 'Sted'}
-                                    </span>
-                                </div>
-                                <h3 className="font-semibold text-gray-900 mb-1">{entity.name}</h3>
-                                <p className="text-sm text-gray-600">{entity.description}</p>
-                            </div>
-                        ))}
-                    </div>
+                    <motion.div
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewport.default}
+                        variants={containerVariants}
+                    >
+                        <motion.h2
+                            variants={fadeUpVariants}
+                            className="mb-8 text-2xl font-bold text-gray-900"
+                        >
+                            Nøkkelpersoner og steder
+                        </motion.h2>
+                        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                            {entities.slice(0, 12).map((entity, index) => (
+                                <motion.div
+                                    key={entity.id}
+                                    variants={cardVariants}
+                                    custom={index}
+                                    whileHover={{ y: -4, boxShadow: '0 12px 32px rgba(0,0,0,0.08)' }}
+                                    className="rounded-xl border border-gray-200 bg-white p-5 transition-colors hover:border-category-historie/20"
+                                >
+                                    <div className="flex items-center gap-2 mb-2">
+                                        <span className="text-xs font-medium text-category-historie uppercase">
+                                            {entity.type === 'person' ? 'Person' : entity.type === 'organisation' ? 'Organisasjon' : 'Sted'}
+                                        </span>
+                                    </div>
+                                    <h3 className="font-semibold text-gray-900 mb-1">{entity.name}</h3>
+                                    <p className="text-sm text-gray-600 leading-relaxed">{entity.description}</p>
+                                </motion.div>
+                            ))}
+                        </div>
+                    </motion.div>
                 </Container>
             </section>
         </>

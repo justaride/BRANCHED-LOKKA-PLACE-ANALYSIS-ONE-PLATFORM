@@ -1,0 +1,222 @@
+{
+  "nøkkeltall": {
+    "konseptTetthet": 462,
+    "totalOmsetning": 2098,
+    "omsetningTetthet": 4700,
+    "trend": {
+      "konseptTetthet": 0,
+      "omsetning": 1
+    }
+  },
+  "konseptmiks": [
+    {
+      "kategori1": "Mat og opplevelser",
+      "kategori2": "Restaurant",
+      "antall": 79
+    },
+    {
+      "kategori1": "Mat og opplevelser",
+      "kategori2": "Bakeri og kafé",
+      "antall": 12
+    },
+    {
+      "kategori1": "Mat og opplevelser",
+      "kategori2": "Pub og bar",
+      "antall": 13
+    },
+    {
+      "kategori1": "Mat og opplevelser",
+      "kategori2": "Barer",
+      "antall": 1
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Hus og bygg",
+      "antall": 1
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Bil og Båt",
+      "antall": 1
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Elektrobutikker",
+      "antall": 1
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Klesbutikker",
+      "antall": 24
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Smykker og parfyme",
+      "antall": 1
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Sport og fritid",
+      "antall": 7
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Mat og drikke",
+      "antall": 20
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Annen handel",
+      "antall": 14
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Hjem og interiør",
+      "antall": 8
+    },
+    {
+      "kategori1": "Tjenester",
+      "kategori2": "Skjønnhet og velvære",
+      "antall": 20
+    },
+    {
+      "kategori1": "Tjenester",
+      "kategori2": "Profesjoner",
+      "antall": 7
+    },
+    {
+      "kategori1": "Tjenester",
+      "kategori2": "Andre tjenester",
+      "antall": 2
+    },
+    {
+      "kategori1": "Tjenester",
+      "kategori2": "Treningssentre",
+      "antall": 1
+    }
+  ],
+  "kjederVsUavhengige": [
+    {
+      "år": "2015",
+      "uavhengig": 55.33,
+      "kjeder": 44.67
+    },
+    {
+      "år": "2016",
+      "uavhengig": 53.84,
+      "kjeder": 46.16
+    },
+    {
+      "år": "2017",
+      "uavhengig": 61.13,
+      "kjeder": 38.87
+    },
+    {
+      "år": "2018",
+      "uavhengig": 57.44,
+      "kjeder": 42.56
+    },
+    {
+      "år": "2019",
+      "uavhengig": 51.92,
+      "kjeder": 48.08
+    },
+    {
+      "år": "2020",
+      "uavhengig": 48.87,
+      "kjeder": 51.13
+    },
+    {
+      "år": "2021",
+      "uavhengig": 47.59,
+      "kjeder": 52.41
+    },
+    {
+      "år": "2022",
+      "uavhengig": 53.92,
+      "kjeder": 46.08
+    },
+    {
+      "år": "2023",
+      "uavhengig": 52.44,
+      "kjeder": 47.56
+    },
+    {
+      "år": "2024",
+      "uavhengig": 53.79,
+      "kjeder": 46.21
+    },
+    {
+      "år": "2025",
+      "uavhengig": 57.94,
+      "kjeder": 42.06
+    }
+  ],
+  "overUnderandel": {
+    "matOpplevelser": 13.08,
+    "handel": -16.43,
+    "tjenester": 3.35
+  },
+  "utviklingPerÅr": [
+    {
+      "år": "2015",
+      "matOpplevelser": 628.7,
+      "handel": 682.5,
+      "tjenester": 87.6
+    },
+    {
+      "år": "2016",
+      "matOpplevelser": 670.7,
+      "handel": 704.6,
+      "tjenester": 90.5
+    },
+    {
+      "år": "2017",
+      "matOpplevelser": 719.2,
+      "handel": 642.3,
+      "tjenester": 110.2
+    },
+    {
+      "år": "2018",
+      "matOpplevelser": 749.2,
+      "handel": 778,
+      "tjenester": 113.4
+    },
+    {
+      "år": "2019",
+      "matOpplevelser": 792.8,
+      "handel": 765,
+      "tjenester": 109.2
+    },
+    {
+      "år": "2020",
+      "matOpplevelser": 631.3,
+      "handel": 754.6,
+      "tjenester": 106.6
+    },
+    {
+      "år": "2021",
+      "matOpplevelser": 698.9,
+      "handel": 812.2,
+      "tjenester": 104.4
+    },
+    {
+      "år": "2022",
+      "matOpplevelser": 968.9,
+      "handel": 812.1,
+      "tjenester": 118.3
+    },
+    {
+      "år": "2023",
+      "matOpplevelser": 1008.7,
+      "handel": 853.2,
+      "tjenester": 116.8
+    },
+    {
+      "år": "2024",
+      "matOpplevelser": 1052.3,
+      "handel": 915.1,
+      "tjenester": 130.9
+    }
+  ]
+}

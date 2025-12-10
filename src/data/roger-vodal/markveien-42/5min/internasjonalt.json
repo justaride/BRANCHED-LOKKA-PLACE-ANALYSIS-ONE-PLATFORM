@@ -1,0 +1,85 @@
+{
+  "periode": "2024, Q4",
+  "toppLand": [
+    {
+      "land": "Denmark",
+      "prosent": 13.28
+    },
+    {
+      "land": "Poland",
+      "prosent": 12.49
+    },
+    {
+      "land": "France",
+      "prosent": 9.16
+    },
+    {
+      "land": "Germany",
+      "prosent": 9.06
+    },
+    {
+      "land": "Sweden",
+      "prosent": 8.14
+    },
+    {
+      "land": "United Kingdom of Great Britain and Northern Ireland",
+      "prosent": 7.65
+    },
+    {
+      "land": "United States of America",
+      "prosent": 5.59
+    },
+    {
+      "land": "Spain",
+      "prosent": 5.41
+    },
+    {
+      "land": "Netherlands",
+      "prosent": 5.38
+    },
+    {
+      "land": "Ukraine",
+      "prosent": 3.19
+    },
+    {
+      "land": "Romania",
+      "prosent": 2.41
+    },
+    {
+      "land": "Austria",
+      "prosent": 1.89
+    },
+    {
+      "land": "Italy",
+      "prosent": 1.79
+    },
+    {
+      "land": "Belgium",
+      "prosent": 1.45
+    },
+    {
+      "land": "China",
+      "prosent": 1.42
+    },
+    {
+      "land": "Finland",
+      "prosent": 1.33
+    },
+    {
+      "land": "India",
+      "prosent": 1.15
+    },
+    {
+      "land": "Portugal",
+      "prosent": 1.08
+    },
+    {
+      "land": "Greece",
+      "prosent": 1.08
+    },
+    {
+      "land": "Czechia",
+      "prosent": 0.67
+    }
+  ]
+}

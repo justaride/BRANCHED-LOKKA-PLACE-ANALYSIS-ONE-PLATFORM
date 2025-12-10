@@ -13,10 +13,10 @@ export default async function SpaboEiendommerPage() {
   return (
     <>
       {/* Header Section */}
-      <section className="border-b border-gray-200 bg-gradient-to-br from-lokka-primary to-lokka-secondary py-12 text-white">
+      <section className="border-b border-gray-200 bg-gray-50 py-12">
         <Container>
-          <h1 className="mb-4 text-4xl font-bold">Eiendommer</h1>
-          <p className="text-lg text-white/90">
+          <h1 className="mb-4 text-4xl font-bold text-gray-900">Eiendommer</h1>
+          <p className="text-lg text-gray-600">
             Utforsk placeanalyser og eiendomsinformasjon for SPABO Eiendoms
             portefølje på Grünerløkka
           </p>

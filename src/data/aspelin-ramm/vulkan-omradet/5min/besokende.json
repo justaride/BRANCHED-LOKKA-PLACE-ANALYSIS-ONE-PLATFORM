@@ -1,0 +1,212 @@
+{
+  "periode": "31.12.2023 - 30.12.2024",
+  "aldersfordeling": {
+    "mann": [],
+    "kvinne": []
+  },
+  "husholdningstyper": [],
+  "inntektsfordeling": [],
+  "medianInntektPerHusholdningstype": [],
+  "områderBesøkendeKommerFra": [
+    {
+      "område": "Grünerløkka",
+      "prosent": 17.6
+    },
+    {
+      "område": "Gamle Aker",
+      "prosent": 15.16
+    },
+    {
+      "område": "Sentrum 2",
+      "prosent": 9.29
+    },
+    {
+      "område": "Ila",
+      "prosent": 4.43
+    },
+    {
+      "område": "St.hanshaugen",
+      "prosent": 3.62
+    },
+    {
+      "område": "Rodeløkka",
+      "prosent": 3.39
+    },
+    {
+      "område": "Torshov",
+      "prosent": 2.99
+    },
+    {
+      "område": "Grefsenlia",
+      "prosent": 2.03
+    },
+    {
+      "område": "Tøyen",
+      "prosent": 2.03
+    },
+    {
+      "område": "Tåsen",
+      "prosent": 1.97
+    },
+    {
+      "område": "Hasle",
+      "prosent": 1.91
+    },
+    {
+      "område": "Grønland",
+      "prosent": 1.72
+    },
+    {
+      "område": "Bjerke",
+      "prosent": 1.67
+    },
+    {
+      "område": "Ulven",
+      "prosent": 1.59
+    },
+    {
+      "område": "Manglerud",
+      "prosent": 1.48
+    },
+    {
+      "område": "Bjølsen",
+      "prosent": 1.35
+    },
+    {
+      "område": "Åsen",
+      "prosent": 1.33
+    },
+    {
+      "område": "Majorstuen",
+      "prosent": 1.29
+    },
+    {
+      "område": "Sinsen",
+      "prosent": 1.25
+    },
+    {
+      "område": "Lindern",
+      "prosent": 1.25
+    },
+    {
+      "område": "Homansbyen",
+      "prosent": 1.17
+    },
+    {
+      "område": "Frogner",
+      "prosent": 1.16
+    },
+    {
+      "område": "Østensjø",
+      "prosent": 1.12
+    },
+    {
+      "område": "Ris",
+      "prosent": 1.08
+    },
+    {
+      "område": "Sagene",
+      "prosent": 0.99
+    },
+    {
+      "område": "Kampen",
+      "prosent": 0.97
+    },
+    {
+      "område": "Fossum",
+      "prosent": 0.97
+    },
+    {
+      "område": "Grorud",
+      "prosent": 0.95
+    },
+    {
+      "område": "Ljansbyen",
+      "prosent": 0.85
+    },
+    {
+      "område": "Uranienborg",
+      "prosent": 0.85
+    },
+    {
+      "område": "Bekkelaget",
+      "prosent": 0.83
+    },
+    {
+      "område": "Rudene",
+      "prosent": 0.81
+    },
+    {
+      "område": "Langerud",
+      "prosent": 0.81
+    },
+    {
+      "område": "Sentrum 3",
+      "prosent": 0.81
+    },
+    {
+      "område": "Ulsholt",
+      "prosent": 0.81
+    },
+    {
+      "område": "Nordmarka",
+      "prosent": 0.76
+    },
+    {
+      "område": "Alfaset",
+      "prosent": 0.74
+    },
+    {
+      "område": "Fagerborg",
+      "prosent": 0.68
+    },
+    {
+      "område": "Gamlebyen",
+      "prosent": 0.68
+    },
+    {
+      "område": "Sandaker",
+      "prosent": 0.64
+    },
+    {
+      "område": "Holmen",
+      "prosent": 0.61
+    },
+    {
+      "område": "Røabyen",
+      "prosent": 0.61
+    },
+    {
+      "område": "Vålerenga",
+      "prosent": 0.53
+    },
+    {
+      "område": "Borgen",
+      "prosent": 0.53
+    },
+    {
+      "område": "Nordstrand",
+      "prosent": 0.49
+    },
+    {
+      "område": "Grefsenmarka",
+      "prosent": 0.47
+    },
+    {
+      "område": "Skillebekk",
+      "prosent": 0.45
+    },
+    {
+      "område": "Østmarka",
+      "prosent": 0.44
+    },
+    {
+      "område": "Ullern",
+      "prosent": 0.42
+    },
+    {
+      "område": "Loenga",
+      "prosent": 0.4
+    }
+  ]
+}

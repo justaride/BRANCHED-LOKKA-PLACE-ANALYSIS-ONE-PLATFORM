@@ -59,6 +59,20 @@ const STATIC_DATA: Record<string, () => Promise<OneMinAnalysisData>> = {
     return { demografi: null, konkurransebilde, korthandel, bevegelse, besokende: null, internasjonalt: null, aktorer };
   },
 
+  // Aspelin Ramm - Vulkan Området (5-min analysis)
+  'aspelin-ramm/vulkan-omradet': async () => {
+    const [demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer] = await Promise.all([
+      import('@/data/aspelin-ramm/vulkan-omradet/5min/demografi.json').then(m => m.default as DemografiData),
+      import('@/data/aspelin-ramm/vulkan-omradet/5min/konkurransebilde.json').then(m => m.default as KonkurransebildeData),
+      import('@/data/aspelin-ramm/vulkan-omradet/5min/korthandel.json').then(m => m.default as KorthandelData),
+      import('@/data/aspelin-ramm/vulkan-omradet/5min/bevegelse.json').then(m => m.default as BevegelseData),
+      import('@/data/aspelin-ramm/vulkan-omradet/5min/besokende.json').then(m => m.default as BesøkendeData),
+      import('@/data/aspelin-ramm/vulkan-omradet/5min/internasjonalt.json').then(m => m.default as InternasjonaltData),
+      import('@/data/aspelin-ramm/vulkan-omradet/5min/aktorer.json').then(m => m.default as AktorerData),
+    ]);
+    return { demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer };
+  },
+
   // Roger Vodal - Olaf Ryes Plass 3 (5-min analysis)
   'roger-vodal/olaf-ryes-plass-3': async () => {
     const [demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer] = await Promise.all([
@@ -109,6 +123,48 @@ const STATIC_DATA: Record<string, () => Promise<OneMinAnalysisData>> = {
       import('@/data/roger-vodal/thorvald-meyersgate-44/5min/besokende.json').then(m => m.default as BesøkendeData),
       import('@/data/roger-vodal/thorvald-meyersgate-44/5min/internasjonalt.json').then(m => m.default as InternasjonaltData),
       import('@/data/roger-vodal/thorvald-meyersgate-44/5min/aktorer.json').then(m => m.default as AktorerData),
+    ]);
+    return { demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer };
+  },
+
+  // Roger Vodal - Markveien 38 (5-min analysis)
+  'roger-vodal/markveien-38': async () => {
+    const [demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer] = await Promise.all([
+      import('@/data/roger-vodal/markveien-38/5min/demografi.json').then(m => m.default as DemografiData),
+      import('@/data/roger-vodal/markveien-38/5min/konkurransebilde.json').then(m => m.default as KonkurransebildeData),
+      import('@/data/roger-vodal/markveien-38/5min/korthandel.json').then(m => m.default as KorthandelData),
+      import('@/data/roger-vodal/markveien-38/5min/bevegelse.json').then(m => m.default as BevegelseData),
+      import('@/data/roger-vodal/markveien-38/5min/besokende.json').then(m => m.default as BesøkendeData),
+      import('@/data/roger-vodal/markveien-38/5min/internasjonalt.json').then(m => m.default as InternasjonaltData),
+      import('@/data/roger-vodal/markveien-38/5min/aktorer.json').then(m => m.default as AktorerData),
+    ]);
+    return { demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer };
+  },
+
+  // Roger Vodal - Markveien 42 (5-min analysis)
+  'roger-vodal/markveien-42': async () => {
+    const [demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer] = await Promise.all([
+      import('@/data/roger-vodal/markveien-42/5min/demografi.json').then(m => m.default as DemografiData),
+      import('@/data/roger-vodal/markveien-42/5min/konkurransebilde.json').then(m => m.default as KonkurransebildeData),
+      import('@/data/roger-vodal/markveien-42/5min/korthandel.json').then(m => m.default as KorthandelData),
+      import('@/data/roger-vodal/markveien-42/5min/bevegelse.json').then(m => m.default as BevegelseData),
+      import('@/data/roger-vodal/markveien-42/5min/besokende.json').then(m => m.default as BesøkendeData),
+      import('@/data/roger-vodal/markveien-42/5min/internasjonalt.json').then(m => m.default as InternasjonaltData),
+      import('@/data/roger-vodal/markveien-42/5min/aktorer.json').then(m => m.default as AktorerData),
+    ]);
+    return { demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer };
+  },
+
+  // Roger Vodal - Markveien 58 (5-min analysis)
+  'roger-vodal/markveien-58': async () => {
+    const [demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer] = await Promise.all([
+      import('@/data/roger-vodal/markveien-58/5min/demografi.json').then(m => m.default as DemografiData),
+      import('@/data/roger-vodal/markveien-58/5min/konkurransebilde.json').then(m => m.default as KonkurransebildeData),
+      import('@/data/roger-vodal/markveien-58/5min/korthandel.json').then(m => m.default as KorthandelData),
+      import('@/data/roger-vodal/markveien-58/5min/bevegelse.json').then(m => m.default as BevegelseData),
+      import('@/data/roger-vodal/markveien-58/5min/besokende.json').then(m => m.default as BesøkendeData),
+      import('@/data/roger-vodal/markveien-58/5min/internasjonalt.json').then(m => m.default as InternasjonaltData),
+      import('@/data/roger-vodal/markveien-58/5min/aktorer.json').then(m => m.default as AktorerData),
     ]);
     return { demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer };
   },

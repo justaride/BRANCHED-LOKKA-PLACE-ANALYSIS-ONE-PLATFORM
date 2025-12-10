@@ -14,9 +14,9 @@ export default function EiendommerPage({
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-      <div className="mb-8 rounded-lg border border-gray-200 bg-gradient-to-br from-lokka-primary to-lokka-secondary p-8 text-white">
-        <h1 className="mb-2 text-4xl font-bold">Eiendommer</h1>
-        <p className="text-lg text-white/90">
+      <div className="mb-8 rounded-lg border border-gray-200 bg-gray-50 p-8">
+        <h1 className="mb-2 text-4xl font-bold text-gray-900">Eiendommer</h1>
+        <p className="text-lg text-gray-600">
           {tenant.name} sin portefølje i Løkka-området
         </p>
       </div>

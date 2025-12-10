@@ -320,11 +320,12 @@ export default function MainBoardPage() {
                 'aspelin-ramm': '/images/companies/aspelin-ramm.webp',
                 'brodrene-evensen': '/images/companies/brodrene-evensen.webp',
                 'eiendomsspar': '/images/companies/eiendomsspar.jpg',
-                'front-real-estate': '/images/companies/malling-co.jpg', // Using existing image for now
+                'front-real-estate': '/images/companies/malling-co.jpg',
                 'maya-eiendom': '/images/companies/maya-eiendom.jpg',
                 'roger-vodal': '/images/companies/roger-vodal.jpg',
                 'sio': '/images/companies/sio.jpg',
                 'spabo': '/images/companies/spabo.jpg',
+                'carucel': '/images/companies/carucel/olaf-ryes-plass-4-card.webp',
               };
 
               return (
@@ -375,16 +376,16 @@ export default function MainBoardPage() {
 
       {/* CTA Section */}
       <Container className="py-16">
-        <div className="rounded-2xl bg-gradient-to-r from-natural-forest to-natural-sage p-12 text-center">
+        <div className="rounded-2xl border border-gray-200 bg-gray-50 p-12 text-center">
           <h2 className="mb-4 text-3xl font-bold text-gray-900">
             Klar til å utforske?
           </h2>
-          <p className="mb-8 text-lg text-gray-700">
+          <p className="mb-8 text-lg text-gray-600">
             Dykk inn i de månedlige analysene og se hvordan Grünerløkka utvikler seg gjennom året.
           </p>
           <div className="flex justify-center gap-4">
             <Link href="/main-board/analyser">
-              <Button size="lg" variant="primary">
+              <Button size="lg" className="bg-gray-900 text-white hover:bg-gray-800">
                 Se Analyser
               </Button>
             </Link>

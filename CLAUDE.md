@@ -23,12 +23,12 @@ Test: npm run test (Jest, 70% coverage threshold)
 ```
 /                    → Landing page (public)
 /main-board          → Natural State analysis hub
-/aspelin-ramm        → 5 properties (includes Mathallen 1-min analysis)
+/aspelin-ramm        → 6 properties (Mathallen + Vulkan Området 5-min analysis)
 /brodrene-evensen    → 3 properties
 /eiendomsspar        → 2 properties
 /malling-co          → 1 property (Front Real Estate)
 /maya-eiendom        → 4 properties
-/roger-vodal         → 3 properties
+/roger-vodal         → 9 properties (7 with 5-min analysis)
 /sio                 → 3 properties (student housing)
 /spabo               → 22 properties (largest portfolio)
 /carucel             → 1 property (Olaf Ryes plass 4)
@@ -209,8 +209,8 @@ docs/
 | Metric | Value |
 |--------|-------|
 | Static Pages | 111 |
-| JSON Data Files | 257 |
-| Properties | 44 |
+| JSON Data Files | 317 |
+| Properties | 51 |
 | Tenants | 10 |
 | ESLint Issues | 64 (acceptable) |
 | Test Coverage | 70% threshold |

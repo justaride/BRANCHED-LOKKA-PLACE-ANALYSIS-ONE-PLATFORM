@@ -9,7 +9,7 @@ export default function CarucelHome() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-lokka-primary to-lokka-secondary py-20 text-white">
+      <section className="bg-gray-50 py-20">
         <Container>
           <div className="max-w-3xl">
             <div className="mb-6 flex items-center gap-4">
@@ -18,13 +18,13 @@ export default function CarucelHome() {
                 alt="Carucel Logo"
                 width={80}
                 height={80}
-                className="rounded-lg bg-white p-2"
+                className="rounded-lg bg-white p-2 shadow-sm"
               />
-              <h1 className="text-5xl font-bold leading-tight">
+              <h1 className="text-5xl font-bold leading-tight text-gray-900">
                 Carucel
               </h1>
             </div>
-            <p className="mb-8 text-xl text-white/90">
+            <p className="mb-8 text-xl text-gray-600">
               Omfattende 1-minutts gangavstand analyse for Olaf Ryes plass 4 på Grünerløkka.
               Utforsk hyperlokal demografi, bevegelsesmønster, korthandel og konkurransebilde
               i Oslos mest levende bydel.
@@ -33,7 +33,7 @@ export default function CarucelHome() {
               <Link href="/carucel/eiendommer">
                 <Button
                   size="lg"
-                  className="bg-white text-lokka-primary hover:bg-white/90"
+                  className="bg-gray-900 text-white hover:bg-gray-800"
                 >
                   Se Eiendomsanalyse
                 </Button>
@@ -124,21 +124,20 @@ export default function CarucelHome() {
       </Container>
 
       {/* Properties CTA Section */}
-      <section className="bg-gradient-to-br from-indigo-600 to-purple-600 py-16">
+      <section className="border-y border-gray-200 bg-gray-50 py-16">
         <Container>
           <div className="mx-auto max-w-4xl text-center">
-            <div className="mb-6 text-6xl">📍</div>
-            <h2 className="mb-4 text-4xl font-bold text-white">
+            <h2 className="mb-4 text-3xl font-bold text-gray-900">
               Utforsk Eiendomsanalysen
             </h2>
-            <p className="mb-8 text-xl text-white/90">
+            <p className="mb-8 text-lg text-gray-600">
               Se detaljerte visualiseringer av demografi, bevegelse, korthandel og konkurransebilde
               for Olaf Ryes plass 4.
             </p>
             <Link href="/carucel/eiendommer/olaf-ryes-plass-4">
               <Button
                 size="lg"
-                className="bg-white text-indigo-600 hover:bg-white/90 shadow-xl text-lg px-8 py-6"
+                className="bg-gray-900 text-white hover:bg-gray-800 text-lg px-8 py-6"
               >
                 Se Full Analyse →
               </Button>

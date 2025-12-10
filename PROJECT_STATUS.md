@@ -1,12 +1,16 @@
 # Løkka Gardeierforening Platform - Project Status
 
-**Last Updated:** December 10, 2025 - Roger-Vodal 1-min Analysis Complete
+**Last Updated:** December 10, 2025 - Markveien & Vulkan 5-min Analysis
 **Current Status:** 🚀 **PRODUCTION READY** (99% Complete)
 **Deployment:** ✅ Live on Vercel
 **URL:** https://lokka-gardeierforening-platform.vercel.app
 **Build Status:** ✅ 111 static pages, ESLint 64 issues (down from 118)
 **Test Status:** ✅ Jest configured with 70% coverage threshold
 **Latest Updates:**
+- **December 10: Hero Image Fix** - Alle 9 Roger Vodal + Vulkan Området har nå korrekte hero-bilder
+- **December 10: Markveien 38, 42, 58** - 3 nye Roger Vodal-eiendommer med full 5-min Plaace-analyse (562 aktører)
+- **December 10: Vulkan Området** - Ny Aspelin Ramm områdeanalyse med 36 aktører og 80% mat-fokus
+- **December 10: Biblioteket Frontend Design** - Complete UI/UX overhaul using natural color palette
 - **December 10: Roger-Vodal 5-min Analysis** - Complete 6-section analysis for 4 properties with interactive charts
 - **December 9: Profile Migration Complete** - 13 property files updated, legacy data migrated, research doc created
 - **December 9: Silent Failure Detection** - Null handling, verification scripts, Jest tests
@@ -67,13 +71,13 @@ Comprehensive audit of all 44 property "Utvidet Eiendomsprofil" pages revealed s
 
 | Tenant | Properties | Quality | Priority |
 |--------|------------|---------|----------|
-| aspelin-ramm | 5 | ✅ All GOOD/COMPLETE | Low |
+| aspelin-ramm | 6 | ✅ All GOOD/COMPLETE + Vulkan Området | Low |
 | spabo | 22 | 🟡 17 good, 5 need work | Medium |
 | maya-eiendom | 4 | ✅ All GOOD/COMPLETE | Low |
 | front-real-estate | 1 | ✅ GOOD | Low |
 | brodrene-evensen | 3 | 🟠 All BASIC | Medium |
 | carucel | 1 | 🟠 BASIC | Medium |
-| **roger-vodal** | 3 | 🔴 **All STUBS** | **HIGH** |
+| **roger-vodal** | 9 | ✅ 7 with 5-min analysis, 2 legacy | Low |
 | **sio** | 3 | 🔴 **All STUBS** | **HIGH** |
 | **eiendomsspar** | 2 | 🔴 **LEGACY structure** | **CRITICAL** |
 
@@ -229,31 +233,36 @@ npm run test:coverage # Run tests with coverage
 
 ---
 
-### 📚 Løkka Biblioteket Digital Library (November 27-28, 2025)
-**Status:** ✅ **100% COMPLETE**
+### 📚 Løkka Biblioteket Digital Library (November 27-28, December 10, 2025)
+**Status:** ✅ **100% COMPLETE** + Design Overhaul
 
 Successfully implemented a comprehensive digital library showcasing Grünerløkka's history, culture, and local heroes.
+
+**December 10 - Frontend Design Overhaul:**
+Complete UI/UX redesign using the natural color palette for visual consistency:
+- ✅ Hero Section: Responsive padding, animated back links, book icon badges
+- ✅ Stats Section: Cards with icons, color-coded hover states (forest, sage, earth, sand)
+- ✅ Categories Grid: Item count badges, hover reveal effects, proper image sizes
+- ✅ Timeline Section: Simplified filters with aria-pressed, cleaner decade markers
+- ✅ MasterTimeline: Removed over-engineered animations, natural-palette colors
+- ✅ IldsjelGrid: Professional placeholder icons, natural-sand category tags
+- ✅ LitteraturList: Mobile card view, sortable columns, natural-forest accents
+- ✅ Detail Pages: Sticky sidebar, smart link display, gradient summary blocks
+
+**Color Palette Applied:**
+- `natural-forest` (#2C5F2D) - Primary accents, links
+- `natural-sage` (#97BC62) - Secondary accents, hover states
+- `natural-sand` (#E8DCC4) - Backgrounds, category tags
+- `natural-earth` (#8B7355) - Text in tags, type badges
+- `natural-stone` (#6B7280) - Neutral grays
 
 **Implementation Summary:**
 - **4 Content Categories:** Ildsjeler, Litteratur, Historie, Kultur
 - **50+ Items** across all categories
-- **10+ Ildsjeler** (local heroes) with detailed profiles
+- **14 Ildsjeler** (local heroes) with detailed profiles
 - **35+ Litteratur** works from 1913 to present
 - **Timeline visualization** for culture and history
 - **Dynamic detail pages** for ildsjeler profiles
-
-**November 28 Updates:**
-- **Hero Images:** All 5 biblioteket pages now have custom hero banner images
-  - Ildsjeler: `ildsjeler-banner-hero.jpg`
-  - Litteratur: `litteratur-banner-hero.jpeg`
-  - Historie: `byhistorie-banner-hero.jpg`
-  - Kultur: `kultur-banner-hero.jpg`
-  - Landing: `lokka-bibliotek-hero.jpg`
-- **Norwegian Translation:** 7 historie JSON files translated from English to Norwegian
-  - 26 timeline events with labels, summaries, and tags
-  - 13 entities (persons, organizations, places)
-  - 6 thematic tag definitions
-  - Document and search index metadata
 
 **Pages Created:**
 1. ✅ `/main-board/biblioteket` - Main library landing page with category grid
@@ -263,34 +272,61 @@ Successfully implemented a comprehensive digital library showcasing Grünerløkk
 5. ✅ `/main-board/biblioteket/historie` - City history timeline (1850-2024)
 6. ✅ `/main-board/biblioteket/kultur` - Art, music, and culture timeline
 
-**Data Files Created:**
-- `/src/data/main-board/biblioteket/ildsjeler.json` - Local heroes data
-- `/src/data/main-board/biblioteket/litteratur.json` - Literature collection
-- `/src/data/main-board/biblioteket/historie.json` - Historical timeline
-- `/src/data/main-board/biblioteket/kultur.json` - Culture timeline
-
 **Technical Achievements:**
 - ✅ Static imports for Vercel compatibility
 - ✅ TypeScript types for all biblioteket content
 - ✅ Comprehensive data loader (`biblioteket-loader.ts`)
-- ✅ Category-based color schemes (orange, blue, amber, purple)
-- ✅ Responsive design with image cards
+- ✅ Natural color palette throughout (forest, sage, sand, earth, stone)
+- ✅ Responsive design with mobile-first approach
 - ✅ Dynamic routing for ildsjel profiles
-- ✅ Timeline visualizations for history and culture
+- ✅ Timeline visualizations with accessibility (aria-pressed)
+- ✅ Mobile card view for LitteraturList
 
 **URL:** `/main-board/biblioteket`
+
+---
+
+### 📊 Markveien & Vulkan 5-min Analysis (December 10, 2025)
+**Status:** ✅ **100% COMPLETE**
+
+Successfully added 4 new property analyses with full Plaace data.
+
+**New Properties:**
+
+| Eiendom | Tenant | Aktører | Daglige besøk | Daglig korthandel |
+|---------|--------|---------|---------------|-------------------|
+| Markveien 38 | Roger Vodal | 204 | 48 121 | 3 mill NOK |
+| Markveien 42 | Roger Vodal | 207 | 48 121 | 3 mill NOK |
+| Markveien 58 | Roger Vodal | 151 | 57 219 | 12 mill NOK |
+| Vulkan Området | Aspelin Ramm | 36 | 4 641 | 1,1 mill NOK |
+
+**Vulkan Området Highlights:**
+- 80% Mat og opplevelser, 17% Handel, 3% Tjenester
+- Konsepttetthet: 1 318 per km² (Meget høy)
+- Europa Nostra-prisvinnende byutviklingsområde
+- Inkluderer Mathallen, Dansens Hus, Scandic Vulkan
+
+**Data Files Created:**
+- 28 JSON files (7 per property × 4 properties)
+- Conversion scripts: `convert-markveien-5min.js`, `convert-vulkan-5min.js`
+
+**URLs:**
+- `/roger-vodal/eiendommer/markveien-38`
+- `/roger-vodal/eiendommer/markveien-42`
+- `/roger-vodal/eiendommer/markveien-58`
+- `/aspelin-ramm/eiendommer/vulkan-omradet`
 
 ---
 
 ### 📊 Roger-Vodal 5-Minute Analysis (December 10, 2025)
 **Status:** ✅ **100% COMPLETE**
 
-Successfully implemented comprehensive 6-section 5-minute analysis for all 4 Roger-Vodal properties.
+Successfully implemented comprehensive 6-section 5-minute analysis for all 7 Roger-Vodal properties.
 
 **Implementation Summary:**
-- **4 Properties:** Olaf Ryes Plass 3, Thorvald Meyersgate 33, 40, and 44
+- **7 Properties:** Olaf Ryes Plass 3, Thorvald Meyersgate 33, 40, 44, Markveien 38, 42, 58
 - **6 Analysis Sections:** Demografi, Konkurransebildet, Korthandel, Bevegelse, Besøkende, Internasjonalt
-- **698 Business Actors** tracked across all 4 properties
+- **1 260 Business Actors** tracked across all 7 properties
 - **Interactive Charts:** Recharts with expandable/collapsible sections
 - **Analysis Type:** 5 minutters gange (5-min walking distance)
 
@@ -301,33 +337,26 @@ Successfully implemented comprehensive 6-section 5-minute analysis for all 4 Rog
 | TMg33 | ✅ | ✅ 731 dager | 151 | ❌ | ❌ |
 | TMg40 | ✅ | ✅ 731 dager | 173 | ✅ | ✅ 20 land |
 | TMg44 | ✅ | ✅ 731 dager | 167 | ✅ | ✅ 20 land |
+| Mv38 | ✅ | ✅ 731 dager | 204 | ✅ 550 områder | ✅ 20 land |
+| Mv42 | ✅ | ✅ 731 dager | 207 | ✅ 500 områder | ✅ 20 land |
+| Mv58 | ✅ | ✅ 731 dager | 151 | ✅ 500 områder | ✅ 20 land |
 
 **Components Created/Updated:**
 1. ✅ `AnalysisSection.tsx` - Expandable section wrapper with numbered headers
 2. ✅ `ExpandableActorList.tsx` - Shows top 10 actors with "Vis alle" expand button
-3. ✅ `KorthandelChart.tsx` - Enhanced with 4 charts:
-   - Tidsserie (2023-2025)
-   - Kvartalsvis utvikling vs Oslo/Norge
-   - Indeksert vekst (indeks=100)
-   - Korthandel per ukedag (2023 vs 2024)
+3. ✅ `KorthandelChart.tsx` - Enhanced with 4 charts
 4. ✅ `OneMinAnalysisViewer.tsx` - 6-section layout with conditional rendering
-5. ✅ `one-min-loader.ts` - Updated for 7 JSON file types per property
+5. ✅ `one-min-loader.ts` - Updated for 10 properties with 5-min analysis
 
 **Data Files Created:**
-- 28 JSON files total (7 per property × 4 properties)
-- `demografi.json` - Aldersfordeling, inntekt, husholdninger
-- `konkurransebilde.json` - Konseptmiks, kjeder vs uavhengige
-- `korthandel.json` - Tidsserie, årlig vekst, per ukedag
-- `bevegelse.json` - Per time, per ukedag, bevegelsesmønster
-- `besokende.json` - Aldersfordeling, områder besøkende kommer fra
-- `internasjonalt.json` - Topp 20 land
-- `aktorer.json` - Full aktørliste med omsetning, vekst, markedsandel
+- 49 JSON files total (7 per property × 7 properties)
+- Conversion scripts for batch processing
 
 **Technical Achievements:**
-- ✅ CSV→JSON conversion script (`scripts/convert-all-1min-data.js`)
+- ✅ CSV→JSON conversion scripts
 - ✅ TypeScript types for all 6 sections + actors
 - ✅ Static imports for Vercel compatibility
-- ✅ Conditional rendering for missing data (besøkende/internasjonalt)
+- ✅ Conditional rendering for missing data
 - ✅ Norwegian locale formatting throughout
 
 **URLs:**
@@ -335,6 +364,9 @@ Successfully implemented comprehensive 6-section 5-minute analysis for all 4 Rog
 - `/roger-vodal/eiendommer/thorvald-meyersgate-33`
 - `/roger-vodal/eiendommer/thorvald-meyersgate-40`
 - `/roger-vodal/eiendommer/thorvald-meyersgate-44`
+- `/roger-vodal/eiendommer/markveien-38`
+- `/roger-vodal/eiendommer/markveien-42`
+- `/roger-vodal/eiendommer/markveien-58`
 
 ---
 
