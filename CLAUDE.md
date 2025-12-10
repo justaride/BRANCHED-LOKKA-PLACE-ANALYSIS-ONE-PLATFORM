@@ -155,6 +155,32 @@ Per-tenant cookies with 7-day expiry:
 - Pattern: `auth-{tenant-slug}`
 - Test password: `test123` (all tenants)
 
+### 6. JSON Field Names with Special Characters
+TypeScript interfaces must match JSON field names EXACTLY, including punctuation:
+```typescript
+// JSON has: "No.": 136
+// WRONG - silently fails (undefined)
+interface Data { No: number; }
+item.No // undefined!
+
+// CORRECT
+interface Data { 'No.': number; }
+item['No.'] // 136 ✓
+```
+
+### 7. Copy-Paste Data Verification
+When creating new pages by copying existing ones, ALWAYS verify hardcoded data:
+- Check JSON source files for correct values
+- Compare highlights (visits, businesses, revenue)
+- Verify percentages match calculated totals
+- Example: Nedre TMG had Øvre's data (13,614 → 21,143 visits)
+
+### 8. Chart Components vs Static HTML
+Two rendering approaches exist in analyser pages:
+- **Chart components** (2024-arsrapport): Use `basePath` prop, fetch JSON dynamically
+- **Static HTML** (mikro-områder): Hardcoded divs/tables, no interactivity
+If user expects charts but sees text, check which approach the page uses.
+
 ---
 
 ## Build & Deploy
