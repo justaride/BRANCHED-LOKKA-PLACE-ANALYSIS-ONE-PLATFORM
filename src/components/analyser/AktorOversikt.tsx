@@ -41,10 +41,10 @@ export default function AktorOversikt({ actors, categoryStats, metadata }: Aktor
 
   const itemsPerPage = 20;
 
-  // Filter actors by category
+  // Filter actors by category (match main category, not subcategory)
   const filteredActors = selectedCategory === 'all'
     ? actors
-    : actors.filter(a => a.type === selectedCategory);
+    : actors.filter(a => a.type.startsWith(selectedCategory));
 
   // Sort actors
   const sortedActors = [...filteredActors].sort((a, b) => {
