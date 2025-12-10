@@ -194,6 +194,20 @@ When adding new properties with 1-min/5-min analysis data:
 },
 ```
 
+### 10. JSON Data Structure Completeness
+1-min/5-min analysis JSON files must have **ALL required sections** matching TypeScript interfaces:
+- `demografi.json`: Must have `nøkkeltall`, `aldersfordeling`, `inntektsfordeling`, `husholdninger`, `medianInntektPerHusholdningstype`, `demografiOverTid`
+- `korthandel.json`: Must have `nøkkeltall` (dagligKorthandel, totalKorthandel, etc.), `tidsserie`, `årligVekst`, `korthandelPerUkedag`
+- `konkurransebilde.json`: Must have `nøkkeltall`, `konseptmiks`, `kjederVsUavhengige`
+- `bevegelse.json`: Must have `nøkkeltall`, `perTime`, `perUkedag`, `bevegelsesmønster`
+
+**Field name conventions (Norwegian):**
+- Use `kategori` NOT `category`
+- Use `antall` NOT `value`
+- Use `år` NOT `year`
+
+**⚠️ PENDING AUDIT:** All existing properties with 1-min/5-min data should be audited for completeness.
+
 ---
 
 ## Build & Deploy

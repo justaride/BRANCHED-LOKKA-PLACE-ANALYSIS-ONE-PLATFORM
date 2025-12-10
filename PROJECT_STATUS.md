@@ -1,12 +1,13 @@
 # Løkka Gardeierforening Platform - Project Status
 
-**Last Updated:** December 10, 2025 - Analyser Bug Fixes + Chart Enhancements
+**Last Updated:** December 10, 2025 - Carucel Chart Fixes + JSON Audit
 **Current Status:** 🚀 **PRODUCTION READY** (99% Complete)
 **Deployment:** ✅ Live on Vercel
 **URL:** https://lokka-gardeierforening-platform.vercel.app
 **Build Status:** ✅ 114 static pages (+3 new Kultur subsections), ESLint 64 issues
 **Test Status:** ✅ Jest configured with 70% coverage threshold
 **Latest Updates:**
+- **December 10: Carucel JSON Data Fixes** - Fixed multiple issues preventing charts from rendering: (1) Registered property in one-min-loader.ts STATIC_DATA, (2) Fixed JSON field names (category→kategori, value→antall, year→år), (3) Added missing nøkkeltall sections to korthandel.json. **⚠️ PENDING:** Full audit of all properties with 1-min/5-min analysis for similar issues.
 - **December 10: Chart Bug Fixes + Interactive Konseptmiks** - Fixed KonkurransebildeCharts JSON field mismatch (`No` → `No.`), corrected Nedre TMG hardcoded data (21,143 visits, 40 businesses, NOK 260M), added new MikroOmradeCharts component with pie/bar/detailed views, integrated interactive charts into Øvre and Nedre TMG pages
 - **December 10: Kultur Phase 3 - Film, Teater, Billedkunst** - 3 new comprehensive subsections with 10 films, 6 filmmakers, 3 kinoer, 9 teaterscener, 4 street artists, 7 fotografer, 11+ billedkunstnere
 - **December 10: Film subsection** - Gategutter (1949) til Den største forbrytelsen (2020), Parkteatret→Regina→Ringen kino, regissører Skouen/Sletaune/Poppe
