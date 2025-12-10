@@ -1,12 +1,13 @@
 # Løkka Gardeierforening Platform - Project Status
 
-**Last Updated:** December 9, 2025 - Property Profile Migration Complete
+**Last Updated:** December 10, 2025 - Roger-Vodal 1-min Analysis Complete
 **Current Status:** 🚀 **PRODUCTION READY** (99% Complete)
 **Deployment:** ✅ Live on Vercel
 **URL:** https://lokka-gardeierforening-platform.vercel.app
 **Build Status:** ✅ 111 static pages, ESLint 64 issues (down from 118)
 **Test Status:** ✅ Jest configured with 70% coverage threshold
 **Latest Updates:**
+- **December 10: Roger-Vodal 5-min Analysis** - Complete 6-section analysis for 4 properties with interactive charts
 - **December 9: Profile Migration Complete** - 13 property files updated, legacy data migrated, research doc created
 - **December 9: Silent Failure Detection** - Null handling, verification scripts, Jest tests
 - **December 9: Code Quality Overhaul** - ESLint reduced 46%, security patched
@@ -278,6 +279,62 @@ Successfully implemented a comprehensive digital library showcasing Grünerløkk
 - ✅ Timeline visualizations for history and culture
 
 **URL:** `/main-board/biblioteket`
+
+---
+
+### 📊 Roger-Vodal 5-Minute Analysis (December 10, 2025)
+**Status:** ✅ **100% COMPLETE**
+
+Successfully implemented comprehensive 6-section 5-minute analysis for all 4 Roger-Vodal properties.
+
+**Implementation Summary:**
+- **4 Properties:** Olaf Ryes Plass 3, Thorvald Meyersgate 33, 40, and 44
+- **6 Analysis Sections:** Demografi, Konkurransebildet, Korthandel, Bevegelse, Besøkende, Internasjonalt
+- **698 Business Actors** tracked across all 4 properties
+- **Interactive Charts:** Recharts with expandable/collapsible sections
+- **Analysis Type:** 5 minutters gange (5-min walking distance)
+
+**Data Per Property:**
+| Property | Demografi | Korthandel | Aktører | Besøkende | Internasjonalt |
+|----------|-----------|------------|---------|-----------|----------------|
+| ORP3 | ✅ 12 aldersgrupper | ✅ 731 dager | 207 | ✅ 550 områder | ✅ 20 land |
+| TMg33 | ✅ | ✅ 731 dager | 151 | ❌ | ❌ |
+| TMg40 | ✅ | ✅ 731 dager | 173 | ✅ | ✅ 20 land |
+| TMg44 | ✅ | ✅ 731 dager | 167 | ✅ | ✅ 20 land |
+
+**Components Created/Updated:**
+1. ✅ `AnalysisSection.tsx` - Expandable section wrapper with numbered headers
+2. ✅ `ExpandableActorList.tsx` - Shows top 10 actors with "Vis alle" expand button
+3. ✅ `KorthandelChart.tsx` - Enhanced with 4 charts:
+   - Tidsserie (2023-2025)
+   - Kvartalsvis utvikling vs Oslo/Norge
+   - Indeksert vekst (indeks=100)
+   - Korthandel per ukedag (2023 vs 2024)
+4. ✅ `OneMinAnalysisViewer.tsx` - 6-section layout with conditional rendering
+5. ✅ `one-min-loader.ts` - Updated for 7 JSON file types per property
+
+**Data Files Created:**
+- 28 JSON files total (7 per property × 4 properties)
+- `demografi.json` - Aldersfordeling, inntekt, husholdninger
+- `konkurransebilde.json` - Konseptmiks, kjeder vs uavhengige
+- `korthandel.json` - Tidsserie, årlig vekst, per ukedag
+- `bevegelse.json` - Per time, per ukedag, bevegelsesmønster
+- `besokende.json` - Aldersfordeling, områder besøkende kommer fra
+- `internasjonalt.json` - Topp 20 land
+- `aktorer.json` - Full aktørliste med omsetning, vekst, markedsandel
+
+**Technical Achievements:**
+- ✅ CSV→JSON conversion script (`scripts/convert-all-1min-data.js`)
+- ✅ TypeScript types for all 6 sections + actors
+- ✅ Static imports for Vercel compatibility
+- ✅ Conditional rendering for missing data (besøkende/internasjonalt)
+- ✅ Norwegian locale formatting throughout
+
+**URLs:**
+- `/roger-vodal/eiendommer/olaf-ryes-plass-3`
+- `/roger-vodal/eiendommer/thorvald-meyersgate-33`
+- `/roger-vodal/eiendommer/thorvald-meyersgate-40`
+- `/roger-vodal/eiendommer/thorvald-meyersgate-44`
 
 ---
 
@@ -644,8 +701,9 @@ Authentication:
 - **Status:** ✅ Complete with hero image
 
 #### ✅ Roger Vodal (`/roger-vodal`)
-- **Properties:** 3 on Brenneriveien
-- **Status:** ✅ Complete with hero image
+- **Properties:** 4 on Grünerløkka (ORP3, TMg33, TMg40, TMg44)
+- **Status:** ✅ Complete with hero image + 5-min analysis
+- **Special:** Full 6-section 5-minute analysis with 698 business actors tracked
 
 #### ✅ Eiendomsspar (`/eiendomsspar`)
 - **Properties:** 2 on Thorvald Meyers gate
@@ -662,7 +720,7 @@ Authentication:
 - **Status:** ✅ Complete with hero image
 - **Focus:** Student accommodation
 
-**Total Properties Across Platform:** 43
+**Total Properties Across Platform:** 44
 
 ---
 
@@ -1147,9 +1205,9 @@ The Løkka Gardeierforening Platform is **production-ready** and looking profess
 
 ---
 
-*Last Updated: December 9, 2025 by Claude Code*
+*Last Updated: December 10, 2025 by Claude Code*
 *Status: 🚀 PRODUCTION LIVE & EXCELLENT*
 *ESLint: 64 issues (46% reduction from 118)*
 *Tests: 27 unit tests with 70% coverage threshold*
 *Silent Failure Detection: ✅ Enabled*
-*Property Profiles: 58% complete (26/44), action plan in progress*
+*5-min Analysis: Roger-Vodal (4 properties) complete | 1-min: Mathallen + Carucel*

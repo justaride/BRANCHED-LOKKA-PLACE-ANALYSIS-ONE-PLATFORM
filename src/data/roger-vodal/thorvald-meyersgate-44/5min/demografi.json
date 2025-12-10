@@ -1,0 +1,241 @@
+{
+  "nøkkeltall": {
+    "befolkning": 8200,
+    "befolkningstetthet": 17901,
+    "områdestørrelse": 0.46,
+    "vekst": 1.19
+  },
+  "aldersfordeling": {
+    "mann": [
+      {
+        "kategori": "0-5",
+        "antall": 216
+      },
+      {
+        "kategori": "6-12",
+        "antall": 174
+      },
+      {
+        "kategori": "13-15",
+        "antall": 71
+      },
+      {
+        "kategori": "16-18",
+        "antall": 72
+      },
+      {
+        "kategori": "19-23",
+        "antall": 346
+      },
+      {
+        "kategori": "23-34",
+        "antall": 1649
+      },
+      {
+        "kategori": "35-44",
+        "antall": 803
+      },
+      {
+        "kategori": "45-54",
+        "antall": 521
+      },
+      {
+        "kategori": "55-64",
+        "antall": 329
+      },
+      {
+        "kategori": "65-74",
+        "antall": 156
+      },
+      {
+        "kategori": "75-84",
+        "antall": 90
+      },
+      {
+        "kategori": "85+",
+        "antall": 17
+      }
+    ],
+    "kvinne": [
+      {
+        "kategori": "0-5",
+        "antall": 197
+      },
+      {
+        "kategori": "6-12",
+        "antall": 167
+      },
+      {
+        "kategori": "13-15",
+        "antall": 78
+      },
+      {
+        "kategori": "16-18",
+        "antall": 87
+      },
+      {
+        "kategori": "19-23",
+        "antall": 416
+      },
+      {
+        "kategori": "23-34",
+        "antall": 1737
+      },
+      {
+        "kategori": "35-44",
+        "antall": 645
+      },
+      {
+        "kategori": "45-54",
+        "antall": 445
+      },
+      {
+        "kategori": "55-64",
+        "antall": 277
+      },
+      {
+        "kategori": "65-74",
+        "antall": 169
+      },
+      {
+        "kategori": "75-84",
+        "antall": 90
+      },
+      {
+        "kategori": "85+",
+        "antall": 32
+      }
+    ]
+  },
+  "inntektsfordeling": [
+    {
+      "kategori": "0 NOK",
+      "antall": 1017
+    },
+    {
+      "kategori": "0 NOK - NOK 100k",
+      "antall": 1113
+    },
+    {
+      "kategori": "NOK 100k - NOK 200k",
+      "antall": 889
+    },
+    {
+      "kategori": "NOK 200k - NOK 300k",
+      "antall": 844
+    },
+    {
+      "kategori": "NOK 300k - NOK 400k",
+      "antall": 904
+    },
+    {
+      "kategori": "NOK 400k - NOK 500k",
+      "antall": 905
+    },
+    {
+      "kategori": "NOK 500k - NOK 600k",
+      "antall": 737
+    },
+    {
+      "kategori": "NOK 600k - NOK 700k",
+      "antall": 452
+    },
+    {
+      "kategori": "NOK 700k - NOK 800k",
+      "antall": 295
+    },
+    {
+      "kategori": "NOK 800k - NOK 1 mill.",
+      "antall": 573
+    },
+    {
+      "kategori": "NOK 1 mill. - NOK 1,5 mill.",
+      "antall": 75
+    },
+    {
+      "kategori": "NOK 1,5 mill.+",
+      "antall": 52
+    }
+  ],
+  "husholdninger": [
+    {
+      "type": "Par uten hjemmeboende barn",
+      "antall": 1100
+    },
+    {
+      "type": "Par med barn",
+      "antall": 445
+    },
+    {
+      "type": "Aleneboende",
+      "antall": 2934
+    },
+    {
+      "type": "Enslig forelder med barn",
+      "antall": 226
+    },
+    {
+      "type": "Andre husholdninger",
+      "antall": 70
+    }
+  ],
+  "medianInntektPerHusholdningstype": [
+    {
+      "type": "Alle husholdninger",
+      "median": 483014
+    },
+    {
+      "type": "Par uten hjemmeboende barn",
+      "median": 827020
+    },
+    {
+      "type": "Par med barn",
+      "median": 1015367
+    },
+    {
+      "type": "Aleneboende",
+      "median": 384665
+    },
+    {
+      "type": "Enslig forelder med barn",
+      "median": 460918
+    }
+  ],
+  "demografiOverTid": [
+    {
+      "år": "2017",
+      "befolkning": 8303,
+      "trend": 9964
+    },
+    {
+      "år": "2018",
+      "befolkning": 8362,
+      "trend": 10034
+    },
+    {
+      "år": "2019",
+      "befolkning": 8481,
+      "trend": 10177
+    },
+    {
+      "år": "2020",
+      "befolkning": 8462,
+      "trend": 10154
+    },
+    {
+      "år": "2021",
+      "befolkning": 8624,
+      "trend": 10349
+    },
+    {
+      "år": "2022",
+      "befolkning": 8688,
+      "trend": 10426
+    },
+    {
+      "år": "2023",
+      "befolkning": 8791,
+      "trend": 10549
+    }
+  ]
+}

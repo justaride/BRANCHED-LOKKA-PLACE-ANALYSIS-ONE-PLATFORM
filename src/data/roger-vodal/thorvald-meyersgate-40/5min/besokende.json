@@ -1,0 +1,2601 @@
+{
+  "periode": "31.12.2023 - 30.12.2024",
+  "aldersfordeling": {
+    "mann": [
+      {
+        "kategori": "0-5",
+        "antall": 2237
+      },
+      {
+        "kategori": "6-12",
+        "antall": 2400
+      },
+      {
+        "kategori": "13-15",
+        "antall": 1031
+      },
+      {
+        "kategori": "16-18",
+        "antall": 1015
+      },
+      {
+        "kategori": "19-23",
+        "antall": 2300
+      },
+      {
+        "kategori": "23-34",
+        "antall": 9981
+      },
+      {
+        "kategori": "35-44",
+        "antall": 6563
+      },
+      {
+        "kategori": "45-54",
+        "antall": 4992
+      },
+      {
+        "kategori": "55-64",
+        "antall": 3845
+      },
+      {
+        "kategori": "65-74",
+        "antall": 2413
+      },
+      {
+        "kategori": "75-84",
+        "antall": 1459
+      },
+      {
+        "kategori": "85+",
+        "antall": 361
+      }
+    ],
+    "kvinne": [
+      {
+        "kategori": "0-5",
+        "antall": 2164
+      },
+      {
+        "kategori": "6-12",
+        "antall": 2272
+      },
+      {
+        "kategori": "13-15",
+        "antall": 998
+      },
+      {
+        "kategori": "16-18",
+        "antall": 989
+      },
+      {
+        "kategori": "19-23",
+        "antall": 2698
+      },
+      {
+        "kategori": "23-34",
+        "antall": 10020
+      },
+      {
+        "kategori": "35-44",
+        "antall": 5598
+      },
+      {
+        "kategori": "45-54",
+        "antall": 4378
+      },
+      {
+        "kategori": "55-64",
+        "antall": 3508
+      },
+      {
+        "kategori": "65-74",
+        "antall": 2541
+      },
+      {
+        "kategori": "75-84",
+        "antall": 1678
+      },
+      {
+        "kategori": "85+",
+        "antall": 667
+      }
+    ]
+  },
+  "husholdningstyper": [
+    {
+      "type": "Par uten hjemmeboende barn",
+      "antall": 8632
+    },
+    {
+      "type": "Par med barn",
+      "antall": 5849
+    },
+    {
+      "type": "Aleneboende",
+      "antall": 20612
+    },
+    {
+      "type": "Enslig forelder med barn",
+      "antall": 2766
+    },
+    {
+      "type": "Andre husholdninger",
+      "antall": 741
+    }
+  ],
+  "inntektsfordeling": [
+    {
+      "kategori": "0 NOK",
+      "antall": 8780
+    },
+    {
+      "kategori": "0 NOK - NOK 100k",
+      "antall": 8829
+    },
+    {
+      "kategori": "NOK 100k - NOK 200k",
+      "antall": 7722
+    },
+    {
+      "kategori": "NOK 200k - NOK 300k",
+      "antall": 8666
+    },
+    {
+      "kategori": "NOK 300k - NOK 400k",
+      "antall": 9821
+    },
+    {
+      "kategori": "NOK 400k - NOK 500k",
+      "antall": 9175
+    },
+    {
+      "kategori": "NOK 500k - NOK 600k",
+      "antall": 6697
+    },
+    {
+      "kategori": "NOK 600k - NOK 700k",
+      "antall": 4468
+    },
+    {
+      "kategori": "NOK 700k - NOK 800k",
+      "antall": 3033
+    },
+    {
+      "kategori": "NOK 800k - NOK 1 mill.",
+      "antall": 6758
+    },
+    {
+      "kategori": "NOK 1 mill. - NOK 1,5 mill.",
+      "antall": 998
+    },
+    {
+      "kategori": "NOK 1,5 mill.+",
+      "antall": 1158
+    }
+  ],
+  "medianInntektPerHusholdningstype": [
+    {
+      "type": "Alle husholdninger",
+      "median": 569345
+    },
+    {
+      "type": "Par uten hjemmeboende barn",
+      "median": 818719
+    },
+    {
+      "type": "Par med barn",
+      "median": 1049989
+    },
+    {
+      "type": "Aleneboende",
+      "median": 373901
+    },
+    {
+      "type": "Enslig forelder med barn",
+      "median": 499022
+    }
+  ],
+  "områderBesøkendeKommerFra": [
+    {
+      "område": "Grünerløkka",
+      "prosent": 21.89
+    },
+    {
+      "område": "Rodeløkka",
+      "prosent": 9.38
+    },
+    {
+      "område": "Gamle Aker",
+      "prosent": 5.76
+    },
+    {
+      "område": "Sentrum 2",
+      "prosent": 4.26
+    },
+    {
+      "område": "Torshov",
+      "prosent": 3.91
+    },
+    {
+      "område": "Tøyen",
+      "prosent": 2.89
+    },
+    {
+      "område": "Grønland",
+      "prosent": 1.76
+    },
+    {
+      "område": "Ila",
+      "prosent": 1.7
+    },
+    {
+      "område": "Hasle",
+      "prosent": 1.53
+    },
+    {
+      "område": "Grefsenlia",
+      "prosent": 1.38
+    },
+    {
+      "område": "Bjerke",
+      "prosent": 1.28
+    },
+    {
+      "område": "Ulven",
+      "prosent": 1.24
+    },
+    {
+      "område": "St.hanshaugen",
+      "prosent": 1.24
+    },
+    {
+      "område": "Sinsen",
+      "prosent": 1.19
+    },
+    {
+      "område": "Åsen",
+      "prosent": 1.08
+    },
+    {
+      "område": "Manglerud",
+      "prosent": 0.95
+    },
+    {
+      "område": "Tåsen",
+      "prosent": 0.91
+    },
+    {
+      "område": "Kampen",
+      "prosent": 0.81
+    },
+    {
+      "område": "Fossum",
+      "prosent": 0.77
+    },
+    {
+      "område": "Bjølsen",
+      "prosent": 0.77
+    },
+    {
+      "område": "Grorud",
+      "prosent": 0.73
+    },
+    {
+      "område": "Østensjø",
+      "prosent": 0.73
+    },
+    {
+      "område": "Majorstuen",
+      "prosent": 0.73
+    },
+    {
+      "område": "Homansbyen",
+      "prosent": 0.65
+    },
+    {
+      "område": "Frogner",
+      "prosent": 0.62
+    },
+    {
+      "område": "Ulsholt",
+      "prosent": 0.59
+    },
+    {
+      "område": "Rudene",
+      "prosent": 0.59
+    },
+    {
+      "område": "Bekkelaget",
+      "prosent": 0.56
+    },
+    {
+      "område": "Langerud",
+      "prosent": 0.56
+    },
+    {
+      "område": "Ris",
+      "prosent": 0.54
+    },
+    {
+      "område": "Lindern",
+      "prosent": 0.53
+    },
+    {
+      "område": "Ljansbyen",
+      "prosent": 0.51
+    },
+    {
+      "område": "Sagene",
+      "prosent": 0.51
+    },
+    {
+      "område": "Alfaset",
+      "prosent": 0.51
+    },
+    {
+      "område": "Gamlebyen",
+      "prosent": 0.5
+    },
+    {
+      "område": "Sentrum 3",
+      "prosent": 0.49
+    },
+    {
+      "område": "Sandaker",
+      "prosent": 0.48
+    },
+    {
+      "område": "Uranienborg",
+      "prosent": 0.42
+    },
+    {
+      "område": "Vålerenga",
+      "prosent": 0.41
+    },
+    {
+      "område": "Fagerborg",
+      "prosent": 0.35
+    },
+    {
+      "område": "Røabyen",
+      "prosent": 0.33
+    },
+    {
+      "område": "Grefsenmarka",
+      "prosent": 0.31
+    },
+    {
+      "område": "Holmen",
+      "prosent": 0.3
+    },
+    {
+      "område": "Østmarka",
+      "prosent": 0.29
+    },
+    {
+      "område": "Nordstrand",
+      "prosent": 0.29
+    },
+    {
+      "område": "Sentrum 1",
+      "prosent": 0.28
+    },
+    {
+      "område": "Loenga",
+      "prosent": 0.28
+    },
+    {
+      "område": "Borgen",
+      "prosent": 0.28
+    },
+    {
+      "område": "Nordmarka",
+      "prosent": 0.26
+    },
+    {
+      "område": "Skillebekk",
+      "prosent": 0.25
+    },
+    {
+      "område": "Ullern",
+      "prosent": 0.23
+    },
+    {
+      "område": "Huseby",
+      "prosent": 0.2
+    },
+    {
+      "område": "Skårer",
+      "prosent": 0.19
+    },
+    {
+      "område": "Skøyen",
+      "prosent": 0.18
+    },
+    {
+      "område": "Snarøya",
+      "prosent": 0.17
+    },
+    {
+      "område": "Kjenn - Fjellhamar",
+      "prosent": 0.17
+    },
+    {
+      "område": "Marienlyst",
+      "prosent": 0.16
+    },
+    {
+      "område": "Berger",
+      "prosent": 0.16
+    },
+    {
+      "område": "Slattum",
+      "prosent": 0.15
+    },
+    {
+      "område": "Bygdøy",
+      "prosent": 0.15
+    },
+    {
+      "område": "Kolbotn",
+      "prosent": 0.14
+    },
+    {
+      "område": "Holmenkollen",
+      "prosent": 0.14
+    },
+    {
+      "område": "Jar",
+      "prosent": 0.14
+    },
+    {
+      "område": "Langhus",
+      "prosent": 0.12
+    },
+    {
+      "område": "Voll",
+      "prosent": 0.12
+    },
+    {
+      "område": "Stabekk",
+      "prosent": 0.12
+    },
+    {
+      "område": "Lilleaker",
+      "prosent": 0.12
+    },
+    {
+      "område": "Haneborglia",
+      "prosent": 0.12
+    },
+    {
+      "område": "Lysaker",
+      "prosent": 0.12
+    },
+    {
+      "område": "Greverud",
+      "prosent": 0.12
+    },
+    {
+      "område": "Stalsberg",
+      "prosent": 0.12
+    },
+    {
+      "område": "Ås",
+      "prosent": 0.12
+    },
+    {
+      "område": "Jessheim",
+      "prosent": 0.12
+    },
+    {
+      "område": "Kjeller",
+      "prosent": 0.12
+    },
+    {
+      "område": "Lysås - Løken",
+      "prosent": 0.11
+    },
+    {
+      "område": "Grav",
+      "prosent": 0.12
+    },
+    {
+      "område": "Filipstad",
+      "prosent": 0.11
+    },
+    {
+      "område": "Tangen",
+      "prosent": 0.12
+    },
+    {
+      "område": "Nordby",
+      "prosent": 0.11
+    },
+    {
+      "område": "Løkeberg - Blommenholm",
+      "prosent": 0.11
+    },
+    {
+      "område": "Retten",
+      "prosent": 0.1
+    },
+    {
+      "område": "Hovinhøgda",
+      "prosent": 0.1
+    },
+    {
+      "område": "Østre Bærumsmarka",
+      "prosent": 0.09
+    },
+    {
+      "område": "Finstad - Losby",
+      "prosent": 0.09
+    },
+    {
+      "område": "Kløfta",
+      "prosent": 0.1
+    },
+    {
+      "område": "Rotnes",
+      "prosent": 0.1
+    },
+    {
+      "område": "Slependen - Tanum",
+      "prosent": 0.1
+    },
+    {
+      "område": "Stortorget",
+      "prosent": 0.1
+    },
+    {
+      "område": "Bjørnholt - Kurland",
+      "prosent": 0.09
+    },
+    {
+      "område": "Tårnåsen",
+      "prosent": 0.1
+    },
+    {
+      "område": "Haslum",
+      "prosent": 0.1
+    },
+    {
+      "område": "Høvik",
+      "prosent": 0.09
+    },
+    {
+      "område": "Rykkinn",
+      "prosent": 0.1
+    },
+    {
+      "område": "Frogner",
+      "prosent": 0.09
+    },
+    {
+      "område": "Gjerdrum",
+      "prosent": 0.09
+    },
+    {
+      "område": "Vigernes",
+      "prosent": 0.09
+    },
+    {
+      "område": "Såner",
+      "prosent": 0.09
+    },
+    {
+      "område": "Skedsmokorset",
+      "prosent": 0.09
+    },
+    {
+      "område": "Sandvika - Valler",
+      "prosent": 0.09
+    },
+    {
+      "område": "Ski Øst",
+      "prosent": 0.09
+    },
+    {
+      "område": "Østbygda Slemmestad",
+      "prosent": 0.09
+    },
+    {
+      "område": "Hosle Sør",
+      "prosent": 0.09
+    },
+    {
+      "område": "Gjelleråsen",
+      "prosent": 0.08
+    },
+    {
+      "område": "Gjelleråsen",
+      "prosent": 0.08
+    },
+    {
+      "område": "Vestby",
+      "prosent": 0.09
+    },
+    {
+      "område": "Rud",
+      "prosent": 0.08
+    },
+    {
+      "område": "Sofiemyr",
+      "prosent": 0.09
+    },
+    {
+      "område": "Vettre",
+      "prosent": 0.08
+    },
+    {
+      "område": "Søndre Hakadal",
+      "prosent": 0.08
+    },
+    {
+      "område": "Ytre Enebakk",
+      "prosent": 0.09
+    },
+    {
+      "område": "Kolsås",
+      "prosent": 0.08
+    },
+    {
+      "område": "Bærums Verk",
+      "prosent": 0.09
+    },
+    {
+      "område": "Jong",
+      "prosent": 0.08
+    },
+    {
+      "område": "Sørkedalen",
+      "prosent": 0.07
+    },
+    {
+      "område": "Østerås - Eiksmarka",
+      "prosent": 0.08
+    },
+    {
+      "område": "Dønski - Rud",
+      "prosent": 0.08
+    },
+    {
+      "område": "Frogn Syd",
+      "prosent": 0.08
+    },
+    {
+      "område": "Skjetten",
+      "prosent": 0.08
+    },
+    {
+      "område": "Åsenhagen",
+      "prosent": 0.08
+    },
+    {
+      "område": "Finstad",
+      "prosent": 0.08
+    },
+    {
+      "område": "Nesøya",
+      "prosent": 0.09
+    },
+    {
+      "område": "Nesbru",
+      "prosent": 0.08
+    },
+    {
+      "område": "Hvam",
+      "prosent": 0.08
+    },
+    {
+      "område": "Lommedalen",
+      "prosent": 0.08
+    },
+    {
+      "område": "Nordby",
+      "prosent": 0.08
+    },
+    {
+      "område": "Fusdal",
+      "prosent": 0.08
+    },
+    {
+      "område": "Udnes",
+      "prosent": 0.08
+    },
+    {
+      "område": "Norderhov",
+      "prosent": 0.07
+    },
+    {
+      "område": "Siggerud",
+      "prosent": 0.07
+    },
+    {
+      "område": "Frogn Nord",
+      "prosent": 0.07
+    },
+    {
+      "område": "Volla",
+      "prosent": 0.07
+    },
+    {
+      "område": "Vollen",
+      "prosent": 0.07
+    },
+    {
+      "område": "Kirkerud - Sollihøgda",
+      "prosent": 0.07
+    },
+    {
+      "område": "Billingstad",
+      "prosent": 0.08
+    },
+    {
+      "område": "Strømsø",
+      "prosent": 0.08
+    },
+    {
+      "område": "Algarheim",
+      "prosent": 0.07
+    },
+    {
+      "område": "Svartskog",
+      "prosent": 0.06
+    },
+    {
+      "område": "Sørum",
+      "prosent": 0.07
+    },
+    {
+      "område": "Heggedal",
+      "prosent": 0.08
+    },
+    {
+      "område": "Hosle Nord",
+      "prosent": 0.07
+    },
+    {
+      "område": "Danvik - Fjell",
+      "prosent": 0.08
+    },
+    {
+      "område": "Åssiden",
+      "prosent": 0.08
+    },
+    {
+      "område": "Sentrum",
+      "prosent": 0.07
+    },
+    {
+      "område": "Riddersand",
+      "prosent": 0.06
+    },
+    {
+      "område": "Drengsrud",
+      "prosent": 0.08
+    },
+    {
+      "område": "Borgen",
+      "prosent": 0.07
+    },
+    {
+      "område": "Blakstad",
+      "prosent": 0.07
+    },
+    {
+      "område": "Spydeberg",
+      "prosent": 0.07
+    },
+    {
+      "område": "Sørumsand",
+      "prosent": 0.07
+    },
+    {
+      "område": "Sentrum",
+      "prosent": 0.07
+    },
+    {
+      "område": "Fjerdingby",
+      "prosent": 0.06
+    },
+    {
+      "område": "Fjellstrand",
+      "prosent": 0.07
+    },
+    {
+      "område": "Konnerud",
+      "prosent": 0.07
+    },
+    {
+      "område": "Midtbygda",
+      "prosent": 0.07
+    },
+    {
+      "område": "Borgen",
+      "prosent": 0.06
+    },
+    {
+      "område": "Årnes",
+      "prosent": 0.07
+    },
+    {
+      "område": "Nannestad",
+      "prosent": 0.06
+    },
+    {
+      "område": "Bragernes Sentrum",
+      "prosent": 0.07
+    },
+    {
+      "område": "Øyene",
+      "prosent": 0.05
+    },
+    {
+      "område": "Råholt",
+      "prosent": 0.06
+    },
+    {
+      "område": "Harestua",
+      "prosent": 0.06
+    },
+    {
+      "område": "Hvalstad",
+      "prosent": 0.06
+    },
+    {
+      "område": "Holter",
+      "prosent": 0.07
+    },
+    {
+      "område": "Løvenstad",
+      "prosent": 0.05
+    },
+    {
+      "område": "Eidsvoll Verk",
+      "prosent": 0.06
+    },
+    {
+      "område": "Bjerke",
+      "prosent": 0.07
+    },
+    {
+      "område": "Dalen",
+      "prosent": 0.05
+    },
+    {
+      "område": "Bjørnemyr",
+      "prosent": 0.06
+    },
+    {
+      "område": "Blaker",
+      "prosent": 0.05
+    },
+    {
+      "område": "Hebekk",
+      "prosent": 0.06
+    },
+    {
+      "område": "Grua",
+      "prosent": 0.06
+    },
+    {
+      "område": "Hemsedal",
+      "prosent": 0.07
+    },
+    {
+      "område": "Tjøme",
+      "prosent": 0.05
+    },
+    {
+      "område": "Vormnes",
+      "prosent": 0.05
+    },
+    {
+      "område": "Aurskog",
+      "prosent": 0.06
+    },
+    {
+      "område": "Hegg",
+      "prosent": 0.06
+    },
+    {
+      "område": "Østsida",
+      "prosent": 0.06
+    },
+    {
+      "område": "Flateby",
+      "prosent": 0.06
+    },
+    {
+      "område": "Solberg",
+      "prosent": 0.06
+    },
+    {
+      "område": "Drøbak",
+      "prosent": 0.05
+    },
+    {
+      "område": "Vestre Hvaler",
+      "prosent": 0.06
+    },
+    {
+      "område": "Nordre Jeløy",
+      "prosent": 0.06
+    },
+    {
+      "område": "Nordre Ål",
+      "prosent": 0.06
+    },
+    {
+      "område": "Sand",
+      "prosent": 0.05
+    },
+    {
+      "område": "Jaer",
+      "prosent": 0.06
+    },
+    {
+      "område": "Nordøstre Hurum",
+      "prosent": 0.06
+    },
+    {
+      "område": "Tangen - Åskollen",
+      "prosent": 0.05
+    },
+    {
+      "område": "Leirsund",
+      "prosent": 0.05
+    },
+    {
+      "område": "Vikersund",
+      "prosent": 0.05
+    },
+    {
+      "område": "Lierskogen",
+      "prosent": 0.06
+    },
+    {
+      "område": "Våler",
+      "prosent": 0.06
+    },
+    {
+      "område": "Myklerud",
+      "prosent": 0.06
+    },
+    {
+      "område": "Ekholt",
+      "prosent": 0.06
+    },
+    {
+      "område": "Gulskogen - Sundhaugen",
+      "prosent": 0.05
+    },
+    {
+      "område": "Krokstadelva",
+      "prosent": 0.05
+    },
+    {
+      "område": "Rom",
+      "prosent": 0.04
+    },
+    {
+      "område": "Mjøndalen",
+      "prosent": 0.05
+    },
+    {
+      "område": "Syverstad",
+      "prosent": 0.06
+    },
+    {
+      "område": "Fjellheim",
+      "prosent": 0.05
+    },
+    {
+      "område": "Vang",
+      "prosent": 0.05
+    },
+    {
+      "område": "Øyer Sokn",
+      "prosent": 0.06
+    },
+    {
+      "område": "Bjørkelangen",
+      "prosent": 0.04
+    },
+    {
+      "område": "Kongsberg Nord - Østre",
+      "prosent": 0.05
+    },
+    {
+      "område": "Dal",
+      "prosent": 0.05
+    },
+    {
+      "område": "Presterød",
+      "prosent": 0.05
+    },
+    {
+      "område": "Vestbygda",
+      "prosent": 0.06
+    },
+    {
+      "område": "Gjedsjø - Kråkstad",
+      "prosent": 0.06
+    },
+    {
+      "område": "Sydøstre Hurum",
+      "prosent": 0.05
+    },
+    {
+      "område": "Lunner",
+      "prosent": 0.04
+    },
+    {
+      "område": "Skaugum",
+      "prosent": 0.04
+    },
+    {
+      "område": "Brandbu",
+      "prosent": 0.05
+    },
+    {
+      "område": "Ottestad",
+      "prosent": 0.05
+    },
+    {
+      "område": "Borgen",
+      "prosent": 0.05
+    },
+    {
+      "område": "Ytre Soknedal",
+      "prosent": 0.05
+    },
+    {
+      "område": "Sem",
+      "prosent": 0.04
+    },
+    {
+      "område": "Innbygda",
+      "prosent": 0.05
+    },
+    {
+      "område": "Høvik",
+      "prosent": 0.04
+    },
+    {
+      "område": "Vestbygda",
+      "prosent": 0.05
+    },
+    {
+      "område": "Bergen Sentrum",
+      "prosent": 0.04
+    },
+    {
+      "område": "Sydbygda",
+      "prosent": 0.03
+    },
+    {
+      "område": "Nes",
+      "prosent": 0.06
+    },
+    {
+      "område": "Ekeberg - Borgen",
+      "prosent": 0.05
+    },
+    {
+      "område": "Løken",
+      "prosent": 0.04
+    },
+    {
+      "område": "Østre Hvaler",
+      "prosent": 0.04
+    },
+    {
+      "område": "Lustrafjorden",
+      "prosent": 0.05
+    },
+    {
+      "område": "Melløs - Øre",
+      "prosent": 0.04
+    },
+    {
+      "område": "Nordre Rakkestad",
+      "prosent": 0.05
+    },
+    {
+      "område": "Trømborg",
+      "prosent": 0.01
+    },
+    {
+      "område": "Tomter",
+      "prosent": 0.04
+    },
+    {
+      "område": "Kongsvinger 2",
+      "prosent": 0.04
+    },
+    {
+      "område": "Ytrebygda",
+      "prosent": 0.05
+    },
+    {
+      "område": "Vestre Hol",
+      "prosent": 0.05
+    },
+    {
+      "område": "Sylling",
+      "prosent": 0.03
+    },
+    {
+      "område": "Jaren",
+      "prosent": 0.05
+    },
+    {
+      "område": "Gran",
+      "prosent": 0.03
+    },
+    {
+      "område": "Solbergelva",
+      "prosent": 0.05
+    },
+    {
+      "område": "Sentrum Syd",
+      "prosent": 0.04
+    },
+    {
+      "område": "V. Moland - Lillesand",
+      "prosent": 0.04
+    },
+    {
+      "område": "Raufoss Øst",
+      "prosent": 0.03
+    },
+    {
+      "område": "Søre Ål",
+      "prosent": 0.04
+    },
+    {
+      "område": "Åsgårdstrand",
+      "prosent": 0.04
+    },
+    {
+      "område": "Gressvik Nordre",
+      "prosent": 0.01
+    },
+    {
+      "område": "Sentrum",
+      "prosent": 0.03
+    },
+    {
+      "område": "Vestre Råde",
+      "prosent": 0.04
+    },
+    {
+      "område": "Ås",
+      "prosent": 0.03
+    },
+    {
+      "område": "Halden Øst",
+      "prosent": 0.04
+    },
+    {
+      "område": "Nordkisa",
+      "prosent": 0.03
+    },
+    {
+      "område": "Askimbyen",
+      "prosent": 0.03
+    },
+    {
+      "område": "Stein",
+      "prosent": 0.04
+    },
+    {
+      "område": "Midtbyen",
+      "prosent": 0.05
+    },
+    {
+      "område": "Glemmen Mellom",
+      "prosent": 0.04
+    },
+    {
+      "område": "Vesterøy",
+      "prosent": 0.04
+    },
+    {
+      "område": "Kongsvinger 1",
+      "prosent": 0.03
+    },
+    {
+      "område": "Stange",
+      "prosent": 0.04
+    },
+    {
+      "område": "Skoger",
+      "prosent": 0.04
+    },
+    {
+      "område": "Borge",
+      "prosent": 0.03
+    },
+    {
+      "område": "Hurdal",
+      "prosent": 0.04
+    },
+    {
+      "område": "Lund - Sødal",
+      "prosent": 0.04
+    },
+    {
+      "område": "Dypvåg",
+      "prosent": 0.03
+    },
+    {
+      "område": "Kongsberg Syd - Østre",
+      "prosent": 0.03
+    },
+    {
+      "område": "Greåker",
+      "prosent": 0.04
+    },
+    {
+      "område": "Fyresdal",
+      "prosent": 0.08
+    },
+    {
+      "område": "Hallingstad",
+      "prosent": 0.05
+    },
+    {
+      "område": "Tuft - Komnes - Efteløt",
+      "prosent": 0.02
+    },
+    {
+      "område": "Hamar Vest",
+      "prosent": 0.04
+    },
+    {
+      "område": "Ringshaug",
+      "prosent": 0.03
+    },
+    {
+      "område": "Sydvestre Jeløy",
+      "prosent": 0.03
+    },
+    {
+      "område": "Gullaug",
+      "prosent": 0.03
+    },
+    {
+      "område": "Vang",
+      "prosent": 0.03
+    },
+    {
+      "område": "Brunlanes Østre",
+      "prosent": 0.03
+    },
+    {
+      "område": "Østbygda Åros",
+      "prosent": 0.03
+    },
+    {
+      "område": "Sentrum",
+      "prosent": 0.03
+    },
+    {
+      "område": "Brunlanes Vestre",
+      "prosent": 0.03
+    },
+    {
+      "område": "Husvik",
+      "prosent": 0.04
+    },
+    {
+      "område": "Yven",
+      "prosent": 0.03
+    },
+    {
+      "område": "Kroer",
+      "prosent": 0.02
+    },
+    {
+      "område": "Sundvollen",
+      "prosent": 0.03
+    },
+    {
+      "område": "Fåvang",
+      "prosent": 0.04
+    },
+    {
+      "område": "Rollag",
+      "prosent": 0.04
+    },
+    {
+      "område": "Sem",
+      "prosent": 0.03
+    },
+    {
+      "område": "Mysen Vest",
+      "prosent": 0.02
+    },
+    {
+      "område": "Kaldnes - Tei",
+      "prosent": 0.06
+    },
+    {
+      "område": "Søm - Torsvikheia",
+      "prosent": 0.03
+    },
+    {
+      "område": "Sarpsborg Øst",
+      "prosent": 0.02
+    },
+    {
+      "område": "Vestre Hurum",
+      "prosent": 0.03
+    },
+    {
+      "område": "Østre Gausdal",
+      "prosent": 0.03
+    },
+    {
+      "område": "Vågåmo - Omegn",
+      "prosent": 0.03
+    },
+    {
+      "område": "Vinje",
+      "prosent": 0.03
+    },
+    {
+      "område": "Hystad",
+      "prosent": 0.02
+    },
+    {
+      "område": "Sundre",
+      "prosent": 0.03
+    },
+    {
+      "område": "Skiptvet",
+      "prosent": 0.02
+    },
+    {
+      "område": "Høvåg",
+      "prosent": 0.03
+    },
+    {
+      "område": "Borgheim",
+      "prosent": 0.02
+    },
+    {
+      "område": "Midtre Vågsbygd",
+      "prosent": 0.03
+    },
+    {
+      "område": "Sentrum Nord",
+      "prosent": 0.03
+    },
+    {
+      "område": "Nordre Kråkerøy",
+      "prosent": 0.03
+    },
+    {
+      "område": "Grimstad",
+      "prosent": 0.03
+    },
+    {
+      "område": "Haug",
+      "prosent": 0.03
+    },
+    {
+      "område": "Nordre Brandbu",
+      "prosent": 0.03
+    },
+    {
+      "område": "Fenstad",
+      "prosent": 0.03
+    },
+    {
+      "område": "Hjartdal",
+      "prosent": 0.03
+    },
+    {
+      "område": "Knapstad",
+      "prosent": 0.02
+    },
+    {
+      "område": "Hokksund Øst",
+      "prosent": 0.02
+    },
+    {
+      "område": "Hamar Øst",
+      "prosent": 0.02
+    },
+    {
+      "område": "Mosseelva - Dillingøya",
+      "prosent": 0.02
+    },
+    {
+      "område": "Søndeled Ytre",
+      "prosent": 0.02
+    },
+    {
+      "område": "Byåsen",
+      "prosent": 0.03
+    },
+    {
+      "område": "Midtre Bygdelag",
+      "prosent": 0.02
+    },
+    {
+      "område": "Lande",
+      "prosent": 0.02
+    },
+    {
+      "område": "Bø Sentrum",
+      "prosent": 0.02
+    },
+    {
+      "område": "Østre Halsen",
+      "prosent": 0.03
+    },
+    {
+      "område": "Hafslo",
+      "prosent": 0.03
+    },
+    {
+      "område": "Åmot",
+      "prosent": 0.02
+    },
+    {
+      "område": "Rauland",
+      "prosent": 0.02
+    },
+    {
+      "område": "Froland",
+      "prosent": 0.03
+    },
+    {
+      "område": "Ullerål",
+      "prosent": 0.03
+    },
+    {
+      "område": "Kvadraturen - Eg",
+      "prosent": 0.02
+    },
+    {
+      "område": "Gressvik Søndre",
+      "prosent": 0.02
+    },
+    {
+      "område": "Kongsberg Syd - Vestre",
+      "prosent": 0.02
+    },
+    {
+      "område": "Os",
+      "prosent": 0.02
+    },
+    {
+      "område": "Halmstad",
+      "prosent": 0.02
+    },
+    {
+      "område": "Skarnes",
+      "prosent": 0.02
+    },
+    {
+      "område": "Eik",
+      "prosent": 0.02
+    },
+    {
+      "område": "Aurdal",
+      "prosent": 0.02
+    },
+    {
+      "område": "Torød",
+      "prosent": 0.02
+    },
+    {
+      "område": "Østsiden Syd",
+      "prosent": 0.02
+    },
+    {
+      "område": "Sydøstre Jeløy",
+      "prosent": 0.02
+    },
+    {
+      "område": "Leiret Syd",
+      "prosent": 0.02
+    },
+    {
+      "område": "Breidablikk",
+      "prosent": 0.02
+    },
+    {
+      "område": "Røst",
+      "prosent": 0.14
+    },
+    {
+      "område": "Vestre Trøgstad",
+      "prosent": 0.02
+    },
+    {
+      "område": "Sandviken",
+      "prosent": 0.02
+    },
+    {
+      "område": "Kirkebygda",
+      "prosent": 0.02
+    },
+    {
+      "område": "Øren - Underlia",
+      "prosent": 0.02
+    },
+    {
+      "område": "Svelvik",
+      "prosent": 0.01
+    },
+    {
+      "område": "Atrå - Miland - Mæl",
+      "prosent": 0.02
+    },
+    {
+      "område": "Flatdal",
+      "prosent": 0.02
+    },
+    {
+      "område": "Heistad",
+      "prosent": 0.02
+    },
+    {
+      "område": "Øystre Slidre Nord",
+      "prosent": 0.02
+    },
+    {
+      "område": "Flå",
+      "prosent": 0.02
+    },
+    {
+      "område": "Bekkestranda",
+      "prosent": 0.02
+    },
+    {
+      "område": "Eggedal",
+      "prosent": 0.03
+    },
+    {
+      "område": "Mortensnes",
+      "prosent": 0.03
+    },
+    {
+      "område": "Austmarka",
+      "prosent": 0.01
+    },
+    {
+      "område": "Tokke",
+      "prosent": 0.02
+    },
+    {
+      "område": "Vågan Vestre",
+      "prosent": 0.03
+    },
+    {
+      "område": "Søndre Kråkerøy",
+      "prosent": 0.02
+    },
+    {
+      "område": "Vestre Kråkerøy",
+      "prosent": 0.02
+    },
+    {
+      "område": "Øymark",
+      "prosent": 0.02
+    },
+    {
+      "område": "Aurland",
+      "prosent": 0.02
+    },
+    {
+      "område": "Helle - Skåtøy",
+      "prosent": 0.03
+    },
+    {
+      "område": "Søgne Østre",
+      "prosent": 0.03
+    },
+    {
+      "område": "Stedje",
+      "prosent": 0.02
+    },
+    {
+      "område": "Rekustad",
+      "prosent": 0.02
+    },
+    {
+      "område": "Klokkeråsen",
+      "prosent": 0.02
+    },
+    {
+      "område": "Søndre - Østre Skjeberg",
+      "prosent": 0.02
+    },
+    {
+      "område": "Skreia",
+      "prosent": 0.01
+    },
+    {
+      "område": "Halden Syd",
+      "prosent": 0.02
+    },
+    {
+      "område": "Stadlandet",
+      "prosent": 0.04
+    },
+    {
+      "område": "Sande",
+      "prosent": 0.02
+    },
+    {
+      "område": "Østerøy",
+      "prosent": 0.02
+    },
+    {
+      "område": "Vigra",
+      "prosent": 0.03
+    },
+    {
+      "område": "Torpa",
+      "prosent": 0.01
+    },
+    {
+      "område": "Halden Vest",
+      "prosent": 0.02
+    },
+    {
+      "område": "Berg - Sponviken",
+      "prosent": 0.01
+    },
+    {
+      "område": "Hamar Nord",
+      "prosent": 0.02
+    },
+    {
+      "område": "Vik - Fevik",
+      "prosent": 0.02
+    },
+    {
+      "område": "Kambo",
+      "prosent": 0.02
+    },
+    {
+      "område": "Tyristrand",
+      "prosent": 0.02
+    },
+    {
+      "område": "Bergan",
+      "prosent": 0.02
+    },
+    {
+      "område": "Vest - Bamble",
+      "prosent": 0.02
+    },
+    {
+      "område": "Flekkerøy",
+      "prosent": 0.02
+    },
+    {
+      "område": "Hedenstad",
+      "prosent": 0.02
+    },
+    {
+      "område": "Nesttun",
+      "prosent": 0.02
+    },
+    {
+      "område": "Austsida - Oksenhalvøya",
+      "prosent": 0.01
+    },
+    {
+      "område": "Leikanger Nord",
+      "prosent": 0.02
+    },
+    {
+      "område": "Nordal",
+      "prosent": 0.02
+    },
+    {
+      "område": "Øvre - Midtre Krødsherad",
+      "prosent": 0.02
+    },
+    {
+      "område": "Holterengen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Rødenes",
+      "prosent": 0.01
+    },
+    {
+      "område": "Bagn - Reinli",
+      "prosent": 0.02
+    },
+    {
+      "område": "Valderøy",
+      "prosent": 0.02
+    },
+    {
+      "område": "Glemmen Vest",
+      "prosent": 0.02
+    },
+    {
+      "område": "Tangen",
+      "prosent": 0.02
+    },
+    {
+      "område": "Gullhaug - Hillestad",
+      "prosent": 0.01
+    },
+    {
+      "område": "Stavern",
+      "prosent": 0.02
+    },
+    {
+      "område": "Teie",
+      "prosent": 0.02
+    },
+    {
+      "område": "Stokken",
+      "prosent": 0.01
+    },
+    {
+      "område": "Herefoss - Vegusdal",
+      "prosent": 0.02
+    },
+    {
+      "område": "Beiarn",
+      "prosent": 0.02
+    },
+    {
+      "område": "Østsiden Nord",
+      "prosent": 0.01
+    },
+    {
+      "område": "Dalborgen - Kopperud",
+      "prosent": 0.02
+    },
+    {
+      "område": "Uthauen",
+      "prosent": 0.02
+    },
+    {
+      "område": "Blystadlia",
+      "prosent": 0.02
+    },
+    {
+      "område": "Brattås",
+      "prosent": 0.01
+    },
+    {
+      "område": "Alta Sentrum Syd",
+      "prosent": 0.02
+    },
+    {
+      "område": "Mogreina",
+      "prosent": 0.02
+    },
+    {
+      "område": "Rjukan",
+      "prosent": 0.01
+    },
+    {
+      "område": "Langesund",
+      "prosent": 0.02
+    },
+    {
+      "område": "Landås - Sædalen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Jemtland",
+      "prosent": 0.01
+    },
+    {
+      "område": "Otta",
+      "prosent": 0.03
+    },
+    {
+      "område": "Stathelle",
+      "prosent": 0.02
+    },
+    {
+      "område": "Skogbygda",
+      "prosent": 0.01
+    },
+    {
+      "område": "Sentrum - Slottsfjellet",
+      "prosent": 0.02
+    },
+    {
+      "område": "Alstad",
+      "prosent": 0.01
+    },
+    {
+      "område": "Kurland",
+      "prosent": 0.01
+    },
+    {
+      "område": "Nordbygda",
+      "prosent": 0.01
+    },
+    {
+      "område": "Tynset Sør",
+      "prosent": 0.03
+    },
+    {
+      "område": "Dovre Nord",
+      "prosent": 0.02
+    },
+    {
+      "område": "Bugården",
+      "prosent": 0.01
+    },
+    {
+      "område": "Rørvik - Berg",
+      "prosent": 0.02
+    },
+    {
+      "område": "Vestbyen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Prestebakke - Kornsjø - Holtet",
+      "prosent": 0.01
+    },
+    {
+      "område": "Sand",
+      "prosent": 0.01
+    },
+    {
+      "område": "Fyllingsdalen",
+      "prosent": 0.02
+    },
+    {
+      "område": "Tromsø",
+      "prosent": 0.02
+    },
+    {
+      "område": "Svolvær",
+      "prosent": 0.01
+    },
+    {
+      "område": "Voie - Møvig",
+      "prosent": 0.01
+    },
+    {
+      "område": "Søndre Høland",
+      "prosent": 0.01
+    },
+    {
+      "område": "Geithus",
+      "prosent": 0.01
+    },
+    {
+      "område": "Fredheim",
+      "prosent": 0.01
+    },
+    {
+      "område": "Mysen Øst",
+      "prosent": 0.02
+    },
+    {
+      "område": "Kapp",
+      "prosent": 0.01
+    },
+    {
+      "område": "Kviteseid",
+      "prosent": 0.01
+    },
+    {
+      "område": "Søndre Meløy",
+      "prosent": 0.02
+    },
+    {
+      "område": "Tistedalsområdet",
+      "prosent": 0.01
+    },
+    {
+      "område": "Vang Vest",
+      "prosent": 0.01
+    },
+    {
+      "område": "Sønsterud",
+      "prosent": 0.01
+    },
+    {
+      "område": "Skrautvål",
+      "prosent": 0.01
+    },
+    {
+      "område": "Deglum",
+      "prosent": 0.03
+    },
+    {
+      "område": "Brandval",
+      "prosent": 0.01
+    },
+    {
+      "område": "Arendal Nord",
+      "prosent": 0.02
+    },
+    {
+      "område": "Stokke",
+      "prosent": 0.02
+    },
+    {
+      "område": "Jåtten",
+      "prosent": 0.01
+    },
+    {
+      "område": "Lom Vest",
+      "prosent": 0.01
+    },
+    {
+      "område": "Østre Hol",
+      "prosent": 0.01
+    },
+    {
+      "område": "Hunndalen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Seljord",
+      "prosent": 0.01
+    },
+    {
+      "område": "Rosenborg - Møllenberg",
+      "prosent": 0.02
+    },
+    {
+      "område": "Nordre Meløy",
+      "prosent": 0.02
+    },
+    {
+      "område": "Nore",
+      "prosent": 0.01
+    },
+    {
+      "område": "Sortungstad",
+      "prosent": 0.01
+    },
+    {
+      "område": "Vallset - Åsbygda",
+      "prosent": 0.01
+    },
+    {
+      "område": "Moi",
+      "prosent": 0.01
+    },
+    {
+      "område": "Korgen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Sarpsborg Vest",
+      "prosent": 0.02
+    },
+    {
+      "område": "Holtandalen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Torpo - Nordbygden",
+      "prosent": 0.01
+    },
+    {
+      "område": "Dovre Syd",
+      "prosent": 0.02
+    },
+    {
+      "område": "Porsgrunn Øst",
+      "prosent": 0.01
+    },
+    {
+      "område": "Lom Aust",
+      "prosent": 0.02
+    },
+    {
+      "område": "Lyngstrand - Rosendal - Omvikdalen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Røldal",
+      "prosent": 0.01
+    },
+    {
+      "område": "Øksnes",
+      "prosent": 0.02
+    },
+    {
+      "område": "Storhamar",
+      "prosent": 0.02
+    },
+    {
+      "område": "Melsom",
+      "prosent": 0.03
+    },
+    {
+      "område": "Tjodalyng",
+      "prosent": 0.01
+    },
+    {
+      "område": "Marnardal",
+      "prosent": 0.02
+    },
+    {
+      "område": "Ulvik",
+      "prosent": 0.02
+    },
+    {
+      "område": "Borge - Valberg",
+      "prosent": 0.02
+    },
+    {
+      "område": "Heidal",
+      "prosent": 0.01
+    },
+    {
+      "område": "Arendal Øst",
+      "prosent": 0.01
+    },
+    {
+      "område": "Johannes",
+      "prosent": 0.05
+    },
+    {
+      "område": "Hønefoss",
+      "prosent": 0.01
+    },
+    {
+      "område": "Sentrum Vest",
+      "prosent": 0.01
+    },
+    {
+      "område": "Mørkved",
+      "prosent": 0.01
+    },
+    {
+      "område": "Flora",
+      "prosent": 0.01
+    },
+    {
+      "område": "Bykjernen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Søndre Rakkestad",
+      "prosent": 0.01
+    },
+    {
+      "område": "Kongsberg Nord - Vestre",
+      "prosent": 0.02
+    },
+    {
+      "område": "Mo",
+      "prosent": 0.01
+    },
+    {
+      "område": "Charlottenlund - Jakobsli",
+      "prosent": 0.02
+    },
+    {
+      "område": "Austrått - Høyland",
+      "prosent": 0.01
+    },
+    {
+      "område": "Vindingstad",
+      "prosent": 0.02
+    },
+    {
+      "område": "Søgne Vestre",
+      "prosent": 0.01
+    },
+    {
+      "område": "Laksevåg",
+      "prosent": 0.02
+    },
+    {
+      "område": "Søndre Tromsøya",
+      "prosent": 0.01
+    },
+    {
+      "område": "Mosseskogen Øst",
+      "prosent": 0.01
+    },
+    {
+      "område": "Østsinni",
+      "prosent": 0.01
+    },
+    {
+      "område": "Torp",
+      "prosent": 0.02
+    },
+    {
+      "område": "Ytre Krødsherad",
+      "prosent": 0.01
+    },
+    {
+      "område": "Sander",
+      "prosent": 0.01
+    },
+    {
+      "område": "Solvang - Kilen - Byskogen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Lindesnes",
+      "prosent": 0.01
+    },
+    {
+      "område": "Flosta",
+      "prosent": 0.02
+    },
+    {
+      "område": "Førde Nord",
+      "prosent": 0.01
+    },
+    {
+      "område": "Etnedal",
+      "prosent": 0.02
+    },
+    {
+      "område": "Ytre Gjerstad",
+      "prosent": 0.02
+    },
+    {
+      "område": "Tvedestrand",
+      "prosent": 0.01
+    },
+    {
+      "område": "Gol Aust",
+      "prosent": 0.01
+    },
+    {
+      "område": "Jordet",
+      "prosent": 0.02
+    },
+    {
+      "område": "Selje",
+      "prosent": 0.01
+    },
+    {
+      "område": "Hov - Fall",
+      "prosent": 0.02
+    },
+    {
+      "område": "Sentrum",
+      "prosent": 0.01
+    },
+    {
+      "område": "Balestrand",
+      "prosent": 0.02
+    },
+    {
+      "område": "Arnestad",
+      "prosent": 0.01
+    },
+    {
+      "område": "Nybergsund",
+      "prosent": 0.01
+    },
+    {
+      "område": "Reinsvoll",
+      "prosent": 0.01
+    },
+    {
+      "område": "Torsnes",
+      "prosent": 0.01
+    },
+    {
+      "område": "Ringebu",
+      "prosent": 0.01
+    },
+    {
+      "område": "Eina",
+      "prosent": 0.01
+    },
+    {
+      "område": "Kvelde",
+      "prosent": 0.01
+    },
+    {
+      "område": "Osebakken - Hovenga",
+      "prosent": 0.01
+    },
+    {
+      "område": "Ytre Randesund",
+      "prosent": 0.01
+    },
+    {
+      "område": "Audnedal",
+      "prosent": 0.01
+    },
+    {
+      "område": "Kvaløybyen",
+      "prosent": 0.02
+    },
+    {
+      "område": "Solheim",
+      "prosent": 0.01
+    },
+    {
+      "område": "Skjomen",
+      "prosent": 0.04
+    },
+    {
+      "område": "Hauge",
+      "prosent": 0.01
+    },
+    {
+      "område": "Bremnes",
+      "prosent": 0.01
+    },
+    {
+      "område": "Kopervik",
+      "prosent": 0.01
+    },
+    {
+      "område": "Fjærland",
+      "prosent": 0.01
+    },
+    {
+      "område": "Vereide",
+      "prosent": 0.01
+    },
+    {
+      "område": "Moen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Gol Vest",
+      "prosent": 0.01
+    },
+    {
+      "område": "Vang Midtre",
+      "prosent": 0.01
+    },
+    {
+      "område": "Stryn",
+      "prosent": 0.02
+    },
+    {
+      "område": "Volda",
+      "prosent": 0.01
+    },
+    {
+      "område": "Heddal",
+      "prosent": 0.01
+    },
+    {
+      "område": "Nørvasund",
+      "prosent": 0.01
+    },
+    {
+      "område": "Båstad",
+      "prosent": 0.01
+    },
+    {
+      "område": "Romedal",
+      "prosent": 0.01
+    },
+    {
+      "område": "Leiret Nord - Søbakken",
+      "prosent": 0.01
+    },
+    {
+      "område": "Vestre Gausdal Sør",
+      "prosent": 0.01
+    },
+    {
+      "område": "Skinsnes - Ime",
+      "prosent": 0.04
+    },
+    {
+      "område": "Øvrebø - Hægeland",
+      "prosent": 0.02
+    },
+    {
+      "område": "Lade",
+      "prosent": 0.01
+    },
+    {
+      "område": "Namsskogan",
+      "prosent": 0.04
+    },
+    {
+      "område": "Korsgården",
+      "prosent": 0.01
+    },
+    {
+      "område": "Strandsåsen",
+      "prosent": 0.02
+    },
+    {
+      "område": "Østby",
+      "prosent": 0.01
+    },
+    {
+      "område": "Grønli",
+      "prosent": 0.02
+    },
+    {
+      "område": "Søndeled Indre",
+      "prosent": 0.01
+    },
+    {
+      "område": "Fridalen - Slettebakken",
+      "prosent": 0.02
+    },
+    {
+      "område": "Andenes",
+      "prosent": 0.02
+    },
+    {
+      "område": "Lunde",
+      "prosent": 0.01
+    },
+    {
+      "område": "Vossestrand",
+      "prosent": 0.01
+    },
+    {
+      "område": "Dale - Guddal",
+      "prosent": 0.01
+    },
+    {
+      "område": "Sverresborg",
+      "prosent": 0.01
+    },
+    {
+      "område": "Leka",
+      "prosent": 0.03
+    },
+    {
+      "område": "Sommerlyst",
+      "prosent": 0.01
+    },
+    {
+      "område": "Hokksund Vest",
+      "prosent": 0.01
+    },
+    {
+      "område": "Kampen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Ålgård - Bygda",
+      "prosent": 0.02
+    },
+    {
+      "område": "Tenor - Kirkefjerdingen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Vang Nord",
+      "prosent": 0.01
+    },
+    {
+      "område": "Stridsklev - Hovet",
+      "prosent": 0.02
+    },
+    {
+      "område": "Hovin - Austbygde - Tessungdalen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Hånes - Timenes",
+      "prosent": 0.01
+    },
+    {
+      "område": "Tiller - Hårstad",
+      "prosent": 0.03
+    },
+    {
+      "område": "Gard",
+      "prosent": 0.01
+    },
+    {
+      "område": "Austefjord",
+      "prosent": 0.01
+    },
+    {
+      "område": "Sentrum",
+      "prosent": 0.01
+    },
+    {
+      "område": "Viker - Nes",
+      "prosent": 0.01
+    },
+    {
+      "område": "Vestad",
+      "prosent": 0.01
+    },
+    {
+      "område": "Ruste",
+      "prosent": 0.01
+    },
+    {
+      "område": "Hovedbyen",
+      "prosent": 0.02
+    },
+    {
+      "område": "Olbu - Vognill",
+      "prosent": 0.01
+    },
+    {
+      "område": "Kirkenær",
+      "prosent": 0.01
+    },
+    {
+      "område": "Finnskogen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Slidre",
+      "prosent": 0.01
+    },
+    {
+      "område": "Barkåker",
+      "prosent": 0.01
+    },
+    {
+      "område": "Gulset",
+      "prosent": 0.01
+    },
+    {
+      "område": "Fjære - Hommedal",
+      "prosent": 0.01
+    },
+    {
+      "område": "Vegårdshei",
+      "prosent": 0.01
+    },
+    {
+      "område": "Lunder",
+      "prosent": 0.01
+    },
+    {
+      "område": "Loddefjord",
+      "prosent": 0.01
+    },
+    {
+      "område": "Nordre",
+      "prosent": 0.03
+    },
+    {
+      "område": "Skjåk",
+      "prosent": 0.01
+    },
+    {
+      "område": "Røn",
+      "prosent": 0.02
+    },
+    {
+      "område": "Vadfoss",
+      "prosent": 0.01
+    },
+    {
+      "område": "Kongsgård Øvre - Gimlekollen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Årvik - Mauranger - Ænes",
+      "prosent": 0.01
+    },
+    {
+      "område": "Våland",
+      "prosent": 0.01
+    },
+    {
+      "område": "Hunstad",
+      "prosent": 0.01
+    },
+    {
+      "område": "Kodal",
+      "prosent": 0.01
+    },
+    {
+      "område": "Klyve",
+      "prosent": 0.01
+    },
+    {
+      "område": "Hisøy",
+      "prosent": 0.02
+    },
+    {
+      "område": "Vennesla Midtre",
+      "prosent": 0.01
+    },
+    {
+      "område": "Radøy Sør",
+      "prosent": 0.01
+    },
+    {
+      "område": "Førde Vest",
+      "prosent": 0.01
+    },
+    {
+      "område": "Strindheim",
+      "prosent": 0.01
+    },
+    {
+      "område": "Solvang",
+      "prosent": 0.01
+    },
+    {
+      "område": "Nørvøy Ytre",
+      "prosent": 0.01
+    },
+    {
+      "område": "Hornindal",
+      "prosent": 0.01
+    },
+    {
+      "område": "Nedre Saltdal",
+      "prosent": 0.01
+    },
+    {
+      "område": "Lødingen",
+      "prosent": 0.01
+    },
+    {
+      "område": "Hærland",
+      "prosent": 0.01
+    },
+    {
+      "område": "Ytre Ådal",
+      "prosent": 0.01
+    },
+    {
+      "område": "Biri",
+      "prosent": 0.01
+    },
+    {
+      "område": "Tande",
+      "prosent": 0.01
+    },
+    {
+      "område": "Grue Finnskog",
+      "prosent": 0.01
+    },
+    {
+      "område": "Våler",
+      "prosent": 0.01
+    },
+    {
+      "område": "Siljan",
+      "prosent": 0.01
+    },
+    {
+      "område": "Risør",
+      "prosent": 0.01
+    },
+    {
+      "område": "Tromøy Øst",
+      "prosent": 0.01
+    },
+    {
+      "område": "Tregde - Skjernøy",
+      "prosent": 0.01
+    },
+    {
+      "område": "Kvinesdal Øvre",
+      "prosent": 0.01
+    },
+    {
+      "område": "Heimdal",
+      "prosent": 0.01
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "nøkkeltall": {
+    "dagligBesøk": 46476,
+    "besøkPerKm2": 52198,
+    "travlesteDag": "Lørdag",
+    "lørdagAndel": 16,
+    "periode": "01.10.2022 - 30.09.2025"
+  },
+  "perTime": [
+    {
+      "time": "00:00",
+      "besøk": 1879
+    },
+    {
+      "time": "01:00",
+      "besøk": 1672
+    },
+    {
+      "time": "02:00",
+      "besøk": 1683
+    },
+    {
+      "time": "03:00",
+      "besøk": 1366
+    },
+    {
+      "time": "04:00",
+      "besøk": 1175
+    },
+    {
+      "time": "05:00",
+      "besøk": 1160
+    },
+    {
+      "time": "06:00",
+      "besøk": 1274
+    },
+    {
+      "time": "07:00",
+      "besøk": 1403
+    },
+    {
+      "time": "08:00",
+      "besøk": 1557
+    },
+    {
+      "time": "09:00",
+      "besøk": 1604
+    },
+    {
+      "time": "10:00",
+      "besøk": 1733
+    },
+    {
+      "time": "11:00",
+      "besøk": 2004
+    },
+    {
+      "time": "12:00",
+      "besøk": 2509
+    },
+    {
+      "time": "13:00",
+      "besøk": 3122
+    },
+    {
+      "time": "14:00",
+      "besøk": 3561
+    },
+    {
+      "time": "15:00",
+      "besøk": 3949
+    },
+    {
+      "time": "16:00",
+      "besøk": 4401
+    },
+    {
+      "time": "17:00",
+      "besøk": 4615
+    },
+    {
+      "time": "18:00",
+      "besøk": 4515
+    },
+    {
+      "time": "19:00",
+      "besøk": 4179
+    },
+    {
+      "time": "20:00",
+      "besøk": 3625
+    },
+    {
+      "time": "21:00",
+      "besøk": 3016
+    },
+    {
+      "time": "22:00",
+      "besøk": 2533
+    },
+    {
+      "time": "23:00",
+      "besøk": 2154
+    }
+  ],
+  "perUkedag": [
+    {
+      "dag": "man.",
+      "besøkende": 21828,
+      "påJobb": 8065,
+      "hjemme": 19300
+    },
+    {
+      "dag": "tir.",
+      "besøkende": 23460,
+      "påJobb": 8532,
+      "hjemme": 19615
+    },
+    {
+      "dag": "ons.",
+      "besøkende": 24766,
+      "påJobb": 8658,
+      "hjemme": 19682
+    },
+    {
+      "dag": "tor.",
+      "besøkende": 25477,
+      "påJobb": 8689,
+      "hjemme": 19633
+    },
+    {
+      "dag": "fre.",
+      "besøkende": 29535,
+      "påJobb": 9061,
+      "hjemme": 19510
+    },
+    {
+      "dag": "lør.",
+      "besøkende": 32120,
+      "påJobb": 8454,
+      "hjemme": 19101
+    },
+    {
+      "dag": "søn.",
+      "besøkende": 24241,
+      "påJobb": 6331,
+      "hjemme": 18201
+    }
+  ],
+  "bevegelsesmønster": [
+    {
+      "kategori": "2023",
+      "besøkende": 27466,
+      "påJobb": 8619,
+      "hjemme": 19650
+    },
+    {
+      "kategori": "2024",
+      "besøkende": 25227,
+      "påJobb": 8307,
+      "hjemme": 19549
+    }
+  ]
+}

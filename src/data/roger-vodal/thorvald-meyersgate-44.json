@@ -15,9 +15,21 @@
     "rapportDato": "2025-11-17T13:31:49.548Z",
     "screenshots": [
       {
-        "filnavn": "Besøkedne",
+        "filnavn": "Oversikt",
+        "path": "/images/roger-vodal/thorvald-meyersgate-44/oversikt.png",
+        "beskrivelse": "Oversiktsbilde",
+        "kategori": "oversikt"
+      },
+      {
+        "filnavn": "Konkurransebildet",
+        "path": "/images/roger-vodal/thorvald-meyersgate-44/konkurransebildet.png",
+        "beskrivelse": "Konkurransebildet",
+        "kategori": "marked"
+      },
+      {
+        "filnavn": "Besøkende",
         "path": "/images/roger-vodal/thorvald-meyersgate-44/besokende.jpg",
-        "beskrivelse": "Besøkedne",
+        "beskrivelse": "Besøkende",
         "kategori": "marked"
       },
       {
@@ -37,20 +49,29 @@
         "path": "/images/roger-vodal/thorvald-meyersgate-44/korthandel.jpg",
         "beskrivelse": "Korthandel",
         "kategori": "marked"
-      },
-      {
-        "filnavn": "Nøkkeldata",
-        "path": "/images/roger-vodal/thorvald-meyersgate-44/nokkeldata.jpg",
-        "beskrivelse": "Nøkkeldata",
-        "kategori": "oversikt"
       }
     ],
     "nokkeldata": {
-      "prisniva": null,
-      "leieinntekter": null,
-      "befolkning": null,
-      "gjennomsnittsinntekt": null,
-      "arbeidsledighet": null
+      "dagligKorthandel": "3 mill NOK",
+      "totalKorthandel": "2.2 mrd NOK",
+      "belopPerTransaksjon": "267 NOK",
+      "gjSnittDagligeBesok": 51802,
+      "besokPerKm2": 54409,
+      "travlesteDag": "lørdag",
+      "travlesteDagAndel": "16%",
+      "konsepttetthet": "370/km2",
+      "totalOmsetning": "1.6 mrd NOK",
+      "omsetningstetthet": "3.6 mrd NOK/km2",
+      "befolkning2023": 8791,
+      "befolkningstetthet": "19456/km2",
+      "omradestorrelse": "0.45 km²",
+      "kortbrukEndring": "+1% siste 30d",
+      "konseptmiks": {
+        "mat": 43,
+        "helse": 19,
+        "handel": 38
+      },
+      "konsepttetthetsNiva": "Medium"
     }
   },
   "tilleggsinfo": {

@@ -1,0 +1,4485 @@
+{
+  "nøkkeltall": {
+    "dagligKorthandel": 3,
+    "totalKorthandel": 2200,
+    "beløpPerTransaksjon": 267,
+    "endring30d": 1
+  },
+  "tidsserie": [
+    {
+      "date": "2023-01-01",
+      "mat_opplevelser": 0.424,
+      "handel": 0.296,
+      "tjenester": 0.127
+    },
+    {
+      "date": "2023-01-02",
+      "mat_opplevelser": 1.032,
+      "handel": 0.722,
+      "tjenester": 0.309
+    },
+    {
+      "date": "2023-01-03",
+      "mat_opplevelser": 1.123,
+      "handel": 0.786,
+      "tjenester": 0.337
+    },
+    {
+      "date": "2023-01-04",
+      "mat_opplevelser": 0.898,
+      "handel": 0.628,
+      "tjenester": 0.269
+    },
+    {
+      "date": "2023-01-05",
+      "mat_opplevelser": 1.218,
+      "handel": 0.852,
+      "tjenester": 0.365
+    },
+    {
+      "date": "2023-01-06",
+      "mat_opplevelser": 1.629,
+      "handel": 1.14,
+      "tjenester": 0.489
+    },
+    {
+      "date": "2023-01-07",
+      "mat_opplevelser": 2.219,
+      "handel": 1.553,
+      "tjenester": 0.666
+    },
+    {
+      "date": "2023-01-08",
+      "mat_opplevelser": 0.804,
+      "handel": 0.562,
+      "tjenester": 0.241
+    },
+    {
+      "date": "2023-01-09",
+      "mat_opplevelser": 1.111,
+      "handel": 0.777,
+      "tjenester": 0.333
+    },
+    {
+      "date": "2023-01-10",
+      "mat_opplevelser": 1.287,
+      "handel": 0.901,
+      "tjenester": 0.386
+    },
+    {
+      "date": "2023-01-11",
+      "mat_opplevelser": 1.54,
+      "handel": 1.078,
+      "tjenester": 0.462
+    },
+    {
+      "date": "2023-01-12",
+      "mat_opplevelser": 1.678,
+      "handel": 1.174,
+      "tjenester": 0.503
+    },
+    {
+      "date": "2023-01-13",
+      "mat_opplevelser": 2.2,
+      "handel": 1.54,
+      "tjenester": 0.66
+    },
+    {
+      "date": "2023-01-14",
+      "mat_opplevelser": 3.044,
+      "handel": 2.131,
+      "tjenester": 0.913
+    },
+    {
+      "date": "2023-01-15",
+      "mat_opplevelser": 1.037,
+      "handel": 0.726,
+      "tjenester": 0.311
+    },
+    {
+      "date": "2023-01-16",
+      "mat_opplevelser": 1.284,
+      "handel": 0.898,
+      "tjenester": 0.385
+    },
+    {
+      "date": "2023-01-17",
+      "mat_opplevelser": 1.257,
+      "handel": 0.88,
+      "tjenester": 0.377
+    },
+    {
+      "date": "2023-01-18",
+      "mat_opplevelser": 1.236,
+      "handel": 0.865,
+      "tjenester": 0.371
+    },
+    {
+      "date": "2023-01-19",
+      "mat_opplevelser": 1.62,
+      "handel": 1.134,
+      "tjenester": 0.486
+    },
+    {
+      "date": "2023-01-20",
+      "mat_opplevelser": 2.373,
+      "handel": 1.661,
+      "tjenester": 0.712
+    },
+    {
+      "date": "2023-01-21",
+      "mat_opplevelser": 2.945,
+      "handel": 2.061,
+      "tjenester": 0.884
+    },
+    {
+      "date": "2023-01-22",
+      "mat_opplevelser": 1.082,
+      "handel": 0.757,
+      "tjenester": 0.324
+    },
+    {
+      "date": "2023-01-23",
+      "mat_opplevelser": 1.066,
+      "handel": 0.746,
+      "tjenester": 0.32
+    },
+    {
+      "date": "2023-01-24",
+      "mat_opplevelser": 1.387,
+      "handel": 0.971,
+      "tjenester": 0.416
+    },
+    {
+      "date": "2023-01-25",
+      "mat_opplevelser": 1.504,
+      "handel": 1.052,
+      "tjenester": 0.451
+    },
+    {
+      "date": "2023-01-26",
+      "mat_opplevelser": 1.693,
+      "handel": 1.185,
+      "tjenester": 0.508
+    },
+    {
+      "date": "2023-01-27",
+      "mat_opplevelser": 2.336,
+      "handel": 1.635,
+      "tjenester": 0.701
+    },
+    {
+      "date": "2023-01-28",
+      "mat_opplevelser": 3.257,
+      "handel": 2.28,
+      "tjenester": 0.977
+    },
+    {
+      "date": "2023-01-29",
+      "mat_opplevelser": 1.135,
+      "handel": 0.795,
+      "tjenester": 0.34
+    },
+    {
+      "date": "2023-01-30",
+      "mat_opplevelser": 1.345,
+      "handel": 0.941,
+      "tjenester": 0.403
+    },
+    {
+      "date": "2023-01-31",
+      "mat_opplevelser": 1.418,
+      "handel": 0.993,
+      "tjenester": 0.425
+    },
+    {
+      "date": "2023-02-01",
+      "mat_opplevelser": 1.307,
+      "handel": 0.915,
+      "tjenester": 0.392
+    },
+    {
+      "date": "2023-02-02",
+      "mat_opplevelser": 1.523,
+      "handel": 1.066,
+      "tjenester": 0.457
+    },
+    {
+      "date": "2023-02-03",
+      "mat_opplevelser": 2.216,
+      "handel": 1.551,
+      "tjenester": 0.665
+    },
+    {
+      "date": "2023-02-04",
+      "mat_opplevelser": 2.953,
+      "handel": 2.067,
+      "tjenester": 0.886
+    },
+    {
+      "date": "2023-02-05",
+      "mat_opplevelser": 0.993,
+      "handel": 0.695,
+      "tjenester": 0.298
+    },
+    {
+      "date": "2023-02-06",
+      "mat_opplevelser": 1.177,
+      "handel": 0.824,
+      "tjenester": 0.353
+    },
+    {
+      "date": "2023-02-07",
+      "mat_opplevelser": 1.237,
+      "handel": 0.866,
+      "tjenester": 0.371
+    },
+    {
+      "date": "2023-02-08",
+      "mat_opplevelser": 1.27,
+      "handel": 0.889,
+      "tjenester": 0.381
+    },
+    {
+      "date": "2023-02-09",
+      "mat_opplevelser": 1.545,
+      "handel": 1.082,
+      "tjenester": 0.463
+    },
+    {
+      "date": "2023-02-10",
+      "mat_opplevelser": 2.264,
+      "handel": 1.585,
+      "tjenester": 0.679
+    },
+    {
+      "date": "2023-02-11",
+      "mat_opplevelser": 3.284,
+      "handel": 2.298,
+      "tjenester": 0.985
+    },
+    {
+      "date": "2023-02-12",
+      "mat_opplevelser": 1.174,
+      "handel": 0.821,
+      "tjenester": 0.352
+    },
+    {
+      "date": "2023-02-13",
+      "mat_opplevelser": 1.312,
+      "handel": 0.918,
+      "tjenester": 0.393
+    },
+    {
+      "date": "2023-02-14",
+      "mat_opplevelser": 1.826,
+      "handel": 1.278,
+      "tjenester": 0.548
+    },
+    {
+      "date": "2023-02-15",
+      "mat_opplevelser": 1.528,
+      "handel": 1.07,
+      "tjenester": 0.458
+    },
+    {
+      "date": "2023-02-16",
+      "mat_opplevelser": 1.661,
+      "handel": 1.163,
+      "tjenester": 0.498
+    },
+    {
+      "date": "2023-02-17",
+      "mat_opplevelser": 2.216,
+      "handel": 1.551,
+      "tjenester": 0.665
+    },
+    {
+      "date": "2023-02-18",
+      "mat_opplevelser": 3.382,
+      "handel": 2.367,
+      "tjenester": 1.015
+    },
+    {
+      "date": "2023-02-19",
+      "mat_opplevelser": 1.195,
+      "handel": 0.836,
+      "tjenester": 0.358
+    },
+    {
+      "date": "2023-02-20",
+      "mat_opplevelser": 1.457,
+      "handel": 1.02,
+      "tjenester": 0.437
+    },
+    {
+      "date": "2023-02-21",
+      "mat_opplevelser": 1.613,
+      "handel": 1.129,
+      "tjenester": 0.484
+    },
+    {
+      "date": "2023-02-22",
+      "mat_opplevelser": 1.498,
+      "handel": 1.049,
+      "tjenester": 0.449
+    },
+    {
+      "date": "2023-02-23",
+      "mat_opplevelser": 1.609,
+      "handel": 1.126,
+      "tjenester": 0.483
+    },
+    {
+      "date": "2023-02-24",
+      "mat_opplevelser": 2.127,
+      "handel": 1.489,
+      "tjenester": 0.638
+    },
+    {
+      "date": "2023-02-25",
+      "mat_opplevelser": 2.966,
+      "handel": 2.076,
+      "tjenester": 0.89
+    },
+    {
+      "date": "2023-02-26",
+      "mat_opplevelser": 1.02,
+      "handel": 0.714,
+      "tjenester": 0.306
+    },
+    {
+      "date": "2023-02-27",
+      "mat_opplevelser": 1.348,
+      "handel": 0.944,
+      "tjenester": 0.404
+    },
+    {
+      "date": "2023-02-28",
+      "mat_opplevelser": 1.518,
+      "handel": 1.062,
+      "tjenester": 0.455
+    },
+    {
+      "date": "2023-03-01",
+      "mat_opplevelser": 1.673,
+      "handel": 1.171,
+      "tjenester": 0.502
+    },
+    {
+      "date": "2023-03-02",
+      "mat_opplevelser": 1.679,
+      "handel": 1.175,
+      "tjenester": 0.504
+    },
+    {
+      "date": "2023-03-03",
+      "mat_opplevelser": 2.374,
+      "handel": 1.662,
+      "tjenester": 0.712
+    },
+    {
+      "date": "2023-03-04",
+      "mat_opplevelser": 3.124,
+      "handel": 2.186,
+      "tjenester": 0.937
+    },
+    {
+      "date": "2023-03-05",
+      "mat_opplevelser": 1.184,
+      "handel": 0.829,
+      "tjenester": 0.355
+    },
+    {
+      "date": "2023-03-06",
+      "mat_opplevelser": 1.215,
+      "handel": 0.851,
+      "tjenester": 0.365
+    },
+    {
+      "date": "2023-03-07",
+      "mat_opplevelser": 1.319,
+      "handel": 0.923,
+      "tjenester": 0.396
+    },
+    {
+      "date": "2023-03-08",
+      "mat_opplevelser": 1.417,
+      "handel": 0.992,
+      "tjenester": 0.425
+    },
+    {
+      "date": "2023-03-09",
+      "mat_opplevelser": 1.46,
+      "handel": 1.022,
+      "tjenester": 0.438
+    },
+    {
+      "date": "2023-03-10",
+      "mat_opplevelser": 2.37,
+      "handel": 1.659,
+      "tjenester": 0.711
+    },
+    {
+      "date": "2023-03-11",
+      "mat_opplevelser": 2.943,
+      "handel": 2.06,
+      "tjenester": 0.883
+    },
+    {
+      "date": "2023-03-12",
+      "mat_opplevelser": 0.927,
+      "handel": 0.649,
+      "tjenester": 0.278
+    },
+    {
+      "date": "2023-03-13",
+      "mat_opplevelser": 0.859,
+      "handel": 0.601,
+      "tjenester": 0.258
+    },
+    {
+      "date": "2023-03-14",
+      "mat_opplevelser": 1.33,
+      "handel": 0.931,
+      "tjenester": 0.399
+    },
+    {
+      "date": "2023-03-15",
+      "mat_opplevelser": 1.592,
+      "handel": 1.114,
+      "tjenester": 0.478
+    },
+    {
+      "date": "2023-03-16",
+      "mat_opplevelser": 1.47,
+      "handel": 1.029,
+      "tjenester": 0.441
+    },
+    {
+      "date": "2023-03-17",
+      "mat_opplevelser": 2.003,
+      "handel": 1.402,
+      "tjenester": 0.601
+    },
+    {
+      "date": "2023-03-18",
+      "mat_opplevelser": 3.176,
+      "handel": 2.223,
+      "tjenester": 0.953
+    },
+    {
+      "date": "2023-03-19",
+      "mat_opplevelser": 0.916,
+      "handel": 0.641,
+      "tjenester": 0.275
+    },
+    {
+      "date": "2023-03-20",
+      "mat_opplevelser": 1.449,
+      "handel": 1.014,
+      "tjenester": 0.435
+    },
+    {
+      "date": "2023-03-21",
+      "mat_opplevelser": 1.358,
+      "handel": 0.951,
+      "tjenester": 0.407
+    },
+    {
+      "date": "2023-03-22",
+      "mat_opplevelser": 1.452,
+      "handel": 1.016,
+      "tjenester": 0.436
+    },
+    {
+      "date": "2023-03-23",
+      "mat_opplevelser": 1.533,
+      "handel": 1.073,
+      "tjenester": 0.46
+    },
+    {
+      "date": "2023-03-24",
+      "mat_opplevelser": 2.233,
+      "handel": 1.563,
+      "tjenester": 0.67
+    },
+    {
+      "date": "2023-03-25",
+      "mat_opplevelser": 3.009,
+      "handel": 2.106,
+      "tjenester": 0.903
+    },
+    {
+      "date": "2023-03-26",
+      "mat_opplevelser": 1.065,
+      "handel": 0.745,
+      "tjenester": 0.319
+    },
+    {
+      "date": "2023-03-27",
+      "mat_opplevelser": 1.13,
+      "handel": 0.791,
+      "tjenester": 0.339
+    },
+    {
+      "date": "2023-03-28",
+      "mat_opplevelser": 1.481,
+      "handel": 1.037,
+      "tjenester": 0.444
+    },
+    {
+      "date": "2023-03-29",
+      "mat_opplevelser": 1.463,
+      "handel": 1.024,
+      "tjenester": 0.439
+    },
+    {
+      "date": "2023-03-30",
+      "mat_opplevelser": 1.626,
+      "handel": 1.138,
+      "tjenester": 0.488
+    },
+    {
+      "date": "2023-03-31",
+      "mat_opplevelser": 2.399,
+      "handel": 1.679,
+      "tjenester": 0.72
+    },
+    {
+      "date": "2023-04-01",
+      "mat_opplevelser": 2.924,
+      "handel": 2.047,
+      "tjenester": 0.877
+    },
+    {
+      "date": "2023-04-02",
+      "mat_opplevelser": 1.12,
+      "handel": 0.784,
+      "tjenester": 0.336
+    },
+    {
+      "date": "2023-04-03",
+      "mat_opplevelser": 1.574,
+      "handel": 1.101,
+      "tjenester": 0.472
+    },
+    {
+      "date": "2023-04-04",
+      "mat_opplevelser": 1.872,
+      "handel": 1.31,
+      "tjenester": 0.562
+    },
+    {
+      "date": "2023-04-05",
+      "mat_opplevelser": 2.193,
+      "handel": 1.535,
+      "tjenester": 0.658
+    },
+    {
+      "date": "2023-04-06",
+      "mat_opplevelser": 0.543,
+      "handel": 0.38,
+      "tjenester": 0.163
+    },
+    {
+      "date": "2023-04-07",
+      "mat_opplevelser": 0.838,
+      "handel": 0.587,
+      "tjenester": 0.251
+    },
+    {
+      "date": "2023-04-08",
+      "mat_opplevelser": 1.539,
+      "handel": 1.077,
+      "tjenester": 0.462
+    },
+    {
+      "date": "2023-04-09",
+      "mat_opplevelser": 0.821,
+      "handel": 0.575,
+      "tjenester": 0.246
+    },
+    {
+      "date": "2023-04-10",
+      "mat_opplevelser": 0.693,
+      "handel": 0.485,
+      "tjenester": 0.208
+    },
+    {
+      "date": "2023-04-11",
+      "mat_opplevelser": 1.156,
+      "handel": 0.809,
+      "tjenester": 0.347
+    },
+    {
+      "date": "2023-04-12",
+      "mat_opplevelser": 1.522,
+      "handel": 1.065,
+      "tjenester": 0.457
+    },
+    {
+      "date": "2023-04-13",
+      "mat_opplevelser": 1.476,
+      "handel": 1.033,
+      "tjenester": 0.443
+    },
+    {
+      "date": "2023-04-14",
+      "mat_opplevelser": 2.447,
+      "handel": 1.713,
+      "tjenester": 0.734
+    },
+    {
+      "date": "2023-04-15",
+      "mat_opplevelser": 3.12,
+      "handel": 2.184,
+      "tjenester": 0.936
+    },
+    {
+      "date": "2023-04-16",
+      "mat_opplevelser": 1.174,
+      "handel": 0.822,
+      "tjenester": 0.352
+    },
+    {
+      "date": "2023-04-17",
+      "mat_opplevelser": 1.48,
+      "handel": 1.036,
+      "tjenester": 0.444
+    },
+    {
+      "date": "2023-04-18",
+      "mat_opplevelser": 1.582,
+      "handel": 1.107,
+      "tjenester": 0.474
+    },
+    {
+      "date": "2023-04-19",
+      "mat_opplevelser": 2.044,
+      "handel": 1.431,
+      "tjenester": 0.613
+    },
+    {
+      "date": "2023-04-20",
+      "mat_opplevelser": 2.173,
+      "handel": 1.521,
+      "tjenester": 0.652
+    },
+    {
+      "date": "2023-04-21",
+      "mat_opplevelser": 2.985,
+      "handel": 2.089,
+      "tjenester": 0.895
+    },
+    {
+      "date": "2023-04-22",
+      "mat_opplevelser": 3.677,
+      "handel": 2.574,
+      "tjenester": 1.103
+    },
+    {
+      "date": "2023-04-23",
+      "mat_opplevelser": 0.994,
+      "handel": 0.695,
+      "tjenester": 0.298
+    },
+    {
+      "date": "2023-04-24",
+      "mat_opplevelser": 0.964,
+      "handel": 0.674,
+      "tjenester": 0.289
+    },
+    {
+      "date": "2023-04-25",
+      "mat_opplevelser": 1.119,
+      "handel": 0.783,
+      "tjenester": 0.336
+    },
+    {
+      "date": "2023-04-26",
+      "mat_opplevelser": 1.54,
+      "handel": 1.078,
+      "tjenester": 0.462
+    },
+    {
+      "date": "2023-04-27",
+      "mat_opplevelser": 1.778,
+      "handel": 1.244,
+      "tjenester": 0.533
+    },
+    {
+      "date": "2023-04-28",
+      "mat_opplevelser": 2.564,
+      "handel": 1.794,
+      "tjenester": 0.769
+    },
+    {
+      "date": "2023-04-29",
+      "mat_opplevelser": 3.283,
+      "handel": 2.298,
+      "tjenester": 0.985
+    },
+    {
+      "date": "2023-04-30",
+      "mat_opplevelser": 1.674,
+      "handel": 1.171,
+      "tjenester": 0.502
+    },
+    {
+      "date": "2023-05-01",
+      "mat_opplevelser": 0.71,
+      "handel": 0.497,
+      "tjenester": 0.213
+    },
+    {
+      "date": "2023-05-02",
+      "mat_opplevelser": 1.564,
+      "handel": 1.094,
+      "tjenester": 0.469
+    },
+    {
+      "date": "2023-05-03",
+      "mat_opplevelser": 1.55,
+      "handel": 1.085,
+      "tjenester": 0.465
+    },
+    {
+      "date": "2023-05-04",
+      "mat_opplevelser": 1.689,
+      "handel": 1.182,
+      "tjenester": 0.507
+    },
+    {
+      "date": "2023-05-05",
+      "mat_opplevelser": 2.448,
+      "handel": 1.714,
+      "tjenester": 0.734
+    },
+    {
+      "date": "2023-05-06",
+      "mat_opplevelser": 3.153,
+      "handel": 2.207,
+      "tjenester": 0.946
+    },
+    {
+      "date": "2023-05-07",
+      "mat_opplevelser": 1.263,
+      "handel": 0.884,
+      "tjenester": 0.379
+    },
+    {
+      "date": "2023-05-08",
+      "mat_opplevelser": 1.389,
+      "handel": 0.972,
+      "tjenester": 0.417
+    },
+    {
+      "date": "2023-05-09",
+      "mat_opplevelser": 1.547,
+      "handel": 1.083,
+      "tjenester": 0.464
+    },
+    {
+      "date": "2023-05-10",
+      "mat_opplevelser": 1.807,
+      "handel": 1.265,
+      "tjenester": 0.542
+    },
+    {
+      "date": "2023-05-11",
+      "mat_opplevelser": 1.738,
+      "handel": 1.216,
+      "tjenester": 0.521
+    },
+    {
+      "date": "2023-05-12",
+      "mat_opplevelser": 2.972,
+      "handel": 2.08,
+      "tjenester": 0.891
+    },
+    {
+      "date": "2023-05-13",
+      "mat_opplevelser": 3.598,
+      "handel": 2.519,
+      "tjenester": 1.079
+    },
+    {
+      "date": "2023-05-14",
+      "mat_opplevelser": 1.659,
+      "handel": 1.161,
+      "tjenester": 0.498
+    },
+    {
+      "date": "2023-05-15",
+      "mat_opplevelser": 2.041,
+      "handel": 1.428,
+      "tjenester": 0.612
+    },
+    {
+      "date": "2023-05-16",
+      "mat_opplevelser": 2.728,
+      "handel": 1.91,
+      "tjenester": 0.818
+    },
+    {
+      "date": "2023-05-17",
+      "mat_opplevelser": 1.867,
+      "handel": 1.307,
+      "tjenester": 0.56
+    },
+    {
+      "date": "2023-05-18",
+      "mat_opplevelser": 1.246,
+      "handel": 0.872,
+      "tjenester": 0.374
+    },
+    {
+      "date": "2023-05-19",
+      "mat_opplevelser": 2.606,
+      "handel": 1.824,
+      "tjenester": 0.782
+    },
+    {
+      "date": "2023-05-20",
+      "mat_opplevelser": 2.663,
+      "handel": 1.864,
+      "tjenester": 0.799
+    },
+    {
+      "date": "2023-05-21",
+      "mat_opplevelser": 1.174,
+      "handel": 0.821,
+      "tjenester": 0.352
+    },
+    {
+      "date": "2023-05-22",
+      "mat_opplevelser": 1.57,
+      "handel": 1.099,
+      "tjenester": 0.471
+    },
+    {
+      "date": "2023-05-23",
+      "mat_opplevelser": 1.433,
+      "handel": 1.003,
+      "tjenester": 0.43
+    },
+    {
+      "date": "2023-05-24",
+      "mat_opplevelser": 1.688,
+      "handel": 1.182,
+      "tjenester": 0.506
+    },
+    {
+      "date": "2023-05-25",
+      "mat_opplevelser": 1.924,
+      "handel": 1.347,
+      "tjenester": 0.577
+    },
+    {
+      "date": "2023-05-26",
+      "mat_opplevelser": 2.604,
+      "handel": 1.822,
+      "tjenester": 0.781
+    },
+    {
+      "date": "2023-05-27",
+      "mat_opplevelser": 2.867,
+      "handel": 2.007,
+      "tjenester": 0.86
+    },
+    {
+      "date": "2023-05-28",
+      "mat_opplevelser": 1.423,
+      "handel": 0.996,
+      "tjenester": 0.427
+    },
+    {
+      "date": "2023-05-29",
+      "mat_opplevelser": 0.881,
+      "handel": 0.616,
+      "tjenester": 0.264
+    },
+    {
+      "date": "2023-05-30",
+      "mat_opplevelser": 1.715,
+      "handel": 1.2,
+      "tjenester": 0.514
+    },
+    {
+      "date": "2023-05-31",
+      "mat_opplevelser": 1.991,
+      "handel": 1.393,
+      "tjenester": 0.597
+    },
+    {
+      "date": "2023-06-01",
+      "mat_opplevelser": 2.017,
+      "handel": 1.412,
+      "tjenester": 0.605
+    },
+    {
+      "date": "2023-06-02",
+      "mat_opplevelser": 2.752,
+      "handel": 1.926,
+      "tjenester": 0.826
+    },
+    {
+      "date": "2023-06-03",
+      "mat_opplevelser": 3.439,
+      "handel": 2.407,
+      "tjenester": 1.032
+    },
+    {
+      "date": "2023-06-04",
+      "mat_opplevelser": 1.256,
+      "handel": 0.879,
+      "tjenester": 0.377
+    },
+    {
+      "date": "2023-06-05",
+      "mat_opplevelser": 1.558,
+      "handel": 1.09,
+      "tjenester": 0.467
+    },
+    {
+      "date": "2023-06-06",
+      "mat_opplevelser": 1.685,
+      "handel": 1.18,
+      "tjenester": 0.505
+    },
+    {
+      "date": "2023-06-07",
+      "mat_opplevelser": 1.823,
+      "handel": 1.276,
+      "tjenester": 0.547
+    },
+    {
+      "date": "2023-06-08",
+      "mat_opplevelser": 1.864,
+      "handel": 1.304,
+      "tjenester": 0.559
+    },
+    {
+      "date": "2023-06-09",
+      "mat_opplevelser": 2.66,
+      "handel": 1.862,
+      "tjenester": 0.798
+    },
+    {
+      "date": "2023-06-10",
+      "mat_opplevelser": 3.141,
+      "handel": 2.199,
+      "tjenester": 0.942
+    },
+    {
+      "date": "2023-06-11",
+      "mat_opplevelser": 1.262,
+      "handel": 0.883,
+      "tjenester": 0.379
+    },
+    {
+      "date": "2023-06-12",
+      "mat_opplevelser": 1.839,
+      "handel": 1.287,
+      "tjenester": 0.552
+    },
+    {
+      "date": "2023-06-13",
+      "mat_opplevelser": 1.979,
+      "handel": 1.385,
+      "tjenester": 0.594
+    },
+    {
+      "date": "2023-06-14",
+      "mat_opplevelser": 2.074,
+      "handel": 1.452,
+      "tjenester": 0.622
+    },
+    {
+      "date": "2023-06-15",
+      "mat_opplevelser": 2.476,
+      "handel": 1.733,
+      "tjenester": 0.743
+    },
+    {
+      "date": "2023-06-16",
+      "mat_opplevelser": 2.861,
+      "handel": 2.002,
+      "tjenester": 0.858
+    },
+    {
+      "date": "2023-06-17",
+      "mat_opplevelser": 3.047,
+      "handel": 2.133,
+      "tjenester": 0.914
+    },
+    {
+      "date": "2023-06-18",
+      "mat_opplevelser": 1.296,
+      "handel": 0.907,
+      "tjenester": 0.389
+    },
+    {
+      "date": "2023-06-19",
+      "mat_opplevelser": 1.942,
+      "handel": 1.359,
+      "tjenester": 0.583
+    },
+    {
+      "date": "2023-06-20",
+      "mat_opplevelser": 2.109,
+      "handel": 1.476,
+      "tjenester": 0.633
+    },
+    {
+      "date": "2023-06-21",
+      "mat_opplevelser": 1.94,
+      "handel": 1.358,
+      "tjenester": 0.582
+    },
+    {
+      "date": "2023-06-22",
+      "mat_opplevelser": 2.39,
+      "handel": 1.673,
+      "tjenester": 0.717
+    },
+    {
+      "date": "2023-06-23",
+      "mat_opplevelser": 2.719,
+      "handel": 1.903,
+      "tjenester": 0.816
+    },
+    {
+      "date": "2023-06-24",
+      "mat_opplevelser": 2.85,
+      "handel": 1.995,
+      "tjenester": 0.855
+    },
+    {
+      "date": "2023-06-25",
+      "mat_opplevelser": 1.263,
+      "handel": 0.884,
+      "tjenester": 0.379
+    },
+    {
+      "date": "2023-06-26",
+      "mat_opplevelser": 1.638,
+      "handel": 1.146,
+      "tjenester": 0.491
+    },
+    {
+      "date": "2023-06-27",
+      "mat_opplevelser": 1.927,
+      "handel": 1.349,
+      "tjenester": 0.578
+    },
+    {
+      "date": "2023-06-28",
+      "mat_opplevelser": 2.078,
+      "handel": 1.454,
+      "tjenester": 0.623
+    },
+    {
+      "date": "2023-06-29",
+      "mat_opplevelser": 2.297,
+      "handel": 1.608,
+      "tjenester": 0.689
+    },
+    {
+      "date": "2023-06-30",
+      "mat_opplevelser": 2.952,
+      "handel": 2.066,
+      "tjenester": 0.886
+    },
+    {
+      "date": "2023-07-01",
+      "mat_opplevelser": 3.208,
+      "handel": 2.245,
+      "tjenester": 0.962
+    },
+    {
+      "date": "2023-07-02",
+      "mat_opplevelser": 1.264,
+      "handel": 0.885,
+      "tjenester": 0.379
+    },
+    {
+      "date": "2023-07-03",
+      "mat_opplevelser": 1.772,
+      "handel": 1.24,
+      "tjenester": 0.531
+    },
+    {
+      "date": "2023-07-04",
+      "mat_opplevelser": 1.785,
+      "handel": 1.249,
+      "tjenester": 0.535
+    },
+    {
+      "date": "2023-07-05",
+      "mat_opplevelser": 1.877,
+      "handel": 1.314,
+      "tjenester": 0.563
+    },
+    {
+      "date": "2023-07-06",
+      "mat_opplevelser": 1.605,
+      "handel": 1.124,
+      "tjenester": 0.482
+    },
+    {
+      "date": "2023-07-07",
+      "mat_opplevelser": 2,
+      "handel": 1.4,
+      "tjenester": 0.6
+    },
+    {
+      "date": "2023-07-08",
+      "mat_opplevelser": 2.115,
+      "handel": 1.481,
+      "tjenester": 0.635
+    },
+    {
+      "date": "2023-07-09",
+      "mat_opplevelser": 1.035,
+      "handel": 0.724,
+      "tjenester": 0.31
+    },
+    {
+      "date": "2023-07-10",
+      "mat_opplevelser": 1.602,
+      "handel": 1.121,
+      "tjenester": 0.481
+    },
+    {
+      "date": "2023-07-11",
+      "mat_opplevelser": 1.579,
+      "handel": 1.105,
+      "tjenester": 0.474
+    },
+    {
+      "date": "2023-07-12",
+      "mat_opplevelser": 1.592,
+      "handel": 1.114,
+      "tjenester": 0.477
+    },
+    {
+      "date": "2023-07-13",
+      "mat_opplevelser": 1.734,
+      "handel": 1.214,
+      "tjenester": 0.52
+    },
+    {
+      "date": "2023-07-14",
+      "mat_opplevelser": 2.151,
+      "handel": 1.506,
+      "tjenester": 0.645
+    },
+    {
+      "date": "2023-07-15",
+      "mat_opplevelser": 1.855,
+      "handel": 1.299,
+      "tjenester": 0.557
+    },
+    {
+      "date": "2023-07-16",
+      "mat_opplevelser": 0.923,
+      "handel": 0.646,
+      "tjenester": 0.277
+    },
+    {
+      "date": "2023-07-17",
+      "mat_opplevelser": 1.645,
+      "handel": 1.152,
+      "tjenester": 0.494
+    },
+    {
+      "date": "2023-07-18",
+      "mat_opplevelser": 1.593,
+      "handel": 1.115,
+      "tjenester": 0.478
+    },
+    {
+      "date": "2023-07-19",
+      "mat_opplevelser": 1.838,
+      "handel": 1.287,
+      "tjenester": 0.551
+    },
+    {
+      "date": "2023-07-20",
+      "mat_opplevelser": 1.85,
+      "handel": 1.295,
+      "tjenester": 0.555
+    },
+    {
+      "date": "2023-07-21",
+      "mat_opplevelser": 1.944,
+      "handel": 1.36,
+      "tjenester": 0.583
+    },
+    {
+      "date": "2023-07-22",
+      "mat_opplevelser": 1.906,
+      "handel": 1.334,
+      "tjenester": 0.572
+    },
+    {
+      "date": "2023-07-23",
+      "mat_opplevelser": 1.155,
+      "handel": 0.809,
+      "tjenester": 0.347
+    },
+    {
+      "date": "2023-07-24",
+      "mat_opplevelser": 1.267,
+      "handel": 0.887,
+      "tjenester": 0.38
+    },
+    {
+      "date": "2023-07-25",
+      "mat_opplevelser": 1.626,
+      "handel": 1.138,
+      "tjenester": 0.488
+    },
+    {
+      "date": "2023-07-26",
+      "mat_opplevelser": 1.705,
+      "handel": 1.193,
+      "tjenester": 0.511
+    },
+    {
+      "date": "2023-07-27",
+      "mat_opplevelser": 1.768,
+      "handel": 1.237,
+      "tjenester": 0.53
+    },
+    {
+      "date": "2023-07-28",
+      "mat_opplevelser": 1.998,
+      "handel": 1.398,
+      "tjenester": 0.599
+    },
+    {
+      "date": "2023-07-29",
+      "mat_opplevelser": 2.377,
+      "handel": 1.664,
+      "tjenester": 0.713
+    },
+    {
+      "date": "2023-07-30",
+      "mat_opplevelser": 1.054,
+      "handel": 0.737,
+      "tjenester": 0.316
+    },
+    {
+      "date": "2023-07-31",
+      "mat_opplevelser": 1.547,
+      "handel": 1.083,
+      "tjenester": 0.464
+    },
+    {
+      "date": "2023-08-01",
+      "mat_opplevelser": 1.748,
+      "handel": 1.223,
+      "tjenester": 0.524
+    },
+    {
+      "date": "2023-08-02",
+      "mat_opplevelser": 1.898,
+      "handel": 1.328,
+      "tjenester": 0.569
+    },
+    {
+      "date": "2023-08-03",
+      "mat_opplevelser": 1.81,
+      "handel": 1.267,
+      "tjenester": 0.543
+    },
+    {
+      "date": "2023-08-04",
+      "mat_opplevelser": 2.222,
+      "handel": 1.555,
+      "tjenester": 0.667
+    },
+    {
+      "date": "2023-08-05",
+      "mat_opplevelser": 2.288,
+      "handel": 1.602,
+      "tjenester": 0.686
+    },
+    {
+      "date": "2023-08-06",
+      "mat_opplevelser": 1.053,
+      "handel": 0.737,
+      "tjenester": 0.316
+    },
+    {
+      "date": "2023-08-07",
+      "mat_opplevelser": 1.135,
+      "handel": 0.795,
+      "tjenester": 0.34
+    },
+    {
+      "date": "2023-08-08",
+      "mat_opplevelser": 1.457,
+      "handel": 1.02,
+      "tjenester": 0.437
+    },
+    {
+      "date": "2023-08-09",
+      "mat_opplevelser": 1.646,
+      "handel": 1.152,
+      "tjenester": 0.494
+    },
+    {
+      "date": "2023-08-10",
+      "mat_opplevelser": 2.011,
+      "handel": 1.407,
+      "tjenester": 0.603
+    },
+    {
+      "date": "2023-08-11",
+      "mat_opplevelser": 2.624,
+      "handel": 1.837,
+      "tjenester": 0.787
+    },
+    {
+      "date": "2023-08-12",
+      "mat_opplevelser": 2.916,
+      "handel": 2.041,
+      "tjenester": 0.875
+    },
+    {
+      "date": "2023-08-13",
+      "mat_opplevelser": 1.32,
+      "handel": 0.924,
+      "tjenester": 0.396
+    },
+    {
+      "date": "2023-08-14",
+      "mat_opplevelser": 1.519,
+      "handel": 1.063,
+      "tjenester": 0.456
+    },
+    {
+      "date": "2023-08-15",
+      "mat_opplevelser": 1.525,
+      "handel": 1.068,
+      "tjenester": 0.457
+    },
+    {
+      "date": "2023-08-16",
+      "mat_opplevelser": 1.951,
+      "handel": 1.365,
+      "tjenester": 0.585
+    },
+    {
+      "date": "2023-08-17",
+      "mat_opplevelser": 2.074,
+      "handel": 1.451,
+      "tjenester": 0.622
+    },
+    {
+      "date": "2023-08-18",
+      "mat_opplevelser": 2.577,
+      "handel": 1.804,
+      "tjenester": 0.773
+    },
+    {
+      "date": "2023-08-19",
+      "mat_opplevelser": 2.947,
+      "handel": 2.063,
+      "tjenester": 0.884
+    },
+    {
+      "date": "2023-08-20",
+      "mat_opplevelser": 1.163,
+      "handel": 0.814,
+      "tjenester": 0.349
+    },
+    {
+      "date": "2023-08-21",
+      "mat_opplevelser": 1.556,
+      "handel": 1.089,
+      "tjenester": 0.467
+    },
+    {
+      "date": "2023-08-22",
+      "mat_opplevelser": 1.616,
+      "handel": 1.131,
+      "tjenester": 0.485
+    },
+    {
+      "date": "2023-08-23",
+      "mat_opplevelser": 1.663,
+      "handel": 1.164,
+      "tjenester": 0.499
+    },
+    {
+      "date": "2023-08-24",
+      "mat_opplevelser": 1.857,
+      "handel": 1.3,
+      "tjenester": 0.557
+    },
+    {
+      "date": "2023-08-25",
+      "mat_opplevelser": 2.199,
+      "handel": 1.539,
+      "tjenester": 0.66
+    },
+    {
+      "date": "2023-08-26",
+      "mat_opplevelser": 2.6,
+      "handel": 1.82,
+      "tjenester": 0.78
+    },
+    {
+      "date": "2023-08-27",
+      "mat_opplevelser": 1.15,
+      "handel": 0.805,
+      "tjenester": 0.345
+    },
+    {
+      "date": "2023-08-28",
+      "mat_opplevelser": 1.441,
+      "handel": 1.008,
+      "tjenester": 0.432
+    },
+    {
+      "date": "2023-08-29",
+      "mat_opplevelser": 1.566,
+      "handel": 1.096,
+      "tjenester": 0.47
+    },
+    {
+      "date": "2023-08-30",
+      "mat_opplevelser": 1.663,
+      "handel": 1.164,
+      "tjenester": 0.499
+    },
+    {
+      "date": "2023-08-31",
+      "mat_opplevelser": 1.929,
+      "handel": 1.35,
+      "tjenester": 0.579
+    },
+    {
+      "date": "2023-09-01",
+      "mat_opplevelser": 2.51,
+      "handel": 1.757,
+      "tjenester": 0.753
+    },
+    {
+      "date": "2023-09-02",
+      "mat_opplevelser": 3.132,
+      "handel": 2.192,
+      "tjenester": 0.94
+    },
+    {
+      "date": "2023-09-03",
+      "mat_opplevelser": 1.187,
+      "handel": 0.831,
+      "tjenester": 0.356
+    },
+    {
+      "date": "2023-09-04",
+      "mat_opplevelser": 1.651,
+      "handel": 1.156,
+      "tjenester": 0.495
+    },
+    {
+      "date": "2023-09-05",
+      "mat_opplevelser": 1.669,
+      "handel": 1.168,
+      "tjenester": 0.501
+    },
+    {
+      "date": "2023-09-06",
+      "mat_opplevelser": 1.585,
+      "handel": 1.109,
+      "tjenester": 0.475
+    },
+    {
+      "date": "2023-09-07",
+      "mat_opplevelser": 1.61,
+      "handel": 1.127,
+      "tjenester": 0.483
+    },
+    {
+      "date": "2023-09-08",
+      "mat_opplevelser": 2.257,
+      "handel": 1.58,
+      "tjenester": 0.677
+    },
+    {
+      "date": "2023-09-09",
+      "mat_opplevelser": 2.813,
+      "handel": 1.969,
+      "tjenester": 0.844
+    },
+    {
+      "date": "2023-09-10",
+      "mat_opplevelser": 1.342,
+      "handel": 0.939,
+      "tjenester": 0.403
+    },
+    {
+      "date": "2023-09-11",
+      "mat_opplevelser": 1.15,
+      "handel": 0.805,
+      "tjenester": 0.345
+    },
+    {
+      "date": "2023-09-12",
+      "mat_opplevelser": 1.608,
+      "handel": 1.125,
+      "tjenester": 0.482
+    },
+    {
+      "date": "2023-09-13",
+      "mat_opplevelser": 1.668,
+      "handel": 1.168,
+      "tjenester": 0.5
+    },
+    {
+      "date": "2023-09-14",
+      "mat_opplevelser": 1.724,
+      "handel": 1.207,
+      "tjenester": 0.517
+    },
+    {
+      "date": "2023-09-15",
+      "mat_opplevelser": 2.456,
+      "handel": 1.719,
+      "tjenester": 0.737
+    },
+    {
+      "date": "2023-09-16",
+      "mat_opplevelser": 3.242,
+      "handel": 2.269,
+      "tjenester": 0.972
+    },
+    {
+      "date": "2023-09-17",
+      "mat_opplevelser": 1.652,
+      "handel": 1.156,
+      "tjenester": 0.496
+    },
+    {
+      "date": "2023-09-18",
+      "mat_opplevelser": 1.181,
+      "handel": 0.826,
+      "tjenester": 0.354
+    },
+    {
+      "date": "2023-09-19",
+      "mat_opplevelser": 1.482,
+      "handel": 1.037,
+      "tjenester": 0.444
+    },
+    {
+      "date": "2023-09-20",
+      "mat_opplevelser": 1.564,
+      "handel": 1.095,
+      "tjenester": 0.469
+    },
+    {
+      "date": "2023-09-21",
+      "mat_opplevelser": 1.614,
+      "handel": 1.13,
+      "tjenester": 0.484
+    },
+    {
+      "date": "2023-09-22",
+      "mat_opplevelser": 2.29,
+      "handel": 1.603,
+      "tjenester": 0.687
+    },
+    {
+      "date": "2023-09-23",
+      "mat_opplevelser": 3.273,
+      "handel": 2.291,
+      "tjenester": 0.982
+    },
+    {
+      "date": "2023-09-24",
+      "mat_opplevelser": 1.356,
+      "handel": 0.949,
+      "tjenester": 0.407
+    },
+    {
+      "date": "2023-09-25",
+      "mat_opplevelser": 1.285,
+      "handel": 0.899,
+      "tjenester": 0.385
+    },
+    {
+      "date": "2023-09-26",
+      "mat_opplevelser": 1.523,
+      "handel": 1.066,
+      "tjenester": 0.457
+    },
+    {
+      "date": "2023-09-27",
+      "mat_opplevelser": 1.599,
+      "handel": 1.119,
+      "tjenester": 0.48
+    },
+    {
+      "date": "2023-09-28",
+      "mat_opplevelser": 1.601,
+      "handel": 1.12,
+      "tjenester": 0.48
+    },
+    {
+      "date": "2023-09-29",
+      "mat_opplevelser": 2.453,
+      "handel": 1.717,
+      "tjenester": 0.736
+    },
+    {
+      "date": "2023-09-30",
+      "mat_opplevelser": 3.316,
+      "handel": 2.321,
+      "tjenester": 0.995
+    },
+    {
+      "date": "2023-10-01",
+      "mat_opplevelser": 1.287,
+      "handel": 0.901,
+      "tjenester": 0.386
+    },
+    {
+      "date": "2023-10-02",
+      "mat_opplevelser": 1.364,
+      "handel": 0.954,
+      "tjenester": 0.409
+    },
+    {
+      "date": "2023-10-03",
+      "mat_opplevelser": 1.44,
+      "handel": 1.008,
+      "tjenester": 0.432
+    },
+    {
+      "date": "2023-10-04",
+      "mat_opplevelser": 1.63,
+      "handel": 1.141,
+      "tjenester": 0.489
+    },
+    {
+      "date": "2023-10-05",
+      "mat_opplevelser": 1.663,
+      "handel": 1.164,
+      "tjenester": 0.499
+    },
+    {
+      "date": "2023-10-06",
+      "mat_opplevelser": 2.008,
+      "handel": 1.406,
+      "tjenester": 0.602
+    },
+    {
+      "date": "2023-10-07",
+      "mat_opplevelser": 2.71,
+      "handel": 1.897,
+      "tjenester": 0.813
+    },
+    {
+      "date": "2023-10-08",
+      "mat_opplevelser": 1.175,
+      "handel": 0.822,
+      "tjenester": 0.352
+    },
+    {
+      "date": "2023-10-09",
+      "mat_opplevelser": 1.3,
+      "handel": 0.91,
+      "tjenester": 0.39
+    },
+    {
+      "date": "2023-10-10",
+      "mat_opplevelser": 1.325,
+      "handel": 0.927,
+      "tjenester": 0.397
+    },
+    {
+      "date": "2023-10-11",
+      "mat_opplevelser": 1.601,
+      "handel": 1.12,
+      "tjenester": 0.48
+    },
+    {
+      "date": "2023-10-12",
+      "mat_opplevelser": 1.752,
+      "handel": 1.226,
+      "tjenester": 0.526
+    },
+    {
+      "date": "2023-10-13",
+      "mat_opplevelser": 2.406,
+      "handel": 1.684,
+      "tjenester": 0.722
+    },
+    {
+      "date": "2023-10-14",
+      "mat_opplevelser": 3.265,
+      "handel": 2.285,
+      "tjenester": 0.979
+    },
+    {
+      "date": "2023-10-15",
+      "mat_opplevelser": 1.365,
+      "handel": 0.955,
+      "tjenester": 0.409
+    },
+    {
+      "date": "2023-10-16",
+      "mat_opplevelser": 1.317,
+      "handel": 0.922,
+      "tjenester": 0.395
+    },
+    {
+      "date": "2023-10-17",
+      "mat_opplevelser": 1.396,
+      "handel": 0.977,
+      "tjenester": 0.419
+    },
+    {
+      "date": "2023-10-18",
+      "mat_opplevelser": 1.503,
+      "handel": 1.052,
+      "tjenester": 0.451
+    },
+    {
+      "date": "2023-10-19",
+      "mat_opplevelser": 1.694,
+      "handel": 1.185,
+      "tjenester": 0.508
+    },
+    {
+      "date": "2023-10-20",
+      "mat_opplevelser": 2.419,
+      "handel": 1.693,
+      "tjenester": 0.726
+    },
+    {
+      "date": "2023-10-21",
+      "mat_opplevelser": 2.801,
+      "handel": 1.96,
+      "tjenester": 0.84
+    },
+    {
+      "date": "2023-10-22",
+      "mat_opplevelser": 1.119,
+      "handel": 0.783,
+      "tjenester": 0.336
+    },
+    {
+      "date": "2023-10-23",
+      "mat_opplevelser": 1.298,
+      "handel": 0.909,
+      "tjenester": 0.389
+    },
+    {
+      "date": "2023-10-24",
+      "mat_opplevelser": 1.268,
+      "handel": 0.888,
+      "tjenester": 0.38
+    },
+    {
+      "date": "2023-10-25",
+      "mat_opplevelser": 1.411,
+      "handel": 0.987,
+      "tjenester": 0.423
+    },
+    {
+      "date": "2023-10-26",
+      "mat_opplevelser": 1.617,
+      "handel": 1.132,
+      "tjenester": 0.485
+    },
+    {
+      "date": "2023-10-27",
+      "mat_opplevelser": 2.242,
+      "handel": 1.569,
+      "tjenester": 0.673
+    },
+    {
+      "date": "2023-10-28",
+      "mat_opplevelser": 2.962,
+      "handel": 2.073,
+      "tjenester": 0.889
+    },
+    {
+      "date": "2023-10-29",
+      "mat_opplevelser": 1.119,
+      "handel": 0.783,
+      "tjenester": 0.336
+    },
+    {
+      "date": "2023-10-30",
+      "mat_opplevelser": 1.004,
+      "handel": 0.702,
+      "tjenester": 0.301
+    },
+    {
+      "date": "2023-10-31",
+      "mat_opplevelser": 1.266,
+      "handel": 0.886,
+      "tjenester": 0.38
+    },
+    {
+      "date": "2023-11-01",
+      "mat_opplevelser": 1.448,
+      "handel": 1.013,
+      "tjenester": 0.434
+    },
+    {
+      "date": "2023-11-02",
+      "mat_opplevelser": 1.412,
+      "handel": 0.988,
+      "tjenester": 0.424
+    },
+    {
+      "date": "2023-11-03",
+      "mat_opplevelser": 1.803,
+      "handel": 1.262,
+      "tjenester": 0.541
+    },
+    {
+      "date": "2023-11-04",
+      "mat_opplevelser": 2.766,
+      "handel": 1.936,
+      "tjenester": 0.83
+    },
+    {
+      "date": "2023-11-05",
+      "mat_opplevelser": 0.97,
+      "handel": 0.679,
+      "tjenester": 0.291
+    },
+    {
+      "date": "2023-11-06",
+      "mat_opplevelser": 1.124,
+      "handel": 0.787,
+      "tjenester": 0.337
+    },
+    {
+      "date": "2023-11-07",
+      "mat_opplevelser": 1.269,
+      "handel": 0.888,
+      "tjenester": 0.381
+    },
+    {
+      "date": "2023-11-08",
+      "mat_opplevelser": 1.381,
+      "handel": 0.967,
+      "tjenester": 0.414
+    },
+    {
+      "date": "2023-11-09",
+      "mat_opplevelser": 1.469,
+      "handel": 1.028,
+      "tjenester": 0.441
+    },
+    {
+      "date": "2023-11-10",
+      "mat_opplevelser": 2.347,
+      "handel": 1.643,
+      "tjenester": 0.704
+    },
+    {
+      "date": "2023-11-11",
+      "mat_opplevelser": 3.178,
+      "handel": 2.225,
+      "tjenester": 0.953
+    },
+    {
+      "date": "2023-11-12",
+      "mat_opplevelser": 1.05,
+      "handel": 0.735,
+      "tjenester": 0.315
+    },
+    {
+      "date": "2023-11-13",
+      "mat_opplevelser": 1.313,
+      "handel": 0.919,
+      "tjenester": 0.394
+    },
+    {
+      "date": "2023-11-14",
+      "mat_opplevelser": 1.332,
+      "handel": 0.932,
+      "tjenester": 0.399
+    },
+    {
+      "date": "2023-11-15",
+      "mat_opplevelser": 1.497,
+      "handel": 1.048,
+      "tjenester": 0.449
+    },
+    {
+      "date": "2023-11-16",
+      "mat_opplevelser": 1.66,
+      "handel": 1.162,
+      "tjenester": 0.498
+    },
+    {
+      "date": "2023-11-17",
+      "mat_opplevelser": 2.434,
+      "handel": 1.704,
+      "tjenester": 0.73
+    },
+    {
+      "date": "2023-11-18",
+      "mat_opplevelser": 3.169,
+      "handel": 2.218,
+      "tjenester": 0.951
+    },
+    {
+      "date": "2023-11-19",
+      "mat_opplevelser": 1.101,
+      "handel": 0.771,
+      "tjenester": 0.33
+    },
+    {
+      "date": "2023-11-20",
+      "mat_opplevelser": 1.287,
+      "handel": 0.901,
+      "tjenester": 0.386
+    },
+    {
+      "date": "2023-11-21",
+      "mat_opplevelser": 1.449,
+      "handel": 1.014,
+      "tjenester": 0.435
+    },
+    {
+      "date": "2023-11-22",
+      "mat_opplevelser": 1.459,
+      "handel": 1.021,
+      "tjenester": 0.438
+    },
+    {
+      "date": "2023-11-23",
+      "mat_opplevelser": 1.776,
+      "handel": 1.243,
+      "tjenester": 0.533
+    },
+    {
+      "date": "2023-11-24",
+      "mat_opplevelser": 2.456,
+      "handel": 1.719,
+      "tjenester": 0.737
+    },
+    {
+      "date": "2023-11-25",
+      "mat_opplevelser": 3.071,
+      "handel": 2.149,
+      "tjenester": 0.921
+    },
+    {
+      "date": "2023-11-26",
+      "mat_opplevelser": 1.051,
+      "handel": 0.735,
+      "tjenester": 0.315
+    },
+    {
+      "date": "2023-11-27",
+      "mat_opplevelser": 1.368,
+      "handel": 0.958,
+      "tjenester": 0.41
+    },
+    {
+      "date": "2023-11-28",
+      "mat_opplevelser": 1.351,
+      "handel": 0.946,
+      "tjenester": 0.405
+    },
+    {
+      "date": "2023-11-29",
+      "mat_opplevelser": 1.469,
+      "handel": 1.028,
+      "tjenester": 0.441
+    },
+    {
+      "date": "2023-11-30",
+      "mat_opplevelser": 1.783,
+      "handel": 1.248,
+      "tjenester": 0.535
+    },
+    {
+      "date": "2023-12-01",
+      "mat_opplevelser": 2.234,
+      "handel": 1.564,
+      "tjenester": 0.67
+    },
+    {
+      "date": "2023-12-02",
+      "mat_opplevelser": 3.027,
+      "handel": 2.119,
+      "tjenester": 0.908
+    },
+    {
+      "date": "2023-12-03",
+      "mat_opplevelser": 1.108,
+      "handel": 0.775,
+      "tjenester": 0.332
+    },
+    {
+      "date": "2023-12-04",
+      "mat_opplevelser": 1.239,
+      "handel": 0.867,
+      "tjenester": 0.372
+    },
+    {
+      "date": "2023-12-05",
+      "mat_opplevelser": 1.315,
+      "handel": 0.92,
+      "tjenester": 0.394
+    },
+    {
+      "date": "2023-12-06",
+      "mat_opplevelser": 1.5,
+      "handel": 1.05,
+      "tjenester": 0.45
+    },
+    {
+      "date": "2023-12-07",
+      "mat_opplevelser": 1.634,
+      "handel": 1.144,
+      "tjenester": 0.49
+    },
+    {
+      "date": "2023-12-08",
+      "mat_opplevelser": 2.359,
+      "handel": 1.651,
+      "tjenester": 0.708
+    },
+    {
+      "date": "2023-12-09",
+      "mat_opplevelser": 3.068,
+      "handel": 2.147,
+      "tjenester": 0.92
+    },
+    {
+      "date": "2023-12-10",
+      "mat_opplevelser": 1.216,
+      "handel": 0.851,
+      "tjenester": 0.365
+    },
+    {
+      "date": "2023-12-11",
+      "mat_opplevelser": 1.528,
+      "handel": 1.07,
+      "tjenester": 0.458
+    },
+    {
+      "date": "2023-12-12",
+      "mat_opplevelser": 1.785,
+      "handel": 1.249,
+      "tjenester": 0.536
+    },
+    {
+      "date": "2023-12-13",
+      "mat_opplevelser": 1.795,
+      "handel": 1.257,
+      "tjenester": 0.539
+    },
+    {
+      "date": "2023-12-14",
+      "mat_opplevelser": 2.128,
+      "handel": 1.489,
+      "tjenester": 0.638
+    },
+    {
+      "date": "2023-12-15",
+      "mat_opplevelser": 2.862,
+      "handel": 2.003,
+      "tjenester": 0.858
+    },
+    {
+      "date": "2023-12-16",
+      "mat_opplevelser": 3.655,
+      "handel": 2.558,
+      "tjenester": 1.096
+    },
+    {
+      "date": "2023-12-17",
+      "mat_opplevelser": 1.656,
+      "handel": 1.159,
+      "tjenester": 0.497
+    },
+    {
+      "date": "2023-12-18",
+      "mat_opplevelser": 1.947,
+      "handel": 1.363,
+      "tjenester": 0.584
+    },
+    {
+      "date": "2023-12-19",
+      "mat_opplevelser": 2.308,
+      "handel": 1.616,
+      "tjenester": 0.692
+    },
+    {
+      "date": "2023-12-20",
+      "mat_opplevelser": 2.588,
+      "handel": 1.811,
+      "tjenester": 0.776
+    },
+    {
+      "date": "2023-12-21",
+      "mat_opplevelser": 2.646,
+      "handel": 1.852,
+      "tjenester": 0.794
+    },
+    {
+      "date": "2023-12-22",
+      "mat_opplevelser": 2.603,
+      "handel": 1.822,
+      "tjenester": 0.781
+    },
+    {
+      "date": "2023-12-23",
+      "mat_opplevelser": 1.516,
+      "handel": 1.061,
+      "tjenester": 0.455
+    },
+    {
+      "date": "2023-12-24",
+      "mat_opplevelser": 0.055,
+      "handel": 0.038,
+      "tjenester": 0.016
+    },
+    {
+      "date": "2023-12-25",
+      "mat_opplevelser": 0.084,
+      "handel": 0.059,
+      "tjenester": 0.025
+    },
+    {
+      "date": "2023-12-26",
+      "mat_opplevelser": 0.22,
+      "handel": 0.154,
+      "tjenester": 0.066
+    },
+    {
+      "date": "2023-12-27",
+      "mat_opplevelser": 1.089,
+      "handel": 0.762,
+      "tjenester": 0.327
+    },
+    {
+      "date": "2023-12-28",
+      "mat_opplevelser": 1.319,
+      "handel": 0.923,
+      "tjenester": 0.396
+    },
+    {
+      "date": "2023-12-29",
+      "mat_opplevelser": 1.577,
+      "handel": 1.104,
+      "tjenester": 0.473
+    },
+    {
+      "date": "2023-12-30",
+      "mat_opplevelser": 1.852,
+      "handel": 1.296,
+      "tjenester": 0.555
+    },
+    {
+      "date": "2023-12-31",
+      "mat_opplevelser": 0.392,
+      "handel": 0.274,
+      "tjenester": 0.117
+    },
+    {
+      "date": "2024-01-01",
+      "mat_opplevelser": 0.206,
+      "handel": 0.144,
+      "tjenester": 0.062
+    },
+    {
+      "date": "2024-01-02",
+      "mat_opplevelser": 0.858,
+      "handel": 0.6,
+      "tjenester": 0.257
+    },
+    {
+      "date": "2024-01-03",
+      "mat_opplevelser": 1.001,
+      "handel": 0.701,
+      "tjenester": 0.3
+    },
+    {
+      "date": "2024-01-04",
+      "mat_opplevelser": 1.06,
+      "handel": 0.742,
+      "tjenester": 0.318
+    },
+    {
+      "date": "2024-01-05",
+      "mat_opplevelser": 1.586,
+      "handel": 1.11,
+      "tjenester": 0.476
+    },
+    {
+      "date": "2024-01-06",
+      "mat_opplevelser": 1.894,
+      "handel": 1.326,
+      "tjenester": 0.568
+    },
+    {
+      "date": "2024-01-07",
+      "mat_opplevelser": 0.711,
+      "handel": 0.497,
+      "tjenester": 0.213
+    },
+    {
+      "date": "2024-01-08",
+      "mat_opplevelser": 0.915,
+      "handel": 0.64,
+      "tjenester": 0.274
+    },
+    {
+      "date": "2024-01-09",
+      "mat_opplevelser": 1.099,
+      "handel": 0.769,
+      "tjenester": 0.33
+    },
+    {
+      "date": "2024-01-10",
+      "mat_opplevelser": 1.312,
+      "handel": 0.918,
+      "tjenester": 0.393
+    },
+    {
+      "date": "2024-01-11",
+      "mat_opplevelser": 1.386,
+      "handel": 0.97,
+      "tjenester": 0.416
+    },
+    {
+      "date": "2024-01-12",
+      "mat_opplevelser": 2.034,
+      "handel": 1.423,
+      "tjenester": 0.61
+    },
+    {
+      "date": "2024-01-13",
+      "mat_opplevelser": 2.533,
+      "handel": 1.773,
+      "tjenester": 0.76
+    },
+    {
+      "date": "2024-01-14",
+      "mat_opplevelser": 0.876,
+      "handel": 0.613,
+      "tjenester": 0.263
+    },
+    {
+      "date": "2024-01-15",
+      "mat_opplevelser": 1.144,
+      "handel": 0.8,
+      "tjenester": 0.343
+    },
+    {
+      "date": "2024-01-16",
+      "mat_opplevelser": 1.087,
+      "handel": 0.761,
+      "tjenester": 0.326
+    },
+    {
+      "date": "2024-01-17",
+      "mat_opplevelser": 0.875,
+      "handel": 0.612,
+      "tjenester": 0.263
+    },
+    {
+      "date": "2024-01-18",
+      "mat_opplevelser": 1.338,
+      "handel": 0.936,
+      "tjenester": 0.401
+    },
+    {
+      "date": "2024-01-19",
+      "mat_opplevelser": 2.08,
+      "handel": 1.456,
+      "tjenester": 0.624
+    },
+    {
+      "date": "2024-01-20",
+      "mat_opplevelser": 2.664,
+      "handel": 1.865,
+      "tjenester": 0.799
+    },
+    {
+      "date": "2024-01-21",
+      "mat_opplevelser": 0.769,
+      "handel": 0.538,
+      "tjenester": 0.231
+    },
+    {
+      "date": "2024-01-22",
+      "mat_opplevelser": 1.043,
+      "handel": 0.73,
+      "tjenester": 0.313
+    },
+    {
+      "date": "2024-01-23",
+      "mat_opplevelser": 1.213,
+      "handel": 0.849,
+      "tjenester": 0.364
+    },
+    {
+      "date": "2024-01-24",
+      "mat_opplevelser": 1.235,
+      "handel": 0.865,
+      "tjenester": 0.371
+    },
+    {
+      "date": "2024-01-25",
+      "mat_opplevelser": 1.533,
+      "handel": 1.073,
+      "tjenester": 0.46
+    },
+    {
+      "date": "2024-01-26",
+      "mat_opplevelser": 1.839,
+      "handel": 1.287,
+      "tjenester": 0.552
+    },
+    {
+      "date": "2024-01-27",
+      "mat_opplevelser": 2.731,
+      "handel": 1.911,
+      "tjenester": 0.819
+    },
+    {
+      "date": "2024-01-28",
+      "mat_opplevelser": 0.929,
+      "handel": 0.65,
+      "tjenester": 0.279
+    },
+    {
+      "date": "2024-01-29",
+      "mat_opplevelser": 1.025,
+      "handel": 0.717,
+      "tjenester": 0.307
+    },
+    {
+      "date": "2024-01-30",
+      "mat_opplevelser": 1.15,
+      "handel": 0.805,
+      "tjenester": 0.345
+    },
+    {
+      "date": "2024-01-31",
+      "mat_opplevelser": 1.478,
+      "handel": 1.035,
+      "tjenester": 0.443
+    },
+    {
+      "date": "2024-02-01",
+      "mat_opplevelser": 1.522,
+      "handel": 1.065,
+      "tjenester": 0.457
+    },
+    {
+      "date": "2024-02-02",
+      "mat_opplevelser": 2.005,
+      "handel": 1.403,
+      "tjenester": 0.601
+    },
+    {
+      "date": "2024-02-03",
+      "mat_opplevelser": 2.791,
+      "handel": 1.953,
+      "tjenester": 0.837
+    },
+    {
+      "date": "2024-02-04",
+      "mat_opplevelser": 1.02,
+      "handel": 0.714,
+      "tjenester": 0.306
+    },
+    {
+      "date": "2024-02-05",
+      "mat_opplevelser": 1.028,
+      "handel": 0.719,
+      "tjenester": 0.308
+    },
+    {
+      "date": "2024-02-06",
+      "mat_opplevelser": 1.082,
+      "handel": 0.757,
+      "tjenester": 0.325
+    },
+    {
+      "date": "2024-02-07",
+      "mat_opplevelser": 1.236,
+      "handel": 0.865,
+      "tjenester": 0.371
+    },
+    {
+      "date": "2024-02-08",
+      "mat_opplevelser": 1.198,
+      "handel": 0.839,
+      "tjenester": 0.359
+    },
+    {
+      "date": "2024-02-09",
+      "mat_opplevelser": 2.077,
+      "handel": 1.454,
+      "tjenester": 0.623
+    },
+    {
+      "date": "2024-02-10",
+      "mat_opplevelser": 2.644,
+      "handel": 1.85,
+      "tjenester": 0.793
+    },
+    {
+      "date": "2024-02-11",
+      "mat_opplevelser": 0.908,
+      "handel": 0.635,
+      "tjenester": 0.272
+    },
+    {
+      "date": "2024-02-12",
+      "mat_opplevelser": 1.008,
+      "handel": 0.706,
+      "tjenester": 0.302
+    },
+    {
+      "date": "2024-02-13",
+      "mat_opplevelser": 1.133,
+      "handel": 0.793,
+      "tjenester": 0.34
+    },
+    {
+      "date": "2024-02-14",
+      "mat_opplevelser": 1.559,
+      "handel": 1.091,
+      "tjenester": 0.468
+    },
+    {
+      "date": "2024-02-15",
+      "mat_opplevelser": 1.494,
+      "handel": 1.046,
+      "tjenester": 0.448
+    },
+    {
+      "date": "2024-02-16",
+      "mat_opplevelser": 1.926,
+      "handel": 1.348,
+      "tjenester": 0.578
+    },
+    {
+      "date": "2024-02-17",
+      "mat_opplevelser": 2.801,
+      "handel": 1.961,
+      "tjenester": 0.84
+    },
+    {
+      "date": "2024-02-18",
+      "mat_opplevelser": 0.872,
+      "handel": 0.61,
+      "tjenester": 0.261
+    },
+    {
+      "date": "2024-02-19",
+      "mat_opplevelser": 1.301,
+      "handel": 0.91,
+      "tjenester": 0.39
+    },
+    {
+      "date": "2024-02-20",
+      "mat_opplevelser": 1.309,
+      "handel": 0.916,
+      "tjenester": 0.393
+    },
+    {
+      "date": "2024-02-21",
+      "mat_opplevelser": 1.446,
+      "handel": 1.012,
+      "tjenester": 0.434
+    },
+    {
+      "date": "2024-02-22",
+      "mat_opplevelser": 1.548,
+      "handel": 1.084,
+      "tjenester": 0.464
+    },
+    {
+      "date": "2024-02-23",
+      "mat_opplevelser": 2.097,
+      "handel": 1.468,
+      "tjenester": 0.629
+    },
+    {
+      "date": "2024-02-24",
+      "mat_opplevelser": 2.559,
+      "handel": 1.791,
+      "tjenester": 0.768
+    },
+    {
+      "date": "2024-02-25",
+      "mat_opplevelser": 1.013,
+      "handel": 0.709,
+      "tjenester": 0.304
+    },
+    {
+      "date": "2024-02-26",
+      "mat_opplevelser": 1.234,
+      "handel": 0.864,
+      "tjenester": 0.37
+    },
+    {
+      "date": "2024-02-27",
+      "mat_opplevelser": 1.268,
+      "handel": 0.888,
+      "tjenester": 0.38
+    },
+    {
+      "date": "2024-02-28",
+      "mat_opplevelser": 1.447,
+      "handel": 1.013,
+      "tjenester": 0.434
+    },
+    {
+      "date": "2024-02-29",
+      "mat_opplevelser": 1.447,
+      "handel": 1.013,
+      "tjenester": 0.434
+    },
+    {
+      "date": "2024-03-01",
+      "mat_opplevelser": 2.231,
+      "handel": 1.562,
+      "tjenester": 0.669
+    },
+    {
+      "date": "2024-03-02",
+      "mat_opplevelser": 2.69,
+      "handel": 1.883,
+      "tjenester": 0.807
+    },
+    {
+      "date": "2024-03-03",
+      "mat_opplevelser": 0.919,
+      "handel": 0.643,
+      "tjenester": 0.276
+    },
+    {
+      "date": "2024-03-04",
+      "mat_opplevelser": 1.196,
+      "handel": 0.837,
+      "tjenester": 0.359
+    },
+    {
+      "date": "2024-03-05",
+      "mat_opplevelser": 1.244,
+      "handel": 0.871,
+      "tjenester": 0.373
+    },
+    {
+      "date": "2024-03-06",
+      "mat_opplevelser": 1.5,
+      "handel": 1.05,
+      "tjenester": 0.45
+    },
+    {
+      "date": "2024-03-07",
+      "mat_opplevelser": 1.568,
+      "handel": 1.098,
+      "tjenester": 0.47
+    },
+    {
+      "date": "2024-03-08",
+      "mat_opplevelser": 2.462,
+      "handel": 1.723,
+      "tjenester": 0.738
+    },
+    {
+      "date": "2024-03-09",
+      "mat_opplevelser": 2.793,
+      "handel": 1.955,
+      "tjenester": 0.838
+    },
+    {
+      "date": "2024-03-10",
+      "mat_opplevelser": 0.978,
+      "handel": 0.685,
+      "tjenester": 0.293
+    },
+    {
+      "date": "2024-03-11",
+      "mat_opplevelser": 1.154,
+      "handel": 0.808,
+      "tjenester": 0.346
+    },
+    {
+      "date": "2024-03-12",
+      "mat_opplevelser": 1.301,
+      "handel": 0.91,
+      "tjenester": 0.39
+    },
+    {
+      "date": "2024-03-13",
+      "mat_opplevelser": 1.274,
+      "handel": 0.892,
+      "tjenester": 0.382
+    },
+    {
+      "date": "2024-03-14",
+      "mat_opplevelser": 1.725,
+      "handel": 1.208,
+      "tjenester": 0.518
+    },
+    {
+      "date": "2024-03-15",
+      "mat_opplevelser": 2.167,
+      "handel": 1.517,
+      "tjenester": 0.65
+    },
+    {
+      "date": "2024-03-16",
+      "mat_opplevelser": 2.341,
+      "handel": 1.639,
+      "tjenester": 0.702
+    },
+    {
+      "date": "2024-03-17",
+      "mat_opplevelser": 1.26,
+      "handel": 0.882,
+      "tjenester": 0.378
+    },
+    {
+      "date": "2024-03-18",
+      "mat_opplevelser": 1.119,
+      "handel": 0.783,
+      "tjenester": 0.336
+    },
+    {
+      "date": "2024-03-19",
+      "mat_opplevelser": 1.344,
+      "handel": 0.941,
+      "tjenester": 0.403
+    },
+    {
+      "date": "2024-03-20",
+      "mat_opplevelser": 1.547,
+      "handel": 1.083,
+      "tjenester": 0.464
+    },
+    {
+      "date": "2024-03-21",
+      "mat_opplevelser": 1.703,
+      "handel": 1.192,
+      "tjenester": 0.511
+    },
+    {
+      "date": "2024-03-22",
+      "mat_opplevelser": 2.568,
+      "handel": 1.798,
+      "tjenester": 0.77
+    },
+    {
+      "date": "2024-03-23",
+      "mat_opplevelser": 2.558,
+      "handel": 1.79,
+      "tjenester": 0.767
+    },
+    {
+      "date": "2024-03-24",
+      "mat_opplevelser": 0.937,
+      "handel": 0.656,
+      "tjenester": 0.281
+    },
+    {
+      "date": "2024-03-25",
+      "mat_opplevelser": 1.4,
+      "handel": 0.98,
+      "tjenester": 0.42
+    },
+    {
+      "date": "2024-03-26",
+      "mat_opplevelser": 1.636,
+      "handel": 1.145,
+      "tjenester": 0.491
+    },
+    {
+      "date": "2024-03-27",
+      "mat_opplevelser": 1.921,
+      "handel": 1.345,
+      "tjenester": 0.576
+    },
+    {
+      "date": "2024-03-28",
+      "mat_opplevelser": 0.608,
+      "handel": 0.426,
+      "tjenester": 0.182
+    },
+    {
+      "date": "2024-03-29",
+      "mat_opplevelser": 0.668,
+      "handel": 0.468,
+      "tjenester": 0.2
+    },
+    {
+      "date": "2024-03-30",
+      "mat_opplevelser": 1.44,
+      "handel": 1.008,
+      "tjenester": 0.432
+    },
+    {
+      "date": "2024-03-31",
+      "mat_opplevelser": 0.612,
+      "handel": 0.428,
+      "tjenester": 0.183
+    },
+    {
+      "date": "2024-04-01",
+      "mat_opplevelser": 1.049,
+      "handel": 0.734,
+      "tjenester": 0.315
+    },
+    {
+      "date": "2024-04-02",
+      "mat_opplevelser": 1.259,
+      "handel": 0.881,
+      "tjenester": 0.378
+    },
+    {
+      "date": "2024-04-03",
+      "mat_opplevelser": 1.376,
+      "handel": 0.963,
+      "tjenester": 0.413
+    },
+    {
+      "date": "2024-04-04",
+      "mat_opplevelser": 1.185,
+      "handel": 0.829,
+      "tjenester": 0.355
+    },
+    {
+      "date": "2024-04-05",
+      "mat_opplevelser": 1.991,
+      "handel": 1.394,
+      "tjenester": 0.597
+    },
+    {
+      "date": "2024-04-06",
+      "mat_opplevelser": 2.611,
+      "handel": 1.827,
+      "tjenester": 0.783
+    },
+    {
+      "date": "2024-04-07",
+      "mat_opplevelser": 1.099,
+      "handel": 0.769,
+      "tjenester": 0.33
+    },
+    {
+      "date": "2024-04-08",
+      "mat_opplevelser": 1.203,
+      "handel": 0.842,
+      "tjenester": 0.361
+    },
+    {
+      "date": "2024-04-09",
+      "mat_opplevelser": 1.245,
+      "handel": 0.872,
+      "tjenester": 0.374
+    },
+    {
+      "date": "2024-04-10",
+      "mat_opplevelser": 1.511,
+      "handel": 1.058,
+      "tjenester": 0.453
+    },
+    {
+      "date": "2024-04-11",
+      "mat_opplevelser": 1.775,
+      "handel": 1.243,
+      "tjenester": 0.533
+    },
+    {
+      "date": "2024-04-12",
+      "mat_opplevelser": 2.764,
+      "handel": 1.934,
+      "tjenester": 0.829
+    },
+    {
+      "date": "2024-04-13",
+      "mat_opplevelser": 3.522,
+      "handel": 2.465,
+      "tjenester": 1.056
+    },
+    {
+      "date": "2024-04-14",
+      "mat_opplevelser": 1.276,
+      "handel": 0.893,
+      "tjenester": 0.383
+    },
+    {
+      "date": "2024-04-15",
+      "mat_opplevelser": 1.556,
+      "handel": 1.089,
+      "tjenester": 0.467
+    },
+    {
+      "date": "2024-04-16",
+      "mat_opplevelser": 1.506,
+      "handel": 1.054,
+      "tjenester": 0.452
+    },
+    {
+      "date": "2024-04-17",
+      "mat_opplevelser": 1.539,
+      "handel": 1.077,
+      "tjenester": 0.462
+    },
+    {
+      "date": "2024-04-18",
+      "mat_opplevelser": 1.74,
+      "handel": 1.218,
+      "tjenester": 0.522
+    },
+    {
+      "date": "2024-04-19",
+      "mat_opplevelser": 2.356,
+      "handel": 1.649,
+      "tjenester": 0.707
+    },
+    {
+      "date": "2024-04-20",
+      "mat_opplevelser": 3.193,
+      "handel": 2.235,
+      "tjenester": 0.958
+    },
+    {
+      "date": "2024-04-21",
+      "mat_opplevelser": 1.352,
+      "handel": 0.946,
+      "tjenester": 0.405
+    },
+    {
+      "date": "2024-04-22",
+      "mat_opplevelser": 1.327,
+      "handel": 0.929,
+      "tjenester": 0.398
+    },
+    {
+      "date": "2024-04-23",
+      "mat_opplevelser": 1.353,
+      "handel": 0.947,
+      "tjenester": 0.406
+    },
+    {
+      "date": "2024-04-24",
+      "mat_opplevelser": 1.469,
+      "handel": 1.028,
+      "tjenester": 0.441
+    },
+    {
+      "date": "2024-04-25",
+      "mat_opplevelser": 1.539,
+      "handel": 1.077,
+      "tjenester": 0.462
+    },
+    {
+      "date": "2024-04-26",
+      "mat_opplevelser": 2.26,
+      "handel": 1.582,
+      "tjenester": 0.678
+    },
+    {
+      "date": "2024-04-27",
+      "mat_opplevelser": 3.08,
+      "handel": 2.156,
+      "tjenester": 0.924
+    },
+    {
+      "date": "2024-04-28",
+      "mat_opplevelser": 0.941,
+      "handel": 0.658,
+      "tjenester": 0.282
+    },
+    {
+      "date": "2024-04-29",
+      "mat_opplevelser": 1.294,
+      "handel": 0.906,
+      "tjenester": 0.388
+    },
+    {
+      "date": "2024-04-30",
+      "mat_opplevelser": 2.307,
+      "handel": 1.615,
+      "tjenester": 0.692
+    },
+    {
+      "date": "2024-05-01",
+      "mat_opplevelser": 1.453,
+      "handel": 1.017,
+      "tjenester": 0.436
+    },
+    {
+      "date": "2024-05-02",
+      "mat_opplevelser": 1.897,
+      "handel": 1.328,
+      "tjenester": 0.569
+    },
+    {
+      "date": "2024-05-03",
+      "mat_opplevelser": 2.557,
+      "handel": 1.79,
+      "tjenester": 0.767
+    },
+    {
+      "date": "2024-05-04",
+      "mat_opplevelser": 2.964,
+      "handel": 2.074,
+      "tjenester": 0.889
+    },
+    {
+      "date": "2024-05-05",
+      "mat_opplevelser": 1.17,
+      "handel": 0.819,
+      "tjenester": 0.351
+    },
+    {
+      "date": "2024-05-06",
+      "mat_opplevelser": 1.174,
+      "handel": 0.821,
+      "tjenester": 0.352
+    },
+    {
+      "date": "2024-05-07",
+      "mat_opplevelser": 1.312,
+      "handel": 0.918,
+      "tjenester": 0.394
+    },
+    {
+      "date": "2024-05-08",
+      "mat_opplevelser": 1.982,
+      "handel": 1.387,
+      "tjenester": 0.595
+    },
+    {
+      "date": "2024-05-09",
+      "mat_opplevelser": 1.132,
+      "handel": 0.792,
+      "tjenester": 0.34
+    },
+    {
+      "date": "2024-05-10",
+      "mat_opplevelser": 2.547,
+      "handel": 1.783,
+      "tjenester": 0.764
+    },
+    {
+      "date": "2024-05-11",
+      "mat_opplevelser": 2.569,
+      "handel": 1.798,
+      "tjenester": 0.771
+    },
+    {
+      "date": "2024-05-12",
+      "mat_opplevelser": 1.044,
+      "handel": 0.731,
+      "tjenester": 0.313
+    },
+    {
+      "date": "2024-05-13",
+      "mat_opplevelser": 1.471,
+      "handel": 1.029,
+      "tjenester": 0.441
+    },
+    {
+      "date": "2024-05-14",
+      "mat_opplevelser": 1.738,
+      "handel": 1.216,
+      "tjenester": 0.521
+    },
+    {
+      "date": "2024-05-15",
+      "mat_opplevelser": 2.283,
+      "handel": 1.598,
+      "tjenester": 0.685
+    },
+    {
+      "date": "2024-05-16",
+      "mat_opplevelser": 2.878,
+      "handel": 2.014,
+      "tjenester": 0.863
+    },
+    {
+      "date": "2024-05-17",
+      "mat_opplevelser": 1.676,
+      "handel": 1.173,
+      "tjenester": 0.503
+    },
+    {
+      "date": "2024-05-18",
+      "mat_opplevelser": 1.905,
+      "handel": 1.333,
+      "tjenester": 0.571
+    },
+    {
+      "date": "2024-05-19",
+      "mat_opplevelser": 1.194,
+      "handel": 0.836,
+      "tjenester": 0.358
+    },
+    {
+      "date": "2024-05-20",
+      "mat_opplevelser": 0.918,
+      "handel": 0.643,
+      "tjenester": 0.275
+    },
+    {
+      "date": "2024-05-21",
+      "mat_opplevelser": 1.574,
+      "handel": 1.101,
+      "tjenester": 0.472
+    },
+    {
+      "date": "2024-05-22",
+      "mat_opplevelser": 1.539,
+      "handel": 1.077,
+      "tjenester": 0.462
+    },
+    {
+      "date": "2024-05-23",
+      "mat_opplevelser": 1.705,
+      "handel": 1.194,
+      "tjenester": 0.511
+    },
+    {
+      "date": "2024-05-24",
+      "mat_opplevelser": 2.307,
+      "handel": 1.615,
+      "tjenester": 0.692
+    },
+    {
+      "date": "2024-05-25",
+      "mat_opplevelser": 2.816,
+      "handel": 1.971,
+      "tjenester": 0.845
+    },
+    {
+      "date": "2024-05-26",
+      "mat_opplevelser": 1.161,
+      "handel": 0.812,
+      "tjenester": 0.348
+    },
+    {
+      "date": "2024-05-27",
+      "mat_opplevelser": 1.223,
+      "handel": 0.856,
+      "tjenester": 0.367
+    },
+    {
+      "date": "2024-05-28",
+      "mat_opplevelser": 1.523,
+      "handel": 1.066,
+      "tjenester": 0.457
+    },
+    {
+      "date": "2024-05-29",
+      "mat_opplevelser": 1.675,
+      "handel": 1.172,
+      "tjenester": 0.502
+    },
+    {
+      "date": "2024-05-30",
+      "mat_opplevelser": 1.636,
+      "handel": 1.145,
+      "tjenester": 0.491
+    },
+    {
+      "date": "2024-05-31",
+      "mat_opplevelser": 2.499,
+      "handel": 1.749,
+      "tjenester": 0.75
+    },
+    {
+      "date": "2024-06-01",
+      "mat_opplevelser": 2.896,
+      "handel": 2.027,
+      "tjenester": 0.869
+    },
+    {
+      "date": "2024-06-02",
+      "mat_opplevelser": 1.14,
+      "handel": 0.798,
+      "tjenester": 0.342
+    },
+    {
+      "date": "2024-06-03",
+      "mat_opplevelser": 1.314,
+      "handel": 0.92,
+      "tjenester": 0.394
+    },
+    {
+      "date": "2024-06-04",
+      "mat_opplevelser": 1.389,
+      "handel": 0.972,
+      "tjenester": 0.417
+    },
+    {
+      "date": "2024-06-05",
+      "mat_opplevelser": 1.429,
+      "handel": 1,
+      "tjenester": 0.429
+    },
+    {
+      "date": "2024-06-06",
+      "mat_opplevelser": 1.69,
+      "handel": 1.183,
+      "tjenester": 0.507
+    },
+    {
+      "date": "2024-06-07",
+      "mat_opplevelser": 1.955,
+      "handel": 1.369,
+      "tjenester": 0.587
+    },
+    {
+      "date": "2024-06-08",
+      "mat_opplevelser": 2.151,
+      "handel": 1.506,
+      "tjenester": 0.645
+    },
+    {
+      "date": "2024-06-09",
+      "mat_opplevelser": 0.978,
+      "handel": 0.685,
+      "tjenester": 0.293
+    },
+    {
+      "date": "2024-06-10",
+      "mat_opplevelser": 1.399,
+      "handel": 0.979,
+      "tjenester": 0.42
+    },
+    {
+      "date": "2024-06-11",
+      "mat_opplevelser": 1.579,
+      "handel": 1.105,
+      "tjenester": 0.474
+    },
+    {
+      "date": "2024-06-12",
+      "mat_opplevelser": 1.657,
+      "handel": 1.16,
+      "tjenester": 0.497
+    },
+    {
+      "date": "2024-06-13",
+      "mat_opplevelser": 1.909,
+      "handel": 1.336,
+      "tjenester": 0.573
+    },
+    {
+      "date": "2024-06-14",
+      "mat_opplevelser": 2.583,
+      "handel": 1.808,
+      "tjenester": 0.775
+    },
+    {
+      "date": "2024-06-15",
+      "mat_opplevelser": 2.926,
+      "handel": 2.048,
+      "tjenester": 0.878
+    },
+    {
+      "date": "2024-06-16",
+      "mat_opplevelser": 1.161,
+      "handel": 0.813,
+      "tjenester": 0.348
+    },
+    {
+      "date": "2024-06-17",
+      "mat_opplevelser": 1.495,
+      "handel": 1.047,
+      "tjenester": 0.449
+    },
+    {
+      "date": "2024-06-18",
+      "mat_opplevelser": 1.42,
+      "handel": 0.994,
+      "tjenester": 0.426
+    },
+    {
+      "date": "2024-06-19",
+      "mat_opplevelser": 1.883,
+      "handel": 1.318,
+      "tjenester": 0.565
+    },
+    {
+      "date": "2024-06-20",
+      "mat_opplevelser": 1.994,
+      "handel": 1.396,
+      "tjenester": 0.598
+    },
+    {
+      "date": "2024-06-21",
+      "mat_opplevelser": 2.503,
+      "handel": 1.752,
+      "tjenester": 0.751
+    },
+    {
+      "date": "2024-06-22",
+      "mat_opplevelser": 2.353,
+      "handel": 1.647,
+      "tjenester": 0.706
+    },
+    {
+      "date": "2024-06-23",
+      "mat_opplevelser": 1.168,
+      "handel": 0.817,
+      "tjenester": 0.35
+    },
+    {
+      "date": "2024-06-24",
+      "mat_opplevelser": 1.519,
+      "handel": 1.063,
+      "tjenester": 0.456
+    },
+    {
+      "date": "2024-06-25",
+      "mat_opplevelser": 1.73,
+      "handel": 1.211,
+      "tjenester": 0.519
+    },
+    {
+      "date": "2024-06-26",
+      "mat_opplevelser": 1.857,
+      "handel": 1.3,
+      "tjenester": 0.557
+    },
+    {
+      "date": "2024-06-27",
+      "mat_opplevelser": 2.058,
+      "handel": 1.441,
+      "tjenester": 0.617
+    },
+    {
+      "date": "2024-06-28",
+      "mat_opplevelser": 2.52,
+      "handel": 1.764,
+      "tjenester": 0.756
+    },
+    {
+      "date": "2024-06-29",
+      "mat_opplevelser": 3.218,
+      "handel": 2.253,
+      "tjenester": 0.965
+    },
+    {
+      "date": "2024-06-30",
+      "mat_opplevelser": 1.163,
+      "handel": 0.814,
+      "tjenester": 0.349
+    },
+    {
+      "date": "2024-07-01",
+      "mat_opplevelser": 1.531,
+      "handel": 1.071,
+      "tjenester": 0.459
+    },
+    {
+      "date": "2024-07-02",
+      "mat_opplevelser": 1.66,
+      "handel": 1.162,
+      "tjenester": 0.498
+    },
+    {
+      "date": "2024-07-03",
+      "mat_opplevelser": 1.582,
+      "handel": 1.107,
+      "tjenester": 0.474
+    },
+    {
+      "date": "2024-07-04",
+      "mat_opplevelser": 1.365,
+      "handel": 0.955,
+      "tjenester": 0.409
+    },
+    {
+      "date": "2024-07-05",
+      "mat_opplevelser": 1.884,
+      "handel": 1.318,
+      "tjenester": 0.565
+    },
+    {
+      "date": "2024-07-06",
+      "mat_opplevelser": 2.006,
+      "handel": 1.404,
+      "tjenester": 0.602
+    },
+    {
+      "date": "2024-07-07",
+      "mat_opplevelser": 0.721,
+      "handel": 0.504,
+      "tjenester": 0.216
+    },
+    {
+      "date": "2024-07-08",
+      "mat_opplevelser": 1.425,
+      "handel": 0.997,
+      "tjenester": 0.427
+    },
+    {
+      "date": "2024-07-09",
+      "mat_opplevelser": 1.47,
+      "handel": 1.029,
+      "tjenester": 0.441
+    },
+    {
+      "date": "2024-07-10",
+      "mat_opplevelser": 1.056,
+      "handel": 0.739,
+      "tjenester": 0.317
+    },
+    {
+      "date": "2024-07-11",
+      "mat_opplevelser": 1.519,
+      "handel": 1.063,
+      "tjenester": 0.456
+    },
+    {
+      "date": "2024-07-12",
+      "mat_opplevelser": 1.851,
+      "handel": 1.296,
+      "tjenester": 0.555
+    },
+    {
+      "date": "2024-07-13",
+      "mat_opplevelser": 1.85,
+      "handel": 1.295,
+      "tjenester": 0.555
+    },
+    {
+      "date": "2024-07-14",
+      "mat_opplevelser": 0.703,
+      "handel": 0.492,
+      "tjenester": 0.211
+    },
+    {
+      "date": "2024-07-15",
+      "mat_opplevelser": 1.232,
+      "handel": 0.862,
+      "tjenester": 0.37
+    },
+    {
+      "date": "2024-07-16",
+      "mat_opplevelser": 1.407,
+      "handel": 0.985,
+      "tjenester": 0.422
+    },
+    {
+      "date": "2024-07-17",
+      "mat_opplevelser": 1.217,
+      "handel": 0.852,
+      "tjenester": 0.365
+    },
+    {
+      "date": "2024-07-18",
+      "mat_opplevelser": 1.516,
+      "handel": 1.061,
+      "tjenester": 0.455
+    },
+    {
+      "date": "2024-07-19",
+      "mat_opplevelser": 1.651,
+      "handel": 1.155,
+      "tjenester": 0.495
+    },
+    {
+      "date": "2024-07-20",
+      "mat_opplevelser": 1.72,
+      "handel": 1.204,
+      "tjenester": 0.516
+    },
+    {
+      "date": "2024-07-21",
+      "mat_opplevelser": 0.899,
+      "handel": 0.629,
+      "tjenester": 0.27
+    },
+    {
+      "date": "2024-07-22",
+      "mat_opplevelser": 1.117,
+      "handel": 0.782,
+      "tjenester": 0.335
+    },
+    {
+      "date": "2024-07-23",
+      "mat_opplevelser": 1.471,
+      "handel": 1.03,
+      "tjenester": 0.441
+    },
+    {
+      "date": "2024-07-24",
+      "mat_opplevelser": 1.417,
+      "handel": 0.992,
+      "tjenester": 0.425
+    },
+    {
+      "date": "2024-07-25",
+      "mat_opplevelser": 1.596,
+      "handel": 1.117,
+      "tjenester": 0.479
+    },
+    {
+      "date": "2024-07-26",
+      "mat_opplevelser": 1.335,
+      "handel": 0.934,
+      "tjenester": 0.4
+    },
+    {
+      "date": "2024-07-27",
+      "mat_opplevelser": 1.898,
+      "handel": 1.329,
+      "tjenester": 0.569
+    },
+    {
+      "date": "2024-07-28",
+      "mat_opplevelser": 0.913,
+      "handel": 0.639,
+      "tjenester": 0.274
+    },
+    {
+      "date": "2024-07-29",
+      "mat_opplevelser": 1.413,
+      "handel": 0.989,
+      "tjenester": 0.424
+    },
+    {
+      "date": "2024-07-30",
+      "mat_opplevelser": 1.486,
+      "handel": 1.04,
+      "tjenester": 0.446
+    },
+    {
+      "date": "2024-07-31",
+      "mat_opplevelser": 1.744,
+      "handel": 1.22,
+      "tjenester": 0.523
+    },
+    {
+      "date": "2024-08-01",
+      "mat_opplevelser": 1.716,
+      "handel": 1.201,
+      "tjenester": 0.515
+    },
+    {
+      "date": "2024-08-02",
+      "mat_opplevelser": 1.86,
+      "handel": 1.302,
+      "tjenester": 0.558
+    },
+    {
+      "date": "2024-08-03",
+      "mat_opplevelser": 2.027,
+      "handel": 1.419,
+      "tjenester": 0.608
+    },
+    {
+      "date": "2024-08-04",
+      "mat_opplevelser": 0.81,
+      "handel": 0.567,
+      "tjenester": 0.243
+    },
+    {
+      "date": "2024-08-05",
+      "mat_opplevelser": 1.353,
+      "handel": 0.947,
+      "tjenester": 0.406
+    },
+    {
+      "date": "2024-08-06",
+      "mat_opplevelser": 1.629,
+      "handel": 1.14,
+      "tjenester": 0.489
+    },
+    {
+      "date": "2024-08-07",
+      "mat_opplevelser": 1.449,
+      "handel": 1.014,
+      "tjenester": 0.435
+    },
+    {
+      "date": "2024-08-08",
+      "mat_opplevelser": 1.622,
+      "handel": 1.135,
+      "tjenester": 0.486
+    },
+    {
+      "date": "2024-08-09",
+      "mat_opplevelser": 1.792,
+      "handel": 1.254,
+      "tjenester": 0.537
+    },
+    {
+      "date": "2024-08-10",
+      "mat_opplevelser": 2.258,
+      "handel": 1.58,
+      "tjenester": 0.677
+    },
+    {
+      "date": "2024-08-11",
+      "mat_opplevelser": 1.094,
+      "handel": 0.766,
+      "tjenester": 0.328
+    },
+    {
+      "date": "2024-08-12",
+      "mat_opplevelser": 1.502,
+      "handel": 1.051,
+      "tjenester": 0.45
+    },
+    {
+      "date": "2024-08-13",
+      "mat_opplevelser": 1.356,
+      "handel": 0.949,
+      "tjenester": 0.407
+    },
+    {
+      "date": "2024-08-14",
+      "mat_opplevelser": 1.496,
+      "handel": 1.047,
+      "tjenester": 0.449
+    },
+    {
+      "date": "2024-08-15",
+      "mat_opplevelser": 1.672,
+      "handel": 1.17,
+      "tjenester": 0.502
+    },
+    {
+      "date": "2024-08-16",
+      "mat_opplevelser": 2.307,
+      "handel": 1.615,
+      "tjenester": 0.692
+    },
+    {
+      "date": "2024-08-17",
+      "mat_opplevelser": 2.477,
+      "handel": 1.734,
+      "tjenester": 0.743
+    },
+    {
+      "date": "2024-08-18",
+      "mat_opplevelser": 0.956,
+      "handel": 0.669,
+      "tjenester": 0.287
+    },
+    {
+      "date": "2024-08-19",
+      "mat_opplevelser": 1.554,
+      "handel": 1.088,
+      "tjenester": 0.466
+    },
+    {
+      "date": "2024-08-20",
+      "mat_opplevelser": 1.259,
+      "handel": 0.881,
+      "tjenester": 0.378
+    },
+    {
+      "date": "2024-08-21",
+      "mat_opplevelser": 1.514,
+      "handel": 1.059,
+      "tjenester": 0.454
+    },
+    {
+      "date": "2024-08-22",
+      "mat_opplevelser": 1.394,
+      "handel": 0.975,
+      "tjenester": 0.418
+    },
+    {
+      "date": "2024-08-23",
+      "mat_opplevelser": 1.917,
+      "handel": 1.342,
+      "tjenester": 0.575
+    },
+    {
+      "date": "2024-08-24",
+      "mat_opplevelser": 2.61,
+      "handel": 1.827,
+      "tjenester": 0.783
+    },
+    {
+      "date": "2024-08-25",
+      "mat_opplevelser": 1.108,
+      "handel": 0.776,
+      "tjenester": 0.332
+    },
+    {
+      "date": "2024-08-26",
+      "mat_opplevelser": 1.352,
+      "handel": 0.946,
+      "tjenester": 0.406
+    },
+    {
+      "date": "2024-08-27",
+      "mat_opplevelser": 1.378,
+      "handel": 0.964,
+      "tjenester": 0.413
+    },
+    {
+      "date": "2024-08-28",
+      "mat_opplevelser": 1.591,
+      "handel": 1.114,
+      "tjenester": 0.477
+    },
+    {
+      "date": "2024-08-29",
+      "mat_opplevelser": 1.405,
+      "handel": 0.983,
+      "tjenester": 0.421
+    },
+    {
+      "date": "2024-08-30",
+      "mat_opplevelser": 2.33,
+      "handel": 1.631,
+      "tjenester": 0.699
+    },
+    {
+      "date": "2024-08-31",
+      "mat_opplevelser": 3.062,
+      "handel": 2.143,
+      "tjenester": 0.918
+    },
+    {
+      "date": "2024-09-01",
+      "mat_opplevelser": 1.334,
+      "handel": 0.933,
+      "tjenester": 0.4
+    },
+    {
+      "date": "2024-09-02",
+      "mat_opplevelser": 1.087,
+      "handel": 0.761,
+      "tjenester": 0.326
+    },
+    {
+      "date": "2024-09-03",
+      "mat_opplevelser": 1.146,
+      "handel": 0.802,
+      "tjenester": 0.344
+    },
+    {
+      "date": "2024-09-04",
+      "mat_opplevelser": 1.357,
+      "handel": 0.95,
+      "tjenester": 0.407
+    },
+    {
+      "date": "2024-09-05",
+      "mat_opplevelser": 1.686,
+      "handel": 1.18,
+      "tjenester": 0.506
+    },
+    {
+      "date": "2024-09-06",
+      "mat_opplevelser": 2.115,
+      "handel": 1.481,
+      "tjenester": 0.635
+    },
+    {
+      "date": "2024-09-07",
+      "mat_opplevelser": 2.539,
+      "handel": 1.777,
+      "tjenester": 0.762
+    },
+    {
+      "date": "2024-09-08",
+      "mat_opplevelser": 0.939,
+      "handel": 0.657,
+      "tjenester": 0.282
+    },
+    {
+      "date": "2024-09-09",
+      "mat_opplevelser": 1.021,
+      "handel": 0.714,
+      "tjenester": 0.306
+    },
+    {
+      "date": "2024-09-10",
+      "mat_opplevelser": 1.212,
+      "handel": 0.848,
+      "tjenester": 0.363
+    },
+    {
+      "date": "2024-09-11",
+      "mat_opplevelser": 1.38,
+      "handel": 0.966,
+      "tjenester": 0.414
+    },
+    {
+      "date": "2024-09-12",
+      "mat_opplevelser": 1.602,
+      "handel": 1.121,
+      "tjenester": 0.48
+    },
+    {
+      "date": "2024-09-13",
+      "mat_opplevelser": 2.2,
+      "handel": 1.54,
+      "tjenester": 0.66
+    },
+    {
+      "date": "2024-09-14",
+      "mat_opplevelser": 2.766,
+      "handel": 1.936,
+      "tjenester": 0.83
+    },
+    {
+      "date": "2024-09-15",
+      "mat_opplevelser": 1.013,
+      "handel": 0.709,
+      "tjenester": 0.304
+    },
+    {
+      "date": "2024-09-16",
+      "mat_opplevelser": 1.188,
+      "handel": 0.831,
+      "tjenester": 0.356
+    },
+    {
+      "date": "2024-09-17",
+      "mat_opplevelser": 1.227,
+      "handel": 0.859,
+      "tjenester": 0.368
+    },
+    {
+      "date": "2024-09-18",
+      "mat_opplevelser": 1.361,
+      "handel": 0.952,
+      "tjenester": 0.408
+    },
+    {
+      "date": "2024-09-19",
+      "mat_opplevelser": 1.809,
+      "handel": 1.266,
+      "tjenester": 0.543
+    },
+    {
+      "date": "2024-09-20",
+      "mat_opplevelser": 2.16,
+      "handel": 1.512,
+      "tjenester": 0.648
+    },
+    {
+      "date": "2024-09-21",
+      "mat_opplevelser": 2.552,
+      "handel": 1.786,
+      "tjenester": 0.766
+    },
+    {
+      "date": "2024-09-22",
+      "mat_opplevelser": 1.005,
+      "handel": 0.703,
+      "tjenester": 0.301
+    },
+    {
+      "date": "2024-09-23",
+      "mat_opplevelser": 1.204,
+      "handel": 0.842,
+      "tjenester": 0.361
+    },
+    {
+      "date": "2024-09-24",
+      "mat_opplevelser": 1.079,
+      "handel": 0.755,
+      "tjenester": 0.324
+    },
+    {
+      "date": "2024-09-25",
+      "mat_opplevelser": 1.379,
+      "handel": 0.965,
+      "tjenester": 0.414
+    },
+    {
+      "date": "2024-09-26",
+      "mat_opplevelser": 1.487,
+      "handel": 1.041,
+      "tjenester": 0.446
+    },
+    {
+      "date": "2024-09-27",
+      "mat_opplevelser": 2.08,
+      "handel": 1.456,
+      "tjenester": 0.624
+    },
+    {
+      "date": "2024-09-28",
+      "mat_opplevelser": 2.597,
+      "handel": 1.818,
+      "tjenester": 0.779
+    },
+    {
+      "date": "2024-09-29",
+      "mat_opplevelser": 1.017,
+      "handel": 0.712,
+      "tjenester": 0.305
+    },
+    {
+      "date": "2024-09-30",
+      "mat_opplevelser": 1.219,
+      "handel": 0.853,
+      "tjenester": 0.366
+    },
+    {
+      "date": "2024-10-01",
+      "mat_opplevelser": 1.333,
+      "handel": 0.933,
+      "tjenester": 0.4
+    },
+    {
+      "date": "2024-10-02",
+      "mat_opplevelser": 1.435,
+      "handel": 1.005,
+      "tjenester": 0.431
+    },
+    {
+      "date": "2024-10-03",
+      "mat_opplevelser": 1.426,
+      "handel": 0.998,
+      "tjenester": 0.428
+    },
+    {
+      "date": "2024-10-04",
+      "mat_opplevelser": 1.885,
+      "handel": 1.32,
+      "tjenester": 0.566
+    },
+    {
+      "date": "2024-10-05",
+      "mat_opplevelser": 2.241,
+      "handel": 1.568,
+      "tjenester": 0.672
+    },
+    {
+      "date": "2024-10-06",
+      "mat_opplevelser": 0.925,
+      "handel": 0.647,
+      "tjenester": 0.277
+    },
+    {
+      "date": "2024-10-07",
+      "mat_opplevelser": 1.13,
+      "handel": 0.791,
+      "tjenester": 0.339
+    },
+    {
+      "date": "2024-10-08",
+      "mat_opplevelser": 1.16,
+      "handel": 0.812,
+      "tjenester": 0.348
+    },
+    {
+      "date": "2024-10-09",
+      "mat_opplevelser": 1.171,
+      "handel": 0.819,
+      "tjenester": 0.351
+    },
+    {
+      "date": "2024-10-10",
+      "mat_opplevelser": 1.345,
+      "handel": 0.941,
+      "tjenester": 0.403
+    },
+    {
+      "date": "2024-10-11",
+      "mat_opplevelser": 2.216,
+      "handel": 1.551,
+      "tjenester": 0.665
+    },
+    {
+      "date": "2024-10-12",
+      "mat_opplevelser": 2.313,
+      "handel": 1.619,
+      "tjenester": 0.694
+    },
+    {
+      "date": "2024-10-13",
+      "mat_opplevelser": 0.963,
+      "handel": 0.674,
+      "tjenester": 0.289
+    },
+    {
+      "date": "2024-10-14",
+      "mat_opplevelser": 1.204,
+      "handel": 0.842,
+      "tjenester": 0.361
+    },
+    {
+      "date": "2024-10-15",
+      "mat_opplevelser": 1.281,
+      "handel": 0.896,
+      "tjenester": 0.384
+    },
+    {
+      "date": "2024-10-16",
+      "mat_opplevelser": 1.358,
+      "handel": 0.95,
+      "tjenester": 0.407
+    },
+    {
+      "date": "2024-10-17",
+      "mat_opplevelser": 1.528,
+      "handel": 1.07,
+      "tjenester": 0.458
+    },
+    {
+      "date": "2024-10-18",
+      "mat_opplevelser": 2.138,
+      "handel": 1.497,
+      "tjenester": 0.641
+    },
+    {
+      "date": "2024-10-19",
+      "mat_opplevelser": 2.649,
+      "handel": 1.854,
+      "tjenester": 0.795
+    },
+    {
+      "date": "2024-10-20",
+      "mat_opplevelser": 0.941,
+      "handel": 0.659,
+      "tjenester": 0.282
+    },
+    {
+      "date": "2024-10-21",
+      "mat_opplevelser": 1.212,
+      "handel": 0.848,
+      "tjenester": 0.363
+    },
+    {
+      "date": "2024-10-22",
+      "mat_opplevelser": 1.207,
+      "handel": 0.845,
+      "tjenester": 0.362
+    },
+    {
+      "date": "2024-10-23",
+      "mat_opplevelser": 1.324,
+      "handel": 0.926,
+      "tjenester": 0.397
+    },
+    {
+      "date": "2024-10-24",
+      "mat_opplevelser": 1.433,
+      "handel": 1.003,
+      "tjenester": 0.43
+    },
+    {
+      "date": "2024-10-25",
+      "mat_opplevelser": 2.064,
+      "handel": 1.445,
+      "tjenester": 0.619
+    },
+    {
+      "date": "2024-10-26",
+      "mat_opplevelser": 2.613,
+      "handel": 1.829,
+      "tjenester": 0.784
+    },
+    {
+      "date": "2024-10-27",
+      "mat_opplevelser": 1.069,
+      "handel": 0.748,
+      "tjenester": 0.321
+    },
+    {
+      "date": "2024-10-28",
+      "mat_opplevelser": 1.222,
+      "handel": 0.855,
+      "tjenester": 0.367
+    },
+    {
+      "date": "2024-10-29",
+      "mat_opplevelser": 1.137,
+      "handel": 0.796,
+      "tjenester": 0.341
+    },
+    {
+      "date": "2024-10-30",
+      "mat_opplevelser": 1.333,
+      "handel": 0.933,
+      "tjenester": 0.4
+    },
+    {
+      "date": "2024-10-31",
+      "mat_opplevelser": 1.477,
+      "handel": 1.034,
+      "tjenester": 0.443
+    },
+    {
+      "date": "2024-11-01",
+      "mat_opplevelser": 1.997,
+      "handel": 1.398,
+      "tjenester": 0.599
+    },
+    {
+      "date": "2024-11-02",
+      "mat_opplevelser": 2.476,
+      "handel": 1.733,
+      "tjenester": 0.743
+    },
+    {
+      "date": "2024-11-03",
+      "mat_opplevelser": 0.935,
+      "handel": 0.654,
+      "tjenester": 0.28
+    },
+    {
+      "date": "2024-11-04",
+      "mat_opplevelser": 1.16,
+      "handel": 0.812,
+      "tjenester": 0.348
+    },
+    {
+      "date": "2024-11-05",
+      "mat_opplevelser": 1.046,
+      "handel": 0.732,
+      "tjenester": 0.314
+    },
+    {
+      "date": "2024-11-06",
+      "mat_opplevelser": 1.215,
+      "handel": 0.851,
+      "tjenester": 0.365
+    },
+    {
+      "date": "2024-11-07",
+      "mat_opplevelser": 1.303,
+      "handel": 0.912,
+      "tjenester": 0.391
+    },
+    {
+      "date": "2024-11-08",
+      "mat_opplevelser": 1.8,
+      "handel": 1.26,
+      "tjenester": 0.54
+    },
+    {
+      "date": "2024-11-09",
+      "mat_opplevelser": 2.442,
+      "handel": 1.709,
+      "tjenester": 0.733
+    },
+    {
+      "date": "2024-11-10",
+      "mat_opplevelser": 0.878,
+      "handel": 0.615,
+      "tjenester": 0.263
+    },
+    {
+      "date": "2024-11-11",
+      "mat_opplevelser": 1.13,
+      "handel": 0.791,
+      "tjenester": 0.339
+    },
+    {
+      "date": "2024-11-12",
+      "mat_opplevelser": 1.214,
+      "handel": 0.85,
+      "tjenester": 0.364
+    },
+    {
+      "date": "2024-11-13",
+      "mat_opplevelser": 1.243,
+      "handel": 0.87,
+      "tjenester": 0.373
+    },
+    {
+      "date": "2024-11-14",
+      "mat_opplevelser": 1.423,
+      "handel": 0.996,
+      "tjenester": 0.427
+    },
+    {
+      "date": "2024-11-15",
+      "mat_opplevelser": 2.099,
+      "handel": 1.469,
+      "tjenester": 0.63
+    },
+    {
+      "date": "2024-11-16",
+      "mat_opplevelser": 2.693,
+      "handel": 1.885,
+      "tjenester": 0.808
+    },
+    {
+      "date": "2024-11-17",
+      "mat_opplevelser": 0.896,
+      "handel": 0.627,
+      "tjenester": 0.269
+    },
+    {
+      "date": "2024-11-18",
+      "mat_opplevelser": 1.177,
+      "handel": 0.824,
+      "tjenester": 0.353
+    },
+    {
+      "date": "2024-11-19",
+      "mat_opplevelser": 1.208,
+      "handel": 0.846,
+      "tjenester": 0.362
+    },
+    {
+      "date": "2024-11-20",
+      "mat_opplevelser": 1.367,
+      "handel": 0.957,
+      "tjenester": 0.41
+    },
+    {
+      "date": "2024-11-21",
+      "mat_opplevelser": 1.416,
+      "handel": 0.991,
+      "tjenester": 0.425
+    },
+    {
+      "date": "2024-11-22",
+      "mat_opplevelser": 1.99,
+      "handel": 1.393,
+      "tjenester": 0.597
+    },
+    {
+      "date": "2024-11-23",
+      "mat_opplevelser": 2.502,
+      "handel": 1.751,
+      "tjenester": 0.75
+    },
+    {
+      "date": "2024-11-24",
+      "mat_opplevelser": 0.728,
+      "handel": 0.509,
+      "tjenester": 0.218
+    },
+    {
+      "date": "2024-11-25",
+      "mat_opplevelser": 1.18,
+      "handel": 0.826,
+      "tjenester": 0.354
+    },
+    {
+      "date": "2024-11-26",
+      "mat_opplevelser": 1.295,
+      "handel": 0.906,
+      "tjenester": 0.388
+    },
+    {
+      "date": "2024-11-27",
+      "mat_opplevelser": 1.397,
+      "handel": 0.978,
+      "tjenester": 0.419
+    },
+    {
+      "date": "2024-11-28",
+      "mat_opplevelser": 1.61,
+      "handel": 1.127,
+      "tjenester": 0.483
+    },
+    {
+      "date": "2024-11-29",
+      "mat_opplevelser": 2.176,
+      "handel": 1.523,
+      "tjenester": 0.653
+    },
+    {
+      "date": "2024-11-30",
+      "mat_opplevelser": 2.59,
+      "handel": 1.813,
+      "tjenester": 0.777
+    },
+    {
+      "date": "2024-12-01",
+      "mat_opplevelser": 0.89,
+      "handel": 0.623,
+      "tjenester": 0.267
+    },
+    {
+      "date": "2024-12-02",
+      "mat_opplevelser": 1.13,
+      "handel": 0.791,
+      "tjenester": 0.339
+    },
+    {
+      "date": "2024-12-03",
+      "mat_opplevelser": 1.339,
+      "handel": 0.937,
+      "tjenester": 0.402
+    },
+    {
+      "date": "2024-12-04",
+      "mat_opplevelser": 1.377,
+      "handel": 0.964,
+      "tjenester": 0.413
+    },
+    {
+      "date": "2024-12-05",
+      "mat_opplevelser": 1.6,
+      "handel": 1.12,
+      "tjenester": 0.48
+    },
+    {
+      "date": "2024-12-06",
+      "mat_opplevelser": 2.062,
+      "handel": 1.443,
+      "tjenester": 0.619
+    },
+    {
+      "date": "2024-12-07",
+      "mat_opplevelser": 2.501,
+      "handel": 1.75,
+      "tjenester": 0.75
+    },
+    {
+      "date": "2024-12-08",
+      "mat_opplevelser": 1.074,
+      "handel": 0.751,
+      "tjenester": 0.322
+    },
+    {
+      "date": "2024-12-09",
+      "mat_opplevelser": 1.26,
+      "handel": 0.882,
+      "tjenester": 0.378
+    },
+    {
+      "date": "2024-12-10",
+      "mat_opplevelser": 1.46,
+      "handel": 1.022,
+      "tjenester": 0.438
+    },
+    {
+      "date": "2024-12-11",
+      "mat_opplevelser": 1.757,
+      "handel": 1.23,
+      "tjenester": 0.527
+    },
+    {
+      "date": "2024-12-12",
+      "mat_opplevelser": 1.955,
+      "handel": 1.368,
+      "tjenester": 0.586
+    },
+    {
+      "date": "2024-12-13",
+      "mat_opplevelser": 2.634,
+      "handel": 1.843,
+      "tjenester": 0.79
+    },
+    {
+      "date": "2024-12-14",
+      "mat_opplevelser": 3.171,
+      "handel": 2.219,
+      "tjenester": 0.951
+    },
+    {
+      "date": "2024-12-15",
+      "mat_opplevelser": 1.317,
+      "handel": 0.922,
+      "tjenester": 0.395
+    },
+    {
+      "date": "2024-12-16",
+      "mat_opplevelser": 1.732,
+      "handel": 1.212,
+      "tjenester": 0.52
+    },
+    {
+      "date": "2024-12-17",
+      "mat_opplevelser": 1.956,
+      "handel": 1.369,
+      "tjenester": 0.587
+    },
+    {
+      "date": "2024-12-18",
+      "mat_opplevelser": 2.076,
+      "handel": 1.453,
+      "tjenester": 0.623
+    },
+    {
+      "date": "2024-12-19",
+      "mat_opplevelser": 2.533,
+      "handel": 1.773,
+      "tjenester": 0.76
+    },
+    {
+      "date": "2024-12-20",
+      "mat_opplevelser": 2.857,
+      "handel": 2,
+      "tjenester": 0.857
+    },
+    {
+      "date": "2024-12-21",
+      "mat_opplevelser": 2.599,
+      "handel": 1.819,
+      "tjenester": 0.78
+    },
+    {
+      "date": "2024-12-22",
+      "mat_opplevelser": 1.095,
+      "handel": 0.767,
+      "tjenester": 0.328
+    },
+    {
+      "date": "2024-12-23",
+      "mat_opplevelser": 1.709,
+      "handel": 1.196,
+      "tjenester": 0.513
+    },
+    {
+      "date": "2024-12-24",
+      "mat_opplevelser": 0.216,
+      "handel": 0.151,
+      "tjenester": 0.065
+    },
+    {
+      "date": "2024-12-25",
+      "mat_opplevelser": 0.038,
+      "handel": 0.026,
+      "tjenester": 0.011
+    },
+    {
+      "date": "2024-12-26",
+      "mat_opplevelser": 0.324,
+      "handel": 0.227,
+      "tjenester": 0.097
+    },
+    {
+      "date": "2024-12-27",
+      "mat_opplevelser": 1.149,
+      "handel": 0.804,
+      "tjenester": 0.345
+    },
+    {
+      "date": "2024-12-28",
+      "mat_opplevelser": 1.337,
+      "handel": 0.936,
+      "tjenester": 0.401
+    },
+    {
+      "date": "2024-12-29",
+      "mat_opplevelser": 0.695,
+      "handel": 0.486,
+      "tjenester": 0.208
+    },
+    {
+      "date": "2024-12-30",
+      "mat_opplevelser": 1.819,
+      "handel": 1.273,
+      "tjenester": 0.546
+    },
+    {
+      "date": "2024-12-31",
+      "mat_opplevelser": 0.786,
+      "handel": 0.55,
+      "tjenester": 0.236
+    }
+  ],
+  "årligVekst": [
+    {
+      "år": "2020",
+      "område": -5.7,
+      "oslo": 1.47,
+      "norge": 7.64
+    },
+    {
+      "år": "2021",
+      "område": -1.82,
+      "oslo": 0.72,
+      "norge": 3.58
+    },
+    {
+      "år": "2022",
+      "område": 12.98,
+      "oslo": 6.92,
+      "norge": -0.38
+    },
+    {
+      "år": "2023",
+      "område": -5,
+      "oslo": -2.43,
+      "norge": -0.68
+    },
+    {
+      "år": "2024",
+      "område": -10.99,
+      "oslo": -4.19,
+      "norge": -1.94
+    },
+    {
+      "år": "2025",
+      "område": -4.32,
+      "oslo": -2.86,
+      "norge": -1.26
+    }
+  ],
+  "indeksertVekst": [
+    {
+      "år": "2023",
+      "område": 100,
+      "oslo": 100,
+      "norge": 100
+    },
+    {
+      "år": "2024",
+      "område": 89.16,
+      "oslo": 95.99,
+      "norge": 98.23
+    }
+  ],
+  "korthandelPerUkedag": [
+    {
+      "dag": "Monday",
+      "år2023": 2.653,
+      "år2024": 2.489
+    },
+    {
+      "dag": "Tuesday",
+      "år2023": 3.041,
+      "år2024": 2.644
+    },
+    {
+      "dag": "Wednesday",
+      "år2023": 3.273,
+      "år2024": 2.889
+    },
+    {
+      "dag": "Thursday",
+      "år2023": 3.448,
+      "år2024": 3.116
+    },
+    {
+      "dag": "Friday",
+      "år2023": 4.676,
+      "år2024": 4.184
+    },
+    {
+      "dag": "Saturday",
+      "år2023": 5.793,
+      "år2024": 5.043
+    },
+    {
+      "dag": "Sunday",
+      "år2023": 2.25,
+      "år2024": 1.983
+    }
+  ]
+}

@@ -12,26 +12,30 @@ export default function AldersfordelingChart({ data }: AldersfordelingChartProps
   const chartData = data.aldersfordeling.mann.map((mannData, index) => {
     const kvinneData = data.aldersfordeling.kvinne[index];
     return {
-      category: mannData.category,
-      Mann: -mannData.value, // Negative for left side of pyramid
-      Kvinne: kvinneData.value,
+      category: mannData.kategori,
+      Mann: -mannData.antall, // Negative for left side of pyramid
+      Kvinne: kvinneData.antall,
     };
   });
+
+  // Calculate totals from data
+  const totalMann = data.aldersfordeling.mann.reduce((sum, d) => sum + d.antall, 0);
+  const totalKvinne = data.aldersfordeling.kvinne.reduce((sum, d) => sum + d.antall, 0);
 
   return (
     <div className="space-y-4">
       <div className="grid grid-cols-3 gap-4">
         <div className="rounded-lg bg-blue-50 p-4 text-center">
           <div className="text-sm text-gray-600">Menn</div>
-          <div className="text-2xl font-bold text-blue-600">{data.nøkkeltall.totalMann}</div>
+          <div className="text-2xl font-bold text-blue-600">{totalMann.toLocaleString('nb-NO')}</div>
         </div>
         <div className="rounded-lg bg-lokka-light p-4 text-center">
           <div className="text-sm text-gray-600">Total befolkning</div>
-          <div className="text-2xl font-bold text-lokka-primary">{data.nøkkeltall.befolkning}</div>
+          <div className="text-2xl font-bold text-lokka-primary">{data.nøkkeltall.befolkning.toLocaleString('nb-NO')}</div>
         </div>
         <div className="rounded-lg bg-pink-50 p-4 text-center">
           <div className="text-sm text-gray-600">Kvinner</div>
-          <div className="text-2xl font-bold text-pink-600">{data.nøkkeltall.totalKvinne}</div>
+          <div className="text-2xl font-bold text-pink-600">{totalKvinne.toLocaleString('nb-NO')}</div>
         </div>
       </div>
 

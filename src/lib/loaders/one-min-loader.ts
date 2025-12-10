@@ -1,31 +1,116 @@
 /**
  * Data loader for 1-minute analysis data
  * Loads JSON files with interactive visualization data for hyperlocal analysis
+ *
+ * Structure: 6 main sections + Actors list
+ * 1. DEMOGRAFI - demografi.json
+ * 2. KONKURRANSEBILDET - konkurransebilde.json
+ * 3. KORTHANDEL - korthandel.json
+ * 4. BEVEGELSE - bevegelse.json
+ * 5. BESØKENDE - besokende.json
+ * 6. INTERNASJONALT - internasjonalt.json
+ * + AKTØRER - aktorer.json
  */
 
-import type { OneMinAnalysisData } from '@/types/one-min-analysis';
+import type {
+  OneMinAnalysisData,
+  DemografiData,
+  KonkurransebildeData,
+  KorthandelData,
+  BevegelseData,
+  BesøkendeData,
+  InternasjonaltData,
+  AktorerData
+} from '@/types/one-min-analysis';
+
+// Helper to safely import optional JSON files
+async function safeImport<T>(importFn: () => Promise<{ default: T }>): Promise<T | null> {
+  try {
+    const module = await importFn();
+    return module.default;
+  } catch {
+    return null;
+  }
+}
 
 // Static imports for known 1-min analysis data (required for Next.js/Vercel compatibility)
+// Note: Older files (spabo, mathallen) use legacy format and require type coercion
 const STATIC_DATA: Record<string, () => Promise<OneMinAnalysisData>> = {
+  // Spabo - Sofienberggata 6 (legacy format)
   'spabo/sofienberggata-6': async () => {
-    const [demografi, korthandel, bevegelse, konkurransebilde, aktorer] = await Promise.all([
-      import('@/data/spabo/sofienberggata-6/1min/demografi.json').then(m => m.default),
-      import('@/data/spabo/sofienberggata-6/1min/korthandel.json').then(m => m.default),
-      import('@/data/spabo/sofienberggata-6/1min/bevegelse.json').then(m => m.default),
-      import('@/data/spabo/sofienberggata-6/1min/konkurransebilde.json').then(m => m.default),
-      import('@/data/spabo/sofienberggata-6/1min/aktorer.json').then(m => m.default),
+    const [demografi, konkurransebilde, korthandel, bevegelse, aktorer] = await Promise.all([
+      import('@/data/spabo/sofienberggata-6/1min/demografi.json').then(m => m.default as unknown as DemografiData),
+      import('@/data/spabo/sofienberggata-6/1min/konkurransebilde.json').then(m => m.default as unknown as KonkurransebildeData),
+      import('@/data/spabo/sofienberggata-6/1min/korthandel.json').then(m => m.default as unknown as KorthandelData),
+      import('@/data/spabo/sofienberggata-6/1min/bevegelse.json').then(m => m.default as unknown as BevegelseData),
+      import('@/data/spabo/sofienberggata-6/1min/aktorer.json').then(m => m.default as unknown as AktorerData),
     ]);
-    return { demografi, korthandel, bevegelse, konkurransebilde, aktorer };
+    return { demografi, konkurransebilde, korthandel, bevegelse, besokende: null, internasjonalt: null, aktorer };
   },
+
+  // Aspelin Ramm - Mathallen (legacy format)
   'aspelin-ramm/mathallen': async () => {
-    const [korthandel, bevegelse, konkurransebilde, aktorer] = await Promise.all([
-      import('@/data/aspelin-ramm/mathallen/1min/korthandel.json').then(m => m.default),
-      import('@/data/aspelin-ramm/mathallen/1min/bevegelse.json').then(m => m.default),
-      import('@/data/aspelin-ramm/mathallen/1min/konkurransebilde.json').then(m => m.default),
-      import('@/data/aspelin-ramm/mathallen/1min/aktorer.json').then(m => m.default),
+    const [konkurransebilde, korthandel, bevegelse, aktorer] = await Promise.all([
+      import('@/data/aspelin-ramm/mathallen/1min/konkurransebilde.json').then(m => m.default as unknown as KonkurransebildeData),
+      import('@/data/aspelin-ramm/mathallen/1min/korthandel.json').then(m => m.default as unknown as KorthandelData),
+      import('@/data/aspelin-ramm/mathallen/1min/bevegelse.json').then(m => m.default as unknown as BevegelseData),
+      import('@/data/aspelin-ramm/mathallen/1min/aktorer.json').then(m => m.default as unknown as AktorerData),
     ]);
-    // Mathallen has no demografi (commercial property, no residents)
-    return { demografi: null, korthandel, bevegelse, konkurransebilde, aktorer };
+    return { demografi: null, konkurransebilde, korthandel, bevegelse, besokende: null, internasjonalt: null, aktorer };
+  },
+
+  // Roger Vodal - Olaf Ryes Plass 3 (5-min analysis)
+  'roger-vodal/olaf-ryes-plass-3': async () => {
+    const [demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer] = await Promise.all([
+      import('@/data/roger-vodal/olaf-ryes-plass-3/5min/demografi.json').then(m => m.default as DemografiData),
+      import('@/data/roger-vodal/olaf-ryes-plass-3/5min/konkurransebilde.json').then(m => m.default as KonkurransebildeData),
+      import('@/data/roger-vodal/olaf-ryes-plass-3/5min/korthandel.json').then(m => m.default as KorthandelData),
+      import('@/data/roger-vodal/olaf-ryes-plass-3/5min/bevegelse.json').then(m => m.default as BevegelseData),
+      import('@/data/roger-vodal/olaf-ryes-plass-3/5min/besokende.json').then(m => m.default as BesøkendeData),
+      import('@/data/roger-vodal/olaf-ryes-plass-3/5min/internasjonalt.json').then(m => m.default as InternasjonaltData),
+      import('@/data/roger-vodal/olaf-ryes-plass-3/5min/aktorer.json').then(m => m.default as AktorerData),
+    ]);
+    return { demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer };
+  },
+
+  // Roger Vodal - Thorvald Meyersgate 33 (5-min analysis, no besokende/internasjonalt)
+  'roger-vodal/thorvald-meyersgate-33': async () => {
+    const [demografi, konkurransebilde, korthandel, bevegelse, aktorer] = await Promise.all([
+      import('@/data/roger-vodal/thorvald-meyersgate-33/5min/demografi.json').then(m => m.default as DemografiData),
+      import('@/data/roger-vodal/thorvald-meyersgate-33/5min/konkurransebilde.json').then(m => m.default as KonkurransebildeData),
+      import('@/data/roger-vodal/thorvald-meyersgate-33/5min/korthandel.json').then(m => m.default as KorthandelData),
+      import('@/data/roger-vodal/thorvald-meyersgate-33/5min/bevegelse.json').then(m => m.default as BevegelseData),
+      import('@/data/roger-vodal/thorvald-meyersgate-33/5min/aktorer.json').then(m => m.default as AktorerData),
+    ]);
+    return { demografi, konkurransebilde, korthandel, bevegelse, besokende: null, internasjonalt: null, aktorer };
+  },
+
+  // Roger Vodal - Thorvald Meyersgate 40 (5-min analysis)
+  'roger-vodal/thorvald-meyersgate-40': async () => {
+    const [demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer] = await Promise.all([
+      import('@/data/roger-vodal/thorvald-meyersgate-40/5min/demografi.json').then(m => m.default as DemografiData),
+      import('@/data/roger-vodal/thorvald-meyersgate-40/5min/konkurransebilde.json').then(m => m.default as KonkurransebildeData),
+      import('@/data/roger-vodal/thorvald-meyersgate-40/5min/korthandel.json').then(m => m.default as KorthandelData),
+      import('@/data/roger-vodal/thorvald-meyersgate-40/5min/bevegelse.json').then(m => m.default as BevegelseData),
+      import('@/data/roger-vodal/thorvald-meyersgate-40/5min/besokende.json').then(m => m.default as BesøkendeData),
+      import('@/data/roger-vodal/thorvald-meyersgate-40/5min/internasjonalt.json').then(m => m.default as InternasjonaltData),
+      import('@/data/roger-vodal/thorvald-meyersgate-40/5min/aktorer.json').then(m => m.default as AktorerData),
+    ]);
+    return { demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer };
+  },
+
+  // Roger Vodal - Thorvald Meyersgate 44 (5-min analysis)
+  'roger-vodal/thorvald-meyersgate-44': async () => {
+    const [demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer] = await Promise.all([
+      import('@/data/roger-vodal/thorvald-meyersgate-44/5min/demografi.json').then(m => m.default as DemografiData),
+      import('@/data/roger-vodal/thorvald-meyersgate-44/5min/konkurransebilde.json').then(m => m.default as KonkurransebildeData),
+      import('@/data/roger-vodal/thorvald-meyersgate-44/5min/korthandel.json').then(m => m.default as KorthandelData),
+      import('@/data/roger-vodal/thorvald-meyersgate-44/5min/bevegelse.json').then(m => m.default as BevegelseData),
+      import('@/data/roger-vodal/thorvald-meyersgate-44/5min/besokende.json').then(m => m.default as BesøkendeData),
+      import('@/data/roger-vodal/thorvald-meyersgate-44/5min/internasjonalt.json').then(m => m.default as InternasjonaltData),
+      import('@/data/roger-vodal/thorvald-meyersgate-44/5min/aktorer.json').then(m => m.default as AktorerData),
+    ]);
+    return { demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt, aktorer };
   },
 };
 
@@ -62,31 +147,8 @@ export async function loadOneMinAnalysisData(
     console.log(`[one-min-loader] No static loader found for: ${key}`);
   }
 
-  // Fallback to dynamic imports for other properties
-  try {
-    const [korthandel, bevegelse, konkurransebilde, aktorer] = await Promise.all([
-      import(`@/data/${tenant}/${propertyId}/1min/korthandel.json`).then(m => m.default),
-      import(`@/data/${tenant}/${propertyId}/1min/bevegelse.json`).then(m => m.default),
-      import(`@/data/${tenant}/${propertyId}/1min/konkurransebilde.json`).then(m => m.default),
-      import(`@/data/${tenant}/${propertyId}/1min/aktorer.json`).then(m => m.default),
-    ]);
-
-    // Try to load demografi (optional)
-    let demografi = null;
-    try {
-      demografi = await import(`@/data/${tenant}/${propertyId}/1min/demografi.json`).then(m => m.default);
-    } catch {
-      // Demografi is optional
-    }
-
-    return { demografi, korthandel, bevegelse, konkurransebilde, aktorer };
-  } catch (error: unknown) {
-    const errorWithCode = error as { code?: string };
-    if (errorWithCode.code !== 'MODULE_NOT_FOUND') {
-      console.warn(`Error loading 1-minute analysis data for ${tenant}/${propertyId}:`, error);
-    }
-    return null;
-  }
+  // No dynamic fallback - all properties must be registered in STATIC_DATA
+  return null;
 }
 
 /**
@@ -100,6 +162,13 @@ export async function hasOneMinAnalysisData(
   tenant: string,
   propertyId: string
 ): Promise<boolean> {
-  const data = await loadOneMinAnalysisData(tenant, propertyId);
-  return data !== null;
+  const key = `${tenant}/${propertyId}`;
+  return key in STATIC_DATA;
+}
+
+/**
+ * Get list of all properties with 1-minute analysis data
+ */
+export function getPropertiesWithOneMinData(): string[] {
+  return Object.keys(STATIC_DATA);
 }

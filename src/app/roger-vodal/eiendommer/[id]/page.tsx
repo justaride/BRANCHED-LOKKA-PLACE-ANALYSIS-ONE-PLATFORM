@@ -1,10 +1,12 @@
 import { notFound } from 'next/navigation';
 import { loadEiendom, getAllPropertyIds } from '@/lib/loaders/roger-vodal';
+import { loadOneMinAnalysisData } from '@/lib/loaders/one-min-loader';
 import Container from '@/components/ui/Container';
 import AnalyseSelector from '@/components/property/AnalyseSelector';
 import KeyMetrics from '@/components/property/KeyMetrics';
 import EiendomsprofilExpander from '@/components/property/EiendomsprofilExpander';
 import BusinessActors from '@/components/property/BusinessActors';
+import OneMinAnalysisViewer from '@/components/one-min-analysis/OneMinAnalysisViewer';
 import FadeIn from '@/components/ui/FadeIn';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -44,6 +46,12 @@ export default async function RogerVodalEiendomPage({ params }: PageProps) {
   if (!eiendom) {
     notFound();
   }
+
+  // Load 1-minute analysis data if available
+  const oneMinData = await loadOneMinAnalysisData('roger-vodal', id);
+
+  // Display name
+  const displayName = eiendom.navn || eiendom.adresse;
 
   // Calculate metrics from næringsaktører data
   const totalRevenue = eiendom.naringsaktorer?.actors?.reduce(
@@ -200,14 +208,21 @@ export default async function RogerVodalEiendomPage({ params }: PageProps) {
           />
         )}
 
-        {/* Plaace Analytics */}
-        <AnalyseSelector
-          plaaceData={eiendom.plaaceData}
-        />
+        {/* Show interactive 1-min analysis OR legacy screenshots (not both) */}
+        {oneMinData ? (
+          <OneMinAnalysisViewer
+            data={oneMinData}
+            propertyName={displayName}
+          />
+        ) : (
+          <AnalyseSelector
+            plaaceData={eiendom.plaaceData}
+          />
+        )}
       </Container>
 
-      {/* Business Actors Section */}
-      {eiendom.naringsaktorer && (
+      {/* Business Actors Section - only show if we don't have 1-min data (which includes aktorer) */}
+      {!oneMinData && eiendom.naringsaktorer && eiendom.naringsaktorer.actors.length > 0 && (
         <BusinessActors
           actors={eiendom.naringsaktorer.actors}
           categoryStats={eiendom.naringsaktorer.categoryStats}

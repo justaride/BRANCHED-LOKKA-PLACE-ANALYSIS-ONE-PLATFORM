@@ -265,5 +265,106 @@ When ending session:
 
 ---
 
-*Last Updated: December 9, 2025*
+*Last Updated: December 10, 2025*
 *Maintained by: Claude Code*
+
+---
+
+## Biblioteket - Kvalitetssikring (Aktiv Sesjon)
+
+### Oversikt
+
+Biblioteket er en digital samling som dokumenterer Grünerløkkas historie og identitet.
+
+**URL:** `/main-board/biblioteket`
+
+### Sider og Datafiler
+
+| Side | Route | Hoveddata |
+|------|-------|-----------|
+| **Hovedside** | `/main-board/biblioteket` | Master Timeline, kategorier |
+| **Ildsjeler** | `/main-board/biblioteket/ildsjeler` | 14 lokale helter |
+| **Historie** | `/main-board/biblioteket/historie` | 170 år byhistorie |
+| **Kultur** | `/main-board/biblioteket/kultur` | Kunst, musikk, scener |
+| **Litteratur** | `/main-board/biblioteket/litteratur` | 35+ verk |
+
+### Datafiler
+
+```
+src/data/biblioteket/
+├── ildsjeler/
+│   ├── ildsjeler.json        # 14 personer
+│   ├── kategorier.json       # 8 kategorier
+│   ├── tidslinje.json        # Hendelser
+│   └── places.json           # Steder
+├── historie/
+│   ├── grunerlokka_timeline.json
+│   ├── grunerlokka_entities.json
+│   └── themes.json
+├── kultur/
+│   └── grunerlokka_master_alt.json
+└── litteratur/
+    ├── works.json
+    └── grunerlokka_sources.json
+```
+
+### Kvalitetssikring - Prosess
+
+For hver side:
+
+1. **Research-ekstraksjon** - Verifiser at all info fra notater er implementert
+2. **Datavalidering** - Sjekk JSON-struktur og konsistens
+3. **Språkkvalitet** - Norsk grammatikk, narrativ flyt
+4. **Faktasjekk** - Verifiser med eksterne kilder
+
+### Ildsjeler - Faktasjekk Status
+
+| Person | Fødselsår | Dødsår | Verifisert |
+|--------|-----------|--------|------------|
+| Anna Rogstad | 1854 | 1938 | ⏳ |
+| Rolf Hofmo | 1898 | 1966 | ⏳ |
+| Randi Spenningsby | - | - | ⏳ |
+| Magnhild Johansen | - | - | ⏳ |
+| Jan Vardøen | 1962 | - | ⏳ |
+| Tim Wendelboe | 1979 | - | ⏳ |
+| Marianne Westbye | 1966 | - | ⏳ |
+| Torgny Hasås | 1951 | - | ⏳ |
+| Vegard Holm | - | - | ⏳ |
+| Sollin Sæle | - | - | ⏳ |
+| Jon Christensen | 1943 | 2020 | ⏳ |
+| Claire de Wangen | - | - | ⏳ |
+| Guro Lidahl | - | - | ⏳ |
+| Martin Horntveth | 1974 | - | ⏳ |
+
+**Legende:** ⏳ Pending | ✅ Verifisert | ⚠️ Trenger oppdatering | ❌ Feil
+
+### Prioritert Rekkefølge
+
+1. **Ildsjeler** - Navngitte personer krever faktasjekk
+2. **Historie** - Historiske datoer og hendelser
+3. **Kultur** - Artister, scener, festivaler
+4. **Litteratur** - Verk og forfattere
+5. **Hovedside** - Overordnet narrativ
+
+### Viktige Komponenter
+
+| Komponent | Plassering |
+|-----------|------------|
+| `MasterTimeline` | `src/components/biblioteket/MasterTimeline.tsx` |
+| `ImageCarousel` | `src/components/biblioteket/ImageCarousel.tsx` |
+| Loader-funksjoner | `src/lib/loaders/biblioteket-loader.ts` |
+| Carousel-bilder | `src/lib/constants/carousel-images.ts` |
+
+### Bilder
+
+```
+public/images/biblioteket/
+├── lokka-bibliotek-hero.jpg
+├── byhistorie-banner-hero.jpg
+├── ildsjeler-banner-hero.jpg
+├── kultur-banner-hero.jpg
+└── litteratur-banner-hero.jpeg
+
+public/images/ildsjeler/
+└── {person-id}.jpg
+```

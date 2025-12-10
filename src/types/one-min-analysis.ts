@@ -1,25 +1,34 @@
 /**
  * Type definitions for 1-minute analysis data
  * Interactive data visualization for hyperlocal area analysis
+ *
+ * Structure: 6 main sections + Actors list
+ * 1. DEMOGRAFI - Demographics of the area
+ * 2. KONKURRANSEBILDET - Competition analysis
+ * 3. KORTHANDEL - Card transactions
+ * 4. BEVEGELSE - Movement/traffic patterns
+ * 5. BESØKENDE - Visitor demographics
+ * 6. INTERNASJONALT - International visitors
+ * + AKTØRER - Business actors list (expandable)
  */
 
 // ============================================================================
-// DEMOGRAFI (Demographics)
+// SHARED TYPES
 // ============================================================================
 
 export interface AgeCategory {
-  category: string; // e.g., "0-5", "23-34", "85+"
-  value: number; // Count of people
+  kategori: string; // e.g., "0-5", "23-34", "85+"
+  antall: number; // Count of people
 }
 
 export interface IncomeCategory {
-  category: string; // e.g., "NOK 400k - NOK 500k"
-  value: number; // Percentage or count
+  kategori: string; // e.g., "NOK 400k - NOK 500k"
+  antall: number; // Count
 }
 
 export interface HouseholdType {
   type: string; // e.g., "Par uten hjemmeboende barn", "Aleneboende"
-  value: number; // Count
+  antall: number; // Count
 }
 
 export interface MedianIncomeByHousehold {
@@ -27,26 +36,80 @@ export interface MedianIncomeByHousehold {
   median: number; // Median income in NOK
 }
 
+// ============================================================================
+// 1. DEMOGRAFI (Demographics of the area)
+// ============================================================================
+
+export interface DemografiOverTid {
+  år: string;
+  befolkning: number;
+  trend: number;
+}
+
 export interface DemografiData {
+  nøkkeltall: {
+    befolkning: number;
+    befolkningstetthet: number; // Per km²
+    områdestørrelse: number; // In km²
+    vekst: number; // Percentage
+  };
   aldersfordeling: {
     mann: AgeCategory[];
     kvinne: AgeCategory[];
   };
   inntektsfordeling: IncomeCategory[];
   husholdninger: HouseholdType[];
-  nøkkeltall: {
-    befolkning: number;
-    befolkningstetthet: number; // Per km²
-    områdestørrelse: number; // In km²
-    vekst: number; // Percentage
-    totalMann: number;
-    totalKvinne: number;
-  };
-  medianInntektPerHusholdstype: MedianIncomeByHousehold[];
+  medianInntektPerHusholdningstype: MedianIncomeByHousehold[];
+  demografiOverTid: DemografiOverTid[];
 }
 
 // ============================================================================
-// KORTHANDEL (Card Transaction Timeseries)
+// 2. KONKURRANSEBILDET (Competition Analysis)
+// ============================================================================
+
+export interface KonseptMiks {
+  kategori1: string; // Main category: "Mat og opplevelser", "Handel", "Tjenester"
+  kategori2: string; // Sub-category
+  antall: number; // Count
+}
+
+export interface KjederVsUavhengige {
+  år: string; // "2015", "2024", etc.
+  uavhengig: number; // Percentage
+  kjeder: number; // Percentage (chains)
+}
+
+export interface OverUnderandel {
+  matOpplevelser: number; // Percentage vs kommune
+  handel: number;
+  tjenester: number;
+}
+
+export interface UtviklingPerÅr {
+  år: string;
+  matOpplevelser: number; // Revenue in millions
+  handel: number;
+  tjenester: number;
+}
+
+export interface KonkurransebildeData {
+  nøkkeltall: {
+    konseptTetthet: number; // Concepts per km²
+    totalOmsetning: number; // In millions NOK
+    omsetningTetthet: number; // Per km²
+    trend: {
+      konseptTetthet: number; // Percentage change
+      omsetning: number; // Percentage change
+    };
+  };
+  konseptmiks: KonseptMiks[];
+  kjederVsUavhengige: KjederVsUavhengige[];
+  overUnderandel: OverUnderandel;
+  utviklingPerÅr: UtviklingPerÅr[];
+}
+
+// ============================================================================
+// 3. KORTHANDEL (Card Transaction Timeseries)
 // ============================================================================
 
 export interface KorthandelDataPoint {
@@ -56,12 +119,34 @@ export interface KorthandelDataPoint {
   tjenester: number; // Services transactions
 }
 
+export interface ÅrligVekst {
+  år: string;
+  område: number; // Percentage
+  oslo: number;
+  norge: number;
+}
+
+export interface KorthandelPerUkedag {
+  dag: string; // "Monday", "Tuesday", etc.
+  år2023: number;
+  år2024: number;
+}
+
 export interface KorthandelData {
+  nøkkeltall: {
+    dagligKorthandel: number; // Mill NOK
+    totalKorthandel: number; // Mrd NOK
+    beløpPerTransaksjon: number; // NOK
+    endring30d: number; // Percentage
+  };
   tidsserie: KorthandelDataPoint[];
+  årligVekst: ÅrligVekst[];
+  indeksertVekst: ÅrligVekst[]; // Same structure, but index=100 base
+  korthandelPerUkedag: KorthandelPerUkedag[];
 }
 
 // ============================================================================
-// BEVEGELSE (Movement/Traffic Patterns)
+// 4. BEVEGELSE (Movement/Traffic Patterns)
 // ============================================================================
 
 export interface BevegelsePerUkedag {
@@ -76,27 +161,14 @@ export interface BevegelsePerTime {
   besøk: number;
 }
 
-export interface BevegelsesmønsterQuarterly {
-  category: string; // "Q1'2023", "Q2'2024", etc.
+export interface Bevegelsesmønster {
+  kategori: string; // "2023", "2024", or quarterly "Q1'2023"
   besøkende: number;
   påJobb: number;
   hjemme: number;
 }
 
-export interface OpprinnelseOmråde {
-  område: string; // Neighborhood/district name
-  prosent: number; // Percentage
-}
-
-export interface OpprinnelseLand {
-  land: string; // Country name
-  prosent: number; // Percentage
-}
-
 export interface BevegelseData {
-  perUkedag: BevegelsePerUkedag[];
-  perTime: BevegelsePerTime[];
-  bevegelsesmønster: BevegelsesmønsterQuarterly[];
   nøkkeltall: {
     dagligBesøk: number;
     besøkPerKm2: number;
@@ -104,42 +176,48 @@ export interface BevegelseData {
     lørdagAndel: number; // Percentage
     periode: string; // e.g., "01.01.2023 - 30.09.2025"
   };
-  opprinnelseOmråder: OpprinnelseOmråde[];
-  opprinnelseLand: OpprinnelseLand[];
+  perTime: BevegelsePerTime[];
+  perUkedag: BevegelsePerUkedag[];
+  bevegelsesmønster: Bevegelsesmønster[];
 }
 
 // ============================================================================
-// KONKURRANSEBILDE (Competition Analysis)
+// 5. BESØKENDE (Visitor Demographics) - NEW
 // ============================================================================
 
-export interface KonseptMiks {
-  kategori1: string; // Main category
-  kategori2: string; // Sub-category
-  antall: number; // Count
+export interface OmrådeBesøkendeKommerFra {
+  område: string; // Neighborhood/district name
+  prosent: number; // Percentage
 }
 
-export interface KjederVsUavhengige {
-  year: string; // "2015", "2024", etc.
-  uavhengig: number; // Percentage
-  kjeder: number; // Percentage (chains)
-}
-
-export interface KonkurransebildeData {
-  konseptmiks: KonseptMiks[];
-  kjederVsUavhengige: KjederVsUavhengige[];
-  nøkkeltall: {
-    konseptTetthet: number; // Concepts per km²
-    totalOmsetning: number; // In millions NOK
-    omsetningTetthet: number; // Per km²
-    trend: {
-      konseptTetthet: number; // Percentage change
-      omsetning: number; // Percentage change
-    };
+export interface BesøkendeData {
+  periode: string; // e.g., "31.12.2023 - 30.12.2024"
+  aldersfordeling: {
+    mann: AgeCategory[];
+    kvinne: AgeCategory[];
   };
+  husholdningstyper: HouseholdType[];
+  inntektsfordeling: IncomeCategory[];
+  medianInntektPerHusholdningstype: MedianIncomeByHousehold[];
+  områderBesøkendeKommerFra: OmrådeBesøkendeKommerFra[];
 }
 
 // ============================================================================
-// AKTØRER (Business Actors)
+// 6. INTERNASJONALT BESØKENDE (International Visitors) - NEW
+// ============================================================================
+
+export interface LandBesøkende {
+  land: string; // Country name
+  prosent: number; // Percentage
+}
+
+export interface InternasjonaltData {
+  periode: string; // e.g., "2024, Q4"
+  toppLand: LandBesøkende[];
+}
+
+// ============================================================================
+// AKTØRER (Business Actors) - Expandable list
 // ============================================================================
 
 export interface Actor {
@@ -172,7 +250,7 @@ export interface AktorerData {
     totalRevenue: number;
     generatedAt: string; // ISO date
     analysisType: string; // "1min-gange"
-    areaSize: string; // e.g., "0.025 km²"
+    areaSize: string; // e.g., "0.46 km²"
   };
 }
 
@@ -181,10 +259,25 @@ export interface AktorerData {
 // ============================================================================
 
 export interface OneMinAnalysisData {
-  demografi: DemografiData | null; // Null for commercial properties without residents
-  korthandel: KorthandelData;
-  bevegelse: BevegelseData;
+  // Section 1: Demographics of the area
+  demografi: DemografiData | null;
+
+  // Section 2: Competition analysis
   konkurransebilde: KonkurransebildeData;
+
+  // Section 3: Card transactions
+  korthandel: KorthandelData;
+
+  // Section 4: Movement/traffic
+  bevegelse: BevegelseData;
+
+  // Section 5: Visitor demographics (NEW)
+  besokende: BesøkendeData | null;
+
+  // Section 6: International visitors (NEW)
+  internasjonalt: InternasjonaltData | null;
+
+  // Actors list (expandable)
   aktorer: AktorerData;
 }
 
@@ -215,4 +308,18 @@ export interface ChartDimensions {
     bottom: number;
     left: number;
   };
+}
+
+// ============================================================================
+// SECTION AVAILABILITY FLAGS
+// ============================================================================
+
+export interface DataAvailability {
+  demografi: boolean;
+  konkurransebilde: boolean;
+  korthandel: boolean;
+  bevegelse: boolean;
+  besokende: boolean;
+  internasjonalt: boolean;
+  aktorer: boolean;
 }

@@ -118,7 +118,7 @@ export default function KonkurransebildeChart({ data }: KonkurransebildeChartPro
             margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
           >
             <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
-            <XAxis dataKey="year" stroke="#6b7280" />
+            <XAxis dataKey="år" stroke="#6b7280" />
             <YAxis stroke="#6b7280" label={{ value: 'Prosent (%)', angle: -90, position: 'insideLeft' }} />
             <Tooltip
               contentStyle={{
@@ -152,10 +152,10 @@ export default function KonkurransebildeChart({ data }: KonkurransebildeChartPro
         <div className="mt-4 rounded-lg bg-gray-50 p-4">
           <p className="text-sm text-gray-700">
             <strong>Trend:</strong> Andelen uavhengige konsepter har økt fra{' '}
-            {data.kjederVsUavhengige[0].uavhengig.toFixed(1)}% i{' '}
-            {data.kjederVsUavhengige[0].year} til{' '}
-            {data.kjederVsUavhengige[data.kjederVsUavhengige.length - 1].uavhengig.toFixed(1)}% i{' '}
-            {data.kjederVsUavhengige[data.kjederVsUavhengige.length - 1].year}.
+            {data.kjederVsUavhengige[0]?.uavhengig?.toFixed(1) || 0}% i{' '}
+            {data.kjederVsUavhengige[0]?.år || '-'} til{' '}
+            {data.kjederVsUavhengige[data.kjederVsUavhengige.length - 1]?.uavhengig?.toFixed(1) || 0}% i{' '}
+            {data.kjederVsUavhengige[data.kjederVsUavhengige.length - 1]?.år || '-'}.
           </p>
         </div>
       </div>
