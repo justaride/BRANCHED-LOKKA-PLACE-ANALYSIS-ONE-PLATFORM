@@ -65,6 +65,7 @@ const sectionLabels: Record<string, string> = {
     'early_20th_century_the_working_class_community': 'Tidlig 1900-tall: Arbeidersamfunnet',
     'world_war_ii_and_postwar_challenges': 'Krig og etterkrigstid',
     'byfornyelse_and_gentrification_1970s_2000s': 'Byfornyelse og gentrifisering',
+    'modern_era_2010_2024': '2010-tallet: Moderne Løkka',
     'conclusion_continuity_and_change_in_a_city_district': 'Kontinuitet og endring',
 };
 

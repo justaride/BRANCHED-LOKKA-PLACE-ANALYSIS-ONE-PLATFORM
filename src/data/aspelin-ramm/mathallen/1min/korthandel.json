@@ -1,4 +1,19 @@
 {
+  "nøkkeltall": {
+    "dagligKorthandel": 1.5,
+    "totalKorthandel": 1100,
+    "beløpPerTransaksjon": 320,
+    "endring30d": 3
+  },
+  "korthandelPerUkedag": [
+    { "dag": "Monday", "sum": 180 },
+    { "dag": "Tuesday", "sum": 150 },
+    { "dag": "Wednesday", "sum": 160 },
+    { "dag": "Thursday", "sum": 185 },
+    { "dag": "Friday", "sum": 210 },
+    { "dag": "Saturday", "sum": 280 },
+    { "dag": "Sunday", "sum": 140 }
+  ],
   "tidsserie": [
     {
       "date": "2019-01-01",

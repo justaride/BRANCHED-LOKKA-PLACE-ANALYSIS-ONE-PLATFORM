@@ -208,10 +208,12 @@ docs/
 
 | Metric | Value |
 |--------|-------|
-| Static Pages | 111 |
-| JSON Data Files | 317 |
+| Static Pages | 114 |
+| JSON Data Files | 320 |
 | Properties | 51 |
 | Tenants | 10 |
+| Biblioteket Categories | 5 (ildsjeler, litteratur, historie, kultur, idrett) |
+| Kultur Subsections | 5 (jazz, hiphop, film, teater, billedkunst) |
 | ESLint Issues | 64 (acceptable) |
 | Test Coverage | 70% threshold |
 | Build Time | ~30s |
@@ -284,9 +286,14 @@ Biblioteket er en digital samling som dokumenterer Grünerløkkas historie og id
 |------|-------|-----------|
 | **Hovedside** | `/main-board/biblioteket` | Master Timeline, kategorier |
 | **Ildsjeler** | `/main-board/biblioteket/ildsjeler` | 31 lokale helter (14 eksisterende + 17 nye) |
-| **Historie** | `/main-board/biblioteket/historie` | 170 år byhistorie |
-| **Kultur** | `/main-board/biblioteket/kultur` | Kunst, musikk, jazz, hiphop, scener |
-| **Litteratur** | `/main-board/biblioteket/litteratur` | 35+ verk |
+| **Historie** | `/main-board/biblioteket/historie` | 170 år byhistorie (40 events) |
+| **Kultur** | `/main-board/biblioteket/kultur` | Kunst, musikk, scener (5 subseksjoner) |
+| **→ Jazz** | `/main-board/biblioteket/kultur/jazz` | ECM, Oslo Jazzhus, Blå |
+| **→ Hiphop** | `/main-board/biblioteket/kultur/hiphop` | X-Ray, breakdance, graffiti |
+| **→ Film** | `/main-board/biblioteket/kultur/film` | 10 filmer, 6 regissører, 3 kinoer |
+| **→ Teater** | `/main-board/biblioteket/kultur/teater` | 9 scener, 3 grupper, stedsspesifikk |
+| **→ Billedkunst** | `/main-board/biblioteket/kultur/billedkunst` | Munch→gatekunst, fotografer |
+| **Litteratur** | `/main-board/biblioteket/litteratur` | 49 verk (utvidet fra 37) |
 | **Idrett** | `/main-board/biblioteket/idrett` | Grüner IL, Dælenenga, arbeideridretten |
 
 ### Datafiler
@@ -299,17 +306,20 @@ src/data/biblioteket/
 │   ├── tidslinje.json        # Hendelser
 │   └── places.json           # Steder
 ├── historie/
-│   ├── grunerlokka_timeline.json
+│   ├── grunerlokka_timeline.json  # 40 events (1850-2024)
 │   ├── grunerlokka_entities.json
 │   └── themes.json
 ├── kultur/
 │   ├── grunerlokka_master_alt.json
-│   ├── jazz.json             # NEW: ECM, Oslo Jazzhus, Blå
-│   └── hiphop.json           # NEW: X-Ray, breakdance, graffiti
+│   ├── jazz.json             # ECM, Oslo Jazzhus, Blå
+│   ├── hiphop.json           # X-Ray, breakdance, graffiti
+│   ├── film.json             # NEW: 10 filmer, 6 regissører, 3 kinoer
+│   ├── teater.json           # NEW: 9 scener, stedsspesifikk scenekunst
+│   └── billedkunst.json      # NEW: Munch→gatekunst, 7 fotografer
 ├── idrett/
-│   └── idrett.json           # NEW: Grüner IL, arbeideridretten
+│   └── idrett.json           # Grüner IL, arbeideridretten
 └── litteratur/
-    ├── works.json
+    ├── works.json            # 49 verk
     └── grunerlokka_sources.json
 ```
 
@@ -345,11 +355,12 @@ For hver side:
 
 ### Prioritert Rekkefølge
 
-1. **Ildsjeler** - Navngitte personer krever faktasjekk
-2. **Historie** - Historiske datoer og hendelser
-3. **Kultur** - Artister, scener, festivaler
-4. **Litteratur** - Verk og forfattere
-5. **Hovedside** - Overordnet narrativ
+1. ✅ **Ildsjeler** - 31 personer (14 + 17 nye), 12 kategorier
+2. ✅ **Historie** - Timeline utvidet 1850-2024 (40 events, +11 nye 2010-2024)
+3. ✅ **Kultur** - Jazz + Hip-hop subsections integrert
+4. ✅ **Litteratur** - 49 verk (+12 nye: Braaten, Nilsen, krim, samtid)
+5. ✅ **Idrett** - NY seksjon med Grüner IL, arbeideridretten
+6. 📋 **Hovedside** - Overordnet narrativ (minor updates needed)
 
 ### Viktige Komponenter
 

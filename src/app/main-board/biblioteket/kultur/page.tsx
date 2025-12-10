@@ -134,6 +134,45 @@ export default function KulturPage() {
                 </Container>
             </section>
 
+            {/* Subsections Navigation */}
+            <section className="border-b border-gray-200 bg-white py-12">
+                <Container>
+                    <motion.div
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={viewport.default}
+                        variants={containerVariants}
+                    >
+                        <motion.h2
+                            variants={fadeUpVariants}
+                            className="mb-6 text-xl font-bold text-gray-900"
+                        >
+                            Utforsk kulturlivet
+                        </motion.h2>
+                        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
+                            {[
+                                { href: '/main-board/biblioteket/kultur/jazz', title: 'Jazz', desc: 'ECM, Oslo Jazzhus og Blå', icon: '🎺' },
+                                { href: '/main-board/biblioteket/kultur/hiphop', title: 'Hiphop', desc: 'X-Ray, breakdance og graffiti', icon: '🎤' },
+                                { href: '/main-board/biblioteket/kultur/film', title: 'Film', desc: 'Kinohistorie og filmskapere', icon: '🎬' },
+                                { href: '/main-board/biblioteket/kultur/teater', title: 'Teater', desc: 'Scenekunst og frie grupper', icon: '🎭' },
+                                { href: '/main-board/biblioteket/kultur/billedkunst', title: 'Billedkunst', desc: 'Fra Munch til gatekunst', icon: '🎨' },
+                            ].map((item, index) => (
+                                <motion.div key={item.href} variants={cardVariants} custom={index}>
+                                    <Link
+                                        href={item.href}
+                                        className="flex flex-col rounded-xl border border-gray-200 bg-gray-50 p-4 transition-all hover:border-category-kultur/30 hover:bg-category-kultur/5 hover:shadow-md group"
+                                    >
+                                        <span className="text-2xl mb-2">{item.icon}</span>
+                                        <span className="font-semibold text-gray-900 group-hover:text-category-kultur">{item.title}</span>
+                                        <span className="text-sm text-gray-500 mt-1">{item.desc}</span>
+                                    </Link>
+                                </motion.div>
+                            ))}
+                        </div>
+                    </motion.div>
+                </Container>
+            </section>
+
             {/* Stats Section */}
             <section className="border-b border-gray-200 bg-white py-10">
                 <Container>

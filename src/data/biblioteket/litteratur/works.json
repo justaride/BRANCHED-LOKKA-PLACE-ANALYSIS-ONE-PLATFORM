@@ -555,6 +555,171 @@
         "boligpolitikk"
       ],
       "note": "Kronikk i Dagsavisen om gentrifisering og sosial boligpolitikk, med referanser til Grünerløkka."
+    },
+    {
+      "id": "braaten_1910_kring_fabrikken",
+      "title": "Kring fabrikken",
+      "authors": [
+        "Oskar Braaten"
+      ],
+      "year": 1910,
+      "type": "fiction",
+      "topics": [
+        "arbeiderklasse",
+        "industri",
+        "skjønnlitteratur"
+      ],
+      "note": "Braatens debut - novellesamling som skildrer livet rundt fabrikkene ved Akerselva."
+    },
+    {
+      "id": "braaten_1911_ungen",
+      "title": "Ungen",
+      "authors": [
+        "Oskar Braaten"
+      ],
+      "year": 1911,
+      "type": "fiction",
+      "topics": [
+        "arbeiderklasse",
+        "drama",
+        "skjønnlitteratur"
+      ],
+      "note": "Drama om arbeiderparets uønskede barn, med den ikoniske Hønse-Lovisa. Filmatisert."
+    },
+    {
+      "id": "braaten_1919_ulvehiet",
+      "title": "Ulvehiet",
+      "authors": [
+        "Oskar Braaten"
+      ],
+      "year": 1919,
+      "type": "fiction",
+      "topics": [
+        "arbeiderklasse",
+        "oppvekst",
+        "skjønnlitteratur"
+      ],
+      "note": "Braatens hovedverk - roman om oppvekst og lengsel i industristrøket ved Akerselva."
+    },
+    {
+      "id": "nilsen_1925_paa_stengrunn",
+      "title": "På stengrunn",
+      "authors": [
+        "Rudolf Nilsen"
+      ],
+      "year": 1925,
+      "type": "poetry",
+      "topics": [
+        "arbeiderklasse",
+        "østkant",
+        "poesi"
+      ],
+      "note": "Diktsamling som skildrer livet til vanlige arbeidsfolk øst for Akerselva. Rudolf Nilsen er kjent som 'østkantens dikter'."
+    },
+    {
+      "id": "gunnerud_1996_kvinnen_fra_olaf_ryes",
+      "title": "Kvinnen fra Olaf Ryes plass",
+      "authors": [
+        "Jørgen Gunnerud"
+      ],
+      "year": 1996,
+      "type": "fiction",
+      "topics": [
+        "krim",
+        "lokalhistorie",
+        "skjønnlitteratur"
+      ],
+      "note": "Oslo-krim der etterforsker Knut Moen løser et mord på Grünerløkka. Gir tidsbilde av bydelen på 1980-tallet."
+    },
+    {
+      "id": "eliassen_2011_de_som_arver",
+      "title": "De som arver jorden",
+      "authors": [
+        "Ruben Eliassen"
+      ],
+      "year": 2011,
+      "type": "fiction",
+      "topics": [
+        "krim",
+        "moderne",
+        "skjønnlitteratur"
+      ],
+      "note": "Bok 2 i Memento-serien. En gutt finnes hengt i en leilighet på Grünerløkka - rå krimhistorie fra Oslos bakgater."
+    },
+    {
+      "id": "folmer_2016_sjokoladefabrikken",
+      "title": "Gutten fra sjokoladefabrikken – erindringer om liv og lukter på Grünerløkka",
+      "authors": [
+        "Alf Folmer"
+      ],
+      "year": 2016,
+      "type": "book",
+      "topics": [
+        "erindring",
+        "lokalhistorie",
+        "mellomkrigstid"
+      ],
+      "note": "Øyenvitneskildring av Grünerløkka i mellomkrigstiden. Folmer vokste opp ved Freia-fabrikken og forteller om lukten av sjokolade over strøket."
+    },
+    {
+      "id": "johansen_2017_grunerlokka",
+      "title": "Grünerløkka: fortellinger",
+      "authors": [
+        "Carl Johansen"
+      ],
+      "year": 2017,
+      "type": "fiction",
+      "topics": [
+        "skjønnlitteratur",
+        "samtid",
+        "byliv"
+      ],
+      "note": "Novellesamling som skildrer dagliglivet på Løkka med varme og fantasi - et samtidsbilde av bohemer, hipstere og barnefamilier."
+    },
+    {
+      "id": "hoisaether_2018_bankboksen",
+      "title": "Den siste bankboksen",
+      "authors": [
+        "Ulrik Høisæther"
+      ],
+      "year": 2018,
+      "type": "fiction",
+      "topics": [
+        "krim",
+        "moderne",
+        "skjønnlitteratur"
+      ],
+      "note": "Første bok om politioverbetjent Frans Nansen. En bankfunksjonær finnes drept i sin leilighet på Grünerløkka."
+    },
+    {
+      "id": "sharif_2020_hor_hera",
+      "title": "Hør her'a!",
+      "authors": [
+        "Gulraiz Sharif"
+      ],
+      "year": 2020,
+      "type": "fiction",
+      "topics": [
+        "ungdom",
+        "flerkulturell",
+        "skjønnlitteratur"
+      ],
+      "note": "Kritikerrost ungdomsroman om 15 år gamle Mahmoud i Oslo. Sharif er selv oppvokst på Grünerløkka og skriver med autentisk østkant-stemme."
+    },
+    {
+      "id": "stenseth_2022_watchman",
+      "title": "Antikvitetshandler Watchman – familien som ble borte",
+      "authors": [
+        "Bodil Stenseth"
+      ],
+      "year": 2022,
+      "type": "book",
+      "topics": [
+        "holocaust",
+        "biografi",
+        "krigshistorie"
+      ],
+      "note": "Historiker Stenseth forteller om jødisk antikvitetshandlerfamilie fra Markveien som ble deportert under krigen. Gripende beretning om et mørkt kapittel."
     }
   ]
 }

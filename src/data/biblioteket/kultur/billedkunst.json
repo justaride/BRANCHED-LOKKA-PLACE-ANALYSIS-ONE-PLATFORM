@@ -1,0 +1,264 @@
+{
+  "id": "billedkunst",
+  "title": "Billedkunst på Grünerløkka",
+  "intro": "Fra Edvard Munchs barndomsskisser til dagens fargerike gatekunst har Grünerløkka inspirert kunstnere i over 150 år. Bydelens reise – fra arbeiderklassens arne til kreativt sentrum – speiles i kunsten, og hver epoke etterlater sitt unike visuelle avtrykk.",
+  "sections": [
+    {
+      "id": "early",
+      "title": "Tidlige kunstnere (1800-tallet)",
+      "description": "Kunstnere som vokste opp eller fant inspirasjon på Grünerløkka i bydelens tidlige år."
+    },
+    {
+      "id": "naturalists",
+      "title": "Naturalister og realister (1880-1910)",
+      "description": "Kunstnere som malte arbeidermiljøer og hverdagsliv langs Akerselva."
+    },
+    {
+      "id": "contemporary",
+      "title": "Samtidskunstnere (1990-i dag)",
+      "description": "Moderne kunstnere med atelier og tilknytning til Grünerløkka."
+    },
+    {
+      "id": "streetart",
+      "title": "Gatekunst og street art",
+      "description": "Grünerløkka som Oslos hotspot for graffiti og veggmalerier."
+    },
+    {
+      "id": "photography",
+      "title": "Fotokunstnere",
+      "description": "Fotografer som har dokumentert og fortolket Grünerløkka visuelt."
+    }
+  ],
+  "artists": {
+    "early": [
+      {
+        "name": "Edvard Munch",
+        "years": "1863–1944",
+        "connection": "Tilbrakte mye av oppveksten på Grünerløkka. Familien bodde i Thorvald Meyers gate 48, Fossveien 7, Olaf Ryes plass 4 og Schous plass 1.",
+        "significance": "Observerte arbeidsfolk på vei til Akerselvas fabrikker fra vinduet hjemme. Disse inntrykkene preget hans kunstnersinn.",
+        "keyWorks": [
+          {"title": "Akvarell av Øvre Foss", "year": 1879, "note": "Påskrevet 'Et gammelt Herresæde i Christiania, Fossveien, Grünerløkken'"},
+          {"title": "Det syke barn", "year": 1886, "note": "Motiv fra søsterens død hjemme i Fossveien 1877"},
+          {"title": "Døden i sykeværelset", "year": 1893, "note": "Basert på hendelser fra barndommen på Løkka"}
+        ],
+        "quote": null
+      },
+      {
+        "name": "Christian Krohg",
+        "years": "1852–1925",
+        "connection": "Hadde ikke fast bosted på Løkka, men skildret ofte byens fattige og arbeiderklassen i østkantstrøkene.",
+        "significance": "Ledende norsk naturalist som malte sosial realisme. Mentor for yngre kunstnere som Munch.",
+        "keyWorks": [
+          {"title": "Kampen for tilværelsen", "year": 1889, "note": "Fattige i kø foran bakeri"},
+          {"title": "Albertine i politilægens venteværelse", "year": 1886, "note": "Reflekterer harde realiteter for kvinner"}
+        ],
+        "quote": null
+      },
+      {
+        "name": "Theodor Kittelsen",
+        "years": "1857–1914",
+        "connection": "Ingen sterk personlig tilknytning, men har fått en plass oppkalt etter seg: Th. Kittelsens plass ved Thorvald Meyers gate (1934).",
+        "significance": "Mest kjent for eventyrillustrasjoner. Representerer samme epoke som Munch og Krohg.",
+        "keyWorks": [],
+        "quote": null
+      }
+    ],
+    "naturalists": [
+      {
+        "name": "Halfdan Strøm",
+        "years": "1863–1949",
+        "connection": "Vokste opp i Kristiania og kjente østlige bydeler 'bedre enn de fleste andre naturalistiske malere'. Del av atelierfellesskapet 'Pultosten' med Munch.",
+        "significance": "Pioner i å dokumentere østkantens liv på lerret. Malte arbeidernes hverdag – ofte refusert for 'dristige' motiver.",
+        "keyWorks": [
+          {"title": "Skredderverksted", "year": 1886, "note": "Arbeidende menn i trange rom"},
+          {"title": "I restauranten", "year": 1888, "note": "Slitne arbeidskarer ved kafébord – premiert med gullmedalje i Paris"},
+          {"title": "Skomakerverksted", "year": 1886, "note": "Hverdagsskildring fra østkanten"}
+        ],
+        "quote": "Munch skrev at han og Strøm pleide å male motiver fra Akerselva om ettermiddagen."
+      },
+      {
+        "name": "Anders Castus Svarstad",
+        "years": "1869–1943",
+        "connection": "Vokste opp på Kampen nær Grünerløkka. Kalte seg selv 'Castus fra Kampen' og vandret gatelangs på østkanten.",
+        "significance": "Kjent som 'arbeiderbevegelsens maler'. Malte byen med dokumentarisk blikk – fabrikkpiper, trehus og folkemøter.",
+        "keyWorks": [
+          {"title": "Youngstorget under innvielsen av Folkets Hus", "year": 1907, "note": "Arbeidere feirer åpningen"},
+          {"title": "Kampengata, sett fra Skarihaven", "year": null, "note": "Hverdagslivet i arbeidergate"}
+        ],
+        "quote": "Kall meg gjerne Castus fra Kampen."
+      },
+      {
+        "name": "Frits Thaulow",
+        "years": "1847–1906",
+        "connection": "I familie med Munch. Malte stemningsfulle scener langs Akerselva.",
+        "significance": "Friluftsmaleri med vintermotiver og rykende fabrikkpiper ved fossene.",
+        "keyWorks": [],
+        "quote": null
+      },
+      {
+        "name": "Gustav Wentzel",
+        "years": "1859–1927",
+        "connection": "Del av samme generasjon som Munch og Strøm.",
+        "significance": "Kjent for Et snekkerverksted (1881) – en av de første interiørskildringene av arbeidende håndverkere.",
+        "keyWorks": [
+          {"title": "Et snekkerverksted", "year": 1881, "note": "Muligens fra et østkantstrøk"}
+        ],
+        "quote": null
+      }
+    ],
+    "contemporary": [
+      {
+        "name": "Lars Elling",
+        "years": "f. 1966",
+        "connection": "Har atelier i gammel industribygning på Løkka. Lokalet tilhørte tidligere Kjell Erik Killi Olsen.",
+        "significance": "Illustrerer arven av kunstnerskap på Løkka – én generasjon overtar rommet etter en annen.",
+        "keyWorks": [],
+        "quote": "Hans atelier har så høyt under taket at han lar bandet sitt øve på messaninen."
+      },
+      {
+        "name": "Kjell Erik Killi Olsen",
+        "years": "f. 1952",
+        "connection": "Hadde atelier på Grünerløkka som senere ble overtatt av Lars Elling.",
+        "significance": "Internasjonalt aktiv med ekspresjonistiske malerier og skulpturer på 1980-90-tallet.",
+        "keyWorks": [],
+        "quote": null
+      },
+      {
+        "name": "Unni Askeland",
+        "years": "f. 1962",
+        "connection": "Bodd og jobbet på østkanten. Sentral figur i Oslos kunstmiljø.",
+        "significance": "Skapte debatt med Munch-inspirerte malerier på 2000-tallet.",
+        "keyWorks": [],
+        "quote": null
+      },
+      {
+        "name": "Bjarne Melgaard",
+        "years": "f. 1967",
+        "connection": "Har i perioder hatt virke i Oslo og bodd på østkanten.",
+        "significance": "En av Norges mest omtalte samtidskunstnere. Tiltrekkes av det rå bymiljøet og subkulturen på Løkka.",
+        "keyWorks": [],
+        "quote": null
+      }
+    ]
+  },
+  "streetArt": {
+    "intro": "Grünerløkka er i dag et av Oslos hotspots for graffiti og street art. Brenneriveien og 'Ingens gate' ved Blå og Hausmania har fungert som fristat for gatekunstnere.",
+    "background": "Stadsmiljøet byr på mange åpne gavlvegger – en byggestopp i 1899 etterlot store, vindusløse veggflater som ble perfekte lerreter. Oslo kommune opphevet nulltoleranse rundt 2010 og laget handlingsplan for gatekunst i 2016.",
+    "artists": [
+      {
+        "name": "Dolk",
+        "style": "Stensilkunst",
+        "description": "Norges svar på Banksy. Har dekorert Oslo med stensilkunst, inkludert verket 'Priest' (2009).",
+        "works": ["Priest (2009)"]
+      },
+      {
+        "name": "Martin Whatson",
+        "style": "Fargeeksplosive sjablonger",
+        "description": "Oslo-basert gatekunstner internasjonalt kjent. Har flere verk på Løkka inkludert 'Frøken Norge'-motivet ved Brenneriveien.",
+        "works": ["Frøken Norge"]
+      },
+      {
+        "name": "Hama Woods",
+        "style": "Sort-hvitt stencil",
+        "description": "Oslo-basert kunstner kjent for dyrefigurer. Har bidratt med veggmalerier av rever og fugler skjult i byrommet.",
+        "works": []
+      },
+      {
+        "name": "Pastel",
+        "style": "Muralmaler",
+        "description": "Argentinsk kunstner som malte regnskog-inspirert mural på Sankthanshaugen for Regnskogfondet (2018).",
+        "works": ["Regnskogmuralen (2018)"]
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Street Art Oslo",
+        "description": "Kuraterer og produserer gatekunst. Arrangerer årlig gatekunstfestival med base på Grünerløkka."
+      }
+    ],
+    "locations": [
+      "Brenneriveien",
+      "Ingens gate",
+      "Ved Blå",
+      "Hausmania-området",
+      "Langs Akerselva"
+    ]
+  },
+  "photographers": {
+    "historical": [
+      {
+        "name": "Henry Rosling",
+        "years": "aktiv 1860-tallet",
+        "contribution": "Tok et av de eldste bevarte fotografier av Grünerløkka (1865)."
+      },
+      {
+        "name": "Anders Beer Wilse",
+        "years": "1865–1949",
+        "contribution": "Norges mest kjente fotograf. Tok stemningsfulle bilder som 'Markveien' (1904), 'Vinter på Olaf Ryes plass' (1905), og 'Foss og Ringnes bryggerier' (1905).",
+        "keyWorks": ["Markveien (1904)", "Vinter på Olaf Ryes plass (1905)", "Foss og Ringnes bryggerier (1905)"]
+      },
+      {
+        "name": "Narve Skarpmoen",
+        "years": "1868–1930",
+        "contribution": "Dokumenterte folkelivet i Kristiania – arbeiderklassen i arbeid og fritid."
+      },
+      {
+        "name": "Leif Ørnelund",
+        "years": "1911–1992",
+        "contribution": "Fotograf for Oslo kommune og Aftenposten. Tok bilder fra Løkka på 1940-50-tallet, inkludert Grünerløkka Folkets Hus (1947) og Grünerløkka skoles guttemusikkorps (1946).",
+        "keyWorks": ["Grünerløkka Folkets Hus (1947)", "Grünerløkka skoles guttemusikkorps (1946)"]
+      }
+    ],
+    "modern": [
+      {
+        "name": "Åsmund Lindal",
+        "years": "aktiv 1980-tallet",
+        "contribution": "Dokumenterte bomiljøet 1981-82. Utgav 'Gårdsrom på Grünerløkka' som viser slitne bakgårder før rehabiliteringsbølgen.",
+        "keyWorks": ["Gårdsrom på Grünerløkka (bok)"]
+      },
+      {
+        "name": "Morten Mitchell Larød",
+        "years": "aktiv i dag",
+        "contribution": "Lager sammenstillinger av gamle og nye fotografier som viser kontrasten mellom 'før og nå' på Løkka."
+      },
+      {
+        "name": "Inger Munch",
+        "years": "1868–1952",
+        "contribution": "Edvard Munchs lillesøster. Tok fotografiet 'Fossveien' (1929) – gaten de vokste opp i.",
+        "keyWorks": ["Fossveien (1929)"],
+        "note": "Familien Munchs liv på Grünerløkka ble først malt av Edvard, og siden fotografert av Inger."
+      }
+    ]
+  },
+  "artVenues": [
+    {
+      "name": "Atelier Nord",
+      "established": 1998,
+      "address": "Nedregate",
+      "description": "Visningssted og verksted for samtidskunst (særlig mediekunst). Plattform der nye kunstuttrykk utvikles."
+    },
+    {
+      "name": "Purenkel galleri",
+      "address": "Grüners gate",
+      "description": "Galleri som gir muligheter for unge talenter til å stille ut."
+    },
+    {
+      "name": "Grünerløkka Lufthavn",
+      "description": "Tidligere prosjektrom i Markveien. Galleri 69 har rommet happenings og performancekunst."
+    },
+    {
+      "name": "Kunsthøgskolen i Oslo (KHiO)",
+      "established": 2010,
+      "address": "Seilduksfabrikken ved Akerselva",
+      "description": "Flyttet visuell kunst-fakultetene hit i 2010. Forsterket kunstnertilstedeværelsen – hver vår myldrer Løkka av studenter under Oslo Open."
+    }
+  ],
+  "metadata": {
+    "earlyArtistCount": 3,
+    "naturalistCount": 4,
+    "contemporaryCount": 4,
+    "streetArtistCount": 4,
+    "photographerCount": 7,
+    "generatedAt": "2025-12-10T00:00:00Z"
+  }
+}

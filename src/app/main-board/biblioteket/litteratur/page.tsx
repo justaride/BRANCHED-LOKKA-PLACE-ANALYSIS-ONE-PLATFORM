@@ -66,6 +66,8 @@ const typeLabels: Record<string, string> = {
     chapter: 'Kapittel',
     booklet: 'Hefte',
     reference: 'Oppslagsverk',
+    fiction: 'Skjønnlitteratur',
+    poetry: 'Poesi',
 };
 
 const typeColors: Record<string, string> = {
@@ -76,6 +78,8 @@ const typeColors: Record<string, string> = {
     chapter: 'bg-pink-100 text-pink-700',
     booklet: 'bg-cyan-100 text-cyan-700',
     reference: 'bg-gray-100 text-gray-700',
+    fiction: 'bg-rose-100 text-rose-700',
+    poetry: 'bg-indigo-100 text-indigo-700',
 };
 
 export default function LitteraturPage() {

@@ -1,0 +1,221 @@
+{
+  "id": "film",
+  "title": "Film og Grünerløkka",
+  "intro": "Grünerløkka har vært kulisse og tema for norsk film i over 75 år – fra Arne Skouens arbeiderklassedrama til moderne Oscar-nominerte produksjoner. Bydelen har fostret filmskapere, huset kinoer og inspirert dokumentarer om byens mest dynamiske strøk.",
+  "sections": [
+    {
+      "id": "filmer",
+      "title": "Filmer innspilt på Grünerløkka",
+      "description": "Fra arbeiderklassedrama til moderne thrillers – Løkkas gater har gitt autentisk bakteppe for norsk filmhistorie."
+    },
+    {
+      "id": "filmskapere",
+      "title": "Filmskapere med tilknytning",
+      "description": "Regissører som har vokst opp på, bodd eller hentet inspirasjon fra Grünerløkka."
+    },
+    {
+      "id": "kinohistorie",
+      "title": "Kinohistorien på Løkka",
+      "description": "Fra Norges første spesialbygde kino (1916) til dagens moderne kinosenter."
+    },
+    {
+      "id": "dokumentarer",
+      "title": "Dokumentarer om Grünerløkka",
+      "description": "Filmer som har dokumentert bydelens utvikling og identitet gjennom tidene."
+    }
+  ],
+  "films": [
+    {
+      "title": "Gategutter",
+      "year": 1949,
+      "director": "Arne Skouen",
+      "type": "spillefilm",
+      "description": "Klassisk norsk arbeiderklassedrama basert på Skouens roman om en guttegjeng i Oslo på 1920-tallet. Innspilt på Grünerløkka med autentiske miljøskildringer.",
+      "locations": ["Grünerløkka gater"],
+      "significance": "Et av de viktigste verkene i norsk filmhistorie og den første store filmen innspilt på Løkka."
+    },
+    {
+      "title": "Grünerløkka",
+      "year": 1973,
+      "director": "Finn Carlsby",
+      "type": "dokumentar",
+      "description": "Kortdokumentar (11 min) som skildrer bydelens utvikling fra landbruksmark på 1800-tallet til moderne byområde i 1973.",
+      "locations": ["Akerselva", "Olaf Ryes plass", "Industriområder"],
+      "significance": "Viktig tidsdokument som viser industri, næringsliv og kulturliv på Løkka."
+    },
+    {
+      "title": "Sanering – Grünerløkka",
+      "year": 1972,
+      "director": "Bjørn Nilsen",
+      "type": "dokumentar",
+      "description": "NRK TV-dokumentar om byfornyelse, forfall og planlagt riving på Grünerløkka tidlig på 1970-tallet.",
+      "locations": ["Leiegårder", "Bakgårder"],
+      "significance": "Dokumenterte bomiljøet på Løkka før rehabilitering og fanget saneringsdebatten."
+    },
+    {
+      "title": "Budbringeren",
+      "year": 1997,
+      "director": "Pål Sletaune",
+      "type": "spillefilm",
+      "description": "Thriller/komedie om en postbud i Oslos østkant. Store deler filmet i slitne bygårder og gater på øvre Grünerløkka.",
+      "locations": ["Øvre Grünerløkka", "Bakgårder"],
+      "significance": "Fanget Løkkas røffe preg på 1990-tallet før gentrifiseringen var fullført."
+    },
+    {
+      "title": "22",
+      "year": 2001,
+      "director": "Pål Aam og Eystein Hanssen",
+      "type": "spillefilm",
+      "description": "Norges første rene skrekkfilm, innspilt on location på Grünerløkka, Grønland og langs Akerselva.",
+      "locations": ["Grünerløkka", "Akerselva"],
+      "significance": "Første norske skrekkfilm med Løkka som kulisse."
+    },
+    {
+      "title": "De usynlige",
+      "year": 2008,
+      "director": "Erik Poppe",
+      "type": "spillefilm",
+      "description": "Norsk drama delvis innspilt i Paulus kirke på Grünerløkka. Poppe har fremhevet Løkkas arkitektur som ideell filmkulisse.",
+      "locations": ["Paulus kirke", "Olaf Ryes plass"],
+      "significance": "Del av Poppes Oslo-trilogi som viste Grünerløkkas intime bymiljø."
+    },
+    {
+      "title": "Villa Paradiso åpner på Olaf Ryes plass",
+      "year": 2004,
+      "director": "Jan Vardøen",
+      "type": "spillefilm",
+      "description": "Jan Vardøen, kjent som 'Mister Grünerløkka', har regissert flere filmer med bydelen som setting.",
+      "locations": ["Olaf Ryes plass"],
+      "significance": "Vardøen representerer Løkka-kulturen som har blitt både restauratør og filmskaper."
+    },
+    {
+      "title": "Kaveh – 7 steg mot toppen",
+      "year": 2012,
+      "director": "Kent Kampesveen",
+      "type": "dokumentar",
+      "description": "NRK-serie om rapperen Kaveh Kholardi fra Grünerløkka og hans vei mot gjennombrudd i hiphop-miljøet.",
+      "locations": ["Birkelunden", "Lokale scener"],
+      "significance": "Løkka eksplisitt identifisert som oppvekstmiljø – viser bydelens rolle i hiphop-kulturen."
+    },
+    {
+      "title": "One Night – En natt",
+      "year": 2018,
+      "director": "Øystein Karlsen",
+      "type": "TV-serie",
+      "description": "Dramaserie der kamera følger et par fra Birkelunden gjennom Grünerløkkas gater langs Akerselva.",
+      "locations": ["Birkelunden", "Thorvald Meyers gate", "Akerselva"],
+      "significance": "Grünerløkka nevnt i dialog og presentert som levende del av Oslos bylandskap."
+    },
+    {
+      "title": "Den største forbrytelsen",
+      "year": 2020,
+      "director": "Eirik Svensson",
+      "type": "spillefilm",
+      "description": "Historisk drama om deportasjonen av jødene under krigen. Familien Braude bor på Grünerløkka – bydelen er sentralt bakteppe.",
+      "locations": ["Grünerløkka", "Arbeiderstrøk"],
+      "significance": "Oscar-nominert film som viste Løkkas rolle i jødisk norsk historie."
+    }
+  ],
+  "filmmakers": [
+    {
+      "name": "Arne Skouen",
+      "years": "1913–2003",
+      "role": "Regissør",
+      "connection": "Vokste opp på Oslos østkant og debuterte med Gategutter (1949) som utspiller seg på Grünerløkka.",
+      "keyWorks": ["Gategutter (1949)", "Ni liv (1957)", "Kalde spor (1962)"],
+      "significance": "Hans erfaring med østkantens virkelighet ga Gategutter autentisitet som knytter ham til Løkka."
+    },
+    {
+      "name": "Pål Sletaune",
+      "years": "f. 1960",
+      "role": "Regissør",
+      "connection": "Hadde bopel på Grünerløkka på 1990-tallet og observerte bydelens transformasjon fra rufsete strøk til gentrifisert område.",
+      "keyWorks": ["Budbringeren (1997)", "Naboer (2005)", "Amors baller (2011)"],
+      "significance": "Regnes som eksponent for å skildre det urbane Oslo-filmuniverset."
+    },
+    {
+      "name": "Erik Poppe",
+      "years": "f. 1960",
+      "role": "Regissør og fotograf",
+      "connection": "Brukte Paulus kirke og Løkka aktivt i De usynlige (2008). Har uttalt at 'Grünerløkka fascinerer meg som filmkulisse'.",
+      "keyWorks": ["Schpaaa (1998)", "Hawaii, Oslo (2004)", "De usynlige (2008)"],
+      "significance": "Hans kunstneriske blikk på Oslo har gjort Grünerløkka til gjenganger i filmene."
+    },
+    {
+      "name": "Thomas Robsahm",
+      "years": "f. 1964",
+      "role": "Regissør og produsent",
+      "connection": "Del av undergrunnsmiljøet på Grünerløkka på 1980-tallet som musiker i new wave-bandet White Lord Jesus med postadresse på Løkka.",
+      "keyWorks": ["Svarte pantere (1992)", "Det store høydepunktet (2001)", "Verdens verste menneske (2021, produsent)"],
+      "significance": "Representerer broen mellom Løkkas alternative kultur på 80/90-tallet og dagens filmbransje."
+    },
+    {
+      "name": "Edith Carlmar",
+      "years": "1911–2003",
+      "role": "Regissør",
+      "connection": "Norges første kvinnelige filmregissør. Vokste opp i østkantens arbeiderstrøk og brakte disse erfaringene inn i sine filmer.",
+      "keyWorks": ["Døden er et kjærtegn (1949)", "Aldri annet enn bråk (1954)", "Ung flukt (1959)"],
+      "significance": "Hennes perspektiv som østkantjente var unikt i norsk film."
+    },
+    {
+      "name": "Jan Vardøen",
+      "years": "f. 1962",
+      "role": "Regissør og kulturaktør",
+      "connection": "Kalles 'Mister Grünerløkka' etter å ha etablert utesteder som Bar Boca og Villa Paradiso. Har regissert filmer med bydelen som setting.",
+      "keyWorks": ["Himmelveien (2014)"],
+      "significance": "Representerer Løkka-kulturen både som restauratør og filmskaper."
+    }
+  ],
+  "cinemas": [
+    {
+      "name": "Parkteatret",
+      "established": 1907,
+      "closed": 1991,
+      "address": "Olaf Ryes plass 11",
+      "description": "En av Norges aller første kinoer. Åpnet som Kristiania Bryggeri Grünerløkkens Kinematograf, ble kommunal kino i 1926. Holdt det gående i 84 år.",
+      "currentUse": "Konsertscene og bar (Parkteatret Scene) siden 2002. Fikk Olavsrosa i 2007.",
+      "significance": "Løkkas egen kino fra stumfilmens tid via lydfilmens gullalder til videoalderen."
+    },
+    {
+      "name": "Regina Teater",
+      "established": 1916,
+      "closed": 1928,
+      "address": "Nordre gate 18b",
+      "description": "Oslos aller første spesialbygde kino – byens første kinosal oppført fra grunnen kun for filmvisning. 471 sitteplasser med orkestergrav.",
+      "currentUse": "Evangeliesalen Berøa (pinsemenighet) siden 1929. Fasaden er bevart.",
+      "significance": "Markerte Løkkas plass i kinohistorien – også arbeiderstrøk fikk topp moderne kulturbygg."
+    },
+    {
+      "name": "Ringen Kino",
+      "established": 2008,
+      "address": "Sannergata 6D (Ringnes Park)",
+      "description": "Nordens første heldigitale kinosenter med 6 saler og ca. 925 seter. Tegnet av Arcasa arkitekter.",
+      "currentUse": "Fortsatt i drift som Grünerløkkas eneste fullverdige kino.",
+      "significance": "Markerer kinodriftens tilbakekomst til Løkka etter at Parkteatret stengte i 1991."
+    }
+  ],
+  "documentaries": [
+    {
+      "title": "Grünerløkka (1973)",
+      "director": "Finn Carlsby",
+      "description": "11-minutters kortdokumentar som gir historisk gjennomgang fra landbruksmark til moderne byområde. Viser industri, næringsliv og kulturliv."
+    },
+    {
+      "title": "Sanering – Grünerløkka (1972)",
+      "director": "Bjørn Nilsen m.fl.",
+      "description": "NRK TV-dokumentar om forfall og planlagte saneringer. Dokumenterte bomiljøet før rehabilitering med intervjuer og gateopptakk."
+    },
+    {
+      "title": "Edvard Munch (1974)",
+      "director": "Peter Watkins",
+      "description": "Dramadokumentar hvor Munchs barndom på Grünerløkka gjenskapes – han bodde i Fossveien på Løkka."
+    }
+  ],
+  "metadata": {
+    "filmCount": 10,
+    "filmmakerCount": 6,
+    "cinemaCount": 3,
+    "documentaryCount": 3,
+    "generatedAt": "2025-12-10T00:00:00Z"
+  }
+}

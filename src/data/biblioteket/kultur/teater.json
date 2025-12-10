@@ -1,0 +1,214 @@
+{
+  "id": "teater",
+  "title": "Teater og Scenekunst",
+  "intro": "Grünerløkka har utviklet seg til en allsidig kulturbydel der teater og scenekunst blomstrer. Fra Parkteatrets reise fra stumkino til rockescene, til frie teatergrupper som har funnet rom for nyskaping – bydelen er et dynamisk kraftsenter i Oslos scenekunstliv.",
+  "sections": [
+    {
+      "id": "parkteatret",
+      "title": "Parkteatret – 115 år på Olaf Ryes plass",
+      "description": "Historien om Oslos eldste kulturarena fra kino til konsertscene."
+    },
+    {
+      "id": "frigrupper",
+      "title": "Frie teatergrupper",
+      "description": "Uavhengige kompanier som har gjort Løkka til base for eksperimentelt og flerkulturelt teater."
+    },
+    {
+      "id": "stedsspesifikk",
+      "title": "Stedsspesifikke forestillinger",
+      "description": "Kreativ scenekunst som tar bydelens omgivelser i bruk som scene."
+    },
+    {
+      "id": "barneteater",
+      "title": "Barneteater og dukketeater",
+      "description": "Løkkas lange tradisjon for teater for de yngste."
+    },
+    {
+      "id": "standup",
+      "title": "Stand-up og kabaret",
+      "description": "Humorscenen som har gjort Løkka til en viktig bydel for stand-up."
+    },
+    {
+      "id": "dans",
+      "title": "Dans og performance",
+      "description": "Fra Dansens Hus til Riksscenen – moderne dans, folkedans og performancekunst."
+    }
+  ],
+  "venues": [
+    {
+      "name": "Parkteatret",
+      "established": 1907,
+      "address": "Olaf Ryes plass 11",
+      "type": "kulturscene",
+      "history": [
+        {"year": 1907, "event": "Åpner som Kristiania Bryggeri Grünerløkkens Kinematograf"},
+        {"year": 1913, "event": "Skifter navn til Grünerløkkens Verdenstheater"},
+        {"year": 1918, "event": "Stor ombygging starter – ny nyklassisistisk fasade"},
+        {"year": 1922, "event": "Får navnet Parkteatret"},
+        {"year": 1926, "event": "Blir kommunal kino under Oslo Kinematografer"},
+        {"year": 1932, "event": "Interiøret ombygd og utsmykket"},
+        {"year": 1960, "event": "Karakteristiske neonreklamer settes opp"},
+        {"year": 1991, "event": "Kinodriften avvikles etter 84 år"},
+        {"year": 1992, "event": "Nordic Black Theatre flytter inn"},
+        {"year": 2001, "event": "NBT flytter ut"},
+        {"year": 2002, "event": "Gjenåpner som Parkteatret Scene"},
+        {"year": 2007, "event": "Mottar Olavsrosa som kulturminne"}
+      ],
+      "currentUse": "Konsertscene, bar og arena for teater, humor og festivaler. Fast arena for Crap Comedy Festival.",
+      "significance": "En av Oslos eldste kulturarenaer – over 115 år på samme adresse."
+    },
+    {
+      "name": "Dansens Hus",
+      "established": 2008,
+      "address": "Vulkan",
+      "type": "dansescene",
+      "description": "Norges nasjonale scene for samtidsdans med to scener. Programmerer bredt spekter fra eksperimentell dans til familieforestillinger.",
+      "significance": "Har gjort samtidsdansen tilgjengelig for et større publikum og trekker danseinteresserte til Løkka-området."
+    },
+    {
+      "name": "Riksscenen",
+      "established": 2010,
+      "address": "Trondheimsveien 2 (Schous kulturkvartal)",
+      "type": "folkemusikk/folkedans",
+      "description": "Nasjonal scene for folkemusikk og folkedans. Presenterer alt fra tradisjonell norsk folkedans til samisk joik og verdensmusikk.",
+      "significance": "Utvidet dansetilbudet på Løkka til tradisjonelle danser – et samlingspunkt for danseglade i Oslo."
+    },
+    {
+      "name": "Black Box teater",
+      "established": 2007,
+      "address": "Marstrandgata 8 (Rodeløkka)",
+      "type": "friteater",
+      "description": "Scene for frie teatergrupper, etablert 1985 men flyttet til Rodeløkka i 2007. Norges ledende scene for avantgarde-teater, dans og performance.",
+      "significance": "Styrket bydelens posisjon som sentrum for den frie scenekunsten med over 1000 produksjoner."
+    },
+    {
+      "name": "Hausmania",
+      "established": 2000,
+      "address": "Hausmanns gate 34",
+      "type": "kulturhus",
+      "description": "Fristad for eksperimentell kunst. Hjem for Grusomhetens Teater og performancekunstnere.",
+      "significance": "Viktig plattform for undergrunnskultur og eksperimentelt teater."
+    },
+    {
+      "name": "Teater Manu",
+      "address": "Heimdalsgate (nedre Grünerløkka)",
+      "type": "tegnspråkteater",
+      "description": "Norges eneste profesjonelle tegnspråkteater. Produserer forestillinger der norsk tegnspråk og stemmeskuespill kombineres.",
+      "significance": "Gjør teater tilgjengelig for døve publikummere og har base midt på Løkka."
+    },
+    {
+      "name": "Folk i Storgata",
+      "type": "klubbscene",
+      "description": "Intim bar med ukentlige stand-up-kvelder og open mic for nye komikere. Ca. 50 publikumsplasser i kjelleren.",
+      "significance": "Lavterskel humorscene hvor man kan oppdage morgendagens komistjerner."
+    },
+    {
+      "name": "Grünerløkka Lufthavn / Mir",
+      "address": "Toftes gate",
+      "type": "kunstnerkollektiv",
+      "description": "Kunstnerkollektiv som driver baren Mir. Arena for undergrunnskultur, improteater, poesislam og burlesk-kabaret.",
+      "significance": "Grasrot-scene som representerer Løkkas alternative kulturmiljø."
+    },
+    {
+      "name": "Sofienberg kirke",
+      "established": 2024,
+      "type": "kulturhus",
+      "description": "Nylig ombygd til kulturhus for barn og unge. Arena for ungdomsteater og stedsspesifikke forestillinger.",
+      "significance": "Ny arena for scenekunst på Løkka – åpnet med Romeo+Julie i 2025."
+    }
+  ],
+  "theaterGroups": [
+    {
+      "name": "Nordic Black Theatre",
+      "established": 1992,
+      "founders": ["Cliff A. Moustache", "Jarl Solberg"],
+      "focus": "Flerkulturelt teater",
+      "connection": "Holdt til på Parkteatret 1992-2001 før de flyttet til MS Innvik og senere Cafeteatret.",
+      "significance": "Viktig for å etablere flerkulturelt teater i Oslo. Utvikler unge skuespillere med flerkulturell bakgrunn gjennom Nordic Black Xpress."
+    },
+    {
+      "name": "Grusomhetens Teater",
+      "established": 1989,
+      "founder": "Lars Øyno",
+      "focus": "Eksperimentelt avantgarde-teater",
+      "address": "Hausmania",
+      "significance": "Inspirert av Antonin Artaud. Har urfremført ukjente Ibsen-verk som Svanhild (2014) og Fjeldfuglen (2009). Over 30 produksjoner per 2022.",
+      "keyWorks": ["Woyzeck", "En sporvogn til begjær", "Svanhild (Ibsen)", "Fjeldfuglen (Ibsen)"]
+    },
+    {
+      "name": "Grünerløkka Geriljateater",
+      "established": 2022,
+      "focus": "Virkelighetsnær dramatikk",
+      "description": "Ungt teaterkollektiv som setter opp 'hardt-slående' dramatikk i alternative scener.",
+      "significance": "Representerer den nye generasjonen frie teatergrupper på Løkka."
+    }
+  ],
+  "siteSpecificPerformances": [
+    {
+      "title": "Compose Yourself",
+      "year": 2016,
+      "company": "herStay",
+      "location": "Deichman Grünerløkka",
+      "description": "Stedsspesifikk performance i biblioteket etter stengetid. Publikum ble tatt med på reise gjennom bibliotekets rom hvor dansere og skuespillere fremførte utdrag fra Ibsen-stykker."
+    },
+    {
+      "title": "Feilvare",
+      "year": 2019,
+      "company": "Liavaag/Lindberg",
+      "location": "Rema 1000 Sannergata",
+      "description": "Hele forestillingen foregår inne på en vanlig matbutikk. Publikum ledet rundt mellom butikkreoler og handlende kunder. Tematiserer hvem som regnes som 'feilvarer' i samfunnet."
+    },
+    {
+      "title": "Sofie i Wonderland",
+      "year": 2012,
+      "company": "Rom for Dans / Skolen for Samtidsdans",
+      "location": "Sofienbergparken",
+      "description": "Stedsspesifikk danseforestilling for barn i sirkustelt. Kombinerte moderne dans, eventyrfortelling og interaktive elementer."
+    },
+    {
+      "title": "Romeo + Julie",
+      "year": 2025,
+      "company": "Tigerstadsteatret",
+      "location": "Sofienberg kirke",
+      "description": "Shakespeare i nytolkning med slampoesi, street art, ballroom-dans og episke orgelbeats. Kirken transformert til okkupert ungdomsmiljø."
+    }
+  ],
+  "childrenTheater": [
+    {
+      "name": "Oslo Nye Dukketeater (Trikkestallen)",
+      "years": "2003-2023",
+      "location": "Torshov (nær Løkka)",
+      "description": "Byens hovedscene for dukketeater. Spilte Albert Åberg-forestillinger og klassikere som 'Muldvarpen'. Avsluttet 22 år på Torshov i 2023.",
+      "significance": "Betjente teaterglade Løkka-barn i to tiår."
+    },
+    {
+      "name": "Teater Manu barneteater",
+      "description": "Produserer barneforestillinger på tegnspråk basert på eventyr. Spilles både i egen sal og på turné til skoler."
+    },
+    {
+      "name": "Sofienbergparken kulturhus",
+      "established": 2024,
+      "description": "I gamle Sofienberg kirke – planlegges dukketeaterverksted, barneforestillinger og julemarked."
+    }
+  ],
+  "comedy": [
+    {
+      "venue": "Parkteatret",
+      "description": "Fast arena for Crap Comedy Festival med Late Night Stand Up-show. Har også gjestet internasjonale komikere som Bridget Christie."
+    },
+    {
+      "venue": "Folk i Storgata",
+      "description": "Ukentlige stand-up-kvelder med open mic. Lavterskel konsept som trekker ungt publikum."
+    },
+    {
+      "venue": "Mir / Grünerløkka Lufthavn",
+      "description": "Absurd kabaret, improvisert stand-up og burlesk-kabaret-kvelder i uformelt miljø."
+    }
+  ],
+  "metadata": {
+    "venueCount": 9,
+    "theaterGroupCount": 3,
+    "siteSpecificCount": 4,
+    "generatedAt": "2025-12-10T00:00:00Z"
+  }
+}

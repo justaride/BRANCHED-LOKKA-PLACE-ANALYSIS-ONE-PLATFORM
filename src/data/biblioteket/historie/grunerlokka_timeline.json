@@ -8,7 +8,7 @@
   },
   "time_span": {
     "start_year": 1850,
-    "end_year": 2010
+    "end_year": 2024
   },
   "events": [
     {
@@ -443,7 +443,182 @@
         "org_riksscenen",
         "org_parkteatret"
       ]
+    },
+    {
+      "id": "1998_bar_boca_opens",
+      "label": "Bar Boca åpner som Oslos første cocktailbar",
+      "start_year": 1998,
+      "end_year": 1998,
+      "precision": "year",
+      "section_id": "byfornyelse_and_gentrification_1970s_2000s",
+      "summary": "Bar Boca åpner i Thorvald Meyers gate som Oslos første autentiske cocktailbar. Den knøttlille 50-tallsinspirerte baren blir raskt kult og et symbol på det nye, sofistikerte Løkka.",
+      "tags": [
+        "uteliv",
+        "gentrifisering",
+        "kafekultur"
+      ],
+      "entities": [
+        "street_thorvald_meyers_gate"
+      ]
+    },
+    {
+      "id": "2003_parkteatret_reopens",
+      "label": "Parkteatret gjenåpner som kulturscene",
+      "start_year": 2003,
+      "end_year": 2003,
+      "precision": "year",
+      "section_id": "byfornyelse_and_gentrification_1970s_2000s",
+      "summary": "Den gamle kinoen fra 1907 gjenåpner som kulturscene og bar etter rehabilitering. Parkteatret blir raskt et av byens viktigste konsertsteder og vannhull for den kreative klassen.",
+      "tags": [
+        "kultur",
+        "rehabilitering",
+        "musikk"
+      ],
+      "entities": [
+        "org_parkteatret",
+        "place_olaf_ryes_plass"
+      ]
+    },
+    {
+      "id": "2004_villa_paradiso_opens",
+      "label": "Villa Paradiso åpner på Olaf Ryes plass",
+      "start_year": 2004,
+      "end_year": 2004,
+      "precision": "year",
+      "section_id": "byfornyelse_and_gentrification_1970s_2000s",
+      "summary": "Jan Vardøen starter den napolitanske pizzeriaen Villa Paradiso i Olaf Ryes plass 8. Restauranten blir et landemerke for det nye Løkka med kvalitetsmat og kontinentale kaféopplevelser.",
+      "tags": [
+        "mat",
+        "gründervirksomhet",
+        "gentrifisering"
+      ],
+      "entities": [
+        "person_jan_vardoen",
+        "place_olaf_ryes_plass"
+      ]
+    },
+    {
+      "id": "2007_tim_wendelboe_opens",
+      "label": "Tim Wendelboe åpner spesialkaffebar",
+      "start_year": 2007,
+      "end_year": 2007,
+      "precision": "year",
+      "section_id": "byfornyelse_and_gentrification_1970s_2000s",
+      "summary": "Baristaverdensmeister Tim Wendelboe åpner sin ikoniske kaffebar i Grüners gate. Stedet blir verdenskjent og setter Grünerløkka på kartet for spesialkaffe.",
+      "tags": [
+        "kaffe",
+        "gründervirksomhet",
+        "internasjonal_anerkjennelse"
+      ],
+      "entities": [
+        "person_tim_wendelboe"
+      ]
+    },
+    {
+      "id": "2012_mathallen_vulkan_opens",
+      "label": "Mathallen åpner på Vulkan",
+      "start_year": 2012,
+      "end_year": 2012,
+      "precision": "year",
+      "section_id": "modern_era_2010_2024",
+      "summary": "Mathallen Oslo åpner i det nye Vulkan-området ved Akerselva, med over 30 spesialiserte mat- og drikkeutsalg. Området markerer en ny æra for byutvikling langs elva.",
+      "tags": [
+        "mat",
+        "byutvikling",
+        "handel"
+      ],
+      "entities": [
+        "org_mathallen",
+        "place_vulkan",
+        "place_akerselva"
+      ]
+    },
+    {
+      "id": "2014_dansens_hus_vulkan",
+      "label": "Dansens Hus flytter til Vulkan",
+      "start_year": 2014,
+      "end_year": 2014,
+      "precision": "year",
+      "section_id": "modern_era_2010_2024",
+      "summary": "Dansens Hus åpner i nytt bygg på Vulkan og styrker områdets posisjon som kulturelt knutepunkt. Bygget er tegnet av Snøhetta og er et fyrtårn for norsk scenekunst.",
+      "tags": [
+        "kultur",
+        "dans",
+        "arkitektur"
+      ],
+      "entities": [
+        "org_dansens_hus",
+        "place_vulkan"
+      ]
+    },
+    {
+      "id": "2017_sultan_closes",
+      "label": "Sultan Frukt & Grønt stenger etter 30 år",
+      "start_year": 2017,
+      "end_year": 2017,
+      "precision": "year",
+      "section_id": "modern_era_2010_2024",
+      "summary": "Den familiedrevne tyrkiske grønnsakbutikken Sultan i Markveien stenger etter press fra høye husleier. Nedleggelsen blir et symbol på gentrifiseringens bakside og tapet av tradisjonelle nabolagsbutikker.",
+      "tags": [
+        "gentrifisering",
+        "tap",
+        "handel"
+      ],
+      "entities": [
+        "street_markveien"
+      ]
+    },
+    {
+      "id": "2020_covid_impact",
+      "label": "Covid-19 rammer utelivsbransjen",
+      "start_year": 2020,
+      "end_year": 2021,
+      "precision": "range_years",
+      "section_id": "modern_era_2010_2024",
+      "summary": "Pandemien fører til stengte barer og restauranter på Grünerløkka. Flere tradisjonsrike steder overlever ikke, mens andre tilpasser seg med uteservering og take-away.",
+      "tags": [
+        "pandemi",
+        "krise",
+        "uteliv"
+      ],
+      "entities": [
+        "place_grunerlokka"
+      ]
+    },
+    {
+      "id": "2021_fru_hagen_bankruptcy",
+      "label": "Fru Hagen slår seg konkurs",
+      "start_year": 2021,
+      "end_year": 2021,
+      "precision": "year",
+      "section_id": "modern_era_2010_2024",
+      "summary": "Etter 25 år som symbol på Løkka-gentrifiseringen går den ikoniske kafeen Fru Hagen konkurs. Stedet som startet vestkantungdommens pilgrimsferd til østkanten forsvinner fra gatebilde.",
+      "tags": [
+        "konkurs",
+        "gentrifisering",
+        "uteliv"
+      ],
+      "entities": [
+        "street_thorvald_meyers_gate"
+      ]
+    },
+    {
+      "id": "2024_oslo_400_years",
+      "label": "Oslo feirer 400-årsjubileum",
+      "start_year": 2024,
+      "end_year": 2024,
+      "precision": "year",
+      "section_id": "modern_era_2010_2024",
+      "summary": "Oslo markerer 400 år som hovedstad. Grünerløkkas historie fra arbeiderstrøk til trendy kulturbydel fremheves som et sentralt kapittel i byens utvikling.",
+      "tags": [
+        "jubileum",
+        "historie",
+        "identitet"
+      ],
+      "entities": [
+        "place_grunerlokka"
+      ]
     }
   ],
-  "version": 1
+  "version": 2
 }

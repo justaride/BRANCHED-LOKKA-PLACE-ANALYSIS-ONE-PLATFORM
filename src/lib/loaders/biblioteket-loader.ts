@@ -30,6 +30,9 @@ import historieEntitiesData from '@/data/biblioteket/historie/grunerlokka_entiti
 import kulturMasterData from '@/data/biblioteket/kultur/grunerlokka_master_alt.json';
 import jazzData from '@/data/biblioteket/kultur/jazz.json';
 import hiphopData from '@/data/biblioteket/kultur/hiphop.json';
+import filmData from '@/data/biblioteket/kultur/film.json';
+import teaterData from '@/data/biblioteket/kultur/teater.json';
+import billedkunstData from '@/data/biblioteket/kultur/billedkunst.json';
 import idrettData from '@/data/biblioteket/idrett/idrett.json';
 
 // ============================================================================
@@ -338,6 +341,244 @@ export function getHiphopCrews(): HiphopCrew[] {
 
 export function getHiphopEvents(): HiphopEvent[] {
     return hiphopData.events as HiphopEvent[];
+}
+
+// ============================================================================
+// FILM SUBSECTION
+// ============================================================================
+
+export interface FilmData {
+    id: string;
+    title: string;
+    intro: string;
+    sections: { id: string; title: string; description: string }[];
+    films: FilmEntry[];
+    filmmakers: Filmmaker[];
+    cinemas: Cinema[];
+    documentaries: Documentary[];
+    metadata: { filmCount: number; filmmakerCount: number; cinemaCount: number; documentaryCount: number; generatedAt: string };
+}
+
+export interface FilmEntry {
+    title: string;
+    year: number;
+    director: string;
+    type: string;
+    description: string;
+    locations: string[];
+    significance: string;
+}
+
+export interface Filmmaker {
+    name: string;
+    years: string;
+    role: string;
+    connection: string;
+    keyWorks: string[];
+    significance: string;
+}
+
+export interface Cinema {
+    name: string;
+    established: number;
+    closed?: number;
+    address: string;
+    description: string;
+    currentUse?: string;
+    significance: string;
+}
+
+export interface Documentary {
+    title: string;
+    director: string;
+    description: string;
+}
+
+export function getFilmData(): FilmData {
+    return filmData as FilmData;
+}
+
+export function getFilms(): FilmEntry[] {
+    return filmData.films as FilmEntry[];
+}
+
+export function getFilmmakers(): Filmmaker[] {
+    return filmData.filmmakers as Filmmaker[];
+}
+
+export function getCinemas(): Cinema[] {
+    return filmData.cinemas as Cinema[];
+}
+
+export function getDocumentaries(): Documentary[] {
+    return filmData.documentaries as Documentary[];
+}
+
+// ============================================================================
+// TEATER SUBSECTION
+// ============================================================================
+
+export interface TeaterData {
+    id: string;
+    title: string;
+    intro: string;
+    sections: { id: string; title: string; description: string }[];
+    venues: TeaterVenue[];
+    theaterGroups: TheaterGroup[];
+    siteSpecificPerformances: SiteSpecificPerformance[];
+    childrenTheater: ChildrenTheater[];
+    comedy: ComedyVenue[];
+    metadata: { venueCount: number; theaterGroupCount: number; siteSpecificCount: number; generatedAt: string };
+}
+
+export interface TeaterVenue {
+    name: string;
+    established?: number;
+    address?: string;
+    type: string;
+    description?: string;
+    history?: { year: number; event: string }[];
+    currentUse?: string;
+    significance: string;
+}
+
+export interface TheaterGroup {
+    name: string;
+    established: number;
+    founders?: string[];
+    founder?: string;
+    focus: string;
+    connection?: string;
+    address?: string;
+    significance: string;
+    keyWorks?: string[];
+    description?: string;
+}
+
+export interface SiteSpecificPerformance {
+    title: string;
+    year: number;
+    company: string;
+    location: string;
+    description: string;
+}
+
+export interface ChildrenTheater {
+    name: string;
+    years?: string;
+    established?: number;
+    location?: string;
+    description: string;
+    significance?: string;
+}
+
+export interface ComedyVenue {
+    venue: string;
+    description: string;
+}
+
+export function getTeaterData(): TeaterData {
+    return teaterData as TeaterData;
+}
+
+export function getTeaterVenues(): TeaterVenue[] {
+    return teaterData.venues as TeaterVenue[];
+}
+
+export function getTheaterGroups(): TheaterGroup[] {
+    return teaterData.theaterGroups as TheaterGroup[];
+}
+
+export function getSiteSpecificPerformances(): SiteSpecificPerformance[] {
+    return teaterData.siteSpecificPerformances as SiteSpecificPerformance[];
+}
+
+export function getChildrenTheater(): ChildrenTheater[] {
+    return teaterData.childrenTheater as ChildrenTheater[];
+}
+
+export function getComedyVenues(): ComedyVenue[] {
+    return teaterData.comedy as ComedyVenue[];
+}
+
+// ============================================================================
+// BILLEDKUNST SUBSECTION
+// ============================================================================
+
+export interface BilledkunstData {
+    id: string;
+    title: string;
+    intro: string;
+    sections: { id: string; title: string; description: string }[];
+    artists: {
+        early: BilledkunstArtist[];
+        naturalists: BilledkunstArtist[];
+        contemporary: BilledkunstArtist[];
+    };
+    streetArt: {
+        intro: string;
+        background: string;
+        artists: StreetArtist[];
+        organizations: { name: string; description: string }[];
+        locations: string[];
+    };
+    photographers: {
+        historical: Photographer[];
+        modern: Photographer[];
+    };
+    artVenues: ArtVenue[];
+    metadata: { earlyArtistCount: number; naturalistCount: number; contemporaryCount: number; streetArtistCount: number; photographerCount: number; generatedAt: string };
+}
+
+export interface BilledkunstArtist {
+    name: string;
+    years: string;
+    connection: string;
+    significance: string;
+    keyWorks?: { title: string; year?: number; note?: string }[];
+    quote?: string | null;
+}
+
+export interface StreetArtist {
+    name: string;
+    style: string;
+    description: string;
+    works?: string[];
+}
+
+export interface Photographer {
+    name: string;
+    years: string;
+    contribution: string;
+    keyWorks?: string[];
+    note?: string;
+}
+
+export interface ArtVenue {
+    name: string;
+    established?: number;
+    address?: string;
+    description: string;
+}
+
+export function getBilledkunstData(): BilledkunstData {
+    return billedkunstData as BilledkunstData;
+}
+
+export function getBilledkunstArtists() {
+    return billedkunstData.artists;
+}
+
+export function getStreetArt() {
+    return billedkunstData.streetArt;
+}
+
+export function getPhotographers() {
+    return billedkunstData.photographers;
+}
+
+export function getArtVenues(): ArtVenue[] {
+    return billedkunstData.artVenues as ArtVenue[];
 }
 
 // ============================================================================
