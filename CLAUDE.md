@@ -283,18 +283,19 @@ Biblioteket er en digital samling som dokumenterer Grünerløkkas historie og id
 | Side | Route | Hoveddata |
 |------|-------|-----------|
 | **Hovedside** | `/main-board/biblioteket` | Master Timeline, kategorier |
-| **Ildsjeler** | `/main-board/biblioteket/ildsjeler` | 14 lokale helter |
+| **Ildsjeler** | `/main-board/biblioteket/ildsjeler` | 31 lokale helter (14 eksisterende + 17 nye) |
 | **Historie** | `/main-board/biblioteket/historie` | 170 år byhistorie |
-| **Kultur** | `/main-board/biblioteket/kultur` | Kunst, musikk, scener |
+| **Kultur** | `/main-board/biblioteket/kultur` | Kunst, musikk, jazz, hiphop, scener |
 | **Litteratur** | `/main-board/biblioteket/litteratur` | 35+ verk |
+| **Idrett** | `/main-board/biblioteket/idrett` | Grüner IL, Dælenenga, arbeideridretten |
 
 ### Datafiler
 
 ```
 src/data/biblioteket/
 ├── ildsjeler/
-│   ├── ildsjeler.json        # 14 personer
-│   ├── kategorier.json       # 8 kategorier
+│   ├── ildsjeler.json        # 31 personer (14 eksisterende + 17 nye)
+│   ├── kategorier.json       # 12 kategorier (8 + 4 nye)
 │   ├── tidslinje.json        # Hendelser
 │   └── places.json           # Steder
 ├── historie/
@@ -302,7 +303,11 @@ src/data/biblioteket/
 │   ├── grunerlokka_entities.json
 │   └── themes.json
 ├── kultur/
-│   └── grunerlokka_master_alt.json
+│   ├── grunerlokka_master_alt.json
+│   ├── jazz.json             # NEW: ECM, Oslo Jazzhus, Blå
+│   └── hiphop.json           # NEW: X-Ray, breakdance, graffiti
+├── idrett/
+│   └── idrett.json           # NEW: Grüner IL, arbeideridretten
 └── litteratur/
     ├── works.json
     └── grunerlokka_sources.json
@@ -363,7 +368,8 @@ public/images/biblioteket/
 ├── byhistorie-banner-hero.jpg
 ├── ildsjeler-banner-hero.jpg
 ├── kultur-banner-hero.jpg
-└── litteratur-banner-hero.jpeg
+├── litteratur-banner-hero.jpeg
+└── idrett-hero.png            # NEW: Grüner IL/Dælenenga hero
 
 public/images/ildsjeler/
 └── {person-id}.jpg

@@ -1,0 +1,288 @@
+{
+  "id": "jazz",
+  "title": "Jazzhistorien på Grünerløkka",
+  "subtitle": "Fra ECM-pionerene til dagens klubbscene",
+  "description": "Fra Jon Christensens første trommeslag på 1950-tallet til dagens festivaler har Grünerløkka utviklet seg til et sentrum for jazzskapende aktivitet i Oslo. Bydelen har fostret verdensnavn, huset legendariske klubber og lagt scene til nye uttrykk.",
+  "heroImage": "/images/biblioteket/jazz-hero.jpg",
+  "timeline": [
+    {
+      "id": "jazz-1950-1960",
+      "period": "1950- og 1960-årene",
+      "title": "Nye talenter i Oslos jazzmiljø",
+      "description": "Etterkrigstidens jazzmiljø blomstret, og flere unge musikere fra østkanten markerte seg. Jon Christensen begynte som 15-åring å spille i storband og vant NM for amatører i 1960. Jan Garbarek vant Norgesmesterskapet for amatørjazztalenter i 1962.",
+      "events": [
+        {
+          "year": 1960,
+          "title": "Jon Christensen vinner NM",
+          "description": "Jon Christensen vinner NM for amatørjazzmusikere som trommeslager"
+        },
+        {
+          "year": 1962,
+          "title": "Jan Garbarek vinner NM",
+          "description": "15-årige Jan Garbarek vinner Norgesmesterskapet som både solist og bandleder"
+        },
+        {
+          "year": 1966,
+          "title": "Jazz Moments",
+          "description": "Garbarek bidrar på Karin Krogs plate Jazz Moments"
+        },
+        {
+          "year": 1967,
+          "title": "Buddy-prisen til Jon Christensen",
+          "description": "Jon Christensen mottar Buddy-prisen, norsk jazz' høyeste utmerkelse"
+        },
+        {
+          "year": 1967,
+          "title": "Til Vigdis",
+          "description": "Garbareks debutalbum spilles inn live med Arild Andersen og Jon Christensen"
+        },
+        {
+          "year": 1968,
+          "title": "Buddy-prisen til Garbarek",
+          "description": "Jan Garbarek mottar Buddy-prisen"
+        }
+      ]
+    },
+    {
+      "id": "jazz-1970",
+      "period": "1970-årene",
+      "title": "ECM og internasjonalt gjennombrudd",
+      "description": "I 1970 innledet Jan Garbarek, Jon Christensen, Terje Rypdal og Arild Andersen samarbeid med ECM-plateselskapet. Dette markerte begynnelsen på ECMs unike tilknytning til Norge og spredte 'Oslo-lyden' globalt.",
+      "events": [
+        {
+          "year": 1970,
+          "title": "Afric Pepperbird",
+          "description": "ECM-debuten som presenterte en ny nordisk jazzsound"
+        },
+        {
+          "year": 1971,
+          "title": "Sart",
+          "description": "Album med Garbarek-kvartetten og Bobo Stenson på piano"
+        }
+      ]
+    },
+    {
+      "id": "jazz-1980",
+      "period": "1980-årene",
+      "title": "Oslo Jazzhus inntar Grünerløkka",
+      "description": "Oslo Jazzhus flyttet inn i Musikkens Hus i Toftes gate 69 i 1985. Klubben tilbød konserter nesten daglig og ble et springbrett for unge jazzmusikere med nære bånd til Foss videregående skole.",
+      "events": [
+        {
+          "year": 1984,
+          "title": "Malla blir Oslo Jazzhus",
+          "description": "Amalienborg Jazzhus skifter navn til Oslo Jazzhus"
+        },
+        {
+          "year": 1985,
+          "title": "Flytter til Toftes gate",
+          "description": "Oslo Jazzhus etablerer seg i Musikkens Hus på Grünerløkka"
+        },
+        {
+          "year": 1986,
+          "title": "We Remember You",
+          "description": "Liveopptak med Al Cohn, Laila Dalseth og Totti Bergh på Oslo Jazzhus"
+        },
+        {
+          "year": 1993,
+          "title": "Smuget-prisen",
+          "description": "Oslo Jazzhus vinner Smuget-prisen for sitt bidrag til jazzmiljøet"
+        }
+      ]
+    },
+    {
+      "id": "jazz-1990",
+      "period": "1990-årene",
+      "title": "Fra Jazzhus til Blå",
+      "description": "Oslo Jazzhus slet økonomisk og la ned i 1996 etter 23 år. I 1998 åpnet jazzklubben Blå i Brenneriveien 9 og ble raskt kjent som '90-tallsgenerasjonens Club 7'.",
+      "events": [
+        {
+          "year": 1994,
+          "title": "Grünerløkka Lufthavn",
+          "description": "Kulturstiftelsen overtar Musikkens Hus med øvingslokaler, galleri og Café Mir"
+        },
+        {
+          "year": 1996,
+          "title": "Oslo Jazzhus legger ned",
+          "description": "Etter 23 års drift legger Oslo Jazzhus ned for godt"
+        },
+        {
+          "year": 1998,
+          "title": "Blå åpner",
+          "description": "Jazzklubben Blå åpner i gammel fabrikkbygning ved Akerselva"
+        }
+      ]
+    },
+    {
+      "id": "jazz-2000",
+      "period": "2000- og 2010-årene",
+      "title": "Festivaler og ny vitalitet",
+      "description": "Grünerløkka befestet sin posisjon med festivaler som Blow Out! og konserter på Parkteatret. Jon Christensen forble aktiv frem til sin bortgang i 2020.",
+      "events": [
+        {
+          "year": 2002,
+          "title": "Parkteatret gjenåpner",
+          "description": "Den gamle kinoen blir scene for jazzarrangementer"
+        },
+        {
+          "year": 2003,
+          "title": "Frode Haltli på ECM",
+          "description": "Trekkspiller lanserer ECM-debuten med konsert på Parkteatret"
+        },
+        {
+          "year": 2010,
+          "title": "Blow Out! etableres",
+          "description": "Internasjonal festival for frijazz og improvisasjonsmusikk på Café Mir"
+        },
+        {
+          "year": 2018,
+          "title": "Blå 20 år",
+          "description": "Klubben feirer jubileum som etablert kulturinstitusjon"
+        },
+        {
+          "year": 2020,
+          "title": "Jon Christensen dør",
+          "description": "Legendaren og ECM-hustrommeslageren går bort"
+        }
+      ]
+    }
+  ],
+  "venues": [
+    {
+      "id": "oslo-jazzhus",
+      "name": "Oslo Jazzhus",
+      "address": "Toftes gate 69",
+      "period": "1985-1996",
+      "description": "Grünerløkkas første dedikerte jazzhus. Hadde konserter nesten seks kvelder i uka og var særlig viktig for unge musikere med bånd til Foss videregående skole.",
+      "status": "nedlagt"
+    },
+    {
+      "id": "bla",
+      "name": "Blå",
+      "address": "Brenneriveien 9",
+      "period": "1998-",
+      "description": "Konsert- og kulturlokale i gammel fabrikkbygning ved Akerselva. Profilerer seg med sjangerbredde - jazz, elektronika, hiphop og rock. Kalles '90-tallsgenerasjonens Club 7'.",
+      "status": "aktiv"
+    },
+    {
+      "id": "cafe-mir",
+      "name": "Café Mir / Grünerløkka Lufthavn",
+      "address": "Toftes gate 69",
+      "period": "1994-",
+      "description": "Kulturstiftelse med øvingslokaler, galleri og kafé. Huser Blow Out! festivalen og improvisasjonskonserter.",
+      "status": "aktiv"
+    },
+    {
+      "id": "parkteatret",
+      "name": "Parkteatret",
+      "address": "Olaf Ryes plass 11",
+      "period": "2002-",
+      "description": "Gammel kino som gjenåpnet som konsertscene. Huser jazzarrangementer og lanserte bl.a. Frode Haltlis ECM-debut i 2003.",
+      "status": "aktiv"
+    }
+  ],
+  "artists": [
+    {
+      "id": "jon-christensen",
+      "name": "Jon Christensen",
+      "birthYear": 1943,
+      "deathYear": 2020,
+      "instrument": "Trommer",
+      "description": "Banebrytende trommeslager og ECMs 'hustrommeslager'. Vant NM for amatører i 1960 og Buddy-prisen i 1967. Medvirket på en lang rekke ECM-utgivelser og samarbeidet med Keith Jarrett og Chick Corea.",
+      "awards": ["Buddy-prisen 1967"],
+      "connectionToLokka": "Bosatt på Sagene, opptrådte på Oslo Jazzhus og mentorvirksomhet i miljøet"
+    },
+    {
+      "id": "jan-garbarek",
+      "name": "Jan Garbarek",
+      "birthYear": 1947,
+      "deathYear": null,
+      "instrument": "Saksofon",
+      "description": "En av norsk jazz' største profiler. Vant NM som 15-åring i 1962. Hans særpregede tone influert av norsk folkemusikk ble et kjennetegn på 'ECM-lyden'. Mottok Norsk kulturråds ærespris i 2004.",
+      "awards": ["Buddy-prisen 1968", "Norsk kulturråds ærespris 2004"],
+      "connectionToLokka": "Inspirerte generasjoner av musikere i Løkka-miljøet"
+    },
+    {
+      "id": "terje-rypdal",
+      "name": "Terje Rypdal",
+      "birthYear": 1947,
+      "deathYear": null,
+      "instrument": "Gitar",
+      "description": "Gitarist og komponist som var del av ECM-pionerene. Kjent for sin atmosfæriske gitarsound og filmmusikk.",
+      "connectionToLokka": "Del av Oslo-miljøet som formet norsk jazz"
+    },
+    {
+      "id": "arild-andersen",
+      "name": "Arild Andersen",
+      "birthYear": 1945,
+      "deathYear": null,
+      "instrument": "Bass",
+      "description": "Bassist oppvokst på Lillestrøm som ble sentral i ECM-miljøet. Spilte på Garbareks debutalbum og har utgitt en rekke album på ECM.",
+      "connectionToLokka": "Del av kjernegruppen som definerte norsk jazz"
+    },
+    {
+      "id": "sidsel-endresen",
+      "name": "Sidsel Endresen",
+      "birthYear": 1952,
+      "deathYear": null,
+      "instrument": "Vokal",
+      "description": "Vokalist som gjorde seg bemerket internasjonalt med ECM-album på 1980- og 90-tallet.",
+      "connectionToLokka": "Del av Oslo ECM-miljøet"
+    },
+    {
+      "id": "nils-petter-molvaer",
+      "name": "Nils Petter Molvær",
+      "birthYear": 1960,
+      "deathYear": null,
+      "instrument": "Trompet",
+      "description": "Trompetist bosatt i Oslo som blander jazz med elektronika. Sentral figur i nyere norsk jazz.",
+      "connectionToLokka": "Opptrer på Blå og andre Løkka-scener"
+    },
+    {
+      "id": "trygve-seim",
+      "name": "Trygve Seim",
+      "birthYear": 1971,
+      "deathYear": null,
+      "instrument": "Saksofon",
+      "description": "Saksofonist som ble inspirert av Garbareks plate Eventyr i 1985 til å begynne med saksofon. Representerer den nye generasjonen ECM-artister fra Oslo.",
+      "connectionToLokka": "Inspirert av Garbarek, del av det moderne Oslo-jazzmiljøet"
+    }
+  ],
+  "festivals": [
+    {
+      "id": "blow-out",
+      "name": "Blow Out! Festivalen",
+      "founded": 2010,
+      "description": "Internasjonal festival for frijazz og improvisasjonsmusikk. Kurateres av Paal Nilssen-Love og Ståle Liavik Solberg. Arrangeres på Café Mir/Grünerløkka Lufthavn og har blitt 'et seinsommerlig musikalsk tyngdepunkt i hovedstaden'.",
+      "location": "Café Mir, Toftes gate 69"
+    },
+    {
+      "id": "oslo-jazzfestival",
+      "name": "Oslo Jazzfestival",
+      "founded": 1986,
+      "description": "Byomfattende årlig festival som inkluderer konsertscener på Grünerløkka. Har benyttet Parkteatret og Blå til konserter.",
+      "location": "Diverse scener i Oslo"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Oslo byarkiv - Tobias 1/2004",
+      "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf"
+    },
+    {
+      "title": "Store Norske Leksikon - Jon Christensen",
+      "url": "https://snl.no/Jon_Christensen"
+    },
+    {
+      "title": "Store Norske Leksikon - Jan Garbarek",
+      "url": "https://snl.no/Jan_Garbarek"
+    },
+    {
+      "title": "Jazz i Norge - Blow Out",
+      "url": "https://jazzinorge.no/anmeldelse/blow-out-og-blow-out-fru-blom/"
+    },
+    {
+      "title": "Oslo World - Blå",
+      "url": "https://www.osloworld.no/spillested/blå"
+    }
+  ]
+}

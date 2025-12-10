@@ -28,6 +28,9 @@ import historieTimelineData from '@/data/biblioteket/historie/grunerlokka_timeli
 import historieCardsData from '@/data/biblioteket/historie/grunerlokka_cards.json';
 import historieEntitiesData from '@/data/biblioteket/historie/grunerlokka_entities.json';
 import kulturMasterData from '@/data/biblioteket/kultur/grunerlokka_master_alt.json';
+import jazzData from '@/data/biblioteket/kultur/jazz.json';
+import hiphopData from '@/data/biblioteket/kultur/hiphop.json';
+import idrettData from '@/data/biblioteket/idrett/idrett.json';
 
 // ============================================================================
 // ILDSJELER (Local Heroes)
@@ -185,6 +188,247 @@ export function getKulturVenues(): string[] {
 }
 
 // ============================================================================
+// JAZZ SUBSECTION
+// ============================================================================
+
+export interface JazzData {
+    id: string;
+    title: string;
+    subtitle: string;
+    description: string;
+    heroImage: string;
+    timeline: JazzPeriod[];
+    venues: JazzVenue[];
+    artists: JazzArtist[];
+    festivals: JazzFestival[];
+    sources: { title: string; url: string }[];
+}
+
+export interface JazzPeriod {
+    id: string;
+    period: string;
+    title: string;
+    description: string;
+    events: { year: number; title: string; description: string }[];
+}
+
+export interface JazzVenue {
+    id: string;
+    name: string;
+    address: string;
+    period: string;
+    description: string;
+    status: 'aktiv' | 'nedlagt';
+}
+
+export interface JazzArtist {
+    id: string;
+    name: string;
+    birthYear: number;
+    deathYear: number | null;
+    instrument: string;
+    description: string;
+    awards?: string[];
+    connectionToLokka: string;
+}
+
+export interface JazzFestival {
+    id: string;
+    name: string;
+    founded: number;
+    description: string;
+    location: string;
+}
+
+export function getJazzData(): JazzData {
+    return jazzData as JazzData;
+}
+
+export function getJazzTimeline(): JazzPeriod[] {
+    return jazzData.timeline as JazzPeriod[];
+}
+
+export function getJazzVenues(): JazzVenue[] {
+    return jazzData.venues as JazzVenue[];
+}
+
+export function getJazzArtists(): JazzArtist[] {
+    return jazzData.artists as JazzArtist[];
+}
+
+export function getJazzFestivals(): JazzFestival[] {
+    return jazzData.festivals as JazzFestival[];
+}
+
+// ============================================================================
+// HIPHOP SUBSECTION
+// ============================================================================
+
+export interface HiphopData {
+    id: string;
+    title: string;
+    subtitle: string;
+    description: string;
+    heroImage: string;
+    sections: HiphopSection[];
+    artists: HiphopArtist[];
+    crews: HiphopCrew[];
+    events: HiphopEvent[];
+    sources: { title: string; url: string }[];
+}
+
+export interface HiphopSection {
+    id: string;
+    title: string;
+    subtitle: string;
+    description: string;
+    founded?: number;
+    address?: string;
+    founder?: string;
+    highlights?: string[];
+    timeline?: { year: number; title: string; description: string }[];
+    pioneers?: string[];
+    venues?: { name: string; description: string }[];
+}
+
+export interface HiphopArtist {
+    id: string;
+    name: string;
+    members?: string[];
+    realName?: string;
+    genre: string;
+    description: string;
+    connectionToLokka: string;
+}
+
+export interface HiphopCrew {
+    id: string;
+    name: string;
+    founded: number | null;
+    style: string;
+    description: string;
+    website?: string;
+    connectionToLokka?: string;
+}
+
+export interface HiphopEvent {
+    id: string;
+    name: string;
+    year?: number;
+    type: string;
+    description: string;
+    location?: string;
+}
+
+export function getHiphopData(): HiphopData {
+    return hiphopData as HiphopData;
+}
+
+export function getHiphopSections(): HiphopSection[] {
+    return hiphopData.sections as HiphopSection[];
+}
+
+export function getHiphopArtists(): HiphopArtist[] {
+    return hiphopData.artists as HiphopArtist[];
+}
+
+export function getHiphopCrews(): HiphopCrew[] {
+    return hiphopData.crews as HiphopCrew[];
+}
+
+export function getHiphopEvents(): HiphopEvent[] {
+    return hiphopData.events as HiphopEvent[];
+}
+
+// ============================================================================
+// IDRETT (Sports)
+// ============================================================================
+
+export interface IdrettData {
+    id: string;
+    title: string;
+    subtitle: string;
+    description: string;
+    heroImage: string;
+    sections: IdrettSection[];
+    timeline: IdrettTimelineEvent[];
+    clubs: IdrettClub[];
+    pioneers: IdrettPioneer[];
+    venues: IdrettVenue[];
+    sources: { title: string; url: string }[];
+}
+
+export interface IdrettSection {
+    id: string;
+    title: string;
+    description: string;
+    founded?: number;
+    clubs?: string[];
+    sports?: string[];
+    facilities?: string[];
+    context?: string;
+    highlights?: string[];
+}
+
+export interface IdrettTimelineEvent {
+    year: number;
+    title: string;
+    description: string;
+}
+
+export interface IdrettClub {
+    id: string;
+    name: string;
+    founded: number | null;
+    dissolved: number | null;
+    type: string;
+    sports: string[];
+    achievements: string[];
+    description: string;
+}
+
+export interface IdrettPioneer {
+    id: string;
+    name: string;
+    role: string;
+    period: string;
+    description: string;
+}
+
+export interface IdrettVenue {
+    id: string;
+    name: string;
+    address: string;
+    founded: number;
+    description: string;
+    status: 'aktiv' | 'nedlagt';
+}
+
+export function getIdrettData(): IdrettData {
+    return idrettData as IdrettData;
+}
+
+export function getIdrettSections(): IdrettSection[] {
+    return idrettData.sections as IdrettSection[];
+}
+
+export function getIdrettTimeline(): IdrettTimelineEvent[] {
+    return idrettData.timeline as IdrettTimelineEvent[];
+}
+
+export function getIdrettClubs(): IdrettClub[] {
+    return idrettData.clubs as IdrettClub[];
+}
+
+export function getIdrettPioneers(): IdrettPioneer[] {
+    return idrettData.pioneers as IdrettPioneer[];
+}
+
+export function getIdrettVenues(): IdrettVenue[] {
+    return idrettData.venues as IdrettVenue[];
+}
+
+// ============================================================================
 // BIBLIOTEK CATEGORIES
 // ============================================================================
 
@@ -193,6 +437,7 @@ export function getBibliotekCategories(): BibliotekCategory[] {
     const litteratur = getLitteratur();
     const historie = getHistorieEvents();
     const kultur = getKulturTimeline();
+    const idrett = getIdrettTimeline();
 
     return [
         {
@@ -226,6 +471,14 @@ export function getBibliotekCategories(): BibliotekCategory[] {
             image: '/images/biblioteket/kultur.png',
             itemCount: kultur.length,
             color: 'purple',
+        },
+        {
+            slug: 'idrett',
+            title: 'Idrett',
+            description: 'Fra arbeideridretten til Grüner IL – 100 år med folkesport.',
+            image: '/images/biblioteket/idrett-hero.png',
+            itemCount: idrett.length,
+            color: 'green',
         },
     ];
 }

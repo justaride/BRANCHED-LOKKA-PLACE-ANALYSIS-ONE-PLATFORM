@@ -53,5 +53,25 @@
     "id": "ungt-engasjement",
     "name": "Ungt engasjement",
     "description": "Yngre ildsjeler og initiativ som kommer nedenfra."
+  },
+  {
+    "id": "arbeiderbevegelse",
+    "name": "Arbeiderbevegelse",
+    "description": "Fagforeningsarbeid, streiker og organisering av arbeiderklassen."
+  },
+  {
+    "id": "sosial-reform",
+    "name": "Sosial reform",
+    "description": "Arbeid for å forbedre levekår, helse og sosiale forhold."
+  },
+  {
+    "id": "integrering",
+    "name": "Integrering",
+    "description": "Brobygging mellom kulturer og inkludering av minoriteter."
+  },
+  {
+    "id": "miljo-og-byokologi",
+    "name": "Miljø og byøkologi",
+    "description": "Bærekraft, urban dyrking og grønne initiativ i bydelen."
   }
 ]

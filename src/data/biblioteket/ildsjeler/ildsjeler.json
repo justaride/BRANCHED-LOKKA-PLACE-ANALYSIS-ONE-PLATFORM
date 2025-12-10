@@ -423,5 +423,621 @@
     "profileUrl": "/ildsjeler/martin-horntveth",
     "links": [],
     "isLiving": true
+  },
+  {
+    "id": "anne-pleym",
+    "name": "Anne Pleym",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 1906,
+      "to": 1917
+    },
+    "categories": [
+      "arbeiderbevegelse"
+    ],
+    "summary": "Tekstilarbeider som stiftet Hjula kvinnelige arbeiderforening og ledet ni uker lang streik ved Hjula Væveri i 1908.",
+    "description": "Pleym stiftet Hjula kvinnelige arbeiderforening og ledet den i årene 1906–1910. Hun organiserte en ni uker lang streik ved Hjula Væveri i 1908 for bedre arbeidsvilkår, og ble senere fabrikkinspektør hvor hun arbeidet for bedre arbeidsmiljø for kvinnearbeidere langs Akerselva.",
+    "connectionToGrunerlokka": "Organiserte tekstilarbeidere ved fabrikkene langs Akerselva på Grünerløkka og kjempet for kvinners rettigheter i industrien.",
+    "relatedPlaces": [
+      "Hjula Væveri",
+      "Akerselva"
+    ],
+    "relatedOrganizations": [
+      "Hjula kvinnelige arbeiderforening"
+    ],
+    "relatedPlaceIds": [
+      "akerselva"
+    ],
+    "imageUrl": "/images/ildsjeler/anne-pleym.jpg",
+    "profileUrl": "/ildsjeler/anne-pleym",
+    "links": [
+      {
+        "url": "https://www.dagsavisen.no/nyheter/pappagutten-som-laerte-seg-a-spinne/8097027",
+        "label": "Dagsavisen: Pappagutten som lærte seg å spinne"
+      }
+    ],
+    "isLiving": false
+  },
+  {
+    "id": "oscar-nissen",
+    "name": "Oscar Nissen",
+    "birthYear": 1843,
+    "deathYear": 1911,
+    "mainPeriod": {
+      "from": 1880,
+      "to": 1911
+    },
+    "categories": [
+      "sosial-reform",
+      "arbeiderbevegelse"
+    ],
+    "summary": "Lege og sosialreformator som engasjerte seg for arbeiderklassens helse og støttet fyrstikkarbeider-streiken i 1889.",
+    "description": "Oscar Nissen var lege og sosialreformator som engasjerte seg sterkt for arbeiderklassens helse og kår. Han støttet de streikende fyrstikkarbeider-jentene i 1889 og advarte mot sykdommen fosfornekrose. Nissen talte på folkemøter sammen med Bjørnstjerne Bjørnson og viste frem kvinnelige arbeidere som allerede var vansiret av jobben. Hans innsats bidro til forbedrede arbeidsforhold.",
+    "connectionToGrunerlokka": "Arbeidet for å bedre helseforholdene blant fabrikkarbeiderne på østkanten, inkludert Grünerløkka-området.",
+    "relatedPlaces": [
+      "Bryn",
+      "Grünerløkka"
+    ],
+    "relatedOrganizations": [],
+    "relatedPlaceIds": [
+      "grunerlokka"
+    ],
+    "imageUrl": "/images/ildsjeler/oscar-nissen.jpg",
+    "profileUrl": "/ildsjeler/oscar-nissen",
+    "links": [
+      {
+        "url": "https://nbl.snl.no/Oscar_Nissen",
+        "label": "Norsk biografisk leksikon"
+      }
+    ],
+    "isLiving": false
+  },
+  {
+    "id": "johan-storjohann",
+    "name": "Johan Storjohann",
+    "birthYear": 1832,
+    "deathYear": 1914,
+    "mainPeriod": {
+      "from": 1875,
+      "to": 1914
+    },
+    "categories": [
+      "utdanning-og-likestilling",
+      "frivillighet"
+    ],
+    "summary": "Prest og indremisjonær som etablerte Hauges Minde på Olaf Ryes plass i 1875 – et kombinert kirke- og forsamlingshus.",
+    "description": "Johan Storjohann var prest og indremisjonær som etablerte Hauges Minde på Olaf Ryes plass – et kombinert kirke- og forsamlingshus oppført i 1875 av Christiania Indremission. Bygningen fungerte som interimskirke for Paulus menighet og rommet senere skole og seminar. Storjohann var særlig opptatt av utdanning for ubemidlede og startet et eget presteseminar i 1883 for å utdanne norske prester til Amerika.",
+    "connectionToGrunerlokka": "Grunnla Hauges Minde på Olaf Ryes plass som ble et viktig kulturelt og religiøst samlingspunkt for bydelen.",
+    "relatedPlaces": [
+      "Hauges Minde",
+      "Olaf Ryes plass"
+    ],
+    "relatedOrganizations": [
+      "Christiania Indremission",
+      "Paulus menighet"
+    ],
+    "relatedPlaceIds": [
+      "olaf-ryes-plass"
+    ],
+    "imageUrl": "/images/ildsjeler/johan-storjohann.jpg",
+    "profileUrl": "/ildsjeler/johan-storjohann",
+    "links": [
+      {
+        "url": "https://lokalhistoriewiki.no/index.php?title=Hauges_Minde_(Oslo)",
+        "label": "Lokalhistoriewiki: Hauges Minde"
+      }
+    ],
+    "isLiving": false
+  },
+  {
+    "id": "eugen-larsen",
+    "name": "Eugen Larsen",
+    "birthYear": 1912,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 1928,
+      "to": 1970
+    },
+    "categories": [
+      "naeringsliv-og-grundere"
+    ],
+    "summary": "Gründer som bare 16 år gammel etablerte Ramona Skosalon på hjørnet av Markveien i 1928 – en institusjon som bestod i 92 år.",
+    "description": "Eugen Larsen etablerte Ramona Skosalon på hjørnet av Markveien i 1928, bare 16 år gammel. Skobutikken ble en institusjon på Løkka og forble i drift i 92 år, drevet gjennom tre generasjoner av Larsens familie før den omsider ble nedlagt i 2020. Butikken var et symbol på tradisjonell handel og kontinuitet i bydelen.",
+    "connectionToGrunerlokka": "Drev Ramona Skosalon i Markveien i nesten et århundre og ble et landemerke for lokal handel på Løkka.",
+    "relatedPlaces": [
+      "Markveien",
+      "Ramona Skosalon"
+    ],
+    "relatedOrganizations": [],
+    "relatedPlaceIds": [
+      "markveien"
+    ],
+    "imageUrl": "/images/ildsjeler/eugen-larsen.jpg",
+    "profileUrl": "/ildsjeler/eugen-larsen",
+    "links": [
+      {
+        "url": "https://www.vartoslo.no/bydel-grnerlokka-handelsstanden-jens-book-jensen/ramona-skosalon-legger-ned-etter-92-ar-i-markveien-pa-grnerlokka/249834",
+        "label": "VårtOslo: Ramona Skosalon legger ned"
+      }
+    ],
+    "isLiving": false
+  },
+  {
+    "id": "christian-holtermann-knudsen",
+    "name": "Christian Holtermann Knudsen",
+    "birthYear": 1845,
+    "deathYear": 1929,
+    "mainPeriod": {
+      "from": 1885,
+      "to": 1915
+    },
+    "categories": [
+      "politikk",
+      "arbeiderbevegelse"
+    ],
+    "summary": "Typograf, redaktør og politiker som grunnla avisen Social-Demokraten og representerte Grünerløkka på Stortinget.",
+    "description": "Christian Holtermann Knudsen var typograf, redaktør og politiker i arbeiderbevegelsen. Han grunnla avisen Social-Demokraten og representerte Grünerløkkens krets på Stortinget i periodene 1906–1915. Knudsen regnes som en av pionerene i norsk arbeiderbevegelse og bidro sterkt til å organisere arbeiderklassen politisk.",
+    "connectionToGrunerlokka": "Representerte Grünerløkka krets på Stortinget og organiserte arbeiderne i bydelen gjennom avisen og politisk arbeid.",
+    "relatedPlaces": [
+      "Grünerløkka",
+      "Stortinget"
+    ],
+    "relatedOrganizations": [
+      "Social-Demokraten",
+      "Arbeiderpartiet"
+    ],
+    "relatedPlaceIds": [
+      "grunerlokka"
+    ],
+    "imageUrl": "/images/ildsjeler/christian-holtermann-knudsen.jpg",
+    "profileUrl": "/ildsjeler/christian-holtermann-knudsen",
+    "links": [
+      {
+        "url": "https://sv.wikipedia.org/wiki/Christian_Holtermann_Knudsen",
+        "label": "Wikipedia: Christian Holtermann Knudsen"
+      }
+    ],
+    "isLiving": false
+  },
+  {
+    "id": "carl-jeppesen",
+    "name": "Carl Jeppesen",
+    "birthYear": 1858,
+    "deathYear": 1930,
+    "mainPeriod": {
+      "from": 1889,
+      "to": 1919
+    },
+    "categories": [
+      "politikk",
+      "arbeiderbevegelse"
+    ],
+    "summary": "Journalist og politiker som var redaktør for Social-Demokraten og ble Oslos første arbeiderparti-ordfører.",
+    "description": "Carl Jeppesen var journalist og politiker som i mange år var redaktør for Social-Demokraten. Han rapporterte om levekårene på østkanten og engasjerte seg personlig i arbeiderkampene – under fyrstikkarbeiderstreiken i 1889 trådte han til som de streikende kvinnenes støttespiller og gikk inn i streikekomiteen. Han ble senere Oslos første arbeiderparti-ordfører (1917–1919).",
+    "connectionToGrunerlokka": "Rapporterte om østkantens levekår og støttet arbeiderkampene i området gjennom avisen og politisk engasjement.",
+    "relatedPlaces": [
+      "Grünerløkka",
+      "Bryn"
+    ],
+    "relatedOrganizations": [
+      "Social-Demokraten",
+      "Arbeiderpartiet",
+      "Oslo kommune"
+    ],
+    "relatedPlaceIds": [
+      "grunerlokka"
+    ],
+    "imageUrl": "/images/ildsjeler/carl-jeppesen.jpg",
+    "profileUrl": "/ildsjeler/carl-jeppesen",
+    "links": [
+      {
+        "url": "https://www.aftenposten.no/norge/i/MgjK0/fyrstikkpikene-startet-norges-foerste-streik",
+        "label": "Aftenposten: Fyrstikkpikene startet Norges første streik"
+      }
+    ],
+    "isLiving": false
+  },
+  {
+    "id": "martin-tranmael",
+    "name": "Martin Tranmæl",
+    "birthYear": 1879,
+    "deathYear": 1967,
+    "mainPeriod": {
+      "from": 1921,
+      "to": 1949
+    },
+    "categories": [
+      "politikk",
+      "arbeiderbevegelse"
+    ],
+    "summary": "Pressemann og Arbeiderparti-leder som var redaktør for Social-Demokraten/Arbeiderbladet fra 1921 til 1949.",
+    "description": "Martin Tranmæl var pressemann og Arbeiderparti-leder som formet arbeiderpressen gjennom flere tiår. Fra 1921 til 1949 var han redaktør for partiets hovedorgan – først Social-Demokraten, som i 1923 byttet navn til Arbeiderbladet (nå Dagsavisen). Som redaktør og ideolog for arbeiderbevegelsen satte han dagsorden og kjempet for arbeidsfolks rettigheter i mellomkrigstiden.",
+    "connectionToGrunerlokka": "Arbeiderbladet hadde sitt nedslagsfelt i arbeiderklassen på østkanten, og Tranmæl formet den politiske bevisstheten i bydeler som Grünerløkka.",
+    "relatedPlaces": [
+      "Grünerløkka",
+      "Oslo"
+    ],
+    "relatedOrganizations": [
+      "Social-Demokraten",
+      "Arbeiderbladet",
+      "Arbeiderpartiet"
+    ],
+    "relatedPlaceIds": [
+      "grunerlokka"
+    ],
+    "imageUrl": "/images/ildsjeler/martin-tranmael.jpg",
+    "profileUrl": "/ildsjeler/martin-tranmael",
+    "links": [
+      {
+        "url": "https://no.wikipedia.org/wiki/Martin_Tranm%C3%A6l",
+        "label": "Wikipedia: Martin Tranmæl"
+      }
+    ],
+    "isLiving": false
+  },
+  {
+    "id": "geir-storli-jensen",
+    "name": "Geir Storli Jensen",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2019,
+      "to": null
+    },
+    "categories": [
+      "politikk",
+      "miljo-og-byokologi"
+    ],
+    "summary": "Bydelsutvalgsleder for MDG som har ledet Grünerløkka i grønn retning med fokus på klima- og miljøsatsing.",
+    "description": "Geir Storli Jensen har ledet bydelsutvalget på Grünerløkka siden 2019 og fortsatte etter valget i 2023. Som friluftsmenneske med sterkt klimaengasjement var det miljø som motiverte ham inn i politikken. Under hans ledelse har bydelen satset på grønne tiltak, blant annet etablering av «Grønne midler» for å støtte bærekraftige lokale prosjekter, og han har vært en tydelig stemme for klimasmart byliv og innbyggerinvolvering.",
+    "connectionToGrunerlokka": "Leder av bydelsutvalget som styrer bydelens politikk og har satt grønn omstilling på dagsordenen.",
+    "relatedPlaces": [
+      "Grünerløkka",
+      "Bydelsadministrasjonen"
+    ],
+    "relatedOrganizations": [
+      "MDG",
+      "Bydel Grünerløkka"
+    ],
+    "relatedPlaceIds": [
+      "grunerlokka"
+    ],
+    "imageUrl": "/images/ildsjeler/geir-storli-jensen.jpg",
+    "profileUrl": "/ildsjeler/geir-storli-jensen",
+    "links": [
+      {
+        "url": "https://www.vartoslo.no/bydel-grnerlokka-geir-storli-jensen-oslo-mdg/geir-34-stiller-til-valg-for-mdg-pappa-perm-ma-vaere-noe-av-det-aller-beste-med-norge/480686",
+        "label": "VårtOslo: Geir Storli Jensen"
+      }
+    ],
+    "isLiving": true
+  },
+  {
+    "id": "melita-ringvold",
+    "name": "Melita Ringvold",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2023,
+      "to": null
+    },
+    "categories": [
+      "politikk"
+    ],
+    "summary": "Nestleder i Bydelsutvalget for Arbeiderpartiet som arbeider for sosial inkludering og velferdstjenester.",
+    "description": "Melita Ringvold har vært Arbeiderpartiets gruppeleder og tok over som BU-nestleder i 2023. Hun brenner særlig for gode velferdstjenester og et inkluderende lokalsamfunn. Ringvold representerer den sosialdemokratiske forankringen i bydelsledelsen og samarbeider tett med Storli Jensen for en kollektivt engasjert kurs for bydelen.",
+    "connectionToGrunerlokka": "Nestleder i bydelsutvalget som jobber for sosiale rettigheter og velferd for bydelens innbyggere.",
+    "relatedPlaces": [
+      "Grünerløkka",
+      "Bydelsadministrasjonen"
+    ],
+    "relatedOrganizations": [
+      "Arbeiderpartiet",
+      "Bydel Grünerløkka"
+    ],
+    "relatedPlaceIds": [
+      "grunerlokka"
+    ],
+    "imageUrl": "/images/ildsjeler/melita-ringvold.jpg",
+    "profileUrl": "/ildsjeler/melita-ringvold",
+    "links": [
+      {
+        "url": "https://www.oslonytt.com/gront-lys-for-baerekraft-grnerlokka-ruster-seg-for-fremtiden/126050",
+        "label": "Oslonytt: Grønt lys for bærekraft"
+      }
+    ],
+    "isLiving": true
+  },
+  {
+    "id": "cathrine-tumanjan-mortensen",
+    "name": "Cathrine Tumanjan Mortensen",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2018,
+      "to": null
+    },
+    "categories": [
+      "utdanning-og-likestilling"
+    ],
+    "summary": "Rektor ved Grünerløkka skole som ledet skolen gjennom 125-årsjubileum og pandemi med fokus på samhold.",
+    "description": "Cathrine Tumanjan Mortensen har ledet Grünerløkka skole, en av Oslos eldste barneskoler (125-årsjubileum i 2020), gjennom både hverdag og pandemi. Hun la vekt på å ivareta skolens tradisjoner og samhold selv under korona-nedstengningen, og sørget for en alternativ 17. mai-markering i 2020. Mortensen har fått ros for å skape trygghet og kontinuitet for elevene.",
+    "connectionToGrunerlokka": "Leder av bydelens historiske barneskole som knytter skolen tett til nærmiljøet.",
+    "relatedPlaces": [
+      "Grünerløkka skole"
+    ],
+    "relatedOrganizations": [
+      "Grünerløkka skole",
+      "Oslo kommune"
+    ],
+    "relatedPlaceIds": [
+      "grunerlokka-skole"
+    ],
+    "imageUrl": "/images/ildsjeler/cathrine-tumanjan-mortensen.jpg",
+    "profileUrl": "/ildsjeler/cathrine-tumanjan-mortensen",
+    "links": [
+      {
+        "url": "https://www.aftenposten.no/kultur/i/QoVA18/festen-er-avlyst-likevel-kan-aarets-17-mai-feiring-bli-ekstra-viktig",
+        "label": "Aftenposten: 17. mai på Grünerløkka skole"
+      }
+    ],
+    "isLiving": true
+  },
+  {
+    "id": "nina-roneid",
+    "name": "Nina Røneid",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2021,
+      "to": 2023
+    },
+    "categories": [
+      "utdanning-og-likestilling",
+      "integrering"
+    ],
+    "summary": "Tidligere rektor ved Sofienberg ungdomsskole som vant Benjaminprisen 2021 for skolens arbeid mot rasisme.",
+    "description": "Under Nina Røneids ledelse oppnådde Sofienberg skole stor anerkjennelse for sitt inkluderingsarbeid. Skolen ble tildelt Benjaminprisen 2021 for systematisk arbeid mot rasisme og diskriminering. Juryen la vekt på at Sofienberg tok elevenes egne opplevelser på alvor og jobbet helhetlig for et trygt og tolerant skolemiljø.",
+    "connectionToGrunerlokka": "Ledet Sofienberg ungdomsskole og styrket skolens rolle som en arena for mangfold og antirasisme i bydelen.",
+    "relatedPlaces": [
+      "Sofienberg skole"
+    ],
+    "relatedOrganizations": [
+      "Sofienberg skole",
+      "Oslo kommune"
+    ],
+    "relatedPlaceIds": [
+      "sofienberg"
+    ],
+    "imageUrl": "/images/ildsjeler/nina-roneid.jpg",
+    "profileUrl": "/ildsjeler/nina-roneid",
+    "links": [
+      {
+        "url": "https://www.hlsenteret.no/om/aktuelt/nyheter/2021/sofienberg-skole-tildeles-benjaminprisen-2021.html",
+        "label": "HL-senteret: Sofienberg skole tildeles Benjaminprisen"
+      }
+    ],
+    "isLiving": true
+  },
+  {
+    "id": "james-finucane",
+    "name": "James Finucane",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2020,
+      "to": null
+    },
+    "categories": [
+      "kultur-og-utested",
+      "frivillighet"
+    ],
+    "summary": "Direktør for Street Art Oslo og initiativtaker til gatekunstfestivalen Løkka-Lykke som ble Oslo Street Art Festival.",
+    "description": "James Finucane tok initiativ til festivalen Løkka-Lykke i samarbeid med Løkka Gårdeierforening for å bringe kunst ut i gatene på Grünerløkka. Festivalen engasjerte lokale og internasjonale gatekunstnere til å dekorere vegger og byrom. Under hans ledelse har festivalen vokst fra et lokalt arrangement til å omfatte flere bydeler – nå under navnet Oslo Street Art Festival fra 2024.",
+    "connectionToGrunerlokka": "Startet Løkka-Lykke festivalen som har fylt bydelens vegger med kunst og skapt stolthet og identitet.",
+    "relatedPlaces": [
+      "Grünerløkka",
+      "Thorvald Meyers gate"
+    ],
+    "relatedOrganizations": [
+      "Street Art Oslo",
+      "Løkka Gårdeierforening"
+    ],
+    "relatedPlaceIds": [
+      "grunerlokka",
+      "thorvald-meyers-gate"
+    ],
+    "imageUrl": "/images/ildsjeler/james-finucane.jpg",
+    "profileUrl": "/ildsjeler/james-finucane",
+    "links": [
+      {
+        "url": "https://www.vartoslo.no/bydel-grnerlokka-bymiljoetaten-estate-nyheter/festivalen-pa-grnerlokka-utvides-til-flere-bydeler-lokka-lykke-blir-til-oslo-street-art-festival/514517",
+        "label": "VårtOslo: Løkka-Lykke blir Oslo Street Art Festival"
+      }
+    ],
+    "isLiving": true
+  },
+  {
+    "id": "siri-mittet",
+    "name": "Siri Mittet",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2018,
+      "to": null
+    },
+    "categories": [
+      "naeringsliv-og-grundere",
+      "miljo-og-byokologi"
+    ],
+    "summary": "Sosial entreprenør som grunnla Gruten – en virksomhet som omdanner kaffegrut til østerssopp, såpe og plantejord.",
+    "description": "Siri Mittet er en sosial entreprenør som har gjort bydelens kaffebarer litt grønnere. Hennes virksomhet Gruten samler inn brukte kaffegrut fra Oslos kafeer og forvandler dette «svarte gullet» til østerssopp, såpe og næringsrik plantejord. Hun sykler rundt med sin karakteristiske «grut-sykkel» og sprer kunnskap om sirkulær økonomi gjennom kurs og verksteder.",
+    "connectionToGrunerlokka": "Samler inn kaffegrut fra bydelens kafeer og driver bærekraftig virksomhet fra Grünerløkka.",
+    "relatedPlaces": [
+      "Grünerløkka"
+    ],
+    "relatedOrganizations": [
+      "Gruten"
+    ],
+    "relatedPlaceIds": [
+      "grunerlokka"
+    ],
+    "imageUrl": "/images/ildsjeler/siri-mittet.jpg",
+    "profileUrl": "/ildsjeler/siri-mittet",
+    "links": [
+      {
+        "url": "https://www.vartoslo.no/gruten-hele-oslo-konradsachman/siri-mittet-45-lager-deilige-osterssopp-fra-kaffegrut/196378",
+        "label": "VårtOslo: Siri Mittet lager østerssopp fra kaffegrut"
+      }
+    ],
+    "isLiving": true
+  },
+  {
+    "id": "sverre-aksel-eilertsen",
+    "name": "Sverre Aksel Eilertsen",
+    "birthYear": 1993,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2023,
+      "to": null
+    },
+    "categories": [
+      "kultur-og-utested",
+      "ungt-engasjement"
+    ],
+    "summary": "Daglig leder for Parkteatret Scene som representerer en ny generasjon kulturledere på Grünerløkka.",
+    "description": "Sverre Aksel Eilertsen har jobbet seg opp i bydelens kulturliv: Han begynte som tekniker og ble bookingansvarlig ved det ikoniske Parkteatret på Olaf Ryes plass. I 2023, som 30-åring, fikk han tillit til å overta som sjef for hele scenedriften. Han er også involvert i musikkonferansen by:Larm og brenner for å løfte fram unge artister.",
+    "connectionToGrunerlokka": "Leder av Parkteatret Scene som er et sentralt kulturelt samlingspunkt i bydelen.",
+    "relatedPlaces": [
+      "Parkteatret",
+      "Olaf Ryes plass"
+    ],
+    "relatedOrganizations": [
+      "Parkteatret",
+      "by:Larm"
+    ],
+    "relatedPlaceIds": [
+      "parkteatret",
+      "olaf-ryes-plass"
+    ],
+    "imageUrl": "/images/ildsjeler/sverre-aksel-eilertsen.jpg",
+    "profileUrl": "/ildsjeler/sverre-aksel-eilertsen",
+    "links": [
+      {
+        "url": "https://www.parkteatret.no/nye-daglige-ledere-pa-parkteatret",
+        "label": "Parkteatret: Nye daglige ledere"
+      }
+    ],
+    "isLiving": true
+  },
+  {
+    "id": "ruben-normann-karlsen",
+    "name": "Ruben Normann Karlsen",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2023,
+      "to": null
+    },
+    "categories": [
+      "kultur-og-utested",
+      "ungt-engasjement"
+    ],
+    "summary": "Daglig leder for Parkteatret Bar som jobber for å videreutvikle møteplassen for nye generasjoner.",
+    "description": "Ruben Normann Karlsen tok over driften av baren i Parkteatrets forgård etter erfaring som leder i utelivs- og eventbransjen. Han har uttalt at Parkteatret alltid har vært hans favorittsted i Oslo, og ønsker å videreutvikle sin egen favorittmøteplass slik at den kan leve i 100 nye år. Hans fokus på gode opplevelser gjenspeiler Grünerløkkas ånd av inkluderende kultur.",
+    "connectionToGrunerlokka": "Driver Parkteatret Bar som er en viktig møteplass på Olaf Ryes plass.",
+    "relatedPlaces": [
+      "Parkteatret Bar",
+      "Olaf Ryes plass"
+    ],
+    "relatedOrganizations": [
+      "Parkteatret"
+    ],
+    "relatedPlaceIds": [
+      "parkteatret",
+      "olaf-ryes-plass"
+    ],
+    "imageUrl": "/images/ildsjeler/ruben-normann-karlsen.jpg",
+    "profileUrl": "/ildsjeler/ruben-normann-karlsen",
+    "links": [
+      {
+        "url": "https://www.parkteatret.no/nye-daglige-ledere-pa-parkteatret",
+        "label": "Parkteatret: Nye daglige ledere"
+      }
+    ],
+    "isLiving": true
+  },
+  {
+    "id": "nasreen-begum",
+    "name": "Nasreen Begum",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2016,
+      "to": null
+    },
+    "categories": [
+      "integrering",
+      "frivillighet"
+    ],
+    "summary": "Initiativtaker og leder for Bydelsmødre Norge – et frivillig nettverk som støtter og styrker innvandrerkvinner.",
+    "description": "Nasreen Begum startet det frivillige nettverket Bydelsmødre i Oslo i 2016. Bydelsmødre er frivillige kvinner, primært med minoritetsbakgrunn, som har gjennomgått opplæring om familie, helse og samfunn. Med kunnskap og personlig erfaring oppsøker de andre kvinner i nærmiljøet for å veilede dem og bygge bro mellom familier og det offentlige. Initiativet har spredt seg til flere bydeler nasjonalt.",
+    "connectionToGrunerlokka": "Startet Bydelsmødre i Oslo med base i bydeler som Grünerløkka, hvor frivillige kvinner driver integreringsarbeid.",
+    "relatedPlaces": [
+      "Grünerløkka"
+    ],
+    "relatedOrganizations": [
+      "Bydelsmødre Norge"
+    ],
+    "relatedPlaceIds": [
+      "grunerlokka"
+    ],
+    "imageUrl": "/images/ildsjeler/nasreen-begum.jpg",
+    "profileUrl": "/ildsjeler/nasreen-begum",
+    "links": [
+      {
+        "url": "https://bydelsmor.no/",
+        "label": "Bydelsmødre Norge"
+      },
+      {
+        "url": "https://www.ks.no/arkiv/bydelsmodre-til-hele-landet/",
+        "label": "KS: Bydelsmødre til hele landet"
+      }
+    ],
+    "isLiving": true
+  },
+  {
+    "id": "mathea-rehn",
+    "name": "Mathea Rehn",
+    "birthYear": null,
+    "deathYear": null,
+    "mainPeriod": {
+      "from": 2023,
+      "to": null
+    },
+    "categories": [
+      "miljo-og-byokologi",
+      "ungt-engasjement"
+    ],
+    "summary": "Ung miljøaktivist og urban bonde som fremmer urbant landbruk og grønne initiativ på Grünerløkka.",
+    "description": "Mathea Rehn er en ung Løkka-jente som har markert seg som miljøforkjemper i bydelen. Hun brenner særlig for urbant landbruk – grønne oaser i asfaltjungelen. Hun har deltatt i etablering av nabolagshager og eksperimentert med dyrking på små flekker i byrommet. Hennes engasjement smitter over på andre unge, og hun representerer den nye generasjonen klimaaktivister som tenker globalt, men handler lokalt.",
+    "connectionToGrunerlokka": "Driver urban dyrking og grønne prosjekter på Grünerløkka og er pådriver for bydelens Grønne midler.",
+    "relatedPlaces": [
+      "Grünerløkka"
+    ],
+    "relatedOrganizations": [],
+    "relatedPlaceIds": [
+      "grunerlokka"
+    ],
+    "imageUrl": "/images/ildsjeler/mathea-rehn.jpg",
+    "profileUrl": "/ildsjeler/mathea-rehn",
+    "links": [
+      {
+        "url": "https://www.oslonytt.com/gronne-midler-gjor-urbant-landbruk-pa-grnerlokka-baerekraftig-og-innovativt/127176",
+        "label": "Oslonytt: Grønne midler og urbant landbruk"
+      }
+    ],
+    "isLiving": true
   }
 ]

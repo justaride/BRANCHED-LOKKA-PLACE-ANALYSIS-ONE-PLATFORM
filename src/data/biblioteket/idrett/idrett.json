@@ -1,0 +1,296 @@
+{
+  "id": "idrett",
+  "title": "Idrett på Grünerløkka",
+  "subtitle": "Fra arbeideridretten til Grüner IL – 100 år med folkesport",
+  "description": "Grünerløkka har en rik idrettshistorie fra de første arbeideridrettslagene på 1920-tallet til dagens moderne Grüner IL. Dælenenga idrettsplass har vært hjemmebane for utallige utøvere i fotball, ishockey, bandy og friidrett.",
+  "heroImage": "/images/biblioteket/idrett-hero.png",
+  "sections": [
+    {
+      "id": "gruner-il",
+      "title": "Grüner IL – bydelens hjerte",
+      "description": "Grüner Idrettslag ble etablert 10. november 1952 gjennom sammenslåing av tre lokale klubber: B.14, Strong og Spero. Elling Werner Hansen fra B.14 ble valgt til idrettslagets første formann.",
+      "founded": 1952,
+      "clubs": ["B.14", "Strong", "Spero"],
+      "sports": ["Fotball", "Ishockey", "Bandy", "Håndball", "Friidrett"]
+    },
+    {
+      "id": "daelenenga",
+      "title": "Dælenenga – 100 år med idrett",
+      "description": "Dælenenga idrettsplass har vært selve navet for idretten på Grünerløkka i over 100 år. Anlegget ble åpnet i 1916 som kommunal fotball- og friidrettsbane, på et område der det tidligere lå et leirtak for Dæhlenengen teglverk.",
+      "founded": 1916,
+      "facilities": ["Fotballbane", "Grünerhallen (1995)", "Kunstisbane (1985)", "Sykkelvelodrom (1929-1946)"]
+    },
+    {
+      "id": "arbeideridretten",
+      "title": "Arbeideridretten vs. borgerlig idrett",
+      "description": "Mellomkrigstidens idrettshistorie på Grünerløkka var preget av brytninger mellom arbeideridretten og den borgerlige idrettsbevegelsen. Idrettslaget Spartacus – stiftet 8. juni 1920 – regnes som Norges første rene arbeideridrettslag.",
+      "context": "Arbeideridretten stod for verdier som idrett for alle uansett sosial bakgrunn, og arrangerte egne mesterskap parallelt med de offisielle."
+    },
+    {
+      "id": "ishockey",
+      "title": "Ishockeypionerer",
+      "description": "Den første ishockeykampen på Dælenenga ble spilt 3. februar 1933. Sportsklubben Strong var med på å stifte Norges Ishockeyforbund i 1934 og vant Norgesmesterskapet i ishockey i 1948.",
+      "highlights": [
+        "1933: Første ishockeykamp på Dælenenga",
+        "1934: Strong med i stiftelsen av Ishockeyforbundet",
+        "1948: Strong vinner NM og Kongepokalen",
+        "1985: Kunstisbane på Dælenenga",
+        "1995: Grünerhallen åpner"
+      ]
+    },
+    {
+      "id": "kvinneidrett",
+      "title": "Kvinneidrettens pionerer",
+      "description": "Grünerløkka var tidlig ute med kvinneidrett, særlig takket være arbeideridrettslagene. Allerede på 1920-tallet begynte klubber å opprette egne kvinnegrupper – lenge før dette ble vanlig andre steder."
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1914,
+      "title": "B.14 stiftes",
+      "description": "Ball- og Skiklubben av 1914 etableres som bydelens eldste idrettsklubb"
+    },
+    {
+      "year": 1916,
+      "title": "Dælenenga åpner",
+      "description": "Kommunal fotball- og friidrettsbane anlegges på tomta til et nedlagt teglverk"
+    },
+    {
+      "year": 1920,
+      "title": "Spartacus stiftes",
+      "description": "Norges første rene arbeideridrettslag grunnlegges på Grünerløkka"
+    },
+    {
+      "year": 1924,
+      "title": "Spero stiftes",
+      "description": "Utbrytere fra Strong danner Sportsklubben Spero med tilknytning til AIF"
+    },
+    {
+      "year": 1926,
+      "title": "Østkantstafetten starter",
+      "description": "AIFs populære løpsstafett med start og mål på Dælenenga"
+    },
+    {
+      "year": 1929,
+      "title": "B.14 vinner NM i bandy",
+      "description": "Det aller første norgesmesterskapet med 11-mannslag"
+    },
+    {
+      "year": 1933,
+      "title": "Første ishockeykamp",
+      "description": "Spillere fra Strong og B.14 deltar i første kamp på Dælenenga"
+    },
+    {
+      "year": 1934,
+      "title": "Ishockeyforbundet stiftes",
+      "description": "Strong-medlem Anton Christiansen sitter i første styre"
+    },
+    {
+      "year": 1948,
+      "title": "Strong vinner NM ishockey",
+      "description": "Klubben vinner Norgesmesterskapet og Kongepokalen"
+    },
+    {
+      "year": 1952,
+      "title": "Grüner IL stiftes",
+      "description": "B.14, Strong og Spero slår seg sammen til én storklubb"
+    },
+    {
+      "year": 1952,
+      "title": "OL på Dælenenga",
+      "description": "Tre innledende ishockeykamper og bandyoppvisning under Oslo-OL"
+    },
+    {
+      "year": 1985,
+      "title": "Kunstisbane anlegges",
+      "description": "Kunstfrossen is på nordre del av Dælenenga"
+    },
+    {
+      "year": 1995,
+      "title": "Grünerhallen åpner",
+      "description": "Ishallen overbygges, tegnet av arkitekt Einar Dahle"
+    },
+    {
+      "year": 2004,
+      "title": "Kampen for Grünerhallen",
+      "description": "Lokalmiljøet mobiliserer mot byrådet og redder hallen fra nedleggelse"
+    },
+    {
+      "year": 2025,
+      "title": "Flerbrukshall vedtatt",
+      "description": "Byggestart for ny flerbrukshall – drømmen i 25 år"
+    }
+  ],
+  "clubs": [
+    {
+      "id": "b14",
+      "name": "Ball- og Skiklubben av 1914 (B.14)",
+      "founded": 1914,
+      "dissolved": 1952,
+      "type": "Borgerlig",
+      "sports": ["Fotball", "Ishockey", "Bandy", "Ski"],
+      "achievements": ["NM-gull bandy 1929"],
+      "description": "Bydelens eldste klubb, markerte seg tidlig som toppklubb i bandy og ishockey."
+    },
+    {
+      "id": "strong",
+      "name": "Sportsklubben Strong",
+      "founded": null,
+      "dissolved": 1952,
+      "type": "Borgerlig",
+      "sports": ["Fotball", "Ishockey", "Bandy"],
+      "achievements": ["Osloserien fotball 1929", "NM ishockey 1948", "Kongepokalen 1948"],
+      "description": "Pionerklubb i ishockey, var med å stifte Norges Ishockeyforbund i 1934."
+    },
+    {
+      "id": "spartacus",
+      "name": "Idrettslaget Spartacus",
+      "founded": 1920,
+      "dissolved": null,
+      "type": "Arbeideridrett (AIF)",
+      "sports": ["Friidrett", "Ski", "Fotball"],
+      "achievements": ["Finaleplass arbeidermesterskap fotball 1928", "Kretsmester Oslo AIF 1934"],
+      "description": "Norges første rene arbeideridrettslag, stiftet med mål om å fremme idrett og kommunisme."
+    },
+    {
+      "id": "spero",
+      "name": "Sportsklubben Spero",
+      "founded": 1924,
+      "dissolved": 1952,
+      "type": "Arbeideridrett (AIF)",
+      "sports": ["Fotball", "Friidrett"],
+      "achievements": ["Oslomester AIF junior 1926", "Oslomester AIF senior 1931"],
+      "description": "Utbrytere fra Strong som ville drive idrett på røde premisser."
+    },
+    {
+      "id": "reidulf",
+      "name": "Sportsklubben Reidulf",
+      "founded": 1919,
+      "dissolved": null,
+      "type": "Arbeideridrett (AIF)",
+      "sports": ["Bandy", "Skøyter", "Håndball"],
+      "achievements": ["Arbeidermester bandy 1938 og 1939"],
+      "description": "AIF-klubb fra Sofienberg som fostret bl.a. skøytelegenden Bernt 'Bæla' Evensen."
+    }
+  ],
+  "pioneers": [
+    {
+      "id": "elling-werner-hansen",
+      "name": "Elling Werner Hansen",
+      "role": "Grüner ILs første formann",
+      "period": "1952-",
+      "description": "Fra B.14, ledet samarbeidskomiteen som førte til stiftelsen av Grüner IL"
+    },
+    {
+      "id": "anton-christiansen",
+      "name": "Anton Christiansen",
+      "role": "Ishockeypioner",
+      "period": "1930-tallet",
+      "description": "Strong-medlem som satt i Ishockeyforbundets første styre i 1934"
+    },
+    {
+      "id": "helge-ladim",
+      "name": "Helge Ladim",
+      "role": "Ishockeypioner",
+      "period": "1930-tallet",
+      "description": "Representerte Strong i dommerkomiteen da Ishockeyforbundet ble stiftet"
+    },
+    {
+      "id": "harald-liljedahl",
+      "name": "Harald Liljedahl",
+      "role": "Arbeideridrettspioner",
+      "period": "1920-tallet",
+      "description": "Første formann i Spartacus og senere første formann i AIF sentralt (1924)"
+    },
+    {
+      "id": "rolf-hofmo",
+      "name": "Rolf Hofmo",
+      "role": "Idrettsleder",
+      "period": "1920-1966",
+      "description": "Startet som 15-åring i Spartacus, ble en av norsk idretts mest innflytelsesrike administratorer"
+    },
+    {
+      "id": "bernt-evensen",
+      "name": "Bernt 'Bæla' Evensen",
+      "role": "Skøyteløper",
+      "period": "1930-tallet",
+      "description": "Skøytelegende fra Grünerløkka som gikk for Reidulf og vant AIFs alternative VM på Bislett i 1935"
+    },
+    {
+      "id": "evan-malm",
+      "name": "Evan Malm",
+      "role": "Ishockeyleder",
+      "period": "1990-tallet",
+      "description": "Sentral i å revitalisere Grüner Hockey med visjon om egen hall og bred rekruttering"
+    },
+    {
+      "id": "petter-moland-pedersen",
+      "name": "Petter Moland Pedersen",
+      "role": "Ishockeyleder",
+      "period": "1990-tallet",
+      "description": "Sammen med Evan Malm formulerte langtidsplan for Grüner Ishockey"
+    },
+    {
+      "id": "torgny-hasas",
+      "name": "Torgny Hasås",
+      "role": "Klubbleder",
+      "period": "2000-tallet-",
+      "description": "Gått i bresjen for nye anlegg, annonserte byggestart for flerbrukshall i 2025"
+    },
+    {
+      "id": "vegard-holm",
+      "name": "Vegard Holm",
+      "role": "Historiker/klubbleder",
+      "period": "2000-tallet",
+      "description": "Tidligere klubbleder og historiker for Grüners 90-årsjubileum"
+    }
+  ],
+  "venues": [
+    {
+      "id": "daelenenga",
+      "name": "Dælenenga idrettsplass",
+      "address": "Dælengata/Schleppegrells gate",
+      "founded": 1916,
+      "description": "Hovedanlegget for idrett på Grünerløkka siden 1916. Kunstgressbane, ishall og historiske tribuner.",
+      "status": "aktiv"
+    },
+    {
+      "id": "grunerhallen",
+      "name": "Grünerhallen",
+      "address": "Schleppegrells gate",
+      "founded": 1995,
+      "description": "Ishall bygget på den nordre delen av Dælenenga. Tegnet av arkitekt Einar Dahle. Drevet av klubben selv.",
+      "status": "aktiv"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Grüner Fotball - Da Grüner ble Grüner",
+      "url": "https://fotball.gruner.no/2022/11/da-gruner-ble-gruner/"
+    },
+    {
+      "title": "Grüner Hockey - Om oss",
+      "url": "https://www.grunerhockey.no/om_oss"
+    },
+    {
+      "title": "Lokalhistoriewiki - Dælenenga idrettsplass",
+      "url": "https://lokalhistoriewiki.no/wiki/Dælenenga_idrettsplass"
+    },
+    {
+      "title": "Lokalhistoriewiki - Grünerhallen",
+      "url": "https://lokalhistoriewiki.no/wiki/Grünerhallen"
+    },
+    {
+      "title": "Oslo Byleksikon - Grüner Idrettslag",
+      "url": "https://oslobyleksikon.no/side/Grüner_Idrettslag"
+    },
+    {
+      "title": "Wikipedia - Idrettslaget Spartacus",
+      "url": "https://no.wikipedia.org/wiki/Idrettslaget_Spartacus"
+    },
+    {
+      "title": "Dagbladet - Arbeidernes Idrettsforbund",
+      "url": "https://www.dagbladet.no/kultur/slik-ble-arbeidernes-idrettsforbund-bade-en-idrettsorganisasjon-og-et-propagandavesen/67360358"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": "hiphop",
+  "title": "Hiphop-miljøet på Grünerløkka",
+  "subtitle": "Fra X-Ray til Brenneriveien – 30 år med urban kultur",
+  "description": "Grünerløkka har vært et arnested for norsk hiphop siden 1980-tallet. Fra de første breakdance-battles via X-Ray Ungdomskulturhus til Brenneriveiens legendariske graffiti-vegg – bydelen har formet generasjoner av rappere, dansere og kunstnere.",
+  "heroImage": "/images/biblioteket/hiphop-hero.jpg",
+  "sections": [
+    {
+      "id": "xray",
+      "title": "X-Ray Ungdomskulturhus",
+      "subtitle": "En hjørnestein i norsk hiphopkultur",
+      "description": "X-Ray åpnet i 1994 som et direkte resultat av at ungdom i bydelen ønsket seg et eget sted å utvikle sine talenter. Huset ble etablert med mottoet 'Alle ungdommer er en ressurs' og har siden vært en av de mest betydningsfulle arenaene for hiphopkultur i Norge.",
+      "founded": 1994,
+      "address": "Maridalsveien 3",
+      "founder": "Farooq Farooqi",
+      "highlights": [
+        "Gratis aktiviteter innen musikk, dans og multimedia",
+        "To musikkstudioer brukt av unge beatmakere",
+        "Fostret artister som Madcon, Mira Craig, Samsaya og Quick Style",
+        "Farooq Farooqi kåret til Årets forbilde 2008",
+        "Soul Sessions Oslos ærespris 2024 for 30 års innsats"
+      ]
+    },
+    {
+      "id": "breakdance",
+      "title": "Breakdance-miljøet",
+      "subtitle": "Fra 80-tallets battles til dagens crews",
+      "description": "Breakdance slo ned som en bombe i Oslo rundt 1984. Grünerklubben var et viktig samlingssted, og crews som Dancing Youth (Da-Yo) og senere Floorknights har holdt miljøet levende gjennom fire tiår.",
+      "timeline": [
+        {
+          "year": 1984,
+          "title": "Breaking eksploderer",
+          "description": "Oslomesterskapet i breaking med 10-15 crews. Spontane battles på tvers av byen."
+        },
+        {
+          "year": 1986,
+          "title": "Første bølge avtar",
+          "description": "Breaken 'døde' - men nye initiativ vokste frem på Grünerløkka"
+        },
+        {
+          "year": 1987,
+          "title": "Dancing Youth (Da-Yo) starter",
+          "description": "Et av Oslos første store breakdance-crews, startet av Linda Jeanette Eriksen, Lars 'Pay2' Undli og Khawar 'Gomi' Sadiq"
+        },
+        {
+          "year": 1994,
+          "title": "X-Ray åpner",
+          "description": "Blir mekka for unge dansere og 'enormt viktig for utviklingen av norsk hiphop'"
+        },
+        {
+          "year": 1995,
+          "title": "United B-Boys jam",
+          "description": "Internasjonale breakere kommer til Romsås-jam"
+        },
+        {
+          "year": 1999,
+          "title": "Floorknights stiftes",
+          "description": "Blir et av Norges ledende breakdance-crews med base på X-Ray"
+        },
+        {
+          "year": 2006,
+          "title": "Circle - Det norske hiphop-huset",
+          "description": "Danseskolen flytter inn i Nedregate ved klubben Krønsj"
+        },
+        {
+          "year": 2009,
+          "title": "Quick Style vinner Norske Talenter",
+          "description": "Brødrene Malik og Nasir Sirikhan vinner senere VM i hiphop-dans"
+        }
+      ]
+    },
+    {
+      "id": "graffiti",
+      "title": "Graffiti: Brenneriveien Hall of Fame",
+      "subtitle": "Fra ulovlig spot til turistattraksjon",
+      "description": "I over 30 år har Brenneriveien 11 vært sentrum for graffiti i Oslo. Det startet i 1987 da en gruppe kunstnere med veteranen Goal i spissen bestemte seg for å lage sin egen Hall of Fame-vegg.",
+      "timeline": [
+        {
+          "year": 1987,
+          "title": "Hall of Fame starter",
+          "description": "Goal og Pay2 etablerer ulovlig graffitivegg i Brenneriveien"
+        },
+        {
+          "year": 1999,
+          "title": "Style is King",
+          "description": "Stor graffiti- og streetart-festival med offisielle tillatelser"
+        },
+        {
+          "year": 2021,
+          "title": "Monumentalt veggmaleri",
+          "description": "Kommunen finansierer stort verk for å hedre graffitihistorien"
+        }
+      ],
+      "pioneers": ["Goal", "Pay2 (Lars Undli)", "MC.T", "Mack", "Bits", "Spade", "CodeRock"]
+    },
+    {
+      "id": "producers",
+      "title": "Beat-produsenter og studioer",
+      "subtitle": "Fra Tommy Tee til Urban Sound Studios",
+      "description": "Grünerløkka har vært hjem for sentrale produsenter og studioer. Tommy Tee, ofte kalt 'godfaren i norsk hiphop', startet Tee Productions og arrangerte Norges første hiphop-festival på Løkka i 2004.",
+      "venues": [
+        {
+          "name": "X-Ray studioer",
+          "description": "To musikkstudioer brukt av ungdom fra morgen til kveld"
+        },
+        {
+          "name": "Urban Sound Studios",
+          "description": "Moderne lydstudio hvor produsenter jobber med artister som Jaa9 & OnklP og Sebastian Zalo"
+        }
+      ]
+    }
+  ],
+  "artists": [
+    {
+      "id": "madcon",
+      "name": "Madcon",
+      "members": ["Yosef Wolde-Mariam", "Tshawe Baqwa"],
+      "genre": "Hiphop/Pop",
+      "description": "Duoen startet i Oslo i 1992 og hadde tidlige opptredener på X-Ray. Gikk fra lokalt talent til internasjonal suksess med hits som 'Beggin'.",
+      "connectionToLokka": "Startet karrieren på X-Ray ungdomskulturhus"
+    },
+    {
+      "id": "mira-craig",
+      "name": "Mira Craig",
+      "genre": "R&B/Hiphop",
+      "description": "Fikk nasjonalt gjennombrudd midt på 2000-tallet. X-Ray 'dyrka fram' hennes talent innen urban musikk.",
+      "connectionToLokka": "Utviklet seg i miljøer knyttet til X-Ray"
+    },
+    {
+      "id": "samsaya",
+      "name": "Samsaya",
+      "genre": "Pop/Hiphop",
+      "description": "Norsk-indisk artist som startet karrieren rundt år 2000. Opptrådte på X-Ray på 90- og 2000-tallet.",
+      "connectionToLokka": "Miljøet på Grünerløkka ga henne selvtillit til å finne sin stil"
+    },
+    {
+      "id": "ari-bajgora",
+      "name": "Ari Bajgora",
+      "genre": "Hiphop",
+      "description": "Gikk fra å være 'Grünerløkkas bevarte hemmelighet' til en av landets mest omtalte unge hiphop-artister i 2023/24.",
+      "connectionToLokka": "Oppvokst på Grünerløkka, representerer ny generasjon"
+    },
+    {
+      "id": "tommy-tee",
+      "name": "Tommy Tee",
+      "realName": "Tommy Flåten",
+      "genre": "DJ/Produsent",
+      "description": "Ofte kalt 'godfaren i norsk hiphop'. Startet som graffiti-writer og b-boy før han gikk over til DJ-ing. Grunnla Fat Cap fanzine i 1989 og Tee Productions i 1995.",
+      "connectionToLokka": "Arrangerte Norges første hiphop-festival på Grünerløkka i 2004"
+    },
+    {
+      "id": "adil-khan",
+      "name": "Adil Khan",
+      "genre": "Danser/Skuespiller",
+      "description": "Vinner av Dansefeber 2006. Begynte som breaker på X-Ray og ble et forbilde for mange unge dansere.",
+      "connectionToLokka": "X-Ray ga ham et springbrett videre i karrieren"
+    }
+  ],
+  "crews": [
+    {
+      "id": "floorknights",
+      "name": "Floorknights Crew",
+      "founded": 1999,
+      "style": "Breaking",
+      "description": "Et av Norges ledende breakdance-crews med base på X-Ray. Driver kurs for over hundre unge breakere i Oslo-området.",
+      "website": "https://www.floorknights.com"
+    },
+    {
+      "id": "da-yo",
+      "name": "Dancing Youth (Da-Yo)",
+      "founded": 1987,
+      "style": "Breaking/Streetdance",
+      "description": "Et av Oslos første store breakdance-crews, startet av Linda Jeanette Eriksen, Lars 'Pay2' Undli og Khawar 'Gomi' Sadiq."
+    },
+    {
+      "id": "quick-style",
+      "name": "Quick Style Crew",
+      "founded": null,
+      "style": "Hiphop-dans",
+      "description": "Brødrene Suleman og Bilal Malik samt Nasir Sirikhan vant Norske Talenter i 2009 og senere VM i hiphop-dans.",
+      "connectionToLokka": "Trente i miljøer som Circle (Hiphop Huset)"
+    }
+  ],
+  "events": [
+    {
+      "id": "interstate-lokka",
+      "name": "Interstate Løkka",
+      "year": 2004,
+      "type": "Festival",
+      "description": "Norges første hiphop-festival, arrangert på Grünerløkka. Trakk internasjonale stjerner som 50 Cent i tillegg til lokale helter som Tommy Tee, Diaz og Gatas Parlament."
+    },
+    {
+      "id": "soul-sessions",
+      "name": "Soul Sessions",
+      "type": "Månedlige battles",
+      "description": "Månedlige battles på klubber som The Villa og Dansens Hus ved Vulkan. Arrangerer nordisk uttak til Juste Debout.",
+      "location": "Vulkan Arena m.fl."
+    }
+  ],
+  "sources": [
+    {
+      "title": "NTNU Samfunnsforskning - Tiltak for et godt og inkluderende oppvekstmiljø (2014)",
+      "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf"
+    },
+    {
+      "title": "Danseinformasjonen - Soul Sessions Oslos ærespris til X-Ray",
+      "url": "https://danseinfo.no/nyheter/soul-sessions-oslos-aerespris-gar-til-x-ray-ungdomskulturhus/"
+    },
+    {
+      "title": "SplitCity Magazine - Brenneriveien fra graffitinisje til severdighet",
+      "url": "https://www.splitcitymagazine.com/nyheter/brenneriveien-fra-graffitinisje-til-severdighet"
+    },
+    {
+      "title": "VårtOslo - X-Ray 25-års jubileum",
+      "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008"
+    },
+    {
+      "title": "Wikipedia - Tommy Tee",
+      "url": "https://no.wikipedia.org/wiki/Tommy_Tee"
+    }
+  ]
+}
