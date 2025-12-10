@@ -181,6 +181,19 @@ Two rendering approaches exist in analyser pages:
 - **Static HTML** (mikro-områder): Hardcoded divs/tables, no interactivity
 If user expects charts but sees text, check which approach the page uses.
 
+### 9. Static Loader Registration Required
+When adding new properties with 1-min/5-min analysis data:
+1. Add data files: `src/data/{tenant}/{property-id}/1min/*.json`
+2. **MUST register in** `src/lib/loaders/one-min-loader.ts` → `STATIC_DATA` object
+3. Without registration, `loadOneMinAnalysisData()` returns `null` and charts won't render
+```typescript
+// Example registration:
+'carucel/olaf-ryes-plass-4': async () => {
+  const [...] = await Promise.all([...]);
+  return { demografi, konkurransebilde, korthandel, bevegelse, ... };
+},
+```
+
 ---
 
 ## Build & Deploy
