@@ -43,59 +43,59 @@
   ],
   "kjederVsUavhengige": [
     {
-      "year": "2015",
       "uavhengig": 15.98,
-      "kjeder": 84.02
+      "kjeder": 84.02,
+      "år": "2015"
     },
     {
-      "year": "2016",
-      "uavhengig": 17.0,
-      "kjeder": 83.0
+      "uavhengig": 17,
+      "kjeder": 83,
+      "år": "2016"
     },
     {
-      "year": "2017",
       "uavhengig": 33.33,
-      "kjeder": 66.67
+      "kjeder": 66.67,
+      "år": "2017"
     },
     {
-      "year": "2018",
       "uavhengig": 29.81,
-      "kjeder": 70.19
+      "kjeder": 70.19,
+      "år": "2018"
     },
     {
-      "year": "2019",
       "uavhengig": 35.52,
-      "kjeder": 64.48
+      "kjeder": 64.48,
+      "år": "2019"
     },
     {
-      "year": "2020",
       "uavhengig": 34.85,
-      "kjeder": 65.15
+      "kjeder": 65.15,
+      "år": "2020"
     },
     {
-      "year": "2021",
       "uavhengig": 29.7,
-      "kjeder": 70.3
+      "kjeder": 70.3,
+      "år": "2021"
     },
     {
-      "year": "2022",
       "uavhengig": 36.2,
-      "kjeder": 63.8
+      "kjeder": 63.8,
+      "år": "2022"
     },
     {
-      "year": "2023",
       "uavhengig": 39.59,
-      "kjeder": 60.41
+      "kjeder": 60.41,
+      "år": "2023"
     },
     {
-      "year": "2024",
       "uavhengig": 44.26,
-      "kjeder": 55.74
+      "kjeder": 55.74,
+      "år": "2024"
     },
     {
-      "year": "2025",
       "uavhengig": 37.49,
-      "kjeder": 62.51
+      "kjeder": 62.51,
+      "år": "2025"
     }
   ],
   "nøkkeltall": {

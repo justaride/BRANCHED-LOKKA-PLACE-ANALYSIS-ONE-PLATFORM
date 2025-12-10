@@ -507,34 +507,34 @@
   ],
   "categoryStats": {
     "Handel / Mat og drikke": {
-      "count": 5,
       "totalRevenue": 151,
-      "avgRevenue": 30.2
+      "avgRevenue": 30.2,
+      "antall": 5
     },
     "Mat og opplevelser / Pub og bar": {
-      "count": 6,
       "totalRevenue": 54,
-      "avgRevenue": 9
+      "avgRevenue": 9,
+      "antall": 6
     },
     "Mat og opplevelser / Restaurant": {
-      "count": 21,
       "totalRevenue": 2540,
-      "avgRevenue": 121
+      "avgRevenue": 121,
+      "antall": 21
     },
     "Handel / Annen handel": {
-      "count": 1,
       "totalRevenue": 5,
-      "avgRevenue": 5
+      "avgRevenue": 5,
+      "antall": 1
     },
     "Tjenester / Skjønnhet og velvære": {
-      "count": 1,
       "totalRevenue": 4,
-      "avgRevenue": 4
+      "avgRevenue": 4,
+      "antall": 1
     },
     "Mat og opplevelser / Bakeri og kafé": {
-      "count": 2,
       "totalRevenue": 4,
-      "avgRevenue": 2
+      "avgRevenue": 2,
+      "antall": 2
     }
   },
   "metadata": {

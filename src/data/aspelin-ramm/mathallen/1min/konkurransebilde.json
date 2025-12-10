@@ -1,36 +1,176 @@
 {
   "konseptmiks": [
-    { "kategori1": "Mat og opplevelser", "kategori2": "Restaurant", "antall": 6 },
-    { "kategori1": "Mat og opplevelser", "kategori2": "Bakeri og kafé", "antall": 1 },
-    { "kategori1": "Mat og opplevelser", "kategori2": "Pub og bar", "antall": 2 },
-    { "kategori1": "Handel", "kategori2": "Mat og drikke", "antall": 3 }
+    {
+      "kategori1": "Mat og opplevelser",
+      "kategori2": "Restaurant",
+      "antall": 6
+    },
+    {
+      "kategori1": "Mat og opplevelser",
+      "kategori2": "Bakeri og kafé",
+      "antall": 1
+    },
+    {
+      "kategori1": "Mat og opplevelser",
+      "kategori2": "Pub og bar",
+      "antall": 2
+    },
+    {
+      "kategori1": "Handel",
+      "kategori2": "Mat og drikke",
+      "antall": 3
+    }
   ],
   "kjederVsUavhengige": [
-    { "year": "2015", "uavhengig": 100.0, "kjeder": 0 },
-    { "year": "2016", "uavhengig": 100.0, "kjeder": 0 },
-    { "year": "2017", "uavhengig": 100.0, "kjeder": 0 },
-    { "year": "2018", "uavhengig": 100.0, "kjeder": 0 },
-    { "year": "2019", "uavhengig": 100.0, "kjeder": 0 },
-    { "year": "2020", "uavhengig": 100.0, "kjeder": 0 },
-    { "year": "2021", "uavhengig": 100.0, "kjeder": 0 },
-    { "year": "2022", "uavhengig": 100.0, "kjeder": 0 },
-    { "year": "2023", "uavhengig": 100.0, "kjeder": 0 },
-    { "year": "2024", "uavhengig": 84.74, "kjeder": 15.26 },
-    { "year": "2025", "uavhengig": 89.18, "kjeder": 10.82 }
+    {
+      "uavhengig": 100,
+      "kjeder": 0,
+      "år": "2015"
+    },
+    {
+      "uavhengig": 100,
+      "kjeder": 0,
+      "år": "2016"
+    },
+    {
+      "uavhengig": 100,
+      "kjeder": 0,
+      "år": "2017"
+    },
+    {
+      "uavhengig": 100,
+      "kjeder": 0,
+      "år": "2018"
+    },
+    {
+      "uavhengig": 100,
+      "kjeder": 0,
+      "år": "2019"
+    },
+    {
+      "uavhengig": 100,
+      "kjeder": 0,
+      "år": "2020"
+    },
+    {
+      "uavhengig": 100,
+      "kjeder": 0,
+      "år": "2021"
+    },
+    {
+      "uavhengig": 100,
+      "kjeder": 0,
+      "år": "2022"
+    },
+    {
+      "uavhengig": 100,
+      "kjeder": 0,
+      "år": "2023"
+    },
+    {
+      "uavhengig": 84.74,
+      "kjeder": 15.26,
+      "år": "2024"
+    },
+    {
+      "uavhengig": 89.18,
+      "kjeder": 10.82,
+      "år": "2025"
+    }
   ],
   "utviklingPerÅr": {
-    "kategorier": ["Andre spisesteder", "Barer", "Bakeriutsalg", "Sushi- og wok restauranter", "Puber", "Dagligvarebutikker", "Delikatessebutikker", "Fiskebutikker"],
+    "kategorier": [
+      "Andre spisesteder",
+      "Barer",
+      "Bakeriutsalg",
+      "Sushi- og wok restauranter",
+      "Puber",
+      "Dagligvarebutikker",
+      "Delikatessebutikker",
+      "Fiskebutikker"
+    ],
     "data": [
-      { "year": "2015", "Andre spisesteder": 33.61, "Dagligvarebutikker": 12.79, "Delikatessebutikker": 2.0 },
-      { "year": "2016", "Andre spisesteder": 32.39, "Dagligvarebutikker": 12.61, "Delikatessebutikker": 4.01 },
-      { "year": "2017", "Andre spisesteder": 36.08, "Dagligvarebutikker": 19.58, "Delikatessebutikker": 3.75, "Fiskebutikker": 17.94 },
-      { "year": "2018", "Andre spisesteder": 31.70, "Dagligvarebutikker": 20.08, "Delikatessebutikker": 4.01, "Fiskebutikker": 18.73 },
-      { "year": "2019", "Andre spisesteder": 22.24, "Barer": 8.92, "Bakeriutsalg": 1.10, "Sushi- og wok restauranter": 0.53, "Dagligvarebutikker": 21.98, "Delikatessebutikker": 0.80, "Fiskebutikker": 18.85 },
-      { "year": "2020", "Andre spisesteder": 12.90, "Barer": 2.82, "Bakeriutsalg": 1.44, "Sushi- og wok restauranter": 0.50, "Dagligvarebutikker": 14.01, "Fiskebutikker": 13.34 },
-      { "year": "2021", "Andre spisesteder": 21.04, "Barer": 2.36, "Bakeriutsalg": 4.06, "Dagligvarebutikker": 17.37, "Fiskebutikker": 16.06 },
-      { "year": "2022", "Andre spisesteder": 21.69, "Barer": 2.78, "Bakeriutsalg": 6.96, "Dagligvarebutikker": 24.70, "Delikatessebutikker": 9.35, "Fiskebutikker": 20.22 },
-      { "year": "2023", "Andre spisesteder": 30.36, "Barer": 1.93, "Bakeriutsalg": 3.80, "Puber": 4.65, "Dagligvarebutikker": 14.01, "Delikatessebutikker": 14.59, "Fiskebutikker": 23.59 },
-      { "year": "2024", "Andre spisesteder": 34.89, "Barer": 2.02, "Bakeriutsalg": 3.43, "Dagligvarebutikker": 16.18, "Delikatessebutikker": 15.05, "Fiskebutikker": 27.05 }
+      {
+        "Andre spisesteder": 33.61,
+        "Dagligvarebutikker": 12.79,
+        "Delikatessebutikker": 2,
+        "år": "2015"
+      },
+      {
+        "Andre spisesteder": 32.39,
+        "Dagligvarebutikker": 12.61,
+        "Delikatessebutikker": 4.01,
+        "år": "2016"
+      },
+      {
+        "Andre spisesteder": 36.08,
+        "Dagligvarebutikker": 19.58,
+        "Delikatessebutikker": 3.75,
+        "Fiskebutikker": 17.94,
+        "år": "2017"
+      },
+      {
+        "Andre spisesteder": 31.7,
+        "Dagligvarebutikker": 20.08,
+        "Delikatessebutikker": 4.01,
+        "Fiskebutikker": 18.73,
+        "år": "2018"
+      },
+      {
+        "Andre spisesteder": 22.24,
+        "Barer": 8.92,
+        "Bakeriutsalg": 1.1,
+        "Sushi- og wok restauranter": 0.53,
+        "Dagligvarebutikker": 21.98,
+        "Delikatessebutikker": 0.8,
+        "Fiskebutikker": 18.85,
+        "år": "2019"
+      },
+      {
+        "Andre spisesteder": 12.9,
+        "Barer": 2.82,
+        "Bakeriutsalg": 1.44,
+        "Sushi- og wok restauranter": 0.5,
+        "Dagligvarebutikker": 14.01,
+        "Fiskebutikker": 13.34,
+        "år": "2020"
+      },
+      {
+        "Andre spisesteder": 21.04,
+        "Barer": 2.36,
+        "Bakeriutsalg": 4.06,
+        "Dagligvarebutikker": 17.37,
+        "Fiskebutikker": 16.06,
+        "år": "2021"
+      },
+      {
+        "Andre spisesteder": 21.69,
+        "Barer": 2.78,
+        "Bakeriutsalg": 6.96,
+        "Dagligvarebutikker": 24.7,
+        "Delikatessebutikker": 9.35,
+        "Fiskebutikker": 20.22,
+        "år": "2022"
+      },
+      {
+        "Andre spisesteder": 30.36,
+        "Barer": 1.93,
+        "Bakeriutsalg": 3.8,
+        "Puber": 4.65,
+        "Dagligvarebutikker": 14.01,
+        "Delikatessebutikker": 14.59,
+        "Fiskebutikker": 23.59,
+        "år": "2023"
+      },
+      {
+        "Andre spisesteder": 34.89,
+        "Barer": 2.02,
+        "Bakeriutsalg": 3.43,
+        "Dagligvarebutikker": 16.18,
+        "Delikatessebutikker": 15.05,
+        "Fiskebutikker": 27.05,
+        "år": "2024"
+      }
     ]
   },
   "overUnderandelVsKommune": {
@@ -48,32 +188,160 @@
   },
   "årligVekst": {
     "data": [
-      { "year": "2020", "område": -7.41, "oslo": 1.81, "norge": 7.75 },
-      { "year": "2021", "område": 41.26, "oslo": 0.47, "norge": 3.85 },
-      { "year": "2022", "område": 3.06, "oslo": 7.49, "norge": -0.22 },
-      { "year": "2023", "område": -13.98, "oslo": -2.72, "norge": -1.07 },
-      { "year": "2024", "område": -5.94, "oslo": -4.29, "norge": -2.02 },
-      { "year": "2025", "område": -5.50, "oslo": -2.54, "norge": -1.07 }
+      {
+        "område": -7.41,
+        "oslo": 1.81,
+        "norge": 7.75,
+        "år": "2020"
+      },
+      {
+        "område": 41.26,
+        "oslo": 0.47,
+        "norge": 3.85,
+        "år": "2021"
+      },
+      {
+        "område": 3.06,
+        "oslo": 7.49,
+        "norge": -0.22,
+        "år": "2022"
+      },
+      {
+        "område": -13.98,
+        "oslo": -2.72,
+        "norge": -1.07,
+        "år": "2023"
+      },
+      {
+        "område": -5.94,
+        "oslo": -4.29,
+        "norge": -2.02,
+        "år": "2024"
+      },
+      {
+        "område": -5.5,
+        "oslo": -2.54,
+        "norge": -1.07,
+        "år": "2025"
+      }
     ],
     "indeksertVekst": [
-      { "year": "2019", "område": 100, "oslo": 100, "norge": 100 },
-      { "year": "2020", "område": 95.40, "oslo": 101.17, "norge": 107.64 },
-      { "year": "2021", "område": 130.58, "oslo": 102.36, "norge": 111.35 },
-      { "year": "2022", "område": 133.97, "oslo": 108.93, "norge": 110.74 },
-      { "year": "2023", "område": 116.55, "oslo": 106.08, "norge": 109.77 },
-      { "year": "2024", "område": 109.07, "oslo": 101.82, "norge": 107.83 },
-      { "year": "2025", "område": 92.56, "oslo": 88.32, "norge": 94.86 }
+      {
+        "område": 100,
+        "oslo": 100,
+        "norge": 100,
+        "år": "2019"
+      },
+      {
+        "område": 95.4,
+        "oslo": 101.17,
+        "norge": 107.64,
+        "år": "2020"
+      },
+      {
+        "område": 130.58,
+        "oslo": 102.36,
+        "norge": 111.35,
+        "år": "2021"
+      },
+      {
+        "område": 133.97,
+        "oslo": 108.93,
+        "norge": 110.74,
+        "år": "2022"
+      },
+      {
+        "område": 116.55,
+        "oslo": 106.08,
+        "norge": 109.77,
+        "år": "2023"
+      },
+      {
+        "område": 109.07,
+        "oslo": 101.82,
+        "norge": 107.83,
+        "år": "2024"
+      },
+      {
+        "område": 92.56,
+        "oslo": 88.32,
+        "norge": 94.86,
+        "år": "2025"
+      }
     ]
   },
   "korthandelPerUkedag": {
     "data": [
-      { "dag": "Monday", "2019": 0.655, "2020": 0.68, "2021": 0.973, "2022": 1.025, "2023": 0.94, "2024": 0.914, "2025": 0.874 },
-      { "dag": "Tuesday", "2019": 0.779, "2020": 0.817, "2021": 1.152, "2022": 1.133, "2023": 1.068, "2024": 0.967, "2025": 0.915 },
-      { "dag": "Wednesday", "2019": 0.889, "2020": 0.871, "2021": 1.209, "2022": 1.188, "2023": 1.039, "2024": 0.976, "2025": 0.946 },
-      { "dag": "Thursday", "2019": 0.88, "2020": 0.89, "2021": 1.235, "2022": 1.252, "2023": 1.077, "2024": 1.014, "2025": 0.925 },
-      { "dag": "Friday", "2019": 1.253, "2020": 1.207, "2021": 1.692, "2022": 1.717, "2023": 1.491, "2024": 1.35, "2025": 1.317 },
-      { "dag": "Saturday", "2019": 1.499, "2020": 1.398, "2021": 1.919, "2022": 1.967, "2023": 1.745, "2024": 1.604, "2025": 1.439 },
-      { "dag": "Sunday", "2019": 0.688, "2020": 0.489, "2021": 0.506, "2022": 0.588, "2023": 0.397, "2024": 0.401, "2025": 0.365 }
+      {
+        "2019": 0.655,
+        "2020": 0.68,
+        "2021": 0.973,
+        "2022": 1.025,
+        "2023": 0.94,
+        "2024": 0.914,
+        "2025": 0.874,
+        "dag": "man."
+      },
+      {
+        "2019": 0.779,
+        "2020": 0.817,
+        "2021": 1.152,
+        "2022": 1.133,
+        "2023": 1.068,
+        "2024": 0.967,
+        "2025": 0.915,
+        "dag": "tir."
+      },
+      {
+        "2019": 0.889,
+        "2020": 0.871,
+        "2021": 1.209,
+        "2022": 1.188,
+        "2023": 1.039,
+        "2024": 0.976,
+        "2025": 0.946,
+        "dag": "ons."
+      },
+      {
+        "2019": 0.88,
+        "2020": 0.89,
+        "2021": 1.235,
+        "2022": 1.252,
+        "2023": 1.077,
+        "2024": 1.014,
+        "2025": 0.925,
+        "dag": "tor."
+      },
+      {
+        "2019": 1.253,
+        "2020": 1.207,
+        "2021": 1.692,
+        "2022": 1.717,
+        "2023": 1.491,
+        "2024": 1.35,
+        "2025": 1.317,
+        "dag": "fre."
+      },
+      {
+        "2019": 1.499,
+        "2020": 1.398,
+        "2021": 1.919,
+        "2022": 1.967,
+        "2023": 1.745,
+        "2024": 1.604,
+        "2025": 1.439,
+        "dag": "lør."
+      },
+      {
+        "2019": 0.688,
+        "2020": 0.489,
+        "2021": 0.506,
+        "2022": 0.588,
+        "2023": 0.397,
+        "2024": 0.401,
+        "2025": 0.365,
+        "dag": "søn."
+      }
     ]
   }
 }

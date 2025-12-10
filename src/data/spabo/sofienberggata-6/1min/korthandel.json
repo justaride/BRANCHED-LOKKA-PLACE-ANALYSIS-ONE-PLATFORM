@@ -4641,7 +4641,7 @@
     {
       "date": "2021-02-12",
       "mat_opplevelser": 0.433,
-      "handel": 1.0,
+      "handel": 1,
       "tjenester": 0.227
     },
     {
@@ -15145,11 +15145,9 @@
     }
   },
   "nøkkeltall": {
-    "dagligOmsetning": 1.7,
-    "totalOmsetning": 4200,
-    "gjennomsnittTransaksjon": 216,
-    "periode": "2019-2025",
-    "trend": -7,
-    "datapoints": 2513
+    "dagligKorthandel": 1.7,
+    "totalKorthandel": 4200,
+    "beløpPerTransaksjon": 216,
+    "endring30d": -7
   }
 }

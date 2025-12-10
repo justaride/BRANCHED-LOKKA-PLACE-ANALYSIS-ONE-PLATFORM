@@ -119,6 +119,9 @@ function verifyPropertyData(data, filePath) {
   return issues;
 }
 
+// Import analysis JSON validation
+const { runValidation: runAnalysisValidation } = require('./validate-analysis-json');
+
 // Main verification
 function runVerification() {
   console.log('\n╔════════════════════════════════════════════════════════╗');
@@ -256,6 +259,18 @@ function runVerification() {
   if (fs.existsSync(nextConfig)) {
     results.passed++;
     log.success('next.config.ts exists');
+  }
+
+  // 7. Run 1-min/5-min analysis JSON validation
+  log.section('ANALYSIS JSON VALIDATION');
+  const analysisResult = runAnalysisValidation();
+  if (analysisResult === 0) {
+    results.passed++;
+    log.success('All analysis JSON files valid');
+  } else {
+    results.failed++;
+    results.errors.push({ type: 'analysis_json', message: 'Analysis JSON validation failed' });
+    log.error('Analysis JSON validation failed - see above for details');
   }
 
   // Summary

@@ -2117,79 +2117,79 @@
   ],
   "categoryStats": {
     "Handel / Mat og drikke": {
-      "count": 11,
       "totalRevenue": 378,
-      "avgRevenue": 34.4
+      "avgRevenue": 34.4,
+      "antall": 11
     },
     "Mat og opplevelser / Restaurant": {
-      "count": 44,
       "totalRevenue": 2529,
-      "avgRevenue": 57.5
+      "avgRevenue": 57.5,
+      "antall": 44
     },
     "Mat og opplevelser / Bakeri og kafé": {
-      "count": 14,
       "totalRevenue": 250,
-      "avgRevenue": 17.9
+      "avgRevenue": 17.9,
+      "antall": 14
     },
     "Handel / Klesbutikker": {
-      "count": 14,
       "totalRevenue": 815,
-      "avgRevenue": 58.2
+      "avgRevenue": 58.2,
+      "antall": 14
     },
     "Handel / Annen handel": {
-      "count": 8,
       "totalRevenue": 1598,
-      "avgRevenue": 199.8
+      "avgRevenue": 199.8,
+      "antall": 8
     },
     "Handel / Hjem og interiør": {
-      "count": 10,
       "totalRevenue": 579,
-      "avgRevenue": 57.9
+      "avgRevenue": 57.9,
+      "antall": 10
     },
     "Tjenester / Treningssentre": {
-      "count": 2,
       "totalRevenue": 73,
-      "avgRevenue": 36.5
+      "avgRevenue": 36.5,
+      "antall": 2
     },
     "Mat og opplevelser / Pub og bar": {
-      "count": 7,
       "totalRevenue": 80,
-      "avgRevenue": 11.4
+      "avgRevenue": 11.4,
+      "antall": 7
     },
     "Handel / Sport og fritid": {
-      "count": 4,
       "totalRevenue": 51,
-      "avgRevenue": 12.8
+      "avgRevenue": 12.8,
+      "antall": 4
     },
     "Tjenester / Profesjoner": {
-      "count": 6,
       "totalRevenue": 288,
-      "avgRevenue": 48
+      "avgRevenue": 48,
+      "antall": 6
     },
     "Tjenester / Skjønnhet og velvære": {
-      "count": 23,
       "totalRevenue": 1777,
-      "avgRevenue": 77.3
+      "avgRevenue": 77.3,
+      "antall": 23
     },
     "Handel / Hus og bygg": {
-      "count": 3,
       "totalRevenue": 944,
-      "avgRevenue": 314.7
+      "avgRevenue": 314.7,
+      "antall": 3
     },
     "Tjenester / Andre tjenester": {
-      "count": 3,
       "totalRevenue": 1561,
-      "avgRevenue": 520.3
+      "avgRevenue": 520.3,
+      "antall": 3
     },
     "Mat og opplevelser / Barer": {
-      "count": 1,
       "totalRevenue": 840,
-      "avgRevenue": 840
+      "avgRevenue": 840,
+      "antall": 1
     },
     "Handel / Smykker og parfyme": {
-      "count": 1,
       "totalRevenue": 830,
-      "avgRevenue": 830
+      "avgRevenue": 830,
+      "antall": 1
     }
   },
   "metadata": {

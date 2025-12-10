@@ -2117,69 +2117,69 @@
   ],
   "categoryStats": {
     "Mat og opplevelser / Restaurant": {
-      "count": 59,
       "totalRevenue": 2297,
-      "avgRevenue": 38.9
+      "avgRevenue": 38.9,
+      "antall": 59
     },
     "Handel / Mat og drikke": {
-      "count": 16,
       "totalRevenue": 1088,
-      "avgRevenue": 68
+      "avgRevenue": 68,
+      "antall": 16
     },
     "Handel / Sport og fritid": {
-      "count": 6,
       "totalRevenue": 115,
-      "avgRevenue": 19.2
+      "avgRevenue": 19.2,
+      "antall": 6
     },
     "Tjenester / Treningssentre": {
-      "count": 4,
       "totalRevenue": 112,
-      "avgRevenue": 28
+      "avgRevenue": 28,
+      "antall": 4
     },
     "Handel / Annen handel": {
-      "count": 10,
       "totalRevenue": 123,
-      "avgRevenue": 12.3
+      "avgRevenue": 12.3,
+      "antall": 10
     },
     "Mat og opplevelser / Pub og bar": {
-      "count": 7,
       "totalRevenue": 1443,
-      "avgRevenue": 206.1
+      "avgRevenue": 206.1,
+      "antall": 7
     },
     "Handel / Elektrobutikker": {
-      "count": 1,
       "totalRevenue": 20,
-      "avgRevenue": 20
+      "avgRevenue": 20,
+      "antall": 1
     },
     "Mat og opplevelser / Bakeri og kafé": {
-      "count": 7,
       "totalRevenue": 839,
-      "avgRevenue": 119.9
+      "avgRevenue": 119.9,
+      "antall": 7
     },
     "Handel / Hjem og interiør": {
-      "count": 8,
       "totalRevenue": 1149,
-      "avgRevenue": 143.6
+      "avgRevenue": 143.6,
+      "antall": 8
     },
     "Tjenester / Profesjoner": {
-      "count": 2,
       "totalRevenue": 13,
-      "avgRevenue": 6.5
+      "avgRevenue": 6.5,
+      "antall": 2
     },
     "Handel / Klesbutikker": {
-      "count": 14,
       "totalRevenue": 983,
-      "avgRevenue": 70.2
+      "avgRevenue": 70.2,
+      "antall": 14
     },
     "Tjenester / Skjønnhet og velvære": {
-      "count": 16,
       "totalRevenue": 1960,
-      "avgRevenue": 122.5
+      "avgRevenue": 122.5,
+      "antall": 16
     },
     "Tjenester / Andre tjenester": {
-      "count": 1,
       "totalRevenue": 980,
-      "avgRevenue": 980
+      "avgRevenue": 980,
+      "antall": 1
     }
   },
   "metadata": {

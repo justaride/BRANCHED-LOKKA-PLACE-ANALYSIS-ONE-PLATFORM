@@ -236,7 +236,7 @@ export interface Actor {
 }
 
 export interface CategoryStats {
-  count: number;
+  antall: number; // Norwegian: count
   totalRevenue: number;
   avgRevenue: number;
 }

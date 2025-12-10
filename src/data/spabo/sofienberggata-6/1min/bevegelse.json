@@ -143,70 +143,70 @@
   ],
   "bevegelsesmønster": [
     {
-      "category": "Q1'2023",
       "besøkende": 2477,
       "påJobb": 715,
-      "hjemme": 1653
+      "hjemme": 1653,
+      "kategori": "Q1'2023"
     },
     {
-      "category": "Q2'2023",
       "besøkende": 1892,
       "påJobb": 468,
-      "hjemme": 1121
+      "hjemme": 1121,
+      "kategori": "Q2'2023"
     },
     {
-      "category": "Q3'2023",
       "besøkende": 1752,
       "påJobb": 429,
-      "hjemme": 1077
+      "hjemme": 1077,
+      "kategori": "Q3'2023"
     },
     {
-      "category": "Q4'2023",
       "besøkende": 1650,
       "påJobb": 442,
-      "hjemme": 1207
+      "hjemme": 1207,
+      "kategori": "Q4'2023"
     },
     {
-      "category": "Q1'2024",
       "besøkende": 1530,
       "påJobb": 442,
-      "hjemme": 1199
+      "hjemme": 1199,
+      "kategori": "Q1'2024"
     },
     {
-      "category": "Q2'2024",
       "besøkende": 2182,
       "påJobb": 478,
-      "hjemme": 1283
+      "hjemme": 1283,
+      "kategori": "Q2'2024"
     },
     {
-      "category": "Q3'2024",
       "besøkende": 1980,
       "påJobb": 422,
-      "hjemme": 1188
+      "hjemme": 1188,
+      "kategori": "Q3'2024"
     },
     {
-      "category": "Q4'2024",
       "besøkende": 1684,
       "påJobb": 428,
-      "hjemme": 1176
+      "hjemme": 1176,
+      "kategori": "Q4'2024"
     },
     {
-      "category": "Q1'2025",
       "besøkende": 1576,
       "påJobb": 436,
-      "hjemme": 1137
+      "hjemme": 1137,
+      "kategori": "Q1'2025"
     },
     {
-      "category": "Q2'2025",
       "besøkende": 2059,
       "påJobb": 458,
-      "hjemme": 1142
+      "hjemme": 1142,
+      "kategori": "Q2'2025"
     },
     {
-      "category": "Q3'2025",
       "besøkende": 2175,
       "påJobb": 470,
-      "hjemme": 1178
+      "hjemme": 1178,
+      "kategori": "Q3'2025"
     }
   ],
   "nøkkeltall": {
@@ -449,7 +449,7 @@
     },
     {
       "land": "Spain",
-      "prosent": 5.0
+      "prosent": 5
     },
     {
       "land": "Netherlands",

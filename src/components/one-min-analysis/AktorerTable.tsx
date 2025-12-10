@@ -105,7 +105,7 @@ export default function AktorerTable({ data }: AktorerTableProps) {
               <div className="space-y-1 text-xs text-gray-600">
                 <div className="flex justify-between">
                   <span>Antall:</span>
-                  <span className="font-medium">{stats.count}</span>
+                  <span className="font-medium">{stats.antall}</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Total omsetning:</span>

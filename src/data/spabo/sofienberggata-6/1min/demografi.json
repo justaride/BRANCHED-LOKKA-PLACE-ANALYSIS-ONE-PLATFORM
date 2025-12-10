@@ -2,175 +2,175 @@
   "aldersfordeling": {
     "mann": [
       {
-        "category": "0-5",
-        "value": 18
+        "kategori": "0-5",
+        "antall": 18
       },
       {
-        "category": "6-12",
-        "value": 14
+        "kategori": "6-12",
+        "antall": 14
       },
       {
-        "category": "13-15",
-        "value": 6
+        "kategori": "13-15",
+        "antall": 6
       },
       {
-        "category": "16-18",
-        "value": 6
+        "kategori": "16-18",
+        "antall": 6
       },
       {
-        "category": "19-23",
-        "value": 28
+        "kategori": "19-23",
+        "antall": 28
       },
       {
-        "category": "23-34",
-        "value": 103
+        "kategori": "23-34",
+        "antall": 103
       },
       {
-        "category": "35-44",
-        "value": 58
+        "kategori": "35-44",
+        "antall": 58
       },
       {
-        "category": "45-54",
-        "value": 40
+        "kategori": "45-54",
+        "antall": 40
       },
       {
-        "category": "55-64",
-        "value": 24
+        "kategori": "55-64",
+        "antall": 24
       },
       {
-        "category": "65-74",
-        "value": 13
+        "kategori": "65-74",
+        "antall": 13
       },
       {
-        "category": "75-84",
-        "value": 8
+        "kategori": "75-84",
+        "antall": 8
       },
       {
-        "category": "85+",
-        "value": 1
+        "kategori": "85+",
+        "antall": 1
       }
     ],
     "kvinne": [
       {
-        "category": "0-5",
-        "value": 16
+        "kategori": "0-5",
+        "antall": 16
       },
       {
-        "category": "6-12",
-        "value": 12
+        "kategori": "6-12",
+        "antall": 12
       },
       {
-        "category": "13-15",
-        "value": 6
+        "kategori": "13-15",
+        "antall": 6
       },
       {
-        "category": "16-18",
-        "value": 8
+        "kategori": "16-18",
+        "antall": 8
       },
       {
-        "category": "19-23",
-        "value": 30
+        "kategori": "19-23",
+        "antall": 30
       },
       {
-        "category": "23-34",
-        "value": 114
+        "kategori": "23-34",
+        "antall": 114
       },
       {
-        "category": "35-44",
-        "value": 48
+        "kategori": "35-44",
+        "antall": 48
       },
       {
-        "category": "45-54",
-        "value": 34
+        "kategori": "45-54",
+        "antall": 34
       },
       {
-        "category": "55-64",
-        "value": 21
+        "kategori": "55-64",
+        "antall": 21
       },
       {
-        "category": "65-74",
-        "value": 14
+        "kategori": "65-74",
+        "antall": 14
       },
       {
-        "category": "75-84",
-        "value": 6
+        "kategori": "75-84",
+        "antall": 6
       },
       {
-        "category": "85+",
-        "value": 1
+        "kategori": "85+",
+        "antall": 1
       }
     ]
   },
   "inntektsfordeling": [
     {
-      "category": "0 NOK",
-      "value": 78.16
+      "kategori": "0 NOK",
+      "antall": 78.16
     },
     {
-      "category": "0 NOK - NOK 100k",
-      "value": 80.06
+      "kategori": "0 NOK - NOK 100k",
+      "antall": 80.06
     },
     {
-      "category": "NOK 100k - NOK 200k",
-      "value": 64.28
+      "kategori": "NOK 100k - NOK 200k",
+      "antall": 64.28
     },
     {
-      "category": "NOK 200k - NOK 300k",
-      "value": 59.99
+      "kategori": "NOK 200k - NOK 300k",
+      "antall": 59.99
     },
     {
-      "category": "NOK 300k - NOK 400k",
-      "value": 58.12
+      "kategori": "NOK 300k - NOK 400k",
+      "antall": 58.12
     },
     {
-      "category": "NOK 400k - NOK 500k",
-      "value": 57.64
+      "kategori": "NOK 400k - NOK 500k",
+      "antall": 57.64
     },
     {
-      "category": "NOK 500k - NOK 600k",
-      "value": 48.31
+      "kategori": "NOK 500k - NOK 600k",
+      "antall": 48.31
     },
     {
-      "category": "NOK 600k - NOK 700k",
-      "value": 29.85
+      "kategori": "NOK 600k - NOK 700k",
+      "antall": 29.85
     },
     {
-      "category": "NOK 700k - NOK 800k",
-      "value": 19.92
+      "kategori": "NOK 700k - NOK 800k",
+      "antall": 19.92
     },
     {
-      "category": "NOK 800k - NOK 1 mill.",
-      "value": 39.61
+      "kategori": "NOK 800k - NOK 1 mill.",
+      "antall": 39.61
     },
     {
-      "category": "NOK 1 mill. - NOK 1,5 mill.",
-      "value": 5.22
+      "kategori": "NOK 1 mill. - NOK 1,5 mill.",
+      "antall": 5.22
     },
     {
-      "category": "NOK 1,5 mill.+",
-      "value": 3.46
+      "kategori": "NOK 1,5 mill.+",
+      "antall": 3.46
     }
   ],
   "husholdninger": [
     {
       "type": "Par uten hjemmeboende barn",
-      "value": 74
+      "antall": 74
     },
     {
       "type": "Par med barn",
-      "value": 34
+      "antall": 34
     },
     {
       "type": "Aleneboende",
-      "value": 206
+      "antall": 206
     },
     {
       "type": "Enslig forelder med barn",
-      "value": 16
+      "antall": 16
     },
     {
       "type": "Andre husholdninger",
-      "value": 6
+      "antall": 6
     }
   ],
   "nøkkeltall": {
@@ -181,26 +181,26 @@
     "totalMann": 319,
     "totalKvinne": 310
   },
-  "medianInntektPerHusholdstype": [
+  "medianInntektPerHusholdningstype": [
     {
       "type": "Alle husholdninger",
-      "median": 479000.0
+      "median": 479000
     },
     {
       "type": "Par uten hjemmeboende barn",
-      "median": 826000.0
+      "median": 826000
     },
     {
       "type": "Par med barn",
-      "median": 1015000.0
+      "median": 1015000
     },
     {
       "type": "Aleneboende",
-      "median": 383000.0
+      "median": 383000
     },
     {
       "type": "Enslig forelder med barn",
-      "median": 457000.0
+      "median": 457000
     }
   ]
 }

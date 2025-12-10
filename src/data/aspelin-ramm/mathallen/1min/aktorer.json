@@ -171,24 +171,24 @@
   ],
   "categoryStats": {
     "Handel / Mat og drikke": {
-      "count": 3,
       "totalRevenue": 58,
-      "avgRevenue": 19.33
+      "avgRevenue": 19.33,
+      "antall": 3
     },
     "Mat og opplevelser / Restaurant": {
-      "count": 7,
       "totalRevenue": 34.62,
-      "avgRevenue": 4.95
+      "avgRevenue": 4.95,
+      "antall": 7
     },
     "Mat og opplevelser / Bakeri og kafé": {
-      "count": 1,
       "totalRevenue": 3,
-      "avgRevenue": 3
+      "avgRevenue": 3,
+      "antall": 1
     },
     "Mat og opplevelser / Pub og bar": {
-      "count": 1,
       "totalRevenue": 2,
-      "avgRevenue": 2
+      "avgRevenue": 2,
+      "antall": 1
     }
   },
   "metadata": {

@@ -141,7 +141,7 @@ export default function ExpandableActorList({
           <h4 className="mb-3 text-sm font-semibold text-gray-700">Fordeling per kategori</h4>
           <div className="flex flex-wrap gap-2">
             {Object.entries(data.categoryStats)
-              .sort((a, b) => b[1].count - a[1].count)
+              .sort((a, b) => b[1].antall - a[1].antall)
               .map(([category, stats]) => (
                 <span
                   key={category}
@@ -149,7 +149,7 @@ export default function ExpandableActorList({
                 >
                   <span className="font-medium text-gray-700">{category}</span>
                   <span className="text-gray-400">|</span>
-                  <span className="text-lokka-primary">{stats.count}</span>
+                  <span className="text-lokka-primary">{stats.antall}</span>
                 </span>
               ))}
           </div>

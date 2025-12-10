@@ -6,13 +6,34 @@
     "endring30d": 3
   },
   "korthandelPerUkedag": [
-    { "dag": "Monday", "sum": 180 },
-    { "dag": "Tuesday", "sum": 150 },
-    { "dag": "Wednesday", "sum": 160 },
-    { "dag": "Thursday", "sum": 185 },
-    { "dag": "Friday", "sum": 210 },
-    { "dag": "Saturday", "sum": 280 },
-    { "dag": "Sunday", "sum": 140 }
+    {
+      "dag": "man.",
+      "sum": 180
+    },
+    {
+      "dag": "tir.",
+      "sum": 150
+    },
+    {
+      "dag": "ons.",
+      "sum": 160
+    },
+    {
+      "dag": "tor.",
+      "sum": 185
+    },
+    {
+      "dag": "fre.",
+      "sum": 210
+    },
+    {
+      "dag": "lør.",
+      "sum": 280
+    },
+    {
+      "dag": "søn.",
+      "sum": 140
+    }
   ],
   "tidsserie": [
     {
@@ -8532,7 +8553,7 @@
     {
       "date": "2022-11-25",
       "mat_opplevelser": 0.492,
-      "handel": 1.0,
+      "handel": 1,
       "tjenester": 0.18
     },
     {

@@ -1,42 +1,159 @@
 {
   "perUkedag": [
-    { "dag": "man.", "besøkende": 1432, "påJobb": 796, "hjemme": 872 },
-    { "dag": "tir.", "besøkende": 1634, "påJobb": 862, "hjemme": 896 },
-    { "dag": "ons.", "besøkende": 1687, "påJobb": 866, "hjemme": 898 },
-    { "dag": "tor.", "besøkende": 1761, "påJobb": 882, "hjemme": 907 },
-    { "dag": "fre.", "besøkende": 1951, "påJobb": 868, "hjemme": 906 },
-    { "dag": "lør.", "besøkende": 2040, "påJobb": 685, "hjemme": 892 },
-    { "dag": "søn.", "besøkende": 1652, "påJobb": 526, "hjemme": 834 }
+    {
+      "dag": "man.",
+      "besøkende": 1432,
+      "påJobb": 796,
+      "hjemme": 872
+    },
+    {
+      "dag": "tir.",
+      "besøkende": 1634,
+      "påJobb": 862,
+      "hjemme": 896
+    },
+    {
+      "dag": "ons.",
+      "besøkende": 1687,
+      "påJobb": 866,
+      "hjemme": 898
+    },
+    {
+      "dag": "tor.",
+      "besøkende": 1761,
+      "påJobb": 882,
+      "hjemme": 907
+    },
+    {
+      "dag": "fre.",
+      "besøkende": 1951,
+      "påJobb": 868,
+      "hjemme": 906
+    },
+    {
+      "dag": "lør.",
+      "besøkende": 2040,
+      "påJobb": 685,
+      "hjemme": 892
+    },
+    {
+      "dag": "søn.",
+      "besøkende": 1652,
+      "påJobb": 526,
+      "hjemme": 834
+    }
   ],
   "perTime": [
-    { "time": "00:00", "besøk": 119 },
-    { "time": "01:00", "besøk": 104 },
-    { "time": "02:00", "besøk": 97 },
-    { "time": "03:00", "besøk": 81 },
-    { "time": "04:00", "besøk": 73 },
-    { "time": "05:00", "besøk": 72 },
-    { "time": "06:00", "besøk": 82 },
-    { "time": "07:00", "besøk": 96 },
-    { "time": "08:00", "besøk": 119 },
-    { "time": "09:00", "besøk": 125 },
-    { "time": "10:00", "besøk": 131 },
-    { "time": "11:00", "besøk": 144 },
-    { "time": "12:00", "besøk": 178 },
-    { "time": "13:00", "besøk": 222 },
-    { "time": "14:00", "besøk": 253 },
-    { "time": "15:00", "besøk": 288 },
-    { "time": "16:00", "besøk": 328 },
-    { "time": "17:00", "besøk": 347 },
-    { "time": "18:00", "besøk": 340 },
-    { "time": "19:00", "besøk": 308 },
-    { "time": "20:00", "besøk": 257 },
-    { "time": "21:00", "besøk": 203 },
-    { "time": "22:00", "besøk": 165 },
-    { "time": "23:00", "besøk": 135 }
+    {
+      "time": "00:00",
+      "besøk": 119
+    },
+    {
+      "time": "01:00",
+      "besøk": 104
+    },
+    {
+      "time": "02:00",
+      "besøk": 97
+    },
+    {
+      "time": "03:00",
+      "besøk": 81
+    },
+    {
+      "time": "04:00",
+      "besøk": 73
+    },
+    {
+      "time": "05:00",
+      "besøk": 72
+    },
+    {
+      "time": "06:00",
+      "besøk": 82
+    },
+    {
+      "time": "07:00",
+      "besøk": 96
+    },
+    {
+      "time": "08:00",
+      "besøk": 119
+    },
+    {
+      "time": "09:00",
+      "besøk": 125
+    },
+    {
+      "time": "10:00",
+      "besøk": 131
+    },
+    {
+      "time": "11:00",
+      "besøk": 144
+    },
+    {
+      "time": "12:00",
+      "besøk": 178
+    },
+    {
+      "time": "13:00",
+      "besøk": 222
+    },
+    {
+      "time": "14:00",
+      "besøk": 253
+    },
+    {
+      "time": "15:00",
+      "besøk": 288
+    },
+    {
+      "time": "16:00",
+      "besøk": 328
+    },
+    {
+      "time": "17:00",
+      "besøk": 347
+    },
+    {
+      "time": "18:00",
+      "besøk": 340
+    },
+    {
+      "time": "19:00",
+      "besøk": 308
+    },
+    {
+      "time": "20:00",
+      "besøk": 257
+    },
+    {
+      "time": "21:00",
+      "besøk": 203
+    },
+    {
+      "time": "22:00",
+      "besøk": 165
+    },
+    {
+      "time": "23:00",
+      "besøk": 135
+    }
   ],
   "bevegelsesmønster": [
-    { "category": "2023", "besøkende": 1979, "påJobb": 826, "hjemme": 968 },
-    { "category": "2024", "besøkende": 1721, "påJobb": 765, "hjemme": 866 }
+    {
+      "besøkende": 1979,
+      "påJobb": 826,
+      "hjemme": 968,
+      "kategori": "2023"
+    },
+    {
+      "besøkende": 1721,
+      "påJobb": 765,
+      "hjemme": 866,
+      "kategori": "2024"
+    }
   ],
   "nøkkeltall": {
     "dagligBesøk": 3308,
@@ -46,167 +163,617 @@
     "periode": "01.10.2023 - 31.12.2024"
   },
   "opprinnelseOmråder": [
-    { "område": "Grünerløkka", "prosent": 17.6 },
-    { "område": "Gamle Aker", "prosent": 15.16 },
-    { "område": "Sentrum 2", "prosent": 9.29 },
-    { "område": "Ila", "prosent": 4.43 },
-    { "område": "St.hanshaugen", "prosent": 3.62 },
-    { "område": "Rodeløkka", "prosent": 3.39 },
-    { "område": "Torshov", "prosent": 2.99 },
-    { "område": "Grefsenlia", "prosent": 2.03 },
-    { "område": "Tøyen", "prosent": 2.03 },
-    { "område": "Tåsen", "prosent": 1.97 },
-    { "område": "Hasle", "prosent": 1.91 },
-    { "område": "Grønland", "prosent": 1.72 },
-    { "område": "Bjerke", "prosent": 1.67 },
-    { "område": "Ulven", "prosent": 1.59 },
-    { "område": "Manglerud", "prosent": 1.48 },
-    { "område": "Bjølsen", "prosent": 1.35 },
-    { "område": "Åsen", "prosent": 1.33 },
-    { "område": "Majorstuen", "prosent": 1.29 },
-    { "område": "Sinsen", "prosent": 1.25 },
-    { "område": "Lindern", "prosent": 1.25 },
-    { "område": "Homansbyen", "prosent": 1.17 },
-    { "område": "Frogner", "prosent": 1.16 },
-    { "område": "Østensjø", "prosent": 1.12 },
-    { "område": "Ris", "prosent": 1.08 },
-    { "område": "Sagene", "prosent": 0.99 },
-    { "område": "Kampen", "prosent": 0.97 },
-    { "område": "Fossum", "prosent": 0.97 },
-    { "område": "Grorud", "prosent": 0.95 },
-    { "område": "Ljansbyen", "prosent": 0.85 },
-    { "område": "Uranienborg", "prosent": 0.85 },
-    { "område": "Bekkelaget", "prosent": 0.83 },
-    { "område": "Rudene", "prosent": 0.81 },
-    { "område": "Langerud", "prosent": 0.81 },
-    { "område": "Sentrum 3", "prosent": 0.81 },
-    { "område": "Ulsholt", "prosent": 0.81 },
-    { "område": "Nordmarka", "prosent": 0.76 },
-    { "område": "Alfaset", "prosent": 0.74 },
-    { "område": "Fagerborg", "prosent": 0.68 },
-    { "område": "Gamlebyen", "prosent": 0.68 },
-    { "område": "Sandaker", "prosent": 0.64 },
-    { "område": "Holmen", "prosent": 0.61 },
-    { "område": "Røabyen", "prosent": 0.61 },
-    { "område": "Vålerenga", "prosent": 0.53 },
-    { "område": "Borgen", "prosent": 0.53 },
-    { "område": "Nordstrand", "prosent": 0.49 },
-    { "område": "Grefsenmarka", "prosent": 0.47 },
-    { "område": "Skillebekk", "prosent": 0.45 },
-    { "område": "Østmarka", "prosent": 0.44 },
-    { "område": "Ullern", "prosent": 0.42 },
-    { "område": "Loenga", "prosent": 0.4 }
+    {
+      "område": "Grünerløkka",
+      "prosent": 17.6
+    },
+    {
+      "område": "Gamle Aker",
+      "prosent": 15.16
+    },
+    {
+      "område": "Sentrum 2",
+      "prosent": 9.29
+    },
+    {
+      "område": "Ila",
+      "prosent": 4.43
+    },
+    {
+      "område": "St.hanshaugen",
+      "prosent": 3.62
+    },
+    {
+      "område": "Rodeløkka",
+      "prosent": 3.39
+    },
+    {
+      "område": "Torshov",
+      "prosent": 2.99
+    },
+    {
+      "område": "Grefsenlia",
+      "prosent": 2.03
+    },
+    {
+      "område": "Tøyen",
+      "prosent": 2.03
+    },
+    {
+      "område": "Tåsen",
+      "prosent": 1.97
+    },
+    {
+      "område": "Hasle",
+      "prosent": 1.91
+    },
+    {
+      "område": "Grønland",
+      "prosent": 1.72
+    },
+    {
+      "område": "Bjerke",
+      "prosent": 1.67
+    },
+    {
+      "område": "Ulven",
+      "prosent": 1.59
+    },
+    {
+      "område": "Manglerud",
+      "prosent": 1.48
+    },
+    {
+      "område": "Bjølsen",
+      "prosent": 1.35
+    },
+    {
+      "område": "Åsen",
+      "prosent": 1.33
+    },
+    {
+      "område": "Majorstuen",
+      "prosent": 1.29
+    },
+    {
+      "område": "Sinsen",
+      "prosent": 1.25
+    },
+    {
+      "område": "Lindern",
+      "prosent": 1.25
+    },
+    {
+      "område": "Homansbyen",
+      "prosent": 1.17
+    },
+    {
+      "område": "Frogner",
+      "prosent": 1.16
+    },
+    {
+      "område": "Østensjø",
+      "prosent": 1.12
+    },
+    {
+      "område": "Ris",
+      "prosent": 1.08
+    },
+    {
+      "område": "Sagene",
+      "prosent": 0.99
+    },
+    {
+      "område": "Kampen",
+      "prosent": 0.97
+    },
+    {
+      "område": "Fossum",
+      "prosent": 0.97
+    },
+    {
+      "område": "Grorud",
+      "prosent": 0.95
+    },
+    {
+      "område": "Ljansbyen",
+      "prosent": 0.85
+    },
+    {
+      "område": "Uranienborg",
+      "prosent": 0.85
+    },
+    {
+      "område": "Bekkelaget",
+      "prosent": 0.83
+    },
+    {
+      "område": "Rudene",
+      "prosent": 0.81
+    },
+    {
+      "område": "Langerud",
+      "prosent": 0.81
+    },
+    {
+      "område": "Sentrum 3",
+      "prosent": 0.81
+    },
+    {
+      "område": "Ulsholt",
+      "prosent": 0.81
+    },
+    {
+      "område": "Nordmarka",
+      "prosent": 0.76
+    },
+    {
+      "område": "Alfaset",
+      "prosent": 0.74
+    },
+    {
+      "område": "Fagerborg",
+      "prosent": 0.68
+    },
+    {
+      "område": "Gamlebyen",
+      "prosent": 0.68
+    },
+    {
+      "område": "Sandaker",
+      "prosent": 0.64
+    },
+    {
+      "område": "Holmen",
+      "prosent": 0.61
+    },
+    {
+      "område": "Røabyen",
+      "prosent": 0.61
+    },
+    {
+      "område": "Vålerenga",
+      "prosent": 0.53
+    },
+    {
+      "område": "Borgen",
+      "prosent": 0.53
+    },
+    {
+      "område": "Nordstrand",
+      "prosent": 0.49
+    },
+    {
+      "område": "Grefsenmarka",
+      "prosent": 0.47
+    },
+    {
+      "område": "Skillebekk",
+      "prosent": 0.45
+    },
+    {
+      "område": "Østmarka",
+      "prosent": 0.44
+    },
+    {
+      "område": "Ullern",
+      "prosent": 0.42
+    },
+    {
+      "område": "Loenga",
+      "prosent": 0.4
+    }
   ],
   "opprinnelseLand": [
-    { "land": "Denmark", "prosent": 21.67 },
-    { "land": "Germany", "prosent": 9.93 },
-    { "land": "France", "prosent": 10.13 },
-    { "land": "Poland", "prosent": 9.47 },
-    { "land": "United Kingdom of Great Britain and Northern Ireland", "prosent": 8.00 },
-    { "land": "Sweden", "prosent": 8.00 },
-    { "land": "United States of America", "prosent": 5.91 },
-    { "land": "Spain", "prosent": 4.97 },
-    { "land": "Netherlands", "prosent": 4.69 },
-    { "land": "Italy", "prosent": 2.84 },
-    { "land": "Romania", "prosent": 2.28 },
-    { "land": "Ukraine", "prosent": 1.83 },
-    { "land": "Austria", "prosent": 1.88 },
-    { "land": "Finland", "prosent": 1.21 },
-    { "land": "Belgium", "prosent": 1.54 },
-    { "land": "Portugal", "prosent": 0.97 },
-    { "land": "China", "prosent": 0.83 },
-    { "land": "Greece", "prosent": 0.49 },
-    { "land": "Czechia", "prosent": 0.51 },
-    { "land": "Switzerland", "prosent": 0.49 }
+    {
+      "land": "Denmark",
+      "prosent": 21.67
+    },
+    {
+      "land": "Germany",
+      "prosent": 9.93
+    },
+    {
+      "land": "France",
+      "prosent": 10.13
+    },
+    {
+      "land": "Poland",
+      "prosent": 9.47
+    },
+    {
+      "land": "United Kingdom of Great Britain and Northern Ireland",
+      "prosent": 8
+    },
+    {
+      "land": "Sweden",
+      "prosent": 8
+    },
+    {
+      "land": "United States of America",
+      "prosent": 5.91
+    },
+    {
+      "land": "Spain",
+      "prosent": 4.97
+    },
+    {
+      "land": "Netherlands",
+      "prosent": 4.69
+    },
+    {
+      "land": "Italy",
+      "prosent": 2.84
+    },
+    {
+      "land": "Romania",
+      "prosent": 2.28
+    },
+    {
+      "land": "Ukraine",
+      "prosent": 1.83
+    },
+    {
+      "land": "Austria",
+      "prosent": 1.88
+    },
+    {
+      "land": "Finland",
+      "prosent": 1.21
+    },
+    {
+      "land": "Belgium",
+      "prosent": 1.54
+    },
+    {
+      "land": "Portugal",
+      "prosent": 0.97
+    },
+    {
+      "land": "China",
+      "prosent": 0.83
+    },
+    {
+      "land": "Greece",
+      "prosent": 0.49
+    },
+    {
+      "land": "Czechia",
+      "prosent": 0.51
+    },
+    {
+      "land": "Switzerland",
+      "prosent": 0.49
+    }
   ],
   "opprinnelseLandKvartalsvis": {
     "Q1_2024": [
-      { "land": "Denmark", "prosent": 27.93 },
-      { "land": "Poland", "prosent": 9.57 },
-      { "land": "France", "prosent": 9.21 },
-      { "land": "Sweden", "prosent": 9.20 },
-      { "land": "United Kingdom of Great Britain and Northern Ireland", "prosent": 8.87 },
-      { "land": "Germany", "prosent": 8.40 },
-      { "land": "Spain", "prosent": 4.99 },
-      { "land": "United States of America", "prosent": 3.80 },
-      { "land": "Italy", "prosent": 3.55 },
-      { "land": "Netherlands", "prosent": 2.81 },
-      { "land": "Romania", "prosent": 2.12 },
-      { "land": "Ukraine", "prosent": 1.70 },
-      { "land": "Austria", "prosent": 1.58 },
-      { "land": "Finland", "prosent": 1.41 },
-      { "land": "Belgium", "prosent": 0.95 },
-      { "land": "Portugal", "prosent": 0.71 },
-      { "land": "China", "prosent": 0.68 },
-      { "land": "Czechia", "prosent": 0.45 },
-      { "land": "Greece", "prosent": 0.40 },
-      { "land": "Switzerland", "prosent": 0.40 }
+      {
+        "land": "Denmark",
+        "prosent": 27.93
+      },
+      {
+        "land": "Poland",
+        "prosent": 9.57
+      },
+      {
+        "land": "France",
+        "prosent": 9.21
+      },
+      {
+        "land": "Sweden",
+        "prosent": 9.2
+      },
+      {
+        "land": "United Kingdom of Great Britain and Northern Ireland",
+        "prosent": 8.87
+      },
+      {
+        "land": "Germany",
+        "prosent": 8.4
+      },
+      {
+        "land": "Spain",
+        "prosent": 4.99
+      },
+      {
+        "land": "United States of America",
+        "prosent": 3.8
+      },
+      {
+        "land": "Italy",
+        "prosent": 3.55
+      },
+      {
+        "land": "Netherlands",
+        "prosent": 2.81
+      },
+      {
+        "land": "Romania",
+        "prosent": 2.12
+      },
+      {
+        "land": "Ukraine",
+        "prosent": 1.7
+      },
+      {
+        "land": "Austria",
+        "prosent": 1.58
+      },
+      {
+        "land": "Finland",
+        "prosent": 1.41
+      },
+      {
+        "land": "Belgium",
+        "prosent": 0.95
+      },
+      {
+        "land": "Portugal",
+        "prosent": 0.71
+      },
+      {
+        "land": "China",
+        "prosent": 0.68
+      },
+      {
+        "land": "Czechia",
+        "prosent": 0.45
+      },
+      {
+        "land": "Greece",
+        "prosent": 0.4
+      },
+      {
+        "land": "Switzerland",
+        "prosent": 0.4
+      }
     ],
     "Q2_2024": [
-      { "land": "Denmark", "prosent": 20.72 },
-      { "land": "Germany", "prosent": 10.43 },
-      { "land": "France", "prosent": 10.17 },
-      { "land": "Poland", "prosent": 9.06 },
-      { "land": "United Kingdom of Great Britain and Northern Ireland", "prosent": 8.84 },
-      { "land": "Sweden", "prosent": 8.53 },
-      { "land": "United States of America", "prosent": 7.09 },
-      { "land": "Spain", "prosent": 4.76 },
-      { "land": "Netherlands", "prosent": 3.85 },
-      { "land": "Italy", "prosent": 2.92 },
-      { "land": "Romania", "prosent": 2.09 },
-      { "land": "Ukraine", "prosent": 1.83 },
-      { "land": "Belgium", "prosent": 1.64 },
-      { "land": "Austria", "prosent": 1.54 },
-      { "land": "Finland", "prosent": 1.20 },
-      { "land": "Portugal", "prosent": 1.13 },
-      { "land": "Greece", "prosent": 0.51 },
-      { "land": "China", "prosent": 0.46 },
-      { "land": "Korea, Republic of", "prosent": 0.42 },
-      { "land": "Czechia", "prosent": 0.42 }
+      {
+        "land": "Denmark",
+        "prosent": 20.72
+      },
+      {
+        "land": "Germany",
+        "prosent": 10.43
+      },
+      {
+        "land": "France",
+        "prosent": 10.17
+      },
+      {
+        "land": "Poland",
+        "prosent": 9.06
+      },
+      {
+        "land": "United Kingdom of Great Britain and Northern Ireland",
+        "prosent": 8.84
+      },
+      {
+        "land": "Sweden",
+        "prosent": 8.53
+      },
+      {
+        "land": "United States of America",
+        "prosent": 7.09
+      },
+      {
+        "land": "Spain",
+        "prosent": 4.76
+      },
+      {
+        "land": "Netherlands",
+        "prosent": 3.85
+      },
+      {
+        "land": "Italy",
+        "prosent": 2.92
+      },
+      {
+        "land": "Romania",
+        "prosent": 2.09
+      },
+      {
+        "land": "Ukraine",
+        "prosent": 1.83
+      },
+      {
+        "land": "Belgium",
+        "prosent": 1.64
+      },
+      {
+        "land": "Austria",
+        "prosent": 1.54
+      },
+      {
+        "land": "Finland",
+        "prosent": 1.2
+      },
+      {
+        "land": "Portugal",
+        "prosent": 1.13
+      },
+      {
+        "land": "Greece",
+        "prosent": 0.51
+      },
+      {
+        "land": "China",
+        "prosent": 0.46
+      },
+      {
+        "land": "Korea, Republic of",
+        "prosent": 0.42
+      },
+      {
+        "land": "Czechia",
+        "prosent": 0.42
+      }
     ],
     "Q3_2024": [
-      { "land": "Denmark", "prosent": 15.20 },
-      { "land": "Germany", "prosent": 11.90 },
-      { "land": "France", "prosent": 10.32 },
-      { "land": "Poland", "prosent": 8.24 },
-      { "land": "United Kingdom of Great Britain and Northern Ireland", "prosent": 7.76 },
-      { "land": "United States of America", "prosent": 7.67 },
-      { "land": "Sweden", "prosent": 7.36 },
-      { "land": "Netherlands", "prosent": 6.08 },
-      { "land": "Spain", "prosent": 5.20 },
-      { "land": "Italy", "prosent": 3.16 },
-      { "land": "Austria", "prosent": 2.63 },
-      { "land": "Belgium", "prosent": 2.21 },
-      { "land": "Romania", "prosent": 1.90 },
-      { "land": "Ukraine", "prosent": 1.68 },
-      { "land": "China", "prosent": 1.16 },
-      { "land": "Portugal", "prosent": 0.98 },
-      { "land": "Finland", "prosent": 0.98 },
-      { "land": "Korea, Republic of", "prosent": 0.96 },
-      { "land": "Czechia", "prosent": 0.72 },
-      { "land": "Switzerland", "prosent": 0.58 }
+      {
+        "land": "Denmark",
+        "prosent": 15.2
+      },
+      {
+        "land": "Germany",
+        "prosent": 11.9
+      },
+      {
+        "land": "France",
+        "prosent": 10.32
+      },
+      {
+        "land": "Poland",
+        "prosent": 8.24
+      },
+      {
+        "land": "United Kingdom of Great Britain and Northern Ireland",
+        "prosent": 7.76
+      },
+      {
+        "land": "United States of America",
+        "prosent": 7.67
+      },
+      {
+        "land": "Sweden",
+        "prosent": 7.36
+      },
+      {
+        "land": "Netherlands",
+        "prosent": 6.08
+      },
+      {
+        "land": "Spain",
+        "prosent": 5.2
+      },
+      {
+        "land": "Italy",
+        "prosent": 3.16
+      },
+      {
+        "land": "Austria",
+        "prosent": 2.63
+      },
+      {
+        "land": "Belgium",
+        "prosent": 2.21
+      },
+      {
+        "land": "Romania",
+        "prosent": 1.9
+      },
+      {
+        "land": "Ukraine",
+        "prosent": 1.68
+      },
+      {
+        "land": "China",
+        "prosent": 1.16
+      },
+      {
+        "land": "Portugal",
+        "prosent": 0.98
+      },
+      {
+        "land": "Finland",
+        "prosent": 0.98
+      },
+      {
+        "land": "Korea, Republic of",
+        "prosent": 0.96
+      },
+      {
+        "land": "Czechia",
+        "prosent": 0.72
+      },
+      {
+        "land": "Switzerland",
+        "prosent": 0.58
+      }
     ],
     "Q4_2024": [
-      { "land": "Denmark", "prosent": 22.81 },
-      { "land": "Poland", "prosent": 10.99 },
-      { "land": "France", "prosent": 10.83 },
-      { "land": "Germany", "prosent": 8.97 },
-      { "land": "Sweden", "prosent": 6.92 },
-      { "land": "United Kingdom of Great Britain and Northern Ireland", "prosent": 6.54 },
-      { "land": "Netherlands", "prosent": 6.00 },
-      { "land": "United States of America", "prosent": 5.06 },
-      { "land": "Spain", "prosent": 4.93 },
-      { "land": "Romania", "prosent": 3.00 },
-      { "land": "Ukraine", "prosent": 2.09 },
-      { "land": "Austria", "prosent": 1.75 },
-      { "land": "Italy", "prosent": 1.71 },
-      { "land": "Belgium", "prosent": 1.37 },
-      { "land": "Finland", "prosent": 1.24 },
-      { "land": "Portugal", "prosent": 1.06 },
-      { "land": "China", "prosent": 1.03 },
-      { "land": "Greece", "prosent": 0.55 },
-      { "land": "Lithuania", "prosent": 0.44 },
-      { "land": "Czechia", "prosent": 0.43 }
+      {
+        "land": "Denmark",
+        "prosent": 22.81
+      },
+      {
+        "land": "Poland",
+        "prosent": 10.99
+      },
+      {
+        "land": "France",
+        "prosent": 10.83
+      },
+      {
+        "land": "Germany",
+        "prosent": 8.97
+      },
+      {
+        "land": "Sweden",
+        "prosent": 6.92
+      },
+      {
+        "land": "United Kingdom of Great Britain and Northern Ireland",
+        "prosent": 6.54
+      },
+      {
+        "land": "Netherlands",
+        "prosent": 6
+      },
+      {
+        "land": "United States of America",
+        "prosent": 5.06
+      },
+      {
+        "land": "Spain",
+        "prosent": 4.93
+      },
+      {
+        "land": "Romania",
+        "prosent": 3
+      },
+      {
+        "land": "Ukraine",
+        "prosent": 2.09
+      },
+      {
+        "land": "Austria",
+        "prosent": 1.75
+      },
+      {
+        "land": "Italy",
+        "prosent": 1.71
+      },
+      {
+        "land": "Belgium",
+        "prosent": 1.37
+      },
+      {
+        "land": "Finland",
+        "prosent": 1.24
+      },
+      {
+        "land": "Portugal",
+        "prosent": 1.06
+      },
+      {
+        "land": "China",
+        "prosent": 1.03
+      },
+      {
+        "land": "Greece",
+        "prosent": 0.55
+      },
+      {
+        "land": "Lithuania",
+        "prosent": 0.44
+      },
+      {
+        "land": "Czechia",
+        "prosent": 0.43
+      }
     ]
   }
 }

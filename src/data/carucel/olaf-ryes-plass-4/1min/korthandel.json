@@ -13464,37 +13464,37 @@
   "indeksertVekst": [],
   "korthandelPerUkedag": [
     {
-      "dag": "Monday",
+      "dag": "man.",
       "år2023": 0.9,
       "år2024": 0.85
     },
     {
-      "dag": "Tuesday",
+      "dag": "tir.",
       "år2023": 0.95,
       "år2024": 0.9
     },
     {
-      "dag": "Wednesday",
+      "dag": "ons.",
       "år2023": 1,
       "år2024": 0.95
     },
     {
-      "dag": "Thursday",
+      "dag": "tor.",
       "år2023": 1.1,
       "år2024": 1.05
     },
     {
-      "dag": "Friday",
+      "dag": "fre.",
       "år2023": 1.4,
       "år2024": 1.35
     },
     {
-      "dag": "Saturday",
+      "dag": "lør.",
       "år2023": 1.8,
       "år2024": 1.7
     },
     {
-      "dag": "Sunday",
+      "dag": "søn.",
       "år2023": 1.2,
       "år2024": 1.15
     }
