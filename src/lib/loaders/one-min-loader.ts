@@ -36,6 +36,18 @@ async function safeImport<T>(importFn: () => Promise<{ default: T }>): Promise<T
 // Static imports for known 1-min analysis data (required for Next.js/Vercel compatibility)
 // Note: Older files (spabo, mathallen) use legacy format and require type coercion
 const STATIC_DATA: Record<string, () => Promise<OneMinAnalysisData>> = {
+  // Carucel - Olaf Ryes Plass 4 (1-min analysis)
+  'carucel/olaf-ryes-plass-4': async () => {
+    const [demografi, konkurransebilde, korthandel, bevegelse, aktorer] = await Promise.all([
+      import('@/data/carucel/olaf-ryes-plass-4/1min/demografi.json').then(m => m.default as unknown as DemografiData),
+      import('@/data/carucel/olaf-ryes-plass-4/1min/konkurransebilde.json').then(m => m.default as unknown as KonkurransebildeData),
+      import('@/data/carucel/olaf-ryes-plass-4/1min/korthandel.json').then(m => m.default as unknown as KorthandelData),
+      import('@/data/carucel/olaf-ryes-plass-4/1min/bevegelse.json').then(m => m.default as unknown as BevegelseData),
+      import('@/data/carucel/olaf-ryes-plass-4/1min/aktorer.json').then(m => m.default as unknown as AktorerData),
+    ]);
+    return { demografi, konkurransebilde, korthandel, bevegelse, besokende: null, internasjonalt: null, aktorer };
+  },
+
   // Spabo - Sofienberggata 6 (legacy format)
   'spabo/sofienberggata-6': async () => {
     const [demografi, konkurransebilde, korthandel, bevegelse, aktorer] = await Promise.all([
