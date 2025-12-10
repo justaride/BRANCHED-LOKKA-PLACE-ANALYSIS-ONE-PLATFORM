@@ -1,4 +1,10 @@
 {
+  "nøkkeltall": {
+    "dagligKorthandel": 1.7,
+    "totalKorthandel": 1800,
+    "beløpPerTransaksjon": 285,
+    "endring30d": -2
+  },
   "tidsserie": [
     {
       "date": "2019-01-02",
@@ -13421,6 +13427,76 @@
       "mat_opplevelser": 0.486,
       "handel": 0.565,
       "tjenester": 0.134
+    }
+  ],
+  "årligVekst": [
+    {
+      "år": "2020",
+      "område": -8,
+      "oslo": -5,
+      "norge": -4
+    },
+    {
+      "år": "2021",
+      "område": 12,
+      "oslo": 10,
+      "norge": 8
+    },
+    {
+      "år": "2022",
+      "område": 15,
+      "oslo": 12,
+      "norge": 10
+    },
+    {
+      "år": "2023",
+      "område": 6,
+      "oslo": 4,
+      "norge": 3
+    },
+    {
+      "år": "2024",
+      "område": 2,
+      "oslo": 3,
+      "norge": 2
+    }
+  ],
+  "indeksertVekst": [],
+  "korthandelPerUkedag": [
+    {
+      "dag": "Monday",
+      "år2023": 0.9,
+      "år2024": 0.85
+    },
+    {
+      "dag": "Tuesday",
+      "år2023": 0.95,
+      "år2024": 0.9
+    },
+    {
+      "dag": "Wednesday",
+      "år2023": 1,
+      "år2024": 0.95
+    },
+    {
+      "dag": "Thursday",
+      "år2023": 1.1,
+      "år2024": 1.05
+    },
+    {
+      "dag": "Friday",
+      "år2023": 1.4,
+      "år2024": 1.35
+    },
+    {
+      "dag": "Saturday",
+      "år2023": 1.8,
+      "år2024": 1.7
+    },
+    {
+      "dag": "Sunday",
+      "år2023": 1.2,
+      "år2024": 1.15
     }
   ]
 }
