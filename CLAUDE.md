@@ -205,8 +205,14 @@ When adding new properties with 1-min/5-min analysis data:
 - Use `kategori` NOT `category`
 - Use `antall` NOT `value`
 - Use `år` NOT `year`
+- Use `dag` with Norwegian abbreviations: `man.`, `tir.`, `ons.`, `tor.`, `fre.`, `lør.`, `søn.`
 
-**⚠️ PENDING AUDIT:** All existing properties with 1-min/5-min data should be audited for completeness.
+**✅ AUDIT COMPLETE (December 10, 2025):**
+All 11 properties with 1-min/5-min data have been audited and fixed:
+- 354 field naming issues resolved across 27 JSON files
+- Validation script: `scripts/validate-analysis-json.js`
+- Fix script: `scripts/fix-analysis-json.js`
+- Validation integrated into `npm run verify`
 
 ---
 

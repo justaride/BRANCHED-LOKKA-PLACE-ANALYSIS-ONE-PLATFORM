@@ -1,0 +1,231 @@
+{
+  "timestamp": "2025-12-10T15:04:25.326Z",
+  "summary": {
+    "total": 76,
+    "valid": 75,
+    "invalid": 1,
+    "missing": 0
+  },
+  "issues": [
+    {
+      "property": "aspelin-ramm/mathallen/1min",
+      "files": [
+        {
+          "file": "konkurransebilde.json",
+          "issues": [
+            {
+              "type": "field_name",
+              "path": "utviklingPerÅr.data[0].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "utviklingPerÅr.data[1].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "utviklingPerÅr.data[2].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "utviklingPerÅr.data[3].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "utviklingPerÅr.data[4].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "utviklingPerÅr.data[5].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "utviklingPerÅr.data[6].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "utviklingPerÅr.data[7].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "utviklingPerÅr.data[8].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "utviklingPerÅr.data[9].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "årligVekst.data[0].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "årligVekst.data[1].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "årligVekst.data[2].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "årligVekst.data[3].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "årligVekst.data[4].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "årligVekst.data[5].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "årligVekst.indeksertVekst[0].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "årligVekst.indeksertVekst[1].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "årligVekst.indeksertVekst[2].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "årligVekst.indeksertVekst[3].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "årligVekst.indeksertVekst[4].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "årligVekst.indeksertVekst[5].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "field_name",
+              "path": "årligVekst.indeksertVekst[6].year",
+              "found": "year",
+              "expected": "år",
+              "message": "\"year\" should be \"år\""
+            },
+            {
+              "type": "day_name",
+              "path": "korthandelPerUkedag.data[0].dag",
+              "found": "Monday",
+              "expected": "man.",
+              "message": "Day \"Monday\" should be \"man.\""
+            },
+            {
+              "type": "day_name",
+              "path": "korthandelPerUkedag.data[1].dag",
+              "found": "Tuesday",
+              "expected": "tir.",
+              "message": "Day \"Tuesday\" should be \"tir.\""
+            },
+            {
+              "type": "day_name",
+              "path": "korthandelPerUkedag.data[2].dag",
+              "found": "Wednesday",
+              "expected": "ons.",
+              "message": "Day \"Wednesday\" should be \"ons.\""
+            },
+            {
+              "type": "day_name",
+              "path": "korthandelPerUkedag.data[3].dag",
+              "found": "Thursday",
+              "expected": "tor.",
+              "message": "Day \"Thursday\" should be \"tor.\""
+            },
+            {
+              "type": "day_name",
+              "path": "korthandelPerUkedag.data[4].dag",
+              "found": "Friday",
+              "expected": "fre.",
+              "message": "Day \"Friday\" should be \"fre.\""
+            },
+            {
+              "type": "day_name",
+              "path": "korthandelPerUkedag.data[5].dag",
+              "found": "Saturday",
+              "expected": "lør.",
+              "message": "Day \"Saturday\" should be \"lør.\""
+            },
+            {
+              "type": "day_name",
+              "path": "korthandelPerUkedag.data[6].dag",
+              "found": "Sunday",
+              "expected": "søn.",
+              "message": "Day \"Sunday\" should be \"søn.\""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
