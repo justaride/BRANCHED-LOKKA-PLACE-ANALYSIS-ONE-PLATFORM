@@ -35,17 +35,17 @@
     { "time": "23:00", "besøk": 288 }
   ],
   "bevegelsesmønster": [
-    { "category": "Q1'2023", "besøkende": 3807, "påJobb": 1087, "hjemme": 2604 },
-    { "category": "Q2'2023", "besøkende": 3650, "påJobb": 1020, "hjemme": 2450 },
-    { "category": "Q3'2023", "besøkende": 3520, "påJobb": 980, "hjemme": 2380 },
-    { "category": "Q4'2023", "besøkende": 3400, "påJobb": 950, "hjemme": 2320 },
-    { "category": "Q1'2024", "besøkende": 3257, "påJobb": 897, "hjemme": 2269 },
-    { "category": "Q2'2024", "besøkende": 3350, "påJobb": 920, "hjemme": 2300 },
-    { "category": "Q3'2024", "besøkende": 3480, "påJobb": 940, "hjemme": 2350 },
-    { "category": "Q4'2024", "besøkende": 3200, "påJobb": 880, "hjemme": 2250 },
-    { "category": "Q1'2025", "besøkende": 3100, "påJobb": 860, "hjemme": 2200 },
-    { "category": "Q2'2025", "besøkende": 3400, "påJobb": 910, "hjemme": 2280 },
-    { "category": "Q3'2025", "besøkende": 3495, "påJobb": 925, "hjemme": 2310 }
+    { "kategori": "Q1'2023", "besøkende": 3807, "påJobb": 1087, "hjemme": 2604 },
+    { "kategori": "Q2'2023", "besøkende": 3650, "påJobb": 1020, "hjemme": 2450 },
+    { "kategori": "Q3'2023", "besøkende": 3520, "påJobb": 980, "hjemme": 2380 },
+    { "kategori": "Q4'2023", "besøkende": 3400, "påJobb": 950, "hjemme": 2320 },
+    { "kategori": "Q1'2024", "besøkende": 3257, "påJobb": 897, "hjemme": 2269 },
+    { "kategori": "Q2'2024", "besøkende": 3350, "påJobb": 920, "hjemme": 2300 },
+    { "kategori": "Q3'2024", "besøkende": 3480, "påJobb": 940, "hjemme": 2350 },
+    { "kategori": "Q4'2024", "besøkende": 3200, "påJobb": 880, "hjemme": 2250 },
+    { "kategori": "Q1'2025", "besøkende": 3100, "påJobb": 860, "hjemme": 2200 },
+    { "kategori": "Q2'2025", "besøkende": 3400, "påJobb": 910, "hjemme": 2280 },
+    { "kategori": "Q3'2025", "besøkende": 3495, "påJobb": 925, "hjemme": 2310 }
   ],
   "nøkkeltall": {
     "dagligBesøk": 3495,
