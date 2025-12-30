@@ -17,7 +17,7 @@ export function IncomeDistributionChart({ data }: IncomeDistributionChartProps) 
 
   // Combine data for comparison
   const chartData = yearData?.incomeBrackets.map((bracket, idx) => {
-    const dataPoint: any = {
+    const dataPoint: Record<string, string | number> = {
       bracket: formatBracket(bracket.bracket),
       [selectedYear]: Math.round(bracket.count),
     };

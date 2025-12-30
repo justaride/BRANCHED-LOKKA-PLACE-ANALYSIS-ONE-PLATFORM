@@ -396,6 +396,7 @@ export const MainBoardLoaders = {
  * Type helper to get the return type of any loader
  * Usage: type ArsrapportData = LoaderReturnType<typeof loadArsrapport2024>;
  */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type LoaderReturnType<T extends (...args: any[]) => any> = Awaited<ReturnType<T>>;
 
 // ============================================================================

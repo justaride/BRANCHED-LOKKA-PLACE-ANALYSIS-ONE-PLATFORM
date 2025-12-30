@@ -131,18 +131,17 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
       }));
   }, [tidsromData]);
 
-  // Map English weekday names to Norwegian
-  const weekdayMap: Record<string, string> = {
-    'Monday': 'man.',
-    'Tuesday': 'tir.',
-    'Wednesday': 'ons.',
-    'Thursday': 'tor.',
-    'Friday': 'fre.',
-    'Saturday': 'lør.',
-    'Sunday': 'søn.',
-  };
-
   const norwegianUkedagData = useMemo(() => {
+    // Map English weekday names to Norwegian
+    const weekdayMap: Record<string, string> = {
+      'Monday': 'man.',
+      'Tuesday': 'tir.',
+      'Wednesday': 'ons.',
+      'Thursday': 'tor.',
+      'Friday': 'fre.',
+      'Saturday': 'lør.',
+      'Sunday': 'søn.',
+    };
     return ukedagData.map(d => ({
       ukedag: weekdayMap[d.DateTime] || d.DateTime,
       prosent: d['2024'],
@@ -158,13 +157,19 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
 
   const safeValueFormatter = createSafeFormatter((v) => v.toFixed(2), 'N/A');
 
-  const CustomTooltip = ({ active, payload, label }: any) => {
+  interface TooltipPayload {
+    name: string;
+    value: number;
+    color: string;
+  }
+
+  const CustomTooltip = ({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string | number }) => {
     if (!active || !payload || !payload.length) return null;
 
     return (
       <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
         <p className="mb-1 text-xs font-medium text-gray-500">{label ?? 'Ukjent'}</p>
-        {payload.map((entry: any, index: number) => (
+        {payload.map((entry, index) => (
           <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
             {entry.name}: {safeValueFormatter(entry.value)}%
           </p>
@@ -316,7 +321,7 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
                     }}
                   />
                   <Tooltip
-                    formatter={(value: any) => `NOK ${value.toFixed(2)} M`}
+                    formatter={(value: number) => `NOK ${value.toFixed(2)} M`}
                     labelStyle={{ fontSize: '11px' }}
                   />
                   <Legend />
@@ -377,7 +382,7 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
                     }}
                   />
                   <Tooltip
-                    formatter={(value: any) => `${value.toFixed(2)}%`}
+                    formatter={(value: number) => `${value.toFixed(2)}%`}
                     labelStyle={{ fontSize: '11px' }}
                   />
                   <Bar dataKey="prosent" fill="#3b82f6" name="Andel av ukentlig omsetning" />

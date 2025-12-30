@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import {
   ResponsiveContainer,
-  LineChart, Line,
   BarChart, Bar,
   AreaChart, Area,
   XAxis, YAxis,

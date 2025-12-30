@@ -74,7 +74,7 @@ export default function NedreLokkaOmradeprofilPage() {
         </div>
 
         {/* Overview Component */}
-        <NedreLokkaOverview basePath="/data/main-board/nedre-lokka-omradeprofil" />
+        <NedreLokkaOverview />
 
         {/* Movement Patterns Section */}
         <div className="mt-12">

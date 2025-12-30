@@ -5,11 +5,7 @@
  * Displays key metrics from aggregated 6 micro-areas data
  */
 
-interface Props {
-  basePath: string;
-}
-
-export default function NedreLokkaOverview({ basePath }: Props) {
+export default function NedreLokkaOverview() {
   return (
     <div className="space-y-8">
       {/* Hero Stats */}

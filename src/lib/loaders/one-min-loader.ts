@@ -23,11 +23,12 @@ import type {
   AktorerData
 } from '@/types/one-min-analysis';
 
-// Helper to safely import optional JSON files
-async function safeImport<T>(importFn: () => Promise<{ default: T }>): Promise<T | null> {
+// Helper to safely import optional JSON files (currently unused but kept for future dynamic imports)
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+async function _safeImport<T>(importFn: () => Promise<{ default: T }>): Promise<T | null> {
   try {
-    const module = await importFn();
-    return module.default;
+    const mod = await importFn();
+    return mod.default;
   } catch {
     return null;
   }

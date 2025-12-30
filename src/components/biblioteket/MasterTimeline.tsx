@@ -4,14 +4,13 @@ import { MasterTimelineEvent } from '@/lib/loaders/biblioteket-loader';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState, useRef } from 'react';
-import { motion, AnimatePresence, useScroll, useTransform, useSpring } from 'framer-motion';
+import { motion, AnimatePresence, useScroll, useSpring } from 'framer-motion';
 import { HistorieIcon, KulturIcon, LitteraturIcon, IldsjelIcon } from './CategoryIcons';
 import {
   springs,
   fadeLeftVariants,
   fadeRightVariants,
   expandCollapseVariants,
-  scaleFromZeroVariants,
   containerVariants,
 } from '@/lib/animations';
 
@@ -222,16 +221,13 @@ function DecadeMarker({ decade, index }: { decade: number; index: number }) {
  */
 function TimelineCard({
   event,
-  isLeft,
   isExpanded,
   onToggleExpand,
 }: {
   event: MasterTimelineEvent;
-  isLeft: boolean;
   isExpanded: boolean;
   onToggleExpand: () => void;
 }) {
-  const colors = categoryColors[event.category as CategoryKey];
 
   return (
     <motion.div
@@ -535,7 +531,6 @@ export default function MasterTimeline({ events }: MasterTimelineProps) {
                           >
                             <TimelineCard
                               event={event}
-                              isLeft={isLeft}
                               isExpanded={isExpanded}
                               onToggleExpand={() => toggleExpand(event.id)}
                             />

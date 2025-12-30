@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Convert all CSV data to new 1-minute analysis JSON structure
  *

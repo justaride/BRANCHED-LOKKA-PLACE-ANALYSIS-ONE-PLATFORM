@@ -278,7 +278,7 @@ export default function LitteraturPage() {
 
                     {/* Works by Decade */}
                     <div className="lg:col-span-3 space-y-12">
-                        {Array.from(decades.entries()).map(([decade, decadeWorks], decadeIndex) => (
+                        {Array.from(decades.entries()).map(([decade, decadeWorks]) => (
                             <motion.section
                                 key={decade}
                                 initial="hidden"

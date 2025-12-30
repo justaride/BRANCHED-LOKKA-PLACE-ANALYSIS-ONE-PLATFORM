@@ -142,7 +142,8 @@ export function derivePropertyAddress(id: string): string {
 /**
  * Ensure all required Eiendom fields have values
  */
-export function ensureEiendomDefaults(data: Record<string, unknown> | Eiendom, tenant: string): Eiendom {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export function ensureEiendomDefaults(data: Record<string, unknown> | Eiendom, _tenant: string): Eiendom {
   const partial = data as Partial<Eiendom>;
   const id = String(partial.id ?? 'unknown');
 

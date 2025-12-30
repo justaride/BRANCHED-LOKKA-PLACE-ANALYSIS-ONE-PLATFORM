@@ -13,6 +13,12 @@ import { MainBoardLoaders } from '@/lib/loaders/main-board';
 import Link from 'next/link';
 import Image from 'next/image';
 
+interface AreaInfo {
+  id: string;
+  name: string;
+  color: string;
+}
+
 export const metadata = {
   title: 'Områdesammenligning 2024',
   description: 'Sammenligning av Grünerløkka, Bjørvika, Sentrum og Majorstuen',
@@ -27,6 +33,7 @@ export default async function Sammenligning2024Page() {
 
   // Load actor data using multi-tenant loaders
   let combinedData = null;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let areaData: Record<string, any> = {};
 
   try {
@@ -145,7 +152,7 @@ export default async function Sammenligning2024Page() {
             </div>
 
             <div className="grid grid-cols-2 gap-4 md:gap-6 lg:grid-cols-4">
-              {analysis.area.areas.map((area: any) => (
+              {analysis.area.areas.map((area: AreaInfo) => (
                 <div
                   key={area.id}
                   className="group relative overflow-hidden rounded-xl border border-gray-200/50 bg-white p-4 shadow-sm transition-all duration-300 hover:shadow-md md:rounded-2xl md:p-6 md:hover:-translate-y-1"

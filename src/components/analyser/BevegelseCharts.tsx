@@ -110,7 +110,7 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
 
   // Flatten bevegelsesmonster data for line chart with null-safe handling
   const bevegelseLineData = useMemo(() => {
-    const flattened: any[] = [];
+    const flattened: { quarter: string; Besøkende: number; 'På jobb': number; Hjemme: number }[] = [];
     bevegelsesmonsterData.forEach(q => {
       ['2023', '2024', '2025'].forEach(year => {
         const besokende = q[`Thorvald Meyers gate 40B (Område 1.14 km²), Besøkende, ${year}` as keyof Bevegelsesmonster];
@@ -150,13 +150,19 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
     return value.toLocaleString('nb-NO');
   };
 
-  const CustomTooltip = ({ active, payload, label }: any) => {
+  interface TooltipPayload {
+    name: string;
+    value: number;
+    color: string;
+  }
+
+  const CustomTooltip = ({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string }) => {
     if (!active || !payload || !payload.length) return null;
 
     return (
       <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
         <p className="mb-1 text-xs font-medium text-gray-500">{label ?? 'Ukjent'}</p>
-        {payload.map((entry: any, index: number) => (
+        {payload.map((entry, index) => (
           <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
             {entry.name}: {formatNumber(entry.value)}
           </p>
@@ -398,7 +404,7 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
                     width={110}
                   />
                   <Tooltip
-                    formatter={(value: any) => formatNumber(value)}
+                    formatter={(value: number) => formatNumber(value)}
                     labelStyle={{ fontSize: '11px' }}
                     content={({ active, payload }) => {
                       if (!active || !payload || !payload.length) return null;

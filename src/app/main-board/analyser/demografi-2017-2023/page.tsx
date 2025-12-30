@@ -11,6 +11,7 @@ import { HouseholdCompositionChart } from '@/components/demografi/HouseholdCompo
 import { DemografiData } from '@/types/demografi';
 import { loadAnalysis } from '@/lib/loaders/place-loader';
 import { MainBoardLoaders } from '@/lib/loaders/main-board';
+import type { Highlight } from '@/types/place-analysis';
 
 export const metadata: Metadata = {
   title: 'Demografi 2017-2023 | Natural State',
@@ -130,7 +131,7 @@ export default async function DemografiPage() {
           </div>
 
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
-            {analysis.highlights?.map((highlight: any, index: number) => (
+            {analysis.highlights?.map((highlight: Highlight, index: number) => (
               <div
                 key={index}
                 className="rounded-xl border border-gray-200/50 bg-white p-6 shadow-sm"

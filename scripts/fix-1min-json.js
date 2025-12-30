@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Fix 1-minute analysis JSON files for roger-vodal properties
  * - Add opprinnelseOmråder to bevegelse.json

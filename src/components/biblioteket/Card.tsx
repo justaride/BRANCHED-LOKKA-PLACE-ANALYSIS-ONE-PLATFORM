@@ -4,7 +4,7 @@ import { motion, HTMLMotionProps, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
-import { springs, viewport, fadeUpVariants, cardHoverVariants, expandCollapseVariants } from '@/lib/animations';
+import { springs, viewport, fadeUpVariants, expandCollapseVariants } from '@/lib/animations';
 import { colors } from '@/lib/design-tokens';
 import { useState } from 'react';
 
@@ -50,7 +50,9 @@ const getCategoryColorValue = (color: CategoryColor): string => {
   return colorMap[color];
 };
 
-const getCategoryGradient = (color: CategoryColor): string => {
+// Kept for future gradient styling
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const _getCategoryGradient = (color: CategoryColor): string => {
   const gradientMap: Record<CategoryColor, string> = {
     forest: 'from-natural-forest to-natural-sage',
     sage: 'from-natural-sage to-natural-forest',
@@ -320,14 +322,6 @@ export function BibliotekCardBadge({
   icon?: React.ReactNode;
   className?: string;
 }) {
-  const getColorStyle = () => {
-    if (color === 'neutral') {
-      return 'bg-gray-100 text-gray-700';
-    }
-    const bgOpacity = color === 'sage' ? '/20' : '/10';
-    return `text-white`;
-  };
-
   const bgColor = color !== 'neutral' ? getCategoryColorValue(color as CategoryColor) : undefined;
 
   return (
@@ -368,7 +362,6 @@ export function BibliotekCardMeta({
 export function BibliotekCardTags({
   tags,
   maxVisible = 3,
-  color = 'neutral',
   className,
 }: {
   tags: string[];

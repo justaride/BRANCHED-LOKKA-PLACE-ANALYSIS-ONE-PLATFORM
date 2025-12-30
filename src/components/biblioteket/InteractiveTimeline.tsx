@@ -68,7 +68,7 @@ export default function InteractiveTimeline({ events }: InteractiveTimelineProps
                 {/* Enhanced Timeline Line with Gradient */}
                 <div className="absolute left-0 right-0 top-[60px] h-1.5 bg-gradient-to-r from-amber-300 via-slate-300 via-red-300 to-emerald-300 rounded-full shadow-sm" />
 
-                {sortedEvents.map((event, index) => {
+                {sortedEvents.map((event) => {
                     const era = eras.find(e => event.start_year >= e.start && event.start_year < e.end);
 
                     return (

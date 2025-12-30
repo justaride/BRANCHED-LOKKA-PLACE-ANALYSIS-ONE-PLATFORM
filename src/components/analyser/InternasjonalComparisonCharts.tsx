@@ -70,13 +70,19 @@ export default function InternasjonalComparisonCharts({
     return `${num.toFixed(1)}%`;
   };
 
-  const CustomTooltip = ({ active, payload, label }: any) => {
+  interface TooltipPayload {
+    name: string;
+    value: number | null;
+    color: string;
+  }
+
+  const CustomTooltip = ({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string }) => {
     if (!active || !payload || !payload.length) return null;
 
     return (
       <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
         <p className="mb-1 text-xs font-medium text-gray-500">{label}</p>
-        {payload.map((entry: any, index: number) => (
+        {payload.map((entry, index) => (
           <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
             {entry.name}: {formatPercentage(entry.value)}
           </p>

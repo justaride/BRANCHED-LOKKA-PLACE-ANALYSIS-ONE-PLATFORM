@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Convert korthandel CSV to JSON format for 1-minute analysis
  * This splits total transaction amounts into mat_opplevelser, handel, tjenester

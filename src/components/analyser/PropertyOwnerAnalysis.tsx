@@ -36,7 +36,7 @@ interface QuarterData {
 
 interface PropertyOwnerAnalysisProps {
   quarterlyData: {
-    metadata: any;
+    metadata: Record<string, unknown>;
     data: QuarterData[];
   };
   dailyData?: {

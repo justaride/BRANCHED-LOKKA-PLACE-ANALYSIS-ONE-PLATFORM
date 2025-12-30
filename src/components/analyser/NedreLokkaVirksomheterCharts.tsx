@@ -7,7 +7,7 @@ import {
   PieChart, Pie,
   XAxis, YAxis,
   CartesianGrid,
-  Tooltip, Legend,
+  Tooltip,
   Cell
 } from 'recharts';
 
@@ -170,7 +170,7 @@ export default function NedreLokkaVirksomheterCharts({ basePath }: Props) {
                 cx="50%"
                 cy="50%"
                 outerRadius={130}
-                label={(props: any) => `${props.andel}%`}
+                label={({ percent }: { percent?: number }) => `${((percent ?? 0) * 100).toFixed(0)}%`}
                 labelLine={{ stroke: '#6b7280', strokeWidth: 1 }}
               >
                 {pieData.map((entry, index) => (

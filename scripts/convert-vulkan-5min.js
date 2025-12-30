@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports, @typescript-eslint/no-unused-vars */
 /**
  * Convert Vulkan Området CSV data to 5-minute analysis JSON
  */

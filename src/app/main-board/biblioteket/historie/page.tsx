@@ -331,7 +331,7 @@ export default function HistoriePage() {
 
                     {/* Timeline by Section */}
                     <div className="lg:col-span-3 space-y-16">
-                        {sections.map((section, sectionIndex) => {
+                        {sections.map((section) => {
                             const sectionEvents = eventsBySection.get(section) || [];
                             if (sectionEvents.length === 0) return null;
 

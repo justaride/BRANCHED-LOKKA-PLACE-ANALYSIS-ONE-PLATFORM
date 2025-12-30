@@ -97,13 +97,19 @@ export default function KonkurransebildeCharts({
 
   const safeValueFormatter = createSafeFormatter((v) => v.toFixed(1), 'N/A');
 
-  const CustomTooltip = ({ active, payload, label }: any) => {
+  interface TooltipPayload {
+    name: string;
+    value: number;
+    color: string;
+  }
+
+  const CustomTooltip = ({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string | number }) => {
     if (!active || !payload || !payload.length) return null;
 
     return (
       <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
         <p className="mb-1 text-xs font-medium text-gray-500">{label ?? 'Ukjent'}</p>
-        {payload.map((entry: any, index: number) => (
+        {payload.map((entry, index) => (
           <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
             {entry.name}: {safeValueFormatter(entry.value)}%
           </p>
@@ -151,7 +157,7 @@ export default function KonkurransebildeCharts({
   }, {} as Record<string, Konseptmiks[]>);
 
   const konseptChartData = Object.entries(konseptGrouped).map(([category, items]) => {
-    const dataPoint: any = { category };
+    const dataPoint: Record<string, string | number> = { category };
     items.forEach(item => {
       dataPoint[item['Kategori (Nivå 2)']] = item['No.'];
     });
@@ -321,11 +327,11 @@ export default function KonkurransebildeCharts({
                       width={140}
                     />
                     <Tooltip
-                      formatter={(value: any) => `${value.toFixed(1)}%`}
+                      formatter={(value: number) => `${value.toFixed(1)}%`}
                       labelStyle={{ fontSize: '11px' }}
                     />
                     <Bar dataKey="value" name="Over-/underandel">
-                      {overUnderChartData.map((entry: any, index: number) => (
+                      {overUnderChartData.map((entry, index) => (
                         <Cell key={`cell-${index}`} fill={entry.value >= 0 ? '#2d5016' : '#dc2626'} />
                       ))}
                     </Bar>
@@ -363,7 +369,7 @@ export default function KonkurransebildeCharts({
                     }}
                   />
                   <Tooltip
-                    formatter={(value: any) => value.toLocaleString('nb-NO')}
+                    formatter={(value: number) => value.toLocaleString('nb-NO')}
                     labelStyle={{ fontSize: '11px' }}
                   />
                   <Legend />

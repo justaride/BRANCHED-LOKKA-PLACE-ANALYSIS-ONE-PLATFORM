@@ -21,8 +21,18 @@ interface QuarterlyDataPoint {
   amount: number;
 }
 
+interface QuarterlyMetadata {
+  title: string;
+  period: string;
+  area: string;
+  currency: string;
+  dataSource: string;
+  lastUpdated: string;
+  notes?: string[];
+}
+
 interface QuarterlyData {
-  metadata: any;
+  metadata: QuarterlyMetadata;
   data: QuarterlyDataPoint[];
 }
 
@@ -46,7 +56,15 @@ export default function QuarterlyInsights({ quarterlyData }: QuarterlyInsightsPr
     });
 
     // 2. Yearly totals and trends
-    const yearlyTotals: any[] = [];
+    interface YearlyTotal {
+      year: number;
+      total: number;
+      quarterCount: number;
+      complete: boolean;
+      avgPerQuarter: number;
+      yoyGrowth?: number | null;
+    }
+    const yearlyTotals: YearlyTotal[] = [];
     const years = [...new Set(validData.map((d) => d.year))].sort();
 
     years.forEach((year) => {
@@ -170,10 +188,18 @@ export default function QuarterlyInsights({ quarterlyData }: QuarterlyInsightsPr
               📈 Sterkeste Vekst (År-over-År)
             </div>
             <div className="text-3xl font-bold text-green-700">
-              {formatPercent(Math.max(...insights.growthData.filter(g => g.yoyGrowth !== null).map(g => g.yoyGrowth)))}
+              {(() => {
+                const validGrowth = insights.growthData.filter((g): g is typeof g & { yoyGrowth: number } => g.yoyGrowth !== null);
+                return formatPercent(validGrowth.length > 0 ? Math.max(...validGrowth.map(g => g.yoyGrowth)) : 0);
+              })()}
             </div>
             <div className="mt-2 text-xs text-gray-600">
-              {insights.growthData.find(g => g.yoyGrowth === Math.max(...insights.growthData.filter(gf => gf.yoyGrowth !== null).map(gf => gf.yoyGrowth)))?.year} vs {insights.growthData.find(g => g.yoyGrowth === Math.max(...insights.growthData.filter(gf => gf.yoyGrowth !== null).map(gf => gf.yoyGrowth)))?.year - 1}
+              {(() => {
+                const validGrowth = insights.growthData.filter((g): g is typeof g & { yoyGrowth: number } => g.yoyGrowth !== null);
+                const maxGrowth = validGrowth.length > 0 ? Math.max(...validGrowth.map(g => g.yoyGrowth)) : 0;
+                const found = validGrowth.find(g => g.yoyGrowth === maxGrowth);
+                return found ? `${found.year} vs ${found.year - 1}` : 'N/A';
+              })()}
             </div>
           </CardContent>
         </Card>
@@ -247,7 +273,7 @@ export default function QuarterlyInsights({ quarterlyData }: QuarterlyInsightsPr
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="quarter" />
                 <YAxis tickFormatter={formatCurrency} />
-                <Tooltip formatter={(value: any) => formatCurrency(value)} />
+                <Tooltip formatter={(value: number) => formatCurrency(value)} />
                 <Bar dataKey="average" fill="#2D5F3F" name="Gjennomsnitt" />
               </BarChart>
             </ResponsiveContainer>
@@ -276,7 +302,7 @@ export default function QuarterlyInsights({ quarterlyData }: QuarterlyInsightsPr
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="year" />
                 <YAxis tickFormatter={formatCurrency} />
-                <Tooltip formatter={(value: any) => formatCurrency(value)} />
+                <Tooltip formatter={(value: number) => formatCurrency(value)} />
                 <Area type="monotone" dataKey="total" stroke="#2D5F3F" fillOpacity={1} fill="url(#colorTotal)" name="Total Omsetning" />
               </AreaChart>
             </ResponsiveContainer>

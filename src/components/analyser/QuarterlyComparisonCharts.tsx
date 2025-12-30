@@ -73,7 +73,7 @@ export default function QuarterlyComparisonCharts({
     const quarters = [1, 2, 3, 4];
     return quarters.map((q) => {
       const quarterData = validData.filter((d) => d.quarter === q);
-      const result: any = {
+      const result: Record<string, string | number> = {
         quarter: `Q${q}`,
       };
 
@@ -163,7 +163,7 @@ export default function QuarterlyComparisonCharts({
                 tick={{ fontSize: 12 }}
               />
               <Tooltip
-                formatter={(value: any) => formatCurrency(value)}
+                formatter={(value: number) => formatCurrency(value)}
                 contentStyle={{
                   backgroundColor: 'rgba(255, 255, 255, 0.95)',
                   borderRadius: '8px',
@@ -204,7 +204,7 @@ export default function QuarterlyComparisonCharts({
                 tick={{ fontSize: 12 }}
               />
               <Tooltip
-                formatter={(value: any) => formatCurrency(value)}
+                formatter={(value: number) => formatCurrency(value)}
                 contentStyle={{
                   backgroundColor: 'rgba(255, 255, 255, 0.95)',
                   borderRadius: '8px',

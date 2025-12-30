@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, HTMLMotionProps } from 'framer-motion';
-import { fadeUpVariants, cardHoverVariants, springs, viewport } from '@/lib/animations';
+import { fadeUpVariants, springs, viewport } from '@/lib/animations';
 import { cn } from '@/lib/utils';
 
 interface MotionCardProps extends Omit<HTMLMotionProps<'div'>, 'variants'> {

@@ -228,7 +228,7 @@ npm run build
 ```bash
 npm run verify      # Silent failure detection (257 JSON files)
 npm run type-check  # TypeScript validation
-npm run lint        # ESLint (64 issues acceptable)
+npm run lint        # ESLint (0 issues)
 npm run test        # Jest unit tests
 ```
 
@@ -273,7 +273,7 @@ docs/
 | Tenants | 10 |
 | Biblioteket Categories | 5 (ildsjeler, litteratur, historie, kultur, idrett) |
 | Kultur Subsections | 5 (jazz, hiphop, film, teater, billedkunst) |
-| ESLint Issues | 64 (acceptable) |
+| ESLint Issues | 0 ✅ |
 | Test Coverage | 70% threshold |
 | Build Time | ~30s |
 
@@ -297,7 +297,7 @@ git push                 # Deploy (auto via Vercel)
 
 # Debugging
 npm run type-check       # TypeScript errors
-npm run lint             # ESLint issues
+npm run lint             # ESLint (clean)
 ```
 
 ---

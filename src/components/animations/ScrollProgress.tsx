@@ -195,7 +195,9 @@ export function CircularProgress({
     [circumference, 0]
   );
 
-  const percentage = useTransform(scrollYProgress, [0, 1], [0, 100]);
+  // Percentage value available for future text display
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const _percentage = useTransform(scrollYProgress, [0, 1], [0, 100]);
 
   return (
     <div

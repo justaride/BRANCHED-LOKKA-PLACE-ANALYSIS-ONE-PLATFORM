@@ -40,7 +40,7 @@ export default function FadeIn({
 
   return (
     <div
-      ref={ref as any}
+      ref={ref as React.RefObject<HTMLDivElement>}
       className={className}
       style={{
         opacity: isVisible ? 1 : 0,

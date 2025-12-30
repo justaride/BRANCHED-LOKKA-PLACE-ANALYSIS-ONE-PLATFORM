@@ -33,7 +33,7 @@ export function HouseholdCompositionChart({ data }: HouseholdCompositionChartPro
 
   // Data for trend chart (all years)
   const trendData = data.map(yearItem => {
-    const dataPoint: any = { year: yearItem.year };
+    const dataPoint: Record<string, string | number> = { year: yearItem.year };
     yearItem.households.forEach(h => {
       dataPoint[HOUSEHOLD_LABELS[h.type] || h.type] = h.count;
     });

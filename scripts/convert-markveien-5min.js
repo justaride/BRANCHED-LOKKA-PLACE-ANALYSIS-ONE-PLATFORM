@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Convert Markveien 38, 42, 58 CSV data to 5-minute analysis JSON
  */

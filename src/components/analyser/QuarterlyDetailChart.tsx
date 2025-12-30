@@ -146,7 +146,7 @@ export default function QuarterlyDetailChart({
               tick={{ fontSize: 12 }}
             />
             <Tooltip
-              formatter={(value: any) => formatCurrency(value)}
+              formatter={(value: number) => formatCurrency(value)}
               contentStyle={{
                 backgroundColor: 'rgba(255, 255, 255, 0.95)',
                 borderRadius: '8px',

@@ -59,9 +59,10 @@ export function AgePyramidChart({ data }: AgePyramidChartProps) {
             style={{ fontSize: '12px' }}
           />
           <Tooltip
-            formatter={(_value: number, name: string, props: any) => {
-              const absValue = name === 'male' ? props.payload.maleAbs : props.payload.femaleAbs;
-              return [absValue.toLocaleString('nb-NO'), name === 'male' ? 'Mann' : 'Kvinne'];
+            formatter={(_value: number, name: string, props) => {
+              const payload = props?.payload as { maleAbs: number; femaleAbs: number } | undefined;
+              const absValue = name === 'male' ? payload?.maleAbs : payload?.femaleAbs;
+              return [absValue?.toLocaleString('nb-NO') ?? '0', name === 'male' ? 'Mann' : 'Kvinne'];
             }}
             contentStyle={{
               backgroundColor: 'white',

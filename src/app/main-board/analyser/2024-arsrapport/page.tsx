@@ -17,6 +17,7 @@ import {
 } from '@/lib/synthetic-data-generator';
 import Link from 'next/link';
 import Image from 'next/image';
+import type { EventReference, MediaReference } from '@/types/place-analysis';
 
 export const metadata = {
   title: 'Grünerløkka 2024 - Årsrapport',
@@ -250,7 +251,7 @@ export default async function Analyse2024Page() {
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3">
-              {analysis.events.map((event: any) => (
+              {analysis.events.map((event: EventReference) => (
                 <div
                   key={event.id}
                   className="group relative overflow-hidden rounded-xl border border-gray-200/50 bg-white p-4 shadow-sm transition-all duration-300 hover:shadow-md md:rounded-2xl md:p-6 md:hover:-translate-y-1"
@@ -395,7 +396,7 @@ export default async function Analyse2024Page() {
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3">
-              {analysis.media.map((article: any) => (
+              {analysis.media.map((article: MediaReference) => (
                 <div
                   key={article.id}
                   className="group relative overflow-hidden rounded-xl border border-gray-200/50 bg-white p-4 shadow-sm transition-all duration-300 hover:shadow-md md:rounded-2xl md:p-6 md:hover:-translate-y-1"

@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import Image, { ImageProps } from 'next/image';
 import { cn } from '@/lib/utils';
-import { imageHoverVariants, imageRevealVariants, springs, viewport } from '@/lib/animations';
+import { imageRevealVariants, viewport } from '@/lib/animations';
 
 interface AnimatedImageProps extends Omit<ImageProps, 'ref'> {
   /** Enable zoom on hover */

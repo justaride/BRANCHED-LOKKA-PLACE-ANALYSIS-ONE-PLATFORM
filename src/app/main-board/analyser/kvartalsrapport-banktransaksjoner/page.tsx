@@ -10,6 +10,15 @@ import { MainBoardLoaders } from '@/lib/loaders/main-board';
 import Link from 'next/link';
 import Image from 'next/image';
 
+interface DailyDataPoint {
+  date: string;
+  handel: number;
+  matOgOpplevelser: number;
+  tjenester: number;
+  total: number;
+  formattedDate: string;
+}
+
 export const metadata = {
   title: 'Kvartalsrapport - Banktransaksjoner 2019-2025',
   description: 'Sammenligning av banktransaksjoner per kvartal på Grünerløkka',
@@ -174,7 +183,7 @@ export default async function KvartalsrapportPage() {
 
             {Object.entries(dailyData.quarters)
               .sort(([a], [b]) => a.localeCompare(b))
-              .map(([quarterKey, dailyTransactions]: [string, any]) => {
+              .map(([quarterKey, dailyTransactions]: [string, DailyDataPoint[]]) => {
                 const [q, year] = quarterKey.split('_');
                 const quarter = parseInt(q?.replace('Q', '') || '0');
                 const quarterYear = parseInt(year || '0');
