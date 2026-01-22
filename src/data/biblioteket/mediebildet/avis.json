@@ -1,0 +1,172 @@
+{
+  "id": "avis",
+  "title": "Avisartikler",
+  "description": "Artikler fra norske aviser om Grünerløkka (2000-2025)",
+  "items": [
+    {
+      "id": "aftenposten-2001-byfornyelse",
+      "title": "En av tre måtte flytte fra byfornyelsen",
+      "source": "Aftenposten",
+      "author": "Ingrid Oppebøen",
+      "date": "2001-12-01",
+      "url": "",
+      "summary": "Dokumenterer hvordan byfornyelsen på Grünerløkka førte til at beboere med svak økonomi ble presset ut.",
+      "themes": ["gentrifisering", "byfornyelse", "boligpolitikk"],
+      "significance": "høy"
+    },
+    {
+      "id": "aftenposten-2005-lokka-kul",
+      "title": "Løkka som ble kul",
+      "source": "Aftenposten",
+      "author": "Liss Hegge",
+      "date": "2005-12-02",
+      "url": "https://www.aftenposten.no/norge/i/dnKnw/loekka-som-ble-kul",
+      "summary": "Reportasje om Grünerløkkas transformasjon fra slitt arbeiderstrøk til trendbydel på 1980–2000-tallet.",
+      "themes": ["gentrifisering", "byutvikling", "oppvekst"],
+      "significance": "høy"
+    },
+    {
+      "id": "dagsavisen-2023-reddet",
+      "title": "Slik ble Grünerløkka reddet fra rasering",
+      "source": "Dagsavisen",
+      "author": "Bjørg Ofstad",
+      "date": "2023",
+      "url": "",
+      "summary": "Debattinnlegg som diskuterer bevaring vs. utbygging og korrigerer historien om motorvei- og saneringsplanene.",
+      "themes": ["byhistorie", "bevaring", "sanering"],
+      "significance": "medium"
+    },
+    {
+      "id": "dagsavisen-2025-rike-flytter",
+      "title": "Når de rike flytter inn, må de fattige ut. Eller?",
+      "source": "Dagsavisen",
+      "author": "Iselin Hewitt, Ingar Brattbakk, Roberta Cucca",
+      "date": "2025",
+      "url": "",
+      "summary": "Kronikk som problematiserer fortrengning ved gentrifisering og foreslår sterkere sosial boligpolitikk.",
+      "themes": ["gentrifisering", "boligpolitikk", "fortrengning"],
+      "significance": "høy"
+    },
+    {
+      "id": "dagsavisen-2025-byen-delte",
+      "title": "Da byen delte seg",
+      "source": "Dagsavisen",
+      "author": "Liv Jorun Andenes",
+      "date": "2025",
+      "url": "https://www.dagsavisen.no/nyheter/da-byen-delte-seg/5113212",
+      "summary": "Intervju med historiker Knut Kjeldstadli om øst/vest-skillet i Oslo og Grünerløkkas historie.",
+      "themes": ["byhistorie", "øst-vest", "arbeiderklasse"],
+      "significance": "høy"
+    },
+    {
+      "id": "estate-2025-gentrifisering",
+      "title": "Frykten for gentrifisering",
+      "source": "Estate Nyheter",
+      "author": "Erling Fossen",
+      "date": "2025",
+      "url": "",
+      "summary": "Kommentar som argumenterer for at gentrifisering på norsk ofte har flere vinnere enn tapere.",
+      "themes": ["gentrifisering", "byutvikling", "næringsliv"],
+      "significance": "medium"
+    },
+    {
+      "id": "vartoslo-2023-gentrifisering",
+      "title": "Historien om Grünerløkkas gentrifisering",
+      "source": "VårtOslo",
+      "author": "VårtOslo",
+      "date": "2023",
+      "url": "",
+      "summary": "Feature om transformasjonen fra upretensiøst og brunt til en bydel som strutter av selvtillit.",
+      "themes": ["gentrifisering", "uteliv", "identitet"],
+      "significance": "medium"
+    },
+    {
+      "id": "aftenposten-2024-drap",
+      "title": "Kvinne drept på Grünerløkka",
+      "source": "Aftenposten",
+      "author": "Flere",
+      "date": "2024-04-01",
+      "url": "https://www.aftenposten.no/oslo/i/EQ0xxG/",
+      "summary": "Trine Wagelid funnet knivdrept i leilighet på Grünerløkka. Mann i 20-årene erkjente straffskyld.",
+      "themes": ["kriminalitet", "drap"],
+      "significance": "høy"
+    },
+    {
+      "id": "krogsveen-2024-boligpriser",
+      "title": "Grünerløkka når 100.000 kr per kvadratmeter",
+      "source": "Krogsveen/Finansavisen",
+      "author": "",
+      "date": "2024-10-02",
+      "url": "https://www.krogsveen.no/prisstatistikk/oslo-grunerlokka-quarterly",
+      "summary": "Kvadratmeterprisen på Grünerløkka når 100.999 kr (Q1) og stiger til 106.892 kr (høst 2024).",
+      "themes": ["boligpriser", "eiendom", "gentrifisering"],
+      "significance": "høy"
+    },
+    {
+      "id": "aftenposten-2024-tbane",
+      "title": "Her er byrådets plan: T-banestasjoner på Bislett og Grünerløkka",
+      "source": "Aftenposten",
+      "author": "",
+      "date": "2024",
+      "url": "https://www.aftenposten.no/oslo/i/A2nQbE/her-er-byraadets-plan-gaar-for-t-banestasjoner-paa-bislett-og-grunerloekka",
+      "summary": "Byrådets plan om T-banestasjoner på Bislett og Grünerløkka. Sentrumstunnel-prosjekt.",
+      "themes": ["infrastruktur", "kollektivtransport", "byutvikling"],
+      "significance": "høy"
+    },
+    {
+      "id": "dagbladet-2024-oversvommelse",
+      "title": "Massiv oversvømmelse på Grünerløkka",
+      "source": "Dagbladet",
+      "author": "",
+      "date": "2024-09-16",
+      "url": "https://www.dagbladet.no/nyheter/massiv-oversvommelse-pa-grnerlokka/81950432",
+      "summary": "Vannlekkasje ved Korsgata/Schous Bryggeri førte til oversvømmelse og brunt vann i springen.",
+      "themes": ["infrastruktur", "hendelse"],
+      "significance": "medium"
+    },
+    {
+      "id": "dagbladet-2024-vulkan-knivstikking",
+      "title": "Knivstikking ved Vulkan - to kritisk skadd",
+      "source": "Dagbladet",
+      "author": "",
+      "date": "2024-12-19",
+      "url": "",
+      "summary": "To personer kritisk skadd i knivstikking ved delikatessebutikk på Vulkan.",
+      "themes": ["kriminalitet", "vold"],
+      "significance": "høy"
+    },
+    {
+      "id": "vartoslo-2018-wardenaer",
+      "title": "En personlig fortelling om oppvekst på Grünerløkka",
+      "source": "VårtOslo",
+      "author": "Raymond Wardenær",
+      "date": "2018",
+      "url": "https://www.vartoslo.no/bydel-grnerlokka-raymond-wardenaer-volleyballforbundet/en-personlig-fortelling-med-egne-bilder-om-oppvekst-pa-grnerløkka-eller-gronnlokka/273047",
+      "summary": "Personlig fortelling med foto fra barndom i Karlstadgata på 1940–50-tallet.",
+      "themes": ["barndom", "oppvekst", "lokalhistorie"],
+      "significance": "medium"
+    },
+    {
+      "id": "vartoslo-xray-jubileum",
+      "title": "X-Ray 25-års jubileum",
+      "source": "VårtOslo",
+      "author": "",
+      "date": "2019",
+      "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008",
+      "summary": "Ungdomskulturhuset X-Ray feirer 25 år med støtte fra bydelen.",
+      "themes": ["ungdomskultur", "hiphop", "kulturliv"],
+      "significance": "medium"
+    },
+    {
+      "id": "underdusken-2013-kaveh",
+      "title": "Grünerløkka var ikke hipster-område da jeg vokste opp",
+      "source": "Under Dusken",
+      "author": "Kaveh Kholardi",
+      "date": "2013",
+      "url": "https://www.underdusken.no/kultur/grnerlokka-var-ikke-hipster-omrade-da-jeg-vokste-opp/124183",
+      "summary": "Rapperen Kaveh reflekterer over ungdomstiden på Grünerløkka rundt år 2000.",
+      "themes": ["ungdomskultur", "østkantidentitet", "gentrifisering"],
+      "significance": "medium"
+    }
+  ]
+}

@@ -1,12 +1,14 @@
 # Løkka Gardeierforening Platform - Project Status
 
-**Last Updated:** December 30, 2025 - Complete ESLint Cleanup
+**Last Updated:** January 22, 2026 - Mediebildet Category Added
 **Current Status:** 🚀 **PRODUCTION READY** (99% Complete)
 **Deployment:** ✅ Live on Vercel
 **URL:** https://lokka-gardeierforening-platform.vercel.app
-**Build Status:** ✅ 114 static pages, ESLint 0 issues (was 109)
+**Build Status:** ✅ 120 static pages, ESLint 0 issues
 **Test Status:** ✅ Jest configured with 70% coverage threshold
 **Latest Updates:**
+
+- **January 22, 2026: Mediebildet Category** - ✅ **COMPLETE** - New Biblioteket category documenting media coverage of Grünerløkka (2000-2025). 49 items across 5 subsections: Avisartikler (15), TV & Film (10), Podcaster (3), Digitalt (8), Akademisk (13). Full TypeScript types, loader functions, and 6 new pages.
 - **December 30: Complete ESLint Cleanup** - ✅ **COMPLETE** - Fixed all 109 lint issues (77 errors, 32 warnings → 0). Improved TypeScript types across chart components, fixed explicit `any` types, removed unused variables/imports, added eslint-disable comments for intentional exceptions (scripts, utility types).
 - **December 10: JSON Data Structure Audit** - ✅ **COMPLETE** - Full audit of all 11 properties with 1-min/5-min analysis data. Fixed 354 field naming issues across 27 JSON files. Added validation script integrated into `npm run verify`. TypeScript interfaces now match JSON data. See Gotcha #10 in CLAUDE.md.
 - **December 10: Carucel JSON Data Fixes** - Fixed multiple issues preventing charts from rendering: (1) Registered property in one-min-loader.ts STATIC_DATA, (2) Fixed JSON field names (category→kategori, value→antall, year→år), (3) Added missing nøkkeltall sections to korthandel.json.
@@ -43,21 +45,21 @@
 
 ## 📊 Quick Status Overview
 
-| Category | Status | Completion |
-|----------|--------|-----------|
-| Infrastructure | ✅ Complete | 100% |
-| Authentication | ✅ Complete | 100% |
-| Routing | ✅ Complete | 100% |
-| Visual Design | ✅ Complete | 100% |
-| Company Pages | ✅ Complete | 100% |
-| Main Board | ✅ Complete | 100% |
-| Interactive Visualizations | ✅ Complete | 100% |
-| Silent Failure Detection | ✅ Complete | 100% |
-| Unit Testing | ✅ Complete | 100% |
-| Content Migration | ✅ Complete | 95% |
-| **Property Profiles** | 🔄 In Progress | **58%** |
-| SEO & Performance | 📋 Planned | 45% |
-| **OVERALL** | **🚀 Production** | **99%** |
+| Category                   | Status            | Completion |
+| -------------------------- | ----------------- | ---------- |
+| Infrastructure             | ✅ Complete       | 100%       |
+| Authentication             | ✅ Complete       | 100%       |
+| Routing                    | ✅ Complete       | 100%       |
+| Visual Design              | ✅ Complete       | 100%       |
+| Company Pages              | ✅ Complete       | 100%       |
+| Main Board                 | ✅ Complete       | 100%       |
+| Interactive Visualizations | ✅ Complete       | 100%       |
+| Silent Failure Detection   | ✅ Complete       | 100%       |
+| Unit Testing               | ✅ Complete       | 100%       |
+| Content Migration          | ✅ Complete       | 95%        |
+| **Property Profiles**      | 🔄 In Progress    | **58%**    |
+| SEO & Performance          | 📋 Planned        | 45%        |
+| **OVERALL**                | **🚀 Production** | **99%**    |
 
 ---
 
@@ -71,27 +73,27 @@ Comprehensive audit of all 44 property "Utvidet Eiendomsprofil" pages revealed s
 
 ### Quality Distribution
 
-| Status | Count | % | Description |
-|--------|-------|---|-------------|
-| ✅ **COMPLETE** | 13 | 29% | Rich historikk (5000+ chars) with all sections |
-| 🟢 **GOOD** | 13 | 29% | Substantial content, minor gaps |
-| 🟡 **BASIC** | 5 | 11% | Minimal content, needs expansion |
-| 🔴 **STUB** | 8 | 18% | Placeholder only (<100 chars) |
-| ⚠️ **LEGACY** | 5 | 11% | Old data structure needs migration |
+| Status          | Count | %   | Description                                    |
+| --------------- | ----- | --- | ---------------------------------------------- |
+| ✅ **COMPLETE** | 13    | 29% | Rich historikk (5000+ chars) with all sections |
+| 🟢 **GOOD**     | 13    | 29% | Substantial content, minor gaps                |
+| 🟡 **BASIC**    | 5     | 11% | Minimal content, needs expansion               |
+| 🔴 **STUB**     | 8     | 18% | Placeholder only (<100 chars)                  |
+| ⚠️ **LEGACY**   | 5     | 11% | Old data structure needs migration             |
 
 ### Quality by Tenant
 
-| Tenant | Properties | Quality | Priority |
-|--------|------------|---------|----------|
-| aspelin-ramm | 6 | ✅ All GOOD/COMPLETE + Vulkan Området | Low |
-| spabo | 22 | 🟡 17 good, 5 need work | Medium |
-| maya-eiendom | 4 | ✅ All GOOD/COMPLETE | Low |
-| front-real-estate | 1 | ✅ GOOD | Low |
-| brodrene-evensen | 3 | 🟠 All BASIC | Medium |
-| carucel | 1 | 🟠 BASIC | Medium |
-| **roger-vodal** | 9 | ✅ 7 with 5-min analysis, 2 legacy | Low |
-| **sio** | 3 | 🔴 **All STUBS** | **HIGH** |
-| **eiendomsspar** | 2 | 🔴 **LEGACY structure** | **CRITICAL** |
+| Tenant            | Properties | Quality                               | Priority     |
+| ----------------- | ---------- | ------------------------------------- | ------------ |
+| aspelin-ramm      | 6          | ✅ All GOOD/COMPLETE + Vulkan Området | Low          |
+| spabo             | 22         | 🟡 17 good, 5 need work               | Medium       |
+| maya-eiendom      | 4          | ✅ All GOOD/COMPLETE                  | Low          |
+| front-real-estate | 1          | ✅ GOOD                               | Low          |
+| brodrene-evensen  | 3          | 🟠 All BASIC                          | Medium       |
+| carucel           | 1          | 🟠 BASIC                              | Medium       |
+| **roger-vodal**   | 9          | ✅ 7 with 5-min analysis, 2 legacy    | Low          |
+| **sio**           | 3          | 🔴 **All STUBS**                      | **HIGH**     |
+| **eiendomsspar**  | 2          | 🔴 **LEGACY structure**               | **CRITICAL** |
 
 ### Critical Issues
 
@@ -116,20 +118,24 @@ Comprehensive audit of all 44 property "Utvidet Eiendomsprofil" pages revealed s
 ### Action Plan
 
 #### Phase 1: Critical Fixes (Immediate) ✅ COMPLETE
+
 - [x] Migrate eiendomsspar properties to modern data structure
 - [x] Remove `template.json` from spabo (placeholder file in production)
 
 #### Phase 2: Content Development (High Priority) ✅ COMPLETE
+
 - [x] Research and write profiles for roger-vodal (3 properties)
 - [x] Research and write profiles for sio (3 properties)
 - [x] Complete eiendomsspar profiles after migration (2 properties)
 
 #### Phase 3: Enhancement (Medium Priority) ✅ COMPLETE
+
 - [x] Add byggeår/arkitekt data to brodrene-evensen (3 properties)
 - [x] Expand carucel profile with building details
 - [ ] Fix markveien-57 missing næringsaktører data (PENDING)
 
 #### Phase 4: Quality Assurance (Next Steps)
+
 - [ ] Research missing data - see `docs/RESEARCH_NEEDED.md`
 - [ ] Verify current leietaker information
 - [ ] Add vernestatus research for historic buildings
@@ -140,41 +146,51 @@ All property profiles should follow this Markdown structure in `tilleggsinfo.his
 
 ```markdown
 ## Om Eiendommen
+
 [Brief intro - building type, significance]
 
 ### Nøkkelinformasjon
+
 - Adresse, gnr/bnr, koordinater
 - Bygningstekniske spesifikasjoner (areal, etasjer, byggeår, arkitekt)
 - Energimerking, heis, fasiliteter
 
 ### Eierskap
+
 - Juridisk enhet + org.nr
 - Forvalter, eierstruktur
 
 ### Historikk og Utvikling
+
 [Timeline: year-by-year key events]
 
 ### Vernestatus og Regulering
+
 - Fredningsstatus, kulturminne-ID
 - Gjeldende planer, restriksjoner
 
 ### Beliggenhet og Kontekst
+
 - Strategisk posisjon, nærområde
 - Kollektiv, Walk Score
 
 ### Nåværende Bruk og Leietakere
+
 [Current tenants and businesses]
 
 ### I dag
+
 [Concluding summary]
 ```
 
 ### Reference Examples (Best Quality)
+
 - `spabo/thorvald-meyers-gate-25.json` - Hexeberggården (comprehensive fredning docs)
 - `spabo/sofienberggata-6.json` - Full ownership chain
 - `aspelin-ramm/bellonabygget.json` - Award documentation
 
 ### Session Documentation
+
 See: `docs/sessions/2025-12-09-PROPERTY-PROFILE-AUDIT.md`
 
 ---
@@ -182,6 +198,7 @@ See: `docs/sessions/2025-12-09-PROPERTY-PROFILE-AUDIT.md`
 ## ✅ COMPLETED
 
 ### 🛡️ Silent Failure Detection System (December 9, 2025)
+
 **Status:** ✅ **100% COMPLETE**
 
 Implemented comprehensive silent failure detection to prevent null/undefined values from causing runtime issues in charts and data displays.
@@ -214,15 +231,18 @@ Implemented comprehensive silent failure detection to prevent null/undefined val
    - 70% coverage threshold
 
 **Test Files Created:**
+
 - `src/lib/utils/__tests__/safe-data.test.ts` - 15 tests
 - `src/lib/utils/__tests__/property-defaults.test.ts` - 12 tests
 
 **Updated Components:**
+
 - ✅ `KorthandelCharts.tsx` - Added safeNumber for transaction data
 - ✅ `KonkurransebildeCharts.tsx` - Added safeNumber for competition data
 - ✅ `BevegelseCharts.tsx` - Added safeNumber for visitor data
 
 **Updated Loaders (7 total):**
+
 - ✅ `aspelin-ramm.ts`
 - ✅ `sio.ts`
 - ✅ `eiendomsspar.ts`
@@ -232,10 +252,12 @@ Implemented comprehensive silent failure detection to prevent null/undefined val
 - ✅ `roger-vodal.ts`
 
 **Build Integration:**
+
 - ✅ `prebuild` hook runs `verify` + `type-check` before every build
 - ✅ Automatic silent failure detection on every deployment
 
 **npm Scripts Added:**
+
 ```bash
 npm run verify       # Run silent failure detection
 npm run test         # Run Jest tests
@@ -246,12 +268,14 @@ npm run test:coverage # Run tests with coverage
 ---
 
 ### 📚 Løkka Biblioteket Digital Library (November 27-28, December 10, 2025)
+
 **Status:** ✅ **100% COMPLETE** + Design Overhaul + Research Integration
 
 Successfully implemented a comprehensive digital library showcasing Grünerløkka's history, culture, and local heroes.
 
 **December 10 - Research Integration (Latest):**
 Integrated 24 research files (~1.2MB) from extensive local history research:
+
 - ✅ **17 New Ildsjeler:** 7 historical (pre-1950) + 10 modern (2020-2025)
 - ✅ **4 New Categories:** arbeiderbevegelse, sosial-reform, integrering, miljo-og-byokologi
 - ✅ **Jazz Subsection:** ECM records, Oslo Jazzhus (1985-96), Blå, 7 artists, 5 timeline periods
@@ -259,10 +283,12 @@ Integrated 24 research files (~1.2MB) from extensive local history research:
 - ✅ **NEW Idrett Section:** Grüner IL history (1952-), Dælenenga, arbeideridretten, 15 timeline events, 10 pioneers
 
 **New Ildsjeler Added (17 total):**
+
 - Historical: Anne Pleym, Oscar Nissen, Johan Storjohann, Eugen Larsen, Christian Holtermann Knudsen, Carl Jeppesen, Martin Tranmæl
 - Modern 2020-2025: Geir Storli Jensen, Melita Ringvold, Cathrine Tumanjan Mortensen, Nina Røneid, James Finucane, Siri Mittet, Sverre Aksel Eilertsen, Ruben Normann Karlsen, Nasreen Begum, Mathea Rehn
 
 **Files Created:**
+
 - `src/data/biblioteket/kultur/jazz.json` - Jazz history with ECM, venues, festivals
 - `src/data/biblioteket/kultur/hiphop.json` - X-Ray, breakdance, graffiti, producers
 - `src/data/biblioteket/idrett/idrett.json` - Full sports history with timeline
@@ -272,6 +298,7 @@ Integrated 24 research files (~1.2MB) from extensive local history research:
 
 **December 10 - Frontend Design Overhaul:**
 Complete UI/UX redesign using the natural color palette for visual consistency:
+
 - ✅ Hero Section: Responsive padding, animated back links, book icon badges
 - ✅ Stats Section: Cards with icons, color-coded hover states (forest, sage, earth, sand)
 - ✅ Categories Grid: Item count badges, hover reveal effects, proper image sizes
@@ -282,6 +309,7 @@ Complete UI/UX redesign using the natural color palette for visual consistency:
 - ✅ Detail Pages: Sticky sidebar, smart link display, gradient summary blocks
 
 **Color Palette Applied:**
+
 - `natural-forest` (#2C5F2D) - Primary accents, links
 - `natural-sage` (#97BC62) - Secondary accents, hover states
 - `natural-sand` (#E8DCC4) - Backgrounds, category tags
@@ -289,6 +317,7 @@ Complete UI/UX redesign using the natural color palette for visual consistency:
 - `natural-stone` (#6B7280) - Neutral grays
 
 **Implementation Summary:**
+
 - **5 Content Categories:** Ildsjeler, Litteratur, Historie, Kultur, Idrett (NEW)
 - **80+ Items** across all categories (was 50+)
 - **31 Ildsjeler** (local heroes) with detailed profiles (was 14)
@@ -297,6 +326,7 @@ Complete UI/UX redesign using the natural color palette for visual consistency:
 - **Dynamic detail pages** for ildsjeler profiles
 
 **Pages Created:**
+
 1. ✅ `/main-board/biblioteket` - Main library landing page with 5 category grid
 2. ✅ `/main-board/biblioteket/ildsjeler` - Local heroes listing (31 total)
 3. ✅ `/main-board/biblioteket/ildsjeler/[id]` - Dynamic ildsjel detail pages
@@ -306,6 +336,7 @@ Complete UI/UX redesign using the natural color palette for visual consistency:
 7. ✅ `/main-board/biblioteket/idrett` - NEW: Sports history (Grüner IL, arbeideridretten)
 
 **Technical Achievements:**
+
 - ✅ Static imports for Vercel compatibility
 - ✅ TypeScript types for all biblioteket content (including Jazz, Hiphop, Idrett interfaces)
 - ✅ Comprehensive data loader (`biblioteket-loader.ts`) with 8+ loader functions
@@ -321,30 +352,34 @@ Complete UI/UX redesign using the natural color palette for visual consistency:
 ---
 
 ### 📊 Markveien & Vulkan 5-min Analysis (December 10, 2025)
+
 **Status:** ✅ **100% COMPLETE**
 
 Successfully added 4 new property analyses with full Plaace data.
 
 **New Properties:**
 
-| Eiendom | Tenant | Aktører | Daglige besøk | Daglig korthandel |
-|---------|--------|---------|---------------|-------------------|
-| Markveien 38 | Roger Vodal | 204 | 48 121 | 3 mill NOK |
-| Markveien 42 | Roger Vodal | 207 | 48 121 | 3 mill NOK |
-| Markveien 58 | Roger Vodal | 151 | 57 219 | 12 mill NOK |
-| Vulkan Området | Aspelin Ramm | 36 | 4 641 | 1,1 mill NOK |
+| Eiendom        | Tenant       | Aktører | Daglige besøk | Daglig korthandel |
+| -------------- | ------------ | ------- | ------------- | ----------------- |
+| Markveien 38   | Roger Vodal  | 204     | 48 121        | 3 mill NOK        |
+| Markveien 42   | Roger Vodal  | 207     | 48 121        | 3 mill NOK        |
+| Markveien 58   | Roger Vodal  | 151     | 57 219        | 12 mill NOK       |
+| Vulkan Området | Aspelin Ramm | 36      | 4 641         | 1,1 mill NOK      |
 
 **Vulkan Området Highlights:**
+
 - 80% Mat og opplevelser, 17% Handel, 3% Tjenester
 - Konsepttetthet: 1 318 per km² (Meget høy)
 - Europa Nostra-prisvinnende byutviklingsområde
 - Inkluderer Mathallen, Dansens Hus, Scandic Vulkan
 
 **Data Files Created:**
+
 - 28 JSON files (7 per property × 4 properties)
 - Conversion scripts: `convert-markveien-5min.js`, `convert-vulkan-5min.js`
 
 **URLs:**
+
 - `/roger-vodal/eiendommer/markveien-38`
 - `/roger-vodal/eiendommer/markveien-42`
 - `/roger-vodal/eiendommer/markveien-58`
@@ -353,11 +388,13 @@ Successfully added 4 new property analyses with full Plaace data.
 ---
 
 ### 📊 Roger-Vodal 5-Minute Analysis (December 10, 2025)
+
 **Status:** ✅ **100% COMPLETE**
 
 Successfully implemented comprehensive 6-section 5-minute analysis for all 7 Roger-Vodal properties.
 
 **Implementation Summary:**
+
 - **7 Properties:** Olaf Ryes Plass 3, Thorvald Meyersgate 33, 40, 44, Markveien 38, 42, 58
 - **6 Analysis Sections:** Demografi, Konkurransebildet, Korthandel, Bevegelse, Besøkende, Internasjonalt
 - **1 260 Business Actors** tracked across all 7 properties
@@ -376,6 +413,7 @@ Successfully implemented comprehensive 6-section 5-minute analysis for all 7 Rog
 | Mv58 | ✅ | ✅ 731 dager | 151 | ✅ 500 områder | ✅ 20 land |
 
 **Components Created/Updated:**
+
 1. ✅ `AnalysisSection.tsx` - Expandable section wrapper with numbered headers
 2. ✅ `ExpandableActorList.tsx` - Shows top 10 actors with "Vis alle" expand button
 3. ✅ `KorthandelChart.tsx` - Enhanced with 4 charts
@@ -383,10 +421,12 @@ Successfully implemented comprehensive 6-section 5-minute analysis for all 7 Rog
 5. ✅ `one-min-loader.ts` - Updated for 10 properties with 5-min analysis
 
 **Data Files Created:**
+
 - 49 JSON files total (7 per property × 7 properties)
 - Conversion scripts for batch processing
 
 **Technical Achievements:**
+
 - ✅ CSV→JSON conversion scripts
 - ✅ TypeScript types for all 6 sections + actors
 - ✅ Static imports for Vercel compatibility
@@ -394,6 +434,7 @@ Successfully implemented comprehensive 6-section 5-minute analysis for all 7 Rog
 - ✅ Norwegian locale formatting throughout
 
 **URLs:**
+
 - `/roger-vodal/eiendommer/olaf-ryes-plass-3`
 - `/roger-vodal/eiendommer/thorvald-meyersgate-33`
 - `/roger-vodal/eiendommer/thorvald-meyersgate-40`
@@ -405,17 +446,20 @@ Successfully implemented comprehensive 6-section 5-minute analysis for all 7 Rog
 ---
 
 ### 📊 Mathallen Oslo 1-Minute Analysis (November 27, 2025)
+
 **Status:** ✅ **100% COMPLETE**
 
 Successfully implemented interactive 1-minute analysis for Mathallen Oslo, Aspelin Ramm's 5th property.
 
 **Implementation Summary:**
+
 - **4 Interactive Chart Categories:** Bevegelse, Korthandel, Konkurransebilde, Aktorer
 - **12 Business Actors** tracked with full financial data
 - **97.6M NOK** total revenue from tracked businesses
 - **4 Categories:** Mat, Handel, Service, Underholdning
 
 **Components Created/Updated:**
+
 1. ✅ `OneMinAnalysisViewer.tsx` - Main viewer component with tab navigation
 2. ✅ `BevegelseChart.tsx` - Movement patterns visualization
 3. ✅ `KorthandelChart.tsx` - Card transaction data
@@ -423,12 +467,14 @@ Successfully implemented interactive 1-minute analysis for Mathallen Oslo, Aspel
 5. ✅ `AktorerTable.tsx` - Business actors table (shows all 12 actors)
 
 **Data Files Created:**
+
 - `/src/data/aspelin-ramm/mathallen/1min/bevegelse.json`
 - `/src/data/aspelin-ramm/mathallen/1min/korthandel.json`
 - `/src/data/aspelin-ramm/mathallen/1min/konkurransebilde.json`
 - `/src/data/aspelin-ramm/mathallen/1min/aktorer.json`
 
 **Technical Achievements:**
+
 - ✅ Static imports for Vercel compatibility
 - ✅ Conditional rendering (interactive charts OR legacy screenshots)
 - ✅ PropertyCard updated to show property names
@@ -436,6 +482,7 @@ Successfully implemented interactive 1-minute analysis for Mathallen Oslo, Aspel
 - ✅ Responsive design across all devices
 
 **Additional Updates:**
+
 - ✅ Front Real Estate rebranding (formerly Malling & Co)
 - ✅ Updated all micro-area images for TMG analyses
 
@@ -444,11 +491,13 @@ Successfully implemented interactive 1-minute analysis for Mathallen Oslo, Aspel
 ---
 
 ### 📊 2024 Årsrapport Interactive Charts (November 26, 2025)
+
 **Status:** ✅ **100% COMPLETE**
 
 Successfully replaced static screenshots with interactive, JSON-based visualizations in the 2024 Årsrapport.
 
 **Implementation Summary:**
+
 - **12 Interactive Charts** across 3 React components
 - **1,580 Data Points** processed from CSV to JSON
 - **238.5 KB** of structured JSON data
@@ -456,6 +505,7 @@ Successfully replaced static screenshots with interactive, JSON-based visualizat
 - **3 Chart Categories:** Konkurransebilde, Korthandel, Bevegelse
 
 **Components Created:**
+
 1. ✅ `KonkurransebildeCharts.tsx` (13 KB)
    - Kjeder vs. Uavhengige (Area chart)
    - Konseptmiks (Stacked bar chart)
@@ -475,6 +525,7 @@ Successfully replaced static screenshots with interactive, JSON-based visualizat
    - Områder besøkende kommer fra (Top 20 horizontal bar)
 
 **Data Updates:**
+
 - Daily traffic: 43,500 → 54,286 (+24.8%)
 - Annual visitors: 165,000 → 19,814,390 (calculated)
 - Revenue: 3.97B → 4.01B NOK (+1.0%)
@@ -482,6 +533,7 @@ Successfully replaced static screenshots with interactive, JSON-based visualizat
 - Added korthandel: 2,289.824M NOK
 
 **Technical Achievements:**
+
 - ✅ Recharts integration with Norwegian formatting
 - ✅ Tab-based navigation (12 tabs total)
 - ✅ Responsive design (mobile/tablet/desktop)
@@ -491,11 +543,13 @@ Successfully replaced static screenshots with interactive, JSON-based visualizat
 - ✅ Natural-forest color palette maintained
 
 **Files Modified:**
+
 - `/src/middleware.ts` - Added `/data` to public routes
 - `/src/app/main-board/analyser/2024-arsrapport/page.tsx` - Integrated components
 - `/src/data/main-board/analyser/2024-arsrapport.json` - Updated metadata
 
 **Documentation:**
+
 - `2024_ARSRAPPORT_IMPLEMENTATION_SUMMARY.md` (350+ lines)
 - `SESSIONS/2025-11-26-ARSRAPPORT-CHARTS.md` (Session notes)
 
@@ -506,11 +560,13 @@ See full details in: `2024_ARSRAPPORT_IMPLEMENTATION_SUMMARY.md`
 ---
 
 ### 📊 Områdesammenligning 2024 Interactive Charts (November 26, 2025)
+
 **Status:** ✅ **100% COMPLETE**
 
 Successfully replaced static screenshots with interactive, JSON-based 4-area comparison visualizations in the Områdesammenligning 2024 page.
 
 **Implementation Summary:**
+
 - **9 Interactive Charts** across 4 React components
 - **108 Data Points** processed from CSV to JSON
 - **23.64 KB** of structured JSON data
@@ -519,6 +575,7 @@ Successfully replaced static screenshots with interactive, JSON-based 4-area com
 - **76 Comparison Data Series** across all charts
 
 **Components Created:**
+
 1. ✅ `BevegelseComparisonCharts.tsx` (19 KB, 537 lines, 3 tabs)
    - Besøk per time (24-hour profile, 12 series: 4 areas × 3 categories)
    - Besøk per ukedag (Weekly patterns, stacked bars)
@@ -537,18 +594,21 @@ Successfully replaced static screenshots with interactive, JSON-based 4-area com
    - Antall hus (6 housing types across 4 areas)
 
 **4-Area Color Scheme:**
+
 - Grünerløkka: #2D5F3F (dark green)
 - Bjørvika: #4A90E2 (blue)
 - Sentrum: #E74C3C (red)
 - Majorstuen: #9B59B6 (purple)
 
 **Data Categories:**
+
 - **Bevegelse:** 3 charts (33 rows)
 - **Demografi:** 4 charts (34 rows)
 - **Besøkende:** 1 chart (6 rows)
 - **Internasjonal:** 1 chart (23 rows + top 20 filtering)
 
 **Technical Achievements:**
+
 - ✅ Recharts integration with 4-area comparison
 - ✅ Color-coded districts for easy identification
 - ✅ Tab-based navigation (9 total charts)
@@ -558,11 +618,13 @@ Successfully replaced static screenshots with interactive, JSON-based 4-area com
 - ✅ TypeScript strict mode compliance
 
 **Files Modified:**
+
 - `/src/data/main-board/analyser/sammenligning-2024.json` - Updated metadata (v1 → v2)
 - `/src/app/main-board/analyser/sammenligning-2024/page.tsx` - Integrated 4 components
 - `/src/components/analyser/KonkurransebildeCharts.tsx` - Fixed TypeScript error
 
 **Documentation:**
+
 - `SAMMENLIGNING_2024_IMPLEMENTATION_SUMMARY.md` (Complete guide)
 - `SESSIONS/2025-11-26-SAMMENLIGNING-CHARTS.md` (Session notes)
 
@@ -573,11 +635,13 @@ See full details in: `SAMMENLIGNING_2024_IMPLEMENTATION_SUMMARY.md`
 ---
 
 ### 📊 Main Board Stedsanalyser Complete (November 25, 2025)
+
 **Status:** ✅ **100% COMPLETE**
 
 All Main Board stedsanalyser (place analyses) for Grünerløkka micro-areas are now implemented:
 
 **Implemented Analyses (7 total):**
+
 1. ✅ Øvre Thorvald Meyers Gate
 2. ✅ Nedre Thorvald Meyers Gate
 3. ✅ Midt i Markveien v: Polet
@@ -587,6 +651,7 @@ All Main Board stedsanalyser (place analyses) for Grünerløkka micro-areas are 
 7. ✅ Plus 3 report analyses (Kvartalsrapport, 2024 Årsrapport, Demografi 2017-2023)
 
 **Aggregate Statistics:**
+
 - **Total businesses tracked:** 103+ actors
 - **Total revenue:** ~NOK 600M+
 - **Total employees:** ~700+
@@ -595,6 +660,7 @@ All Main Board stedsanalyser (place analyses) for Grünerløkka micro-areas are 
 - **Images optimized:** 28 images
 
 **Key Features:**
+
 - Consistent hero images (områdeoversikt/map view)
 - Standardized actor data with market share and YoY growth
 - Professional React components with Next.js Image optimization
@@ -602,6 +668,7 @@ All Main Board stedsanalyser (place analyses) for Grünerløkka micro-areas are 
 - Category breakdown (Mat og opplevelser, Handel, Tjenester)
 
 **URLs:**
+
 - `/main-board/analyser/olaf-ryes-plass-7eleven`
 - `/main-board/analyser/olaf-ryes-plass-boots`
 - `/main-board/analyser/nederst-i-markveien`
@@ -611,17 +678,20 @@ See full details in: `SESSIONS/2025-11-25-SESSION_ANALYSER.md`
 ---
 
 ### 📊 Data Completeness Initiative (November 26, 2025)
+
 **Status:** ✅ **COMPLETE**
 
 **Objective:** Integrate missing data files to achieve 98% platform completeness
 
 **Final Results:**
+
 - Platform completion: **98%** (147/150 files) - **TARGET ACHIEVED**
 - Critical issues: **0** (was 1) - **ALL RESOLVED**
 - Total missing files: **3** (was 22) - **86% REDUCTION**
 - Files successfully integrated: **35 files**
 
 **Achievement Summary:**
+
 - ✅ Nederst i Markveien: 72% → **100%** completion
 - ✅ Olaf Ryes Plass Boots: 80% → **100%** completion
 - ✅ Midt i Markveien: 96% → **100%** completion
@@ -630,6 +700,7 @@ See full details in: `SESSIONS/2025-11-25-SESSION_ANALYSER.md`
 - ✅ Øvre Thorvald Meyers Gate: 92% → **96%** completion (CRITICAL nokkeldata.json created)
 
 **Files Processed:**
+
 1. ✅ Nederst i Markveien (18 files: 17 CSV + 1 JSON) - **COMPLETE**
 2. ✅ Olaf Ryes Plass 7Eleven (4 files: 3 CSV + 1 PNG) - **COMPLETE**
 3. ✅ Olaf Ryes Plass Boots (4 files: 4 CSV) - **COMPLETE**
@@ -638,6 +709,7 @@ See full details in: `SESSIONS/2025-11-25-SESSION_ANALYSER.md`
 6. ✅ Øvre Thorvald (6 PNG → nokkeldata.json + 6 visualization images) - **COMPLETE**
 
 **Data Metrics:**
+
 - Total records processed: 8,000+
 - JSON files created/updated: 29
 - Images added: 26 PNG files
@@ -645,15 +717,18 @@ See full details in: `SESSIONS/2025-11-25-SESSION_ANALYSER.md`
 - Final JSON file count: 135 across all analyses
 
 **Documentation:**
+
 - Comprehensive inventory: `MAIN_BOARD_MISSING_FILES_INVENTORY.md` (584 lines)
 - Work plan: `SESSIONS/2025-11-26-MISSING_DATA_UPDATE.md` (335 lines)
 - **Completion report:** `SESSIONS/2025-11-26-DATA_INTEGRATION_COMPLETE.md` (450+ lines)
 
 **Remaining Gaps (3 files - all acceptable):**
+
 - 2 visitor-origins.png visualizations (data exists in JSON, can be generated)
 - 1 potential data file (non-critical, 96% completion sufficient)
 
 **Post-Integration Fix:**
+
 - ✅ Nederst i Markveien actor data error resolved
 - ✅ Converted correct CSV source (12 businesses, NOK 122M)
 - ✅ All 6 analyses now fully functional
@@ -665,9 +740,11 @@ See full details in: `SESSIONS/2025-11-26-DATA_INTEGRATION_COMPLETE.md`
 ### 🎨 Latest Updates (November 22, 2025)
 
 #### Portfolio Hero Images (Nov 22)
+
 **Status:** ✅ COMPLETE
 
 All 8 company home pages now feature professional portfolio hero images:
+
 - ✅ SPABO: `spabo.jpg` (22 properties)
 - ✅ Aspelin Ramm: `aspelin-ramm.webp` (4 properties on Vulkan)
 - ✅ Maya Eiendom: `maya-eiendom.jpg` (4 properties)
@@ -678,26 +755,31 @@ All 8 company home pages now feature professional portfolio hero images:
 - ✅ SIO: `sio.jpg` (3 student housing properties)
 
 **Features:**
+
 - Responsive images (400px → 500px → 600px)
 - Next.js Image optimization with priority loading
 - Dark gradient overlays for text readability
 - Company name and property count displayed
 
 #### Main Board UI Cleanup (Nov 22)
+
 **Status:** ✅ COMPLETE
 
 Removed unbuilt comparison functionality:
+
 - ❌ Removed "Se Sammenligninger" button
 - ❌ Removed "Sammenligninger" feature card
 - ✅ Updated grid from 4 to 3 columns
 - ✅ Streamlined user experience
 
 **Current Main Board Features:**
+
 1. 📊 Månedlige Analyser
 2. 📈 Kvartalsrapporter
 3. 📅 Hendelsesanalyse
 
 #### Google Form Integration (Nov 22)
+
 **Status:** ✅ COMPLETE
 
 - ✅ Updated `.env.local` with correct form URL
@@ -712,10 +794,12 @@ Removed unbuilt comparison functionality:
 ### 1. Multi-Tenant System ✅
 
 **Tenants Configured:** 9 total
+
 - 1× Main Board (Natural State)
 - 8× Property Developers
 
 **Features:**
+
 - ✅ Separate authentication per tenant
 - ✅ Dynamic routing
 - ✅ Context-aware navigation
@@ -748,40 +832,48 @@ Authentication:
 ### 3. Property Developers (8/8) ✅
 
 #### ✅ SPABO Eiendom (`/spabo`)
+
 - **Properties:** 22 (largest portfolio)
 - **Status:** ✅ Complete with hero image
 - **Special:** Handles largest data set efficiently
 
 #### ✅ Aspelin Ramm (`/aspelin-ramm`)
+
 - **Properties:** 5 on Vulkan (including Mathallen Oslo)
 - **Status:** ✅ Complete with hero image + 1-min analysis
 - **Focus:** Sustainable FutureBuilt properties + Mathallen food market
 - **Special:** Mathallen has interactive 1-minute analysis with 4 data categories
 
 #### ✅ Maya Eiendom (`/maya-eiendom`)
+
 - **Properties:** 4 on Markveien
 - **Status:** ✅ Complete with hero image
 
 #### ✅ Brødrene Evensen (`/brodrene-evensen`)
+
 - **Properties:** 3
 - **Status:** ✅ Complete with hero image
 
 #### ✅ Roger Vodal (`/roger-vodal`)
+
 - **Properties:** 4 on Grünerløkka (ORP3, TMg33, TMg40, TMg44)
 - **Status:** ✅ Complete with hero image + 5-min analysis
 - **Special:** Full 6-section 5-minute analysis with 698 business actors tracked
 
 #### ✅ Eiendomsspar (`/eiendomsspar`)
+
 - **Properties:** 2 on Thorvald Meyers gate
 - **Status:** ✅ Complete with hero image
 - **Special:** Uses "begge eiendommene" text
 
 #### ✅ Front Real Estate (`/malling-co`)
+
 - **Properties:** 1
 - **Status:** ✅ Complete with hero image
 - **Special:** Singular "Vår Eiendom" text (Formerly Malling & Co)
 
 #### ✅ SiO (`/sio`)
+
 - **Properties:** 3 student housing units
 - **Status:** ✅ Complete with hero image
 - **Focus:** Student accommodation
@@ -795,6 +887,7 @@ Authentication:
 ### Visual Components ✅
 
 **Company Pages Include:**
+
 1. **Hero Section** - CTA buttons and intro text
 2. **Portfolio Hero Image** - Large, branded visual (NEW!)
 3. **Development Notice** - Feedback collection
@@ -803,12 +896,14 @@ Authentication:
 6. **Natural State Card** - Branding footer
 
 **Main Board Includes:**
+
 1. **Hero Banner** - Full-width with Natural State branding
 2. **Feature Cards** - 3 clear analysis options
 3. **Social Media Section** - LinkedIn, Instagram, Facebook
 4. **Natural State Preview** - Embedded iframe
 
 ### UI/UX Features ✅
+
 - ✅ Responsive design (mobile → tablet → desktop)
 - ✅ Next.js Image optimization
 - ✅ Gradient overlays for readability
@@ -823,6 +918,7 @@ Authentication:
 ## 🔐 Authentication System ✅
 
 **Implementation:**
+
 - ✅ Per-tenant cookie-based auth
 - ✅ 7-day session expiry
 - ✅ Separate passwords per tenant
@@ -831,11 +927,13 @@ Authentication:
 - ✅ Cross-tenant navigation support
 
 **Test Credentials:**
+
 ```
 All tenants: test123
 ```
 
 **Cookie Names:**
+
 - `auth-main-board`
 - `auth-aspelin-ramm`
 - `auth-brodrene-evensen`
@@ -857,17 +955,20 @@ All tenants: test123
 **URL:** https://lokka-gardeierforening-platform.vercel.app
 
 **Environment Variables:**
+
 - ✅ `NEXT_PUBLIC_GOOGLE_FORM_URL` configured
 - ✅ Authentication secrets set
 - ✅ All tenant passwords configured
 
 **Build Status:**
+
 - ✅ TypeScript compilation successful
 - ✅ Zero errors in production build
 - ✅ All images optimized
 - ✅ Static page generation working
 
 **Performance:**
+
 - ✅ Fast page loads
 - ✅ Optimized images
 - ✅ Minimal bundle size
@@ -878,6 +979,7 @@ All tenants: test123
 ## 📁 Technical Stack
 
 ### Core Technologies ✅
+
 - **Framework:** Next.js 16.0.8 (security patched)
 - **Runtime:** React 19.2
 - **Language:** TypeScript (strict mode)
@@ -887,6 +989,7 @@ All tenants: test123
 - **Deployment:** Vercel
 
 ### Key Features ✅
+
 - ✅ App Router architecture
 - ✅ Server Components
 - ✅ Static generation where possible
@@ -903,6 +1006,7 @@ All tenants: test123
 ### Main Board Content (95%) ✅
 
 **Completed:**
+
 - ✅ 2024 Årsrapport
 - ✅ Demografi 2017-2023 analysis
 - ✅ Kvartalsrapport Banktransaksjoner
@@ -911,6 +1015,7 @@ All tenants: test123
 - ✅ Business actors data
 
 **In Progress:**
+
 - 🔄 Additional monthly analyses
 - 🔄 Media coverage data
 - 🔄 Event impact analyses
@@ -918,6 +1023,7 @@ All tenants: test123
 ### Property Data (100%) ✅
 
 **All Properties Have:**
+
 - ✅ Basic information
 - ✅ Place analysis screenshots
 - ✅ Demographic data
@@ -927,6 +1033,7 @@ All tenants: test123
 ### Property Profiles (85%) ✅
 
 **Utvidet Eiendomsprofil Status:**
+
 - ✅ 39 properties with complete/good profiles (89%)
 - 🟡 5 properties need market data research (11%)
 - ✅ Legacy data migration complete (eiendomsspar)
@@ -941,6 +1048,7 @@ All tenants: test123
 ### November 24, 2025 Session (Session 8)
 
 **Enhanced Analysis Selector:**
+
 1. ✅ Significantly improved visibility and UX
 2. ✅ Large selection cards with clear visual indicators
 3. ✅ Dynamic counting of available analyses
@@ -948,6 +1056,7 @@ All tenants: test123
 5. ✅ Responsive design across all devices
 
 **LØKKA RAPPORTEN Dashboard:**
+
 1. ✅ Comprehensive market analysis framework created
 2. ✅ Follows SPABO's wish list structure exactly
 3. ✅ 5 main sections with placeholders for data
@@ -956,12 +1065,14 @@ All tenants: test123
 6. ✅ Ready for data integration
 
 **Data Gap Analysis:**
+
 1. ✅ Identified available data vs missing data
 2. ✅ Documented what exists in platform
 3. ✅ Marked what needs sourcing from Natural State
 4. ✅ Created clear visualization framework
 
 **Git Commits:**
+
 ```bash
 b3a27b6 - docs: Update progress with Session 8 improvements
 04f9f4a - refactor: Rename dashboard to "LØKKA RAPPORTEN"
@@ -974,23 +1085,27 @@ b3a27b6 - docs: Update progress with Session 8 improvements
 ### November 22, 2025 Session (Session 7)
 
 **Visual Enhancements:**
+
 1. ✅ Portfolio hero images on all company pages
 2. ✅ Professional image optimization
 3. ✅ Responsive image loading
 4. ✅ Gradient overlays
 
 **UI Cleanup:**
+
 1. ✅ Removed unbuilt comparison feature
 2. ✅ Streamlined main-board
 3. ✅ Improved user flow
 4. ✅ Updated feature grid layout
 
 **Integration:**
+
 1. ✅ Fixed feedback form URL
 2. ✅ Updated production environment
 3. ✅ Verified deployments
 
 **Git Commits Today:**
+
 ```bash
 ce588f5 - docs: Update progress documentation
 f06c9c8 - refactor: Remove comparison functionality
@@ -1003,12 +1118,14 @@ a0cb255 - fix: Update feedback form URL
 ## 🔄 In Progress (10%)
 
 ### Property Profile Standardization (NEW)
+
 - 🔄 Eiendomsspar data structure migration (2 properties)
 - 🔄 Roger-Vodal profile content development (3 properties)
 - 🔄 SiO profile content development (3 properties)
 - 🔄 Building details research (byggeår, arkitekt for 22 properties)
 
 ### Content Migration
+
 - 🔄 Additional analysis pages
 - 🔄 Media coverage data
 - 🔄 Historical timeline events
@@ -1019,6 +1136,7 @@ a0cb255 - fix: Update feedback form URL
 ## 📋 Remaining Work (5%)
 
 ### Property Profile Completion (Priority)
+
 - [ ] Migrate eiendomsspar data structure (2 properties)
 - [ ] Create roger-vodal profiles (3 properties)
 - [ ] Create sio profiles (3 properties)
@@ -1026,6 +1144,7 @@ a0cb255 - fix: Update feedback form URL
 - [ ] Remove template.json from spabo
 
 ### Final Polish
+
 - [ ] SEO optimization
 - [ ] Meta tags enhancement
 - [ ] Performance monitoring setup
@@ -1033,6 +1152,7 @@ a0cb255 - fix: Update feedback form URL
 - [ ] Additional content migration
 
 ### Future Enhancements
+
 - [ ] Search functionality
 - [ ] Filtering options
 - [ ] Export capabilities
@@ -1046,15 +1166,18 @@ a0cb255 - fix: Update feedback form URL
 **Last Health Check:** December 9, 2025
 
 ### ESLint Status: 0 errors, 0 warnings ✅
+
 **Improvement:** 109 → 0 issues (100% reduction - December 30, 2025)
 
 #### ✅ Phase 1: Quick Fixes (Completed)
+
 - [x] Malformed directory `src/app/[company]/{eiendommer` - DELETED
 - [x] `<a>` instead of `<Link>` in login page - FIXED
 - [x] setState in useEffect (TypingScrollAnimation) - FIXED
 - [x] Unescaped apostrophes in analysis pages - FIXED
 
 #### ✅ Phase 2: Code Quality (Completed)
+
 - [x] Deleted broken TEMPLATES directory
 - [x] Deleted empty src/data/companies directory
 - [x] Fixed unused imports in Header, NaturalStateInfo, Navigation
@@ -1062,6 +1185,7 @@ a0cb255 - fix: Update feedback form URL
 - [x] Fixed type assertions in place-loader.ts and one-min-loader.ts
 
 #### ✅ Phase 3: Component Fixes (Completed)
+
 - [x] Fixed CustomTooltip render bugs in BankTransactionChart
 - [x] Fixed CustomTooltip render bugs in EventTimeline
 - [x] Fixed CustomTooltip render bugs in SimpleEventTimeline
@@ -1070,16 +1194,19 @@ a0cb255 - fix: Update feedback form URL
 - [x] Cleaned up unused variables (historicalImages, master, timeline)
 
 #### ✅ All Issues Resolved (December 30, 2025)
+
 - [x] All `any` types fixed with proper TypeScript interfaces
 - [x] All unused variables/imports removed or marked with eslint-disable
 - [x] Script files use eslint-disable for intentional `require()` usage
 
 #### Medium Priority (Technical Debt - Future)
+
 - [ ] Route duplication: 11 explicit tenant dirs duplicate `[company]` route
 - [ ] Layout duplication: 12 nearly identical layout.tsx files
 - [ ] Data loader inconsistency: Mix of dynamic imports and static index patterns
 
 ### Previously Resolved ✅
+
 - ✅ Dead links fixed
 - ✅ Missing om-prosjektet pages created
 - ✅ Image paths corrected
@@ -1094,34 +1221,39 @@ a0cb255 - fix: Update feedback form URL
 ## 🔧 Technical Debt Reduction Plan
 
 ### ✅ Phase 1: Quick Fixes (Completed Dec 9)
+
 - [x] Delete malformed directories
 - [x] Fix ESLint critical errors
 - [x] Security updates (Next.js 16.0.3 → 16.0.8)
 
 ### ✅ Phase 2: Code Quality (Completed Dec 9)
+
 - [x] Replace `any` types with `unknown` in loaders
 - [x] Remove unused imports/variables
 - [x] Clean up empty directories
 - [x] Delete broken TEMPLATES
 
 ### ✅ Phase 3: Component Fixes (Completed Dec 9)
+
 - [x] Fix component render bugs (CustomTooltip)
 - [x] Clean up biblioteket pages
 - [x] Type improvements
 
 ### Phase 4: Architecture Refactor (Future)
+
 - [ ] Consolidate tenant routing to use `[company]` dynamic route
 - [ ] Create shared layout component for all tenants
 - [ ] Standardize data loader pattern across all companies
 
 ### Data Statistics
-| Metric | Value |
-|--------|-------|
-| JSON data files | 257 |
-| Data directory size | 9.7 MB |
-| Total properties | 44 |
-| Tenants | 10 |
-| Static pages generated | 111 |
+
+| Metric                 | Value  |
+| ---------------------- | ------ |
+| JSON data files        | 257    |
+| Data directory size    | 9.7 MB |
+| Total properties       | 44     |
+| Tenants                | 10     |
+| Static pages generated | 111    |
 
 ---
 
@@ -1170,6 +1302,7 @@ scripts/
 ## 📊 Metrics
 
 **Code Quality:**
+
 - ✅ TypeScript strict mode enabled
 - ✅ Zero compilation errors
 - ✅ Clean component architecture
@@ -1178,24 +1311,28 @@ scripts/
 - ✅ 70% test coverage threshold
 
 **Testing:**
+
 - ✅ Jest + ts-jest configured
 - ✅ 27 unit tests (safe-data + property-defaults)
 - ✅ Prebuild verification hook
 - ✅ Coverage reporting
 
 **Performance:**
+
 - ✅ Fast build times (~3 seconds)
 - ✅ Optimized images
 - ✅ Efficient routing
 - ✅ Minimal bundle size
 
 **User Experience:**
+
 - ✅ Mobile responsive
 - ✅ Fast page loads
 - ✅ Intuitive navigation
 - ✅ Professional design
 
 **SEO:**
+
 - ✅ Semantic HTML
 - ✅ Proper heading structure
 - ✅ Alt text on images
@@ -1206,6 +1343,7 @@ scripts/
 ## 🎉 Achievements
 
 ### Platform Highlights
+
 - ✅ **9 tenants** fully configured
 - ✅ **43 properties** with complete data
 - ✅ **27+ routes** all functional
@@ -1218,6 +1356,7 @@ scripts/
 - ✅ **Unit testing** with Jest (27 tests)
 
 ### Technical Excellence
+
 - ✅ Modern tech stack (Next.js 16, React 19, Jest)
 - ✅ Type-safe with TypeScript
 - ✅ Optimized for performance
@@ -1230,18 +1369,21 @@ scripts/
 ## 🚀 Next Steps
 
 ### Immediate
+
 1. Monitor Vercel deployment
 2. Verify all pages load correctly
 3. Test on mobile devices
 4. Gather user feedback
 
 ### Short Term
+
 1. Complete remaining content migration
 2. Add SEO optimization
 3. Set up analytics
 4. Performance monitoring
 
 ### Future
+
 1. Search functionality
 2. Advanced filtering
 3. Comparison tools (when developed)
@@ -1257,6 +1399,7 @@ scripts/
 **Platform:** Vercel
 
 **Test Login:**
+
 ```
 Password: test123 (all tenants)
 ```
@@ -1273,10 +1416,10 @@ The Løkka Gardeierforening Platform is **production-ready** and looking profess
 
 ---
 
-*Last Updated: December 30, 2025 by Claude Code*
-*Status: 🚀 PRODUCTION LIVE & EXCELLENT*
-*ESLint: 0 issues ✅ (100% clean - was 109)*
-*Tests: 27 unit tests with 70% coverage threshold*
-*Silent Failure Detection: ✅ Enabled*
-*5-min Analysis: Roger-Vodal (7 properties) complete | 1-min: Mathallen + Carucel*
-*Biblioteket: 5 categories, 31 ildsjeler, Jazz/Hip-hop/Idrett sections added*
+_Last Updated: January 22, 2026 by Claude Code_
+_Status: 🚀 PRODUCTION LIVE & EXCELLENT_
+_ESLint: 0 issues ✅ (100% clean)_
+_Tests: 27 unit tests with 70% coverage threshold_
+_Silent Failure Detection: ✅ Enabled_
+_5-min Analysis: Roger-Vodal (7 properties) complete | 1-min: Mathallen + Carucel_
+_Biblioteket: 6 categories, 31 ildsjeler, Jazz/Hip-hop/Idrett/Mediebildet sections_

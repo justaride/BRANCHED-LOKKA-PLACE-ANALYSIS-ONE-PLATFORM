@@ -1,0 +1,50 @@
+{
+  "id": "podcast",
+  "title": "Podcaster",
+  "description": "Podcaster med relevans for Grünerløkka",
+  "note": "Podcast-søk krever manuell verifisering på plattformer som Spotify, Apple Podcasts og NRK Radio",
+  "items": [
+    {
+      "id": "ekko-byutvikling",
+      "title": "Ekko (episoder om byutvikling)",
+      "source": "NRK P2",
+      "podcastName": "Ekko",
+      "host": "Diverse",
+      "date": "2010-2025",
+      "summary": "NRK P2s kultursending har dekket Oslo-utvikling og gentrifisering i flere episoder.",
+      "themes": ["byutvikling", "gentrifisering", "Oslo"],
+      "url": "https://radio.nrk.no/podkast/ekko",
+      "significance": "høy"
+    },
+    {
+      "id": "verdibørsen-oslo",
+      "title": "Verdibørsen (episoder om Oslo)",
+      "source": "NRK P2",
+      "podcastName": "Verdibørsen",
+      "host": "Diverse",
+      "date": "2010-2025",
+      "summary": "Har dekket boligmarked og byutvikling i Oslo.",
+      "themes": ["økonomi", "eiendom", "byutvikling"],
+      "url": "https://radio.nrk.no/podkast/verdiboersen",
+      "significance": "medium"
+    },
+    {
+      "id": "aftenpodden-oslo",
+      "title": "Aftenpodden (Oslo-episoder)",
+      "source": "Aftenposten",
+      "podcastName": "Aftenpodden",
+      "host": "Diverse journalister",
+      "date": "2015-2025",
+      "summary": "Daglig nyhetspodcast som har dekket Oslo-temaer inkludert Grünerløkka.",
+      "themes": ["Oslo-politikk", "byutvikling", "kultur"],
+      "url": "https://www.aftenposten.no/podkast/aftenpodden",
+      "significance": "medium"
+    }
+  ],
+  "searchRecommendations": [
+    "Spotify: søk 'Grünerløkka', 'Oslo byutvikling', 'gentrifisering Norge'",
+    "NRK Radio: https://radio.nrk.no - søk i Ekko, Verdibørsen, P2-dokumentar",
+    "Apple Podcasts: https://podcasts.apple.com/no - søk 'Oslo', 'Grünerløkka'",
+    "Podme.com: Norsk podcast-plattform med lokalt innhold"
+  ]
+}

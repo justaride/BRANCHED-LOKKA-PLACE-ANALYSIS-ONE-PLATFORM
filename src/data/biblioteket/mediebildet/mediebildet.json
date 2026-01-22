@@ -1,0 +1,57 @@
+{
+  "id": "mediebildet",
+  "title": "Mediebildet",
+  "subtitle": "Grünerløkka i norske medier 2000-2025",
+  "description": "En kartlegging av hvordan Grünerløkka har blitt portrettert i norske medier de siste 25 årene. Fra avisartikler og dokumentarer til podcaster og akademiske publikasjoner – et komplett bilde av bydelens medieprofil.",
+  "heroImage": "/images/biblioteket/mediebildet-hero.jpg",
+  "subsections": [
+    {
+      "slug": "avis",
+      "title": "Avisartikler",
+      "description": "Artikler fra Aftenposten, VG, Dagsavisen, Dagbladet og andre norske aviser",
+      "count": 15,
+      "color": "slate"
+    },
+    {
+      "slug": "tv-film",
+      "title": "TV & Film",
+      "description": "Dokumentarer, nyhetsinnslag og TV-produksjoner om Grünerløkka",
+      "count": 10,
+      "color": "blue"
+    },
+    {
+      "slug": "podcast",
+      "title": "Podcaster",
+      "description": "Podcast-episoder som omhandler bydelen og dens kultur",
+      "count": 3,
+      "color": "purple"
+    },
+    {
+      "slug": "digital",
+      "title": "Digitalt",
+      "description": "Blogger, nettartikler og sosiale medier-innhold",
+      "count": 8,
+      "color": "green"
+    },
+    {
+      "slug": "akademisk",
+      "title": "Akademisk",
+      "description": "Forskningsartikler, masteroppgaver og akademiske publikasjoner",
+      "count": 13,
+      "color": "amber"
+    }
+  ],
+  "themes": [
+    "gentrifisering",
+    "byutvikling",
+    "kultur",
+    "bolig",
+    "kriminalitet",
+    "mat",
+    "musikk",
+    "politikk",
+    "miljø",
+    "næringsliv"
+  ],
+  "sources": []
+}

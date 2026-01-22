@@ -171,3 +171,75 @@ export interface BibliotekCategory {
     itemCount: number;
     color: string;
 }
+
+// Mediebildet (Media Coverage)
+export interface MediaItem {
+    id: string;
+    title: string;
+    source: string;
+    author?: string;
+    date: string;
+    url?: string;
+    summary: string;
+    themes: string[];
+    locations?: string[];
+    people?: string[];
+    significance: 'høy' | 'medium' | 'lav';
+}
+
+export interface AvisItem extends MediaItem {
+    type: 'artikkel' | 'kronikk' | 'debatt' | 'reportasje' | 'intervju';
+}
+
+export interface TvFilmItem extends MediaItem {
+    type: 'dokumentar' | 'nyhetsinnslag' | 'serie' | 'film' | 'reportasje';
+    director?: string;
+    duration?: string;
+}
+
+export interface PodcastItem extends MediaItem {
+    podcastName: string;
+    host?: string;
+    duration?: string;
+    guests?: string[];
+}
+
+export interface DigitalItem extends MediaItem {
+    type: 'bloggpost' | 'debattinnlegg' | 'twitter-tråd' | 'reddit' | 'nettartikkel';
+    engagement?: string;
+}
+
+export interface AkademiskItem extends MediaItem {
+    authors: string[];
+    type: 'masteroppgave' | 'artikkel' | 'rapport' | 'bokkapittel' | 'doktoravhandling';
+    year: number;
+    abstract?: string;
+    methodology?: 'kvalitativ' | 'kvantitativ' | 'mixed';
+    institution?: string;
+}
+
+export interface MediaSubsection {
+    slug: string;
+    title: string;
+    description: string;
+    count: number;
+    color: string;
+}
+
+export interface MediebildetData {
+    id: string;
+    title: string;
+    subtitle: string;
+    description: string;
+    heroImage: string;
+    subsections: MediaSubsection[];
+    themes: string[];
+    sources: { title: string; url: string }[];
+}
+
+export interface MediaCategoryData<T extends MediaItem> {
+    id: string;
+    title: string;
+    description: string;
+    items: T[];
+}

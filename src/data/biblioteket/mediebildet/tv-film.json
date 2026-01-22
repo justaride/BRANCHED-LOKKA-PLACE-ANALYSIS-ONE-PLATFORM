@@ -1,0 +1,118 @@
+{
+  "id": "tv-film",
+  "title": "TV & Film",
+  "description": "TV-innslag og dokumentarer om Grünerløkka (1949-2025)",
+  "items": [
+    {
+      "id": "nrk-1972-sanering",
+      "title": "Sanering – Grünerløkka",
+      "source": "NRK",
+      "director": "Bjørn Nilsen m.fl.",
+      "date": "1972",
+      "type": "dokumentar",
+      "summary": "NRK TV-dokumentar om forfall og planlagte saneringer. Dokumenterte bomiljøet før rehabilitering.",
+      "themes": ["byfornyelse", "boligpolitikk", "arbeiderbydel"],
+      "significance": "høy"
+    },
+    {
+      "id": "nfi-1973-grunerlokka",
+      "title": "Grünerløkka",
+      "source": "Norsk Filminstitutt",
+      "director": "Finn Carlsby",
+      "date": "1973",
+      "type": "dokumentar",
+      "duration": "11 min",
+      "summary": "Kortdokumentar som skildrer bydelens utvikling fra landbruksmark til moderne byområde.",
+      "themes": ["byhistorie", "industrialisering", "urbanisering"],
+      "significance": "høy"
+    },
+    {
+      "id": "nrk-2012-kaveh",
+      "title": "Kaveh – 7 steg mot toppen",
+      "source": "NRK",
+      "director": "Kent Kampesveen",
+      "date": "2012",
+      "type": "dokumentarserie",
+      "summary": "NRK-serie om rapperen Kaveh Kholardi fra Grünerløkka og hans vei mot gjennombrudd.",
+      "themes": ["hiphop", "ungdomskultur", "musikk"],
+      "significance": "medium"
+    },
+    {
+      "id": "nrk-2018-one-night",
+      "title": "One Night – En natt",
+      "source": "NRK",
+      "director": "Øystein Karlsen",
+      "date": "2018",
+      "type": "TV-serie",
+      "summary": "Dramaserie der kamera følger et par fra Birkelunden gjennom Grünerløkkas gater.",
+      "themes": ["relasjoner", "byliv", "drama"],
+      "significance": "medium"
+    },
+    {
+      "id": "nrk-2015-skam",
+      "title": "SKAM (Grünerløkka-scener)",
+      "source": "NRK",
+      "director": "Julie Andem",
+      "date": "2015-2017",
+      "type": "TV-serie",
+      "summary": "Den internasjonalt anerkjente ungdomsserien hadde flere scener innspilt på Grünerløkka.",
+      "themes": ["ungdom", "identitet", "vennskap"],
+      "significance": "høy"
+    },
+    {
+      "id": "nrk-2014-mammon",
+      "title": "Mammon (scener på Løkka)",
+      "source": "NRK",
+      "director": "Vegard Dahle, Gjermund Stenberg Eriksen",
+      "date": "2014-2016",
+      "type": "TV-serie",
+      "summary": "Krimdrama-serien med Jon Øigarden hadde flere scener innspilt på Grünerløkka.",
+      "themes": ["krim", "journalistikk", "drama"],
+      "significance": "medium"
+    },
+    {
+      "id": "film-1949-gategutter",
+      "title": "Gategutter",
+      "source": "Norsk film",
+      "director": "Arne Skouen",
+      "date": "1949",
+      "type": "spillefilm",
+      "summary": "Første store norske film fra Grünerløkka. Skildrer guttegjengen Doffen og Doffen på Løkka.",
+      "themes": ["oppvekst", "arbeiderbydel", "klassiker"],
+      "significance": "høy"
+    },
+    {
+      "id": "film-1997-budbringeren",
+      "title": "Budbringeren",
+      "source": "Norsk film",
+      "director": "Pål Sletaune",
+      "date": "1997",
+      "type": "spillefilm",
+      "summary": "Svart komedie hvor deler av handlingen foregår i Grünerløkkas bakgater.",
+      "themes": ["krim", "svart humor", "byliv"],
+      "significance": "høy"
+    },
+    {
+      "id": "film-2008-de-usynlige",
+      "title": "De usynlige",
+      "source": "Norsk film",
+      "director": "Erik Poppe",
+      "date": "2008",
+      "type": "spillefilm",
+      "summary": "Drama om rusmisbrukere i Oslo, delvis satt på Grünerløkka med Paulus kirke som location.",
+      "themes": ["rus", "sosialt drama", "Oslo"],
+      "significance": "høy"
+    },
+    {
+      "id": "film-2020-storste-forbrytelsen",
+      "title": "Den største forbrytelsen",
+      "source": "Norsk film",
+      "director": "Eirik Svensson",
+      "date": "2020",
+      "type": "spillefilm",
+      "summary": "Historisk drama om deportasjonen av jødene under krigen. Familien Braude bor på Grünerløkka.",
+      "themes": ["holocaust", "krigshistorie", "drama"],
+      "significance": "høy"
+    }
+  ]
+}

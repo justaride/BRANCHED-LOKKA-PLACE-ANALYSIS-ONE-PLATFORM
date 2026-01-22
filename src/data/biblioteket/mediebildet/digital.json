@@ -1,0 +1,103 @@
+{
+  "id": "digital",
+  "title": "Digitalt innhold",
+  "description": "Blogger, nettartikler og digitale ressurser om Grünerløkka",
+  "items": [
+    {
+      "id": "vartoslo-wardenaer-2018",
+      "title": "En personlig fortelling med egne bilder om oppvekst på Grünerløkka",
+      "source": "VårtOslo",
+      "author": "Raymond Wardenær",
+      "date": "2018",
+      "url": "https://www.vartoslo.no/bydel-grnerlokka-raymond-wardenaer-volleyballforbundet/en-personlig-fortelling-med-egne-bilder-om-oppvekst-pa-grnerløkka-eller-gronnlokka/273047",
+      "type": "nettartikkel",
+      "summary": "Personlig memoarfortelling med egne fotografier om oppvekst i Karlstadgata på 1940-50-tallet.",
+      "themes": ["oppvekst", "nostalgi", "foto", "arbeiderklasse"],
+      "significance": "høy"
+    },
+    {
+      "id": "underdusken-kaveh-2013",
+      "title": "Grünerløkka var ikke hipster-område da jeg vokste opp",
+      "source": "Under Dusken",
+      "author": "Kaveh Kholardi",
+      "date": "2013",
+      "url": "https://www.underdusken.no/kultur/grnerlokka-var-ikke-hipster-omrade-da-jeg-vokste-opp/124183",
+      "type": "intervju/nettartikkel",
+      "summary": "Rapperen Kaveh reflekterer over ungdomstiden på Grünerløkka rundt år 2000.",
+      "themes": ["gentrifisering", "ungdomskultur", "østkant"],
+      "significance": "høy"
+    },
+    {
+      "id": "vartoslo-xray-2020",
+      "title": "X-Ray 25-års jubileum",
+      "source": "VårtOslo",
+      "author": "VårtOslo",
+      "date": "2020",
+      "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008",
+      "type": "nettartikkel",
+      "summary": "Reportasje om ungdomskulturhuset X-Ray på Grünerløkka.",
+      "themes": ["ungdomskultur", "hip-hop", "lokalmiljø"],
+      "significance": "medium"
+    },
+    {
+      "id": "vartoslo-ramona-skosalon",
+      "title": "Ramona Skosalon legger ned etter 92 år i Markveien",
+      "source": "VårtOslo",
+      "author": "VårtOslo",
+      "date": "2020",
+      "url": "https://www.vartoslo.no/bydel-grnerlokka-handelsstanden-jens-book-jensen/ramona-skosalon-legger-ned-etter-92-ar-i-markveien-pa-grnerlokka/249834",
+      "type": "nettartikkel",
+      "summary": "Dokumenterer nedleggelse av historisk forretning på Løkka.",
+      "themes": ["næringsliv", "tradisjon", "gentrifisering"],
+      "significance": "medium"
+    },
+    {
+      "id": "vartoslo-lokka-lykke",
+      "title": "Løkka-Lykke blir Oslo Street Art Festival",
+      "source": "VårtOslo",
+      "author": "VårtOslo",
+      "date": "2022",
+      "url": "https://www.vartoslo.no/bydel-grnerlokka-bymiljoetaten-estate-nyheter/festivalen-pa-grnerlokka-utvides-til-flere-bydeler-lokka-lykke-blir-til-oslo-street-art-festival/514517",
+      "type": "nettartikkel",
+      "summary": "Reportasje om Løkka-Lykke-festivalen og gatekunst på Grünerløkka.",
+      "themes": ["kultur", "festival", "gatekunst"],
+      "significance": "medium"
+    },
+    {
+      "id": "oslobilder-arkiv",
+      "title": "Oslobilder – Grünerløkka fotoarkiv",
+      "source": "Oslo Museum / Oslo Byarkiv",
+      "author": "Oslo Museum",
+      "date": "2010-løpende",
+      "url": "https://oslobilder.no",
+      "type": "fotoarkiv/digital ressurs",
+      "summary": "Digitalt fotoarkiv med historiske bilder fra barndom og oppvekst på Grünerløkka.",
+      "themes": ["foto", "historie", "oppvekst", "arkiv"],
+      "significance": "høy"
+    },
+    {
+      "id": "visitlokka-mills",
+      "title": "Mills – bedriften som holder stand",
+      "source": "VisitLøkka.no",
+      "author": "Erlend Øyan",
+      "date": "2021",
+      "url": "https://visitlokka.no/",
+      "type": "nettartikkel",
+      "summary": "Nettartikkel om Mills som en av de gjenværende industribedriftene på Grünerløkka.",
+      "themes": ["industri", "historie", "lokalt næringsliv"],
+      "significance": "medium"
+    },
+    {
+      "id": "aftenposten-fyrstikkpikene",
+      "title": "Fyrstikkpikene startet Norges første streik",
+      "source": "Aftenposten",
+      "author": "Aftenposten",
+      "date": "",
+      "url": "https://www.aftenposten.no/norge/i/MgjK0/fyrstikkpikene-startet-norges-foerste-streik",
+      "type": "nettartikkel",
+      "summary": "Historisk artikkel om fyrstikkpikene og arbeiderbevegelsens røtter på Løkka.",
+      "themes": ["arbeiderhistorie", "kvinnehistorie", "streik"],
+      "significance": "medium"
+    }
+  ]
+}
