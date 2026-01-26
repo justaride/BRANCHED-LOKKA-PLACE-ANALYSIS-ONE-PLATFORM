@@ -12,6 +12,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
+    "audit:data": "node scripts/data-audit/index.js --verbose",
+    "audit:data:critical": "node scripts/data-audit/index.js --critical",
     "prebuild": "npm run verify && npm run type-check"
   },
   "dependencies": {
@@ -36,6 +38,6 @@
     "jest": "^29",
     "tailwindcss": "^4",
     "ts-jest": "^29",
-    "typescript": "^5"
+    "typescript": "5.9.3"
   }
 }

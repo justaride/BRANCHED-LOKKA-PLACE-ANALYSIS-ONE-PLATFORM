@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import {
   BarChart,
   Bar,
@@ -10,7 +10,7 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
-} from 'recharts';
+} from "recharts";
 
 interface BesokendeComparisonChartsProps {
   basePath: string;
@@ -35,12 +35,14 @@ export default function BesokendeComparisonCharts({
     const loadData = async () => {
       try {
         setLoading(true);
-        const data = await fetch(`${basePath}/besokende/antall-hus.json`).then(r => r.json());
+        const data = await fetch(`${basePath}/besokende/antall-hus.json`).then(
+          (r) => r.json(),
+        );
         setAntallHusData(data);
         setError(null);
       } catch (err) {
-        setError('Kunne ikke laste besøkendedata');
-        console.error('Error loading besokende comparison data:', err);
+        setError("Kunne ikke laste besøkendedata");
+        console.error("Error loading besokende comparison data:", err);
       } finally {
         setLoading(false);
       }
@@ -50,7 +52,7 @@ export default function BesokendeComparisonCharts({
   }, [basePath]);
 
   const formatNumber = (num: number) => {
-    return num.toLocaleString('nb-NO');
+    return num.toLocaleString("nb-NO");
   };
 
   interface TooltipPayload {
@@ -59,14 +61,26 @@ export default function BesokendeComparisonCharts({
     color: string;
   }
 
-  const CustomTooltip = ({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string }) => {
+  const CustomTooltip = ({
+    active,
+    payload,
+    label,
+  }: {
+    active?: boolean;
+    payload?: TooltipPayload[];
+    label?: string;
+  }) => {
     if (!active || !payload || !payload.length) return null;
 
     return (
       <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
         <p className="mb-1 text-xs font-medium text-gray-500">{label}</p>
         {payload.map((entry, index) => (
-          <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
+          <p
+            key={index}
+            className="text-sm font-semibold"
+            style={{ color: entry.color }}
+          >
             {entry.name}: {formatNumber(Math.round(entry.value))}
           </p>
         ))}
@@ -116,32 +130,38 @@ export default function BesokendeComparisonCharts({
       {/* Chart Content */}
       <div className="rounded-xl bg-white p-4 shadow-sm md:p-6">
         <div>
-          <h3 className="mb-4 text-lg font-semibold text-natural-forest">
-            Antall hus etter boligtype
+          <h3 className="mb-2 text-lg font-semibold text-natural-forest">
+            Boligtype besøkende kommer fra
           </h3>
+          <p className="mb-4 text-xs text-gray-500">
+            Fordeling av besøkendes hjemsted etter boligtype
+          </p>
           <div className="h-80 md:h-96">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={antallHusData} margin={{ top: 10, right: 30, left: 10, bottom: 60 }}>
+              <BarChart
+                data={antallHusData}
+                margin={{ top: 10, right: 30, left: 10, bottom: 60 }}
+              >
                 <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                 <XAxis
                   dataKey="category"
-                  tick={{ fontSize: 11, fill: '#6b7280' }}
+                  tick={{ fontSize: 11, fill: "#6b7280" }}
                   angle={-45}
                   textAnchor="end"
                   height={80}
                 />
                 <YAxis
-                  tick={{ fontSize: 11, fill: '#6b7280' }}
+                  tick={{ fontSize: 11, fill: "#6b7280" }}
                   tickFormatter={(value) => formatNumber(value)}
                   label={{
-                    value: 'Antall bygninger',
+                    value: "Antall besøkende",
                     angle: -90,
-                    position: 'insideLeft',
-                    style: { fontSize: 11, fill: '#6b7280' },
+                    position: "insideLeft",
+                    style: { fontSize: 11, fill: "#6b7280" },
                   }}
                 />
                 <Tooltip content={<CustomTooltip />} />
-                <Legend wrapperStyle={{ fontSize: '11px' }} />
+                <Legend wrapperStyle={{ fontSize: "11px" }} />
                 <Bar dataKey="grunerlokka" fill="#2D5F3F" name="Grünerløkka" />
                 <Bar dataKey="bjorvika" fill="#4A90E2" name="Bjørvika" />
                 <Bar dataKey="sentrum" fill="#E74C3C" name="Sentrum" />
