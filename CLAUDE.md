@@ -267,6 +267,16 @@ All 11 properties with 1-min/5-min data have been audited and fixed:
 - Fix script: `scripts/fix-analysis-json.js`
 - Validation integrated into `npm run verify`
 
+### 11. Semantic Data Interpretation
+
+Data may represent something different than field names suggest. Example:
+
+- `antall-hus.json` in sammenligning-2024: Values like "Eneboliger: 5939.13" for Grünerløkka
+- **NOT** building counts in the area (impossible - Grünerløkka has no eneboliger)
+- **ACTUALLY** distribution of visitors by their housing type at home
+
+**Run `npm run audit:data` to identify semantic anomalies.**
+
 ---
 
 ## Build & Deploy
@@ -281,7 +291,8 @@ npm run build
 ### Manual Verification
 
 ```bash
-npm run verify      # Silent failure detection (257 JSON files)
+npm run verify      # Silent failure detection (329 JSON files)
+npm run audit:data  # Semantic data validation
 npm run type-check  # TypeScript validation
 npm run lint        # ESLint (0 issues)
 npm run test        # Jest unit tests
@@ -333,6 +344,7 @@ docs/
 | Kultur Subsections      | 5 (jazz, hiphop, film, teater, billedkunst)                      |
 | Mediebildet Subsections | 5 (avis, tv-film, podcast, digital, akademisk)                   |
 | ESLint Issues           | 0 ✅                                                             |
+| Data Audit              | 0 CRITICAL ✅ (semantic validation)                              |
 | Test Coverage           | 70% threshold                                                    |
 | Build Time              | ~30s                                                             |
 
@@ -347,6 +359,8 @@ npm run build            # Production build
 npm run test             # Run Jest tests
 npm run test:watch       # Tests in watch mode
 npm run verify           # Silent failure detection
+npm run audit:data       # Semantic data validation (verbose)
+npm run audit:data:critical  # Critical issues only
 
 # Git workflow
 git status && git diff   # Check changes
