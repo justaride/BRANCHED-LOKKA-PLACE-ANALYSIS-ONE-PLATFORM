@@ -387,7 +387,7 @@ When ending session:
 
 ---
 
-_Last Updated: January 22, 2026_
+_Last Updated: January 26, 2026_
 _Maintained by: Claude Code_
 
 ---
