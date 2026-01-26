@@ -1,14 +1,14 @@
-import { notFound } from 'next/navigation';
-import Container from '@/components/ui/Container';
-import { Card, CardContent } from '@/components/ui/Card';
-import QuarterlyComparisonCharts from '@/components/analyser/QuarterlyComparisonCharts';
-import QuarterlyDetailChart from '@/components/analyser/QuarterlyDetailChart';
-import QuarterlyInsights from '@/components/analyser/QuarterlyInsights';
-import PropertyOwnerAnalysis from '@/components/analyser/PropertyOwnerAnalysis';
-import { loadAnalysis } from '@/lib/loaders/place-loader';
-import { MainBoardLoaders } from '@/lib/loaders/main-board';
-import Link from 'next/link';
-import Image from 'next/image';
+import { notFound } from "next/navigation";
+import Container from "@/components/ui/Container";
+import { Card, CardContent } from "@/components/ui/Card";
+import QuarterlyComparisonCharts from "@/components/analyser/QuarterlyComparisonCharts";
+import QuarterlyDetailChart from "@/components/analyser/QuarterlyDetailChart";
+import QuarterlyInsights from "@/components/analyser/QuarterlyInsights";
+import PropertyOwnerAnalysis from "@/components/analyser/PropertyOwnerAnalysis";
+import { loadAnalysis } from "@/lib/loaders/place-loader";
+import { MainBoardLoaders } from "@/lib/loaders/main-board";
+import Link from "next/link";
+import Image from "next/image";
 
 interface DailyDataPoint {
   date: string;
@@ -20,12 +20,12 @@ interface DailyDataPoint {
 }
 
 export const metadata = {
-  title: 'Kvartalsrapport - Banktransaksjoner 2019-2025',
-  description: 'Sammenligning av banktransaksjoner per kvartal på Grünerløkka',
+  title: "Kvartalsrapport - Banktransaksjoner 2019-2025",
+  description: "Sammenligning av banktransaksjoner per kvartal på Grünerløkka",
 };
 
 export default async function KvartalsrapportPage() {
-  const analysis = await loadAnalysis('kvartalsrapport-banktransaksjoner');
+  const analysis = await loadAnalysis("kvartalsrapport-banktransaksjoner");
 
   if (!analysis) {
     notFound();
@@ -37,13 +37,13 @@ export default async function KvartalsrapportPage() {
   try {
     quarterlyData = await MainBoardLoaders.loadBanktransaksjoner2019_2025();
   } catch (error) {
-    console.error('Could not load quarterly data:', error);
+    console.error("Could not load quarterly data:", error);
   }
 
   try {
     dailyData = await MainBoardLoaders.loadDailyTransactions();
   } catch (error) {
-    console.error('Could not load daily data:', error);
+    console.error("Could not load daily data:", error);
   }
 
   return (
@@ -99,7 +99,7 @@ export default async function KvartalsrapportPage() {
             <p className="mt-2 text-sm text-gray-600 md:text-base">
               {analysis.metadata.notater && analysis.metadata.notater.length > 0
                 ? analysis.metadata.notater[0]
-                : 'Detaljert analyse av bankhandel-transaksjoner på Grünerløkka fordelt per kvartal fra 2019 til 2025.'}
+                : "Detaljert analyse av bankhandel-transaksjoner på Grünerløkka fordelt per kvartal fra 2019 til 2025."}
             </p>
           </div>
 
@@ -107,34 +107,48 @@ export default async function KvartalsrapportPage() {
             <div className="group relative overflow-hidden rounded-xl border border-gray-200/50 bg-white p-4 shadow-sm transition-all duration-300 hover:shadow-md md:rounded-2xl md:p-6">
               <div className="absolute right-0 top-0 h-2 w-full bg-blue-500" />
               <div className="relative mt-4">
-                <div className="mb-2 text-2xl font-bold text-natural-forest md:text-3xl">Q1</div>
+                <div className="mb-2 text-2xl font-bold text-natural-forest md:text-3xl">
+                  Q1
+                </div>
                 <div className="text-sm text-gray-600">Januar - Mars</div>
-                <div className="mt-2 text-xs text-gray-500">Vinter / Tidlig vår</div>
+                <div className="mt-2 text-xs text-gray-500">
+                  Vinter / Tidlig vår
+                </div>
               </div>
             </div>
 
             <div className="group relative overflow-hidden rounded-xl border border-gray-200/50 bg-white p-4 shadow-sm transition-all duration-300 hover:shadow-md md:rounded-2xl md:p-6">
               <div className="absolute right-0 top-0 h-2 w-full bg-green-500" />
               <div className="relative mt-4">
-                <div className="mb-2 text-2xl font-bold text-natural-forest md:text-3xl">Q2</div>
+                <div className="mb-2 text-2xl font-bold text-natural-forest md:text-3xl">
+                  Q2
+                </div>
                 <div className="text-sm text-gray-600">April - Juni</div>
-                <div className="mt-2 text-xs text-gray-500">Vår / Tidlig sommer</div>
+                <div className="mt-2 text-xs text-gray-500">
+                  Vår / Tidlig sommer
+                </div>
               </div>
             </div>
 
             <div className="group relative overflow-hidden rounded-xl border border-gray-200/50 bg-white p-4 shadow-sm transition-all duration-300 hover:shadow-md md:rounded-2xl md:p-6">
               <div className="absolute right-0 top-0 h-2 w-full bg-yellow-500" />
               <div className="relative mt-4">
-                <div className="mb-2 text-2xl font-bold text-natural-forest md:text-3xl">Q3</div>
+                <div className="mb-2 text-2xl font-bold text-natural-forest md:text-3xl">
+                  Q3
+                </div>
                 <div className="text-sm text-gray-600">Juli - September</div>
-                <div className="mt-2 text-xs text-gray-500">Sommer / Tidlig høst</div>
+                <div className="mt-2 text-xs text-gray-500">
+                  Sommer / Tidlig høst
+                </div>
               </div>
             </div>
 
             <div className="group relative overflow-hidden rounded-xl border border-gray-200/50 bg-white p-4 shadow-sm transition-all duration-300 hover:shadow-md md:rounded-2xl md:p-6">
               <div className="absolute right-0 top-0 h-2 w-full bg-orange-500" />
               <div className="relative mt-4">
-                <div className="mb-2 text-2xl font-bold text-natural-forest md:text-3xl">Q4</div>
+                <div className="mb-2 text-2xl font-bold text-natural-forest md:text-3xl">
+                  Q4
+                </div>
                 <div className="text-sm text-gray-600">Oktober - Desember</div>
                 <div className="mt-2 text-xs text-gray-500">Høst / Vinter</div>
               </div>
@@ -170,36 +184,53 @@ export default async function KvartalsrapportPage() {
           </div>
         )}
 
-        {dailyData && dailyData.quarters && Object.keys(dailyData.quarters).length > 0 && (
-          <div className="mt-16 space-y-16">
-            <div>
-              <h2 className="mb-8 text-3xl font-bold text-natural-forest">
-                Detaljert Daglig Analyse per Kvartal
-              </h2>
-              <p className="mb-8 text-gray-600">
-                Daglige banktransaksjoner fordelt på tre kategorier: Handel, Mat og opplevelser, og Tjenester
-              </p>
+        {dailyData &&
+          dailyData.quarters &&
+          Object.keys(dailyData.quarters).length > 0 && (
+            <div className="mt-16 space-y-16">
+              <div>
+                <h2 className="mb-8 text-3xl font-bold text-natural-forest">
+                  Detaljert Daglig Analyse per Kvartal
+                </h2>
+                <p className="mb-4 text-gray-600">
+                  Daglige banktransaksjoner fordelt på tre kategorier: Handel,
+                  Mat og opplevelser, og Tjenester
+                </p>
+                <div className="mb-8 rounded-lg border border-amber-200 bg-amber-50 p-4">
+                  <p className="text-sm text-amber-800">
+                    <strong>⚠️ Merk:</strong> Kategorifordelingen (Handel, Mat
+                    og opplevelser, Tjenester) er estimert basert på historiske
+                    mønstre og er under kvalitetssikring. BankAxept-data gir kun
+                    totaler, ikke kategorifordeling. For verifiserte totaltall,
+                    se grafene over.
+                  </p>
+                </div>
+              </div>
+
+              {Object.entries(dailyData.quarters)
+                .sort(([a], [b]) => a.localeCompare(b))
+                .map(
+                  ([quarterKey, dailyTransactions]: [
+                    string,
+                    DailyDataPoint[],
+                  ]) => {
+                    const [q, year] = quarterKey.split("_");
+                    const quarter = parseInt(q?.replace("Q", "") || "0");
+                    const quarterYear = parseInt(year || "0");
+
+                    return (
+                      <div key={quarterKey}>
+                        <QuarterlyDetailChart
+                          quarter={quarter}
+                          year={quarterYear}
+                          dailyData={dailyTransactions}
+                        />
+                      </div>
+                    );
+                  },
+                )}
             </div>
-
-            {Object.entries(dailyData.quarters)
-              .sort(([a], [b]) => a.localeCompare(b))
-              .map(([quarterKey, dailyTransactions]: [string, DailyDataPoint[]]) => {
-                const [q, year] = quarterKey.split('_');
-                const quarter = parseInt(q?.replace('Q', '') || '0');
-                const quarterYear = parseInt(year || '0');
-
-                return (
-                  <div key={quarterKey}>
-                    <QuarterlyDetailChart
-                      quarter={quarter}
-                      year={quarterYear}
-                      dailyData={dailyTransactions}
-                    />
-                  </div>
-                );
-              })}
-          </div>
-        )}
+          )}
 
         {analysis.metadata.notater && analysis.metadata.notater.length > 0 && (
           <div className="mt-8">
@@ -209,11 +240,13 @@ export default async function KvartalsrapportPage() {
                   Viktige notater
                 </h3>
                 <ul className="list-disc space-y-3 pl-5 text-gray-700">
-                  {analysis.metadata.notater.map((note: string, index: number) => (
-                    <li key={index} className="leading-relaxed">
-                      {note}
-                    </li>
-                  ))}
+                  {analysis.metadata.notater.map(
+                    (note: string, index: number) => (
+                      <li key={index} className="leading-relaxed">
+                        {note}
+                      </li>
+                    ),
+                  )}
                 </ul>
               </CardContent>
             </Card>
@@ -221,8 +254,10 @@ export default async function KvartalsrapportPage() {
         )}
 
         <div className="mt-12 text-center text-sm text-gray-500">
-          Datakilder: {analysis.plaaceData.datakilder.join(', ')} | Oppdatert:{' '}
-          {new Date(analysis.metadata.sistOppdatert).toLocaleDateString('nb-NO')}
+          Datakilder: {analysis.plaaceData.datakilder.join(", ")} | Oppdatert:{" "}
+          {new Date(analysis.metadata.sistOppdatert).toLocaleDateString(
+            "nb-NO",
+          )}
         </div>
       </Container>
     </>

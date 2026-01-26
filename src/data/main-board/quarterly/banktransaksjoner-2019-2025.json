@@ -5,7 +5,7 @@
     "area": "Grünerløkka +5 urbant område",
     "currency": "NOK",
     "dataSource": "Plaace.co",
-    "lastUpdated": "2025-11-16",
+    "lastUpdated": "2026-01-26",
     "notes": [
       "Q1 = Januar-Mars",
       "Q2 = April-Juni",
@@ -256,6 +256,15 @@
       "amount": 634371000,
       "transactionCount": 92000,
       "averageTransaction": 6895,
+      "note": "Parsed from CSV: 92 days"
+    },
+    {
+      "year": 2025,
+      "quarter": 4,
+      "quarterLabel": "Q4 2025",
+      "amount": 643668000,
+      "transactionCount": 92000,
+      "averageTransaction": 6996,
       "note": "Parsed from CSV: 92 days"
     }
   ]
