@@ -2,16 +2,14 @@ import { notFound } from "next/navigation";
 import Container from "@/components/ui/Container";
 import { Card, CardContent } from "@/components/ui/Card";
 import TabbedImageViewer from "@/components/analyser/TabbedImageViewer";
-// AktorOversikt removed until 2025 aktør data is available
-// import AktorOversikt from "@/components/analyser/AktorOversikt";
+import AktorOversikt from "@/components/analyser/AktorOversikt";
 import SimpleEventTimeline from "@/components/analyser/SimpleEventTimeline";
 import BankTransactionChart from "@/components/analyser/BankTransactionChart";
 import KonkurransebildeCharts from "@/components/analyser/KonkurransebildeCharts";
 import KorthandelCharts from "@/components/analyser/KorthandelCharts";
 import BevegelseCharts from "@/components/analyser/BevegelseCharts";
 import { loadAnalysis } from "@/lib/loaders/place-loader";
-// MainBoardLoaders removed until 2025 aktør data is available
-// import { MainBoardLoaders } from "@/lib/loaders/main-board";
+import { MainBoardLoaders } from "@/lib/loaders/main-board";
 import {
   generateBankTransactionData,
   generateVisitorData,
@@ -33,8 +31,7 @@ export default async function Analyse2025Page() {
     notFound();
   }
 
-  // Aktør data removed - was loading 2024 data
-  // TODO: Add 2025 aktør data when available
+  const aktorData = await MainBoardLoaders.loadAktorerArsrapport2025();
 
   const timelineEvents = analysis.events || [];
 
@@ -563,7 +560,11 @@ export default async function Analyse2025Page() {
         <div className="mb-12 md:mb-20">
           <KorthandelCharts basePath="/data/main-board/2025-arsrapport" />
 
-          {/* AktorOversikt removed - needs 2025 data */}
+          <AktorOversikt
+            actors={aktorData.actors}
+            categoryStats={aktorData.categoryStats}
+            metadata={aktorData.metadata}
+          />
         </div>
 
         <div className="mb-12 md:mb-20">

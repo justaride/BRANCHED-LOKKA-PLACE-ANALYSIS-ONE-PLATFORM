@@ -19,11 +19,12 @@
  */
 export async function loadKvartalsrapportBanktransaksjoner() {
   try {
-    const data = await import('@/data/main-board/analyser/kvartalsrapport-banktransaksjoner.json');
+    const data =
+      await import("@/data/main-board/analyser/kvartalsrapport-banktransaksjoner.json");
     return data.default;
   } catch (error) {
-    console.error('Error loading kvartalsrapport-banktransaksjoner:', error);
-    throw new Error('Failed to load quarterly bank transaction report');
+    console.error("Error loading kvartalsrapport-banktransaksjoner:", error);
+    throw new Error("Failed to load quarterly bank transaction report");
   }
 }
 
@@ -33,11 +34,12 @@ export async function loadKvartalsrapportBanktransaksjoner() {
  */
 export async function loadArsrapport2024() {
   try {
-    const data = await import('@/data/main-board/analyser/2024-arsrapport.json');
+    const data =
+      await import("@/data/main-board/analyser/2024-arsrapport.json");
     return data.default;
   } catch (error) {
-    console.error('Error loading 2024-arsrapport:', error);
-    throw new Error('Failed to load 2024 annual report');
+    console.error("Error loading 2024-arsrapport:", error);
+    throw new Error("Failed to load 2024 annual report");
   }
 }
 
@@ -47,11 +49,12 @@ export async function loadArsrapport2024() {
  */
 export async function loadAnalyserDemografi2017_2023() {
   try {
-    const data = await import('@/data/main-board/analyser/demografi-2017-2023.json');
+    const data =
+      await import("@/data/main-board/analyser/demografi-2017-2023.json");
     return data.default;
   } catch (error) {
-    console.error('Error loading analyser demografi-2017-2023:', error);
-    throw new Error('Failed to load demographic analysis 2017-2023');
+    console.error("Error loading analyser demografi-2017-2023:", error);
+    throw new Error("Failed to load demographic analysis 2017-2023");
   }
 }
 
@@ -61,11 +64,12 @@ export async function loadAnalyserDemografi2017_2023() {
  */
 export async function loadSammenligning2024() {
   try {
-    const data = await import('@/data/main-board/analyser/sammenligning-2024.json');
+    const data =
+      await import("@/data/main-board/analyser/sammenligning-2024.json");
     return data.default;
   } catch (error) {
-    console.error('Error loading sammenligning-2024:', error);
-    throw new Error('Failed to load 2024 comparison data');
+    console.error("Error loading sammenligning-2024:", error);
+    throw new Error("Failed to load 2024 comparison data");
   }
 }
 
@@ -79,11 +83,25 @@ export async function loadSammenligning2024() {
  */
 export async function loadAktorerArsrapport2024() {
   try {
-    const data = await import('@/data/main-board/aktorer/2024-arsrapport.json');
+    const data = await import("@/data/main-board/aktorer/2024-arsrapport.json");
     return data.default;
   } catch (error) {
-    console.error('Error loading aktorer 2024-arsrapport:', error);
-    throw new Error('Failed to load stakeholders annual report 2024');
+    console.error("Error loading aktorer 2024-arsrapport:", error);
+    throw new Error("Failed to load stakeholders annual report 2024");
+  }
+}
+
+/**
+ * Load aktører 2025 årsrapport
+ * Contains stakeholder annual report for 2025
+ */
+export async function loadAktorerArsrapport2025() {
+  try {
+    const data = await import("@/data/main-board/aktorer/2025-arsrapport.json");
+    return data.default;
+  } catch (error) {
+    console.error("Error loading aktorer 2025-arsrapport:", error);
+    throw new Error("Failed to load stakeholders annual report 2025");
   }
 }
 
@@ -93,11 +111,12 @@ export async function loadAktorerArsrapport2024() {
  */
 export async function loadSammenligningCombined() {
   try {
-    const data = await import('@/data/main-board/aktorer/sammenligning-2024/combined.json');
+    const data =
+      await import("@/data/main-board/aktorer/sammenligning-2024/combined.json");
     return data.default;
   } catch (error) {
-    console.error('Error loading sammenligning combined:', error);
-    throw new Error('Failed to load combined comparison data');
+    console.error("Error loading sammenligning combined:", error);
+    throw new Error("Failed to load combined comparison data");
   }
 }
 
@@ -107,11 +126,12 @@ export async function loadSammenligningCombined() {
  */
 export async function loadSammenliegningSentrum() {
   try {
-    const data = await import('@/data/main-board/aktorer/sammenligning-2024/sentrum.json');
+    const data =
+      await import("@/data/main-board/aktorer/sammenligning-2024/sentrum.json");
     return data.default;
   } catch (error) {
-    console.error('Error loading sammenligning sentrum:', error);
-    throw new Error('Failed to load Sentrum comparison data');
+    console.error("Error loading sammenligning sentrum:", error);
+    throw new Error("Failed to load Sentrum comparison data");
   }
 }
 
@@ -121,11 +141,12 @@ export async function loadSammenliegningSentrum() {
  */
 export async function loadSammenligningMajorstuen() {
   try {
-    const data = await import('@/data/main-board/aktorer/sammenligning-2024/majorstuen.json');
+    const data =
+      await import("@/data/main-board/aktorer/sammenligning-2024/majorstuen.json");
     return data.default;
   } catch (error) {
-    console.error('Error loading sammenligning majorstuen:', error);
-    throw new Error('Failed to load Majorstuen comparison data');
+    console.error("Error loading sammenligning majorstuen:", error);
+    throw new Error("Failed to load Majorstuen comparison data");
   }
 }
 
@@ -135,11 +156,12 @@ export async function loadSammenligningMajorstuen() {
  */
 export async function loadSammenligningLokka() {
   try {
-    const data = await import('@/data/main-board/aktorer/sammenligning-2024/lokka.json');
+    const data =
+      await import("@/data/main-board/aktorer/sammenligning-2024/lokka.json");
     return data.default;
   } catch (error) {
-    console.error('Error loading sammenligning lokka:', error);
-    throw new Error('Failed to load Løkka comparison data');
+    console.error("Error loading sammenligning lokka:", error);
+    throw new Error("Failed to load Løkka comparison data");
   }
 }
 
@@ -149,11 +171,12 @@ export async function loadSammenligningLokka() {
  */
 export async function loadSammenligningBjorvika() {
   try {
-    const data = await import('@/data/main-board/aktorer/sammenligning-2024/bjørvika.json');
+    const data =
+      await import("@/data/main-board/aktorer/sammenligning-2024/bjørvika.json");
     return data.default;
   } catch (error) {
-    console.error('Error loading sammenligning bjørvika:', error);
-    throw new Error('Failed to load Bjørvika comparison data');
+    console.error("Error loading sammenligning bjørvika:", error);
+    throw new Error("Failed to load Bjørvika comparison data");
   }
 }
 
@@ -179,8 +202,8 @@ export async function loadAllSammenligningAreas() {
       bjorvika,
     };
   } catch (error) {
-    console.error('Error loading all sammenligning areas:', error);
-    throw new Error('Failed to load all area comparison data');
+    console.error("Error loading all sammenligning areas:", error);
+    throw new Error("Failed to load all area comparison data");
   }
 }
 
@@ -194,11 +217,12 @@ export async function loadAllSammenligningAreas() {
  */
 export async function loadDemografi2017_2023() {
   try {
-    const data = await import('@/data/main-board/demografi/demografi-2017-2023.json');
+    const data =
+      await import("@/data/main-board/demografi/demografi-2017-2023.json");
     return data.default;
   } catch (error) {
-    console.error('Error loading demografi-2017-2023:', error);
-    throw new Error('Failed to load demographic data 2017-2023');
+    console.error("Error loading demografi-2017-2023:", error);
+    throw new Error("Failed to load demographic data 2017-2023");
   }
 }
 
@@ -212,11 +236,12 @@ export async function loadDemografi2017_2023() {
  */
 export async function loadDailyTransactions() {
   try {
-    const data = await import('@/data/main-board/quarterly/daily-transactions.json');
+    const data =
+      await import("@/data/main-board/quarterly/daily-transactions.json");
     return data.default;
   } catch (error) {
-    console.error('Error loading daily-transactions:', error);
-    throw new Error('Failed to load daily transactions data');
+    console.error("Error loading daily-transactions:", error);
+    throw new Error("Failed to load daily transactions data");
   }
 }
 
@@ -226,11 +251,12 @@ export async function loadDailyTransactions() {
  */
 export async function loadBanktransaksjoner2019_2025() {
   try {
-    const data = await import('@/data/main-board/quarterly/banktransaksjoner-2019-2025.json');
+    const data =
+      await import("@/data/main-board/quarterly/banktransaksjoner-2019-2025.json");
     return data.default;
   } catch (error) {
-    console.error('Error loading banktransaksjoner-2019-2025:', error);
-    throw new Error('Failed to load bank transactions 2019-2025');
+    console.error("Error loading banktransaksjoner-2019-2025:", error);
+    throw new Error("Failed to load bank transactions 2019-2025");
   }
 }
 
@@ -244,11 +270,11 @@ export async function loadBanktransaksjoner2019_2025() {
  */
 export async function loadGraphsRegistry() {
   try {
-    const data = await import('@/data/main-board/graphs/registry.json');
+    const data = await import("@/data/main-board/graphs/registry.json");
     return data.default;
   } catch (error) {
-    console.error('Error loading graphs registry:', error);
-    throw new Error('Failed to load graphs registry');
+    console.error("Error loading graphs registry:", error);
+    throw new Error("Failed to load graphs registry");
   }
 }
 
@@ -262,12 +288,13 @@ export async function loadGraphsRegistry() {
  */
 export async function loadAllAnalyserData() {
   try {
-    const [kvartalsrapport, arsrapport, demografi, sammenligning] = await Promise.all([
-      loadKvartalsrapportBanktransaksjoner(),
-      loadArsrapport2024(),
-      loadAnalyserDemografi2017_2023(),
-      loadSammenligning2024(),
-    ]);
+    const [kvartalsrapport, arsrapport, demografi, sammenligning] =
+      await Promise.all([
+        loadKvartalsrapportBanktransaksjoner(),
+        loadArsrapport2024(),
+        loadAnalyserDemografi2017_2023(),
+        loadSammenligning2024(),
+      ]);
 
     return {
       kvartalsrapport,
@@ -276,8 +303,8 @@ export async function loadAllAnalyserData() {
       sammenligning,
     };
   } catch (error) {
-    console.error('Error loading all analyser data:', error);
-    throw new Error('Failed to load all analysis data');
+    console.error("Error loading all analyser data:", error);
+    throw new Error("Failed to load all analysis data");
   }
 }
 
@@ -297,8 +324,8 @@ export async function loadAllAktorerData() {
       areas,
     };
   } catch (error) {
-    console.error('Error loading all aktorer data:', error);
-    throw new Error('Failed to load all stakeholder data');
+    console.error("Error loading all aktorer data:", error);
+    throw new Error("Failed to load all stakeholder data");
   }
 }
 
@@ -318,8 +345,8 @@ export async function loadAllQuarterlyData() {
       bankTransactions,
     };
   } catch (error) {
-    console.error('Error loading all quarterly data:', error);
-    throw new Error('Failed to load all quarterly data');
+    console.error("Error loading all quarterly data:", error);
+    throw new Error("Failed to load all quarterly data");
   }
 }
 
@@ -330,13 +357,15 @@ export async function loadAllQuarterlyData() {
  */
 export async function loadAllMainBoardData() {
   try {
-    const [analyser, aktorer, demografi, quarterly, graphs] = await Promise.all([
-      loadAllAnalyserData(),
-      loadAllAktorerData(),
-      loadDemografi2017_2023(),
-      loadAllQuarterlyData(),
-      loadGraphsRegistry(),
-    ]);
+    const [analyser, aktorer, demografi, quarterly, graphs] = await Promise.all(
+      [
+        loadAllAnalyserData(),
+        loadAllAktorerData(),
+        loadDemografi2017_2023(),
+        loadAllQuarterlyData(),
+        loadGraphsRegistry(),
+      ],
+    );
 
     return {
       analyser,
@@ -346,8 +375,8 @@ export async function loadAllMainBoardData() {
       graphs,
     };
   } catch (error) {
-    console.error('Error loading all Main Board data:', error);
-    throw new Error('Failed to load all Main Board data');
+    console.error("Error loading all Main Board data:", error);
+    throw new Error("Failed to load all Main Board data");
   }
 }
 
@@ -368,6 +397,7 @@ export const MainBoardLoaders = {
 
   // Aktører
   loadAktorerArsrapport2024,
+  loadAktorerArsrapport2025,
   loadSammenligningCombined,
   loadSammenliegningSentrum,
   loadSammenligningMajorstuen,
@@ -397,16 +427,17 @@ export const MainBoardLoaders = {
  * Usage: type ArsrapportData = LoaderReturnType<typeof loadArsrapport2024>;
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export type LoaderReturnType<T extends (...args: any[]) => any> = Awaited<ReturnType<T>>;
+export type LoaderReturnType<T extends (...args: any[]) => any> = Awaited<
+  ReturnType<T>
+>;
 
 // ============================================================================
 // EXPORTS
 // ============================================================================
 
 // Export all individual loaders
-export {
-  // (Already exported above)
-};
+export // (Already exported above)
+ {};
 
 // Default export
 export default MainBoardLoaders;
