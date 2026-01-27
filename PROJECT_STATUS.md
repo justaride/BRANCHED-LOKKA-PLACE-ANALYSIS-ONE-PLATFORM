@@ -1,6 +1,6 @@
 # Løkka Gardeierforening Platform - Project Status
 
-**Last Updated:** January 26, 2026 - Semantic Data Audit System
+**Last Updated:** January 27, 2026 - 2025 Årsrapport Complete
 **Current Status:** 🚀 **PRODUCTION READY** (99% Complete)
 **Deployment:** ✅ Live on Vercel
 **URL:** https://lokka-gardeierforening-platform.vercel.app
@@ -8,6 +8,9 @@
 **Test Status:** ✅ Jest configured with 70% coverage threshold
 **Latest Updates:**
 
+- **January 27, 2026: 2025 Årsrapport** - ✅ **COMPLETE** - Full annual report for Grünerløkka 2025. Includes bevegelse data (per time, ukedag, bevegelsesmønster, områder), korthandel data (årlig vekst 2020-2026, daglig data 365 dager, indeksert vekst 52 uker), nøkkeltall (53,666 daglig trafikk, 19.6M besøkende, 2.43B NOK korthandel, 4.27B NOK handelsomsetning), and 15 key events in activity timeline. Summary card links to full aktiviteter-2025.json with 19 events. Konkurransebilde data pending from source.
+- **January 27, 2026: 2025 Activity Calendar** - ✅ **COMPLETE** - Created `public/data/aktiviteter-2025.json` with 19 key events for Grünerløkka. Includes major festivals (Pride, Øya, Musikkfest) and local recurring events (Blå Søndagsmarked, Frank Znort). Detailed statistics and metadata included.
+- **January 26, 2026: Sammenligning 2024 Interactive Charts** - ✅ **COMPLETE** - Replaced static screenshots with interactive Recharts components for Konkurranse and Korthandel. Generated derived data for Competition analysis (Chains vs Independent, Category Mix) from existing actor lists. Created placeholder structure for Korthandel data to be filled with real figures.
 - **January 26, 2026: Semantic Data Audit System** - ✅ **COMPLETE** - Added `npm run audit:data` for semantic validation of JSON data. Fixed misleading chart labels in BesokendeComparisonCharts (antall-hus.json represents visitor housing types, not buildings). New scripts in `scripts/data-audit/` with plausibility checks for Oslo geographic data.
 - **January 26, 2026: Q4 2025 Kvartalsrapport** - ✅ **COMPLETE** - Added Q4 2025 data (643.668 MNOK, +0.45% vs Q4 2024). Added disclaimer for category distribution (estimated data). Created `docs/TODO-data-architecture.md` documenting future data quality work.
 - **January 22, 2026: Mediebildet Category** - ✅ **COMPLETE** - New Biblioteket category documenting media coverage of Grünerløkka (2000-2025). 49 items across 5 subsections: Avisartikler (15), TV & Film (10), Podcaster (3), Digitalt (8), Akademisk (13). Full TypeScript types, loader functions, and 6 new pages.
@@ -1005,20 +1008,22 @@ All tenants: test123
 
 ## 📈 Content Status
 
-### Main Board Content (95%) ✅
+### Main Board Content (98%) ✅
 
 **Completed:**
 
+- ✅ 2025 Årsrapport (NEW - bevegelse, korthandel, arrangementer)
 - ✅ 2024 Årsrapport
 - ✅ Demografi 2017-2023 analysis
 - ✅ Kvartalsrapport Banktransaksjoner
 - ✅ Sammenligning 2024
 - ✅ Timeline visualization
 - ✅ Business actors data
+- ✅ Aktivitetskalender 2024 & 2025
 
 **In Progress:**
 
-- 🔄 Additional monthly analyses
+- 🔄 2025 Årsrapport konkurransebilde data (awaiting source)
 - 🔄 Media coverage data
 - 🔄 Event impact analyses
 
@@ -1418,10 +1423,11 @@ The Løkka Gardeierforening Platform is **production-ready** and looking profess
 
 ---
 
-_Last Updated: January 22, 2026 by Claude Code_
+_Last Updated: January 27, 2026 by Claude Code_
 _Status: 🚀 PRODUCTION LIVE & EXCELLENT_
 _ESLint: 0 issues ✅ (100% clean)_
 _Tests: 27 unit tests with 70% coverage threshold_
 _Silent Failure Detection: ✅ Enabled_
 _5-min Analysis: Roger-Vodal (7 properties) complete | 1-min: Mathallen + Carucel_
+_Årsrapporter: 2024 (complete) + 2025 (bevegelse/korthandel/arrangementer)_
 _Biblioteket: 6 categories, 31 ildsjeler, Jazz/Hip-hop/Idrett/Mediebildet sections_
