@@ -344,6 +344,32 @@ export default async function Analyse2025Page() {
                 </div>
               ))}
             </div>
+
+            {/* Summary Card */}
+            <div className="mt-6 overflow-hidden rounded-xl border border-purple-200/50 bg-gradient-to-br from-purple-50/50 to-pink-50/50 p-4 shadow-sm md:mt-8 md:rounded-2xl md:p-6">
+              <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+                <div>
+                  <h4 className="mb-2 text-base font-semibold text-natural-forest md:text-lg">
+                    Fullstendig aktivitetskalender
+                  </h4>
+                  <p className="text-xs leading-relaxed text-gray-700 md:text-sm">
+                    <strong>19 arrangementer</strong> dokumentert i 2025, hvorav{" "}
+                    <strong>7 mega-arrangementer</strong> med 5000+ besøkende
+                    hver. <strong>58%</strong> av alle arrangementer var gratis
+                    tilgjengelige.
+                  </p>
+                </div>
+                <a
+                  href="/data/aktiviteter-2025.json"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-lg bg-natural-forest px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-natural-forest/90 md:px-6 md:py-3"
+                >
+                  <span>Se fullstendig kalender</span>
+                  <span>→</span>
+                </a>
+              </div>
+            </div>
           </Container>
         </section>
       )}
