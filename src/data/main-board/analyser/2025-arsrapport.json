@@ -20,7 +20,113 @@
     },
     "description": "En av Oslos mest livlige og kulturelt mangfoldige bydeler"
   },
-  "events": [],
+  "events": [
+    {
+      "id": "17-mai-2025",
+      "title": "17. Mai Feiring",
+      "date": "2025-05-17",
+      "description": "Nasjonaldagsfeiring med barnetog og folkeliv i gatene. Stengte gater og fullt i parker.",
+      "impactLevel": "high"
+    },
+    {
+      "id": "musikkfest-oslo-2025",
+      "title": "Musikkfest Oslo",
+      "date": "2025-06-07",
+      "description": "Gratis musikkfestival med scener over hele byen, inkludert Blå og Birkelunden.",
+      "impactLevel": "high"
+    },
+    {
+      "id": "piknik-i-parken-2025",
+      "title": "Piknik i Parken (PiP)",
+      "date": "2025-06-12",
+      "description": "Tredagers musikkfestival (12-14 juni) med internasjonale artister i Sofienbergparken.",
+      "impactLevel": "high"
+    },
+    {
+      "id": "oslo-pride-2025",
+      "title": "Oslo Pride",
+      "date": "2025-06-20",
+      "description": "Norges største feiring av skeiv kjærlighet (20-28 juni). 70 000+ besøkende i Sofienbergparken.",
+      "impactLevel": "high"
+    },
+    {
+      "id": "tons-of-rock-2025",
+      "title": "Tons of Rock",
+      "date": "2025-06-25",
+      "description": "Norges største rock- og metalfestival (25-28 juni). Stor trafikk gjennom bydelen.",
+      "impactLevel": "high"
+    },
+    {
+      "id": "oyafestivalen-2025",
+      "title": "Øyafestivalen",
+      "date": "2025-08-06",
+      "description": "En av Oslos viktigste musikkfestivaler (6-9 aug). 80 000 besøkende påvirker Løkka.",
+      "impactLevel": "high"
+    },
+    {
+      "id": "vulkandagene-2025",
+      "title": "Vulkandagene",
+      "date": "2025-08-15",
+      "description": "Folkefest på Vulkan (15-17 aug) med mat, musikk og aktiviteter.",
+      "impactLevel": "medium"
+    },
+    {
+      "id": "gjenapning-deichman-2025",
+      "title": "Gjenåpning Deichman Grünerløkka",
+      "date": "2025-08-09",
+      "description": "Feståpning etter oppussing med korps, show og aktiviteter på Schous Plass.",
+      "impactLevel": "low"
+    },
+    {
+      "id": "bylarm-2025",
+      "title": "ByLarm",
+      "date": "2025-09-11",
+      "description": "Nordens viktigste bransjefestival for musikk (11-13 sept) med scener på Løkka.",
+      "impactLevel": "medium"
+    },
+    {
+      "id": "oslo-kulturnatt-2025",
+      "title": "Oslo Kulturnatt",
+      "date": "2025-09-12",
+      "description": "Kulturinstitusjoner holder åpent sent med gratis inngang. 50 000 besøkende.",
+      "impactLevel": "high"
+    },
+    {
+      "id": "lokkadagene-host-2025",
+      "title": "Løkkadagene (Høst)",
+      "date": "2025-09-13",
+      "description": "Årlig markedshelg (13-14 sept) med boder, konserter og aktiviteter i hele bydelen.",
+      "impactLevel": "medium"
+    },
+    {
+      "id": "oslo-maraton-2025",
+      "title": "Oslo Maraton",
+      "date": "2025-09-20",
+      "description": "Tusenvis av løpere fyller gatene. Omfattende gatestenging gjennom Løkka.",
+      "impactLevel": "high"
+    },
+    {
+      "id": "elvelangs-2025",
+      "title": "Elvelangs i fakkellys",
+      "date": "2025-09-25",
+      "description": "Stemningsfull vandring langs Akerselva med kulturinnslag.",
+      "impactLevel": "medium"
+    },
+    {
+      "id": "mirage-2025",
+      "title": "Mirage Filmfestival",
+      "date": "2025-10-08",
+      "description": "Filmfestival (8-12 okt) på Vega Scene med kinokunst og live musikk.",
+      "impactLevel": "low"
+    },
+    {
+      "id": "loppemarked-2025",
+      "title": "Loppemarked Grünerløkka Skole",
+      "date": "2025-10-18",
+      "description": "Tradisjonsrikt loppemarked (18-19 okt) til inntekt for skolekorpset.",
+      "impactLevel": "low"
+    }
+  ],
   "media": [],
   "plaaceData": {
     "rapportDato": "2025-12-31",
@@ -89,7 +195,9 @@
     "heroImage": "/images/areas/grunerlokka.jpg",
     "notater": [
       "Årsrapport for Grünerløkka 2025",
-      "Bevegelse- og korthandeldata importert 2026-01-27"
+      "Bevegelse- og korthandeldata importert 2026-01-27",
+      "15 nøkkelarrangementer lagt til i tidslinje",
+      "Konkurransebilde-data mangler (ikke mottatt fra kilde)"
     ]
   }
 }
