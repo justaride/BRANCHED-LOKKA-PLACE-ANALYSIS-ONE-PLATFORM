@@ -2,14 +2,16 @@ import { notFound } from "next/navigation";
 import Container from "@/components/ui/Container";
 import { Card, CardContent } from "@/components/ui/Card";
 import TabbedImageViewer from "@/components/analyser/TabbedImageViewer";
-import AktorOversikt from "@/components/analyser/AktorOversikt";
+// AktorOversikt removed until 2025 aktør data is available
+// import AktorOversikt from "@/components/analyser/AktorOversikt";
 import SimpleEventTimeline from "@/components/analyser/SimpleEventTimeline";
 import BankTransactionChart from "@/components/analyser/BankTransactionChart";
 import KonkurransebildeCharts from "@/components/analyser/KonkurransebildeCharts";
 import KorthandelCharts from "@/components/analyser/KorthandelCharts";
 import BevegelseCharts from "@/components/analyser/BevegelseCharts";
 import { loadAnalysis } from "@/lib/loaders/place-loader";
-import { MainBoardLoaders } from "@/lib/loaders/main-board";
+// MainBoardLoaders removed until 2025 aktør data is available
+// import { MainBoardLoaders } from "@/lib/loaders/main-board";
 import {
   generateBankTransactionData,
   generateVisitorData,
@@ -31,12 +33,8 @@ export default async function Analyse2025Page() {
     notFound();
   }
 
-  let aktorData = null;
-  try {
-    aktorData = await MainBoardLoaders.loadAktorerArsrapport2024();
-  } catch (error) {
-    console.error("Could not load aktør data:", error);
-  }
+  // Aktør data removed - was loading 2024 data
+  // TODO: Add 2025 aktør data when available
 
   const timelineEvents = analysis.events || [];
 
@@ -565,15 +563,7 @@ export default async function Analyse2025Page() {
         <div className="mb-12 md:mb-20">
           <KorthandelCharts basePath="/data/main-board/2025-arsrapport" />
 
-          {aktorData && (
-            <div className="mt-12">
-              <AktorOversikt
-                actors={aktorData.actors}
-                categoryStats={aktorData.categoryStats}
-                metadata={aktorData.metadata}
-              />
-            </div>
-          )}
+          {/* AktorOversikt removed - needs 2025 data */}
         </div>
 
         <div className="mb-12 md:mb-20">

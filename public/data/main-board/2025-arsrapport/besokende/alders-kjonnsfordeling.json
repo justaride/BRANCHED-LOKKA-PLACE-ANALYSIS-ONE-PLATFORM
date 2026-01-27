@@ -1,0 +1,14 @@
+[
+  { "Category": "0-5", "Mann": 11712, "Kvinne": 11318 },
+  { "Category": "6-12", "Mann": 11514, "Kvinne": 11001 },
+  { "Category": "13-15", "Mann": 4793, "Kvinne": 4688 },
+  { "Category": "16-18", "Mann": 4789, "Kvinne": 4704 },
+  { "Category": "19-23", "Mann": 12605, "Kvinne": 15413 },
+  { "Category": "23-34", "Mann": 62484, "Kvinne": 62941 },
+  { "Category": "35-44", "Mann": 37926, "Kvinne": 31115 },
+  { "Category": "45-54", "Mann": 26614, "Kvinne": 22317 },
+  { "Category": "55-64", "Mann": 19757, "Kvinne": 17338 },
+  { "Category": "65-74", "Mann": 11879, "Kvinne": 12419 },
+  { "Category": "75-84", "Mann": 6832, "Kvinne": 7814 },
+  { "Category": "85+", "Mann": 1659, "Kvinne": 3053 }
+]

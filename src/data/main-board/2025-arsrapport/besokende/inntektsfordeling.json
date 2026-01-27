@@ -1,0 +1,14 @@
+[
+  { "Category": "0 NOK", "Antall": 50399 },
+  { "Category": "0 - 100k", "Antall": 49973 },
+  { "Category": "100k - 200k", "Antall": 43276 },
+  { "Category": "200k - 300k", "Antall": 46194 },
+  { "Category": "300k - 400k", "Antall": 53154 },
+  { "Category": "400k - 500k", "Antall": 50889 },
+  { "Category": "500k - 600k", "Antall": 37265 },
+  { "Category": "600k - 700k", "Antall": 24397 },
+  { "Category": "700k - 800k", "Antall": 16281 },
+  { "Category": "800k - 1 mill.", "Antall": 34636 },
+  { "Category": "1 mill. - 1,5 mill.", "Antall": 4853 },
+  { "Category": "1,5 mill.+", "Antall": 5356 }
+]

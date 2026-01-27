@@ -149,6 +149,13 @@
         "bevegelse/besok-per-ukedag.json",
         "bevegelse/bevegelsesmonster.json",
         "bevegelse/omrader-besokende-kommer-fra.json"
+      ],
+      "besokende": [
+        "besokende/alders-kjonnsfordeling.json",
+        "besokende/inntektsfordeling.json",
+        "besokende/antall-hus.json",
+        "besokende/husholdningstype.json",
+        "besokende/medianinntekt-husholdningstype.json"
       ]
     },
     "screenshots": [],
@@ -196,6 +203,7 @@
     "notater": [
       "Årsrapport for Grünerløkka 2025",
       "Bevegelse- og korthandeldata importert 2026-01-27",
+      "Besøkende-demografi (alder, kjønn, inntekt, bolig) importert 2026-01-27",
       "15 nøkkelarrangementer lagt til i tidslinje",
       "Konkurransebilde-data mangler (ikke mottatt fra kilde)"
     ]
