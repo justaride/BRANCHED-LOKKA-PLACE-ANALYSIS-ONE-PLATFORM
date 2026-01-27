@@ -1,1 +1,13 @@
-[]
+[
+  { "Category": 2015, "Uavhengig (mNOK)": 45.94, "Kjeder (mNOK)": 54.06 },
+  { "Category": 2016, "Uavhengig (mNOK)": 45.14, "Kjeder (mNOK)": 54.86 },
+  { "Category": 2017, "Uavhengig (mNOK)": 50.18, "Kjeder (mNOK)": 49.82 },
+  { "Category": 2018, "Uavhengig (mNOK)": 49.39, "Kjeder (mNOK)": 50.61 },
+  { "Category": 2019, "Uavhengig (mNOK)": 46.77, "Kjeder (mNOK)": 53.23 },
+  { "Category": 2020, "Uavhengig (mNOK)": 40.87, "Kjeder (mNOK)": 59.13 },
+  { "Category": 2021, "Uavhengig (mNOK)": 41.75, "Kjeder (mNOK)": 58.25 },
+  { "Category": 2022, "Uavhengig (mNOK)": 48.61, "Kjeder (mNOK)": 51.39 },
+  { "Category": 2023, "Uavhengig (mNOK)": 47.13, "Kjeder (mNOK)": 52.87 },
+  { "Category": 2024, "Uavhengig (mNOK)": 48.5, "Kjeder (mNOK)": 51.5 },
+  { "Category": 2025, "Uavhengig (mNOK)": 49.59, "Kjeder (mNOK)": 50.41 }
+]
