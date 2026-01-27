@@ -1,0 +1,95 @@
+{
+  "id": "2025-arsrapport",
+  "title": "Grünerløkka 2025 - Årsrapport",
+  "analysisType": "monthly",
+  "period": {
+    "type": "year",
+    "year": 2025,
+    "startDate": "2025-01-01",
+    "endDate": "2025-12-31",
+    "label": "2025"
+  },
+  "area": {
+    "id": "grunerlokka",
+    "name": "Grünerløkka",
+    "displayName": "Grünerløkka, Oslo",
+    "type": "district",
+    "coordinates": {
+      "lat": 59.9239,
+      "lng": 10.7579
+    },
+    "description": "En av Oslos mest livlige og kulturelt mangfoldige bydeler"
+  },
+  "events": [],
+  "media": [],
+  "plaaceData": {
+    "rapportDato": "2025-12-31",
+    "datakilder": ["Plaace.ai", "BankAxept", "Telia", "Analysebutikken", "SSB"],
+    "dataFiles": {
+      "konkurransebilde": [
+        "konkurransebilde/kjeder-vs-uavhengige.json",
+        "konkurransebilde/konseptmiks.json",
+        "konkurransebilde/over-og-underandel-vs-kommune.json",
+        "konkurransebilde/utvikling-per-ar.json"
+      ],
+      "korthandel": [
+        "korthandel/arlig-vekst.json",
+        "korthandel/korthandel-i-valgt-tidsrom.json",
+        "korthandel/korthandel-per-ukedag.json",
+        "korthandel/indeksert-vekst.json"
+      ],
+      "bevegelse": [
+        "bevegelse/besok-per-time.json",
+        "bevegelse/besok-per-ukedag.json",
+        "bevegelse/bevegelsesmonster.json",
+        "bevegelse/omrader-besokende-kommer-fra.json"
+      ]
+    },
+    "screenshots": [],
+    "nokkeldata": {
+      "befolkning": null,
+      "dagligTrafikk": 53666,
+      "besokende": 19588090,
+      "handelsomsetning": 4265000000,
+      "korthandel": 2430840000,
+      "antallKonsepter": null,
+      "omrade": "1.14 km²"
+    },
+    "demografi": {
+      "totalBefolkning": null,
+      "aldersfordeling": {
+        "0-17": null,
+        "18-29": null,
+        "30-49": null,
+        "50-66": null,
+        "67+": null
+      },
+      "husstandsstorrelse": null
+    },
+    "marked": {
+      "omsetning": null,
+      "totalAktorer": null,
+      "ansatte": null
+    },
+    "bevegelse": {
+      "dagligTrafikk": 53666,
+      "besoksmønster": {
+        "ukedag": 55245,
+        "helg": 49928
+      }
+    }
+  },
+  "metadata": {
+    "opprettet": "2026-01-27",
+    "sistOppdatert": "2026-01-27",
+    "status": "aktiv",
+    "versjon": 1,
+    "forfatter": "Natural State",
+    "kilde": ["Plaace.ai"],
+    "heroImage": "/images/areas/grunerlokka.jpg",
+    "notater": [
+      "Årsrapport for Grünerløkka 2025",
+      "Bevegelse- og korthandeldata importert 2026-01-27"
+    ]
+  }
+}

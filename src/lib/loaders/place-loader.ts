@@ -5,7 +5,7 @@
  * Adapted from original Main Board place-loader.ts
  */
 
-import type { PlaceAnalysis } from '@/types/place-analysis';
+import type { PlaceAnalysis } from "@/types/place-analysis";
 
 /**
  * Load all analyses for Main Board
@@ -14,17 +14,42 @@ export async function loadAllAnalyses(): Promise<PlaceAnalysis[]> {
   try {
     // Import all main board analysis files
     const analyses = await Promise.all([
-      import('@/data/main-board/analyser/kvartalsrapport-banktransaksjoner.json').then(m => m.default as unknown as PlaceAnalysis),
-      import('@/data/main-board/analyser/2024-arsrapport.json').then(m => m.default as unknown as PlaceAnalysis),
-      import('@/data/main-board/analyser/demografi-2017-2023.json').then(m => m.default as unknown as PlaceAnalysis),
-      import('@/data/main-board/analyser/sammenligning-2024.json').then(m => m.default as unknown as PlaceAnalysis),
-      import('@/data/main-board/analyser/nedre-lokka-omradeprofil.json').then(m => m.default as unknown as PlaceAnalysis),
-      import('@/data/main-board/analyser/ovre-thorvald-meyers-gate.json').then(m => m.default as unknown as PlaceAnalysis),
-      import('@/data/main-board/analyser/nedre-thorvald-meyers-gate.json').then(m => m.default as unknown as PlaceAnalysis),
-      import('@/data/main-board/analyser/midt-i-markveien.json').then(m => m.default as unknown as PlaceAnalysis),
-      import('@/data/main-board/analyser/olaf-ryes-plass-7eleven.json').then(m => m.default as unknown as PlaceAnalysis),
-      import('@/data/main-board/analyser/olaf-ryes-plass-boots.json').then(m => m.default as unknown as PlaceAnalysis),
-      import('@/data/main-board/analyser/nederst-i-markveien.json').then(m => m.default as unknown as PlaceAnalysis),
+      import("@/data/main-board/analyser/kvartalsrapport-banktransaksjoner.json").then(
+        (m) => m.default as unknown as PlaceAnalysis,
+      ),
+      import("@/data/main-board/analyser/2025-arsrapport.json").then(
+        (m) => m.default as unknown as PlaceAnalysis,
+      ),
+      import("@/data/main-board/analyser/2024-arsrapport.json").then(
+        (m) => m.default as unknown as PlaceAnalysis,
+      ),
+      import("@/data/main-board/analyser/demografi-2017-2023.json").then(
+        (m) => m.default as unknown as PlaceAnalysis,
+      ),
+      import("@/data/main-board/analyser/sammenligning-2024.json").then(
+        (m) => m.default as unknown as PlaceAnalysis,
+      ),
+      import("@/data/main-board/analyser/nedre-lokka-omradeprofil.json").then(
+        (m) => m.default as unknown as PlaceAnalysis,
+      ),
+      import("@/data/main-board/analyser/ovre-thorvald-meyers-gate.json").then(
+        (m) => m.default as unknown as PlaceAnalysis,
+      ),
+      import("@/data/main-board/analyser/nedre-thorvald-meyers-gate.json").then(
+        (m) => m.default as unknown as PlaceAnalysis,
+      ),
+      import("@/data/main-board/analyser/midt-i-markveien.json").then(
+        (m) => m.default as unknown as PlaceAnalysis,
+      ),
+      import("@/data/main-board/analyser/olaf-ryes-plass-7eleven.json").then(
+        (m) => m.default as unknown as PlaceAnalysis,
+      ),
+      import("@/data/main-board/analyser/olaf-ryes-plass-boots.json").then(
+        (m) => m.default as unknown as PlaceAnalysis,
+      ),
+      import("@/data/main-board/analyser/nederst-i-markveien.json").then(
+        (m) => m.default as unknown as PlaceAnalysis,
+      ),
     ]);
 
     // Sort by date (newest first)
@@ -34,7 +59,7 @@ export async function loadAllAnalyses(): Promise<PlaceAnalysis[]> {
       return dateB.getTime() - dateA.getTime();
     });
   } catch (error) {
-    console.error('Error loading analyses:', error);
+    console.error("Error loading analyses:", error);
     return [];
   }
 }
@@ -57,17 +82,18 @@ export async function loadAnalysis(id: string): Promise<PlaceAnalysis | null> {
  */
 export async function getAllAnalysisIds(): Promise<string[]> {
   return [
-    'kvartalsrapport-banktransaksjoner',
-    '2024-arsrapport',
-    'demografi-2017-2023',
-    'sammenligning-2024',
-    'nedre-lokka-omradeprofil',
-    'ovre-thorvald-meyers-gate',
-    'nedre-thorvald-meyers-gate',
-    'midt-i-markveien',
-    'olaf-ryes-plass-7eleven',
-    'olaf-ryes-plass-boots',
-    'nederst-i-markveien'
+    "kvartalsrapport-banktransaksjoner",
+    "2025-arsrapport",
+    "2024-arsrapport",
+    "demografi-2017-2023",
+    "sammenligning-2024",
+    "nedre-lokka-omradeprofil",
+    "ovre-thorvald-meyers-gate",
+    "nedre-thorvald-meyers-gate",
+    "midt-i-markveien",
+    "olaf-ryes-plass-7eleven",
+    "olaf-ryes-plass-boots",
+    "nederst-i-markveien",
   ];
 }
 
@@ -75,7 +101,7 @@ export async function getAllAnalysisIds(): Promise<string[]> {
  * Load analyses by type
  */
 export async function loadAnalysesByType(
-  type: PlaceAnalysis['analysisType']
+  type: PlaceAnalysis["analysisType"],
 ): Promise<PlaceAnalysis[]> {
   const allAnalyses = await loadAllAnalyses();
   return allAnalyses.filter((analysis) => analysis.analysisType === type);
@@ -84,7 +110,9 @@ export async function loadAnalysesByType(
 /**
  * Load analyses by year
  */
-export async function loadAnalysesByYear(year: number): Promise<PlaceAnalysis[]> {
+export async function loadAnalysesByYear(
+  year: number,
+): Promise<PlaceAnalysis[]> {
   const allAnalyses = await loadAllAnalyses();
   return allAnalyses.filter((analysis) => analysis.period.year === year);
 }
@@ -92,9 +120,11 @@ export async function loadAnalysesByYear(year: number): Promise<PlaceAnalysis[]>
 /**
  * Get monthly analyses for a specific year
  */
-export async function getMonthlyAnalyses(year: number): Promise<PlaceAnalysis[]> {
+export async function getMonthlyAnalyses(
+  year: number,
+): Promise<PlaceAnalysis[]> {
   const allAnalyses = await loadAnalysesByYear(year);
   return allAnalyses
-    .filter((analysis) => analysis.analysisType === 'monthly')
+    .filter((analysis) => analysis.analysisType === "monthly")
     .sort((a, b) => (a.period.month || 0) - (b.period.month || 0));
 }
