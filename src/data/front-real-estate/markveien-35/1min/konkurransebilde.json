@@ -1,0 +1,121 @@
+{
+  "nøkkeltall": {
+    "konseptTetthet": 1244,
+    "totalOmsetning": 332,
+    "omsetningTetthet": 17000,
+    "trend": {
+      "konseptTetthet": 0,
+      "omsetning": 11
+    }
+  },
+  "konseptmiks": [
+    {
+      "kategori1": "Mat og opplevelser",
+      "kategori2": "Restaurant",
+      "antall": 14.8
+    },
+    {
+      "kategori1": "Mat og opplevelser",
+      "kategori2": "Bakeri og kafé",
+      "antall": 3.7
+    },
+    { "kategori1": "Handel", "kategori2": "Klesbutikker", "antall": 14.8 },
+    { "kategori1": "Handel", "kategori2": "Sport og fritid", "antall": 3.7 },
+    { "kategori1": "Handel", "kategori2": "Mat og drikke", "antall": 11.1 },
+    { "kategori1": "Handel", "kategori2": "Annen handel", "antall": 14.8 },
+    { "kategori1": "Handel", "kategori2": "Hjem og interiør", "antall": 3.7 },
+    {
+      "kategori1": "Tjenester",
+      "kategori2": "Skjønnhet og velvære",
+      "antall": 14.8
+    },
+    { "kategori1": "Tjenester", "kategori2": "Profesjoner", "antall": 14.8 },
+    { "kategori1": "Tjenester", "kategori2": "Treningssentre", "antall": 3.7 }
+  ],
+  "kjederVsUavhengige": [
+    { "år": "2015", "uavhengig": 9.09, "kjeder": 90.91 },
+    { "år": "2016", "uavhengig": 10.1, "kjeder": 89.9 },
+    { "år": "2017", "uavhengig": 35.42, "kjeder": 64.58 },
+    { "år": "2018", "uavhengig": 21.15, "kjeder": 78.85 },
+    { "år": "2019", "uavhengig": 27.03, "kjeder": 72.97 },
+    { "år": "2020", "uavhengig": 23.56, "kjeder": 76.44 },
+    { "år": "2021", "uavhengig": 18.56, "kjeder": 81.44 },
+    { "år": "2022", "uavhengig": 26.25, "kjeder": 73.75 },
+    { "år": "2023", "uavhengig": 27.01, "kjeder": 72.99 },
+    { "år": "2024", "uavhengig": 26.38, "kjeder": 73.62 },
+    { "år": "2025", "uavhengig": 24.59, "kjeder": 75.41 }
+  ],
+  "overUnderandel": {
+    "matOpplevelser": -5.54,
+    "handel": -3.0,
+    "tjenester": 8.54
+  },
+  "utviklingPerÅr": [
+    {
+      "år": "2015",
+      "matOpplevelser": 3.41,
+      "handel": 182.79,
+      "tjenester": 6.37
+    },
+    {
+      "år": "2016",
+      "matOpplevelser": 4.31,
+      "handel": 192.97,
+      "tjenester": 7.36
+    },
+    {
+      "år": "2017",
+      "matOpplevelser": 5.43,
+      "handel": 103.0,
+      "tjenester": 37.86
+    },
+    {
+      "år": "2018",
+      "matOpplevelser": 3.81,
+      "handel": 202.82,
+      "tjenester": 36.72
+    },
+    {
+      "år": "2019",
+      "matOpplevelser": 13.98,
+      "handel": 206.96,
+      "tjenester": 45.62
+    },
+    {
+      "år": "2020",
+      "matOpplevelser": 17.96,
+      "handel": 227.6,
+      "tjenester": 43.81
+    },
+    {
+      "år": "2021",
+      "matOpplevelser": 19.98,
+      "handel": 241.85,
+      "tjenester": 30.9
+    },
+    {
+      "år": "2022",
+      "matOpplevelser": 20.76,
+      "handel": 193.49,
+      "tjenester": 45.4
+    },
+    {
+      "år": "2023",
+      "matOpplevelser": 28.17,
+      "handel": 209.44,
+      "tjenester": 52.14
+    },
+    {
+      "år": "2024",
+      "matOpplevelser": 26.0,
+      "handel": 213.31,
+      "tjenester": 59.17
+    },
+    {
+      "år": "2025",
+      "matOpplevelser": 18.5,
+      "handel": 251.58,
+      "tjenester": 61.84
+    }
+  ]
+}

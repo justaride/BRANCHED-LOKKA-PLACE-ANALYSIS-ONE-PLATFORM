@@ -1,13 +1,21 @@
 # Løkka Gardeierforening Platform - Project Status
 
-**Last Updated:** January 27, 2026 - 2025 Årsrapport 100% Complete
+**Last Updated:** January 28, 2026 - Markveien 35 1-min Analysis Complete
 **Current Status:** 🚀 **PRODUCTION READY** (99% Complete)
 **Deployment:** ✅ Live on Vercel
 **URL:** https://lokka-gardeierforening-platform.vercel.app
-**Build Status:** ✅ 120 static pages, ESLint 0 issues, Data Audit 0 CRITICAL
+**Build Status:** ✅ 121 static pages, ESLint 0 issues, Data Audit 0 CRITICAL
 **Test Status:** ✅ Jest configured with 70% coverage threshold
 **Latest Updates:**
 
+- **January 28, 2026: Markveien 35 1-min Analysis** - ✅ **COMPLETE** - New tenant-specific 1-minute stedsanalyse for Front Real Estate:
+  - **Location:** `/front-real-estate/eiendommer/markveien-35/analyse`
+  - **Data Period:** 01.10.2025 - 31.12.2025
+  - **Nøkkeltall:** 8,468 daglige besøk, 499 befolkning, 1,244/km² konsepttetthet
+  - **Omsetning:** NOK 332M total, NOK 2.6M daglig korthandel
+  - **Aktører:** 20 businesses tracked with full financial data
+  - **5 JSON files:** demografi, bevegelse, konkurransebilde, korthandel, aktorer
+  - **Loader registered:** `one-min-loader.ts` updated with Front Real Estate entry
 - **January 27, 2026: 2025 Årsrapport** - ✅ **100% COMPLETE** - Full annual report for Grünerløkka 2025 with ALL data imported:
   - **Bevegelse:** per time, ukedag, bevegelsesmønster, områder
   - **Korthandel:** årlig vekst 2020-2026, daglig data 365 dager, indeksert vekst 52 uker
@@ -879,9 +887,10 @@ Authentication:
 
 #### ✅ Front Real Estate (`/malling-co`)
 
-- **Properties:** 1
-- **Status:** ✅ Complete with hero image
+- **Properties:** 1 (Markveien 35)
+- **Status:** ✅ Complete with hero image + 1-min analysis
 - **Special:** Singular "Vår Eiendom" text (Formerly Malling & Co)
+- **1-min Analysis:** 8,468 daily visits, 20 actors, NOK 332M revenue
 
 #### ✅ SiO (`/sio`)
 
@@ -1428,11 +1437,11 @@ The Løkka Gardeierforening Platform is **production-ready** and looking profess
 
 ---
 
-_Last Updated: January 27, 2026 by Claude Code_
+_Last Updated: January 28, 2026 by Claude Code_
 _Status: 🚀 PRODUCTION LIVE & EXCELLENT_
 _ESLint: 0 issues ✅ (100% clean)_
 _Tests: 27 unit tests with 70% coverage threshold_
 _Silent Failure Detection: ✅ Enabled_
-_5-min Analysis: Roger-Vodal (7 properties) complete | 1-min: Mathallen + Carucel_
+_5-min Analysis: Roger-Vodal (7 properties) complete | 1-min: Mathallen + Carucel + Markveien 35_
 _Årsrapporter: 2024 (complete) + 2025 (100% complete: bevegelse/korthandel/konkurransebilde/aktører)_
 _Biblioteket: 6 categories, 31 ildsjeler, Jazz/Hip-hop/Idrett/Mediebildet sections_

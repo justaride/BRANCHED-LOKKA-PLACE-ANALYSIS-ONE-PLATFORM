@@ -1,0 +1,113 @@
+{
+  "nøkkeltall": {
+    "dagligBesøk": 8468,
+    "besøkPerKm2": 65750,
+    "travlesteDag": "lørdag",
+    "lørdagAndel": 18,
+    "periode": "01.10.2025 - 31.12.2025"
+  },
+  "perTime": [
+    { "time": "00:00", "besøk": 325 },
+    { "time": "01:00", "besøk": 286 },
+    { "time": "02:00", "besøk": 222 },
+    { "time": "03:00", "besøk": 173 },
+    { "time": "04:00", "besøk": 141 },
+    { "time": "05:00", "besøk": 141 },
+    { "time": "06:00", "besøk": 159 },
+    { "time": "07:00", "besøk": 189 },
+    { "time": "08:00", "besøk": 220 },
+    { "time": "09:00", "besøk": 234 },
+    { "time": "10:00", "besøk": 271 },
+    { "time": "11:00", "besøk": 344 },
+    { "time": "12:00", "besøk": 453 },
+    { "time": "13:00", "besøk": 585 },
+    { "time": "14:00", "besøk": 690 },
+    { "time": "15:00", "besøk": 762 },
+    { "time": "16:00", "besøk": 822 },
+    { "time": "17:00", "besøk": 824 },
+    { "time": "18:00", "besøk": 776 },
+    { "time": "19:00", "besøk": 709 },
+    { "time": "20:00", "besøk": 612 },
+    { "time": "21:00", "besøk": 510 },
+    { "time": "22:00", "besøk": 436 },
+    { "time": "23:00", "besøk": 386 }
+  ],
+  "perUkedag": [
+    { "dag": "man.", "besøkende": 3884, "påJobb": 1240, "hjemme": 2853 },
+    { "dag": "tir.", "besøkende": 3935, "påJobb": 1263, "hjemme": 2861 },
+    { "dag": "ons.", "besøkende": 4059, "påJobb": 1224, "hjemme": 2865 },
+    { "dag": "tor.", "besøkende": 4246, "påJobb": 1224, "hjemme": 2951 },
+    { "dag": "fre.", "besøkende": 5345, "påJobb": 1351, "hjemme": 3089 },
+    { "dag": "lør.", "besøkende": 6456, "påJobb": 1456, "hjemme": 3169 },
+    { "dag": "søn.", "besøkende": 4231, "påJobb": 1027, "hjemme": 2731 }
+  ],
+  "bevegelsesmønster": [
+    {
+      "kategori": "Q1 2023",
+      "besøkende": 4553,
+      "påJobb": 1449,
+      "hjemme": 3057
+    },
+    {
+      "kategori": "Q2 2023",
+      "besøkende": 4871,
+      "påJobb": 1247,
+      "hjemme": 2764
+    },
+    {
+      "kategori": "Q3 2023",
+      "besøkende": 4623,
+      "påJobb": 1167,
+      "hjemme": 2713
+    },
+    {
+      "kategori": "Q4 2023",
+      "besøkende": 4146,
+      "påJobb": 1217,
+      "hjemme": 2973
+    },
+    {
+      "kategori": "Q1 2024",
+      "besøkende": 3740,
+      "påJobb": 1197,
+      "hjemme": 2908
+    },
+    {
+      "kategori": "Q2 2024",
+      "besøkende": 5175,
+      "påJobb": 1259,
+      "hjemme": 3106
+    },
+    {
+      "kategori": "Q3 2024",
+      "besøkende": 4669,
+      "påJobb": 1089,
+      "hjemme": 2855
+    },
+    {
+      "kategori": "Q4 2024",
+      "besøkende": 4222,
+      "påJobb": 1173,
+      "hjemme": 2951
+    },
+    {
+      "kategori": "Q1 2025",
+      "besøkende": 3939,
+      "påJobb": 1169,
+      "hjemme": 2854
+    },
+    {
+      "kategori": "Q2 2025",
+      "besøkende": 4698,
+      "påJobb": 1104,
+      "hjemme": 2712
+    },
+    {
+      "kategori": "Q3 2025",
+      "besøkende": 4571,
+      "påJobb": 1052,
+      "hjemme": 2605
+    },
+    { "kategori": "Q4 2025", "besøkende": 4588, "påJobb": 1255, "hjemme": 2931 }
+  ]
+}
