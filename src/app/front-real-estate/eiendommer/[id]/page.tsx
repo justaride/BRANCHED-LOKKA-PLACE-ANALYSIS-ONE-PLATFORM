@@ -1,14 +1,18 @@
-import { notFound } from 'next/navigation';
-import { loadEiendom, getAllPropertyIds } from '@/lib/loaders/front-real-estate';
-import Container from '@/components/ui/Container';
-import AnalyseSelector from '@/components/property/AnalyseSelector';
-import KeyMetrics from '@/components/property/KeyMetrics';
-import EiendomsprofilExpander from '@/components/property/EiendomsprofilExpander';
-import BusinessActors from '@/components/property/BusinessActors';
-import FadeIn from '@/components/ui/FadeIn';
-import Link from 'next/link';
-import Image from 'next/image';
-import { formaterDato } from '@/lib/utils';
+import { notFound } from "next/navigation";
+import {
+  loadEiendom,
+  getAllPropertyIds,
+} from "@/lib/loaders/front-real-estate";
+import { loadOneMinAnalysisData } from "@/lib/loaders/one-min-loader";
+import Container from "@/components/ui/Container";
+import AnalyseSelector from "@/components/property/AnalyseSelector";
+import KeyMetrics from "@/components/property/KeyMetrics";
+import EiendomsprofilExpander from "@/components/property/EiendomsprofilExpander";
+import BusinessActors from "@/components/property/BusinessActors";
+import FadeIn from "@/components/ui/FadeIn";
+import Link from "next/link";
+import Image from "next/image";
+import { formaterDato } from "@/lib/utils";
 
 interface PageProps {
   params: Promise<{
@@ -27,7 +31,7 @@ export async function generateMetadata({ params }: PageProps) {
 
   if (!eiendom) {
     return {
-      title: 'Eiendom ikke funnet',
+      title: "Eiendom ikke funnet",
     };
   }
 
@@ -37,7 +41,9 @@ export async function generateMetadata({ params }: PageProps) {
   };
 }
 
-export default async function FrontRealEstateEiendomPage({ params }: PageProps) {
+export default async function FrontRealEstateEiendomPage({
+  params,
+}: PageProps) {
   const { id } = await params;
   const eiendom = await loadEiendom(id);
 
@@ -45,18 +51,23 @@ export default async function FrontRealEstateEiendomPage({ params }: PageProps) 
     notFound();
   }
 
+  // Load 1-minute analysis data if available
+  const oneMinData = await loadOneMinAnalysisData("front-real-estate", id);
+
   // Calculate metrics from næringsaktører data
-  const totalRevenue = eiendom.naringsaktorer?.actors?.reduce(
-    (sum, actor) => sum + (actor.omsetning || 0),
-    0
-  ) || 0;
+  const totalRevenue =
+    eiendom.naringsaktorer?.actors?.reduce(
+      (sum, actor) => sum + (actor.omsetning || 0),
+      0,
+    ) || 0;
 
   const totalActors = eiendom.naringsaktorer?.metadata?.totalActors || 0;
 
   const topCategory = eiendom.naringsaktorer?.categoryStats
-    ? Object.entries(eiendom.naringsaktorer.categoryStats)
-      .sort((a, b) => b[1].count - a[1].count)[0]?.[0] || ''
-    : '';
+    ? Object.entries(eiendom.naringsaktorer.categoryStats).sort(
+        (a, b) => b[1].count - a[1].count,
+      )[0]?.[0] || ""
+    : "";
 
   return (
     <>
@@ -78,7 +89,9 @@ export default async function FrontRealEstateEiendomPage({ params }: PageProps) 
             {/* Text Content */}
             <div className="flex-1">
               <FadeIn delay={100} direction="up">
-                <h1 className="mb-4 text-3xl font-bold leading-tight tracking-tight text-gray-900 md:mb-6 md:text-5xl lg:text-6xl">{eiendom.adresse}</h1>
+                <h1 className="mb-4 text-3xl font-bold leading-tight tracking-tight text-gray-900 md:mb-6 md:text-5xl lg:text-6xl">
+                  {eiendom.adresse}
+                </h1>
               </FadeIn>
               {eiendom.beskrivelse && (
                 <FadeIn delay={200} direction="up">
@@ -91,11 +104,12 @@ export default async function FrontRealEstateEiendomPage({ params }: PageProps) 
                 <div className="flex flex-wrap gap-2 text-xs md:gap-3 md:text-sm">
                   {eiendom.gnr && eiendom.bnr && (
                     <div className="rounded-lg bg-gray-200 px-3 py-1.5 text-gray-700 md:px-4 md:py-2">
-                      <span className="font-semibold">Gnr/Bnr:</span> {eiendom.gnr}/{eiendom.bnr}
+                      <span className="font-semibold">Gnr/Bnr:</span>{" "}
+                      {eiendom.gnr}/{eiendom.bnr}
                     </div>
                   )}
                   <div className="rounded-lg bg-gray-200 px-3 py-1.5 text-gray-700 md:px-4 md:py-2">
-                    <span className="font-semibold">Rapport:</span>{' '}
+                    <span className="font-semibold">Rapport:</span>{" "}
                     {formaterDato(eiendom.plaaceData.rapportDato)}
                   </div>
                 </div>
@@ -136,7 +150,9 @@ export default async function FrontRealEstateEiendomPage({ params }: PageProps) 
       {(eiendom.mapImage || eiendom.coordinates) && (
         <section className="border-b border-gray-200/30 bg-white py-8 md:py-16">
           <Container>
-            <h2 className="mb-6 text-2xl font-bold text-lokka-primary md:mb-8 md:text-3xl">Beliggenhet</h2>
+            <h2 className="mb-6 text-2xl font-bold text-lokka-primary md:mb-8 md:text-3xl">
+              Beliggenhet
+            </h2>
 
             {/* Google Maps - Primary, Full Width with Satellite View */}
             {eiendom.coordinates && (
@@ -174,10 +190,14 @@ export default async function FrontRealEstateEiendomPage({ params }: PageProps) 
                 </div>
                 <div className="md:col-span-2">
                   <div className="rounded-xl border border-gray-200/50 bg-lokka-light/30 p-4 md:rounded-2xl md:p-6">
-                    <h3 className="mb-2 text-base font-bold text-lokka-primary md:mb-3 md:text-lg">Om beliggenheten</h3>
+                    <h3 className="mb-2 text-base font-bold text-lokka-primary md:mb-3 md:text-lg">
+                      Om beliggenheten
+                    </h3>
                     <p className="text-xs leading-relaxed text-lokka-secondary md:text-sm">
-                      Eiendom på Grünerløkka med god tilgang til kollektivtransport, handel og byens fasiliteter.
-                      Området preges av høy aktivitet, urbant liv og et mangfoldig lokalmiljø.
+                      Eiendom på Grünerløkka med god tilgang til
+                      kollektivtransport, handel og byens fasiliteter. Området
+                      preges av høy aktivitet, urbant liv og et mangfoldig
+                      lokalmiljø.
                     </p>
                   </div>
                 </div>
@@ -200,6 +220,8 @@ export default async function FrontRealEstateEiendomPage({ params }: PageProps) 
         {/* Plaace Analytics */}
         <AnalyseSelector
           plaaceData={eiendom.plaaceData}
+          oneMinData={oneMinData}
+          propertyName={eiendom.adresse}
         />
       </Container>
 
