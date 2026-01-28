@@ -220,6 +220,7 @@ export default async function FrontRealEstateEiendomPage({
         {/* Plaace Analytics */}
         <AnalyseSelector
           plaaceData={eiendom.plaaceData}
+          plaaceAnalyses={eiendom.plaaceAnalyses}
           oneMinData={oneMinData}
           propertyName={eiendom.adresse}
         />
