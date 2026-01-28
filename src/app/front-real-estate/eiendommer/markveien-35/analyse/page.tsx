@@ -16,20 +16,20 @@ export default function Markveien35AnalysePage() {
   return (
     <>
       <section className="relative overflow-hidden border-b border-gray-200">
-        <div className="relative aspect-[16/9] w-full md:aspect-[21/9]">
+        <div className="relative aspect-[16/9] w-full bg-gradient-to-br from-gray-100 to-gray-50 md:aspect-[21/9]">
           <Image
-            src="/images/malling-co/markveien-35-map.png"
-            alt="Kart over Markveien 35 område"
+            src="/images/malling-co/markveien-35-render.jpg"
+            alt="Arkitektonisk render av Markveien 35"
             fill
             priority
-            className="object-cover"
+            className="object-contain object-center"
             sizes="100vw"
-            quality={85}
+            quality={90}
           />
 
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent" />
 
-          <div className="absolute inset-0 bg-gradient-to-br from-natural-sage/20 to-natural-moss/20 opacity-40 mix-blend-overlay" />
+          <div className="absolute inset-0 bg-gradient-to-br from-natural-sage/10 to-natural-moss/10 opacity-30 mix-blend-overlay" />
 
           <Container className="absolute inset-0 flex flex-col justify-between py-8">
             <div>
