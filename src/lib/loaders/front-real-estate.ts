@@ -1,27 +1,23 @@
-import type { Eiendom } from '@/types/eiendom';
+import type { Eiendom } from "@/types/eiendom";
+import { ensureEiendomDefaults } from "@/lib/utils/property-defaults";
+import markveien35 from "@/data/front-real-estate/markveien-35.json";
+
+const properties: Record<string, Record<string, unknown>> = {
+  "markveien-35": markveien35,
+};
 
 export async function loadAllEiendommer(): Promise<Eiendom[]> {
-  try {
-    const data = await Promise.all([
-      import('@/data/front-real-estate/markveien-35.json'),
-    ]);
-    return data.map((m) => m.default as Eiendom);
-  } catch (error) {
-    console.error('Error loading Front Real Estate properties:', error);
-    return [];
-  }
+  return Object.values(properties).map((p) =>
+    ensureEiendomDefaults(p, "front-real-estate"),
+  );
 }
 
 export async function loadEiendom(id: string): Promise<Eiendom | null> {
-  try {
-    const eiendom = await import(`@/data/front-real-estate/${id}.json`);
-    return eiendom.default as Eiendom;
-  } catch (error) {
-    console.error(`Failed to load Front Real Estate eiendom ${id}:`, error);
-    return null;
-  }
+  const data = properties[id];
+  if (!data) return null;
+  return ensureEiendomDefaults(data, "front-real-estate");
 }
 
 export function getAllPropertyIds(): string[] {
-  return ['markveien-35'];
+  return Object.keys(properties);
 }

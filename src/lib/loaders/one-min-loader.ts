@@ -525,28 +525,14 @@ export async function loadOneMinAnalysisData(
   propertyId: string,
 ): Promise<OneMinAnalysisData | null> {
   const key = `${tenant}/${propertyId}`;
-  console.log(`[one-min-loader] Loading data for: ${key}`);
 
-  // Use static imports for known properties (Vercel compatibility)
   if (STATIC_DATA[key]) {
-    console.log(`[one-min-loader] Found static loader for: ${key}`);
     try {
-      const data = await STATIC_DATA[key]();
-      console.log(
-        `[one-min-loader] Successfully loaded data for: ${key}`,
-        !!data,
-      );
-      return data;
+      return await STATIC_DATA[key]();
     } catch (error: unknown) {
       console.error(`[one-min-loader] Error loading ${key}:`, error);
-      const errorWithCode = error as { code?: string };
-      if (errorWithCode.code !== "MODULE_NOT_FOUND") {
-        console.warn(`Error loading 1-minute analysis data for ${key}:`, error);
-      }
       return null;
     }
-  } else {
-    console.log(`[one-min-loader] No static loader found for: ${key}`);
   }
 
   // No dynamic fallback - all properties must be registered in STATIC_DATA
@@ -560,10 +546,10 @@ export async function loadOneMinAnalysisData(
  * @param propertyId - The property ID
  * @returns true if data exists, false otherwise
  */
-export async function hasOneMinAnalysisData(
+export function hasOneMinAnalysisData(
   tenant: string,
   propertyId: string,
-): Promise<boolean> {
+): boolean {
   const key = `${tenant}/${propertyId}`;
   return key in STATIC_DATA;
 }
