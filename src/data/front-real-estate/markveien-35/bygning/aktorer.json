@@ -1,0 +1,66 @@
+{
+  "actors": [
+    {
+      "rank": "#1",
+      "navn": "Kiwi Minipris Markveien",
+      "type": "Handel / Mat og drikke",
+      "adresse": "MARKVEIEN 35 B",
+      "omsetning": 70,
+      "yoy_vekst": 0.6,
+      "ansatte": 20,
+      "markedsandel": 56.57,
+      "kjedeInfo": "0.1% av kjeden"
+    },
+    {
+      "rank": "#2",
+      "navn": "Fitness 24 Seven Markveien Senter",
+      "type": "Tjenester / Treningssentre",
+      "adresse": "ØSTRE AKER VEI 17",
+      "omsetning": 36,
+      "yoy_vekst": 0,
+      "ansatte": 5,
+      "markedsandel": 29.29
+    },
+    {
+      "rank": "#3",
+      "navn": "Kid Interiør AS Avd 175 Grünerløkka",
+      "type": "Handel / Hjem og interiør",
+      "adresse": "MARKVEIEN 35 A",
+      "omsetning": 10,
+      "ansatte": 10,
+      "markedsandel": 8.44,
+      "kjedeInfo": "0.5% av kjeden"
+    },
+    {
+      "rank": "#4",
+      "navn": "0186 Bardrift AS",
+      "type": "Mat og opplevelser / Puber og barer",
+      "adresse": "MARKVEIEN 35 A",
+      "omsetning": 4,
+      "ansatte": 15,
+      "markedsandel": 2.86
+    },
+    {
+      "rank": "#5",
+      "navn": "M35 Collective AS",
+      "type": "Handel / Annen handel",
+      "adresse": "MARKVEIEN 35 A",
+      "omsetning": 3,
+      "yoy_vekst": 0,
+      "ansatte": 0,
+      "markedsandel": 2.84,
+      "kjedeInfo": "3 i 1 lokasjon"
+    }
+  ],
+  "categoryStats": {
+    "Handel": { "count": 3, "omsetning": 83, "ansatte": 30 },
+    "Tjenester": { "count": 1, "omsetning": 36, "ansatte": 5 },
+    "Mat og opplevelser": { "count": 1, "omsetning": 4, "ansatte": 15 }
+  },
+  "metadata": {
+    "totalActors": 5,
+    "totalRevenue": 123,
+    "totalEmployees": 50,
+    "oppdatert": "21. desember 2025"
+  }
+}

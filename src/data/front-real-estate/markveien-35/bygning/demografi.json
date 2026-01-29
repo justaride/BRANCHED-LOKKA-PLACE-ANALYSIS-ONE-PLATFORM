@@ -1,0 +1,85 @@
+{
+  "nøkkeltall": {
+    "befolkning": 72,
+    "husholdninger": 41,
+    "antallBygg": 2,
+    "bygningstype": "Leilighetsbygg",
+    "medianInntekt": 479000
+  },
+  "aldersfordeling": {
+    "mann": [
+      { "aldersgruppe": "0-5", "antall": 2 },
+      { "aldersgruppe": "6-12", "antall": 1 },
+      { "aldersgruppe": "13-15", "antall": 1 },
+      { "aldersgruppe": "16-18", "antall": 1 },
+      { "aldersgruppe": "19-23", "antall": 3 },
+      { "aldersgruppe": "23-34", "antall": 12 },
+      { "aldersgruppe": "35-44", "antall": 6 },
+      { "aldersgruppe": "45-54", "antall": 4 },
+      { "aldersgruppe": "55-64", "antall": 3 },
+      { "aldersgruppe": "65-74", "antall": 2 },
+      { "aldersgruppe": "75-84", "antall": 1 },
+      { "aldersgruppe": "85+", "antall": 0 }
+    ],
+    "kvinne": [
+      { "aldersgruppe": "0-5", "antall": 2 },
+      { "aldersgruppe": "6-12", "antall": 1 },
+      { "aldersgruppe": "13-15", "antall": 1 },
+      { "aldersgruppe": "16-18", "antall": 1 },
+      { "aldersgruppe": "19-23", "antall": 4 },
+      { "aldersgruppe": "23-34", "antall": 12 },
+      { "aldersgruppe": "35-44", "antall": 5 },
+      { "aldersgruppe": "45-54", "antall": 4 },
+      { "aldersgruppe": "55-64", "antall": 3 },
+      { "aldersgruppe": "65-74", "antall": 2 },
+      { "aldersgruppe": "75-84", "antall": 1 },
+      { "aldersgruppe": "85+", "antall": 0 }
+    ]
+  },
+  "inntektsfordeling": [
+    { "kategori": "0 NOK", "prosent": 9.16 },
+    { "kategori": "0–100k", "prosent": 9.91 },
+    { "kategori": "100k–200k", "prosent": 9.2 },
+    { "kategori": "200k–300k", "prosent": 7.31 },
+    { "kategori": "300k–400k", "prosent": 6.49 },
+    { "kategori": "400k–500k", "prosent": 6.71 },
+    { "kategori": "500k–600k", "prosent": 5.37 },
+    { "kategori": "600k–700k", "prosent": 3.35 },
+    { "kategori": "700k–800k", "prosent": 2.38 },
+    { "kategori": "800k–1M", "prosent": 4.7 },
+    { "kategori": "1M–1,5M", "prosent": 0.41 },
+    { "kategori": "1,5M+", "prosent": 0.51 }
+  ],
+  "husholdninger": [
+    { "kategori": "Aleneboende", "antall": 23 },
+    { "kategori": "Par uten barn", "antall": 8 },
+    { "kategori": "Par med barn", "antall": 4 },
+    { "kategori": "Enslig forelder", "antall": 2 },
+    { "kategori": "Andre husholdninger", "antall": 4 }
+  ],
+  "medianInntektPerHusholdningstype": [
+    { "kategori": "Alle husholdninger", "beløp": 479000 },
+    { "kategori": "Par uten barn", "beløp": 826000 },
+    { "kategori": "Par med barn", "beløp": 1015000 },
+    { "kategori": "Aleneboende", "beløp": 383000 },
+    { "kategori": "Enslig forelder", "beløp": 457000 }
+  ],
+  "demografiOverTid": [
+    { "år": 2017, "befolkning": 66, "trendlinje": 79.2 },
+    { "år": 2018, "befolkning": 65, "trendlinje": 78.0 },
+    { "år": 2019, "befolkning": 70, "trendlinje": 84.0 },
+    { "år": 2020, "befolkning": 71, "trendlinje": 85.2 },
+    { "år": 2021, "befolkning": 70, "trendlinje": 84.0 },
+    { "år": 2022, "befolkning": 71, "trendlinje": 85.2 },
+    { "år": 2023, "befolkning": 73, "trendlinje": 87.6 },
+    { "år": 2024, "befolkning": 72, "trendlinje": 86.4 }
+  ],
+  "antallHus": [
+    { "kategori": "Eneboliger", "antall": 0 },
+    { "kategori": "Småhus", "antall": 0 },
+    { "kategori": "Leilighetsbygg", "antall": 2 },
+    { "kategori": "Næringsbygg", "antall": 0 },
+    { "kategori": "Andre bygg", "antall": 0 },
+    { "kategori": "Hytter", "antall": 0 }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "nøkkeltall": {
+    "totalOmsetning": 123,
+    "antallAktører": 5,
+    "kjedeAndel2025": 65.0,
+    "uavhengigAndel2025": 35.0
+  },
+  "konseptmiks": [
+    { "kategori": "Mat og drikke", "nivå": "Handel", "prosent": 25 },
+    { "kategori": "Annen handel", "nivå": "Handel", "prosent": 25 },
+    { "kategori": "Hjem og interiør", "nivå": "Handel", "prosent": 25 },
+    { "kategori": "Treningssentre", "nivå": "Tjenester", "prosent": 25 }
+  ],
+  "kjederVsUavhengige": [
+    { "år": 2015, "uavhengig": 1.9, "kjeder": 98.1 },
+    { "år": 2016, "uavhengig": 1.3, "kjeder": 98.7 },
+    { "år": 2017, "uavhengig": 35.4, "kjeder": 64.6 },
+    { "år": 2018, "uavhengig": 30.5, "kjeder": 69.5 },
+    { "år": 2019, "uavhengig": 33.7, "kjeder": 66.3 },
+    { "år": 2020, "uavhengig": 29.1, "kjeder": 70.9 },
+    { "år": 2021, "uavhengig": 20.2, "kjeder": 79.8 },
+    { "år": 2022, "uavhengig": 35.5, "kjeder": 64.5 },
+    { "år": 2023, "uavhengig": 38.6, "kjeder": 61.4 },
+    { "år": 2024, "uavhengig": 38.0, "kjeder": 62.0 },
+    { "år": 2025, "uavhengig": 35.0, "kjeder": 65.0 }
+  ],
+  "overUnderandel": {
+    "handel": -18.4,
+    "tjenester": 44.4
+  },
+  "utviklingPerÅr": [
+    { "år": 2015, "handel": 46.3 },
+    { "år": 2016, "handel": 57.7 },
+    { "år": 2017, "handel": 54.2, "tjenester": 29.7 },
+    { "år": 2018, "handel": 63.3, "tjenester": 27.8 },
+    { "år": 2019, "handel": 69.1, "tjenester": 30.3 },
+    { "år": 2020, "handel": 78.7, "tjenester": 26.2 },
+    { "år": 2021, "handel": 65.2, "tjenester": 11.7 },
+    { "år": 2022, "handel": 65.1, "tjenester": 25.9 },
+    { "år": 2023, "handel": 73.1, "tjenester": 32.1 },
+    { "år": 2024, "handel": 75.6, "tjenester": 36.1 },
+    { "år": 2025, "matOgOpplevelser": 3.5, "handel": 83.6, "tjenester": 36.1 }
+  ]
+}

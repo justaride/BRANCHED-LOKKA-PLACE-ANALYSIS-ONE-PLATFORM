@@ -206,7 +206,7 @@ export default async function Markveien35Page() {
             </div>
           </FadeIn>
 
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="grid gap-6 md:grid-cols-3">
             {/* 1 Minute Analysis Card */}
             <FadeIn delay={100} direction="up">
               <Link
@@ -408,6 +408,113 @@ export default async function Markveien35Page() {
                   </div>
 
                   <div className="flex items-center gap-2 font-semibold text-blue-600 transition-colors group-hover:text-blue-700">
+                    Se analyse
+                    <svg
+                      className="h-5 w-5 transition-transform group-hover:translate-x-1"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </Link>
+            </FadeIn>
+
+            {/* Bare Bygget Analysis Card */}
+            <FadeIn delay={300} direction="up">
+              <Link
+                href="/front-real-estate/eiendommer/markveien-35/bare-bygget"
+                className="group block"
+              >
+                <div className="h-full rounded-2xl border-2 border-rose-200/50 bg-gradient-to-br from-rose-50 to-white p-6 shadow-medium transition-all duration-300 hover:border-rose-400 hover:shadow-large md:p-8">
+                  <div className="mb-4 flex items-center justify-between">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-rose-100">
+                      <svg
+                        className="h-6 w-6 text-rose-600"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                        />
+                      </svg>
+                    </div>
+                    <span className="rounded-full bg-rose-100 px-3 py-1 text-xs font-medium text-rose-700">
+                      Bygningsnivå
+                    </span>
+                  </div>
+
+                  <h3 className="mb-2 text-xl font-bold text-lokka-primary md:text-2xl">
+                    Bare bygget
+                  </h3>
+                  <p className="mb-4 text-sm text-lokka-secondary">
+                    Analyse på bygningsnivå — det minste granulerte nivået.
+                    Markveien 35A/B/C.
+                  </p>
+
+                  <div className="mb-6 space-y-2 text-sm">
+                    <div className="flex items-center gap-2 text-lokka-secondary">
+                      <svg
+                        className="h-4 w-4 text-rose-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M5 13l4 4L19 7"
+                        />
+                      </svg>
+                      <span>5 leietakere</span>
+                    </div>
+                    <div className="flex items-center gap-2 text-lokka-secondary">
+                      <svg
+                        className="h-4 w-4 text-rose-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M5 13l4 4L19 7"
+                        />
+                      </svg>
+                      <span>NOK 123M omsetning</span>
+                    </div>
+                    <div className="flex items-center gap-2 text-lokka-secondary">
+                      <svg
+                        className="h-4 w-4 text-rose-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M5 13l4 4L19 7"
+                        />
+                      </svg>
+                      <span>4,685 daglige besøk</span>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-2 font-semibold text-rose-600 transition-colors group-hover:text-rose-700">
                     Se analyse
                     <svg
                       className="h-5 w-5 transition-transform group-hover:translate-x-1"
