@@ -67,8 +67,8 @@ export default function BygningKorthandelChart({
             borderRadius: "8px",
             padding: "12px",
           }}
-          formatter={(value: number) => [
-            `${value.toFixed(2)} mNOK`,
+          formatter={(value: number | string) => [
+            `${Number(value).toFixed(2)} mNOK`,
             "Korthandel",
           ]}
         />
