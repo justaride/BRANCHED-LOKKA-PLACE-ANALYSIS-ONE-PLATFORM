@@ -470,31 +470,44 @@ const STATIC_DATA: Record<string, () => Promise<OneMinAnalysisData>> = {
 
   // Front Real Estate (Malling & Co) - Markveien 35 (1-min analysis)
   "front-real-estate/markveien-35": async () => {
-    const [demografi, konkurransebilde, korthandel, bevegelse, aktorer] =
-      await Promise.all([
-        import("@/data/front-real-estate/markveien-35/1min/demografi.json").then(
-          (m) => m.default as unknown as DemografiData,
-        ),
-        import("@/data/front-real-estate/markveien-35/1min/konkurransebilde.json").then(
-          (m) => m.default as unknown as KonkurransebildeData,
-        ),
-        import("@/data/front-real-estate/markveien-35/1min/korthandel.json").then(
-          (m) => m.default as unknown as KorthandelData,
-        ),
-        import("@/data/front-real-estate/markveien-35/1min/bevegelse.json").then(
-          (m) => m.default as unknown as BevegelseData,
-        ),
-        import("@/data/front-real-estate/markveien-35/1min/aktorer.json").then(
-          (m) => m.default as unknown as AktorerData,
-        ),
-      ]);
+    const [
+      demografi,
+      konkurransebilde,
+      korthandel,
+      bevegelse,
+      besokende,
+      internasjonalt,
+      aktorer,
+    ] = await Promise.all([
+      import("@/data/front-real-estate/markveien-35/1min/demografi.json").then(
+        (m) => m.default as unknown as DemografiData,
+      ),
+      import("@/data/front-real-estate/markveien-35/1min/konkurransebilde.json").then(
+        (m) => m.default as unknown as KonkurransebildeData,
+      ),
+      import("@/data/front-real-estate/markveien-35/1min/korthandel.json").then(
+        (m) => m.default as unknown as KorthandelData,
+      ),
+      import("@/data/front-real-estate/markveien-35/1min/bevegelse.json").then(
+        (m) => m.default as unknown as BevegelseData,
+      ),
+      import("@/data/front-real-estate/markveien-35/1min/besokende.json").then(
+        (m) => m.default as unknown as BesøkendeData,
+      ),
+      import("@/data/front-real-estate/markveien-35/1min/internasjonalt.json").then(
+        (m) => m.default as unknown as InternasjonaltData,
+      ),
+      import("@/data/front-real-estate/markveien-35/1min/aktorer.json").then(
+        (m) => m.default as unknown as AktorerData,
+      ),
+    ]);
     return {
       demografi,
       konkurransebilde,
       korthandel,
       bevegelse,
-      besokende: null,
-      internasjonalt: null,
+      besokende,
+      internasjonalt,
       aktorer,
     };
   },

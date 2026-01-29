@@ -1,6 +1,6 @@
 # Løkka Gardeierforening Platform - Project Status
 
-**Last Updated:** January 29, 2026 - Markveien 35 Analysis Navigation
+**Last Updated:** January 29, 2026 - Markveien 35 Footfall Data Enhancement
 **Current Status:** 🚀 **PRODUCTION READY** (99% Complete)
 **Deployment:** ✅ Live on Vercel
 **URL:** https://lokka-gardeierforening-platform.vercel.app
@@ -8,6 +8,13 @@
 **Test Status:** ✅ Jest configured with 70% coverage threshold
 **Latest Updates:**
 
+- **January 29, 2026: Markveien 35 Footfall Data Enhancement** - ✅ **COMPLETE** - Enhanced 1-min analysis with visitor origin and international data:
+  - **New data files:** `besokende.json` (25 visitor origin areas) + `internasjonalt.json` (20 countries)
+  - **Loader updated:** `one-min-loader.ts` now loads besokende/internasjonalt for Markveien 35
+  - **UI ready:** OneMinAnalysisViewer sections 5 & 6 display new data automatically
+  - **Provider documentation:** `docs/footfall-data-providers.md` with PlaceSense, Huq, Unacast comparison
+  - **Data status:** Estimated based on Vulkan Området patterns (metadata indicates source)
+  - **Next steps:** Request PlaceSense demo, purchase Huq report for real data
 - **January 29, 2026: Markveien 35 Analysis Navigation** - ✅ **COMPLETE** - Updated property page with navigation cards:
   - **Dedicated property page:** `/front-real-estate/eiendommer/markveien-35/page.tsx`
   - **Two navigation cards:** 1-min (interactive charts) and 5-min (Plaace screenshots)
@@ -1443,11 +1450,11 @@ The Løkka Gardeierforening Platform is **production-ready** and looking profess
 
 ---
 
-_Last Updated: January 28, 2026 by Claude Code_
+_Last Updated: January 29, 2026 by Claude Code_
 _Status: 🚀 PRODUCTION LIVE & EXCELLENT_
 _ESLint: 0 issues ✅ (100% clean)_
 _Tests: 27 unit tests with 70% coverage threshold_
 _Silent Failure Detection: ✅ Enabled_
-_5-min Analysis: Roger-Vodal (7 properties) complete | 1-min: Mathallen + Carucel + Markveien 35_
+_5-min Analysis: Roger-Vodal (7 properties) complete | 1-min: Mathallen + Carucel + Markveien 35 (now with visitor origins)_
 _Årsrapporter: 2024 (complete) + 2025 (100% complete: bevegelse/korthandel/konkurransebilde/aktører)_
 _Biblioteket: 6 categories, 31 ildsjeler, Jazz/Hip-hop/Idrett/Mediebildet sections_

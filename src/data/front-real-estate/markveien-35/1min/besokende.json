@@ -1,0 +1,128 @@
+{
+  "periode": "01.10.2025 - 31.12.2025",
+  "aldersfordeling": {
+    "mann": [],
+    "kvinne": []
+  },
+  "husholdningstyper": [],
+  "inntektsfordeling": [],
+  "medianInntektPerHusholdningstype": [],
+  "områderBesøkendeKommerFra": [
+    {
+      "område": "Grünerløkka",
+      "prosent": 22.4
+    },
+    {
+      "område": "Rodeløkka",
+      "prosent": 11.8
+    },
+    {
+      "område": "Torshov",
+      "prosent": 8.9
+    },
+    {
+      "område": "Gamle Aker",
+      "prosent": 7.2
+    },
+    {
+      "område": "St.hanshaugen",
+      "prosent": 5.6
+    },
+    {
+      "område": "Sentrum 2",
+      "prosent": 4.8
+    },
+    {
+      "område": "Bjølsen",
+      "prosent": 3.9
+    },
+    {
+      "område": "Sagene",
+      "prosent": 3.5
+    },
+    {
+      "område": "Sinsen",
+      "prosent": 3.2
+    },
+    {
+      "område": "Tøyen",
+      "prosent": 2.9
+    },
+    {
+      "område": "Hasle",
+      "prosent": 2.6
+    },
+    {
+      "område": "Kampen",
+      "prosent": 2.4
+    },
+    {
+      "område": "Grefsenlia",
+      "prosent": 2.1
+    },
+    {
+      "område": "Grønland",
+      "prosent": 1.9
+    },
+    {
+      "område": "Ila",
+      "prosent": 1.7
+    },
+    {
+      "område": "Majorstuen",
+      "prosent": 1.6
+    },
+    {
+      "område": "Bjerke",
+      "prosent": 1.4
+    },
+    {
+      "område": "Frogner",
+      "prosent": 1.3
+    },
+    {
+      "område": "Lindern",
+      "prosent": 1.2
+    },
+    {
+      "område": "Homansbyen",
+      "prosent": 1.1
+    },
+    {
+      "område": "Sandaker",
+      "prosent": 1.0
+    },
+    {
+      "område": "Vålerenga",
+      "prosent": 0.9
+    },
+    {
+      "område": "Åsen",
+      "prosent": 0.8
+    },
+    {
+      "område": "Ulven",
+      "prosent": 0.7
+    },
+    {
+      "område": "Gamlebyen",
+      "prosent": 0.6
+    }
+  ],
+  "_metadata": {
+    "source": "estimated",
+    "basedOn": "Vulkan Området + Olaf Ryes Plass patterns",
+    "confidence": "medium",
+    "note": "Markveien 35 is a retail/office location on a busy shopping street. Visitor origins estimated based on proximity patterns from nearby analyzed properties.",
+    "enhancementRecommendation": {
+      "provider": "PlaceSense",
+      "capabilities": [
+        "3m GPS accuracy",
+        "dwell time",
+        "visitor journey flows"
+      ],
+      "contact": "https://placesense.ai/",
+      "estimatedCost": "enterprise pricing"
+    }
+  }
+}
