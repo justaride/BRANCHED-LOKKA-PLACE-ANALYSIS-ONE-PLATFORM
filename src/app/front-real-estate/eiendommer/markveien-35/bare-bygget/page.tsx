@@ -231,8 +231,8 @@ export default function BareByggetPage() {
             <ExpandableImage
               src="/images/malling-co/markveien-35/bygning/markert-omradet.png"
               alt="Markveien 35 — markert bygningsområde"
-              width={1200}
-              height={800}
+              width={1092}
+              height={1342}
               borderColor="purple"
               bgColor="purple/10"
               quality={80}
@@ -378,8 +378,8 @@ export default function BareByggetPage() {
             <ExpandableImage
               src="/images/malling-co/markveien-35/bygning/bevegelse-omrade.png"
               alt="Bevegelsesanalyse — Markveien 35"
-              width={1200}
-              height={800}
+              width={996}
+              height={744}
               borderColor="blue"
               bgColor="blue-50"
               quality={80}
@@ -761,8 +761,8 @@ export default function BareByggetPage() {
             <ExpandableImage
               src="/images/malling-co/markveien-35/bygning/konkurransebilde-omrade.png"
               alt="Konkurransebilde — Markveien 35 bygningsnivå"
-              width={1200}
-              height={800}
+              width={2096}
+              height={1582}
               borderColor="purple"
               bgColor="purple-50"
               quality={80}
