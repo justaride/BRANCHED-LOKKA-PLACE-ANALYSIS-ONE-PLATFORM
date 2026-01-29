@@ -3,17 +3,7 @@ import ExpandableImage from "@/components/ui/ExpandableImage";
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import dynamic from "next/dynamic";
-
-const BygningKorthandelChart = dynamic(
-  () => import("@/components/analyser/BygningKorthandelChart"),
-  {
-    ssr: false,
-    loading: () => (
-      <div className="h-[350px] animate-pulse rounded-lg bg-gray-100" />
-    ),
-  },
-);
+import BygningKorthandelChart from "@/components/analyser/BygningKorthandelChart";
 import korthandelData from "@/data/front-real-estate/markveien-35/bygning/korthandel.json";
 
 export const metadata: Metadata = {
