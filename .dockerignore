@@ -1,0 +1,17 @@
+node_modules
+.next
+.vercel
+.git
+.env*
+.claude
+docs
+sammenligning oppdatering
+årsrapport løkka 2025
+*.tsbuildinfo
+next-env.d.ts
+verification-report.json
+data-audit-report.json
+analysis-validation-report.json
+coverage
+npm-debug.log*
+.DS_Store
