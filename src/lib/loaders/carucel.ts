@@ -1,5 +1,6 @@
 import type { Eiendom } from "@/types/eiendom";
 import { ensureEiendomDefaults } from "@/lib/utils/property-defaults";
+import { getTenantPropertyIds } from '@/config/tenant-data-manifest';
 import olafRyesPlass4 from "@/data/carucel/olaf-ryes-plass-4.json";
 
 const properties: Record<string, Record<string, unknown>> = {
@@ -19,5 +20,5 @@ export async function loadEiendom(id: string): Promise<Eiendom | null> {
 }
 
 export function getAllPropertyIds(): string[] {
-  return Object.keys(properties);
+  return getTenantPropertyIds('carucel');
 }

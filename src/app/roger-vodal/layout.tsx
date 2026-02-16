@@ -1,36 +1,27 @@
+import { notFound } from 'next/navigation';
 import { getTenant } from '@/config/tenants';
-import { TenantProvider } from '@/lib/tenant-context';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
+import TenantShell from '@/components/layout/TenantShell';
 import type { Metadata } from 'next';
+
+const tenant = getTenant('roger-vodal');
 
 export const metadata: Metadata = {
   title: {
-    default: 'Roger Vodal',
-    template: '%s | Roger Vodal',
+    default: tenant?.displayName || 'roger-vodal',
+    template: `%s | ${tenant?.name || 'roger-vodal'}`,
   },
-  description: 'Plaace-analyser og eiendomsinformasjon for Roger Vodals eiendommer på Grünerløkka. Utforsk demografi, markedsdata og utviklingstrender for tre eiendommer på Brenneriveien.',
-  keywords: ['Roger Vodal', 'eiendom', 'Plaace', 'eiendomsanalyse', 'Oslo', 'Grünerløkka', 'Brenneriveien'],
+  description: tenant?.description || '',
+  keywords: tenant?.keywords || [],
 };
 
-export default function RogerVodalLayout({
+export default function TenantLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const tenant = getTenant('roger-vodal');
-
-  if (!tenant) {
-    throw new Error('Roger Vodal tenant not found');
+  if (!tenant || tenant.type !== 'company') {
+    notFound();
   }
 
-  return (
-    <TenantProvider tenant={tenant}>
-      <div className="flex min-h-screen flex-col bg-lokka-light text-lokka-neutral">
-        <Header />
-        <main className="flex-1 pt-20">{children}</main>
-        <Footer />
-      </div>
-    </TenantProvider>
-  );
+  return <TenantShell tenant={tenant}>{children}</TenantShell>;
 }

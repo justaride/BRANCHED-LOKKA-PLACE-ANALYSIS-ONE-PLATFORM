@@ -1,8 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getTenant } from '@/config/tenants';
-import { TenantProvider } from '@/lib/tenant-context';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
+import TenantShell from '@/components/layout/TenantShell';
 import type { Metadata } from 'next';
 
 const tenant = getTenant('main-board');
@@ -25,13 +23,5 @@ export default function MainBoardLayout({
     notFound();
   }
 
-  return (
-    <TenantProvider tenant={tenant}>
-      <div className="flex min-h-screen flex-col bg-lokka-light text-lokka-neutral">
-        <Header />
-        <main className="flex-1 pt-20">{children}</main>
-        <Footer />
-      </div>
-    </TenantProvider>
-  );
+  return <TenantShell tenant={tenant}>{children}</TenantShell>;
 }

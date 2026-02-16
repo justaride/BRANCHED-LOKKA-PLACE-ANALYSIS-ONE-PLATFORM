@@ -1,36 +1,27 @@
+import { notFound } from 'next/navigation';
 import { getTenant } from '@/config/tenants';
-import { TenantProvider } from '@/lib/tenant-context';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
+import TenantShell from '@/components/layout/TenantShell';
 import type { Metadata } from 'next';
+
+const tenant = getTenant('front-real-estate');
 
 export const metadata: Metadata = {
   title: {
-    default: 'Front Real Estate',
-    template: '%s | Front Real Estate',
+    default: tenant?.displayName || 'front-real-estate',
+    template: `%s | ${tenant?.name || 'front-real-estate'}`,
   },
-  description: 'Plaace-analyser og eiendomsinformasjon for Front Real Estate sine eiendommer på Grünerløkka. Utforsk demografi, markedsdata og utviklingstrender for to eiendommer i området.',
-  keywords: ['Front Real Estate', 'eiendom', 'Plaace', 'eiendomsanalyse', 'Oslo', 'Grünerløkka'],
+  description: tenant?.description || '',
+  keywords: tenant?.keywords || [],
 };
 
-export default function FrontRealEstateLayout({
+export default function TenantLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const tenant = getTenant('front-real-estate');
-
-  if (!tenant) {
-    throw new Error('Front Real Estate tenant not found');
+  if (!tenant || tenant.type !== 'company') {
+    notFound();
   }
 
-  return (
-    <TenantProvider tenant={tenant}>
-      <div className="flex min-h-screen flex-col bg-lokka-light text-lokka-neutral">
-        <Header />
-        <main className="flex-1 pt-20">{children}</main>
-        <Footer />
-      </div>
-    </TenantProvider>
-  );
+  return <TenantShell tenant={tenant}>{children}</TenantShell>;
 }

@@ -1,36 +1,54 @@
-import { getTenant } from '@/config/tenants';
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
+import { getTenant, isCompanyTenantSlug } from '@/config/tenants';
+import { getTenantPageContent } from '@/config/tenant-content';
+import { getTenantLoader } from '@/lib/loaders/tenant-registry';
+import TenantPropertiesPage from '@/components/tenant/TenantPropertiesPage';
 
-export default function EiendommerPage({
+export async function generateMetadata({
   params,
 }: {
-  params: { company: string };
-}) {
-  const tenant = getTenant(params.company);
+  params: Promise<{ company: string }>;
+}): Promise<Metadata> {
+  const { company } = await params;
 
+  if (!isCompanyTenantSlug(company)) {
+    return { title: 'Eiendommer' };
+  }
+
+  const content = getTenantPageContent(company).properties;
+  return {
+    title: content.metadataTitle,
+    description: content.metadataDescription,
+  };
+}
+
+export default async function CompanyEiendommerPage({
+  params,
+}: {
+  params: Promise<{ company: string }>;
+}) {
+  const { company } = await params;
+
+  if (!isCompanyTenantSlug(company)) {
+    notFound();
+  }
+
+  const tenant = getTenant(company);
   if (!tenant || tenant.type !== 'company') {
     notFound();
   }
 
-  return (
-    <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-      <div className="mb-8 rounded-lg border border-gray-200 bg-gray-50 p-8">
-        <h1 className="mb-2 text-4xl font-bold text-gray-900">Eiendommer</h1>
-        <p className="text-lg text-gray-600">
-          {tenant.name} sin portefølje i Løkka-området
-        </p>
-      </div>
+  const content = getTenantPageContent(company).properties;
+  const { loadAllEiendommer } = getTenantLoader(company);
+  const properties = await loadAllEiendommer();
 
-      <div className="rounded-lg border border-gray-200 bg-white p-8">
-        <p className="text-gray-600">
-          Eiendommer vil bli tilgjengelig her etter migrering av {tenant.name}{' '}
-          sine data.
-        </p>
-        <p className="mt-4 text-sm text-gray-500">
-          Denne siden vil inneholde: Eiendomskort, placeanalyser,
-          nøkkelinformasjon, bilder og PDF-rapporter for hver eiendom.
-        </p>
-      </div>
-    </div>
+  return (
+    <TenantPropertiesPage
+      properties={properties}
+      basePath={`/${tenant.slug}`}
+      headingDescription={content.headingDescription}
+      useGradientHeader={tenant.slug === 'carucel'}
+    />
   );
 }

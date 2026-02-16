@@ -1,7 +1,30 @@
 export type TenantType = 'main-board' | 'company';
 
+export type MainBoardTenantSlug = 'main-board';
+export type CompanyTenantSlug =
+  | 'aspelin-ramm'
+  | 'brodrene-evensen'
+  | 'carucel'
+  | 'eiendomsspar'
+  | 'front-real-estate'
+  | 'maya-eiendom'
+  | 'roger-vodal'
+  | 'sio'
+  | 'spabo';
+export type TenantSlug = MainBoardTenantSlug | CompanyTenantSlug;
+
+export interface TenantPageOverrides {
+  homeVariant?: 'default' | 'carucel';
+  aboutVariant?: 'default';
+  propertiesVariant?: 'default' | 'gradient';
+}
+
+export interface TenantContentConfig {
+  overrides?: TenantPageOverrides;
+}
+
 export interface TenantConfig {
-  slug: string;
+  slug: TenantSlug;
   name: string;
   displayName: string;
   type: TenantType;
@@ -18,9 +41,10 @@ export interface TenantConfig {
     showEiendommer: boolean;
     showAnalyser: boolean;
   };
+  content?: TenantContentConfig;
 }
 
-export const TENANTS: Record<string, TenantConfig> = {
+export const TENANTS: Record<TenantSlug, TenantConfig> = {
   'main-board': {
     slug: 'main-board',
     name: 'Main Board',
@@ -97,11 +121,11 @@ export const TENANTS: Record<string, TenantConfig> = {
     displayName: 'Eiendomsanalyse - Front Real Estate',
     type: 'company',
     primaryLogo: '/images/logos/natural-state.png',
-    secondaryLogo: '/images/logos/malling-co.png', // Keeping old logo for now as requested/implied
-    websiteUrl: 'https://malling.no', // Keeping old URL for now or should I update? User said "Rename... (URL and Text)". I'll keep it as malling.no for the external link unless specified, but internal is front-real-estate.
+    secondaryLogo: '/images/logos/malling-co.png',
+    websiteUrl: 'https://malling.no',
     description: 'Placeanalyser for Front Real Estate - Grünerløkka Oslo',
     keywords: ['Oslo', 'Grünerløkka', 'eiendom', 'placeanalyse', 'Front Real Estate'],
-    passwordEnvVar: 'MALLING_CO_PASSWORD', // Keeping env var same to avoid breaking secrets
+    passwordEnvVar: 'MALLING_CO_PASSWORD',
     requiresAuth: true,
     features: {
       showMainBoardLink: true,
@@ -202,7 +226,7 @@ export const TENANTS: Record<string, TenantConfig> = {
 };
 
 export function getTenant(slug: string): TenantConfig | null {
-  return TENANTS[slug] || null;
+  return TENANTS[slug as TenantSlug] || null;
 }
 
 export function getAllTenants(): TenantConfig[] {
@@ -219,4 +243,8 @@ export function getMainBoardTenant(): TenantConfig {
 
 export function isValidTenant(slug: string): boolean {
   return slug in TENANTS;
+}
+
+export function isCompanyTenantSlug(slug: string): slug is CompanyTenantSlug {
+  return slug in TENANTS && TENANTS[slug as TenantSlug].type === 'company';
 }

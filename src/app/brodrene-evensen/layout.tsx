@@ -1,36 +1,27 @@
+import { notFound } from 'next/navigation';
 import { getTenant } from '@/config/tenants';
-import { TenantProvider } from '@/lib/tenant-context';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
+import TenantShell from '@/components/layout/TenantShell';
 import type { Metadata } from 'next';
+
+const tenant = getTenant('brodrene-evensen');
 
 export const metadata: Metadata = {
   title: {
-    default: 'Brødrene Evensen',
-    template: '%s | Brødrene Evensen',
+    default: tenant?.displayName || 'brodrene-evensen',
+    template: `%s | ${tenant?.name || 'brodrene-evensen'}`,
   },
-  description: 'Plaace-analyser og eiendomsinformasjon for Brødrene Evensens eiendommer på Grünerløkka. Utforsk demografi, markedsdata og utviklingstrender for tre eiendommer i området.',
-  keywords: ['Brødrene Evensen', 'eiendom', 'Plaace', 'eiendomsanalyse', 'Oslo', 'Grünerløkka'],
+  description: tenant?.description || '',
+  keywords: tenant?.keywords || [],
 };
 
-export default function BrodreneEvensenLayout({
+export default function TenantLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const tenant = getTenant('brodrene-evensen');
-
-  if (!tenant) {
-    throw new Error('Brødrene Evensen tenant not found');
+  if (!tenant || tenant.type !== 'company') {
+    notFound();
   }
 
-  return (
-    <TenantProvider tenant={tenant}>
-      <div className="flex min-h-screen flex-col bg-lokka-light text-lokka-neutral">
-        <Header />
-        <main className="flex-1 pt-20">{children}</main>
-        <Footer />
-      </div>
-    </TenantProvider>
-  );
+  return <TenantShell tenant={tenant}>{children}</TenantShell>;
 }

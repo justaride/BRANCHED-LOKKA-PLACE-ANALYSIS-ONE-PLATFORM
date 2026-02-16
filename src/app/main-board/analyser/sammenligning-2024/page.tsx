@@ -8,6 +8,8 @@ import BevegelseComparisonCharts from '@/components/analyser/BevegelseComparison
 import DemografiComparisonCharts from '@/components/analyser/DemografiComparisonCharts';
 import InternasjonalComparisonCharts from '@/components/analyser/InternasjonalComparisonCharts';
 import BesokendeComparisonCharts from '@/components/analyser/BesokendeComparisonCharts';
+import KonkurranseComparisonCharts from '@/components/analyser/KonkurranseComparisonCharts';
+import KorthandelComparisonCharts from '@/components/analyser/KorthandelComparisonCharts';
 import { loadAnalysis } from '@/lib/loaders/place-loader';
 import { MainBoardLoaders } from '@/lib/loaders/main-board';
 import Link from 'next/link';
@@ -75,11 +77,11 @@ export default async function Sammenligning2024Page() {
     (s) => s.kategori === 'bevegelse'
   ) || [];
 
-  const konkurranseScreenshots = analysis.plaaceData.screenshots?.filter(
+  const _konkurranseScreenshots = analysis.plaaceData.screenshots?.filter(
     (s) => s.kategori === 'konkurranse'
   ) || [];
 
-  const korthandelScreenshots = analysis.plaaceData.screenshots?.filter(
+  const _korthandelScreenshots = analysis.plaaceData.screenshots?.filter(
     (s) => s.kategori === 'korthandel'
   ) || [];
 
@@ -92,6 +94,8 @@ export default async function Sammenligning2024Page() {
   void _besokendeScreenshots;
   void _bevegelseScreenshots;
   void _internasjonalScreenshots;
+  void _konkurranseScreenshots;
+  void _korthandelScreenshots;
 
   return (
     <>
@@ -203,21 +207,15 @@ export default async function Sammenligning2024Page() {
           <BevegelseComparisonCharts basePath="/data/main-board/sammenligning-2024" />
         </div>
 
-        {/* 5. Konkurranse */}
-        {konkurranseScreenshots.length > 0 && (
-          <TabbedImageViewer
-            screenshots={konkurranseScreenshots}
-            title="Konkurransebildet"
-          />
-        )}
+        {/* 5. Konkurranse - Interactive Charts */}
+        <div className="mb-16">
+          <KonkurranseComparisonCharts basePath="/data/main-board/analyser/sammenligning-2024" />
+        </div>
 
-        {/* 6. Korthandel */}
-        {korthandelScreenshots.length > 0 && (
-          <TabbedImageViewer
-            screenshots={korthandelScreenshots}
-            title="Korthandel"
-          />
-        )}
+        {/* 6. Korthandel - Interactive Charts */}
+        <div className="mb-16">
+          <KorthandelComparisonCharts basePath="/data/main-board/analyser/sammenligning-2024" />
+        </div>
 
         {/* 6.5 Aktørkartlegging */}
         {combinedData && Object.keys(areaData).length > 0 && (

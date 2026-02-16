@@ -5,6 +5,7 @@
 
 import type { Eiendom } from '@/types/eiendom';
 import { ensureEiendomDefaults, ensureAllEiendomDefaults } from '@/lib/utils/property-defaults';
+import { getTenantPropertyIds } from '@/config/tenant-data-manifest';
 
 const TENANT = 'aspelin-ramm';
 
@@ -46,12 +47,5 @@ export async function loadEiendom(id: string): Promise<Eiendom | null> {
  * Get list of all property IDs
  */
 export function getAllPropertyIds(): string[] {
-  return [
-    'bellonabygget',
-    'mathallen',
-    'nye-broverkstedet',
-    'scandic-hotel-vulkan',
-    'vulkan-arena',
-    'vulkan-omradet',
-  ];
+  return getTenantPropertyIds('aspelin-ramm');
 }

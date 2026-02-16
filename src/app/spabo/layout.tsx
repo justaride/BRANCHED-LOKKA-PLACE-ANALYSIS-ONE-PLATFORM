@@ -1,36 +1,27 @@
+import { notFound } from 'next/navigation';
 import { getTenant } from '@/config/tenants';
-import { TenantProvider } from '@/lib/tenant-context';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
+import TenantShell from '@/components/layout/TenantShell';
 import type { Metadata } from 'next';
+
+const tenant = getTenant('spabo');
 
 export const metadata: Metadata = {
   title: {
-    default: 'SPABO Eiendom',
-    template: '%s | SPABO',
+    default: tenant?.displayName || 'spabo',
+    template: `%s | ${tenant?.name || 'spabo'}`,
   },
-  description: 'Plaace-analyser og eiendomsinformasjon for SPABO Eiendoms portefølje på Grünerløkka. Utforsk demografi, markedsdata og utviklingstrender for fem eiendommer i området.',
-  keywords: ['SPABO', 'SPABO Eiendom', 'eiendom', 'Plaace', 'eiendomsanalyse', 'Oslo', 'Grünerløkka'],
+  description: tenant?.description || '',
+  keywords: tenant?.keywords || [],
 };
 
-export default function SpaboLayout({
+export default function TenantLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const tenant = getTenant('spabo');
-
-  if (!tenant) {
-    throw new Error('SPABO tenant not found');
+  if (!tenant || tenant.type !== 'company') {
+    notFound();
   }
 
-  return (
-    <TenantProvider tenant={tenant}>
-      <div className="flex min-h-screen flex-col bg-lokka-light text-lokka-neutral">
-        <Header />
-        <main className="flex-1 pt-20">{children}</main>
-        <Footer />
-      </div>
-    </TenantProvider>
-  );
+  return <TenantShell tenant={tenant}>{children}</TenantShell>;
 }

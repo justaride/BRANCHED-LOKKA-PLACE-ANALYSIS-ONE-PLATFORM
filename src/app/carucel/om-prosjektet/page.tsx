@@ -4,7 +4,7 @@ import { getTenant } from '@/config/tenants';
 import { getTenantPageContent } from '@/config/tenant-content';
 import TenantAboutPage from '@/components/tenant/TenantAboutPage';
 
-const content = getTenantPageContent('maya-eiendom').about;
+const content = getTenantPageContent('carucel').about;
 
 export const metadata: Metadata = {
   title: content.metadataTitle,
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 export default function TenantAboutRoute() {
-  const tenant = getTenant('maya-eiendom');
+  const tenant = getTenant('carucel');
 
   if (!tenant || tenant.type !== 'company') {
     notFound();

@@ -1,36 +1,27 @@
+import { notFound } from 'next/navigation';
 import { getTenant } from '@/config/tenants';
-import { TenantProvider } from '@/lib/tenant-context';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
+import TenantShell from '@/components/layout/TenantShell';
 import type { Metadata } from 'next';
+
+const tenant = getTenant('aspelin-ramm');
 
 export const metadata: Metadata = {
   title: {
-    default: 'Aspelin Ramm Vulkan',
-    template: '%s | Aspelin Ramm',
+    default: tenant?.displayName || 'aspelin-ramm',
+    template: `%s | ${tenant?.name || 'aspelin-ramm'}`,
   },
-  description: 'Omfattende placeanalyser og eiendomsinformasjon for Aspelin Ramms portefølje på Vulkan.',
-  keywords: ['Aspelin Ramm', 'Vulkan', 'Plaace', 'eiendomsanalyse', 'Oslo', 'FutureBuilt'],
+  description: tenant?.description || '',
+  keywords: tenant?.keywords || [],
 };
 
-export default function AspelinRammLayout({
+export default function TenantLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const tenant = getTenant('aspelin-ramm');
-
-  if (!tenant) {
-    throw new Error('Aspelin Ramm tenant not found');
+  if (!tenant || tenant.type !== 'company') {
+    notFound();
   }
 
-  return (
-    <TenantProvider tenant={tenant}>
-      <div className="flex min-h-screen flex-col bg-lokka-light text-lokka-neutral">
-        <Header />
-        <main className="flex-1 pt-20">{children}</main>
-        <Footer />
-      </div>
-    </TenantProvider>
-  );
+  return <TenantShell tenant={tenant}>{children}</TenantShell>;
 }

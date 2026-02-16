@@ -1,5 +1,6 @@
 import type { Eiendom } from '@/types/eiendom';
 import { ensureEiendomDefaults, ensureAllEiendomDefaults } from '@/lib/utils/property-defaults';
+import { getTenantPropertyIds } from '@/config/tenant-data-manifest';
 
 const TENANT = 'spabo';
 
@@ -47,28 +48,5 @@ export async function loadEiendom(id: string): Promise<Eiendom | null> {
 }
 
 export function getAllPropertyIds(): string[] {
-  return [
-    'brenneriveien-5',
-    'brenneriveien-9',
-    'korsgata-24',
-    'markveien-28',
-    'markveien-51',
-    'markveien-54',
-    'markveien-55',
-    'markveien-56',
-    'markveien-57',
-    'markveien-60',
-    'olaf-ryes-plass-5',
-    'seilduksgata-7',
-    'sofienberggata-6',
-    'stolmakergaten-19',
-    'thorvald-meyers-gate-25',
-    'thorvald-meyers-gate-26',
-    'thorvald-meyers-gate-27',
-    'thorvald-meyers-gate-42',
-    'thorvald-meyers-gate-56',
-    'thorvald-meyers-gate-72',
-    'thorvald-meyers-gate-76',
-    'thorvald-meyers-gate-79',
-  ];
+  return getTenantPropertyIds('spabo');
 }

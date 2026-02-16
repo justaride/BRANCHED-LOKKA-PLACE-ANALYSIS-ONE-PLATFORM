@@ -1,5 +1,6 @@
 import type { Eiendom } from '@/types/eiendom';
 import { ensureEiendomDefaults, ensureAllEiendomDefaults } from '@/lib/utils/property-defaults';
+import { getTenantPropertyIds } from '@/config/tenant-data-manifest';
 
 const TENANT = 'eiendomsspar';
 
@@ -27,5 +28,5 @@ export async function loadEiendom(id: string): Promise<Eiendom | null> {
 }
 
 export function getAllPropertyIds(): string[] {
-  return ['nedre-foss-gard', 'thorvald-meyers-gate-2'];
+  return getTenantPropertyIds('eiendomsspar');
 }

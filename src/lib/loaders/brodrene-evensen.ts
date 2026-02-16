@@ -1,6 +1,7 @@
 import { brodreneEvensenEiendommer, getBrodreneEvensenEiendom } from '@/data/brodrene-evensen';
 import type { Eiendom } from '@/types/eiendom';
 import { ensureEiendomDefaults, ensureAllEiendomDefaults } from '@/lib/utils/property-defaults';
+import { getTenantPropertyIds } from '@/config/tenant-data-manifest';
 
 const TENANT = 'brodrene-evensen';
 
@@ -14,5 +15,5 @@ export async function loadEiendom(id: string): Promise<Eiendom | null> {
 }
 
 export function getAllPropertyIds(): string[] {
-  return brodreneEvensenEiendommer.map(e => e.id);
+  return getTenantPropertyIds('brodrene-evensen');
 }

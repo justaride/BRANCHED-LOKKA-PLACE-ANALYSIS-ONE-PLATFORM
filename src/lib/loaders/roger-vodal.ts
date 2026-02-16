@@ -1,6 +1,7 @@
 import { rogerVodalEiendommer, getRogerVodalEiendom } from '@/data/roger-vodal';
 import type { Eiendom } from '@/types/eiendom';
 import { ensureEiendomDefaults, ensureAllEiendomDefaults } from '@/lib/utils/property-defaults';
+import { getTenantPropertyIds } from '@/config/tenant-data-manifest';
 
 const TENANT = 'roger-vodal';
 
@@ -14,5 +15,5 @@ export async function loadEiendom(id: string): Promise<Eiendom | null> {
 }
 
 export function getAllPropertyIds(): string[] {
-  return rogerVodalEiendommer.map(e => e.id);
+  return getTenantPropertyIds('roger-vodal');
 }

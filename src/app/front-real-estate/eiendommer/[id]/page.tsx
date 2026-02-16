@@ -9,10 +9,12 @@ import AnalyseSelector from "@/components/property/AnalyseSelector";
 import KeyMetrics from "@/components/property/KeyMetrics";
 import EiendomsprofilExpander from "@/components/property/EiendomsprofilExpander";
 import BusinessActors from "@/components/property/BusinessActors";
+import PropertyMapEmbed from "@/components/property/PropertyMapEmbed";
 import FadeIn from "@/components/ui/FadeIn";
 import Link from "next/link";
 import Image from "next/image";
 import { formaterDato } from "@/lib/utils";
+import { getPropertyMetrics } from "@/lib/property-metrics";
 
 interface PageProps {
   params: Promise<{
@@ -54,20 +56,7 @@ export default async function FrontRealEstateEiendomPage({
   // Load 1-minute analysis data if available
   const oneMinData = await loadOneMinAnalysisData("front-real-estate", id);
 
-  // Calculate metrics from næringsaktører data
-  const totalRevenue =
-    eiendom.naringsaktorer?.actors?.reduce(
-      (sum, actor) => sum + (actor.omsetning || 0),
-      0,
-    ) || 0;
-
-  const totalActors = eiendom.naringsaktorer?.metadata?.totalActors || 0;
-
-  const topCategory = eiendom.naringsaktorer?.categoryStats
-    ? Object.entries(eiendom.naringsaktorer.categoryStats).sort(
-        (a, b) => b[1].count - a[1].count,
-      )[0]?.[0] || ""
-    : "";
+  const { totalRevenue, totalActors, topCategory } = getPropertyMetrics(eiendom);
 
   return (
     <>
@@ -157,15 +146,9 @@ export default async function FrontRealEstateEiendomPage({
             {/* Google Maps - Primary, Full Width with Satellite View */}
             {eiendom.coordinates && (
               <div className="mb-6 h-[300px] overflow-hidden rounded-xl shadow-medium md:mb-8 md:h-[400px] md:rounded-2xl">
-                <iframe
-                  src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${eiendom.coordinates.lat},${eiendom.coordinates.lng}&zoom=18&maptype=satellite`}
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title={`Google Maps - ${eiendom.adresse}`}
+                <PropertyMapEmbed
+                  coordinates={eiendom.coordinates}
+                  address={eiendom.adresse}
                 />
               </div>
             )}
