@@ -1,0 +1,259 @@
+{
+  "generatedAt": "2026-02-12T22:20:00Z",
+  "project": "lokka-gardeierforening-platform",
+  "mode": "analysis-only",
+  "environment": {
+    "node": "v22.22.0",
+    "npm": "10.9.4",
+    "nextDeclared": "^16.0.8",
+    "nextInstalled": "16.1.1"
+  },
+  "summary": {
+    "totalFindings": 9,
+    "bySeverity": {
+      "critical": 2,
+      "high": 3,
+      "medium": 3,
+      "low": 1
+    },
+    "qualityGates": {
+      "verify": "fail",
+      "auditDataCritical": "pass",
+      "auditDataFull": "pass_info",
+      "typeCheck": "fail",
+      "lint": "fail",
+      "test": "fail_or_unstable",
+      "build": "fail",
+      "routeSmoke": "blocked"
+    }
+  },
+  "findings": [
+    {
+      "id": "A-001",
+      "severity": "critical",
+      "category": "runtime",
+      "tenant": "all",
+      "route_or_file": "node_modules/next/dist/shared/lib/image-config.js",
+      "symptom": "Local runtime startup is unstable and route smoke cannot run reliably.",
+      "reproduction": [
+        "Run DISABLE_TENANT_AUTH=true npm run dev",
+        "Probe http://localhost:3001/"
+      ],
+      "expected": "Dev server consistently binds port 3001 and responds to route probes.",
+      "actual": "Startup fails or remains unreachable; observed missing module and interop runtime errors from Next runtime internals.",
+      "impact": "Blocks runtime regression detection and tenant route validation.",
+      "root_cause_hypothesis": "Corrupted or incomplete next runtime artifacts under node_modules, possibly combined with environment/version drift.",
+      "recommended_fix": [
+        "Clean reinstall dependencies with deterministic lockfile install.",
+        "Validate required next runtime JS artifacts are present.",
+        "Pin and document supported Node version for local and CI."
+      ],
+      "confidence": "high",
+      "evidence_refs": [
+        "docs/audit/ROUTE_SMOKE_RESULTS.md",
+        "node_modules/next/dist/server/config-shared.js:28",
+        "node_modules/next/dist/shared/lib/constants.js:292"
+      ]
+    },
+    {
+      "id": "A-002",
+      "severity": "critical",
+      "category": "data",
+      "tenant": "carucel",
+      "route_or_file": "src/data/carucel/olaf-ryes-plass-4/1min/bevegelse.json",
+      "symptom": "Verification and prebuild checks fail due missing required analysis data file.",
+      "reproduction": [
+        "Run npm run verify",
+        "Run npm run build"
+      ],
+      "expected": "All required 1-min/5-min analysis files are present and loadable.",
+      "actual": "Analysis validator reports missing bevegelse.json for carucel/olaf-ryes-plass-4/1min.",
+      "impact": "Build and release pipeline is blocked.",
+      "root_cause_hypothesis": "Dataset incomplete after adding/renaming property analysis assets.",
+      "recommended_fix": [
+        "Add the missing file with expected schema.",
+        "If intentionally absent, update loader and validation manifest together."
+      ],
+      "confidence": "high",
+      "evidence_refs": [
+        "analysis-validation-report.json",
+        "verification-report.json",
+        "src/lib/loaders/one-min-loader.ts:55"
+      ]
+    },
+    {
+      "id": "A-003",
+      "severity": "high",
+      "category": "type",
+      "tenant": "all",
+      "route_or_file": "src/lib/loaders/one-min-loader.ts",
+      "symptom": "Type-check fails with TS2307 missing-module errors.",
+      "reproduction": [
+        "Run npm run type-check"
+      ],
+      "expected": "Type-check exits 0 with no unresolved module imports.",
+      "actual": "Missing import for carucel bevegelse data and stale generated route validator references under .next types.",
+      "impact": "Type safety gate is non-functional and blocks CI confidence.",
+      "root_cause_hypothesis": "Missing source file plus tsconfig coupling to stale generated .next type artifacts.",
+      "recommended_fix": [
+        "Resolve missing carucel import target.",
+        "Adjust type-check strategy around .next generated types and stale route refs."
+      ],
+      "confidence": "high",
+      "evidence_refs": [
+        "src/lib/loaders/one-min-loader.ts:55",
+        "tsconfig.json:29",
+        "tsconfig.json:30",
+        ".next/types/validator.ts:458"
+      ]
+    },
+    {
+      "id": "A-004",
+      "severity": "high",
+      "category": "lint",
+      "tenant": "all",
+      "route_or_file": "eslint runtime",
+      "symptom": "Lint command crashes before linting application files.",
+      "reproduction": [
+        "Run npm run lint"
+      ],
+      "expected": "Lint command returns lint findings or success.",
+      "actual": "ESLint exits with TypeError: ConfigCommentParser is not a constructor.",
+      "impact": "No static lint gate; code-quality regressions can pass undetected.",
+      "root_cause_hypothesis": "Dependency/runtime mismatch in eslint package graph or corrupted install state.",
+      "recommended_fix": [
+        "Reconcile eslint dependency tree and reinstall.",
+        "Re-run lint in clean environment and pin working versions."
+      ],
+      "confidence": "high",
+      "evidence_refs": [
+        "eslint.config.mjs",
+        "docs/audit/PROJECT_HEALTH_AUDIT.md"
+      ]
+    },
+    {
+      "id": "A-005",
+      "severity": "high",
+      "category": "test",
+      "tenant": "all",
+      "route_or_file": "jest runtime",
+      "symptom": "Test command is unstable (hangs and/or invalid package config errors).",
+      "reproduction": [
+        "Run npm run test -- --runInBand",
+        "Run npm run test -- --runInBand --runTestsByPath src/lib/utils/__tests__/safe-data.test.ts --detectOpenHandles --forceExit"
+      ],
+      "expected": "Unit tests execute deterministically and finish with pass/fail.",
+      "actual": "Default run hangs; targeted run produced ERR_INVALID_PACKAGE_CONFIG in transitive node_modules package.json paths.",
+      "impact": "Automated test signal is unavailable.",
+      "root_cause_hypothesis": "Non-deterministic or corrupted dependency state and runtime compatibility issues.",
+      "recommended_fix": [
+        "Repair dependency integrity first.",
+        "Add deterministic CI test invocation with explicit timeout.",
+        "Validate single-test and full-suite execution paths."
+      ],
+      "confidence": "medium_high",
+      "evidence_refs": [
+        "jest.config.js",
+        "docs/audit/PROJECT_HEALTH_AUDIT.md"
+      ]
+    },
+    {
+      "id": "A-006",
+      "severity": "medium",
+      "category": "consistency",
+      "tenant": "all",
+      "route_or_file": "scripts/test-all-tenants.sh",
+      "symptom": "Route smoke helper script is out of sync with current tenants and dev port.",
+      "reproduction": [
+        "Compare scripts/test-all-tenants.sh tenant list with src/config/tenants.ts"
+      ],
+      "expected": "Smoke script should cover active tenant slugs and active dev port.",
+      "actual": "Script uses old slugs (malling-co, spabo-eiendom), misses front-real-estate/spabo/carucel, and defaults to port 3000.",
+      "impact": "False negatives and missed route coverage in manual QA.",
+      "root_cause_hypothesis": "Script not updated after tenant slug migrations.",
+      "recommended_fix": [
+        "Derive tenant list from src/config/tenants.ts.",
+        "Align default base URL with npm run dev port."
+      ],
+      "confidence": "high",
+      "evidence_refs": [
+        "scripts/test-all-tenants.sh:16",
+        "scripts/test-all-tenants.sh:25",
+        "scripts/test-all-tenants.sh:29",
+        "src/config/tenants.ts:23"
+      ]
+    },
+    {
+      "id": "A-007",
+      "severity": "medium",
+      "category": "verify",
+      "tenant": "all",
+      "route_or_file": "scripts/verify-project.js",
+      "symptom": "High warning volume includes likely false positives.",
+      "reproduction": [
+        "Run npm run verify",
+        "Review warning patterns for name/address/tenant requirements"
+      ],
+      "expected": "Warnings should mostly correspond to true defects.",
+      "actual": "83 files are flagged for missing property fields although many are non-property thematic datasets.",
+      "impact": "Important warnings are harder to prioritize.",
+      "root_cause_hypothesis": "Single required-field heuristic is applied across heterogeneous dataset types.",
+      "recommended_fix": [
+        "Add schema-aware validation per dataset category.",
+        "Scope required fields only to property-profile objects."
+      ],
+      "confidence": "medium_high",
+      "evidence_refs": [
+        "verification-report.json",
+        "scripts/verify-project.js:90",
+        "docs/audit/DATA_INTEGRITY_RESULTS.md"
+      ]
+    },
+    {
+      "id": "A-008",
+      "severity": "medium",
+      "category": "data",
+      "tenant": "mixed",
+      "route_or_file": "src/data/**",
+      "symptom": "Large null-value footprint across datasets without explicit nullable contract mapping.",
+      "reproduction": [
+        "Run null classification across src/data JSON files"
+      ],
+      "expected": "Nullability should be explicit by schema and intentionally handled in loaders/charts.",
+      "actual": "85 files contain nulls; top file has 1738 null entries.",
+      "impact": "Potential hidden runtime edge cases and warning ambiguity.",
+      "root_cause_hypothesis": "Data sources contain sparse fields while schema-level null policy is undocumented.",
+      "recommended_fix": [
+        "Publish nullable field contracts for each dataset family.",
+        "Normalize null-heavy datasets before presentation."
+      ],
+      "confidence": "medium",
+      "evidence_refs": [
+        "docs/audit/DATA_INTEGRITY_RESULTS.md"
+      ]
+    },
+    {
+      "id": "A-009",
+      "severity": "low",
+      "category": "data_semantics",
+      "tenant": "main-board",
+      "route_or_file": "public/data/main-board/sammenligning-2024/besokende/antall-hus.json",
+      "symptom": "INFO semantic notices indicate possible metric-label mismatch.",
+      "reproduction": [
+        "Run npm run audit:data -- --verbose"
+      ],
+      "expected": "Metric labels and values should be semantically aligned.",
+      "actual": "Values for building-type labels appear implausible as literal building counts; likely represent visitor housing-type composition.",
+      "impact": "Potential interpretation confusion in analytics UI.",
+      "root_cause_hypothesis": "Naming drift between source metric semantics and consumer labels.",
+      "recommended_fix": [
+        "Clarify labels and tooltip semantics in UI/data docs.",
+        "Keep as informational if meaning is confirmed."
+      ],
+      "confidence": "medium",
+      "evidence_refs": [
+        "data-audit-report.json"
+      ]
+    }
+  ]
+}

@@ -88,16 +88,18 @@
     "confidence": "medium",
     "note": "Markveien 35 is on a main shopping street attracting tourists. Higher Nordic visitors due to proximity to hostels and Airbnbs. Pattern estimated from Vulkan Området with adjustment for retail street vs food hall.",
     "enhancementRecommendation": {
-      "provider": "PlaceSense or Huq Industries",
+      "primaryProvider": "Plaace (upgrade existing subscription)",
+      "secondaryProvider": "Telia Crowd Insights (direct agreement)",
       "capabilities": [
-        "country-level visitor breakdown",
-        "daily international visitor trends"
+        "country-level visitor breakdown (Telia 40% Norwegian mobile market)",
+        "daily international visitor trends",
+        "16M Nordic mobile users tracked"
       ],
       "contacts": {
-        "PlaceSense": "https://placesense.ai/",
-        "Huq": "https://huq.io/"
+        "Plaace": "contact@plaace.co | +47 938 97 737",
+        "Telia": "di-support@teliacompany.com | telia.no/bedrift/crowd-insights/"
       },
-      "estimatedCost": "£375/report or enterprise subscription"
+      "note": "PlaceSense does NOT cover Norway. Huq has uncertain Norwegian coverage. Plaace/Telia are the viable routes."
     }
   }
 }

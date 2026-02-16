@@ -46,6 +46,23 @@ gir kun totaler, ikke kategorifordeling.
 - [ ] Finn genereringsskript (trolig i Google Drive)
 - [ ] Beslutt: Behold med disclaimer / Fjern / Rekalkuler
 
+### 6. Sammenligning 2024 - Datainnhenting
+
+Interaktive grafer er implementert for "Områdesammenligning 2024", men bruker delvis syntetiske/placeholder data. Følgende data må innhentes fra Plaace/kilder:
+
+**Korthandel (Sammenligning av 4 områder: Løkka, Bjørvika, Sentrum, Majorstuen)**
+- [x] Total omsetning 2024 per område (NOK)
+- [x] Årlig vekst per område (%)
+- [x] Indeksert vekst per måned 2024 (jan=100 eller jan=basis)
+- [x] Ukedagsfordeling (%) per område
+
+**Konkurransebilde**
+- [x] Utvikling over tid (2015-2025): Antall enheter/omsetning per kategori (Handel, Servering, Tjenester)
+- [x] Markedsandeler vs Oslo Kommune (Over/underandel per kategori)
+
+*Fil som skal oppdateres:* `src/data/main-board/analyser/sammenligning-2024/korthandel-sammenligning.json` og `konkurranse-sammenligning.json`
+*Status:* ✅ CSV-filer mottatt og prosessert 26.01.2026.
+
 ## Datakilder å kartlegge
 
 | Kilde     | Type        | Parametere                               | Dekning       |

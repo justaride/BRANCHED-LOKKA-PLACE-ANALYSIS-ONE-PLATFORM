@@ -44,3 +44,11 @@ next-env.d.ts
 verification-report.json
 data-audit-report.json
 analysis-validation-report.json
+.env*.local
+
+# local settings with secrets
+.claude/
+
+# raw working data
+sammenligning oppdatering/
+årsrapport løkka 2025/

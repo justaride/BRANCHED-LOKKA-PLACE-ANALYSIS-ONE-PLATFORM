@@ -115,14 +115,19 @@
     "confidence": "medium",
     "note": "Markveien 35 is a retail/office location on a busy shopping street. Visitor origins estimated based on proximity patterns from nearby analyzed properties.",
     "enhancementRecommendation": {
-      "provider": "PlaceSense",
+      "primaryProvider": "Plaace (upgrade existing subscription)",
+      "secondaryProvider": "Telia Crowd Insights (direct agreement)",
       "capabilities": [
-        "3m GPS accuracy",
-        "dwell time",
-        "visitor journey flows"
+        "visitor origins (Plaace Visitors' Origin)",
+        "international visitors (Telia mobile data)",
+        "dwell time (Telia direct)",
+        "journey flows (Telia direct)"
       ],
-      "contact": "https://placesense.ai/",
-      "estimatedCost": "enterprise pricing"
+      "contacts": {
+        "Plaace": "contact@plaace.co | +47 938 97 737",
+        "Telia": "di-support@teliacompany.com | telia.no/bedrift/crowd-insights/"
+      },
+      "note": "PlaceSense does NOT cover Norway (DACH+NL+IT only). Telenor has no footfall product. Plaace/Telia are the viable routes."
     }
   }
 }

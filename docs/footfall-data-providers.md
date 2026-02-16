@@ -1,6 +1,7 @@
 # Footfall Data Providers - Integration Guide
 
 > Research completed January 2026 for Markveien 35 1-minute analysis enhancement
+> Updated January 29, 2026 with provider verification and concrete action plan
 
 ## Current Data Sources
 
@@ -23,123 +24,211 @@
 
 ---
 
-## Recommended Providers
+## Provider Evaluation Summary
 
-### 1. PlaceSense ⭐ TOP RECOMMENDATION
-
-**Website:** https://placesense.ai/
-
-**Coverage:** 47+ European countries including Norway
-
-**What they offer:**
-
-- Europe's largest GPS panel
-- 3-meter accuracy (vs ~100m from cell towers)
-- Footfall index for benchmarking
-- Consumer journey mapping (where from → where to)
-- Dwell time analysis
-- GDPR-compliant
-
-**Strengths for Løkka:**
-
-- "Hybrid Data Model" combines multiple sources
-- SaaS platform + API access
-- Can measure visitors, dwell time, origins, destinations
-
-**Pricing:** Enterprise (contact for quote)
-
-**Integration path:**
-
-1. Request demo for Markveien 35 / Grünerløkka area
-2. Evaluate data depth vs current Plaace data
-3. If better: Build MCP server to query API
-4. Add new chart sections (journey flows, dwell time)
+| Leverandør                         | Norge-dekning              | Vår data allerede? | Status                                         |
+| ---------------------------------- | -------------------------- | ------------------ | ---------------------------------------------- |
+| **Plaace** (nåværende)             | ✅ Ja                      | ✅ Bruker i dag    | **Rute 1: Oppgrader abonnement**               |
+| **Telia Crowd Insights** (direkte) | ✅ 40% mobilmarked i Norge | ✅ Via Plaace      | **Rute 2: Direkte avtale for mer data**        |
+| **CountMatters/IMAS**              | ✅ HQ i Ski, Norge         | ❌ Nei             | **Rute 3: Sensorbasert (krever installasjon)** |
+| **Telenor**                        | ✅ Størst i Norge          | ❌ Nei             | ❌ Ingen relevant footfall-produkt             |
+| **PlaceSense**                     | ❌ Kun DACH+NL+IT          | ❌ Nei             | ❌ Ikke Norge-dekning                          |
+| **Huq Industries**                 | ⚠️ Usikkert                | ❌ Nei             | ⚠️ Mulig backup                                |
 
 ---
 
-### 2. Huq Industries
+## Providers NOT Recommended
 
-**Website:** https://huq.io/
+### Telenor — Ingen footfall-produkt
 
-**Coverage:** 239 countries, strong UK/Europe focus
+Telenor har **IKKE** et footfall/mobilitetsdata-produkt for kommersielt salg:
 
-**What they offer:**
+- **IoT Analytics & Insights** er for IoT-enhetsflåter, ikke befolkningsmobilitet
+- Har brukt mobilitetsdata til forskning ("Big Data for Social Good" — COVID, dengue)
+- **Ingen kommersiell API** tilsvarende Telia Crowd Insights
+- Telenor Bedrift tilbyr mobilinfrastruktur i bygg, ikke footfall-analyse
 
-- 100% first-party data via SDK
-- Daily footfall monitoring
-- 2+ years historical data
-- GDPR-compliant API
-- H3 hexbin level 12 resolution
+**Telia er den eneste nordiske teleoperatøren med et ferdig footfall-produkt for Norge.**
 
-**Pricing:**
+### PlaceSense — Ikke Norge-dekning
 
-- £1,000/month starting point
-- £375/location for reports
-- 3-month evaluation period available
+- Dekker kun DACH (Tyskland, Østerrike, Sveits), Nederland og Italia
+- **Ikke tilgjengelig i Norge** — kan ikke brukes for Grünerløkka
 
-**Strengths:**
+### Unacast — Primært US-fokusert
 
-- Budget-friendly entry point
-- Per-location reports (test before committing)
-- Daily data updates
-
-**Integration path:**
-
-1. Purchase single report for Markveien 35 (£375)
-2. Evaluate data quality for Oslo/Grünerløkka
-3. If good: Subscribe to monthly API
-4. Build MCP server for daily updates
+- Grunnlagt i Norge, men nå primært US-markedet
+- Mest detaljert data kun for USA
 
 ---
 
-### 3. Unacast (Norwegian Origin)
+## Rute 1: Plaace (nåværende leverandør) — RASKEST
 
-**Website:** https://www.unacast.com/
+### Hva de har
 
-**Note:** Founded in Norway but now primarily US-focused
+- Telia-data (besøkstall, opprinnelse, bevegelsesmønster)
+- BankAxept/Vipps-data (korttransaksjoner, daglig oppdatert)
+- Konkurranse- og demografidata
+- AI-drevet "Fit Score" og "Similar Areas" (kun Norge)
+- "Visitors' Origin" — akkurat det vi mangler
 
-**What they offer:**
+### Hva vi bør be om
 
-- Consent-based collection
-- Ground-truth validation
-- Turbine platform (used by Telia)
+1. **Besøkendes opphav** ("Visitors' Origin") for Markveien 35 1-min radius
+2. **Internasjonale besøkende** (via Telia-data)
+3. **API/eksport** av data i JSON-format for plattformintegrasjon
+4. **Automatiske oppdateringer** (kvartalsvis → månedlig/ukentlig)
 
-**Limitation:** Most detailed data is US-only. May not be suitable for Oslo.
+### Kontaktinfo
+
+```
+Kontakt: contact@plaace.co
+Telefon: +47 938 97 737 / +47 976 12 713
+Adresse: Tordenskiolds gate 2, 0160 Oslo
+Org.nr: 924 898 127
+```
+
+### Typisk avtaleform
+
+- Årsabonnement (SaaS)
+- Priset per bruker eller per analyse-modul
+- Ingen offentlig prisliste — tilpasset etter behov
 
 ---
 
-### 4. CountMatters (Nordic Sensor-Based)
+## Rute 2: Telia Crowd Insights (direkte) — MER DATA
 
-**Website:** Contact for info
+### Hva de har utover Plaace
 
-**Coverage:** Nordic region
+| Data                               | Via Plaace   | Direkte fra Telia        |
+| ---------------------------------- | ------------ | ------------------------ |
+| Besøkstall                         | ✅           | ✅ + finere granularitet |
+| Besøksendes opphav                 | ⚠️ Begrenset | ✅ Full dekning          |
+| Oppholdstid                        | ❌           | ✅                       |
+| Reiseruter (origin→destination)    | ❌           | ✅                       |
+| Før/etter-event analyse            | ❌           | ✅                       |
+| Dag-/overnattingsbesøkende         | ❌           | ✅                       |
+| "White spots" (steder folk unngår) | ❌           | ✅                       |
 
-**What they offer:**
+### Dataomfang
 
-- Physical sensors (cameras/counters)
-- Real-time occupancy monitoring
-- Entrance-to-checkout tracking
-- API integration to BI systems
+- **16 millioner** kunder i Norden
+- **40%** av mobilmarkedet i Norge
+- **600 millioner** pings per dag i Norge
+- **400+** signalhendelser per kunde daglig
+- GDPR + ePrivacy-kompatibel
+- Minimum 5 personer per datapunkt (anonymisering)
 
-**Best for:** If you own/manage the property and can install sensors
+### Leveringsformater
 
-**Note:** Requires physical installation, not suitable for street-level analysis
+1. **CSV/Shapefile** — datasett for egen bearbeiding
+2. **Engangs Tableau-dashboard** — interaktivt
+3. **Kontinuerlig Tableau Online** — løpende abonnement
+
+### Kontaktinfo
+
+```
+E-post: di-support@teliacompany.com
+Telefon: +46 771-22 77 55 (svensk nummer, betjener Norden)
+Nettside: telia.no/bedrift/crowd-insights/
+```
+
+### Typisk avtaleform
+
+- **Abonnement** (subscription-based) — løpende tilgang
+- **Engangsanalyse** — enkeltbestillinger mulig
+- Konfigurerbar: lokasjon, tidsperiode, datapunkter, leveringsformat
+
+---
+
+## Rute 3: CountMatters/IMAS (sensorbasert) — EKSAKT TELLING
+
+### Hva de tilbyr
+
+- Fysiske persontellesensorer (3D-stereo, WiFi, radar)
+- Xperio-plattform med **dokumentert API**
+- Sanntids besøkstelling med timesoppløsning
+- Demografi (kjønn via sensor)
+- Konverteringsrate (besøk → kjøp)
+
+### Norske referansekunder
+
+- **Ragde Eiendom** — 12 kjøpesentre
+- **Bjørklund** — 90 butikker
+- **Søstrene Grene** — besøksanalyse
+
+### Kontaktinfo
+
+```
+E-post: info@countmatters.com
+Telefon: +47 64 86 20 40
+Skandinavia-salg: +45 31 54 21 14
+Adresse: Åsveien 3, N-1424 Ski, Norge
+Portal: portal.imas.net
+```
+
+### Typisk avtaleform
+
+- **Fast månedlig avgift** — alt inkludert (hardware, software, support)
+- **Ingen bindingstid** og ingen oppstartsavgift
+- API-tilgang inkludert i Xperio-plattformen
+
+### Begrensning
+
+Krever at Front Real Estate godkjenner sensorinstallasjon. Måler kun inngangstrafikk, ikke gatetrafikk.
+
+---
+
+## Backup: Huq Industries
+
+- **Website:** https://huq.io/
+- **Dekning:** 239 land, sterk UK/Europa-fokus — **usikkert for Norge**
+- **Pris:** £1,000/mnd eller £375/lokasjon for rapporter
+- Kun aktuell hvis Plaace og Telia ikke dekker behovet
 
 ---
 
 ## Comparison Matrix
 
-| Feature          | Plaace (Current)   | PlaceSense           | Huq                   |
-| ---------------- | ------------------ | -------------------- | --------------------- |
-| Daily visits     | ✅                 | ✅                   | ✅                    |
-| Visitor origins  | ❌ Via Telia only  | ✅ Full heatmap      | ✅                    |
-| Dwell time       | ❌                 | ✅                   | ✅                    |
-| Journey flows    | ❌                 | ✅                   | ✅                    |
-| International    | ⚠️ Limited         | ✅ Country breakdown | ✅                    |
-| Update frequency | Quarterly          | Daily API            | Daily API             |
-| Accuracy         | ~100m (cell tower) | 3-10m (GPS)          | H3 hexbin             |
-| Norway coverage  | ✅ Strong          | ✅ 47 countries      | ✅ 239 countries      |
-| Pricing          | Included           | Enterprise           | £1k/mo or £375/report |
+| Feature          | Plaace (Current)   | Telia (Direkte)    | CountMatters     | Huq                |
+| ---------------- | ------------------ | ------------------ | ---------------- | ------------------ |
+| Daily visits     | ✅                 | ✅                 | ✅ (sensor)      | ✅                 |
+| Visitor origins  | ⚠️ Begrenset       | ✅ Full dekning    | ❌               | ✅                 |
+| Dwell time       | ❌                 | ✅                 | ❌               | ✅                 |
+| Journey flows    | ❌                 | ✅                 | ❌               | ✅                 |
+| International    | ⚠️ Limited         | ✅                 | ❌               | ✅                 |
+| Update frequency | Quarterly          | Daily/subscription | Real-time        | Daily API          |
+| Accuracy         | ~100m (cell tower) | ~100m (cell tower) | 99.9% (sensor)   | H3 hexbin          |
+| Norway coverage  | ✅ Strong          | ✅ 40% mobil       | ✅ Ski, Norge    | ⚠️ Usikkert        |
+| Installation     | None               | None               | Physical sensors | None               |
+| Pricing          | Included           | Enterprise         | Monthly fee      | £1k/mo or £375/rpt |
+
+---
+
+## Recommended Action Plan
+
+### Steg 1: Kontakt Plaace (denne uken)
+
+- Vi er allerede kunde — raskest vei til data vi mangler
+- Spør om: Visitors' Origin, internasjonale besøkende, API/JSON-eksport
+- Forventet svar: 1-3 virkedager
+
+### Steg 2: Kontakt Telia direkte (parallelt)
+
+- Mer granulære data enn via Plaace (oppholdstid, reiseruter)
+- Spør om: Hva kan vi få utover det Plaace tilbyr?
+- Forventet svar: Møtebooking → 1-2 uker til tilbud
+
+### Steg 3: Evaluer CountMatters (om behov)
+
+- Eksakt telling (99.9% nøyaktighet) vs estimater
+- Kun relevant hvis Front Real Estate vil ha sensordata
+
+### IKKE gjøre
+
+- ❌ Kontakt PlaceSense (ikke Norge-dekning)
+- ❌ Kontakt Telenor (ingen relevant footfall-produkt)
+- ❌ Kjøp Huq-rapport uten å verifisere norsk dekning først
 
 ---
 
@@ -155,9 +244,9 @@ There is no existing MCP server for physical footfall data. Options:
 ~/.claude/mcp-servers/footfall-hub/
 ├── index.ts              # MCP server
 ├── providers/
-│   ├── placesense.ts     # PlaceSense API
-│   ├── huq.ts            # Huq Industries API
-│   └── plaace-export.ts  # Current Plaace exports
+│   ├── telia.ts          # Telia Crowd Insights API
+│   ├── plaace-export.ts  # Plaace exports
+│   └── countmatters.ts   # CountMatters Xperio API
 └── tools/
     ├── get-footfall.ts   # Unified query
     └── compare.ts        # Cross-validate sources
@@ -176,56 +265,18 @@ There is no existing MCP server for physical footfall data. Options:
 
 ---
 
-## Next Steps
-
-### Immediate (This Week)
-
-- [x] Create estimated besokende.json for Markveien 35
-- [x] Create estimated internasjonalt.json for Markveien 35
-- [ ] Request PlaceSense demo (email sales@placesense.ai)
-- [ ] Purchase Huq single report for Markveien 35 (£375)
-
-### Short-term (1-2 Weeks)
-
-- [ ] Evaluate PlaceSense demo data quality
-- [ ] Compare Huq report vs current Plaace data
-- [ ] Decision: Which provider to integrate?
-
-### Medium-term (2-4 Weeks)
-
-- [ ] Build MCP server for chosen provider
-- [ ] Add new chart components (journey flows, dwell time)
-- [ ] Update 1-min analysis page with enhanced sections
-
----
-
-## Contact Information
-
-**PlaceSense**
-
-- Website: https://placesense.ai/
-- Demo request: https://placesense.ai/demo
-
-**Huq Industries**
-
-- Website: https://huq.io/
-- Pricing: https://huq.io/pricing
-- Contact: sales@huq.io
-
-**Plaace (Current)**
-
-- Website: https://plaace.co/
-- Contact: post@plaace.co
-
----
-
 ## References
 
-- [Datarade - Footfall Data APIs](https://datarade.ai/search/products/footfall-apis)
-- [Telia Crowd Insights](https://business.teliacompany.com/industries/buildings/location-insights)
-- [PlaceSense Methodology](https://placesense.ai/methodology)
-- [Huq Data Dictionary](https://huq.io/data-dictionary)
+- [Telia Crowd Insights Norge](https://www.telia.no/bedrift/crowd-insights/)
+- [Telia Arrangementer & Turisme](https://www.telia.no/bedrift/crowd-insights/arrangementer-og-turisme/)
+- [Plaace - Telia-integrasjon](https://plaace.co/en/crowd-insights-from-telia-take-plaaces-expansion-analysis-to-a-whole-new-level/)
+- [Plaace Features](https://plaace.co/en/product/features/)
+- [Plaace Hjemmeside](https://plaace.co/en/)
+- [CountMatters/IMAS](https://www.countmatters.com/about)
+- [CountMatters - Ragde Eiendom case](https://www.countmatters.com/en/news/case-retail-footfall-analytics-property-owner-traffic-data-into-action)
+- [Telenor IoT Analytics](https://iot.telenor.com/offering/analytics-insights/)
+- [Datarade Footfall Providers](https://datarade.ai/data-categories/footfall-traffic-data/providers)
 
 ---
 
-_Last updated: January 2026_
+_Last updated: January 29, 2026_
