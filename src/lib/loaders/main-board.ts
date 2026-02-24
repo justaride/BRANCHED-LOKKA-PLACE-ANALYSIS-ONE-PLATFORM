@@ -63,14 +63,7 @@ export async function loadAnalyserDemografi2017_2023() {
  * Contains 2024 comparison analysis
  */
 export async function loadSammenligning2024() {
-  try {
-    const data =
-      await import("@/data/main-board/analyser/sammenligning-2024.json");
-    return data.default;
-  } catch (error) {
-    console.error("Error loading sammenligning-2024:", error);
-    throw new Error("Failed to load 2024 comparison data");
-  }
+  return null;
 }
 
 // ============================================================================
@@ -216,14 +209,7 @@ export async function loadAllSammenligningAreas() {
  * Contains comprehensive demographic data
  */
 export async function loadDemografi2017_2023() {
-  try {
-    const data =
-      await import("@/data/main-board/demografi/demografi-2017-2023.json");
-    return data.default;
-  } catch (error) {
-    console.error("Error loading demografi-2017-2023:", error);
-    throw new Error("Failed to load demographic data 2017-2023");
-  }
+  return null;
 }
 
 // ============================================================================

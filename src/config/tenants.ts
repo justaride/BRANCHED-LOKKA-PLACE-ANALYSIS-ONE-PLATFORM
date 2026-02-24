@@ -35,6 +35,7 @@ export interface TenantConfig {
   description: string;
   keywords: string[];
   passwordEnvVar: string;
+  emailsEnvVar: string;
   requiresAuth: boolean;
   features: {
     showMainBoardLink: boolean;
@@ -54,6 +55,7 @@ export const TENANTS: Record<TenantSlug, TenantConfig> = {
     description: 'Comprehensive temporal and comparative place analysis of Grünerløkka, Oslo',
     keywords: ['Grünerløkka', 'Oslo', 'place analysis', 'urban analytics', 'temporal analysis'],
     passwordEnvVar: 'MAIN_BOARD_PASSWORD',
+    emailsEnvVar: 'MAIN_BOARD_EMAILS',
     requiresAuth: true,
     features: {
       showMainBoardLink: false,
@@ -72,6 +74,7 @@ export const TENANTS: Record<TenantSlug, TenantConfig> = {
     description: 'Placeanalyser og eiendomsinformasjon for Aspelin Ramm sin portefølje på Vulkan, Oslo',
     keywords: ['Oslo', 'Vulkan', 'eiendom', 'placeanalyse', 'Aspelin Ramm'],
     passwordEnvVar: 'ASPELIN_RAMM_PASSWORD',
+    emailsEnvVar: 'ASPELIN_RAMM_EMAILS',
     requiresAuth: true,
     features: {
       showMainBoardLink: true,
@@ -90,6 +93,7 @@ export const TENANTS: Record<TenantSlug, TenantConfig> = {
     description: 'Placeanalyser for Brødrene Evensen - Oslo properties',
     keywords: ['Oslo', 'eiendom', 'placeanalyse', 'Brødrene Evensen'],
     passwordEnvVar: 'BRODRENE_EVENSEN_PASSWORD',
+    emailsEnvVar: 'BRODRENE_EVENSEN_EMAILS',
     requiresAuth: true,
     features: {
       showMainBoardLink: true,
@@ -108,6 +112,7 @@ export const TENANTS: Record<TenantSlug, TenantConfig> = {
     description: 'Placeanalyser for Eiendomsspar - Property portfolio',
     keywords: ['Oslo', 'eiendom', 'placeanalyse', 'Eiendomsspar'],
     passwordEnvVar: 'EIENDOMSSPAR_PASSWORD',
+    emailsEnvVar: 'EIENDOMSSPAR_EMAILS',
     requiresAuth: true,
     features: {
       showMainBoardLink: true,
@@ -126,6 +131,7 @@ export const TENANTS: Record<TenantSlug, TenantConfig> = {
     description: 'Placeanalyser for Front Real Estate - Grünerløkka Oslo',
     keywords: ['Oslo', 'Grünerløkka', 'eiendom', 'placeanalyse', 'Front Real Estate'],
     passwordEnvVar: 'MALLING_CO_PASSWORD',
+    emailsEnvVar: 'FRONT_REAL_ESTATE_EMAILS',
     requiresAuth: true,
     features: {
       showMainBoardLink: true,
@@ -144,6 +150,7 @@ export const TENANTS: Record<TenantSlug, TenantConfig> = {
     description: 'Placeanalyser for Maya Eiendom - Oslo properties',
     keywords: ['Oslo', 'eiendom', 'placeanalyse', 'Maya Eiendom'],
     passwordEnvVar: 'MAYA_EIENDOM_PASSWORD',
+    emailsEnvVar: 'MAYA_EIENDOM_EMAILS',
     requiresAuth: true,
     features: {
       showMainBoardLink: true,
@@ -162,6 +169,7 @@ export const TENANTS: Record<TenantSlug, TenantConfig> = {
     description: 'Placeanalyser for Roger Vodal - Property portfolio',
     keywords: ['Oslo', 'eiendom', 'placeanalyse', 'Roger Vodal'],
     passwordEnvVar: 'ROGER_VODAL_PASSWORD',
+    emailsEnvVar: 'ROGER_VODAL_EMAILS',
     requiresAuth: true,
     features: {
       showMainBoardLink: true,
@@ -180,6 +188,7 @@ export const TENANTS: Record<TenantSlug, TenantConfig> = {
     description: 'Placeanalyser for SiO (Studentsamskipnaden i Oslo og Akershus) - Property portfolio',
     keywords: ['Oslo', 'eiendom', 'placeanalyse', 'SiO', 'student housing'],
     passwordEnvVar: 'SIO_PASSWORD',
+    emailsEnvVar: 'SIO_EMAILS',
     requiresAuth: true,
     features: {
       showMainBoardLink: true,
@@ -198,6 +207,7 @@ export const TENANTS: Record<TenantSlug, TenantConfig> = {
     description: 'Placeanalyser for Spabo Eiendom - Grünerløkka properties',
     keywords: ['Oslo', 'Grünerløkka', 'eiendom', 'placeanalyse', 'Spabo Eiendom'],
     passwordEnvVar: 'SPABO_PASSWORD',
+    emailsEnvVar: 'SPABO_EMAILS',
     requiresAuth: true,
     features: {
       showMainBoardLink: true,
@@ -216,6 +226,7 @@ export const TENANTS: Record<TenantSlug, TenantConfig> = {
     description: 'Placeanalyser for Carucel - Olaf Ryes plass, Grünerløkka',
     keywords: ['Oslo', 'Grünerløkka', 'Olaf Ryes plass', 'eiendom', 'placeanalyse', 'Carucel'],
     passwordEnvVar: 'CARUCEL_PASSWORD',
+    emailsEnvVar: 'CARUCEL_EMAILS',
     requiresAuth: true,
     features: {
       showMainBoardLink: true,

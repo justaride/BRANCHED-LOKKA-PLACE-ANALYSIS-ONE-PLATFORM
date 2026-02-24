@@ -98,19 +98,22 @@ export default function OneMinAnalysisViewer({
       )}
 
       {/* Section 2: KONKURRANSEBILDET */}
-      <AnalysisSection
-        title="Konkurransebildet"
-        sectionNumber={data.demografi && data.demografi.aldersfordeling.mann.length > 0 ? 2 : 1}
-        icon={<BuildingStorefrontIcon className="h-6 w-6" />}
-      >
-        <KonkurransebildeChart data={data.konkurransebilde} />
+      {(data.konkurransebilde || data.aktorer) && (
+        <AnalysisSection
+          title="Konkurransebildet"
+          sectionNumber={data.demografi && data.demografi.aldersfordeling.mann.length > 0 ? 2 : 1}
+          icon={<BuildingStorefrontIcon className="h-6 w-6" />}
+        >
+          {data.konkurransebilde && <KonkurransebildeChart data={data.konkurransebilde} />}
 
-        {/* Aktørliste under konkurransebilde */}
-        <div className="mt-8">
-          <h4 className="mb-4 text-lg font-semibold text-gray-900">Næringsaktører i området</h4>
-          <ExpandableActorList data={data.aktorer} initialCount={10} />
-        </div>
-      </AnalysisSection>
+          {data.aktorer && (
+            <div className="mt-8">
+              <h4 className="mb-4 text-lg font-semibold text-gray-900">Næringsaktører i området</h4>
+              <ExpandableActorList data={data.aktorer} initialCount={10} />
+            </div>
+          )}
+        </AnalysisSection>
+      )}
 
       {/* Section 3: KORTHANDEL */}
       <AnalysisSection
@@ -238,10 +241,12 @@ export default function OneMinAnalysisViewer({
           området innenfor 5 minutters gange fra {propertyName}. Dataene inkluderer demografi,
           bevegelsesmønstre, korthandel, konkurransebilde og næringsaktører.
         </p>
-        <p className="mt-2 text-xs text-gray-500">
-          Analysetype: {data.aktorer.metadata.analysisType} | Områdestørrelse: {data.aktorer.metadata.areaSize} | Generert:{' '}
-          {new Date(data.aktorer.metadata.generatedAt).toLocaleDateString('nb-NO')}
-        </p>
+        {data.aktorer && (
+          <p className="mt-2 text-xs text-gray-500">
+            Analysetype: {data.aktorer.metadata.analysisType} | Områdestørrelse: {data.aktorer.metadata.areaSize} | Generert:{' '}
+            {new Date(data.aktorer.metadata.generatedAt).toLocaleDateString('nb-NO')}
+          </p>
+        )}
       </div>
     </div>
   );

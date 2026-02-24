@@ -173,60 +173,44 @@ const STATIC_DATA: Record<string, () => Promise<OneMinAnalysisData>> = {
     };
   },
 
-  // Roger Vodal - Olaf Ryes Plass 3 (5-min analysis)
+  // Roger Vodal - Olaf Ryes Plass 3 (5-min analysis, no besokende)
   "roger-vodal/olaf-ryes-plass-3": async () => {
-    const [
-      demografi,
-      konkurransebilde,
-      korthandel,
-      bevegelse,
-      besokende,
-      internasjonalt,
-      aktorer,
-    ] = await Promise.all([
-      import("@/data/roger-vodal/olaf-ryes-plass-3/5min/demografi.json").then(
-        (m) => m.default as DemografiData,
-      ),
-      import("@/data/roger-vodal/olaf-ryes-plass-3/5min/konkurransebilde.json").then(
-        (m) => m.default as KonkurransebildeData,
-      ),
-      import("@/data/roger-vodal/olaf-ryes-plass-3/5min/korthandel.json").then(
-        (m) => m.default as KorthandelData,
-      ),
-      import("@/data/roger-vodal/olaf-ryes-plass-3/5min/bevegelse.json").then(
-        (m) => m.default as BevegelseData,
-      ),
-      import("@/data/roger-vodal/olaf-ryes-plass-3/5min/besokende.json").then(
-        (m) => m.default as BesøkendeData,
-      ),
-      import("@/data/roger-vodal/olaf-ryes-plass-3/5min/internasjonalt.json").then(
-        (m) => m.default as InternasjonaltData,
-      ),
-      import("@/data/roger-vodal/olaf-ryes-plass-3/5min/aktorer.json").then(
-        (m) => m.default as AktorerData,
-      ),
-    ]);
+    const [demografi, konkurransebilde, korthandel, bevegelse, internasjonalt, aktorer] =
+      await Promise.all([
+        import("@/data/roger-vodal/olaf-ryes-plass-3/5min/demografi.json").then(
+          (m) => m.default as DemografiData,
+        ),
+        import("@/data/roger-vodal/olaf-ryes-plass-3/5min/konkurransebilde.json").then(
+          (m) => m.default as KonkurransebildeData,
+        ),
+        import("@/data/roger-vodal/olaf-ryes-plass-3/5min/korthandel.json").then(
+          (m) => m.default as KorthandelData,
+        ),
+        import("@/data/roger-vodal/olaf-ryes-plass-3/5min/bevegelse.json").then(
+          (m) => m.default as BevegelseData,
+        ),
+        import("@/data/roger-vodal/olaf-ryes-plass-3/5min/internasjonalt.json").then(
+          (m) => m.default as InternasjonaltData,
+        ),
+        import("@/data/roger-vodal/olaf-ryes-plass-3/5min/aktorer.json").then(
+          (m) => m.default as AktorerData,
+        ),
+      ]);
     return {
       demografi,
       konkurransebilde,
       korthandel,
       bevegelse,
-      besokende,
+      besokende: null,
       internasjonalt,
       aktorer,
     };
   },
 
-  // Roger Vodal - Thorvald Meyersgate 33 (5-min analysis, no besokende/internasjonalt)
+  // Roger Vodal - Thorvald Meyersgate 33 (5-min analysis, partial data)
   "roger-vodal/thorvald-meyersgate-33": async () => {
-    const [demografi, konkurransebilde, korthandel, bevegelse, aktorer] =
+    const [korthandel, bevegelse, aktorer] =
       await Promise.all([
-        import("@/data/roger-vodal/thorvald-meyersgate-33/5min/demografi.json").then(
-          (m) => m.default as DemografiData,
-        ),
-        import("@/data/roger-vodal/thorvald-meyersgate-33/5min/konkurransebilde.json").then(
-          (m) => m.default as KonkurransebildeData,
-        ),
         import("@/data/roger-vodal/thorvald-meyersgate-33/5min/korthandel.json").then(
           (m) => m.default as KorthandelData,
         ),
@@ -238,8 +222,8 @@ const STATIC_DATA: Record<string, () => Promise<OneMinAnalysisData>> = {
         ),
       ]);
     return {
-      demografi,
-      konkurransebilde,
+      demografi: null,
+      konkurransebilde: null,
       korthandel,
       bevegelse,
       besokende: null,
@@ -248,39 +232,29 @@ const STATIC_DATA: Record<string, () => Promise<OneMinAnalysisData>> = {
     };
   },
 
-  // Roger Vodal - Thorvald Meyersgate 40 (5-min analysis)
+  // Roger Vodal - Thorvald Meyersgate 40 (5-min analysis, no aktorer)
   "roger-vodal/thorvald-meyersgate-40": async () => {
-    const [
-      demografi,
-      konkurransebilde,
-      korthandel,
-      bevegelse,
-      besokende,
-      internasjonalt,
-      aktorer,
-    ] = await Promise.all([
-      import("@/data/roger-vodal/thorvald-meyersgate-40/5min/demografi.json").then(
-        (m) => m.default as DemografiData,
-      ),
-      import("@/data/roger-vodal/thorvald-meyersgate-40/5min/konkurransebilde.json").then(
-        (m) => m.default as KonkurransebildeData,
-      ),
-      import("@/data/roger-vodal/thorvald-meyersgate-40/5min/korthandel.json").then(
-        (m) => m.default as KorthandelData,
-      ),
-      import("@/data/roger-vodal/thorvald-meyersgate-40/5min/bevegelse.json").then(
-        (m) => m.default as BevegelseData,
-      ),
-      import("@/data/roger-vodal/thorvald-meyersgate-40/5min/besokende.json").then(
-        (m) => m.default as BesøkendeData,
-      ),
-      import("@/data/roger-vodal/thorvald-meyersgate-40/5min/internasjonalt.json").then(
-        (m) => m.default as InternasjonaltData,
-      ),
-      import("@/data/roger-vodal/thorvald-meyersgate-40/5min/aktorer.json").then(
-        (m) => m.default as AktorerData,
-      ),
-    ]);
+    const [demografi, konkurransebilde, korthandel, bevegelse, besokende, internasjonalt] =
+      await Promise.all([
+        import("@/data/roger-vodal/thorvald-meyersgate-40/5min/demografi.json").then(
+          (m) => m.default as DemografiData,
+        ),
+        import("@/data/roger-vodal/thorvald-meyersgate-40/5min/konkurransebilde.json").then(
+          (m) => m.default as KonkurransebildeData,
+        ),
+        import("@/data/roger-vodal/thorvald-meyersgate-40/5min/korthandel.json").then(
+          (m) => m.default as KorthandelData,
+        ),
+        import("@/data/roger-vodal/thorvald-meyersgate-40/5min/bevegelse.json").then(
+          (m) => m.default as BevegelseData,
+        ),
+        import("@/data/roger-vodal/thorvald-meyersgate-40/5min/besokende.json").then(
+          (m) => m.default as BesøkendeData,
+        ),
+        import("@/data/roger-vodal/thorvald-meyersgate-40/5min/internasjonalt.json").then(
+          (m) => m.default as InternasjonaltData,
+        ),
+      ]);
     return {
       demografi,
       konkurransebilde,
@@ -288,49 +262,36 @@ const STATIC_DATA: Record<string, () => Promise<OneMinAnalysisData>> = {
       bevegelse,
       besokende,
       internasjonalt,
-      aktorer,
+      aktorer: null,
     };
   },
 
-  // Roger Vodal - Thorvald Meyersgate 44 (5-min analysis)
+  // Roger Vodal - Thorvald Meyersgate 44 (5-min analysis, no demografi/besokende)
   "roger-vodal/thorvald-meyersgate-44": async () => {
-    const [
-      demografi,
-      konkurransebilde,
-      korthandel,
-      bevegelse,
-      besokende,
-      internasjonalt,
-      aktorer,
-    ] = await Promise.all([
-      import("@/data/roger-vodal/thorvald-meyersgate-44/5min/demografi.json").then(
-        (m) => m.default as DemografiData,
-      ),
-      import("@/data/roger-vodal/thorvald-meyersgate-44/5min/konkurransebilde.json").then(
-        (m) => m.default as KonkurransebildeData,
-      ),
-      import("@/data/roger-vodal/thorvald-meyersgate-44/5min/korthandel.json").then(
-        (m) => m.default as KorthandelData,
-      ),
-      import("@/data/roger-vodal/thorvald-meyersgate-44/5min/bevegelse.json").then(
-        (m) => m.default as BevegelseData,
-      ),
-      import("@/data/roger-vodal/thorvald-meyersgate-44/5min/besokende.json").then(
-        (m) => m.default as BesøkendeData,
-      ),
-      import("@/data/roger-vodal/thorvald-meyersgate-44/5min/internasjonalt.json").then(
-        (m) => m.default as InternasjonaltData,
-      ),
-      import("@/data/roger-vodal/thorvald-meyersgate-44/5min/aktorer.json").then(
-        (m) => m.default as AktorerData,
-      ),
-    ]);
+    const [konkurransebilde, korthandel, bevegelse, internasjonalt, aktorer] =
+      await Promise.all([
+        import("@/data/roger-vodal/thorvald-meyersgate-44/5min/konkurransebilde.json").then(
+          (m) => m.default as KonkurransebildeData,
+        ),
+        import("@/data/roger-vodal/thorvald-meyersgate-44/5min/korthandel.json").then(
+          (m) => m.default as KorthandelData,
+        ),
+        import("@/data/roger-vodal/thorvald-meyersgate-44/5min/bevegelse.json").then(
+          (m) => m.default as BevegelseData,
+        ),
+        import("@/data/roger-vodal/thorvald-meyersgate-44/5min/internasjonalt.json").then(
+          (m) => m.default as InternasjonaltData,
+        ),
+        import("@/data/roger-vodal/thorvald-meyersgate-44/5min/aktorer.json").then(
+          (m) => m.default as AktorerData,
+        ),
+      ]);
     return {
-      demografi,
+      demografi: null,
       konkurransebilde,
       korthandel,
       bevegelse,
-      besokende,
+      besokende: null,
       internasjonalt,
       aktorer,
     };

@@ -8,7 +8,7 @@ import { PopulationTrendChart } from '@/components/demografi/PopulationTrendChar
 import { AgePyramidChart } from '@/components/demografi/AgePyramidChart';
 import { IncomeDistributionChart } from '@/components/demografi/IncomeDistributionChart';
 import { HouseholdCompositionChart } from '@/components/demografi/HouseholdCompositionChart';
-import { DemografiData } from '@/types/demografi';
+import type { DemografiData } from '@/types/demografi';
 import { loadAnalysis } from '@/lib/loaders/place-loader';
 import { MainBoardLoaders } from '@/lib/loaders/main-board';
 import type { Highlight } from '@/types/place-analysis';
@@ -18,20 +18,16 @@ export const metadata: Metadata = {
   description: 'Demografisk analyse av Grünerløkka 2017-2023 med befolkningsutvikling, aldersfordeling, inntekt og husholdningssammensetning',
 };
 
-async function loadDemografiData(): Promise<DemografiData> {
-  return await MainBoardLoaders.loadDemografi2017_2023();
-}
-
 export default async function DemografiPage() {
   const analysis = await loadAnalysis('demografi-2017-2023');
-  const data = await loadDemografiData();
+  const data = await MainBoardLoaders.loadDemografi2017_2023() as DemografiData | null;
 
   if (!analysis) {
     notFound();
   }
 
-  const firstYear = data.populationOverTime[0];
-  const lastYear = data.populationOverTime[data.populationOverTime.length - 1];
+  const firstYear = data?.populationOverTime?.[0];
+  const lastYear = data?.populationOverTime?.[data.populationOverTime.length - 1];
 
   const populationGrowth = firstYear && lastYear
     ? ((lastYear.population - firstYear.population) / firstYear.population) * 100
@@ -161,7 +157,7 @@ export default async function DemografiPage() {
             til {lastYear?.population.toLocaleString('nb-NO')} i 2023
             (+{populationGrowth.toFixed(1)}% vekst over perioden)
           </p>
-          <PopulationTrendChart data={data.populationOverTime} />
+          {data?.populationOverTime && <PopulationTrendChart data={data.populationOverTime} />}
         </div>
 
         <div className="mt-20">
@@ -172,7 +168,7 @@ export default async function DemografiPage() {
             Kjønnsfordelt alderspyramide som viser demografisk sammensetning for hvert år.
             Velg år for å sammenligne endringer i aldersfordeling.
           </p>
-          <AgePyramidChart data={data.ageDistribution} />
+          {data?.ageDistribution && <AgePyramidChart data={data.ageDistribution} />}
         </div>
 
         <div className="mt-20">
@@ -183,7 +179,7 @@ export default async function DemografiPage() {
             Utvikling i husholdningstyper fra 2017 til 2023. Bytt mellom fordeling og utvikling
             for å se både øyeblikksbilde og trender.
           </p>
-          <HouseholdCompositionChart data={data.householdTypes} />
+          {data?.householdTypes && <HouseholdCompositionChart data={data.householdTypes} />}
         </div>
 
         <div className="mt-20">
@@ -194,7 +190,7 @@ export default async function DemografiPage() {
             Sammenligning av inntektsbraketter på tvers av år. Velg to år for å se detaljerte
             endringer i inntektsfordelingen.
           </p>
-          <IncomeDistributionChart data={data.incomeDistribution} />
+          {data?.incomeDistribution && <IncomeDistributionChart data={data.incomeDistribution} />}
         </div>
 
         <div className="mt-20">
@@ -209,8 +205,8 @@ export default async function DemografiPage() {
                     📈 Stabil befolkningsvekst
                   </h4>
                   <p className="text-sm leading-relaxed text-gray-700">
-                    Befolkningen har vokst jevnt fra {firstYear?.population.toLocaleString('nb-NO')} i 2017
-                    til {lastYear?.population.toLocaleString('nb-NO')} i 2023,
+                    Befolkningen har vokst jevnt fra {firstYear?.population?.toLocaleString('nb-NO') ?? '—'} i 2017
+                    til {lastYear?.population?.toLocaleString('nb-NO') ?? '—'} i 2023,
                     en økning på {populationGrowth.toFixed(1)}%. Dette reflekterer områdets
                     fortsatte attraktivitet som bosted.
                   </p>

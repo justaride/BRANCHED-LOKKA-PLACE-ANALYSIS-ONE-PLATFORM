@@ -259,26 +259,13 @@ export interface AktorerData {
 // ============================================================================
 
 export interface OneMinAnalysisData {
-  // Section 1: Demographics of the area
   demografi: DemografiData | null;
-
-  // Section 2: Competition analysis
-  konkurransebilde: KonkurransebildeData;
-
-  // Section 3: Card transactions
+  konkurransebilde: KonkurransebildeData | null;
   korthandel: KorthandelData;
-
-  // Section 4: Movement/traffic
   bevegelse: BevegelseData;
-
-  // Section 5: Visitor demographics (NEW)
   besokende: BesøkendeData | null;
-
-  // Section 6: International visitors (NEW)
   internasjonalt: InternasjonaltData | null;
-
-  // Actors list (expandable)
-  aktorer: AktorerData;
+  aktorer: AktorerData | null;
 }
 
 // ============================================================================

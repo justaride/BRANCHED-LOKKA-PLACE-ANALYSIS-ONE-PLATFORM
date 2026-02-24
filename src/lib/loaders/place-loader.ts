@@ -26,9 +26,6 @@ export async function loadAllAnalyses(): Promise<PlaceAnalysis[]> {
       import("@/data/main-board/analyser/demografi-2017-2023.json").then(
         (m) => m.default as unknown as PlaceAnalysis,
       ),
-      import("@/data/main-board/analyser/sammenligning-2024.json").then(
-        (m) => m.default as unknown as PlaceAnalysis,
-      ),
       import("@/data/main-board/analyser/nedre-lokka-omradeprofil.json").then(
         (m) => m.default as unknown as PlaceAnalysis,
       ),
@@ -39,9 +36,6 @@ export async function loadAllAnalyses(): Promise<PlaceAnalysis[]> {
         (m) => m.default as unknown as PlaceAnalysis,
       ),
       import("@/data/main-board/analyser/midt-i-markveien.json").then(
-        (m) => m.default as unknown as PlaceAnalysis,
-      ),
-      import("@/data/main-board/analyser/olaf-ryes-plass-7eleven.json").then(
         (m) => m.default as unknown as PlaceAnalysis,
       ),
       import("@/data/main-board/analyser/olaf-ryes-plass-boots.json").then(
@@ -86,12 +80,10 @@ export async function getAllAnalysisIds(): Promise<string[]> {
     "2025-arsrapport",
     "2024-arsrapport",
     "demografi-2017-2023",
-    "sammenligning-2024",
     "nedre-lokka-omradeprofil",
     "ovre-thorvald-meyers-gate",
     "nedre-thorvald-meyers-gate",
     "midt-i-markveien",
-    "olaf-ryes-plass-7eleven",
     "olaf-ryes-plass-boots",
     "nederst-i-markveien",
   ];
