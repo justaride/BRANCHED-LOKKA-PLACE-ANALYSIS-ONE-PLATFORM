@@ -1,13 +1,23 @@
 # Løkka Gardeierforening Platform - Project Status
 
-**Last Updated:** January 29, 2026 - Markveien 35 Footfall Data Enhancement
+**Last Updated:** February 25, 2026 - Email OTP Authentication Migration
 **Current Status:** 🚀 **PRODUCTION READY** (99% Complete)
-**Deployment:** ✅ Live on Vercel
+**Deployment:** ✅ Live on Coolify (Hetzner) behind Cloudflare
 **URL:** https://lokka-gardeierforening-platform.vercel.app
 **Build Status:** ✅ 122 static pages, ESLint 0 issues, Data Audit 0 CRITICAL
 **Test Status:** ✅ Jest configured with 70% coverage threshold
 **Latest Updates:**
 
+- **February 25, 2026: Email OTP Authentication** - ✅ **COMPLETE** - Migrated from shared passwords to email OTP with signed JWT cookies:
+  - **New auth flow:** Email → 6-digit OTP code → JWT session (90 days)
+  - **New files:** `src/lib/auth.ts` (JWT+OTP), `src/lib/email.ts` (Resend), `src/lib/tenant-emails.ts` (allowlists)
+  - **Modified:** middleware.ts (JWT validation, cache headers), login/page.tsx (two-step OTP UI), api/auth/route.ts (3 actions)
+  - **Security:** Signed JWT cookies, SHA-256 hashed OTP codes, rate limiting, cache-control headers
+  - **Backward compatible:** Old password login + "authenticated" cookies still work during migration
+  - **Dependencies added:** `jose` (JWT), `resend` (email)
+  - **Env vars needed:** AUTH_SECRET, RESEND_API_KEY, AUTH_FROM_EMAIL, ADMIN_EMAILS, per-tenant *_EMAILS
+  - **Session log:** `docs/sessions/2026-02-25-AUTH-OTP-MIGRATION.md`
+  - **Also fixed:** Pre-existing build errors in one-min-loader, main-board loader, place-loader (deleted JSON refs)
 - **January 29, 2026: Markveien 35 Footfall Data Enhancement** - ✅ **COMPLETE** - Enhanced 1-min analysis with visitor origin and international data:
   - **New data files:** `besokende.json` (25 visitor origin areas) + `internasjonalt.json` (20 countries)
   - **Loader updated:** `one-min-loader.ts` now loads besokende/internasjonalt for Markveien 35
@@ -950,32 +960,50 @@ Authentication:
 
 ## 🔐 Authentication System ✅
 
-**Implementation:**
+**Current Implementation (February 2026):** Email OTP + JWT Sessions
 
-- ✅ Per-tenant cookie-based auth
-- ✅ 7-day session expiry
-- ✅ Separate passwords per tenant
-- ✅ Middleware route protection
-- ✅ Login redirect with return URL
-- ✅ Cross-tenant navigation support
+- ✅ **Primary:** Email OTP (6-digit code via Resend → signed JWT session, 90 days)
+- ✅ **Fallback:** Password login (for admin during migration)
+- ✅ **Backward compatible:** Old "authenticated" cookies still accepted
+- ✅ JWT signing/verification with `jose` (edge-compatible)
+- ✅ SHA-256 hashed OTP codes in signed pending-token
+- ✅ In-memory rate limiting (5 OTP requests/5min, 5 code attempts/OTP)
+- ✅ Sliding window refresh (new JWT if >30 days old)
+- ✅ Cache-Control headers: `private, no-cache, no-store, must-revalidate`
+- ✅ Security headers: X-Content-Type-Options, X-Frame-Options, Referrer-Policy
 
-**Test Credentials:**
+**Key Files:**
 
+| File | Purpose |
+|------|---------|
+| `src/lib/auth.ts` | JWT signing, OTP generation, verification |
+| `src/lib/email.ts` | Resend integration (Norwegian OTP emails) |
+| `src/lib/tenant-emails.ts` | Per-tenant email allowlists from env vars |
+| `src/app/api/auth/route.ts` | 3 actions: request-otp, verify-otp, password |
+| `src/app/login/page.tsx` | Two-step OTP UI (email → code) |
+| `src/middleware.ts` | JWT validation, sliding refresh, cache headers |
+
+**Required Env Vars (Coolify):**
+
+```bash
+AUTH_SECRET=<openssl rand -hex 32>
+RESEND_API_KEY=re_xxxxxxxxxxxxx
+AUTH_FROM_EMAIL=noreply@naturalstate.no
+ADMIN_EMAILS=gabriel@naturalstate.no
+# Per tenant: SPABO_EMAILS=a@b.no,c@d.no (see tenants.ts emailsEnvVar)
 ```
-All tenants: test123
-```
 
-**Cookie Names:**
+**Migration Status:**
 
-- `auth-main-board`
-- `auth-aspelin-ramm`
-- `auth-brodrene-evensen`
-- `auth-eiendomsspar`
-- `auth-malling-co`
-- `auth-maya-eiendom`
-- `auth-roger-vodal`
-- `auth-sio`
-- `auth-spabo`
+- [x] Code deployed with both systems active
+- [ ] Set up Resend account + DNS (SPF, DKIM, DMARC for naturalstate.no)
+- [ ] Add env vars in Coolify (AUTH_SECRET, RESEND_API_KEY, etc.)
+- [ ] Test OTP flow with own email
+- [ ] Collect email addresses from property developers
+- [ ] Configure Cloudflare cache rules (bypass for non-static)
+- [ ] Remove password UI after full migration
+
+**Cookie Names:** `auth-{tenant-slug}` (same pattern, now contains JWT instead of "authenticated")
 
 ---
 
@@ -983,15 +1011,19 @@ All tenants: test123
 
 ### Production Environment ✅
 
-**Platform:** Vercel
+**Platform:** Coolify (Hetzner) behind Cloudflare
 **Status:** ✅ Live and deployed
 **URL:** https://lokka-gardeierforening-platform.vercel.app
 
 **Environment Variables:**
 
 - ✅ `NEXT_PUBLIC_GOOGLE_FORM_URL` configured
-- ✅ Authentication secrets set
-- ✅ All tenant passwords configured
+- ✅ `AUTH_SECRET` — JWT signing secret (required for OTP auth)
+- ✅ `RESEND_API_KEY` — Resend email service (required for OTP auth)
+- ✅ `AUTH_FROM_EMAIL` — Sender address (noreply@naturalstate.no)
+- ✅ `ADMIN_EMAILS` — Admin email addresses (all tenants)
+- ✅ Per-tenant `*_EMAILS` env vars (e.g. SPABO_EMAILS)
+- ✅ Per-tenant `*_PASSWORD` env vars (fallback during migration)
 
 **Build Status:**
 
@@ -1450,7 +1482,7 @@ The Løkka Gardeierforening Platform is **production-ready** and looking profess
 
 ---
 
-_Last Updated: January 29, 2026 by Claude Code_
+_Last Updated: February 25, 2026 by Claude Code_
 _Status: 🚀 PRODUCTION LIVE & EXCELLENT_
 _ESLint: 0 issues ✅ (100% clean)_
 _Tests: 27 unit tests with 70% coverage threshold_

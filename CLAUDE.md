@@ -9,7 +9,8 @@
 
 ```yaml
 Stack: Next.js 16.0.8 | React 19.2 | TypeScript (strict) | Tailwind CSS 4 | Recharts
-Deploy: Vercel (auto-deploy from main)
+Auth: Email OTP → JWT sessions (jose + resend) | Password fallback
+Deploy: Coolify (Hetzner) behind Cloudflare
 Dev: npm run dev → localhost:3001
 Build: npm run build (runs verify + type-check)
 Test: npm run test (Jest, 70% coverage threshold)
@@ -186,10 +187,14 @@ const publicRoutes = ["/", "/login", "/api/auth", "/data"];
 
 ### 5. Authentication Cookies
 
-Per-tenant cookies with 7-day expiry:
+Per-tenant JWT cookies with 90-day expiry (sliding refresh at 30 days):
 
-- Pattern: `auth-{tenant-slug}`
-- Test password: `test123` (all tenants)
+- Pattern: `auth-{tenant-slug}` (contains signed JWT or legacy "authenticated" string)
+- Primary auth: Email OTP (6-digit code via Resend → JWT session)
+- Fallback: Password login (old system, kept for migration)
+- Key files: `src/lib/auth.ts`, `src/lib/email.ts`, `src/lib/tenant-emails.ts`
+- Email allowlists: Env vars like `SPABO_EMAILS=a@b.no,c@d.no` + `ADMIN_EMAILS`
+- Session log: `docs/sessions/2026-02-25-AUTH-OTP-MIGRATION.md`
 
 ### 6. JSON Field Names with Special Characters
 
@@ -401,7 +406,7 @@ When ending session:
 
 ---
 
-_Last Updated: January 26, 2026_
+_Last Updated: February 25, 2026_
 _Maintained by: Claude Code_
 
 ---
