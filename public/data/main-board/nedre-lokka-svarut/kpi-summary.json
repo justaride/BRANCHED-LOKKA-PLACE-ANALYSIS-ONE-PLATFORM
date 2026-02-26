@@ -1,0 +1,372 @@
+{
+  "generatedAt": "2026-02-26T13:33:57.958Z",
+  "scope": "Nedre Løkka (6 mikro-områder)",
+  "sourcePriority": [
+    "Mini-område analyser/public aggregated data",
+    "Aktører sammenligningsdata",
+    "MCP snapshot (selected checks)"
+  ],
+  "quickStats": {
+    "totalPopulation": 1674,
+    "dailyVisitors": 2796,
+    "weeklyVisitors": 203966,
+    "businessCount": 103,
+    "totalRevenueMNOK": 967
+  },
+  "residentAgeGroups": [
+    {
+      "group": "0-18",
+      "count": 191,
+      "pct": 11.4,
+      "confidence": "medium"
+    },
+    {
+      "group": "19-35",
+      "count": 832,
+      "pct": 49.7,
+      "confidence": "medium"
+    },
+    {
+      "group": "35-59",
+      "count": 555,
+      "pct": 33.2,
+      "confidence": "medium"
+    },
+    {
+      "group": "60+",
+      "count": 96,
+      "pct": 5.7,
+      "confidence": "medium"
+    }
+  ],
+  "visitorProfile": {
+    "originsScope": "Grünerløkka nord (+5 Urbant område), 2025",
+    "topOrigins": [
+      {
+        "omrade": "Grünerløkka",
+        "antallBesok": 12678310,
+        "andelPct": 12.75
+      },
+      {
+        "omrade": "Sentrum 2",
+        "antallBesok": 6438419,
+        "andelPct": 8.16
+      },
+      {
+        "omrade": "Rodeløkka",
+        "antallBesok": 6412644,
+        "andelPct": 6.06
+      },
+      {
+        "omrade": "Torshov",
+        "antallBesok": 6405643,
+        "andelPct": 6.23
+      },
+      {
+        "omrade": "Gamle Aker",
+        "antallBesok": 3287829,
+        "andelPct": 3.57
+      },
+      {
+        "omrade": "Tøyen",
+        "antallBesok": 2702300,
+        "andelPct": 2.81
+      },
+      {
+        "omrade": "Grønland",
+        "antallBesok": 2096909,
+        "andelPct": 2.49
+      },
+      {
+        "omrade": "Ila",
+        "antallBesok": 1684105,
+        "andelPct": 1.77
+      },
+      {
+        "omrade": "Hasle",
+        "antallBesok": 1578096,
+        "andelPct": 1.7
+      },
+      {
+        "omrade": "Ulven",
+        "antallBesok": 1434328,
+        "andelPct": 1.82
+      },
+      {
+        "omrade": "Grefsenlia",
+        "antallBesok": 1399696,
+        "andelPct": 1.52
+      },
+      {
+        "omrade": "Bjerke",
+        "antallBesok": 1326592,
+        "andelPct": 1.33
+      },
+      {
+        "omrade": "Sinsen",
+        "antallBesok": 1118208,
+        "andelPct": 1.07
+      },
+      {
+        "omrade": "Åsen",
+        "antallBesok": 1013367,
+        "andelPct": 0.97
+      },
+      {
+        "omrade": "St.hanshaugen",
+        "antallBesok": 968227,
+        "andelPct": 1.02
+      }
+    ],
+    "ageGroups": {
+      "scope": "Grünerløkka nord (+5 Urbant område), 2025",
+      "total": 416685,
+      "groups": [
+        {
+          "group": "0-18",
+          "count": 64519,
+          "pct": 15.5,
+          "confidence": "medium"
+        },
+        {
+          "group": "19-35",
+          "count": 153443,
+          "pct": 36.8,
+          "confidence": "medium"
+        },
+        {
+          "group": "35-59",
+          "count": 155067,
+          "pct": 37.2,
+          "confidence": "medium"
+        },
+        {
+          "group": "60+",
+          "count": 43656,
+          "pct": 10.5,
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "dailyVisitorsByMicroArea": [
+    {
+      "omrade": "Øvre Thorvald Meyers gate",
+      "dagligBesok": 667,
+      "pctOfTotal": 23.9,
+      "dataStatus": "ok",
+      "confidence": "high"
+    },
+    {
+      "omrade": "Nedre Thorvald Meyers gate",
+      "dagligBesok": 1029,
+      "pctOfTotal": 36.8,
+      "dataStatus": "ok",
+      "confidence": "high"
+    },
+    {
+      "omrade": "Olaf Ryes Plass v/ Boots",
+      "dagligBesok": 0,
+      "pctOfTotal": 0,
+      "dataStatus": "missing",
+      "confidence": "low"
+    },
+    {
+      "omrade": "Olaf Ryes Plass v/ 7-Eleven",
+      "dagligBesok": 742,
+      "pctOfTotal": 26.5,
+      "dataStatus": "ok",
+      "confidence": "high"
+    },
+    {
+      "omrade": "Midt i Markveien",
+      "dagligBesok": 0,
+      "pctOfTotal": 0,
+      "dataStatus": "missing",
+      "confidence": "low"
+    },
+    {
+      "omrade": "Nederst i Markveien",
+      "dagligBesok": 358,
+      "pctOfTotal": 12.8,
+      "dataStatus": "ok",
+      "confidence": "high"
+    }
+  ],
+  "weekdayDistribution": {
+    "weeklyVisitors": 203966,
+    "averageDailyVisitors": 29138,
+    "weeklyTotal": 412181,
+    "averageDailyTotal": 58883,
+    "rows": [
+      {
+        "ukedag": "man.",
+        "besokende": 24324,
+        "besokendePct": 11.9,
+        "total": 53531,
+        "totalPct": 13
+      },
+      {
+        "ukedag": "tir.",
+        "besokende": 25920,
+        "besokendePct": 12.7,
+        "total": 55912,
+        "totalPct": 13.6
+      },
+      {
+        "ukedag": "ons.",
+        "besokende": 27570,
+        "besokendePct": 13.5,
+        "total": 57921,
+        "totalPct": 14.1
+      },
+      {
+        "ukedag": "tor.",
+        "besokende": 28411,
+        "besokendePct": 13.9,
+        "total": 58742,
+        "totalPct": 14.3
+      },
+      {
+        "ukedag": "fre.",
+        "besokende": 33162,
+        "besokendePct": 16.3,
+        "total": 64058,
+        "totalPct": 15.5
+      },
+      {
+        "ukedag": "lør.",
+        "besokende": 37178,
+        "besokendePct": 18.2,
+        "total": 67799,
+        "totalPct": 16.4
+      },
+      {
+        "ukedag": "søn.",
+        "besokende": 27401,
+        "besokendePct": 13.4,
+        "total": 54218,
+        "totalPct": 13.2
+      }
+    ]
+  },
+  "businessSummary": {
+    "totalBusinesses": 103,
+    "totalRevenueMNOK": 967,
+    "categories": [
+      {
+        "key": "Tjenesteytende/service",
+        "count": 8,
+        "revenueMNOK": 67.98,
+        "sourceCategories": [
+          "Tjenester / Skjønnhet og velvære",
+          "Tjenester / Profesjoner",
+          "Tjenester / Andre tjenester",
+          "Tjenester / Treningssentre"
+        ],
+        "shareCountPct": 7.8,
+        "shareRevenuePct": 7
+      },
+      {
+        "key": "Dagligvare/kiosk",
+        "count": 8,
+        "revenueMNOK": 227,
+        "sourceCategories": [
+          "Handel / Mat og drikke"
+        ],
+        "shareCountPct": 7.8,
+        "shareRevenuePct": 23.5
+      },
+      {
+        "key": "Butikker",
+        "count": 33,
+        "revenueMNOK": 193.47,
+        "sourceCategories": [
+          "Handel / Klesbutikker",
+          "Handel / Hjem og interiør",
+          "Handel / Annen handel",
+          "Handel / Sport og fritid",
+          "Handel / Elektrobutikker"
+        ],
+        "shareCountPct": 32,
+        "shareRevenuePct": 20
+      },
+      {
+        "key": "Serveringssteder/pub",
+        "count": 54,
+        "revenueMNOK": 478.35,
+        "sourceCategories": [
+          "Mat og opplevelser / Restaurant",
+          "Mat og opplevelser / Bakeri og kafé",
+          "Mat og opplevelser / Pub og bar",
+          "Mat og opplevelser / Barer"
+        ],
+        "shareCountPct": 52.4,
+        "shareRevenuePct": 49.5
+      },
+      {
+        "key": "Andre",
+        "count": 0,
+        "revenueMNOK": 0,
+        "sourceCategories": [],
+        "shareCountPct": 0,
+        "shareRevenuePct": 0
+      }
+    ]
+  },
+  "osloComparison": {
+    "categoryLogic": {
+      "servering": [
+        "Mat og opplevelser / Restaurant",
+        "Mat og opplevelser / Pub og bar",
+        "Mat og opplevelser / Bakeri og kafé",
+        "Mat og opplevelser / Barer"
+      ],
+      "detaljhandel": [
+        "Handel / Mat og drikke",
+        "Handel / Hjem og interiør",
+        "Handel / Klesbutikker",
+        "Handel / Annen handel",
+        "Handel / Sport og fritid",
+        "Handel / Hus og bygg",
+        "Handel / Elektrobutikker",
+        "Handel / Smykker og parfyme"
+      ]
+    },
+    "servering": {
+      "lokkaMNOK": 1636,
+      "sentrumMNOK": 2480,
+      "lokkaShareOfSentrumPct": 66
+    },
+    "detaljhandel": {
+      "lokkaMNOK": 2000,
+      "sentrumMNOK": 2146,
+      "lokkaShareOfSentrumPct": 93.2
+    }
+  },
+  "chilloutMarkveien55": {
+    "name": "Chillout Oslo",
+    "address": "MARKVEIEN 55",
+    "localRevenueMNOK": 40,
+    "source": "src/data/main-board/aktorer/markveien-35.json",
+    "externalCrossCheck": {
+      "company": "CHILLOUT AS",
+      "orgNumber": "990510997",
+      "period": "2024-01-01 to 2024-12-31",
+      "driftsinntekterNOK": 52589634,
+      "arsresultatNOK": -2556622,
+      "source": "Offentligdata MCP snapshot",
+      "sourceRetrievedAt": "2026-02-26T13:33:57.958Z"
+    }
+  },
+  "verification": {
+    "coveragePct": 76.9,
+    "statusCounts": {
+      "pass": 4,
+      "warn": 6,
+      "fail": 0,
+      "unknown": 3
+    },
+    "totalChecks": 13
+  }
+}

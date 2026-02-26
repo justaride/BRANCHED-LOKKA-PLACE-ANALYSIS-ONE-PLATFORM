@@ -1,0 +1,51 @@
+[
+  {
+    "id": "micro_area_zero_data",
+    "status": "warn",
+    "check": "Mikro-områder med manglende bevegelsesdata",
+    "observed": [
+      "Olaf Ryes Plass v/ Boots",
+      "Midt i Markveien"
+    ],
+    "impact": "Fottrafikk per punkt er delvis underestimert",
+    "recommendation": "Bestill nytt utdrag for Boots/Midt i Markveien eller marker disse eksplisitt i beslutningsgrunnlag."
+  },
+  {
+    "id": "daily_vs_weekly_consistency",
+    "status": "fail",
+    "check": "Konsistens mellom daglig total og ukedagsfordeling",
+    "observed": {
+      "dailyTotal": 2796,
+      "averageFromWeekdays": 29138,
+      "diff": 26342,
+      "diffPct": 942.1
+    },
+    "impact": "Stor avstand mellom KPI-er tyder på ulike definisjoner/målevinduer.",
+    "recommendation": "Presenter begge tall med tydelig definisjon og unngå å blande dem i én KPI."
+  },
+  {
+    "id": "business_category_sum",
+    "status": "pass",
+    "check": "Summen av kategoriomsetning mot totalomsetning",
+    "observed": {
+      "categoryRevenueSumMNOK": 966.8,
+      "totalRevenueMNOK": 967,
+      "diffMNOK": 0.2,
+      "diffPct": 0.02
+    },
+    "impact": "Små avvik kan skyldes avrunding",
+    "recommendation": "Behold avrunding synlig i tabeller og fotnoter."
+  },
+  {
+    "id": "chillout_internal_vs_mcp",
+    "status": "warn",
+    "check": "Chillout lokal omsetning (intern) mot MCP regnskap",
+    "observed": {
+      "internalMNOK": 40,
+      "mcpRevenueNOK": 52589634,
+      "diffPct": 23.9
+    },
+    "impact": "Bekrefter at lokal verdi ligger i samme størrelsesorden som ekstern regnskapspost",
+    "recommendation": "Merk at MCP viser selskapsregnskap, ikke nødvendigvis eksakt butikkavgrensning."
+  }
+]

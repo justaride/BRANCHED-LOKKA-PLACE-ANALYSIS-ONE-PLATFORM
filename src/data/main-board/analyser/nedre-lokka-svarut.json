@@ -1,0 +1,83 @@
+{
+  "id": "nedre-lokka-svarut",
+  "title": "Nedre Løkka - Samlet Svarut",
+  "analysisType": "comparative",
+  "period": {
+    "type": "year",
+    "year": 2026,
+    "startDate": "2024-01-01",
+    "endDate": "2025-12-31",
+    "label": "Samlet status per februar 2026"
+  },
+  "area": {
+    "id": "nedre-lokka",
+    "name": "Nedre Løkka",
+    "displayName": "Nedre Løkka (6 mikro-områder)",
+    "type": "custom",
+    "description": "Samlet oppstilling for å svare ut gårdeiernes ønskeliste med dokumenterte kilder og kryssverifisering.",
+    "subAreas": [
+      "Øvre Thorvald Meyers gate",
+      "Nedre Thorvald Meyers gate",
+      "Olaf Ryes Plass v/ Boots",
+      "Olaf Ryes Plass v/ 7-Eleven",
+      "Midt i Markveien",
+      "Nederst i Markveien"
+    ]
+  },
+  "description": "Denne analysen samler tilgjengelige tall fra mini-områdene og tilhørende datasett for å svare ut ønskelisten punktvis. Hvert punkt er merket med status (dekket/delvis/mangler), kildegrunnlag og konfidensnivå.",
+  "highlights": [
+    {
+      "title": "Kravpunkt evaluert",
+      "value": "13",
+      "description": "Alle spørsmål fra ønskelisten er vurdert med status og datakilde."
+    },
+    {
+      "title": "Mikro-områder",
+      "value": "6",
+      "description": "Samlet oppstilling med punktvis bevegelse per gatepunkt."
+    },
+    {
+      "title": "Kryssverifisering",
+      "value": "Intern + MCP",
+      "description": "Interne datakilder supplert med ekstern kontroll på utvalgte datapunkt."
+    },
+    {
+      "title": "Datagap identifisert",
+      "value": "3",
+      "description": "Transportfordeling, stopp per besøk, metodikk for 93k/650k."
+    }
+  ],
+  "plaaceData": {
+    "rapportDato": "2026-02-26",
+    "datakilder": [
+      "Nedre Løkka områdeprofil (aggregert fra mini-områder)",
+      "Aktørkartlegging sammenligning 2024",
+      "Årsrapport 2025 støttefiler",
+      "Offentligdata MCP (utvalgt kryssjekk)"
+    ],
+    "screenshots": [],
+    "nokkeldata": {
+      "befolkning": 1674,
+      "dagligTrafikk": 2796,
+      "besokende": 203966,
+      "handelsomsetning": 967000000
+    }
+  },
+  "metadata": {
+    "opprettet": "2026-02-26",
+    "sistOppdatert": "2026-02-26",
+    "status": "publisert",
+    "versjon": 1,
+    "kilde": [
+      "Mini-område analyser og public-data",
+      "Sammenligning- og aktørdata i repo",
+      "Offentligdata MCP snapshot"
+    ],
+    "heroImage": "/images/analyser/nedre-lokka-aerial.jpg",
+    "notater": [
+      "Primærkilde er mini-område analyser/public aggregated data.",
+      "Aktørdata brukes sekundært for kategori- og sentrum-sammenligning.",
+      "Data med scope-avvik er merket eksplisitt i dashboardet."
+    ]
+  }
+}

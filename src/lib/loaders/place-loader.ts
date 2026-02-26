@@ -12,39 +12,104 @@ import type { PlaceAnalysis } from "@/types/place-analysis";
  */
 export async function loadAllAnalyses(): Promise<PlaceAnalysis[]> {
   try {
-    // Import all main board analysis files
-    const analyses = await Promise.all([
-      import("@/data/main-board/analyser/kvartalsrapport-banktransaksjoner.json").then(
-        (m) => m.default as unknown as PlaceAnalysis,
-      ),
-      import("@/data/main-board/analyser/2025-arsrapport.json").then(
-        (m) => m.default as unknown as PlaceAnalysis,
-      ),
-      import("@/data/main-board/analyser/2024-arsrapport.json").then(
-        (m) => m.default as unknown as PlaceAnalysis,
-      ),
-      import("@/data/main-board/analyser/demografi-2017-2023.json").then(
-        (m) => m.default as unknown as PlaceAnalysis,
-      ),
-      import("@/data/main-board/analyser/nedre-lokka-omradeprofil.json").then(
-        (m) => m.default as unknown as PlaceAnalysis,
-      ),
-      import("@/data/main-board/analyser/ovre-thorvald-meyers-gate.json").then(
-        (m) => m.default as unknown as PlaceAnalysis,
-      ),
-      import("@/data/main-board/analyser/nedre-thorvald-meyers-gate.json").then(
-        (m) => m.default as unknown as PlaceAnalysis,
-      ),
-      import("@/data/main-board/analyser/midt-i-markveien.json").then(
-        (m) => m.default as unknown as PlaceAnalysis,
-      ),
-      import("@/data/main-board/analyser/olaf-ryes-plass-boots.json").then(
-        (m) => m.default as unknown as PlaceAnalysis,
-      ),
-      import("@/data/main-board/analyser/nederst-i-markveien.json").then(
-        (m) => m.default as unknown as PlaceAnalysis,
-      ),
-    ]);
+    const analysisImports: Array<{
+      id: string;
+      load: () => Promise<PlaceAnalysis>;
+    }> = [
+      {
+        id: "kvartalsrapport-banktransaksjoner",
+        load: () =>
+          import("@/data/main-board/analyser/kvartalsrapport-banktransaksjoner.json").then(
+            (m) => m.default as unknown as PlaceAnalysis,
+          ),
+      },
+      {
+        id: "2025-arsrapport",
+        load: () =>
+          import("@/data/main-board/analyser/2025-arsrapport.json").then(
+            (m) => m.default as unknown as PlaceAnalysis,
+          ),
+      },
+      {
+        id: "2024-arsrapport",
+        load: () =>
+          import("@/data/main-board/analyser/2024-arsrapport.json").then(
+            (m) => m.default as unknown as PlaceAnalysis,
+          ),
+      },
+      {
+        id: "demografi-2017-2023",
+        load: () =>
+          import("@/data/main-board/analyser/demografi-2017-2023.json").then(
+            (m) => m.default as unknown as PlaceAnalysis,
+          ),
+      },
+      {
+        id: "nedre-lokka-omradeprofil",
+        load: () =>
+          import("@/data/main-board/analyser/nedre-lokka-omradeprofil.json").then(
+            (m) => m.default as unknown as PlaceAnalysis,
+          ),
+      },
+      {
+        id: "nedre-lokka-svarut",
+        load: () =>
+          import("@/data/main-board/analyser/nedre-lokka-svarut.json").then(
+            (m) => m.default as unknown as PlaceAnalysis,
+          ),
+      },
+      {
+        id: "ovre-thorvald-meyers-gate",
+        load: () =>
+          import("@/data/main-board/analyser/ovre-thorvald-meyers-gate.json").then(
+            (m) => m.default as unknown as PlaceAnalysis,
+          ),
+      },
+      {
+        id: "nedre-thorvald-meyers-gate",
+        load: () =>
+          import("@/data/main-board/analyser/nedre-thorvald-meyers-gate.json").then(
+            (m) => m.default as unknown as PlaceAnalysis,
+          ),
+      },
+      {
+        id: "midt-i-markveien",
+        load: () =>
+          import("@/data/main-board/analyser/midt-i-markveien.json").then(
+            (m) => m.default as unknown as PlaceAnalysis,
+          ),
+      },
+      {
+        id: "olaf-ryes-plass-boots",
+        load: () =>
+          import("@/data/main-board/analyser/olaf-ryes-plass-boots.json").then(
+            (m) => m.default as unknown as PlaceAnalysis,
+          ),
+      },
+      {
+        id: "nederst-i-markveien",
+        load: () =>
+          import("@/data/main-board/analyser/nederst-i-markveien.json").then(
+            (m) => m.default as unknown as PlaceAnalysis,
+          ),
+      },
+    ];
+
+    const results = await Promise.allSettled(
+      analysisImports.map((item) => item.load()),
+    );
+
+    const analyses = results.flatMap((result, index) => {
+      if (result.status === "fulfilled") {
+        return [result.value];
+      }
+
+      console.warn(
+        `Skipping analysis ${analysisImports[index]?.id} due to load error:`,
+        result.reason,
+      );
+      return [];
+    });
 
     // Sort by date (newest first)
     return analyses.sort((a, b) => {
@@ -81,6 +146,7 @@ export async function getAllAnalysisIds(): Promise<string[]> {
     "2024-arsrapport",
     "demografi-2017-2023",
     "nedre-lokka-omradeprofil",
+    "nedre-lokka-svarut",
     "ovre-thorvald-meyers-gate",
     "nedre-thorvald-meyers-gate",
     "midt-i-markveien",

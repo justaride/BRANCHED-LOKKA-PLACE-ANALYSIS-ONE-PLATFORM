@@ -1,0 +1,129 @@
+[
+  {
+    "metric": "Innbyggere i definert Nedre Løkka-område",
+    "value": 1674,
+    "confidence": "high",
+    "reason": "Direkte fra primær dataset for Nedre Løkka områdeprofil."
+  },
+  {
+    "metric": "Aldersgrupper (0-18 / 19-35 / 35-59 / 60+)",
+    "value": [
+      {
+        "group": "0-18",
+        "count": 191,
+        "pct": 11.4,
+        "confidence": "medium"
+      },
+      {
+        "group": "19-35",
+        "count": 832,
+        "pct": 49.7,
+        "confidence": "medium"
+      },
+      {
+        "group": "35-59",
+        "count": 555,
+        "pct": 33.2,
+        "confidence": "medium"
+      },
+      {
+        "group": "60+",
+        "count": 96,
+        "pct": 5.7,
+        "confidence": "medium"
+      }
+    ],
+    "confidence": "medium",
+    "reason": "Avledet aggregasjon av originale aldersbins."
+  },
+  {
+    "metric": "Bevegelse per mikropunkt",
+    "value": [
+      {
+        "omrade": "Øvre Thorvald Meyers gate",
+        "dagligBesok": 667,
+        "pctOfTotal": 23.9,
+        "dataStatus": "ok",
+        "confidence": "high"
+      },
+      {
+        "omrade": "Nedre Thorvald Meyers gate",
+        "dagligBesok": 1029,
+        "pctOfTotal": 36.8,
+        "dataStatus": "ok",
+        "confidence": "high"
+      },
+      {
+        "omrade": "Olaf Ryes Plass v/ Boots",
+        "dagligBesok": 0,
+        "pctOfTotal": 0,
+        "dataStatus": "missing",
+        "confidence": "low"
+      },
+      {
+        "omrade": "Olaf Ryes Plass v/ 7-Eleven",
+        "dagligBesok": 742,
+        "pctOfTotal": 26.5,
+        "dataStatus": "ok",
+        "confidence": "high"
+      },
+      {
+        "omrade": "Midt i Markveien",
+        "dagligBesok": 0,
+        "pctOfTotal": 0,
+        "dataStatus": "missing",
+        "confidence": "low"
+      },
+      {
+        "omrade": "Nederst i Markveien",
+        "dagligBesok": 358,
+        "pctOfTotal": 12.8,
+        "dataStatus": "ok",
+        "confidence": "high"
+      }
+    ],
+    "confidence": "medium",
+    "reason": "Direkte tall finnes, men 2 av 6 punkt har 0/mangler."
+  },
+  {
+    "metric": "Transportmiddel-fordeling",
+    "value": null,
+    "confidence": "low",
+    "reason": "Manglende datagrunnlag i tilgjengelige kilder."
+  },
+  {
+    "metric": "Sentrum vs Løkka (servering/detaljhandel)",
+    "value": {
+      "categoryLogic": {
+        "servering": [
+          "Mat og opplevelser / Restaurant",
+          "Mat og opplevelser / Pub og bar",
+          "Mat og opplevelser / Bakeri og kafé",
+          "Mat og opplevelser / Barer"
+        ],
+        "detaljhandel": [
+          "Handel / Mat og drikke",
+          "Handel / Hjem og interiør",
+          "Handel / Klesbutikker",
+          "Handel / Annen handel",
+          "Handel / Sport og fritid",
+          "Handel / Hus og bygg",
+          "Handel / Elektrobutikker",
+          "Handel / Smykker og parfyme"
+        ]
+      },
+      "servering": {
+        "lokkaMNOK": 1636,
+        "sentrumMNOK": 2480,
+        "lokkaShareOfSentrumPct": 66
+      },
+      "detaljhandel": {
+        "lokkaMNOK": 2000,
+        "sentrumMNOK": 2146,
+        "lokkaShareOfSentrumPct": 93.2
+      }
+    },
+    "confidence": "medium",
+    "reason": "Basert på sammenligningsdokument med tydelig kategori-logikk."
+  }
+]

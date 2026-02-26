@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-02-26T13:33:57.958Z",
+  "title": "Metodikk for Nedre Løkka samlet svarut-analyse",
+  "sourcePriority": {
+    "primary": "Mini-område analyser/public aggregated data for Nedre Løkka områdeprofil",
+    "secondary": "Aktører data for virksomhet/omsetning og sentrum-sammenligning",
+    "external": "MCP snapshot for utvalgt selskapskryssjekk"
+  },
+  "scopeRules": [
+    "Primærscope: Nedre Løkka (6 mikro-områder).",
+    "Proxy-scope kan brukes for besøkendeprofil der Nedre Løkka ikke har tilsvarende felt.",
+    "Scope-avvik skal alltid merkes i KPI-kort og kravmatrise."
+  ],
+  "derivationRules": [
+    "Aldersgrupper aggregeres fra eksisterende bins.",
+    "Prosent per mikropunkt beregnes av tilgjengelig daglig total.",
+    "Kategori-mapping følger avtalt regelsett (service/dagligvare/butikker/servering/andre)."
+  ],
+  "knownGaps": [
+    "Transportmiddel-fordeling mangler.",
+    "Antall steder per besøk mangler.",
+    "Metodikk for 93k/650k mangler i tilgjengelige filer.",
+    "2 mikro-punkt har 0/manglende bevegelsesdata."
+  ],
+  "verificationFramework": {
+    "totalChecks": 13,
+    "coveragePct": 76.9,
+    "statusCounts": {
+      "pass": 4,
+      "warn": 6,
+      "fail": 0,
+      "unknown": 3
+    },
+    "unresolvedOrgQueries": 3
+  }
+}

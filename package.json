@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3001",
-    "build": "next build",
+    "build": "node scripts/clean-build-cache.mjs && next build",
     "start": "next start",
     "lint": "eslint",
     "type-check": "tsc --noEmit",
@@ -12,6 +12,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
+    "build:nedre-lokka-svarut": "node scripts/build-nedre-lokka-svarut.js",
+    "verify:nedre-lokka-svarut": "npm run build:nedre-lokka-svarut && npm test -- src/lib/utils/__tests__/nedre-lokka-svarut-data.test.ts",
     "audit:data": "node scripts/data-audit/index.js --verbose",
     "audit:data:critical": "node scripts/data-audit/index.js --critical",
     "prebuild": "npm run verify && npm run type-check"

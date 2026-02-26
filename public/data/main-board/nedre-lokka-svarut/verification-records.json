@@ -1,0 +1,420 @@
+{
+  "generatedAt": "2026-02-26T13:33:57.958Z",
+  "coveragePct": 76.9,
+  "statusCounts": {
+    "pass": 4,
+    "warn": 6,
+    "fail": 0,
+    "unknown": 3
+  },
+  "records": [
+    {
+      "id": "verify-folk-total",
+      "requirementId": "folk-total",
+      "title": "Hvor mange bor det i vårt definerte markedsområde?",
+      "status": "pass",
+      "confidence": "high",
+      "score": 98,
+      "scope": "exact",
+      "summary": "Innbyggertall er direkte hentet fra områdeprofilens primærdatasett.",
+      "checks": [
+        {
+          "id": "population_exists",
+          "label": "Total befolkning finnes i kilde",
+          "status": "pass",
+          "score": 100,
+          "details": "1674 registrerte innbyggere"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "public/data/main-board/nedre-lokka-omradeprofil/demografi/aldersfordeling.json",
+          "description": "totalBefolkning",
+          "value": 1674
+        }
+      ],
+      "recommendations": []
+    },
+    {
+      "id": "verify-folk-alder",
+      "requirementId": "folk-alder",
+      "title": "Hvordan er aldersfordelingen (0-18, 19-35, 35-59, over 60)?",
+      "status": "pass",
+      "confidence": "medium",
+      "score": 90,
+      "scope": "exact",
+      "summary": "Aldersgrupper er avledet fra detaljerte bins i samme områdescope.",
+      "checks": [
+        {
+          "id": "age_bins_aggregated",
+          "label": "Aggregasjon 0-18, 19-35, 35-59, 60+",
+          "status": "pass",
+          "score": 92,
+          "details": "4 grupper beregnet"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "public/data/main-board/nedre-lokka-omradeprofil/demografi/aldersfordeling.json",
+          "description": "Aldersbins per gruppe"
+        }
+      ],
+      "recommendations": []
+    },
+    {
+      "id": "verify-besokende-hvor-bor",
+      "requirementId": "besokende-hvor-bor",
+      "title": "Av de besøkende, hvor bor de?",
+      "status": "warn",
+      "confidence": "medium",
+      "score": 65,
+      "scope": "proxy",
+      "summary": "Besøksopphav er tilgjengelig, men i proxy-scope (Grünerløkka nord +5).",
+      "checks": [
+        {
+          "id": "scope_match",
+          "label": "Scope-match mot Nedre Løkka",
+          "status": "warn",
+          "score": 60,
+          "threshold": "exact scope required",
+          "details": "Kilden bruker utvidet geografi utover 6 mikropunkt."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "public/data/main-board/2025-arsrapport/bevegelse/omrader-besokende-kommer-fra.json",
+          "description": "Topp opprinnelsesområder"
+        }
+      ],
+      "recommendations": [
+        "Bruk tydelig merking som proxy i beslutningsgrunnlag."
+      ]
+    },
+    {
+      "id": "verify-besokende-alder",
+      "requirementId": "besokende-alder",
+      "title": "Hvilken aldersgruppe er de besøkende i?",
+      "status": "warn",
+      "confidence": "medium",
+      "score": 65,
+      "scope": "proxy",
+      "summary": "Aldersprofil for besøkende finnes, men ikke isolert til Nedre Løkka.",
+      "checks": [
+        {
+          "id": "visitor_age_scope",
+          "label": "Besøksalder i riktig scope",
+          "status": "warn",
+          "score": 58,
+          "details": "Tallene representerer Grünerløkka nord (+5)."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "public/data/main-board/2025-arsrapport/besokende/alders-kjonnsfordeling.json",
+          "description": "Alders- og kjønnsfordeling for besøkende"
+        }
+      ],
+      "recommendations": []
+    },
+    {
+      "id": "verify-kort-antall-steder",
+      "requirementId": "kort-antall-steder",
+      "title": "Hvor mange steder bruker de per besøk, og sum/gang?",
+      "status": "unknown",
+      "confidence": "low",
+      "score": 0,
+      "scope": "missing",
+      "summary": "Ingen tilgjengelig kilde dokumenterer antall steder per besøk.",
+      "checks": [
+        {
+          "id": "stops_per_visit_present",
+          "label": "Datapunkt finnes",
+          "status": "unknown",
+          "score": 0,
+          "details": "Ikke funnet i dagens interne eller MCP-kilder."
+        }
+      ],
+      "evidence": [],
+      "recommendations": [
+        "Be om aggregator-tabell for stopp per besøk i neste datainnhenting."
+      ]
+    },
+    {
+      "id": "verify-mikropunkt-fordeling",
+      "requirementId": "mikropunkt-fordeling",
+      "title": "Hvordan beveger de seg på 6 spesifikke punkt (% og antall)?",
+      "status": "warn",
+      "confidence": "medium",
+      "score": 65,
+      "scope": "exact",
+      "summary": "Fordeling kan beregnes, men deler av bevegelsesdata mangler.",
+      "checks": [
+        {
+          "id": "micro_area_coverage",
+          "label": "Dekning av 6 mikropunkt",
+          "status": "warn",
+          "score": 62,
+          "details": "Mangler data i: Olaf Ryes Plass v/ Boots, Midt i Markveien"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "public/data/main-board/nedre-lokka-omradeprofil/bevegelse/daglig-total.json",
+          "description": "Område-breakdown",
+          "value": 2796,
+          "unit": "daily_visits"
+        }
+      ],
+      "recommendations": []
+    },
+    {
+      "id": "verify-ukefordeling",
+      "requirementId": "ukefordeling",
+      "title": "Kan dere vise fordeling av uketall per ukedag (antall og %)?",
+      "status": "pass",
+      "confidence": "high",
+      "score": 96,
+      "scope": "exact",
+      "summary": "Ukedagsfordeling med antall og prosent er komplett.",
+      "checks": [
+        {
+          "id": "weekday_rows",
+          "label": "Alle ukedager med prosent",
+          "status": "pass",
+          "score": 100,
+          "details": "7 rader, sum andel 99.9%"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "public/data/main-board/nedre-lokka-omradeprofil/bevegelse/besok-per-ukedag.json",
+          "description": "Besøk per ukedag"
+        }
+      ],
+      "recommendations": []
+    },
+    {
+      "id": "verify-metodikk-93k",
+      "requirementId": "metodikk-93k",
+      "title": "Hvordan er 93,000 / 650,000 beregnet?",
+      "status": "unknown",
+      "confidence": "low",
+      "score": 0,
+      "scope": "missing",
+      "summary": "Metodisk dokumentasjon for 93k/650k-estimatet mangler.",
+      "checks": [
+        {
+          "id": "method_note_available",
+          "label": "Beregningstrinn tilgjengelig",
+          "status": "unknown",
+          "score": 0,
+          "details": "Ingen kilde beskriver parametre eller formler."
+        }
+      ],
+      "evidence": [],
+      "recommendations": [
+        "Etterspør metodeark med definisjoner, periode og utvalgslogikk."
+      ]
+    },
+    {
+      "id": "verify-reisevaner",
+      "requirementId": "reisevaner",
+      "title": "Hvordan kommer de besøkende til Løkka (kollektiv, gående, sykkel, bil)?",
+      "status": "unknown",
+      "confidence": "low",
+      "score": 0,
+      "scope": "missing",
+      "summary": "Transportmiddel-fordeling er ikke tilgjengelig i dagens datasett.",
+      "checks": [
+        {
+          "id": "transport_mode_available",
+          "label": "Modal split i datasett",
+          "status": "unknown",
+          "score": 0,
+          "details": "Ingen intern tabell eller MCP-endepunkt dekker dette i scope."
+        }
+      ],
+      "evidence": [],
+      "recommendations": [
+        "Suppler med eksisterende sekundærkilder (Ruter/Bymiljøetaten) som proxy, tydelig merket."
+      ]
+    },
+    {
+      "id": "verify-virksomheter-kategori",
+      "requirementId": "virksomheter-kategori",
+      "title": "Antall virksomheter og fordeling på ønskede kategorier?",
+      "status": "warn",
+      "confidence": "medium",
+      "score": 65,
+      "scope": "exact",
+      "summary": "Kategorifordeling er konsistent, men dekker 103 virksomheter (ikke 300).",
+      "checks": [
+        {
+          "id": "business_count_sum",
+          "label": "Kategorisum matcher total virksomheter",
+          "status": "pass",
+          "score": 100,
+          "details": "103 av 103"
+        },
+        {
+          "id": "sample_size_target",
+          "label": "Målantall virksomheter i bestilling",
+          "status": "warn",
+          "score": 50,
+          "details": "Dekning er 103 virksomheter mot ønsket 300."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "public/data/main-board/nedre-lokka-omradeprofil/virksomheter/oversikt.json",
+          "description": "Kategorioversikt",
+          "value": 103,
+          "unit": "businesses"
+        }
+      ],
+      "recommendations": []
+    },
+    {
+      "id": "verify-omsetning-kategori",
+      "requirementId": "omsetning-kategori",
+      "title": "Totalomsetning 2024 og fordeling per kategori?",
+      "status": "warn",
+      "confidence": "medium",
+      "score": 65,
+      "scope": "exact",
+      "summary": "Omsetning per kategori stemmer internt, men er begrenset til samme utvalg.",
+      "checks": [
+        {
+          "id": "revenue_consistency",
+          "label": "Kategorisum mot total omsetning",
+          "status": "pass",
+          "score": 98,
+          "threshold": "<= 1 MNOK diff",
+          "details": "Diff 0.2 MNOK (0.02%)"
+        },
+        {
+          "id": "coverage_scope",
+          "label": "Utvalgsbredde mot bestilling",
+          "status": "warn",
+          "score": 55,
+          "details": "Samme 103-virksomhetsutvalg som kategorioversikten."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "public/data/main-board/nedre-lokka-omradeprofil/virksomheter/oversikt.json",
+          "description": "Total omsetning",
+          "value": 967,
+          "unit": "MNOK"
+        }
+      ],
+      "recommendations": []
+    },
+    {
+      "id": "verify-chillout-markveien55",
+      "requirementId": "chillout-markveien55",
+      "title": "Kan vi finne omsetning for Chillout i Markveien 55 (ikke kjede-total)?",
+      "status": "warn",
+      "confidence": "medium",
+      "score": 65,
+      "scope": "external",
+      "summary": "Lokal aktørverdi og MCP-regnskap er sammenlignbare, men ikke identiske.",
+      "checks": [
+        {
+          "id": "internal_vs_external_revenue",
+          "label": "Intern lokalverdi mot MCP driftsinntekter",
+          "status": "warn",
+          "score": 65,
+          "threshold": "pass <= 20% diff, warn <= 35%",
+          "details": "Diff 23.9%"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src/data/main-board/aktorer/markveien-35.json",
+          "description": "Lokal omsetning (MNOK)",
+          "value": 40,
+          "unit": "MNOK"
+        },
+        {
+          "source": "public/data/main-board/nedre-lokka-svarut/mcp-chillout-snapshot.json",
+          "description": "MCP driftsinntekter",
+          "value": 52589634,
+          "unit": "NOK"
+        }
+      ],
+      "recommendations": [
+        "Bruk datapunktet som plausibilitetskontroll, ikke eksakt butikkregnskap."
+      ]
+    },
+    {
+      "id": "verify-sentrum-sammenligning",
+      "requirementId": "sentrum-sammenligning",
+      "title": "Omsetning serveringssteder/detaljhandel i Sentrum, og Løkka-andel i % og kroner?",
+      "status": "pass",
+      "confidence": "medium",
+      "score": 88,
+      "scope": "proxy",
+      "summary": "Sentrum-sammenligning kan replikeres fra categoryStats-logikk.",
+      "checks": [
+        {
+          "id": "comparison_formula",
+          "label": "Reproduserbar beregning av andeler",
+          "status": "pass",
+          "score": 92,
+          "details": "Servering- og detaljhandel-andeler beregnet med dokumenterte nøkkelsett."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src/data/main-board/aktorer/sammenligning-2024/lokka.json",
+          "description": "Løkka categoryStats"
+        },
+        {
+          "source": "src/data/main-board/aktorer/sammenligning-2024/sentrum.json",
+          "description": "Sentrum categoryStats"
+        }
+      ],
+      "recommendations": []
+    }
+  ],
+  "orgResolution": [
+    {
+      "query": "Chillout Oslo",
+      "status": "resolved",
+      "selectedOrgNumber": "990510997",
+      "candidates": [
+        {
+          "companyName": "CHILLOUT AS",
+          "orgNumber": "990510997",
+          "source": "Offentligdata MCP lookup",
+          "matchQuality": "high",
+          "notes": "Direkte navnetreff mot kjent butikkaktør i Markveien 55."
+        }
+      ]
+    },
+    {
+      "query": "Le Benjamin",
+      "status": "ambiguous",
+      "candidates": [],
+      "notes": "Tidligere MCP-oppslag ga flere kandidater uten tydelig adressematch. Krever manuell avgrensning."
+    },
+    {
+      "query": "Nedre Foss",
+      "status": "ambiguous",
+      "candidates": [],
+      "notes": "Flere selskapsnavn/varianter gir tvetydige treff. Bruk orgnr fra virksomhetsregister før ny verifisering."
+    },
+    {
+      "query": "Markveien 55 (butikknivå)",
+      "status": "unresolved",
+      "candidates": [],
+      "notes": "Offentligdata gir selskapsnivå, ikke direkte butikk-enhet med egen regnskapslinje."
+    }
+  ],
+  "limitations": [
+    "MCP regnskapstall er på selskapsnivå og kan ikke alltid isolere enkel butikk.",
+    "Navnebasert org-oppslag kan være tvetydig uten adresse/orgnummer.",
+    "Noen MCP-kall kan feile sporadisk og bør håndteres med retry/backoff."
+  ]
+}
