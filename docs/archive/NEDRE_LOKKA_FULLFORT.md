@@ -350,7 +350,7 @@ Alle komponenter har inline kommentarer og TypeScript interfaces for dokumentasj
 Prosjektet er fullført og production-ready. Alle visualiseringer er implementert, testet og verifisert.
 
 **Neste steg (valgfritt):**
-- Deployment til production (auto-deploy via Vercel)
+- Deployment til production (auto-deploy via Coolify)
 - User testing og feedback
 - Eventuelle styling tweaks basert på feedback
 

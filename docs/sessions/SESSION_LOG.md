@@ -122,9 +122,9 @@ Kopiert 8 selskapsbilder til `public/images/companies/`:
 - Branch: main
 - Siste commit: 6efaab0
 
-### Vercel Deployment
+### Coolify Deployment
 - Prosjekt: branched-lokka-place-analysis-one-platform-b1em
-- URL: https://vercel.com/justarides-projects/branched-lokka-place-analysis-one-platform-b1em
+- URL: https://coolify.io
 - Status: Deployment klar med alle fikser
 
 ---
@@ -162,7 +162,7 @@ cbf2fba - Fix TypeScript error in kvartalsrapport page
 
 ### For Produksjon
 1. ⚠️ **VIKTIG:** Endre passord i produksjon (ikke bruk development-passord)
-2. Sett opp miljøvariabler i Vercel med produksjons-passord
+2. Sett opp miljøvariabler i Coolify med produksjons-passord
 3. Test autentisering på alle sider i produksjon
 4. Verifiser at alle bilder lastes korrekt i produksjon
 
@@ -286,9 +286,9 @@ ASPELIN_RAMM_PASSWORD=AspelinRamm2024Secure
 ### Deployment Status:
 - ✅ TypeScript kompilerer uten feil
 - ✅ Alle strict mode-advarsler løst
-- ✅ Vercel production deployment vellykket
+- ✅ Coolify production deployment vellykket
 - ✅ Status: Ready
-- 🔗 URL: https://lokka-gardeierforening-platform-32i5hq7wv-justarides-projects.vercel.app
+- 🔗 URL: https://<cloudflare-production-domain>
 
 ### Commits i denne økten:
 ```

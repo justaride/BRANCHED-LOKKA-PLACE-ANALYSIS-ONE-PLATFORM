@@ -80,7 +80,7 @@ Converted 4 CSV data files to JSON format for interactive charts:
 
 ### 4. Data Loader Updates
 
-**Static Imports for Vercel:**
+**Static Imports for Coolify:**
 ```typescript
 // one-min-loader.ts
 const staticLoaders: Record<string, () => Promise<OneMinAnalysisData>> = {
@@ -139,8 +139,8 @@ const staticLoaders: Record<string, () => Promise<OneMinAnalysisData>> = {
 
 ## Technical Challenges Solved
 
-### 1. Vercel Build Compatibility
-**Problem:** Dynamic imports fail at build time on Vercel
+### 1. Coolify Build Compatibility
+**Problem:** Dynamic imports fail at build time on Coolify
 **Solution:** Static imports with explicit paths in `one-min-loader.ts`
 
 ### 2. TypeScript Null Handling

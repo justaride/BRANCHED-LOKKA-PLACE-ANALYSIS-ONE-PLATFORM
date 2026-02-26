@@ -63,7 +63,7 @@ git branch -d feature/my-feature
 **Branch:** `main`
 **Purpose:** Production-ready code
 **Protection:** Should be protected in production
-**Deployment:** Auto-deploys to Vercel
+**Deployment:** Auto-deploys to Coolify
 
 **Rules:**
 - Never commit directly to main
@@ -381,7 +381,7 @@ git push origin fix/critical-login-bug
 
 #### 4. Deploy
 - Merge to main
-- Vercel auto-deploys
+- Coolify auto-deploys
 - Monitor production
 
 ---
@@ -921,5 +921,5 @@ This automatically closes issue #123 when merged.
 
 For project-specific guidelines, see:
 - `CONTRIBUTING.md` - Development workflow
-- `DEPLOYMENT.md` - Deployment procedures
+- `docs/architecture/DEPLOYMENT.md` - Deployment procedures
 - `MAINTENANCE.md` - Maintenance guide

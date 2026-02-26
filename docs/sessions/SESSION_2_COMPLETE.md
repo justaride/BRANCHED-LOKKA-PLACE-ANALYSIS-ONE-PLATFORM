@@ -205,7 +205,7 @@ All 4 pages load with components:
 
 ### Priority 4: Deployment
 - [ ] Test production build locally
-- [ ] Deploy to Vercel
+- [ ] Deploy to Coolify
 - [ ] Configure production environment variables
 - [ ] Test deployed site
 
@@ -253,7 +253,7 @@ All 4 pages load with components:
 - Testing (pending)
 
 ### Deployment: **0%** 📅
-- Vercel setup (pending)
+- Coolify setup (pending)
 - Environment variables (pending)
 - Production testing (pending)
 

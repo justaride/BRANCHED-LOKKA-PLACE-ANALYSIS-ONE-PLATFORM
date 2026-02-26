@@ -116,7 +116,7 @@ GET /aspelin-ramm/eiendommer/bellonabygget 200 in 1187ms ✅
 ## 📊 ARCHITECTURE IMPROVEMENTS
 
 ### Loader Pattern Benefits
-1. **Static imports** - Better for Vercel builds
+1. **Static imports** - Better for Coolify builds
 2. **Type safety** - Full TypeScript support
 3. **Async loading** - Proper Next.js 16 pattern
 4. **Centralized logic** - All data loading in one place
@@ -221,7 +221,7 @@ Did you mean to import brodrene_evensenEiendommer?
 ### Next.js 16 Requirements
 1. **Async params** are mandatory in dynamic routes
 2. **Server Components** should use async/await patterns
-3. **Static imports** preferred over fs operations for Vercel
+3. **Static imports** preferred over fs operations for Coolify
 
 ### Debugging Process
 1. Checked server logs for error details → Found params error

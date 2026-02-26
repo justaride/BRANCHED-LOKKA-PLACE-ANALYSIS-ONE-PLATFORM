@@ -248,7 +248,7 @@ Main Board is complete, now focus on migrating 8 company sites:
 ### Priority 2: Deployment 🚀
 - [ ] Test production build locally (`npm run build`)
 - [ ] Fix any production-only issues
-- [ ] Deploy to Vercel
+- [ ] Deploy to Coolify
 - [ ] Configure production environment variables
 - [ ] Test deployed site
 
@@ -304,7 +304,7 @@ Main Board is complete, now focus on migrating 8 company sites:
 - Testing (pending)
 
 ### Deployment: **0%** 📅
-- Vercel setup (pending)
+- Coolify setup (pending)
 - Environment variables (pending)
 - Production testing (pending)
 

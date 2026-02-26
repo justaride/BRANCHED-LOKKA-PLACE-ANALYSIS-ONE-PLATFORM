@@ -310,8 +310,8 @@ b3a27b6 - docs: Update progress with Session 8 improvements
 
 ## 🚀 Deployment Status
 
-### Vercel Production
-**URL:** https://lokka-gardeierforening-platform.vercel.app  
+### Coolify Production
+**URL:** https://<cloudflare-production-domain>  
 **Status:** ✅ Live and deployed  
 **Build Status:** ✅ Successful  
 **Environment Variables:** ✅ Configured

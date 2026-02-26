@@ -1,7 +1,7 @@
 # Løkka Gardeierforening Platform - Claude Context
 
 > Multi-tenant property analysis platform for Grünerløkka, Oslo
-> **Status:** 99% complete | **Live:** https://lokka-gardeierforening-platform.vercel.app
+> **Status:** 99% complete | **Live:** Coolify production (Cloudflare domain)
 
 ---
 
@@ -151,14 +151,14 @@ main-board | malling-co | maya-eiendom | roger-vodal | sio | spabo
 
 ### 1. Static Imports Required
 
-Vercel requires static imports for data. Use index patterns:
+Production builds require static imports for data. Use index patterns:
 
 ```typescript
 // CORRECT
 import bellonabygget from '@/data/aspelin-ramm/bellonabygget.json';
 const properties = { bellonabygget, ... };
 
-// WRONG - fails on Vercel
+// WRONG - dynamic import paths break build-time bundling
 const data = await import(`@/data/${tenant}/${id}.json`);
 ```
 
@@ -307,10 +307,7 @@ npm run test        # Jest unit tests
 
 ```bash
 git add . && git commit -m "message" && git push
-# Vercel auto-deploys from main branch
-
-# Or manual:
-vercel --prod
+# Coolify auto-deploys from main branch webhook
 ```
 
 ---
@@ -371,7 +368,7 @@ npm run audit:data:critical  # Critical issues only
 git status && git diff   # Check changes
 git add -p               # Stage interactively
 git commit -m "msg"      # Commit
-git push                 # Deploy (auto via Vercel)
+git push                 # Deploy (auto via Coolify)
 
 # Debugging
 npm run type-check       # TypeScript errors
@@ -400,7 +397,7 @@ When ending session:
 
 ## Contact & Resources
 
-- **Live Site:** https://lokka-gardeierforening-platform.vercel.app
+- **Live Site:** Cloudflare domain -> Coolify app
 - **Natural State:** https://naturalstate.no
 - **Feedback Form:** https://forms.gle/btff6meFZSHaYHUE9
 

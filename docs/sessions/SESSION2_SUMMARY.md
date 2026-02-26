@@ -46,7 +46,7 @@ scripts/           - Helper scripts
    - Troubleshooting guide
 
 4. **DEPLOYMENT.md** (800+ lines)
-   - Complete Vercel deployment guide
+   - Complete Coolify deployment guide
    - Environment configuration
    - Domain setup (custom domains)
    - Post-deployment testing
@@ -564,7 +564,7 @@ All files created in Session 2:
 1. `SESSION_CONTEXT.md` - Current state & quick start
 2. `DECISIONS.md` - Technical decisions log
 3. `MAINTENANCE.md` - Long-term maintenance guide
-4. `DEPLOYMENT.md` - Vercel deployment guide
+4. `DEPLOYMENT.md` - Coolify deployment guide
 5. `CONTRIBUTING.md` - Development workflow
 6. `GIT_WORKFLOW.md` - Git best practices
 7. `DOCUMENTATION_INDEX.md` - Central navigation

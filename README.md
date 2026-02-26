@@ -4,7 +4,7 @@
 
 > A comprehensive place analysis platform serving property developers and the natural state research team with detailed demographic, market, and development data for 42 properties across Grünerløkka.
 
-[![Deployment](https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel)](https://lokka-gardeierforening-platform.vercel.app)
+[![Deployment](https://img.shields.io/badge/Deployed-Coolify-0f766e)](#-deployment)
 [![Framework](https://img.shields.io/badge/Next.js-16.0.8-black?logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript)](https://www.typescriptlang.org)
 [![License](https://img.shields.io/badge/License-Private-red)]()
@@ -35,7 +35,7 @@ npm run build
 npm start
 ```
 
-**Live Site:** [https://lokka-gardeierforening-platform.vercel.app](https://lokka-gardeierforening-platform.vercel.app)
+**Live Site:** Configured via Cloudflare DNS -> Coolify app
 
 ---
 
@@ -55,7 +55,7 @@ This platform serves **10 separate tenants** under one codebase:
 ✅ **42 Properties** - Complete place analysis data
 ✅ **Professional Design** - Portfolio hero images & responsive UI
 ✅ **Type-Safe** - Full TypeScript coverage
-✅ **Production Ready** - Live on Vercel
+✅ **Production Ready** - Live on Coolify (Hetzner) behind Cloudflare
 
 ---
 
@@ -107,9 +107,9 @@ This platform serves **10 separate tenants** under one codebase:
 - ✅ Jest unit tests with 70% coverage threshold
 
 ### Deployment
-- **Platform:** [Vercel](https://vercel.com)
-- **Domain:** Custom domain ready
-- **CI/CD:** Automatic deployments from main branch
+- **Platform:** [Coolify](https://coolify.io)
+- **Infrastructure:** Hetzner + Cloudflare proxy/cache
+- **CI/CD:** Git push to `main` triggers Coolify redeploy
 - **Environment:** Production-ready
 
 ---
@@ -223,23 +223,23 @@ Password (all tenants): test123
 
 ## 🚀 Deployment
 
-### Vercel Setup
+### Coolify Setup
 
-The platform is configured for automatic deployment on Vercel:
+The platform is configured for deployment through Coolify:
 
 1. **Environment Variables Required:**
    ```
    NEXT_PUBLIC_GOOGLE_FORM_URL=https://forms.gle/btff6meFZSHaYHUE9
    ```
 
-2. **Build Settings:**
+2. **Build Settings (Coolify):**
    - Build Command: `npm run build`
    - Output Directory: `.next`
    - Install Command: `npm install`
 
 3. **Automatic Deployments:**
-   - Push to `main` → Production deploy
-   - Pull requests → Preview deploys
+   - Push to `main` -> Production deploy in Coolify
+   - Trigger manual redeploy from Coolify when env vars change
 
 ### Manual Deployment
 
@@ -250,8 +250,8 @@ npm run build
 # Test production build
 npm start
 
-# Deploy to Vercel
-vercel --prod
+# Push to trigger Coolify deploy
+git push origin main
 ```
 
 ---
@@ -403,7 +403,7 @@ npm run test:coverage # Run tests with coverage report
 - Aktorer (Actors): 12 businesses with revenue, growth, market share
 
 **Technical Implementation:**
-- Static imports for Vercel compatibility in data loaders
+- Static imports for stable Next.js production builds in data loaders
 - Recharts integration for interactive visualizations
 - Conditional rendering (interactive charts OR legacy screenshots)
 - TypeScript strict mode compliance
@@ -473,9 +473,9 @@ npm run test:coverage # Run tests with coverage report
 ## 📚 Documentation
 
 Detailed documentation available:
-- [`PROGRESS_UPDATE.md`](./PROGRESS_UPDATE.md) - Latest progress & changes
 - [`PROJECT_STATUS.md`](./PROJECT_STATUS.md) - Complete project overview
-- [`DEPLOYMENT.md`](./DEPLOYMENT.md) - Deployment guide
+- [`docs/architecture/DEPLOYMENT.md`](./docs/architecture/DEPLOYMENT.md) - Coolify deployment guide
+- [`docs/architecture/MAINTENANCE.md`](./docs/architecture/MAINTENANCE.md) - Operations & maintenance guide
 
 ---
 
@@ -495,7 +495,7 @@ This is a private project for Løkka Gardeierforening and Natural State.
 
 **Project Lead:** Løkka Gardeierforening
 **Technical Partner:** Natural State
-**Deployment:** Vercel
+**Deployment:** Coolify (Hetzner) behind Cloudflare
 
 **Contact:**
 - Natural State: kontakt@naturalstate.no
@@ -512,7 +512,7 @@ Private & Confidential - © 2025 Løkka Gardeierforening & Natural State
 ## 🌟 Status
 
 **Current:** 99% Complete
-**Deployment:** ✅ Live on Vercel
+**Deployment:** ✅ Live on Coolify
 **Quality:** 🚀 Production Ready
 **Build:** ✅ 111 static pages, 64 ESLint issues (down from 118)
 **Tests:** ✅ Jest configured with 70% coverage threshold

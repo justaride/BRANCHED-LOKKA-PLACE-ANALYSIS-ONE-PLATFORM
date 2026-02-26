@@ -108,7 +108,7 @@ Fixed feedback form URL across the platform.
 **Changes:**
 - Updated `.env.local` with correct Google Form URL
 - Updated 8 om-prosjektet pages with new link
-- Added environment variable to Vercel production
+- Added environment variable to Coolify production
 - Form URL: `https://forms.gle/btff6meFZSHaYHUE9`
 
 **Files Modified:**
@@ -179,7 +179,7 @@ a0cb255 - fix: Update feedback form URL
 
 **Branch:** main
 **Status:** All pushed to GitHub
-**Deployment:** Automatic Vercel deployment triggered
+**Deployment:** Automatic Coolify deployment triggered
 
 ---
 
@@ -187,9 +187,9 @@ a0cb255 - fix: Update feedback form URL
 
 ### Production Deployment
 
-**Platform:** Vercel
+**Platform:** Coolify
 **Status:** ✅ Deployed successfully
-**URL:** https://lokka-gardeierforening-platform.vercel.app
+**URL:** https://<cloudflare-production-domain>
 
 **Build Status:**
 - ✅ TypeScript compilation successful
@@ -421,7 +421,7 @@ a0cb255 - fix: Update feedback form URL
 
 **Environment:**
 - Local: http://localhost:3001
-- Production: https://lokka-gardeierforening-platform.vercel.app
+- Production: https://<cloudflare-production-domain>
 - Repository: GitHub (private)
 
 ---
@@ -464,7 +464,7 @@ a0cb255 - fix: Update feedback form URL
 
 ### Deployment
 - [x] GitHub repository updated
-- [x] Vercel production deployed
+- [x] Coolify production deployed
 - [x] Environment variables configured
 - [x] Build verified successful
 

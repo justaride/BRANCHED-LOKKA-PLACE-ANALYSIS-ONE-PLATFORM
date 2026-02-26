@@ -1,7 +1,7 @@
 # Technical Decision Log
 
 **Project:** Løkka Gårdeierforening Multi-Tenant Platform
-**Last Updated:** 2025-11-19
+**Last Updated:** 2026-02-26
 
 This document records all major technical decisions made during the platform development, including rationale, alternatives considered, and implications.
 
@@ -94,7 +94,7 @@ Dynamic routing handles all tenants:
 - `/[company]/*` - Company routes (8 companies)
 
 ### Implications
-- **Deployment:** Single Vercel project
+- **Deployment:** Single Coolify app (proxied via Cloudflare)
 - **Code Changes:** Affect all tenants (feature flag if needed)
 - **Customization:** Done via configuration, not code
 - **Scaling:** Very easy to add new tenants
@@ -484,26 +484,25 @@ Large codebase with complex data structures. Some components need refactoring fo
 
 ---
 
-## Decision 7: Vercel for Deployment
+## Decision 7: Coolify for Deployment
 
-**Date:** 2025-11-19
-**Status:** 📋 Planned
+**Date:** 2026-02-26
+**Status:** ✅ Implemented
 
 ### Decision
-Deploy to **Vercel** (not Netlify, AWS, or self-hosted).
+Deploy to **Coolify on Hetzner**, fronted by **Cloudflare**.
 
 ### Rationale
 
-#### Why Vercel?
-1. **Next.js Native:** Built by Next.js creators
-2. **Zero Config:** Works out of the box
-3. **Performance:** Edge network, CDN
-4. **Cost:** Free tier sufficient initially
-5. **DX:** Excellent developer experience
-6. **Preview:** Automatic preview deployments
+#### Why Coolify?
+1. **Ownership:** Full control over infrastructure and deployment lifecycle
+2. **Predictable cost:** Fixed hosting on Hetzner without vendor lock-in
+3. **Operational flexibility:** Environment variables, redeploys, and logs in one place
+4. **Compatibility:** Works well with Next.js container/runtime workflows
+5. **Cloudflare integration:** Caching, TLS, and DNS handled at the edge
 
 ### Deployment Strategy
-**Option 1: Single Vercel Project (Recommended)**
+**Option 1: Single Coolify App (Recommended)**
 - One deployment serves all 9 tenants
 - Different domains point to same deployment
 - Environment variables shared
@@ -516,8 +515,9 @@ Deploy to **Vercel** (not Netlify, AWS, or self-hosted).
 **✅ Going with Option 1**
 
 ### Cost Estimate
-- **Hobby Plan:** Free (sufficient for MVP)
-- **Pro Plan:** $20/month (if needed for team features)
+- **Hosting:** Hetzner server(s) sized by traffic
+- **Platform:** Coolify (self-hosted)
+- **Edge/DNS:** Cloudflare plan as needed
 
 ---
 
@@ -533,12 +533,12 @@ Serve images from **Next.js public folder** initially (no separate CDN).
 1. **Simplicity:** One less service to manage
 2. **Next.js Optimization:** Built-in Image component
 3. **Cost:** Zero additional cost
-4. **Performance:** Vercel CDN sufficient
+4. **Performance:** Cloudflare + Next.js caching is sufficient
 
 ### Future Optimization
 If images become bottleneck:
 1. Move to Cloudinary/imgix
-2. Use Vercel Image Optimization
+2. Tune Next.js image optimization and caching strategy
 3. Implement lazy loading (already done)
 
 ### Current Image Strategy
@@ -557,7 +557,7 @@ Next.js automatically:
 - Optimizes format (WebP)
 - Resizes for device
 - Lazy loads
-- Serves from CDN (Vercel)
+- Serves through Cloudflare CDN
 
 ---
 
@@ -610,7 +610,7 @@ MAIN_BOARD_PASSWORD=test123
 ASPELIN_RAMM_PASSWORD=test123
 # ...
 
-# .env (production - on Vercel)
+# .env (production - in Coolify)
 MAIN_BOARD_PASSWORD=<strong-password>
 ASPELIN_RAMM_PASSWORD=<strong-password>
 # ...
@@ -669,7 +669,7 @@ When deployed:
 ### 2. Analytics
 **Question:** What analytics to use?
 - Option A: Google Analytics
-- Option B: Vercel Analytics
+- Option B: Cloudflare Web Analytics
 - Option C: Plausible (privacy-focused)
 - **Status:** TBD
 

@@ -212,8 +212,8 @@ export async function loadArsrapport2024() {
 
 ### Long-term (Deployment)
 
-#### 8. Vercel Deployment
-- Create Vercel project
+#### 8. Coolify Deployment
+- Create Coolify project
 - Connect GitHub repository
 - Set production environment variables
 - Deploy and test
@@ -449,7 +449,7 @@ Located in: `~/Downloads/LØKKA PROJECTS UPDATED AND BACKUPS FOLDER/`
 
 ### Final Goal (Week 4)
 - [ ] All companies migrated
-- [ ] Deployed to Vercel
+- [ ] Deployed to Coolify
 - [ ] Production ready
 - [ ] All tenants accessible
 

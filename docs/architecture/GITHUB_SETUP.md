@@ -112,7 +112,7 @@ We've created your first version tag:
 **Future tags:**
 - `v0.90-main-board-complete` (when Main Board fully working)
 - `v1.0.0` (when all 9 sites complete)
-- `v1.1.0` (when deployed to Vercel)
+- `v1.1.0` (when deployed to Coolify)
 
 ---
 
@@ -175,7 +175,7 @@ Development password: test123
 - ✅ Infrastructure complete
 - ✅ Main Board 75% migrated
 - 🚧 Company sites pending
-- 📅 Deployment: Week 4
+- 📅 Deployment: Coolify production
 
 ## 📚 Documentation
 
@@ -190,7 +190,7 @@ See `/` directory for:
 - React 19
 - TypeScript
 - Tailwind CSS
-- Vercel (deployment)
+- Coolify (deployment)
 
 ## 📞 Contact
 
@@ -205,19 +205,20 @@ git push
 
 ---
 
-## 🌐 Deploy to Vercel
+## 🌐 Deploy to Coolify
 
 After pushing to GitHub:
 
-### Step 1: Import to Vercel
-1. Go to https://vercel.com/new
-2. Import your GitHub repository
-3. Framework: Next.js (auto-detected)
-4. Root Directory: `./`
-5. Click "Deploy"
+### Step 1: Configure Coolify application
+1. Open your Coolify instance
+2. Create/select app for this repository
+3. Connect GitHub repo and `main` branch
+4. Set build command: `npm run build`
+5. Set start command: `npm start`
+6. Enable auto-deploy on push
 
 ### Step 2: Configure Environment Variables
-In Vercel dashboard → Settings → Environment Variables:
+In Coolify app settings → Environment Variables:
 
 ```
 MAIN_BOARD_PASSWORD=[secure-password-1]
@@ -230,14 +231,14 @@ ROGER_VODAL_PASSWORD=[secure-password-7]
 SIO_PASSWORD=[secure-password-8]
 SPABO_EIENDOM_PASSWORD=[secure-password-9]
 
-NEXT_PUBLIC_SITE_URL=https://your-site.vercel.app
+NEXT_PUBLIC_SITE_URL=https://your-production-domain
 NEXT_PUBLIC_GOOGLE_FORM_URL=https://forms.google.com/your-form-id
 ```
 
 ### Step 3: Deploy
-- Vercel will auto-deploy on every push to `main`
-- Preview deployments for other branches
-- Production URL: `https://your-project.vercel.app`
+- Trigger first deploy from Coolify dashboard
+- Verify build and runtime logs
+- Confirm production domain via Cloudflare
 
 ---
 
@@ -269,7 +270,7 @@ git ls-files
 
 1. **Push to GitHub** (see instructions above)
 2. **Add README.md**
-3. **Configure Vercel** (optional, can do later)
+3. **Configure Coolify** (optional, can do later)
 4. **Continue development** (Main Board completion)
 
 ---

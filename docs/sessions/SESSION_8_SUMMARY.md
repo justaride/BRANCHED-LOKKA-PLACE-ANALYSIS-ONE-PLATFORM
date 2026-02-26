@@ -286,7 +286,7 @@ b3a27b6 - docs: Update progress with Session 8 improvements
 
 **Branch:** main
 **Status:** All pushed to GitHub
-**Deployment:** Automatic Vercel deployment triggered
+**Deployment:** Automatic Coolify deployment triggered
 
 ---
 
@@ -294,9 +294,9 @@ b3a27b6 - docs: Update progress with Session 8 improvements
 
 ### Production Deployment
 
-**Platform:** Vercel
+**Platform:** Coolify
 **Status:** ✅ Deployed successfully
-**URL:** https://lokka-gardeierforening-platform.vercel.app
+**URL:** https://<cloudflare-production-domain>
 
 **New Routes Live:**
 - `/main-board/analyser/nedre-lokka-dashboard` - LØKKA RAPPORTEN
@@ -530,7 +530,7 @@ b3a27b6 - docs: Update progress with Session 8 improvements
 
 **Environment:**
 - Local: http://localhost:3001
-- Production: https://lokka-gardeierforening-platform.vercel.app
+- Production: https://<cloudflare-production-domain>
 - Repository: GitHub (private)
 
 ---
@@ -579,7 +579,7 @@ b3a27b6 - docs: Update progress with Session 8 improvements
 
 ### Deployment
 - [x] GitHub repository updated
-- [x] Vercel production deployed
+- [x] Coolify production deployed
 - [x] All routes verified working
 - [x] Build successful
 

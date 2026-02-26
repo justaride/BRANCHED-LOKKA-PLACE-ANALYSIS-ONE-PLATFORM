@@ -779,7 +779,7 @@ git push
 - `SESSION_CONTEXT.md` - Current state
 - `DECISIONS.md` - Why things are done this way
 - `MAINTENANCE.md` - Ongoing maintenance
-- `DEPLOYMENT.md` - Production deployment
+- `docs/architecture/DEPLOYMENT.md` - Production deployment
 
 **External:**
 - Next.js Docs: https://nextjs.org/docs

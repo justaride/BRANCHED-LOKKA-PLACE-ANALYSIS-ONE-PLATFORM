@@ -3,7 +3,7 @@
 **Last Updated:** February 25, 2026 - Email OTP Authentication Migration
 **Current Status:** 🚀 **PRODUCTION READY** (99% Complete)
 **Deployment:** ✅ Live on Coolify (Hetzner) behind Cloudflare
-**URL:** https://lokka-gardeierforening-platform.vercel.app
+**URL:** Cloudflare domain -> Coolify app
 **Build Status:** ✅ 122 static pages, ESLint 0 issues, Data Audit 0 CRITICAL
 **Test Status:** ✅ Jest configured with 70% coverage threshold
 **Latest Updates:**
@@ -379,7 +379,7 @@ Complete UI/UX redesign using the natural color palette for visual consistency:
 
 **Technical Achievements:**
 
-- ✅ Static imports for Vercel compatibility
+- ✅ Static imports for stable production builds
 - ✅ TypeScript types for all biblioteket content (including Jazz, Hiphop, Idrett interfaces)
 - ✅ Comprehensive data loader (`biblioteket-loader.ts`) with 8+ loader functions
 - ✅ Natural color palette throughout (forest, sage, sand, earth, stone)
@@ -471,7 +471,7 @@ Successfully implemented comprehensive 6-section 5-minute analysis for all 7 Rog
 
 - ✅ CSV→JSON conversion scripts
 - ✅ TypeScript types for all 6 sections + actors
-- ✅ Static imports for Vercel compatibility
+- ✅ Static imports for stable production builds
 - ✅ Conditional rendering for missing data
 - ✅ Norwegian locale formatting throughout
 
@@ -517,7 +517,7 @@ Successfully implemented interactive 1-minute analysis for Mathallen Oslo, Aspel
 
 **Technical Achievements:**
 
-- ✅ Static imports for Vercel compatibility
+- ✅ Static imports for stable production builds
 - ✅ Conditional rendering (interactive charts OR legacy screenshots)
 - ✅ PropertyCard updated to show property names
 - ✅ TypeScript strict mode compliance
@@ -826,7 +826,7 @@ Removed unbuilt comparison functionality:
 
 - ✅ Updated `.env.local` with correct form URL
 - ✅ Updated 8 om-prosjektet pages
-- ✅ Added environment variable to Vercel
+- ✅ Added environment variable to Coolify
 - ✅ Form URL: https://forms.gle/btff6meFZSHaYHUE9
 
 ---
@@ -1013,7 +1013,7 @@ ADMIN_EMAILS=gabriel@naturalstate.no
 
 **Platform:** Coolify (Hetzner) behind Cloudflare
 **Status:** ✅ Live and deployed
-**URL:** https://lokka-gardeierforening-platform.vercel.app
+**URL:** Cloudflare domain -> Coolify app
 
 **Environment Variables:**
 
@@ -1051,7 +1051,7 @@ ADMIN_EMAILS=gabriel@naturalstate.no
 - **Styling:** Tailwind CSS 4
 - **Bundler:** Turbopack
 - **Charts:** Recharts
-- **Deployment:** Vercel
+- **Deployment:** Coolify
 
 ### Key Features ✅
 
@@ -1436,7 +1436,7 @@ scripts/
 
 ### Immediate
 
-1. Monitor Vercel deployment
+1. Monitor Coolify deployment
 2. Verify all pages load correctly
 3. Test on mobile devices
 4. Gather user feedback
@@ -1459,10 +1459,10 @@ scripts/
 
 ## 📞 Access Information
 
-**Live Site:** https://lokka-gardeierforening-platform.vercel.app
+**Live Site:** Cloudflare domain -> Coolify app
 **Dev Server:** http://localhost:3001
 **Repository:** GitHub
-**Platform:** Vercel
+**Platform:** Coolify (Hetzner) behind Cloudflare
 
 **Test Login:**
 
@@ -1477,7 +1477,7 @@ Password: test123 (all tenants)
 The Løkka Gardeierforening Platform is **production-ready** and looking professional. All major features are working, all company pages have stunning portfolio images, and the user experience is smooth and intuitive. Mathallen Oslo now features an interactive 1-minute analysis with comprehensive business data.
 
 **Current Status:** 99% Complete
-**Deployment:** ✅ Live on Vercel
+**Deployment:** ✅ Live on Coolify
 **Quality:** 🚀 Professional & Production-Ready
 
 ---

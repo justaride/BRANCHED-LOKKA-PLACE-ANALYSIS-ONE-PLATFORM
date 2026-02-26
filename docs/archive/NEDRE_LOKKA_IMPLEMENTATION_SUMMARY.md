@@ -333,7 +333,7 @@ Update `/src/app/main-board/page.tsx` to add link in analyser list.
 1. Test page locally: http://localhost:3000/main-board/analyser/nedre-lokka-omradeprofil
 2. Add to Main Board menu (link in analyser list)
 3. Verify all data loads correctly
-4. Deploy to Vercel (automatic with push to main)
+4. Deploy to Coolify (automatic with push to main)
 
 **To Enhance:**
 1. Fix data aggregation for missing 2 areas
@@ -367,7 +367,7 @@ Update `/src/app/main-board/page.tsx` to add link in analyser list.
 **Ready for:**
 - ✅ Production deployment (build verified)
 - ✅ User review
-- ✅ Immediate Vercel deployment
+- ✅ Immediate Coolify deployment
 - ✅ Future enhancements
 
 ---

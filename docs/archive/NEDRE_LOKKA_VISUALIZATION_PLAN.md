@@ -249,7 +249,7 @@ Per komponent:
 1. Full test av alle komponenter
 2. Production build verification
 3. Push til main
-4. Vercel auto-deploy
+4. Coolify auto-deploy
 
 ---
 

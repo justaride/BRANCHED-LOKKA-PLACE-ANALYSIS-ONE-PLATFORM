@@ -174,7 +174,7 @@ Images should be placed in `/public/images/biblioteket/`
 
 - [x] All pages render without errors
 - [x] TypeScript compilation successful
-- [x] Static imports for Vercel compatibility
+- [x] Static imports for Coolify compatibility
 - [x] Responsive design verified
 - [x] Navigation links working
 - [x] Dynamic routing for ildsjeler working

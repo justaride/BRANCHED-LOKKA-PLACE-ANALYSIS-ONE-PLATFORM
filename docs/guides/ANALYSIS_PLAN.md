@@ -342,7 +342,7 @@ done
 14. ✅ Performance optimization
 15. ✅ SEO improvements
 16. ✅ Accessibility audit
-17. ✅ Deploy to Vercel
+17. ✅ Deploy to Coolify
 
 ---
 

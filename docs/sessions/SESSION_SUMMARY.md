@@ -25,7 +25,7 @@ We've built a **fully functional multi-tenant platform** from scratch and starte
 ### 🚧 Remaining
 
 9. **Company Sites Migration** - Week 2-3
-10. **Vercel Deployment** - Week 4
+10. **Coolify Deployment** - Week 4
 
 ---
 
@@ -197,7 +197,7 @@ Companies (all 8):
 - Copy all property data and images
 
 ### Week 4
-- Deploy to Vercel
+- Deploy to Coolify
 - Configure production environment
 - Set up strong passwords
 - Go live!

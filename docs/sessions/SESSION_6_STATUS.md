@@ -133,7 +133,7 @@ Created:
 1. **1-minutts analyse** - Interaktiv datavisualisering (NESTE)
 2. **Testing** - Systematisk testing av alle features
 3. **Performance** - Optimalisering hvis nødvendig
-4. **Production deployment** - Deploy til Vercel
+4. **Production deployment** - Deploy til Coolify
 
 ---
 
