@@ -24,6 +24,10 @@ import type {
     DigitalItem,
     AkademiskItem,
     MediaCategoryData,
+    SourceItem,
+    ClaimEvidence,
+    ResearchMetadata,
+    CrossReference,
 } from '@/types/biblioteket';
 
 // Static imports for Vercel compatibility
@@ -218,7 +222,10 @@ export interface JazzData {
     venues: JazzVenue[];
     artists: JazzArtist[];
     festivals: JazzFestival[];
-    sources: { title: string; url: string }[];
+    sources: SourceItem[];
+    claims?: ClaimEvidence[];
+    researchMetadata?: ResearchMetadata;
+    crossReferences?: CrossReference[];
 }
 
 export interface JazzPeriod {
@@ -291,7 +298,10 @@ export interface HiphopData {
     artists: HiphopArtist[];
     crews: HiphopCrew[];
     events: HiphopEvent[];
-    sources: { title: string; url: string }[];
+    sources: SourceItem[];
+    claims?: ClaimEvidence[];
+    researchMetadata?: ResearchMetadata;
+    crossReferences?: CrossReference[];
 }
 
 export interface HiphopSection {
@@ -370,6 +380,10 @@ export interface FilmData {
     filmmakers: Filmmaker[];
     cinemas: Cinema[];
     documentaries: Documentary[];
+    sources?: SourceItem[];
+    claims?: ClaimEvidence[];
+    researchMetadata?: ResearchMetadata;
+    crossReferences?: CrossReference[];
     metadata: { filmCount: number; filmmakerCount: number; cinemaCount: number; documentaryCount: number; generatedAt: string };
 }
 
@@ -442,6 +456,10 @@ export interface TeaterData {
     siteSpecificPerformances: SiteSpecificPerformance[];
     childrenTheater: ChildrenTheater[];
     comedy: ComedyVenue[];
+    sources?: SourceItem[];
+    claims?: ClaimEvidence[];
+    researchMetadata?: ResearchMetadata;
+    crossReferences?: CrossReference[];
     metadata: { venueCount: number; theaterGroupCount: number; siteSpecificCount: number; generatedAt: string };
 }
 
@@ -541,6 +559,10 @@ export interface BilledkunstData {
         modern: Photographer[];
     };
     artVenues: ArtVenue[];
+    sources?: SourceItem[];
+    claims?: ClaimEvidence[];
+    researchMetadata?: ResearchMetadata;
+    crossReferences?: CrossReference[];
     metadata: { earlyArtistCount: number; naturalistCount: number; contemporaryCount: number; streetArtistCount: number; photographerCount: number; generatedAt: string };
 }
 

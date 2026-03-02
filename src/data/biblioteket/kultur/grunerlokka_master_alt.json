@@ -571,5 +571,380 @@
       "Visit Løkka",
       "VårtOslo"
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "Store norske leksikon - Grünerløkka",
+      "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka",
+      "publisher": "SNL",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Oslo byarkiv - Tobias 1/2004",
+      "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf",
+      "publisher": "Oslo byarkiv",
+      "accessedAt": "2026-03-02",
+      "sourceType": "archive",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Store norske leksikon - Edvard Munch",
+      "url": "https://snl.no/Edvard_Munch",
+      "publisher": "SNL",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Oslo World - Blå",
+      "url": "https://www.osloworld.no/spillested/blå",
+      "publisher": "Oslo World",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "NTNU Samfunnsforskning - inkluderende oppvekstmiljø",
+      "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
+      "publisher": "NTNU Samfunnsforskning",
+      "accessedAt": "2026-03-02",
+      "sourceType": "academic",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Riksscenen - Om oss",
+      "url": "https://www.riksscenen.no/om-riksscenen",
+      "publisher": "Riksscenen",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Atelier Nord - Om Atelier Nord",
+      "url": "https://ateliernord.no/about/",
+      "publisher": "Atelier Nord",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Oslo Open - Om Oslo Open",
+      "url": "https://www.osloopen.no/about/",
+      "publisher": "Oslo Open",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    }
+  ],
+  "claims": [
+    {
+      "claimId": "master-001",
+      "claim": "Grünerløkka har gått fra arbeiderbydel til kulturklynge med stor tetthet av scener og atelierer.",
+      "status": "verified",
+      "confidenceScore": 0.84,
+      "sources": [
+        {
+          "title": "Store norske leksikon - Grünerløkka",
+          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Oslo byarkiv - Tobias 1/2004",
+          "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf",
+          "publisher": "Oslo byarkiv",
+          "accessedAt": "2026-03-02",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "master-002",
+      "claim": "Akerselva-korridoren er en gjennomgående geografisk og historisk akse i kulturutviklingen.",
+      "status": "verified",
+      "confidenceScore": 0.83,
+      "sources": [
+        {
+          "title": "Store norske leksikon - Grünerløkka",
+          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Oslo Museum - Akerselva i byhistorien",
+          "url": "https://www.oslomuseum.no/akerselva/",
+          "publisher": "Oslo Museum",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "master-003",
+      "claim": "Parkteatret fungerer som historisk bro mellom kinoepoke og dagens scenekultur.",
+      "status": "verified",
+      "confidenceScore": 0.86,
+      "sources": [
+        {
+          "title": "Wikipedia - Parkteatret (Oslo)",
+          "url": "https://no.wikipedia.org/wiki/Parkteatret_(Oslo)",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary",
+          "notes": "Brukes som sekundærkilde, ikke alene."
+        },
+        {
+          "title": "Oslo byarkiv - Tobias 1/2004",
+          "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf",
+          "publisher": "Oslo byarkiv",
+          "accessedAt": "2026-03-02",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "master-004",
+      "claim": "Toftes gate 69 har vært en nøkkeladresse for musikk- og kunstmiljø med lang kontinuitet.",
+      "status": "verified",
+      "confidenceScore": 0.82,
+      "sources": [
+        {
+          "title": "Oslo byarkiv - Tobias 1/2004",
+          "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf",
+          "publisher": "Oslo byarkiv",
+          "accessedAt": "2026-03-02",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Jazz i Norge - Blow Out",
+          "url": "https://jazzinorge.no/anmeldelse/blow-out-og-blow-out-fru-blom/",
+          "publisher": "Jazz i Norge",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "master-005",
+      "claim": "Blå i Brenneriveien er en viktig institusjon i overgangen mellom jazz, elektronika og klubbkultur.",
+      "status": "verified",
+      "confidenceScore": 0.82,
+      "sources": [
+        {
+          "title": "Oslo World - Blå",
+          "url": "https://www.osloworld.no/spillested/blå",
+          "publisher": "Oslo World",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Jazz i Norge - Blow Out",
+          "url": "https://jazzinorge.no/anmeldelse/blow-out-og-blow-out-fru-blom/",
+          "publisher": "Jazz i Norge",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "master-006",
+      "claim": "X-Ray representerer en institusjonell infrastruktur for ungdomsdrevet urban kultur.",
+      "status": "verified",
+      "confidenceScore": 0.85,
+      "sources": [
+        {
+          "title": "NTNU Samfunnsforskning - inkluderende oppvekstmiljø",
+          "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
+          "publisher": "NTNU Samfunnsforskning",
+          "accessedAt": "2026-03-02",
+          "sourceType": "academic",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Danseinfo - Soul Sessions ærespris til X-Ray",
+          "url": "https://danseinfo.no/nyheter/soul-sessions-oslos-aerespris-gar-til-x-ray-ungdomskulturhus/",
+          "publisher": "Danseinformasjonen",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "master-007",
+      "claim": "Schous-kvartalet med Riksscenen og tilgrensende tilbud har styrket bydelens kulturklynge.",
+      "status": "verified",
+      "confidenceScore": 0.82,
+      "sources": [
+        {
+          "title": "Riksscenen - Om oss",
+          "url": "https://www.riksscenen.no/om-riksscenen",
+          "publisher": "Riksscenen",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Store norske leksikon - Grünerløkka",
+          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "master-008",
+      "claim": "Løkkas kunstfelt består av både kommersielle, kunstnerstyrte og midlertidige visningsrom.",
+      "status": "verified",
+      "confidenceScore": 0.81,
+      "sources": [
+        {
+          "title": "Atelier Nord - Om Atelier Nord",
+          "url": "https://ateliernord.no/about/",
+          "publisher": "Atelier Nord",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Oslo Open - Om Oslo Open",
+          "url": "https://www.osloopen.no/about/",
+          "publisher": "Oslo Open",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "master-009",
+      "claim": "Gentrifisering har endret økonomiske vilkår for kunst- og kulturproduksjon i bydelen.",
+      "status": "partially_verified",
+      "confidenceScore": 0.67,
+      "sources": [
+        {
+          "title": "Store norske leksikon - Grünerløkka",
+          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Oslo byarkiv - Tobias 1/2004",
+          "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf",
+          "publisher": "Oslo byarkiv",
+          "accessedAt": "2026-03-02",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "notes": "Krever flere kvantitative kilder for husleie/fortrengning over tid.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "master-010",
+      "claim": "Kulturhistorien på Grünerløkka må forstås i samspill mellom lokale grasrotmiljøer og kommunale grep.",
+      "status": "partially_verified",
+      "confidenceScore": 0.66,
+      "sources": [
+        {
+          "title": "Store norske leksikon - Grünerløkka",
+          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Riksscenen - Om oss",
+          "url": "https://www.riksscenen.no/om-riksscenen",
+          "publisher": "Riksscenen",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    }
+  ],
+  "researchMetadata": {
+    "lastVerifiedAt": "2026-03-02",
+    "verifiedBy": "codex-gpt-5",
+    "coverageScore": 0.78,
+    "staleAfterDays": 120
+  },
+  "crossReferences": [
+    {
+      "type": "event",
+      "idOrName": "Byfornyelse og gentrifisering 1990-",
+      "linkedSections": [
+        "historie",
+        "litteratur",
+        "mediebildet",
+        "kultur"
+      ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Akerselva",
+      "linkedSections": [
+        "historie",
+        "litteratur",
+        "mediebildet",
+        "kultur"
+      ]
+    },
+    {
+      "type": "organization",
+      "idOrName": "Riksscenen",
+      "linkedSections": [
+        "historie",
+        "mediebildet",
+        "kultur"
+      ]
+    },
+    {
+      "type": "organization",
+      "idOrName": "Atelier Nord",
+      "linkedSections": [
+        "litteratur",
+        "mediebildet",
+        "kultur"
+      ]
+    },
+    {
+      "type": "organization",
+      "idOrName": "X-Ray Ungdomskulturhus",
+      "linkedSections": [
+        "historie",
+        "mediebildet",
+        "kultur"
+      ]
+    }
+  ]
 }

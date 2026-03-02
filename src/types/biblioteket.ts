@@ -135,6 +135,62 @@ export interface HistorieEntitiesData {
 }
 
 // Kultur og Musikk (Culture and Music)
+export type EvidenceLevel = 'primary' | 'secondary';
+
+export type VerificationStatus = 'verified' | 'partially_verified' | 'unverified' | 'disputed';
+
+export type SourceType =
+    | 'archive'
+    | 'official'
+    | 'news'
+    | 'academic'
+    | 'book'
+    | 'database'
+    | 'interview'
+    | 'other';
+
+export interface SourceItem {
+    title: string;
+    url: string;
+    publisher?: string;
+    publishedAt?: string;
+    accessedAt: string;
+    sourceType: SourceType;
+    evidenceLevel: EvidenceLevel;
+    notes?: string;
+}
+
+export interface ClaimEvidence {
+    claimId: string;
+    claim: string;
+    status: VerificationStatus;
+    confidenceScore: number; // 0-1
+    sources: SourceItem[];
+    notes?: string;
+    lastVerifiedAt: string;
+}
+
+export interface ResearchMetadata {
+    lastVerifiedAt: string;
+    verifiedBy: string;
+    coverageScore: number; // 0-1
+    staleAfterDays: number;
+}
+
+export interface CrossReference {
+    type: 'person' | 'place' | 'event' | 'work' | 'organization';
+    idOrName: string;
+    linkedSections: ('historie' | 'litteratur' | 'mediebildet' | 'ildsjeler' | 'idrett' | 'kultur')[];
+    note?: string;
+}
+
+export interface ResearchEnrichment {
+    sources?: SourceItem[];
+    claims?: ClaimEvidence[];
+    researchMetadata?: ResearchMetadata;
+    crossReferences?: CrossReference[];
+}
+
 export interface KulturTimelineEvent {
     period: string;
     event: string;
@@ -160,6 +216,10 @@ export interface KulturMasterData {
     master_text: string;
     timeline: KulturTimelineEvent[];
     indexes: KulturIndexes;
+    sources?: SourceItem[];
+    claims?: ClaimEvidence[];
+    researchMetadata?: ResearchMetadata;
+    crossReferences?: CrossReference[];
 }
 
 // Category types for the main biblioteket page

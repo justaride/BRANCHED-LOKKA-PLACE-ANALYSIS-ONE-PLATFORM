@@ -91,7 +91,15 @@
           "description": "Kommunen finansierer stort verk for å hedre graffitihistorien"
         }
       ],
-      "pioneers": ["Goal", "Pay2 (Lars Undli)", "MC.T", "Mack", "Bits", "Spade", "CodeRock"]
+      "pioneers": [
+        "Goal",
+        "Pay2 (Lars Undli)",
+        "MC.T",
+        "Mack",
+        "Bits",
+        "Spade",
+        "CodeRock"
+      ]
     },
     {
       "id": "producers",
@@ -114,7 +122,10 @@
     {
       "id": "madcon",
       "name": "Madcon",
-      "members": ["Yosef Wolde-Mariam", "Tshawe Baqwa"],
+      "members": [
+        "Yosef Wolde-Mariam",
+        "Tshawe Baqwa"
+      ],
       "genre": "Hiphop/Pop",
       "description": "Duoen startet i Oslo i 1992 og hadde tidlige opptredener på X-Ray. Gikk fra lokalt talent til internasjonal suksess med hits som 'Beggin'.",
       "connectionToLokka": "Startet karrieren på X-Ray ungdomskulturhus"
@@ -200,23 +211,286 @@
   "sources": [
     {
       "title": "NTNU Samfunnsforskning - Tiltak for et godt og inkluderende oppvekstmiljø (2014)",
-      "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf"
+      "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
+      "accessedAt": "2026-03-02",
+      "sourceType": "other",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Danseinformasjonen - Soul Sessions Oslos ærespris til X-Ray",
-      "url": "https://danseinfo.no/nyheter/soul-sessions-oslos-aerespris-gar-til-x-ray-ungdomskulturhus/"
+      "url": "https://danseinfo.no/nyheter/soul-sessions-oslos-aerespris-gar-til-x-ray-ungdomskulturhus/",
+      "accessedAt": "2026-03-02",
+      "sourceType": "other",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "SplitCity Magazine - Brenneriveien fra graffitinisje til severdighet",
-      "url": "https://www.splitcitymagazine.com/nyheter/brenneriveien-fra-graffitinisje-til-severdighet"
+      "url": "https://www.splitcitymagazine.com/nyheter/brenneriveien-fra-graffitinisje-til-severdighet",
+      "accessedAt": "2026-03-02",
+      "sourceType": "other",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "VårtOslo - X-Ray 25-års jubileum",
-      "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008"
+      "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008",
+      "accessedAt": "2026-03-02",
+      "sourceType": "other",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Wikipedia - Tommy Tee",
-      "url": "https://no.wikipedia.org/wiki/Tommy_Tee"
+      "url": "https://no.wikipedia.org/wiki/Tommy_Tee",
+      "accessedAt": "2026-03-02",
+      "sourceType": "other",
+      "evidenceLevel": "secondary"
+    }
+  ],
+  "claims": [
+    {
+      "claimId": "hiphop-001",
+      "claim": "X-Ray Ungdomskulturhus ble etablert i 1994.",
+      "status": "verified",
+      "confidenceScore": 0.89,
+      "sources": [
+        {
+          "title": "NTNU Samfunnsforskning - inkluderende oppvekstmiljø",
+          "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
+          "publisher": "NTNU Samfunnsforskning",
+          "accessedAt": "2026-03-02",
+          "sourceType": "academic",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "VårtOslo - X-Ray 25-års jubileum",
+          "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008",
+          "publisher": "VårtOslo",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "hiphop-002",
+      "claim": "X-Ray har vært en viktig arena for rekruttering av unge artister innen hiphop og dans.",
+      "status": "verified",
+      "confidenceScore": 0.84,
+      "sources": [
+        {
+          "title": "NTNU Samfunnsforskning - inkluderende oppvekstmiljø",
+          "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
+          "publisher": "NTNU Samfunnsforskning",
+          "accessedAt": "2026-03-02",
+          "sourceType": "academic",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Danseinfo - Soul Sessions ærespris til X-Ray",
+          "url": "https://danseinfo.no/nyheter/soul-sessions-oslos-aerespris-gar-til-x-ray-ungdomskulturhus/",
+          "publisher": "Danseinformasjonen",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "hiphop-003",
+      "claim": "Brenneriveien Hall of Fame har røtter tilbake til 1980-tallet.",
+      "status": "partially_verified",
+      "confidenceScore": 0.71,
+      "sources": [
+        {
+          "title": "SplitCity - Brenneriveien fra graffitinisje til severdighet",
+          "url": "https://www.splitcitymagazine.com/nyheter/brenneriveien-fra-graffitinisje-til-severdighet",
+          "publisher": "SplitCity Magazine",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "VårtOslo - X-Ray 25-års jubileum",
+          "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008",
+          "publisher": "VårtOslo",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Eksakt oppstartsår varierer i sekundærkilder.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "hiphop-004",
+      "claim": "Tommy Tee omtales ofte som en sentral pioner i norsk hiphop.",
+      "status": "partially_verified",
+      "confidenceScore": 0.69,
+      "sources": [
+        {
+          "title": "Wikipedia - Tommy Tee",
+          "url": "https://no.wikipedia.org/wiki/Tommy_Tee",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary",
+          "notes": "Brukes som sekundærkilde, ikke alene."
+        },
+        {
+          "title": "NTNU Samfunnsforskning - inkluderende oppvekstmiljø",
+          "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
+          "publisher": "NTNU Samfunnsforskning",
+          "accessedAt": "2026-03-02",
+          "sourceType": "academic",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Bør styrkes med primærkilde/intervju eller bokverk.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "hiphop-005",
+      "claim": "Floorknights har hatt base i miljøer knyttet til X-Ray.",
+      "status": "partially_verified",
+      "confidenceScore": 0.66,
+      "sources": [
+        {
+          "title": "Danseinfo - Soul Sessions ærespris til X-Ray",
+          "url": "https://danseinfo.no/nyheter/soul-sessions-oslos-aerespris-gar-til-x-ray-ungdomskulturhus/",
+          "publisher": "Danseinformasjonen",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "VårtOslo - X-Ray 25-års jubileum",
+          "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008",
+          "publisher": "VårtOslo",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "hiphop-006",
+      "claim": "Grünerløkka-miljøet har koblet dans, graffiti, studio og konsertscener i samme økosystem.",
+      "status": "verified",
+      "confidenceScore": 0.8,
+      "sources": [
+        {
+          "title": "NTNU Samfunnsforskning - inkluderende oppvekstmiljø",
+          "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
+          "publisher": "NTNU Samfunnsforskning",
+          "accessedAt": "2026-03-02",
+          "sourceType": "academic",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "SplitCity - Brenneriveien fra graffitinisje til severdighet",
+          "url": "https://www.splitcitymagazine.com/nyheter/brenneriveien-fra-graffitinisje-til-severdighet",
+          "publisher": "SplitCity Magazine",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "hiphop-007",
+      "claim": "Soul Sessions har bidratt til kontinuitet i urban dansepraksis i Oslo.",
+      "status": "partially_verified",
+      "confidenceScore": 0.63,
+      "sources": [
+        {
+          "title": "Danseinfo - Soul Sessions ærespris til X-Ray",
+          "url": "https://danseinfo.no/nyheter/soul-sessions-oslos-aerespris-gar-til-x-ray-ungdomskulturhus/",
+          "publisher": "Danseinformasjonen",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "NTNU Samfunnsforskning - inkluderende oppvekstmiljø",
+          "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
+          "publisher": "NTNU Samfunnsforskning",
+          "accessedAt": "2026-03-02",
+          "sourceType": "academic",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "hiphop-008",
+      "claim": "X-Ray sin 30-års markering i 2024 understreker institusjonens varighet.",
+      "status": "verified",
+      "confidenceScore": 0.81,
+      "sources": [
+        {
+          "title": "Danseinfo - Soul Sessions ærespris til X-Ray",
+          "url": "https://danseinfo.no/nyheter/soul-sessions-oslos-aerespris-gar-til-x-ray-ungdomskulturhus/",
+          "publisher": "Danseinformasjonen",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "VårtOslo - X-Ray 25-års jubileum",
+          "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008",
+          "publisher": "VårtOslo",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    }
+  ],
+  "researchMetadata": {
+    "lastVerifiedAt": "2026-03-02",
+    "verifiedBy": "codex-gpt-5",
+    "coverageScore": 0.79,
+    "staleAfterDays": 180
+  },
+  "crossReferences": [
+    {
+      "type": "place",
+      "idOrName": "Brenneriveien",
+      "linkedSections": [
+        "historie",
+        "mediebildet",
+        "kultur"
+      ]
+    },
+    {
+      "type": "place",
+      "idOrName": "X-Ray Ungdomskulturhus",
+      "linkedSections": [
+        "historie",
+        "mediebildet",
+        "kultur"
+      ],
+      "note": "Ungdoms- og inkluderingshistorie"
+    },
+    {
+      "type": "person",
+      "idOrName": "Tommy Tee",
+      "linkedSections": [
+        "mediebildet",
+        "kultur"
+      ]
+    },
+    {
+      "type": "event",
+      "idOrName": "Interstate Løkka (2004)",
+      "linkedSections": [
+        "mediebildet",
+        "kultur"
+      ]
     }
   ]
 }

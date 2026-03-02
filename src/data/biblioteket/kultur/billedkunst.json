@@ -37,9 +37,21 @@
         "connection": "Tilbrakte mye av oppveksten på Grünerløkka. Familien bodde i Thorvald Meyers gate 48, Fossveien 7, Olaf Ryes plass 4 og Schous plass 1.",
         "significance": "Observerte arbeidsfolk på vei til Akerselvas fabrikker fra vinduet hjemme. Disse inntrykkene preget hans kunstnersinn.",
         "keyWorks": [
-          {"title": "Akvarell av Øvre Foss", "year": 1879, "note": "Påskrevet 'Et gammelt Herresæde i Christiania, Fossveien, Grünerløkken'"},
-          {"title": "Det syke barn", "year": 1886, "note": "Motiv fra søsterens død hjemme i Fossveien 1877"},
-          {"title": "Døden i sykeværelset", "year": 1893, "note": "Basert på hendelser fra barndommen på Løkka"}
+          {
+            "title": "Akvarell av Øvre Foss",
+            "year": 1879,
+            "note": "Påskrevet 'Et gammelt Herresæde i Christiania, Fossveien, Grünerløkken'"
+          },
+          {
+            "title": "Det syke barn",
+            "year": 1886,
+            "note": "Motiv fra søsterens død hjemme i Fossveien 1877"
+          },
+          {
+            "title": "Døden i sykeværelset",
+            "year": 1893,
+            "note": "Basert på hendelser fra barndommen på Løkka"
+          }
         ],
         "quote": null
       },
@@ -49,8 +61,16 @@
         "connection": "Hadde ikke fast bosted på Løkka, men skildret ofte byens fattige og arbeiderklassen i østkantstrøkene.",
         "significance": "Ledende norsk naturalist som malte sosial realisme. Mentor for yngre kunstnere som Munch.",
         "keyWorks": [
-          {"title": "Kampen for tilværelsen", "year": 1889, "note": "Fattige i kø foran bakeri"},
-          {"title": "Albertine i politilægens venteværelse", "year": 1886, "note": "Reflekterer harde realiteter for kvinner"}
+          {
+            "title": "Kampen for tilværelsen",
+            "year": 1889,
+            "note": "Fattige i kø foran bakeri"
+          },
+          {
+            "title": "Albertine i politilægens venteværelse",
+            "year": 1886,
+            "note": "Reflekterer harde realiteter for kvinner"
+          }
         ],
         "quote": null
       },
@@ -70,9 +90,21 @@
         "connection": "Vokste opp i Kristiania og kjente østlige bydeler 'bedre enn de fleste andre naturalistiske malere'. Del av atelierfellesskapet 'Pultosten' med Munch.",
         "significance": "Pioner i å dokumentere østkantens liv på lerret. Malte arbeidernes hverdag – ofte refusert for 'dristige' motiver.",
         "keyWorks": [
-          {"title": "Skredderverksted", "year": 1886, "note": "Arbeidende menn i trange rom"},
-          {"title": "I restauranten", "year": 1888, "note": "Slitne arbeidskarer ved kafébord – premiert med gullmedalje i Paris"},
-          {"title": "Skomakerverksted", "year": 1886, "note": "Hverdagsskildring fra østkanten"}
+          {
+            "title": "Skredderverksted",
+            "year": 1886,
+            "note": "Arbeidende menn i trange rom"
+          },
+          {
+            "title": "I restauranten",
+            "year": 1888,
+            "note": "Slitne arbeidskarer ved kafébord – premiert med gullmedalje i Paris"
+          },
+          {
+            "title": "Skomakerverksted",
+            "year": 1886,
+            "note": "Hverdagsskildring fra østkanten"
+          }
         ],
         "quote": "Munch skrev at han og Strøm pleide å male motiver fra Akerselva om ettermiddagen."
       },
@@ -82,8 +114,16 @@
         "connection": "Vokste opp på Kampen nær Grünerløkka. Kalte seg selv 'Castus fra Kampen' og vandret gatelangs på østkanten.",
         "significance": "Kjent som 'arbeiderbevegelsens maler'. Malte byen med dokumentarisk blikk – fabrikkpiper, trehus og folkemøter.",
         "keyWorks": [
-          {"title": "Youngstorget under innvielsen av Folkets Hus", "year": 1907, "note": "Arbeidere feirer åpningen"},
-          {"title": "Kampengata, sett fra Skarihaven", "year": null, "note": "Hverdagslivet i arbeidergate"}
+          {
+            "title": "Youngstorget under innvielsen av Folkets Hus",
+            "year": 1907,
+            "note": "Arbeidere feirer åpningen"
+          },
+          {
+            "title": "Kampengata, sett fra Skarihaven",
+            "year": null,
+            "note": "Hverdagslivet i arbeidergate"
+          }
         ],
         "quote": "Kall meg gjerne Castus fra Kampen."
       },
@@ -101,7 +141,11 @@
         "connection": "Del av samme generasjon som Munch og Strøm.",
         "significance": "Kjent for Et snekkerverksted (1881) – en av de første interiørskildringene av arbeidende håndverkere.",
         "keyWorks": [
-          {"title": "Et snekkerverksted", "year": 1881, "note": "Muligens fra et østkantstrøk"}
+          {
+            "title": "Et snekkerverksted",
+            "year": 1881,
+            "note": "Muligens fra et østkantstrøk"
+          }
         ],
         "quote": null
       }
@@ -149,13 +193,17 @@
         "name": "Dolk",
         "style": "Stensilkunst",
         "description": "Norges svar på Banksy. Har dekorert Oslo med stensilkunst, inkludert verket 'Priest' (2009).",
-        "works": ["Priest (2009)"]
+        "works": [
+          "Priest (2009)"
+        ]
       },
       {
         "name": "Martin Whatson",
         "style": "Fargeeksplosive sjablonger",
         "description": "Oslo-basert gatekunstner internasjonalt kjent. Har flere verk på Løkka inkludert 'Frøken Norge'-motivet ved Brenneriveien.",
-        "works": ["Frøken Norge"]
+        "works": [
+          "Frøken Norge"
+        ]
       },
       {
         "name": "Hama Woods",
@@ -167,7 +215,9 @@
         "name": "Pastel",
         "style": "Muralmaler",
         "description": "Argentinsk kunstner som malte regnskog-inspirert mural på Sankthanshaugen for Regnskogfondet (2018).",
-        "works": ["Regnskogmuralen (2018)"]
+        "works": [
+          "Regnskogmuralen (2018)"
+        ]
       }
     ],
     "organizations": [
@@ -195,7 +245,11 @@
         "name": "Anders Beer Wilse",
         "years": "1865–1949",
         "contribution": "Norges mest kjente fotograf. Tok stemningsfulle bilder som 'Markveien' (1904), 'Vinter på Olaf Ryes plass' (1905), og 'Foss og Ringnes bryggerier' (1905).",
-        "keyWorks": ["Markveien (1904)", "Vinter på Olaf Ryes plass (1905)", "Foss og Ringnes bryggerier (1905)"]
+        "keyWorks": [
+          "Markveien (1904)",
+          "Vinter på Olaf Ryes plass (1905)",
+          "Foss og Ringnes bryggerier (1905)"
+        ]
       },
       {
         "name": "Narve Skarpmoen",
@@ -206,7 +260,10 @@
         "name": "Leif Ørnelund",
         "years": "1911–1992",
         "contribution": "Fotograf for Oslo kommune og Aftenposten. Tok bilder fra Løkka på 1940-50-tallet, inkludert Grünerløkka Folkets Hus (1947) og Grünerløkka skoles guttemusikkorps (1946).",
-        "keyWorks": ["Grünerløkka Folkets Hus (1947)", "Grünerløkka skoles guttemusikkorps (1946)"]
+        "keyWorks": [
+          "Grünerløkka Folkets Hus (1947)",
+          "Grünerløkka skoles guttemusikkorps (1946)"
+        ]
       }
     ],
     "modern": [
@@ -214,7 +271,9 @@
         "name": "Åsmund Lindal",
         "years": "aktiv 1980-tallet",
         "contribution": "Dokumenterte bomiljøet 1981-82. Utgav 'Gårdsrom på Grünerløkka' som viser slitne bakgårder før rehabiliteringsbølgen.",
-        "keyWorks": ["Gårdsrom på Grünerløkka (bok)"]
+        "keyWorks": [
+          "Gårdsrom på Grünerløkka (bok)"
+        ]
       },
       {
         "name": "Morten Mitchell Larød",
@@ -225,7 +284,9 @@
         "name": "Inger Munch",
         "years": "1868–1952",
         "contribution": "Edvard Munchs lillesøster. Tok fotografiet 'Fossveien' (1929) – gaten de vokste opp i.",
-        "keyWorks": ["Fossveien (1929)"],
+        "keyWorks": [
+          "Fossveien (1929)"
+        ],
         "note": "Familien Munchs liv på Grünerløkka ble først malt av Edvard, og siden fotografert av Inger."
       }
     ]
@@ -260,5 +321,309 @@
     "streetArtistCount": 4,
     "photographerCount": 7,
     "generatedAt": "2025-12-10T00:00:00Z"
-  }
+  },
+  "sources": [
+    {
+      "title": "Store norske leksikon - Edvard Munch",
+      "url": "https://snl.no/Edvard_Munch",
+      "publisher": "SNL",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Store norske leksikon - Christian Krohg",
+      "url": "https://snl.no/Christian_Krohg",
+      "publisher": "SNL",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Store norske leksikon - Frits Thaulow",
+      "url": "https://snl.no/Frits_Thaulow",
+      "publisher": "SNL",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "KHiO - Om Kunsthøgskolen i Oslo",
+      "url": "https://khio.no/om-khio",
+      "publisher": "KHiO",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Atelier Nord - Om Atelier Nord",
+      "url": "https://ateliernord.no/about/",
+      "publisher": "Atelier Nord",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Oslo Open - Om Oslo Open",
+      "url": "https://www.osloopen.no/about/",
+      "publisher": "Oslo Open",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Store norske leksikon - Grünerløkka",
+      "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka",
+      "publisher": "SNL",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    }
+  ],
+  "claims": [
+    {
+      "claimId": "billedkunst-001",
+      "claim": "Edvard Munch hadde sentrale barndomsår på Grünerløkka med tydelig betydning for hans motivverden.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Store norske leksikon - Edvard Munch",
+          "url": "https://snl.no/Edvard_Munch",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Store norske leksikon - Grünerløkka",
+          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "billedkunst-002",
+      "claim": "Christian Krohg er en nøkkelfigur i norsk sosialrealisme med motivisk nærhet til østkantens arbeiderliv.",
+      "status": "verified",
+      "confidenceScore": 0.85,
+      "sources": [
+        {
+          "title": "Store norske leksikon - Christian Krohg",
+          "url": "https://snl.no/Christian_Krohg",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Store norske leksikon - Grünerløkka",
+          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "billedkunst-003",
+      "claim": "Frits Thaulow er relevant i fortellingen om kunst langs Akerselva og industrielt bylandskap.",
+      "status": "partially_verified",
+      "confidenceScore": 0.69,
+      "sources": [
+        {
+          "title": "Store norske leksikon - Frits Thaulow",
+          "url": "https://snl.no/Frits_Thaulow",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Store norske leksikon - Grünerløkka",
+          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "billedkunst-004",
+      "claim": "KHiO ved Akerselva forsterker dagens kunstnertetthet i Løkka-området.",
+      "status": "verified",
+      "confidenceScore": 0.86,
+      "sources": [
+        {
+          "title": "KHiO - Om Kunsthøgskolen i Oslo",
+          "url": "https://khio.no/om-khio",
+          "publisher": "KHiO",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Oslo Open - Om Oslo Open",
+          "url": "https://www.osloopen.no/about/",
+          "publisher": "Oslo Open",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "billedkunst-005",
+      "claim": "Atelier Nord representerer en viktig institusjon for samtids- og mediekunst i bydelen.",
+      "status": "verified",
+      "confidenceScore": 0.87,
+      "sources": [
+        {
+          "title": "Atelier Nord - Om Atelier Nord",
+          "url": "https://ateliernord.no/about/",
+          "publisher": "Atelier Nord",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Oslo Open - Om Oslo Open",
+          "url": "https://www.osloopen.no/about/",
+          "publisher": "Oslo Open",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "billedkunst-006",
+      "claim": "Brenneriveien/Hausmania-aksen har bidratt til at street art er synlig i Løkkas byrom.",
+      "status": "partially_verified",
+      "confidenceScore": 0.67,
+      "sources": [
+        {
+          "title": "Store norske leksikon - Grünerløkka",
+          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Oslo Open - Om Oslo Open",
+          "url": "https://www.osloopen.no/about/",
+          "publisher": "Oslo Open",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "notes": "Krever sterkere primærkilde på enkeltverk og årstall.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "billedkunst-007",
+      "claim": "Fotodokumentasjon av Grünerløkka fra 1800-tallet til i dag er sentral for lokalhistorisk kildegrunnlag.",
+      "status": "partially_verified",
+      "confidenceScore": 0.65,
+      "sources": [
+        {
+          "title": "Store norske leksikon - Grünerløkka",
+          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Oslo Museum - Akerselva i byhistorien",
+          "url": "https://www.oslomuseum.no/akerselva/",
+          "publisher": "Oslo Museum",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "billedkunst-008",
+      "claim": "Kunstfeltet på Løkka kombinerer kommersielle gallerier, kunstnerstyrte rom og midlertidige prosjektarenaer.",
+      "status": "verified",
+      "confidenceScore": 0.81,
+      "sources": [
+        {
+          "title": "Atelier Nord - Om Atelier Nord",
+          "url": "https://ateliernord.no/about/",
+          "publisher": "Atelier Nord",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Oslo Open - Om Oslo Open",
+          "url": "https://www.osloopen.no/about/",
+          "publisher": "Oslo Open",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    }
+  ],
+  "researchMetadata": {
+    "lastVerifiedAt": "2026-03-02",
+    "verifiedBy": "codex-gpt-5",
+    "coverageScore": 0.74,
+    "staleAfterDays": 150
+  },
+  "crossReferences": [
+    {
+      "type": "person",
+      "idOrName": "Edvard Munch",
+      "linkedSections": [
+        "historie",
+        "litteratur",
+        "kultur"
+      ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Akerselva",
+      "linkedSections": [
+        "historie",
+        "litteratur",
+        "kultur"
+      ]
+    },
+    {
+      "type": "organization",
+      "idOrName": "Atelier Nord",
+      "linkedSections": [
+        "mediebildet",
+        "kultur"
+      ]
+    },
+    {
+      "type": "organization",
+      "idOrName": "KHiO",
+      "linkedSections": [
+        "historie",
+        "mediebildet",
+        "kultur"
+      ]
+    }
+  ]
 }

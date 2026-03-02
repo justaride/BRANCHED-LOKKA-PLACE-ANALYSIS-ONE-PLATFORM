@@ -9,6 +9,8 @@
     "lint": "eslint",
     "type-check": "tsc --noEmit",
     "verify": "node scripts/verify-project.js",
+    "research:kultur:enrich": "node scripts/enrich-kultur-research.js",
+    "research:kultur:validate": "node scripts/validate-kultur-research.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
