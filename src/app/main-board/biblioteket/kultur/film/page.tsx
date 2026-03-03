@@ -221,7 +221,7 @@ export default function FilmPage() {
                                 >
                                     <div className="flex items-start gap-4">
                                         <div className="flex-shrink-0 w-20 text-center">
-                                            <div className="text-2xl font-bold text-blue-600">{cinema.established}</div>
+                                            <div className="text-2xl font-bold text-blue-600">{cinema.established ?? '?'}</div>
                                             {cinema.closed && (
                                                 <div className="text-sm text-gray-400">–{cinema.closed}</div>
                                             )}
