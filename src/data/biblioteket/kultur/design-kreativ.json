@@ -1,0 +1,669 @@
+{
+  "id": "design-kreativ",
+  "title": "Design og Kreativ Næring på Grünerløkka",
+  "subtitle": "Fra Snøhetta til streetwear – et kreativt kraftsenter",
+  "intro": "Grünerløkka har utviklet seg til et av Norges mest konsentrerte kreative miljøer. Fra prisbelønte designbyråer langs Thorvald Meyers gate til vintage-butikkene i Markveien, fra møbeldesignkollektivet Norway Says til Vulkans transformasjon fra jernstøperi til kulturkvartal – bydelen tiltrekker seg kreative talenter og næringer som forsterker hverandre i et tett, urbant økosystem.",
+  "sections": [
+    {
+      "id": "design",
+      "title": "Grafisk Design og Kreative Byråer",
+      "description": "Grünerløkka huser flere av Norges mest anerkjente designbyråer. Bleed Design Studio og Bielke&Yang holder til langs Thorvald Meyers gate, mens Tank Design opererer fra Sagveien. Sammen utgjør de et tyngdepunkt for visuell kommunikasjon og merkevarebygging i skandinavisk sammenheng."
+    },
+    {
+      "id": "mote",
+      "title": "Mote, Streetwear og Vintage",
+      "description": "Markveien har blitt kjent som Oslos vintagestrøk, med butikker som Robot, Velouria Vintage og Good Vibes Vintage side om side. Konseptbutikker som Dapper, Luck Oslo og Hunting Lodge representerer den moderne, kuraterte siden av Løkkas moteprofil – fra streetwear til skandinavisk luksus."
+    },
+    {
+      "id": "arbeidsplasser",
+      "title": "Kreative Arbeidsplasser og Fellesskap",
+      "description": "Fra Spaces coworking på Markveien 57 til Skaperverkets designkollektiv på Markveien 60, bydelen tilbyr arbeidsplasser som fremmer samarbeid og kreativ utveksling. Schous kulturbryggeri samler musikk, folkekultur og opplevelsesmuseum under ett tak."
+    },
+    {
+      "id": "vulkan",
+      "title": "Vulkan som Kreativt Kvartal",
+      "description": "Aspelin Ramms transformasjon av det gamle Vulkan-industriområdet mellom 2004 og 2014 skapte et kreativt kraftsenter ved Akerselva. Med Mathallen, Dansens Hus, Westerdals-campus og en rekke kreative virksomheter ble Vulkan et forbilde for kulturdrevet byutvikling."
+    },
+    {
+      "id": "utdanning",
+      "title": "Utdanning og Talentpipeline",
+      "description": "KHiO – Kunsthøgskolen i Oslo holder til i Seilduksfabrikken i Fossveien 24, bare et steinkast fra Grünerløkka sentrum. Med seks avdelinger og 43 000 kvadratmeter er det et av Nord-Europas største anlegg for kunst og design, og uteksaminerer hvert år nye kreative talenter rett inn i bydelens økosystem."
+    }
+  ],
+  "agencies": [
+    {
+      "name": "Bleed Design Studio",
+      "founded": 2000,
+      "address": "Thorvald Meyers gate 9, 0555 Oslo",
+      "specialization": "identitet, konseptutvikling, art direction, grafisk design, tjenestedesign",
+      "notableWork": [
+        "Visuell identitet for Arctic Trucks",
+        "Internasjonalt prisvinnende merkevarearbeid",
+        "Identitet for Storting og kulturinstitusjoner"
+      ],
+      "description": "Flerfaglig designstudio grunnlagt i 2000 av fem unge designere og utviklere. Har vokst til et internasjonalt anerkjent byrå med kontor i Oslo og Wien, kjent for sterk visuell identitet og konseptutvikling.",
+      "connectionToLokka": "Holder til midt på Grünerløkka i Thorvald Meyers gate 9 siden tidlig 2000-tall. En av bydelens mest etablerte kreative virksomheter."
+    },
+    {
+      "name": "Bielke&Yang",
+      "founded": 2012,
+      "address": "Thorvald Meyers gate 7, 0555 Oslo",
+      "specialization": "identitet, merkevarebygging, grafisk design, digital design, emballasje",
+      "notableWork": [
+        "Merkevareidentiteter for norske og internasjonale kunder",
+        "Digitalt design og art direction",
+        "Styrket seg på digitalt design fra 2020"
+      ],
+      "description": "Designbyrå grunnlagt i 2012, spesialisert på identitet og merkevarebygging. Tilbyr strategi, naming, brand identity, art direction, miljødesign, emballasje, redaksjonelt design, digital design, utvikling, animasjon og film.",
+      "connectionToLokka": "Holder til i Thorvald Meyers gate 7, rett ved Bleed – de to byråene utgjør sammen et designkluster midt på Grünerløkka."
+    },
+    {
+      "name": "Tank Design",
+      "founded": 1999,
+      "address": "Sagveien 18, 0459 Oslo",
+      "specialization": "identitet, grafisk design, konseptutvikling, emballasje, web, utstilling",
+      "notableWork": [
+        "Over 25 års erfaring med merkevarebygging",
+        "Prisvinnende emballasjedesign",
+        "Utstillingsdesign for norske kulturinstitusjoner"
+      ],
+      "description": "Anerkjent og prisvinnende designbyrå med over 25 år i bransjen. Kontorer i Oslo, Trondheim og Tromsø. Jobber med identitet, grafisk design, konseptutvikling, emballasje, web og utstilling.",
+      "connectionToLokka": "Sagveien 18 ligger i randsonen av Grünerløkka, nær Akerselva. Byrået har vært en del av det kreative miljøet i området siden 1999."
+    },
+    {
+      "name": "Snøhetta",
+      "founded": 1989,
+      "address": "Akershusstranda 21, 0150 Oslo",
+      "specialization": "arkitektur, landskapsarkitektur, interiør, grafisk design, produktdesign",
+      "notableWork": [
+        "Bibliotheca Alexandrina, Egypt (1989–2001)",
+        "Den Norske Opera & Ballett, Bjørvika (2008)",
+        "National September 11 Memorial Museum Pavilion, New York",
+        "Dansens Hus på Vulkan (2008)",
+        "Holzweiler-butikken, Hegdehaugsveien"
+      ],
+      "description": "Norges mest kjente arkitektkontor, grunnlagt i 1989 av Kjetil Thorsen, Craig Dykers og en gruppe unge arkitekter. Startet over Dovrehallen i Storgata i Oslo. Har vokst til et tverrfaglig praksis med kontorer i Oslo, New York, San Francisco, Innsbruck, Paris, Hong Kong, Adelaide og Singapore.",
+      "connectionToLokka": "Snøhettas hovedkontor ligger ikke på Grünerløkka, men byrået har designet Dansens Hus på Vulkan og Holzweiler-butikken. Deres opprinnelige kontor i Storgata lå i nærheten av bydelen."
+    },
+    {
+      "name": "Kult Byrå",
+      "founded": 2016,
+      "address": "Akersbakken 12, 0172 Oslo",
+      "specialization": "digital design, identitetsdesign, webdesign, merkevarebygging",
+      "notableWork": [
+        "Identiteter og nettsider for modige merkevarer",
+        "Teknologi- og designprosjekter"
+      ],
+      "description": "Teknologi- og designbyrå som lager identiteter og nettsider for dem som tør å vise personlighet. Grunnlagt i 2016.",
+      "connectionToLokka": "Akersbakken ligger i grenseområdet mot Grünerløkka, nær St. Hanshaugen. Byrået er del av det bredere kreative miljøet i indre Oslo øst."
+    },
+    {
+      "name": "Kristin Jarmund Arkitekter",
+      "founded": 1985,
+      "address": "Oslo (nå integrert i Nordic Office of Architecture)",
+      "specialization": "arkitektur, interiørdesign, utdanningsbygg, kulturbygg",
+      "notableWork": [
+        "Westerdals School of Communication, Vulkan (2011)",
+        "Fyrstikkterrassen, Oslo (1991)",
+        "Nydalen T-banestasjon (2003)",
+        "A.C. Houens diplom (2000)"
+      ],
+      "description": "Kristin Jarmund (f. 1954) etablerte sitt eget arkitektkontor i 1985. En av Norges mest anerkjente kvinnelige arkitekter, med Anders Jahres Kulturpris (2014) og æresmedlemskap i American Institute of Architects. Fusjonert med Nordic Office of Architecture i 2022.",
+      "connectionToLokka": "Designet Westerdals-bygget på Vulkan, et sentralt arkitektonisk element i Grünerløkkas kreative kvarter. Bygget vant førsteprisen i en innbudt konkurranse."
+    }
+  ],
+  "fashionBrands": [
+    {
+      "name": "Dapper",
+      "type": "konseptbutikk",
+      "established": null,
+      "address": "Nordre gate 20, 0551 Oslo",
+      "description": "Uavhengig konseptbutikk for herremote, sneakers, tilbehør og apotek-produkter. Kombinerer motebutikk, kafé og vinbar i samme lokale nær Olaf Ryes plass. Fører merker som Acne Studios, A.P.C. og Libertine-Libertine."
+    },
+    {
+      "name": "Luck Oslo",
+      "type": "konseptbutikk",
+      "established": 2017,
+      "address": "Grüners gate 9A, 0552 Oslo",
+      "description": "Grønn konseptbutikk åpnet av John Andre Hanøy og Jojo Eng i september 2017. Selger klær, interiør, kunst og planter i en oase av eksotiske planter. Fører merker som Cathrine Hammel, Tom Wood, Acne Studios, Toogood og Jacquemus."
+    },
+    {
+      "name": "Hunting Lodge",
+      "type": "streetwear/herremote",
+      "established": 2006,
+      "address": "Markveien 58, 0550 Oslo",
+      "description": "Uavhengig norsk motebutikk med fokus på premium streetwear. Åpnet i 2006, flyttet til Markveien i 2011. Fører Norse Projects, New Balance, Our Legacy, Wood Wood og eget merke. Kombinerer streetwear med outdoor og workwear."
+    },
+    {
+      "name": "Robot",
+      "type": "vintage",
+      "established": 2005,
+      "address": "Markveien, Grünerløkka, Oslo",
+      "description": "En av Oslos eldste vintagebutikker, etablert i 2005. Kuratert utvalg av Levis, Carhartt, Dickies, vintagevesker, solbriller og Y2K-vintage. En institusjon i Markveiens vintagemiljø."
+    },
+    {
+      "name": "Velouria Vintage",
+      "type": "vintage",
+      "established": null,
+      "address": "Thorvald Meyers gate 34, 0555 Oslo",
+      "description": "Vintage-butikk med bredt utvalg fra 60-, 70-, 80- og 90-tallet. Eieren reiser verden rundt og kjøper inn unike funn, inkludert vintage Chanel-vesker og sjeldne designerplagg."
+    },
+    {
+      "name": "Good Vibes Vintage",
+      "type": "vintage",
+      "established": 2016,
+      "address": "Markveien 2, 0554 Oslo",
+      "description": "Håndplukket vintage fra 80-, 90- og 2000-tallet. Inspirert av musikk-, skateboard- og undergrunnskultur. Startet i 2016 som et bærekraftig alternativ til fast fashion."
+    },
+    {
+      "name": "Fretex Arkivet Grünerløkka",
+      "type": "vintage/secondhand",
+      "established": null,
+      "address": "Grünerløkka, Oslo",
+      "description": "Del av Fretex' premium-konsept 'Arkivet' med kuratert utvalg av secondhand og vintage. Norges største kjede av bruktbutikker, med Grünerløkka-filialen som en av de mest populære."
+    },
+    {
+      "name": "Holzweiler Collage",
+      "type": "konseptbutikk/merke",
+      "established": 2023,
+      "address": "Grünerløkka, Oslo",
+      "description": "Holzweilers fjerde butikk i Oslo, en kuratert concept store med høyt elskede plagg fra tidlige sesonger, møbler, tekstiler og kunstverk. Holzweiler ble grunnlagt i 2014 av Susanne og Andreas Holzweiler og har blitt en internasjonal suksess."
+    },
+    {
+      "name": "Kollekted by",
+      "type": "interiør/designbutikk",
+      "established": null,
+      "address": "Schous plass 7A, 0552 Oslo",
+      "description": "Interiørbutikk kuratert av stylistduoen Kråkvik & D'Orazio. Selger møbler, belysning, objekter og håndverk fra hele verden. Et møte mellom samtidsdesign, håndlagde objekter og antikviteter."
+    },
+    {
+      "name": "Skaperverket",
+      "type": "designkollektiv/butikk",
+      "established": null,
+      "address": "Markveien 60, Grünerløkka, Oslo",
+      "description": "Kreativt fellesskap av 20 lokale designere som deler butikklokale og selger egne produkter. Totalt ca. 35 designere leverer varer – klær, keramikk, bilder, smykker, barneklær og mer. Et unikt kollektivt designkonsept."
+    },
+    {
+      "name": "Grenen",
+      "type": "konseptbutikk/bærekraft",
+      "established": null,
+      "address": "Grünerløkka, Oslo",
+      "description": "Oslos første rent bærekraftige livsstilskonsept, grunnlagt av Anna Andresen. Kuratert utvalg av grønne livsstilsprodukter: organisk hudpleie, håndlagde interiørobjekter og klær laget av resirkulerte materialer."
+    }
+  ],
+  "workspaces": [
+    {
+      "name": "Spaces Grünerløkka",
+      "type": "coworking",
+      "address": "Markveien 57, 0550 Oslo",
+      "established": 2024,
+      "description": "Del av det globale IWG-nettverket, åpnet i 2024. 2 143 kvadratmeter med 32 private kontorer, to møterom, loungeområder og bemannet resepsjon. Tre minutters gange fra Schous plass.",
+      "notableTenants": []
+    },
+    {
+      "name": "657 Oslo",
+      "type": "coworking/kreativt hub",
+      "address": "Fredensborgveien 24D, 0177 Oslo",
+      "established": null,
+      "description": "Norges største coworking-space for kreative næringer og kreativ teknologi. Over 200 medlemmer fra startups til byråer og frilansere. Fordelt over to atmosfæriske bygninger nær Damstredet, med tilgang til mentoring, makerspace og et bredt nettverk av investorer og rådgivere.",
+      "notableTenants": []
+    },
+    {
+      "name": "Skaperverket",
+      "type": "designkollektiv",
+      "address": "Markveien 60, Grünerløkka, Oslo",
+      "established": null,
+      "description": "Kreativt fellesskap der 20 lokale designere deler butikklokale og arbeidsfellesskap. I tillegg leverer ca. 15 eksterne designere varer, totalt 35 designere. Et unikt modell for kreativt samarbeid og direkte salg.",
+      "notableTenants": []
+    },
+    {
+      "name": "Schous kulturbryggeri",
+      "type": "kulturkvartal",
+      "address": "Trondheimsveien 2, 0560 Oslo",
+      "established": 2011,
+      "description": "Det gamle Schous bryggeri transformert til kulturkvartal av Oslo kommune. Huser Popsenteret (populærmusikkmuseum, åpnet 2011), Riksscenen (folkemusikk og folkedans), Øvingshotellet (49 øvingsrom for musikere) og Oslo Musikk- og Kulturskole. Et komplett økosystem for musikkproduksjon og kulturformidling.",
+      "notableTenants": [
+        "Popsenteret",
+        "Riksscenen",
+        "Øvingshotellet",
+        "Oslo Musikk- og Kulturskole"
+      ]
+    }
+  ],
+  "creativeHubs": [
+    {
+      "name": "Vulkan",
+      "developer": "Aspelin Ramm og Anthon B Nilsen",
+      "yearStarted": 2003,
+      "description": "Tidligere industriområde ved Akerselva transformert mellom 2004 og 2014 etter masterplan av LPO arkitekter. Fra jernstøperi til et kreativt kvartal som fusjonerer kultur, utdanning, mat, hotell og næringsliv. Tildelt Statens bymiljøpris 2012 og Oslo Bys arkitekturpris. Et forbilde for kulturdrevet byutvikling i norsk sammenheng.",
+      "components": [
+        {
+          "name": "Mathallen Oslo",
+          "opened": 2012,
+          "description": "Norges første moderne mathall, åpnet 2. oktober 2012 i den gamle industrihallen. Inspirert av europeiske forbilder som Borough Market (London) og Torvehallerne (København). 30 salgsboder, restaurant, vinbar, kulinarisk akademi og eventlokaler. Tildelt Olavsrosa i 2014 for vern av levende kulturminner."
+        },
+        {
+          "name": "Dansens Hus",
+          "opened": 2008,
+          "description": "Norges nasjonale scene for dans, åpnet 29. februar 2008. Bygget inne i et historisk industribygg (tidligere maskinverksted) ved Akerselva med to scener. Designet av Snøhetta. Stiftet som organisasjon i 2004, men brukte gjestescener før Vulkan-bygget stod ferdig."
+        },
+        {
+          "name": "Westerdals School of Communication",
+          "opened": 2011,
+          "description": "Bygget designet av Kristin Jarmund Arkitekter, vant førsteprisen i innbudt konkurranse. Westerdals (grunnlagt 1965) flyttet til Vulkan og tilbød utdanning innen kommunikasjon, design og teknologi. Fusjonert med Høyskolen Kristiania i 2017–2018. Bygget tilførte hundrevis av kreative studenter til nabolaget."
+        },
+        {
+          "name": "Vulkan Arena",
+          "opened": 2012,
+          "description": "Flerbrukshall for sport, konserter og arrangementer. Del av Vulkan-områdets sammensatte tilbud av kultur og aktivitet."
+        }
+      ]
+    }
+  ],
+  "educationInstitutions": [
+    {
+      "name": "KHiO – Kunsthøgskolen i Oslo",
+      "address": "Fossveien 24, Grünerløkka, Oslo",
+      "departments": [
+        "Kunstakademiet",
+        "Design",
+        "Kunst og håndverk",
+        "Balletthøgskolen",
+        "Operahøgskolen",
+        "Teaterhøgskolen"
+      ],
+      "description": "Norges største statlige utdanningsinstitusjon for kunstnere og designere, opprettet 1. august 1996 gjennom sammenslåing av fem selvstendige høyskoler. Holder til i den ombygde Seilduksfabrikken ved Akerselva. 43 000 kvadratmeter gjør det til et av Nord-Europas største anlegg for kunst og design. Tilbyr 21 studieprogrammer innen billedkunst, design, kunst og håndverk, opera, dans, teater og pedagogisk praksis.",
+      "connectionToLokka": "Ligger i Fossveien 24 på Grünerløkka, rett ved Akerselva. Uteksaminerer hvert år designere, kunstnere og scenekunstnere som blir del av bydelens kreative økosystem. Seilduksfabrikken er i seg selv et industrihistorisk monument som kobler skolen til Akerselvas industriarv."
+    },
+    {
+      "name": "Westerdals School of Communication",
+      "address": "Vulkan, Grünerløkka, Oslo (historisk)",
+      "departments": [
+        "Kommunikasjon",
+        "Design",
+        "Film",
+        "Teknologi"
+      ],
+      "description": "Westerdals Reklameskole ble grunnlagt i 1965. I 2001 fusjonerte den med Skolen for Grafisk Design og Sverre Wolff-skolen til Westerdals School of Communication. Flyttet til nytt bygg på Vulkan i 2011. I 2014 fusjonert med NITH og NISS, og i 2017–2018 innlemmet i Høyskolen Kristiania. Bygget på Vulkan var designet av Kristin Jarmund Arkitekter.",
+      "connectionToLokka": "Hadde campus på Vulkan fra 2011 til ca. 2018. Hundrevis av studenter innen reklame, design og kommunikasjon beriket bydelens kreative miljø i denne perioden. Selv om skolen ikke lenger er selvstendig, var Westerdals-årene på Vulkan formative for områdets identitet som kreativt kvartal."
+    },
+    {
+      "name": "Oslo Musikk- og Kulturskole (Schous)",
+      "address": "Trondheimsveien 2, 0560 Oslo",
+      "departments": [
+        "Musikk",
+        "Visuell kunst",
+        "Teater",
+        "Dans"
+      ],
+      "description": "Kulturstasjon på Schous kulturbryggeri som tilbyr undervisning i musikk, visuell kunst, teater og dans for barn, ungdom og voksne. Del av Oslo kommunes kulturskoletilbud.",
+      "connectionToLokka": "Holder til i Schous kulturbryggeri på Grünerløkka, midt i bydelens kulturelle hjerte. Bidrar til rekruttering av nye kreative talenter fra lokalmiljøet."
+    }
+  ],
+  "notableDesigners": [
+    {
+      "name": "Norway Says (designkollektiv)",
+      "field": "møbeldesign, produktdesign, industridesign",
+      "period": "1999–2009",
+      "notableWork": [
+        "Prisvinnende møbeldesign for internasjonale produsenter",
+        "Bruno Mathsson-prisen (2004)",
+        "Torsten & Wanja Söderberg-prisen (2007)",
+        "Showroom og kontor på Grünerløkka fra 2002"
+      ],
+      "connection": "Designkollektivet flyttet til Grünerløkka rundt 2002–2003 og hadde både kontor og showroom i bydelen. Medlemmene Andreas Engesvik, Torbjørn Anderssen, Espen Voll, Tore Borgersen og Frode Myhr satte norsk møbeldesign på verdenskartet. Etter oppløsningen i 2009 etablerte Anderssen & Voll og Andreas Engesvik egne studioer."
+    },
+    {
+      "name": "Andreas Engesvik",
+      "field": "møbeldesign, produktdesign, bordvarer",
+      "period": "2009–",
+      "notableWork": [
+        "Design for Iittala, Muuto, Fontana Arte, Ligne Roset",
+        "Glassdesign for Orrefors",
+        "Design for Herman Miller og HAY"
+      ],
+      "connection": "En av Norges mest fremtredende designere, med eget studio i Oslo fra 2009. Tidligere medlem av Norway Says som holdt til på Grünerløkka. Utdannet ved Bergen Kunsthåndverksskole og KHiO-miljøet."
+    },
+    {
+      "name": "Anderssen & Voll",
+      "field": "møbeldesign, industridesign, tekstiler, belysning",
+      "period": "2009–",
+      "notableWork": [
+        "Møbeldesign for Muuto, Hem, Swedese, Flokk",
+        "Tekstiler og belysning",
+        "Videreføring av Norway Says-arven"
+      ],
+      "connection": "Designstudio etablert i Oslo i 2009 av Torbjørn Anderssen og Espen Voll, begge fra Norway Says-kollektivet som holdt til på Grünerløkka. Jobber med møbler, interiørtekstiler og industridesign for internasjonale kunder."
+    },
+    {
+      "name": "Kråkvik & D'Orazio",
+      "field": "interiørstyling, scenografi, kurering",
+      "period": "2000-tallet–",
+      "notableWork": [
+        "Grunnleggere av Kollekted by på Schous plass",
+        "Interiørstyling for Jotun, skandinaviske designmerker",
+        "Scenografi og utstillingsdesign i Europa"
+      ],
+      "connection": "Jannicke Kråkvik (Oslo) og Alessandro D'Orazio (Italia) driver kreativt studio og interiørbutikken Kollekted by på Schous plass 7A. En av Grünerløkkas mest synlige designduoer, som kobler norsk og internasjonal design i bydelens hjerte."
+    },
+    {
+      "name": "Mona Jensen (Tom Wood)",
+      "field": "smykkedesign, motedesign",
+      "period": "2013–",
+      "notableWork": [
+        "Tom Wood smykkemerke, grunnlagt 2013",
+        "Moderne signetringer og skulpturell smykkedesign",
+        "Flaggskipbutikk i Oslo designet av Specific Generic (2023)",
+        "Representert i over 200 butikker globalt"
+      ],
+      "connection": "Grunnla Tom Wood i Oslo i 2013. Merket har blitt en global suksess med fokus på bærekraft, arkitektur og norsk natur. Representerer den nye generasjonen norske designmerker som har satt Oslo på det internasjonale designkartet."
+    },
+    {
+      "name": "Vuong Tran (EAM)",
+      "field": "lærdesign, produktdesign",
+      "period": "ca. 2010–",
+      "notableWork": [
+        "EAM – Essential Articles in Making",
+        "Tolv håndsydde lærprodukter fra pennehold til vesker",
+        "Kombinert verksted og showroom på Grünerløkka"
+      ],
+      "connection": "Fant det perfekte lokalet på Grünerløkka etter seks år med produktutvikling. Driver kombinert verksted og butikk i bydelen – et eksempel på den håndverksbaserte designtradisjonen som trives på Løkka."
+    }
+  ],
+  "industryStats": {
+    "description": "Oslo er Norges ubestridte sentrum for kreativ næring. I 2024 var 92 800 personer sysselsatt i kulturell og kreativ næring nasjonalt, og 41 prosent av disse jobbet i Oslo. Det tilsvarer 7 prosent av Oslos totale sysselsetting – langt over landsgjennomsnittet. Grünerløkka, med sin konsentrasjon av designbyråer, motebutikker, kreative arbeidsplasser og utdanningsinstitusjoner, utgjør et av de mest konsentrerte kreative klyngene i byen.",
+    "highlights": [
+      "92 800 sysselsatte i kulturell og kreativ næring i Norge (2024)",
+      "41 % av alle kreative næring-ansatte i Norge jobber i Oslo",
+      "7 % av Oslos totale sysselsetting er i kreativ næring",
+      "Oslo hadde nær 106 000 aktive bedrifter ved inngangen til 2025",
+      "Grünerløkka huser minst tre internasjonalt anerkjente designbyråer på Thorvald Meyers gate alene",
+      "Vulkan-området har blitt et nasjonalt forbilde for kulturdrevet byutvikling",
+      "KHiO i Fossveien er et av Nord-Europas største kunstutdanningsanlegg (43 000 m²)",
+      "Markveien omtales som Oslos vintagestrøk med over fem spesialiserte vintagebutikker"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Snøhetta – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sn%C3%B8hetta_(company)",
+      "type": "sekundær"
+    },
+    {
+      "title": "Snøhetta – Store norske leksikon",
+      "url": "https://snl.no/Sn%C3%B8hetta_-_arkitektkontor",
+      "type": "sekundær"
+    },
+    {
+      "title": "Bleed Design Studio",
+      "url": "https://bleed.com/",
+      "type": "primær"
+    },
+    {
+      "title": "Bielke&Yang",
+      "url": "https://bielkeyang.com/",
+      "type": "primær"
+    },
+    {
+      "title": "Tank Design – Kreativt Forum",
+      "url": "https://www.kreativtforum.no/byraguide",
+      "type": "sekundær"
+    },
+    {
+      "title": "Om Vulkan – Vulkan Oslo",
+      "url": "https://vulkanoslo.no/om-vulkan/",
+      "type": "primær"
+    },
+    {
+      "title": "Vulkan – Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Vulkan_(omr%C3%A5de)",
+      "type": "sekundær"
+    },
+    {
+      "title": "Mathallen Oslo – Wikipedia",
+      "url": "https://no.wikipedia.org/wiki/Mathallen_Oslo",
+      "type": "sekundær"
+    },
+    {
+      "title": "Dansens Hus – Wikipedia",
+      "url": "https://no.wikipedia.org/wiki/Dansens_Hus",
+      "type": "sekundær"
+    },
+    {
+      "title": "Westerdals – Wikipedia",
+      "url": "https://no.wikipedia.org/wiki/Westerdals_(skole)",
+      "type": "sekundær"
+    },
+    {
+      "title": "KHiO – Kunsthøgskolen i Oslo",
+      "url": "https://khio.no/",
+      "type": "primær"
+    },
+    {
+      "title": "KHiO – Wikipedia",
+      "url": "https://no.wikipedia.org/wiki/Kunsth%C3%B8gskolen_i_Oslo",
+      "type": "sekundær"
+    },
+    {
+      "title": "Norway Says – Store norske leksikon",
+      "url": "https://snl.no/Norway_Says",
+      "type": "sekundær"
+    },
+    {
+      "title": "Dapper Oslo",
+      "url": "https://www.dapper.no/",
+      "type": "primær"
+    },
+    {
+      "title": "Robot Oslo",
+      "url": "https://www.robotoslo.com/",
+      "type": "primær"
+    },
+    {
+      "title": "Velouria Vintage – Visit Norway",
+      "url": "https://www.visitnorway.no/reisemal/ostlandet/oslo/listings-oslo/velouria-vintage/21467/",
+      "type": "sekundær"
+    },
+    {
+      "title": "Skaperverket",
+      "url": "https://www.skaperverket.no",
+      "type": "primær"
+    },
+    {
+      "title": "Kollekted by",
+      "url": "https://kollektedby.no/",
+      "type": "primær"
+    },
+    {
+      "title": "SSB – Sysselsatte i kulturnæringene",
+      "url": "https://www.ssb.no/kultur-og-fritid/artikler-og-publikasjoner/sysselsatte-i-kulturnaeringene-for-korona",
+      "type": "sekundær"
+    },
+    {
+      "title": "Spaces Grünerløkka – Shifter",
+      "url": "https://www.shifter.no/notis/spaces-apner-nye-lokaler-pa-grnerlokka/334988",
+      "type": "sekundær"
+    },
+    {
+      "title": "657 Oslo – Home of CreativeTech",
+      "url": "https://657.no/",
+      "type": "primær"
+    },
+    {
+      "title": "Schous kulturbryggeri – Arkitektur.no",
+      "url": "https://www.arkitektur.no/prosjekter/kultur/schous-kulturbryggeri-popsenteret-riksscenen-oevingshotellet-og-oslo-musikk-og-kulturskole/",
+      "type": "sekundær"
+    },
+    {
+      "title": "Grünerløkka designbutikker – DN",
+      "url": "https://www.dn.no/d2/design/kuratert/kollekted-by/eam/gir-grunerlokka-ny-form/2-1-218524",
+      "type": "sekundær"
+    },
+    {
+      "title": "Hunting Lodge Oslo",
+      "url": "https://www.huntinglodge.no/no",
+      "type": "primær"
+    },
+    {
+      "title": "Good Vibes Vintage",
+      "url": "https://goodvibesvintage.no/",
+      "type": "primær"
+    },
+    {
+      "title": "Tom Wood Project",
+      "url": "https://www.tomwoodproject.com/about-tom-wood/",
+      "type": "primær"
+    },
+    {
+      "title": "Holzweiler konseptbutikk – Costume.no",
+      "url": "https://costume.no/mote/motenyheter/holzweiler-apner-ny-konseptbutikk-pa-grunerlokka",
+      "type": "sekundær"
+    },
+    {
+      "title": "Kristin Jarmund – Store norske leksikon",
+      "url": "https://snl.no/Kristin_Jarmund",
+      "type": "sekundær"
+    },
+    {
+      "title": "Luck Oslo – Shoplabs",
+      "url": "https://shoplabs.no/butikkbloggen/et-brol-for-lokka-luck-oslo/",
+      "type": "sekundær"
+    },
+    {
+      "title": "Popsenteret – Store norske leksikon",
+      "url": "https://snl.no/Popsenteret",
+      "type": "sekundær"
+    }
+  ],
+  "claims": [
+    {
+      "id": "design-claim-1",
+      "statement": "Bleed Design Studio har holdt til i Thorvald Meyers gate 9 siden grunnleggelsen i 2000",
+      "confidence": 0.85,
+      "source": "bleed.com/contact, yelp.com, proff.no",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-2",
+      "statement": "Bielke&Yang ble grunnlagt i 2012 og holder til i Thorvald Meyers gate 7",
+      "confidence": 0.90,
+      "source": "proff.no, bielkeyang.com",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-3",
+      "statement": "Mathallen Oslo åpnet 2. oktober 2012 på Vulkan",
+      "confidence": 0.95,
+      "source": "Wikipedia, Aspelin Ramm, LPO Arkitekter",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-4",
+      "statement": "Dansens Hus åpnet 29. februar 2008 på Vulkan, designet av Snøhetta",
+      "confidence": 0.95,
+      "source": "Wikipedia, Snøhetta, Dansens Hus",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-5",
+      "statement": "KHiO holder til i Fossveien 24 med 43 000 m² areal",
+      "confidence": 0.95,
+      "source": "KHiO, Wikipedia, utdanning.no",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-6",
+      "statement": "Norway Says holdt til på Grünerløkka fra 2002–2003 med kontor og showroom",
+      "confidence": 0.85,
+      "source": "Store norske leksikon, Wikipedia",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-7",
+      "statement": "Westerdals-bygget på Vulkan ble designet av Kristin Jarmund Arkitekter og ferdigstilt i 2011",
+      "confidence": 0.90,
+      "source": "ArchDaily, Kristin Jarmund Arkitekter, SNL",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-8",
+      "statement": "41 % av alle sysselsatte i kulturell og kreativ næring i Norge jobber i Oslo",
+      "confidence": 0.90,
+      "source": "SSB – Sysselsatte i kulturnæringene",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-9",
+      "statement": "Snøhettas hovedkontor ligger på Akershusstranda 21, ikke på Grünerløkka",
+      "confidence": 0.95,
+      "source": "snohetta.com/contact, arkitektbedriftene.no",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-10",
+      "statement": "Robot vintage er en av Oslos eldste vintagebutikker, etablert i 2005",
+      "confidence": 0.85,
+      "source": "visitlokka.no, robotoslo.com",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-11",
+      "statement": "Vulkan-området ble utviklet mellom 2004 og 2014 av Aspelin Ramm og Anthon B Nilsen etter masterplan av LPO arkitekter",
+      "confidence": 0.95,
+      "source": "vulkanoslo.no, Oslo byleksikon, LPO Arkitekter",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-12",
+      "statement": "Spaces Grünerløkka på Markveien 57 har 2 143 m² og 32 private kontorer",
+      "confidence": 0.90,
+      "source": "Shifter, Spacefinder, NE.no",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-13",
+      "statement": "Tank Design holder til på Sagveien 18 og ble grunnlagt i 1999",
+      "confidence": 0.85,
+      "source": "proff.no, tank.no",
+      "status": "verified"
+    }
+  ],
+  "researchMetadata": {
+    "lastVerified": "2026-03-02",
+    "coverageScore": 0.80,
+    "staleAfterDays": 180,
+    "notes": "Adressen til Holzweiler Collage på Grünerløkka kunne ikke verifiseres med nøyaktig gateadresse. Snøhetta bekreftet å ikke ligge på Grünerløkka, men inkludert pga. relevans (Dansens Hus-prosjektet). Grünerløkka-spesifikk statistikk for kreativ næring finnes ikke på bydelsnivå fra SSB."
+  },
+  "crossReferences": [
+    {
+      "type": "section",
+      "target": "billedkunst",
+      "description": "KHiO Kunstakademiet kobler til billedkunst-seksjonen via utdanning av billedkunstnere"
+    },
+    {
+      "type": "section",
+      "target": "arkitektur",
+      "description": "Vulkan-utvikling og Snøhetta/Kristin Jarmund kobler til arkitektur-seksjonen"
+    },
+    {
+      "type": "section",
+      "target": "jazz",
+      "description": "Schous kulturbryggeri med Popsenteret og Riksscenen kobler til jazz og musikkhistorien"
+    },
+    {
+      "type": "section",
+      "target": "hiphop",
+      "description": "Streetwear-kulturen på Grünerløkka (Hunting Lodge, Dapper) kobler til hiphop-seksjonen"
+    }
+  ],
+  "metadata": {
+    "agencyCount": 6,
+    "fashionBrandCount": 11,
+    "workspaceCount": 4,
+    "educationCount": 3,
+    "designerCount": 6,
+    "claimCount": 13,
+    "sourceCount": 30,
+    "generatedAt": "2026-03-02"
+  }
+}

@@ -45,6 +45,8 @@ import hiphopData from '@/data/biblioteket/kultur/hiphop.json';
 import filmData from '@/data/biblioteket/kultur/film.json';
 import teaterData from '@/data/biblioteket/kultur/teater.json';
 import billedkunstData from '@/data/biblioteket/kultur/billedkunst.json';
+import arkitekturData from '@/data/biblioteket/kultur/arkitektur.json';
+import designKreativData from '@/data/biblioteket/kultur/design-kreativ.json';
 import idrettData from '@/data/biblioteket/idrett/idrett.json';
 import mediebildetData from '@/data/biblioteket/mediebildet/mediebildet.json';
 import avisData from '@/data/biblioteket/mediebildet/avis.json';
@@ -254,6 +256,7 @@ export interface JazzArtist {
     description: string;
     awards?: string[];
     connectionToLokka: string;
+    keyAlbums?: { title: string; year: number; label: string }[];
 }
 
 export interface JazzFestival {
@@ -315,6 +318,7 @@ export interface HiphopSection {
     highlights?: string[];
     timeline?: { year: number; title: string; description: string }[];
     pioneers?: string[];
+    currentCurators?: string;
     venues?: { name: string; description: string }[];
 }
 
@@ -380,11 +384,13 @@ export interface FilmData {
     filmmakers: Filmmaker[];
     cinemas: Cinema[];
     documentaries: Documentary[];
+    tvSeries?: TvSeriesEntry[];
+    filmingLocations?: FilmingLocation[];
     sources?: SourceItem[];
     claims?: ClaimEvidence[];
     researchMetadata?: ResearchMetadata;
     crossReferences?: CrossReference[];
-    metadata: { filmCount: number; filmmakerCount: number; cinemaCount: number; documentaryCount: number; generatedAt: string };
+    metadata: { filmCount: number; filmmakerCount: number; cinemaCount: number; documentaryCount: number; tvSeriesCount?: number; generatedAt: string };
 }
 
 export interface FilmEntry {
@@ -408,9 +414,11 @@ export interface Filmmaker {
 
 export interface Cinema {
     name: string;
-    established: number;
+    established: number | null;
     closed?: number;
     address: string;
+    architect?: string;
+    capacity?: string;
     description: string;
     currentUse?: string;
     significance: string;
@@ -420,6 +428,26 @@ export interface Documentary {
     title: string;
     director: string;
     description: string;
+    year?: number;
+    duration?: string;
+    network?: string;
+}
+
+export interface TvSeriesEntry {
+    title: string;
+    year: string;
+    creator: string;
+    network: string;
+    type: string;
+    description: string;
+    locations: string[];
+    significance: string;
+}
+
+export interface FilmingLocation {
+    location: string;
+    description: string;
+    filmsShot: string[];
 }
 
 export function getFilmData(): FilmData {
@@ -615,6 +643,286 @@ export function getPhotographers() {
 
 export function getArtVenues(): ArtVenue[] {
     return billedkunstData.artVenues as ArtVenue[];
+}
+
+// ============================================================================
+// ARKITEKTUR SUBSECTION
+// ============================================================================
+
+export interface SimpleSource {
+    title: string;
+    url: string;
+    type: string;
+}
+
+export interface SimpleClaim {
+    id: string;
+    statement: string;
+    confidence: number;
+    source: string;
+    status: string;
+}
+
+export interface SimpleResearchMetadata {
+    lastVerified: string;
+    coverageScore: number;
+    staleAfterDays: number;
+    notes?: string;
+}
+
+export interface SimpleCrossReference {
+    type: string;
+    target: string;
+    description: string;
+}
+
+export interface ArkitekturData {
+    id: string;
+    title: string;
+    subtitle: string;
+    intro: string;
+    sections: { id: string; title: string; description: string }[];
+    buildingStyles: BuildingStyle[];
+    urbanRenewal: UrbanRenewal;
+    iconicBuildings: IconicBuilding[];
+    parks: Park[];
+    architects: Architect[];
+    heritageStatus: HeritageItem[];
+    sources: SimpleSource[];
+    claims?: SimpleClaim[];
+    researchMetadata?: SimpleResearchMetadata;
+    crossReferences?: SimpleCrossReference[];
+    metadata: {
+        buildingStyleCount: number;
+        iconicBuildingCount: number;
+        parkCount: number;
+        architectCount: number;
+        heritageStatusCount: number;
+        sourceCount: number;
+        claimCount: number;
+        urbanRenewalTimelineEvents: number;
+        generatedAt: string;
+    };
+}
+
+export interface BuildingStyle {
+    id: string;
+    name: string;
+    period: string;
+    description: string;
+    characteristics: string[];
+    notableExamples: {
+        address: string;
+        description: string;
+        yearBuilt: number;
+    }[];
+}
+
+export interface UrbanRenewal {
+    intro: string;
+    timeline: UrbanRenewalEvent[];
+    keyEvents: {
+        year: number;
+        title: string;
+        description: string;
+        significance: string;
+    }[];
+}
+
+export interface UrbanRenewalEvent {
+    year: number;
+    title: string;
+    description: string;
+    significance?: string;
+}
+
+export interface IconicBuilding {
+    name: string;
+    architect: string;
+    yearBuilt: number;
+    address: string;
+    style: string;
+    currentUse: string;
+    heritageStatus: string;
+    description: string;
+    significance: string;
+}
+
+export interface Park {
+    name: string;
+    established: number;
+    area: string;
+    history: string;
+    currentUse: string;
+    culturalSignificance: string;
+    description: string;
+}
+
+export interface Architect {
+    name: string;
+    period: string;
+    works: string[];
+    description: string;
+}
+
+export interface HeritageItem {
+    name: string;
+    type: string;
+    description: string;
+    authority: string;
+}
+
+export function getArkitekturData(): ArkitekturData {
+    return arkitekturData as ArkitekturData;
+}
+
+export function getBuildingStyles(): BuildingStyle[] {
+    return arkitekturData.buildingStyles as BuildingStyle[];
+}
+
+export function getUrbanRenewal(): UrbanRenewal {
+    return arkitekturData.urbanRenewal as UrbanRenewal;
+}
+
+export function getIconicBuildings(): IconicBuilding[] {
+    return arkitekturData.iconicBuildings as IconicBuilding[];
+}
+
+export function getParks(): Park[] {
+    return arkitekturData.parks as Park[];
+}
+
+export function getArchitects(): Architect[] {
+    return arkitekturData.architects as Architect[];
+}
+
+export function getHeritageStatus(): HeritageItem[] {
+    return arkitekturData.heritageStatus as HeritageItem[];
+}
+
+// ============================================================================
+// DESIGN & KREATIV SUBSECTION
+// ============================================================================
+
+export interface DesignKreativData {
+    id: string;
+    title: string;
+    subtitle: string;
+    intro: string;
+    sections: { id: string; title: string; description: string }[];
+    agencies: DesignAgency[];
+    fashionBrands: FashionBrand[];
+    workspaces: CreativeWorkspace[];
+    creativeHubs: CreativeHub[];
+    educationInstitutions: EducationInstitution[];
+    notableDesigners: NotableDesigner[];
+    industryStats: IndustryStats;
+    sources: SimpleSource[];
+    claims?: SimpleClaim[];
+    researchMetadata?: SimpleResearchMetadata;
+    crossReferences?: SimpleCrossReference[];
+    metadata: {
+        agencyCount: number;
+        fashionBrandCount: number;
+        workspaceCount: number;
+        educationCount: number;
+        designerCount: number;
+        claimCount: number;
+        sourceCount: number;
+        generatedAt: string;
+    };
+}
+
+export interface DesignAgency {
+    name: string;
+    founded: number;
+    address: string;
+    specialization: string;
+    notableWork: string[];
+    description: string;
+    connectionToLokka: string;
+}
+
+export interface FashionBrand {
+    name: string;
+    type: string;
+    established: number | null;
+    address: string;
+    description: string;
+}
+
+export interface CreativeWorkspace {
+    name: string;
+    type: string;
+    address: string;
+    established: number | null;
+    description: string;
+    notableTenants: string[];
+}
+
+export interface CreativeHub {
+    name: string;
+    developer: string;
+    yearStarted: number;
+    description: string;
+    components: {
+        name: string;
+        opened: number;
+        description: string;
+    }[];
+}
+
+export interface EducationInstitution {
+    name: string;
+    address: string;
+    departments: string[];
+    description: string;
+    connectionToLokka: string;
+}
+
+export interface NotableDesigner {
+    name: string;
+    field: string;
+    period: string;
+    notableWork: string[];
+    connection: string;
+}
+
+export interface IndustryStats {
+    description: string;
+    highlights: string[];
+}
+
+export function getDesignKreativData(): DesignKreativData {
+    return designKreativData as DesignKreativData;
+}
+
+export function getDesignAgencies(): DesignAgency[] {
+    return designKreativData.agencies as DesignAgency[];
+}
+
+export function getFashionBrands(): FashionBrand[] {
+    return designKreativData.fashionBrands as FashionBrand[];
+}
+
+export function getCreativeWorkspaces(): CreativeWorkspace[] {
+    return designKreativData.workspaces as CreativeWorkspace[];
+}
+
+export function getCreativeHubs(): CreativeHub[] {
+    return designKreativData.creativeHubs as CreativeHub[];
+}
+
+export function getEducationInstitutions(): EducationInstitution[] {
+    return designKreativData.educationInstitutions as EducationInstitution[];
+}
+
+export function getNotableDesigners(): NotableDesigner[] {
+    return designKreativData.notableDesigners as NotableDesigner[];
+}
+
+export function getIndustryStats(): IndustryStats {
+    return designKreativData.industryStats as IndustryStats;
 }
 
 // ============================================================================

@@ -1,7 +1,7 @@
 {
   "id": "film",
   "title": "Film og Grünerløkka",
-  "intro": "Grünerløkka har vært kulisse og tema for norsk film i over 75 år – fra Arne Skouens arbeiderklassedrama til moderne Oscar-nominerte produksjoner. Bydelen har fostret filmskapere, huset kinoer og inspirert dokumentarer om byens mest dynamiske strøk.",
+  "intro": "Grünerløkka har vært kulisse og tema for norsk film i over 75 år. Fra Arne Skouens arbeiderklassedrama filmet på Rodeløkka i 1949, via Peter Watkins' Munch-gjenskapning i Fossveien, til Joachim Triers Oscar-nominerte Oslo-trilogi. Bydelen har fostret filmskapere, huset kinoer siden 1907 og inspirert dokumentarer om byens mest dynamiske strøk.",
   "sections": [
     {
       "id": "filmer",
@@ -16,206 +16,232 @@
     {
       "id": "kinohistorie",
       "title": "Kinohistorien på Løkka",
-      "description": "Fra Norges første spesialbygde kino (1916) til dagens moderne kinosenter."
+      "description": "Fra en av Norges første kinoer i 1907 via Oslos første spesialbygde kinosal i 1916 til dagens heldigitale kinosenter."
     },
     {
       "id": "dokumentarer",
       "title": "Dokumentarer om Grünerløkka",
       "description": "Filmer som har dokumentert bydelens utvikling og identitet gjennom tidene."
+    },
+    {
+      "id": "tvSerier",
+      "title": "TV-serier med Løkka-tilknytning",
+      "description": "TV-produksjoner som har brukt Grünerløkka som kulisse eller tematisk ramme."
     }
   ],
   "films": [
     {
       "title": "Gategutter",
       "year": 1949,
-      "director": "Arne Skouen",
+      "director": "Arne Skouen og Ulf Greber",
       "type": "spillefilm",
-      "description": "Klassisk norsk arbeiderklassedrama basert på Skouens roman om en guttegjeng i Oslo på 1920-tallet. Innspilt på Grünerløkka med autentiske miljøskildringer.",
+      "description": "Klassisk norsk arbeiderklassedrama basert på Skouens roman om en guttegjeng i Oslo på 1920-tallet. Filmet on location i Gøteborggata på Rodeløkka sommeren 1949.",
       "locations": [
-        "Grünerløkka gater"
+        "Gøteborggata, Rodeløkka"
       ],
-      "significance": "Et av de viktigste verkene i norsk filmhistorie og den første store filmen innspilt på Løkka."
+      "significance": "Et av de viktigste verkene i norsk filmhistorie. Filmen viser autentiske østkantmiljøer tett på Grünerløkka og regnes som en milepæl i norsk neorealistisk film."
     },
     {
-      "title": "Grünerløkka",
-      "year": 1973,
-      "director": "Finn Carlsby",
-      "type": "dokumentar",
-      "description": "Kortdokumentar (11 min) som skildrer bydelens utvikling fra landbruksmark på 1800-tallet til moderne byområde i 1973.",
+      "title": "Edvard Munch",
+      "year": 1974,
+      "director": "Peter Watkins",
+      "type": "dramadokumentar",
+      "description": "Banebrytende dramadokumentar som gjenskaper Edvard Munchs liv, inkludert barndommen på Grünerløkka. Munch-familien bodde i Fossveien 7 (1877-1882), Olaf Ryes plass 4 (1882-1883) og Schous plass 1 (1885-1889). Filmet i Oslo og Åsgårdstrand.",
       "locations": [
-        "Akerselva",
+        "Fossveien",
         "Olaf Ryes plass",
-        "Industriområder"
+        "Schous plass",
+        "Oslo sentrum"
       ],
-      "significance": "Viktig tidsdokument som viser industri, næringsliv og kulturliv på Løkka."
-    },
-    {
-      "title": "Sanering – Grünerløkka",
-      "year": 1972,
-      "director": "Bjørn Nilsen",
-      "type": "dokumentar",
-      "description": "NRK TV-dokumentar om byfornyelse, forfall og planlagt riving på Grünerløkka tidlig på 1970-tallet.",
-      "locations": [
-        "Leiegårder",
-        "Bakgårder"
-      ],
-      "significance": "Dokumenterte bomiljøet på Løkka før rehabilitering og fanget saneringsdebatten."
+      "significance": "Gjenskapte Munchs barndomsmiljø på Løkka. Søsteren Sofies død av tuberkulose i Fossveien 7 ble et av hans mest definerende motiv (Døden i sykeværelset, Det syke barn)."
     },
     {
       "title": "Budbringeren",
       "year": 1997,
       "director": "Pål Sletaune",
       "type": "spillefilm",
-      "description": "Thriller/komedie om en postbud i Oslos østkant. Store deler filmet i slitne bygårder og gater på øvre Grünerløkka.",
+      "description": "Thriller/komedie om en snoking postbud i Oslo. Filmen viser Oslos østkant med slitne bygårder og bakgater. Vant Amanda for beste norske film 1997.",
       "locations": [
-        "Øvre Grünerløkka",
-        "Bakgårder"
+        "Oslos østkant",
+        "Bygårder og bakgater"
       ],
-      "significance": "Fanget Løkkas røffe preg på 1990-tallet før gentrifiseringen var fullført."
+      "significance": "Fanget det røffe Oslo-preget på 1990-tallet. Regnes som en del av «Portrait Oslo»-tradisjonen. Spesifikke Grünerløkka-opptakssteder er ikke dokumentert, men filmen skildrer østkantmiljøet filmskaperen kjente fra denne perioden."
     },
     {
       "title": "22",
       "year": 2001,
       "director": "Pål Aam og Eystein Hanssen",
       "type": "spillefilm",
-      "description": "Norges første rene skrekkfilm, innspilt on location på Grünerløkka, Grønland og langs Akerselva.",
+      "description": "Norges første rene skrekkfilm, innspilt on location på Grünerløkka, Grønland og langs Akerselva over 16 dager i 1999 med et budsjett på 100 000 kroner.",
       "locations": [
         "Grünerløkka",
+        "Grønland",
         "Akerselva"
       ],
-      "significance": "Første norske skrekkfilm med Løkka som kulisse."
+      "significance": "Den første rene norske skrekkfilmen. Brukte Løkkas urbane landskap som atmosfærisk kulisse for en seriemorder-historie. Vist flere ganger på TV 2."
     },
     {
       "title": "De usynlige",
       "year": 2008,
       "director": "Erik Poppe",
       "type": "spillefilm",
-      "description": "Norsk drama delvis innspilt i Paulus kirke på Grünerløkka. Poppe har fremhevet Løkkas arkitektur som ideell filmkulisse.",
+      "description": "Norsk drama der hovedpersonen Jan Thomas er ansatt som organist i Paulus kirke på Grünerløkka. Tredje del av Poppes Oslo-trilogi, der alle filmene er innspilt i Grønland/Grünerløkka-området.",
       "locations": [
-        "Paulus kirke",
-        "Olaf Ryes plass"
+        "Paulus kirke, Grünerløkka",
+        "Grünerløkka-området",
+        "Grønland"
       ],
-      "significance": "Del av Poppes Oslo-trilogi som viste Grünerløkkas intime bymiljø."
-    },
-    {
-      "title": "Villa Paradiso åpner på Olaf Ryes plass",
-      "year": 2004,
-      "director": "Jan Vardøen",
-      "type": "spillefilm",
-      "description": "Jan Vardøen, kjent som 'Mister Grünerløkka', har regissert flere filmer med bydelen som setting.",
-      "locations": [
-        "Olaf Ryes plass"
-      ],
-      "significance": "Vardøen representerer Løkka-kulturen som har blitt både restauratør og filmskaper."
-    },
-    {
-      "title": "Kaveh – 7 steg mot toppen",
-      "year": 2012,
-      "director": "Kent Kampesveen",
-      "type": "dokumentar",
-      "description": "NRK-serie om rapperen Kaveh Kholardi fra Grünerløkka og hans vei mot gjennombrudd i hiphop-miljøet.",
-      "locations": [
-        "Birkelunden",
-        "Lokale scener"
-      ],
-      "significance": "Løkka eksplisitt identifisert som oppvekstmiljø – viser bydelens rolle i hiphop-kulturen."
-    },
-    {
-      "title": "One Night – En natt",
-      "year": 2018,
-      "director": "Øystein Karlsen",
-      "type": "TV-serie",
-      "description": "Dramaserie der kamera følger et par fra Birkelunden gjennom Grünerløkkas gater langs Akerselva.",
-      "locations": [
-        "Birkelunden",
-        "Thorvald Meyers gate",
-        "Akerselva"
-      ],
-      "significance": "Grünerløkka nevnt i dialog og presentert som levende del av Oslos bylandskap."
+      "significance": "Del av Erik Poppes prisbelønte Oslo-trilogi (Schpaaa, Hawaii Oslo, De usynlige), alle filmet i Grünerløkka/Grønland-området. Paulus kirke har en sentral rolle i handlingen."
     },
     {
       "title": "Den største forbrytelsen",
       "year": 2020,
       "director": "Eirik Svensson",
       "type": "spillefilm",
-      "description": "Historisk drama om deportasjonen av jødene under krigen. Familien Braude bor på Grünerløkka – bydelen er sentralt bakteppe.",
+      "description": "Historisk drama om Braude-familien, en jødisk arbeiderklassefamilie som bodde i Øvre gate 4 (nå Korsgata 12) på Grünerløkka, og deportasjonen av norske jøder 26. november 1942. Basert på Marte Michelets bok. Selve filmen ble innspilt i Göteborg, Sverige.",
+      "locations": [
+        "Handlingen utspiller seg på Grünerløkka (Øvre gate/Korsgata)",
+        "Innspilt i Göteborg, Sverige"
+      ],
+      "significance": "Viser Grünerløkkas jødiske historie og arbeiderklassemiljø under krigen. Braude-familien bodde på under 20 kvadratmeter. Filmen var Norges offisielle Oscar-kandidat, men nådde ikke nominasjon. Ikke innspilt på Løkka, men handlingen er forankret der."
+    },
+    {
+      "title": "Verdens verste menneske",
+      "year": 2021,
+      "director": "Joachim Trier",
+      "type": "spillefilm",
+      "description": "Oscar-nominert romantisk drama. Tredje film i Joachim Triers Oslo-trilogi. Grünerløkka refereres direkte: karakteren Aksel nevner å ta trikken til platebutikken Voices på Løkka. Filmet on location i Oslo.",
+      "locations": [
+        "Diverse Oslo-lokasjoner",
+        "Grünerløkka (referert i dialog, Voices platebar)"
+      ],
+      "significance": "Nominert til Oscar for beste internasjonale film og beste originalmanus (2022). Produsert av Thomas Robsahm. Grünerløkka brukes som kulturell markør i karakterenes Oslo-liv."
+    }
+  ],
+  "tvSeries": [
+    {
+      "title": "SKAM",
+      "year": "2015-2017",
+      "creator": "Julie Andem",
+      "network": "NRK",
+      "type": "TV-serie",
+      "description": "Internasjonal ungdomsserie sentrert rundt Hartvig Nissen skole (Frogner). Enkelte scener filmet på Grünerløkka, blant annet en festscene i en leilighet på Løkka i sesong 3 (2016).",
+      "locations": [
+        "Grünerløkka (enkelte scener)",
+        "Primært Frogner/vestkanten"
+      ],
+      "significance": "Norges mest internasjonalt kjente TV-serie. Grünerløkka brukt som festkulisse, men serien er primært vestkant-basert."
+    },
+    {
+      "title": "Kaveh – 7 steg mot toppen",
+      "year": "2012",
+      "creator": "Kent Kampesveen",
+      "network": "NRK",
+      "type": "dokumentarserie",
+      "description": "NRK-dokumentarserie om 18-årige Kaveh Kholardi fra Grünerløkka, en iransk-norsk rapper på vei mot gjennombrudd. Serien følger ham gjennom hiphop-miljøet med gjester som Madcon, Karpe Diem og Asbjørn Slettemark.",
       "locations": [
         "Grünerløkka",
-        "Arbeiderstrøk"
+        "Lokale scener i Oslo"
       ],
-      "significance": "Oscar-nominert film som viste Løkkas rolle i jødisk norsk historie."
+      "significance": "Løkka eksplisitt identifisert som oppvekstmiljø. Dokumenterer bydelens rolle som arnested for norsk hiphop-kultur."
+    },
+    {
+      "title": "En natt",
+      "year": "2018",
+      "creator": "Øystein Karlsen og Kristopher Schau",
+      "network": "NRK",
+      "type": "TV-serie",
+      "description": "Dramaserie om et par på blinddate i Oslo. Innspilt i to språkversjoner (norsk og engelsk). Oslo-miljøet brukes som ramme, men spesifikke Grünerløkka-lokasjoner er ikke dokumentert.",
+      "locations": [
+        "Oslo (uspesifiserte lokasjoner)"
+      ],
+      "significance": "Innovativ konseptserie fra Øystein Karlsen (Lilyhammer). Grünerløkka-tilknytningen er usikker og bør verifiseres videre."
     }
   ],
   "filmmakers": [
     {
       "name": "Arne Skouen",
-      "years": "1913–2003",
-      "role": "Regissør",
-      "connection": "Vokste opp på Oslos østkant og debuterte med Gategutter (1949) som utspiller seg på Grünerløkka.",
+      "years": "1913-2003",
+      "role": "Regissør, forfatter og journalist",
+      "connection": "Vokste opp på Oslos østkant. Debuterte med Gategutter (1949) innspilt i Gøteborggata på Rodeløkka, like ved Grünerløkka. Romanen som filmen er basert på skildrer østkantens arbeiderklassemiljø.",
       "keyWorks": [
         "Gategutter (1949)",
         "Ni liv (1957)",
         "Kalde spor (1962)"
       ],
-      "significance": "Hans erfaring med østkantens virkelighet ga Gategutter autentisitet som knytter ham til Løkka."
-    },
-    {
-      "name": "Pål Sletaune",
-      "years": "f. 1960",
-      "role": "Regissør",
-      "connection": "Hadde bopel på Grünerløkka på 1990-tallet og observerte bydelens transformasjon fra rufsete strøk til gentrifisert område.",
-      "keyWorks": [
-        "Budbringeren (1997)",
-        "Naboer (2005)",
-        "Amors baller (2011)"
-      ],
-      "significance": "Regnes som eksponent for å skildre det urbane Oslo-filmuniverset."
-    },
-    {
-      "name": "Erik Poppe",
-      "years": "f. 1960",
-      "role": "Regissør og fotograf",
-      "connection": "Brukte Paulus kirke og Løkka aktivt i De usynlige (2008). Har uttalt at 'Grünerløkka fascinerer meg som filmkulisse'.",
-      "keyWorks": [
-        "Schpaaa (1998)",
-        "Hawaii, Oslo (2004)",
-        "De usynlige (2008)"
-      ],
-      "significance": "Hans kunstneriske blikk på Oslo har gjort Grünerløkka til gjenganger i filmene."
-    },
-    {
-      "name": "Thomas Robsahm",
-      "years": "f. 1964",
-      "role": "Regissør og produsent",
-      "connection": "Del av undergrunnsmiljøet på Grünerløkka på 1980-tallet som musiker i new wave-bandet White Lord Jesus med postadresse på Løkka.",
-      "keyWorks": [
-        "Svarte pantere (1992)",
-        "Det store høydepunktet (2001)",
-        "Verdens verste menneske (2021, produsent)"
-      ],
-      "significance": "Representerer broen mellom Løkkas alternative kultur på 80/90-tallet og dagens filmbransje."
+      "significance": "En av Norges viktigste filmregissører. Gategutter er det tidligste store filmverket med tydelig østkant-/Løkka-kontekst. Spesifikk Grünerløkka-adresse ikke dokumentert, men østkant-oppveksten er sentral."
     },
     {
       "name": "Edith Carlmar",
-      "years": "1911–2003",
-      "role": "Regissør",
-      "connection": "Norges første kvinnelige filmregissør. Vokste opp i østkantens arbeiderstrøk og brakte disse erfaringene inn i sine filmer.",
+      "years": "1911-2003",
+      "role": "Regissør og skuespiller",
+      "connection": "Norges første kvinnelige filmregissør. Født i Trondheimsveien 2 på Grünerløkka. Vokste opp i Helgesens gate og Wilses gate med enslig mor som jobbet som syerske. Bodde på Grünerløkka fra 1911 til ca. 1930.",
       "keyWorks": [
         "Døden er et kjærtegn (1949)",
         "Aldri annet enn bråk (1954)",
         "Ung flukt (1959)"
       ],
-      "significance": "Hennes perspektiv som østkantjente var unikt i norsk film."
+      "significance": "Genuint Løkka-barn. Vokste opp under fattige kår på østkanten, tidvis i fosterhjem. Introduserte Liv Ullmann på film i Ung flukt. Hennes filmer tok opp abort, rusmisbruk og psykisk sykdom – tematikk formet av østkantoppveksten."
+    },
+    {
+      "name": "Pål Sletaune",
+      "years": "f. 1960",
+      "role": "Regissør og fotograf",
+      "connection": "Født i Oslo. Studerte stillsfotografi og litteratur-/kunsthistorie ved UiO. Budbringeren (1997) skildrer Oslos østkant-miljø. Spesifikk Grünerløkka-bopel på 1990-tallet er ikke bekreftet i tilgjengelige kilder.",
+      "keyWorks": [
+        "Budbringeren (1997)",
+        "Naboer (2005)",
+        "Babycall (2011)"
+      ],
+      "significance": "Toneangivende for det urbane Oslo-filmuniverset. Budbringeren vant Amanda 1997 og viste Oslos østkant før gentrifiseringen."
+    },
+    {
+      "name": "Erik Poppe",
+      "years": "f. 1960",
+      "role": "Regissør og fotograf",
+      "connection": "Alle tre filmene i hans Oslo-trilogi (Schpaaa, Hawaii Oslo, De usynlige) er innspilt i Grünerløkka/Grønland-området. Paulus kirke på Løkka har sentral rolle i De usynlige (2008).",
+      "keyWorks": [
+        "Schpaaa (1998)",
+        "Hawaii, Oslo (2004)",
+        "De usynlige (2008)"
+      ],
+      "significance": "Hans Oslo-trilogi har gjort Grünerløkka-/Grønland-området til et gjennomgående filmunivers. Bekreftet tilknytning gjennom tre filmer over et tiår."
+    },
+    {
+      "name": "Thomas Robsahm",
+      "years": "f. 1964",
+      "role": "Produsent og regissør",
+      "connection": "Født i Arendal. Spilte synth i new wave-bandet White Lord Jesus (1983-1985). Har over 50 produksjoner bak seg. Produserte Verdens verste menneske (2021), Oscar-nominert.",
+      "keyWorks": [
+        "Svarte pantere (1992)",
+        "Verdens verste menneske (2021, produsent)",
+        "Thelma (2017, produsent)"
+      ],
+      "significance": "En av Norges mest produktive filmprodusenter. Grünerløkka-tilknytningen via undergrunnsmiljøet på 1980-tallet er plausibel men ikke bekreftet med spesifikk adresse."
     },
     {
       "name": "Jan Vardøen",
       "years": "f. 1962",
-      "role": "Regissør og kulturaktør",
-      "connection": "Kalles 'Mister Grünerløkka' etter å ha etablert utesteder som Bar Boca og Villa Paradiso. Har regissert filmer med bydelen som setting.",
+      "role": "Regissør, restauratør og kulturaktør",
+      "connection": "Født i London, kom til Norge i 1988. Etablerte Bar Boca, Villa Paradiso, Hotel Havana, Los Lobos og flere på Grünerløkka. Grunnla Beacon Isle Productions i 2012. Omtales som en av de mest toneangivende utelivsgrunderne i Norge.",
       "keyWorks": [
-        "Himmelveien (2014)"
+        "Søvnløs i Lofoten (2014)",
+        "House of Norway (2017)",
+        "Sult 2020 (2023)"
       ],
-      "significance": "Representerer Løkka-kulturen både som restauratør og filmskaper."
+      "significance": "Kalles «Mister Grünerløkka» / «Kongen av Grünerløkka». Sterk Løkka-tilknytning som restauratør, svakere som filmskaper – filmene hans handler ikke om Grünerløkka. Filmen «Himmelveien» finnes ikke i tilgjengelige kilder."
+    },
+    {
+      "name": "Joachim Trier",
+      "years": "f. 1974",
+      "role": "Regissør og manusforfatter",
+      "connection": "Oslo-trilogien (Reprise, Oslo 31. august, Verdens verste menneske) utforsker Oslo over 15 år. Grünerløkka refereres direkte i Verdens verste menneske (Voices platebar). Trilogien er primært filmet på vestkanten, men bruker hele byen.",
+      "keyWorks": [
+        "Reprise (2006)",
+        "Oslo, 31. august (2011)",
+        "Verdens verste menneske (2021)"
+      ],
+      "significance": "Norges mest internasjonalt anerkjente samtidsregissør. Verdens verste menneske ble nominert til to Oscar-priser. Grünerløkka er en del av det bredere Oslo-bildet i trilogien, men ikke hovedfokus."
     }
   ],
   "cinemas": [
@@ -224,52 +250,94 @@
       "established": 1907,
       "closed": 1991,
       "address": "Olaf Ryes plass 11",
-      "description": "En av Norges aller første kinoer. Åpnet som Kristiania Bryggeri Grünerløkkens Kinematograf, ble kommunal kino i 1926. Holdt det gående i 84 år.",
-      "currentUse": "Konsertscene og bar (Parkteatret Scene) siden 2002. Fikk Olavsrosa i 2007.",
-      "significance": "Løkkas egen kino fra stumfilmens tid via lydfilmens gullalder til videoalderen."
+      "architect": "Frithjof Aslesen (opprinnelig 1907), Erik Glosimodt (ny fasade 1918-1922)",
+      "description": "En av Norges aller første kinoer. Åpnet i 1907 som «Kristiania Bryggeri Grünerløkkens Kinematograf», tegnet av arkitekt Frithjof Aslesen. Skiftet navn til «Grünerløkkens Verdenstheater» i 1913. Gjennomgikk stor ombygging 1918-1922 med ny nyklassisistisk fasade av Erik Glosimodt, og fikk navnet Parkteatret. Kommunal kino fra 1926 til nedleggelse i 1991. Det ikoniske lysskiltet ble satt opp i 1960.",
+      "capacity": "Ukjent opprinnelig kapasitet. Nåværende konsertscene har kapasitet for 500 personer.",
+      "currentUse": "Konsertscene og bar (Parkteatret Scene) siden 2002. Tildelt Olavsrosa av Norsk Kulturarv i 2007 som anerkjennelse av bygningens kulturhistoriske verdi.",
+      "significance": "Løkkas egen kino gjennom 84 år, fra stumfilmens barndom til videoalderen. Nyklassisistisk kulturbygg som vitner om kinoens status som folkelig underholdning i arbeiderstrøkene."
     },
     {
       "name": "Regina Teater",
       "established": 1916,
       "closed": 1928,
       "address": "Nordre gate 18b",
-      "description": "Oslos aller første spesialbygde kino – byens første kinosal oppført fra grunnen kun for filmvisning. 471 sitteplasser med orkestergrav.",
-      "currentUse": "Evangeliesalen Berøa (pinsemenighet) siden 1929. Fasaden er bevart.",
-      "significance": "Markerte Løkkas plass i kinohistorien – også arbeiderstrøk fikk topp moderne kulturbygg."
+      "architect": "Harald Aars",
+      "description": "Kristianias (Oslos) første bygning oppført fra grunnen utelukkende som kinosal. Åpnet 31. mars 1916. Arkitekt Harald Aars tegnet en klassisistisk fasade med halvsøyler, ioniske kapiteler og en triumfbue – et arkitektonisk uttrykk som signaliserte at arbeiderstrøket også fortjente kulturbygg av høy standard. 471 sitteplasser med orkestergrav. Billettpris: 35 øre for voksne, 15 øre for barn. Overtatt av Oslo Kinematografer (kommunal kinodrift) i 1926. Nedlagt som kino i 1928.",
+      "capacity": "471 sitteplasser",
+      "currentUse": "Evangeliesalen Berøa (pinsemenighet) siden 1929. Fasaden med de klassisistiske elementene er bevart.",
+      "significance": "Norges, muligens Kristianias, første spesialbygde kinobygning – et symbol på at også arbeiderklassens bydeler fikk moderne kulturinstitusjoner."
+    },
+    {
+      "name": "Biorama",
+      "established": null,
+      "closed": null,
+      "address": "Seilduksgata 17",
+      "description": "Tidlig kino på Grünerløkka. Dokumentert i Oslo byleksikons oversikt over kinoer utenfor sentrum, sammen med Parkteatret og Regina. Detaljer om åpnings- og lukkeår, kapasitet og drift er ikke funnet i tilgjengelige kilder.",
+      "currentUse": "Ukjent",
+      "significance": "Bekrefter at Grünerløkka hadde minst tre kinoer i den tidlige kinoperioden, noe som understreker bydelens posisjon som kulturelt sentrum på østkanten."
     },
     {
       "name": "Ringen Kino",
       "established": 2008,
       "address": "Sannergata 6D (Ringnes Park)",
-      "description": "Nordens første heldigitale kinosenter med 6 saler og ca. 925 seter. Tegnet av Arcasa arkitekter.",
-      "currentUse": "Fortsatt i drift som Grünerløkkas eneste fullverdige kino.",
-      "significance": "Markerer kinodriftens tilbakekomst til Løkka etter at Parkteatret stengte i 1991."
+      "architect": "Arcasa Arkitekter",
+      "description": "Nordens første heldigitale kinosenter. Åpnet 20. november 2008. Bygget for Oslo Kino AS etter tegninger av Arcasa Arkitekter. 6 saler med totalt 951 seter. 5 saler er THX-godkjente. Opereres av Nordisk Film Kino.",
+      "capacity": "951 seter fordelt på 6 saler",
+      "currentUse": "I full drift som Grünerløkkas eneste kino. Viser blockbustere, norsk film, verdensfilm og barnefilm. Har lagt til 4DX-seter.",
+      "significance": "Markerte kinodriftens tilbakekomst til Løkka etter 17 år uten kino (1991-2008). Teknologisk pionerprosjekt som Nordens første heldigitale kino."
     }
   ],
   "documentaries": [
     {
-      "title": "Grünerløkka (1973)",
-      "director": "Finn Carlsby",
-      "description": "11-minutters kortdokumentar som gir historisk gjennomgang fra landbruksmark til moderne byområde. Viser industri, næringsliv og kulturliv."
+      "title": "Sanering – Grünerløkka (1972)",
+      "director": "Bjørn Nilsen, Ellen Aanesen og Eva Brustad",
+      "description": "NRK-dokumentar (48 min) i serien «Boliger» om byfornyelse, forfall og planlagt sanering på Grünerløkka. Dokumenterte bomiljøet i leiegårdene og debatten om riving versus rehabilitering. Tilgjengelig på NRK TV.",
+      "year": 1972,
+      "duration": "48 min",
+      "network": "NRK"
     },
     {
-      "title": "Sanering – Grünerløkka (1972)",
-      "director": "Bjørn Nilsen m.fl.",
-      "description": "NRK TV-dokumentar om forfall og planlagte saneringer. Dokumenterte bomiljøet før rehabilitering med intervjuer og gateopptakk."
+      "title": "Grünerløkka (1973)",
+      "director": "Finn Carlsby",
+      "description": "Kortdokumentar (11 min) som gir historisk gjennomgang av bydelen fra landbruksmark på 1800-tallet til moderne byområde i 1973. Viser industri langs Akerselva, næringsliv og kulturliv. Tilgjengelig i Nasjonalbibliotekets filmarkiv.",
+      "year": 1973,
+      "duration": "11 min"
     },
     {
       "title": "Edvard Munch (1974)",
       "director": "Peter Watkins",
-      "description": "Dramadokumentar hvor Munchs barndom på Grünerløkka gjenskapes – han bodde i Fossveien på Løkka."
+      "description": "Banebrytende 3,5 timers dramadokumentar som gjenskaper Munchs liv. Munch-familien bodde i Fossveien 7 på Grünerløkka (1877-1882), deretter Olaf Ryes plass 4 (1882-1883) og Schous plass 1 (1885-1889). Filmet i Oslo og Åsgårdstrand med originale Munch-malerier.",
+      "year": 1974,
+      "duration": "210 min"
     }
   ],
-  "metadata": {
-    "filmCount": 10,
-    "filmmakerCount": 6,
-    "cinemaCount": 3,
-    "documentaryCount": 3,
-    "generatedAt": "2025-12-10T00:00:00Z"
-  },
+  "filmingLocations": [
+    {
+      "location": "Gøteborggata, Rodeløkka",
+      "description": "Innspillingssted for Gategutter (1949). Like ved Grünerløkka, på grensen til Rodeløkka.",
+      "filmsShot": ["Gategutter (1949)"]
+    },
+    {
+      "location": "Paulus kirke",
+      "description": "Sentral lokasjon i Erik Poppes De usynlige (2008). Hovedpersonen jobber som organist her.",
+      "filmsShot": ["De usynlige (2008)"]
+    },
+    {
+      "location": "Fossveien / Olaf Ryes plass / Schous plass",
+      "description": "Edvard Munchs barndomsadresser gjenskapt i Peter Watkins' film (1974). Munch bodde på tre adresser på Løkka mellom 1877 og 1889.",
+      "filmsShot": ["Edvard Munch (1974)"]
+    },
+    {
+      "location": "Akerselva",
+      "description": "Brukt som kulisse i flere produksjoner, blant annet skrekkfilmen 22 (2001). Elva danner Løkkas vestlige grense.",
+      "filmsShot": ["22 (2001)", "Grünerløkka (1973)"]
+    },
+    {
+      "location": "Grünerløkka generelt (bakgårder, leiegårder, gater)",
+      "description": "Autentisk østkantmiljø brukt i dokumentarer om saneringsdebatten og i spillefilmer som skildrer arbeiderklassens Oslo.",
+      "filmsShot": ["Sanering – Grünerløkka (1972)", "22 (2001)"]
+    }
+  ],
   "sources": [
     {
       "title": "Store norske leksikon - Arne Skouen",
@@ -296,31 +364,100 @@
       "evidenceLevel": "secondary"
     },
     {
+      "title": "NRK - Filmens Grand Old Lady (Edith Carlmar)",
+      "url": "https://www.nrk.no/kultur/filmens-grand-old-lady-1.529714",
+      "publisher": "NRK",
+      "accessedAt": "2026-03-02",
+      "sourceType": "news",
+      "evidenceLevel": "secondary",
+      "notes": "Bekrefter Carlmars fødested Trondheimsveien 2 og oppvekst i Helgesens gate/Wilses gate på Grünerløkka."
+    },
+    {
       "title": "Wikipedia - Gategutter",
       "url": "https://no.wikipedia.org/wiki/Gategutter",
       "publisher": "Wikipedia",
       "accessedAt": "2026-03-02",
       "sourceType": "database",
       "evidenceLevel": "secondary",
-      "notes": "Brukes som sekundærkilde, ikke alene."
+      "notes": "Bekrefter innspilling i Gøteborggata på Rodeløkka."
     },
     {
-      "title": "Wikipedia - Den største forbrytelsen",
-      "url": "https://no.wikipedia.org/wiki/Den_st%C3%B8rste_forbrytelsen",
+      "title": "Bridgeman Images - Gategutter innspilling 1949",
+      "url": "https://www.bridgemanimages.com/en-US/sverre-a-boerretzen/oslo-july-22-1949-the-recording-of-the-movie-gategutter-takes-place-in-gothenburg-street-on/photograph/asset/8680166",
+      "publisher": "Bridgeman Images / Sverre A. Børretzen",
+      "accessedAt": "2026-03-02",
+      "sourceType": "archive",
+      "evidenceLevel": "primary",
+      "notes": "Fotografisk dokumentasjon av innspilling i Gøteborggata 22. juli 1949."
+    },
+    {
+      "title": "Wikipedia - Betrayed (2020 film)",
+      "url": "https://en.wikipedia.org/wiki/Betrayed_(2020_film)",
       "publisher": "Wikipedia",
       "accessedAt": "2026-03-02",
       "sourceType": "database",
       "evidenceLevel": "secondary",
-      "notes": "Brukes som sekundærkilde, ikke alene."
+      "notes": "Bekrefter at filmen handler om Braude-familien på Grünerløkka, men ble innspilt i Göteborg."
     },
     {
-      "title": "Wikipedia - Parkteatret (Oslo)",
-      "url": "https://no.wikipedia.org/wiki/Parkteatret_(Oslo)",
+      "title": "Wikipedia - Parkteatret",
+      "url": "https://en.wikipedia.org/wiki/Parkteatret",
       "publisher": "Wikipedia",
       "accessedAt": "2026-03-02",
       "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Oslo byleksikon - Parkteatret",
+      "url": "https://oslobyleksikon.no/side/Parkteatret",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Oslo byleksikon - Regina teater",
+      "url": "https://oslobyleksikon.no/side/Regina_teater",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
       "evidenceLevel": "secondary",
-      "notes": "Brukes som sekundærkilde, ikke alene."
+      "notes": "Bekrefter arkitekt Harald Aars, åpningsdato 31. mars 1916, 471 sitteplasser."
+    },
+    {
+      "title": "Arc! - Regina teater, Nordre gate 18b",
+      "url": "https://www.artemisia.no/arc/historisk/oslo/bygninger/regina.teater.html",
+      "publisher": "Artemisia / Arc!",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Oslo byleksikon - Ringen kino (Ringnes Park)",
+      "url": "https://oslobyleksikon.no/side/Ringen_kino_(Ringnes_Park)",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Bekrefter Arcasa Arkitekter, åpning 20. november 2008, bygget for Oslo Kino AS."
+    },
+    {
+      "title": "Cinema Treasures - Ringen Kino",
+      "url": "https://cinematreasures.org/theaters/45703",
+      "publisher": "Cinema Treasures",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Bekrefter 6 saler, 951 seter, 5 THX-godkjente saler."
+    },
+    {
+      "title": "Oslo byleksikon - Kinodrift",
+      "url": "https://oslobyleksikon.no/side/Kinodrift",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Nevner Biorama i Seilduksgata 17 som kino på Grünerløkka."
     },
     {
       "title": "Oslo byarkiv - Tobias 1/2004",
@@ -329,22 +466,79 @@
       "accessedAt": "2026-03-02",
       "sourceType": "archive",
       "evidenceLevel": "primary"
+    },
+    {
+      "title": "VisitOslo - Edvard Munchs Oslo",
+      "url": "https://www.osloway.no/post/edvards-gr%C3%BCnerl%C3%B8kka",
+      "publisher": "OsloWay / VisitOslo",
+      "accessedAt": "2026-03-02",
+      "sourceType": "guide",
+      "evidenceLevel": "secondary",
+      "notes": "Bekrefter Munchs adresser: Fossveien 7, Olaf Ryes plass 4, Schous plass 1."
+    },
+    {
+      "title": "Wikipedia - Edvard Munch (film)",
+      "url": "https://en.wikipedia.org/wiki/Edvard_Munch_(film)",
+      "publisher": "Wikipedia",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Wikipedia - Jan Vardøen",
+      "url": "https://no.wikipedia.org/wiki/Jan_Vard%C3%B8en",
+      "publisher": "Wikipedia",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "IMDB - 22 (2001)",
+      "url": "https://www.imdb.com/title/tt0312306/",
+      "publisher": "IMDB",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Wikipedia - The Worst Person in the World",
+      "url": "https://en.wikipedia.org/wiki/The_Worst_Person_in_the_World_(film)",
+      "publisher": "Wikipedia",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "VisitOslo - Worst Person in the World locations",
+      "url": "https://www.visitoslo.com/en/articles/worst-person-in-the-world/",
+      "publisher": "VisitOslo",
+      "accessedAt": "2026-03-02",
+      "sourceType": "guide",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "NRK TV - Kaveh 7 steg mot toppen",
+      "url": "https://tv.nrk.no/serie/kaveh-7-steg-mot-toppen/sesong/1",
+      "publisher": "NRK",
+      "accessedAt": "2026-03-02",
+      "sourceType": "primary",
+      "evidenceLevel": "primary"
     }
   ],
   "claims": [
     {
       "claimId": "film-001",
-      "claim": "Arne Skouens \"Gategutter\" (1949) er en tidlig norsk film med tydelig østkant- og Løkka-kontekst.",
+      "claim": "Gategutter (1949) ble innspilt i Gøteborggata på Rodeløkka, like ved Grünerløkka.",
       "status": "verified",
-      "confidenceScore": 0.83,
+      "confidenceScore": 0.95,
       "sources": [
         {
-          "title": "Store norske leksikon - Arne Skouen",
-          "url": "https://snl.no/Arne_Skouen",
-          "publisher": "SNL",
+          "title": "Bridgeman Images - Innspillingsfoto 22. juli 1949",
+          "url": "https://www.bridgemanimages.com/en-US/sverre-a-boerretzen/oslo-july-22-1949-the-recording-of-the-movie-gategutter-takes-place-in-gothenburg-street-on/photograph/asset/8680166",
+          "publisher": "Bridgeman Images",
           "accessedAt": "2026-03-02",
-          "sourceType": "database",
-          "evidenceLevel": "secondary"
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
         },
         {
           "title": "Wikipedia - Gategutter",
@@ -352,70 +546,85 @@
           "publisher": "Wikipedia",
           "accessedAt": "2026-03-02",
           "sourceType": "database",
-          "evidenceLevel": "secondary",
-          "notes": "Brukes som sekundærkilde, ikke alene."
+          "evidenceLevel": "secondary"
         }
       ],
+      "notes": "Fotografisk primærkilde bekrefter innspilling i Gøteborggata. Nå Rodeløkka, grenser direkte til Grünerløkka – tett tilknytning, men teknisk sett ikke Grünerløkka bydel.",
       "lastVerifiedAt": "2026-03-02"
     },
     {
       "claimId": "film-002",
-      "claim": "Parkteatret var en sentral kino på Grünerløkka gjennom store deler av 1900-tallet.",
+      "claim": "Parkteatret var en av Norges første kinoer, åpnet 1907, drevet til 1991.",
       "status": "verified",
-      "confidenceScore": 0.82,
+      "confidenceScore": 0.95,
       "sources": [
         {
-          "title": "Wikipedia - Parkteatret (Oslo)",
-          "url": "https://no.wikipedia.org/wiki/Parkteatret_(Oslo)",
+          "title": "Oslo byleksikon - Parkteatret",
+          "url": "https://oslobyleksikon.no/side/Parkteatret",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Wikipedia - Parkteatret",
+          "url": "https://en.wikipedia.org/wiki/Parkteatret",
           "publisher": "Wikipedia",
           "accessedAt": "2026-03-02",
           "sourceType": "database",
-          "evidenceLevel": "secondary",
-          "notes": "Brukes som sekundærkilde, ikke alene."
-        },
-        {
-          "title": "Oslo byarkiv - Tobias 1/2004",
-          "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf",
-          "publisher": "Oslo byarkiv",
-          "accessedAt": "2026-03-02",
-          "sourceType": "archive",
-          "evidenceLevel": "primary"
+          "evidenceLevel": "secondary"
         }
       ],
       "lastVerifiedAt": "2026-03-02"
     },
     {
       "claimId": "film-003",
-      "claim": "Erik Poppe har brukt Grünerløkka-miljø i filmprosjekter fra 2000-tallet.",
-      "status": "partially_verified",
-      "confidenceScore": 0.68,
+      "claim": "Erik Poppes Oslo-trilogi er innspilt i Grünerløkka/Grønland-området. Paulus kirke har sentral rolle i De usynlige (2008).",
+      "status": "verified",
+      "confidenceScore": 0.90,
       "sources": [
         {
-          "title": "Store norske leksikon - Erik Poppe",
-          "url": "https://snl.no/Erik_Poppe",
-          "publisher": "SNL",
+          "title": "Kristenfilm.com - De usynlige",
+          "url": "https://kristenfilm.com/film/301/deusynlige-2008/",
+          "publisher": "Kristenfilm",
           "accessedAt": "2026-03-02",
-          "sourceType": "database",
+          "sourceType": "review",
           "evidenceLevel": "secondary"
         },
         {
-          "title": "Wikipedia - Parkteatret (Oslo)",
-          "url": "https://no.wikipedia.org/wiki/Parkteatret_(Oslo)",
-          "publisher": "Wikipedia",
+          "title": "Screen Anarchy - Erik Poppe Returns With DE USYNLIGE",
+          "url": "https://screenanarchy.com/2008/07/hawaii-oslos-erik-poppe-returns-with-de-usynlige.html",
+          "publisher": "Screen Anarchy",
           "accessedAt": "2026-03-02",
-          "sourceType": "database",
-          "evidenceLevel": "secondary",
-          "notes": "Brukes som sekundærkilde, ikke alene."
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
         }
       ],
+      "notes": "Flere kilder bekrefter at Oslo-trilogien er filmet i Grønland/Grünerløkka-området og at Paulus kirke er sentral lokasjon.",
       "lastVerifiedAt": "2026-03-02"
     },
     {
       "claimId": "film-004",
-      "claim": "Edith Carlmar var Norges første kvinnelige filmregissør og hadde østkantserfaring i sitt kunstneriske blikk.",
+      "claim": "Edith Carlmar (1911-2003) var Norges første kvinnelige filmregissør og vokste opp på Grünerløkka.",
       "status": "verified",
-      "confidenceScore": 0.8,
+      "confidenceScore": 0.95,
       "sources": [
+        {
+          "title": "NRK - Filmens Grand Old Lady",
+          "url": "https://www.nrk.no/kultur/filmens-grand-old-lady-1.529714",
+          "publisher": "NRK",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Grokipedia - Edith Carlmar",
+          "url": "https://grokipedia.com/page/Edith_Carlmar",
+          "publisher": "Grokipedia",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
         {
           "title": "Store norske leksikon - Edith Carlmar",
           "url": "https://snl.no/Edith_Carlmar",
@@ -423,129 +632,232 @@
           "accessedAt": "2026-03-02",
           "sourceType": "database",
           "evidenceLevel": "secondary"
-        },
-        {
-          "title": "Oslo byarkiv - Tobias 1/2004",
-          "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf",
-          "publisher": "Oslo byarkiv",
-          "accessedAt": "2026-03-02",
-          "sourceType": "archive",
-          "evidenceLevel": "primary"
         }
       ],
+      "notes": "Født Trondheimsveien 2, vokst opp i Helgesens gate og Wilses gate. Sterk og verifisert Grünerløkka-tilknytning. Tidligere ble hennes østkant-bakgrunn omtalt vagt – nå bekreftet med konkrete adresser.",
       "lastVerifiedAt": "2026-03-02"
     },
     {
       "claimId": "film-005",
-      "claim": "Ringen Kino representerer en ny fase i kinotilbudet for Grünerløkka-området etter Parkteatret.",
-      "status": "partially_verified",
-      "confidenceScore": 0.62,
-      "sources": [
-        {
-          "title": "Wikipedia - Parkteatret (Oslo)",
-          "url": "https://no.wikipedia.org/wiki/Parkteatret_(Oslo)",
-          "publisher": "Wikipedia",
-          "accessedAt": "2026-03-02",
-          "sourceType": "database",
-          "evidenceLevel": "secondary",
-          "notes": "Brukes som sekundærkilde, ikke alene."
-        },
-        {
-          "title": "Oslo byarkiv - Tobias 1/2004",
-          "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf",
-          "publisher": "Oslo byarkiv",
-          "accessedAt": "2026-03-02",
-          "sourceType": "archive",
-          "evidenceLevel": "primary"
-        }
-      ],
-      "notes": "Bør verifiseres mot primærkilde fra Oslo Kino/Nordisk Film Kino.",
-      "lastVerifiedAt": "2026-03-02"
-    },
-    {
-      "claimId": "film-006",
-      "claim": "Dokumentaren \"Sanering – Grünerløkka\" omtaler byfornyelse og rivningsdebatt på 1970-tallet.",
-      "status": "partially_verified",
-      "confidenceScore": 0.63,
-      "sources": [
-        {
-          "title": "Oslo byarkiv - Tobias 1/2004",
-          "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf",
-          "publisher": "Oslo byarkiv",
-          "accessedAt": "2026-03-02",
-          "sourceType": "archive",
-          "evidenceLevel": "primary"
-        },
-        {
-          "title": "Wikipedia - Parkteatret (Oslo)",
-          "url": "https://no.wikipedia.org/wiki/Parkteatret_(Oslo)",
-          "publisher": "Wikipedia",
-          "accessedAt": "2026-03-02",
-          "sourceType": "database",
-          "evidenceLevel": "secondary",
-          "notes": "Brukes som sekundærkilde, ikke alene."
-        }
-      ],
-      "notes": "Mangler direkte primærlenke til sending/arkivoppføring.",
-      "lastVerifiedAt": "2026-03-02"
-    },
-    {
-      "claimId": "film-007",
-      "claim": "\"Den største forbrytelsen\" (2020) bruker arbeiderstrøk på Østlandet, inkludert Løkka-kontekst, i sin framstilling.",
-      "status": "partially_verified",
-      "confidenceScore": 0.61,
-      "sources": [
-        {
-          "title": "Wikipedia - Den største forbrytelsen",
-          "url": "https://no.wikipedia.org/wiki/Den_st%C3%B8rste_forbrytelsen",
-          "publisher": "Wikipedia",
-          "accessedAt": "2026-03-02",
-          "sourceType": "database",
-          "evidenceLevel": "secondary",
-          "notes": "Brukes som sekundærkilde, ikke alene."
-        },
-        {
-          "title": "Oslo byarkiv - Tobias 1/2004",
-          "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf",
-          "publisher": "Oslo byarkiv",
-          "accessedAt": "2026-03-02",
-          "sourceType": "archive",
-          "evidenceLevel": "primary"
-        }
-      ],
-      "lastVerifiedAt": "2026-03-02"
-    },
-    {
-      "claimId": "film-008",
-      "claim": "Grünerløkka har fungert både som historisk motiv og urban kulisse i norsk film over flere tiår.",
+      "claim": "Ringen Kino (2008) er Nordens første heldigitale kinosenter med 6 saler og 951 seter.",
       "status": "verified",
-      "confidenceScore": 0.79,
+      "confidenceScore": 0.93,
       "sources": [
         {
-          "title": "Store norske leksikon - Arne Skouen",
-          "url": "https://snl.no/Arne_Skouen",
-          "publisher": "SNL",
+          "title": "Oslo byleksikon - Ringen kino",
+          "url": "https://oslobyleksikon.no/side/Ringen_kino_(Ringnes_Park)",
+          "publisher": "Oslo byleksikon",
           "accessedAt": "2026-03-02",
           "sourceType": "database",
           "evidenceLevel": "secondary"
         },
         {
-          "title": "Oslo byarkiv - Tobias 1/2004",
-          "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf",
-          "publisher": "Oslo byarkiv",
+          "title": "Cinema Treasures - Ringen Kino",
+          "url": "https://cinematreasures.org/theaters/45703",
+          "publisher": "Cinema Treasures",
           "accessedAt": "2026-03-02",
-          "sourceType": "archive",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Arcasa Arkitekter, åpnet 20. november 2008, Nordisk Film Kino operatør, 5 THX-godkjente saler.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "film-006",
+      "claim": "Regina Teater (1916-1928) var Kristianias første spesialbygde kinobygning, tegnet av Harald Aars.",
+      "status": "verified",
+      "confidenceScore": 0.93,
+      "sources": [
+        {
+          "title": "Oslo byleksikon - Regina teater",
+          "url": "https://oslobyleksikon.no/side/Regina_teater",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Arc! - Regina teater",
+          "url": "https://www.artemisia.no/arc/historisk/oslo/bygninger/regina.teater.html",
+          "publisher": "Artemisia",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Åpnet 31. mars 1916, 471 sitteplasser, klassisistisk fasade med ioniske kapiteler. Overtatt av kommunen 1926, nedlagt 1928.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "film-007",
+      "claim": "Den største forbrytelsen (2020) handler om Braude-familien som bodde på Grünerløkka, men ble innspilt i Göteborg.",
+      "status": "verified",
+      "confidenceScore": 0.92,
+      "sources": [
+        {
+          "title": "Wikipedia - Betrayed (2020 film)",
+          "url": "https://en.wikipedia.org/wiki/Betrayed_(2020_film)",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "KK.no - Charles' ekteskap reddet livet hans",
+          "url": "https://www.kk.no/livet/charles-ekteskap-med-ikke-jodiske-ragnhild-reddet-livet-hans/73032808",
+          "publisher": "KK.no",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Braude-familien bodde i Øvre gate 4 (nå Korsgata 12). Filmen var Norges Oscar-kandidat men nådde ikke nominasjon. Viktig: innspilt i Göteborg, ikke på Løkka.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "film-008",
+      "claim": "Filmen 22 (2001) ble innspilt on location på Grünerløkka, Grønland og langs Akerselva.",
+      "status": "verified",
+      "confidenceScore": 0.88,
+      "sources": [
+        {
+          "title": "Wikipedia - 22 (film)",
+          "url": "https://no.wikipedia.org/wiki/22_(film)",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Innspilt over 16 dager i 1999 med budsjett på 100 000 kr. Norges første rene skrekkfilm.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "film-009",
+      "claim": "Pål Sletaune hadde bopel på Grünerløkka på 1990-tallet.",
+      "status": "unverified",
+      "confidenceScore": 0.45,
+      "sources": [],
+      "notes": "Ingen tilgjengelige kilder bekrefter spesifikk Grünerløkka-bopel. Sletaune er født i Oslo og studerte ved UiO. Budbringeren skildrer østkant-miljø, men dette beviser ikke bopel på Løkka.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "film-010",
+      "claim": "Thomas Robsahm var del av undergrunnsmiljøet på Grünerløkka på 1980-tallet med postadresse på Løkka.",
+      "status": "partially_verified",
+      "confidenceScore": 0.55,
+      "sources": [
+        {
+          "title": "Rockipedia - Thomas Robsahm",
+          "url": "https://www.rockipedia.no/artister/thomas_robsahm-34543/",
+          "publisher": "Rockipedia",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Født i Arendal. White Lord Jesus (1983-1985) er bekreftet. Spesifikk Grünerløkka-tilknytning (postadresse, bolig) er ikke bekreftet i tilgjengelige kilder.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "film-011",
+      "claim": "Jan Vardøen har regissert filmer med Grünerløkka som setting.",
+      "status": "partially_verified",
+      "confidenceScore": 0.50,
+      "sources": [
+        {
+          "title": "Wikipedia - Jan Vardøen",
+          "url": "https://no.wikipedia.org/wiki/Jan_Vard%C3%B8en",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "IMDB - Jan Vardøen",
+          "url": "https://www.imdb.com/name/nm5533747/",
+          "publisher": "IMDB",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Vardøen er filmskaper med sterk Løkka-tilknytning som restauratør. Hans filmer (Søvnløs i Lofoten, House of Norway, Sult 2020) handler derimot ikke om Grünerløkka. Filmen «Himmelveien» (nevnt i original data) finnes ikke i noen kilder. Sult 2020 er satt i Oslo generelt under pandemien.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "film-012",
+      "claim": "Verdens verste menneske (2021) refererer til Grünerløkka via platebutikken Voices.",
+      "status": "verified",
+      "confidenceScore": 0.88,
+      "sources": [
+        {
+          "title": "Wikipedia - The Worst Person in the World",
+          "url": "https://en.wikipedia.org/wiki/The_Worst_Person_in_the_World_(film)",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Karakteren Aksel nevner å ta trikken til Voices på Grünerløkka i en monolog. Filmen er primært filmet andre steder i Oslo.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "film-013",
+      "claim": "Biorama var en tidlig kino i Seilduksgata 17 på Grünerløkka.",
+      "status": "partially_verified",
+      "confidenceScore": 0.70,
+      "sources": [
+        {
+          "title": "Oslo byleksikon - Kinodrift",
+          "url": "https://oslobyleksikon.no/side/Kinodrift",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Nevnt i Oslo byleksikons kinoartikkel. Åpnings-/lukkeår og detaljer om drift er ukjente.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "film-014",
+      "claim": "Sanering – Grünerløkka (1972) var en NRK-dokumentar om byfornyelse og rivningsdebatt.",
+      "status": "verified",
+      "confidenceScore": 0.88,
+      "sources": [
+        {
+          "title": "NRK TV - Boliger-serien",
+          "url": "https://tv.nrk.no/serie/boliger/1972/FREP44006772",
+          "publisher": "NRK",
+          "accessedAt": "2026-03-02",
+          "sourceType": "primary",
           "evidenceLevel": "primary"
         }
       ],
+      "notes": "Del av NRK-serien «Boliger». Regissert av Bjørn Nilsen, Ellen Aanesen og Eva Brustad. 48 minutter. Tilgjengelig på NRK TV.",
       "lastVerifiedAt": "2026-03-02"
     }
   ],
   "researchMetadata": {
     "lastVerifiedAt": "2026-03-02",
-    "verifiedBy": "codex-gpt-5",
-    "coverageScore": 0.7,
-    "staleAfterDays": 120
+    "verifiedBy": "claude-opus-4-6-deep-research",
+    "coverageScore": 0.85,
+    "staleAfterDays": 120,
+    "methodology": "Systematisk verifisering mot primær- og sekundærkilder. Edith Carlmars Løkka-tilknytning bekreftet med konkrete adresser. Gategutter-innspillingssted presisert til Gøteborggata/Rodeløkka. Den største forbrytelsen innspillingssted korrigert (Göteborg, ikke Løkka). Ny kino (Biorama) og ny film (Verdens verste menneske) lagt til. Jan Vardøens filmografi korrigert. Pål Sletaunes Løkka-bopel nedgradert til uverifisert.",
+    "majorCorrections": [
+      "Edith Carlmar: Vag 'østkant'-påstand erstattet med verifiserte adresser (Trondheimsveien 2, Helgesens gate, Wilses gate)",
+      "Gategutter: Presisert til Gøteborggata, Rodeløkka (ikke generelt 'Grünerløkka gater')",
+      "Den største forbrytelsen: Innspilt i Göteborg, Sverige – ikke på Grünerløkka. Ikke Oscar-nominert (var kandidat men nådde ikke nominasjon)",
+      "Jan Vardøen: 'Himmelveien (2014)' erstattet med verifiserte filmer. Ingen av hans filmer handler om Grünerløkka",
+      "Villa Paradiso-oppføringen fjernet fra filmlisten (var ikke en film)",
+      "Pål Sletaune: Grünerløkka-bopel nedgradert fra 'verified' til 'unverified' (ingen kilder bekrefter det)",
+      "Ny kino Biorama (Seilduksgata 17) lagt til",
+      "Verdens verste menneske (2021) og Joachim Trier lagt til",
+      "Arne Skouen medregissør Ulf Greber lagt til for Gategutter"
+    ]
   },
   "crossReferences": [
     {
@@ -567,12 +879,52 @@
       ]
     },
     {
+      "type": "person",
+      "idOrName": "Edith Carlmar",
+      "linkedSections": [
+        "ildsjeler",
+        "historie"
+      ]
+    },
+    {
+      "type": "person",
+      "idOrName": "Edvard Munch",
+      "linkedSections": [
+        "billedkunst",
+        "historie",
+        "ildsjeler"
+      ]
+    },
+    {
+      "type": "person",
+      "idOrName": "Jan Vardøen",
+      "linkedSections": [
+        "ildsjeler",
+        "kultur"
+      ]
+    },
+    {
+      "type": "person",
+      "idOrName": "Kaveh Kholardi",
+      "linkedSections": [
+        "hiphop",
+        "kultur"
+      ]
+    },
+    {
       "type": "event",
       "idOrName": "Sanering på 1970-tallet",
       "linkedSections": [
         "historie",
         "mediebildet",
         "kultur"
+      ]
+    },
+    {
+      "type": "event",
+      "idOrName": "Deportasjonen av norske jøder 1942",
+      "linkedSections": [
+        "historie"
       ]
     },
     {
@@ -583,6 +935,29 @@
         "litteratur",
         "kultur"
       ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Fossveien",
+      "linkedSections": [
+        "billedkunst",
+        "historie"
+      ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Paulus kirke",
+      "linkedSections": [
+        "historie"
+      ]
     }
-  ]
+  ],
+  "metadata": {
+    "filmCount": 7,
+    "filmmakerCount": 7,
+    "cinemaCount": 4,
+    "documentaryCount": 3,
+    "tvSeriesCount": 3,
+    "generatedAt": "2026-03-02T00:00:00Z"
+  }
 }

@@ -1,0 +1,778 @@
+{
+  "id": "arkitektur",
+  "title": "Arkitektur og Byrom på Grünerløkka",
+  "subtitle": "Fra murgårder til Vulkan – 160 år med byutvikling",
+  "intro": "Grünerløkka er et levende arkitekturmuseum som spenner fra 1860-tallets arbeiderleiegårder til 2010-tallets energipositive kontorbygg. Bydelen har gjennomgått en dramatisk transformasjon: fra rivningstruede murgårder på 1960-tallet, via Norges største byfornyelsesprosjekt på 1980-tallet, til dagens attraktive bystrøk der industrihistorie møter moderne arkitektur langs Akerselva.",
+  "sections": [
+    {
+      "id": "murgaarder",
+      "title": "Murgårdene (1860–1900)",
+      "description": "Grünerløkkas murgårder utgjør kjernen i Oslos historiske murby – et sammenhengende bygningsmiljø fra andre halvdel av 1800-tallet med nasjonal verneverdi."
+    },
+    {
+      "id": "byfornyelsen",
+      "title": "Byfornyelsen (1960–2000)",
+      "description": "Den sentrale fortellingen om Grünerløkka: fra rivningsplaner og motorveitrasé til Norges største rehabiliteringsprosjekt. Beboerprotester reddet bydelen."
+    },
+    {
+      "id": "ikoniske-bygg",
+      "title": "Ikoniske Bygg",
+      "description": "Kirker, skoler, bryggerier og teatre som definerer bydelens karakter og identitet gjennom 160 år."
+    },
+    {
+      "id": "parker",
+      "title": "Parker og Byrom",
+      "description": "Fra Birkelundens 1. mai-tradisjoner til Olaf Ryes plass som bydelens urbane stue – parkene er Grünerløkkas grønne lunger og sosiale møteplasser."
+    },
+    {
+      "id": "moderne",
+      "title": "Moderne Arkitektur (2000–)",
+      "description": "Vulkan-området, studentboliger og fortetting i murbyen – hvordan ny arkitektur møter historisk bygningsmiljø."
+    }
+  ],
+  "buildingStyles": [
+    {
+      "id": "murgaarder",
+      "name": "Murgårder (Leiegårder)",
+      "period": "1860–1900",
+      "description": "Murgårdene på Grünerløkka ble reist etter at murtvang ble innført i 1858 og området ble innlemmet i Christiania i 1859. Industrialisten Thorvald Meyer kjøpte store tomtearealer og engasjerte arkitekt Georg Andreas Bull til å utarbeide reguleringsplanen i 1862. Resultatet ble et rutenettmønster av kvartaler med 4–5 etasjers leiegårder i teglstein, organisert rundt bakgårder. Fasadene var i nyklassisistisk stil på 1860–70-tallet, deretter nyrenessanse med sterkere vindusmarkeringer og dekorative elementer fra 1880-årene. Lokale teglverk, steinbrudd og byggevarehandlere forsynte byggeplassene, og mange av arkitektene var utdannet i Tyskland.",
+      "characteristics": [
+        "4–5 etasjer i teglstein med bærende yttervegger og kjernemur",
+        "Bakgårdsstruktur med inngang fra portrom",
+        "Nyklassisistiske fasader (1860–70-tallet) og nyrenessanse (1880–90-tallet)",
+        "Gesimser i teglstein mellom tak og vegg",
+        "Trapperom i mur med tregulv i leiligheter",
+        "Rektangulært gatemønster etter Georg Andreas Bulls plan"
+      ],
+      "notableExamples": [
+        {
+          "address": "Birkelunden-kvartalet (Toftes gate / Thorvald Meyers gate)",
+          "description": "Det fredede kulturmiljøet rundt Birkelunden med 139 bygninger fra 1870–90-tallet, fredet av Riksantikvaren i 2006.",
+          "yearBuilt": 1875
+        },
+        {
+          "address": "Thorvald Meyers gate (hele strekningen)",
+          "description": "Hovedgaten gjennom Grünerløkka, anlagt av Thorvald Meyer selv med krav om godkjente fasadetegninger og forbud mot fabrikkdrift.",
+          "yearBuilt": 1864
+        },
+        {
+          "address": "Markveien 1 (hjørnet Markveien/Toftes gate)",
+          "description": "Typisk murgård fra saneringsdebatten – planlagt revet på 1970-tallet, men reddet av beboerprotester og rehabilitert under byfornyelsen.",
+          "yearBuilt": 1882
+        }
+      ]
+    },
+    {
+      "id": "nyrenessanse",
+      "name": "Nyrenessanse / Historisme",
+      "period": "1880–1900",
+      "description": "Fra 1880-årene dominerte nyrenessansen på Grünerløkka med sterkere markeringer av vinduer og etasjeskiller, og rene dekorative elementer på fasadene. Historismen betegner en internasjonal stilretning med røtter i 1800-tallets vakte historiske nysgjerrighet. Mange av de mest utsmykkede fasadene på Thorvald Meyers gate og rundt Birkelunden stammer fra denne perioden.",
+      "characteristics": [
+        "Kraftigere vindusinnramming og etasjeskiller",
+        "Dekorative elementer fra klassiske forbilder",
+        "Rustika på grunnmur og 1. etasje",
+        "Pilastre og gesimsbånd",
+        "Utsmykkede portaler og trappeoppganger"
+      ],
+      "notableExamples": [
+        {
+          "address": "Thorvald Meyers gate 56–60",
+          "description": "Sammenhengende fasaderekke med typisk nyrenessansedekor fra byggeboom-perioden.",
+          "yearBuilt": 1890
+        }
+      ]
+    },
+    {
+      "id": "nygotikk",
+      "name": "Nygotikk",
+      "period": "1880–1900",
+      "description": "Den nygotiske stilen ble brukt på flere av Grünerløkkas mest prominente offentlige bygninger, særlig Paulus kirke. Stilen er inspirert av middelalderens gotikk med spisse buer, vertikale linjer og detaljer i teglstein. Arkitekten Henrik Bull brakte denne stilen til bydelen med sitt konkurransevinnerprosjekt for Paulus kirke i 1887.",
+      "characteristics": [
+        "Spisse buevinduer og vertikale linjer",
+        "Teglstein som hovdmateriale",
+        "Strebebuer og dekorative blindarkader",
+        "Tårnspir og gavler",
+        "Tysk-inspirert nygotikk"
+      ],
+      "notableExamples": [
+        {
+          "address": "Paulus kirke, Thorvald Meyers gate 1",
+          "description": "Henrik Bulls nygotiske mesterverkskirke fra 1892, bygget i rød teglstein med inngang i øst mot Birkelunden.",
+          "yearBuilt": 1892
+        }
+      ]
+    },
+    {
+      "id": "funkis",
+      "name": "Funksjonalisme",
+      "period": "1930–1950",
+      "description": "Funksjonalismen fikk begrenset fotfeste på Grünerløkka fordi bydelen allerede var ferdig utbygd da stilen slo igjennom i Norge etter Stockholmsutstillingen i 1930. Enkelte tilbygg, ombygginger og gatefasader ble utført i funksjonalistisk stil med rene linjer, store vindusflater og fravær av ornamentikk. Stilen representerte et sosialt program med rasjonell arkitektur og moderne materialer.",
+      "characteristics": [
+        "Rene, horisontale linjer",
+        "Store vindusflater og hjørnevinduer",
+        "Flate tak",
+        "Betong og stål som bærestruktur",
+        "Fravær av dekorative elementer"
+      ],
+      "notableExamples": [
+        {
+          "address": "Diverse ombygginger langs Trondheimsveien",
+          "description": "Enkelte butikkfasader og tilbygg fra 1930–40-tallet fikk funksjonalistisk utforming.",
+          "yearBuilt": 1935
+        }
+      ]
+    },
+    {
+      "id": "moderne",
+      "name": "Moderne arkitektur",
+      "period": "2000–",
+      "description": "Fra årtusenskiftet har Grünerløkka fått en rekke nye bygg som balanserer mellom å respektere det historiske bymiljøet og å tilføre samtidsarkitektur. Vulkan-området er det mest ambisiøse prosjektet, der LPO arkitekter utviklet en masterplan som forener industritomta ved Akerselva med kultur, næring og boliger. Bellona-bygget (2010) var Norges mest energieffektive bygg da det sto ferdig.",
+      "characteristics": [
+        "Miljøsertifiserte bygg med fokus på energieffektivitet",
+        "Blandet bruk: kultur, næring, bolig i samme kvartal",
+        "Tilpasning til eksisterende murmiljø i materialvalg og skala",
+        "Glass, stål og betong i kombinasjon med teglstein",
+        "Aktive fasader mot gateplan"
+      ],
+      "notableExamples": [
+        {
+          "address": "Vulkan-området, Maridalsveien 17",
+          "description": "Helhetlig byutviklingsprosjekt av Aspelin Ramm og LPO arkitekter (2004–2014) med Mathallen, Dansens Hus, Bellona-bygget og boliger.",
+          "yearBuilt": 2012
+        },
+        {
+          "address": "Grüner Village, Seilduksgata",
+          "description": "75 leiligheter i tre ulike bygningstyper utviklet av Naturbetong AS, et moderne fortettingsprosjekt innenfor murbyen.",
+          "yearBuilt": 2018
+        }
+      ]
+    }
+  ],
+  "urbanRenewal": {
+    "intro": "Byfornyelsen på Grünerløkka er en av Norges viktigste byhistorier. Fra 1930-tallet truet rivningsplaner med å utslette hele bydelen. Gjennom tre tiår med beboermotstand, politiske kamper og til slutt Stortingsvedtak, ble Grünerløkka reddet og rehabilitert i stedet for revet. Over 20 000 boliger ble fornyet i Oslo, og den historiske murbyen ble bevart for fremtidige generasjoner.",
+    "timeline": [
+      {
+        "year": 1938,
+        "title": "Første saneringsplaner",
+        "description": "De første saneringsplanene for Grünerløkka utarbeides. Murgårdene anses som utdaterte og uhygieniske, og total riving vurderes. Planene blir lagt på hylla på grunn av andre verdenskrig."
+      },
+      {
+        "year": 1948,
+        "title": "Byutvidelsen og forsømmelse",
+        "description": "Etter krigen velger Oslo å bygge ut nye bydeler i tidligere Aker kommune fremfor å rehabilitere indre øst. Grünerløkka forfaller ytterligere mens politikerne planlegger fremtidig sanering."
+      },
+      {
+        "year": 1961,
+        "title": "Arkitektkonkurranse om ny bydel",
+        "description": "Oslo Byes Vel arrangerer en arkitektkonkurranse der fire grupper tegner en helt ny «satellittby» på Grünerløkka med høyblokker og grøntområder. Ingen av forslagene tar hensyn til eksisterende miljø eller beboere."
+      },
+      {
+        "year": 1968,
+        "title": "Motorveitrasé vedtas",
+        "description": "Bygningsrådet vedtår at en motorveitrasé skal legges tvers gjennom Grünerløkka. Samtidig innføres byggeforbud i området. Hele Nedre Grünerløkka er planlagt fjernet til fordel for motorvei og moderne høyblokker."
+      },
+      {
+        "year": 1971,
+        "title": "Grünerløkka leieboerforening stiftes",
+        "description": "Over 400 leieboere organiserer seg i Grünerløkka leieboerforening. Kampen mot saneringsspøkelset som har hjemsøkt bydelen i over 30 år intensiveres. Slagordet «Husk – det er våre hjem det gjelder» blir samlende."
+      },
+      {
+        "year": 1971,
+        "title": "Reguleringsplan for Grünerbygg-kvartalet",
+        "description": "Bystyret godkjenner en reguleringsplan som innebærer totalriving av kvartalet avgrenset av Markveien, Nordre gate, Fossveien og Sofienberggata."
+      },
+      {
+        "year": 1973,
+        "title": "Ny politisk kurs",
+        "description": "Arkitekt Roar Wik fra SF, som ble byråd for bolig- og miljøpolitikk etter kommunevalget i 1971, får vedtatt innstillingen «Fornyelse av boliger i eldre bystrøk». Et vendepunkt fra sanering til fornyelse."
+      },
+      {
+        "year": 1976,
+        "title": "Okkupasjon av Fossveien 1",
+        "description": "Aktivister fra Grünerløkka leieboerforening okkuperer deler av en kommunal eiendom i Fossveien 1 som er planlagt revet. Aksjonen skaper stor offentlig oppmerksomhet."
+      },
+      {
+        "year": 1976,
+        "title": "Stortingsvedtaket",
+        "description": "Stortinget vedtar å erstatte saneringsloven med byfornyelsesloven. Husbanken får mandat til å gi rimelige lån til utbedring og fornyelse av eldre boliger. Dette er det avgjørende vendepunktet som redder Grünerløkka.",
+        "significance": "Stortingsvedtaket i 1976 markerer det definitive skiftet fra total sanering til rehabilitering. Uten dette vedtaket ville mesteparten av Grünerløkkas murgårder trolig blitt revet."
+      },
+      {
+        "year": 1977,
+        "title": "Saneringsspøkelset forsvinner",
+        "description": "Saneringsloven avskaffes til fordel for «Lov om fornyelse av tettbygde strøk». Saneringsplanen for Grünerløkka viker for rehabiliteringsplaner. Den første visningsleiligheten for byfornyelsen åpnes på Grünerløkka."
+      },
+      {
+        "year": 1980,
+        "title": "Byfornyelsen starter",
+        "description": "Det store rehabiliteringsarbeidet begynner for alvor. Murgårdene oppgraderes til «30-årsstandard»: fasader pusses opp, gårdsrom rustes opp, isolasjon og brannsikring forbedres, bad og WC installeres, og minstekrav til leilighetsstørrelse innføres."
+      },
+      {
+        "year": 1985,
+        "title": "Bakgårdssanering i Sølvsmiekvartalet",
+        "description": "Sølvsmiekvartalet (Helgesens gate / Fossveien) gjennomgår en vellykket bakgårdssanering med kommunalt tilskudd og beboerdugnad. Bakgårdsbygg rives for å gi mer lys og grønne utearealer. Prosjektet blir et forbilde."
+      },
+      {
+        "year": 1990,
+        "title": "Kritikk og krise",
+        "description": "Etter ti år med byfornyelse vurderes resultatene som svært blandede. Kritikk rettes mot dårlig håndverk, høye kostnader og svak økonomistyring. Mange fornyede borettslag er teknisk konkurs innen 1992–93."
+      },
+      {
+        "year": 2000,
+        "title": "Grünerløkka transformert",
+        "description": "Bydelen har gjennomgått en total forvandling fra nedslitt arbeiderstrøk til et av Oslos mest attraktive boligområder. Gentrifiseringen er i full gang med nye kafeer, butikker og stigende boligpriser."
+      }
+    ],
+    "keyEvents": [
+      {
+        "year": 1976,
+        "title": "Stortingsvedtaket – fra sanering til fornyelse",
+        "description": "Stortinget vedtar å erstatte saneringsloven med byfornyelsesloven. Husbanken får mandat til å finansiere rehabilitering av eldre boliger med rimelige lån. Over 20 000 boliger i Oslo fornyes til vedtatt minstestandard i de påfølgende tiårene.",
+        "significance": "Det viktigste enkeltvedtaket i Grünerløkkas moderne historie. Uten dette ville bydelen trolig vært revet og erstattet med modernistiske boligblokker og motorveier."
+      },
+      {
+        "year": 1971,
+        "title": "Grünerløkka leieboerforening stiftes",
+        "description": "Over 400 leieboere organiserer seg og kjemper mot sanering og for gradvis fornyelse av eksisterende boligmasse. Foreningen blir en modell for beboermotstand i hele Oslo.",
+        "significance": "Organiseringen av beboerne var avgjørende for å snu den politiske holdningen fra riving til rehabilitering."
+      },
+      {
+        "year": 2006,
+        "title": "Birkelunden fredes",
+        "description": "Riksantikvaren freder Birkelunden kulturmiljø – det første fredede bymiljøet i Norge. Fredningen omfatter 116 dekar med 139 bygninger, Birkelunden park, Paulus kirke og Grünerløkka skole.",
+        "significance": "Fredningen bekrefter Grünerløkkas nasjonale verneverdi og sikrer murbymiljøet for fremtiden."
+      }
+    ]
+  },
+  "iconicBuildings": [
+    {
+      "name": "Paulus kirke",
+      "architect": "Henrik Bull",
+      "yearBuilt": 1892,
+      "address": "Thorvald Meyers gate 1",
+      "style": "Nygotikk (tysk-inspirert)",
+      "currentUse": "Kirke (Paulus og Sofienberg menighet)",
+      "heritageStatus": "Del av Birkelunden fredede kulturmiljø (Riksantikvaren, 2006)",
+      "description": "Nygotisk langkirke i rød teglstein, tegnet av den 25 år gamle Henrik Bull etter en arkitektkonkurranse i 1887. Kirken danner pendant til Grünerløkka skole på motsatt side av Birkelunden. Uvanlig planløsning med inngang i øst (mot parken) og kor i vest. 400 sitteplasser.",
+      "significance": "Et av Henrik Bulls første verk – arkitekten som senere ble Norges fremste jugendstil-representant med Nationaltheatret og Historisk museum. Kirken er et sentralt landemerke på Grünerløkka."
+    },
+    {
+      "name": "Grünerløkka skole",
+      "architect": "Henrik Nissen",
+      "yearBuilt": 1895,
+      "address": "Toftes gate 44",
+      "style": "Historisme / nyrenessanse",
+      "currentUse": "Barneskole (1.–7. trinn)",
+      "heritageStatus": "Del av Birkelunden fredede kulturmiljø (Riksantikvaren, 2006)",
+      "description": "Treetasjes skolebygg i teglstein som danner et lukket kvadrat rundt skolegården, med fire hjørnetårn. Planlagt fra 1893, ferdigstilt 1. april 1895 og innviet 25. oktober 1895 med 1555 elever. Arkitekt Henrik Nissen tegnet også Frimurerlogen og Oslo Sparebank.",
+      "significance": "En av Grünerløkkas mest markante bygninger, plassert rett ved Birkelunden. Sammen med Paulus kirke utgjør skolen det arkitektoniske rammeverket rundt parken."
+    },
+    {
+      "name": "Schous bryggeri",
+      "architect": "Asmus Lenschow",
+      "yearBuilt": 1872,
+      "address": "Trondheimsveien 2",
+      "style": "Industriarkitektur, teglstein",
+      "currentUse": "Schous kulturbryggeri (Popsenteret, Riksscenen, Øvingshotellet, Oslo Musikk- og kulturskole)",
+      "heritageStatus": "Verneverdig (Byantikvaren, Gul liste)",
+      "description": "Bryggeriet ble tegnet av tyskfødte murmester Asmus Lenschow og bygget i 1872 for Christian Julius Schou. Bryggeriet var Norges eldste da det stengte i 1981. Etter at BI flyttet til Nydalen i 2005, etablerte staten og Oslo kommune Schous kulturbryggeri i 2007 med Popsenteret, Riksscenen for folkemusikk, øvingshotell med 49 rom og kulturskole.",
+      "significance": "Et viktig eksempel på vellykket transformasjon fra industri til kultur. Bryggeriets historie spenner fra Grünerløkkas industrielle epoke til dagens kulturkvartal."
+    },
+    {
+      "name": "Parkteatret",
+      "architect": "Frithjof Aslesen (1907) / Erik Glosimodt (1918–1922)",
+      "yearBuilt": 1907,
+      "address": "Olaf Ryes plass 11",
+      "style": "Nyklassisisme (etter ombygging 1918–1922)",
+      "currentUse": "Konsertscene og bar (Parkteatret Bar & Scene)",
+      "heritageStatus": "Olavsrosa (Norsk Kulturarv, 2007)",
+      "description": "Opprinnelig åpnet i 1907 som «Kristiania Bryggeri Grünerløkkens Kinematograf», tegnet av arkitekt Frithjof Aslesen. Omdøpt til «Grünerløkkens Verdenstheater» i 1913, deretter totalombygget i 1918–1922 med ny nyklassisistisk fasade av Erik Glosimodt. Kommunal kino 1926–1991, Nordic Black Theatre 1992–2001, deretter konsertscene.",
+      "significance": "Et av Grünerløkkas eldste kulturhus med uavbrutt kulturbruk siden 1907. Bygningen forteller historien om bydelens underholdningskultur gjennom 120 år."
+    },
+    {
+      "name": "Mathallen Oslo",
+      "architect": "LPO arkitekter",
+      "yearBuilt": 2012,
+      "address": "Vulkan 5, Maridalsveien 17",
+      "style": "Moderne, industriinspirert",
+      "currentUse": "Matmarked med over 30 spesialbutikker og serveringssteder",
+      "heritageStatus": "Ingen (nybygg, mottok Olavsrosa fra Norsk Kulturarv)",
+      "description": "Mathallen åpnet 2. oktober 2012 som en del av Aspelin Ramms Vulkan-utvikling. LPO arkitekter transformerte den tidligere industritomta til et matmarked inspirert av europeiske mathaller. Bygget er integrert i Vulkan-områdets masterplan som også inkluderer Dansens Hus, Bellona-bygget og boliger.",
+      "significance": "Mathallen har blitt et av Oslos mest besøkte matmål og et symbol på Grünerløkkas transformasjon fra industriområde til kreativt bystrøk."
+    },
+    {
+      "name": "Bellona-bygget",
+      "architect": "LPO arkitekter",
+      "yearBuilt": 2010,
+      "address": "Vulkan 11, Maridalsveien 17",
+      "style": "Moderne, energipositivt",
+      "currentUse": "Kontorbygg (Miljøstiftelsen Bellona m.fl.)",
+      "heritageStatus": "Ingen (nybygg)",
+      "description": "Da Bellona-bygget sto ferdig i 2010, var det Norges mest energieffektive kontorbygg. Den sagtannformede sørfasaden har glassfelt som vinkles nedover og solcellpaneler som skjermer mot overoppheting. Bygget er koblet til Vulkans lokale energisentral med bergvarme, solenergi og fjernvarme.",
+      "significance": "Et internasjonalt forbilde for energieffektiv arkitektur i urban kontekst. Viser at ambisiøs miljøarkitektur kan integreres i et historisk bygningsmiljø."
+    },
+    {
+      "name": "Dansens Hus",
+      "architect": "LPO arkitekter",
+      "yearBuilt": 2008,
+      "address": "Vulkan 1, Maridalsveien 17",
+      "style": "Moderne",
+      "currentUse": "Nasjonal scene for moderne dans",
+      "heritageStatus": "Ingen (nybygg)",
+      "description": "Dansens Hus er en nasjonal scene for norsk og internasjonal samtids- og moderne dans. Bygget inneholder en hovedscene med 350 plasser, biscene, foajé med kafé og administrasjonslokaler. Åpnet som del av Vulkan-utviklingen.",
+      "significance": "Den eneste nasjonale scenen dedikert til dans i Norge. Dansens Hus har styrket Grünerløkkas posisjon som et kulturelt tyngdepunkt i Oslo."
+    },
+    {
+      "name": "Dælenenga klubbhus",
+      "architect": "Harald Aars (byarkitekt)",
+      "yearBuilt": 1928,
+      "address": "Seilduksgata 30",
+      "style": "Nyklassisisme",
+      "currentUse": "Idrettshus (garderober, bryter- og boksehall)",
+      "heritageStatus": "Vurdert som kulturminne av regional betydning (Riksantikvaren)",
+      "description": "Klubbhuset på Dælenenga ble tegnet av byarkitekt Harald Aars og åpnet i 1928, tolv år etter at idrettsparken sto ferdig i 1916. Teglsteinsbygningen på 900 m² har garderobebygg og kafé. Under vinter-OL i Oslo 1952 ble anlegget oppgradert med ishockeyklokke, lysanlegg og nye vant.",
+      "significance": "Dælenenga er uløselig knyttet til arbeideridretten på Grünerløkka. Grüner IL og AIF hadde her sin hovedarena fra 1920-tallet. Klubbhuset er en av bydelens best bevarte idrettsbygninger."
+    },
+    {
+      "name": "Hjula Væveri-bygningene",
+      "architect": "Oluf Roll (sivilingeniør)",
+      "yearBuilt": 1855,
+      "address": "Hjula, ved Akerselva (Nedre Foss)",
+      "style": "Industriarkitektur, teglstein",
+      "currentUse": "Kulturlokaler og kontorer",
+      "heritageStatus": "Verneverdig (del av Akerselva miljøpark)",
+      "description": "Hjula Væveri ble grunnlagt i 1855 rett ved Akerselva, tegnet av sivilingeniør Oluf Roll for hans svoger Halvor Schou. I sin storhetstid hadde veveriet ca. 800 ansatte, hovedsakelig kvinner. Fabrikken ble nedlagt i 1957. Bygningene langs elva er bevart og har endret seg overraskende lite siden de var nye.",
+      "significance": "Et av de viktigste industrielle kulturminnene langs Akerselva. Hjula Væveri representerer den industrielle revolusjonen som formet Grünerløkka og hele østkanten av Oslo."
+    },
+    {
+      "name": "Sofienberg kirke",
+      "architect": "Jakob Wilhelm Nordan",
+      "yearBuilt": 1877,
+      "address": "Sofienberggata 60 (i Sofienbergparken)",
+      "style": "Nygotikk",
+      "currentUse": "Kirke",
+      "heritageStatus": "Verneverdig (Byantikvaren, Gul liste)",
+      "description": "Sofienberg kirke ble tatt i bruk i 1877, plassert midt i det som den gang var Sofienberg kirkegård (i bruk fra 1858). Kirken ble tegnet av Jakob Wilhelm Nordan i nygotisk stil. I dag ligger kirken i Sofienbergparken etter at kirkegården gradvis ble omgjort til park fra 1961.",
+      "significance": "Kirken er et arkitektonisk ankerpunkt i Sofienbergparken og vitner om bydelens historie som gravplass og overgang til rekreasjon."
+    }
+  ],
+  "parks": [
+    {
+      "name": "Birkelunden",
+      "established": 1882,
+      "area": "116 dekar (fredningsområdet totalt)",
+      "history": "Parken ble anlagt av Thorvald Meyer på 1860-tallet som del av hans regulering av Grünerløkka og overdratt gratis til kommunens hagestelletat i 1882. Den var allerede utviklet med en metervis jerngjerde og bjørketrær langs kantene. I 2006 ble Birkelunden med omkringliggende bebyggelse Norges første fredede bymiljø – et 116 dekar stort område med 139 bygninger.",
+      "currentUse": "Park, loppemarked (søndager mai–oktober), kulturarrangmenter, 1. mai-feiringer",
+      "culturalSignificance": "Birkelunden har vært arnested for arbeiderbevegelsens 1. mai-feiringer siden 1890-tallet og er fast arena for Grünerløkkas loppemarked. Fredningen i 2006 anerkjenner parkens og det omgivende murbymiljøets nasjonale verdi som byplanhistorie, kulturhistorie og arkitektur fra andre halvdel av 1800-tallet.",
+      "description": "Birkelunden er hjertet i det fredede kulturmiljøet på Grünerløkka, flankert av Paulus kirke og Grünerløkka skole. Parken med sine karakteristiske bjørketrær er bydelens viktigste møteplass og en av Oslos mest verdifulle kulturhistoriske grøntområder."
+    },
+    {
+      "name": "Olaf Ryes plass",
+      "established": 1864,
+      "area": "10 mål",
+      "history": "Opprinnelig del av en åpen eng kjøpt av kommunen i 1863 og regulert som plass i forbindelse med anleggelsen av Thorvald Meyers gate. Oppkalt i 1864 etter generalmajor Olaf Rye (1791–1849). Utviklet til park i 1890. En bronsebyste av Eilert Sundt (av Mathias Skeibrok) ble reist i 1892. Edvard Munch bodde ved plassen 1882–1883.",
+      "currentUse": "Bypark, uteservering, kulturarrangementer, 17. mai-feiringer",
+      "culturalSignificance": "Olaf Ryes plass er Grünerløkkas mest kjente urbane «stue» – et samlingssted for beboere og besøkende året rundt. I 1907 åpnet Grünerløkkens Folketheater (senere Parkteatret) ved plassen. Plassen har siden 1990-tallet vært sentrum for kafékultur og uteliv på Grünerløkka.",
+      "description": "Olaf Ryes plass er omgitt av murgårder fra 1870–90-tallet, med Parkteatret som et kulturelt ankerpunkt. Plassen er avgrenset av Sofienberggata, Thorvald Meyers gate, Grüners gate og Markveien. Her møtes bydelens historie og samtid."
+    },
+    {
+      "name": "Sofienbergparken",
+      "established": 1961,
+      "area": "74 mål",
+      "history": "Området var opprinnelig Sofienberg kirkegård, tatt i bruk som byens alminnelige gravplass i 1858. Kirkegården ble utvidet flere ganger. I 1961 ble området vest for Sofienberg kirke gjort om til park, og innen 1972 var hele området (unntatt den jødiske gravlunden) omgjort til parkområde. Den jødiske gravlunden fra 1869 ble fredet av Riksantikvaren i desember 2022.",
+      "currentUse": "Bypark, rekreasjon, idrett, friluftsliv",
+      "culturalSignificance": "Sofienbergparken rommer flere historiske lag: fra gravplass til folkepark, med en fredet jødisk gravlund som vitner om Oslos jødiske historie. Den jødiske kirkegården (672 m²) ble overdratt til den mosaiske menigheten i 1869 – den første jødiske gravplassen i Oslo. Første begravelse i 1885, siste i 1940.",
+      "description": "Sofienbergparken er en av Oslos mest brukte parker, med Sofienberg kirke (1877) i sentrum. Parken ligger mellom Grünerløkka og Sofienberg og er et viktig rekreasonsområde for bydelen."
+    },
+    {
+      "name": "Schous plass",
+      "established": 1887,
+      "area": "Ca. 5 mål",
+      "history": "Oppkalt i 1874 etter bryggeriier Christian Julius Schou (1792–1874). Plassen ble først opparbeidet i 1887 og omgjort til park mellom 1915 og 1916. Parkfasilitetene ble fornyet i 1986. Historisk hadde plassen et tjern der barn badet om sommeren og skøytet om vinteren – tjernet ble fylt igjen etter tre drukningsulykker rundt 1900. Edvard Munch bodde ved Schous plass 1885–1889.",
+      "currentUse": "Bypark med lekeplass",
+      "culturalSignificance": "Schous plass knytter sammen bryggerhistorien (Schous bryggeri like ved) med bydelens sosiale historie. At både Edvard Munch bodde her og det historiske tjernet forteller om et byrom som har vært sentralt i Grünerløkkas hverdagsliv.",
+      "description": "Schous plass ligger mellom Thorvald Meyers gate og Toftes gate, bak det tidligere Schous bryggeri. En rolig park med lekeplass som kontrasterer det travle hovedgatelivet."
+    },
+    {
+      "name": "Akerselva miljøpark",
+      "established": 1990,
+      "area": "Sammenhengende grønt belte langs Akerselva (ca. 8 km fra Maridalsvannet til Bjørvika)",
+      "history": "Norges første miljøpark, etablert i 1990 som et samarbeid mellom Miljødepartementet, Oslo kommune, miljøorganisasjoner og bedrifter langs elva. Akerselva var kraftkilden bak Oslos industrialisering på 1800-tallet med fabrikker som Nydalens Compagnie, Christiania Spigerverk, Hjula Væveri og Myrens Verksted. Etter avindustrialiseringen ble elvebredden opparbeidet med gangveier og parkområder.",
+      "currentUse": "Turstier, rekreasjon, kulturarrangementer (bl.a. årlig fakkelvandring), bading ved Stilla",
+      "culturalSignificance": "Akerselva miljøpark forener industrihistorie, naturvern og urban rekreasjon langs Oslos viktigste vassdrag. Den årlige fakkelvandringen med 4000 fakler og 100 kulturinnslag er blant Oslos største friluftskulturevenementer. Parken er også rik på kunstinstallasjoner og lyskunst.",
+      "description": "Akerselva miljøpark strekker seg langs hele Grünerløkkas vestside og binder sammen Vulkan, Nedre Foss og de gamle industribygningene i et sammenhengende grønt kulturlandskap."
+    },
+    {
+      "name": "Nedre Foss park",
+      "established": 2017,
+      "area": "15 dekar",
+      "history": "Parken ligger på den historiske tomta ved Nedre Foss, der mølledrift har foregått i århundrer. Norconsult vant en åpen internasjonal konkurranse utlyst av Bymiljøetaten i 2008 med forslaget «FLYT». Parken ble offisielt åpnet i mai 2017 og mottok DOGA-merket for design og arkitektur i 2019.",
+      "currentUse": "Bypark med lekeområder, turstier langs Akerselva, samlingsplass",
+      "culturalSignificance": "Nedre Foss park er den nyeste tilføyelsen til Grünerløkkas parksystem og binder sammen Vulkan-området med den historiske murbyen. Parken integrerer områdets møllehistorie i et moderne landskapsdesign.",
+      "description": "Nedre Foss park ligger sentralt mellom Grünerløkka og Vulkan langs Akerselva. Parkens design er inspirert av stedets industrihistorie og vannets bevegelse gjennom landskapet."
+    }
+  ],
+  "architects": [
+    {
+      "name": "Georg Andreas Bull",
+      "period": "1829–1917",
+      "works": [
+        "Reguleringsplan for Grünerløkka (1862)",
+        "Reguleringsplan for Homansbyen (1858)",
+        "Reguleringsplan for Frølichbyen"
+      ],
+      "description": "Stadskonduktør (byingeniør) som utarbeidet reguleringsplanen for Grünerløkka i 1862 på oppdrag fra Thorvald Meyer og Carl Johan Michelet. Bull brakte med seg ideer fra Tyskland og skapte det rektangulære gatemønsteret med plasser og parker som definerer bydelen i dag. Han var byingeniør i Christiania fra 1865."
+    },
+    {
+      "name": "Henrik Bull",
+      "period": "1864–1953",
+      "works": [
+        "Paulus kirke (1889–1892)",
+        "Nationaltheatret (1891–1899)",
+        "Historisk museum (1898–1902)",
+        "Regjeringsbygningen G-blokken (1901–1904)"
+      ],
+      "description": "Norges fremste jugendstil-arkitekt, utdannet ved Technische Hochschule i Berlin (1884–1887). Vant konkurransen om Paulus kirke som 25-åring i 1887, noe som ble hans gjennombrudd. Etter kirken tegnet han tre av Oslos mest monumentale bygninger. Direktør for Statens håndverks- og kunstindustriskole 1912–1934."
+    },
+    {
+      "name": "Henrik Nissen",
+      "period": "1848–1915",
+      "works": [
+        "Grünerløkka skole (1893–1895)",
+        "Frimurerlogen (1887–1894)",
+        "Oslo Sparebank (1896–1901)",
+        "Høvik kirke (1895–1898)"
+      ],
+      "description": "Arkitekt og sønn av Hartvig Nissen. Tegnet Grünerløkka skole med dens karakteristiske kvadratiske plan og fire hjørnetårn. Bygningen i teglstein ble ferdigstilt i 1895 og er i dag del av Birkelundens fredede kulturmiljø."
+    },
+    {
+      "name": "Asmus Lenschow",
+      "period": "ca. 1807–1883",
+      "works": [
+        "Schous bryggeri (1872)",
+        "Tallrike leiegårder og fabrikkbygninger i Oslo"
+      ],
+      "description": "Tyskfødt murmester fra Mecklenburg som etablerte seg i Christiania på 1830-tallet. Svært produktiv over flere tiår – tegnet og bygget leiegårder, villaer, fabrikkbygninger og lagerhus. Hans tre sønner, også arkitekter, videreførte farens virksomhet."
+    },
+    {
+      "name": "LPO arkitekter",
+      "period": "2004–",
+      "works": [
+        "Vulkan områdeplan (masterplan)",
+        "Mathallen Oslo (2012)",
+        "Bellona-bygget (2010)",
+        "Dansens Hus (2008)",
+        "Vulkan nordre kvartal"
+      ],
+      "description": "Arkitektkontoret som utviklet masterplanen for Vulkan-området på oppdrag fra Aspelin Ramm. LPO transformerte den gamle industritomta ved Akerselva til et attraktivt, tett byområde med kultur, næring og boliger. Vulkan-prosjektet mottok hederlig omtale i Oslo bys arkitekturpris."
+    },
+    {
+      "name": "Harald Aars",
+      "period": "1875–1945",
+      "works": [
+        "Dælenenga klubbhus (1928)",
+        "Flere kommunale bygninger i Oslo"
+      ],
+      "description": "Byarkitekt i Oslo som tegnet Dælenenga klubbhus i nyklassisistisk stil. Bygningen på 900 m² i teglstein ble oppført som garderobe- og kafébygg for den nyanlagte idrettsparken."
+    },
+    {
+      "name": "Thorvald Meyer",
+      "period": "1818–1909",
+      "works": [
+        "Finansierte og regulerte utbyggingen av hele Grünerløkka",
+        "Bekostet anleggelsen av Thorvald Meyers gate",
+        "Donerte tomter til parker, kirker og skoler"
+      ],
+      "description": "Grosserer og grunneier som kjøpte store deler av Grünerløkka fra 1861. Ble eneeier fra 1869 og tjente betydelig på tomteparsellering. Satte krav om godkjente fasadetegninger og forbud mot fabrikkdrift på deler av eiendommen. Selv om han ikke var arkitekt, formet Meyer Grünerløkka mer enn noen annen enkeltperson gjennom sine betingelser for utbyggingen."
+    }
+  ],
+  "heritageStatus": [
+    {
+      "name": "Birkelunden kulturmiljø",
+      "type": "fredning",
+      "description": "Norges første fredede bymiljø, vedtatt ved kongelig resolusjon 28. april 2006. Fredningen omfatter 116 dekar med Birkelunden park, 15 kvartaler med 139 bygninger, Paulus kirke og Grünerløkka skole. Formålet er å sikre et bymiljø fra andre halvdel av 1800-tallet av nasjonal interesse for byplanhistorie, kulturhistorie og arkitektur.",
+      "authority": "Riksantikvaren"
+    },
+    {
+      "name": "Gul liste – murgårdene på Grünerløkka",
+      "type": "vern",
+      "description": "Byantikvarens Gul liste registrerer kulturminner i Oslo. Et stort antall murgårder på Grünerløkka er listeført med ulike vernekategorier: rød (fredet), oransje (vernet etter plan- og bygningsloven) eller gul (kommunalt listeført). Gul liste forvaltes i den nasjonale kulturminnedatabasen Askeladden.",
+      "authority": "Byantikvaren"
+    },
+    {
+      "name": "Akerselva miljøpark – industrielle kulturminner",
+      "type": "regulering",
+      "description": "Akerselva miljøpark (etablert 1990) omfatter industrielle kulturminner langs elva, inkludert Hjula Væveri-bygningene og andre fabrikkanlegg. Forvaltningsplanen sikrer bevaring av industrihistorisk bebyggelse kombinert med rekreasjon og grøntområder.",
+      "authority": "Oslo kommune / Bymiljøetaten"
+    },
+    {
+      "name": "Jødisk gravlund i Sofienbergparken",
+      "type": "fredning",
+      "description": "Den jødiske gravlunden i Sofienbergparken ble fredet av Riksantikvaren 19. desember 2022. Gravlunden på 672 m² ble overdratt til den mosaiske menigheten i 1869 og var Oslos første jødiske gravplass. Første begravelse i 1885, siste i 1940.",
+      "authority": "Riksantikvaren"
+    },
+    {
+      "name": "Dælenenga klubbhus",
+      "type": "vern",
+      "description": "Klubbhuset er vurdert av Riksantikvaren som kulturminne av vesentlig regional betydning, med røtter i arbeideridretten, karakteristisk arkitektur og historie som OL-arena i 1952.",
+      "authority": "Riksantikvaren"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Birkelunden – Murbyens hjerte (Riksantikvaren)",
+      "url": "https://www.riksantikvaren.no/kulturhistorie/birkelunden-murbyens-hjerte/",
+      "type": "primær"
+    },
+    {
+      "title": "Forskrift om fredning av Birkelunden kulturmiljø (Lovdata)",
+      "url": "https://lovdata.no/dokument/LF/forskrift/2006-04-28-442",
+      "type": "primær"
+    },
+    {
+      "title": "Slik ble Grünerløkka reddet fra rasering (Dagsavisen)",
+      "url": "https://www.dagsavisen.no/debatt/slik-ble-grnerlokka-reddet-fra-rasering/7582817",
+      "type": "sekundær"
+    },
+    {
+      "title": "Husk – det er våre hjem det gjelder – Grünerløkka leieboerforening (Samfunnsgeografen/UiO)",
+      "url": "https://foreninger.uio.no/samfunnsgeografen/aktuelt/2017:1/%E2%80%9Dhusk-%E2%80%93-det-er-vare-hjem-det-gjelder%E2%80%9D-%E2%80%93-gr%C3%BCnerlokk.html",
+      "type": "sekundær"
+    },
+    {
+      "title": "Byfornyelse på 1980-tallet (Oslo Byarkiv / Tobias)",
+      "url": "https://www.oslo.kommune.no/OBA/tobias/tobiasartikler/t3978.htm",
+      "type": "primær"
+    },
+    {
+      "title": "På tegnebrettet går allting an... (Oslo Byarkiv / Tobias)",
+      "url": "https://www.oslo.kommune.no/OBA/tobias/tobiasartikler/t3943.htm",
+      "type": "primær"
+    },
+    {
+      "title": "Grünerløkka – boligstrøk i Oslo (Store norske leksikon)",
+      "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka_-_boligstr%C3%B8k_i_Oslo",
+      "type": "sekundær"
+    },
+    {
+      "title": "Murbyen Oslo – historie og utvikling",
+      "url": "https://www.murbyenoslo.no/historier/murbyen-oslo",
+      "type": "sekundær"
+    },
+    {
+      "title": "Leiegårdene i Oslos historiske murby (Wikipedia)",
+      "url": "https://no.wikipedia.org/wiki/Leieg%C3%A5rdene_i_Oslos_historiske_murby",
+      "type": "sekundær"
+    },
+    {
+      "title": "Grünerløkka (strøk) – Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Gr%C3%BCnerl%C3%B8kka_(str%C3%B8k)",
+      "type": "sekundær"
+    },
+    {
+      "title": "Vulkan – Aspelin Ramm",
+      "url": "https://www.aspelinramm.no/referanse/vulkan/",
+      "type": "primær"
+    },
+    {
+      "title": "LPO arkitekter – Vulkan",
+      "url": "https://www.lpo.no/prosjekter/vulkan",
+      "type": "primær"
+    },
+    {
+      "title": "Schous Bryggeri (Store norske leksikon)",
+      "url": "https://snl.no/Schous_Bryggeri",
+      "type": "sekundær"
+    },
+    {
+      "title": "Henrik Bull – arkitekt (Store norske leksikon)",
+      "url": "https://snl.no/Henrik_Bull",
+      "type": "sekundær"
+    },
+    {
+      "title": "Georg Andreas Bull – arkitekt (Store norske leksikon)",
+      "url": "https://snl.no/Georg_Andreas_Bull",
+      "type": "sekundær"
+    },
+    {
+      "title": "Motorveien over Grünerløkka (Dagsavisen)",
+      "url": "https://www.dagsavisen.no/nyheter/motorveien-over-grnerlokka/4713865",
+      "type": "sekundær"
+    },
+    {
+      "title": "Historikk – Sølvsmiekvartalet på Grünerløkka",
+      "url": "https://www.solvsmiekvartalet.no/historikk/",
+      "type": "primær"
+    },
+    {
+      "title": "Akerselva Miljøpark (Oslo byleksikon)",
+      "url": "https://oslobyleksikon.no/side/Akerselva_Milj%C3%B8park",
+      "type": "sekundær"
+    },
+    {
+      "title": "Byfornyelsens betydning for byutviklingen (Bullby)",
+      "url": "https://bullby.net/wp-content/uploads/2025/05/Byfornyelsens-betydning-for-byutviklingen.pdf",
+      "type": "sekundær"
+    },
+    {
+      "title": "Gul liste – Kulturminner og bevaring (Oslo kommune)",
+      "url": "https://www.oslo.kommune.no/plan-bygg-og-eiendom/kulturminner-og-bevaring/gul-liste/",
+      "type": "primær"
+    }
+  ],
+  "claims": [
+    {
+      "id": "arkitektur-claim-1",
+      "statement": "Birkelunden ble Norges første fredede bymiljø i 2006, med 139 bygninger over 116 dekar.",
+      "confidence": 0.95,
+      "source": "Riksantikvaren / Lovdata (kongelig resolusjon 28.04.2006)",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-2",
+      "statement": "Georg Andreas Bull utarbeidet reguleringsplanen for Grünerløkka i 1862 basert på skisser av Peter Høier Holtermann.",
+      "confidence": 0.90,
+      "source": "Store norske leksikon / Oslo byleksikon",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-3",
+      "statement": "Stortinget vedtok i 1976 å erstatte saneringsloven med byfornyelsesloven.",
+      "confidence": 0.95,
+      "source": "Oslo Byarkiv (Tobias) / Dagsavisen",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-4",
+      "statement": "Over 20 000 boliger ble fornyet i Oslo etter byfornyelsesvedtaket.",
+      "confidence": 0.85,
+      "source": "Oslo Byarkiv (Tobias)",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-5",
+      "statement": "Grünerløkka leieboerforening ble stiftet i 1971 med over 400 medlemmer.",
+      "confidence": 0.85,
+      "source": "Samfunnsgeografen (UiO)",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-6",
+      "statement": "Paulus kirke ble tegnet av Henrik Bull etter en arkitektkonkurranse i 1887 og innviet 30. desember 1892.",
+      "confidence": 0.95,
+      "source": "Store norske leksikon / Oslo byleksikon / Norske kirker",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-7",
+      "statement": "Schous bryggeri ble tegnet av Asmus Lenschow i 1872 og var Norges eldste eksisterende bryggeri da det stengte i 1981.",
+      "confidence": 0.90,
+      "source": "Store norske leksikon / Oslo byleksikon",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-8",
+      "statement": "Mathallen Oslo åpnet 2. oktober 2012 med over 30 matbutikker.",
+      "confidence": 0.90,
+      "source": "Aspelin Ramm / Wikipedia",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-9",
+      "statement": "Bellona-bygget var Norges mest energieffektive kontorbygg da det sto ferdig i 2010.",
+      "confidence": 0.85,
+      "source": "LPO arkitekter / NAL",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-10",
+      "statement": "Hjula Væveri ble grunnlagt i 1855 og hadde ca. 800 ansatte i sin storhetstid.",
+      "confidence": 0.85,
+      "source": "Teknisk museum / Akerselvas Venner",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-11",
+      "statement": "Grünerløkka skole ble tegnet av Henrik Nissen, ferdigstilt i 1895 og innviet med 1555 elever.",
+      "confidence": 0.90,
+      "source": "Grünerløkka skole / Oslo byleksikon",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-12",
+      "statement": "Den jødiske gravlunden i Sofienbergparken ble fredet av Riksantikvaren 19. desember 2022.",
+      "confidence": 0.95,
+      "source": "Riksantikvaren (pressemelding)",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-13",
+      "statement": "Motorveitrasé gjennom Grünerløkka ble vedtatt av bygningsrådet rundt 1968.",
+      "confidence": 0.80,
+      "source": "Dagsavisen / Oslo Byarkiv",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-14",
+      "statement": "Thorvald Meyer ble eneeier av Grünerløkka fra 1869 og bekostet anleggelsen av Thorvald Meyers gate.",
+      "confidence": 0.90,
+      "source": "Store norske leksikon / lokalhistoriewiki",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-15",
+      "statement": "Akerselva miljøpark ble etablert i 1990 som Norges første miljøpark.",
+      "confidence": 0.90,
+      "source": "Oslo byleksikon / Akerselvas Venner",
+      "status": "verified"
+    }
+  ],
+  "researchMetadata": {
+    "lastVerified": "2026-03-02",
+    "coverageScore": 0.85,
+    "staleAfterDays": 180
+  },
+  "crossReferences": [
+    {
+      "type": "section",
+      "target": "historie",
+      "description": "Byfornyelsen og saneringsdebatten overlapper med historieseksjonens tidslinje for Grünerløkka (1960–2000)."
+    },
+    {
+      "type": "section",
+      "target": "idrett",
+      "description": "Dælenenga idrettspark og klubbhus er også omtalt i idrettsseksjonen."
+    },
+    {
+      "type": "section",
+      "target": "jazz",
+      "description": "Schous kulturbryggeri med Riksscenen er knyttet til jazzhistorien gjennom musikkscener på Grünerløkka."
+    },
+    {
+      "type": "section",
+      "target": "film",
+      "description": "Parkteatret er omtalt i filmseksjonen som en av Grünerløkkas kinoer (1907–1991)."
+    },
+    {
+      "type": "section",
+      "target": "ildsjeler",
+      "description": "Thorvald Meyer er omtalt som en av Grünerløkkas mest innflytelsesrike skikkelser."
+    },
+    {
+      "type": "section",
+      "target": "billedkunst",
+      "description": "Edvard Munch bodde ved Olaf Ryes plass (1882–83) og Schous plass (1885–89) – omtalt i billedkunstseksjonen."
+    }
+  ],
+  "metadata": {
+    "buildingStyleCount": 5,
+    "iconicBuildingCount": 10,
+    "parkCount": 6,
+    "architectCount": 7,
+    "heritageStatusCount": 5,
+    "sourceCount": 20,
+    "claimCount": 15,
+    "urbanRenewalTimelineEvents": 14,
+    "generatedAt": "2026-03-02"
+  }
+}

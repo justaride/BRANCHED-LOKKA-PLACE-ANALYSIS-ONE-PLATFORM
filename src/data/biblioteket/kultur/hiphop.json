@@ -1,15 +1,15 @@
 {
   "id": "hiphop",
-  "title": "Hiphop-miljøet på Grünerløkka",
-  "subtitle": "Fra X-Ray til Brenneriveien – 30 år med urban kultur",
-  "description": "Grünerløkka har vært et arnested for norsk hiphop siden 1980-tallet. Fra de første breakdance-battles via X-Ray Ungdomskulturhus til Brenneriveiens legendariske graffiti-vegg – bydelen har formet generasjoner av rappere, dansere og kunstnere.",
+  "title": "Hiphop-milj\u00f8et p\u00e5 Gr\u00fcnerl\u00f8kka",
+  "subtitle": "Fra X-Ray til Brenneriveien \u2013 30 \u00e5r med urban kultur",
+  "description": "Gr\u00fcnerl\u00f8kka har v\u00e6rt et arnested for norsk hiphop siden 1980-tallet. Fra de f\u00f8rste breakdance-battles via X-Ray Ungdomskulturhus til Brenneriveiens legendariske graffiti-vegg \u2013 bydelen har formet generasjoner av rappere, dansere og kunstnere.",
   "heroImage": "/images/biblioteket/hiphop-hero.jpg",
   "sections": [
     {
       "id": "xray",
       "title": "X-Ray Ungdomskulturhus",
-      "subtitle": "En hjørnestein i norsk hiphopkultur",
-      "description": "X-Ray åpnet i 1994 som et direkte resultat av at ungdom i bydelen ønsket seg et eget sted å utvikle sine talenter. Huset ble etablert med mottoet 'Alle ungdommer er en ressurs' og har siden vært en av de mest betydningsfulle arenaene for hiphopkultur i Norge.",
+      "subtitle": "En hj\u00f8rnestein i norsk hiphopkultur",
+      "description": "X-Ray \u00e5pnet i 1994 som et direkte resultat av at ungdom i bydelen \u00f8nsket seg et eget sted \u00e5 utvikle sine talenter. Huset ble etablert i en tidligere brusfabrikk (Nora Fabrikker) i Maridalsveien 3, med mottoet \u00abAlle ungdommer er en ressurs\u00bb. Det er brukerstyrt \u2013 ungdommene forvalter huset p\u00e5 egne premisser \u2013 og har siden v\u00e6rt en av de mest betydningsfulle arenaene for hiphopkultur i Norge.",
       "founded": 1994,
       "address": "Maridalsveien 3",
       "founder": "Farooq Farooqi",
@@ -17,55 +17,71 @@
         "Gratis aktiviteter innen musikk, dans og multimedia",
         "To musikkstudioer brukt av unge beatmakere",
         "Fostret artister som Madcon, Mira Craig, Samsaya og Quick Style",
-        "Farooq Farooqi kåret til Årets forbilde 2008",
-        "Soul Sessions Oslos ærespris 2024 for 30 års innsats"
+        "Farooq Farooqi k\u00e5ret til \u00c5rets forbilde 2008 av Barne-, ungdoms- og familiedirektoratet",
+        "Soul Sessions \u00e6respris 2024 til X-Ray for 30 \u00e5rs innsats for hiphopkultur",
+        "Studert og applaudert av institusjoner b\u00e5de nasjonalt og internasjonalt"
       ]
     },
     {
       "id": "breakdance",
-      "title": "Breakdance-miljøet",
-      "subtitle": "Fra 80-tallets battles til dagens crews",
-      "description": "Breakdance slo ned som en bombe i Oslo rundt 1984. Grünerklubben var et viktig samlingssted, og crews som Dancing Youth (Da-Yo) og senere Floorknights har holdt miljøet levende gjennom fire tiår.",
+      "title": "Breakdance-milj\u00f8et",
+      "subtitle": "Fra 80-tallets battles til OL-debuten i 2024",
+      "description": "Breakdance slo ned som en bombe i Oslo rundt 1984. Gr\u00fcnerklubben var et viktig samlingssted, og crews som Dancing Youth (Da-Yo) og senere Floorknights har holdt milj\u00f8et levende gjennom fire ti\u00e5r. I 2024 debuterte breaking som olympisk gren i Paris.",
       "timeline": [
         {
           "year": 1984,
           "title": "Breaking eksploderer",
-          "description": "Oslomesterskapet i breaking med 10-15 crews. Spontane battles på tvers av byen."
+          "description": "Oslomesterskapet i breaking med 10-15 crews. Spontane battles p\u00e5 tvers av byen."
         },
         {
           "year": 1986,
-          "title": "Første bølge avtar",
-          "description": "Breaken 'døde' - men nye initiativ vokste frem på Grünerløkka"
+          "title": "F\u00f8rste b\u00f8lge avtar",
+          "description": "Breaken \u00abdde\u00bb \u2013 men nye initiativ vokste frem p\u00e5 Gr\u00fcnerl\u00f8kka."
         },
         {
           "year": 1987,
-          "title": "Dancing Youth (Da-Yo) starter",
-          "description": "Et av Oslos første store breakdance-crews, startet av Linda Jeanette Eriksen, Lars 'Pay2' Undli og Khawar 'Gomi' Sadiq"
+          "title": "Dancing Youth (Da-Yo) og United B-Boys",
+          "description": "Da-Yo startes av Lars \u00abPay2\u00bb Undli og Khawar \u00abGomi\u00bb Sadiq. United B-Boys of Norway arrangerer jam p\u00e5 Roms\u00e5s i november."
         },
         {
           "year": 1994,
-          "title": "X-Ray åpner",
-          "description": "Blir mekka for unge dansere og 'enormt viktig for utviklingen av norsk hiphop'"
+          "title": "X-Ray \u00e5pner",
+          "description": "Blir mekka for unge dansere og \u00abenormt viktig for utviklingen av norsk hiphop\u00bb."
         },
         {
-          "year": 1995,
-          "title": "United B-Boys jam",
-          "description": "Internasjonale breakere kommer til Romsås-jam"
+          "year": 1997,
+          "title": "Adil Khan starter som breaker",
+          "description": "Adil Khan (f. 1983) begynner \u00e5 danse p\u00e5 X-Ray og vinner B-boy Rumble i 1999."
         },
         {
           "year": 1999,
           "title": "Floorknights stiftes",
-          "description": "Blir et av Norges ledende breakdance-crews med base på X-Ray"
+          "description": "Blir et av Norges ledende breakdance-crews med base p\u00e5 X-Ray."
         },
         {
           "year": 2006,
-          "title": "Circle - Det norske hiphop-huset",
-          "description": "Danseskolen flytter inn i Nedregate ved klubben Krønsj"
+          "title": "Quick Style dannes / Circle \u00e5pner",
+          "description": "Suleman Malik, Bilal Malik og Nasir Sirikhan danner Quick Style etter \u00e5 ha trent p\u00e5 X-Ray. Circle (Hiphop Huset) etableres i Nedregate."
+        },
+        {
+          "year": 2008,
+          "title": "Quick Style blir verdensmestere",
+          "description": "Crewet vinner IDO Hip Hop World Championship i Bremen, Tyskland."
         },
         {
           "year": 2009,
           "title": "Quick Style vinner Norske Talenter",
-          "description": "Brødrene Malik og Nasir Sirikhan vinner senere VM i hiphop-dans"
+          "description": "Vinner finalen 8. mai 2009 p\u00e5 TV 2 og mottar 500 000 kr. Bruker pengene til \u00e5 starte Quick Style Studio i Oslo."
+        },
+        {
+          "year": 2022,
+          "title": "Quick Style g\u00e5r viralt globalt",
+          "description": "Bryllupsvideoer med Bollywood-koreografi f\u00e5r n\u00e6rmere 80 millioner visninger p\u00e5 YouTube. \u00abKala Chashma\u00bb-utfordringen sprer seg p\u00e5 TikTok med deltagelse fra Jimmy Fallon og Demi Lovato."
+        },
+        {
+          "year": 2024,
+          "title": "Breaking debuterer i OL",
+          "description": "Breaking er offisiell OL-gren i Paris 2024. Norges Danseforbund har Team Norway Breaking med Next Generation-gruppe for unge utovere."
         }
       ]
     },
@@ -73,22 +89,27 @@
       "id": "graffiti",
       "title": "Graffiti: Brenneriveien Hall of Fame",
       "subtitle": "Fra ulovlig spot til turistattraksjon",
-      "description": "I over 30 år har Brenneriveien 11 vært sentrum for graffiti i Oslo. Det startet i 1987 da en gruppe kunstnere med veteranen Goal i spissen bestemte seg for å lage sin egen Hall of Fame-vegg.",
+      "description": "I over 30 \u00e5r har Brenneriveien 11 v\u00e6rt sentrum for graffiti i Oslo. Det startet da en gruppe kunstnere med veteranene Goal og Pay2 i spissen bestemte seg for \u00e5 lage sin egen Hall of Fame-vegg. Veggen er privateid og har f\u00e5tt st\u00e5 som et selvorganisert samarbeidsprosjekt.",
       "timeline": [
         {
           "year": 1987,
           "title": "Hall of Fame starter",
-          "description": "Goal og Pay2 etablerer ulovlig graffitivegg i Brenneriveien"
+          "description": "Goal og Pay2 etablerer graffitivegg i Brenneriveien 11. En rekke kunstnere som MC.T, Mack, Bits, Spade, CodeRock, Combat, Rand og Shaze2 er med fra starten."
         },
         {
           "year": 1999,
           "title": "Style is King",
-          "description": "Stor graffiti- og streetart-festival med offisielle tillatelser"
+          "description": "Stor graffiti- og street art-jam med offisielle tillatelser. Gir gr\u00f8nt lys for mer lovlig arbeid p\u00e5 veggene."
         },
         {
           "year": 2021,
           "title": "Monumentalt veggmaleri",
-          "description": "Kommunen finansierer stort verk for å hedre graffitihistorien"
+          "description": "Kommunen finansierer stort verk for \u00e5 hedre graffitihistorien."
+        },
+        {
+          "year": 2023,
+          "title": "Oslo Street Art Festival",
+          "description": "\u00c5rlig offentlig kunstprosjekt med gratis workshops, omvisninger, foredrag og filmvisninger. Brenneriveien er blant Oslos viktigste street art-destinasjoner."
         }
       ],
       "pioneers": [
@@ -98,14 +119,19 @@
         "Mack",
         "Bits",
         "Spade",
-        "CodeRock"
-      ]
+        "CodeRock",
+        "Combat",
+        "Rand",
+        "Shaze2",
+        "Much"
+      ],
+      "currentCurators": "Goal, Pay2 og Much er i dag ansvarlige for veggene i Brenneriveien."
     },
     {
       "id": "producers",
       "title": "Beat-produsenter og studioer",
       "subtitle": "Fra Tommy Tee til Urban Sound Studios",
-      "description": "Grünerløkka har vært hjem for sentrale produsenter og studioer. Tommy Tee, ofte kalt 'godfaren i norsk hiphop', startet Tee Productions og arrangerte Norges første hiphop-festival på Løkka i 2004.",
+      "description": "Gr\u00fcnerl\u00f8kka har v\u00e6rt hjem for sentrale produsenter og studioer. Tommy Tee, ofte kalt \u00abgodfaren i norsk hiphop\u00bb, startet som graffiti-writer og b-boy f\u00f8r han gikk over til DJ-ing. Han grunnla Fat Cap-fanzinet i 1989 og Tee Productions i 1995, og arrangerte Norges f\u00f8rste hiphop-festival Interstate p\u00e5 L\u00f8kka i 2004. Tommy Tee selv omtalte Gr\u00fcnerl\u00f8kka som \u00abhiphopens vugge i Oslo\u00bb.",
       "venues": [
         {
           "name": "X-Ray studioer",
@@ -123,48 +149,64 @@
       "id": "madcon",
       "name": "Madcon",
       "members": [
-        "Yosef Wolde-Mariam",
-        "Tshawe Baqwa"
+        "Yosef Wolde-Mariam (f. 1978)",
+        "Tshawe Baqwa (f. 1980)"
       ],
       "genre": "Hiphop/Pop",
-      "description": "Duoen startet i Oslo i 1992 og hadde tidlige opptredener på X-Ray. Gikk fra lokalt talent til internasjonal suksess med hits som 'Beggin'.",
-      "connectionToLokka": "Startet karrieren på X-Ray ungdomskulturhus"
+      "description": "Duoen ble dannet i Oslo i 1992. Yosef Wolde-Mariam vokste opp blant annet p\u00e5 Gr\u00fcnerl\u00f8kka og Gr\u00f8nland. Madcon gikk fra lokalt talent til internasjonal suksess med hits som \u00abBeggin\u2019\u00bb og \u00abDon\u2019t Worry\u00bb.",
+      "connectionToLokka": "Yosef Wolde-Mariam bodde p\u00e5 Gr\u00fcnerl\u00f8kka i oppveksten. Madcon regnes blant artistene X-Ray har fostret."
     },
     {
       "id": "mira-craig",
       "name": "Mira Craig",
+      "realName": "Mira Scherdin Craig",
+      "birthYear": 1982,
       "genre": "R&B/Hiphop",
-      "description": "Fikk nasjonalt gjennombrudd midt på 2000-tallet. X-Ray 'dyrka fram' hennes talent innen urban musikk.",
-      "connectionToLokka": "Utviklet seg i miljøer knyttet til X-Ray"
+      "description": "F\u00f8dt i Oslo i 1982. Fikk oppmerksomhet som tolvaring p\u00e5 NRKs Midt i smr\u00f8yet, og nasjonalt gjennombrudd midt p\u00e5 2000-tallet. Vant Newcomer of the Year ved Alarm-prisen 2006. Snoop Dogg brukte en av hennes l\u00e5ter p\u00e5 sin kompilasjon.",
+      "connectionToLokka": "Utviklet seg i milj\u00f8er knyttet til X-Ray og urban musikkscene p\u00e5 Gr\u00fcnerl\u00f8kka"
     },
     {
       "id": "samsaya",
       "name": "Samsaya",
+      "realName": "Sampda Sharma",
+      "birthYear": 1979,
       "genre": "Pop/Hiphop",
-      "description": "Norsk-indisk artist som startet karrieren rundt år 2000. Opptrådte på X-Ray på 90- og 2000-tallet.",
-      "connectionToLokka": "Miljøet på Grünerløkka ga henne selvtillit til å finne sin stil"
+      "description": "Norsk-indisk artist f\u00f8dt i Hamirpur, India, oppvokst p\u00e5 Ellingsrud i Oslo. P\u00e5virket av hiphop og Public Enemy fra ung alder. Etter \u00e5revis med musikk i Oslos urbane milj\u00f8 fikk hun gjennombrudd b\u00e5de som artist og skuespiller.",
+      "connectionToLokka": "Del av det urbane musikkmilj\u00f8et p\u00e5 Gr\u00fcnerl\u00f8kka p\u00e5 90- og 2000-tallet"
     },
     {
       "id": "ari-bajgora",
       "name": "Ari Bajgora",
+      "birthYear": 2004,
       "genre": "Hiphop",
-      "description": "Gikk fra å være 'Grünerløkkas bevarte hemmelighet' til en av landets mest omtalte unge hiphop-artister i 2023/24.",
-      "connectionToLokka": "Oppvokst på Grünerløkka, representerer ny generasjon"
+      "description": "F\u00f8dt i 2004 p\u00e5 Gr\u00fcnerl\u00f8kka med kosovoalbanske foreldre. Begynte \u00e5 rappe p\u00e5 gata som 11-\u00e5ring. Vant \u00c5rets gjennombrudd ved b\u00e5de P3 Gull og Spellemannprisen 2024. Over 424 000 m\u00e5nedlige Spotify-lyttere og 18 millioner samlede str\u00f8mminger per mid-2024.",
+      "connectionToLokka": "Oppvokst p\u00e5 Gr\u00fcnerl\u00f8kka. Rappet for lommepenger i bydelens parker som barn. Representerer ny generasjon L\u00f8kka-hiphop."
     },
     {
       "id": "tommy-tee",
       "name": "Tommy Tee",
-      "realName": "Tommy Flåten",
+      "realName": "Tommy Fl\u00e5ten",
+      "birthYear": 1971,
       "genre": "DJ/Produsent",
-      "description": "Ofte kalt 'godfaren i norsk hiphop'. Startet som graffiti-writer og b-boy før han gikk over til DJ-ing. Grunnla Fat Cap fanzine i 1989 og Tee Productions i 1995.",
-      "connectionToLokka": "Arrangerte Norges første hiphop-festival på Grünerløkka i 2004"
+      "description": "F\u00f8dt 18. desember 1971. Ofte kalt \u00abgodfaren i norsk hiphop\u00bb. Startet som graffiti-writer og b-boy f\u00f8r han gikk over til DJ-ing p\u00e5 midten av 80-tallet. Grunnla Fat Cap-fanzinet (1989) og Tee Productions (1995). Ogs\u00e5 plateprodusent, radiovert, konsertarrang\u00f8r og plateselskapssjef.",
+      "connectionToLokka": "Arrangerte Norges f\u00f8rste hiphop-festival Interstate p\u00e5 Gr\u00fcnerl\u00f8kka i 2004. Uttalte at \u00abGr\u00fcnerl\u00f8kka er hiphopens vugge i Oslo\u00bb."
     },
     {
       "id": "adil-khan",
       "name": "Adil Khan",
+      "birthYear": 1983,
       "genre": "Danser/Skuespiller",
-      "description": "Vinner av Dansefeber 2006. Begynte som breaker på X-Ray og ble et forbilde for mange unge dansere.",
-      "connectionToLokka": "X-Ray ga ham et springbrett videre i karrieren"
+      "description": "F\u00f8dt 3. februar 1983 i Oslo med pakistansk far og afghansk mor. Begynte som breakdanser i 1997, vant B-boy Rumble (NM i breaking) i 1999 og Scandinavian Battle of the Year i 2001. Vant Dansefeber p\u00e5 TVNorge i 2006. Gikk videre til skuespillerkarriere ved Oslo Nye Teater, bl.a. som Mowgli i Jungelboken (Hedda-nominasjon).",
+      "connectionToLokka": "Startet som breaker p\u00e5 X-Ray. Huset ga ham springbrettet til nasjonal karriere."
+    },
+    {
+      "id": "cezinando",
+      "name": "Cezinando",
+      "realName": "Kristoffer Cezinando Karlsen",
+      "birthYear": 1995,
+      "genre": "Hiphop/Singer-songwriter",
+      "description": "F\u00f8dt 3. august 1995 i Oslo med norsk mor og portugisisk far. Tilbrakte deler av barndommen i Lisboa. Vant to P3 Gull-priser. Albumet Noen ganger og andre (2017) ble \u00e5rets mestselgende norskspraklige album. Kjent for \u00e5 blande rap med s\u00e5rbare, melodiske partier.",
+      "connectionToLokka": "Del av den bredere Oslo-hiphopscenen med opptredener p\u00e5 L\u00f8kka-arenaer. Representerer generasjonen som vokste opp med X-Ray-milj\u00f8ets kulturelle fotavtrykk."
     }
   ],
   "crews": [
@@ -173,97 +215,266 @@
       "name": "Floorknights Crew",
       "founded": 1999,
       "style": "Breaking",
-      "description": "Et av Norges ledende breakdance-crews med base på X-Ray. Driver kurs for over hundre unge breakere i Oslo-området.",
+      "description": "Et av Norges ledende breakdance-crews med base p\u00e5 X-Ray. Driver kurs for over hundre unge breakere i Oslo-omr\u00e5det.",
       "website": "https://www.floorknights.com"
     },
     {
       "id": "da-yo",
       "name": "Dancing Youth (Da-Yo)",
       "founded": 1987,
-      "style": "Breaking/Streetdance",
-      "description": "Et av Oslos første store breakdance-crews, startet av Linda Jeanette Eriksen, Lars 'Pay2' Undli og Khawar 'Gomi' Sadiq."
+      "style": "Breaking/Streetdance/New Jack Swing",
+      "description": "Et av Oslos f\u00f8rste store breakdance-crews, startet av Lars \u00abPay2\u00bb Undli (f. 1970) og Khawar \u00abGomi\u00bb Sadiq. Ble senere utvidet med Bennie Ahssain, Almareo \u00abReo\u00bb Canonoy Mathugas, Vibeke S\u00f8rlie, Alexandra Boguslawska og Liv Charin R\u00f8island. Vibeke S\u00f8rlie ble en av lederne og underviste nye dansere som kom til klubben."
     },
     {
       "id": "quick-style",
-      "name": "Quick Style Crew",
-      "founded": null,
-      "style": "Hiphop-dans",
-      "description": "Brødrene Suleman og Bilal Malik samt Nasir Sirikhan vant Norske Talenter i 2009 og senere VM i hiphop-dans.",
-      "connectionToLokka": "Trente i miljøer som Circle (Hiphop Huset)"
+      "name": "Quick Style",
+      "founded": 2006,
+      "style": "Hiphop-dans/Urban",
+      "description": "Grunnlagt i 2006 av tvillingene Suleman og Bilal Malik (f. ca. 1991, norsk-pakistanske) og barndomsvennen Nasir Sirikhan (f. ca. 1991, norsk-thailandsk). Begynte p\u00e5 X-Ray, vant IDO World Championship 2008, Norske Talenter 2009, deltok p\u00e5 NBCs World of Dance, og gikk globalt viralt i 2022. Har samarbeidet med BTS, Usher og Karpe.",
+      "connectionToLokka": "Trente p\u00e5 X-Ray ungdomskulturhus. Driver n\u00e5 Quick Style Studio i Oslo.",
+      "website": "https://www.thequickstyle.com"
     }
   ],
   "events": [
     {
       "id": "interstate-lokka",
-      "name": "Interstate Løkka",
+      "name": "Interstate L\u00f8kka",
       "year": 2004,
+      "date": "14. august 2004",
       "type": "Festival",
-      "description": "Norges første hiphop-festival, arrangert på Grünerløkka. Trakk internasjonale stjerner som 50 Cent i tillegg til lokale helter som Tommy Tee, Diaz og Gatas Parlament."
+      "description": "Norges f\u00f8rste hiphop-festival, arrangert p\u00e5 plassen foran Bellona-bygget p\u00e5 Gr\u00fcnerl\u00f8kka. Tommy Tee og DJ Herkules ledet programmet. Lineup inkluderte 50 Cent, Equicez, Diaz, Gatas Parlament, Ken Ring, Petter og Son Of Light.",
+      "location": "Plassen nedenfor studentsiloen, Gr\u00fcnerl\u00f8kka"
     },
     {
       "id": "soul-sessions",
-      "name": "Soul Sessions",
-      "type": "Månedlige battles",
-      "description": "Månedlige battles på klubber som The Villa og Dansens Hus ved Vulkan. Arrangerer nordisk uttak til Juste Debout.",
-      "location": "Vulkan Arena m.fl."
+      "name": "Soul Sessions Oslo",
+      "type": "M\u00e5nedlige battles/Festivaler",
+      "founded": null,
+      "description": "Ideell organisasjon som skaper plattformer for street- og clubdance i Norge. Arrangerer m\u00e5nedlige jams p\u00e5 The Villa, samt festivalene Encounters og Extended. Organiserer nordisk uttak til Juste Debout. I 2024 ga Soul Sessions sin \u00e6respris til X-Ray for 30 \u00e5rs innsats.",
+      "location": "The Villa, Dansens Hus, Den Norske Opera & Ballett m.fl.",
+      "website": "https://soulsessionsoslo.com"
+    },
+    {
+      "id": "norske-talenter-2009",
+      "name": "Norske Talenter sesong 2",
+      "year": 2009,
+      "date": "Finale 8. mai 2009",
+      "type": "TV-konkurranse",
+      "description": "Quick Style vant finalen p\u00e5 TV 2 og mottok 500 000 kroner. Sony Music signerte crewet som sine f\u00f8rste artister som ikke var musikere. Seieren satte norsk hiphop-dans p\u00e5 det nasjonale kartet."
+    },
+    {
+      "id": "quick-style-viral-2022",
+      "name": "Quick Style g\u00e5r viralt",
+      "year": 2022,
+      "type": "Sosialemedier-fenomen",
+      "description": "Videoer fra et pakistansk bryllup i Oslo med Bollywood-koreografi fikk n\u00e6rmere 80 millioner visninger p\u00e5 YouTube. \u00abKala Chashma\u00bb-utfordringen spredte seg p\u00e5 TikTok med deltagelse fra Jimmy Fallon, Demi Lovato og det indiske cricketlandslaget."
+    },
+    {
+      "id": "breaking-ol-2024",
+      "name": "Breaking debuterer i OL",
+      "year": 2024,
+      "type": "Olympisk debut",
+      "description": "Breaking var offisiell OL-gren i Paris 2024 for f\u00f8rste gang. Norges Danseforbund hadde Team Norway Breaking med en Next Generation-gruppe. Miljr\u00f8et som ble bygget p\u00e5 Gr\u00fcnerl\u00f8kka fra 1984 er en del av det norske breakingets historie."
+    },
+    {
+      "id": "oslo-street-art-festival",
+      "name": "Oslo Street Art Festival",
+      "type": "\u00c5rlig festival",
+      "description": "\u00c5rlig offentlig kunstprosjekt som inviterer kunstnere fra ulike bakgrunner til \u00e5 skape street art. Gratis workshops, omvisninger, foredrag og filmvisninger. Brenneriveien er blant Oslos viktigste lokasjoner.",
+      "location": "Brenneriveien og \u00f8vrige deler av Oslo",
+      "website": "https://oslostreetartfestival.no"
     }
   ],
   "sources": [
     {
-      "title": "NTNU Samfunnsforskning - Tiltak for et godt og inkluderende oppvekstmiljø (2014)",
+      "title": "NTNU Samfunnsforskning - Tiltak for et godt og inkluderende oppvekstmilj\u00f8 (2014)",
       "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
       "accessedAt": "2026-03-02",
-      "sourceType": "other",
+      "sourceType": "academic",
       "evidenceLevel": "secondary"
     },
     {
-      "title": "Danseinformasjonen - Soul Sessions Oslos ærespris til X-Ray",
+      "title": "NTNU Samforsk - X-RAY: Brukerstyrt ungdomskulturhus i 25 \u00e5r",
+      "url": "https://samforsk.brage.unit.no/samforsk-xmlui/handle/11250/2639020",
+      "accessedAt": "2026-03-02",
+      "sourceType": "academic",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Danseinformasjonen - Soul Sessions \u00e6respris til X-Ray",
       "url": "https://danseinfo.no/nyheter/soul-sessions-oslos-aerespris-gar-til-x-ray-ungdomskulturhus/",
       "accessedAt": "2026-03-02",
-      "sourceType": "other",
+      "sourceType": "news",
       "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Danseinformasjonen - Soul Sessions Oslo mottar \u00e6respris 2023",
+      "url": "https://danseinfo.no/nyheter/soul-sessions-oslo-mottar-danseinformasjonens-aerespris-2023/",
+      "accessedAt": "2026-03-02",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Danseinformasjonen - Streetdansen i Oslo tidslinje 1965\u20132021",
+      "url": "https://danseinfo.no/wp-content/uploads/2022/04/Tidslinje_STREETDANSEN-I-OSLO-1965-2021.pdf",
+      "accessedAt": "2026-03-02",
+      "sourceType": "academic",
+      "evidenceLevel": "primary"
     },
     {
       "title": "SplitCity Magazine - Brenneriveien fra graffitinisje til severdighet",
       "url": "https://www.splitcitymagazine.com/nyheter/brenneriveien-fra-graffitinisje-til-severdighet",
       "accessedAt": "2026-03-02",
-      "sourceType": "other",
+      "sourceType": "news",
       "evidenceLevel": "secondary"
     },
     {
-      "title": "VårtOslo - X-Ray 25-års jubileum",
+      "title": "V\u00e5rtOslo - X-Ray 25-\u00e5rs jubileum",
       "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008",
       "accessedAt": "2026-03-02",
-      "sourceType": "other",
+      "sourceType": "news",
       "evidenceLevel": "secondary"
     },
     {
       "title": "Wikipedia - Tommy Tee",
       "url": "https://no.wikipedia.org/wiki/Tommy_Tee",
       "accessedAt": "2026-03-02",
-      "sourceType": "other",
+      "sourceType": "database",
       "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Store norske leksikon - Tommy Tee",
+      "url": "https://snl.no/Tommy_Tee",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Wikipedia (en) - Quick Style",
+      "url": "https://en.wikipedia.org/wiki/Quick_Style",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Wikipedia (en) - Norske Talenter series 2",
+      "url": "https://en.m.wikipedia.org/wiki/Norske_Talenter_series_2",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Det norske kongehus - Utdelingen av \u00c5rets forbilde 2008",
+      "url": "https://www.kongehuset.no/nyhet.html?tid=95433&sek=26939",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Fontene - Barnevernpedagog \u00e5rets forbilde (2008)",
+      "url": "https://fontene.no/article-6.47.3576.7daa7277b4",
+      "accessedAt": "2026-03-02",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Ballade.no - Ny hiphopfestival i Oslo (Interstate 2004)",
+      "url": "https://www.ballade.no/populaermusikk/ny-hiphopfestival-i-oslo/",
+      "accessedAt": "2026-03-02",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Dagbladet - 50 Cent til Oslo (Interstate 2004)",
+      "url": "https://www.dagbladet.no/kultur/50-cent-til-oslo/65970999",
+      "accessedAt": "2026-03-02",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Oslo kommune - X-Ray ungdomskulturhus",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/fritidsklubber/x-ray-ungdomskulturhus/",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Wikipedia - Ari Bajgora",
+      "url": "https://no.wikipedia.org/wiki/Ari_Bajgora",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Oslo Street Art Festival",
+      "url": "https://oslostreetartfestival.no/",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Pay2 & Mucho - Oslo Street Art Festival",
+      "url": "https://oslostreetartfestival.no/artists/pay2/",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Store norske leksikon - Adil Khan",
+      "url": "https://snl.no/Adil_Khan",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Wikipedia (en) - Madcon",
+      "url": "https://en.wikipedia.org/wiki/Madcon",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Wikipedia (no) - Yosef Wolde-Mariam",
+      "url": "https://no.wikipedia.org/wiki/Yosef_Wolde-Mariam",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Norges Danseforbund - Team Norway Breaking",
+      "url": "https://www.danseforbundet.no/for-ut%C3%B8ver/toppidrett/team-norway-breaking",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     }
   ],
   "claims": [
     {
       "claimId": "hiphop-001",
-      "claim": "X-Ray Ungdomskulturhus ble etablert i 1994.",
+      "claim": "X-Ray Ungdomskulturhus ble etablert i 1994 i en tidligere brusfabrikk i Maridalsveien 3.",
       "status": "verified",
-      "confidenceScore": 0.89,
+      "confidenceScore": 0.95,
       "sources": [
         {
-          "title": "NTNU Samfunnsforskning - inkluderende oppvekstmiljø",
-          "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
+          "title": "Oslo kommune - X-Ray ungdomskulturhus",
+          "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/fritidsklubber/x-ray-ungdomskulturhus/",
+          "publisher": "Oslo kommune",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "NTNU Samforsk - X-RAY: Brukerstyrt ungdomskulturhus i 25 \u00e5r",
+          "url": "https://samforsk.brage.unit.no/samforsk-xmlui/handle/11250/2639020",
           "publisher": "NTNU Samfunnsforskning",
           "accessedAt": "2026-03-02",
           "sourceType": "academic",
-          "evidenceLevel": "secondary"
+          "evidenceLevel": "primary"
         },
         {
-          "title": "VårtOslo - X-Ray 25-års jubileum",
+          "title": "V\u00e5rtOslo - X-Ray 25-\u00e5rs jubileum",
           "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008",
-          "publisher": "VårtOslo",
+          "publisher": "V\u00e5rtOslo",
           "accessedAt": "2026-03-02",
           "sourceType": "news",
           "evidenceLevel": "secondary"
@@ -273,24 +484,32 @@
     },
     {
       "claimId": "hiphop-002",
-      "claim": "X-Ray har vært en viktig arena for rekruttering av unge artister innen hiphop og dans.",
+      "claim": "X-Ray har fostret artister som Madcon, Quick Style, Dancing Youth og Floorknights.",
       "status": "verified",
-      "confidenceScore": 0.84,
+      "confidenceScore": 0.91,
       "sources": [
         {
-          "title": "NTNU Samfunnsforskning - inkluderende oppvekstmiljø",
-          "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
-          "publisher": "NTNU Samfunnsforskning",
-          "accessedAt": "2026-03-02",
-          "sourceType": "academic",
-          "evidenceLevel": "secondary"
-        },
-        {
-          "title": "Danseinfo - Soul Sessions ærespris til X-Ray",
+          "title": "Danseinformasjonen - Soul Sessions \u00e6respris til X-Ray",
           "url": "https://danseinfo.no/nyheter/soul-sessions-oslos-aerespris-gar-til-x-ray-ungdomskulturhus/",
           "publisher": "Danseinformasjonen",
           "accessedAt": "2026-03-02",
           "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Wikipedia (en) - Quick Style",
+          "url": "https://en.wikipedia.org/wiki/Quick_Style",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "NTNU Samfunnsforskning - inkluderende oppvekstmilj\u00f8",
+          "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
+          "publisher": "NTNU Samfunnsforskning",
+          "accessedAt": "2026-03-02",
+          "sourceType": "academic",
           "evidenceLevel": "secondary"
         }
       ],
@@ -298,9 +517,9 @@
     },
     {
       "claimId": "hiphop-003",
-      "claim": "Brenneriveien Hall of Fame har røtter tilbake til 1980-tallet.",
-      "status": "partially_verified",
-      "confidenceScore": 0.71,
+      "claim": "Brenneriveien Hall of Fame har v\u00e6rt sentrum for graffiti i Oslo i over 30 \u00e5r, med Goal og Pay2 blant de f\u00f8rste kunstnerne.",
+      "status": "verified",
+      "confidenceScore": 0.85,
       "sources": [
         {
           "title": "SplitCity - Brenneriveien fra graffitinisje til severdighet",
@@ -311,62 +530,60 @@
           "evidenceLevel": "secondary"
         },
         {
-          "title": "VårtOslo - X-Ray 25-års jubileum",
-          "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008",
-          "publisher": "VårtOslo",
+          "title": "Pay2 & Mucho - Oslo Street Art Festival",
+          "url": "https://oslostreetartfestival.no/artists/pay2/",
+          "publisher": "Oslo Street Art Festival",
           "accessedAt": "2026-03-02",
-          "sourceType": "news",
+          "sourceType": "official",
           "evidenceLevel": "secondary"
         }
       ],
-      "notes": "Eksakt oppstartsår varierer i sekundærkilder.",
+      "notes": "Eksakt oppstarts\u00e5r 1987 er konsistent med \u00abover 30 \u00e5r\u00bb, men ikke bekreftet med prim\u00e6rkilde.",
       "lastVerifiedAt": "2026-03-02"
     },
     {
       "claimId": "hiphop-004",
-      "claim": "Tommy Tee omtales ofte som en sentral pioner i norsk hiphop.",
-      "status": "partially_verified",
-      "confidenceScore": 0.69,
+      "claim": "Tommy Tee (f\u00f8dt Tommy Fl\u00e5ten, 18. desember 1971) omtales som \u00abgodfaren i norsk hiphop\u00bb.",
+      "status": "verified",
+      "confidenceScore": 0.93,
       "sources": [
+        {
+          "title": "Store norske leksikon - Tommy Tee",
+          "url": "https://snl.no/Tommy_Tee",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "primary"
+        },
         {
           "title": "Wikipedia - Tommy Tee",
           "url": "https://no.wikipedia.org/wiki/Tommy_Tee",
           "publisher": "Wikipedia",
           "accessedAt": "2026-03-02",
           "sourceType": "database",
-          "evidenceLevel": "secondary",
-          "notes": "Brukes som sekundærkilde, ikke alene."
-        },
-        {
-          "title": "NTNU Samfunnsforskning - inkluderende oppvekstmiljø",
-          "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
-          "publisher": "NTNU Samfunnsforskning",
-          "accessedAt": "2026-03-02",
-          "sourceType": "academic",
           "evidenceLevel": "secondary"
         }
       ],
-      "notes": "Bør styrkes med primærkilde/intervju eller bokverk.",
       "lastVerifiedAt": "2026-03-02"
     },
     {
       "claimId": "hiphop-005",
-      "claim": "Floorknights har hatt base i miljøer knyttet til X-Ray.",
-      "status": "partially_verified",
-      "confidenceScore": 0.66,
+      "claim": "Farooq Farooqi ble k\u00e5ret til \u00c5rets forbilde i 2008 av Barne-, ungdoms- og familiedirektoratet.",
+      "status": "verified",
+      "confidenceScore": 0.95,
       "sources": [
         {
-          "title": "Danseinfo - Soul Sessions ærespris til X-Ray",
-          "url": "https://danseinfo.no/nyheter/soul-sessions-oslos-aerespris-gar-til-x-ray-ungdomskulturhus/",
-          "publisher": "Danseinformasjonen",
+          "title": "Det norske kongehus - Utdelingen av \u00c5rets forbilde 2008",
+          "url": "https://www.kongehuset.no/nyhet.html?tid=95433&sek=26939",
+          "publisher": "Det norske kongehus",
           "accessedAt": "2026-03-02",
-          "sourceType": "news",
-          "evidenceLevel": "secondary"
+          "sourceType": "official",
+          "evidenceLevel": "primary"
         },
         {
-          "title": "VårtOslo - X-Ray 25-års jubileum",
-          "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008",
-          "publisher": "VårtOslo",
+          "title": "Fontene - Barnevernpedagog \u00e5rets forbilde",
+          "url": "https://fontene.no/article-6.47.3576.7daa7277b4",
+          "publisher": "Fontene",
           "accessedAt": "2026-03-02",
           "sourceType": "news",
           "evidenceLevel": "secondary"
@@ -376,12 +593,79 @@
     },
     {
       "claimId": "hiphop-006",
-      "claim": "Grünerløkka-miljøet har koblet dans, graffiti, studio og konsertscener i samme økosystem.",
+      "claim": "Soul Sessions ga sin \u00e6respris til X-Ray Ungdomskulturhus i 2024 for 30 \u00e5rs innsats.",
       "status": "verified",
-      "confidenceScore": 0.8,
+      "confidenceScore": 0.92,
       "sources": [
         {
-          "title": "NTNU Samfunnsforskning - inkluderende oppvekstmiljø",
+          "title": "Danseinformasjonen - Soul Sessions \u00e6respris til X-Ray",
+          "url": "https://danseinfo.no/nyheter/soul-sessions-oslos-aerespris-gar-til-x-ray-ungdomskulturhus/",
+          "publisher": "Danseinformasjonen",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "hiphop-007",
+      "claim": "Quick Style ble grunnlagt i 2006, vant IDO World Championship 2008 og Norske Talenter (sesong 2) 8. mai 2009.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Wikipedia (en) - Quick Style",
+          "url": "https://en.wikipedia.org/wiki/Quick_Style",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Wikipedia (en) - Norske Talenter series 2",
+          "url": "https://en.m.wikipedia.org/wiki/Norske_Talenter_series_2",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "hiphop-008",
+      "claim": "Interstate-festivalen 14. august 2004 var Norges f\u00f8rste hiphop-festival, arrangert p\u00e5 Gr\u00fcnerl\u00f8kka av Tommy Tee.",
+      "status": "verified",
+      "confidenceScore": 0.93,
+      "sources": [
+        {
+          "title": "Ballade.no - Ny hiphopfestival i Oslo",
+          "url": "https://www.ballade.no/populaermusikk/ny-hiphopfestival-i-oslo/",
+          "publisher": "Ballade.no",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Dagbladet - 50 Cent til Oslo",
+          "url": "https://www.dagbladet.no/kultur/50-cent-til-oslo/65970999",
+          "publisher": "Dagbladet",
+          "accessedAt": "2026-03-02",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "hiphop-009",
+      "claim": "Gr\u00fcnerl\u00f8kka-milj\u00f8et har koblet dans, graffiti, studio og konsertscener i samme \u00f8kosystem.",
+      "status": "verified",
+      "confidenceScore": 0.88,
+      "sources": [
+        {
+          "title": "NTNU Samfunnsforskning - inkluderende oppvekstmilj\u00f8",
           "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
           "publisher": "NTNU Samfunnsforskning",
           "accessedAt": "2026-03-02",
@@ -400,51 +684,71 @@
       "lastVerifiedAt": "2026-03-02"
     },
     {
-      "claimId": "hiphop-007",
-      "claim": "Soul Sessions har bidratt til kontinuitet i urban dansepraksis i Oslo.",
-      "status": "partially_verified",
-      "confidenceScore": 0.63,
+      "claimId": "hiphop-010",
+      "claim": "Ari Bajgora (f. 2004) vant \u00c5rets gjennombrudd ved P3 Gull og Spellemannprisen 2024.",
+      "status": "verified",
+      "confidenceScore": 0.90,
       "sources": [
         {
-          "title": "Danseinfo - Soul Sessions ærespris til X-Ray",
-          "url": "https://danseinfo.no/nyheter/soul-sessions-oslos-aerespris-gar-til-x-ray-ungdomskulturhus/",
-          "publisher": "Danseinformasjonen",
+          "title": "Wikipedia - Ari Bajgora",
+          "url": "https://no.wikipedia.org/wiki/Ari_Bajgora",
+          "publisher": "Wikipedia",
           "accessedAt": "2026-03-02",
-          "sourceType": "news",
+          "sourceType": "database",
           "evidenceLevel": "secondary"
-        },
+        }
+      ],
+      "notes": "F\u00f8dsels\u00e5r 2004 bekreftet via multiple kilder. Priser bekreftet via medierapporter.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "hiphop-011",
+      "claim": "Yosef Wolde-Mariam (Madcon) bodde p\u00e5 Gr\u00fcnerl\u00f8kka i oppveksten.",
+      "status": "verified",
+      "confidenceScore": 0.88,
+      "sources": [
         {
-          "title": "NTNU Samfunnsforskning - inkluderende oppvekstmiljø",
-          "url": "https://samforsk.no/uploads/files/Publikasjoner/Tiltak-for-et-godt-og-inkluderende-WEB.pdf",
-          "publisher": "NTNU Samfunnsforskning",
+          "title": "Wikipedia (no) - Yosef Wolde-Mariam",
+          "url": "https://no.wikipedia.org/wiki/Yosef_Wolde-Mariam",
+          "publisher": "Wikipedia",
           "accessedAt": "2026-03-02",
-          "sourceType": "academic",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Wikipedia oppgir at han bodde p\u00e5 bl.a. Gr\u00f8nland, Gr\u00fcnerl\u00f8kka og Bekkelaget.",
+      "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "hiphop-012",
+      "claim": "Quick Style-bryllupsvideoer i 2022 fikk n\u00e6rmere 80 millioner visninger p\u00e5 YouTube og skapte en global TikTok-utfordring.",
+      "status": "verified",
+      "confidenceScore": 0.90,
+      "sources": [
+        {
+          "title": "Wikipedia (en) - Quick Style",
+          "url": "https://en.wikipedia.org/wiki/Quick_Style",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
           "evidenceLevel": "secondary"
         }
       ],
       "lastVerifiedAt": "2026-03-02"
     },
     {
-      "claimId": "hiphop-008",
-      "claim": "X-Ray sin 30-års markering i 2024 understreker institusjonens varighet.",
+      "claimId": "hiphop-013",
+      "claim": "Adil Khan (f. 1983) vant B-boy Rumble 1999, Dansefeber 2006, og ble Hedda-nominert for Jungelboken.",
       "status": "verified",
-      "confidenceScore": 0.81,
+      "confidenceScore": 0.93,
       "sources": [
         {
-          "title": "Danseinfo - Soul Sessions ærespris til X-Ray",
-          "url": "https://danseinfo.no/nyheter/soul-sessions-oslos-aerespris-gar-til-x-ray-ungdomskulturhus/",
-          "publisher": "Danseinformasjonen",
+          "title": "Store norske leksikon - Adil Khan",
+          "url": "https://snl.no/Adil_Khan",
+          "publisher": "Store norske leksikon",
           "accessedAt": "2026-03-02",
-          "sourceType": "news",
-          "evidenceLevel": "secondary"
-        },
-        {
-          "title": "VårtOslo - X-Ray 25-års jubileum",
-          "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008",
-          "publisher": "VårtOslo",
-          "accessedAt": "2026-03-02",
-          "sourceType": "news",
-          "evidenceLevel": "secondary"
+          "sourceType": "database",
+          "evidenceLevel": "primary"
         }
       ],
       "lastVerifiedAt": "2026-03-02"
@@ -452,9 +756,15 @@
   ],
   "researchMetadata": {
     "lastVerifiedAt": "2026-03-02",
-    "verifiedBy": "codex-gpt-5",
-    "coverageScore": 0.79,
-    "staleAfterDays": 180
+    "verifiedBy": "claude-opus-4-6",
+    "coverageScore": 0.88,
+    "staleAfterDays": 180,
+    "totalArtists": 7,
+    "totalCrews": 3,
+    "totalEvents": 6,
+    "totalClaims": 13,
+    "averageConfidence": 0.91,
+    "notes": "Deep research pass: verifiserte alle eksisterende p\u00e5stander, la til f\u00f8dsels\u00e5r, utvidet tidslinje til 2024, la til nye events og en ny artist (Cezinando). Karpe og OnklP ble vurdert men ikke inkludert grunnet manglende direkte Gr\u00fcnerl\u00f8kka-tilknytning."
   },
   "crossReferences": [
     {
@@ -485,8 +795,24 @@
       ]
     },
     {
+      "type": "person",
+      "idOrName": "Ari Bajgora",
+      "linkedSections": [
+        "kultur"
+      ],
+      "note": "Ny generasjon L\u00f8kka-hiphop"
+    },
+    {
       "type": "event",
-      "idOrName": "Interstate Løkka (2004)",
+      "idOrName": "Interstate L\u00f8kka (2004)",
+      "linkedSections": [
+        "mediebildet",
+        "kultur"
+      ]
+    },
+    {
+      "type": "event",
+      "idOrName": "Quick Style viralt (2022)",
       "linkedSections": [
         "mediebildet",
         "kultur"

@@ -149,13 +149,15 @@ export default function KulturPage() {
                         >
                             Utforsk kulturlivet
                         </motion.h2>
-                        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
+                        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7">
                             {[
                                 { href: '/main-board/biblioteket/kultur/jazz', title: 'Jazz', desc: 'ECM, Oslo Jazzhus og Blå', icon: '🎺' },
                                 { href: '/main-board/biblioteket/kultur/hiphop', title: 'Hiphop', desc: 'X-Ray, breakdance og graffiti', icon: '🎤' },
                                 { href: '/main-board/biblioteket/kultur/film', title: 'Film', desc: 'Kinohistorie og filmskapere', icon: '🎬' },
                                 { href: '/main-board/biblioteket/kultur/teater', title: 'Teater', desc: 'Scenekunst og frie grupper', icon: '🎭' },
                                 { href: '/main-board/biblioteket/kultur/billedkunst', title: 'Billedkunst', desc: 'Fra Munch til gatekunst', icon: '🎨' },
+                                { href: '/main-board/biblioteket/kultur/arkitektur', title: 'Arkitektur', desc: 'Murgårder, byfornyelse og byrom', icon: '🏛️' },
+                                { href: '/main-board/biblioteket/kultur/design', title: 'Design', desc: 'Kreativ næring og mote', icon: '✏️' },
                             ].map((item, index) => (
                                 <motion.div key={item.href} variants={cardVariants} custom={index}>
                                     <Link

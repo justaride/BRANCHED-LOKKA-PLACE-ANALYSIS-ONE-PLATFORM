@@ -1,37 +1,37 @@
 {
   "id": "teater",
   "title": "Teater og Scenekunst",
-  "intro": "Grünerløkka har utviklet seg til en allsidig kulturbydel der teater og scenekunst blomstrer. Fra Parkteatrets reise fra stumkino til rockescene, til frie teatergrupper som har funnet rom for nyskaping – bydelen er et dynamisk kraftsenter i Oslos scenekunstliv.",
+  "intro": "Grünerløkka har utviklet seg til en allsidig kulturbydel der teater og scenekunst blomstrer. Fra Parkteatrets reise fra stumkino til rockescene, til frie teatergrupper som har funnet rom for nyskaping – bydelen er et dynamisk kraftsenter i Oslos scenekunstliv. Med over ti scener, kunstnerdrevne kulturhus og et voksende fritt felt utgjør Løkka en av Norges tetteste klynger av scenekunstaktører.",
   "sections": [
     {
       "id": "parkteatret",
-      "title": "Parkteatret – 115 år på Olaf Ryes plass",
-      "description": "Historien om Oslos eldste kulturarena fra kino til konsertscene."
+      "title": "Parkteatret – Over 115 år på Olaf Ryes plass",
+      "description": "Historien om Oslos eldste kulturarena i kontinuerlig drift – fra kinematograf i 1907 til dagens konsertscene og humorfestival."
     },
     {
       "id": "frigrupper",
       "title": "Frie teatergrupper",
-      "description": "Uavhengige kompanier som har gjort Løkka til base for eksperimentelt og flerkulturelt teater."
+      "description": "Uavhengige kompanier som har gjort Løkka til base for eksperimentelt, flerkulturelt og tegnspråklig teater."
     },
     {
       "id": "stedsspesifikk",
       "title": "Stedsspesifikke forestillinger",
-      "description": "Kreativ scenekunst som tar bydelens omgivelser i bruk som scene."
+      "description": "Kreativ scenekunst som tar bydelens bibliotek, kirkerom, parker og matbutikker i bruk som scene."
     },
     {
       "id": "barneteater",
       "title": "Barneteater og dukketeater",
-      "description": "Løkkas lange tradisjon for teater for de yngste."
+      "description": "Løkkas lange tradisjon for teater for de yngste – fra dukketeater til ungdomsforestillinger."
     },
     {
       "id": "standup",
       "title": "Stand-up og kabaret",
-      "description": "Humorscenen som har gjort Løkka til en viktig bydel for stand-up."
+      "description": "Humorscenen som har gjort Løkka til en viktig bydel for stand-up, fra Crap Comedy til open mic."
     },
     {
       "id": "dans",
       "title": "Dans og performance",
-      "description": "Fra Dansens Hus til Riksscenen – moderne dans, folkedans og performancekunst."
+      "description": "Fra Dansens Hus til Riksscenen – samtidsdans, folkedans og performancekunst i verdensklasse."
     }
   ],
   "venues": [
@@ -40,10 +40,11 @@
       "established": 1907,
       "address": "Olaf Ryes plass 11",
       "type": "kulturscene",
+      "description": "Bygget ble tegnet av arkitekt Frithjof Aslesen og åpnet som kinematograf i 1907. Etter en stor ombygging i nyklassisistisk stil av Erik Glosimodt (1918–1922) fikk det sitt nåværende navn. Var kommunal kino i 65 år (1926–1991), hjem for Nordic Black Theatre i et tiår (1992–2001), og gjenåpnet som flerbruksscene i 2002.",
       "history": [
         {
           "year": 1907,
-          "event": "Åpner som Kristiania Bryggeri Grünerløkkens Kinematograf"
+          "event": "Åpner som Kristiania Bryggeri Grünerløkkens Kinematograf, tegnet av arkitekt Frithjof Aslesen"
         },
         {
           "year": 1913,
@@ -51,11 +52,11 @@
         },
         {
           "year": 1918,
-          "event": "Stor ombygging starter – ny nyklassisistisk fasade"
+          "event": "Stor ombygging starter – ny nyklassisistisk fasade av arkitekt Erik Glosimodt"
         },
         {
           "year": 1922,
-          "event": "Får navnet Parkteatret"
+          "event": "Får navnet Parkteatret etter fullført ombygging"
         },
         {
           "year": 1926,
@@ -71,86 +72,259 @@
         },
         {
           "year": 1991,
-          "event": "Kinodriften avvikles etter 84 år"
+          "event": "Kinodriften avvikles etter 84 år som kino"
         },
         {
           "year": 1992,
-          "event": "Nordic Black Theatre flytter inn"
+          "event": "Nordic Black Theatre flytter inn – bydelen får flerkulturelt teater"
         },
         {
           "year": 2001,
-          "event": "NBT flytter ut"
+          "event": "Nordic Black Theatre flytter til MS Innvik i Bjørvika"
         },
         {
           "year": 2002,
-          "event": "Gjenåpner som Parkteatret Scene"
+          "event": "Gjenåpner som Parkteatret Scene – konsertscene og kulturarena"
         },
         {
           "year": 2007,
-          "event": "Mottar Olavsrosa som kulturminne"
+          "event": "Tildelt Olavsrosa av Norsk Kulturarv som urbant kulturminne"
+        },
+        {
+          "year": 2025,
+          "event": "Crap Comedy Festival arrangeres for 15. gang med utsolgte forestillinger"
         }
       ],
-      "currentUse": "Konsertscene, bar og arena for teater, humor og festivaler. Fast arena for Crap Comedy Festival.",
-      "significance": "En av Oslos eldste kulturarenaer – over 115 år på samme adresse."
+      "currentUse": "Konsertscene med kapasitet på 500, bar og arena for konserter, teater, humor og festivaler. Fast arena for Crap Comedy Festival siden 2010.",
+      "significance": "En av Oslos eldste kulturarenaer i kontinuerlig drift – over 115 år på samme adresse. Olavsrosa-merket kulturminne."
     },
     {
       "name": "Dansens Hus",
-      "established": 2008,
-      "address": "Vulkan",
+      "established": 2004,
+      "address": "Vulkan 1",
       "type": "dansescene",
-      "description": "Norges nasjonale scene for samtidsdans med to scener. Programmerer bredt spekter fra eksperimentell dans til familieforestillinger.",
-      "significance": "Har gjort samtidsdansen tilgjengelig for et større publikum og trekker danseinteresserte til Løkka-området."
+      "description": "Norges nasjonale scene for dans, etablert som institusjon i 2004 med åpning i midlertidige lokaler på Det Norske Teatret. Flyttet til Vulkan-området i 2008, der den gamle verkstedhallen ble ombygd til dansescene. Hovedscenen tar 318 tilskuere, Studioscenen 77. Programmerer ca. 45 norske og internasjonale danseproduksjoner årlig.",
+      "history": [
+        {
+          "year": 2004,
+          "event": "Institusjonen Dansens Hus etableres med offisiell åpning 23. september i midlertidige lokaler på Det Norske Teatret"
+        },
+        {
+          "year": 2008,
+          "event": "Åpner i permanent lokale i Verkstedhallene på Vulkan 29. februar"
+        },
+        {
+          "year": 2024,
+          "event": "Koreografilaboratoriet presenterer unge dansekunstnere for publikum"
+        },
+        {
+          "year": 2025,
+          "event": "Dansens Dager 2025 med dans på Gerd Kjølås plass og dansekunstnerbolig tilgjengelig"
+        }
+      ],
+      "currentUse": "Nasjonal scene for samtidsdans med to scener, koreografilaboratorium og dansekunstnerbolig.",
+      "significance": "Har gjort Vulkan-området til en sentral adresse for samtidsdans og trekker danseinteresserte til Løkka-området."
     },
     {
       "name": "Riksscenen",
       "established": 2010,
-      "address": "Trondheimsveien 2 (Schous kulturkvartal)",
+      "address": "Schous kulturbryggeri, Trondheimsveien 2",
       "type": "folkemusikk/folkedans",
-      "description": "Nasjonal scene for folkemusikk og folkedans. Presenterer alt fra tradisjonell norsk folkedans til samisk joik og verdensmusikk.",
-      "significance": "Utvidet dansetilbudet på Løkka til tradisjonelle danser – et samlingspunkt for danseglade i Oslo."
+      "description": "Nasjonal scene for folkemusikk og folkedans, stiftet av Juoigiid Searvi, FolkOrg, Noregs Ungdomslag og Samspill International Music Network. Presenterer ca. 200 konserter og forestillinger årlig – alt fra tradisjonell norsk folkedans og samisk joik til verdensmusikk.",
+      "history": [
+        {
+          "year": 2010,
+          "event": "Riksscenen åpner i Schous kulturbryggeri"
+        },
+        {
+          "year": 2025,
+          "event": "Emma Elliane Oskal Valkeapää slippartyfest og joikeforestilling"
+        }
+      ],
+      "currentUse": "Nasjonal scene med ca. 200 arrangementer årlig, inkludert konserter, dansefestivaler og kappleikar.",
+      "significance": "Utvidet dansetilbudet på Løkka til tradisjonelle danser og samisk joik – et unikt samlingspunkt for folkemusikk i Oslo."
     },
     {
       "name": "Black Box teater",
-      "established": 2007,
+      "established": 1985,
       "address": "Marstrandgata 8 (Rodeløkka)",
       "type": "friteater",
-      "description": "Scene for frie teatergrupper, etablert 1985 men flyttet til Rodeløkka i 2007. Norges ledende scene for avantgarde-teater, dans og performance.",
-      "significance": "Styrket bydelens posisjon som sentrum for den frie scenekunsten med over 1000 produksjoner."
+      "description": "Norges ledende scene for fri scenekunst og avantgarde-teater. Grunnlagt i 1985 av Teatersentrum (nå Danse- og teatersentrum) som utleiescene på Aker Brygge. Utviklet seg til programmeringsscene under Inger Buresund (1991–2001). Flyttet til Marstrandgata på Rodeløkka i 2004 etter å ha måttet forlate Aker Brygge i 2003. Feiret 40 år i 2025.",
+      "history": [
+        {
+          "year": 1985,
+          "event": "Grunnlagt av Teatersentrum som utleiescene for frie grupper på Aker Brygge"
+        },
+        {
+          "year": 1991,
+          "event": "Inger Buresund ansettes som kunstnerisk leder – scenen utvikler egen profil"
+        },
+        {
+          "year": 2001,
+          "event": "Kristian Seltun overtar som teatersjef"
+        },
+        {
+          "year": 2003,
+          "event": "Må forlate lokalene på Aker Brygge"
+        },
+        {
+          "year": 2004,
+          "event": "Flytter til Marstrandgata 8 i tidligere Bergenes Sjokoladefabrikk på Rodeløkka"
+        },
+        {
+          "year": 2013,
+          "event": "Oslo Internasjonale Teaterfestival blir fast del av vårprogrammet"
+        },
+        {
+          "year": 2024,
+          "event": "Høstprogram med bl.a. «1969 – True. Crime. Theatre.» av Pendry/Pettersen"
+        },
+        {
+          "year": 2025,
+          "event": "Feirer 40 år. Oslo Internasjonale Teaterfestival med tema «Roots and Reclamations»"
+        }
+      ],
+      "currentUse": "Programmeringsscene for samtids- og eksperimentell scenekunst, med norske og internasjonale produksjoner, Oslo Internasjonale Teaterfestival og Marstrand Festival.",
+      "significance": "Styrket bydelens posisjon som sentrum for den frie scenekunsten. Over 1000 produksjoner siden oppstart."
     },
     {
       "name": "Hausmania",
-      "established": 2000,
+      "established": 1999,
       "address": "Hausmanns gate 34",
       "type": "kulturhus",
-      "description": "Fristad for eksperimentell kunst. Hjem for Grusomhetens Teater og performancekunstnere.",
-      "significance": "Viktig plattform for undergrunnskultur og eksperimentelt teater."
+      "description": "Kunstnerdrevet og selvstyrt kulturhus i Hauskvartalet. Okkupert i 1999 av en gruppe kunstnere, formelt etablert som kulturhus i 2000. Oslo kommune kjøpte bygningskomplekset fra Statsbygg i 2004. Huser i dag rundt 200 kunstnere med atelierer, øvingsrom, konsertscene, galleri (Galleri Podium), kafé (Kafé Hærverk) og Grusomhetens Teater. Deler av kvartalet er senere solgt til Christian Ringnes/Victoria Eiendom.",
+      "history": [
+        {
+          "year": 1999,
+          "event": "Bygningen okkuperes av kunstnere i september"
+        },
+        {
+          "year": 2000,
+          "event": "Formelt etablert som Kulturhuset Hausmania"
+        },
+        {
+          "year": 2002,
+          "event": "Grusomhetens Teater får støtte fra Norsk kulturråd til egen scene i Hausmania"
+        },
+        {
+          "year": 2004,
+          "event": "Oslo kommune kjøper bygningskomplekset fra Statsbygg"
+        },
+        {
+          "year": 2024,
+          "event": "Deltar i Open House Oslo – åpner dørene for publikum"
+        },
+        {
+          "year": 2025,
+          "event": "Flux Festival 2025 arrangeres i august med over 200 tilknyttede kunstnere"
+        }
+      ],
+      "currentUse": "Selvstyrt kulturhus med atelierer, scener, gallerier, kafé, øvingsrom og Grusomhetens Teater. Arena for undergrunnskultur, teater, performance og utstillinger.",
+      "significance": "Oslos viktigste plattform for undergrunnskultur og eksperimentelt teater. Et levende alternativ der kunst og aktivisme smelter sammen."
     },
     {
       "name": "Teater Manu",
-      "address": "Heimdalsgate (nedre Grünerløkka)",
+      "established": 2001,
+      "address": "Schleppegrells gate 32 (Grünerløkka)",
       "type": "tegnspråkteater",
-      "description": "Norges eneste profesjonelle tegnspråkteater. Produserer forestillinger der norsk tegnspråk og stemmeskuespill kombineres.",
-      "significance": "Gjør teater tilgjengelig for døve publikummere og har base midt på Løkka."
+      "description": "Norges eneste profesjonelle tegnspråkteater. Bakgrunnen startet i 1987 da Norges Døveforbund inngikk avtale med Nationaltheatret om å undersøke behovet. Treårig prosjektperiode 1999–2001 førte til at Stortinget vedtok permanent etablering i 2001. Flyttet til Schleppegrells gate på Grünerløkka i 2004. Alle forestillinger har stemmeskuespiller slik at både døve og hørende får fullt utbytte. Finansiert over statsbudsjettet.",
+      "history": [
+        {
+          "year": 1987,
+          "event": "Norges Døveforbund inngår avtale med Nationaltheatret om utredning"
+        },
+        {
+          "year": 1999,
+          "event": "Treårig prosjektperiode starter – første profesjonelle tegnspråkforestilling «Hjelp, vi får gjester!»"
+        },
+        {
+          "year": 2001,
+          "event": "Stortinget vedtar permanent etablering av Teater Manu i Oslo"
+        },
+        {
+          "year": 2004,
+          "event": "Flytter inn i Schleppegrells gate 32 på Grünerløkka, skifter navn fra Theatre Manu til Teater Manu"
+        },
+        {
+          "year": 2010,
+          "event": "Tre Hedda-nominasjoner – «Pinocchio» nominert"
+        },
+        {
+          "year": 2013,
+          "event": "Hedda-prisen for beste visuelle utforming for «Jack og bønnestengelen»"
+        },
+        {
+          "year": 2025,
+          "event": "«Lysistrata» på turné og «Bunkersen» av Jo Strømgren med premiere – åpningsforestilling Heddadagene"
+        }
+      ],
+      "currentUse": "Profesjonelt tegnspråkteater med egen sal, barneteater, turné nasjonalt og internasjonalt.",
+      "significance": "Gjør teater tilgjengelig for døve og hørende publikummere og setter norsk tegnspråk på scenen som kunstform. Hedda-prisvinnende."
+    },
+    {
+      "name": "Vega Scene",
+      "established": 2018,
+      "address": "Hausmanns gate 28",
+      "type": "kino/teater",
+      "description": "Kvalitetskino og scene for ny nordisk dramatikk. Etablert som organisasjon i 2013, åpnet for publikum 3. november 2018. Første kulturhus med BREEAM-NOR-miljøsertifisering. Programmerer kvalitetsfilm, urpremierer på nordisk drama og debattarrangementer.",
+      "history": [
+        {
+          "year": 2013,
+          "event": "Vega Scene etableres som organisasjon med mål om å skape møteplass for kvalitetsfilm og ny dramatikk"
+        },
+        {
+          "year": 2018,
+          "event": "Åpner for publikum 3. november i Hausmanns gate 28"
+        }
+      ],
+      "currentUse": "Kino med to saler, teaterscene for ny nordisk dramatikk, bar og debattarena.",
+      "significance": "Utvidet Løkkas scenekunsttilbud med ny nordisk dramatikk og kvalitetsfilm i miljøsertifisert bygg midt i bydelen."
     },
     {
       "name": "Folk i Storgata",
+      "address": "Storgata 36J",
       "type": "klubbscene",
-      "description": "Intim bar med ukentlige stand-up-kvelder og open mic for nye komikere. Ca. 50 publikumsplasser i kjelleren.",
+      "description": "Intim bar og scene i Grünerløkka-området. Åpen daglig kl. 14–03. Vertskap for «Intravenøs Standup» og andre humorkvelder med open mic for nye komikere.",
+      "currentUse": "Bar med ukentlige stand-up-kvelder, live musikk og open mic i intim setting.",
       "significance": "Lavterskel humorscene hvor man kan oppdage morgendagens komistjerner."
     },
     {
       "name": "Grünerløkka Lufthavn / Mir",
-      "address": "Toftes gate",
+      "established": 1994,
+      "address": "Toftes gate 69",
       "type": "kunstnerkollektiv",
-      "description": "Kunstnerkollektiv som driver baren Mir. Arena for undergrunnskultur, improteater, poesislam og burlesk-kabaret.",
-      "significance": "Grasrot-scene som representerer Løkkas alternative kulturmiljø."
+      "description": "Non-kommersiell organisasjon i et gammelt skolebygg, kjent som Musikkens Hus og siden 1994 som Grünerløkka Lufthavn. Driver baren/scenen Mir, Galleri 69 og øvings- og arbeidsrom for musikere og kunstnere. Flyttet tilbake til Toftes gate 69 i september 2021 etter renovering.",
+      "history": [
+        {
+          "year": 1994,
+          "event": "Grünerløkka Lufthavn etableres i det gamle skolebygget i Toftes gate 69"
+        },
+        {
+          "year": 2021,
+          "event": "Mir gjenåpner 5. november etter renovering og retur til Toftes gate 69"
+        }
+      ],
+      "currentUse": "Scenen Mir med konserter og livemusikk, Galleri 69 med kunstutstillinger, øvingsrom og atelierer for kunstnere.",
+      "significance": "Grasrot-kulturinstitusjon som representerer Løkkas alternative kulturmiljø. Non-kommersiell drift i nesten 30 år."
     },
     {
-      "name": "Sofienberg kirke",
+      "name": "Sofienberg kirke / Sofienbergprosjektet",
       "established": 2024,
+      "address": "Sofienberggata 17",
       "type": "kulturhus",
-      "description": "Nylig ombygd til kulturhus for barn og unge. Arena for ungdomsteater og stedsspesifikke forestillinger.",
-      "significance": "Ny arena for scenekunst på Løkka – åpnet med Romeo+Julie i 2025."
+      "description": "Sofienberg kirke ombygd til kulturhus for barn og unge gjennom Sofienbergprosjektet. Sparebankstiftelsen DNB ga 23 mill. kroner til utviklingen. Tatt i bruk våren 2024 med støtte fra Bufdir. Åpent for ungdom torsdager kl. 14–18.",
+      "history": [
+        {
+          "year": 2024,
+          "event": "Bygget tas i bruk av Sofienbergprosjektet som kulturhus for barn og unge, med støtte fra Sparebankstiftelsen DNB (23 mill. kr) og Bufdir"
+        },
+        {
+          "year": 2025,
+          "event": "Tigerstadsteatret spiller «Romeo+Julie» – Shakespeare i nytolkning med slampoesi, gatekunst og ballroom-dans"
+        }
+      ],
+      "currentUse": "Kulturhus og møteplass for barn, unge og nabolaget med teater, verksteder, leksehjelp og aktiviteter.",
+      "significance": "Ny arena for scenekunst og ungdomskultur på Løkka – knytter kirkebygg til bydelens kulturliv."
     }
   ],
   "theaterGroups": [
@@ -162,29 +336,55 @@
         "Jarl Solberg"
       ],
       "focus": "Flerkulturelt teater",
-      "connection": "Holdt til på Parkteatret 1992-2001 før de flyttet til MS Innvik og senere Cafeteatret.",
-      "significance": "Viktig for å etablere flerkulturelt teater i Oslo. Utvikler unge skuespillere med flerkulturell bakgrunn gjennom Nordic Black Xpress."
+      "connection": "Startet på Parkteatret 1992. Cliff Moustache (Seychellene) og Jarl Solberg møttes på Antirasistisk Senter og ville jobbe med ungdom. Holdt til på Parkteatret 1992–2001, flyttet til MS Innvik i Bjørvika (2001–2011), deretter til Caféteatret på Grønland fra 2011.",
+      "significance": "Viktig for å etablere flerkulturelt teater i Oslo. Utvikler unge skuespillere med flerkulturell bakgrunn gjennom Nordic Black Xpress. Mange alumni har slått gjennom på film og teater i Norge.",
+      "keyWorks": [
+        "Nordic Black Xpress (talentprogram)",
+        "MS Innvik (kulturskip 2001–2011)",
+        "Caféteatret (fast hjem fra 2011)"
+      ]
     },
     {
       "name": "Grusomhetens Teater",
-      "established": 1989,
+      "established": 1992,
       "founder": "Lars Øyno",
-      "focus": "Eksperimentelt avantgarde-teater",
-      "address": "Hausmania",
-      "significance": "Inspirert av Antonin Artaud. Har urfremført ukjente Ibsen-verk som Svanhild (2014) og Fjeldfuglen (2009). Over 30 produksjoner per 2022.",
+      "focus": "Eksperimentelt avantgarde-teater inspirert av Antonin Artaud",
+      "address": "Hausmania, Hausmanns gate 34",
+      "connection": "Første forestilling i samarbeid med Trøndelag Teater i 1989, etablert som egen gruppe i 1992. Egen scene på Hausmania fra 2002 med støtte fra Norsk kulturråd.",
+      "significance": "Over 30 år med fysisk og surrealistisk teater. Har urfremført ukjente Ibsen-verk som Svanhild (2014) og Fjeldfuglen (2009). Lars Øyno har regissert over 30 produksjoner.",
       "keyWorks": [
         "Woyzeck",
         "En sporvogn til begjær",
-        "Svanhild (Ibsen)",
-        "Fjeldfuglen (Ibsen)"
-      ]
+        "Svanhild (Ibsen, 2014)",
+        "Fjeldfuglen (Ibsen, 2009)",
+        "Svart og hvit natt (2025)"
+      ],
+      "description": "Kunstnerisk ideologi forankret i den franske surrealisten Antonin Artauds visjoner om et anatomisk teater. Uttrykket er fysisk snarere enn intellektuelt."
     },
     {
       "name": "Grünerløkka Geriljateater",
       "established": 2022,
-      "focus": "Virkelighetsnær dramatikk",
-      "description": "Ungt teaterkollektiv som setter opp 'hardt-slående' dramatikk i alternative scener.",
-      "significance": "Representerer den nye generasjonen frie teatergrupper på Løkka."
+      "focus": "Virkelighetsnær dramatikk og moderne drama",
+      "description": "Ungt teaterkollektiv som setter opp hardtslående dramatikk i alternative scener. Setter frilansere på scenen.",
+      "significance": "Representerer den nye generasjonen frie teatergrupper på Løkka.",
+      "keyWorks": [
+        "Veps (2023, spilt på Kjeholmen Kulturfestival og Oslo Fringe)",
+        "Den Rette (2023, alvorlig komedie om moderne kjærlighet, spilt på SALT)"
+      ]
+    },
+    {
+      "name": "Tigerstadsteatret",
+      "established": null,
+      "focus": "Teater for barn og unge",
+      "connection": "Ikke-kommersielt AS med sosialt oppdrag om barns rett til kunst og kultur. Arbeider tett med nabolag og skoler. Tilknyttet Sofienbergprosjektet.",
+      "significance": "Hedda-prisen for beste forestilling for unge (2019, med Oslo Nye Teater). Oslo Bys Kunstnerpris 2022. Tigerbussen nominert til Publikumsutviklingsprisen.",
+      "keyWorks": [
+        "Romeo+Julie (2025, Sofienberg kirke)",
+        "Tigerbussen (turné i Oslo)",
+        "Jungelen",
+        "Evighetsbiblioteket"
+      ],
+      "description": "Gratis og inkluderende teater av høy kvalitet for barn og unge. Alle forestillinger basert på møter med barn og unges virkelighet."
     }
   ],
   "siteSpecificPerformances": [
@@ -200,7 +400,7 @@
       "year": 2019,
       "company": "Liavaag/Lindberg",
       "location": "Rema 1000 Sannergata",
-      "description": "Hele forestillingen foregår inne på en vanlig matbutikk. Publikum ledet rundt mellom butikkreoler og handlende kunder. Tematiserer hvem som regnes som 'feilvarer' i samfunnet."
+      "description": "Hele forestillingen foregikk inne på en vanlig matbutikk. Publikum ledet rundt mellom butikkreoler og handlende kunder. Tematiserte hvem som regnes som «feilvarer» i samfunnet. Vært vist i KHiOs sammenheng."
     },
     {
       "title": "Sofie i Wonderland",
@@ -215,308 +415,581 @@
       "company": "Tigerstadsteatret",
       "location": "Sofienberg kirke",
       "description": "Shakespeare i nytolkning med slampoesi, street art, ballroom-dans og episke orgelbeats. Kirken transformert til okkupert ungdomsmiljø."
+    },
+    {
+      "title": "Elvelangs i fakkellys",
+      "year": 2024,
+      "company": "Bydel Grünerløkka m.fl.",
+      "location": "Akerselva gjennom Grünerløkka",
+      "description": "Årlig arrangement (23. gang i 2024) der over 4500 fakler erstatter elektrisk belysning langs 8 km av Akerselva. Over 150 kulturinnslag med dans, teater, flammeart, sirkus, kor og orkester. Arrangert av bydelene Nordre Aker, Sagene, Grünerløkka og Gamle Oslo."
+    },
+    {
+      "title": "Made by You",
+      "year": 2024,
+      "company": "Ukjent (prosjekt)",
+      "location": "Markveien 30",
+      "description": "Prosjekt for scenekunst og kulturell byutvikling på Grünerløkka. Mottok 120 000 kr i støtte fra Kulturdirektoratet i 2024."
     }
   ],
   "childrenTheater": [
     {
       "name": "Oslo Nye Dukketeater (Trikkestallen)",
-      "years": "2003-2023",
+      "years": "2003–2025",
       "location": "Torshov (nær Løkka)",
-      "description": "Byens hovedscene for dukketeater. Spilte Albert Åberg-forestillinger og klassikere som 'Muldvarpen'. Avsluttet 22 år på Torshov i 2023.",
-      "significance": "Betjente teaterglade Løkka-barn i to tiår."
+      "description": "Byens hovedscene for dukketeater i Trikkestallen på Torshov. Spilte Albert Åberg-forestillinger, «Muldvarpen» og klassikere. Siste forestilling i Trikkestallen 15. mars 2025 («Den lille muldvarpen»). Dukketeatret flyttet til Centralteatret 1. mai 2025 etter at Oslo kommune kuttet støtten.",
+      "significance": "Betjente teaterglade Løkka-barn i over to tiår. Feiret 70-årsjubileum i 2023."
     },
     {
       "name": "Teater Manu barneteater",
-      "description": "Produserer barneforestillinger på tegnspråk basert på eventyr. Spilles både i egen sal og på turné til skoler."
+      "description": "Produserer barneforestillinger på tegnspråk basert på eventyr. Spilles både i egen sal og på turné til skoler. Manu Ung lager ungdomsproduksjoner som «Begravelse av en Bitch» (2025)."
     },
     {
-      "name": "Sofienbergparken kulturhus",
+      "name": "Sofienbergprosjektet / Sofienberg kirke",
       "established": 2024,
-      "description": "I gamle Sofienberg kirke – planlegges dukketeaterverksted, barneforestillinger og julemarked."
+      "description": "Kulturhus for barn og unge i gamle Sofienberg kirke. Planlegger dukketeaterverksted, barneforestillinger, ungdomsteater og aktiviteter gjennom uken. Samarbeid med Tigerstadsteatret.",
+      "significance": "Ny arena for barne- og ungdomsteater på Løkka etter nedleggelsen av Trikkestallen."
+    },
+    {
+      "name": "Tigerstadsteatret / Tigerbussen",
+      "description": "Tigerbussen – et mobilt teater i en buss – drar til skoler og nabolag med gratis forestillinger. Hedda-prisvinnende teater som når barn som ellers ikke oppsøker teater.",
+      "significance": "Oslos Bys Kunstnerpris 2022. Når tusenvis av barn årlig med lavterskel scenekunst."
     }
   ],
   "comedy": [
     {
       "venue": "Parkteatret",
-      "description": "Fast arena for Crap Comedy Festival med Late Night Stand Up-show. Har også gjestet internasjonale komikere som Bridget Christie."
+      "description": "Fast arena for Crap Comedy Festival (arrangert siden 2010, 15. gang i 2025). Late Night Stand Up-show med norske toppkomikere som Bård Tufte Johansen, Dag Sørås, Else Kåss Furuseth og Jonis Josef. Også Sketsjfest med nye talenter."
     },
     {
       "venue": "Folk i Storgata",
-      "description": "Ukentlige stand-up-kvelder med open mic. Lavterskel konsept som trekker ungt publikum."
+      "description": "«Intravenøs Standup» og ukentlige stand-up-kvelder med open mic. Lavterskel konsept i intim setting som trekker ungt publikum."
     },
     {
       "venue": "Mir / Grünerløkka Lufthavn",
       "description": "Absurd kabaret, improvisert stand-up og burlesk-kabaret-kvelder i uformelt miljø."
     }
   ],
+  "educationConnections": [
+    {
+      "institution": "Kunsthøgskolen i Oslo (KHiO)",
+      "address": "Fossveien 24 (Seilduksfabrikken ved Akerselva, Grünerløkka)",
+      "description": "Norges største statlige utdanningsinstitusjon for kunstnere og designere, lokalisert i den gamle Christiania Seilduksfabrikk ved Akerselva på Grünerløkka. Huser Teaterhøgskolen, Avdeling dans og Operahøgskolen. 21 studieprogrammer innen visuell kunst, design, teater, dans og opera.",
+      "relevance": "Teaterhøgskolens studenter og alumni er sterkt representert i Løkkas frie scenekunstmiljø. KHiO-studenter bruker Black Box teater og Dansens Hus som visningsarenaer."
+    },
+    {
+      "institution": "Teaterhøgskolen (del av KHiO)",
+      "description": "Tilbyr bachelor i skuespill og regi, masterstudium i teater med spesialisering i skuespill, regi, dramatisk tekst eller scenografi. Mange kandidater jobber videre i det frie feltet på Løkka.",
+      "relevance": "Utdanner fremtidens scenekunstnere som ofte etablerer seg i Løkka-miljøet rundt Black Box teater og Hausmania."
+    }
+  ],
   "metadata": {
-    "venueCount": 9,
-    "theaterGroupCount": 3,
-    "siteSpecificCount": 4,
-    "generatedAt": "2025-12-10T00:00:00Z"
+    "venueCount": 10,
+    "theaterGroupCount": 4,
+    "siteSpecificCount": 6,
+    "childrenTheaterCount": 4,
+    "comedyVenueCount": 3,
+    "educationConnectionCount": 2,
+    "generatedAt": "2025-12-10T00:00:00Z",
+    "lastEnriched": "2026-03-02T00:00:00Z"
   },
   "sources": [
     {
-      "title": "Wikipedia - Parkteatret (Oslo)",
-      "url": "https://no.wikipedia.org/wiki/Parkteatret_(Oslo)",
+      "title": "Wikipedia – Parkteatret (Oslo)",
+      "url": "https://en.wikipedia.org/wiki/Parkteatret",
       "publisher": "Wikipedia",
       "accessedAt": "2026-03-02",
       "sourceType": "database",
       "evidenceLevel": "secondary",
-      "notes": "Brukes som sekundærkilde, ikke alene."
+      "notes": "Bekrefter arkitekt Frithjof Aslesen, ombygging Erik Glosimodt, Olavsrosa 2007. Sekundærkilde."
     },
     {
-      "title": "Black Box teater - Om oss",
-      "url": "https://blackbox.no/om-black-box-teater/",
+      "title": "Parkteatret – Om Parkteatret",
+      "url": "https://www.parkteatret.no/om-parkteateret",
+      "publisher": "Parkteatret",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Black Box teater – History",
+      "url": "https://blackbox.no/en/history/",
+      "publisher": "Black Box teater",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter grunnleggelse 1985, flytt til Rodeløkka 2004, Inger Buresund, Kristian Seltun."
+    },
+    {
+      "title": "Black Box teater – 40 år",
+      "url": "https://blackbox.no/en/black-box-teater-turns-40-lets-celebrate/",
       "publisher": "Black Box teater",
       "accessedAt": "2026-03-02",
       "sourceType": "official",
       "evidenceLevel": "primary"
     },
     {
-      "title": "Riksscenen - Om oss",
-      "url": "https://www.riksscenen.no/om-riksscenen",
-      "publisher": "Riksscenen",
-      "accessedAt": "2026-03-02",
-      "sourceType": "official",
-      "evidenceLevel": "primary"
-    },
-    {
-      "title": "Dansens Hus - Om Dansens Hus",
-      "url": "https://www.dansenshus.com/om-dansens-hus",
+      "title": "Dansens Hus – Om Dansens Hus",
+      "url": "https://www.dansenshus.com/en/about-dansens",
       "publisher": "Dansens Hus",
       "accessedAt": "2026-03-02",
       "sourceType": "official",
-      "evidenceLevel": "primary"
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter etablering 2004, åpning Vulkan 2008, nasjonal scene for dans."
     },
     {
-      "title": "Teater Manu - Om oss",
-      "url": "https://teatermanu.no/om-oss/",
+      "title": "Riksscenen – Om Riksscenen",
+      "url": "https://www.riksscenen.no/?cat=85791",
+      "publisher": "Riksscenen",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter åpning 2010, stiftere, ca. 200 arrangementer årlig."
+    },
+    {
+      "title": "Teater Manu – Om Teater Manu",
+      "url": "https://teatermanu.no/om-teater-manu/",
       "publisher": "Teater Manu",
       "accessedAt": "2026-03-02",
       "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter Stortingsvedtak 2001, adresse Schleppegrells gate 32, Hedda-priser."
+    },
+    {
+      "title": "Deaf History Europe – Foundation of Teater Manu",
+      "url": "https://deafhistory.eu/index.php/component/zoo/item/foundation-of-teater-manu-norway",
+      "publisher": "Deaf History Europe",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Bekrefter prosjektperiode 1999–2001, Mira Zuckermann som første leder."
+    },
+    {
+      "title": "Hausmania – Om oss",
+      "url": "https://www.hausmania.org/om-oss",
+      "publisher": "Hausmania Kulturhus",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter etablering 2000, ca. 200 kunstnere, selvstyrt kulturhus."
+    },
+    {
+      "title": "Wikipedia – Hausmania",
+      "url": "https://en.wikipedia.org/wiki/Hausmania",
+      "publisher": "Wikipedia",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Bekrefter okkupasjon 1999, Oslo kommune kjøpte fra Statsbygg 2004."
+    },
+    {
+      "title": "Open House Oslo – Hausmania 2024",
+      "url": "https://openhouseoslo.no/hausmania/",
+      "publisher": "Open House Oslo",
+      "accessedAt": "2026-03-02",
+      "sourceType": "event",
       "evidenceLevel": "primary"
     },
     {
-      "title": "Nordic Black Theatre - About",
-      "url": "https://nordicblacktheatre.no/about/",
+      "title": "Grusomhetens Teater – About us",
+      "url": "https://www.grusomhetensteater.no/about-us/",
+      "publisher": "Grusomhetens Teater",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter første forestilling 1989, egen gruppe 1992, egen scene Hausmania 2002."
+    },
+    {
+      "title": "Wikipedia – Grusomhetens Teater",
+      "url": "https://en.wikipedia.org/wiki/Grusomhetens_Teater",
+      "publisher": "Wikipedia",
+      "accessedAt": "2026-03-02",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Bekrefter Lars Øyno, Artaud-inspirasjon, over 30 produksjoner."
+    },
+    {
+      "title": "Nordic Black Theatre – About",
+      "url": "https://nordicblacktheatre.no/nbt/",
       "publisher": "Nordic Black Theatre",
       "accessedAt": "2026-03-02",
       "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter Cliff Moustache og Jarl Solberg, Antirasistisk Senter, flytt til MS Innvik 2001 og Caféteatret 2011."
+    },
+    {
+      "title": "Vega Scene – Om",
+      "url": "https://www.vegascene.no/",
+      "publisher": "Vega Scene",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter etablering 2013, åpning 2018, Hausmanns gate 28, BREEAM-NOR."
+    },
+    {
+      "title": "Visit Løkka – Vega Scene",
+      "url": "https://visitlokka.no/directory-visitlokka/listing/vega-scene/",
+      "publisher": "Visit Løkka",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
       "evidenceLevel": "primary"
+    },
+    {
+      "title": "Tigerstadsteatret – Om oss",
+      "url": "https://tigerstadsteatret.no/en/om-oss/",
+      "publisher": "Tigerstadsteatret",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter Hedda-pris 2019, Oslos Bys Kunstnerpris 2022, gratis forestillinger."
+    },
+    {
+      "title": "Grünerløkka Geriljateater",
+      "url": "https://geriljateatret.no/",
+      "publisher": "Grünerløkka Geriljateater",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter produksjonene Veps (2023) og Den Rette (2023)."
+    },
+    {
+      "title": "Oslo kommune – Grünerløkka Lufthavn / Musikkens hus",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/kunst-og-kultur/kultureiendommer/musikkens-hus/",
+      "publisher": "Oslo kommune",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter Toftes gate 69, Musikkens Hus, Grünerløkka Lufthavn fra 1994."
+    },
+    {
+      "title": "Kulturrom – Grünerløkka Lufthavn/Mir",
+      "url": "https://kulturrom.no/2025/08/28/grunerlokka-lufthavn-mir/",
+      "publisher": "Kulturrom",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Sofienbergprosjektet",
+      "url": "https://www.sofienbergprosjektet.no/",
+      "publisher": "Sofienbergprosjektet",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter 23 mill. fra Sparebankstiftelsen DNB, åpning 2024, ungdomsaktiviteter."
+    },
+    {
+      "title": "Visit Løkka – Sofienberg kirke kulturhus",
+      "url": "https://visitlokka.no/milepael-nadd-for-sofienberg-kirke-som-kulturhus/",
+      "publisher": "Visit Løkka",
+      "accessedAt": "2026-03-02",
+      "sourceType": "journalism",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "KHiO – Teaterhøgskolen",
+      "url": "https://khio.no/avdelinger/teaterhogskolen",
+      "publisher": "Kunsthøgskolen i Oslo",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter plassering ved Akerselva Grünerløkka, Seilduksfabrikken."
+    },
+    {
+      "title": "NRK – Oslo Nye legger ned Trikkestallen",
+      "url": "https://www.nrk.no/kultur/nrk-erfarer_-oslo-nye-foreslar-a-legge-ned-trikkestallen-og-kutte-arsverk-for-14_9-millioner-kroner-1.17128053",
+      "publisher": "NRK",
+      "accessedAt": "2026-03-02",
+      "sourceType": "journalism",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter nedleggelse av Trikkestallen, siste forestilling mars 2025."
+    },
+    {
+      "title": "Avisa Oslo – Trikkestallen lukkes",
+      "url": "https://www.ao.no/etter-mer-enn-30-ars-drift-lukkes-dorene-ufattelig-trist/s/5-128-995590",
+      "publisher": "Avisa Oslo",
+      "accessedAt": "2026-03-02",
+      "sourceType": "journalism",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Elvelangs i fakkellys",
+      "url": "https://www.elvelangs.no/",
+      "publisher": "Elvelangs i fakkellys",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter 23. gang i 2024, 4500 fakler, over 150 kulturinnslag."
+    },
+    {
+      "title": "Parkteatret – Crap Comedy 2025",
+      "url": "https://www.parkteatret.no/nyhet/crap-comedy-2025",
+      "publisher": "Parkteatret",
+      "accessedAt": "2026-03-02",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter 15. gang, 24.–25. januar 2025."
     }
   ],
   "claims": [
     {
       "claimId": "teater-001",
-      "claim": "Parkteatret har gått fra kinohistorie til flerbruks scene for konsert, teater og humor.",
+      "claim": "Parkteatret har vært kulturarena i over 115 år – fra kinematograf (1907) via kommunal kino til dagens flerbruksscene for konsert, teater og humor.",
       "status": "verified",
-      "confidenceScore": 0.83,
+      "confidenceScore": 0.92,
       "sources": [
         {
-          "title": "Wikipedia - Parkteatret (Oslo)",
-          "url": "https://no.wikipedia.org/wiki/Parkteatret_(Oslo)",
+          "title": "Wikipedia – Parkteatret",
+          "url": "https://en.wikipedia.org/wiki/Parkteatret",
           "publisher": "Wikipedia",
           "accessedAt": "2026-03-02",
           "sourceType": "database",
-          "evidenceLevel": "secondary",
-          "notes": "Brukes som sekundærkilde, ikke alene."
+          "evidenceLevel": "secondary"
         },
         {
-          "title": "Nordic Black Theatre - About",
-          "url": "https://nordicblacktheatre.no/about/",
-          "publisher": "Nordic Black Theatre",
+          "title": "Parkteatret – Om Parkteatret",
+          "url": "https://www.parkteatret.no/om-parkteateret",
+          "publisher": "Parkteatret",
           "accessedAt": "2026-03-02",
           "sourceType": "official",
           "evidenceLevel": "primary"
         }
       ],
-      "lastVerifiedAt": "2026-03-02"
+      "lastVerifiedAt": "2026-03-02",
+      "notes": "Arkitekt Frithjof Aslesen (1907), ombygging Erik Glosimodt (1918–22), Olavsrosa 2007 – alt verifisert."
     },
     {
       "claimId": "teater-002",
-      "claim": "Black Box teater er en ledende institusjon for fri scenekunst i Oslo.",
+      "claim": "Black Box teater er Norges ledende scene for fri scenekunst, grunnlagt 1985, med fast adresse på Rodeløkka fra 2004.",
       "status": "verified",
-      "confidenceScore": 0.88,
+      "confidenceScore": 0.93,
       "sources": [
         {
-          "title": "Black Box teater - Om oss",
-          "url": "https://blackbox.no/om-black-box-teater/",
+          "title": "Black Box teater – History",
+          "url": "https://blackbox.no/en/history/",
           "publisher": "Black Box teater",
           "accessedAt": "2026-03-02",
           "sourceType": "official",
           "evidenceLevel": "primary"
         },
         {
-          "title": "Riksscenen - Om oss",
-          "url": "https://www.riksscenen.no/om-riksscenen",
-          "publisher": "Riksscenen",
+          "title": "Black Box teater – 40 år",
+          "url": "https://blackbox.no/en/black-box-teater-turns-40-lets-celebrate/",
+          "publisher": "Black Box teater",
           "accessedAt": "2026-03-02",
           "sourceType": "official",
           "evidenceLevel": "primary"
         }
       ],
-      "lastVerifiedAt": "2026-03-02"
+      "lastVerifiedAt": "2026-03-02",
+      "notes": "Opprinnelig data hadde 2007 som etableringsår og flytt – korrigert til 1985 (grunnlagt) og 2004 (flytt til Rodeløkka)."
     },
     {
       "claimId": "teater-003",
-      "claim": "Riksscenen i Schous-kvartalet har styrket Løkkas rolle i folkedans- og verdensmusikkfeltet.",
+      "claim": "Riksscenen i Schous kulturbryggeri har styrket Løkkas rolle i folkedans- og verdensmusikkfeltet med ca. 200 arrangementer årlig.",
       "status": "verified",
-      "confidenceScore": 0.85,
+      "confidenceScore": 0.90,
       "sources": [
         {
-          "title": "Riksscenen - Om oss",
-          "url": "https://www.riksscenen.no/om-riksscenen",
+          "title": "Riksscenen – Om Riksscenen",
+          "url": "https://www.riksscenen.no/?cat=85791",
           "publisher": "Riksscenen",
-          "accessedAt": "2026-03-02",
-          "sourceType": "official",
-          "evidenceLevel": "primary"
-        },
-        {
-          "title": "Dansens Hus - Om Dansens Hus",
-          "url": "https://www.dansenshus.com/om-dansens-hus",
-          "publisher": "Dansens Hus",
           "accessedAt": "2026-03-02",
           "sourceType": "official",
           "evidenceLevel": "primary"
         }
       ],
-      "lastVerifiedAt": "2026-03-02"
+      "lastVerifiedAt": "2026-03-02",
+      "notes": "Åpnet 2010, stiftet av Juoigiid Searvi, FolkOrg, Noregs Ungdomslag og Samspill."
     },
     {
       "claimId": "teater-004",
-      "claim": "Dansens Hus har etablert Vulkan-området som en sentral adresse for samtidsdans.",
+      "claim": "Dansens Hus, etablert 2004 og åpnet på Vulkan 2008, har etablert området som sentral adresse for samtidsdans i Norge.",
       "status": "verified",
-      "confidenceScore": 0.84,
+      "confidenceScore": 0.91,
       "sources": [
         {
-          "title": "Dansens Hus - Om Dansens Hus",
-          "url": "https://www.dansenshus.com/om-dansens-hus",
+          "title": "Dansens Hus – Om Dansens Hus",
+          "url": "https://www.dansenshus.com/en/about-dansens",
           "publisher": "Dansens Hus",
-          "accessedAt": "2026-03-02",
-          "sourceType": "official",
-          "evidenceLevel": "primary"
-        },
-        {
-          "title": "Riksscenen - Om oss",
-          "url": "https://www.riksscenen.no/om-riksscenen",
-          "publisher": "Riksscenen",
           "accessedAt": "2026-03-02",
           "sourceType": "official",
           "evidenceLevel": "primary"
         }
       ],
-      "lastVerifiedAt": "2026-03-02"
+      "lastVerifiedAt": "2026-03-02",
+      "notes": "Opprinnelig data hadde 2008 som etableringsår – korrigert til 2004 (institusjon) med åpning Vulkan 2008."
     },
     {
       "claimId": "teater-005",
-      "claim": "Teater Manu gir et profesjonelt scenetilbud på norsk tegnspråk i Løkka-området.",
+      "claim": "Teater Manu, etablert ved Stortingsvedtak i 2001, gir et profesjonelt og Hedda-prisvinnende scenetilbud på norsk tegnspråk fra Schleppegrells gate.",
       "status": "verified",
-      "confidenceScore": 0.86,
+      "confidenceScore": 0.93,
       "sources": [
         {
-          "title": "Teater Manu - Om oss",
-          "url": "https://teatermanu.no/om-oss/",
+          "title": "Teater Manu – Om Teater Manu",
+          "url": "https://teatermanu.no/om-teater-manu/",
           "publisher": "Teater Manu",
           "accessedAt": "2026-03-02",
           "sourceType": "official",
           "evidenceLevel": "primary"
         },
         {
-          "title": "Wikipedia - Parkteatret (Oslo)",
-          "url": "https://no.wikipedia.org/wiki/Parkteatret_(Oslo)",
-          "publisher": "Wikipedia",
+          "title": "Deaf History Europe – Foundation of Teater Manu",
+          "url": "https://deafhistory.eu/index.php/component/zoo/item/foundation-of-teater-manu-norway",
+          "publisher": "Deaf History Europe",
           "accessedAt": "2026-03-02",
           "sourceType": "database",
-          "evidenceLevel": "secondary",
-          "notes": "Brukes som sekundærkilde, ikke alene."
+          "evidenceLevel": "secondary"
         }
       ],
-      "lastVerifiedAt": "2026-03-02"
+      "lastVerifiedAt": "2026-03-02",
+      "notes": "Korrigert adresse fra Heimdalsgate til Schleppegrells gate 32. Hedda-pris 2013 verifisert."
     },
     {
       "claimId": "teater-006",
-      "claim": "Nordic Black Theatre har historisk kobling til Parkteatret og en viktig rolle i flerkulturelt teater.",
+      "claim": "Nordic Black Theatre har historisk kobling til Parkteatret (1992–2001) og en viktig rolle i å etablere flerkulturelt teater i Oslo.",
       "status": "verified",
-      "confidenceScore": 0.87,
+      "confidenceScore": 0.92,
       "sources": [
         {
-          "title": "Nordic Black Theatre - About",
-          "url": "https://nordicblacktheatre.no/about/",
+          "title": "Nordic Black Theatre – About",
+          "url": "https://nordicblacktheatre.no/nbt/",
           "publisher": "Nordic Black Theatre",
           "accessedAt": "2026-03-02",
           "sourceType": "official",
           "evidenceLevel": "primary"
-        },
-        {
-          "title": "Wikipedia - Parkteatret (Oslo)",
-          "url": "https://no.wikipedia.org/wiki/Parkteatret_(Oslo)",
-          "publisher": "Wikipedia",
-          "accessedAt": "2026-03-02",
-          "sourceType": "database",
-          "evidenceLevel": "secondary",
-          "notes": "Brukes som sekundærkilde, ikke alene."
         }
       ],
-      "lastVerifiedAt": "2026-03-02"
+      "lastVerifiedAt": "2026-03-02",
+      "notes": "Cliff Moustache og Jarl Solberg møttes på Antirasistisk Senter. Flytt til MS Innvik 2001, Caféteatret 2011."
     },
     {
       "claimId": "teater-007",
-      "claim": "Hausmania-miljøet har bidratt til eksperimentell scenekunst i bydelen.",
-      "status": "partially_verified",
-      "confidenceScore": 0.67,
+      "claim": "Hausmania-miljøet, okkupert i 1999 og formelt etablert i 2000, har bidratt til eksperimentell scenekunst med bl.a. Grusomhetens Teater og over 200 tilknyttede kunstnere.",
+      "status": "verified",
+      "confidenceScore": 0.88,
       "sources": [
         {
-          "title": "Black Box teater - Om oss",
-          "url": "https://blackbox.no/om-black-box-teater/",
-          "publisher": "Black Box teater",
+          "title": "Hausmania – Om oss",
+          "url": "https://www.hausmania.org/om-oss",
+          "publisher": "Hausmania Kulturhus",
           "accessedAt": "2026-03-02",
           "sourceType": "official",
           "evidenceLevel": "primary"
         },
         {
-          "title": "Nordic Black Theatre - About",
-          "url": "https://nordicblacktheatre.no/about/",
-          "publisher": "Nordic Black Theatre",
+          "title": "Wikipedia – Hausmania",
+          "url": "https://en.wikipedia.org/wiki/Hausmania",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Grusomhetens Teater – About us",
+          "url": "https://www.grusomhetensteater.no/about-us/",
+          "publisher": "Grusomhetens Teater",
           "accessedAt": "2026-03-02",
           "sourceType": "official",
           "evidenceLevel": "primary"
+        },
+        {
+          "title": "Open House Oslo – Hausmania 2024",
+          "url": "https://openhouseoslo.no/hausmania/",
+          "publisher": "Open House Oslo",
+          "accessedAt": "2026-03-02",
+          "sourceType": "event",
+          "evidenceLevel": "primary"
         }
       ],
-      "notes": "Bør kompletteres med primærkilde fra Hausmania-arkiv.",
-      "lastVerifiedAt": "2026-03-02"
+      "lastVerifiedAt": "2026-03-02",
+      "notes": "Okkupert sept. 1999, formelt kulturhus 2000. Oslo kommune kjøpte fra Statsbygg 2004. Ca. 200 kunstnere. Grusomhetens Teater har egen scene fra 2002. Konfidensgrad økt fra 0.67 til 0.88 etter verifisering med primærkilder."
     },
     {
       "claimId": "teater-008",
-      "claim": "Stedsspesifikke forestillinger i bibliotek, kirkerom og parker er et kjennetegn ved Løkkas scenekunstprofil.",
-      "status": "partially_verified",
-      "confidenceScore": 0.66,
+      "claim": "Stedsspesifikke forestillinger i bibliotek, kirkerom, matbutikker og langs Akerselva er et kjennetegn ved Løkkas scenekunstprofil.",
+      "status": "verified",
+      "confidenceScore": 0.82,
       "sources": [
         {
-          "title": "Black Box teater - Om oss",
-          "url": "https://blackbox.no/om-black-box-teater/",
-          "publisher": "Black Box teater",
+          "title": "Tigerstadsteatret – Romeo+Julie",
+          "url": "https://tigerstadsteatret.no/en/forestillinger/romeojulie/",
+          "publisher": "Tigerstadsteatret",
           "accessedAt": "2026-03-02",
           "sourceType": "official",
           "evidenceLevel": "primary"
         },
         {
-          "title": "Riksscenen - Om oss",
-          "url": "https://www.riksscenen.no/om-riksscenen",
-          "publisher": "Riksscenen",
+          "title": "Elvelangs i fakkellys",
+          "url": "https://www.elvelangs.no/",
+          "publisher": "Elvelangs",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "KHiO – Feilvare",
+          "url": "https://khio.no/en/events/975",
+          "publisher": "KHiO",
           "accessedAt": "2026-03-02",
           "sourceType": "official",
           "evidenceLevel": "primary"
         }
       ],
-      "lastVerifiedAt": "2026-03-02"
+      "lastVerifiedAt": "2026-03-02",
+      "notes": "Konfidensgrad økt fra 0.66 til 0.82. Verifisert med Romeo+Julie i Sofienberg kirke (2025), Elvelangs (23. gang 2024), Feilvare i Rema 1000 (2019)."
+    },
+    {
+      "claimId": "teater-009",
+      "claim": "Vega Scene har siden 2018 utvidet Løkkas scenekunsttilbud med ny nordisk dramatikk og kvalitetsfilm i Hausmanns gate.",
+      "status": "verified",
+      "confidenceScore": 0.90,
+      "sources": [
+        {
+          "title": "Vega Scene – Hjemmeside",
+          "url": "https://www.vegascene.no/",
+          "publisher": "Vega Scene",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Visit Løkka – Vega Scene",
+          "url": "https://visitlokka.no/directory-visitlokka/listing/vega-scene/",
+          "publisher": "Visit Løkka",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02",
+      "notes": "Ny påstand. Etablert 2013, åpnet 2018, BREEAM-NOR-sertifisert."
+    },
+    {
+      "claimId": "teater-010",
+      "claim": "KHiO / Teaterhøgskolen ved Akerselva på Grünerløkka utdanner scenekunstnere som ofte etablerer seg i det frie feltet i bydelen.",
+      "status": "verified",
+      "confidenceScore": 0.85,
+      "sources": [
+        {
+          "title": "KHiO – Teaterhøgskolen",
+          "url": "https://khio.no/avdelinger/teaterhogskolen",
+          "publisher": "Kunsthøgskolen i Oslo",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-02",
+      "notes": "Ny påstand. KHiO lokalisert i Seilduksfabrikken ved Akerselva, Grünerløkka."
     }
   ],
   "researchMetadata": {
     "lastVerifiedAt": "2026-03-02",
-    "verifiedBy": "codex-gpt-5",
-    "coverageScore": 0.75,
-    "staleAfterDays": 120
+    "verifiedBy": "claude-opus-4-6",
+    "coverageScore": 0.88,
+    "staleAfterDays": 120,
+    "enrichmentNotes": "Deep research utført 2026-03-02. Hausmania verifisert med primærkilder (0.67→0.88). Black Box teater korrigert (etabl. 1985, flytt Rodeløkka 2004, ikke 2007). Dansens Hus korrigert (etabl. 2004, ikke 2008). Teater Manu adresse korrigert til Schleppegrells gate 32. Vega Scene lagt til som ny venue. Tigerstadsteatret lagt til som teatergruppe. Elvelangs i fakkellys og Made by You lagt til som stedsspesifikke. KHiO/utdanning lagt til. Oslo Nye Dukketeater oppdatert med nedleggelse 2025."
   },
   "crossReferences": [
     {
@@ -530,7 +1003,32 @@
     },
     {
       "type": "place",
-      "idOrName": "Schous kulturkvartal",
+      "idOrName": "Schous kulturbryggeri",
+      "linkedSections": [
+        "historie",
+        "kultur"
+      ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Vulkan-området",
+      "linkedSections": [
+        "historie",
+        "kultur"
+      ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Hausmania",
+      "linkedSections": [
+        "historie",
+        "kultur",
+        "billedkunst"
+      ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Sofienberg kirke",
       "linkedSections": [
         "historie",
         "kultur"
@@ -545,11 +1043,27 @@
       ]
     },
     {
+      "type": "organization",
+      "idOrName": "KHiO / Teaterhøgskolen",
+      "linkedSections": [
+        "kultur",
+        "billedkunst"
+      ]
+    },
+    {
       "type": "event",
       "idOrName": "Stedsspesifikke forestillinger",
       "linkedSections": [
         "historie",
         "mediebildet",
+        "kultur"
+      ]
+    },
+    {
+      "type": "event",
+      "idOrName": "Elvelangs i fakkellys",
+      "linkedSections": [
+        "historie",
         "kultur"
       ]
     }
