@@ -128,6 +128,7 @@ function LoginForm() {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
   const [resendCooldown, setResendCooldown] = useState(0);
+  const [otpHint, setOtpHint] = useState<'sent' | 'not-registered' | null>(null);
 
   useEffect(() => {
     if (!tenant) {
@@ -170,6 +171,7 @@ function LoginForm() {
         return;
       }
 
+      setOtpHint(data.hint || null);
       setStep('code');
       setCode('');
       setResendCooldown(60);
@@ -252,7 +254,18 @@ function LoginForm() {
               {step === 'code' ? 'Skriv inn kode' : 'Logg inn'}
             </h1>
             <p className="text-gray-600">{tenant.displayName}</p>
-            {step === 'code' && (
+            {step === 'code' && otpHint === 'sent' && (
+              <p className="mt-2 text-sm text-gray-500">
+                Kode sendt til {maskEmail(email)}. Sjekk spam-mappen om du ikke finner den.
+              </p>
+            )}
+            {step === 'code' && otpHint === 'not-registered' && (
+              <p className="mt-2 text-sm text-gray-500">
+                Hvis e-posten din er registrert, har vi sendt en kode. Kontakt din kontaktperson
+                hos Natural State hvis du ikke mottar noen kode.
+              </p>
+            )}
+            {step === 'code' && !otpHint && (
               <p className="mt-2 text-sm text-gray-500">
                 Vi har sendt en 6-sifret kode til {maskEmail(email)}
               </p>

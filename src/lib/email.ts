@@ -13,11 +13,16 @@ function getResend(): Resend {
   return resendClient;
 }
 
+export type EmailResult = {
+  success: boolean;
+  errorType?: 'api-error' | 'network-error' | 'config-error';
+};
+
 export async function sendOTPEmail(
   to: string,
   code: string,
   tenantName: string
-): Promise<boolean> {
+): Promise<EmailResult> {
   const from = process.env.AUTH_FROM_EMAIL || 'noreply@naturalstate.no';
 
   try {
@@ -40,13 +45,22 @@ export async function sendOTPEmail(
     });
 
     if (error) {
-      console.error('Failed to send OTP email:', error);
-      return false;
+      console.error('[OTP Email] Resend API error', {
+        to,
+        tenantName,
+        errorName: error.name,
+        errorMessage: error.message,
+      });
+      return { success: false, errorType: 'api-error' };
     }
 
-    return true;
+    return { success: true };
   } catch (err) {
-    console.error('Error sending OTP email:', err);
-    return false;
+    console.error('[OTP Email] Network/config error', {
+      to,
+      tenantName,
+      error: err instanceof Error ? err.message : String(err),
+    });
+    return { success: false, errorType: 'network-error' };
   }
 }

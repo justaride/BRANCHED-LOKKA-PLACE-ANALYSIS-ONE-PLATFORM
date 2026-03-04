@@ -13,7 +13,7 @@ export function getAllowedEmails(tenant: string): string[] {
     .filter(Boolean);
 }
 
-function getAdminEmails(): string[] {
+export function getAdminEmails(): string[] {
   const raw = process.env.ADMIN_EMAILS || '';
   return raw
     .split(',')
