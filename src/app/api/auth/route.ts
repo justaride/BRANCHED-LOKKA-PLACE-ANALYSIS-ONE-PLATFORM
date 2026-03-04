@@ -1,6 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getTenant } from '@/config/tenants';
-import { createSessionToken, generateOTP, createOTPToken, verifyOTPToken } from '@/lib/auth';
+import {
+  createSessionToken,
+  createUnifiedSessionToken,
+  generateOTP,
+  createOTPToken,
+  verifyOTPToken,
+  resolveUserTenants,
+} from '@/lib/auth';
 import { sendOTPEmail } from '@/lib/email';
 import { isEmailAllowed } from '@/lib/tenant-emails';
 
@@ -61,13 +68,13 @@ async function handleRequestOTP(
   }
 
   if (!isEmailAllowed(tenant, normalizedEmail)) {
-    return NextResponse.json({ success: true });
+    return NextResponse.json({ success: true, hint: 'not-registered' });
   }
 
   const code = generateOTP();
-  const sent = await sendOTPEmail(normalizedEmail, code, tenantConfig.displayName);
+  const result = await sendOTPEmail(normalizedEmail, code, tenantConfig.displayName);
 
-  if (!sent) {
+  if (!result.success) {
     return NextResponse.json(
       { error: 'Kunne ikke sende e-post. Prøv igjen senere.' },
       { status: 500 }
@@ -76,7 +83,7 @@ async function handleRequestOTP(
 
   const otpToken = await createOTPToken(code, normalizedEmail, tenant);
 
-  const response = NextResponse.json({ success: true });
+  const response = NextResponse.json({ success: true, hint: 'sent' });
   response.cookies.set('otp-pending', otpToken, {
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production',
@@ -130,16 +137,27 @@ async function handleVerifyOTP(
     return NextResponse.json({ error: 'Ugyldig kode' }, { status: 401 });
   }
 
-  const sessionToken = await createSessionToken(normalizedEmail, tenant);
+  const { tenants } = resolveUserTenants(normalizedEmail);
+  const loginTenant = tenant as import('@/config/tenants').TenantSlug;
+  const effectiveTenants = tenants.length > 0 ? tenants : [loginTenant, 'main-board' as const];
+  const unifiedToken = await createUnifiedSessionToken(
+    normalizedEmail,
+    effectiveTenants,
+    loginTenant
+  );
+  const legacyToken = await createSessionToken(normalizedEmail, tenant);
 
-  const response = NextResponse.json({ success: true });
-  response.cookies.set(`auth-${tenant}`, sessionToken, {
+  const cookieOpts = {
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production',
-    sameSite: 'lax',
+    sameSite: 'lax' as const,
     maxAge: SESSION_MAX_AGE,
     path: '/',
-  });
+  };
+
+  const response = NextResponse.json({ success: true });
+  response.cookies.set('lokka-session', unifiedToken, cookieOpts);
+  response.cookies.set(`auth-${tenant}`, legacyToken, cookieOpts);
   response.cookies.delete('otp-pending');
 
   return response;
@@ -178,16 +196,30 @@ async function handlePassword(
   }
 
   const email = isAdmin ? 'admin' : 'tenant-user';
-  const sessionToken = await createSessionToken(email, tenant);
+  const loginTenant = tenant as import('@/config/tenants').TenantSlug;
 
-  const response = NextResponse.json({ success: true });
-  response.cookies.set(`auth-${tenant}`, sessionToken, {
+  let effectiveTenants: import('@/config/tenants').TenantSlug[];
+  if (isAdmin) {
+    const { tenants: allTenants } = resolveUserTenants(email);
+    effectiveTenants = allTenants;
+  } else {
+    effectiveTenants = [loginTenant, 'main-board' as const];
+  }
+
+  const unifiedToken = await createUnifiedSessionToken(email, effectiveTenants, loginTenant);
+  const legacyToken = await createSessionToken(email, tenant);
+
+  const cookieOpts = {
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production',
-    sameSite: 'lax',
+    sameSite: 'lax' as const,
     maxAge: SESSION_MAX_AGE,
     path: '/',
-  });
+  };
+
+  const response = NextResponse.json({ success: true });
+  response.cookies.set('lokka-session', unifiedToken, cookieOpts);
+  response.cookies.set(`auth-${tenant}`, legacyToken, cookieOpts);
 
   return response;
 }
