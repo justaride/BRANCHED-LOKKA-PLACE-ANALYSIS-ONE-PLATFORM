@@ -67,7 +67,12 @@ async function handleRequestOTP(
     );
   }
 
-  if (!isEmailAllowed(tenant, normalizedEmail)) {
+  const { tenants: resolvedTenants } = resolveUserTenants(normalizedEmail);
+  const hasAccess =
+    isEmailAllowed(tenant, normalizedEmail) ||
+    resolvedTenants.includes(tenant as import('@/config/tenants').TenantSlug);
+
+  if (!hasAccess) {
     return NextResponse.json({ success: true, hint: 'not-registered' });
   }
 
