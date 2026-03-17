@@ -72,6 +72,9 @@ export async function middleware(request: NextRequest) {
     }
   }
 
+  const cfAutoSession = await handleCfAutoSession(request, tenantSlug as TenantSlug);
+  if (cfAutoSession) return cfAutoSession;
+
   const legacyCookie = request.cookies.get(`auth-${tenantSlug}`);
   if (!legacyCookie) {
     return redirectToLogin(request, tenantSlug, pathname);
@@ -104,6 +107,28 @@ export async function middleware(request: NextRequest) {
     response.cookies.set('lokka-session', unifiedToken, COOKIE_OPTS);
   }
 
+  return response;
+}
+
+async function handleCfAutoSession(
+  request: NextRequest,
+  tenantSlug: TenantSlug
+): Promise<NextResponse | null> {
+  const cfEmail = request.headers.get('Cf-Access-Authenticated-User-Email');
+  if (!cfEmail) return null;
+
+  const email = cfEmail.trim().toLowerCase();
+  let { tenants } = resolveUserTenants(email);
+
+  if (tenants.length === 0 && email.endsWith('@naturalstate.no')) {
+    tenants = ['main-board'];
+  }
+
+  if (tenants.length === 0 || !tenants.includes(tenantSlug)) return null;
+
+  const token = await createUnifiedSessionToken(email, tenants, tenantSlug);
+  const response = NextResponse.redirect(request.url);
+  response.cookies.set('lokka-session', token, COOKIE_OPTS);
   return response;
 }
 
