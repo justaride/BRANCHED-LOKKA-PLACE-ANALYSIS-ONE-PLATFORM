@@ -118,7 +118,12 @@ async function handleCfAutoSession(
   if (!cfEmail) return null;
 
   const email = cfEmail.trim().toLowerCase();
-  const { tenants } = resolveUserTenants(email);
+  let { tenants } = resolveUserTenants(email);
+
+  if (tenants.length === 0 && email.endsWith('@naturalstate.no')) {
+    tenants = ['main-board'];
+  }
+
   if (tenants.length === 0 || !tenants.includes(tenantSlug)) return null;
 
   const token = await createUnifiedSessionToken(email, tenants, tenantSlug);
