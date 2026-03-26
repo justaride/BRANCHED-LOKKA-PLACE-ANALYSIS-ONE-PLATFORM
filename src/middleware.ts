@@ -21,11 +21,18 @@ const COOKIE_OPTS = {
 };
 
 export async function middleware(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+
+  if (process.env.MAINTENANCE_MODE === 'true') {
+    if (pathname === '/maintenance' || pathname.startsWith('/_next') || pathname === '/favicon.ico') {
+      return NextResponse.next();
+    }
+    return NextResponse.rewrite(new URL('/maintenance', request.url));
+  }
+
   if (process.env.DISABLE_TENANT_AUTH === 'true') {
     return NextResponse.next();
   }
-
-  const { pathname } = request.nextUrl;
 
   if (
     pathname === '/' ||
