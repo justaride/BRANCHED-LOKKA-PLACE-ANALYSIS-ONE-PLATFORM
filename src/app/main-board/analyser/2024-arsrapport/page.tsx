@@ -3,6 +3,7 @@ import Container from '@/components/ui/Container';
 import { Card, CardContent } from '@/components/ui/Card';
 import TabbedImageViewer from '@/components/analyser/TabbedImageViewer';
 import AktorOversikt from '@/components/analyser/AktorOversikt';
+import AktorMapWrapper from '@/components/analyser/AktorMapWrapper';
 import SimpleEventTimeline from '@/components/analyser/SimpleEventTimeline';
 import BankTransactionChart from '@/components/analyser/BankTransactionChart';
 import KonkurransebildeCharts from '@/components/analyser/KonkurransebildeCharts';
@@ -31,10 +32,13 @@ export default async function Analyse2024Page() {
     notFound();
   }
 
-  // Load aktør data using multi-tenant loader
   let aktorData = null;
+  let aktorMapData: Awaited<ReturnType<typeof MainBoardLoaders.loadAktorerWithCoordinates2024>> = [];
   try {
-    aktorData = await MainBoardLoaders.loadAktorerArsrapport2024();
+    [aktorData, aktorMapData] = await Promise.all([
+      MainBoardLoaders.loadAktorerArsrapport2024(),
+      MainBoardLoaders.loadAktorerWithCoordinates2024(),
+    ]);
   } catch (error) {
     console.error('Could not load aktør data:', error);
   }
@@ -578,7 +582,12 @@ export default async function Analyse2024Page() {
         <div className="mb-12 md:mb-20">
           <KorthandelCharts basePath="/data/main-board/2024-arsrapport" />
 
-          {/* Aktør Oversikt */}
+          {aktorMapData.length > 0 && (
+            <div className="mb-8 md:mb-12">
+              <AktorMapWrapper actors={aktorMapData} />
+            </div>
+          )}
+
           {aktorData && (
             <div className="mt-12">
               <AktorOversikt

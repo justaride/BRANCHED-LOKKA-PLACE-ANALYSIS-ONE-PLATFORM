@@ -372,22 +372,16 @@ export async function loadAllMainBoardData() {
 
 import type { AktorWithCoordinates, AktorCategory, CoordinateLookup } from '@/types/aktor-map';
 
-export async function loadAktorerWithCoordinates2025(): Promise<AktorWithCoordinates[]> {
-  const [aktorData, coordModule] = await Promise.all([
-    loadAktorerArsrapport2025(),
-    import('@/data/main-board/aktorer/2025-arsrapport-coordinates.json') as Promise<{ default: CoordinateLookup }>,
-  ]);
+type AktorRaw = { rank: string; navn: string; type: string; adresse: string; omsetning: number; yoy_vekst: number | null; ansatte: number; markedsandel: number };
 
-  const coords = coordModule.default;
-
-  return aktorData.actors
-    .filter((a: { adresse: string }) => {
+function mapAktorsToCoordinates(actors: AktorRaw[], coords: CoordinateLookup): AktorWithCoordinates[] {
+  return actors
+    .filter(a => {
       const c = coords[a.adresse];
       return c && c.lat && c.lng;
     })
-    .map((a: { rank: string; navn: string; type: string; adresse: string; omsetning: number; yoy_vekst: number | null; ansatte: number; markedsandel: number }) => {
+    .map(a => {
       const c = coords[a.adresse]!;
-      const category = a.type.split(' / ')[0] as AktorCategory;
       return {
         rank: a.rank,
         navn: a.navn,
@@ -399,10 +393,41 @@ export async function loadAktorerWithCoordinates2025(): Promise<AktorWithCoordin
         markedsandel: a.markedsandel,
         lat: c.lat,
         lng: c.lng,
-        category,
+        category: a.type.split(' / ')[0] as AktorCategory,
       };
     });
 }
+
+async function loadCoordinates(): Promise<CoordinateLookup> {
+  const mod = await import('@/data/main-board/aktorer/2025-arsrapport-coordinates.json') as { default: CoordinateLookup };
+  return mod.default;
+}
+
+export async function loadAktorerWithCoordinates2025(): Promise<AktorWithCoordinates[]> {
+  const [aktorData, coords] = await Promise.all([loadAktorerArsrapport2025(), loadCoordinates()]);
+  return mapAktorsToCoordinates(aktorData.actors, coords);
+}
+
+export async function loadAktorerWithCoordinates2024(): Promise<AktorWithCoordinates[]> {
+  const [aktorData, coords] = await Promise.all([loadAktorerArsrapport2024(), loadCoordinates()]);
+  return mapAktorsToCoordinates(aktorData.actors, coords);
+}
+
+async function loadMicroAreaAktorsWithCoordinates(file: string): Promise<AktorWithCoordinates[]> {
+  const [aktorModule, coords] = await Promise.all([
+    import(`@/data/main-board/aktorer/${file}`) as Promise<{ default: { actors: AktorRaw[] } }>,
+    loadCoordinates(),
+  ]);
+  return mapAktorsToCoordinates(aktorModule.default.actors, coords);
+}
+
+export const loadAktorerWithCoordinatesMidtIMarkveien = () => loadMicroAreaAktorsWithCoordinates('midt-i-markveien.json');
+export const loadAktorerWithCoordinatesNederstIMarkveien = () => loadMicroAreaAktorsWithCoordinates('nederst-i-markveien.json');
+export const loadAktorerWithCoordinatesNedreTMG = () => loadMicroAreaAktorsWithCoordinates('nedre-thorvald-meyers-gate.json');
+export const loadAktorerWithCoordinatesOlafRyes7Eleven = () => loadMicroAreaAktorsWithCoordinates('olaf-ryes-plass-7eleven.json');
+export const loadAktorerWithCoordinatesOlafRyesBoots = () => loadMicroAreaAktorsWithCoordinates('olaf-ryes-plass-boots.json');
+export const loadAktorerWithCoordinatesOvreTMG = () => loadMicroAreaAktorsWithCoordinates('ovre-thorvald-meyers-gate.json');
+export const loadAktorerWithCoordinatesMarkveien35 = () => loadMicroAreaAktorsWithCoordinates('markveien-35.json');
 
 // ============================================================================
 // CONVENIENCE EXPORTS
@@ -440,7 +465,15 @@ export const MainBoardLoaders = {
   loadGraphsRegistry,
 
   // Aktører with coordinates
+  loadAktorerWithCoordinates2024,
   loadAktorerWithCoordinates2025,
+  loadAktorerWithCoordinatesMidtIMarkveien,
+  loadAktorerWithCoordinatesNederstIMarkveien,
+  loadAktorerWithCoordinatesNedreTMG,
+  loadAktorerWithCoordinatesOlafRyes7Eleven,
+  loadAktorerWithCoordinatesOlafRyesBoots,
+  loadAktorerWithCoordinatesOvreTMG,
+  loadAktorerWithCoordinatesMarkveien35,
 
   // Batch loaders
   loadAllAnalyserData,

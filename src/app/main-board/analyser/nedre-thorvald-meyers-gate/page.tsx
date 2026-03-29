@@ -4,8 +4,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import AktorOversikt from '@/components/analyser/AktorOversikt';
+import AktorMapWrapper from '@/components/analyser/AktorMapWrapper';
 import MikroOmradeCharts from '@/components/analyser/MikroOmradeCharts';
 import aktorData from '@/data/main-board/aktorer/nedre-thorvald-meyers-gate.json';
+import coordinates from '@/data/main-board/aktorer/2025-arsrapport-coordinates.json';
+import type { AktorCategory } from '@/types/aktor-map';
 
 export const metadata: Metadata = {
   title: 'Nedre Thorvald Meyers Gate - Stedsanalyse',
@@ -13,6 +16,21 @@ export const metadata: Metadata = {
 };
 
 export default function NedreThorvaldMeyersGatePage() {
+  const aktorMapData = aktorData.actors
+    .filter((a: { adresse: string }) => {
+      const c = (coordinates as Record<string, { lat: number; lng: number } | null>)[a.adresse];
+      return c && c.lat && c.lng;
+    })
+    .map((a: { rank: string; navn: string; type: string; adresse: string; omsetning: number; yoy_vekst: number | null; ansatte: number; markedsandel: number }) => {
+      const c = (coordinates as Record<string, { lat: number; lng: number } | null>)[a.adresse]!;
+      return {
+        ...a,
+        lat: c.lat,
+        lng: c.lng,
+        category: a.type.split(' / ')[0] as AktorCategory,
+      };
+    });
+
   return (
     <>
       {/* Hero Section with Image */}
@@ -995,6 +1013,13 @@ export default function NedreThorvaldMeyersGatePage() {
             </div>
           </div>
         </section>
+
+        {/* Actor Map */}
+        {aktorMapData.length > 0 && (
+          <div className="mb-8 md:mb-12">
+            <AktorMapWrapper actors={aktorMapData} />
+          </div>
+        )}
 
         {/* Actor Overview Section */}
         <AktorOversikt

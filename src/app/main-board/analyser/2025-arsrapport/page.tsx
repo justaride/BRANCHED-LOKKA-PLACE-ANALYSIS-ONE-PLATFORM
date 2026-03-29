@@ -159,7 +159,7 @@ export default async function Analyse2025Page() {
                       )}
                     </div>
                     <div className="text-xs text-gray-600 md:text-sm">
-                      Innbyggere
+                      Innbyggere (2024-tall)
                     </div>
                   </div>
                   <div className="absolute bottom-0 left-0 h-1 w-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 opacity-0 transition-opacity group-hover:opacity-100" />
