@@ -9,10 +9,10 @@ interface DailyDataPoint {
 }
 
 /**
- * Generate daily bank transaction data for 2024
+ * Generate daily bank transaction data for a given year
  * Total: 3,970,000,000 kr for the year
  */
-export function generateBankTransactionData(): DailyDataPoint[] {
+export function generateBankTransactionData(year = 2024): DailyDataPoint[] {
   const data: DailyDataPoint[] = [];
   const totalYearly = 3_970_000_000; // 3.97 billion NOK
   const dailyBase = totalYearly / 365; // ~10.9 million per day
@@ -34,27 +34,27 @@ export function generateBankTransactionData(): DailyDataPoint[] {
   };
 
   // Day of week multipliers
-  const dowMultipliers = [0.7, 1.0, 1.0, 1.05, 1.15, 1.30, 1.20]; // Sun-Sat
+  const dowMultipliers = [0.66, 0.95, 0.95, 0.99, 1.09, 1.23, 1.13]; // Sun-Sat (normalized to avg 1.0)
 
   // Event boost dates (major events that increase spending)
   const eventBoosts: Record<string, number> = {
-    '2024-03-08': 1.15, // 8. mars
-    '2024-05-04': 1.25, // Løkkadagene
-    '2024-05-17': 1.40, // 17. mai
-    '2024-05-24': 1.20, // Vegetarfestival
-    '2024-06-01': 1.25, // Musikkfest Oslo
-    '2024-06-13': 1.35, // Piknik i Parken start
-    '2024-06-14': 1.35,
-    '2024-06-15': 1.35,
-    '2024-06-26': 1.30, // Pride week start
-    '2024-06-27': 1.35,
-    '2024-06-28': 1.40,
-    '2024-06-29': 1.45, // Pride parade - peak
-    '2024-11-30': 1.20, // Jul på Løkka
+    [`${year}-03-08`]: 1.15, // 8. mars
+    [`${year}-05-04`]: 1.25, // Løkkadagene
+    [`${year}-05-17`]: 1.40, // 17. mai
+    [`${year}-05-24`]: 1.20, // Vegetarfestival
+    [`${year}-06-01`]: 1.25, // Musikkfest Oslo
+    [`${year}-06-13`]: 1.35, // Piknik i Parken start
+    [`${year}-06-14`]: 1.35,
+    [`${year}-06-15`]: 1.35,
+    [`${year}-06-26`]: 1.30, // Pride week start
+    [`${year}-06-27`]: 1.35,
+    [`${year}-06-28`]: 1.40,
+    [`${year}-06-29`]: 1.45, // Pride parade - peak
+    [`${year}-11-30`]: 1.20, // Jul på Løkka
   };
 
-  const startDate = new Date('2024-01-01');
-  const endDate = new Date('2024-12-31');
+  const startDate = new Date(`${year}-01-01`);
+  const endDate = new Date(`${year}-12-31`);
   const current = new Date(startDate);
 
   while (current <= endDate) {
@@ -84,10 +84,10 @@ export function generateBankTransactionData(): DailyDataPoint[] {
 }
 
 /**
- * Generate daily visitor count data for 2024
+ * Generate daily visitor count data for a given year
  * Estimated based on population density and foot traffic patterns
  */
-export function generateVisitorData(): DailyDataPoint[] {
+export function generateVisitorData(year = 2024): DailyDataPoint[] {
   const data: DailyDataPoint[] = [];
   const dailyBase = 25000; // ~25k daily visitors (educated estimate for busy urban district)
 
@@ -107,28 +107,28 @@ export function generateVisitorData(): DailyDataPoint[] {
     12: 0.85,
   };
 
-  // Day of week (weekend is busier)
-  const dowMultipliers = [0.8, 0.9, 0.95, 1.0, 1.1, 1.3, 1.4]; // Sun-Sat
+  // Day of week (weekend is busier, normalized to avg 1.0)
+  const dowMultipliers = [0.75, 0.85, 0.89, 0.94, 1.03, 1.22, 1.32]; // Sun-Sat
 
   // Event visitor boosts
   const eventBoosts: Record<string, number> = {
-    '2024-03-08': 1.25,
-    '2024-05-04': 1.40,
-    '2024-05-17': 1.60, // 17. mai - huge boost
-    '2024-05-24': 1.35,
-    '2024-06-01': 1.40,
-    '2024-06-13': 1.50,
-    '2024-06-14': 1.50,
-    '2024-06-15': 1.50,
-    '2024-06-26': 1.45,
-    '2024-06-27': 1.50,
-    '2024-06-28': 1.55,
-    '2024-06-29': 2.80, // Pride parade - massive boost (70k attendees)
-    '2024-11-30': 1.30,
+    [`${year}-03-08`]: 1.25,
+    [`${year}-05-04`]: 1.40,
+    [`${year}-05-17`]: 1.60, // 17. mai - huge boost
+    [`${year}-05-24`]: 1.35,
+    [`${year}-06-01`]: 1.40,
+    [`${year}-06-13`]: 1.50,
+    [`${year}-06-14`]: 1.50,
+    [`${year}-06-15`]: 1.50,
+    [`${year}-06-26`]: 1.45,
+    [`${year}-06-27`]: 1.50,
+    [`${year}-06-28`]: 1.55,
+    [`${year}-06-29`]: 2.80, // Pride parade - massive boost (70k attendees)
+    [`${year}-11-30`]: 1.30,
   };
 
-  const startDate = new Date('2024-01-01');
-  const endDate = new Date('2024-12-31');
+  const startDate = new Date(`${year}-01-01`);
+  const endDate = new Date(`${year}-12-31`);
   const current = new Date(startDate);
 
   while (current <= endDate) {

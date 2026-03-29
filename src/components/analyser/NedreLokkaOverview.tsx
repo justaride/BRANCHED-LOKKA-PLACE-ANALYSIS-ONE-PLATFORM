@@ -24,13 +24,13 @@ export default function NedreLokkaOverview() {
 
         <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg border border-purple-200">
           <div className="text-sm text-purple-800 font-semibold mb-1">Virksomheter</div>
-          <div className="text-4xl font-bold text-purple-900">103</div>
+          <div className="text-4xl font-bold text-purple-900">91</div>
           <div className="text-sm text-purple-600 mt-1">kommersielle lokaler</div>
         </div>
 
         <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-lg border border-orange-200">
           <div className="text-sm text-orange-800 font-semibold mb-1">Omsetning</div>
-          <div className="text-4xl font-bold text-orange-900">967M</div>
+          <div className="text-4xl font-bold text-orange-900">902M</div>
           <div className="text-sm text-orange-600 mt-1">NOK årlig</div>
         </div>
       </div>

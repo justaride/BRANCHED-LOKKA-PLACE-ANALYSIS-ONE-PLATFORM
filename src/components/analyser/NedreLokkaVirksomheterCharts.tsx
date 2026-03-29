@@ -156,7 +156,7 @@ export default function NedreLokkaVirksomheterCharts({ basePath }: Props) {
             Virksomhetstyper
           </h3>
           <p className="text-gray-600">
-            Fordeling av 103 virksomheter etter kategori. Restauranter dominerer med 40 % av totalen.
+            Fordeling av 91 virksomheter etter kategori. Restauranter dominerer med 40 % av totalen.
           </p>
         </div>
 
@@ -383,11 +383,11 @@ export default function NedreLokkaVirksomheterCharts({ basePath }: Props) {
         <ul className="text-sm text-blue-800 space-y-2">
           <li className="flex gap-2">
             <span className="text-blue-600">•</span>
-            <span><span className="font-semibold">Totalt:</span> 103 registrerte kommersielle virksomheter</span>
+            <span><span className="font-semibold">Totalt:</span> 91 registrerte kommersielle virksomheter</span>
           </li>
           <li className="flex gap-2">
             <span className="text-blue-600">•</span>
-            <span><span className="font-semibold">Omsetning:</span> 967 millioner NOK årlig (aggregert)</span>
+            <span><span className="font-semibold">Omsetning:</span> 902 millioner NOK årlig (aggregert)</span>
           </li>
           <li className="flex gap-2">
             <span className="text-blue-600">•</span>

@@ -103,7 +103,7 @@ export default function NedreLokkaOmradeprofilPage() {
           <div className="mb-6">
             <h2 className="text-3xl font-bold text-gray-900 mb-2">Næringsliv og Virksomheter</h2>
             <p className="text-gray-600">
-              103 kommersielle virksomheter med samlet omsetning på 967 millioner NOK.
+              91 kommersielle virksomheter med samlet omsetning på 902 millioner NOK.
             </p>
           </div>
           <NedreLokkaVirksomheterCharts basePath="/data/main-board/nedre-lokka-omradeprofil" />

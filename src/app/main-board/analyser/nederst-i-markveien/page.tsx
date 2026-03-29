@@ -146,7 +146,7 @@ export default function NederstIMarkveienPage() {
                 </svg>
               </div>
               <p className="mb-2 text-3xl font-bold text-red-900">Sharika AS</p>
-              <p className="text-sm text-red-700">30.33% markedsandel</p>
+              <p className="text-sm text-red-700">28.59% markedsandel</p>
               <div className="mt-4 text-xs text-red-600">
                 <p>NOK 37M omsetning årlig</p>
                 <p className="flex items-center gap-1 text-green-600">
@@ -347,7 +347,7 @@ export default function NederstIMarkveienPage() {
               <h3 className="mb-2 text-sm font-semibold uppercase tracking-wider text-purple-900/70">
                 Topp 3 Aktører
               </h3>
-              <p className="mb-1 text-3xl font-bold text-purple-900">52%</p>
+              <p className="mb-1 text-3xl font-bold text-purple-900">49%</p>
               <p className="text-sm text-purple-700">Markedsandel kombinert</p>
             </div>
 
@@ -385,10 +385,10 @@ export default function NederstIMarkveienPage() {
               <div className="rounded-xl bg-white p-6">
                 <div className="mb-4 flex items-center justify-between">
                   <span className="text-lg font-bold text-red-900">Sharika AS</span>
-                  <span className="text-2xl font-bold text-red-900">30.33%</span>
+                  <span className="text-2xl font-bold text-red-900">28.59%</span>
                 </div>
                 <div className="h-4 w-full overflow-hidden rounded-full bg-gray-200">
-                  <div className="h-full rounded-full bg-red-500" style={{width: '30.33%'}}></div>
+                  <div className="h-full rounded-full bg-red-500" style={{width: '28.59%'}}></div>
                 </div>
                 <div className="mt-4 grid grid-cols-3 gap-4 text-center text-sm">
                   <div>
@@ -410,10 +410,10 @@ export default function NederstIMarkveienPage() {
               <div className="rounded-xl bg-white p-6">
                 <div className="mb-4 flex items-center justify-between">
                   <span className="text-lg font-bold text-orange-900">Sabrura Markveien AS</span>
-                  <span className="text-2xl font-bold text-orange-900">11.48%</span>
+                  <span className="text-2xl font-bold text-orange-900">10.70%</span>
                 </div>
                 <div className="h-4 w-full overflow-hidden rounded-full bg-gray-200">
-                  <div className="h-full rounded-full bg-orange-500" style={{width: '11.48%'}}></div>
+                  <div className="h-full rounded-full bg-orange-500" style={{width: '10.70%'}}></div>
                 </div>
                 <div className="mt-4 grid grid-cols-3 gap-4 text-center text-sm">
                   <div>
@@ -435,10 +435,10 @@ export default function NederstIMarkveienPage() {
               <div className="rounded-xl bg-white p-6">
                 <div className="mb-4 flex items-center justify-between">
                   <span className="text-lg font-bold text-amber-900">Flamme Burger Grunerløkka AS</span>
-                  <span className="text-2xl font-bold text-amber-900">10.66%</span>
+                  <span className="text-2xl font-bold text-amber-900">10.18%</span>
                 </div>
                 <div className="h-4 w-full overflow-hidden rounded-full bg-gray-200">
-                  <div className="h-full rounded-full bg-amber-500" style={{width: '10.66%'}}></div>
+                  <div className="h-full rounded-full bg-amber-500" style={{width: '10.18%'}}></div>
                 </div>
                 <div className="mt-4 grid grid-cols-3 gap-4 text-center text-sm">
                   <div>
@@ -460,7 +460,7 @@ export default function NederstIMarkveienPage() {
             <div className="mt-6 rounded-lg bg-red-100 p-4">
               <p className="text-sm text-red-900">
                 <strong>Observasjon:</strong> De tre største aktørene (Sharika AS, Sabrura Markveien AS,
-                Flamme Burger) kontrollerer 52% av omsetningen. Sharika AS skiller seg ut med sterk
+                Flamme Burger) kontrollerer 49% av omsetningen. Sharika AS skiller seg ut med sterk
                 vekst (+77%) og høyest markedsandel.
               </p>
             </div>

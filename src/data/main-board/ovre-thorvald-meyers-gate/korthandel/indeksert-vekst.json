@@ -1,44 +1,2270 @@
 [
   {
-    "DateTime": 2019,
+    "DateTime": "Week 1, 2019",
     "Birkelunden / Olaf Ryes Plass (Urbant område)": 100,
     "Oslo (Kommune)": 100,
     "Norway (Land)": 100
   },
   {
-    "DateTime": 2020,
-    "Birkelunden / Olaf Ryes Plass (Urbant område)": 93.98453333493943,
-    "Oslo (Kommune)": 101.16581721930523,
-    "Norway (Land)": 107.64483219659841
+    "DateTime": "Week 2, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 142.61128364389236,
+    "Oslo (Kommune)": 144.19469680431243,
+    "Norway (Land)": 147.2799084023992
   },
   {
-    "DateTime": 2021,
-    "Birkelunden / Olaf Ryes Plass (Urbant område)": 94.6949278613782,
-    "Oslo (Kommune)": 102.3629265744735,
-    "Norway (Land)": 111.35427284119615
+    "DateTime": "Week 3, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 141.89958592132507,
+    "Oslo (Kommune)": 150.85307897697695,
+    "Norway (Land)": 155.8387150128518
   },
   {
-    "DateTime": 2022,
-    "Birkelunden / Olaf Ryes Plass (Urbant område)": 99.81856180492608,
-    "Oslo (Kommune)": 108.92946463919257,
-    "Norway (Land)": 110.74310000453752
+    "DateTime": "Week 4, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 141.45962732919256,
+    "Oslo (Kommune)": 146.72394642587258,
+    "Norway (Land)": 150.5420848139517
   },
   {
-    "DateTime": 2023,
-    "Birkelunden / Olaf Ryes Plass (Urbant område)": 93.25080028548282,
-    "Oslo (Kommune)": 106.08279620717869,
-    "Norway (Land)": 109.7744692659117
+    "DateTime": "Week 5, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 137.71997929606627,
+    "Oslo (Kommune)": 144.43099680215335,
+    "Norway (Land)": 148.52324506328492
   },
   {
-    "DateTime": 2024,
-    "Birkelunden / Olaf Ryes Plass (Urbant område)": 79.53060960222122,
-    "Oslo (Kommune)": 101.82420983485783,
-    "Norway (Land)": 107.82831072552842
+    "DateTime": "Week 6, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 128.17028985507247,
+    "Oslo (Kommune)": 139.76785024577595,
+    "Norway (Land)": 147.19660386690433
   },
   {
-    "DateTime": 2025,
-    "Birkelunden / Olaf Ryes Plass (Urbant område)": 64.98649377087293,
-    "Oslo (Kommune)": 86.0191525518137,
-    "Norway (Land)": 92.31919683448638
+    "DateTime": "Week 7, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 147.95548654244305,
+    "Oslo (Kommune)": 147.7027322037314,
+    "Norway (Land)": 157.44402314438213
+  },
+  {
+    "DateTime": "Week 8, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 146.80383022774328,
+    "Oslo (Kommune)": 137.8399061517166,
+    "Norway (Land)": 156.54310925143244
+  },
+  {
+    "DateTime": "Week 9, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 153.24792960662526,
+    "Oslo (Kommune)": 151.01884882317802,
+    "Norway (Land)": 155.11427356183952
+  },
+  {
+    "DateTime": "Week 10, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 144.77225672877847,
+    "Oslo (Kommune)": 142.00442372787836,
+    "Norway (Land)": 148.21415123111427
+  },
+  {
+    "DateTime": "Week 11, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 149.10714285714286,
+    "Oslo (Kommune)": 149.22872640298624,
+    "Norway (Land)": 157.4948711361268
+  },
+  {
+    "DateTime": "Week 12, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 164.32453416149067,
+    "Oslo (Kommune)": 155.12123269432374,
+    "Norway (Land)": 164.8281806122091
+  },
+  {
+    "DateTime": "Week 13, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 162.9787784679089,
+    "Oslo (Kommune)": 156.17954481663358,
+    "Norway (Land)": 161.71865499940264
+  },
+  {
+    "DateTime": "Week 14, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 153.5455486542443,
+    "Oslo (Kommune)": 150.28655872834617,
+    "Norway (Land)": 160.2714634696526
+  },
+  {
+    "DateTime": "Week 15, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 158.08747412008285,
+    "Oslo (Kommune)": 155.06641589279417,
+    "Norway (Land)": 178.7920610902301
+  },
+  {
+    "DateTime": "Week 16, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 117.43012422360249,
+    "Oslo (Kommune)": 107.12078648316033,
+    "Norway (Land)": 150.8245617876986
+  },
+  {
+    "DateTime": "Week 17, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 149.61180124223603,
+    "Oslo (Kommune)": 148.66196625588051,
+    "Norway (Land)": 161.7925590658355
+  },
+  {
+    "DateTime": "Week 18, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 153.81728778467908,
+    "Oslo (Kommune)": 153.11040367716382,
+    "Norway (Land)": 167.53937915243023
+  },
+  {
+    "DateTime": "Week 19, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 153.00207039337474,
+    "Oslo (Kommune)": 153.7998718942144,
+    "Norway (Land)": 172.64554302931182
+  },
+  {
+    "DateTime": "Week 20, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 166.5243271221532,
+    "Oslo (Kommune)": 165.26773869298512,
+    "Norway (Land)": 184.6640961368879
+  },
+  {
+    "DateTime": "Week 21, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 162.43530020703935,
+    "Oslo (Kommune)": 158.27673728478106,
+    "Norway (Land)": 175.85704948830647
+  },
+  {
+    "DateTime": "Week 22, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 151.6304347826087,
+    "Oslo (Kommune)": 139.4390693858359,
+    "Norway (Land)": 156.6784902490608
+  },
+  {
+    "DateTime": "Week 23, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 150.90579710144928,
+    "Oslo (Kommune)": 152.95482951614875,
+    "Norway (Land)": 173.81812691737076
+  },
+  {
+    "DateTime": "Week 24, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 180.564182194617,
+    "Oslo (Kommune)": 159.49314250209312,
+    "Norway (Land)": 179.19361067209616
+  },
+  {
+    "DateTime": "Week 25, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 194.65579710144928,
+    "Oslo (Kommune)": 186.85584260740853,
+    "Norway (Land)": 211.6897147295914
+  },
+  {
+    "DateTime": "Week 26, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 192.59834368530022,
+    "Oslo (Kommune)": 178.18483217902184,
+    "Norway (Land)": 201.34594064422768
+  },
+  {
+    "DateTime": "Week 27, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 171.06625258799173,
+    "Oslo (Kommune)": 153.78259920401686,
+    "Norway (Land)": 189.351867924834
+  },
+  {
+    "DateTime": "Week 28, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 144.02173913043478,
+    "Oslo (Kommune)": 125.1286455572002,
+    "Norway (Land)": 180.99495775219117
+  },
+  {
+    "DateTime": "Week 29, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 145.49689440993788,
+    "Oslo (Kommune)": 117.92185547076477,
+    "Norway (Land)": 179.24869599648622
+  },
+  {
+    "DateTime": "Week 30, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 130.74534161490683,
+    "Oslo (Kommune)": 115.29832574854322,
+    "Norway (Land)": 171.4110727199278
+  },
+  {
+    "DateTime": "Week 31, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 157.98395445134577,
+    "Oslo (Kommune)": 138.07704579421986,
+    "Norway (Land)": 171.074774500017
+  },
+  {
+    "DateTime": "Week 32, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 171.07919254658387,
+    "Oslo (Kommune)": 148.36605148701068,
+    "Norway (Land)": 172.49629277903324
+  },
+  {
+    "DateTime": "Week 33, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 178.07971014492753,
+    "Oslo (Kommune)": 161.9624175049119,
+    "Norway (Land)": 182.58292486692903
+  },
+  {
+    "DateTime": "Week 34, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 172.56728778467908,
+    "Oslo (Kommune)": 163.23807764554041,
+    "Norway (Land)": 181.65845638956824
+  },
+  {
+    "DateTime": "Week 35, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 167.24896480331265,
+    "Oslo (Kommune)": 157.12630414808453,
+    "Norway (Land)": 168.72641982245574
+  },
+  {
+    "DateTime": "Week 36, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 148.6801242236025,
+    "Oslo (Kommune)": 151.15307201992115,
+    "Norway (Land)": 162.04195635867848
+  },
+  {
+    "DateTime": "Week 37, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 163.93633540372673,
+    "Oslo (Kommune)": 154.62620219123266,
+    "Norway (Land)": 168.60725819474317
+  },
+  {
+    "DateTime": "Week 38, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 168.09006211180125,
+    "Oslo (Kommune)": 157.1971941474368,
+    "Norway (Land)": 171.5556049317567
+  },
+  {
+    "DateTime": "Week 39, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 148.91304347826087,
+    "Oslo (Kommune)": 152.11422525987,
+    "Norway (Land)": 165.72432305495306
+  },
+  {
+    "DateTime": "Week 40, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 153.7784679089027,
+    "Oslo (Kommune)": 147.79293403031835,
+    "Norway (Land)": 164.5645579883424
+  },
+  {
+    "DateTime": "Week 41, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 153.1444099378882,
+    "Oslo (Kommune)": 154.66170716552753,
+    "Norway (Land)": 165.43889063070557
+  },
+  {
+    "DateTime": "Week 42, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 155.44772256728777,
+    "Oslo (Kommune)": 162.03570648901385,
+    "Norway (Land)": 175.06671573426652
+  },
+  {
+    "DateTime": "Week 43, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 162.1765010351967,
+    "Oslo (Kommune)": 158.4150387555986,
+    "Norway (Land)": 165.74319520875184
+  },
+  {
+    "DateTime": "Week 44, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 155.5771221532091,
+    "Oslo (Kommune)": 159.45823727398565,
+    "Norway (Land)": 165.03301469660076
+  },
+  {
+    "DateTime": "Week 45, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 146.38975155279502,
+    "Oslo (Kommune)": 155.26925005337742,
+    "Norway (Land)": 165.2904593606862
+  },
+  {
+    "DateTime": "Week 46, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 151.77277432712216,
+    "Oslo (Kommune)": 159.3641970717992,
+    "Norway (Land)": 171.9223300486884
+  },
+  {
+    "DateTime": "Week 47, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 161.40010351966876,
+    "Oslo (Kommune)": 160.4137528997728,
+    "Norway (Land)": 174.5483546419534
+  },
+  {
+    "DateTime": "Week 48, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 168.6206004140787,
+    "Oslo (Kommune)": 189.18465705313508,
+    "Norway (Land)": 201.17468475046292
+  },
+  {
+    "DateTime": "Week 49, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 165.43737060041408,
+    "Oslo (Kommune)": 175.08678327331873,
+    "Norway (Land)": 179.93927439417268
+  },
+  {
+    "DateTime": "Week 50, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 200.0388198757764,
+    "Oslo (Kommune)": 210.00724493394392,
+    "Norway (Land)": 230.03148979096596
+  },
+  {
+    "DateTime": "Week 51, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 213.62577639751552,
+    "Oslo (Kommune)": 250.0027588324621,
+    "Norway (Land)": 284.75632043564053
+  },
+  {
+    "DateTime": "Week 52, 2019",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 75.43995859213251,
+    "Oslo (Kommune)": 94.51963928865304,
+    "Norway (Land)": 125.03341350437913
+  },
+  {
+    "DateTime": "Week 1, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 122.51552795031056,
+    "Oslo (Kommune)": 121.21146330872774,
+    "Norway (Land)": 128.55741434401196
+  },
+  {
+    "DateTime": "Week 2, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 157.27225672877847,
+    "Oslo (Kommune)": 146.01060831056296,
+    "Norway (Land)": 148.72421569732342
+  },
+  {
+    "DateTime": "Week 3, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 159.29089026915116,
+    "Oslo (Kommune)": 151.7024395275919,
+    "Norway (Land)": 156.03222580496413
+  },
+  {
+    "DateTime": "Week 4, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 170.89803312629402,
+    "Oslo (Kommune)": 154.1093409269197,
+    "Norway (Land)": 155.69169025240794
+  },
+  {
+    "DateTime": "Week 5, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 160.79192546583852,
+    "Oslo (Kommune)": 149.46226756836506,
+    "Norway (Land)": 153.0993506732819
+  },
+  {
+    "DateTime": "Week 6, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 151.52691511387164,
+    "Oslo (Kommune)": 145.92712364127502,
+    "Norway (Land)": 151.57610080293892
+  },
+  {
+    "DateTime": "Week 7, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 165.86438923395445,
+    "Oslo (Kommune)": 154.00942321209664,
+    "Norway (Land)": 162.0063663252409
+  },
+  {
+    "DateTime": "Week 8, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 162.3447204968944,
+    "Oslo (Kommune)": 142.62084285930194,
+    "Norway (Land)": 159.9670342641756
+  },
+  {
+    "DateTime": "Week 9, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 155.78416149068323,
+    "Oslo (Kommune)": 154.21297706810478,
+    "Norway (Land)": 161.02047432844063
+  },
+  {
+    "DateTime": "Week 10, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 142.88302277432712,
+    "Oslo (Kommune)": 143.4107085881255,
+    "Norway (Land)": 151.89719447629864
+  },
+  {
+    "DateTime": "Week 11, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 112.83643892339545,
+    "Oslo (Kommune)": 147.06880048363533,
+    "Norway (Land)": 167.62994768674574
+  },
+  {
+    "DateTime": "Week 12, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 69.28053830227744,
+    "Oslo (Kommune)": 102.13725551346671,
+    "Norway (Land)": 124.96517108408595
+  },
+  {
+    "DateTime": "Week 13, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 72.83902691511386,
+    "Oslo (Kommune)": 104.08187255153618,
+    "Norway (Land)": 122.2372546642261
+  },
+  {
+    "DateTime": "Week 14, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 80.61594202898551,
+    "Oslo (Kommune)": 119.12830490136572,
+    "Norway (Land)": 142.27020615691555
+  },
+  {
+    "DateTime": "Week 15, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 75.29761904761905,
+    "Oslo (Kommune)": 113.89719870550783,
+    "Norway (Land)": 140.55029420085418
+  },
+  {
+    "DateTime": "Week 16, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 92.90890269151139,
+    "Oslo (Kommune)": 114.25632672253101,
+    "Norway (Land)": 141.4443535851128
+  },
+  {
+    "DateTime": "Week 17, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 115.25621118012424,
+    "Oslo (Kommune)": 136.03502997531444,
+    "Norway (Land)": 170.96672251755956
+  },
+  {
+    "DateTime": "Week 18, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 118.76293995859216,
+    "Oslo (Kommune)": 133.85543238101633,
+    "Norway (Land)": 168.11652878421845
+  },
+  {
+    "DateTime": "Week 19, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 166.4855072463768,
+    "Oslo (Kommune)": 153.01672332268984,
+    "Norway (Land)": 184.2214373067941
+  },
+  {
+    "DateTime": "Week 20, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 179.3737060041408,
+    "Oslo (Kommune)": 175.52843636573002,
+    "Norway (Land)": 206.64018511802485
+  },
+  {
+    "DateTime": "Week 21, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 162.83643892339546,
+    "Oslo (Kommune)": 143.6021475711479,
+    "Norway (Land)": 182.12593388229936
+  },
+  {
+    "DateTime": "Week 22, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 190.78674948240166,
+    "Oslo (Kommune)": 171.9770992915798,
+    "Norway (Land)": 210.21695677261957
+  },
+  {
+    "DateTime": "Week 23, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 165.61853002070393,
+    "Oslo (Kommune)": 155.01987558865088,
+    "Norway (Land)": 181.10242220533223
+  },
+  {
+    "DateTime": "Week 24, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 198.79658385093168,
+    "Oslo (Kommune)": 178.37747065441906,
+    "Norway (Land)": 214.86023656778906
+  },
+  {
+    "DateTime": "Week 25, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 208.33333333333334,
+    "Oslo (Kommune)": 196.16606252234055,
+    "Norway (Land)": 237.9939363413766
+  },
+  {
+    "DateTime": "Week 26, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 203.55848861283644,
+    "Oslo (Kommune)": 189.53035075556025,
+    "Norway (Land)": 230.75477398726414
+  },
+  {
+    "DateTime": "Week 27, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 199.34006211180125,
+    "Oslo (Kommune)": 179.37700765036234,
+    "Norway (Land)": 226.004670680026
+  },
+  {
+    "DateTime": "Week 28, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 176.7080745341615,
+    "Oslo (Kommune)": 154.6792197542,
+    "Norway (Land)": 220.96431008657868
+  },
+  {
+    "DateTime": "Week 29, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 156.12060041407867,
+    "Oslo (Kommune)": 142.00094519999138,
+    "Norway (Land)": 218.08903063182012
+  },
+  {
+    "DateTime": "Week 30, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 158.52743271221533,
+    "Oslo (Kommune)": 137.58417437740346,
+    "Norway (Land)": 207.09692684779304
+  },
+  {
+    "DateTime": "Week 31, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 163.3410973084886,
+    "Oslo (Kommune)": 142.70624671638961,
+    "Norway (Land)": 195.85191839894347
+  },
+  {
+    "DateTime": "Week 32, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 178.07971014492753,
+    "Oslo (Kommune)": 156.03896431030387,
+    "Norway (Land)": 194.20913301859565
+  },
+  {
+    "DateTime": "Week 33, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 174.805900621118,
+    "Oslo (Kommune)": 164.88342133609055,
+    "Norway (Land)": 200.21094082849822
+  },
+  {
+    "DateTime": "Week 34, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 178.17028985507247,
+    "Oslo (Kommune)": 167.60674882389773,
+    "Norway (Land)": 197.66336030092896
+  },
+  {
+    "DateTime": "Week 35, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 182.49223602484471,
+    "Oslo (Kommune)": 164.42473545195674,
+    "Norway (Land)": 189.26307978238626
+  },
+  {
+    "DateTime": "Week 36, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 174.39182194616978,
+    "Oslo (Kommune)": 164.86470925504327,
+    "Norway (Land)": 186.6639391063252
+  },
+  {
+    "DateTime": "Week 37, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 170.26397515527952,
+    "Oslo (Kommune)": 164.19527256065234,
+    "Norway (Land)": 186.68847290626363
+  },
+  {
+    "DateTime": "Week 38, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 179.24430641821948,
+    "Oslo (Kommune)": 169.5937079427986,
+    "Norway (Land)": 194.2795297130489
+  },
+  {
+    "DateTime": "Week 39, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 152.8209109730849,
+    "Oslo (Kommune)": 160.92869497628604,
+    "Norway (Land)": 187.72211501295857
+  },
+  {
+    "DateTime": "Week 40, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 148.24016563146998,
+    "Oslo (Kommune)": 153.23167235625883,
+    "Norway (Land)": 182.8336218458355
+  },
+  {
+    "DateTime": "Week 41, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 152.29037267080744,
+    "Oslo (Kommune)": 157.9147304860583,
+    "Norway (Land)": 180.35816499283126
+  },
+  {
+    "DateTime": "Week 42, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 167.17132505175985,
+    "Oslo (Kommune)": 167.23910441101327,
+    "Norway (Land)": 191.65010457131635
+  },
+  {
+    "DateTime": "Week 43, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 154.03726708074535,
+    "Oslo (Kommune)": 169.3545291632581,
+    "Norway (Land)": 195.74415127918482
+  },
+  {
+    "DateTime": "Week 44, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 142.28778467908904,
+    "Oslo (Kommune)": 162.03594638748882,
+    "Norway (Land)": 185.20804146034152
+  },
+  {
+    "DateTime": "Week 45, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 138.04347826086956,
+    "Oslo (Kommune)": 153.03375611441237,
+    "Norway (Land)": 177.76833576623883
+  },
+  {
+    "DateTime": "Week 46, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 122.82608695652175,
+    "Oslo (Kommune)": 149.3594710718424,
+    "Norway (Land)": 185.7314944733966
+  },
+  {
+    "DateTime": "Week 47, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 115.34679089026916,
+    "Oslo (Kommune)": 152.57207149934146,
+    "Norway (Land)": 192.02375541261384
+  },
+  {
+    "DateTime": "Week 48, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 132.54399585921325,
+    "Oslo (Kommune)": 177.78444162430458,
+    "Norway (Land)": 212.0221138913117
+  },
+  {
+    "DateTime": "Week 49, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 125.42701863354037,
+    "Oslo (Kommune)": 167.7775565380731,
+    "Norway (Land)": 200.3910096620086
+  },
+  {
+    "DateTime": "Week 50, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 140.98084886128365,
+    "Oslo (Kommune)": 181.5408918945502,
+    "Norway (Land)": 232.6655617554735
+  },
+  {
+    "DateTime": "Week 51, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 167.9089026915114,
+    "Oslo (Kommune)": 214.20942657067528,
+    "Norway (Land)": 271.2018410676227
+  },
+  {
+    "DateTime": "Week 52, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 87.5,
+    "Oslo (Kommune)": 134.57644724752484,
+    "Norway (Land)": 184.94222895447734
+  },
+  {
+    "DateTime": "Week 53, 2020",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 83.81211180124224,
+    "Oslo (Kommune)": 114.75999357072087,
+    "Norway (Land)": 144.76328888941114
+  },
+  {
+    "DateTime": "Week 1, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 102.52329192546583,
+    "Oslo (Kommune)": 134.4007216146127,
+    "Norway (Land)": 151.35152217273324
+  },
+  {
+    "DateTime": "Week 2, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 107.25931677018635,
+    "Oslo (Kommune)": 139.30832471697977,
+    "Norway (Land)": 161.0278273468547
+  },
+  {
+    "DateTime": "Week 3, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 99.6376811594203,
+    "Oslo (Kommune)": 137.02017306275985,
+    "Norway (Land)": 167.52506480181302
+  },
+  {
+    "DateTime": "Week 4, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 76.50103519668737,
+    "Oslo (Kommune)": 100.82357146455621,
+    "Norway (Land)": 154.65977512582475
+  },
+  {
+    "DateTime": "Week 5, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 104.74896480331265,
+    "Oslo (Kommune)": 123.34392085269512,
+    "Norway (Land)": 157.76303375925647
+  },
+  {
+    "DateTime": "Week 6, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 123.95186335403727,
+    "Oslo (Kommune)": 135.79321231254931,
+    "Norway (Land)": 165.45024953082225
+  },
+  {
+    "DateTime": "Week 7, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 121.41563146997929,
+    "Oslo (Kommune)": 133.5825478657432,
+    "Norway (Land)": 168.67724539906683
+  },
+  {
+    "DateTime": "Week 8, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 133.29451345755695,
+    "Oslo (Kommune)": 129.0079238466281,
+    "Norway (Land)": 173.89639294387973
+  },
+  {
+    "DateTime": "Week 9, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 92.44306418219462,
+    "Oslo (Kommune)": 116.68589852774305,
+    "Norway (Land)": 164.14953084003693
+  },
+  {
+    "DateTime": "Week 10, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 86.91770186335404,
+    "Oslo (Kommune)": 109.08159666828998,
+    "Norway (Land)": 162.72197703258882
+  },
+  {
+    "DateTime": "Week 11, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 92.00310559006212,
+    "Oslo (Kommune)": 118.17902663592767,
+    "Norway (Land)": 168.75040170091515
+  },
+  {
+    "DateTime": "Week 12, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 93.68530020703935,
+    "Oslo (Kommune)": 124.13630551550582,
+    "Norway (Land)": 177.09782238490257
+  },
+  {
+    "DateTime": "Week 13, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 64.41511387163561,
+    "Oslo (Kommune)": 90.96794236679037,
+    "Norway (Land)": 140.20678539387876
+  },
+  {
+    "DateTime": "Week 14, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 89.51863354037268,
+    "Oslo (Kommune)": 106.38477796196648,
+    "Norway (Land)": 136.09965280578186
+  },
+  {
+    "DateTime": "Week 15, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 101.04813664596273,
+    "Oslo (Kommune)": 119.55580398375407,
+    "Norway (Land)": 176.68251037389834
+  },
+  {
+    "DateTime": "Week 16, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 104.58074534161493,
+    "Oslo (Kommune)": 126.18167991306079,
+    "Norway (Land)": 187.26419822455762
+  },
+  {
+    "DateTime": "Week 17, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 99.13302277432712,
+    "Oslo (Kommune)": 116.92759624127069,
+    "Norway (Land)": 177.42792484111337
+  },
+  {
+    "DateTime": "Week 18, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 118.40062111801244,
+    "Oslo (Kommune)": 150.3341785756268,
+    "Norway (Land)": 197.27429126605625
+  },
+  {
+    "DateTime": "Week 19, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 131.3664596273292,
+    "Oslo (Kommune)": 177.3850106634872,
+    "Norway (Land)": 233.59202427172625
+  },
+  {
+    "DateTime": "Week 20, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 111.7365424430642,
+    "Oslo (Kommune)": 141.39652099231606,
+    "Norway (Land)": 186.81404394470033
+  },
+  {
+    "DateTime": "Week 21, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 192.4689440993789,
+    "Oslo (Kommune)": 161.4653478647836,
+    "Norway (Land)": 193.09718927755438
+  },
+  {
+    "DateTime": "Week 22, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 214.350414078675,
+    "Oslo (Kommune)": 181.68483097952947,
+    "Norway (Land)": 215.6073602111972
+  },
+  {
+    "DateTime": "Week 23, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 209.89906832298138,
+    "Oslo (Kommune)": 180.57997855307633,
+    "Norway (Land)": 218.0926092194744
+  },
+  {
+    "DateTime": "Week 24, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 233.9026915113872,
+    "Oslo (Kommune)": 196.8934346984356,
+    "Norway (Land)": 235.02953046971547
+  },
+  {
+    "DateTime": "Week 25, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 229.10196687370598,
+    "Oslo (Kommune)": 189.25002938756316,
+    "Norway (Land)": 231.17005039043104
+  },
+  {
+    "DateTime": "Week 26, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 218.98291925465836,
+    "Oslo (Kommune)": 181.31238859714568,
+    "Norway (Land)": 229.78396190958424
+  },
+  {
+    "DateTime": "Week 27, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 201.12577639751552,
+    "Oslo (Kommune)": 158.4554616486303,
+    "Norway (Land)": 221.76276242753582
+  },
+  {
+    "DateTime": "Week 28, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 181.39233954451348,
+    "Oslo (Kommune)": 143.95251929383485,
+    "Norway (Land)": 219.12662520846163
+  },
+  {
+    "DateTime": "Week 29, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 183.61801242236024,
+    "Oslo (Kommune)": 140.37575298133828,
+    "Norway (Land)": 214.35987523725947
+  },
+  {
+    "DateTime": "Week 30, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 174.66356107660454,
+    "Oslo (Kommune)": 143.8869070609318,
+    "Norway (Land)": 203.72997437481985
+  },
+  {
+    "DateTime": "Week 31, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 205.8488612836439,
+    "Oslo (Kommune)": 157.74596190892015,
+    "Norway (Land)": 196.15511913403162
+  },
+  {
+    "DateTime": "Week 32, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 215.91614906832297,
+    "Oslo (Kommune)": 171.91676482512602,
+    "Norway (Land)": 205.59872709103018
+  },
+  {
+    "DateTime": "Week 33, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 208.03571428571433,
+    "Oslo (Kommune)": 173.79876836122952,
+    "Norway (Land)": 204.18185563478892
+  },
+  {
+    "DateTime": "Week 34, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 195.48395445134574,
+    "Oslo (Kommune)": 169.0536964756515,
+    "Norway (Land)": 192.16668527176165
+  },
+  {
+    "DateTime": "Week 35, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 190.2044513457557,
+    "Oslo (Kommune)": 164.2641234229674,
+    "Norway (Land)": 186.97575693805356
+  },
+  {
+    "DateTime": "Week 36, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 176.64337474120083,
+    "Oslo (Kommune)": 160.81198436821535,
+    "Norway (Land)": 186.4826239985073
+  },
+  {
+    "DateTime": "Week 37, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 179.86542443064184,
+    "Oslo (Kommune)": 166.22133513097253,
+    "Norway (Land)": 191.26178330102812
+  },
+  {
+    "DateTime": "Week 38, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 180.93944099378882,
+    "Oslo (Kommune)": 167.5749622759648,
+    "Norway (Land)": 190.74701860028796
+  },
+  {
+    "DateTime": "Week 39, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 160.45548654244308,
+    "Oslo (Kommune)": 164.10279169855318,
+    "Norway (Land)": 183.85412466054603
+  },
+  {
+    "DateTime": "Week 40, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 161.24482401656314,
+    "Oslo (Kommune)": 151.5701355186485,
+    "Norway (Land)": 179.06691798678273
+  },
+  {
+    "DateTime": "Week 41, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 189.38923395445136,
+    "Oslo (Kommune)": 173.86438059413254,
+    "Norway (Land)": 191.58755940500015
+  },
+  {
+    "DateTime": "Week 42, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 175.72463768115944,
+    "Oslo (Kommune)": 173.576982221124,
+    "Norway (Land)": 194.54854692427514
+  },
+  {
+    "DateTime": "Week 43, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 177.47153209109732,
+    "Oslo (Kommune)": 170.6677334152187,
+    "Norway (Land)": 186.4744519998341
+  },
+  {
+    "DateTime": "Week 44, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 162.12474120082817,
+    "Oslo (Kommune)": 162.64912688950034,
+    "Norway (Land)": 177.75996792446008
+  },
+  {
+    "DateTime": "Week 45, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 169.9016563146998,
+    "Oslo (Kommune)": 169.69638449008377,
+    "Norway (Land)": 189.31100793146774
+  },
+  {
+    "DateTime": "Week 46, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 180.34420289855072,
+    "Oslo (Kommune)": 178.52452841957282,
+    "Norway (Land)": 198.41605657088334
+  },
+  {
+    "DateTime": "Week 47, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 176.2292960662526,
+    "Oslo (Kommune)": 197.22257540608814,
+    "Norway (Land)": 222.41064702823218
+  },
+  {
+    "DateTime": "Week 48, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 165.1268115942029,
+    "Oslo (Kommune)": 182.10849168631833,
+    "Norway (Land)": 205.59014560222738
+  },
+  {
+    "DateTime": "Week 49, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 155.2148033126294,
+    "Oslo (Kommune)": 184.88903496040473,
+    "Norway (Land)": 227.77543062783207
+  },
+  {
+    "DateTime": "Week 50, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 169.81107660455484,
+    "Oslo (Kommune)": 214.09595459201665,
+    "Norway (Land)": 264.78525536427617
+  },
+  {
+    "DateTime": "Week 51, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 103.64906832298138,
+    "Oslo (Kommune)": 165.68204335925037,
+    "Norway (Land)": 222.54512002600796
+  },
+  {
+    "DateTime": "Week 52, 2021",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 68.99585921325053,
+    "Oslo (Kommune)": 108.38313225842823,
+    "Norway (Land)": 139.0602308349272
+  },
+  {
+    "DateTime": "Week 1, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 104.76190476190477,
+    "Oslo (Kommune)": 134.12339897755268,
+    "Norway (Land)": 152.37448192822137
+  },
+  {
+    "DateTime": "Week 2, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 133.54037267080747,
+    "Oslo (Kommune)": 144.21532807315944,
+    "Norway (Land)": 163.81337505147556
+  },
+  {
+    "DateTime": "Week 3, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 149.43064182194615,
+    "Oslo (Kommune)": 148.79055183846194,
+    "Norway (Land)": 169.00462385571987
+  },
+  {
+    "DateTime": "Week 4, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 154.19254658385094,
+    "Oslo (Kommune)": 148.80230686373528,
+    "Norway (Land)": 166.4280229407053
+  },
+  {
+    "DateTime": "Week 5, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 156.4182194616977,
+    "Oslo (Kommune)": 146.64969784787075,
+    "Norway (Land)": 163.48341502661418
+  },
+  {
+    "DateTime": "Week 6, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 164.27277432712216,
+    "Oslo (Kommune)": 153.42527042555588,
+    "Norway (Land)": 171.902549895037
+  },
+  {
+    "DateTime": "Week 7, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 170.17339544513456,
+    "Oslo (Kommune)": 159.4502006750743,
+    "Norway (Land)": 177.2336306765792
+  },
+  {
+    "DateTime": "Week 8, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 158.64389233954452,
+    "Oslo (Kommune)": 146.68652226377796,
+    "Norway (Land)": 171.57709426160116
+  },
+  {
+    "DateTime": "Week 9, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 169.11231884057975,
+    "Oslo (Kommune)": 160.40091833136216,
+    "Norway (Land)": 173.04947833628077
+  },
+  {
+    "DateTime": "Week 10, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 162.55175983436854,
+    "Oslo (Kommune)": 156.39521354562748,
+    "Norway (Land)": 176.99763973450084
+  },
+  {
+    "DateTime": "Week 11, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 176.73395445134577,
+    "Oslo (Kommune)": 166.9644206571779,
+    "Norway (Land)": 189.95875010081468
+  },
+  {
+    "DateTime": "Week 12, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 172.6061076604555,
+    "Oslo (Kommune)": 163.8537770815391,
+    "Norway (Land)": 182.1318447833005
+  },
+  {
+    "DateTime": "Week 13, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 168.95703933747413,
+    "Oslo (Kommune)": 165.93261731635172,
+    "Norway (Land)": 186.38019805435218
+  },
+  {
+    "DateTime": "Week 14, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 161.5812629399586,
+    "Oslo (Kommune)": 158.45642124253015,
+    "Norway (Land)": 193.77573222621444
+  },
+  {
+    "DateTime": "Week 15, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 127.71739130434783,
+    "Oslo (Kommune)": 114.4859095630729,
+    "Norway (Land)": 175.4338681452465
+  },
+  {
+    "DateTime": "Week 16, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 200.09057971014494,
+    "Oslo (Kommune)": 160.55277406601527,
+    "Norway (Land)": 185.14268327487417
+  },
+  {
+    "DateTime": "Week 17, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 189.5186335403727,
+    "Oslo (Kommune)": 175.31984464174758,
+    "Norway (Land)": 199.72760004422494
+  },
+  {
+    "DateTime": "Week 18, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 188.89751552795033,
+    "Oslo (Kommune)": 170.1379176332576,
+    "Norway (Land)": 193.51244787680258
+  },
+  {
+    "DateTime": "Week 19, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 191.69254658385094,
+    "Oslo (Kommune)": 183.9402364919166,
+    "Norway (Land)": 218.31900384938527
+  },
+  {
+    "DateTime": "Week 20, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 183.85093167701865,
+    "Oslo (Kommune)": 170.39137037205853,
+    "Norway (Land)": 196.10487647552202
+  },
+  {
+    "DateTime": "Week 21, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 172.02380952380955,
+    "Oslo (Kommune)": 156.80064196831898,
+    "Norway (Land)": 192.38492570691795
+  },
+  {
+    "DateTime": "Week 22, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 189.58333333333331,
+    "Oslo (Kommune)": 166.8414726887581,
+    "Norway (Land)": 204.41773975335516
+  },
+  {
+    "DateTime": "Week 23, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 177.88561076604555,
+    "Oslo (Kommune)": 162.2384207003596,
+    "Norway (Land)": 192.8340651634106
+  },
+  {
+    "DateTime": "Week 24, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 209.82142857142856,
+    "Oslo (Kommune)": 188.97870421237732,
+    "Norway (Land)": 222.91430208371725
+  },
+  {
+    "DateTime": "Week 25, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 196.42857142857144,
+    "Oslo (Kommune)": 186.59663230520843,
+    "Norway (Land)": 226.8465289747204
+  },
+  {
+    "DateTime": "Week 26, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 193.27122153209112,
+    "Oslo (Kommune)": 174.44541470049876,
+    "Norway (Land)": 217.2587626881852
+  },
+  {
+    "DateTime": "Week 27, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 165.46325051759837,
+    "Oslo (Kommune)": 145.78138531773354,
+    "Norway (Land)": 204.53830789064335
+  },
+  {
+    "DateTime": "Week 28, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 158.64389233954452,
+    "Oslo (Kommune)": 130.75378499818876,
+    "Norway (Land)": 200.00603552843188
+  },
+  {
+    "DateTime": "Week 29, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 156.18530020703935,
+    "Oslo (Kommune)": 127.84993390797015,
+    "Norway (Land)": 194.4402278830375
+  },
+  {
+    "DateTime": "Week 30, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 158.38509316770185,
+    "Oslo (Kommune)": 130.84350702782584,
+    "Norway (Land)": 187.3751522457596
+  },
+  {
+    "DateTime": "Week 31, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 172.2826086956522,
+    "Oslo (Kommune)": 148.9849895524214,
+    "Norway (Land)": 187.58874585814087
+  },
+  {
+    "DateTime": "Week 32, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 188.6516563146998,
+    "Oslo (Kommune)": 157.80989485249842,
+    "Norway (Land)": 193.51885728752669
+  },
+  {
+    "DateTime": "Week 33, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 184.08385093167703,
+    "Oslo (Kommune)": 167.3005184206044,
+    "Norway (Land)": 199.04238062606055
+  },
+  {
+    "DateTime": "Week 34, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 175.68581780538304,
+    "Oslo (Kommune)": 164.12774113994956,
+    "Norway (Land)": 188.76250480483253
+  },
+  {
+    "DateTime": "Week 35, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 165.21739130434784,
+    "Oslo (Kommune)": 159.0357760595716,
+    "Norway (Land)": 183.85314544501875
+  },
+  {
+    "DateTime": "Week 36, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 152.0315734989648,
+    "Oslo (Kommune)": 154.46930858860532,
+    "Norway (Land)": 178.36599551234426
+  },
+  {
+    "DateTime": "Week 37, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 161.95652173913044,
+    "Oslo (Kommune)": 157.52225658101491,
+    "Norway (Land)": 184.8803781409896
+  },
+  {
+    "DateTime": "Week 38, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 160.22256728778467,
+    "Oslo (Kommune)": 160.7542887849862,
+    "Norway (Land)": 189.28353648494743
+  },
+  {
+    "DateTime": "Week 39, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 143.25828157349895,
+    "Oslo (Kommune)": 154.98545015749335,
+    "Norway (Land)": 180.57419774207145
+  },
+  {
+    "DateTime": "Week 40, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 140.50207039337474,
+    "Oslo (Kommune)": 142.26255448694113,
+    "Norway (Land)": 172.6009976247792
+  },
+  {
+    "DateTime": "Week 41, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 161.68478260869566,
+    "Oslo (Kommune)": 162.0656937983845,
+    "Norway (Land)": 184.8906688059855
+  },
+  {
+    "DateTime": "Week 42, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 154.6454451345756,
+    "Oslo (Kommune)": 163.4190810449018,
+    "Norway (Land)": 190.68488292410134
+  },
+  {
+    "DateTime": "Week 43, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 157.7251552795031,
+    "Oslo (Kommune)": 159.19218986524902,
+    "Norway (Land)": 182.3493196499536
+  },
+  {
+    "DateTime": "Week 44, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 143.49120082815736,
+    "Oslo (Kommune)": 153.2867290562634,
+    "Norway (Land)": 175.250487782862
+  },
+  {
+    "DateTime": "Week 45, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 149.39182194616978,
+    "Oslo (Kommune)": 157.51829825617799,
+    "Norway (Land)": 183.9223136690832
+  },
+  {
+    "DateTime": "Week 46, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 163.2893374741201,
+    "Oslo (Kommune)": 170.8408201649062,
+    "Norway (Land)": 197.92822919910319
+  },
+  {
+    "DateTime": "Week 47, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 158.10041407867493,
+    "Oslo (Kommune)": 184.97491861444234,
+    "Norway (Land)": 218.71403719701513
+  },
+  {
+    "DateTime": "Week 48, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 154.82660455486544,
+    "Oslo (Kommune)": 176.29299280544473,
+    "Norway (Land)": 198.97638149952078
+  },
+  {
+    "DateTime": "Week 49, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 161.49068322981367,
+    "Oslo (Kommune)": 181.85120057191796,
+    "Norway (Land)": 211.1511639934973
+  },
+  {
+    "DateTime": "Week 50, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 180.15010351966876,
+    "Oslo (Kommune)": 209.96022483285074,
+    "Norway (Land)": 253.52595036872808
+  },
+  {
+    "DateTime": "Week 51, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 135.88250517598343,
+    "Oslo (Kommune)": 200.1393810139549,
+    "Norway (Land)": 260.2237845754326
+  },
+  {
+    "DateTime": "Week 52, 2022",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 84.84730848861285,
+    "Oslo (Kommune)": 105.6117051263905,
+    "Norway (Land)": 133.3178973358394
+  },
+  {
+    "DateTime": "Week 1, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 115.24327122153211,
+    "Oslo (Kommune)": 125.7282717953762,
+    "Norway (Land)": 141.45069178016217
+  },
+  {
+    "DateTime": "Week 2, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 144.8498964803313,
+    "Oslo (Kommune)": 150.19047938912252,
+    "Norway (Land)": 165.17286447781728
+  },
+  {
+    "DateTime": "Week 3, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 140.90320910973085,
+    "Oslo (Kommune)": 150.17512588672471,
+    "Norway (Land)": 168.0800663587657
+  },
+  {
+    "DateTime": "Week 4, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 152.44565217391306,
+    "Oslo (Kommune)": 154.4839423955782,
+    "Norway (Land)": 170.75555023811853
+  },
+  {
+    "DateTime": "Week 5, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 138.8845755693582,
+    "Oslo (Kommune)": 149.34363777249467,
+    "Norway (Land)": 166.33816656313687
+  },
+  {
+    "DateTime": "Week 6, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 143.68530020703935,
+    "Oslo (Kommune)": 149.44223604570544,
+    "Norway (Land)": 170.1310065748091
+  },
+  {
+    "DateTime": "Week 7, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 156.53467908902692,
+    "Oslo (Kommune)": 153.67140626087038,
+    "Norway (Land)": 173.8019965670484
+  },
+  {
+    "DateTime": "Week 8, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 148.1237060041408,
+    "Oslo (Kommune)": 141.27225358228398,
+    "Norway (Land)": 169.76495800678723
+  },
+  {
+    "DateTime": "Week 9, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 158.5144927536232,
+    "Oslo (Kommune)": 155.0385876696982,
+    "Norway (Land)": 169.5223083991233
+  },
+  {
+    "DateTime": "Week 10, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 137.3835403726708,
+    "Oslo (Kommune)": 148.2447828079157,
+    "Norway (Land)": 169.18024170956073
+  },
+  {
+    "DateTime": "Week 11, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 133.13923395445136,
+    "Oslo (Kommune)": 149.20293731692746,
+    "Norway (Land)": 173.55455770526004
+  },
+  {
+    "DateTime": "Week 12, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 142.9218426501035,
+    "Oslo (Kommune)": 155.7857514699779,
+    "Norway (Land)": 181.75297739383032
+  },
+  {
+    "DateTime": "Week 13, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 148.18840579710147,
+    "Oslo (Kommune)": 153.89475174106317,
+    "Norway (Land)": 190.09192341252694
+  },
+  {
+    "DateTime": "Week 14, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 112.33178053830227,
+    "Oslo (Kommune)": 103.40823763383335,
+    "Norway (Land)": 155.7570306339566
+  },
+  {
+    "DateTime": "Week 15, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 138.4187370600414,
+    "Oslo (Kommune)": 144.55826294312246,
+    "Norway (Land)": 169.6267283821704
+  },
+  {
+    "DateTime": "Week 16, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 189.6868530020704,
+    "Oslo (Kommune)": 174.04442439959408,
+    "Norway (Land)": 203.3754093343453
+  },
+  {
+    "DateTime": "Week 17, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 162.26708074534162,
+    "Oslo (Kommune)": 168.14520095095756,
+    "Norway (Land)": 199.97138910268427
+  },
+  {
+    "DateTime": "Week 18, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 151.24223602484471,
+    "Oslo (Kommune)": 150.672435425328,
+    "Norway (Land)": 176.60059454406033
+  },
+  {
+    "DateTime": "Week 19, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 182.0781573498965,
+    "Oslo (Kommune)": 173.47634481087604,
+    "Norway (Land)": 209.93982097447613
+  },
+  {
+    "DateTime": "Week 20, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 178.75258799171843,
+    "Oslo (Kommune)": 162.57895658557297,
+    "Norway (Land)": 202.3035956260045
+  },
+  {
+    "DateTime": "Week 21, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 170.10869565217394,
+    "Oslo (Kommune)": 167.67727897553755,
+    "Norway (Land)": 207.67530494997013
+  },
+  {
+    "DateTime": "Week 22, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 176.56573498964804,
+    "Oslo (Kommune)": 158.04523525643947,
+    "Norway (Land)": 183.25546789499464
+  },
+  {
+    "DateTime": "Week 23, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 172.7225672877847,
+    "Oslo (Kommune)": 171.17247980654585,
+    "Norway (Land)": 202.87316078843585
+  },
+  {
+    "DateTime": "Week 24, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 195.48395445134574,
+    "Oslo (Kommune)": 184.807829326629,
+    "Norway (Land)": 226.07759553093155
+  },
+  {
+    "DateTime": "Week 25, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 185.3778467908903,
+    "Oslo (Kommune)": 184.44870130960575,
+    "Norway (Land)": 229.6891560426233
+  },
+  {
+    "DateTime": "Week 26, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 198.0590062111801,
+    "Oslo (Kommune)": 174.89762332580852,
+    "Norway (Land)": 212.0975134869135
+  },
+  {
+    "DateTime": "Week 27, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 159.6273291925466,
+    "Oslo (Kommune)": 144.33227857970508,
+    "Norway (Land)": 201.7430570503429
+  },
+  {
+    "DateTime": "Week 28, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 144.09937888198758,
+    "Oslo (Kommune)": 127.97743994741427,
+    "Norway (Land)": 196.72286829675787
+  },
+  {
+    "DateTime": "Week 29, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 151.88923395445136,
+    "Oslo (Kommune)": 122.70651060471207,
+    "Norway (Land)": 194.00657783579481
+  },
+  {
+    "DateTime": "Week 30, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 148.25310559006212,
+    "Oslo (Kommune)": 124.7099027691481,
+    "Norway (Land)": 185.15039237166178
+  },
+  {
+    "DateTime": "Week 31, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 159.48498964803312,
+    "Oslo (Kommune)": 144.4476697461634,
+    "Norway (Land)": 187.1798788656981
+  },
+  {
+    "DateTime": "Week 32, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 165.73498964803312,
+    "Oslo (Kommune)": 147.41737296776006,
+    "Norway (Land)": 186.46400109957003
+  },
+  {
+    "DateTime": "Week 33, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 171.86853002070396,
+    "Oslo (Kommune)": 163.33139815230194,
+    "Norway (Land)": 200.8133720248094
+  },
+  {
+    "DateTime": "Week 34, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 158.52743271221533,
+    "Oslo (Kommune)": 156.02624969113072,
+    "Norway (Land)": 187.58470436860094
+  },
+  {
+    "DateTime": "Week 35, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 167.58540372670808,
+    "Oslo (Kommune)": 156.43107836763483,
+    "Norway (Land)": 182.59172000275606
+  },
+  {
+    "DateTime": "Week 36, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 165.74792960662526,
+    "Oslo (Kommune)": 150.58871085756508,
+    "Norway (Land)": 175.36642690129383
+  },
+  {
+    "DateTime": "Week 37, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 170.48395445134577,
+    "Oslo (Kommune)": 154.5186077252107,
+    "Norway (Land)": 183.54990910209318
+  },
+  {
+    "DateTime": "Week 38, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 159.36853002070396,
+    "Oslo (Kommune)": 156.50136862079967,
+    "Norway (Land)": 187.1202001302891
+  },
+  {
+    "DateTime": "Week 39, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 159.53674948240166,
+    "Oslo (Kommune)": 154.33664473194943,
+    "Norway (Land)": 181.06220315303838
+  },
+  {
+    "DateTime": "Week 40, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 148.83540372670808,
+    "Oslo (Kommune)": 141.46681124548087,
+    "Norway (Land)": 175.81440910307242
+  },
+  {
+    "DateTime": "Week 41, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 161.45186335403727,
+    "Oslo (Kommune)": 160.0084444263188,
+    "Norway (Land)": 185.25187470812702
+  },
+  {
+    "DateTime": "Week 42, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 148.49896480331265,
+    "Oslo (Kommune)": 160.53885995446728,
+    "Norway (Land)": 190.757469500552
+  },
+  {
+    "DateTime": "Week 43, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 148.5766045548654,
+    "Oslo (Kommune)": 158.44322682640708,
+    "Norway (Land)": 184.4015773559792
+  },
+  {
+    "DateTime": "Week 44, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 132.18167701863354,
+    "Oslo (Kommune)": 152.02294389014568,
+    "Norway (Land)": 179.24011450768336
+  },
+  {
+    "DateTime": "Week 45, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 141.29140786749483,
+    "Oslo (Kommune)": 153.34982235517927,
+    "Norway (Land)": 182.99747130943015
+  },
+  {
+    "DateTime": "Week 46, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 144.66873706004142,
+    "Oslo (Kommune)": 163.38069728890733,
+    "Norway (Land)": 194.1632345162435
+  },
+  {
+    "DateTime": "Week 47, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 144.60403726708074,
+    "Oslo (Kommune)": 179.00396552179117,
+    "Norway (Land)": 216.0119898709946
+  },
+  {
+    "DateTime": "Week 48, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 136.25776397515529,
+    "Oslo (Kommune)": 169.5298949484578,
+    "Norway (Land)": 198.66794641234128
+  },
+  {
+    "DateTime": "Week 49, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 133.9932712215321,
+    "Oslo (Kommune)": 170.4789333154209,
+    "Norway (Land)": 199.4933182783397
+  },
+  {
+    "DateTime": "Week 50, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 162.09886128364388,
+    "Oslo (Kommune)": 209.07727849574061,
+    "Norway (Land)": 255.82381313291816
+  },
+  {
+    "DateTime": "Week 51, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 146.5320910973085,
+    "Oslo (Kommune)": 219.490431649326,
+    "Norway (Land)": 286.41641122494343
+  },
+  {
+    "DateTime": "Week 52, 2023",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 66.12318840579711,
+    "Oslo (Kommune)": 97.43332621634524,
+    "Norway (Land)": 128.3112573643684
+  },
+  {
+    "DateTime": "Week 1, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 86.86594202898551,
+    "Oslo (Kommune)": 112.5073468907958,
+    "Norway (Land)": 130.19259745108417
+  },
+  {
+    "DateTime": "Week 2, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 118.53002070393374,
+    "Oslo (Kommune)": 140.97957744282618,
+    "Norway (Land)": 161.56812286697925
+  },
+  {
+    "DateTime": "Week 3, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 113.09523809523809,
+    "Oslo (Kommune)": 141.83889378015223,
+    "Norway (Land)": 164.60071774717758
+  },
+  {
+    "DateTime": "Week 4, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 123.47308488612836,
+    "Oslo (Kommune)": 142.30069834446059,
+    "Norway (Land)": 162.02171330314147
+  },
+  {
+    "DateTime": "Week 5, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 126.75983436853002,
+    "Oslo (Kommune)": 144.04200142499693,
+    "Norway (Land)": 160.53029683939494
+  },
+  {
+    "DateTime": "Week 6, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 118.16770186335404,
+    "Oslo (Kommune)": 141.68283982218725,
+    "Norway (Land)": 162.98572428388636
+  },
+  {
+    "DateTime": "Week 7, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 123.48602484472049,
+    "Oslo (Kommune)": 141.80542794289457,
+    "Norway (Land)": 167.9598008880951
+  },
+  {
+    "DateTime": "Week 8, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 132.16873706004142,
+    "Oslo (Kommune)": 140.1266184150867,
+    "Norway (Land)": 174.43405348403996
+  },
+  {
+    "DateTime": "Week 9, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 133.69565217391306,
+    "Oslo (Kommune)": 148.95536209076317,
+    "Norway (Land)": 168.96431578383266
+  },
+  {
+    "DateTime": "Week 10, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 137.55175983436854,
+    "Oslo (Kommune)": 145.6961014098833,
+    "Norway (Land)": 165.40525902832266
+  },
+  {
+    "DateTime": "Week 11, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 131.01708074534162,
+    "Oslo (Kommune)": 146.45358084458655,
+    "Norway (Land)": 177.03876678664727
+  },
+  {
+    "DateTime": "Week 12, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 139.40217391304347,
+    "Oslo (Kommune)": 156.0610349700007,
+    "Norway (Land)": 198.20347778186672
+  },
+  {
+    "DateTime": "Week 13, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 94.77225672877847,
+    "Oslo (Kommune)": 104.59801412042424,
+    "Norway (Land)": 157.0399988178198
+  },
+  {
+    "DateTime": "Week 14, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 126.46221532091097,
+    "Oslo (Kommune)": 131.93420544425598,
+    "Norway (Land)": 152.76189519865702
+  },
+  {
+    "DateTime": "Week 15, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 162.08592132505174,
+    "Oslo (Kommune)": 155.01423797448922,
+    "Norway (Land)": 180.53739704216378
+  },
+  {
+    "DateTime": "Week 16, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 155.64182194616978,
+    "Oslo (Kommune)": 164.2079871798255,
+    "Norway (Land)": 197.61603748508253
+  },
+  {
+    "DateTime": "Week 17, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 140.23033126293996,
+    "Oslo (Kommune)": 159.13305489117008,
+    "Norway (Land)": 191.28175929778496
+  },
+  {
+    "DateTime": "Week 18, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 164.6609730848861,
+    "Oslo (Kommune)": 158.04163677931498,
+    "Norway (Land)": 193.21962682630374
+  },
+  {
+    "DateTime": "Week 19, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 140.1268115942029,
+    "Oslo (Kommune)": 151.8190301864251,
+    "Norway (Land)": 197.03753475547475
+  },
+  {
+    "DateTime": "Week 20, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 151.09989648033127,
+    "Oslo (Kommune)": 176.27200168888527,
+    "Norway (Land)": 223.18061309930442
+  },
+  {
+    "DateTime": "Week 21, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 144.88871635610764,
+    "Oslo (Kommune)": 152.23405454811524,
+    "Norway (Land)": 188.32947789474358
+  },
+  {
+    "DateTime": "Week 22, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 149.76708074534162,
+    "Oslo (Kommune)": 161.73271471513254,
+    "Norway (Land)": 197.08131459150422
+  },
+  {
+    "DateTime": "Week 23, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 127.19979296066253,
+    "Oslo (Kommune)": 154.2468027530749,
+    "Norway (Land)": 185.85003296395544
+  },
+  {
+    "DateTime": "Week 24, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 158.73447204968946,
+    "Oslo (Kommune)": 169.41570327437427,
+    "Norway (Land)": 206.8766389619888
+  },
+  {
+    "DateTime": "Week 25, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 153.67494824016563,
+    "Oslo (Kommune)": 169.09891733818245,
+    "Norway (Land)": 216.24728646024445
+  },
+  {
+    "DateTime": "Week 26, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 171.72619047619048,
+    "Oslo (Kommune)": 166.96597999726515,
+    "Norway (Land)": 211.1484934056956
+  },
+  {
+    "DateTime": "Week 27, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 128.59730848861284,
+    "Oslo (Kommune)": 141.54261916356995,
+    "Norway (Land)": 195.91029744828896
+  },
+  {
+    "DateTime": "Week 28, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 119.39699792960663,
+    "Oslo (Kommune)": 121.10482843660562,
+    "Norway (Land)": 188.61669071085885
+  },
+  {
+    "DateTime": "Week 29, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 116.26552795031056,
+    "Oslo (Kommune)": 117.44709638880826,
+    "Norway (Land)": 191.32107035022622
+  },
+  {
+    "DateTime": "Week 30, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 118.46532091097308,
+    "Oslo (Kommune)": 117.14170563017731,
+    "Norway (Land)": 182.85171062721247
+  },
+  {
+    "DateTime": "Week 31, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 136.94358178053832,
+    "Oslo (Kommune)": 132.92618563823788,
+    "Norway (Land)": 180.9244186263885
+  },
+  {
+    "DateTime": "Week 32, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 135.93426501035196,
+    "Oslo (Kommune)": 140.3908665852611,
+    "Norway (Land)": 182.74387229177918
+  },
+  {
+    "DateTime": "Week 33, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 140.65734989648033,
+    "Oslo (Kommune)": 151.5994031325943,
+    "Norway (Land)": 190.9579416248675
+  },
+  {
+    "DateTime": "Week 34, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 132.20755693581782,
+    "Oslo (Kommune)": 153.93097641078296,
+    "Norway (Land)": 190.19677068962233
+  },
+  {
+    "DateTime": "Week 35, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 146.81677018633542,
+    "Oslo (Kommune)": 150.4802767468807,
+    "Norway (Land)": 177.70776683489592
+  },
+  {
+    "DateTime": "Week 36, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 125.1164596273292,
+    "Oslo (Kommune)": 141.99638712896703,
+    "Norway (Land)": 167.85546992464134
+  },
+  {
+    "DateTime": "Week 37, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 131.0947204968944,
+    "Oslo (Kommune)": 147.00738647404415,
+    "Norway (Land)": 178.07983312743102
+  },
+  {
+    "DateTime": "Week 38, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 130.33126293995858,
+    "Oslo (Kommune)": 148.9371298066658,
+    "Norway (Land)": 180.9616822281818
+  },
+  {
+    "DateTime": "Week 39, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 127.89855072463769,
+    "Oslo (Kommune)": 146.50036104720482,
+    "Norway (Land)": 177.8696934752733
+  },
+  {
+    "DateTime": "Week 40, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 123.13664596273293,
+    "Oslo (Kommune)": 140.1483292270711,
+    "Norway (Land)": 176.09019180339632
+  },
+  {
+    "DateTime": "Week 41, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 121.22153209109732,
+    "Oslo (Kommune)": 147.12733571152688,
+    "Norway (Land)": 175.7643978955056
+  },
+  {
+    "DateTime": "Week 42, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 127.21273291925466,
+    "Oslo (Kommune)": 155.1201531511864,
+    "Norway (Land)": 188.0024555164641
+  },
+  {
+    "DateTime": "Week 43, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 126.90217391304348,
+    "Oslo (Kommune)": 150.2925561902203,
+    "Norway (Land)": 176.32714415708327
+  },
+  {
+    "DateTime": "Week 44, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 122.0108695652174,
+    "Oslo (Kommune)": 150.8144553225075,
+    "Norway (Land)": 175.82341788592353
+  },
+  {
+    "DateTime": "Week 45, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 109.96376811594202,
+    "Oslo (Kommune)": 145.94187739748537,
+    "Norway (Land)": 172.05781786982877
+  },
+  {
+    "DateTime": "Week 46, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 119.29347826086956,
+    "Oslo (Kommune)": 152.37715398843207,
+    "Norway (Land)": 181.07988244428577
+  },
+  {
+    "DateTime": "Week 47, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 116.43374741200827,
+    "Oslo (Kommune)": 162.47220176421337,
+    "Norway (Land)": 200.16032428769637
+  },
+  {
+    "DateTime": "Week 48, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 125.4787784679089,
+    "Oslo (Kommune)": 176.50494310807667,
+    "Norway (Land)": 217.0362315086275
+  },
+  {
+    "DateTime": "Week 49, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 115.78674948240166,
+    "Oslo (Kommune)": 164.70493687071632,
+    "Norway (Land)": 196.7166547291392
+  },
+  {
+    "DateTime": "Week 50, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 145.703933747412,
+    "Oslo (Kommune)": 193.8906254872938,
+    "Norway (Land)": 238.4523872473379
+  },
+  {
+    "DateTime": "Week 51, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 154.34782608695653,
+    "Oslo (Kommune)": 226.6973416849989,
+    "Norway (Land)": 292.57873916564785
+  },
+  {
+    "DateTime": "Week 52, 2024",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 58.967391304347835,
+    "Oslo (Kommune)": 93.49515285131332,
+    "Norway (Land)": 130.95036783786185
+  },
+  {
+    "DateTime": "Week 1, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 79.51604554865425,
+    "Oslo (Kommune)": 114.54024656765256,
+    "Norway (Land)": 137.2032465089631
+  },
+  {
+    "DateTime": "Week 2, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 93.46532091097308,
+    "Oslo (Kommune)": 130.89208646900633,
+    "Norway (Land)": 156.53992234998907
+  },
+  {
+    "DateTime": "Week 3, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 112.31884057971016,
+    "Oslo (Kommune)": 143.07497067241144,
+    "Norway (Land)": 166.7037166214358
+  },
+  {
+    "DateTime": "Week 4, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 110.09316770186335,
+    "Oslo (Kommune)": 141.64805454331727,
+    "Norway (Land)": 163.95080349975188
+  },
+  {
+    "DateTime": "Week 5, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 112.78467908902692,
+    "Oslo (Kommune)": 142.7547062083326,
+    "Norway (Land)": 163.54389493836374
+  },
+  {
+    "DateTime": "Week 6, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 112.74585921325051,
+    "Oslo (Kommune)": 139.78332369741125,
+    "Norway (Land)": 162.81669387995638
+  },
+  {
+    "DateTime": "Week 7, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 114.54451345755695,
+    "Oslo (Kommune)": 145.2323776577752,
+    "Norway (Land)": 170.84043932237577
+  },
+  {
+    "DateTime": "Week 8, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 110.54606625258798,
+    "Oslo (Kommune)": 134.16466151524673,
+    "Norway (Land)": 170.40694951040112
+  },
+  {
+    "DateTime": "Week 9, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 116.01966873706004,
+    "Oslo (Kommune)": 146.74769637489413,
+    "Norway (Land)": 168.34208662995144
+  },
+  {
+    "DateTime": "Week 10, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 115.04917184265011,
+    "Oslo (Kommune)": 138.78726522935492,
+    "Norway (Land)": 161.13806921130956
+  },
+  {
+    "DateTime": "Week 11, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 123.03312629399585,
+    "Oslo (Kommune)": 146.43426901735182,
+    "Norway (Land)": 173.38490416417636
+  },
+  {
+    "DateTime": "Week 12, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 129.54192546583852,
+    "Oslo (Kommune)": 151.63646744697644,
+    "Norway (Land)": 181.48533108434233
+  },
+  {
+    "DateTime": "Week 13, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 123.40838509316771,
+    "Oslo (Kommune)": 152.79481723334683,
+    "Norway (Land)": 177.17913288150547
+  },
+  {
+    "DateTime": "Week 14, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 134.9120082815735,
+    "Oslo (Kommune)": 152.56955256535434,
+    "Norway (Land)": 182.43522355757548
+  },
+  {
+    "DateTime": "Week 15, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 129.2184265010352,
+    "Oslo (Kommune)": 152.52229256578616,
+    "Norway (Land)": 197.4873329569585
+  },
+  {
+    "DateTime": "Week 16, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 98.43426501035198,
+    "Oslo (Kommune)": 114.5989017447816,
+    "Norway (Land)": 176.49069095406037
+  },
+  {
+    "DateTime": "Week 17, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 132.38871635610766,
+    "Oslo (Kommune)": 143.29159899530518,
+    "Norway (Land)": 173.3941443979703
+  },
+  {
+    "DateTime": "Week 18, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 132.11697722567288,
+    "Oslo (Kommune)": 150.82225202294387,
+    "Norway (Land)": 186.9367841600672
+  },
+  {
+    "DateTime": "Week 19, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 136.76242236024848,
+    "Oslo (Kommune)": 158.85165398003565,
+    "Norway (Land)": 194.40223432057843
+  },
+  {
+    "DateTime": "Week 20, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 136.9047619047619,
+    "Oslo (Kommune)": 171.30934188651364,
+    "Norway (Land)": 210.9720031598395
+  },
+  {
+    "DateTime": "Week 21, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 132.98395445134574,
+    "Oslo (Kommune)": 160.52434609673185,
+    "Norway (Land)": 199.00737812193938
+  },
+  {
+    "DateTime": "Week 22, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 132.11697722567288,
+    "Oslo (Kommune)": 144.4623035531363,
+    "Norway (Land)": 185.88337970363952
+  },
+  {
+    "DateTime": "Week 23, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 121.60973084886129,
+    "Oslo (Kommune)": 153.61562986544095,
+    "Norway (Land)": 194.08892095968108
+  },
+  {
+    "DateTime": "Week 24, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 145.0698757763975,
+    "Oslo (Kommune)": 158.2592246961086,
+    "Norway (Land)": 192.7562976466246
+  },
+  {
+    "DateTime": "Week 25, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 143.85351966873708,
+    "Oslo (Kommune)": 174.36300957434813,
+    "Norway (Land)": 216.06623841120677
+  },
+  {
+    "DateTime": "Week 26, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 144.39699792960664,
+    "Oslo (Kommune)": 168.50924688671753,
+    "Norway (Land)": 210.1360023543902
+  },
+  {
+    "DateTime": "Week 27, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 129.2184265010352,
+    "Oslo (Kommune)": 148.13670854494376,
+    "Norway (Land)": 201.66192459292677
+  },
+  {
+    "DateTime": "Week 28, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 110.9860248447205,
+    "Oslo (Kommune)": 123.06719796182254,
+    "Norway (Land)": 194.75014069546737
+  },
+  {
+    "DateTime": "Week 29, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 101.96687370600415,
+    "Oslo (Kommune)": 119.50050738527456,
+    "Norway (Land)": 197.80098459231073
+  },
+  {
+    "DateTime": "Week 30, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 111.40010351966873,
+    "Oslo (Kommune)": 120.22032275940822,
+    "Norway (Land)": 187.35546111170163
+  },
+  {
+    "DateTime": "Week 31, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 122.6966873706004,
+    "Oslo (Kommune)": 133.23133649839386,
+    "Norway (Land)": 184.61867834034007
+  },
+  {
+    "DateTime": "Week 32, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 134.17443064182194,
+    "Oslo (Kommune)": 143.95527812629695,
+    "Norway (Land)": 182.85343760732425
+  },
+  {
+    "DateTime": "Week 33, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 130.68064182194618,
+    "Oslo (Kommune)": 152.63948297080677,
+    "Norway (Land)": 192.4972684337768
+  },
+  {
+    "DateTime": "Week 34, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 128.23498964803312,
+    "Oslo (Kommune)": 154.6503119879667,
+    "Norway (Land)": 192.64306472383186
+  },
+  {
+    "DateTime": "Week 35, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 115.63146997929607,
+    "Oslo (Kommune)": 150.3430548192005,
+    "Norway (Land)": 182.5589073806323
+  },
+  {
+    "DateTime": "Week 36, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 112.92701863354037,
+    "Oslo (Kommune)": 144.50572517710503,
+    "Norway (Land)": 173.24257963826352
+  },
+  {
+    "DateTime": "Week 37, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 107.18167701863355,
+    "Oslo (Kommune)": 141.76800378079997,
+    "Norway (Land)": 173.6139871858076
+  },
+  {
+    "DateTime": "Week 38, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 120.48395445134577,
+    "Oslo (Kommune)": 150.0476198472806,
+    "Norway (Land)": 183.35340725164292
+  },
+  {
+    "DateTime": "Week 39, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 116.21376811594205,
+    "Oslo (Kommune)": 147.30498053223874,
+    "Norway (Land)": 178.2387687094705
+  },
+  {
+    "DateTime": "Week 40, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 104.01138716356108,
+    "Oslo (Kommune)": 136.8012657043539,
+    "Norway (Land)": 174.1785316431717
+  },
+  {
+    "DateTime": "Week 41, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 119.7075569358178,
+    "Oslo (Kommune)": 148.89694681210912,
+    "Norway (Land)": 176.6213361093203
+  },
+  {
+    "DateTime": "Week 42, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 117.9865424430642,
+    "Oslo (Kommune)": 156.19441852208143,
+    "Norway (Land)": 186.01438093727305
+  },
+  {
+    "DateTime": "Week 43, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 106.65113871635612,
+    "Oslo (Kommune)": 151.8631715058187,
+    "Norway (Land)": 183.8066416094315
+  },
+  {
+    "DateTime": "Week 44, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 110.8307453416149,
+    "Oslo (Kommune)": 151.88536211475304,
+    "Norway (Land)": 179.67360431965795
+  },
+  {
+    "DateTime": "Week 45, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 104.32194616977226,
+    "Oslo (Kommune)": 147.14736723418648,
+    "Norway (Land)": 172.9449515297216
+  },
+  {
+    "DateTime": "Week 46, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 117.41718426501035,
+    "Oslo (Kommune)": 153.76676590466914,
+    "Norway (Land)": 184.8419216766449
+  },
+  {
+    "DateTime": "Week 47, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 116.82194616977226,
+    "Oslo (Kommune)": 164.48015199967375,
+    "Norway (Land)": 200.1723775406415
+  },
+  {
+    "DateTime": "Week 48, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 115.48913043478262,
+    "Oslo (Kommune)": 175.5990864666073,
+    "Norway (Land)": 217.54738201387602
+  },
+  {
+    "DateTime": "Week 49, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 109.14855072463769,
+    "Oslo (Kommune)": 160.8512077688722,
+    "Norway (Land)": 185.83676904454023
+  },
+  {
+    "DateTime": "Week 50, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 124.40476190476193,
+    "Oslo (Kommune)": 181.9853038194236,
+    "Norway (Land)": 215.01797928727711
+  },
+  {
+    "DateTime": "Week 51, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 149.76708074534162,
+    "Oslo (Kommune)": 215.57049056839145,
+    "Norway (Land)": 262.4684314266939
+  },
+  {
+    "DateTime": "Week 52, 2025",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 62.551759834368525,
+    "Oslo (Kommune)": 112.64252968143882,
+    "Norway (Land)": 157.8598692729467
+  },
+  {
+    "DateTime": "Week 1, 2026",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 70.9368530020704,
+    "Oslo (Kommune)": 115.85740914445006,
+    "Norway (Land)": 141.79368427349596
+  },
+  {
+    "DateTime": "Week 2, 2026",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 90.2432712215321,
+    "Oslo (Kommune)": 138.53537183064125,
+    "Norway (Land)": 158.62666624649418
+  },
+  {
+    "DateTime": "Week 3, 2026",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 95.39337474120083,
+    "Oslo (Kommune)": 137.8023620403845,
+    "Norway (Land)": 160.82397247799037
+  },
+  {
+    "DateTime": "Week 4, 2026",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 103.28674948240166,
+    "Oslo (Kommune)": 147.59009986973513,
+    "Norway (Land)": 171.54075646357916
+  },
+  {
+    "DateTime": "Week 5, 2026",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 100.03881987577641,
+    "Oslo (Kommune)": 144.7354279668844,
+    "Norway (Land)": 164.9400960450197
+  },
+  {
+    "DateTime": "Week 6, 2026",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 94.39699792960663,
+    "Oslo (Kommune)": 138.8881425380779,
+    "Norway (Land)": 160.67970732494163
+  },
+  {
+    "DateTime": "Week 7, 2026",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 100.73757763975155,
+    "Oslo (Kommune)": 141.41799190582546,
+    "Norway (Land)": 167.1261323959926
+  },
+  {
+    "DateTime": "Week 8, 2026",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 102.54917184265011,
+    "Oslo (Kommune)": 129.65325074428503,
+    "Norway (Land)": 164.00631611819023
+  },
+  {
+    "DateTime": "Week 9, 2026",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 106.31469979296067,
+    "Oslo (Kommune)": 141.9901497686179,
+    "Norway (Land)": 169.31736749121956
+  },
+  {
+    "DateTime": "Week 10, 2026",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 106.84523809523809,
+    "Oslo (Kommune)": 139.31876030064078,
+    "Norway (Land)": 164.18622471643255
+  },
+  {
+    "DateTime": "Week 11, 2026",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 104.52898550724636,
+    "Oslo (Kommune)": 141.32035322651453,
+    "Norway (Land)": 172.15301542300062
+  },
+  {
+    "DateTime": "Week 12, 2026",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 121.22153209109732,
+    "Oslo (Kommune)": 148.8624014317141,
+    "Norway (Land)": 181.82296459815396
+  },
+  {
+    "DateTime": "Week 13, 2026",
+    "Birkelunden / Olaf Ryes Plass (Urbant område)": 45.36749482401656,
+    "Oslo (Kommune)": 66.97053806828949,
+    "Norway (Land)": 83.74228044341017
   }
 ]

@@ -1,6 +1,6 @@
 {
   "omrade": "Nedre Løkka",
-  "antall": 103,
+  "antall": 91,
   "virksomheter": [
     {
       "navn": "Extra Birkelunden",
@@ -311,25 +311,11 @@
       "ansatte": 19
     },
     {
-      "navn": "Røtter Grünerløkka",
-      "type": "Handel / Mat og drikke",
-      "omsetning": 6,
-      "adresse": "Thorvald Meyers Gate, Nedre",
-      "ansatte": 6
-    },
-    {
       "navn": "O'connors",
       "type": "Mat og opplevelser / Restaurant",
       "omsetning": 5,
       "adresse": "Thorvald Meyers Gate, Nedre",
       "ansatte": 8
-    },
-    {
-      "navn": "Palazzo Pizzeria AS",
-      "type": "Mat og opplevelser / Restaurant",
-      "omsetning": 5,
-      "adresse": "Thorvald Meyers Gate, Nedre",
-      "ansatte": 7
     },
     {
       "navn": "Sirin Restaurant AS",
@@ -367,13 +353,6 @@
       "ansatte": 5
     },
     {
-      "navn": "Ny York Vintage & 2nd Hand",
-      "type": "Handel / Klesbutikker",
-      "omsetning": 2,
-      "adresse": "Thorvald Meyers Gate, Nedre",
-      "ansatte": 8
-    },
-    {
       "navn": "Smash By Ghost Town AS",
       "type": "Mat og opplevelser / Restaurant",
       "omsetning": 2,
@@ -409,13 +388,6 @@
       "ansatte": 2
     },
     {
-      "navn": "Oslo Sy Og Servicesenter Ans",
-      "type": "Handel / Hjem og interiør",
-      "omsetning": 2,
-      "adresse": "Thorvald Meyers Gate, Nedre",
-      "ansatte": 4
-    },
-    {
       "navn": "Ohk Grunerløkka AS",
       "type": "Tjenester / Skjønnhet og velvære",
       "omsetning": 1,
@@ -437,20 +409,6 @@
       "ansatte": 2
     },
     {
-      "navn": "Maanesten AS Avd Grünerløkka",
-      "type": "Handel / Annen handel",
-      "omsetning": 0.89,
-      "adresse": "Thorvald Meyers Gate, Nedre",
-      "ansatte": 0
-    },
-    {
-      "navn": "Smoothie Xchange Thorvald Meyers Gate",
-      "type": "Mat og opplevelser / Barer",
-      "omsetning": 0.84,
-      "adresse": "Thorvald Meyers Gate, Nedre",
-      "ansatte": 10
-    },
-    {
       "navn": "Nilsen Ekata",
       "type": "Handel / Hjem og interiør",
       "omsetning": 0.79,
@@ -468,13 +426,6 @@
       "navn": "Dp Grünerløkka",
       "type": "Mat og opplevelser / Restaurant",
       "omsetning": 0.5,
-      "adresse": "Thorvald Meyers Gate, Nedre",
-      "ansatte": 0
-    },
-    {
-      "navn": "Fogg Gildeskål AS",
-      "type": "Handel / Klesbutikker",
-      "omsetning": 0.45,
       "adresse": "Thorvald Meyers Gate, Nedre",
       "ansatte": 0
     },
@@ -542,20 +493,6 @@
       "ansatte": 3
     },
     {
-      "navn": "Ark Grünerløkka",
-      "type": "Handel / Sport og fritid",
-      "omsetning": 21,
-      "adresse": "THORVALD MEYERS GATE 55",
-      "ansatte": 13
-    },
-    {
-      "navn": "Smæg AS",
-      "type": "Mat og opplevelser / Restaurant",
-      "omsetning": 14,
-      "adresse": "AKERSHUSSTRANDA 25",
-      "ansatte": 13
-    },
-    {
       "navn": "Skaal Matbar AS",
       "type": "Mat og opplevelser / Restaurant",
       "omsetning": 14,
@@ -570,32 +507,11 @@
       "ansatte": 19
     },
     {
-      "navn": "Kaffebrenneriet Thv Meyers Gate",
-      "type": "Mat og opplevelser / Bakeri og kafé",
-      "omsetning": 8,
-      "adresse": "THORVALD MEYERS GATE 55",
-      "ansatte": 10
-    },
-    {
       "navn": "Vila Grünerløkka",
       "type": "Handel / Klesbutikker",
       "omsetning": 6,
       "adresse": "THORVALD MEYERS GATE 42 B",
       "ansatte": 5
-    },
-    {
-      "navn": "Digg Pizza Grunerløkka",
-      "type": "Mat og opplevelser / Restaurant",
-      "omsetning": 4,
-      "adresse": "THORVALD MEYERS GATE 40 A",
-      "ansatte": 0
-    },
-    {
-      "navn": "Floyd Frünerløkka",
-      "type": "Handel / Klesbutikker",
-      "omsetning": 1,
-      "adresse": "THORVALD MEYERS GATE 53",
-      "ansatte": 0
     },
     {
       "navn": "Smoothie Xchange Thorvald Meyers Gate",

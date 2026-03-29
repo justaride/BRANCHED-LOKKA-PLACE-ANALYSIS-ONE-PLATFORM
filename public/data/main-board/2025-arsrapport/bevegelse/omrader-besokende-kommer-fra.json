@@ -1,32 +1,4432 @@
 [
-  { "Område": "Grünerløkka", "Antall besøk": 12678310, "Andel": 12.75 },
-  { "Område": "Sentrum 2", "Antall besøk": 6438419, "Andel": 8.16 },
-  { "Område": "Rodeløkka", "Antall besøk": 6412644, "Andel": 6.06 },
-  { "Område": "Torshov", "Antall besøk": 6405643, "Andel": 6.23 },
-  { "Område": "Gamle Aker", "Antall besøk": 3287829, "Andel": 3.57 },
-  { "Område": "Tøyen", "Antall besøk": 2702300, "Andel": 2.81 },
-  { "Område": "Grønland", "Antall besøk": 2096909, "Andel": 2.49 },
-  { "Område": "Ila", "Antall besøk": 1684105, "Andel": 1.77 },
-  { "Område": "Hasle", "Antall besøk": 1578096, "Andel": 1.7 },
-  { "Område": "Ulven", "Antall besøk": 1434328, "Andel": 1.82 },
-  { "Område": "Grefsenlia", "Antall besøk": 1399696, "Andel": 1.52 },
-  { "Område": "Bjerke", "Antall besøk": 1326592, "Andel": 1.33 },
-  { "Område": "Sinsen", "Antall besøk": 1118208, "Andel": 1.07 },
-  { "Område": "Åsen", "Antall besøk": 1013367, "Andel": 0.97 },
-  { "Område": "St.hanshaugen", "Antall besøk": 968227, "Andel": 1.02 },
-  { "Område": "Manglerud", "Antall besøk": 928492, "Andel": 0.91 },
-  { "Område": "Tåsen", "Antall besøk": 926084, "Andel": 1.04 },
-  { "Område": "Sentrum 1", "Antall besøk": 917284, "Andel": 2.15 },
-  { "Område": "Fossum", "Antall besøk": 863803, "Andel": 0.86 },
-  { "Område": "Grorud", "Antall besøk": 844339, "Andel": 0.86 },
-  { "Område": "Sentrum 3", "Antall besøk": 808633, "Andel": 1.57 },
-  { "Område": "Kampen", "Antall besøk": 774373, "Andel": 0.79 },
-  { "Område": "Østensjø", "Antall besøk": 755524, "Andel": 0.77 },
-  { "Område": "Bjølsen", "Antall besøk": 729183, "Andel": 0.71 },
-  { "Område": "Majorstuen", "Antall besøk": 725504, "Andel": 0.89 },
-  { "Område": "Ris", "Antall besøk": 719574, "Andel": 1.13 },
-  { "Område": "Ulsholt", "Antall besøk": 678459, "Andel": 0.73 },
-  { "Område": "Homansbyen", "Antall besøk": 625232, "Andel": 0.77 },
-  { "Område": "Langerud", "Antall besøk": 621490, "Andel": 0.61 },
-  { "Område": "Rudene", "Antall besøk": 615742, "Andel": 0.59 }
+  {
+    "Område": "Grünerløkka",
+    "Antall besøk": 46241,
+    "Andel": 12.75
+  },
+  {
+    "Område": "Sentrum 2",
+    "Antall besøk": 29579,
+    "Andel": 8.16
+  },
+  {
+    "Område": "Rodeløkka",
+    "Antall besøk": 21988,
+    "Andel": 6.06
+  },
+  {
+    "Område": "Torshov",
+    "Antall besøk": 22595,
+    "Andel": 6.23
+  },
+  {
+    "Område": "Gamle Aker",
+    "Antall besøk": 12935,
+    "Andel": 3.57
+  },
+  {
+    "Område": "Tøyen",
+    "Antall besøk": 10172,
+    "Andel": 2.81
+  },
+  {
+    "Område": "Grønland",
+    "Antall besøk": 9032,
+    "Andel": 2.49
+  },
+  {
+    "Område": "Ila",
+    "Antall besøk": 6412,
+    "Andel": 1.77
+  },
+  {
+    "Område": "Hasle",
+    "Antall besøk": 6155,
+    "Andel": 1.7
+  },
+  {
+    "Område": "Ulven",
+    "Antall besøk": 6603,
+    "Andel": 1.82
+  },
+  {
+    "Område": "Grefsenlia",
+    "Antall besøk": 5524,
+    "Andel": 1.52
+  },
+  {
+    "Område": "Bjerke",
+    "Antall besøk": 4830,
+    "Andel": 1.33
+  },
+  {
+    "Område": "Sinsen",
+    "Antall besøk": 3886,
+    "Andel": 1.07
+  },
+  {
+    "Område": "Åsen",
+    "Antall besøk": 3532,
+    "Andel": 0.97
+  },
+  {
+    "Område": "St.hanshaugen",
+    "Antall besøk": 3702,
+    "Andel": 1.02
+  },
+  {
+    "Område": "Manglerud",
+    "Antall besøk": 3317,
+    "Andel": 0.91
+  },
+  {
+    "Område": "Tåsen",
+    "Antall besøk": 3759,
+    "Andel": 1.04
+  },
+  {
+    "Område": "Sentrum 1",
+    "Antall besøk": 7787,
+    "Andel": 2.15
+  },
+  {
+    "Område": "Fossum",
+    "Antall besøk": 3118,
+    "Andel": 0.86
+  },
+  {
+    "Område": "Grorud",
+    "Antall besøk": 3135,
+    "Andel": 0.86
+  },
+  {
+    "Område": "Sentrum 3",
+    "Antall besøk": 5699,
+    "Andel": 1.57
+  },
+  {
+    "Område": "Kampen",
+    "Antall besøk": 2871,
+    "Andel": 0.79
+  },
+  {
+    "Område": "Østensjø",
+    "Antall besøk": 2779,
+    "Andel": 0.77
+  },
+  {
+    "Område": "Bjølsen",
+    "Antall besøk": 2589,
+    "Andel": 0.71
+  },
+  {
+    "Område": "Majorstuen",
+    "Antall besøk": 3238,
+    "Andel": 0.89
+  },
+  {
+    "Område": "Ris",
+    "Antall besøk": 4113,
+    "Andel": 1.13
+  },
+  {
+    "Område": "Ulsholt",
+    "Antall besøk": 2656,
+    "Andel": 0.73
+  },
+  {
+    "Område": "Homansbyen",
+    "Antall besøk": 2775,
+    "Andel": 0.77
+  },
+  {
+    "Område": "Langerud",
+    "Antall besøk": 2223,
+    "Andel": 0.61
+  },
+  {
+    "Område": "Rudene",
+    "Antall besøk": 2148,
+    "Andel": 0.59
+  },
+  {
+    "Område": "Alfaset",
+    "Antall besøk": 2488,
+    "Andel": 0.69
+  },
+  {
+    "Område": "Bekkelaget",
+    "Antall besøk": 2141,
+    "Andel": 0.59
+  },
+  {
+    "Område": "Frogner",
+    "Antall besøk": 2330,
+    "Andel": 0.64
+  },
+  {
+    "Område": "Sagene",
+    "Antall besøk": 2141,
+    "Andel": 0.59
+  },
+  {
+    "Område": "Lindern",
+    "Antall besøk": 2646,
+    "Andel": 0.73
+  },
+  {
+    "Område": "Ljansbyen",
+    "Antall besøk": 1941,
+    "Andel": 0.54
+  },
+  {
+    "Område": "Sandaker",
+    "Antall besøk": 2237,
+    "Andel": 0.62
+  },
+  {
+    "Område": "Gamlebyen",
+    "Antall besøk": 1599,
+    "Andel": 0.44
+  },
+  {
+    "Område": "Vålerenga",
+    "Antall besøk": 1434,
+    "Andel": 0.4
+  },
+  {
+    "Område": "Uranienborg",
+    "Antall besøk": 1617,
+    "Andel": 0.45
+  },
+  {
+    "Område": "Grefsenmarka",
+    "Antall besøk": 1355,
+    "Andel": 0.37
+  },
+  {
+    "Område": "Loenga",
+    "Antall besøk": 1927,
+    "Andel": 0.53
+  },
+  {
+    "Område": "Røabyen",
+    "Antall besøk": 1322,
+    "Andel": 0.36
+  },
+  {
+    "Område": "Østmarka",
+    "Antall besøk": 1311,
+    "Andel": 0.36
+  },
+  {
+    "Område": "Fagerborg",
+    "Antall besøk": 1152,
+    "Andel": 0.32
+  },
+  {
+    "Område": "Nordmarka",
+    "Antall besøk": 1438,
+    "Andel": 0.4
+  },
+  {
+    "Område": "Holmen",
+    "Antall besøk": 1024,
+    "Andel": 0.28
+  },
+  {
+    "Område": "Borgen",
+    "Antall besøk": 1365,
+    "Andel": 0.38
+  },
+  {
+    "Område": "Ullern",
+    "Antall besøk": 1337,
+    "Andel": 0.37
+  },
+  {
+    "Område": "Nordstrand",
+    "Antall besøk": 933,
+    "Andel": 0.26
+  },
+  {
+    "Område": "Skillebekk",
+    "Antall besøk": 1040,
+    "Andel": 0.29
+  },
+  {
+    "Område": "Huseby",
+    "Antall besøk": 1053,
+    "Andel": 0.29
+  },
+  {
+    "Område": "Skårer",
+    "Antall besøk": 954,
+    "Andel": 0.26
+  },
+  {
+    "Område": "Snarøya",
+    "Antall besøk": 1152,
+    "Andel": 0.32
+  },
+  {
+    "Område": "Skøyen",
+    "Antall besøk": 1321,
+    "Andel": 0.36
+  },
+  {
+    "Område": "Marienlyst",
+    "Antall besøk": 986,
+    "Andel": 0.27
+  },
+  {
+    "Område": "Slattum",
+    "Antall besøk": 741,
+    "Andel": 0.2
+  },
+  {
+    "Område": "Bygdøy",
+    "Antall besøk": 884,
+    "Andel": 0.24
+  },
+  {
+    "Område": "Kjenn - Fjellhamar",
+    "Antall besøk": 665,
+    "Andel": 0.18
+  },
+  {
+    "Område": "Kolbotn",
+    "Antall besøk": 605,
+    "Andel": 0.17
+  },
+  {
+    "Område": "Lysaker",
+    "Antall besøk": 894,
+    "Andel": 0.25
+  },
+  {
+    "Område": "Berger",
+    "Antall besøk": 546,
+    "Andel": 0.15
+  },
+  {
+    "Område": "Jar",
+    "Antall besøk": 596,
+    "Andel": 0.16
+  },
+  {
+    "Område": "Ås",
+    "Antall besøk": 646,
+    "Andel": 0.18
+  },
+  {
+    "Område": "Holmenkollen",
+    "Antall besøk": 493,
+    "Andel": 0.14
+  },
+  {
+    "Område": "Kjeller",
+    "Antall besøk": 584,
+    "Andel": 0.16
+  },
+  {
+    "Område": "Lilleaker",
+    "Antall besøk": 614,
+    "Andel": 0.17
+  },
+  {
+    "Område": "Filipstad",
+    "Antall besøk": 727,
+    "Andel": 0.2
+  },
+  {
+    "Område": "Jessheim",
+    "Antall besøk": 529,
+    "Andel": 0.15
+  },
+  {
+    "Område": "Langhus",
+    "Antall besøk": 504,
+    "Andel": 0.14
+  },
+  {
+    "Område": "Stalsberg",
+    "Antall besøk": 496,
+    "Andel": 0.14
+  },
+  {
+    "Område": "Haneborglia",
+    "Antall besøk": 466,
+    "Andel": 0.13
+  },
+  {
+    "Område": "Lysås - Løken",
+    "Antall besøk": 437,
+    "Andel": 0.12
+  },
+  {
+    "Område": "Stabekk",
+    "Antall besøk": 442,
+    "Andel": 0.12
+  },
+  {
+    "Område": "Voll",
+    "Antall besøk": 432,
+    "Andel": 0.12
+  },
+  {
+    "Område": "Greverud",
+    "Antall besøk": 435,
+    "Andel": 0.12
+  },
+  {
+    "Område": "Nordby",
+    "Antall besøk": 453,
+    "Andel": 0.12
+  },
+  {
+    "Område": "Grav",
+    "Antall besøk": 414,
+    "Andel": 0.11
+  },
+  {
+    "Område": "Bjørnholt - Kurland",
+    "Antall besøk": 504,
+    "Andel": 0.14
+  },
+  {
+    "Område": "Sandvika - Valler",
+    "Antall besøk": 553,
+    "Andel": 0.15
+  },
+  {
+    "Område": "Vigernes",
+    "Antall besøk": 491,
+    "Andel": 0.14
+  },
+  {
+    "Område": "Retten",
+    "Antall besøk": 401,
+    "Andel": 0.11
+  },
+  {
+    "Område": "Løkeberg - Blommenholm",
+    "Antall besøk": 399,
+    "Andel": 0.11
+  },
+  {
+    "Område": "Hovinhøgda",
+    "Antall besøk": 398,
+    "Andel": 0.11
+  },
+  {
+    "Område": "Tangen",
+    "Antall besøk": 407,
+    "Andel": 0.11
+  },
+  {
+    "Område": "Gardermoen",
+    "Antall besøk": 821,
+    "Andel": 0.23
+  },
+  {
+    "Område": "Ski Øst",
+    "Antall besøk": 427,
+    "Andel": 0.12
+  },
+  {
+    "Område": "Tårnåsen",
+    "Antall besøk": 374,
+    "Andel": 0.1
+  },
+  {
+    "Område": "Stortorget",
+    "Antall besøk": 416,
+    "Andel": 0.11
+  },
+  {
+    "Område": "Høvik",
+    "Antall besøk": 385,
+    "Andel": 0.11
+  },
+  {
+    "Område": "Gjelleråsen",
+    "Antall besøk": 390,
+    "Andel": 0.11
+  },
+  {
+    "Område": "Finstad - Losby",
+    "Antall besøk": 366,
+    "Andel": 0.1
+  },
+  {
+    "Område": "Kløfta",
+    "Antall besøk": 391,
+    "Andel": 0.11
+  },
+  {
+    "Område": "Slependen - Tanum",
+    "Antall besøk": 382,
+    "Andel": 0.11
+  },
+  {
+    "Område": "Østre Bærumsmarka",
+    "Antall besøk": 372,
+    "Andel": 0.1
+  },
+  {
+    "Område": "Rotnes",
+    "Antall besøk": 377,
+    "Andel": 0.1
+  },
+  {
+    "Område": "Vestby",
+    "Antall besøk": 420,
+    "Andel": 0.12
+  },
+  {
+    "Område": "Frogner",
+    "Antall besøk": 367,
+    "Andel": 0.1
+  },
+  {
+    "Område": "Jong",
+    "Antall besøk": 505,
+    "Andel": 0.14
+  },
+  {
+    "Område": "Skedsmokorset",
+    "Antall besøk": 351,
+    "Andel": 0.1
+  },
+  {
+    "Område": "Sofiemyr",
+    "Antall besøk": 357,
+    "Andel": 0.1
+  },
+  {
+    "Område": "Rud",
+    "Antall besøk": 337,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Gjelleråsen",
+    "Antall besøk": 315,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Haslum",
+    "Antall besøk": 345,
+    "Andel": 0.1
+  },
+  {
+    "Område": "Gjerdrum",
+    "Antall besøk": 342,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Rykkinn",
+    "Antall besøk": 353,
+    "Andel": 0.1
+  },
+  {
+    "Område": "Såner",
+    "Antall besøk": 355,
+    "Andel": 0.1
+  },
+  {
+    "Område": "Østbygda Slemmestad",
+    "Antall besøk": 342,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Kolsås",
+    "Antall besøk": 341,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Hosle Sør",
+    "Antall besøk": 320,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Søndre Hakadal",
+    "Antall besøk": 321,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Åsenhagen",
+    "Antall besøk": 320,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Vettre",
+    "Antall besøk": 322,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Nesbru",
+    "Antall besøk": 325,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Volla",
+    "Antall besøk": 317,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Bærums Verk",
+    "Antall besøk": 368,
+    "Andel": 0.1
+  },
+  {
+    "Område": "Skjetten",
+    "Antall besøk": 284,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Finstad",
+    "Antall besøk": 323,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Ytre Enebakk",
+    "Antall besøk": 322,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Dønski - Rud",
+    "Antall besøk": 331,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Frogn Nord",
+    "Antall besøk": 310,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Fusdal",
+    "Antall besøk": 289,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Frogn Syd",
+    "Antall besøk": 308,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Lommedalen",
+    "Antall besøk": 303,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Nesøya",
+    "Antall besøk": 303,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Udnes",
+    "Antall besøk": 253,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Sørkedalen",
+    "Antall besøk": 275,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Vollen",
+    "Antall besøk": 286,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Kirkerud - Sollihøgda",
+    "Antall besøk": 292,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Nordby",
+    "Antall besøk": 229,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Strømsø",
+    "Antall besøk": 298,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Hvam",
+    "Antall besøk": 278,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Øyene",
+    "Antall besøk": 335,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Svartskog",
+    "Antall besøk": 249,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Billingstad",
+    "Antall besøk": 307,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Sentrum",
+    "Antall besøk": 314,
+    "Andel": 0.09
+  },
+  {
+    "Område": "Østerås - Eiksmarka",
+    "Antall besøk": 229,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Hvalstad",
+    "Antall besøk": 282,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Borgen",
+    "Antall besøk": 289,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Åssiden",
+    "Antall besøk": 265,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Siggerud",
+    "Antall besøk": 274,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Sørum",
+    "Antall besøk": 267,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Algarheim",
+    "Antall besøk": 281,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Riddersand",
+    "Antall besøk": 224,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Sentrum",
+    "Antall besøk": 281,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Norderhov",
+    "Antall besøk": 261,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Heggedal",
+    "Antall besøk": 263,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Danvik - Fjell",
+    "Antall besøk": 235,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Spydeberg",
+    "Antall besøk": 263,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Hosle Nord",
+    "Antall besøk": 216,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Drengsrud",
+    "Antall besøk": 263,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Midtbygda",
+    "Antall besøk": 255,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Fjerdingby",
+    "Antall besøk": 230,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Harestua",
+    "Antall besøk": 219,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Borgen",
+    "Antall besøk": 220,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Bragernes Sentrum",
+    "Antall besøk": 282,
+    "Andel": 0.08
+  },
+  {
+    "Område": "Konnerud",
+    "Antall besøk": 223,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Hebekk",
+    "Antall besøk": 210,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Sørumsand",
+    "Antall besøk": 171,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Årnes",
+    "Antall besøk": 265,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Løvenstad",
+    "Antall besøk": 161,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Sand",
+    "Antall besøk": 243,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Holter",
+    "Antall besøk": 180,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Nannestad",
+    "Antall besøk": 250,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Råholt",
+    "Antall besøk": 181,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Blaker",
+    "Antall besøk": 201,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Gulskogen - Sundhaugen",
+    "Antall besøk": 242,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Leirsund",
+    "Antall besøk": 234,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Eidsvoll Verk",
+    "Antall besøk": 195,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Østsida",
+    "Antall besøk": 232,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Berg - Sponviken",
+    "Antall besøk": 266,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Solberg",
+    "Antall besøk": 230,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Fjellheim",
+    "Antall besøk": 248,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Nordre Jeløy",
+    "Antall besøk": 201,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Bjørnemyr",
+    "Antall besøk": 261,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Vikersund",
+    "Antall besøk": 209,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Sem",
+    "Antall besøk": 221,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Dalen",
+    "Antall besøk": 169,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Tangen - Åskollen",
+    "Antall besøk": 165,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Bjerke",
+    "Antall besøk": 198,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Hegg",
+    "Antall besøk": 225,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Nordøstre Hurum",
+    "Antall besøk": 205,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Mjøndalen",
+    "Antall besøk": 211,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Grua",
+    "Antall besøk": 198,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Drøbak",
+    "Antall besøk": 193,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Vormnes",
+    "Antall besøk": 193,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Blakstad",
+    "Antall besøk": 168,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Myklerud",
+    "Antall besøk": 207,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Krokstadelva",
+    "Antall besøk": 225,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Flateby",
+    "Antall besøk": 133,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Fjellstrand",
+    "Antall besøk": 184,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Ekholt",
+    "Antall besøk": 216,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Aurskog",
+    "Antall besøk": 194,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Ås",
+    "Antall besøk": 170,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Syverstad",
+    "Antall besøk": 137,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Ytre Soknedal",
+    "Antall besøk": 190,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Høvik",
+    "Antall besøk": 157,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Melløs - Øre",
+    "Antall besøk": 144,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Skaugum",
+    "Antall besøk": 128,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Ottestad",
+    "Antall besøk": 184,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Hemsedal",
+    "Antall besøk": 241,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Sylling",
+    "Antall besøk": 124,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Dal",
+    "Antall besøk": 179,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Lierskogen",
+    "Antall besøk": 209,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Tjøme",
+    "Antall besøk": 148,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Gjedsjø - Kråkstad",
+    "Antall besøk": 147,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Tomter",
+    "Antall besøk": 126,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Nordre Ål",
+    "Antall besøk": 192,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Rom",
+    "Antall besøk": 161,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Løken",
+    "Antall besøk": 150,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Vestbygda",
+    "Antall besøk": 125,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Skoger",
+    "Antall besøk": 160,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Jaer",
+    "Antall besøk": 131,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Kongsvinger 2",
+    "Antall besøk": 204,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Vang",
+    "Antall besøk": 155,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Knapstad",
+    "Antall besøk": 99,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Kongsberg Nord - Østre",
+    "Antall besøk": 183,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Gran",
+    "Antall besøk": 159,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Bjørkelangen",
+    "Antall besøk": 181,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Sydøstre Hurum",
+    "Antall besøk": 142,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Sydøstre Jeløy",
+    "Antall besøk": 107,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Brandbu",
+    "Antall besøk": 115,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Vestre Hvaler",
+    "Antall besøk": 158,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Våler",
+    "Antall besøk": 165,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Bergen Sentrum",
+    "Antall besøk": 207,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Borgen",
+    "Antall besøk": 155,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Askimbyen",
+    "Antall besøk": 111,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Lunner",
+    "Antall besøk": 95,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Nordre Rakkestad",
+    "Antall besøk": 134,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Midtbyen",
+    "Antall besøk": 215,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Sentrum Syd",
+    "Antall besøk": 127,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Østbygda Åros",
+    "Antall besøk": 96,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Solbergelva",
+    "Antall besøk": 176,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Fenstad",
+    "Antall besøk": 115,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Borge",
+    "Antall besøk": 131,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Presterød",
+    "Antall besøk": 133,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Ytrebygda",
+    "Antall besøk": 226,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Åsgårdstrand",
+    "Antall besøk": 109,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Sundvollen",
+    "Antall besøk": 129,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Stein",
+    "Antall besøk": 257,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Hurdal",
+    "Antall besøk": 160,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Kongsvinger 1",
+    "Antall besøk": 161,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Vestre Råde",
+    "Antall besøk": 126,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Kongsberg Syd - Vestre",
+    "Antall besøk": 153,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Kongsberg Syd - Østre",
+    "Antall besøk": 99,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Mysen Vest",
+    "Antall besøk": 114,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Halmstad",
+    "Antall besøk": 119,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Vestbygda",
+    "Antall besøk": 114,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Vestre Hol",
+    "Antall besøk": 201,
+    "Andel": 0.06
+  },
+  {
+    "Område": "Nordkisa",
+    "Antall besøk": 76,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Østre Hvaler",
+    "Antall besøk": 104,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Gullaug",
+    "Antall besøk": 97,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Lustrafjorden",
+    "Antall besøk": 119,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Sentrum",
+    "Antall besøk": 170,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Jaren",
+    "Antall besøk": 85,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Vestre Trøgstad",
+    "Antall besøk": 57,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Yven",
+    "Antall besøk": 116,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Innbygda",
+    "Antall besøk": 116,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Ekeberg - Borgen",
+    "Antall besøk": 101,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Øyer Sokn",
+    "Antall besøk": 173,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Sentrum",
+    "Antall besøk": 177,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Sentrum Nord",
+    "Antall besøk": 78,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Nes",
+    "Antall besøk": 161,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Søre Ål",
+    "Antall besøk": 92,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Halden Øst",
+    "Antall besøk": 127,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Hokksund Øst",
+    "Antall besøk": 80,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Kvadraturen - Eg",
+    "Antall besøk": 183,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Skiptvet",
+    "Antall besøk": 109,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Lund - Sødal",
+    "Antall besøk": 137,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Kambo",
+    "Antall besøk": 66,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Sydbygda",
+    "Antall besøk": 72,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Glemmen Mellom",
+    "Antall besøk": 69,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Nordre Hakadal",
+    "Antall besøk": 32,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Mosseskogen Øst",
+    "Antall besøk": 78,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Skarnes",
+    "Antall besøk": 137,
+    "Andel": 0.04
+  },
+  {
+    "Område": "V. Moland - Lillesand",
+    "Antall besøk": 106,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Sande",
+    "Antall besøk": 84,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Haug",
+    "Antall besøk": 120,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Kirkebygda",
+    "Antall besøk": 73,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Moen",
+    "Antall besøk": 85,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Nordbygda",
+    "Antall besøk": 44,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Dypvåg",
+    "Antall besøk": 95,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Brunlanes Østre",
+    "Antall besøk": 116,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Hamar Vest",
+    "Antall besøk": 88,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Blystadlia",
+    "Antall besøk": 46,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Kviteseid",
+    "Antall besøk": 112,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Ullerål",
+    "Antall besøk": 128,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Lande",
+    "Antall besøk": 89,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Ringshaug",
+    "Antall besøk": 92,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Granly",
+    "Antall besøk": 69,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Hønefoss",
+    "Antall besøk": 97,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Vestre Hurum",
+    "Antall besøk": 110,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Flå",
+    "Antall besøk": 183,
+    "Andel": 0.05
+  },
+  {
+    "Område": "Sem",
+    "Antall besøk": 129,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Vesterøy",
+    "Antall besøk": 68,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Åmot",
+    "Antall besøk": 65,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Østre Gausdal",
+    "Antall besøk": 120,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Øren - Underlia",
+    "Antall besøk": 51,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Båstad",
+    "Antall besøk": 80,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Raufoss Øst",
+    "Antall besøk": 65,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Mogreina",
+    "Antall besøk": 155,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Hallingstad",
+    "Antall besøk": 92,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Vestre Kråkerøy",
+    "Antall besøk": 111,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Sydvestre Jeløy",
+    "Antall besøk": 83,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Breidablikk",
+    "Antall besøk": 65,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Sentrum - Slottsfjellet",
+    "Antall besøk": 86,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Nordre Kråkerøy",
+    "Antall besøk": 88,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Tokke",
+    "Antall besøk": 105,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Gressvik Nordre",
+    "Antall besøk": 66,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Kaldnes - Tei",
+    "Antall besøk": 64,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Rollag",
+    "Antall besøk": 100,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Holterengen",
+    "Antall besøk": 40,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Greåker",
+    "Antall besøk": 53,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Øvre - Midtre Krødsherad",
+    "Antall besøk": 117,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Kroer",
+    "Antall besøk": 56,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Husvik",
+    "Antall besøk": 58,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Høvåg",
+    "Antall besøk": 55,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Mosseelva - Dillingøya",
+    "Antall besøk": 78,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Storhamar",
+    "Antall besøk": 74,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Søm - Torsvikheia",
+    "Antall besøk": 63,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Nesttun",
+    "Antall besøk": 55,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Aurland",
+    "Antall besøk": 64,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Torpa",
+    "Antall besøk": 72,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Sand",
+    "Antall besøk": 84,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Grimstad",
+    "Antall besøk": 85,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Brunlanes Vestre",
+    "Antall besøk": 95,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Vik - Fevik",
+    "Antall besøk": 56,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Sarpsborg Øst",
+    "Antall besøk": 88,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Sarpsborg Vest",
+    "Antall besøk": 92,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Røyse",
+    "Antall besøk": 253,
+    "Andel": 0.07
+  },
+  {
+    "Område": "Hystad",
+    "Antall besøk": 58,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Søndre - Østre Skjeberg",
+    "Antall besøk": 78,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Søndeled Ytre",
+    "Antall besøk": 71,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Svelvik",
+    "Antall besøk": 44,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Eik",
+    "Antall besøk": 64,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Flekkerøy",
+    "Antall besøk": 66,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Bekkestranda",
+    "Antall besøk": 44,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Stange",
+    "Antall besøk": 80,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Sandviken",
+    "Antall besøk": 53,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Rena",
+    "Antall besøk": 85,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Bugården",
+    "Antall besøk": 55,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Leiret Syd",
+    "Antall besøk": 63,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Heistad",
+    "Antall besøk": 57,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Mysen Øst",
+    "Antall besøk": 54,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Vågåmo - Omegn",
+    "Antall besøk": 60,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Hamar Nord",
+    "Antall besøk": 62,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Øystre Slidre Nord",
+    "Antall besøk": 85,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Søndre Kråkerøy",
+    "Antall besøk": 48,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Trømborg",
+    "Antall besøk": 37,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Stedje",
+    "Antall besøk": 65,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Sundre",
+    "Antall besøk": 58,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Midtbyen",
+    "Antall besøk": 127,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Hokksund Vest",
+    "Antall besøk": 47,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Solvang - Kilen - Byskogen",
+    "Antall besøk": 54,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Bergan",
+    "Antall besøk": 56,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Gressvik Søndre",
+    "Antall besøk": 57,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Midtre Vågsbygd",
+    "Antall besøk": 48,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Byåsen",
+    "Antall besøk": 62,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Nordre Brandbu",
+    "Antall besøk": 56,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Gullhaug - Hillestad",
+    "Antall besøk": 88,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Stjørdalshalsen",
+    "Antall besøk": 132,
+    "Andel": 0.04
+  },
+  {
+    "Område": "Stokke",
+    "Antall besøk": 66,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Østre Halsen",
+    "Antall besøk": 52,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Vinje",
+    "Antall besøk": 94,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Arnestad",
+    "Antall besøk": 77,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Søgne Østre",
+    "Antall besøk": 58,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Halden Vest",
+    "Antall besøk": 63,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Skogbygda",
+    "Antall besøk": 41,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Mortensnes",
+    "Antall besøk": 60,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Skrautvål",
+    "Antall besøk": 116,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Eggedal",
+    "Antall besøk": 94,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Borgheim",
+    "Antall besøk": 42,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Aurdal",
+    "Antall besøk": 73,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Dalborgen - Kopperud",
+    "Antall besøk": 44,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Seljord",
+    "Antall besøk": 138,
+    "Andel": 0.04
+  },
+  {
+    "Område": "From",
+    "Antall besøk": 97,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Øymark",
+    "Antall besøk": 99,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Rauland",
+    "Antall besøk": 52,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Ulvik",
+    "Antall besøk": 44,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Jåtten",
+    "Antall besøk": 69,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Vågan Vestre",
+    "Antall besøk": 54,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Voie - Møvig",
+    "Antall besøk": 44,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Langesund",
+    "Antall besøk": 42,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Froland",
+    "Antall besøk": 46,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Alstad",
+    "Antall besøk": 62,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Tyristrand",
+    "Antall besøk": 41,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Flesberg",
+    "Antall besøk": 66,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Korsgården",
+    "Antall besøk": 28,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Gol Aust",
+    "Antall besøk": 85,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Lom Vest",
+    "Antall besøk": 68,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Heidal",
+    "Antall besøk": 73,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Glemmen Vest",
+    "Antall besøk": 44,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Klokkeråsen",
+    "Antall besøk": 38,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Alta Sentrum Syd",
+    "Antall besøk": 41,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Nordal",
+    "Antall besøk": 50,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Torød",
+    "Antall besøk": 49,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Solheim",
+    "Antall besøk": 46,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Helle - Skåtøy",
+    "Antall besøk": 62,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Rosenborg - Møllenberg",
+    "Antall besøk": 39,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Hjartdal",
+    "Antall besøk": 45,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Fåvang",
+    "Antall besøk": 53,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Sentrum Vest",
+    "Antall besøk": 111,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Midtre Bygdelag",
+    "Antall besøk": 41,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Bø Sentrum",
+    "Antall besøk": 46,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Søndre Høland",
+    "Antall besøk": 32,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Jemtland",
+    "Antall besøk": 37,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Kapp",
+    "Antall besøk": 42,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Vang",
+    "Antall besøk": 96,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Heddal",
+    "Antall besøk": 75,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Østerøy",
+    "Antall besøk": 41,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Lademoen",
+    "Antall besøk": 42,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Austmarka",
+    "Antall besøk": 37,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Sortungstad",
+    "Antall besøk": 39,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Eina",
+    "Antall besøk": 41,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Stathelle",
+    "Antall besøk": 33,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Hamar Øst",
+    "Antall besøk": 47,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Fredheim",
+    "Antall besøk": 39,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Halden Syd",
+    "Antall besøk": 85,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Charlottenlund - Jakobsli",
+    "Antall besøk": 39,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Loddefjord",
+    "Antall besøk": 37,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Østsiden Syd",
+    "Antall besøk": 53,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Aremark",
+    "Antall besøk": 37,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Fyresdal",
+    "Antall besøk": 91,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Arendal Nord",
+    "Antall besøk": 42,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Nybergsund",
+    "Antall besøk": 39,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Bagn - Reinli",
+    "Antall besøk": 58,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Ramnes",
+    "Antall besøk": 25,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Os",
+    "Antall besøk": 37,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Sommerlyst",
+    "Antall besøk": 74,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Vang Vest",
+    "Antall besøk": 34,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Kongsgård Øvre - Gimlekollen",
+    "Antall besøk": 37,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Leikanger Nord",
+    "Antall besøk": 35,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Rjukan",
+    "Antall besøk": 37,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Uthauen",
+    "Antall besøk": 34,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Flatdal",
+    "Antall besøk": 32,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Vestad",
+    "Antall besøk": 79,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Bykjernen",
+    "Antall besøk": 51,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Nesbygda",
+    "Antall besøk": 25,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Ringebu",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Hafslo",
+    "Antall besøk": 34,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Ranheim",
+    "Antall besøk": 31,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Vigra",
+    "Antall besøk": 35,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Atrå - Miland - Mæl",
+    "Antall besøk": 30,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Holtandalen",
+    "Antall besøk": 24,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Hisøy",
+    "Antall besøk": 35,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Tveit",
+    "Antall besøk": 98,
+    "Andel": 0.03
+  },
+  {
+    "Område": "Vest - Tune",
+    "Antall besøk": 35,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Mosseskogen Vest",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Samsmoen Nordby",
+    "Antall besøk": 24,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Våler",
+    "Antall besøk": 43,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Stadlandet",
+    "Antall besøk": 35,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Geithus",
+    "Antall besøk": 60,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Grue Finnskog",
+    "Antall besøk": 33,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Østsinni",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Vereide",
+    "Antall besøk": 28,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Gol Vest",
+    "Antall besøk": 31,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Rekustad",
+    "Antall besøk": 27,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Birkenes",
+    "Antall besøk": 32,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Sønsterud",
+    "Antall besøk": 29,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Sverresborg",
+    "Antall besøk": 30,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Torpo - Nordbygden",
+    "Antall besøk": 50,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Stridsklev - Hovet",
+    "Antall besøk": 46,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Gulset",
+    "Antall besøk": 39,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Skreia",
+    "Antall besøk": 33,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Vest - Bamble",
+    "Antall besøk": 55,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Åsane",
+    "Antall besøk": 28,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Vallset - Åsbygda",
+    "Antall besøk": 36,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Ruste",
+    "Antall besøk": 83,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Marnardal",
+    "Antall besøk": 22,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Tromsø",
+    "Antall besøk": 54,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Vestfossen",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Øyestad Midtre",
+    "Antall besøk": 33,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Tregde - Skjernøy",
+    "Antall besøk": 28,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Beiarn",
+    "Antall besøk": 38,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Fåberg",
+    "Antall besøk": 68,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Vindingstad",
+    "Antall besøk": 32,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Fjære - Hommedal",
+    "Antall besøk": 24,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Strindheim",
+    "Antall besøk": 36,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Viker - Nes",
+    "Antall besøk": 51,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Austsida - Oksenhalvøya",
+    "Antall besøk": 27,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Søndeled Indre",
+    "Antall besøk": 27,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Flosta",
+    "Antall besøk": 37,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Magnor",
+    "Antall besøk": 47,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Flatåsen - Saupstad",
+    "Antall besøk": 25,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Tenor - Kirkefjerdingen",
+    "Antall besøk": 54,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Tjodalyng",
+    "Antall besøk": 32,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Audnedal",
+    "Antall besøk": 23,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Mørkved",
+    "Antall besøk": 31,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Heimdal",
+    "Antall besøk": 20,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Stokken",
+    "Antall besøk": 25,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Mo",
+    "Antall besøk": 26,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Åmotsdal",
+    "Antall besøk": 31,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Fyllingsdalen",
+    "Antall besøk": 25,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Hovin - Austbygde - Tessungdalen",
+    "Antall besøk": 25,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Kongsberg Nord - Vestre",
+    "Antall besøk": 23,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Kvinesdal Midtre",
+    "Antall besøk": 24,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Dovre Syd",
+    "Antall besøk": 38,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Nissedal",
+    "Antall besøk": 31,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Hunndalen",
+    "Antall besøk": 24,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Korgen",
+    "Antall besøk": 21,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Blindheim",
+    "Antall besøk": 21,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Hov - Fall",
+    "Antall besøk": 23,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Østby",
+    "Antall besøk": 20,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Ytre Gjerstad",
+    "Antall besøk": 44,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Vestbyen",
+    "Antall besøk": 22,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Strandsåsen",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Hånes - Timenes",
+    "Antall besøk": 42,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Vegårdshei",
+    "Antall besøk": 35,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Lunder",
+    "Antall besøk": 35,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Haug",
+    "Antall besøk": 22,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Tangen",
+    "Antall besøk": 20,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Søndre Tromsøya",
+    "Antall besøk": 26,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Lærdal",
+    "Antall besøk": 26,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Kvæfjord Østre",
+    "Antall besøk": 51,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Grødem",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Søgne Vestre",
+    "Antall besøk": 26,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Svolvær",
+    "Antall besøk": 21,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Prestebakke - Kornsjø - Holtet",
+    "Antall besøk": 24,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Brattås",
+    "Antall besøk": 23,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Landås - Sædalen",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Hovedbyen",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Alta Sentrum Nord",
+    "Antall besøk": 62,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Kurland",
+    "Antall besøk": 23,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Vang Nord",
+    "Antall besøk": 23,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Glemmen Øst",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Deglum",
+    "Antall besøk": 20,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Skjåk",
+    "Antall besøk": 27,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Østsiden Nord",
+    "Antall besøk": 21,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Hedenstad",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Arendal Øst",
+    "Antall besøk": 25,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Egge",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Leiret Nord - Søbakken",
+    "Antall besøk": 25,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Nordre Sande",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Øyestad Søndre",
+    "Antall besøk": 25,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Rørvik - Berg",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Fjærland",
+    "Antall besøk": 21,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Otta",
+    "Antall besøk": 29,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Lyngstrand - Rosendal - Omvikdalen",
+    "Antall besøk": 21,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Valderøy",
+    "Antall besøk": 22,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Berg - Tyholt",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Torp",
+    "Antall besøk": 21,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Ljørdalen",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Dovre Nord",
+    "Antall besøk": 62,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Holmestrand",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Stensarmen - Træleborg",
+    "Antall besøk": 22,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Nordre Meløy",
+    "Antall besøk": 23,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Varteig",
+    "Antall besøk": 46,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Lindesnes",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Bremnes",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Vossestrand",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Etnedal",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Laksevåg",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Uskedalen - Herøysund",
+    "Antall besøk": 20,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Falkum",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Våland",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Sander",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Stavern",
+    "Antall besøk": 30,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Sola",
+    "Antall besøk": 63,
+    "Andel": 0.02
+  },
+  {
+    "Område": "Glemmen Nord Øst",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Kirkenær",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Klyve",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Øvre Årdal",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Nordre Tromsøya",
+    "Antall besøk": 30,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Fauske",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Sentrum Øst",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Melsom",
+    "Antall besøk": 52,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Stokke - Lura - Trones",
+    "Antall besøk": 29,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Nesbakken Glassverket",
+    "Antall besøk": 29,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Nes",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Herefoss - Vegusdal",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Lavangen",
+    "Antall besøk": 36,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Vang Midtre",
+    "Antall besøk": 23,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Tretten Sokn",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Teie",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Sentrum",
+    "Antall besøk": 39,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Strøm",
+    "Antall besøk": 23,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Eidanger - Øyene",
+    "Antall besøk": 27,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Sentrum",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Øksnes",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Vikna Indre",
+    "Antall besøk": 21,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Ytre Tasta",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Søndre Rakkestad",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Breim",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Gard",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Austrått - Høyland",
+    "Antall besøk": 20,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Hunstad",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Øystre Slidre Syd",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Husnes - Sunde - Valen",
+    "Antall besøk": 22,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Ytre Ådal",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Nørvasund",
+    "Antall besøk": 27,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Åsnes Vestside",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Porsgrunn Vest",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Kragerø Sentrum",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Nodeland",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Holt Øst",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Stryn",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Finnskogen",
+    "Antall besøk": 21,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Prestfoss",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Vingrom",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Balestrand",
+    "Antall besøk": 26,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Hol Vestre",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Sjåstad",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Hof - Eidsfoss",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Risør",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Disenå",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Kolbu",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Rønvik",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Arendal Vest",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Kaupanger",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Ålvundeid - Ålvundfjord",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Østre Hol",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Ytre Rendalen",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Tolga",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Nordsida",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Varden",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Sødorp",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Fridalen - Slettebakken",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Hasvik",
+    "Antall besøk": 52,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Volda",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Hattfjelldal",
+    "Antall besøk": 28,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Tistedalsområdet",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Torsnes",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Ytre Krødsherad",
+    "Antall besøk": 28,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Lardal",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Øvre Gjerstad",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Kanebogen - Seljestad",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Bryne",
+    "Antall besøk": 31,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Grønli",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Tromøy Øst",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Farsund",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Hauge",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Jordet",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Bøverbru",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Arendal Sentrum",
+    "Antall besøk": 27,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Øya - Singsaker",
+    "Antall besøk": 27,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Grane",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Andenes",
+    "Antall besøk": 29,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Borre",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Vestre Gulset",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Harstad",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Ølen",
+    "Antall besøk": 51,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Romedal",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Flora",
+    "Antall besøk": 50,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Baksida",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Klosterskogen",
+    "Antall besøk": 30,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Gaular",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Rødenes",
+    "Antall besøk": 48,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Brandval",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Suldal",
+    "Antall besøk": 47,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Hanstad",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Lena",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Notodden Nordøst",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Hægebostad",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Vik",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Overhalla",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Finnsnesområdet",
+    "Antall besøk": 46,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Solsida",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Skogsfjord - Hesland",
+    "Antall besøk": 20,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Indre Bremanger",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Fiskum",
+    "Antall besøk": 44,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Begnadalen",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Ytre Randesund",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Åmli",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Røbekk",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Spjelkavik",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Vanylven",
+    "Antall besøk": 22,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Deset",
+    "Antall besøk": 43,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Midtre Råde",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Lesjaskog",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Bygland",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Dale - Guddal",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Helgheim",
+    "Antall besøk": 21,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Gratangen",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Borge - Valberg",
+    "Antall besøk": 21,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Nore",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Steigen",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Kvam",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Skinsnes - Ime",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Eidfjord",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Neset - Øyane",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Naustdal",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Lade",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Namsos",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Romsdalen",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Ringvoll",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Drolsum - Snarum",
+    "Antall besøk": 20,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Barkåker",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Tromøy Vest",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Tvedestrand",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Tertnes - Salhus",
+    "Antall besøk": 33,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Vestmarka",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Flisa",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Vanse - Åpta",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Oppdal Syd - Drivdalen",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Rosseland",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Søndre Meløy",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Porsgrunn Øst",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Ytre Bremanger",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Sentrum Vest",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Sellebakk",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Bykle",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Selje",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Åsvang - Stokkan",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Fuglset",
+    "Antall besøk": 36,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Ørsta",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Rødøy",
+    "Antall besøk": 36,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Dverberg",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Reinsvoll",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Røros",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Lødingen",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Uvdal",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Finsland",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Sentrum Øst",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Bakke - Gyland",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Måren",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Moskenes",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Odda",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Arneberg",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Sentrum Vest",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Vestre Eid",
+    "Antall besøk": 6,
+    "Andel": 0
+  },
+  {
+    "Område": "Kvaløybyen",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Prestmoen Olimb",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Søndre",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Grim - Møllevann - Dalane",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Sånum - Lundevik",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Hommelvik - Mostadmark",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Namsskogan",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Tidligere Talvik Kommune Vest",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Åse - Lerstad",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Vestre Gran",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Brekke",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Røldal",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Vossevangen",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Tiller - Hårstad",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Avaldsnes",
+    "Antall besøk": 22,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Steinberg",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Vestre Trysil",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Raufoss Vest",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Stjørna",
+    "Antall besøk": 15,
+    "Andel": 0
+  },
+  {
+    "Område": "Tidligere Alta Kommune Øst",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Kvernevik",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Klepp",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Ytre Ulstein",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Syd - Sentrum",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Vang Øst",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Kodal",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Otterøy - Vemundvik",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Hol Østre",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Røn",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Byskogen",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Lunde",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Kampen",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Reknes",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Vega",
+    "Antall besøk": 27,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Tande",
+    "Antall besøk": 27,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Nanset Øst",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Kroken",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Øvrebø - Hægeland",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Vennesla Nord",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Bønes",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Førde Vest",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Reinelva - Hundbergan",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Lebesby",
+    "Antall besøk": 14,
+    "Andel": 0
+  },
+  {
+    "Område": "Tjensvoll",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Røyneberg - Grannes",
+    "Antall besøk": 5,
+    "Andel": 0
+  },
+  {
+    "Område": "Åkra",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Nørvøy Indre",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Sentrum",
+    "Antall besøk": 26,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Søndre Elverum",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Lom Aust",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Austre Moland",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Sirdal",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Jostedalen",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Oppdal Nord - Fagerhaug",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Nesset",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Hjelmeland",
+    "Antall besøk": 25,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Viken - Gjøvikjordet",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Lalm - Omegn",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Sannidal - Levang",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Holum",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Granvin",
+    "Antall besøk": 13,
+    "Andel": 0
+  },
+  {
+    "Område": "Ytre Herøy 1",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Synnylven - Geiranger",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Saltvern",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Lurøy",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Kleppestø",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Årdalstangen",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Malmheim - Åse",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Førdesfjorden",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Hedalen",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Haukerød",
+    "Antall besøk": 6,
+    "Andel": 0
+  },
+  {
+    "Område": "Herøya",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Gimsøy",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Lyngdal Østre",
+    "Antall besøk": 23,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Årvik - Mauranger - Ænes",
+    "Antall besøk": 23,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Namdalseid",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Skogn",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Bardu",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Egersund",
+    "Antall besøk": 6,
+    "Andel": 0
+  },
+  {
+    "Område": "Johannes",
+    "Antall besøk": 22,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Lunde - Skjeveland",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Drevja - Skaland",
+    "Antall besøk": 22,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Evenes",
+    "Antall besøk": 22,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Hærland",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Biri",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Skotterud",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Slidre",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Men",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Notodden Sør",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Lista",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Etne",
+    "Antall besøk": 6,
+    "Andel": 0
+  },
+  {
+    "Område": "Vestsida",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Vikøy",
+    "Antall besøk": 6,
+    "Andel": 0
+  },
+  {
+    "Område": "Nordkapp",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Torvastad",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Fastlandssiden",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Haukebøen",
+    "Antall besøk": 5,
+    "Andel": 0
+  },
+  {
+    "Område": "Østre Råde",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Justvik",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Evje",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Indre Austevoll",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Fosnes",
+    "Antall besøk": 11,
+    "Andel": 0
+  },
+  {
+    "Område": "Fagernes - Kvitsandøyra",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Brønnøy Midtre",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Østre Trøgstad",
+    "Antall besøk": 5,
+    "Andel": 0
+  },
+  {
+    "Område": "Tuft - Komnes - Efteløt",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Nordberg",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Høyjord - Vestre Andebu",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Rosanes",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Tinnheia",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Kila",
+    "Antall besøk": 7,
+    "Andel": 0
+  },
+  {
+    "Område": "Hareid",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Indre Sula",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Austefjord",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Rokke - Asak",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Midtre",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Brunlanes Nordre",
+    "Antall besøk": 10,
+    "Andel": 0
+  },
+  {
+    "Område": "Polleidet",
+    "Antall besøk": 19,
+    "Andel": 0.01
+  },
+  {
+    "Område": "Madlamark",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Ogna",
+    "Antall besøk": 18,
+    "Andel": 0
+  },
+  {
+    "Område": "Kopervik",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Sørsida",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Søndre Gildeskål",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Ullerøy",
+    "Antall besøk": 6,
+    "Andel": 0
+  },
+  {
+    "Område": "Berger",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Hellemyr - Fjellro",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Åseral",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Ålvik",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Stønnesbotn - Øyfjordområdet",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Vestre Porsanger",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Vardø",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Hundvåg",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Soma - Stangeland",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Skudenes",
+    "Antall besøk": 6,
+    "Andel": 0
+  },
+  {
+    "Område": "Aspøy",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Hornindal",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Nord - Øst",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Kvikne",
+    "Antall besøk": 6,
+    "Andel": 0
+  },
+  {
+    "Område": "Skjee",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Osebakken - Hovenga",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Evanger",
+    "Antall besøk": 6,
+    "Andel": 0
+  },
+  {
+    "Område": "Fedje",
+    "Antall besøk": 12,
+    "Andel": 0
+  },
+  {
+    "Område": "Ålhus",
+    "Antall besøk": 9,
+    "Andel": 0
+  },
+  {
+    "Område": "Silsandområdet",
+    "Antall besøk": 17,
+    "Andel": 0
+  },
+  {
+    "Område": "Goa",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Nordstranda",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Sømna",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Nedre Saltdal",
+    "Antall besøk": 5,
+    "Andel": 0
+  },
+  {
+    "Område": "Vest - Nord",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Nerstad",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Folldal",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Lensbygda",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Nykirke",
+    "Antall besøk": 5,
+    "Andel": 0
+  },
+  {
+    "Område": "Sydbyen",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Vadfoss",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Ulefoss",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Lyngdal Søndre",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Kvinesdal Sentrum",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Kvinesdal Øvre",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Sør - Vågsøy",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Leirvik",
+    "Antall besøk": 16,
+    "Andel": 0
+  },
+  {
+    "Område": "Øystese",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Blomvåg",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Sparbu - Henning",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Grong",
+    "Antall besøk": 8,
+    "Andel": 0
+  },
+  {
+    "Område": "Indre Vadsø",
+    "Antall besøk": 11,
+    "Andel": 0
+  }
 ]

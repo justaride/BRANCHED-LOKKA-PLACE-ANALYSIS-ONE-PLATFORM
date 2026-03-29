@@ -1,50 +1,14 @@
 [
-  {
-    "Category": "0 NOK",
-    "Thorvald Meyers gate 55 (Område 0.01 km²)": 17.043176750929497
-  },
-  {
-    "Category": "0 NOK - NOK 100k",
-    "Thorvald Meyers gate 55 (Område 0.01 km²)": 18.917804789902654
-  },
-  {
-    "Category": "NOK 100k - NOK 200k",
-    "Thorvald Meyers gate 55 (Område 0.01 km²)": 13.192111211714703
-  },
-  {
-    "Category": "NOK 200k - NOK 300k",
-    "Thorvald Meyers gate 55 (Område 0.01 km²)": 14.01381072388462
-  },
-  {
-    "Category": "NOK 300k - NOK 400k",
-    "Thorvald Meyers gate 55 (Område 0.01 km²)": 15.107876153558896
-  },
-  {
-    "Category": "NOK 400k - NOK 500k",
-    "Thorvald Meyers gate 55 (Område 0.01 km²)": 14.185475073932063
-  },
-  {
-    "Category": "NOK 500k - NOK 600k",
-    "Thorvald Meyers gate 55 (Område 0.01 km²)": 11.476276937953575
-  },
-  {
-    "Category": "NOK 600k - NOK 700k",
-    "Thorvald Meyers gate 55 (Område 0.01 km²)": 6.746818052250411
-  },
-  {
-    "Category": "NOK 700k - NOK 800k",
-    "Thorvald Meyers gate 55 (Område 0.01 km²)": 4.163335095427796
-  },
-  {
-    "Category": "NOK 800k - NOK 1 mill.",
-    "Thorvald Meyers gate 55 (Område 0.01 km²)": 8.734374395125496
-  },
-  {
-    "Category": "NOK 1 mill. - NOK 1,5 mill.",
-    "Thorvald Meyers gate 55 (Område 0.01 km²)": 1.3379012141629119
-  },
-  {
-    "Category": "NOK 1,5 mill.+",
-    "Thorvald Meyers gate 55 (Område 0.01 km²)": 0.8115468196424819
-  }
+  { "inntektsgruppe": "0 NOK", "prosent": 11.32, "raw": 14.03 },
+  { "inntektsgruppe": "0-100k", "prosent": 14.69, "raw": 18.2 },
+  { "inntektsgruppe": "100k-200k", "prosent": 10.92, "raw": 13.53 },
+  { "inntektsgruppe": "200k-300k", "prosent": 9.86, "raw": 12.21 },
+  { "inntektsgruppe": "300k-400k", "prosent": 11.67, "raw": 14.46 },
+  { "inntektsgruppe": "400k-500k", "prosent": 12.43, "raw": 15.4 },
+  { "inntektsgruppe": "500k-600k", "prosent": 9.31, "raw": 11.53 },
+  { "inntektsgruppe": "600k-700k", "prosent": 6.16, "raw": 7.63 },
+  { "inntektsgruppe": "700k-800k", "prosent": 3.98, "raw": 4.93 },
+  { "inntektsgruppe": "800k-1M", "prosent": 8.1, "raw": 10.04 },
+  { "inntektsgruppe": "1M-1.5M", "prosent": 0.82, "raw": 1.01 },
+  { "inntektsgruppe": "1.5M+", "prosent": 0.73, "raw": 0.91 }
 ]

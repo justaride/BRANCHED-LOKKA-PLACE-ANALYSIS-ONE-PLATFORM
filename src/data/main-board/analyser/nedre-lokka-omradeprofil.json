@@ -43,7 +43,7 @@
     ],
     "areaCount": 6
   },
-  "description": "Omfattende områdeanalyse av Nedre Løkka basert på 6 mikro-områder. Analysen inkluderer 1,674 innbyggere, 2,796 daglige besøk, 103 virksomheter med samlet omsetning på NOK 967 millioner. Komplett visualisering av demografi, bevegelsesmønster og virksomhetsfordeling.",
+  "description": "Omfattende områdeanalyse av Nedre Løkka basert på 6 mikro-områder. Analysen inkluderer 1,674 innbyggere, 2,796 daglige besøk, 91 virksomheter med samlet omsetning på NOK 902 millioner. Komplett visualisering av demografi, bevegelsesmønster og virksomhetsfordeling.",
   "metadata": {
     "status": "publisert",
     "version": "1.0",
@@ -71,19 +71,19 @@
     },
     {
       "title": "Virksomheter",
-      "value": "103",
+      "value": "91",
       "description": "Kommersielle lokaler, 40% restauranter"
     },
     {
       "title": "Total Omsetning",
-      "value": "NOK 967M",
+      "value": "NOK 902M",
       "description": "Estimert årlig omsetning"
     }
   ],
 
   "datamerknader": {
     "besokende": "Faktisk tall fra data. 2 av 6 områder returnerte 0 data. Totalen kan være lavere enn forventet.",
-    "virksomheter": "103 virksomheter registrert. Noen aktører kan mangle i datagrunnlaget.",
+    "virksomheter": "91 virksomheter registrert. Noen aktører kan mangle i datagrunnlaget.",
     "transport": "Krever data fra Oslo Sporveier for fullstendig transportmiddel-statistikk."
   },
 

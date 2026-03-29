@@ -1,42 +1,42 @@
 {
   "omrade": "Nedre Løkka",
-  "totalVirksomheter": 103,
-  "totalOmsetning": 967,
+  "totalVirksomheter": 91,
+  "totalOmsetning": 902,
   "kategoriOversikt": [
     {
       "kategori": "Mat og opplevelser / Restaurant",
-      "antall": 40,
-      "omsetning": 388.14,
-      "andel": 39
+      "antall": 37,
+      "omsetning": 365.14,
+      "andel": 41
     },
     {
       "kategori": "Handel / Klesbutikker",
-      "antall": 12,
-      "omsetning": 37.9,
-      "andel": 12
+      "antall": 9,
+      "omsetning": 34.45,
+      "andel": 10
     },
     {
       "kategori": "Mat og opplevelser / Bakeri og kafé",
-      "antall": 9,
-      "omsetning": 64,
+      "antall": 8,
+      "omsetning": 56,
       "andel": 9
     },
     {
       "kategori": "Handel / Mat og drikke",
-      "antall": 8,
-      "omsetning": 227,
+      "antall": 7,
+      "omsetning": 221,
       "andel": 8
     },
     {
       "kategori": "Handel / Hjem og interiør",
-      "antall": 8,
-      "omsetning": 31.79,
+      "antall": 7,
+      "omsetning": 29.79,
       "andel": 8
     },
     {
       "kategori": "Handel / Annen handel",
-      "antall": 8,
-      "omsetning": 45.78,
+      "antall": 7,
+      "omsetning": 44.89,
       "andel": 8
     },
     {
@@ -47,9 +47,9 @@
     },
     {
       "kategori": "Handel / Sport og fritid",
-      "antall": 4,
-      "omsetning": 58,
-      "andel": 4
+      "antall": 3,
+      "omsetning": 37,
+      "andel": 3
     },
     {
       "kategori": "Mat og opplevelser / Pub og bar",
@@ -59,9 +59,9 @@
     },
     {
       "kategori": "Mat og opplevelser / Barer",
-      "antall": 2,
-      "omsetning": 1.68,
-      "andel": 2
+      "antall": 1,
+      "omsetning": 0.84,
+      "andel": 1
     },
     {
       "kategori": "Tjenester / Profesjoner",

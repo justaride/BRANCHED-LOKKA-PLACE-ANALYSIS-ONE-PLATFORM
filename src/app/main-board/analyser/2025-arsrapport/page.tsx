@@ -39,8 +39,8 @@ export default async function Analyse2025Page() {
 
   const timelineEvents = analysis.events || [];
 
-  const dailyBankData = generateBankTransactionData();
-  const dailyVisitorData = generateVisitorData();
+  const dailyBankData = generateBankTransactionData(2025);
+  const dailyVisitorData = generateVisitorData(2025);
 
   const monthlyBankData = aggregateToMonthly(dailyBankData);
   const monthlyVisitorData = aggregateToMonthly(dailyVisitorData);

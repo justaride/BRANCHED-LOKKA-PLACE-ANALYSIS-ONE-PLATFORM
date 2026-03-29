@@ -23,12 +23,12 @@
       ]
     },
     "Gjennomsnittlig daglige besøk": {
-      "Verdi": "Data fra bevegelse JSON",
+      "Verdi": 7839,
       "Kommentar": "Basert på alle besøk"
     },
     "Travleste dag": {
-      "Dag": "Data fra JSON",
-      "Andel": "Data fra JSON"
+      "Dag": "Lørdag",
+      "Andel": "18% av ukesbesøk"
     }
   },
   "Korthandel NØKKELTALL": {
@@ -38,8 +38,8 @@
         "BankAxept"
       ]
     },
-    "Daglig korthandel for valgt periode": "Data fra JSON",
-    "Total korthandel for valgt periode": "Data fra JSON"
+    "Daglig korthandel for valgt periode": "NOK 0.17 mill.",
+    "Total korthandel for valgt periode": "NOK 0.39 mrd."
   },
   "konkurransebildet NØKKELTALL": {
     "Konkurransebildet": {
@@ -48,10 +48,10 @@
         "Analysebutikken"
       ]
     },
-    "Konsepttetthet": "Data fra JSON",
+    "Konsepttetthet": "600/km²",
     "Total omsetning": {
       "Verdi": "NOK 80 mill.",
-      "Endring": "Data fra JSON"
+      "Endring": "+12%"
     }
   },
   "DEMOGRAFI NØKKELTALL": {
@@ -63,15 +63,15 @@
       ]
     },
     "Befolkning": {
-      "Verdi": "Data fra JSON",
+      "Verdi": 140,
       "År": 2023,
-      "Endring": "Data fra JSON"
+      "Endring": "+1%"
     },
-    "Områdestørrelse": "Data fra JSON"
+    "Områdestørrelse": "0.01 km²"
   },
   "NØKKELTALL MAIN": {
     "Travleste dag": {
-      "Dag": "Data fra JSON",
+      "Dag": "Lørdag",
       "Periode": "01.10.2022 – 30.09.2025"
     },
     "Kortbruk": {

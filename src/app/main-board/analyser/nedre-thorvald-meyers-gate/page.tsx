@@ -82,7 +82,7 @@ export default function NedreThorvaldMeyersGatePage() {
                   <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
-                  <span>Befolkning: 371 (2023)</span>
+                  <span>Befolkning: 835 (2023)</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -209,12 +209,12 @@ export default function NedreThorvaldMeyersGatePage() {
               <h3 className="mb-2 text-sm font-semibold uppercase tracking-wider text-natural-forest/70">
                 Befolkning 2023
               </h3>
-              <p className="mb-1 text-3xl font-bold text-lokka-primary">371</p>
+              <p className="mb-1 text-3xl font-bold text-lokka-primary">835</p>
               <div className="flex items-center gap-1 text-sm text-green-700">
                 <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
                 </svg>
-                <span>+2% endring</span>
+                <span>+4% endring</span>
               </div>
             </div>
 
@@ -222,7 +222,7 @@ export default function NedreThorvaldMeyersGatePage() {
               <h3 className="mb-2 text-sm font-semibold uppercase tracking-wider text-natural-forest/70">
                 Befolkningstetthet
               </h3>
-              <p className="mb-1 text-3xl font-bold text-lokka-primary">20,582</p>
+              <p className="mb-1 text-3xl font-bold text-lokka-primary">41,750</p>
               <p className="text-sm text-lokka-secondary">per km²</p>
             </div>
 
@@ -230,7 +230,7 @@ export default function NedreThorvaldMeyersGatePage() {
               <h3 className="mb-2 text-sm font-semibold uppercase tracking-wider text-natural-forest/70">
                 Områdestørrelse
               </h3>
-              <p className="mb-1 text-3xl font-bold text-lokka-primary">0.018</p>
+              <p className="mb-1 text-3xl font-bold text-lokka-primary">0.020</p>
               <p className="text-sm text-lokka-secondary">km²</p>
             </div>
           </div>
@@ -243,8 +243,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-24 text-sm font-medium text-lokka-secondary">0-5 år</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-8 rounded bg-blue-400" style={{ width: `${(14/371)*100}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">7 mann, 7 kvinner (14 totalt)</span>
+                    <div className="h-8 rounded bg-blue-400" style={{ width: `${(36/836)*100}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">19 mann, 17 kvinner (36 totalt)</span>
                   </div>
                 </div>
               </div>
@@ -252,8 +252,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-24 text-sm font-medium text-lokka-secondary">6-12 år</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-8 rounded bg-blue-400" style={{ width: `${(13/371)*100}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">6 mann, 7 kvinner (13 totalt)</span>
+                    <div className="h-8 rounded bg-blue-400" style={{ width: `${(30/836)*100}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">15 mann, 15 kvinner (30 totalt)</span>
                   </div>
                 </div>
               </div>
@@ -261,8 +261,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-24 text-sm font-medium text-lokka-secondary">13-15 år</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-8 rounded bg-blue-400" style={{ width: `${(7/371)*100}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">3 mann, 4 kvinner (7 totalt)</span>
+                    <div className="h-8 rounded bg-blue-400" style={{ width: `${(13/836)*100}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">6 mann, 7 kvinner (13 totalt)</span>
                   </div>
                 </div>
               </div>
@@ -270,8 +270,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-24 text-sm font-medium text-lokka-secondary">16-18 år</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-8 rounded bg-blue-400" style={{ width: `${(6/371)*100}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">3 mann, 3 kvinner (6 totalt)</span>
+                    <div className="h-8 rounded bg-blue-400" style={{ width: `${(13/836)*100}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">6 mann, 7 kvinner (13 totalt)</span>
                   </div>
                 </div>
               </div>
@@ -279,8 +279,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-24 text-sm font-medium text-lokka-secondary">19-23 år</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-8 rounded bg-blue-500" style={{ width: `${(37/371)*100}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">15 mann, 22 kvinner (37 totalt)</span>
+                    <div className="h-8 rounded bg-blue-500" style={{ width: `${(80/836)*100}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">35 mann, 45 kvinner (80 totalt)</span>
                   </div>
                 </div>
               </div>
@@ -288,8 +288,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-24 text-sm font-medium text-lokka-secondary">23-34 år</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-8 rounded bg-blue-600" style={{ width: `${(160/371)*100}%` }}></div>
-                    <span className="text-sm font-bold text-lokka-primary">80 mann, 80 kvinner (160 totalt - største gruppe)</span>
+                    <div className="h-8 rounded bg-blue-600" style={{ width: `${(333/836)*100}%` }}></div>
+                    <span className="text-sm font-bold text-lokka-primary">170 mann, 163 kvinner (333 totalt - største gruppe)</span>
                   </div>
                 </div>
               </div>
@@ -297,8 +297,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-24 text-sm font-medium text-lokka-secondary">35-44 år</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-8 rounded bg-blue-500" style={{ width: `${(57/371)*100}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">31 mann, 26 kvinner (57 totalt)</span>
+                    <div className="h-8 rounded bg-blue-500" style={{ width: `${(137/836)*100}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">79 mann, 58 kvinner (137 totalt)</span>
                   </div>
                 </div>
               </div>
@@ -306,8 +306,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-24 text-sm font-medium text-lokka-secondary">45-54 år</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-8 rounded bg-blue-500" style={{ width: `${(39/371)*100}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">21 mann, 18 kvinner (39 totalt)</span>
+                    <div className="h-8 rounded bg-blue-500" style={{ width: `${(84/836)*100}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">47 mann, 37 kvinner (84 totalt)</span>
                   </div>
                 </div>
               </div>
@@ -315,8 +315,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-24 text-sm font-medium text-lokka-secondary">55-64 år</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-8 rounded bg-blue-400" style={{ width: `${(24/371)*100}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">14 mann, 10 kvinner (24 totalt)</span>
+                    <div className="h-8 rounded bg-blue-400" style={{ width: `${(57/836)*100}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">33 mann, 24 kvinner (57 totalt)</span>
                   </div>
                 </div>
               </div>
@@ -324,8 +324,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-24 text-sm font-medium text-lokka-secondary">65-74 år</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-8 rounded bg-blue-300" style={{ width: `${(8/371)*100}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">4 mann, 4 kvinner (8 totalt)</span>
+                    <div className="h-8 rounded bg-blue-300" style={{ width: `${(34/836)*100}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">17 mann, 17 kvinner (34 totalt)</span>
                   </div>
                 </div>
               </div>
@@ -333,8 +333,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-24 text-sm font-medium text-lokka-secondary">75-84 år</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-8 rounded bg-blue-300" style={{ width: `${(5/371)*100}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">2 mann, 3 kvinner (5 totalt)</span>
+                    <div className="h-8 rounded bg-blue-300" style={{ width: `${(16/836)*100}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">8 mann, 8 kvinner (16 totalt)</span>
                   </div>
                 </div>
               </div>
@@ -342,15 +342,15 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-24 text-sm font-medium text-lokka-secondary">85+ år</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-8 rounded bg-blue-300" style={{ width: `${(1/371)*100}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">0 mann, 1 kvinner (1 totalt)</span>
+                    <div className="h-8 rounded bg-blue-300" style={{ width: `${(3/836)*100}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">1 mann, 2 kvinner (3 totalt)</span>
                   </div>
                 </div>
               </div>
             </div>
             <div className="mt-6 rounded-lg bg-blue-50 p-4">
               <p className="text-sm text-blue-900">
-                <strong>Hovedobservasjon:</strong> Området domineres av unge voksne i alderen 23-34 år (43% av befolkningen),
+                <strong>Hovedobservasjon:</strong> Området domineres av unge voksne i alderen 23-34 år (40% av befolkningen),
                 noe som gjenspeiler områdets urbane karakter og attraktivitet for yngre beboere.
               </p>
             </div>
@@ -364,8 +364,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-32 text-sm font-medium text-lokka-secondary">0 NOK</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-6 rounded bg-green-400" style={{ width: `${41.76}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">41.8 personer</span>
+                    <div className="h-6 rounded bg-green-400" style={{ width: `${118.79}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">118.8 personer</span>
                   </div>
                 </div>
               </div>
@@ -373,8 +373,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-32 text-sm font-medium text-lokka-secondary">0 - 100k</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-6 rounded bg-green-500" style={{ width: `${49.41}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">49.4 personer</span>
+                    <div className="h-6 rounded bg-green-500" style={{ width: `${116.80}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">116.8 personer</span>
                   </div>
                 </div>
               </div>
@@ -382,8 +382,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-32 text-sm font-medium text-lokka-secondary">100k - 200k</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-6 rounded bg-green-500" style={{ width: `${37.14}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">37.1 personer</span>
+                    <div className="h-6 rounded bg-green-500" style={{ width: `${94.36}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">94.4 personer</span>
                   </div>
                 </div>
               </div>
@@ -391,8 +391,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-32 text-sm font-medium text-lokka-secondary">200k - 300k</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-6 rounded bg-green-500" style={{ width: `${36.30}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">36.3 personer</span>
+                    <div className="h-6 rounded bg-green-500" style={{ width: `${85.35}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">85.4 personer</span>
                   </div>
                 </div>
               </div>
@@ -400,8 +400,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-32 text-sm font-medium text-lokka-secondary">300k - 400k</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-6 rounded bg-green-600" style={{ width: `${42.61}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">42.6 personer</span>
+                    <div className="h-6 rounded bg-green-600" style={{ width: `${88.82}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">88.8 personer</span>
                   </div>
                 </div>
               </div>
@@ -409,8 +409,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-32 text-sm font-medium text-lokka-secondary">400k - 500k</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-6 rounded bg-green-600" style={{ width: `${40.47}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">40.5 personer</span>
+                    <div className="h-6 rounded bg-green-600" style={{ width: `${80.31}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">80.3 personer</span>
                   </div>
                 </div>
               </div>
@@ -418,8 +418,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-32 text-sm font-medium text-lokka-secondary">500k - 600k</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-6 rounded bg-green-500" style={{ width: `${31.45}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">31.5 personer</span>
+                    <div className="h-6 rounded bg-green-500" style={{ width: `${63.64}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">63.6 personer</span>
                   </div>
                 </div>
               </div>
@@ -427,8 +427,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-32 text-sm font-medium text-lokka-secondary">600k - 700k</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-6 rounded bg-green-400" style={{ width: `${18.73}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">18.7 personer</span>
+                    <div className="h-6 rounded bg-green-400" style={{ width: `${37.68}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">37.7 personer</span>
                   </div>
                 </div>
               </div>
@@ -436,8 +436,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-32 text-sm font-medium text-lokka-secondary">700k - 800k</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-6 rounded bg-green-400" style={{ width: `${11.55}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">11.5 personer</span>
+                    <div className="h-6 rounded bg-green-400" style={{ width: `${22.01}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">22.0 personer</span>
                   </div>
                 </div>
               </div>
@@ -445,8 +445,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-32 text-sm font-medium text-lokka-secondary">800k - 1M</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-6 rounded bg-green-500" style={{ width: `${22.48}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">22.5 personer</span>
+                    <div className="h-6 rounded bg-green-500" style={{ width: `${48.24}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">48.2 personer</span>
                   </div>
                 </div>
               </div>
@@ -454,8 +454,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-32 text-sm font-medium text-lokka-secondary">1M - 1.5M</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-6 rounded bg-green-300" style={{ width: `${3.36}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">3.4 personer</span>
+                    <div className="h-6 rounded bg-green-300" style={{ width: `${5.53}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">5.5 personer</span>
                   </div>
                 </div>
               </div>
@@ -463,8 +463,8 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="w-32 text-sm font-medium text-lokka-secondary">1.5M+</div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="h-6 rounded bg-green-300" style={{ width: `${2.03}%` }}></div>
-                    <span className="text-sm text-lokka-secondary">2.0 personer</span>
+                    <div className="h-6 rounded bg-green-300" style={{ width: `${3.76}%` }}></div>
+                    <span className="text-sm text-lokka-secondary">3.8 personer</span>
                   </div>
                 </div>
               </div>
@@ -491,15 +491,15 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="mb-2 flex items-center justify-between">
                   <span className="text-sm font-medium text-lokka-secondary">Mandag</span>
                   <div className="flex gap-4 text-xs">
-                    <span className="text-blue-600">Besøkende: 5,813</span>
-                    <span className="text-green-600">På jobb: 1,820</span>
-                    <span className="text-purple-600">Hjemme: 5,393</span>
+                    <span className="text-blue-600">Besøkende: 9,102</span>
+                    <span className="text-green-600">På jobb: 2,954</span>
+                    <span className="text-purple-600">Hjemme: 7,854</span>
                   </div>
                 </div>
                 <div className="flex gap-1">
-                  <div className="h-8 rounded-l bg-blue-500" style={{ width: `${(5813/8249)*100}%` }} title="Besøkende"></div>
-                  <div className="h-8 bg-green-500" style={{ width: `${(1820/8249)*100}%` }} title="På jobb"></div>
-                  <div className="h-8 rounded-r bg-purple-500" style={{ width: `${(5393/8249)*100}%` }} title="Hjemme"></div>
+                  <div className="h-8 rounded-l bg-blue-500" style={{ width: `${(9102/14046)*100}%` }} title="Besøkende"></div>
+                  <div className="h-8 bg-green-500" style={{ width: `${(2954/14046)*100}%` }} title="På jobb"></div>
+                  <div className="h-8 rounded-r bg-purple-500" style={{ width: `${(7854/14046)*100}%` }} title="Hjemme"></div>
                 </div>
               </div>
 
@@ -507,15 +507,15 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="mb-2 flex items-center justify-between">
                   <span className="text-sm font-medium text-lokka-secondary">Tirsdag</span>
                   <div className="flex gap-4 text-xs">
-                    <span className="text-blue-600">Besøkende: 6,139</span>
-                    <span className="text-green-600">På jobb: 1,887</span>
-                    <span className="text-purple-600">Hjemme: 5,475</span>
+                    <span className="text-blue-600">Besøkende: 9,709</span>
+                    <span className="text-green-600">På jobb: 3,116</span>
+                    <span className="text-purple-600">Hjemme: 8,003</span>
                   </div>
                 </div>
                 <div className="flex gap-1">
-                  <div className="h-8 rounded-l bg-blue-500" style={{ width: `${(6139/8249)*100}%` }}></div>
-                  <div className="h-8 bg-green-500" style={{ width: `${(1887/8249)*100}%` }}></div>
-                  <div className="h-8 rounded-r bg-purple-500" style={{ width: `${(5475/8249)*100}%` }}></div>
+                  <div className="h-8 rounded-l bg-blue-500" style={{ width: `${(9709/14046)*100}%` }}></div>
+                  <div className="h-8 bg-green-500" style={{ width: `${(3116/14046)*100}%` }}></div>
+                  <div className="h-8 rounded-r bg-purple-500" style={{ width: `${(8003/14046)*100}%` }}></div>
                 </div>
               </div>
 
@@ -523,15 +523,15 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="mb-2 flex items-center justify-between">
                   <span className="text-sm font-medium text-lokka-secondary">Onsdag</span>
                   <div className="flex gap-4 text-xs">
-                    <span className="text-blue-600">Besøkende: 6,520</span>
-                    <span className="text-green-600">På jobb: 1,961</span>
-                    <span className="text-purple-600">Hjemme: 5,494</span>
+                    <span className="text-blue-600">Besøkende: 10,294</span>
+                    <span className="text-green-600">På jobb: 3,163</span>
+                    <span className="text-purple-600">Hjemme: 8,065</span>
                   </div>
                 </div>
                 <div className="flex gap-1">
-                  <div className="h-8 rounded-l bg-blue-500" style={{ width: `${(6520/8249)*100}%` }}></div>
-                  <div className="h-8 bg-green-500" style={{ width: `${(1961/8249)*100}%` }}></div>
-                  <div className="h-8 rounded-r bg-purple-500" style={{ width: `${(5494/8249)*100}%` }}></div>
+                  <div className="h-8 rounded-l bg-blue-500" style={{ width: `${(10294/14046)*100}%` }}></div>
+                  <div className="h-8 bg-green-500" style={{ width: `${(3163/14046)*100}%` }}></div>
+                  <div className="h-8 rounded-r bg-purple-500" style={{ width: `${(8065/14046)*100}%` }}></div>
                 </div>
               </div>
 
@@ -539,15 +539,15 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="mb-2 flex items-center justify-between">
                   <span className="text-sm font-medium text-lokka-secondary">Torsdag</span>
                   <div className="flex gap-4 text-xs">
-                    <span className="text-blue-600">Besøkende: 6,639</span>
-                    <span className="text-green-600">På jobb: 1,969</span>
-                    <span className="text-purple-600">Hjemme: 5,470</span>
+                    <span className="text-blue-600">Besøkende: 10,641</span>
+                    <span className="text-green-600">På jobb: 3,161</span>
+                    <span className="text-purple-600">Hjemme: 8,063</span>
                   </div>
                 </div>
                 <div className="flex gap-1">
-                  <div className="h-8 rounded-l bg-blue-500" style={{ width: `${(6639/8249)*100}%` }}></div>
-                  <div className="h-8 bg-green-500" style={{ width: `${(1969/8249)*100}%` }}></div>
-                  <div className="h-8 rounded-r bg-purple-500" style={{ width: `${(5470/8249)*100}%` }}></div>
+                  <div className="h-8 rounded-l bg-blue-500" style={{ width: `${(10641/14046)*100}%` }}></div>
+                  <div className="h-8 bg-green-500" style={{ width: `${(3161/14046)*100}%` }}></div>
+                  <div className="h-8 rounded-r bg-purple-500" style={{ width: `${(8063/14046)*100}%` }}></div>
                 </div>
               </div>
 
@@ -555,15 +555,15 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="mb-2 flex items-center justify-between">
                   <span className="text-sm font-medium text-lokka-secondary">Fredag</span>
                   <div className="flex gap-4 text-xs">
-                    <span className="text-blue-600">Besøkende: 7,623</span>
-                    <span className="text-green-600">På jobb: 2,125</span>
-                    <span className="text-purple-600">Hjemme: 5,380</span>
+                    <span className="text-blue-600">Besøkende: 12,486</span>
+                    <span className="text-green-600">På jobb: 3,306</span>
+                    <span className="text-purple-600">Hjemme: 8,157</span>
                   </div>
                 </div>
                 <div className="flex gap-1">
-                  <div className="h-8 rounded-l bg-blue-500" style={{ width: `${(7623/8249)*100}%` }}></div>
-                  <div className="h-8 bg-green-500" style={{ width: `${(2125/8249)*100}%` }}></div>
-                  <div className="h-8 rounded-r bg-purple-500" style={{ width: `${(5380/8249)*100}%` }}></div>
+                  <div className="h-8 rounded-l bg-blue-500" style={{ width: `${(12486/14046)*100}%` }}></div>
+                  <div className="h-8 bg-green-500" style={{ width: `${(3306/14046)*100}%` }}></div>
+                  <div className="h-8 rounded-r bg-purple-500" style={{ width: `${(8157/14046)*100}%` }}></div>
                 </div>
               </div>
 
@@ -571,15 +571,15 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="mb-2 flex items-center justify-between">
                   <span className="text-sm font-medium text-lokka-secondary font-bold">Lørdag (Travleste dag)</span>
                   <div className="flex gap-4 text-xs font-bold">
-                    <span className="text-blue-600">Besøkende: 8,249</span>
-                    <span className="text-green-600">På jobb: 2,244</span>
-                    <span className="text-purple-600">Hjemme: 5,176</span>
+                    <span className="text-blue-600">Besøkende: 14,046</span>
+                    <span className="text-green-600">På jobb: 3,157</span>
+                    <span className="text-purple-600">Hjemme: 8,150</span>
                   </div>
                 </div>
                 <div className="flex gap-1">
-                  <div className="h-10 rounded-l bg-blue-600" style={{ width: `${(8249/8249)*100}%` }}></div>
-                  <div className="h-10 bg-green-600" style={{ width: `${(2244/8249)*100}%` }}></div>
-                  <div className="h-10 rounded-r bg-purple-600" style={{ width: `${(5176/8249)*100}%` }}></div>
+                  <div className="h-10 rounded-l bg-blue-600" style={{ width: `${(14046/14046)*100}%` }}></div>
+                  <div className="h-10 bg-green-600" style={{ width: `${(3157/14046)*100}%` }}></div>
+                  <div className="h-10 rounded-r bg-purple-600" style={{ width: `${(8150/14046)*100}%` }}></div>
                 </div>
                 <p className="mt-2 text-xs text-blue-700">16% av ukesbesøk</p>
               </div>
@@ -588,15 +588,15 @@ export default function NedreThorvaldMeyersGatePage() {
                 <div className="mb-2 flex items-center justify-between">
                   <span className="text-sm font-medium text-lokka-secondary">Søndag</span>
                   <div className="flex gap-4 text-xs">
-                    <span className="text-blue-600">Besøkende: 6,638</span>
-                    <span className="text-green-600">På jobb: 1,757</span>
-                    <span className="text-purple-600">Hjemme: 4,996</span>
+                    <span className="text-blue-600">Besøkende: 9,800</span>
+                    <span className="text-green-600">På jobb: 2,236</span>
+                    <span className="text-purple-600">Hjemme: 7,477</span>
                   </div>
                 </div>
                 <div className="flex gap-1">
-                  <div className="h-8 rounded-l bg-blue-500" style={{ width: `${(6638/8249)*100}%` }}></div>
-                  <div className="h-8 bg-green-500" style={{ width: `${(1757/8249)*100}%` }}></div>
-                  <div className="h-8 rounded-r bg-purple-500" style={{ width: `${(4996/8249)*100}%` }}></div>
+                  <div className="h-8 rounded-l bg-blue-500" style={{ width: `${(9800/14046)*100}%` }}></div>
+                  <div className="h-8 bg-green-500" style={{ width: `${(2236/14046)*100}%` }}></div>
+                  <div className="h-8 rounded-r bg-purple-500" style={{ width: `${(7477/14046)*100}%` }}></div>
                 </div>
               </div>
             </div>
@@ -691,16 +691,16 @@ export default function NedreThorvaldMeyersGatePage() {
               <h3 className="mb-2 text-sm font-semibold uppercase tracking-wider text-purple-900/70">
                 Mat og Opplevelser
               </h3>
-              <p className="mb-1 text-3xl font-bold text-purple-900">11</p>
-              <p className="text-sm text-purple-700">konsepter (39%)</p>
+              <p className="mb-1 text-3xl font-bold text-purple-900">18</p>
+              <p className="text-sm text-purple-700">konsepter (50%)</p>
             </div>
 
             <div className="rounded-xl bg-purple-50 p-6">
               <h3 className="mb-2 text-sm font-semibold uppercase tracking-wider text-purple-900/70">
                 Handel
               </h3>
-              <p className="mb-1 text-3xl font-bold text-purple-900">14</p>
-              <p className="text-sm text-purple-700">konsepter (50%)</p>
+              <p className="mb-1 text-3xl font-bold text-purple-900">15</p>
+              <p className="text-sm text-purple-700">konsepter (42%)</p>
             </div>
 
             <div className="rounded-xl bg-purple-50 p-6">
@@ -708,7 +708,7 @@ export default function NedreThorvaldMeyersGatePage() {
                 Tjenester
               </h3>
               <p className="mb-1 text-3xl font-bold text-purple-900">3</p>
-              <p className="text-sm text-purple-700">konsepter (11%)</p>
+              <p className="text-sm text-purple-700">konsepter (8%)</p>
             </div>
           </div>
 
@@ -719,7 +719,7 @@ export default function NedreThorvaldMeyersGatePage() {
             </h3>
             <p className="mb-6 text-sm text-lokka-secondary">
               Fugleperspektiv viser gatestrekningen med høy tetthet av konsepter.
-              Området består av 28 virksomheter fordelt over en kort strekning, noe som bidrar til en levende gatebruksopplevelse.
+              Området består av 40 virksomheter fordelt over en kort strekning, noe som bidrar til en levende gatebruksopplevelse.
             </p>
 
             <ExpandableImage
@@ -753,18 +753,22 @@ export default function NedreThorvaldMeyersGatePage() {
             <div className="space-y-6">
               {/* Mat og opplevelser */}
               <div>
-                <h4 className="mb-3 font-semibold text-purple-900">Mat og opplevelser (11 konsepter)</h4>
+                <h4 className="mb-3 font-semibold text-purple-900">Mat og opplevelser (18 konsepter)</h4>
                 <div className="space-y-2 pl-4">
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-lokka-secondary">Restaurant</span>
-                    <span className="font-semibold text-lokka-primary">7</span>
+                    <span className="font-semibold text-lokka-primary">14</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-lokka-secondary">Bakeri og kafé</span>
-                    <span className="font-semibold text-lokka-primary">3</span>
+                    <span className="font-semibold text-lokka-primary">2</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-lokka-secondary">Pub og bar</span>
+                    <span className="font-semibold text-lokka-primary">1</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-lokka-secondary">Barer</span>
                     <span className="font-semibold text-lokka-primary">1</span>
                   </div>
                 </div>
@@ -772,26 +776,30 @@ export default function NedreThorvaldMeyersGatePage() {
 
               {/* Handel */}
               <div>
-                <h4 className="mb-3 font-semibold text-purple-900">Handel (14 konsepter)</h4>
+                <h4 className="mb-3 font-semibold text-purple-900">Handel (15 konsepter)</h4>
                 <div className="space-y-2 pl-4">
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-lokka-secondary">Klesbutikker</span>
-                    <span className="font-semibold text-lokka-primary">6</span>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm text-lokka-secondary">Mat og drikke</span>
                     <span className="font-semibold text-lokka-primary">4</span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-lokka-secondary">Sport og fritid</span>
-                    <span className="font-semibold text-lokka-primary">2</span>
+                    <span className="text-sm text-lokka-secondary">Hjem og interiør</span>
+                    <span className="font-semibold text-lokka-primary">4</span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-lokka-secondary">Hjem og interiør</span>
-                    <span className="font-semibold text-lokka-primary">1</span>
+                    <span className="text-sm text-lokka-secondary">Mat og drikke</span>
+                    <span className="font-semibold text-lokka-primary">3</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-lokka-secondary">Annen handel</span>
+                    <span className="font-semibold text-lokka-primary">2</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-lokka-secondary">Elektrobutikker</span>
+                    <span className="font-semibold text-lokka-primary">1</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-lokka-secondary">Sport og fritid</span>
                     <span className="font-semibold text-lokka-primary">1</span>
                   </div>
                 </div>
@@ -806,7 +814,7 @@ export default function NedreThorvaldMeyersGatePage() {
                     <span className="font-semibold text-lokka-primary">2</span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-lokka-secondary">Profesjoner</span>
+                    <span className="text-sm text-lokka-secondary">Andre tjenester</span>
                     <span className="font-semibold text-lokka-primary">1</span>
                   </div>
                 </div>
@@ -938,7 +946,7 @@ export default function NedreThorvaldMeyersGatePage() {
               <h3 className="mb-2 text-sm font-semibold uppercase tracking-wider text-amber-900/70">
                 Total Korthandel (Periode)
               </h3>
-              <p className="mb-1 text-3xl font-bold text-amber-900">NOK 4.2 mrd.</p>
+              <p className="mb-1 text-3xl font-bold text-amber-900">NOK 7.5 mrd.</p>
               <p className="text-sm text-amber-700">Hele perioden</p>
             </div>
 
@@ -946,7 +954,7 @@ export default function NedreThorvaldMeyersGatePage() {
               <h3 className="mb-2 text-sm font-semibold uppercase tracking-wider text-amber-900/70">
                 Beløp per Transaksjon
               </h3>
-              <p className="mb-1 text-3xl font-bold text-amber-900">NOK 216</p>
+              <p className="mb-1 text-3xl font-bold text-amber-900">NOK 255</p>
               <p className="text-sm text-amber-700">Gjennomsnitt</p>
             </div>
           </div>
@@ -954,7 +962,6 @@ export default function NedreThorvaldMeyersGatePage() {
           <div className="rounded-xl bg-amber-50 p-6">
             <h4 className="mb-3 font-semibold text-amber-900">Siste Trender</h4>
             <div className="space-y-2 text-sm text-amber-800">
-              <p><strong>Endring siste 30 dager:</strong> -0.9% (25.10.2025 – 23.11.2025)</p>
               <p><strong>Status:</strong> Faktiske data</p>
               <p><strong>Kilde:</strong> BankAxept</p>
             </div>
