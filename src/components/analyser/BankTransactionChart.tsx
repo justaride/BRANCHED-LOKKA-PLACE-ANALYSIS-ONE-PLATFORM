@@ -100,11 +100,24 @@ export default function BankTransactionChart({
     return [Math.max(0, min - padding), max + padding];
   }, [chartData]);
 
+  const dataYear = useMemo(() => {
+    if (data.length === 0) return '';
+    return new Date(data[0].date).getFullYear().toString();
+  }, [data]);
+
+  const totalRevenue = useMemo(() => {
+    const total = data.reduce((sum, d) => sum + d.amount, 0);
+    const billions = total / 1_000_000_000;
+    return billions >= 1
+      ? `NOK ${billions.toFixed(2).replace('.', ',')} milliarder`
+      : `NOK ${(total / 1_000_000).toFixed(0)} millioner`;
+  }, [data]);
+
   return (
     <div className={`rounded-xl bg-white p-6 shadow-sm ${className}`}>
       <div className="mb-4">
         <h3 className="text-lg font-semibold text-natural-forest">
-          Banktransaksjoner 2024
+          Banktransaksjoner {dataYear}
         </h3>
         <p className="text-sm text-gray-600">
           Daglig korthandel på Grünerløkka (+5 Urbant område)
@@ -152,7 +165,7 @@ export default function BankTransactionChart({
       </div>
 
       <div className="mt-3 text-center text-xs text-gray-500">
-        Total årsomsetning: NOK 3,97 milliarder
+        Total årsomsetning: {totalRevenue}
       </div>
     </div>
   );

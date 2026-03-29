@@ -21,29 +21,17 @@ interface BevegelseChartsProps {
 
 interface BesokPerTime {
   Category: string;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), Besøkende, 01.01.2024 - 31.12.2024': number;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), På jobb, 01.01.2024 - 31.12.2024': number;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), Hjemme, 01.01.2024 - 31.12.2024': number;
+  [key: string]: string | number;
 }
 
 interface BesokPerUkedag {
   Category: string;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), Besøkende, 01.01.2024 - 31.12.2024': number;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), På jobb, 01.01.2024 - 31.12.2024': number;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), Hjemme, 01.01.2024 - 31.12.2024': number;
+  [key: string]: string | number;
 }
 
 interface Bevegelsesmonster {
   Category: string;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), Besøkende, 2023': number | null;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), Besøkende, 2024': number | null;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), Besøkende, 2025': number | null;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), På jobb, 2023': number | null;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), På jobb, 2024': number | null;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), På jobb, 2025': number | null;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), Hjemme, 2023': number | null;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), Hjemme, 2024': number | null;
-  'Thorvald Meyers gate 40B (Område 1.14 km²), Hjemme, 2025': number | null;
+  [key: string]: string | number | null;
 }
 
 interface OmraderBesokende {
@@ -89,40 +77,61 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
     loadData();
   }, [basePath]);
 
-  // Transform data for simpler chart rendering with null-safe handling
+  const findKey = (obj: Record<string, unknown>, substring: string): string | undefined => {
+    return Object.keys(obj).find(k => k.includes(substring));
+  };
+
   const timeChartData = useMemo(() => {
+    if (besokTimeData.length === 0) return [];
+    const sample = besokTimeData[0];
+    const besokendeKey = findKey(sample, 'Besøkende');
+    const jobbKey = findKey(sample, 'På jobb');
+    const hjemmeKey = findKey(sample, 'Hjemme');
     return besokTimeData.map(d => ({
       time: d.Category ?? 'Ukjent',
-      Besøkende: safeNumber(d['Thorvald Meyers gate 40B (Område 1.14 km²), Besøkende, 01.01.2024 - 31.12.2024'], 0),
-      'På jobb': safeNumber(d['Thorvald Meyers gate 40B (Område 1.14 km²), På jobb, 01.01.2024 - 31.12.2024'], 0),
-      Hjemme: safeNumber(d['Thorvald Meyers gate 40B (Område 1.14 km²), Hjemme, 01.01.2024 - 31.12.2024'], 0),
+      Besøkende: safeNumber(besokendeKey ? d[besokendeKey] : 0, 0),
+      'På jobb': safeNumber(jobbKey ? d[jobbKey] : 0, 0),
+      Hjemme: safeNumber(hjemmeKey ? d[hjemmeKey] : 0, 0),
     }));
   }, [besokTimeData]);
 
   const ukedagChartData = useMemo(() => {
+    if (besokUkedagData.length === 0) return [];
+    const sample = besokUkedagData[0];
+    const besokendeKey = findKey(sample, 'Besøkende');
+    const jobbKey = findKey(sample, 'På jobb');
+    const hjemmeKey = findKey(sample, 'Hjemme');
     return besokUkedagData.map(d => ({
       ukedag: d.Category ?? 'Ukjent',
-      Besøkende: safeNumber(d['Thorvald Meyers gate 40B (Område 1.14 km²), Besøkende, 01.01.2024 - 31.12.2024'], 0),
-      'På jobb': safeNumber(d['Thorvald Meyers gate 40B (Område 1.14 km²), På jobb, 01.01.2024 - 31.12.2024'], 0),
-      Hjemme: safeNumber(d['Thorvald Meyers gate 40B (Område 1.14 km²), Hjemme, 01.01.2024 - 31.12.2024'], 0),
+      Besøkende: safeNumber(besokendeKey ? d[besokendeKey] : 0, 0),
+      'På jobb': safeNumber(jobbKey ? d[jobbKey] : 0, 0),
+      Hjemme: safeNumber(hjemmeKey ? d[hjemmeKey] : 0, 0),
     }));
   }, [besokUkedagData]);
 
-  // Flatten bevegelsesmonster data for line chart with null-safe handling
   const bevegelseLineData = useMemo(() => {
+    if (bevegelsesmonsterData.length === 0) return [];
+    const sample = bevegelsesmonsterData[0];
+    const besokendeKeys = Object.keys(sample).filter(k => k.includes('Besøkende'));
+    const years = besokendeKeys.map(k => {
+      const match = k.match(/(\d{4})$/);
+      return match ? match[1] : null;
+    }).filter(Boolean) as string[];
+
     const flattened: { quarter: string; Besøkende: number; 'På jobb': number; Hjemme: number }[] = [];
     bevegelsesmonsterData.forEach(q => {
-      ['2023', '2024', '2025'].forEach(year => {
-        const besokende = q[`Thorvald Meyers gate 40B (Område 1.14 km²), Besøkende, ${year}` as keyof Bevegelsesmonster];
-        const paJobb = q[`Thorvald Meyers gate 40B (Område 1.14 km²), På jobb, ${year}` as keyof Bevegelsesmonster];
-        const hjemme = q[`Thorvald Meyers gate 40B (Område 1.14 km²), Hjemme, ${year}` as keyof Bevegelsesmonster];
+      years.forEach(year => {
+        const besokendeKey = Object.keys(q).find(k => k.includes('Besøkende') && k.endsWith(year));
+        const jobbKey = Object.keys(q).find(k => k.includes('På jobb') && k.endsWith(year));
+        const hjemmeKey = Object.keys(q).find(k => k.includes('Hjemme') && k.endsWith(year));
 
+        const besokende = besokendeKey ? q[besokendeKey] : null;
         if (besokende !== null && besokende !== undefined) {
           flattened.push({
             quarter: `${q.Category ?? 'Q?'} ${year}`,
             Besøkende: safeNumber(besokende, 0),
-            'På jobb': safeNumber(paJobb, 0),
-            Hjemme: safeNumber(hjemme, 0),
+            'På jobb': safeNumber(jobbKey ? q[jobbKey] : 0, 0),
+            Hjemme: safeNumber(hjemmeKey ? q[hjemmeKey] : 0, 0),
           });
         }
       });

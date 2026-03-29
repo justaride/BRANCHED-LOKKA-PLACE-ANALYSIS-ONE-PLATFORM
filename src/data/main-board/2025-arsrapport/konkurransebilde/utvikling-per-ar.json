@@ -1,1 +1,13 @@
-[]
+[
+  { "Category": 2015, "Mat og opplevelser": 884.843, "Handel": 1638.971, "Tjenester": 212.593 },
+  { "Category": 2016, "Mat og opplevelser": 942.485, "Handel": 1697.947, "Tjenester": 211.687 },
+  { "Category": 2017, "Mat og opplevelser": 1041.279, "Handel": 1645.919, "Tjenester": 236.544 },
+  { "Category": 2018, "Mat og opplevelser": 1096.21, "Handel": 1742.541, "Tjenester": 242.561 },
+  { "Category": 2019, "Mat og opplevelser": 1220.389, "Handel": 1722.443, "Tjenester": 241.834 },
+  { "Category": 2020, "Mat og opplevelser": 970.023, "Handel": 1898.943, "Tjenester": 231.694 },
+  { "Category": 2021, "Mat og opplevelser": 1077.191, "Handel": 1946.984, "Tjenester": 243.105 },
+  { "Category": 2022, "Mat og opplevelser": 1520.376, "Handel": 1881.236, "Tjenester": 289.01 },
+  { "Category": 2023, "Mat og opplevelser": 1584.953, "Handel": 1947.809, "Tjenester": 309.333 },
+  { "Category": 2024, "Mat og opplevelser": 1654.041, "Handel": 2013.699, "Tjenester": 340.831 },
+  { "Category": 2025, "Mat og opplevelser": 1632.0, "Handel": 2127.467, "Tjenester": 312.047 }
+]

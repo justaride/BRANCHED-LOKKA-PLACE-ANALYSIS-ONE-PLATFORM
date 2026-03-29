@@ -37,9 +37,7 @@ interface Konseptmiks {
 
 interface OverUnderandel {
   Category: string;
-  'Dining and Experiences (Thorvald Meyers gate 40B (Område 1.14 km²))': number | null;
-  'Retail (Thorvald Meyers gate 40B (Område 1.14 km²))': number | null;
-  'Services (Thorvald Meyers gate 40B (Område 1.14 km²))': number | null;
+  [key: string]: string | number | null;
 }
 
 interface UtviklingPerAr {
@@ -201,7 +199,7 @@ export default function KonkurransebildeCharts({
         {activeTab === 0 && (
           <div>
             <h3 className="mb-4 text-lg font-semibold text-natural-forest">
-              Kjeder vs. Uavhengige (2015-2025)
+              Kjeder vs. Uavhengige{kjederData.length > 0 && ` (${kjederData[0].Category}-${kjederData[kjederData.length - 1].Category})`}
             </h3>
             <div className="h-80 md:h-96">
               <ResponsiveContainer width="100%" height="100%">
@@ -292,15 +290,14 @@ export default function KonkurransebildeCharts({
         )}
 
         {activeTab === 2 && (() => {
-          const overUnderChartData = overUnderandelData.map(d => ({
-            category: d.Category ?? 'Ukjent',
-            value: safeNumber(
-              d['Dining and Experiences (Thorvald Meyers gate 40B (Område 1.14 km²))'] ??
-              d['Retail (Thorvald Meyers gate 40B (Område 1.14 km²))'] ??
-              d['Services (Thorvald Meyers gate 40B (Område 1.14 km²))'],
-              0
-            )
-          })).filter(d => d.value !== 0 || d.category !== 'Ukjent');
+          const overUnderChartData = overUnderandelData.map(d => {
+            const valueKeys = Object.keys(d).filter(k => k !== 'Category');
+            const nonNullKey = valueKeys.find(k => d[k] !== null && d[k] !== undefined);
+            return {
+              category: d.Category ?? 'Ukjent',
+              value: safeNumber(nonNullKey ? d[nonNullKey] : 0, 0),
+            };
+          }).filter(d => d.value !== 0 || d.category !== 'Ukjent');
 
           return (
             <div>

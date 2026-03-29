@@ -22,37 +22,35 @@ interface KorthandelChartsProps {
 }
 
 interface ArligVekst {
-  DateTime: number;
-  'Grünerløkka nord (+5 Urbant område) (x)': number;
-  'Grünerløkka nord (+5 Urbant område) - year-to-date (%)': number;
-  'NOK (M)': number;
-  'Oslo (Kommune) (x)': number;
-  'Oslo (Kommune) - year-to-date (%)': number;
-  'Norway (Land) (x)': number;
-  'Norway (Land) - year-to-date (%)': number;
+  DateTime: number | string;
+  [key: string]: string | number | undefined;
 }
 
 interface KorthandelTidsrom {
   DateTime: string;
-  Handel: string;
   sumTransactionAmount: number | null;
-  'Handel (batchDate)': string;
-  'Mat og opplevelser': string;
-  'Mat og opplevelser (batchDate)': string;
-  Tjenester: string | null;
-  'Tjenester (batchDate)': string | null;
+  batchDate?: string;
+  Handel?: string;
+  'Handel (batchDate)'?: string;
+  'Mat og opplevelser'?: string;
+  'Mat og opplevelser (batchDate)'?: string;
+  Tjenester?: string | null;
+  'Tjenester (batchDate)'?: string | null;
+  [key: string]: string | number | null | undefined;
 }
 
 interface KorthandelUkedag {
   DateTime: string;
-  '2024': number;
+  [key: string]: string | number;
 }
 
 interface IndeksertVekst {
-  DateTime: number;
-  'Grünerløkka nord (+5 Urbant område)': number;
-  'Oslo (Kommune)': number;
-  'Norway (Land)': number;
+  DateTime: number | string;
+  'Grünerløkka nord (+5 Urbant område)'?: number;
+  'Oslo (Kommune)'?: number;
+  'Norway (Land)'?: number;
+  'Valgte kategorier'?: number;
+  [key: string]: string | number | undefined;
 }
 
 export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
@@ -97,7 +95,7 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
     const monthly: Record<string, { month: string; Handel: number; 'Mat og opplevelser': number; Tjenester: number; count: number }> = {};
 
     tidsromData.forEach(day => {
-      const batchDate = day['Handel (batchDate)'] || day['Mat og opplevelser (batchDate)'];
+      const batchDate = day['Handel (batchDate)'] || day['Mat og opplevelser (batchDate)'] || day.batchDate;
       if (!batchDate) return;
 
       const date = new Date(batchDate);
@@ -131,8 +129,24 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
       }));
   }, [tidsromData]);
 
+  const vekstKeys = useMemo(() => {
+    if (vekstData.length === 0) return { local: '', oslo: '', norge: '' };
+    const keys = Object.keys(vekstData[0]);
+    const findYtd = (sub: string) => keys.find(k => k.includes(sub) && k.includes('year-to-date')) || '';
+    return {
+      local: findYtd('Grünerløkka') || findYtd('Område') || keys.find(k => k.includes('year-to-date')) || '',
+      oslo: findYtd('Oslo'),
+      norge: findYtd('Norway') || findYtd('Norge'),
+    };
+  }, [vekstData]);
+
+  const yearKey = useMemo(() => {
+    if (ukedagData.length === 0) return '2024';
+    const keys = Object.keys(ukedagData[0]).filter(k => k !== 'DateTime');
+    return keys[0] || '2024';
+  }, [ukedagData]);
+
   const norwegianUkedagData = useMemo(() => {
-    // Map English weekday names to Norwegian
     const weekdayMap: Record<string, string> = {
       'Monday': 'man.',
       'Tuesday': 'tir.',
@@ -144,13 +158,13 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
     };
     return ukedagData.map(d => ({
       ukedag: weekdayMap[d.DateTime] || d.DateTime,
-      prosent: d['2024'],
+      prosent: d[yearKey] as number,
     }));
-  }, [ukedagData]);
+  }, [ukedagData, yearKey]);
 
   const tabs = [
     { id: 0, label: 'Årlig vekst' },
-    { id: 1, label: 'Korthandel i 2024' },
+    { id: 1, label: `Korthandel i ${yearKey}` },
     { id: 2, label: 'Per ukedag' },
     { id: 3, label: 'Indeksert vekst' },
   ];
@@ -264,30 +278,36 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
                   />
                   <Tooltip content={<CustomTooltip />} />
                   <Legend />
-                  <Line
-                    type="monotone"
-                    dataKey="Grünerløkka nord (+5 Urbant område) - year-to-date (%)"
-                    stroke="#3b82f6"
-                    strokeWidth={2}
-                    dot={{ r: 4 }}
-                    name="Grünerløkka"
-                  />
-                  <Line
-                    type="monotone"
-                    dataKey="Oslo (Kommune) - year-to-date (%)"
-                    stroke="#10b981"
-                    strokeWidth={2}
-                    dot={{ r: 4 }}
-                    name="Oslo"
-                  />
-                  <Line
-                    type="monotone"
-                    dataKey="Norway (Land) - year-to-date (%)"
-                    stroke="#f59e0b"
-                    strokeWidth={2}
-                    dot={{ r: 4 }}
-                    name="Norge"
-                  />
+                  {vekstKeys.local && (
+                    <Line
+                      type="monotone"
+                      dataKey={vekstKeys.local}
+                      stroke="#3b82f6"
+                      strokeWidth={2}
+                      dot={{ r: 4 }}
+                      name="Grünerløkka"
+                    />
+                  )}
+                  {vekstKeys.oslo && (
+                    <Line
+                      type="monotone"
+                      dataKey={vekstKeys.oslo}
+                      stroke="#10b981"
+                      strokeWidth={2}
+                      dot={{ r: 4 }}
+                      name="Oslo"
+                    />
+                  )}
+                  {vekstKeys.norge && (
+                    <Line
+                      type="monotone"
+                      dataKey={vekstKeys.norge}
+                      stroke="#f59e0b"
+                      strokeWidth={2}
+                      dot={{ r: 4 }}
+                      name="Norge"
+                    />
+                  )}
                 </LineChart>
               </ResponsiveContainer>
             </div>
@@ -297,7 +317,7 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
         {activeTab === 1 && (
           <div>
             <h3 className="mb-4 text-lg font-semibold text-blue-600">
-              Korthandel i 2024 (månedlig)
+              Korthandel i {yearKey} (månedlig)
             </h3>
             <div className="h-80 md:h-96">
               <ResponsiveContainer width="100%" height="100%">
@@ -395,37 +415,78 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
         {activeTab === 3 && (
           <div>
             <h3 className="mb-4 text-lg font-semibold text-blue-600">
-              Indeksert vekst (2024 = 100)
+              Indeksert vekst (uke 1 = 100)
             </h3>
-            <div className="rounded-lg bg-blue-50 p-6">
-              <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-                {indeksData.map((data) => (
-                  <div key={data.DateTime}>
-                    <div className="rounded-lg bg-white p-4 shadow-sm">
-                      <p className="mb-2 text-sm text-gray-600">Grünerløkka</p>
-                      <p className="text-3xl font-bold text-blue-600">
-                        {data['Grünerløkka nord (+5 Urbant område)']}
-                      </p>
-                    </div>
-                    <div className="mt-4 rounded-lg bg-white p-4 shadow-sm">
-                      <p className="mb-2 text-sm text-gray-600">Oslo</p>
-                      <p className="text-3xl font-bold text-green-600">
-                        {data['Oslo (Kommune)']}
-                      </p>
-                    </div>
-                    <div className="mt-4 rounded-lg bg-white p-4 shadow-sm">
-                      <p className="mb-2 text-sm text-gray-600">Norge</p>
-                      <p className="text-3xl font-bold text-amber-600">
-                        {data['Norway (Land)']}
-                      </p>
-                    </div>
-                  </div>
-                ))}
+            {indeksData.length > 0 && indeksData[0]['Valgte kategorier'] !== undefined ? (
+              <div className="h-80 md:h-96">
+                <ResponsiveContainer width="100%" height="100%">
+                  <LineChart data={indeksData} margin={{ top: 10, right: 30, left: 10, bottom: 40 }}>
+                    <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
+                    <XAxis
+                      dataKey="DateTime"
+                      tick={{ fontSize: 10, fill: '#6b7280' }}
+                      angle={-45}
+                      textAnchor="end"
+                      height={70}
+                      interval={3}
+                    />
+                    <YAxis
+                      tick={{ fontSize: 11, fill: '#6b7280' }}
+                      tickFormatter={(value) => `${value}`}
+                      label={{
+                        value: 'Indeks',
+                        angle: -90,
+                        position: 'insideLeft',
+                        style: { fontSize: 11, fill: '#6b7280' },
+                      }}
+                    />
+                    <Tooltip
+                      formatter={(value: number) => `${value.toFixed(1)}`}
+                      labelStyle={{ fontSize: '11px' }}
+                    />
+                    <Legend />
+                    <Line
+                      type="monotone"
+                      dataKey="Valgte kategorier"
+                      stroke="#3b82f6"
+                      strokeWidth={2}
+                      dot={false}
+                      name="Indeksert korthandel"
+                    />
+                  </LineChart>
+                </ResponsiveContainer>
               </div>
-              <p className="mt-4 text-center text-sm text-gray-600">
-                Baseline: 2024 = 100
-              </p>
-            </div>
+            ) : (
+              <div className="rounded-lg bg-blue-50 p-6">
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+                  {indeksData.map((data) => (
+                    <div key={data.DateTime}>
+                      <div className="rounded-lg bg-white p-4 shadow-sm">
+                        <p className="mb-2 text-sm text-gray-600">Grünerløkka</p>
+                        <p className="text-3xl font-bold text-blue-600">
+                          {data['Grünerløkka nord (+5 Urbant område)']}
+                        </p>
+                      </div>
+                      <div className="mt-4 rounded-lg bg-white p-4 shadow-sm">
+                        <p className="mb-2 text-sm text-gray-600">Oslo</p>
+                        <p className="text-3xl font-bold text-green-600">
+                          {data['Oslo (Kommune)']}
+                        </p>
+                      </div>
+                      <div className="mt-4 rounded-lg bg-white p-4 shadow-sm">
+                        <p className="mb-2 text-sm text-gray-600">Norge</p>
+                        <p className="text-3xl font-bold text-amber-600">
+                          {data['Norway (Land)']}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                <p className="mt-4 text-center text-sm text-gray-600">
+                  Baseline: 2024 = 100
+                </p>
+              </div>
+            )}
           </div>
         )}
       </div>

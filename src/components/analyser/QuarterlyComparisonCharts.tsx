@@ -109,16 +109,10 @@ export default function QuarterlyComparisonCharts({
     return `${sign}${value.toFixed(1)}%`;
   };
 
-  // Color palette for years
-  const yearColors: Record<number, string> = {
-    2019: '#8B4513',
-    2020: '#DC143C',
-    2021: '#FF8C00',
-    2022: '#32CD32',
-    2023: '#4169E1',
-    2024: '#9370DB',
-    2025: '#FF1493',
-  };
+  const colorPalette = ['#8B4513', '#DC143C', '#FF8C00', '#32CD32', '#4169E1', '#9370DB', '#FF1493', '#00CED1', '#FF6347', '#2E8B57'];
+  const yearColors: Record<number, string> = Object.fromEntries(
+    years.map((year, i) => [year, colorPalette[i % colorPalette.length]])
+  );
 
   if (validData.length === 0) {
     return (
