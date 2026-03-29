@@ -8,9 +8,9 @@
 ## Quick Reference
 
 ```yaml
-Stack: Next.js 16.0.8 | React 19.2 | TypeScript (strict) | Tailwind CSS 4 | Recharts
+Stack: Next.js 16.0.8 | React 19.2 | TypeScript (strict) | Tailwind CSS 4 | Recharts | Leaflet
 Auth: Email OTP → JWT sessions (jose + resend) | Password fallback
-Deploy: Coolify (Hetzner) behind Cloudflare
+Deploy: Coolify (Hetzner) behind Cloudflare (stoppet - lokal utvikling mars 2026)
 Dev: npm run dev → localhost:3001
 Build: npm run build (runs verify + type-check)
 Test: npm run test (Jest, 70% coverage threshold)
@@ -282,6 +282,27 @@ Data may represent something different than field names suggest. Example:
 
 **Run `npm run audit:data` to identify semantic anomalies.**
 
+### 12. Aktør Omsetning Enheter (mill vs k)
+
+Plaace raw data bruker to enheter for omsetning:
+
+- `"NOK X mill."` → millioner (topp ~300 aktører)
+- `"NOK Xk"` → tusen NOK (bunn ~50 aktører, under 1M omsetning)
+
+**Fikset 2026-03-29:** 49 aktører hadde `omsetning`-feltet feilparsed — `970k` ble lagret som `970` (mill) i stedet for `0.97`. Total omsetning gikk fra 27,748M til 4,072M (kryssvalidert mot Plaace handelsomsetning 4,265M).
+
+**Ved import av nye Plaace-data:** Sjekk alltid `omsetning_raw`-feltet for enhet (`mill.` vs `k`).
+
+### 13. Aktører Utenfor Kartutsnitt
+
+21 av 350 aktører i 2025-arsrapport har adresse utenfor Grünerløkka:
+
+- **Kjeder registrert på hovedkontor** (Lilleakerveien, Bogstadveien, Sørkedalsveien)
+- **Holdingselskap med "OSLO"** som adresse (4 stk)
+- **Feil Plaace-registrering** (f.eks. "Sabrura Markveien AS" på Olav Tryggvasons Gate)
+
+Disse vises i aktørtabellen men ikke på kartet. Ved opprydding kan de flyttes til riktig adresse eller merkes som "utenfor område".
+
 ---
 
 ## Build & Deploy
@@ -339,9 +360,11 @@ docs/
 | Metric                  | Value                                                            |
 | ----------------------- | ---------------------------------------------------------------- |
 | Static Pages            | 120                                                              |
-| JSON Data Files         | 326                                                              |
+| JSON Data Files         | 327 (+koordinat-JSON)                                            |
 | Properties              | 51                                                               |
 | Tenants                 | 10                                                               |
+| Aktører (2025)          | 350 totalt, 329 med kartkoordinater                              |
+| Aktør Omsetning (2025)  | 4,072M NOK (korrigert fra 27,748M — enhetsfiks mars 2026)       |
 | Biblioteket Categories  | 6 (ildsjeler, litteratur, historie, kultur, idrett, mediebildet) |
 | Kultur Subsections      | 5 (jazz, hiphop, film, teater, billedkunst)                      |
 | Mediebildet Subsections | 5 (avis, tv-film, podcast, digital, akademisk)                   |
@@ -403,7 +426,7 @@ When ending session:
 
 ---
 
-_Last Updated: February 25, 2026_
+_Last Updated: March 29, 2026_
 _Maintained by: Claude Code_
 
 ---

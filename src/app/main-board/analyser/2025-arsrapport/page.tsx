@@ -3,6 +3,7 @@ import Container from "@/components/ui/Container";
 import { Card, CardContent } from "@/components/ui/Card";
 import TabbedImageViewer from "@/components/analyser/TabbedImageViewer";
 import AktorOversikt from "@/components/analyser/AktorOversikt";
+import AktorMapWrapper from "@/components/analyser/AktorMapWrapper";
 import SimpleEventTimeline from "@/components/analyser/SimpleEventTimeline";
 import BankTransactionChart from "@/components/analyser/BankTransactionChart";
 import KonkurransebildeCharts from "@/components/analyser/KonkurransebildeCharts";
@@ -31,7 +32,10 @@ export default async function Analyse2025Page() {
     notFound();
   }
 
-  const aktorData = await MainBoardLoaders.loadAktorerArsrapport2025();
+  const [aktorData, aktorMapData] = await Promise.all([
+    MainBoardLoaders.loadAktorerArsrapport2025(),
+    MainBoardLoaders.loadAktorerWithCoordinates2025(),
+  ]);
 
   const timelineEvents = analysis.events || [];
 
@@ -532,6 +536,12 @@ export default async function Analyse2025Page() {
               Detaljert stedsanalyse med demografi, besøksmønstre og markedsdata
             </p>
           </div>
+
+          {aktorMapData.length > 0 && (
+            <div className="mb-8 md:mb-12">
+              <AktorMapWrapper actors={aktorMapData} />
+            </div>
+          )}
 
           {aktorkartImage && (
             <div className="mb-8 md:mb-12">

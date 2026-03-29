@@ -367,6 +367,44 @@ export async function loadAllMainBoardData() {
 }
 
 // ============================================================================
+// AKTØRER WITH COORDINATES
+// ============================================================================
+
+import type { AktorWithCoordinates, AktorCategory, CoordinateLookup } from '@/types/aktor-map';
+
+export async function loadAktorerWithCoordinates2025(): Promise<AktorWithCoordinates[]> {
+  const [aktorData, coordModule] = await Promise.all([
+    loadAktorerArsrapport2025(),
+    import('@/data/main-board/aktorer/2025-arsrapport-coordinates.json') as Promise<{ default: CoordinateLookup }>,
+  ]);
+
+  const coords = coordModule.default;
+
+  return aktorData.actors
+    .filter((a: { adresse: string }) => {
+      const c = coords[a.adresse];
+      return c && c.lat && c.lng;
+    })
+    .map((a: { rank: string; navn: string; type: string; adresse: string; omsetning: number; yoy_vekst: number | null; ansatte: number; markedsandel: number }) => {
+      const c = coords[a.adresse]!;
+      const category = a.type.split(' / ')[0] as AktorCategory;
+      return {
+        rank: a.rank,
+        navn: a.navn,
+        type: a.type,
+        adresse: a.adresse,
+        omsetning: a.omsetning,
+        yoy_vekst: a.yoy_vekst,
+        ansatte: a.ansatte,
+        markedsandel: a.markedsandel,
+        lat: c.lat,
+        lng: c.lng,
+        category,
+      };
+    });
+}
+
+// ============================================================================
 // CONVENIENCE EXPORTS
 // ============================================================================
 
@@ -400,6 +438,9 @@ export const MainBoardLoaders = {
 
   // Graphs
   loadGraphsRegistry,
+
+  // Aktører with coordinates
+  loadAktorerWithCoordinates2025,
 
   // Batch loaders
   loadAllAnalyserData,

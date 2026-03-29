@@ -1,13 +1,30 @@
 # Løkka Gardeierforening Platform - Project Status
 
-**Last Updated:** February 25, 2026 - Email OTP Authentication Migration
+**Last Updated:** March 29, 2026 - Interaktivt aktørkart + Omsetning enhetsfiks
 **Current Status:** 🚀 **PRODUCTION READY** (99% Complete)
-**Deployment:** ✅ Live on Coolify (Hetzner) behind Cloudflare
+**Deployment:** Stoppet - lokal utvikling
 **URL:** Cloudflare domain -> Coolify app
 **Build Status:** ✅ 122 static pages, ESLint 0 issues, Data Audit 0 CRITICAL
 **Test Status:** ✅ Jest configured with 70% coverage threshold
 **Latest Updates:**
 
+- **March 29, 2026: Interaktivt Aktørkart** - ✅ **COMPLETE** - Leaflet-basert interaktivt kart med 329 av 350 aktører plassert på Grünerløkka:
+  - **Ny avhengighet:** `leaflet`, `react-leaflet`, `@types/leaflet`
+  - **Geocoding:** 267 unike adresser geocodet via Nominatim (OSM) + 11 Olaf Ryes Plass manuelt
+  - **Nye filer:** `src/components/analyser/AktorMap.tsx`, `AktorMapWrapper.tsx`, `src/types/aktor-map.ts`
+  - **Koordinat-data:** `src/data/main-board/aktorer/2025-arsrapport-coordinates.json` (249 adresser)
+  - **Loader:** `loadAktorerWithCoordinates2025()` i `src/lib/loaders/main-board.ts`
+  - **Geocoding-script:** `scripts/geocode-actors.mjs` (engangskjøring, Nominatim med rate limiting)
+  - **Fargekoding:** Handel (blå), Mat & opplevelser (rød), Tjenester (lilla)
+  - **Interaktivt:** Kategorifilter, klikk-popup med omsetning/vekst/ansatte, hover-tooltip
+  - **21 aktører ekskludert:** Adresser utenfor Grünerløkka (Lilleaker, Bøler, Bogstadveien etc.)
+- **March 29, 2026: Omsetning Enhetsfiks** - ✅ **CRITICAL FIX** - 49 aktører (#302-#350) hadde omsetning i tusen (k) lagret som millioner:
+  - **Rotårsak:** Plaace raw data bruker "NOK Xk" for aktører under 1M, men parsing tok tallverdien uten enhetskonvertering
+  - **Feilaktig total:** 27,748M NOK → **Korrigert total:** 4,072M NOK
+  - **Kryssvalidert:** Plaace analyse-data rapporterer handelsomsetning 4,265M — matcher korrigert verdi
+  - **Påvirket:** totalRevenue, categoryStats, markedsandel for alle 350 aktører rekalkulert
+  - **Kategori-korreksjon:** Handel 8,423M→2,129M | Mat&opplevelser 14,187M→1,629M | Tjenester 5,138M→313M
+  - **Fix-script:** `/private/tmp/claude-501/fix-revenue-units.js` (engangskjøring)
 - **February 25, 2026: Email OTP Authentication** - ✅ **COMPLETE** - Migrated from shared passwords to email OTP with signed JWT cookies:
   - **New auth flow:** Email → 6-digit OTP code → JWT session (90 days)
   - **New files:** `src/lib/auth.ts` (JWT+OTP), `src/lib/email.ts` (Resend), `src/lib/tenant-emails.ts` (allowlists)
