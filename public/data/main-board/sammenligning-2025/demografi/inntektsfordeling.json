@@ -1,0 +1,86 @@
+[
+  {
+    "category": "0 NOK",
+    "grunerlokka": 44774.19,
+    "bjorvika": 21675.46,
+    "sentrum": 40035.5,
+    "majorstuen": 34000.18
+  },
+  {
+    "category": "0 NOK - NOK 100k",
+    "grunerlokka": 47496.66,
+    "bjorvika": 22155.98,
+    "sentrum": 41201.81,
+    "majorstuen": 33656.16
+  },
+  {
+    "category": "NOK 100k - NOK 200k",
+    "grunerlokka": 42376.8,
+    "bjorvika": 18313.17,
+    "sentrum": 33216.49,
+    "majorstuen": 27287.89
+  },
+  {
+    "category": "NOK 200k - NOK 300k",
+    "grunerlokka": 44148.52,
+    "bjorvika": 19923.48,
+    "sentrum": 35217.27,
+    "majorstuen": 30151.32
+  },
+  {
+    "category": "NOK 300k - NOK 400k",
+    "grunerlokka": 52247.82,
+    "bjorvika": 24109.42,
+    "sentrum": 42160.9,
+    "majorstuen": 35200.15
+  },
+  {
+    "category": "NOK 400k - NOK 500k",
+    "grunerlokka": 51590.31,
+    "bjorvika": 22652.17,
+    "sentrum": 40006.08,
+    "majorstuen": 35213.36
+  },
+  {
+    "category": "NOK 500k - NOK 600k",
+    "grunerlokka": 39966.63,
+    "bjorvika": 17789.88,
+    "sentrum": 31694.15,
+    "majorstuen": 28168.48
+  },
+  {
+    "category": "NOK 600k - NOK 700k",
+    "grunerlokka": 26795.62,
+    "bjorvika": 11900.66,
+    "sentrum": 21332.17,
+    "majorstuen": 20629.18
+  },
+  {
+    "category": "NOK 700k - NOK 800k",
+    "grunerlokka": 17798.21,
+    "bjorvika": 8098.87,
+    "sentrum": 14506.93,
+    "majorstuen": 14494.29
+  },
+  {
+    "category": "NOK 800k - NOK 1 mill.",
+    "grunerlokka": 38936.3,
+    "bjorvika": 18979.12,
+    "sentrum": 34284.6,
+    "majorstuen": 39145.86
+  },
+  {
+    "category": "NOK 1 mill. - NOK 1,5 mill.",
+    "grunerlokka": 5317.73,
+    "bjorvika": 2944.46,
+    "sentrum": 5306.74,
+    "majorstuen": 7300.25
+  },
+  {
+    "category": "NOK 1,5 mill.+",
+    "grunerlokka": 6195.82,
+    "bjorvika": 3545.09,
+    "sentrum": 6588.43,
+    "majorstuen": 10644.66
+  }
+]

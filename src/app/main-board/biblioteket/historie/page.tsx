@@ -4,8 +4,17 @@ import { motion } from 'framer-motion';
 import Container from '@/components/ui/Container';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getHistorieTimeline, getHistorieEvents, getHistorieSections, getHistorieTags, getHistorieEntities } from '@/lib/loaders/biblioteket-loader';
+import {
+    getBibliotekVerificationDataset,
+    getBibliotekVerificationSummary,
+    getHistorieTimeline,
+    getHistorieEvents,
+    getHistorieSections,
+    getHistorieTags,
+    getHistorieEntities,
+} from '@/lib/loaders/biblioteket-loader';
 import ImageCarousel from '@/components/biblioteket/ImageCarousel';
+import { VerificationPanel } from '@/components/biblioteket/VerificationPanel';
 import { translateHistorieText } from '@/lib/translate-historie';
 import { biblioteketCarouselImages } from '@/lib/constants/carousel-images';
 import { fadeUpVariants, springs, viewport, stagger } from '@/lib/animations';
@@ -113,6 +122,8 @@ export default function HistoriePage() {
     const sections = getHistorieSections();
     const tags = getHistorieTags();
     const entities = getHistorieEntities();
+    const verification = getBibliotekVerificationSummary('historie');
+    const verificationDataset = getBibliotekVerificationDataset('historie');
 
     const sortedEvents = [...events].sort((a, b) => a.start_year - b.start_year);
 
@@ -220,6 +231,16 @@ export default function HistoriePage() {
                             </motion.div>
                         ))}
                     </motion.div>
+                </Container>
+            </section>
+
+            <section className="border-b border-gray-200 bg-gray-50 py-10">
+                <Container>
+                    <VerificationPanel
+                        summary={verification}
+                        sources={verificationDataset?.sources}
+                        title="Forskningsstatus for byhistorien"
+                    />
                 </Container>
             </section>
 

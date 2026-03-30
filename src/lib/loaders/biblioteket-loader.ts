@@ -8,6 +8,10 @@ import type {
     IldsjelKategori,
     IldsjelPlace,
     IldsjelTidslinjeEvent,
+    BibliotekVerificationCategory,
+    BibliotekVerificationDataset,
+    BibliotekVerificationOverview,
+    BibliotekVerificationSummary,
     LitteraryWork,
     LitteraturData,
     HistorieTimeline,
@@ -36,9 +40,11 @@ import kategorierData from '@/data/biblioteket/ildsjeler/kategorier.json';
 import placesData from '@/data/biblioteket/ildsjeler/places.json';
 import tidslinjeData from '@/data/biblioteket/ildsjeler/tidslinje.json';
 import worksData from '@/data/biblioteket/litteratur/works.json';
+import litteraturVerificationData from '@/data/biblioteket/litteratur/verification.json';
 import historieTimelineData from '@/data/biblioteket/historie/grunerlokka_timeline.json';
 import historieCardsData from '@/data/biblioteket/historie/grunerlokka_cards.json';
 import historieEntitiesData from '@/data/biblioteket/historie/grunerlokka_entities.json';
+import historieVerificationData from '@/data/biblioteket/historie/verification.json';
 import kulturMasterData from '@/data/biblioteket/kultur/grunerlokka_master_alt.json';
 import jazzData from '@/data/biblioteket/kultur/jazz.json';
 import hiphopData from '@/data/biblioteket/kultur/hiphop.json';
@@ -48,12 +54,19 @@ import billedkunstData from '@/data/biblioteket/kultur/billedkunst.json';
 import arkitekturData from '@/data/biblioteket/kultur/arkitektur.json';
 import designKreativData from '@/data/biblioteket/kultur/design-kreativ.json';
 import idrettData from '@/data/biblioteket/idrett/idrett.json';
+import ildsjelerVerificationData from '@/data/biblioteket/ildsjeler/verification.json';
 import mediebildetData from '@/data/biblioteket/mediebildet/mediebildet.json';
 import avisData from '@/data/biblioteket/mediebildet/avis.json';
 import tvFilmData from '@/data/biblioteket/mediebildet/tv-film.json';
 import podcastData from '@/data/biblioteket/mediebildet/podcast.json';
 import digitalData from '@/data/biblioteket/mediebildet/digital.json';
 import akademiskData from '@/data/biblioteket/mediebildet/akademisk.json';
+import {
+    buildVerificationDataset,
+    mergeVerificationDatasets,
+    summarizeVerificationDataset,
+    summarizeVerificationOverview,
+} from '@/lib/verifisering/biblioteket';
 
 // ============================================================================
 // ILDSJELER (Local Heroes)
@@ -940,7 +953,11 @@ export interface IdrettData {
     clubs: IdrettClub[];
     pioneers: IdrettPioneer[];
     venues: IdrettVenue[];
-    sources: { title: string; url: string }[];
+    sources: SourceItem[];
+    claims?: ClaimEvidence[];
+    researchMetadata?: ResearchMetadata;
+    crossReferences?: CrossReference[];
+    limitations?: string[];
 }
 
 export interface IdrettSection {
@@ -1112,6 +1129,267 @@ export function getMediaThemes(): string[] {
 }
 
 // ============================================================================
+// BIBLIOTEK VERIFICATION
+// ============================================================================
+
+const historieVerification = buildVerificationDataset({
+    ...(historieVerificationData as BibliotekVerificationDataset),
+    id: 'historie-verification',
+    category: 'historie',
+});
+
+const litteraturVerification = buildVerificationDataset({
+    ...(litteraturVerificationData as BibliotekVerificationDataset),
+    id: 'litteratur-verification',
+    category: 'litteratur',
+});
+
+const ildsjelerVerification = buildVerificationDataset({
+    ...(ildsjelerVerificationData as BibliotekVerificationDataset),
+    id: 'ildsjeler-verification',
+    category: 'ildsjeler',
+});
+
+const idrettVerification = buildVerificationDataset({
+    ...(idrettData as Partial<IdrettData>),
+    id: 'idrett-verification',
+    category: 'idrett',
+    title: (idrettData as IdrettData).title,
+    summary: (idrettData as IdrettData).description,
+    scope: [
+        {
+            id: 'idrett-core',
+            title: 'Idrettsdata',
+            dataFiles: ['src/data/biblioteket/idrett/idrett.json'],
+            itemCount:
+                (idrettData as IdrettData).sections.length +
+                (idrettData as IdrettData).timeline.length +
+                (idrettData as IdrettData).clubs.length +
+                (idrettData as IdrettData).pioneers.length +
+                (idrettData as IdrettData).venues.length,
+            note: 'Dekker hovedfortellingen, tidslinjen, klubber, arenaer og pionerer.',
+        },
+    ],
+});
+
+const mediebildetVerification = buildVerificationDataset({
+    ...(mediebildetData as Partial<MediebildetData>),
+    id: 'mediebildet-verification',
+    category: 'mediebildet',
+    title: (mediebildetData as MediebildetData).title,
+    summary: (mediebildetData as MediebildetData).description,
+    scope: [
+        {
+            id: 'mediebildet-core',
+            title: 'Mediebildet',
+            dataFiles: [
+                'src/data/biblioteket/mediebildet/mediebildet.json',
+                'src/data/biblioteket/mediebildet/avis.json',
+                'src/data/biblioteket/mediebildet/tv-film.json',
+                'src/data/biblioteket/mediebildet/podcast.json',
+                'src/data/biblioteket/mediebildet/digital.json',
+                'src/data/biblioteket/mediebildet/akademisk.json',
+            ],
+            itemCount: getTotalMediaItems(),
+            note: 'Dekker medieomtale på tvers av avis, TV/film, podcast, digitalt og akademia.',
+        },
+    ],
+});
+
+const kulturVerificationSections = [
+    buildVerificationDataset({
+        ...(kulturMasterData as Partial<BibliotekVerificationDataset>),
+        id: 'kultur-master',
+        category: 'kultur',
+        title: (kulturMasterData as KulturMasterData).title,
+        summary: 'Samlet masterdokument for kunst, kultur, musikk og teater på Grünerløkka.',
+        scope: [
+            {
+                id: 'kultur-master',
+                title: 'Masterdokument',
+                dataFiles: ['src/data/biblioteket/kultur/grunerlokka_master_alt.json'],
+                itemCount: (kulturMasterData as KulturMasterData).timeline.length,
+                note: 'Overordnet fortelling og hovedtidslinje for kulturfeltet.',
+            },
+        ],
+    }),
+    buildVerificationDataset({
+        ...(jazzData as Partial<BibliotekVerificationDataset>),
+        id: 'kultur-jazz',
+        category: 'kultur',
+        title: (jazzData as JazzData).title,
+        summary: (jazzData as JazzData).description,
+        scope: [
+            {
+                id: 'kultur-jazz',
+                title: 'Jazz',
+                dataFiles: ['src/data/biblioteket/kultur/jazz.json'],
+                itemCount:
+                    (jazzData as JazzData).timeline.length +
+                    (jazzData as JazzData).venues.length +
+                    (jazzData as JazzData).artists.length +
+                    (jazzData as JazzData).festivals.length,
+            },
+        ],
+    }),
+    buildVerificationDataset({
+        ...(hiphopData as Partial<BibliotekVerificationDataset>),
+        id: 'kultur-hiphop',
+        category: 'kultur',
+        title: (hiphopData as HiphopData).title,
+        summary: (hiphopData as HiphopData).description,
+        scope: [
+            {
+                id: 'kultur-hiphop',
+                title: 'Hiphop',
+                dataFiles: ['src/data/biblioteket/kultur/hiphop.json'],
+                itemCount:
+                    (hiphopData as HiphopData).sections.length +
+                    (hiphopData as HiphopData).artists.length +
+                    (hiphopData as HiphopData).crews.length +
+                    (hiphopData as HiphopData).events.length,
+            },
+        ],
+    }),
+    buildVerificationDataset({
+        ...(filmData as Partial<BibliotekVerificationDataset>),
+        id: 'kultur-film',
+        category: 'kultur',
+        title: (filmData as FilmData).title,
+        summary: (filmData as FilmData).intro,
+        scope: [
+            {
+                id: 'kultur-film',
+                title: 'Film og TV',
+                dataFiles: ['src/data/biblioteket/kultur/film.json'],
+                itemCount:
+                    (filmData as FilmData).films.length +
+                    (filmData as FilmData).filmmakers.length +
+                    (filmData as FilmData).cinemas.length +
+                    (filmData as FilmData).documentaries.length,
+            },
+        ],
+    }),
+    buildVerificationDataset({
+        ...(teaterData as Partial<BibliotekVerificationDataset>),
+        id: 'kultur-teater',
+        category: 'kultur',
+        title: (teaterData as TeaterData).title,
+        summary: (teaterData as TeaterData).intro,
+        scope: [
+            {
+                id: 'kultur-teater',
+                title: 'Teater',
+                dataFiles: ['src/data/biblioteket/kultur/teater.json'],
+                itemCount:
+                    (teaterData as TeaterData).venues.length +
+                    (teaterData as TeaterData).theaterGroups.length +
+                    (teaterData as TeaterData).siteSpecificPerformances.length +
+                    (teaterData as TeaterData).childrenTheater.length,
+            },
+        ],
+    }),
+    buildVerificationDataset({
+        ...(billedkunstData as Partial<BibliotekVerificationDataset>),
+        id: 'kultur-billedkunst',
+        category: 'kultur',
+        title: (billedkunstData as BilledkunstData).title,
+        summary: (billedkunstData as BilledkunstData).intro,
+        scope: [
+            {
+                id: 'kultur-billedkunst',
+                title: 'Billedkunst',
+                dataFiles: ['src/data/biblioteket/kultur/billedkunst.json'],
+                itemCount:
+                    (billedkunstData as BilledkunstData).artVenues.length +
+                    (billedkunstData as BilledkunstData).artists.early.length +
+                    (billedkunstData as BilledkunstData).artists.naturalists.length +
+                    (billedkunstData as BilledkunstData).artists.contemporary.length,
+            },
+        ],
+    }),
+    buildVerificationDataset({
+        ...(arkitekturData as unknown as Partial<BibliotekVerificationDataset>),
+        id: 'kultur-arkitektur',
+        category: 'kultur',
+        title: (arkitekturData as ArkitekturData).title,
+        summary: (arkitekturData as ArkitekturData).subtitle,
+        scope: [
+            {
+                id: 'kultur-arkitektur',
+                title: 'Arkitektur og byrom',
+                dataFiles: ['src/data/biblioteket/kultur/arkitektur.json'],
+                itemCount:
+                    (arkitekturData as ArkitekturData).buildingStyles.length +
+                    (arkitekturData as ArkitekturData).iconicBuildings.length +
+                    (arkitekturData as ArkitekturData).parks.length +
+                    (arkitekturData as ArkitekturData).architects.length,
+            },
+        ],
+    }),
+    buildVerificationDataset({
+        ...(designKreativData as unknown as Partial<BibliotekVerificationDataset>),
+        id: 'kultur-design',
+        category: 'kultur',
+        title: (designKreativData as DesignKreativData).title,
+        summary: (designKreativData as DesignKreativData).subtitle,
+        scope: [
+            {
+                id: 'kultur-design',
+                title: 'Design og kreativ næring',
+                dataFiles: ['src/data/biblioteket/kultur/design-kreativ.json'],
+                itemCount:
+                    (designKreativData as DesignKreativData).agencies.length +
+                    (designKreativData as DesignKreativData).fashionBrands.length +
+                    (designKreativData as DesignKreativData).workspaces.length +
+                    (designKreativData as DesignKreativData).notableDesigners.length,
+            },
+        ],
+    }),
+];
+
+const kulturVerification = mergeVerificationDatasets({
+    id: 'kultur-verification',
+    category: 'kultur',
+    title: 'Kunst og kultur',
+    summary: 'Aggregert verifikasjonsstatus for kulturseksjonene i Biblioteket.',
+    datasets: kulturVerificationSections,
+});
+
+const bibliotekVerificationDatasets: Record<
+    BibliotekVerificationCategory,
+    BibliotekVerificationDataset
+> = {
+    historie: historieVerification,
+    idrett: idrettVerification,
+    ildsjeler: ildsjelerVerification,
+    kultur: kulturVerification,
+    litteratur: litteraturVerification,
+    mediebildet: mediebildetVerification,
+};
+
+export function getBibliotekVerificationDataset(
+    category: BibliotekVerificationCategory,
+): BibliotekVerificationDataset | null {
+    return bibliotekVerificationDatasets[category] ?? null;
+}
+
+export function getBibliotekVerificationSummary(
+    category: BibliotekVerificationCategory,
+): BibliotekVerificationSummary | null {
+    const dataset = getBibliotekVerificationDataset(category);
+    return dataset ? summarizeVerificationDataset(dataset) : null;
+}
+
+export function getBibliotekVerificationOverview(): BibliotekVerificationOverview {
+    return summarizeVerificationOverview(
+        Object.values(bibliotekVerificationDatasets).map((dataset) =>
+            summarizeVerificationDataset(dataset),
+        ),
+    );
+}
+
+// ============================================================================
 // BIBLIOTEK CATEGORIES
 // ============================================================================
 
@@ -1121,6 +1399,14 @@ export function getBibliotekCategories(): BibliotekCategory[] {
     const historie = getHistorieEvents();
     const kultur = getKulturTimeline();
     const idrett = getIdrettTimeline();
+    const verificationSummaries = {
+        ildsjeler: getBibliotekVerificationSummary('ildsjeler'),
+        litteratur: getBibliotekVerificationSummary('litteratur'),
+        historie: getBibliotekVerificationSummary('historie'),
+        kultur: getBibliotekVerificationSummary('kultur'),
+        idrett: getBibliotekVerificationSummary('idrett'),
+        mediebildet: getBibliotekVerificationSummary('mediebildet'),
+    };
 
     return [
         {
@@ -1130,6 +1416,7 @@ export function getBibliotekCategories(): BibliotekCategory[] {
             image: '/images/biblioteket/ildsjeler.jpg',
             itemCount: ildsjeler.length,
             color: 'orange',
+            verification: verificationSummaries.ildsjeler ?? undefined,
         },
         {
             slug: 'litteratur',
@@ -1138,6 +1425,7 @@ export function getBibliotekCategories(): BibliotekCategory[] {
             image: '/images/biblioteket/litteratur.png',
             itemCount: litteratur.length,
             color: 'blue',
+            verification: verificationSummaries.litteratur ?? undefined,
         },
         {
             slug: 'historie',
@@ -1146,6 +1434,7 @@ export function getBibliotekCategories(): BibliotekCategory[] {
             image: '/images/biblioteket/historie.png',
             itemCount: historie.length,
             color: 'amber',
+            verification: verificationSummaries.historie ?? undefined,
         },
         {
             slug: 'kultur',
@@ -1154,6 +1443,7 @@ export function getBibliotekCategories(): BibliotekCategory[] {
             image: '/images/biblioteket/kultur.png',
             itemCount: kultur.length,
             color: 'purple',
+            verification: verificationSummaries.kultur ?? undefined,
         },
         {
             slug: 'idrett',
@@ -1162,6 +1452,7 @@ export function getBibliotekCategories(): BibliotekCategory[] {
             image: '/images/biblioteket/idrett-hero.png',
             itemCount: idrett.length,
             color: 'green',
+            verification: verificationSummaries.idrett ?? undefined,
         },
         {
             slug: 'mediebildet',
@@ -1170,6 +1461,7 @@ export function getBibliotekCategories(): BibliotekCategory[] {
             image: '/images/biblioteket/mediebildet-hero.jpg',
             itemCount: getTotalMediaItems(),
             color: 'slate',
+            verification: verificationSummaries.mediebildet ?? undefined,
         },
     ];
 }
@@ -1188,14 +1480,25 @@ export function getBibliotekStats() {
     const litteratur = getLitteratur();
     const historie = getHistorieEvents();
     const kultur = getKulturTimeline();
+    const idrett = getIdrettTimeline();
+    const mediebildet = getTotalMediaItems();
+    const verification = getBibliotekVerificationOverview();
 
     return {
         totalItems:
-            ildsjeler.length + litteratur.length + historie.length + kultur.length,
+            ildsjeler.length +
+            litteratur.length +
+            historie.length +
+            kultur.length +
+            idrett.length +
+            mediebildet,
         ildsjelerCount: ildsjeler.length,
         litteraturCount: litteratur.length,
         historieCount: historie.length,
         kulturCount: kultur.length,
+        idrettCount: idrett.length,
+        mediebildetCount: mediebildet,
+        verification,
         yearSpan: {
             litteratur: {
                 earliest: Math.min(...litteratur.map((w) => w.year)),

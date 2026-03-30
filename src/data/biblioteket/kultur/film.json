@@ -523,6 +523,33 @@
       "accessedAt": "2026-03-02",
       "sourceType": "primary",
       "evidenceLevel": "primary"
+    },
+    {
+      "title": "Store norske leksikon - Pål Sletaune",
+      "url": "https://snl.no/P%C3%A5l_Sletaune",
+      "publisher": "SNL",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Bekrefter Budbringeren som Pål Sletaunes spillefilmdebut i 1997."
+    },
+    {
+      "title": "Budbringeren - Oslo Pix",
+      "url": "https://www.oslopix.no/en/film/2023/budbringeren",
+      "publisher": "Oslo Pix",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "secondary",
+      "notes": "Festivalomtalen beskriver Budbringeren som en film om Oslos underverden."
+    },
+    {
+      "title": "Portrett Oslo: Mine Oslofilmer - Oslo Pix",
+      "url": "https://www.oslopix.no/en/news/portrett-oslo-mine-oslofilmer",
+      "publisher": "Oslo Pix",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "secondary",
+      "notes": "Ane Hjort Guttu beskriver Budbringeren som en film om Grønland, Tøyen og Gamlebyen."
     }
   ],
   "claims": [
@@ -735,12 +762,37 @@
     },
     {
       "claimId": "film-009",
-      "claim": "Pål Sletaune hadde bopel på Grünerløkka på 1990-tallet.",
-      "status": "unverified",
-      "confidenceScore": 0.45,
-      "sources": [],
-      "notes": "Ingen tilgjengelige kilder bekrefter spesifikk Grünerløkka-bopel. Sletaune er født i Oslo og studerte ved UiO. Budbringeren skildrer østkant-miljø, men dette beviser ikke bopel på Løkka.",
-      "lastVerifiedAt": "2026-03-02"
+      "claim": "Pål Sletaunes Budbringeren (1997) ble omtalt som en film om Oslos underverden, og i Oslo Pix' Portrett Oslo-serie ble den knyttet til Grønland, Tøyen og Gamlebyen.",
+      "status": "verified",
+      "confidenceScore": 0.88,
+      "sources": [
+        {
+          "title": "Store norske leksikon - Pål Sletaune",
+          "url": "https://snl.no/P%C3%A5l_Sletaune",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Budbringeren - Oslo Pix",
+          "url": "https://www.oslopix.no/en/film/2023/budbringeren",
+          "publisher": "Oslo Pix",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Portrett Oslo: Mine Oslofilmer - Oslo Pix",
+          "url": "https://www.oslopix.no/en/news/portrett-oslo-mine-oslofilmer",
+          "publisher": "Oslo Pix",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Tidligere bopelspåstand om Grünerløkka er fjernet etter nytt kildesøk. Claimet bygger nå på dokumenterte beskrivelser av Budbringeren som en Oslo- og østkantfilm.",
+      "lastVerifiedAt": "2026-03-30"
     },
     {
       "claimId": "film-010",
@@ -842,18 +894,18 @@
     }
   ],
   "researchMetadata": {
-    "lastVerifiedAt": "2026-03-02",
-    "verifiedBy": "claude-opus-4-6-deep-research",
-    "coverageScore": 0.85,
+    "lastVerifiedAt": "2026-03-30",
+    "verifiedBy": "codex-gpt-5",
+    "coverageScore": 0.88,
     "staleAfterDays": 120,
-    "methodology": "Systematisk verifisering mot primær- og sekundærkilder. Edith Carlmars Løkka-tilknytning bekreftet med konkrete adresser. Gategutter-innspillingssted presisert til Gøteborggata/Rodeløkka. Den største forbrytelsen innspillingssted korrigert (Göteborg, ikke Løkka). Ny kino (Biorama) og ny film (Verdens verste menneske) lagt til. Jan Vardøens filmografi korrigert. Pål Sletaunes Løkka-bopel nedgradert til uverifisert.",
+    "methodology": "Systematisk verifisering mot primær- og sekundærkilder. Edith Carlmars Løkka-tilknytning bekreftet med konkrete adresser. Gategutter-innspillingssted presisert til Gøteborggata/Rodeløkka. Den største forbrytelsen innspillingssted korrigert (Göteborg, ikke Løkka). Ny kino (Biorama) og ny film (Verdens verste menneske) lagt til. Jan Vardøens filmografi korrigert. Pål Sletaunes tidligere bopelspåstand er erstattet med et verifisert Budbringeren-claim basert på dokumenterte Oslo-kilder.",
     "majorCorrections": [
       "Edith Carlmar: Vag 'østkant'-påstand erstattet med verifiserte adresser (Trondheimsveien 2, Helgesens gate, Wilses gate)",
       "Gategutter: Presisert til Gøteborggata, Rodeløkka (ikke generelt 'Grünerløkka gater')",
       "Den største forbrytelsen: Innspilt i Göteborg, Sverige – ikke på Grünerløkka. Ikke Oscar-nominert (var kandidat men nådde ikke nominasjon)",
       "Jan Vardøen: 'Himmelveien (2014)' erstattet med verifiserte filmer. Ingen av hans filmer handler om Grünerløkka",
       "Villa Paradiso-oppføringen fjernet fra filmlisten (var ikke en film)",
-      "Pål Sletaune: Grünerløkka-bopel nedgradert fra 'verified' til 'unverified' (ingen kilder bekrefter det)",
+      "Pål Sletaune: Ubekreftet Grünerløkka-bopel fjernet og erstattet med verifisert claim om Budbringeren som Oslo-/østkantfilm",
       "Ny kino Biorama (Seilduksgata 17) lagt til",
       "Verdens verste menneske (2021) og Joachim Trier lagt til",
       "Arne Skouen medregissør Ulf Greber lagt til for Gategutter"

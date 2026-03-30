@@ -1,0 +1,81 @@
+{
+  "id": "sammenligning-2025",
+  "title": "Områdesammenligning 2025",
+  "analysisType": "comparison",
+  "period": {
+    "type": "year",
+    "year": 2025,
+    "startDate": "2025-01-01",
+    "endDate": "2025-12-31",
+    "label": "2025"
+  },
+  "area": {
+    "id": "sammenligning",
+    "name": "Områdesammenligning",
+    "displayName": "Grünerløkka, Bjørvika, Sentrum & Majorstuen",
+    "type": "multi-district",
+    "areas": [
+      {
+        "id": "grunerlokka",
+        "name": "Grünerløkka",
+        "color": "#2D5F3F"
+      },
+      {
+        "id": "bjørvika",
+        "name": "Bjørvika",
+        "color": "#4A90E2"
+      },
+      {
+        "id": "sentrum",
+        "name": "Sentrum",
+        "color": "#E74C3C"
+      },
+      {
+        "id": "majorstuen",
+        "name": "Majorstuen",
+        "color": "#9B59B6"
+      }
+    ],
+    "description": "Sammenligning av fire sentrale bydeler i Oslo"
+  },
+  "plaaceData": {
+    "rapportDato": "2025-12-31",
+    "datakilder": ["Plaace.ai", "Telia (bevegelsesdata)", "BankAxept (korthandeldata)", "Analysebutikken (konkurransedata)"],
+    "interactiveCharts": {
+      "enabled": true,
+      "basePath": "/data/main-board/sammenligning-2025",
+      "categories": ["besokende", "bevegelse", "demografi", "internasjonal"]
+    },
+    "screenshots": [
+      {
+        "id": "oversikt-kart",
+        "filnavn": "Områdekart",
+        "path": "/images/graphs/sammenligning-2025/oversikt/01-omrader-kart.png",
+        "beskrivelse": "Kart over de fire sammenligningsområdene i Oslo",
+        "kategori": "oversikt"
+      }
+    ],
+    "nokkeldata": {
+      "antallOmrader": 4,
+      "bydelar": ["Grünerløkka", "Bjørvika", "Sentrum", "Majorstuen"]
+    }
+  },
+  "metadata": {
+    "opprettet": "2026-03-30",
+    "sistOppdatert": "2026-03-30",
+    "status": "publisert",
+    "versjon": 1,
+    "forfatter": "Natural State",
+    "kilde": ["Plaace.ai"],
+    "heroImage": "/images/graphs/sammenligning-2025/oversikt/01-omrader-kart.png",
+    "notater": [
+      "Sammenligning av fire sentrale bydeler i Oslo",
+      "Omfattende data på demografi, bevegelse, handel og besøkende",
+      "Inkluderer internasjonale besøkstall (Q2 2024)",
+      "11 interaktive JSON-baserte datasett",
+      "Data fra Plaace.ai, Telia, BankAxept, Analysebutikken",
+      "Besøksdata: 01.10.2024 – 31.12.2025",
+      "Korthandel: 2025 (indeksert ukentlig vekst)"
+    ]
+  }
+}

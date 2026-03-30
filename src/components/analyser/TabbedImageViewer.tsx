@@ -98,7 +98,7 @@ export default function TabbedImageViewer({
               activeTab === index ? 'opacity-100' : 'absolute inset-0 opacity-0 pointer-events-none'
             }`}
           >
-            <div className="group relative w-full overflow-hidden rounded-2xl shadow-lg transition-all duration-500 ease-out hover:shadow-xl">
+            <div className="group relative mx-auto max-w-4xl overflow-hidden rounded-2xl shadow-lg transition-all duration-500 ease-out hover:shadow-xl">
               <Image
                 src={screenshot.path}
                 alt={screenshot.filnavn}

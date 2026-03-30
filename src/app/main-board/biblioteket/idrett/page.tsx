@@ -4,7 +4,12 @@ import { motion } from 'framer-motion';
 import Container from '@/components/ui/Container';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getIdrettData } from '@/lib/loaders/biblioteket-loader';
+import {
+    getBibliotekVerificationDataset,
+    getBibliotekVerificationSummary,
+    getIdrettData,
+} from '@/lib/loaders/biblioteket-loader';
+import { VerificationPanel } from '@/components/biblioteket/VerificationPanel';
 import { springs, stagger } from '@/lib/animations';
 
 const heroVariants = {
@@ -50,6 +55,8 @@ const cardVariants = {
 
 export default function IdrettPage() {
     const data = getIdrettData();
+    const verification = getBibliotekVerificationSummary('idrett');
+    const verificationDataset = getBibliotekVerificationDataset('idrett');
 
     return (
         <>
@@ -103,6 +110,16 @@ export default function IdrettPage() {
                             {data.description}
                         </motion.p>
                     </motion.div>
+                </Container>
+            </section>
+
+            <section className="border-b border-gray-200 bg-gray-50 py-10">
+                <Container>
+                    <VerificationPanel
+                        summary={verification}
+                        sources={verificationDataset?.sources}
+                        title="Forskningsstatus for idrettshistorien"
+                    />
                 </Container>
             </section>
 

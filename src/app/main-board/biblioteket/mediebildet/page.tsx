@@ -4,7 +4,13 @@ import { motion } from 'framer-motion';
 import Container from '@/components/ui/Container';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getMediebildetData, getTotalMediaItems } from '@/lib/loaders/biblioteket-loader';
+import {
+    getBibliotekVerificationDataset,
+    getBibliotekVerificationSummary,
+    getMediebildetData,
+    getTotalMediaItems,
+} from '@/lib/loaders/biblioteket-loader';
+import { VerificationPanel } from '@/components/biblioteket/VerificationPanel';
 import { springs, stagger } from '@/lib/animations';
 
 const heroVariants = {
@@ -59,6 +65,8 @@ const colorMap: Record<string, { bg: string; border: string; text: string; icon:
 export default function MediebildetPage() {
     const data = getMediebildetData();
     const totalItems = getTotalMediaItems();
+    const verification = getBibliotekVerificationSummary('mediebildet');
+    const verificationDataset = getBibliotekVerificationDataset('mediebildet');
 
     return (
         <>
@@ -173,6 +181,16 @@ export default function MediebildetPage() {
                             );
                         })}
                     </motion.div>
+                </Container>
+            </section>
+
+            <section className="border-y border-gray-200 bg-gray-50 py-10">
+                <Container>
+                    <VerificationPanel
+                        summary={verification}
+                        sources={verificationDataset?.sources}
+                        title="Forskningsstatus for mediebildet"
+                    />
                 </Container>
             </section>
 

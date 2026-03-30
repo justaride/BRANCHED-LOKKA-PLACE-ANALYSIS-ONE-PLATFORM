@@ -1,0 +1,369 @@
+{
+  "id": "litteratur-verification",
+  "category": "litteratur",
+  "title": "Litteratur",
+  "summary": "Verifikasjonsgrunnlag for litteraturarkivet om Grünerløkka, med vekt på bibliografiske ankerpunkter og hovedsporene i fag- og skjønnlitteraturen.",
+  "scope": [
+    {
+      "id": "litteratur-core",
+      "title": "Bibliografi og analyser",
+      "dataFiles": [
+        "src/data/biblioteket/litteratur/works.json",
+        "src/data/biblioteket/litteratur/grunerlokka_sources.json",
+        "src/data/biblioteket/litteratur/timeline.json",
+        "src/data/biblioteket/litteratur/analysis.json"
+      ],
+      "itemCount": 65,
+      "note": "Dekker bibliografi, tidslinje, analyseobjekter og kildelister brukt i litteraturdelen av Biblioteket."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kristiania geografi - LIBRIS",
+      "url": "https://libris.kb.se/bib/2658723",
+      "publisher": "Kungliga biblioteket / LIBRIS",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Nationalbryggeriet - lokalhistoriewiki.no",
+      "url": "https://lokalhistoriewiki.no/index.php?mobileaction=toggle_view_desktop&title=Nationalbryggeriet",
+      "publisher": "Lokalhistoriewiki",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Refererer eksplisitt til Arntzen/Overn 1927 og digital versjon på Nettbiblioteket."
+    },
+    {
+      "title": "Grünerløkka: beste østkant - Munchmuseets forskningbibliotek",
+      "url": "https://munch.mikromarc.no/mikromarc3/detail.aspx?Id=7637&Unit=6473&db=munch&su=6477",
+      "publisher": "Munchmuseets forskningbibliotek",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Kristiania geografi - Google Play Books",
+      "url": "https://play.google.com/store/books/details/Hans_Reusch_Kristiania_geografi?id=r2ktXyha_8QC",
+      "publisher": "Google Play Books",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Bibliografisk oppføring med utgiver og årstall for Hans Reuschs bok."
+    },
+    {
+      "title": "En bok om Grünerløkken, Rodeløkken og Sagene - Biblioteksøk",
+      "url": "https://bibsok.no/?tnr=3821861",
+      "publisher": "Nasjonalbiblioteket / Biblioteksøk",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Biblioteksøk oppgir tittel, forfattere og årstall 1927."
+    },
+    {
+      "title": "Grünerløkka, beste østkant - MUNCH Tind",
+      "url": "https://munch.tind.io/record/7784",
+      "publisher": "MUNCH / Tind",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Bibliografisk post for bokutgaven fra 1962 utgitt av Selskabet for Oslo bys vel."
+    },
+    {
+      "title": "Grünerløkka – boligstrøk i Oslo - SNL",
+      "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka_-_boligstr%C3%B8k_i_Oslo",
+      "publisher": "Store norske leksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "SNL oppgir Bull 1962 i litteraturlisten og beskriver byfornyelsen på 1970- og 1980-tallet."
+    },
+    {
+      "title": "Kjenn din by: Grünerløkka – arbeiderstrøk og byfornyelse",
+      "url": "https://www.oslomuseum.no/hva-skjer/kjenn-din-by-grunerlokka/",
+      "publisher": "Oslo Museum",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "secondary",
+      "notes": "Oslo Museum bruker fortsatt Edvard Bulls formulering «beste Østkant» i sin formidling av bydelen."
+    },
+    {
+      "title": "Treffliste - martens johan - Biblioteksøk",
+      "url": "https://bibsok.no/?mode=vt&pubsok_txt_0=martens+johan&sourceid=m2",
+      "publisher": "Nasjonalbiblioteket / Biblioteksøk",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Trefflisten viser «Grünerløkka : en saneringsmoden bydel?» fra 1972."
+    },
+    {
+      "title": "Treffliste - martens johanditlef - Biblioteksøk",
+      "url": "https://bibsok.no/?mode=vt&pubsok_txt_0=martens+johanditlef&sourceid=m2",
+      "publisher": "Nasjonalbiblioteket / Biblioteksøk",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Trefflisten viser både «Grünerløkka. 3. En boligundersøkelse» fra 1972 og «Borettslag og gårdsromsfornyelse på Grünerløkka» fra 1973."
+    },
+    {
+      "title": "Byfornyelse: hvem bestemmer over byen? - Google Books",
+      "url": "https://books.google.com/books/about/Byfornyelse.html?id=e0CeAAAACAAJ",
+      "publisher": "Google Books",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Bibliografisk oppføring for Harald Engelstad, Randi Hjorthol og Inger Margrete Skogseid, Pax 1977."
+    },
+    {
+      "title": "Barns blikk på Løkka",
+      "url": "https://core.ac.uk/download/pdf/30900643.pdf",
+      "publisher": "CORE",
+      "accessedAt": "2026-03-30",
+      "sourceType": "academic",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Bofaste barnefamilier i indre by",
+      "url": "https://hdl.handle.net/11250/2647004",
+      "publisher": "NTNU Open",
+      "accessedAt": "2026-03-30",
+      "sourceType": "academic",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Grünerløkka - ARK",
+      "url": "https://www.ark.no/produkt/boker/skjonnlitteratur/grunerlokka-9788241915369",
+      "publisher": "ARK",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "En personlig fortelling om oppvekst på Grünerløkka",
+      "url": "https://www.vartoslo.no/bydel-grnerlokka-raymond-wardenaer-volleyballforbundet/en-personlig-fortelling-med-egne-bilder-om-oppvekst-pa-grnerløkka-eller-gronnlokka/273047",
+      "publisher": "VårtOslo",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    }
+  ],
+  "claims": [
+    {
+      "claimId": "litteratur-001",
+      "claim": "Hans Reuschs «Kristiania geografi: med et tillæg \"Kristiania set fra sporvogn\" og to karter» ble utgitt i Kristiania i 1913.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Kristiania geografi - LIBRIS",
+          "url": "https://libris.kb.se/bib/2658723",
+          "publisher": "Kungliga biblioteket / LIBRIS",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Kristiania geografi - Google Play Books",
+          "url": "https://play.google.com/store/books/details/Hans_Reusch_Kristiania_geografi?id=r2ktXyha_8QC",
+          "publisher": "Google Play Books",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "litteratur-002",
+      "claim": "A.G. Arntzen og O.M. Overns «En bok om Grünerløkken, Rodeløkken og Sagene» ble utgitt i 1927 og er en tidlig samlet lokalhistorisk framstilling av områdene langs Akerselva.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "En bok om Grünerløkken, Rodeløkken og Sagene - Biblioteksøk",
+          "url": "https://bibsok.no/?tnr=3821861",
+          "publisher": "Nasjonalbiblioteket / Biblioteksøk",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Nationalbryggeriet - lokalhistoriewiki.no",
+          "url": "https://lokalhistoriewiki.no/index.php?mobileaction=toggle_view_desktop&title=Nationalbryggeriet",
+          "publisher": "Lokalhistoriewiki",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "litteratur-003",
+      "claim": "Edvard Bulls «Grünerløkka, beste østkant» ble utgitt i 1962, og Bulls formulering «beste østkant» brukes fortsatt i institusjonell formidling om bydelen.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Grünerløkka, beste østkant - MUNCH Tind",
+          "url": "https://munch.tind.io/record/7784",
+          "publisher": "MUNCH / Tind",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Kjenn din by: Grünerløkka – arbeiderstrøk og byfornyelse",
+          "url": "https://www.oslomuseum.no/hva-skjer/kjenn-din-by-grunerlokka/",
+          "publisher": "Oslo Museum",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Grünerløkka – boligstrøk i Oslo - SNL",
+          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka_-_boligstr%C3%B8k_i_Oslo",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Tidligere formulering om «kanonisk referanse» var for tolkende. Claimet er nå strammet inn til dokumenterbar bibliografi og dokumentert etterliv i institusjonell bruk.",
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "litteratur-004",
+      "claim": "1970-tallets litteratur om Grünerløkka omfatter blant annet «Grünerløkka : en saneringsmoden bydel?» (1972), «Grünerløkka. 3. En boligundersøkelse» (1972) og «Byfornyelse : hvem bestemmer over byen?» (1977).",
+      "status": "verified",
+      "confidenceScore": 0.86,
+      "sources": [
+        {
+          "title": "Treffliste - martens johan - Biblioteksøk",
+          "url": "https://bibsok.no/?mode=vt&pubsok_txt_0=martens+johan&sourceid=m2",
+          "publisher": "Nasjonalbiblioteket / Biblioteksøk",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Treffliste - martens johanditlef - Biblioteksøk",
+          "url": "https://bibsok.no/?mode=vt&pubsok_txt_0=martens+johanditlef&sourceid=m2",
+          "publisher": "Nasjonalbiblioteket / Biblioteksøk",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Byfornyelse: hvem bestemmer over byen? - Google Books",
+          "url": "https://books.google.com/books/about/Byfornyelse.html?id=e0CeAAAACAAJ",
+          "publisher": "Google Books",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Tidligere mønsterclaim er erstattet med en konkret, bibliografisk opplisting av dokumenterte 1970-tallstitler.",
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "litteratur-005",
+      "claim": "Nyere forskning om Grünerløkka undersøker barns, foreldres og barnefamiliers bruk av byrom og bomiljø i indre by.",
+      "status": "verified",
+      "confidenceScore": 0.91,
+      "sources": [
+        {
+          "title": "Barns blikk på Løkka",
+          "url": "https://core.ac.uk/download/pdf/30900643.pdf",
+          "publisher": "CORE",
+          "accessedAt": "2026-03-30",
+          "sourceType": "academic",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Bofaste barnefamilier i indre by",
+          "url": "https://hdl.handle.net/11250/2647004",
+          "publisher": "NTNU Open",
+          "accessedAt": "2026-03-30",
+          "sourceType": "academic",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "litteratur-006",
+      "claim": "Litteraturdelen kombinerer akademiske tekster med memoarer og skjønnlitteratur om Grünerløkka.",
+      "status": "verified",
+      "confidenceScore": 0.87,
+      "sources": [
+        {
+          "title": "Grünerløkka - ARK",
+          "url": "https://www.ark.no/produkt/boker/skjonnlitteratur/grunerlokka-9788241915369",
+          "publisher": "ARK",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "En personlig fortelling om oppvekst på Grünerløkka",
+          "url": "https://www.vartoslo.no/bydel-grnerlokka-raymond-wardenaer-volleyballforbundet/en-personlig-fortelling-med-egne-bilder-om-oppvekst-pa-grnerløkka-eller-gronnlokka/273047",
+          "publisher": "VårtOslo",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Barns blikk på Løkka",
+          "url": "https://core.ac.uk/download/pdf/30900643.pdf",
+          "publisher": "CORE",
+          "accessedAt": "2026-03-30",
+          "sourceType": "academic",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    }
+  ],
+  "researchMetadata": {
+    "lastVerifiedAt": "2026-03-30",
+    "verifiedBy": "codex-gpt-5",
+    "coverageScore": 0.82,
+    "staleAfterDays": 365
+  },
+  "crossReferences": [
+    {
+      "type": "work",
+      "idOrName": "Grünerløkka: beste østkant",
+      "linkedSections": [
+        "litteratur",
+        "historie",
+        "mediebildet"
+      ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Akerselva",
+      "linkedSections": [
+        "litteratur",
+        "historie",
+        "kultur"
+      ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Rodeløkka",
+      "linkedSections": [
+        "litteratur",
+        "historie",
+        "ildsjeler"
+      ]
+    }
+  ],
+  "limitations": [
+    "Ikke alle bibliografiske poster i works.json er ennå sjekket opp mot nasjonale bibliotek- eller arkivkataloger.",
+    "Enkelte årstall og utgavetyper har parallelle referanser i sekundærmateriale og trenger mer presis katalogsjekk.",
+    "Analyse- og tidslinjefilene er delvis avledet fra bibliografien og ikke verifisert post-for-post ennå."
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "id": "ildsjeler-verification",
+  "category": "ildsjeler",
+  "title": "Ildsjeler",
+  "summary": "Verifikasjonsgrunnlag for ildsjelsarkivet, med fokus på et representativt utvalg nøkkelpersoner og deres dokumenterte tilknytning til Grünerløkka.",
+  "scope": [
+    {
+      "id": "ildsjeler-core",
+      "title": "Personer, steder og tidslinje",
+      "dataFiles": [
+        "src/data/biblioteket/ildsjeler/ildsjeler.json",
+        "src/data/biblioteket/ildsjeler/places.json",
+        "src/data/biblioteket/ildsjeler/tidslinje.json",
+        "src/data/biblioteket/ildsjeler/kategorier.json"
+      ],
+      "itemCount": 51,
+      "note": "Dekker portretter, relaterte steder, kategorier og tidslinjepunkter som brukes i ildsjeldelen av Biblioteket."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Anna Rogstad – første kvinne på Stortinget i 1911",
+      "url": "https://www.stortinget.no/annarogstad",
+      "publisher": "Stortinget",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Spartacus - Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Spartacus",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Dagen i dag: Rolf Hofmo",
+      "url": "https://www.arbark.no/Kalender/Kal0810/kal.htm",
+      "publisher": "Arbeiderbevegelsens arkiv og bibliotek",
+      "accessedAt": "2026-03-30",
+      "sourceType": "archive",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Snippen 6 - Rodeløkka Vel",
+      "url": "https://www.rodelokkavel.no/snippen-6",
+      "publisher": "Rodeløkka Vel",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "About - Tim Wendelboe Coffee",
+      "url": "https://timwendelboe.no/about/",
+      "publisher": "Tim Wendelboe Coffee",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Contact us - Tim Wendelboe Coffee",
+      "url": "https://timwendelboe.no/contact/",
+      "publisher": "Tim Wendelboe Coffee",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Gratulerer med dagen til… oss! | Villa Paradiso",
+      "url": "https://www.villaparadiso.no/artikler/gratulerer-med-dagen-til-oss",
+      "publisher": "Villa Paradiso",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Bekrefter Jan Vardøen som grunnlegger og at Villa Paradiso Grünerløkka åpnet i 2004."
+    },
+    {
+      "title": "Vardøen åpner diner på Løkka - Aperitif.no",
+      "url": "https://www.aperitif.no/artikler/vardoen-apner-diner-pa-lokka%2C173449",
+      "publisher": "Aperitif",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary",
+      "notes": "Beskriver Jan Vardøen som sentral Grünerløkka-entreprenør med flere steder på Løkka."
+    }
+  ],
+  "claims": [
+    {
+      "claimId": "ildsjeler-001",
+      "claim": "Anna Rogstad var den første kvinnen som tok sete i Stortinget, i 1911.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Anna Rogstad – første kvinne på Stortinget i 1911",
+          "url": "https://www.stortinget.no/annarogstad",
+          "publisher": "Stortinget",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "ildsjeler-002",
+      "claim": "Rolf Hofmo var aktiv i Grünerløkka socialdemokratiske ungdomsforening og i Arbeideridrettslaget Spartacus.",
+      "status": "verified",
+      "confidenceScore": 0.88,
+      "sources": [
+        {
+          "title": "Dagen i dag: Rolf Hofmo",
+          "url": "https://www.arbark.no/Kalender/Kal0810/kal.htm",
+          "publisher": "Arbeiderbevegelsens arkiv og bibliotek",
+          "accessedAt": "2026-03-30",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Spartacus - Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Spartacus",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "ildsjeler-003",
+      "claim": "Rodeløkka-aktivister bidro avgjørende til at trehusmiljøet ble bevart i 1977, og dette danner grunnlag for flere av ildsjelsprofilene i datasettet.",
+      "status": "verified",
+      "confidenceScore": 0.84,
+      "sources": [
+        {
+          "title": "Snippen 6 - Rodeløkka Vel",
+          "url": "https://www.rodelokkavel.no/snippen-6",
+          "publisher": "Rodeløkka Vel",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "ildsjeler-004",
+      "claim": "Tim Wendelboe etablerte selskapet sitt i 2007 og driver espresso bar i Grüners gate 1 på Grünerløkka.",
+      "status": "verified",
+      "confidenceScore": 0.93,
+      "sources": [
+        {
+          "title": "About - Tim Wendelboe Coffee",
+          "url": "https://timwendelboe.no/about/",
+          "publisher": "Tim Wendelboe Coffee",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Contact us - Tim Wendelboe Coffee",
+          "url": "https://timwendelboe.no/contact/",
+          "publisher": "Tim Wendelboe Coffee",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "ildsjeler-005",
+      "claim": "Ildsjelsarkivet kombinerer historiske pionerer som Anna Rogstad og Rolf Hofmo med nålevende Grünerløkka-gründere som Jan Vardøen og Tim Wendelboe.",
+      "status": "verified",
+      "confidenceScore": 0.91,
+      "sources": [
+        {
+          "title": "Anna Rogstad – første kvinne på Stortinget i 1911",
+          "url": "https://www.stortinget.no/annarogstad",
+          "publisher": "Stortinget",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Dagen i dag: Rolf Hofmo",
+          "url": "https://www.arbark.no/Kalender/Kal0810/kal.htm",
+          "publisher": "Arbeiderbevegelsens arkiv og bibliotek",
+          "accessedAt": "2026-03-30",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Gratulerer med dagen til… oss! | Villa Paradiso",
+          "url": "https://www.villaparadiso.no/artikler/gratulerer-med-dagen-til-oss",
+          "publisher": "Villa Paradiso",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "About - Tim Wendelboe Coffee",
+          "url": "https://timwendelboe.no/about/",
+          "publisher": "Tim Wendelboe Coffee",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "notes": "Ujevn kildekvalitet for øvrige personprofiler håndteres nå i limitations-feltet, ikke som et eget claim.",
+      "lastVerifiedAt": "2026-03-30"
+    }
+  ],
+  "researchMetadata": {
+    "lastVerifiedAt": "2026-03-30",
+    "verifiedBy": "codex-gpt-5",
+    "coverageScore": 0.63,
+    "staleAfterDays": 180
+  },
+  "crossReferences": [
+    {
+      "type": "person",
+      "idOrName": "Anna Rogstad",
+      "linkedSections": [
+        "ildsjeler",
+        "historie",
+        "litteratur"
+      ]
+    },
+    {
+      "type": "person",
+      "idOrName": "Rolf Hofmo",
+      "linkedSections": [
+        "ildsjeler",
+        "idrett",
+        "historie"
+      ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Rodeløkka",
+      "linkedSections": [
+        "ildsjeler",
+        "historie",
+        "litteratur"
+      ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Grüners gate 1",
+      "linkedSections": [
+        "ildsjeler",
+        "mediebildet",
+        "kultur"
+      ]
+    }
+  ],
+  "limitations": [
+    "Flere personprofiler i ildsjeler.json mangler fremdeles dedikerte primærkilder eller offentlig biografisk dokumentasjon.",
+    "Fødsel- og dødsår er ikke komplett revidert for alle profiler med nullverdier.",
+    "Kategori- og places-filene er foreløpig verifisert på strukturelt nivå, ikke claim-for-claim per relasjon."
+  ]
+}

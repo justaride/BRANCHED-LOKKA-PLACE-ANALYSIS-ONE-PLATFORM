@@ -1,0 +1,356 @@
+{
+  "kjederVsUavhengige": [
+    {
+      "area": "Grünerløkka",
+      "color": "#2D5F3F",
+      "kjeder": {
+        "count": 0,
+        "revenue": 0,
+        "shareCount": 50.41,
+        "shareRevenue": 50.41
+      },
+      "uavhengige": {
+        "count": 0,
+        "revenue": 0,
+        "shareCount": 49.59,
+        "shareRevenue": 49.59
+      }
+    },
+    {
+      "area": "Bjørvika",
+      "color": "#4A90E2",
+      "kjeder": {
+        "count": 0,
+        "revenue": 0,
+        "shareCount": 45.81,
+        "shareRevenue": 45.81
+      },
+      "uavhengige": {
+        "count": 0,
+        "revenue": 0,
+        "shareCount": 54.19,
+        "shareRevenue": 54.19
+      }
+    },
+    {
+      "area": "Sentrum",
+      "color": "#E74C3C",
+      "kjeder": {
+        "count": 0,
+        "revenue": 0,
+        "shareCount": 48.85,
+        "shareRevenue": 48.85
+      },
+      "uavhengige": {
+        "count": 0,
+        "revenue": 0,
+        "shareCount": 51.15,
+        "shareRevenue": 51.15
+      }
+    },
+    {
+      "area": "Majorstuen",
+      "color": "#9B59B6",
+      "kjeder": {
+        "count": 0,
+        "revenue": 0,
+        "shareCount": 76.71,
+        "shareRevenue": 76.71
+      },
+      "uavhengige": {
+        "count": 0,
+        "revenue": 0,
+        "shareCount": 23.29,
+        "shareRevenue": 23.29
+      }
+    }
+  ],
+  "konseptmiks": [
+    {
+      "area": "Grünerløkka",
+      "color": "#2D5F3F",
+      "categories": [
+        {
+          "name": "Mat og opplevelser",
+          "share": 47.86,
+          "count": 179,
+          "revenue": 0
+        },
+        {
+          "name": "Handel",
+          "share": 32.62,
+          "count": 122,
+          "revenue": 0
+        },
+        {
+          "name": "Tjenester",
+          "share": 19.52,
+          "count": 73,
+          "revenue": 0
+        }
+      ]
+    },
+    {
+      "area": "Bjørvika",
+      "color": "#4A90E2",
+      "categories": [
+        {
+          "name": "Mat og opplevelser",
+          "share": 58.33,
+          "count": 63,
+          "revenue": 0
+        },
+        {
+          "name": "Handel",
+          "share": 27.78,
+          "count": 30,
+          "revenue": 0
+        },
+        {
+          "name": "Tjenester",
+          "share": 13.89,
+          "count": 15,
+          "revenue": 0
+        }
+      ]
+    },
+    {
+      "area": "Sentrum",
+      "color": "#E74C3C",
+      "categories": [
+        {
+          "name": "Mat og opplevelser",
+          "share": 48.69,
+          "count": 167,
+          "revenue": 0
+        },
+        {
+          "name": "Handel",
+          "share": 37.03,
+          "count": 127,
+          "revenue": 0
+        },
+        {
+          "name": "Tjenester",
+          "share": 14.29,
+          "count": 49,
+          "revenue": 0
+        }
+      ]
+    },
+    {
+      "area": "Majorstuen",
+      "color": "#9B59B6",
+      "categories": [
+        {
+          "name": "Mat og opplevelser",
+          "share": 25.2,
+          "count": 94,
+          "revenue": 0
+        },
+        {
+          "name": "Handel",
+          "share": 47.45,
+          "count": 177,
+          "revenue": 0
+        },
+        {
+          "name": "Tjenester",
+          "share": 27.35,
+          "count": 102,
+          "revenue": 0
+        }
+      ]
+    }
+  ],
+  "utvikling": [
+    {
+      "year": "2015",
+      "sentrum_mat_og_opplevelser": 1636.2,
+      "lokka_mat_og_opplevelser": 884.84,
+      "majorstuen_mat_og_opplevelser": 686.24,
+      "bjørvika_mat_og_opplevelser": 112.12,
+      "majorstuen_handel": 2936.73,
+      "sentrum_handel": 2216.78,
+      "lokka_handel": 1638.97,
+      "bjørvika_handel": 51.95,
+      "majorstuen_tjenester": 509.23,
+      "sentrum_tjenester": 272.17,
+      "lokka_tjenester": 216.2,
+      "bjørvika_tjenester": 5.27
+    },
+    {
+      "year": "2016",
+      "sentrum_mat_og_opplevelser": 1807.15,
+      "lokka_mat_og_opplevelser": 942.48,
+      "majorstuen_mat_og_opplevelser": 690.17,
+      "bjørvika_mat_og_opplevelser": 214.56,
+      "majorstuen_handel": 3128.25,
+      "sentrum_handel": 2326.41,
+      "lokka_handel": 1697.95,
+      "bjørvika_handel": 107.85,
+      "majorstuen_tjenester": 559.37,
+      "sentrum_tjenester": 299.59,
+      "lokka_tjenester": 215.39,
+      "bjørvika_tjenester": 30.31
+    },
+    {
+      "year": "2017",
+      "sentrum_mat_og_opplevelser": 1910.42,
+      "lokka_mat_og_opplevelser": 1041.28,
+      "majorstuen_mat_og_opplevelser": 782.13,
+      "bjørvika_mat_og_opplevelser": 242.93,
+      "majorstuen_handel": 3207.44,
+      "sentrum_handel": 2290.91,
+      "lokka_handel": 1645.92,
+      "bjørvika_handel": 226.15,
+      "majorstuen_tjenester": 500.31,
+      "sentrum_tjenester": 309.74,
+      "lokka_tjenester": 240.15,
+      "bjørvika_tjenester": 39.54
+    },
+    {
+      "year": "2018",
+      "sentrum_mat_og_opplevelser": 1906.14,
+      "lokka_mat_og_opplevelser": 1096.21,
+      "majorstuen_mat_og_opplevelser": 772.85,
+      "bjørvika_mat_og_opplevelser": 302.09,
+      "majorstuen_handel": 3187.59,
+      "sentrum_handel": 2415.67,
+      "lokka_handel": 1742.54,
+      "bjørvika_handel": 294.63,
+      "majorstuen_tjenester": 401.22,
+      "sentrum_tjenester": 244.85,
+      "lokka_tjenester": 246.56,
+      "bjørvika_tjenester": 38.88
+    },
+    {
+      "year": "2019",
+      "sentrum_mat_og_opplevelser": 2012.04,
+      "lokka_mat_og_opplevelser": 1220.39,
+      "majorstuen_mat_og_opplevelser": 686.21,
+      "bjørvika_mat_og_opplevelser": 405.07,
+      "majorstuen_handel": 3038.59,
+      "sentrum_handel": 2331.56,
+      "lokka_handel": 1722.44,
+      "bjørvika_handel": 368.24,
+      "majorstuen_tjenester": 403.47,
+      "sentrum_tjenester": 261.93,
+      "lokka_tjenester": 241.83,
+      "bjørvika_tjenester": 50.65
+    },
+    {
+      "year": "2020",
+      "sentrum_mat_og_opplevelser": 1050.7,
+      "lokka_mat_og_opplevelser": 970.02,
+      "majorstuen_mat_og_opplevelser": 550.9,
+      "bjørvika_mat_og_opplevelser": 345.29,
+      "majorstuen_handel": 3182.81,
+      "sentrum_handel": 1856.9,
+      "lokka_handel": 1898.94,
+      "bjørvika_handel": 469.32,
+      "majorstuen_tjenester": 368.32,
+      "sentrum_tjenester": 208.33,
+      "lokka_tjenester": 231.69,
+      "bjørvika_tjenester": 48.08
+    },
+    {
+      "year": "2021",
+      "sentrum_mat_og_opplevelser": 1219.86,
+      "lokka_mat_og_opplevelser": 1077.19,
+      "majorstuen_mat_og_opplevelser": 637.19,
+      "bjørvika_mat_og_opplevelser": 578.76,
+      "majorstuen_handel": 3320.74,
+      "sentrum_handel": 1833.64,
+      "lokka_handel": 1946.98,
+      "bjørvika_handel": 451.64,
+      "majorstuen_tjenester": 408.58,
+      "sentrum_tjenester": 200.89,
+      "lokka_tjenester": 243.1,
+      "bjørvika_tjenester": 53.7
+    },
+    {
+      "year": "2022",
+      "sentrum_mat_og_opplevelser": 2200.62,
+      "lokka_mat_og_opplevelser": 1520.38,
+      "majorstuen_mat_og_opplevelser": 903.78,
+      "bjørvika_mat_og_opplevelser": 1016.52,
+      "majorstuen_handel": 3342.12,
+      "sentrum_handel": 1895.55,
+      "lokka_handel": 1881.24,
+      "bjørvika_handel": 553.85,
+      "majorstuen_tjenester": 461.51,
+      "sentrum_tjenester": 232.95,
+      "lokka_tjenester": 289.01,
+      "bjørvika_tjenester": 65.11
+    },
+    {
+      "year": "2023",
+      "sentrum_mat_og_opplevelser": 2448.81,
+      "lokka_mat_og_opplevelser": 1584.95,
+      "majorstuen_mat_og_opplevelser": 892.56,
+      "bjørvika_mat_og_opplevelser": 1038.03,
+      "majorstuen_handel": 3577.87,
+      "sentrum_handel": 2035.11,
+      "lokka_handel": 1947.81,
+      "bjørvika_handel": 570.23,
+      "majorstuen_tjenester": 500.07,
+      "sentrum_tjenester": 269.13,
+      "lokka_tjenester": 309.33,
+      "bjørvika_tjenester": 73.63
+    },
+    {
+      "year": "2024",
+      "sentrum_mat_og_opplevelser": 2478.05,
+      "lokka_mat_og_opplevelser": 1654.04,
+      "majorstuen_mat_og_opplevelser": 940.42,
+      "bjørvika_mat_og_opplevelser": 1036.72,
+      "majorstuen_handel": 3902.03,
+      "sentrum_handel": 2173.9,
+      "lokka_handel": 2013.7,
+      "bjørvika_handel": 488.73,
+      "majorstuen_tjenester": 510.52,
+      "sentrum_tjenester": 294.64,
+      "lokka_tjenester": 340.83,
+      "bjørvika_tjenester": 86.45
+    },
+    {
+      "year": "2025",
+      "sentrum_mat_og_opplevelser": 2408.07,
+      "lokka_mat_og_opplevelser": 1632,
+      "majorstuen_mat_og_opplevelser": 980.36,
+      "bjørvika_mat_og_opplevelser": 1007.73,
+      "majorstuen_handel": 4076.49,
+      "sentrum_handel": 2000.51,
+      "lokka_handel": 2127.47,
+      "bjørvika_handel": 527.59,
+      "majorstuen_tjenester": 459.6,
+      "sentrum_tjenester": 251.1,
+      "lokka_tjenester": 312.05,
+      "bjørvika_tjenester": 84.92
+    }
+  ],
+  "markedsandeler": [
+    {
+      "category": "Mat og opplevelser",
+      "lokka": 4.47,
+      "bjørvika": 14.79,
+      "sentrum": 10.43,
+      "majorstuen": 1.43
+    },
+    {
+      "category": "Handel",
+      "lokka": -6.56,
+      "bjørvika": -14.45,
+      "sentrum": -21.69,
+      "majorstuen": -3.11
+    },
+    {
+      "category": "Tjenester",
+      "lokka": 2.09,
+      "bjørvika": -0.34,
+      "sentrum": 11.26,
+      "majorstuen": 1.67
+    }
+  ]
+}

@@ -4,8 +4,15 @@ import { motion } from 'framer-motion';
 import Container from '@/components/ui/Container';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getKulturTimeline, getKulturIndexes, getKulturMasterText } from '@/lib/loaders/biblioteket-loader';
+import {
+    getBibliotekVerificationDataset,
+    getBibliotekVerificationSummary,
+    getKulturTimeline,
+    getKulturIndexes,
+    getKulturMasterText,
+} from '@/lib/loaders/biblioteket-loader';
 import ImageCarousel from '@/components/biblioteket/ImageCarousel';
+import { VerificationPanel } from '@/components/biblioteket/VerificationPanel';
 import { biblioteketCarouselImages } from '@/lib/constants/carousel-images';
 import { fadeUpVariants, springs, viewport, stagger } from '@/lib/animations';
 
@@ -78,6 +85,8 @@ export default function KulturPage() {
     const timeline = getKulturTimeline();
     const indexes = getKulturIndexes();
     const masterText = getKulturMasterText();
+    const verification = getBibliotekVerificationSummary('kultur');
+    const verificationDataset = getBibliotekVerificationDataset('kultur');
 
     const paragraphs = masterText.split('\n\n');
 
@@ -207,6 +216,16 @@ export default function KulturPage() {
                             </motion.div>
                         ))}
                     </motion.div>
+                </Container>
+            </section>
+
+            <section className="border-b border-gray-200 bg-gray-50 py-10">
+                <Container>
+                    <VerificationPanel
+                        summary={verification}
+                        sources={verificationDataset?.sources}
+                        title="Forskningsstatus for kulturseksjonen"
+                    />
                 </Container>
             </section>
 

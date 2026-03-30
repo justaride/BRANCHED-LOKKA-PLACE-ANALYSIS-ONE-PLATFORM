@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getBibliotekCategories, getBibliotekStats, getMasterTimelineEvents } from '@/lib/loaders/biblioteket-loader';
 import MasterTimeline from '@/components/biblioteket/MasterTimeline';
+import { VerificationBadge } from '@/components/biblioteket/VerificationPanel';
 import { fadeUpVariants, springs, viewport, stagger } from '@/lib/animations';
 
 // Metadata must be handled differently in client components
@@ -132,7 +133,7 @@ export default function LokkaBiblioteketPage() {
             <section className="border-b border-gray-200 bg-gradient-to-b from-gray-50 to-white py-10 md:py-12">
                 <Container>
                     <motion.div
-                        className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4"
+                        className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5"
                         variants={statsContainerVariants}
                         initial="hidden"
                         whileInView="visible"
@@ -202,6 +203,23 @@ export default function LokkaBiblioteketPage() {
                                 {stats.yearSpan.historie.earliest}–{stats.yearSpan.historie.latest}
                             </div>
                         </motion.div>
+                        <motion.div
+                            variants={statsCardVariants}
+                            whileHover={{ y: -4, boxShadow: '0 12px 24px rgba(0,0,0,0.08)' }}
+                            className="group rounded-2xl bg-white p-6 shadow-sm border border-gray-100 transition-colors hover:border-emerald-200"
+                        >
+                            <div className="flex items-center gap-3 mb-3">
+                                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-100 text-emerald-700">
+                                    <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <div className="text-sm font-medium text-gray-500">Forskningsdekning</div>
+                            </div>
+                            <div className="text-2xl md:text-3xl font-bold text-gray-900">
+                                {Math.round(stats.verification.averageCoverageScore * 100)} %
+                            </div>
+                        </motion.div>
                     </motion.div>
                 </Container>
             </section>
@@ -266,6 +284,9 @@ export default function LokkaBiblioteketPage() {
                                             {category.itemCount} elementer
                                         </span>
                                     </div>
+                                    <div className="absolute top-4 left-4">
+                                        <VerificationBadge summary={category.verification} />
+                                    </div>
                                     <div className="absolute bottom-0 left-0 right-0 p-5">
                                         <h3 className="text-xl font-bold text-white mb-1 group-hover:text-white/90 transition-colors">
                                             {category.title}
@@ -273,6 +294,11 @@ export default function LokkaBiblioteketPage() {
                                         <p className="text-sm text-white/75 line-clamp-2 leading-relaxed">
                                             {category.description}
                                         </p>
+                                        {category.verification && (
+                                            <p className="mt-2 text-xs text-white/70">
+                                                {category.verification.verifiedCount}/{category.verification.claimCount} claims verifisert
+                                            </p>
+                                        )}
                                         <motion.div
                                             className="mt-3 flex items-center gap-1 text-sm font-medium text-white/80"
                                             initial={{ opacity: 0, x: -10 }}

@@ -93,6 +93,20 @@ export async function loadAllAnalyses(): Promise<PlaceAnalysis[]> {
             (m) => m.default as unknown as PlaceAnalysis,
           ),
       },
+      {
+        id: "sammenligning-2024",
+        load: () =>
+          import("@/data/main-board/analyser/sammenligning-2024.json").then(
+            (m) => m.default as unknown as PlaceAnalysis,
+          ),
+      },
+      {
+        id: "sammenligning-2025",
+        load: () =>
+          import("@/data/main-board/analyser/sammenligning-2025.json").then(
+            (m) => m.default as unknown as PlaceAnalysis,
+          ),
+      },
     ];
 
     const results = await Promise.allSettled(
@@ -152,6 +166,8 @@ export async function getAllAnalysisIds(): Promise<string[]> {
     "midt-i-markveien",
     "olaf-ryes-plass-boots",
     "nederst-i-markveien",
+    "sammenligning-2024",
+    "sammenligning-2025",
   ];
 }
 

@@ -266,31 +266,301 @@
   "sources": [
     {
       "title": "Grüner Fotball - Da Grüner ble Grüner",
-      "url": "https://fotball.gruner.no/2022/11/da-gruner-ble-gruner/"
+      "url": "https://fotball.gruner.no/2022/11/da-gruner-ble-gruner/",
+      "publisher": "Grüner Fotball",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Grüner Hockey - Om oss",
-      "url": "https://www.grunerhockey.no/om_oss"
+      "url": "https://www.grunerhockey.no/om_oss",
+      "publisher": "Grüner Hockey",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Lokalhistoriewiki - Dælenenga idrettsplass",
-      "url": "https://lokalhistoriewiki.no/wiki/Dælenenga_idrettsplass"
+      "url": "https://lokalhistoriewiki.no/wiki/Dælenenga_idrettsplass",
+      "publisher": "Lokalhistoriewiki",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Lokalhistoriewiki - Grünerhallen",
-      "url": "https://lokalhistoriewiki.no/wiki/Grünerhallen"
+      "url": "https://lokalhistoriewiki.no/wiki/Gr%C3%BCnerhallen",
+      "publisher": "Lokalhistoriewiki",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
-      "title": "Oslo Byleksikon - Grüner Idrettslag",
-      "url": "https://oslobyleksikon.no/side/Grüner_Idrettslag"
-    },
-    {
-      "title": "Wikipedia - Idrettslaget Spartacus",
-      "url": "https://no.wikipedia.org/wiki/Idrettslaget_Spartacus"
+      "title": "Dagen i dag: Rolf Hofmo",
+      "url": "https://www.arbark.no/Kalender/Kal0810/kal.htm",
+      "publisher": "Arbeiderbevegelsens arkiv og bibliotek",
+      "accessedAt": "2026-03-30",
+      "sourceType": "archive",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Dagbladet - Arbeidernes Idrettsforbund",
-      "url": "https://www.dagbladet.no/kultur/slik-ble-arbeidernes-idrettsforbund-bade-en-idrettsorganisasjon-og-et-propagandavesen/67360358"
+      "url": "https://www.dagbladet.no/kultur/slik-ble-arbeidernes-idrettsforbund-bade-en-idrettsorganisasjon-og-et-propagandavesen/67360358",
+      "publisher": "Dagbladet",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Bernt Evensen - Norsk biografisk leksikon",
+      "url": "https://nbl.snl.no/Bernt_Evensen",
+      "publisher": "Norsk biografisk leksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "NIHF 90 år – vår historie i epoker",
+      "url": "https://www.hockey.no/nyheter/2024/nihf-90-ar--var-historie-i-epoker/",
+      "publisher": "Norges Ishockeyforbund",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Sportsklubben Strong – Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Sportsklubben_Strong",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Spartacus – Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Spartacus",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Arbeidernes Idrettsforbund – Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Arbeidernes_Idrettsforbund",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Bernt Evensen – Store norske leksikon",
+      "url": "https://snl.no/Bernt_Evensen",
+      "publisher": "Store norske leksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     }
+  ],
+  "claims": [
+    {
+      "claimId": "idrett-001",
+      "claim": "Grüner IL ble stiftet 10. november 1952 ved sammenslåing av B.14, Strong og Spero.",
+      "status": "verified",
+      "confidenceScore": 0.93,
+      "sources": [
+        {
+          "title": "Grüner Fotball - Da Grüner ble Grüner",
+          "url": "https://fotball.gruner.no/2022/11/da-gruner-ble-gruner/",
+          "publisher": "Grüner Fotball",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Grüner Hockey - Om oss",
+          "url": "https://www.grunerhockey.no/om_oss",
+          "publisher": "Grüner Hockey",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "idrett-002",
+      "claim": "Dælenenga idrettsplass åpnet i 1916 og har vært kjernearenaen for idrett på Grünerløkka siden.",
+      "status": "verified",
+      "confidenceScore": 0.91,
+      "sources": [
+        {
+          "title": "Lokalhistoriewiki - Dælenenga idrettsplass",
+          "url": "https://lokalhistoriewiki.no/wiki/Dælenenga_idrettsplass",
+          "publisher": "Lokalhistoriewiki",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Lokalhistoriewiki - Grünerhallen",
+          "url": "https://lokalhistoriewiki.no/wiki/Gr%C3%BCnerhallen",
+          "publisher": "Lokalhistoriewiki",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "idrett-003",
+      "claim": "I sesongen 1933/34 etablerte det seg et ishockeymiljø rundt Grünerløkka-klubber som Strong, og Strong var en av klubbene som deltok da Norges Ishockeyforbund ble stiftet 18. september 1934.",
+      "status": "verified",
+      "confidenceScore": 0.91,
+      "sources": [
+        {
+          "title": "NIHF 90 år – vår historie i epoker",
+          "url": "https://www.hockey.no/nyheter/2024/nihf-90-ar--var-historie-i-epoker/",
+          "publisher": "Norges Ishockeyforbund",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Sportsklubben Strong – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Sportsklubben_Strong",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Tidligere formulering låste seg til en omstridt dato for første kamp på Dælenenga. Claimet er snevret inn til det som støttes både av NIHFs jubileumshistorikk og Strong-artikkelen i Oslo byleksikon.",
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "idrett-004",
+      "claim": "Kunstisbanen på Dælenenga kom i 1985, og Grünerhallen åpnet som overbygget ishall i 1995.",
+      "status": "verified",
+      "confidenceScore": 0.92,
+      "sources": [
+        {
+          "title": "Lokalhistoriewiki - Grünerhallen",
+          "url": "https://lokalhistoriewiki.no/wiki/Gr%C3%BCnerhallen",
+          "publisher": "Lokalhistoriewiki",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Lokalhistoriewiki - Dælenenga idrettsplass",
+          "url": "https://lokalhistoriewiki.no/wiki/Dælenenga_idrettsplass",
+          "publisher": "Lokalhistoriewiki",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "idrett-005",
+      "claim": "Idrettslaget Spartacus ble stiftet på Grünerløkka 8. juni 1920 og omtales som det første arbeideridrettslaget i Norge; klubben ble senere sentral i Arbeidernes Idrettsforbund.",
+      "status": "verified",
+      "confidenceScore": 0.93,
+      "sources": [
+        {
+          "title": "Spartacus – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Spartacus",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Arbeidernes Idrettsforbund – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Arbeidernes_Idrettsforbund",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Dagen i dag: Rolf Hofmo",
+          "url": "https://www.arbark.no/Kalender/Kal0810/kal.htm",
+          "publisher": "Arbeiderbevegelsens arkiv og bibliotek",
+          "accessedAt": "2026-03-30",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "notes": "Det brede miljøclaimet er erstattet med en konkret og dokumenterbar påstand om Spartacus' etablering og rolle i arbeideridretten.",
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "idrett-006",
+      "claim": "Bernt 'Bæla' Evensen vokste opp på Grünerløkka i nærheten av velodromen på Dælenenga og representerte Reidulf (AIF) i perioden 1935–1940.",
+      "status": "verified",
+      "confidenceScore": 0.92,
+      "sources": [
+        {
+          "title": "Bernt Evensen - Norsk biografisk leksikon",
+          "url": "https://nbl.snl.no/Bernt_Evensen",
+          "publisher": "Norsk biografisk leksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Bernt Evensen – Store norske leksikon",
+          "url": "https://snl.no/Bernt_Evensen",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Det evaluative claimet er erstattet med en dokumentert biografisk kobling mellom Grünerløkka, Dælenenga og Reidulf.",
+      "lastVerifiedAt": "2026-03-30"
+    }
+  ],
+  "researchMetadata": {
+    "lastVerifiedAt": "2026-03-30",
+    "verifiedBy": "codex-gpt-5",
+    "coverageScore": 0.82,
+    "staleAfterDays": 180
+  },
+  "crossReferences": [
+    {
+      "type": "person",
+      "idOrName": "Rolf Hofmo",
+      "linkedSections": [
+        "idrett",
+        "ildsjeler",
+        "historie"
+      ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Dælenenga idrettsplass",
+      "linkedSections": [
+        "idrett",
+        "historie",
+        "ildsjeler"
+      ]
+    },
+    {
+      "type": "organization",
+      "idOrName": "Grüner IL",
+      "linkedSections": [
+        "idrett",
+        "mediebildet"
+      ]
+    }
+  ],
+  "limitations": [
+    "Detaljene rundt den aller første ishockeykampen på Dælenenga varierer mellom klubbhistorikk og senere forbundsoversikter, og er derfor ikke brukt som et eget verifisert claim.",
+    "Noen klubb- og pionerbeskrivelser i datasettet er foreløpig kun sjekket mot sekundærkilder eller klubbhistorikk.",
+    "Den fremtidsrettede oppføringen om flerbrukshall i 2025 er ikke løftet inn i claims før vedtaksgrunnlaget er dokumentert tydeligere."
   ]
 }

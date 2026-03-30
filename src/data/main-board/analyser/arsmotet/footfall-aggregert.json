@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "generated": "2026-03-30",
+    "periode": "01.10.2022 - 30.09.2025",
+    "kilde": "Telia bevegelsesdata via Plaace.ai",
+    "antallSoner": 6,
+    "sonerMedData": 4,
+    "sonerUtenData": 2,
+    "note": "2 av 6 mikro-områder (Olaf Ryes Plass v/Boots og Midt i Markveien) returnerer 0-data"
+  },
+  "aggregert": {
+    "dagligBesokende": 29138,
+    "dagligTotal": 57714,
+    "travlesteDag": "lør.",
+    "travlesteTime": "17:00",
+    "lordagAndel": 18.2
+  },
+  "mikrosoner": [
+    {
+      "id": "nedre-thorvald-meyers-gate",
+      "navn": "Nedre Thorvald Meyers gate",
+      "kortNavn": "Nedre TMG",
+      "dagligBesokende": 10868,
+      "areal": 0.04,
+      "lat": 59.9195,
+      "lng": 10.7570,
+      "harData": true
+    },
+    {
+      "id": "olaf-ryes-plass-7eleven",
+      "navn": "Olaf Ryes Plass (7-Eleven)",
+      "kortNavn": "ORP / 7-Eleven",
+      "dagligBesokende": 7696,
+      "areal": 0.01,
+      "lat": 59.9226,
+      "lng": 10.7585,
+      "harData": true
+    },
+    {
+      "id": "ovre-thorvald-meyers-gate",
+      "navn": "Øvre Thorvald Meyers gate",
+      "kortNavn": "Øvre TMG",
+      "dagligBesokende": 6803,
+      "areal": 0.02,
+      "lat": 59.9255,
+      "lng": 10.7580,
+      "harData": true
+    },
+    {
+      "id": "nederst-i-markveien",
+      "navn": "Nederst i Markveien",
+      "kortNavn": "Nederst Markveien",
+      "dagligBesokende": 3771,
+      "areal": 0.01,
+      "lat": 59.9200,
+      "lng": 10.7545,
+      "harData": true
+    },
+    {
+      "id": "olaf-ryes-plass-boots",
+      "navn": "Olaf Ryes Plass (Boots)",
+      "kortNavn": "ORP / Boots",
+      "dagligBesokende": 0,
+      "areal": 0.01,
+      "lat": 59.9232,
+      "lng": 10.7595,
+      "harData": false
+    },
+    {
+      "id": "midt-i-markveien",
+      "navn": "Midt i Markveien",
+      "kortNavn": "Midt Markveien",
+      "dagligBesokende": 0,
+      "areal": 0.01,
+      "lat": 59.9225,
+      "lng": 10.7550,
+      "harData": false
+    }
+  ],
+  "timefordeling": [
+    { "time": "00:00", "besokende": 2089 },
+    { "time": "01:00", "besokende": 1858 },
+    { "time": "02:00", "besokende": 1864 },
+    { "time": "03:00", "besokende": 1484 },
+    { "time": "04:00", "besokende": 1256 },
+    { "time": "05:00", "besokende": 1237 },
+    { "time": "06:00", "besokende": 1357 },
+    { "time": "07:00", "besokende": 1494 },
+    { "time": "08:00", "besokende": 1644 },
+    { "time": "09:00", "besokende": 1692 },
+    { "time": "10:00", "besokende": 1854 },
+    { "time": "11:00", "besokende": 2191 },
+    { "time": "12:00", "besokende": 2794 },
+    { "time": "13:00", "besokende": 3521 },
+    { "time": "14:00", "besokende": 4044 },
+    { "time": "15:00", "besokende": 4469 },
+    { "time": "16:00", "besokende": 4943 },
+    { "time": "17:00", "besokende": 5136 },
+    { "time": "18:00", "besokende": 4987 },
+    { "time": "19:00", "besokende": 4612 },
+    { "time": "20:00", "besokende": 4015 },
+    { "time": "21:00", "besokende": 3354 },
+    { "time": "22:00", "besokende": 2809 },
+    { "time": "23:00", "besokende": 2393 }
+  ],
+  "ukedagsfordeling": [
+    { "dag": "man.", "besokende": 24324 },
+    { "dag": "tir.", "besokende": 25920 },
+    { "dag": "ons.", "besokende": 27570 },
+    { "dag": "tor.", "besokende": 28411 },
+    { "dag": "fre.", "besokende": 33162 },
+    { "dag": "lør.", "besokende": 37178 },
+    { "dag": "søn.", "besokende": 27401 }
+  ]
+}

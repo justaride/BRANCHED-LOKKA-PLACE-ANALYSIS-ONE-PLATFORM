@@ -191,6 +191,62 @@ export interface ResearchEnrichment {
     crossReferences?: CrossReference[];
 }
 
+export type BibliotekVerificationCategory =
+    | 'historie'
+    | 'idrett'
+    | 'ildsjeler'
+    | 'kultur'
+    | 'litteratur'
+    | 'mediebildet';
+
+export interface VerificationScopeRecord {
+    id: string;
+    title: string;
+    dataFiles: string[];
+    itemCount?: number;
+    note?: string;
+}
+
+export interface BibliotekVerificationDataset extends ResearchEnrichment {
+    id: string;
+    category: BibliotekVerificationCategory;
+    title: string;
+    summary: string;
+    scope: VerificationScopeRecord[];
+    sources: SourceItem[];
+    claims: ClaimEvidence[];
+    researchMetadata: ResearchMetadata;
+    crossReferences: CrossReference[];
+    limitations?: string[];
+}
+
+export interface BibliotekVerificationSummary {
+    category: BibliotekVerificationCategory;
+    title: string;
+    status: VerificationStatus;
+    sourceCount: number;
+    claimCount: number;
+    verifiedCount: number;
+    partiallyVerifiedCount: number;
+    unverifiedCount: number;
+    disputedCount: number;
+    coverageScore: number;
+    lastVerifiedAt: string;
+    limitations: string[];
+}
+
+export interface BibliotekVerificationOverview {
+    categoryCount: number;
+    sourceCount: number;
+    claimCount: number;
+    verifiedCount: number;
+    partiallyVerifiedCount: number;
+    unverifiedCount: number;
+    disputedCount: number;
+    averageCoverageScore: number;
+    lastVerifiedAt: string | null;
+}
+
 export interface KulturTimelineEvent {
     period: string;
     event: string;
@@ -230,6 +286,7 @@ export interface BibliotekCategory {
     image: string;
     itemCount: number;
     color: string;
+    verification?: BibliotekVerificationSummary;
 }
 
 // Mediebildet (Media Coverage)
@@ -294,7 +351,11 @@ export interface MediebildetData {
     heroImage: string;
     subsections: MediaSubsection[];
     themes: string[];
-    sources: { title: string; url: string }[];
+    sources: SourceItem[];
+    claims?: ClaimEvidence[];
+    researchMetadata?: ResearchMetadata;
+    crossReferences?: CrossReference[];
+    limitations?: string[];
 }
 
 export interface MediaCategoryData<T extends MediaItem> {

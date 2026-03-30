@@ -1,0 +1,314 @@
+{
+  "id": "historie-verification",
+  "category": "historie",
+  "title": "Byhistorie",
+  "summary": "Verifikasjonsgrunnlag for hovedfortellingen om Grünerløkkas byutvikling, fra utparsellering og industri til byfornyelse og kulturbydel.",
+  "scope": [
+    {
+      "id": "historie-core",
+      "title": "Kjernefiler for byhistorien",
+      "dataFiles": [
+        "src/data/biblioteket/historie/grunerlokka_timeline.json",
+        "src/data/biblioteket/historie/grunerlokka_cards.json",
+        "src/data/biblioteket/historie/grunerlokka_entities.json"
+      ],
+      "itemCount": 115,
+      "note": "Dekker tidslinje, kort, entiteter og nøkkelfortellingene brukt i historiedelen av Biblioteket."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Oslo byarkiv - Tobias 1/2004",
+      "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf",
+      "publisher": "Oslo byarkiv",
+      "accessedAt": "2026-03-30",
+      "sourceType": "archive",
+      "evidenceLevel": "primary",
+      "notes": "Brukt for byfornyelse, kulturmiljø og hovedlinjer i utviklingen."
+    },
+    {
+      "title": "Oslo byarkiv - Tobias 2021",
+      "url": "https://www.oslo.kommune.no/OBA/tobias/tobiasartikler/pdf_arkiv/tobias2021.pdf",
+      "publisher": "Oslo byarkiv",
+      "accessedAt": "2026-03-30",
+      "sourceType": "archive",
+      "evidenceLevel": "primary",
+      "notes": "Brukt for saneringsplaner, byfornyelse og leiegårdsfornyelse i indre by."
+    },
+    {
+      "title": "Thorvald Meyers gate - Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Thorvald_Meyers_gate",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Birkelunden - Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Birkelunden",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Parkteatret - Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Parkteatret",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Om Parkteatret",
+      "url": "https://www.parkteatret.no/om-parkteateret",
+      "publisher": "Parkteatret",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Paulus kirke - Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Paulus_kirke",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Grünerløkka skole - Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Gr%C3%BCnerl%C3%B8kka_skole",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Snippen 6 - Rodeløkka Vel",
+      "url": "https://www.rodelokkavel.no/snippen-6",
+      "publisher": "Rodeløkka Vel",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Christiania Seildugsfabrik – Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Christiania_Seildugsfabrik",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Christiania Seildugsfabrik – Store norske leksikon",
+      "url": "https://snl.no/Christiania_Seildugsfabrik",
+      "publisher": "Store norske leksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    }
+  ],
+  "claims": [
+    {
+      "claimId": "historie-001",
+      "claim": "Thorvald Meyer startet utparselleringen av området omkring 1860, og Thorvald Meyers gate fikk navn i 1864.",
+      "status": "verified",
+      "confidenceScore": 0.92,
+      "sources": [
+        {
+          "title": "Thorvald Meyers gate - Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Thorvald_Meyers_gate",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Birkelunden - Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Birkelunden",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "historie-002",
+      "claim": "Christiania Seildugsfabrik ble grunnlagt i 1856 og kom i drift ved Øvre Foss i 1858; anlegget ble et av de største industrikompleksene langs Akerselva på Grünerløkka.",
+      "status": "verified",
+      "confidenceScore": 0.92,
+      "sources": [
+        {
+          "title": "Christiania Seildugsfabrik – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Christiania_Seildugsfabrik",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Christiania Seildugsfabrik – Store norske leksikon",
+          "url": "https://snl.no/Christiania_Seildugsfabrik",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Det brede årsaksclaimet er erstattet med en smalere og fullt dokumenterbar fabrikkhistorisk påstand om etablering, oppstart og størrelse.",
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "historie-003",
+      "claim": "Paulus kirke ble innviet i 1892 og Grünerløkka skole tatt i bruk i 1895 som sentrale institusjoner rundt Birkelunden.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Paulus kirke - Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Paulus_kirke",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Grünerløkka skole - Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Gr%C3%BCnerl%C3%B8kka_skole",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "historie-004",
+      "claim": "Parkteatret åpnet som kino i 1907 og gjenåpnet som teater- og konsertsal i 2002.",
+      "status": "verified",
+      "confidenceScore": 0.94,
+      "sources": [
+        {
+          "title": "Parkteatret - Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Parkteatret",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Om Parkteatret",
+          "url": "https://www.parkteatret.no/om-parkteateret",
+          "publisher": "Parkteatret",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "historie-005",
+      "claim": "Store saneringsplaner for Grünerløkka og indre øst var aktive fra 1930-tallet, men ble gradvis erstattet av byfornyelse og rehabilitering på 1970-tallet.",
+      "status": "verified",
+      "confidenceScore": 0.88,
+      "sources": [
+        {
+          "title": "Oslo byarkiv - Tobias 1/2004",
+          "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf",
+          "publisher": "Oslo byarkiv",
+          "accessedAt": "2026-03-30",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Oslo byarkiv - Tobias 2021",
+          "url": "https://www.oslo.kommune.no/OBA/tobias/tobiasartikler/pdf_arkiv/tobias2021.pdf",
+          "publisher": "Oslo byarkiv",
+          "accessedAt": "2026-03-30",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "historie-006",
+      "claim": "Beboeraksjoner på Rodeløkka, ledet blant annet av Randi Spenningsby og Magnhild Johansen, bidro til bevaringsvedtaket i 1977.",
+      "status": "verified",
+      "confidenceScore": 0.83,
+      "sources": [
+        {
+          "title": "Snippen 6 - Rodeløkka Vel",
+          "url": "https://www.rodelokkavel.no/snippen-6",
+          "publisher": "Rodeløkka Vel",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Oslo byarkiv - Tobias 2021",
+          "url": "https://www.oslo.kommune.no/OBA/tobias/tobiasartikler/pdf_arkiv/tobias2021.pdf",
+          "publisher": "Oslo byarkiv",
+          "accessedAt": "2026-03-30",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    }
+  ],
+  "researchMetadata": {
+    "lastVerifiedAt": "2026-03-30",
+    "verifiedBy": "codex-gpt-5",
+    "coverageScore": 0.81,
+    "staleAfterDays": 180
+  },
+  "crossReferences": [
+    {
+      "type": "place",
+      "idOrName": "Thorvald Meyers gate",
+      "linkedSections": [
+        "historie",
+        "kultur",
+        "mediebildet"
+      ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Birkelunden",
+      "linkedSections": [
+        "historie",
+        "idrett",
+        "kultur",
+        "litteratur"
+      ]
+    },
+    {
+      "type": "organization",
+      "idOrName": "Parkteatret",
+      "linkedSections": [
+        "historie",
+        "kultur",
+        "mediebildet"
+      ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Rodeløkka",
+      "linkedSections": [
+        "historie",
+        "ildsjeler",
+        "litteratur"
+      ]
+    }
+  ],
+  "limitations": [
+    "Flere enkeltår i tidslinjen bør fortsatt dobbeltsjekkes mot primærkilder fra kommunale reguleringsdokumenter og fabrikkhistorikk.",
+    "Søkeindeks- og entitetsfilene er avledede datasett og er ikke verifisert claim-for-claim ennå.",
+    "Noen befolkningstall og formuleringer om 'Ny York' krever mer eksplisitt dokumentasjon før de kan løftes til høyere sikkerhetsnivå."
+  ]
+}

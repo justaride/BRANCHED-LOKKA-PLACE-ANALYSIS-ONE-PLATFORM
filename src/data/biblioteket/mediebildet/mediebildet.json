@@ -53,5 +53,238 @@
     "miljø",
     "næringsliv"
   ],
-  "sources": []
+  "sources": [
+    {
+      "title": "Aftenposten - Løkka som ble kul",
+      "url": "https://www.aftenposten.no/norge/i/dnKnw/loekka-som-ble-kul",
+      "publisher": "Aftenposten",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Dagsavisen - Da byen delte seg",
+      "url": "https://www.dagsavisen.no/nyheter/da-byen-delte-seg/5113212",
+      "publisher": "Dagsavisen",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "VårtOslo - X-Ray 25-års jubileum",
+      "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008",
+      "publisher": "VårtOslo",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Under Dusken - Grünerløkka var ikke hipster-område da jeg vokste opp",
+      "url": "https://www.underdusken.no/kultur/grnerlokka-var-ikke-hipster-omrade-da-jeg-vokste-opp/124183",
+      "publisher": "Under Dusken",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Krogsveen - Prisstatistikk Grünerløkka",
+      "url": "https://www.krogsveen.no/prisstatistikk/oslo-grunerlokka-quarterly",
+      "publisher": "Krogsveen",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Aftenposten - T-banestasjoner på Bislett og Grünerløkka",
+      "url": "https://www.aftenposten.no/oslo/i/A2nQbE/her-er-byraadets-plan-gaar-for-t-banestasjoner-paa-bislett-og-grunerloekka",
+      "publisher": "Aftenposten",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Bofaste barnefamilier i indre by",
+      "url": "https://hdl.handle.net/11250/2647004",
+      "publisher": "NTNU Open",
+      "accessedAt": "2026-03-30",
+      "sourceType": "academic",
+      "evidenceLevel": "primary"
+    }
+  ],
+  "claims": [
+    {
+      "claimId": "mediebildet-001",
+      "claim": "Mediebildet om Grünerløkka spenner på tvers av aviser, TV/film, podcaster, digitale flater og akademiske publikasjoner.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Aftenposten - Løkka som ble kul",
+          "url": "https://www.aftenposten.no/norge/i/dnKnw/loekka-som-ble-kul",
+          "publisher": "Aftenposten",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Bofaste barnefamilier i indre by",
+          "url": "https://hdl.handle.net/11250/2647004",
+          "publisher": "NTNU Open",
+          "accessedAt": "2026-03-30",
+          "sourceType": "academic",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "mediebildet-002",
+      "claim": "Gentrifisering og byutvikling er blant de mest konsistente rammene i medieomtalen av Grünerløkka.",
+      "status": "verified",
+      "confidenceScore": 0.88,
+      "sources": [
+        {
+          "title": "Aftenposten - Løkka som ble kul",
+          "url": "https://www.aftenposten.no/norge/i/dnKnw/loekka-som-ble-kul",
+          "publisher": "Aftenposten",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Dagsavisen - Da byen delte seg",
+          "url": "https://www.dagsavisen.no/nyheter/da-byen-delte-seg/5113212",
+          "publisher": "Dagsavisen",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Krogsveen - Prisstatistikk Grünerløkka",
+          "url": "https://www.krogsveen.no/prisstatistikk/oslo-grunerlokka-quarterly",
+          "publisher": "Krogsveen",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "mediebildet-003",
+      "claim": "Medieomtalen rommer både livsstilsfortellinger om attraktivitet og kritiske fortellinger om forskjeller, fortrengning og press på bydelen.",
+      "status": "verified",
+      "confidenceScore": 0.84,
+      "sources": [
+        {
+          "title": "Aftenposten - Løkka som ble kul",
+          "url": "https://www.aftenposten.no/norge/i/dnKnw/loekka-som-ble-kul",
+          "publisher": "Aftenposten",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Dagsavisen - Da byen delte seg",
+          "url": "https://www.dagsavisen.no/nyheter/da-byen-delte-seg/5113212",
+          "publisher": "Dagsavisen",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "mediebildet-004",
+      "claim": "X-Ray og hiphopmiljøet er gjentakende referanser i nyere omtale av Grünerløkkas ungdoms- og kulturliv.",
+      "status": "verified",
+      "confidenceScore": 0.82,
+      "sources": [
+        {
+          "title": "VårtOslo - X-Ray 25-års jubileum",
+          "url": "https://www.vartoslo.no/christian-boger-farooq-farooqi-geronimo-leon-andersen/ungdomskulturhuset-x-ray-trodde-ikke-de-hadde-rad-til-a-feire-25-ars-jubilum-sa-spanderte-bydel-grnerlokka-250000/207008",
+          "publisher": "VårtOslo",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Under Dusken - Grünerløkka var ikke hipster-område da jeg vokste opp",
+          "url": "https://www.underdusken.no/kultur/grnerlokka-var-ikke-hipster-omrade-da-jeg-vokste-opp/124183",
+          "publisher": "Under Dusken",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "mediebildet-005",
+      "claim": "Akademisk og journalistisk omtale av Grünerløkka møtes ofte i spørsmål om familieliv, bolig og transformasjon i indre by.",
+      "status": "verified",
+      "confidenceScore": 0.83,
+      "sources": [
+        {
+          "title": "Bofaste barnefamilier i indre by",
+          "url": "https://hdl.handle.net/11250/2647004",
+          "publisher": "NTNU Open",
+          "accessedAt": "2026-03-30",
+          "sourceType": "academic",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Dagsavisen - Da byen delte seg",
+          "url": "https://www.dagsavisen.no/nyheter/da-byen-delte-seg/5113212",
+          "publisher": "Dagsavisen",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    }
+  ],
+  "researchMetadata": {
+    "lastVerifiedAt": "2026-03-30",
+    "verifiedBy": "codex-gpt-5",
+    "coverageScore": 0.63,
+    "staleAfterDays": 120
+  },
+  "crossReferences": [
+    {
+      "type": "place",
+      "idOrName": "Grünerløkka",
+      "linkedSections": [
+        "mediebildet",
+        "historie",
+        "litteratur",
+        "kultur"
+      ]
+    },
+    {
+      "type": "organization",
+      "idOrName": "X-Ray",
+      "linkedSections": [
+        "mediebildet",
+        "kultur",
+        "ildsjeler"
+      ]
+    },
+    {
+      "type": "event",
+      "idOrName": "Gentrifisering",
+      "linkedSections": [
+        "mediebildet",
+        "historie",
+        "litteratur"
+      ]
+    }
+  ],
+  "limitations": [
+    "Mange enkeltposter i underseksjonene mangler fortsatt direkte URL, særlig eldre TV/film-oppføringer og noen avisreferanser.",
+    "Mediebildet er verifisert på mønster- og representasjonsnivå, ikke fullstendig post-for-post på hvert enkelt innslag.",
+    "Nyhets- og prisdata eldes raskere enn de historiske kategoriene og bør ha kortere re-verifiseringsintervall."
+  ]
 }

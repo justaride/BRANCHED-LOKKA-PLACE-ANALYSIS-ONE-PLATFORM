@@ -4,8 +4,15 @@ import { motion } from 'framer-motion';
 import Container from '@/components/ui/Container';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getLitteratur, getLitteraturTopics, getLitteraturTypes } from '@/lib/loaders/biblioteket-loader';
+import {
+    getBibliotekVerificationDataset,
+    getBibliotekVerificationSummary,
+    getLitteratur,
+    getLitteraturTopics,
+    getLitteraturTypes,
+} from '@/lib/loaders/biblioteket-loader';
 import ImageCarousel from '@/components/biblioteket/ImageCarousel';
+import { VerificationPanel } from '@/components/biblioteket/VerificationPanel';
 import { fadeUpVariants, springs, viewport, stagger } from '@/lib/animations';
 
 const heroVariants = {
@@ -86,6 +93,8 @@ export default function LitteraturPage() {
     const works = getLitteratur();
     const topics = getLitteraturTopics();
     const types = getLitteraturTypes();
+    const verification = getBibliotekVerificationSummary('litteratur');
+    const verificationDataset = getBibliotekVerificationDataset('litteratur');
 
     const sortedWorks = [...works].sort((a, b) => b.year - a.year);
 
@@ -189,6 +198,16 @@ export default function LitteraturPage() {
                             </motion.div>
                         ))}
                     </motion.div>
+                </Container>
+            </section>
+
+            <section className="border-b border-gray-200 bg-gray-50 py-10">
+                <Container>
+                    <VerificationPanel
+                        summary={verification}
+                        sources={verificationDataset?.sources}
+                        title="Forskningsstatus for litteraturgrunnlaget"
+                    />
                 </Container>
             </section>
 
