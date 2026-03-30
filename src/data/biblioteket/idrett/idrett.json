@@ -359,6 +359,62 @@
       "accessedAt": "2026-03-30",
       "sourceType": "database",
       "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Dælenenga idrettsplass – Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/D%C3%A6lenenga_idrettsplass",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Østkantstafetten – Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/%C3%98stkantstafetten",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Grüner Idrettslag – Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Gr%C3%BCner_Idrettslag",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Historien om Grüner IL",
+      "url": "https://fotball.gruner.no/next/p/97414/historien-om-gr%C3%BBner-il",
+      "publisher": "Grüner Fotball",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Klubbhåndbok for Grüner Fotball IL 2023",
+      "url": "https://fotball.gruner.no/wp-content/uploads/2023/08/Klubbhandbok-for-Gruner-fotball-2023.pdf",
+      "publisher": "Grüner Fotball",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Arbeideridrett – frihet, sunnhet, kultur",
+      "url": "https://www.arbark.no/Utstilling/Arbeideridrett/Arbeideridrett.htm",
+      "publisher": "Arbeiderbevegelsens arkiv og bibliotek",
+      "accessedAt": "2026-03-30",
+      "sourceType": "archive",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Rolf Hofmo – lokalhistoriewiki.no",
+      "url": "https://lokalhistoriewiki.no/Rolf_Hofmo",
+      "publisher": "Lokalhistoriewiki",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     }
   ],
   "claims": [
@@ -522,12 +578,119 @@
       ],
       "notes": "Det evaluative claimet er erstattet med en dokumentert biografisk kobling mellom Grünerløkka, Dælenenga og Reidulf.",
       "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "idrett-007",
+      "claim": "Dælenenga var et fleridrettsanlegg lenge før dagens ishall: banen hadde velodrom i årene 1929–1946, fungerte som innkomst for Østkantstafetten, og under vinter-OL i Oslo 1952 ble det spilt ishockeykamper og oppvisningskamper i bandy her.",
+      "status": "verified",
+      "confidenceScore": 0.94,
+      "sources": [
+        {
+          "title": "Dælenenga idrettsplass – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/D%C3%A6lenenga_idrettsplass",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Lokalhistoriewiki - Dælenenga idrettsplass",
+          "url": "https://lokalhistoriewiki.no/wiki/Dælenenga_idrettsplass",
+          "publisher": "Lokalhistoriewiki",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Østkantstafetten – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/%C3%98stkantstafetten",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Klubbhåndbok for Grüner Fotball IL 2023",
+          "url": "https://fotball.gruner.no/wp-content/uploads/2023/08/Klubbhandbok-for-Gruner-fotball-2023.pdf",
+          "publisher": "Grüner Fotball",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "idrett-008",
+      "claim": "Sportsklubben Strong ble stiftet 1. mai 1915, tok Oslo-mesterskapet i fotball i 1929, slo seg sammen med Dæhlenengen Ski- og Ballklubb i 1940 og vant NM i ishockey i 1948.",
+      "status": "verified",
+      "confidenceScore": 0.94,
+      "sources": [
+        {
+          "title": "Sportsklubben Strong – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Sportsklubben_Strong",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Grüner Idrettslag – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Gr%C3%BCner_Idrettslag",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Historien om Grüner IL",
+          "url": "https://fotball.gruner.no/next/p/97414/historien-om-gr%C3%BBner-il",
+          "publisher": "Grüner Fotball",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "idrett-009",
+      "claim": "Spartacus-miljøet på Grünerløkka fostret sentrale AIF-ledere: Harald Liljedahl ble første formann i Arbeidernes Idrettsforbund, og Rolf Hofmo var blant stifterne av klubben og ble senere sekretær og formann i forbundet.",
+      "status": "verified",
+      "confidenceScore": 0.93,
+      "sources": [
+        {
+          "title": "Spartacus – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Spartacus",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Arbeideridrett – frihet, sunnhet, kultur",
+          "url": "https://www.arbark.no/Utstilling/Arbeideridrett/Arbeideridrett.htm",
+          "publisher": "Arbeiderbevegelsens arkiv og bibliotek",
+          "accessedAt": "2026-03-30",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Rolf Hofmo – lokalhistoriewiki.no",
+          "url": "https://lokalhistoriewiki.no/Rolf_Hofmo",
+          "publisher": "Lokalhistoriewiki",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     }
   ],
   "researchMetadata": {
     "lastVerifiedAt": "2026-03-30",
     "verifiedBy": "codex-gpt-5",
-    "coverageScore": 0.82,
+    "coverageScore": 0.86,
     "staleAfterDays": 180
   },
   "crossReferences": [
@@ -556,6 +719,34 @@
         "idrett",
         "mediebildet"
       ]
+    },
+    {
+      "type": "organization",
+      "idOrName": "Sportsklubben Strong",
+      "linkedSections": [
+        "idrett",
+        "historie"
+      ],
+      "note": "Strong knytter lokal fotball- og ishockeyhistorie til sammenslåingen som skapte Grüner IL."
+    },
+    {
+      "type": "organization",
+      "idOrName": "Spartacus",
+      "linkedSections": [
+        "idrett",
+        "historie",
+        "ildsjeler"
+      ],
+      "note": "Spartacus er et krysningspunkt mellom arbeideridrett, lokal organisering og personhistorie."
+    },
+    {
+      "type": "event",
+      "idOrName": "Østkantstafetten",
+      "linkedSections": [
+        "idrett",
+        "historie"
+      ],
+      "note": "Stafetten binder arbeideridrettens massearrangementer til Dælenenga som arena."
     }
   ],
   "limitations": [

@@ -550,6 +550,54 @@
       "sourceType": "official",
       "evidenceLevel": "secondary",
       "notes": "Ane Hjort Guttu beskriver Budbringeren som en film om Grønland, Tøyen og Gamlebyen."
+    },
+    {
+      "title": "Oslo Pictures - Verdens Verste Menneske",
+      "url": "https://www.oslo-pictures.com/no/filmer/verdens-verste-menneske",
+      "publisher": "Oslo Pictures",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Dagsavisen - Verdens verste menneske nominert til to Oscar-priser",
+      "url": "https://www.dagsavisen.no/kultur/verdens-verste-menneske-nominert-til-to-oscar-priser/5701728",
+      "publisher": "Dagsavisen",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Norsk filmografi - Jan Vardøen",
+      "url": "https://www.nb.no/filmografi/search?query=%22Vard%C3%B8en%2C+Jan%22",
+      "publisher": "Nasjonalbiblioteket",
+      "accessedAt": "2026-03-30",
+      "sourceType": "archive",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Norsk filmografi - Sult 2020",
+      "url": "https://www.nb.no/filmografi/show?id=21546228",
+      "publisher": "Nasjonalbiblioteket",
+      "accessedAt": "2026-03-30",
+      "sourceType": "archive",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Dagbladet - Utelivskongen som ble flyktningenes hjelper",
+      "url": "https://www.dagbladet.no/kultur/utelivskongen-som-ble-flyktningenes-hjelper/60535440",
+      "publisher": "Dagbladet",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Oslo byleksikon - Seilduksgata",
+      "url": "https://oslobyleksikon.no/side/Seilduksgata",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     }
   ],
   "claims": [
@@ -796,47 +844,63 @@
     },
     {
       "claimId": "film-010",
-      "claim": "Thomas Robsahm var del av undergrunnsmiljøet på Grünerløkka på 1980-tallet med postadresse på Løkka.",
-      "status": "partially_verified",
-      "confidenceScore": 0.55,
+      "claim": "Thomas Robsahm var produsent for Verdens verste menneske (2021), og Dagsavisen framhevet filmen som en Oslo-film der Grünerløkka inngår blant byrommene.",
+      "status": "verified",
+      "confidenceScore": 0.9,
       "sources": [
         {
-          "title": "Rockipedia - Thomas Robsahm",
-          "url": "https://www.rockipedia.no/artister/thomas_robsahm-34543/",
-          "publisher": "Rockipedia",
+          "title": "Oslo Pictures - Verdens Verste Menneske",
+          "url": "https://www.oslo-pictures.com/no/filmer/verdens-verste-menneske",
+          "publisher": "Oslo Pictures",
           "accessedAt": "2026-03-02",
-          "sourceType": "database",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Dagsavisen - Verdens verste menneske nominert til to Oscar-priser",
+          "url": "https://www.dagsavisen.no/kultur/verdens-verste-menneske-nominert-til-to-oscar-priser/5701728",
+          "publisher": "Dagsavisen",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
           "evidenceLevel": "secondary"
         }
       ],
-      "notes": "Født i Arendal. White Lord Jesus (1983-1985) er bekreftet. Spesifikk Grünerløkka-tilknytning (postadresse, bolig) er ikke bekreftet i tilgjengelige kilder.",
-      "lastVerifiedAt": "2026-03-02"
+      "notes": "Tidligere claim om undergrunnsmiljø og postadresse på Grünerløkka var ikke dokumentert. Det er erstattet med et verifisert claim om Robsahms rolle som produsent for en dokumentert Grünerløkka-relevant Oslo-film.",
+      "lastVerifiedAt": "2026-03-30"
     },
     {
       "claimId": "film-011",
-      "claim": "Jan Vardøen har regissert filmer med Grünerløkka som setting.",
-      "status": "partially_verified",
-      "confidenceScore": 0.50,
+      "claim": "Dagbladet omtalte Jan Vardøen som «Kongen av Grünerløkka» i 2015, og Nasjonalbibliotekets filmografi dokumenterer seks regioppføringer fra 2014 til 2023, fra Søvnløs i Lofoten til Sult 2020.",
+      "status": "verified",
+      "confidenceScore": 0.92,
       "sources": [
         {
-          "title": "Wikipedia - Jan Vardøen",
-          "url": "https://no.wikipedia.org/wiki/Jan_Vard%C3%B8en",
-          "publisher": "Wikipedia",
-          "accessedAt": "2026-03-02",
-          "sourceType": "database",
+          "title": "Dagbladet - Utelivskongen som ble flyktningenes hjelper",
+          "url": "https://www.dagbladet.no/kultur/utelivskongen-som-ble-flyktningenes-hjelper/60535440",
+          "publisher": "Dagbladet",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
           "evidenceLevel": "secondary"
         },
         {
-          "title": "IMDB - Jan Vardøen",
-          "url": "https://www.imdb.com/name/nm5533747/",
-          "publisher": "IMDB",
-          "accessedAt": "2026-03-02",
-          "sourceType": "database",
-          "evidenceLevel": "secondary"
+          "title": "Norsk filmografi - Jan Vardøen",
+          "url": "https://www.nb.no/filmografi/search?query=%22Vard%C3%B8en%2C+Jan%22",
+          "publisher": "Nasjonalbiblioteket",
+          "accessedAt": "2026-03-30",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Norsk filmografi - Sult 2020",
+          "url": "https://www.nb.no/filmografi/show?id=21546228",
+          "publisher": "Nasjonalbiblioteket",
+          "accessedAt": "2026-03-30",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
         }
       ],
-      "notes": "Vardøen er filmskaper med sterk Løkka-tilknytning som restauratør. Hans filmer (Søvnløs i Lofoten, House of Norway, Sult 2020) handler derimot ikke om Grünerløkka. Filmen «Himmelveien» (nevnt i original data) finnes ikke i noen kilder. Sult 2020 er satt i Oslo generelt under pandemien.",
-      "lastVerifiedAt": "2026-03-02"
+      "notes": "Tidligere claim om filmer med Grünerløkka som setting er erstattet. Kildene støtter Vardøens Grünerløkka-profil som entreprenør og en dokumentert filmografi, men ikke at filmene hans er satt spesifikt på Grünerløkka.",
+      "lastVerifiedAt": "2026-03-30"
     },
     {
       "claimId": "film-012",
@@ -858,9 +922,9 @@
     },
     {
       "claimId": "film-013",
-      "claim": "Biorama var en tidlig kino i Seilduksgata 17 på Grünerløkka.",
-      "status": "partially_verified",
-      "confidenceScore": 0.70,
+      "claim": "Biorama var en privat kino i Seilduksgata 17 ved Birkelunden, og Oslo byleksikon daterer den til perioden fra 1913 til 1930-årene.",
+      "status": "verified",
+      "confidenceScore": 0.95,
       "sources": [
         {
           "title": "Oslo byleksikon - Kinodrift",
@@ -869,10 +933,18 @@
           "accessedAt": "2026-03-02",
           "sourceType": "database",
           "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Oslo byleksikon - Seilduksgata",
+          "url": "https://oslobyleksikon.no/side/Seilduksgata",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
         }
       ],
-      "notes": "Nevnt i Oslo byleksikons kinoartikkel. Åpnings-/lukkeår og detaljer om drift er ukjente.",
-      "lastVerifiedAt": "2026-03-02"
+      "notes": "Tidligere claim var delvis verifisert. Seilduksgata-artikkelen presiserer både adressen og tidsrommet for Biorama.",
+      "lastVerifiedAt": "2026-03-30"
     },
     {
       "claimId": "film-014",
@@ -896,17 +968,18 @@
   "researchMetadata": {
     "lastVerifiedAt": "2026-03-30",
     "verifiedBy": "codex-gpt-5",
-    "coverageScore": 0.88,
+    "coverageScore": 0.93,
     "staleAfterDays": 120,
-    "methodology": "Systematisk verifisering mot primær- og sekundærkilder. Edith Carlmars Løkka-tilknytning bekreftet med konkrete adresser. Gategutter-innspillingssted presisert til Gøteborggata/Rodeløkka. Den største forbrytelsen innspillingssted korrigert (Göteborg, ikke Løkka). Ny kino (Biorama) og ny film (Verdens verste menneske) lagt til. Jan Vardøens filmografi korrigert. Pål Sletaunes tidligere bopelspåstand er erstattet med et verifisert Budbringeren-claim basert på dokumenterte Oslo-kilder.",
+    "methodology": "Systematisk verifisering mot primær- og sekundærkilder. Edith Carlmars Løkka-tilknytning bekreftet med konkrete adresser. Gategutter-innspillingssted presisert til Gøteborggata/Rodeløkka. Den største forbrytelsen innspillingssted korrigert (Göteborg, ikke Løkka). Ny kino (Biorama) og ny film (Verdens verste menneske) lagt til. Jan Vardøens filmografi og Thomas Robsahms oppføring er korrigert til claims som faktisk kan dokumenteres. Pål Sletaunes tidligere bopelspåstand er erstattet med et verifisert Budbringeren-claim basert på dokumenterte Oslo-kilder.",
     "majorCorrections": [
       "Edith Carlmar: Vag 'østkant'-påstand erstattet med verifiserte adresser (Trondheimsveien 2, Helgesens gate, Wilses gate)",
       "Gategutter: Presisert til Gøteborggata, Rodeløkka (ikke generelt 'Grünerløkka gater')",
       "Den største forbrytelsen: Innspilt i Göteborg, Sverige – ikke på Grünerløkka. Ikke Oscar-nominert (var kandidat men nådde ikke nominasjon)",
-      "Jan Vardøen: 'Himmelveien (2014)' erstattet med verifiserte filmer. Ingen av hans filmer handler om Grünerløkka",
+      "Jan Vardøen: tidligere setting-claim for Grünerløkka erstattet med dokumentert Grünerløkka-profil og verifisert filmografi fra Nasjonalbiblioteket",
+      "Thomas Robsahm: ubekreftet postadresse-/undergrunnsclaim erstattet med verifisert produsentclaim om Verdens verste menneske som Oslo-film",
       "Villa Paradiso-oppføringen fjernet fra filmlisten (var ikke en film)",
       "Pål Sletaune: Ubekreftet Grünerløkka-bopel fjernet og erstattet med verifisert claim om Budbringeren som Oslo-/østkantfilm",
-      "Ny kino Biorama (Seilduksgata 17) lagt til",
+      "Ny kino Biorama (Seilduksgata 17, 1913-1930-årene) lagt til med styrket adresse- og periodekilde",
       "Verdens verste menneske (2021) og Joachim Trier lagt til",
       "Arne Skouen medregissør Ulf Greber lagt til for Gategutter"
     ]

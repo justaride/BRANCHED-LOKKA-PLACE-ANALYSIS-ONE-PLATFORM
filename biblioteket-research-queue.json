@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-03-30T12:30:09.770Z",
+  "workflow": {
+    "cadence": "weekly",
+    "batchSize": 5,
+    "definitionOfDone": [
+      "Claim har minst én primaerkilde eller to uavhengige kilder.",
+      "sources er oppdatert i datasettet.",
+      "claim-status er oppdatert og lastVerifiedAt satt.",
+      "npm run research:biblioteket:validate er groen.",
+      "npm run research:biblioteket:report og npm run research:biblioteket:queue er kjoert pa nytt."
+    ]
+  },
+  "items": [],
+  "summary": {
+    "itemCount": 0,
+    "highPriorityCount": 0,
+    "mediumPriorityCount": 0,
+    "lowPriorityCount": 0
+  }
+}

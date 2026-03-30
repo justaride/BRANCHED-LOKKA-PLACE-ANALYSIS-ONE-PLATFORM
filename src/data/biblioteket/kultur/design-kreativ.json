@@ -12,12 +12,12 @@
     {
       "id": "mote",
       "title": "Mote, Streetwear og Vintage",
-      "description": "Markveien har blitt kjent som Oslos vintagestrøk, med butikker som Robot, Velouria Vintage og Good Vibes Vintage side om side. Konseptbutikker som Dapper, Luck Oslo og Hunting Lodge representerer den moderne, kuraterte siden av Løkkas moteprofil – fra streetwear til skandinavisk luksus."
+      "description": "Markveien og sidegatene rundt har blitt kjent som Oslos vintagestrøk, med butikker som Good Vibes Vintage, Robot og Velouria Vintage i samme nærområde. Konseptbutikker som Dapper, Luck Oslo og Hunting Lodge representerer den moderne, kuraterte siden av Løkkas moteprofil – fra streetwear til skandinavisk luksus."
     },
     {
       "id": "arbeidsplasser",
       "title": "Kreative Arbeidsplasser og Fellesskap",
-      "description": "Fra Spaces coworking på Markveien 57 til Skaperverkets designkollektiv på Markveien 60, bydelen tilbyr arbeidsplasser som fremmer samarbeid og kreativ utveksling. Schous kulturbryggeri samler musikk, folkekultur og opplevelsesmuseum under ett tak."
+      "description": "Fra Spaces coworking på Markveien 57 til Skaperverkets designkollektiv på Markveien 60, bydelen tilbyr arbeidsplasser som fremmer samarbeid og kreativ utveksling. Schous kulturbryggeri samler fortsatt musikk, folkekultur og kulturskolefunksjoner, og huset tidligere også Popsenteret."
     },
     {
       "id": "vulkan",
@@ -138,8 +138,8 @@
       "name": "Robot",
       "type": "vintage",
       "established": 2005,
-      "address": "Markveien, Grünerløkka, Oslo",
-      "description": "En av Oslos eldste vintagebutikker, etablert i 2005. Kuratert utvalg av Levis, Carhartt, Dickies, vintagevesker, solbriller og Y2K-vintage. En institusjon i Markveiens vintagemiljø."
+      "address": "Korsgata 22, 0551 Oslo",
+      "description": "Robot beskriver seg som en av Oslos eldste vintagebutikker, etablert i 2005. Butikken fører håndplukket og kuratert vintage med blant annet Levis, Carhartt, Dickies, vintagejakker, sweatshirts, solbriller og Y2K-plagg."
     },
     {
       "name": "Velouria Vintage",
@@ -151,9 +151,9 @@
     {
       "name": "Good Vibes Vintage",
       "type": "vintage",
-      "established": 2016,
+      "established": 2018,
       "address": "Markveien 2, 0554 Oslo",
-      "description": "Håndplukket vintage fra 80-, 90- og 2000-tallet. Inspirert av musikk-, skateboard- og undergrunnskultur. Startet i 2016 som et bærekraftig alternativ til fast fashion."
+      "description": "Good Vibes Vintage opplyser at butikken på toppen av Markveien har solgt håndplukket vintageklær, skateboards og egne merkevarer siden 2018. Profilen er tydelig inspirert av 1990- og 2000-tallets skate- og gatekultur."
     },
     {
       "name": "Fretex Arkivet Grünerløkka",
@@ -221,7 +221,7 @@
       "type": "kulturkvartal",
       "address": "Trondheimsveien 2, 0560 Oslo",
       "established": 2011,
-      "description": "Det gamle Schous bryggeri transformert til kulturkvartal av Oslo kommune. Huser Popsenteret (populærmusikkmuseum, åpnet 2011), Riksscenen (folkemusikk og folkedans), Øvingshotellet (49 øvingsrom for musikere) og Oslo Musikk- og Kulturskole. Et komplett økosystem for musikkproduksjon og kulturformidling.",
+      "description": "Det gamle Schous bryggeri transformert til kulturkvartal av Oslo kommune. Prosjektet samlet Popsenteret, Riksscenen, Øvingshotellet og Oslo Musikk- og Kulturskole i ett anlegg; Popsenteret opplyser nå at museet er stengt permanent. Schous er fortsatt et viktig økosystem for musikkproduksjon, øving, scenekunst og kulturformidling.",
       "notableTenants": [
         "Popsenteret",
         "Riksscenen",
@@ -356,7 +356,7 @@
         "Flaggskipbutikk i Oslo designet av Specific Generic (2023)",
         "Representert i over 200 butikker globalt"
       ],
-      "connection": "Grunnla Tom Wood i Oslo i 2013. Merket har blitt en global suksess med fokus på bærekraft, arkitektur og norsk natur. Representerer den nye generasjonen norske designmerker som har satt Oslo på det internasjonale designkartet."
+      "connection": "Grunnla Tom Wood i Oslo i 2013. Merket har blitt en global suksess med fokus på bærekraft, arkitektur og norsk natur, og opplyser i dag at hovedkontor og showroom ligger i en prisvinnende fabrikkbygning i hjertet av Grünerløkka. Representerer den nye generasjonen norske designmerker som har satt Oslo på det internasjonale designkartet."
     },
     {
       "name": "Vuong Tran (EAM)",
@@ -455,6 +455,11 @@
       "type": "primær"
     },
     {
+      "title": "Dapper – Om oss",
+      "url": "https://www.dapper.no/pages/om-oss",
+      "type": "primær"
+    },
+    {
       "title": "Robot Oslo",
       "url": "https://www.robotoslo.com/",
       "type": "primær"
@@ -470,8 +475,28 @@
       "type": "primær"
     },
     {
+      "title": "Skaperverket – Om oss",
+      "url": "https://www.skaperverket.no/om-oss",
+      "type": "primær"
+    },
+    {
+      "title": "Skaperverket – Kontakt",
+      "url": "https://www.skaperverket.no/kontakt",
+      "type": "primær"
+    },
+    {
       "title": "Kollekted by",
       "url": "https://kollektedby.no/",
+      "type": "primær"
+    },
+    {
+      "title": "Kollekted by – About",
+      "url": "https://kollektedby.no/pages/about-us",
+      "type": "primær"
+    },
+    {
+      "title": "Kollekted by – Contact",
+      "url": "https://kollektedby.no/pages/contact-us",
       "type": "primær"
     },
     {
@@ -500,8 +525,18 @@
       "type": "sekundær"
     },
     {
+      "title": "Skaperverket – Visit Løkka",
+      "url": "https://visitlokka.no/directory-visitlokka/listing/skaperverket/",
+      "type": "sekundær"
+    },
+    {
       "title": "Hunting Lodge Oslo",
       "url": "https://www.huntinglodge.no/no",
+      "type": "primær"
+    },
+    {
+      "title": "Hunting Lodge – Oslo store",
+      "url": "https://www.huntinglodge.no/no/pages/oslo-store",
       "type": "primær"
     },
     {
@@ -512,6 +547,11 @@
     {
       "title": "Tom Wood Project",
       "url": "https://www.tomwoodproject.com/about-tom-wood/",
+      "type": "primær"
+    },
+    {
+      "title": "Tom Wood Careers – About us",
+      "url": "https://career.tomwoodproject.com/pages/about-us",
       "type": "primær"
     },
     {
@@ -533,21 +573,81 @@
       "title": "Popsenteret – Store norske leksikon",
       "url": "https://snl.no/Popsenteret",
       "type": "sekundær"
+    },
+    {
+      "title": "Riksscenen – Om oss",
+      "url": "https://www.riksscenen.no/om-oss.556094.no.html",
+      "type": "primær"
+    },
+    {
+      "title": "Popsenteret – Besøk oss",
+      "url": "https://www.popsenteret.no/besok-oss",
+      "type": "primær"
+    },
+    {
+      "title": "Popsenteret – Avvikles",
+      "url": "https://www.popsenteret.no/program/popsenteret-avvikles",
+      "type": "primær"
+    },
+    {
+      "title": "Oslo kulturskole – Schous-undervisning",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/kunst-og-kultur/oslo-kulturskole/undervisningstilbud/dans/schous-crew/",
+      "type": "primær"
+    },
+    {
+      "title": "KHiO – FAQs om opptak",
+      "url": "https://khio.no/studier/sok-opptak/faqs-om-opptak",
+      "type": "primær"
+    },
+    {
+      "title": "KHiO – Avdelinger",
+      "url": "https://khio.no/avdelinger",
+      "type": "primær"
+    },
+    {
+      "title": "Bleed Design Studio – Studio",
+      "url": "https://bleed.com/studio",
+      "type": "primær"
+    },
+    {
+      "title": "Bleed Design Studio – Contact",
+      "url": "https://bleed.com/contact",
+      "type": "primær"
+    },
+    {
+      "title": "Bielke&Yang – Om oss",
+      "url": "https://bielkeyang.com/om",
+      "type": "primær"
+    },
+    {
+      "title": "Bielke&Yang – Kontakt",
+      "url": "https://bielkeyang.com/kontakt",
+      "type": "primær"
+    },
+    {
+      "title": "Good Vibes Vintage Shop",
+      "url": "https://goodvibesvintage.no/pages/good-vibes-vintage-shop",
+      "type": "primær"
+    },
+    {
+      "title": "Good Vibes Vintage – About us",
+      "url": "https://goodvibesvintage.no/pages/about-us",
+      "type": "primær"
     }
   ],
   "claims": [
     {
       "id": "design-claim-1",
-      "statement": "Bleed Design Studio har holdt til i Thorvald Meyers gate 9 siden grunnleggelsen i 2000",
-      "confidence": 0.85,
-      "source": "bleed.com/contact, yelp.com, proff.no",
+      "statement": "Bleed Design Studio oppgir Thorvald Meyers gate 9 som Oslo-adresse og beskriver seg som et prisvinnende skandinavisk designstudio.",
+      "confidence": 0.97,
+      "source": "Bleed Design Studio – Studio, Bleed Design Studio – Contact",
       "status": "verified"
     },
     {
       "id": "design-claim-2",
-      "statement": "Bielke&Yang ble grunnlagt i 2012 og holder til i Thorvald Meyers gate 7",
-      "confidence": 0.90,
-      "source": "proff.no, bielkeyang.com",
+      "statement": "Bielke&Yang ble startet som et rent designbyrå i 2012 og holder til i Thorvald Meyers gate 7.",
+      "confidence": 0.97,
+      "source": "Bielke&Yang – Om oss, Bielke&Yang – Kontakt",
       "status": "verified"
     },
     {
@@ -601,9 +701,9 @@
     },
     {
       "id": "design-claim-10",
-      "statement": "Robot vintage er en av Oslos eldste vintagebutikker, etablert i 2005",
-      "confidence": 0.85,
-      "source": "visitlokka.no, robotoslo.com",
+      "statement": "Robot beskriver seg som en av Oslos eldste vintagebutikker, etablert i 2005, og oppgir Korsgata 22 som butikkadresse på Grünerløkka.",
+      "confidence": 0.96,
+      "source": "Robot Oslo",
       "status": "verified"
     },
     {
@@ -626,13 +726,97 @@
       "confidence": 0.85,
       "source": "proff.no, tank.no",
       "status": "verified"
+    },
+    {
+      "id": "design-claim-14",
+      "statement": "Kollekted by driver en kuratert interiørbutikk i Schous plass 7A og tilbyr også skreddersydde interiørprosjekter i samarbeid med arkitekter og egen designavdeling",
+      "confidence": 0.96,
+      "source": "Kollekted by – About, Kollekted by – Contact",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-15",
+      "statement": "Skaperverket ble startet i 2004 og holder til i Markveien 60; kollektivet beskriver seg som rundt 15 designere og kreatører med tillegg av gjestedesignere",
+      "confidence": 0.96,
+      "source": "Skaperverket – Om oss, Skaperverket – Kontakt, Skaperverket – Visit Løkka",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-16",
+      "statement": "Schous kulturbryggeri i Trondheimsveien 2 ble utviklet som et felles anlegg for Popsenteret, Riksscenen, Øvingshotellet og Oslo Musikk- og Kulturskole",
+      "confidence": 0.95,
+      "source": "Schous kulturbryggeri – Arkitektur.no, Riksscenen – Om oss, Popsenteret – Besøk oss, Oslo kulturskole – Schous-undervisning",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-17",
+      "statement": "Popsenteret opplyser at museet i Trondheimsveien 2 bygg T er stengt permanent",
+      "confidence": 0.98,
+      "source": "Popsenteret – Besøk oss, Popsenteret – Avvikles",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-18",
+      "statement": "Dapper på Nordre gate 20 beskriver seg som en gründerdrevet, uavhengig multi-brand konseptbutikk med både kafé og bar/eventdrift",
+      "confidence": 0.97,
+      "source": "Dapper – Om oss",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-19",
+      "statement": "Hunting Lodge på Markveien 58 er en designledet konseptbutikk som åpnet i 2006 og ble renovert i 2019",
+      "confidence": 0.97,
+      "source": "Hunting Lodge – Oslo store",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-20",
+      "statement": "KHiO ble etablert 1. august 1996 gjennom sammenslåing av fem tidligere høyskoler og består i dag av seks avdelinger",
+      "confidence": 0.97,
+      "source": "KHiO – FAQs om opptak, KHiO – Avdelinger",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-21",
+      "statement": "Tom Wood ble grunnlagt av Mona Jensen i 2013, er representert hos over 200 forhandlere globalt, og opplyser at hovedkontor og showroom ligger i hjertet av Grünerløkka",
+      "confidence": 0.97,
+      "source": "Tom Wood Project, Tom Wood Careers – About us",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-22",
+      "statement": "Good Vibes Vintage opplyser at butikken på Markveien 2 har solgt håndplukket vintageklær, skateboards og egne merkevarer siden 2018.",
+      "confidence": 0.96,
+      "source": "Good Vibes Vintage Shop, Good Vibes Vintage – About us",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-23",
+      "statement": "Bleed oppgir 324 designpriser og framhever arbeid på tvers av merkevareutvikling, UX/UI, motion, romlige miljøer og utstillingsdesign.",
+      "confidence": 0.95,
+      "source": "Bleed Design Studio – Studio",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-24",
+      "statement": "Bielke&Yang opplyser at byrået i dag arbeider på tvers av flere fagdisipliner for å bygge og utvikle merkevarer, møteplasser og opplevelser.",
+      "confidence": 0.95,
+      "source": "Bielke&Yang – Om oss",
+      "status": "verified"
+    },
+    {
+      "id": "design-claim-25",
+      "statement": "Robot og Good Vibes Vintage dokumenterer to ulike vintageprofiler på Løkka: Robot fra Korsgata 22 med kuratert 2005-profil og Good Vibes fra Markveien 2 med 1990-/2000-talls og skateinspirert butikkprofil.",
+      "confidence": 0.93,
+      "source": "Robot Oslo, Good Vibes Vintage Shop",
+      "status": "verified"
     }
   ],
   "researchMetadata": {
-    "lastVerified": "2026-03-02",
-    "coverageScore": 0.80,
+    "lastVerified": "2026-03-30",
+    "coverageScore": 0.93,
     "staleAfterDays": 180,
-    "notes": "Adressen til Holzweiler Collage på Grünerløkka kunne ikke verifiseres med nøyaktig gateadresse. Snøhetta bekreftet å ikke ligge på Grünerløkka, men inkludert pga. relevans (Dansens Hus-prosjektet). Grünerløkka-spesifikk statistikk for kreativ næring finnes ikke på bydelsnivå fra SSB."
+    "notes": "Adressen til Holzweiler Collage på Grünerløkka kunne ikke verifiseres med nøyaktig gateadresse. Snøhetta bekreftet å ikke ligge på Grünerløkka, men inkludert pga. relevans (Dansens Hus-prosjektet). Grünerløkka-spesifikk statistikk for kreativ næring finnes ikke på bydelsnivå fra SSB. Schous-kvartalet er oppdatert med presis historisk beskrivelse og eksplisitt note om at Popsenteret nå er stengt permanent. Ny sprint 2026-03-30 oppgraderte Bleed og Bielke&Yang til primærkilde-baserte claims og korrigerte Robot/Good Vibes-data mot offisielle butikkilder."
   },
   "crossReferences": [
     {
@@ -662,8 +846,8 @@
     "workspaceCount": 4,
     "educationCount": 3,
     "designerCount": 6,
-    "claimCount": 13,
-    "sourceCount": 30,
-    "generatedAt": "2026-03-02"
+    "claimCount": 25,
+    "sourceCount": 50,
+    "generatedAt": "2026-03-30"
   }
 }

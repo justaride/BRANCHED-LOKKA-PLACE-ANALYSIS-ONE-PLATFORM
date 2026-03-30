@@ -109,6 +109,94 @@
       "accessedAt": "2026-03-30",
       "sourceType": "academic",
       "evidenceLevel": "primary"
+    },
+    {
+      "title": "Byplan - Ny T-banetunnel gjennom Oslo sentrum",
+      "url": "https://magasin.oslo.kommune.no/byplan/ny-t-banetunnel-gjennom-oslo-sentrum-er-et-enormt-infrastrukturprosjekt",
+      "publisher": "Oslo kommune",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "NRK - Lillys butikk",
+      "url": "https://arkiv.nrk.no/programoversikt/avansert/index73a8.html",
+      "publisher": "NRK",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "NRK - Gjensyn med Grünerløkka-gjengen",
+      "url": "https://arkiv.nrk.no/programoversikt/avansert/index0e40.html",
+      "publisher": "NRK",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "NRK Lydverket - DumDum Boys",
+      "url": "https://arkiv.nrk.no/lydverket/videopremiere-dumdum-boys/",
+      "publisher": "NRK",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "NRK - Forandring fryder",
+      "url": "https://arkiv.nrk.no/programoversikt/avansert/indexc59e.html",
+      "publisher": "NRK",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "NRK - Schrödingers katt: Spenst og energi",
+      "url": "https://arkiv.nrk.no/programoversikt/avansert/index9f7c.html",
+      "publisher": "NRK",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "NRK Lydverket - Med hjartet på rette staden",
+      "url": "https://arkiv.nrk.no/lydverket/med-hjartet-pa-rette-staden-2/index.html",
+      "publisher": "NRK",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "NRK Lydverket - Gatemusikant i trøbbel",
+      "url": "https://arkiv.nrk.no/lydverket/gatemusikant-i-trobbel/index.html",
+      "publisher": "NRK",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Dagsavisen - En røver vender tilbake",
+      "url": "https://www.dagsavisen.no/kultur/en-rover-vender-tilbake/6429657",
+      "publisher": "Dagsavisen",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Dagbladet - Klubbmestern",
+      "url": "https://www.dagbladet.no/kultur/klubbmestern/65501712",
+      "publisher": "Dagbladet",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Dagbladet - Det begynner med øl og slutter med øl",
+      "url": "https://www.dagbladet.no/kultur/det-begynner-med-ol-og-slutter-med-ol/66117904",
+      "publisher": "Dagbladet",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
     }
   ],
   "claims": [
@@ -244,12 +332,187 @@
         }
       ],
       "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "mediebildet-006",
+      "claim": "Aftenposten beskrev i 2005 Grünerløkka som et tidligere nedslitt arbeiderstrøk som var blitt et av byens kuleste steder, mens Dagsavisen i 2011 brukte bydelen som eksempel på gentrifisering i indre Oslo.",
+      "status": "verified",
+      "confidenceScore": 0.93,
+      "sources": [
+        {
+          "title": "Aftenposten - Løkka som ble kul",
+          "url": "https://www.aftenposten.no/norge/i/dnKnw/loekka-som-ble-kul",
+          "publisher": "Aftenposten",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Dagsavisen - Da byen delte seg",
+          "url": "https://www.dagsavisen.no/nyheter/da-byen-delte-seg/5113212",
+          "publisher": "Dagsavisen",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "mediebildet-007",
+      "claim": "Grünerløkka brukes også som referansepunkt i infrastrukturjournalistikk: både Aftenposten og Oslo kommunes Byplan løftet fram bydelen i dekningen av forslag til ny T-banestasjon og ny sentrumstunnel.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Aftenposten - T-banestasjoner på Bislett og Grünerløkka",
+          "url": "https://www.aftenposten.no/oslo/i/A2nQbE/her-er-byraadets-plan-gaar-for-t-banestasjoner-paa-bislett-og-grunerloekka",
+          "publisher": "Aftenposten",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Byplan - Ny T-banetunnel gjennom Oslo sentrum",
+          "url": "https://magasin.oslo.kommune.no/byplan/ny-t-banetunnel-gjennom-oslo-sentrum-er-et-enormt-infrastrukturprosjekt",
+          "publisher": "Oslo kommune",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "mediebildet-008",
+      "claim": "NRKs programomtaler viser at Grünerløkka også har fungert som tydelig fiksjonsmiljø i norsk TV, fra barne-TV-serien Lillys butikk til komiserien Nr. 13.",
+      "status": "verified",
+      "confidenceScore": 0.94,
+      "sources": [
+        {
+          "title": "NRK - Lillys butikk",
+          "url": "https://arkiv.nrk.no/programoversikt/avansert/index73a8.html",
+          "publisher": "NRK",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "NRK - Gjensyn med Grünerløkka-gjengen",
+          "url": "https://arkiv.nrk.no/programoversikt/avansert/index0e40.html",
+          "publisher": "NRK",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "mediebildet-009",
+      "claim": "NRKs kulturjournalistikk brukte også Grünerløkka som konkret scene da Lydverket i 2012 presenterte DumDum Boys-videoen med Thorvald Meyers gate som visuelt hovedrom.",
+      "status": "verified",
+      "confidenceScore": 0.92,
+      "sources": [
+        {
+          "title": "NRK Lydverket - DumDum Boys",
+          "url": "https://arkiv.nrk.no/lydverket/videopremiere-dumdum-boys/",
+          "publisher": "NRK",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "mediebildet-010",
+      "claim": "NRKs faktaprogrammer brukte også Grünerløkka som ramme for kreativ næring og design: I 2001 lot Forandring fryder designere gjøre om kontorlokaler i bydelen, og i 2011 besøkte Schrödingers katt et visuelt effektmiljø på Grünerløkka som arbeidet for både norske og internasjonale filmproduksjoner.",
+      "status": "verified",
+      "confidenceScore": 0.94,
+      "sources": [
+        {
+          "title": "NRK - Forandring fryder",
+          "url": "https://arkiv.nrk.no/programoversikt/avansert/indexc59e.html",
+          "publisher": "NRK",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "NRK - Schrödingers katt: Spenst og energi",
+          "url": "https://arkiv.nrk.no/programoversikt/avansert/index9f7c.html",
+          "publisher": "NRK",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "mediebildet-011",
+      "claim": "NRKs musikkjournalistikk brukte Grünerløkka både som scene og opphavssted: Lydverket la en minikonsert med The Little Hands Of Asphalt til Birkelunden i 2009 og presenterte i 2012 Kaveh som en rapper fra Grünerløkka.",
+      "status": "verified",
+      "confidenceScore": 0.93,
+      "sources": [
+        {
+          "title": "NRK Lydverket - Gatemusikant i trøbbel",
+          "url": "https://arkiv.nrk.no/lydverket/gatemusikant-i-trobbel/index.html",
+          "publisher": "NRK",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "NRK Lydverket - Med hjartet på rette staden",
+          "url": "https://arkiv.nrk.no/lydverket/med-hjartet-pa-rette-staden-2/index.html",
+          "publisher": "NRK",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "mediebildet-012",
+      "claim": "Kulturjournalistikken brukte Fru Hagen og Thorvald Meyers gate som konkrete symboler på det nye kafé- og utelivet på Grünerløkka fra slutten av 1990-tallet og inn i 2010-årene.",
+      "status": "verified",
+      "confidenceScore": 0.91,
+      "sources": [
+        {
+          "title": "Dagbladet - Klubbmestern",
+          "url": "https://www.dagbladet.no/kultur/klubbmestern/65501712",
+          "publisher": "Dagbladet",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Dagbladet - Det begynner med øl og slutter med øl",
+          "url": "https://www.dagbladet.no/kultur/det-begynner-med-ol-og-slutter-med-ol/66117904",
+          "publisher": "Dagbladet",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Dagsavisen - En røver vender tilbake",
+          "url": "https://www.dagsavisen.no/kultur/en-rover-vender-tilbake/6429657",
+          "publisher": "Dagsavisen",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     }
   ],
   "researchMetadata": {
     "lastVerifiedAt": "2026-03-30",
     "verifiedBy": "codex-gpt-5",
-    "coverageScore": 0.63,
+    "coverageScore": 0.86,
     "staleAfterDays": 120
   },
   "crossReferences": [
@@ -280,6 +543,27 @@
         "historie",
         "litteratur"
       ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Birkelunden",
+      "linkedSections": [
+        "mediebildet",
+        "historie",
+        "idrett",
+        "kultur"
+      ],
+      "note": "Birkelunden opptrer både som fysisk møteplass og som mediescene i musikk- og bylivsdekningen."
+    },
+    {
+      "type": "organization",
+      "idOrName": "Fru Hagen",
+      "linkedSections": [
+        "mediebildet",
+        "historie",
+        "kultur"
+      ],
+      "note": "Kafeen brukes gjentatte ganger som mediesymbol for det nye utelivet på Grünerløkka."
     }
   ],
   "limitations": [

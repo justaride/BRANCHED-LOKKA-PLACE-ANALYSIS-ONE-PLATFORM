@@ -83,6 +83,94 @@
       "sourceType": "news",
       "evidenceLevel": "secondary",
       "notes": "Beskriver Jan Vardøen som sentral Grünerløkka-entreprenør med flere steder på Løkka."
+    },
+    {
+      "title": "Mortens historiske bilder - Rodeløkka Vel",
+      "url": "https://www.rodelokkavel.no/mortens-historiske-bilder",
+      "publisher": "Rodeløkka Vel",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Feiring av Osloidretten",
+      "url": "https://www.idrettsforbundet.no/idrettskrets/oslo/nyhet/2020/feiring-av-osloidretten/",
+      "publisher": "Oslo idrettskrets",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Etterlysning! - Visit Løkka",
+      "url": "https://visitlokka.no/etterlysning/",
+      "publisher": "Visit Løkka",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Oslos eldre bygårder må bevares, mener Marianne Westbye",
+      "url": "https://www.vartoslo.no/grnerlokka-grnerlokka-historielag-marianne-westbye/oslos-eldre-bygarder-ma-bevares-mener-marianne-westbye-53/212381",
+      "publisher": "VårtOslo",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Sofienberg tildelt Benjaminprisen! - Sofienberg skole",
+      "url": "https://sofienberg.osloskolen.no/nyhetsarkiv/sofienberg-tildelt-benjaminprisen/",
+      "publisher": "Sofienberg skole / Osloskolen",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Sofienberg ungdomsskole i Oslo fikk Benjaminprisen for 2021",
+      "url": "https://www.utdanningsnytt.no/benjaminprisen-diskriminering-oslo/sofienberg-ungdomsskole-i-oslo-fikk-benjaminprisen-for-2021/311146",
+      "publisher": "Utdanningsnytt",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Team – Street Art Oslo",
+      "url": "https://streetartoslo.no/team/",
+      "publisher": "Street Art Oslo",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "About – Street Art Oslo",
+      "url": "https://streetartoslo.no/about/",
+      "publisher": "Street Art Oslo",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Street Art Tour – Oslo Street Art Festival",
+      "url": "https://oslostreetartfestival.no/street-art-tour/",
+      "publisher": "Oslo Street Art Festival",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Historien om Grüner IL",
+      "url": "https://fotball.gruner.no/next/p/97414/historien-om-gr%C3%BBner-il",
+      "publisher": "Grüner Fotball",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Startet Spleis-innsamling | EHL",
+      "url": "https://www.ehl.no/artikel/vt3cajwiy-3897d/startet-spleis-innsamling",
+      "publisher": "Elitehockeyligaen",
+      "accessedAt": "2026-03-30",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
     }
   ],
   "claims": [
@@ -211,12 +299,204 @@
       ],
       "notes": "Ujevn kildekvalitet for øvrige personprofiler håndteres nå i limitations-feltet, ikke som et eget claim.",
       "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "ildsjeler-006",
+      "claim": "Jan Vardøen grunnla Villa Paradiso på Grünerløkka i 2004 og ble senere omtalt som en sentral Grünerløkka-entreprenør med flere serveringssteder på Løkka.",
+      "status": "verified",
+      "confidenceScore": 0.93,
+      "sources": [
+        {
+          "title": "Gratulerer med dagen til… oss! | Villa Paradiso",
+          "url": "https://www.villaparadiso.no/artikler/gratulerer-med-dagen-til-oss",
+          "publisher": "Villa Paradiso",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Vardøen åpner diner på Løkka - Aperitif.no",
+          "url": "https://www.aperitif.no/artikler/vardoen-apner-diner-pa-lokka%2C173449",
+          "publisher": "Aperitif",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "ildsjeler-007",
+      "claim": "Randi Spenningsby ledet Aksjonsutvalget for bevaring av Rodeløkka, og denne beboermobiliseringen bidro til bevaringsvedtakene for trehusmiljøet på 1970-tallet.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Snippen 6 - Rodeløkka Vel",
+          "url": "https://www.rodelokkavel.no/snippen-6",
+          "publisher": "Rodeløkka Vel",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "ildsjeler-008",
+      "claim": "Magnhild Johansen var forkvinne i Rodeløkka leieboerforening og en drivkraft i kampen mot forslumming og riving av trehusmiljøet på Rodeløkka.",
+      "status": "verified",
+      "confidenceScore": 0.92,
+      "sources": [
+        {
+          "title": "Mortens historiske bilder - Rodeløkka Vel",
+          "url": "https://www.rodelokkavel.no/mortens-historiske-bilder",
+          "publisher": "Rodeløkka Vel",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Snippen 6 - Rodeløkka Vel",
+          "url": "https://www.rodelokkavel.no/snippen-6",
+          "publisher": "Rodeløkka Vel",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "ildsjeler-009",
+      "claim": "Torgny Hasås ble kåret til Årets ildsjel i Oslo i 2020, og begrunnelsen la særlig vekt på hans langsiktige arbeid for ny flerbrukshall på Grünerløkka.",
+      "status": "verified",
+      "confidenceScore": 0.94,
+      "sources": [
+        {
+          "title": "Feiring av Osloidretten",
+          "url": "https://www.idrettsforbundet.no/idrettskrets/oslo/nyhet/2020/feiring-av-osloidretten/",
+          "publisher": "Oslo idrettskrets",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "ildsjeler-010",
+      "claim": "Marianne Westbye er dokumentert som leder i Grünerløkka historielag og bruker både lokalmedier og samarbeidsprosjekter til å formidle håndverk, bygårder og bydelshistorie.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Etterlysning! - Visit Løkka",
+          "url": "https://visitlokka.no/etterlysning/",
+          "publisher": "Visit Løkka",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Oslos eldre bygårder må bevares, mener Marianne Westbye",
+          "url": "https://www.vartoslo.no/grnerlokka-grnerlokka-historielag-marianne-westbye/oslos-eldre-bygarder-ma-bevares-mener-marianne-westbye-53/212381",
+          "publisher": "VårtOslo",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "ildsjeler-011",
+      "claim": "Nina Røneid ledet Sofienberg skole da skolen fikk Benjaminprisen for 2021 for sitt systematiske arbeid mot rasisme og diskriminering på Grünerløkka.",
+      "status": "verified",
+      "confidenceScore": 0.94,
+      "sources": [
+        {
+          "title": "Sofienberg tildelt Benjaminprisen! - Sofienberg skole",
+          "url": "https://sofienberg.osloskolen.no/nyhetsarkiv/sofienberg-tildelt-benjaminprisen/",
+          "publisher": "Sofienberg skole / Osloskolen",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Sofienberg ungdomsskole i Oslo fikk Benjaminprisen for 2021",
+          "url": "https://www.utdanningsnytt.no/benjaminprisen-diskriminering-oslo/sofienberg-ungdomsskole-i-oslo-fikk-benjaminprisen-for-2021/311146",
+          "publisher": "Utdanningsnytt",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "ildsjeler-012",
+      "claim": "James Finucane er grunnlegger, direktør og kunstnerisk leder for Street Art Oslo, og organisasjonen hans driver Løkka-Lykke-festivalen og gatekunstomvisninger som tar utgangspunkt i Rodeløkka og sentrum av Grünerløkka.",
+      "status": "verified",
+      "confidenceScore": 0.93,
+      "sources": [
+        {
+          "title": "Team – Street Art Oslo",
+          "url": "https://streetartoslo.no/team/",
+          "publisher": "Street Art Oslo",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "About – Street Art Oslo",
+          "url": "https://streetartoslo.no/about/",
+          "publisher": "Street Art Oslo",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Street Art Tour – Oslo Street Art Festival",
+          "url": "https://oslostreetartfestival.no/street-art-tour/",
+          "publisher": "Oslo Street Art Festival",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "ildsjeler-013",
+      "claim": "Vegard Holm har både skrevet Grüner ILs jubileumshistorie som tidligere klubbleder og vært en av initiativtakerne bak spleis-innsamlingen som skulle sikre Grüner Hockeys eliteseriesatsing i 2019.",
+      "status": "verified",
+      "confidenceScore": 0.91,
+      "sources": [
+        {
+          "title": "Historien om Grüner IL",
+          "url": "https://fotball.gruner.no/next/p/97414/historien-om-gr%C3%BBner-il",
+          "publisher": "Grüner Fotball",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Startet Spleis-innsamling | EHL",
+          "url": "https://www.ehl.no/artikel/vt3cajwiy-3897d/startet-spleis-innsamling",
+          "publisher": "Elitehockeyligaen",
+          "accessedAt": "2026-03-30",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     }
   ],
   "researchMetadata": {
     "lastVerifiedAt": "2026-03-30",
     "verifiedBy": "codex-gpt-5",
-    "coverageScore": 0.63,
+    "coverageScore": 0.87,
     "staleAfterDays": 180
   },
   "crossReferences": [
@@ -255,6 +535,79 @@
         "mediebildet",
         "kultur"
       ]
+    },
+    {
+      "type": "person",
+      "idOrName": "Jan Vardøen",
+      "linkedSections": [
+        "ildsjeler",
+        "kultur",
+        "mediebildet"
+      ]
+    },
+    {
+      "type": "person",
+      "idOrName": "Randi Spenningsby",
+      "linkedSections": [
+        "ildsjeler",
+        "historie",
+        "litteratur"
+      ]
+    },
+    {
+      "type": "person",
+      "idOrName": "Magnhild Johansen",
+      "linkedSections": [
+        "ildsjeler",
+        "historie",
+        "litteratur"
+      ]
+    },
+    {
+      "type": "person",
+      "idOrName": "Marianne Westbye",
+      "linkedSections": [
+        "ildsjeler",
+        "historie",
+        "mediebildet"
+      ]
+    },
+    {
+      "type": "person",
+      "idOrName": "Torgny Hasås",
+      "linkedSections": [
+        "ildsjeler",
+        "idrett",
+        "historie"
+      ]
+    },
+    {
+      "type": "person",
+      "idOrName": "Nina Røneid",
+      "linkedSections": [
+        "ildsjeler",
+        "historie"
+      ],
+      "note": "Knytter skoleutvikling og antirasismearbeid til bydelens nyere institusjonshistorie."
+    },
+    {
+      "type": "person",
+      "idOrName": "James Finucane",
+      "linkedSections": [
+        "ildsjeler",
+        "kultur",
+        "mediebildet"
+      ],
+      "note": "Binder gatekunst, festivalutvikling og mediebilder av Grünerløkka sammen."
+    },
+    {
+      "type": "person",
+      "idOrName": "Vegard Holm",
+      "linkedSections": [
+        "ildsjeler",
+        "idrett"
+      ],
+      "note": "Representerer den lokale frivillige historiebæreren mellom klubbminne og dagens drift."
     }
   ],
   "limitations": [

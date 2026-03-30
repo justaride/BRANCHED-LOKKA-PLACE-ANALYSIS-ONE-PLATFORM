@@ -728,6 +728,62 @@
       "sourceType": "official",
       "evidenceLevel": "primary",
       "notes": "Bekrefter 15. gang, 24.–25. januar 2025."
+    },
+    {
+      "title": "Tigerstadsteatret – Tigerbussen",
+      "url": "https://tigerstadsteatret.no/tigerbussen/",
+      "publisher": "Tigerstadsteatret",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Tigerstadsteatret – Romeo+Julie",
+      "url": "https://tigerstadsteatret.no/en/forestillinger/romeojulie/",
+      "publisher": "Tigerstadsteatret",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Vega Scene – Om Vega Scene",
+      "url": "https://www.vegascene.no/nyheter/om-vega-scene",
+      "publisher": "Vega Scene",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Vega Scene – Barn og unge",
+      "url": "https://www.vegascene.no/nyheter/tilbud-til-barn-og-unge",
+      "publisher": "Vega Scene",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Parkteatret – Sketsjfest 2024",
+      "url": "https://www.parkteatret.no/arrangement/sketsjfest",
+      "publisher": "Parkteatret",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Parkteatret – Sketsjfest 2025",
+      "url": "https://www.parkteatret.no/arrangement/sketsjfest-2",
+      "publisher": "Parkteatret",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Oslo Nye – Et nytt dukkehjem",
+      "url": "https://oslonye.no/et-nytt-dukkehjem/",
+      "publisher": "Oslo Nye",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     }
   ],
   "claims": [
@@ -982,14 +1038,156 @@
       ],
       "lastVerifiedAt": "2026-03-02",
       "notes": "Ny påstand. KHiO lokalisert i Seilduksfabrikken ved Akerselva, Grünerløkka."
+    },
+    {
+      "claimId": "teater-011",
+      "claim": "Tigerstadsteatret ble etablert i 2016, mottok Heddaprisen i 2019 for beste forestilling for ungdom i samarbeid med Oslo Nye Teater, og fikk Oslo bys kunstnerpris i 2022.",
+      "status": "verified",
+      "confidenceScore": 0.96,
+      "sources": [
+        {
+          "title": "Tigerstadsteatret – Om oss",
+          "url": "https://tigerstadsteatret.no/en/om-oss/",
+          "publisher": "Tigerstadsteatret",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "teater-012",
+      "claim": "Tigerbussen er et oppsøkende og gratis teater p\u00e5 hjul, utviklet for \u00e5 n\u00e5 barn i bydeler med s\u00e6rlig h\u00f8y andel familiefattigdom.",
+      "status": "verified",
+      "confidenceScore": 0.97,
+      "sources": [
+        {
+          "title": "Tigerstadsteatret – Tigerbussen",
+          "url": "https://tigerstadsteatret.no/tigerbussen/",
+          "publisher": "Tigerstadsteatret",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Tigerstadsteatret – Om oss",
+          "url": "https://tigerstadsteatret.no/en/om-oss/",
+          "publisher": "Tigerstadsteatret",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "teater-013",
+      "claim": "Romeo+Julie i Sofienberg kirke i 2025 kombinerte slampoesi, street art, ballroom og orgelbeats, og inngikk i arbeidet med \u00e5 utvikle en ny arena for scenekunst i Oslo.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Tigerstadsteatret – Romeo+Julie",
+          "url": "https://tigerstadsteatret.no/en/forestillinger/romeojulie/",
+          "publisher": "Tigerstadsteatret",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Tigerstadsteatret – Om oss",
+          "url": "https://tigerstadsteatret.no/en/om-oss/",
+          "publisher": "Tigerstadsteatret",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "teater-014",
+      "claim": "Crap Comedy Festival har v\u00e6rt en fast humorsatsing p\u00e5 Parkteatret i over et ti\u00e5r og markerte 15-\u00e5rsjubileum i januar 2025.",
+      "status": "verified",
+      "confidenceScore": 0.96,
+      "sources": [
+        {
+          "title": "Parkteatret – Sketsjfest 2024",
+          "url": "https://www.parkteatret.no/arrangement/sketsjfest",
+          "publisher": "Parkteatret",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Parkteatret – Sketsjfest 2025",
+          "url": "https://www.parkteatret.no/arrangement/sketsjfest-2",
+          "publisher": "Parkteatret",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "teater-015",
+      "claim": "Vega Scene har bygget et eget tilbud for barn og unge gjennom VOKSENFRI, Vega Filmklubb og Vega Ung Teater.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Vega Scene – Barn og unge",
+          "url": "https://www.vegascene.no/nyheter/tilbud-til-barn-og-unge",
+          "publisher": "Vega Scene",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Vega Scene – Om Vega Scene",
+          "url": "https://www.vegascene.no/nyheter/om-vega-scene",
+          "publisher": "Vega Scene",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "teater-016",
+      "claim": "Oslo Nye Dukketeater avsluttet sitt kapittel i Trikkestallen med siste forestilling 15. mars 2025 og flyttet videre til Centralteatret samme v\u00e5r.",
+      "status": "verified",
+      "confidenceScore": 0.97,
+      "sources": [
+        {
+          "title": "Oslo Nye – Et nytt dukkehjem",
+          "url": "https://oslonye.no/et-nytt-dukkehjem/",
+          "publisher": "Oslo Nye",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "NRK – Oslo Nye legger ned Trikkestallen",
+          "url": "https://www.nrk.no/kultur/nrk-erfarer_-oslo-nye-foreslar-a-legge-ned-trikkestallen-og-kutte-arsverk-for-14_9-millioner-kroner-1.17128053",
+          "publisher": "NRK",
+          "accessedAt": "2026-03-02",
+          "sourceType": "journalism",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     }
   ],
   "researchMetadata": {
-    "lastVerifiedAt": "2026-03-02",
-    "verifiedBy": "claude-opus-4-6",
-    "coverageScore": 0.88,
+    "lastVerifiedAt": "2026-03-30",
+    "verifiedBy": "codex-gpt-5",
+    "coverageScore": 0.93,
     "staleAfterDays": 120,
-    "enrichmentNotes": "Deep research utført 2026-03-02. Hausmania verifisert med primærkilder (0.67→0.88). Black Box teater korrigert (etabl. 1985, flytt Rodeløkka 2004, ikke 2007). Dansens Hus korrigert (etabl. 2004, ikke 2008). Teater Manu adresse korrigert til Schleppegrells gate 32. Vega Scene lagt til som ny venue. Tigerstadsteatret lagt til som teatergruppe. Elvelangs i fakkellys og Made by You lagt til som stedsspesifikke. KHiO/utdanning lagt til. Oslo Nye Dukketeater oppdatert med nedleggelse 2025."
+    "enrichmentNotes": "Coverage-sprint utf\u00f8rt 2026-03-30. La til nye claims om Tigerstadsteatret, Tigerbussen, Romeo+Julie i Sofienberg, Crap Comedy Festival p\u00e5 Parkteatret, Vega Scenes ungdomssatsing og flyttingen av Oslo Nye Dukketeater fra Trikkestallen til Centralteatret. Tidligere research om Hausmania, Black Box, Dansens Hus, Teater Manu, Vega og KHiO er beholdt."
   },
   "crossReferences": [
     {

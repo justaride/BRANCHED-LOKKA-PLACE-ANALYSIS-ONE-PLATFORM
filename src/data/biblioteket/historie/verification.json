@@ -106,6 +106,66 @@
       "accessedAt": "2026-03-30",
       "sourceType": "database",
       "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Ny York - lokalhistoriewiki.no",
+      "url": "https://lokalhistoriewiki.no/Ny_York",
+      "publisher": "Lokalhistoriewiki",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Øvre gate - Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/%C3%98vre_gate",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Stolmakergata - Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Stolmakergata",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "På tegnebrettet går allting an...",
+      "url": "https://www.oslo.kommune.no/OBA/tobias/tobiasartikler/t3943.htm",
+      "publisher": "Oslo byarkiv / Tobias",
+      "accessedAt": "2026-03-30",
+      "sourceType": "archive",
+      "evidenceLevel": "primary",
+      "notes": "Brukt for Ny York-tall, motorveiplaner, stiftelsen av Grünerløkka Leieboerforening og byfornyelsesvedtaket i 1977."
+    },
+    {
+      "title": "sosial boligbygging i Norge 1945–1980 - SNL",
+      "url": "https://snl.no/sosial_boligbygging_i_Norge_1945%E2%80%931980",
+      "publisher": "Store norske leksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "SNL-artikkel med eksplisitt omtale av beboerorganisering og Grünerløkka Leieboerforenings beboeravis fra 1971."
+    },
+    {
+      "title": "Birkelunden – Murbyens hjerte - Riksantikvaren",
+      "url": "https://riksantikvaren.no/kulturhistorie/birkelunden-murbyens-hjerte/",
+      "publisher": "Riksantikvaren",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Offisiell omtale av kulturmiljøfredningen med årstall, omfang og fredningsstatus."
+    },
+    {
+      "title": "Tilskudd til istandsetting av kulturminner i Oslo",
+      "url": "https://www.oslo.kommune.no/tilskudd-legater-og-stipend/tilskudd-til-istandsetting-av-kulturminner/",
+      "publisher": "Oslo kommune",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "secondary",
+      "notes": "Kommunens oversikt omtaler Birkelunden kulturmiljøfredning som fredning etter kulturminneloven § 20."
     }
   ],
   "claims": [
@@ -259,12 +319,113 @@
         }
       ],
       "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "historie-007",
+      "claim": "Ny York ble bygget ut i 1850-årene før byutvidelsen trådte i kraft 1. januar 1859, og rester av denne treforstaden finnes fortsatt blant annet i Stolmakergata 8 og Øvre gate 2B fra 1858.",
+      "status": "verified",
+      "confidenceScore": 0.91,
+      "sources": [
+        {
+          "title": "Ny York - lokalhistoriewiki.no",
+          "url": "https://lokalhistoriewiki.no/Ny_York",
+          "publisher": "Lokalhistoriewiki",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Stolmakergata - Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Stolmakergata",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Øvre gate - Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/%C3%98vre_gate",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "På tegnebrettet går allting an...",
+          "url": "https://www.oslo.kommune.no/OBA/tobias/tobiasartikler/t3943.htm",
+          "publisher": "Oslo byarkiv / Tobias",
+          "accessedAt": "2026-03-30",
+          "sourceType": "archive",
+          "evidenceLevel": "primary",
+          "notes": "Tobias-artikkelen oppgir at Ny York lå i Aker til byutvidelsen i 1859 og at området hadde 69 bebygde eiendommer og 1500 innbyggere i 1861."
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "historie-008",
+      "claim": "Grünerløkka Leieboerforening ble startet 8. desember 1971 for å arbeide mot saneringsplanene og motorveiprosjektet, og ble del av den bredere beboerorganiseringen som la grunnlaget for byfornyelsen i indre by.",
+      "status": "verified",
+      "confidenceScore": 0.92,
+      "sources": [
+        {
+          "title": "På tegnebrettet går allting an...",
+          "url": "https://www.oslo.kommune.no/OBA/tobias/tobiasartikler/t3943.htm",
+          "publisher": "Oslo byarkiv / Tobias",
+          "accessedAt": "2026-03-30",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "sosial boligbygging i Norge 1945–1980 - SNL",
+          "url": "https://snl.no/sosial_boligbygging_i_Norge_1945%E2%80%931980",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "historie-009",
+      "claim": "Birkelunden kulturmiljø ble fredet i 2006 som det første helhetlige bykulturmiljøet i Norge; fredningen omfatter parken, Paulus kirke, Grünerløkka skole og 15 kvartaler med 139 bygårder.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Birkelunden – Murbyens hjerte - Riksantikvaren",
+          "url": "https://riksantikvaren.no/kulturhistorie/birkelunden-murbyens-hjerte/",
+          "publisher": "Riksantikvaren",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Birkelunden - Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Birkelunden",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Tilskudd til istandsetting av kulturminner i Oslo",
+          "url": "https://www.oslo.kommune.no/tilskudd-legater-og-stipend/tilskudd-til-istandsetting-av-kulturminner/",
+          "publisher": "Oslo kommune",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "secondary",
+          "notes": "Kommunens tilskuddsordning omtaler Birkelunden kulturmiljøfredning eksplisitt som fredning etter kulturminneloven § 20."
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     }
   ],
   "researchMetadata": {
     "lastVerifiedAt": "2026-03-30",
     "verifiedBy": "codex-gpt-5",
-    "coverageScore": 0.81,
+    "coverageScore": 0.86,
     "staleAfterDays": 180
   },
   "crossReferences": [
@@ -304,6 +465,24 @@
         "ildsjeler",
         "litteratur"
       ]
+    },
+    {
+      "type": "place",
+      "idOrName": "Ny York",
+      "linkedSections": [
+        "historie",
+        "litteratur"
+      ],
+      "note": "Det tidlige trehusområdet knytter byutvikling, sosialhistorie og bevaringshistorie sammen."
+    },
+    {
+      "type": "organization",
+      "idOrName": "Grünerløkka Leieboerforening",
+      "linkedSections": [
+        "historie",
+        "ildsjeler"
+      ],
+      "note": "Leieboerforeningen er sentral både i byfornyelseshistorien og i personhistoriene om lokale aktivister."
     }
   ],
   "limitations": [

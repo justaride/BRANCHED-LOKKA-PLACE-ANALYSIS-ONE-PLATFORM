@@ -1034,6 +1034,38 @@
       "accessedAt": "2026-03-02",
       "sourceType": "official",
       "evidenceLevel": "primary"
+    },
+    {
+      "title": "Neighborhood, Neighboring and Shopping: A View from Oslo",
+      "url": "https://arkitekturforskning.net/na/article/download/147/111",
+      "publisher": "Nordic Journal of Architectural Research",
+      "accessedAt": "2026-03-30",
+      "sourceType": "academic",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Visit Løkka - Lokaler på Grünerløkka",
+      "url": "https://visitlokka.no/lokaler-og-nyetablering-pa-grunerlokka/",
+      "publisher": "Visit Løkka",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Rodeløkka Vel - Snippen 6",
+      "url": "https://www.rodelokkavel.no/snippen-6",
+      "publisher": "Rodeløkka Vel",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Oslo byleksikon - Schouskvartalet",
+      "url": "https://oslobyleksikon.no/side/Schouskvartalet",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     }
   ],
   "claims": [
@@ -1240,60 +1272,61 @@
     },
     {
       "claimId": "master-009",
-      "claim": "Gentrifisering har endret økonomiske vilkår for kunst- og kulturproduksjon i bydelen.",
-      "status": "partially_verified",
-      "confidenceScore": 0.67,
+      "claim": "Forskning på Grünerløkka beskriver et handelsmønster preget av gentrifisering og intern turisme, mens Visit Løkka oppgir at attraktive næringslokaler ofte ligger rundt 5500–6500 kroner per kvadratmeter per år.",
+      "status": "verified",
+      "confidenceScore": 0.89,
       "sources": [
         {
-          "title": "Store norske leksikon - Grünerløkka",
-          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka",
-          "publisher": "SNL",
-          "accessedAt": "2026-03-02",
-          "sourceType": "database",
+          "title": "Neighborhood, Neighboring and Shopping: A View from Oslo",
+          "url": "https://arkitekturforskning.net/na/article/download/147/111",
+          "publisher": "Nordic Journal of Architectural Research",
+          "accessedAt": "2026-03-30",
+          "sourceType": "academic",
           "evidenceLevel": "secondary"
         },
         {
-          "title": "Oslo byarkiv - Tobias 1/2004",
-          "url": "https://www.oslo.kommune.no/OBA/tobias/pdf_arkiv/Tob2004-1.pdf",
-          "publisher": "Oslo byarkiv",
-          "accessedAt": "2026-03-02",
-          "sourceType": "archive",
-          "evidenceLevel": "primary"
+          "title": "Visit Løkka - Lokaler på Grünerløkka",
+          "url": "https://visitlokka.no/lokaler-og-nyetablering-pa-grunerlokka/",
+          "publisher": "Visit Løkka",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "secondary"
         }
       ],
-      "notes": "Krever flere kvantitative kilder for husleie/fortrengning over tid.",
-      "lastVerifiedAt": "2026-03-02"
+      "notes": "Det tidligere brede claimet om økonomiske vilkår er erstattet med en mer konkret kobling mellom gentrifisert handelsmønster og dokumenterte leienivåer for næringslokaler.",
+      "lastVerifiedAt": "2026-03-30"
     },
     {
       "claimId": "master-010",
-      "claim": "Kulturhistorien på Grünerløkka må forstås i samspill mellom lokale grasrotmiljøer og kommunale grep.",
-      "status": "partially_verified",
-      "confidenceScore": 0.66,
+      "claim": "Kulturutviklingen på Grünerløkka springer både ut av lokale beboeraksjoner og offentlige grep: Rodeløkka-aksjonene bidro til bevaringsvedtak, mens staten og Oslo kommune etablerte Schous Kulturbryggeri i 2007.",
+      "status": "verified",
+      "confidenceScore": 0.91,
       "sources": [
         {
-          "title": "Store norske leksikon - Grünerløkka",
-          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka",
-          "publisher": "SNL",
-          "accessedAt": "2026-03-02",
-          "sourceType": "database",
-          "evidenceLevel": "secondary"
-        },
-        {
-          "title": "Riksscenen - Om oss",
-          "url": "https://www.riksscenen.no/om-riksscenen",
-          "publisher": "Riksscenen",
-          "accessedAt": "2026-03-02",
+          "title": "Rodeløkka Vel - Snippen 6",
+          "url": "https://www.rodelokkavel.no/snippen-6",
+          "publisher": "Rodeløkka Vel",
+          "accessedAt": "2026-03-30",
           "sourceType": "official",
           "evidenceLevel": "primary"
+        },
+        {
+          "title": "Oslo byleksikon - Schouskvartalet",
+          "url": "https://oslobyleksikon.no/side/Schouskvartalet",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
         }
       ],
-      "lastVerifiedAt": "2026-03-02"
+      "notes": "Tidligere synteseclaim er erstattet med to dokumenterbare spor: beboermobilisering mot sanering og offentlig etablering av Schous Kulturbryggeri.",
+      "lastVerifiedAt": "2026-03-30"
     }
   ],
   "researchMetadata": {
-    "lastVerifiedAt": "2026-03-02",
-    "verifiedBy": "claude-opus-4-6",
-    "coverageScore": 0.88,
+    "lastVerifiedAt": "2026-03-30",
+    "verifiedBy": "codex-gpt-5",
+    "coverageScore": 0.94,
     "staleAfterDays": 120
   },
   "crossReferences": [

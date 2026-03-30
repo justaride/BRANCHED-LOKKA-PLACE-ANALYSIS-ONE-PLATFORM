@@ -785,6 +785,54 @@
       "accessedAt": "2026-03-02",
       "sourceType": "article",
       "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Street Art Oslo - About",
+      "url": "https://streetartoslo.no/about/",
+      "publisher": "Street Art Oslo",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Street Art Oslo - Oslo Street Art Festival",
+      "url": "https://streetartoslo.no/projects/oslo-street-art-festival/",
+      "publisher": "Street Art Oslo",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Street Art Oslo - Løkka-Lykke 2023 Finissage",
+      "url": "https://streetartoslo.no/lokka-lykke-2023-finissage/",
+      "publisher": "Street Art Oslo",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Galleri Seilet - Om oss",
+      "url": "https://www.galleriseilet.no/sider/om-oss",
+      "publisher": "Galleri Seilet",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Kunst i Skolen - Galleri Seilet",
+      "url": "https://www.kunstiskolen.no/",
+      "publisher": "Kunst i Skolen",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Oslo kommune - Bylivsgata Nedre Grünerløkka",
+      "url": "https://www.oslo.kommune.no/slik-bygger-vi-oslo/midlertidig-stenging-av-ring-1/bylivsgata-nedre-grunerlokka/",
+      "publisher": "Oslo kommune",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     }
   ],
   "claims": [
@@ -1039,16 +1087,156 @@
       ],
       "notes": "850 m² fordelt på tre haller ved Vulkan 15. Åpnet 3. februar 2024. Grunnlagt av Dino Beslic og Ola Hanø.",
       "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "billedkunst-011",
+      "claim": "Atelier Nord åpnet galleri på Olaf Ryes plass i 2011 etter at stiftelsen la ned grafikkavdelingen og omla virksomheten til elektronisk kunst i 1998.",
+      "status": "verified",
+      "confidenceScore": 0.94,
+      "sources": [
+        {
+          "title": "Atelier Nord - Om Atelier Nord",
+          "url": "https://ateliernord.no/about/",
+          "publisher": "Atelier Nord",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Store norske leksikon - Atelier Nord",
+          "url": "https://snl.no/Atelier_Nord",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Splittet ut som eget milepæl-claim for å skille grunnleggelsen i 1965 fra omleggingen til elektronisk kunst i 1998 og galleriåpningen på Olaf Ryes plass i 2011.",
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "billedkunst-012",
+      "claim": "Purenkel i Grüners gate 3 profilerer seg som et Grünerløkka-galleri med fokus på urban kunst, maleri, papirarbeider og skulptur.",
+      "status": "verified",
+      "confidenceScore": 0.91,
+      "sources": [
+        {
+          "title": "Purenkel galleri - Om galleriet",
+          "url": "https://www.purenkel.no/pages/om-galleriet",
+          "publisher": "Purenkel",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "notes": "Formulert snevert rundt galleriets egen profiltekst: lokalisering ved Olaf Ryes plass og uttalt fokus på urban kunst, maleri, verk på papir og skulptur.",
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "billedkunst-013",
+      "claim": "Galleri Seilet i Fossveien 24 drives av Kunst i Skolen og kombinerer grafikk i kommisjon med vandreutstillinger og verkstedaktivitet for lærere og elever.",
+      "status": "verified",
+      "confidenceScore": 0.94,
+      "sources": [
+        {
+          "title": "Galleri Seilet - Om oss",
+          "url": "https://www.galleriseilet.no/sider/om-oss",
+          "publisher": "Galleri Seilet",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Kunst i Skolen - Galleri Seilet",
+          "url": "https://www.kunstiskolen.no/",
+          "publisher": "Kunst i Skolen",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "notes": "Nytt claim som gjør Galleri Seilet til en egen, dokumentert institusjonspost i stedet for bare å ligge inne i samlepåstanden om kunstfeltet.",
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "billedkunst-014",
+      "claim": "Street Art Oslo har hovedkvarter i Helgesens gate 46 og arbeider som en bro mellom gatekunst- og graffitimiljøene og allmennheten gjennom festivaler, guidede turer, workshops og utstillinger.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Street Art Oslo - About",
+          "url": "https://streetartoslo.no/about/",
+          "publisher": "Street Art Oslo",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "notes": "Bygger direkte på organisasjonens egen beskrivelse av virksomheten, formålet og adressen i Helgesens gate 46.",
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "billedkunst-015",
+      "claim": "Oslo Street Art Festival springer ut av Løkka-Lykke og beskrives av Street Art Oslo som et årlig offentlig kunstprosjekt som skal styrke stedsidentitet og tilhørighet gjennom gratis kunst- og formidlingsaktiviteter.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Street Art Oslo - Oslo Street Art Festival",
+          "url": "https://streetartoslo.no/projects/oslo-street-art-festival/",
+          "publisher": "Street Art Oslo",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Street Art Oslo - Løkka-Lykke 2023 Finissage",
+          "url": "https://streetartoslo.no/lokka-lykke-2023-finissage/",
+          "publisher": "Street Art Oslo",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "notes": "Kobler den eldre Løkka-Lykke-formuleringen til dagens festivalnavn uten å overselge kontinuitet utover det Street Art Oslo selv dokumenterer.",
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "billedkunst-016",
+      "claim": "Ankerbrua fikk i 1937 fire bronseskulpturer av Dyre Vaa med motiver fra norske folkeeventyr, noe som ga broen tilnavnet Eventyrbrua.",
+      "status": "verified",
+      "confidenceScore": 0.96,
+      "sources": [
+        {
+          "title": "Oslo byleksikon - Ankerbrua",
+          "url": "https://oslobyleksikon.no/side/Ankerbrua",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Oslo kommune - Bylivsgata Nedre Grünerløkka",
+          "url": "https://www.oslo.kommune.no/slik-bygger-vi-oslo/midlertidig-stenging-av-ring-1/bylivsgata-nedre-grunerlokka/",
+          "publisher": "Oslo kommune",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "notes": "Oslo byleksikon forankrer årstall, kunstner og eventyrfigurer; Oslo kommune dokumenterer at statuene fortsatt brukes aktivt som en eventyrhistorie langs Ankerbrua i dagens bylivsgate.",
+      "lastVerifiedAt": "2026-03-30"
     }
   ],
   "researchMetadata": {
-    "lastVerifiedAt": "2026-03-02",
-    "verifiedBy": "claude-opus-4-6",
-    "coverageScore": 0.88,
+    "lastVerifiedAt": "2026-03-30",
+    "verifiedBy": "codex-gpt-5",
+    "coverageScore": 0.92,
     "staleAfterDays": 150,
-    "enrichmentNotes": "Deep research gjennomført 2026-03-02: Alle tomme keyWorks-arrayer fylt med verifiserte verk. Munch-adresser verifisert mot Munchmuseet. Ny seksjon for offentlig kunst (publicArt) med 4 verk. Street art oppdatert med Oslo Street Art Festival og Kunsthallen Street Art Norge. Gallerilisten utvidet fra 4 til 8 visningssteder. Atelier Nord grunnleggelsesår korrigert fra 1998 til 1965. Leif Ørnelunds fødselsår korrigert fra 1911 til 1914. Halfdan Strøms gullmedalje korrigert til verdensutstillingen i Paris 1900 (ikke 1888). Thaulow-Munch slektskap klargjort (firmenning, ikke nær familie). Alle confidence scores oppdatert basert på faktisk kildegrunnlag.",
-    "sourcesConsulted": 31,
-    "claimsVerified": 10
+    "enrichmentNotes": "Deep research gjennomført 2026-03-02 og utvidet 2026-03-30: Alle tomme keyWorks-arrayer fylt med verifiserte verk. Munch-adresser verifisert mot Munchmuseet. Ny seksjon for offentlig kunst (publicArt) med 4 verk. Street art oppdatert med Oslo Street Art Festival og Kunsthallen Street Art Norge. Gallerilisten utvidet fra 4 til 8 visningssteder. Atelier Nord grunnleggelsesår korrigert fra 1998 til 1965. Leif Ørnelunds fødselsår korrigert fra 1911 til 1914. Halfdan Strøms gullmedalje korrigert til verdensutstillingen i Paris 1900 (ikke 1888). Thaulow-Munch slektskap klargjort (firmenning, ikke nær familie). Ny coverage-sprint la til egne claims om Atelier Nords 1998/2011-milepæler, Purenkel, Galleri Seilet, Street Art Oslo, Oslo Street Art Festival og Eventyrbrua.",
+    "sourcesConsulted": 37,
+    "claimsVerified": 16
   },
   "crossReferences": [
     {

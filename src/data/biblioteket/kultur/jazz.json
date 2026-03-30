@@ -601,12 +601,47 @@
       "evidenceLevel": "secondary"
     },
     {
+      "title": "BLÅ - Om Blå",
+      "url": "https://www.blaaoslo.no/om-blaa",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
       "title": "Wikipedia - Blå",
       "url": "https://en.wikipedia.org/wiki/Bl%C3%A5",
       "publisher": "Wikipedia",
       "accessedAt": "2026-03-02",
       "sourceType": "database",
       "evidenceLevel": "secondary"
+    },
+    {
+      "title": "ECM Records - Afric Pepperbird",
+      "url": "https://ecmrecords.com/product/afric-pepperbird-jan-garbarek-quartet/",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "ECM Records - Jan Garbarek at 75",
+      "url": "https://ecmrecords.com/jan-garbarek-at-75/",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "ECM Records - Belonging",
+      "url": "https://ecmrecords.com/product/belonging-keith-jarrett-jan-garbarek-palle-danielsson-jon-christensen/",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "ECM Records - Different Rivers",
+      "url": "https://ecmrecords.com/product/different-rivers-trygve-seim/",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     }
   ],
   "claims": [
@@ -904,14 +939,114 @@
         }
       ],
       "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "jazz-012",
+      "claim": "BLÅ opplyser selv at klubben åpnet 28. februar 1998 i Brenneriveien 9c og startet som jazzklubb for nye fremadstormende artister.",
+      "status": "verified",
+      "confidenceScore": 0.96,
+      "sources": [
+        {
+          "title": "BLÅ - Om Blå",
+          "url": "https://www.blaaoslo.no/om-blaa",
+          "publisher": "BLÅ",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Oslo byleksikon - Blå",
+          "url": "https://oslobyleksikon.no/side/Bl%C3%A5",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "jazz-013",
+      "claim": "Afric Pepperbird ble spilt inn i Oslo i september 1970 og markerte ECM-ankomsten til Jan Garbarek, Terje Rypdal, Arild Andersen og Jon Christensen.",
+      "status": "verified",
+      "confidenceScore": 0.97,
+      "sources": [
+        {
+          "title": "ECM Records - Afric Pepperbird",
+          "url": "https://ecmrecords.com/product/afric-pepperbird-jan-garbarek-quartet/",
+          "publisher": "ECM Records",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "ECM Records - Jan Garbarek at 75",
+          "url": "https://ecmrecords.com/jan-garbarek-at-75/",
+          "publisher": "ECM Records",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "jazz-014",
+      "claim": "Belonging ble produsert av Manfred Eicher i Oslo i april 1974 med Keith Jarrett, Jan Garbarek, Palle Danielsson og Jon Christensen, og ble et nøkkelalbum for Jarretts European Quartet.",
+      "status": "verified",
+      "confidenceScore": 0.97,
+      "sources": [
+        {
+          "title": "ECM Records - Belonging",
+          "url": "https://ecmrecords.com/product/belonging-keith-jarrett-jan-garbarek-palle-danielsson-jon-christensen/",
+          "publisher": "ECM Records",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "ECM Records - Jan Garbarek at 75",
+          "url": "https://ecmrecords.com/jan-garbarek-at-75/",
+          "publisher": "ECM Records",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "jazz-015",
+      "claim": "Trygve Seims ECM-debut Different Rivers vant den tyske kritikerprisen Jahrespreis der deutschen Schallplattenkritik i 2001.",
+      "status": "verified",
+      "confidenceScore": 0.96,
+      "sources": [
+        {
+          "title": "ECM Records - Different Rivers",
+          "url": "https://ecmrecords.com/product/different-rivers-trygve-seim/",
+          "publisher": "ECM Records",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Store Norske Leksikon - Trygve Seim",
+          "url": "https://snl.no/Trygve_Seim",
+          "publisher": "SNL",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     }
   ],
   "researchMetadata": {
-    "lastVerifiedAt": "2026-03-02",
+    "lastVerifiedAt": "2026-03-30",
     "verifiedBy": "claude-opus-4-6",
-    "coverageScore": 0.88,
+    "coverageScore": 0.91,
     "staleAfterDays": 180,
-    "notes": "Verifisert mot SNL, Oslo byleksikon, Wikipedia, ECM Records, Ballade og Konsertforeninga. Oslo Jazzhus-perioden korrigert fra 1985-1996 til 1985-1994 (Toftes gate) + 1994-1996 (Rodeløkka). Blå-adresse korrigert til Brenneriveien 9c. 4 nye artister lagt til: Bugge Wesseltoft, Mathias Eick, Mats Eilertsen, Hanna Paulsberg. keyAlbums lagt til for ECM-artister. 3 nye claims lagt til."
+    "notes": "Verifisert mot SNL, Oslo byleksikon, Wikipedia, ECM Records, BLÅ, Ballade og Konsertforeninga. Oslo Jazzhus-perioden korrigert fra 1985-1996 til 1985-1994 (Toftes gate) + 1994-1996 (Rodeløkka). Blå-adresse korrigert til Brenneriveien 9c. 4 nye artister lagt til: Bugge Wesseltoft, Mathias Eick, Mats Eilertsen, Hanna Paulsberg. keyAlbums lagt til for ECM-artister. Senere utvidet med nye ECM- og BLÅ-baserte claims om venuehistorie og albumknutepunkter."
   },
   "crossReferences": [
     {

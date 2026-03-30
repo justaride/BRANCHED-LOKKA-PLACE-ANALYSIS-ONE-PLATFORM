@@ -446,6 +446,48 @@
       "accessedAt": "2026-03-02",
       "sourceType": "official",
       "evidenceLevel": "primary"
+    },
+    {
+      "title": "Soul Sessions Oslo - Om SSO",
+      "url": "https://soulsessionsoslo.com/nb/about",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Soul Sessions Oslo - Open Practice",
+      "url": "https://soulsessionsoslo.com/en/events/open-practice",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "FLOORKNIGHTS - Om oss",
+      "url": "https://www.floorknights.com/",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "FLOORKNIGHTS - Undervisning/trening",
+      "url": "https://www.floorknights.com/?page_id=983",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "QUICK STYLE - The Brand",
+      "url": "https://www.thequickstyle.com/thebrand",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Store norske leksikon - norsk hiphop",
+      "url": "https://snl.no/norsk_hiphop",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "primary"
     }
   ],
   "claims": [
@@ -484,9 +526,9 @@
     },
     {
       "claimId": "hiphop-002",
-      "claim": "X-Ray har fostret artister som Madcon, Quick Style, Dancing Youth og Floorknights.",
+      "claim": "X-Ray har fostret artister og crew som Madcon, Dancing Youth, FloorKnights Crew og Cre-8.",
       "status": "verified",
-      "confidenceScore": 0.91,
+      "confidenceScore": 0.92,
       "sources": [
         {
           "title": "Danseinformasjonen - Soul Sessions \u00e6respris til X-Ray",
@@ -497,12 +539,12 @@
           "evidenceLevel": "secondary"
         },
         {
-          "title": "Wikipedia (en) - Quick Style",
-          "url": "https://en.wikipedia.org/wiki/Quick_Style",
-          "publisher": "Wikipedia",
+          "title": "Oslo kommune - X-Ray ungdomskulturhus",
+          "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/fritidsklubber/x-ray-ungdomskulturhus/",
+          "publisher": "Oslo kommune",
           "accessedAt": "2026-03-02",
-          "sourceType": "database",
-          "evidenceLevel": "secondary"
+          "sourceType": "official",
+          "evidenceLevel": "primary"
         },
         {
           "title": "NTNU Samfunnsforskning - inkluderende oppvekstmilj\u00f8",
@@ -513,7 +555,7 @@
           "evidenceLevel": "secondary"
         }
       ],
-      "lastVerifiedAt": "2026-03-02"
+      "lastVerifiedAt": "2026-03-30"
     },
     {
       "claimId": "hiphop-003",
@@ -752,19 +794,152 @@
         }
       ],
       "lastVerifiedAt": "2026-03-02"
+    },
+    {
+      "claimId": "hiphop-014",
+      "claim": "Soul Sessions Oslo ble etablert i 2009 og har siden 2010 organisert ukentlige åpne treninger, jams, prosjekter og festivalene Extended og Encounters.",
+      "status": "verified",
+      "confidenceScore": 0.96,
+      "sources": [
+        {
+          "title": "Soul Sessions Oslo - Om SSO",
+          "url": "https://soulsessionsoslo.com/nb/about",
+          "publisher": "Soul Sessions Oslo",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Soul Sessions Oslo - Open Practice",
+          "url": "https://soulsessionsoslo.com/en/events/open-practice",
+          "publisher": "Soul Sessions Oslo",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "hiphop-015",
+      "claim": "Floorknights ble stiftet i 1999, holder til p\u00e5 X-Ray UKH i Maridalsveien 3 med inngang fra Brenneriveien, og f\u00f8lger opp over 100 unge breakere i Oslo-omr\u00e5det.",
+      "status": "verified",
+      "confidenceScore": 0.97,
+      "sources": [
+        {
+          "title": "FLOORKNIGHTS - Om oss",
+          "url": "https://www.floorknights.com/",
+          "publisher": "FLOORKNIGHTS",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Oslo kommune - X-Ray ungdomskulturhus",
+          "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/fritidsklubber/x-ray-ungdomskulturhus/",
+          "publisher": "Oslo kommune",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "FLOORKNIGHTS - Undervisning/trening",
+          "url": "https://www.floorknights.com/?page_id=983",
+          "publisher": "FLOORKNIGHTS",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "hiphop-016",
+      "claim": "Quick Style ble opprettet av Suleman Malik, Bilal Malik og Nasir Sirikhan i 2006, og Quick Style Studio ble etablert i Oslo i 2009.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Danseinformasjonen - Streetdansen i Oslo tidslinje 1965\u20132021",
+          "url": "https://danseinfo.no/wp-content/uploads/2022/04/Tidslinje_STREETDANSEN-I-OSLO-1965-2021.pdf",
+          "publisher": "Danseinformasjonen",
+          "accessedAt": "2026-03-02",
+          "sourceType": "academic",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "QUICK STYLE - The Brand",
+          "url": "https://www.thequickstyle.com/thebrand",
+          "publisher": "QUICK STYLE",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "hiphop-017",
+      "claim": "National Rap Show ble videref\u00f8rt til NRK P3 i 1993 og omtales av Store norske leksikon som en av de viktige institusjonene i norsk hiphop.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Store norske leksikon - Tommy Tee",
+          "url": "https://snl.no/Tommy_Tee",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-03-02",
+          "sourceType": "database",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Store norske leksikon - norsk hiphop",
+          "url": "https://snl.no/norsk_hiphop",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "hiphop-018",
+      "claim": "Pay2 (Lars Inge Undli) har v\u00e6rt aktiv siden 1984, var initiativtaker til Atomic B-Boys og var blant de tidlige writerne som sammen med Goal bygde nettverk til Stockholm, Hamburg og K\u00f8benhavn.",
+      "status": "verified",
+      "confidenceScore": 0.96,
+      "sources": [
+        {
+          "title": "Pay2 & Mucho - Oslo Street Art Festival",
+          "url": "https://oslostreetartfestival.no/artists/pay2/",
+          "publisher": "Oslo Street Art Festival",
+          "accessedAt": "2026-03-02",
+          "sourceType": "official",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Store norske leksikon - norsk hiphop",
+          "url": "https://snl.no/norsk_hiphop",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     }
   ],
   "researchMetadata": {
-    "lastVerifiedAt": "2026-03-02",
-    "verifiedBy": "claude-opus-4-6",
-    "coverageScore": 0.88,
+    "lastVerifiedAt": "2026-03-30",
+    "verifiedBy": "codex-gpt-5",
+    "coverageScore": 0.92,
     "staleAfterDays": 180,
     "totalArtists": 7,
     "totalCrews": 3,
     "totalEvents": 6,
-    "totalClaims": 13,
-    "averageConfidence": 0.91,
-    "notes": "Deep research pass: verifiserte alle eksisterende p\u00e5stander, la til f\u00f8dsels\u00e5r, utvidet tidslinje til 2024, la til nye events og en ny artist (Cezinando). Karpe og OnklP ble vurdert men ikke inkludert grunnet manglende direkte Gr\u00fcnerl\u00f8kka-tilknytning."
+    "totalClaims": 18,
+    "averageConfidence": 0.93,
+    "notes": "Coverage-sprint for hiphop: la til nye institusjons- og pionerclaims om Soul Sessions Oslo, Floorknights, Quick Style, National Rap Show og Pay2, og strammet samtidig inn X-Ray-claimet til dokumenterte crew og artister."
   },
   "crossReferences": [
     {

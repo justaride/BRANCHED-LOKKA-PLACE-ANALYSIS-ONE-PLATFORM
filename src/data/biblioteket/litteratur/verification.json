@@ -146,6 +146,48 @@
       "accessedAt": "2026-03-30",
       "sourceType": "news",
       "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Oslo Byleksikon - Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Oslo_Byleksikon",
+      "publisher": "Oslo byleksikon / Selskabet for Oslo Byes Vel",
+      "accessedAt": "2026-03-30",
+      "sourceType": "official",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Oslo byleksikon - lokalhistoriewiki.no",
+      "url": "https://lokalhistoriewiki.no/wiki/Oslo_byleksikon",
+      "publisher": "Lokalhistoriewiki",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Grünerløkka skole : 1895-1970 - Depotbiblioteket",
+      "url": "https://depotbiblioteket.no/cgi-bin/m2?tnr=88982",
+      "publisher": "Depotbiblioteket",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Bibliografi: Oslo kommune - lokalhistoriewiki.no",
+      "url": "https://lokalhistoriewiki.no/wiki/Bibliografi%3AOslo_sentrum",
+      "publisher": "Lokalhistoriewiki",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Bibliografisiden inneholder en egen seksjon for Bydel Grünerløkka med lokale bokutgivelser og jubileumsskrift."
+    },
+    {
+      "title": "Grünerløkka: en vandring gjennom 1000 år - Google Books",
+      "url": "https://books.google.com/books/about/Gr%C3%BCnerl%C3%B8kka.html?id=6w0RAAAACAAJ",
+      "publisher": "Google Books",
+      "accessedAt": "2026-03-30",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Oppgir forfattere, forlag, utgivelsesår, sidetall og bokbeskrivelse."
     }
   ],
   "claims": [
@@ -324,12 +366,91 @@
         }
       ],
       "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "litteratur-007",
+      "claim": "Oslo byleksikon har kommet i seks utgaver siden 1938, med første utgave redigert av Aksel Arstal og femte papir-utgave utgitt i 2010.",
+      "status": "verified",
+      "confidenceScore": 0.94,
+      "sources": [
+        {
+          "title": "Oslo Byleksikon - Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Oslo_Byleksikon",
+          "publisher": "Oslo byleksikon / Selskabet for Oslo Byes Vel",
+          "accessedAt": "2026-03-30",
+          "sourceType": "official",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Oslo byleksikon - lokalhistoriewiki.no",
+          "url": "https://lokalhistoriewiki.no/wiki/Oslo_byleksikon",
+          "publisher": "Lokalhistoriewiki",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Claimet er holdt rent bibliografisk og dekker selve verkhistorikken, ikke en bredere tolkning av leksikonets posisjon i Oslo-forskningen.",
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "litteratur-008",
+      "claim": "Jubileumsskriftet «Grünerløkka skole : 1895-1970» ble utgitt i Oslo i 1970 og er oppført i lokalhistoriewikis bibliografi over litteratur om Bydel Grünerløkka.",
+      "status": "verified",
+      "confidenceScore": 0.92,
+      "sources": [
+        {
+          "title": "Grünerløkka skole : 1895-1970 - Depotbiblioteket",
+          "url": "https://depotbiblioteket.no/cgi-bin/m2?tnr=88982",
+          "publisher": "Depotbiblioteket",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Bibliografi: Oslo kommune - lokalhistoriewiki.no",
+          "url": "https://lokalhistoriewiki.no/wiki/Bibliografi%3AOslo_sentrum",
+          "publisher": "Lokalhistoriewiki",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary",
+          "notes": "Bibliografisiden lister verket under seksjonen for Bydel Grünerløkka."
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
+    },
+    {
+      "claimId": "litteratur-009",
+      "claim": "Merete Lie Hoel og Nils Petter Thuesens «Grünerløkka : en vandring gjennom 1000 år» ble utgitt av Grøndahl Dreyer i Oslo i 1998 som en illustrert lokalhistorisk vandringsbok om bydelen.",
+      "status": "verified",
+      "confidenceScore": 0.93,
+      "sources": [
+        {
+          "title": "Grünerløkka: en vandring gjennom 1000 år - Google Books",
+          "url": "https://books.google.com/books/about/Gr%C3%BCnerl%C3%B8kka.html?id=6w0RAAAACAAJ",
+          "publisher": "Google Books",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary",
+          "notes": "Oppgir Grøndahl Dreyer, 1998, 127 sider og beskriver boka som illustrert historisk vandring."
+        },
+        {
+          "title": "Bibliografi: Oslo kommune - lokalhistoriewiki.no",
+          "url": "https://lokalhistoriewiki.no/wiki/Bibliografi%3AOslo_sentrum",
+          "publisher": "Lokalhistoriewiki",
+          "accessedAt": "2026-03-30",
+          "sourceType": "database",
+          "evidenceLevel": "secondary",
+          "notes": "Bibliografisiden lister boka under Bydel Grünerløkka med utgiver, sted og år."
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     }
   ],
   "researchMetadata": {
     "lastVerifiedAt": "2026-03-30",
     "verifiedBy": "codex-gpt-5",
-    "coverageScore": 0.82,
+    "coverageScore": 0.87,
     "staleAfterDays": 365
   },
   "crossReferences": [
@@ -359,6 +480,25 @@
         "historie",
         "ildsjeler"
       ]
+    },
+    {
+      "type": "work",
+      "idOrName": "Oslo byleksikon",
+      "linkedSections": [
+        "litteratur",
+        "historie"
+      ],
+      "note": "Oppslagsverket fungerer som tverrgående referanse for steder og historiske hendelser i Oslo."
+    },
+    {
+      "type": "organization",
+      "idOrName": "Grünerløkka skole",
+      "linkedSections": [
+        "litteratur",
+        "historie",
+        "ildsjeler"
+      ],
+      "note": "Jubileumsskriftet binder skolehistorie og lokalhistorie sammen i biblioteket."
     }
   ],
   "limitations": [

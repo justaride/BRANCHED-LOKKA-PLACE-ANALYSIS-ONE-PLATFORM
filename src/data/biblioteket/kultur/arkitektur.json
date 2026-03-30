@@ -273,9 +273,9 @@
       "yearBuilt": 1872,
       "address": "Trondheimsveien 2",
       "style": "Industriarkitektur, teglstein",
-      "currentUse": "Schous kulturbryggeri (Popsenteret, Riksscenen, Øvingshotellet, Oslo Musikk- og kulturskole)",
+      "currentUse": "Schous kulturbryggeri (Riksscenen, Øvingshotellet, Oslo kulturskole m.m.; Popsenteret tidligere)",
       "heritageStatus": "Verneverdig (Byantikvaren, Gul liste)",
-      "description": "Bryggeriet ble tegnet av tyskfødte murmester Asmus Lenschow og bygget i 1872 for Christian Julius Schou. Bryggeriet var Norges eldste da det stengte i 1981. Etter at BI flyttet til Nydalen i 2005, etablerte staten og Oslo kommune Schous kulturbryggeri i 2007 med Popsenteret, Riksscenen for folkemusikk, øvingshotell med 49 rom og kulturskole.",
+      "description": "Bryggeriet ble tegnet av tyskfødte murmester Asmus Lenschow og bygget i 1872 for Christian Julius Schou. Bryggeriet var Norges eldste da det stengte i 1981. Etter at BI flyttet til Nydalen i 2005, etablerte staten og Oslo kommune Schous kulturbryggeri i 2007 med Popsenteret, Riksscenen for folkemusikk, Øvingshotellet med 49 øvingsrom og kulturskole. Popsenteret opplyser at museet er permanent stengt fra 1. januar 2025.",
       "significance": "Et viktig eksempel på vellykket transformasjon fra industri til kultur. Bryggeriets historie spenner fra Grünerløkkas industrielle epoke til dagens kulturkvartal."
     },
     {
@@ -288,6 +288,17 @@
       "heritageStatus": "Olavsrosa (Norsk Kulturarv, 2007)",
       "description": "Opprinnelig åpnet i 1907 som «Kristiania Bryggeri Grünerløkkens Kinematograf», tegnet av arkitekt Frithjof Aslesen. Omdøpt til «Grünerløkkens Verdenstheater» i 1913, deretter totalombygget i 1918–1922 med ny nyklassisistisk fasade av Erik Glosimodt. Kommunal kino 1926–1991, Nordic Black Theatre 1992–2001, deretter konsertscene.",
       "significance": "Et av Grünerløkkas eldste kulturhus med uavbrutt kulturbruk siden 1907. Bygningen forteller historien om bydelens underholdningskultur gjennom 120 år."
+    },
+    {
+      "name": "Hauges Minde",
+      "architect": "N.S.D. Eckhoff",
+      "yearBuilt": 1875,
+      "address": "Olaf Ryes plass 2",
+      "style": "Forsamlingshus i tegl",
+      "currentUse": "Kommunal kultureiendom med atelierer",
+      "heritageStatus": "Oslo kommunes kultureiendom",
+      "description": "Bygningen ble oppført i 1875 som bedehus på initiativ fra pastor Johan Cordt Harmens Storjohann. Den har senere vært brukt som interimkirke, skole, ungdomsherberge, kvinneherberge og krisesenter. I dag forvaltes bygget av Oslo kommune og leier ut atelierer til kunstnere.",
+      "significance": "Hauges Minde tilfører Olaf Ryes plass et tydelig lag av sosial- og kirkehistorie, og viser hvordan et 1800-talls forsamlingshus kan videreføres som kulturbygg i dagens Grünerløkka."
     },
     {
       "name": "Mathallen Oslo",
@@ -618,6 +629,56 @@
       "title": "Gul liste – Kulturminner og bevaring (Oslo kommune)",
       "url": "https://www.oslo.kommune.no/plan-bygg-og-eiendom/kulturminner-og-bevaring/gul-liste/",
       "type": "primær"
+    },
+    {
+      "title": "Nedre Foss park – Oslo kommune",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/parker-og-lekeplasser/nedre-foss-park/",
+      "type": "primær"
+    },
+    {
+      "title": "Nedre Foss bypark – DOGA",
+      "url": "https://doga.no/aktiviteter/dogas-priser/doga-merket-design-arkitektur/vinnere-av-doga-merket/nedre-foss-bypark/",
+      "type": "sekundær"
+    },
+    {
+      "title": "Nedre Foss bypark åpnet for publikum – Norconsult",
+      "url": "https://norconsult.no/aktuelt/nedre-foss-bypark-aapnet-for-publikum/",
+      "type": "primær"
+    },
+    {
+      "title": "Parkteatret – Om Parkteatret",
+      "url": "https://www.parkteatret.no/om-parkteateret",
+      "type": "primær"
+    },
+    {
+      "title": "Parkteatret – Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Parkteatret",
+      "type": "sekundær"
+    },
+    {
+      "title": "Schouskvartalet – Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Schouskvartalet",
+      "type": "sekundær"
+    },
+    {
+      "title": "Riksscenen – Om oss",
+      "url": "https://www.riksscenen.no/om-oss.556094.no.html",
+      "type": "primær"
+    },
+    {
+      "title": "Popsenteret – Avvikles",
+      "url": "https://www.popsenteret.no/program/popsenteret-avvikles",
+      "type": "primær"
+    },
+    {
+      "title": "Hauges Minde – Oslo kommune",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/kunst-og-kultur/kultureiendommer/hauges-minde/",
+      "type": "primær"
+    },
+    {
+      "title": "Hauges Minde – lokalhistoriewiki",
+      "url": "https://lokalhistoriewiki.no/Hauges_Minde_(Oslo)",
+      "type": "sekundær"
     }
   ],
   "claims": [
@@ -725,11 +786,39 @@
       "confidence": 0.90,
       "source": "Oslo byleksikon / Akerselvas Venner",
       "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-16",
+      "statement": "Nedre Foss park åpnet i 2017 etter Norconsults konkurransevinnende utkast «Flyt» fra 2008, og prosjektet fikk DOGA-merket i 2019.",
+      "confidence": 0.97,
+      "source": "Oslo kommune / Norconsult / DOGA / Oslo byleksikon",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-17",
+      "statement": "Parkteatret åpnet som Grünerløkkens Kinematograf i 1907, fikk dagens navn og ny fasade i 1922, og gjenåpnet som teater- og konsertsal i 2002.",
+      "confidence": 0.97,
+      "source": "Parkteatret / Oslo byleksikon",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-18",
+      "statement": "Etter at BI flyttet til Nydalen i 2005, etablerte staten og Oslo kommune Schous kulturbryggeri i 2007; anlegget fikk Øvingshotellet med 49 øvingsrom og rommet også Riksscenen og Popsenteret.",
+      "confidence": 0.96,
+      "source": "Oslo byleksikon / Riksscenen / Popsenteret",
+      "status": "verified"
+    },
+    {
+      "id": "arkitektur-claim-19",
+      "statement": "Hauges Minde på Olaf Ryes plass 2 ble oppført som bedehus i 1875 og er i dag en kommunal kultureiendom med atelierer.",
+      "confidence": 0.97,
+      "source": "Oslo kommune / lokalhistoriewiki",
+      "status": "verified"
     }
   ],
   "researchMetadata": {
-    "lastVerified": "2026-03-02",
-    "coverageScore": 0.85,
+    "lastVerified": "2026-03-30",
+    "coverageScore": 0.89,
     "staleAfterDays": 180
   },
   "crossReferences": [
@@ -766,13 +855,13 @@
   ],
   "metadata": {
     "buildingStyleCount": 5,
-    "iconicBuildingCount": 10,
+    "iconicBuildingCount": 11,
     "parkCount": 6,
     "architectCount": 7,
     "heritageStatusCount": 5,
-    "sourceCount": 20,
-    "claimCount": 15,
+    "sourceCount": 30,
+    "claimCount": 19,
     "urbanRenewalTimelineEvents": 14,
-    "generatedAt": "2026-03-02"
+    "generatedAt": "2026-03-30"
   }
 }
