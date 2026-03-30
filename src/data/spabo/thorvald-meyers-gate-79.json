@@ -4,6 +4,10 @@
   "gnr": 228,
   "bnr": 521,
   "beskrivelse": "Klassisk murgård fra 1870 ved Schous plass med megler- og oppgjørskontorer i gateplan. Borettslag med 7 boliger forvaltet av OBOS. Listeført (Gul liste).",
+  "coordinates": {
+    "lat": 59.9198,
+    "lng": 10.759
+  },
   "heroImage": "/images/spabo/thorvald-meyers-gate-79/hero.jpg",
   "mapImage": "/images/spabo/thorvald-meyers-gate-79/map.png",
   "plaaceData": {

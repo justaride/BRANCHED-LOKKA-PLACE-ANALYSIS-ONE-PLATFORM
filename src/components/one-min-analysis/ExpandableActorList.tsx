@@ -38,7 +38,7 @@ function ActorRow({ actor, index }: { actor: Actor; index: number }) {
         </span>
       </td>
       <td className="whitespace-nowrap px-4 py-3 text-right text-sm text-gray-600">
-        {actor.markedsandel.toFixed(1)}%
+        {actor.markedsandel != null ? `${actor.markedsandel.toFixed(1)}%` : '-'}
       </td>
     </tr>
   );

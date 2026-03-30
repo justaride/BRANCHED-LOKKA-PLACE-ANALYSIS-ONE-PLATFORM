@@ -86,7 +86,7 @@ export default async function EiendomssparEiendomPage({ params }: PageProps) {
                   )}
                   <div className="rounded-lg bg-gray-200 px-3 py-1.5 text-gray-700 md:px-4 md:py-2">
                     <span className="font-semibold">Rapport:</span>{' '}
-                    {formaterDato(eiendom.plaaceData.rapportDato)}
+                    {eiendom.plaaceData?.rapportDato ? formaterDato(eiendom.plaaceData.rapportDato) : 'N/A'}
                   </div>
                 </div>
               </FadeIn>
@@ -160,8 +160,8 @@ export default async function EiendomssparEiendomPage({ params }: PageProps) {
                   <div className="rounded-xl border border-gray-200/50 bg-lokka-light/30 p-4 md:rounded-2xl md:p-6">
                     <h3 className="mb-2 text-base font-bold text-lokka-primary md:mb-3 md:text-lg">Om beliggenheten</h3>
                     <p className="text-xs leading-relaxed text-lokka-secondary md:text-sm">
-                      Eiendom på Thorvald Meyers gate, en av Grünerløkkas mest kjente gater,
-                      med utmerket tilgang til butikker, serveringssteder og kollektivtransport.
+                      Eiendom på Grünerløkka med utmerket tilgang til butikker,
+                      serveringssteder og kollektivtransport.
                       Området er preget av høy urban aktivitet og mangfold.
                     </p>
                   </div>

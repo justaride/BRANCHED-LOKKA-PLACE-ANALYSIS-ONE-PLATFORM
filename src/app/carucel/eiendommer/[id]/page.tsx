@@ -102,7 +102,7 @@ export default async function CarucelEiendomPage({ params }: PageProps) {
                   )}
                   <div className="rounded-lg bg-gray-100 px-3 py-1.5 text-gray-700 md:px-4 md:py-2">
                     <span className="font-semibold">Rapport:</span>{' '}
-                    {formaterDato(eiendom.plaaceData.rapportDato)}
+                    {eiendom.plaaceData?.rapportDato ? formaterDato(eiendom.plaaceData.rapportDato) : 'N/A'}
                   </div>
                 </div>
               </FadeIn>

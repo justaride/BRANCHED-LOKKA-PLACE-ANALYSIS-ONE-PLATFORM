@@ -13,8 +13,8 @@ export default function AldersfordelingChart({ data }: AldersfordelingChartProps
     const kvinneData = data.aldersfordeling.kvinne[index];
     return {
       category: mannData.kategori,
-      Mann: -mannData.antall, // Negative for left side of pyramid
-      Kvinne: kvinneData.antall,
+      Mann: -mannData.antall,
+      Kvinne: kvinneData?.antall ?? 0,
     };
   });
 

@@ -79,20 +79,6 @@
   "naringsaktorer": {
     "actors": [
       {
-        "rank": "#",
-        "navn": "Navn",
-        "type": "Type",
-        "adresse": "Adresse",
-        "kommune": "Kommune",
-        "omsetning": null,
-        "kjedeProsent": null,
-        "yoyVekst": null,
-        "ansatteLokalt": null,
-        "ansatteKjede": null,
-        "kjedeLokasjoner": null,
-        "markedsandel": null
-      },
-      {
         "rank": "#1",
         "navn": "Oslo Sportslager",
         "type": "Handel / Sport og fritid",

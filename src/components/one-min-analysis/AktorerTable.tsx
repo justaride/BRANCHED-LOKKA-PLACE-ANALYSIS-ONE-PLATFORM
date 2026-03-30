@@ -87,7 +87,7 @@ export default function AktorerTable({ data }: AktorerTableProps) {
                     )}
                   </td>
                   <td className="px-4 py-3">{actor.ansatteLokalt}</td>
-                  <td className="px-4 py-3 font-medium">{actor.markedsandel.toFixed(1)}%</td>
+                  <td className="px-4 py-3 font-medium">{actor.markedsandel != null ? `${actor.markedsandel.toFixed(1)}%` : '-'}</td>
                 </tr>
               ))}
             </tbody>
