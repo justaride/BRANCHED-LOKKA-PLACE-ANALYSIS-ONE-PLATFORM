@@ -147,6 +147,31 @@ export default function MainBoardPage() {
           </Link>
         </div>
 
+        {/* Løkka i Tall - Full width */}
+        <div className="mt-6">
+          <Link
+            href="/main-board/lokka-i-tall"
+            className="group relative block h-64 overflow-hidden rounded-2xl shadow-lg transition-all hover:scale-[1.01] hover:shadow-xl"
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-natural-forest via-natural-forest/90 to-natural-sage/80" />
+            <div className="relative z-10 flex h-full items-center p-8">
+              <div className="flex-1">
+                <div className="mb-2 inline-block rounded-full bg-white/20 px-3 py-1 text-xs font-medium text-white backdrop-blur-sm">
+                  Nytt
+                </div>
+                <h3 className="mb-2 text-3xl font-bold text-white drop-shadow-md">Løkka i Tall</h3>
+                <p className="max-w-xl text-lg text-white/90 drop-shadow-sm">
+                  Samleside med nøkkeltall, bevegelsesmønstre og aktørdata for hele Grünerløkka — alt på ett sted.
+                </p>
+              </div>
+              <div className="hidden items-center md:flex">
+                <div className="inline-flex items-center gap-2 rounded-lg bg-white/20 px-5 py-3 text-lg font-semibold text-white backdrop-blur-sm transition-colors group-hover:bg-white group-hover:text-natural-forest">
+                  Se dashboard →
+                </div>
+              </div>
+            </div>
+          </Link>
+        </div>
       </Container>
 
       {/* Features Section */}

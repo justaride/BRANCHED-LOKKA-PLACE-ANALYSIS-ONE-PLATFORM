@@ -1,6 +1,6 @@
 export const METRIC_TOOLTIPS = {
   dagligeBesokende:
-    'Gjennomsnittlig antall unike mobilenheter registrert i sonen per dag. Basert på Telia teledata via Plaace.ai. Tallet ekstrapoleres fra Telias markedsandel (~25%) til estimert totalpopulasjon.',
+    'Gjennomsnittlig antall unike mobilenheter registrert i sonen per dag. Basert på Telia teledata via Plaace.ai. Tallet ekstrapoleres fra Telias markedsandel (~40%) til estimert totalpopulasjon.',
   befolkning:
     'Registrerte innbyggere i området. Kilde: SSB folkeregisterdata.',
   virksomheter:

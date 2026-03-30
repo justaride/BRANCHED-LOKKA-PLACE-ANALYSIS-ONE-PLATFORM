@@ -10,7 +10,7 @@
 ```yaml
 Stack: Next.js 16.0.8 | React 19.2 | TypeScript (strict) | Tailwind CSS 4 | Recharts | Leaflet
 Auth: Email OTP → JWT sessions (jose + resend) | Password fallback
-Deploy: Coolify (Hetzner) behind Cloudflare (stoppet - lokal utvikling mars 2026)
+Deploy: Coolify (Hetzner) behind Cloudflare (live)
 Dev: npm run dev → localhost:3001
 Build: npm run build (runs verify + type-check)
 Test: npm run test (Jest, 70% coverage threshold)

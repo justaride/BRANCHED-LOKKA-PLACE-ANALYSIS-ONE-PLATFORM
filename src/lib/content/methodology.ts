@@ -12,7 +12,8 @@ export const METHODOLOGY_SECTIONS: MethodologySection[] = [
     icon: '📡',
     content:
       'Bevegelsestallene er basert på anonymiserte mobilsignaler fra Telia, Norges nest største mobiloperatør. ' +
-      'Når en mobiltelefon er slått på, kommuniserer den jevnlig med nærliggende basestasjoner. ' +
+      'Når en mobiltelefon er slått på, kommuniserer den jevnlig med nærliggende basestasjoner — ' +
+      'hver enhet genererer 200–400 datapunkter daglig, noe som gir over 600 millioner signaler per dag i Norge alene. ' +
       'Plaace.ai samler inn og analyserer disse signalene for å estimere hvor mange mennesker som oppholder seg i et gitt område. ' +
       'Alle data er fullstendig anonymisert — ingen individer kan identifiseres.',
   },
@@ -50,7 +51,8 @@ export const METHODOLOGY_SECTIONS: MethodologySection[] = [
     icon: '⚠️',
     content:
       'Teledata har noen kjente begrensninger:\n\n' +
-      '• Kun Telia-abonnenter registreres direkte. Plaace.ai ekstrapolerer til total populasjon basert på Telias markedsandel (~25%).\n' +
+      '• Kun Telia-abonnenter registreres direkte. Telia har ca. 40% markedsandel i Norge. Plaace.ai ekstrapolerer fra denne dekningen til estimert totalpopulasjon.\n' +
+      '• Data anonymiseres irreversibelt med 36 timers forsinkelse, og grupper under 5 personer vises aldri (GDPR-krav).\n' +
       '• Utenlandske turister med roaming-SIM kan ha lavere dekning.\n' +
       '• Innendørs signal kan være svakere, så aktivitet inne i bygninger kan underrapporteres.\n' +
       '• Noen mikro-områder har utilstrekkelig signaldekning og returnerer 0-data.\n\n' +
