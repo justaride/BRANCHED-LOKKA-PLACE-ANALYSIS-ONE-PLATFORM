@@ -11,6 +11,9 @@
     "verify": "node scripts/verify-project.js",
     "research:kultur:enrich": "node scripts/enrich-kultur-research.js",
     "research:kultur:validate": "node scripts/validate-kultur-research.js",
+    "research:biblioteket:validate": "node scripts/validate-biblioteket-research.js",
+    "research:biblioteket:report": "node scripts/report-biblioteket-research.js",
+    "research:biblioteket:queue": "node scripts/build-biblioteket-research-queue.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
@@ -33,7 +36,6 @@
     "react-leaflet": "^5.0.0",
     "react-markdown": "^10.1.0",
     "recharts": "^3.4.1",
-    "resend": "^6.9.2",
     "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
