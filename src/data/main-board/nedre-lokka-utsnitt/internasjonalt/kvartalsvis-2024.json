@@ -1,0 +1,346 @@
+[
+  {
+    "kvartal": "Q1",
+    "ar": 2024,
+    "land": [
+      {
+        "land": "Denmark",
+        "prosent": 13.02
+      },
+      {
+        "land": "Poland",
+        "prosent": 11.61
+      },
+      {
+        "land": "United Kingdom of Great Britain and Northern Ireland",
+        "prosent": 10.29
+      },
+      {
+        "land": "Sweden",
+        "prosent": 9.81
+      },
+      {
+        "land": "Germany",
+        "prosent": 8.89
+      },
+      {
+        "land": "France",
+        "prosent": 7.56
+      },
+      {
+        "land": "Spain",
+        "prosent": 5.61
+      },
+      {
+        "land": "United States of America",
+        "prosent": 4.22
+      },
+      {
+        "land": "Ukraine",
+        "prosent": 3.37
+      },
+      {
+        "land": "Italy",
+        "prosent": 3.19
+      },
+      {
+        "land": "Netherlands",
+        "prosent": 2.84
+      },
+      {
+        "land": "Romania",
+        "prosent": 2.13
+      },
+      {
+        "land": "India",
+        "prosent": 2.08
+      },
+      {
+        "land": "Austria",
+        "prosent": 1.86
+      },
+      {
+        "land": "Finland",
+        "prosent": 1.54
+      },
+      {
+        "land": "Belgium",
+        "prosent": 1.41
+      },
+      {
+        "land": "China",
+        "prosent": 1.26
+      },
+      {
+        "land": "Greece",
+        "prosent": 1.1
+      },
+      {
+        "land": "Portugal",
+        "prosent": 0.9
+      },
+      {
+        "land": "Switzerland",
+        "prosent": 0.83
+      }
+    ]
+  },
+  {
+    "kvartal": "Q2",
+    "ar": 2024,
+    "land": [
+      {
+        "land": "Poland",
+        "prosent": 10.32
+      },
+      {
+        "land": "Denmark",
+        "prosent": 10.21
+      },
+      {
+        "land": "Germany",
+        "prosent": 9.96
+      },
+      {
+        "land": "United Kingdom of Great Britain and Northern Ireland",
+        "prosent": 9.52
+      },
+      {
+        "land": "Sweden",
+        "prosent": 9.45
+      },
+      {
+        "land": "France",
+        "prosent": 8.37
+      },
+      {
+        "land": "United States of America",
+        "prosent": 7.77
+      },
+      {
+        "land": "Spain",
+        "prosent": 4.93
+      },
+      {
+        "land": "Netherlands",
+        "prosent": 3.59
+      },
+      {
+        "land": "Ukraine",
+        "prosent": 2.95
+      },
+      {
+        "land": "Italy",
+        "prosent": 2.6
+      },
+      {
+        "land": "India",
+        "prosent": 2.24
+      },
+      {
+        "land": "Romania",
+        "prosent": 2.06
+      },
+      {
+        "land": "Belgium",
+        "prosent": 1.9
+      },
+      {
+        "land": "Austria",
+        "prosent": 1.62
+      },
+      {
+        "land": "Finland",
+        "prosent": 1.42
+      },
+      {
+        "land": "China",
+        "prosent": 0.97
+      },
+      {
+        "land": "Greece",
+        "prosent": 0.97
+      },
+      {
+        "land": "Portugal",
+        "prosent": 0.93
+      },
+      {
+        "land": "Lithuania",
+        "prosent": 0.73
+      }
+    ]
+  },
+  {
+    "kvartal": "Q3",
+    "ar": 2024,
+    "land": [
+      {
+        "land": "Germany",
+        "prosent": 11.9
+      },
+      {
+        "land": "Poland",
+        "prosent": 9.11
+      },
+      {
+        "land": "France",
+        "prosent": 8.8
+      },
+      {
+        "land": "United States of America",
+        "prosent": 8.26
+      },
+      {
+        "land": "United Kingdom of Great Britain and Northern Ireland",
+        "prosent": 8.1
+      },
+      {
+        "land": "Denmark",
+        "prosent": 7.99
+      },
+      {
+        "land": "Sweden",
+        "prosent": 7.98
+      },
+      {
+        "land": "Spain",
+        "prosent": 5.57
+      },
+      {
+        "land": "Netherlands",
+        "prosent": 5.51
+      },
+      {
+        "land": "Italy",
+        "prosent": 3.11
+      },
+      {
+        "land": "Austria",
+        "prosent": 2.72
+      },
+      {
+        "land": "Ukraine",
+        "prosent": 2.52
+      },
+      {
+        "land": "Belgium",
+        "prosent": 2.2
+      },
+      {
+        "land": "India",
+        "prosent": 1.67
+      },
+      {
+        "land": "Romania",
+        "prosent": 1.64
+      },
+      {
+        "land": "China",
+        "prosent": 1.39
+      },
+      {
+        "land": "Finland",
+        "prosent": 1.12
+      },
+      {
+        "land": "Czechia",
+        "prosent": 0.95
+      },
+      {
+        "land": "Korea, Republic of",
+        "prosent": 0.91
+      },
+      {
+        "land": "Portugal",
+        "prosent": 0.89
+      }
+    ]
+  },
+  {
+    "kvartal": "Q4",
+    "ar": 2024,
+    "land": [
+      {
+        "land": "Poland",
+        "prosent": 12.85
+      },
+      {
+        "land": "Denmark",
+        "prosent": 11.17
+      },
+      {
+        "land": "Germany",
+        "prosent": 9
+      },
+      {
+        "land": "France",
+        "prosent": 8.95
+      },
+      {
+        "land": "Sweden",
+        "prosent": 8.42
+      },
+      {
+        "land": "United Kingdom of Great Britain and Northern Ireland",
+        "prosent": 7.96
+      },
+      {
+        "land": "United States of America",
+        "prosent": 5.7
+      },
+      {
+        "land": "Spain",
+        "prosent": 5.49
+      },
+      {
+        "land": "Netherlands",
+        "prosent": 5.39
+      },
+      {
+        "land": "Ukraine",
+        "prosent": 3.39
+      },
+      {
+        "land": "Romania",
+        "prosent": 2.25
+      },
+      {
+        "land": "Austria",
+        "prosent": 1.97
+      },
+      {
+        "land": "Italy",
+        "prosent": 1.82
+      },
+      {
+        "land": "Belgium",
+        "prosent": 1.5
+      },
+      {
+        "land": "China",
+        "prosent": 1.45
+      },
+      {
+        "land": "Finland",
+        "prosent": 1.42
+      },
+      {
+        "land": "India",
+        "prosent": 1.35
+      },
+      {
+        "land": "Greece",
+        "prosent": 1.09
+      },
+      {
+        "land": "Portugal",
+        "prosent": 1.08
+      },
+      {
+        "land": "Czechia",
+        "prosent": 0.74
+      }
+    ]
+  }
+]

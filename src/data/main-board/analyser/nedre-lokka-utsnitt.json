@@ -1,0 +1,79 @@
+{
+  "id": "nedre-lokka-utsnitt",
+  "title": "Nedre Løkka Utsnitt",
+  "tittel": "Nedre Løkka Utsnitt",
+  "beskrivelse": "Komplett Plaace-utsnitt for Nedre Løkka (0.27 km²), sentrert på Markveien 42E. Dekker hele Nedre Løkka med fullstendig data for bevegelse, demografi, korthandel og konkurransebilde.",
+  "dato": "2026-03-30",
+  "kategori": "Områdeanalyse",
+  "analysisType": "location-specific",
+  "period": {
+    "type": "multi-year",
+    "startYear": 2023,
+    "endYear": 2025,
+    "year": 2025,
+    "startDate": "2023-01-01",
+    "endDate": "2025-12-31",
+    "label": "01.01.2023 – 31.12.2025"
+  },
+  "area": {
+    "id": "nedre-lokka-utsnitt",
+    "name": "Nedre Løkka Utsnitt",
+    "displayName": "Nedre Løkka – Plaace Utsnitt",
+    "type": "custom-area",
+    "areaSize": "0.27 km²",
+    "coordinates": {
+      "lat": 59.9215,
+      "lng": 10.7545
+    },
+    "description": "Heldekkende Plaace-utsnitt (0.27 km²) rundt Markveien 42E. Gir komplett data for hele Nedre Løkka-området, til forskjell fra mikro-områdeaggregeringen som har datagap."
+  },
+  "description": "Komplett Plaace-utsnitt for Nedre Løkka med 38,792 daglige besøk, 5,691 innbyggere, NOK 2,6M daglig korthandel, 148 aktører og NOK 1,4 mrd. total omsetning. Løser datagapet fra mikro-områdeaggregeringen (2 av 6 soner med 0-data).",
+  "dataSource": "Plaace.ai / Telia / BankAxept / Analysebutikken / SSB",
+  "tags": ["stedsanalyse", "bevegelse", "demografi", "virksomheter", "korthandel", "konseptmiks", "nedre-lokka"],
+  "metadata": {
+    "status": "publisert",
+    "version": "1.0",
+    "author": "Natural State",
+    "createdAt": "2026-03-30",
+    "updatedAt": "2026-03-30",
+    "heroImage": "/images/analyser/nedre-lokka-utsnitt-map.png",
+    "sistOppdatert": "2026-03-30",
+    "notater": [
+      "Plaace-utsnitt dekker hele Nedre Løkka (0.27 km²) — komplett i motsetning til mikro-aggregeringen",
+      "148 aktører med estimert omsetning (2024)",
+      "Bevegelsesdata: 01.01.2023–31.12.2025, korthandel tilbake til 2019"
+    ]
+  },
+  "highlights": [
+    {
+      "title": "Daglige Besøk",
+      "value": "38 792",
+      "description": "55 545 per km²"
+    },
+    {
+      "title": "Daglig Korthandel",
+      "value": "NOK 2,6M",
+      "description": "Total NOK 948M i perioden"
+    },
+    {
+      "title": "Innbyggere",
+      "value": "5 691",
+      "description": "20 819/km² tetthet (2024)"
+    },
+    {
+      "title": "Total Omsetning",
+      "value": "NOK 1,4 mrd.",
+      "description": "148 aktører, 541/km² konsepttetthet"
+    }
+  ],
+  "relaterte": [
+    "nedre-lokka-omradeprofil",
+    "nedre-lokka-svarut",
+    "ovre-thorvald-meyers-gate",
+    "nedre-thorvald-meyers-gate",
+    "olaf-ryes-plass-boots",
+    "olaf-ryes-plass-7eleven",
+    "midt-i-markveien",
+    "nederst-i-markveien"
+  ]
+}

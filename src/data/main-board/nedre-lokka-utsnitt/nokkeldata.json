@@ -1,0 +1,71 @@
+{
+  "Besøkende verktøy oversikt": {
+    "Besøkende": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "Telia"
+      ]
+    },
+    "Demografi av Besøkende": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "Telia",
+        "Statistisk sentralbyrå"
+      ]
+    }
+  },
+  "Bevegelse NØKKELTALL": {
+    "Bevegelse": {
+      "Datoperiode": "01.01.2023 – 31.12.2025",
+      "Status": "Faktiske data",
+      "Datakilde": [
+        "Telia"
+      ]
+    },
+    "Gjennomsnittlig daglige besøk": {
+      "Verdi": 38792,
+      "Kommentar": "Basert på alle besøk"
+    },
+    "Gjennomsnittlig daglige besøk per km2": {
+      "Verdi": 55545
+    },
+    "Travleste dag": {
+      "Dag": "Lørdag",
+      "Andel": "16% av ukesbesøk"
+    }
+  },
+  "Korthandel NØKKELTALL": {
+    "Korthandel": {
+      "Status": "Faktiske data",
+      "Datakilde": [
+        "BankAxept"
+      ]
+    },
+    "Daglig korthandel for valgt periode": "NOK 2,6 mill.",
+    "Total korthandel for valgt periode": "NOK 948 mill.",
+    "Beløp per transaksjon for valgt periode": "275 NOK"
+  },
+  "konkurransebildet NØKKELTALL": {
+    "Konkurransebildet": {
+      "Status": "Estimerte tall",
+      "Datakilde": [
+        "Plaace.ai",
+        "Analysebutikken"
+      ]
+    },
+    "Konsepttetthet": "541/km²",
+    "Total omsetning": "NOK 1,4 mrd.",
+    "Omsetningstetthet": "NOK 5,3 mrd./km²"
+  },
+  "Demografi NØKKELTALL": {
+    "Demografi": {
+      "Status": "Estimert",
+      "Datakilde": [
+        "SSB"
+      ]
+    },
+    "Befolkning (2024)": "5 691 innbyggere",
+    "Befolkningstetthet": "20 819/km²",
+    "Områdestørrelse": "0,27 km²"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "Eneboliger",
+    "antall": 12065
+  },
+  {
+    "type": "Småhus",
+    "antall": 5125
+  },
+  {
+    "type": "Leilighetsbygg",
+    "antall": 5924
+  },
+  {
+    "type": "Næringsbygg",
+    "antall": 7011
+  },
+  {
+    "type": "Andre bygg",
+    "antall": 161
+  },
+  {
+    "type": "Hytter",
+    "antall": 1186
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "type": "Par uten hjemmeboende barn",
+    "antall": 34174
+  },
+  {
+    "type": "Par med barn",
+    "antall": 19813
+  },
+  {
+    "type": "Aleneboende",
+    "antall": 88378
+  },
+  {
+    "type": "Enslig forelder med barn",
+    "antall": 9278
+  },
+  {
+    "type": "Andre husholdninger",
+    "antall": 2746
+  }
+]

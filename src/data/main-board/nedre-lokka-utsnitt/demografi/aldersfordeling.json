@@ -1,0 +1,62 @@
+[
+  {
+    "aldersgruppe": "0-5",
+    "mann": 132,
+    "kvinne": 124
+  },
+  {
+    "aldersgruppe": "6-12",
+    "mann": 110,
+    "kvinne": 105
+  },
+  {
+    "aldersgruppe": "13-15",
+    "mann": 54,
+    "kvinne": 50
+  },
+  {
+    "aldersgruppe": "16-18",
+    "mann": 49,
+    "kvinne": 59
+  },
+  {
+    "aldersgruppe": "19-23",
+    "mann": 225,
+    "kvinne": 291
+  },
+  {
+    "aldersgruppe": "23-34",
+    "mann": 1013,
+    "kvinne": 1059
+  },
+  {
+    "aldersgruppe": "35-44",
+    "mann": 536,
+    "kvinne": 437
+  },
+  {
+    "aldersgruppe": "45-54",
+    "mann": 345,
+    "kvinne": 272
+  },
+  {
+    "aldersgruppe": "55-64",
+    "mann": 244,
+    "kvinne": 199
+  },
+  {
+    "aldersgruppe": "65-74",
+    "mann": 121,
+    "kvinne": 124
+  },
+  {
+    "aldersgruppe": "75-84",
+    "mann": 56,
+    "kvinne": 61
+  },
+  {
+    "aldersgruppe": "85+",
+    "mann": 12,
+    "kvinne": 15
+  }
+]

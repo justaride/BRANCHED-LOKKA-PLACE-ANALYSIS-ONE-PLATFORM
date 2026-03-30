@@ -55,7 +55,8 @@
     "notater": [
       "Aggregert data fra 6 mikro-områder på Nedre Løkka",
       "2 av 6 områder har 0-data for bevegelse (Olaf Ryes Plass Boots, Midt i Markveien)",
-      "Omfattende visualiseringer med befolkningspyramide, bevegelsesmønster og virksomhetsanalyse"
+      "Omfattende visualiseringer med befolkningspyramide, bevegelsesmønster og virksomhetsanalyse",
+      "Komplett Plaace-utsnitt (0.27 km²) tilgjengelig under Nedre Løkka Utsnitt med fullstendig data"
     ]
   },
   "highlights": [
@@ -161,6 +162,7 @@
   ],
 
   "relaterte": [
+    "nedre-lokka-utsnitt",
     "ovre-thorvald-meyers-gate",
     "nedre-thorvald-meyers-gate",
     "olaf-ryes-plass-boots",

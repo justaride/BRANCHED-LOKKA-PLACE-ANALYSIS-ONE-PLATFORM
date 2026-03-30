@@ -1,4 +1,5 @@
-import { Metadata } from 'next';
+'use client';
+
 import nextDynamic from 'next/dynamic';
 import Link from 'next/link';
 import NedreLokkaOverview from '@/components/analyser/NedreLokkaOverview';
@@ -13,15 +14,6 @@ const FootfallBubbleMap = nextDynamic(
   () => import('@/components/analyser/FootfallBubbleMap'),
   { ssr: false, loading: () => <div className="flex h-[600px] items-center justify-center rounded-xl bg-gray-50"><span className="text-gray-400">Laster kart...</span></div> }
 );
-
-export const dynamic = 'force-static';
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: `${metadata.tittel} | Natural State`,
-    description: metadata.beskrivelse,
-  };
-}
 
 export default function NedreLokkaOmradeprofilPage() {
   return (

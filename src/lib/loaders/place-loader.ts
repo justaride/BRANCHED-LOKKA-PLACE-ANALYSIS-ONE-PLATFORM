@@ -107,6 +107,13 @@ export async function loadAllAnalyses(): Promise<PlaceAnalysis[]> {
             (m) => m.default as unknown as PlaceAnalysis,
           ),
       },
+      {
+        id: "nedre-lokka-utsnitt",
+        load: () =>
+          import("@/data/main-board/analyser/nedre-lokka-utsnitt.json").then(
+            (m) => m.default as unknown as PlaceAnalysis,
+          ),
+      },
     ];
 
     const results = await Promise.allSettled(
@@ -168,6 +175,7 @@ export async function getAllAnalysisIds(): Promise<string[]> {
     "nederst-i-markveien",
     "sammenligning-2024",
     "sammenligning-2025",
+    "nedre-lokka-utsnitt",
   ];
 }
 

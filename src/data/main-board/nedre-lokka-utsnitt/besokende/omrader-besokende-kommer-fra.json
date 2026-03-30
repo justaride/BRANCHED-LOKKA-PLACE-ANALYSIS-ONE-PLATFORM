@@ -1,0 +1,1277 @@
+[
+  {
+    "omrade": "Grünerløkka",
+    "antallBesok": 20727,
+    "prosentAndel": 19.25
+  },
+  {
+    "omrade": "Sentrum 2",
+    "antallBesok": 9458,
+    "prosentAndel": 8.78
+  },
+  {
+    "omrade": "Rodeløkka",
+    "antallBesok": 5670,
+    "prosentAndel": 5.27
+  },
+  {
+    "omrade": "Tøyen",
+    "antallBesok": 4673,
+    "prosentAndel": 4.34
+  },
+  {
+    "omrade": "Gamle Aker",
+    "antallBesok": 3915,
+    "prosentAndel": 3.64
+  },
+  {
+    "omrade": "Grønland",
+    "antallBesok": 3903,
+    "prosentAndel": 3.62
+  },
+  {
+    "omrade": "Torshov",
+    "antallBesok": 2688,
+    "prosentAndel": 2.5
+  },
+  {
+    "omrade": "Hasle",
+    "antallBesok": 1911,
+    "prosentAndel": 1.77
+  },
+  {
+    "omrade": "Grefsenlia",
+    "antallBesok": 1777,
+    "prosentAndel": 1.65
+  },
+  {
+    "omrade": "Ulven",
+    "antallBesok": 2071,
+    "prosentAndel": 1.92
+  },
+  {
+    "omrade": "Bjerke",
+    "antallBesok": 1552,
+    "prosentAndel": 1.44
+  },
+  {
+    "omrade": "Manglerud",
+    "antallBesok": 1124,
+    "prosentAndel": 1.04
+  },
+  {
+    "omrade": "Sinsen",
+    "antallBesok": 1082,
+    "prosentAndel": 1
+  },
+  {
+    "omrade": "Åsen",
+    "antallBesok": 1053,
+    "prosentAndel": 0.98
+  },
+  {
+    "omrade": "Ila",
+    "antallBesok": 1093,
+    "prosentAndel": 1.01
+  },
+  {
+    "omrade": "Sentrum 1",
+    "antallBesok": 2699,
+    "prosentAndel": 2.51
+  },
+  {
+    "omrade": "Fossum",
+    "antallBesok": 1000,
+    "prosentAndel": 0.93
+  },
+  {
+    "omrade": "Tåsen",
+    "antallBesok": 1139,
+    "prosentAndel": 1.06
+  },
+  {
+    "omrade": "Kampen",
+    "antallBesok": 1011,
+    "prosentAndel": 0.94
+  },
+  {
+    "omrade": "St.hanshaugen",
+    "antallBesok": 1028,
+    "prosentAndel": 0.95
+  },
+  {
+    "omrade": "Grorud",
+    "antallBesok": 1001,
+    "prosentAndel": 0.93
+  },
+  {
+    "omrade": "Sentrum 3",
+    "antallBesok": 1870,
+    "prosentAndel": 1.74
+  },
+  {
+    "omrade": "Østensjø",
+    "antallBesok": 906,
+    "prosentAndel": 0.84
+  },
+  {
+    "omrade": "Majorstuen",
+    "antallBesok": 1048,
+    "prosentAndel": 0.97
+  },
+  {
+    "omrade": "Bjølsen",
+    "antallBesok": 785,
+    "prosentAndel": 0.73
+  },
+  {
+    "omrade": "Ulsholt",
+    "antallBesok": 850,
+    "prosentAndel": 0.79
+  },
+  {
+    "omrade": "Ris",
+    "antallBesok": 1272,
+    "prosentAndel": 1.18
+  },
+  {
+    "omrade": "Langerud",
+    "antallBesok": 744,
+    "prosentAndel": 0.69
+  },
+  {
+    "omrade": "Rudene",
+    "antallBesok": 715,
+    "prosentAndel": 0.66
+  },
+  {
+    "omrade": "Bekkelaget",
+    "antallBesok": 737,
+    "prosentAndel": 0.68
+  },
+  {
+    "omrade": "Homansbyen",
+    "antallBesok": 893,
+    "prosentAndel": 0.83
+  },
+  {
+    "omrade": "Alfaset",
+    "antallBesok": 796,
+    "prosentAndel": 0.74
+  },
+  {
+    "omrade": "Frogner",
+    "antallBesok": 756,
+    "prosentAndel": 0.7
+  },
+  {
+    "omrade": "Ljansbyen",
+    "antallBesok": 646,
+    "prosentAndel": 0.6
+  },
+  {
+    "omrade": "Sandaker",
+    "antallBesok": 713,
+    "prosentAndel": 0.66
+  },
+  {
+    "omrade": "Gamlebyen",
+    "antallBesok": 576,
+    "prosentAndel": 0.53
+  },
+  {
+    "omrade": "Lindern",
+    "antallBesok": 720,
+    "prosentAndel": 0.67
+  },
+  {
+    "omrade": "Vålerenga",
+    "antallBesok": 506,
+    "prosentAndel": 0.47
+  },
+  {
+    "omrade": "Sagene",
+    "antallBesok": 554,
+    "prosentAndel": 0.51
+  },
+  {
+    "omrade": "Uranienborg",
+    "antallBesok": 525,
+    "prosentAndel": 0.49
+  },
+  {
+    "omrade": "Grefsenmarka",
+    "antallBesok": 462,
+    "prosentAndel": 0.43
+  },
+  {
+    "omrade": "Loenga",
+    "antallBesok": 653,
+    "prosentAndel": 0.61
+  },
+  {
+    "omrade": "Røabyen",
+    "antallBesok": 417,
+    "prosentAndel": 0.39
+  },
+  {
+    "omrade": "Østmarka",
+    "antallBesok": 433,
+    "prosentAndel": 0.4
+  },
+  {
+    "omrade": "Fagerborg",
+    "antallBesok": 364,
+    "prosentAndel": 0.34
+  },
+  {
+    "omrade": "Holmen",
+    "antallBesok": 330,
+    "prosentAndel": 0.31
+  },
+  {
+    "omrade": "Nordstrand",
+    "antallBesok": 316,
+    "prosentAndel": 0.29
+  },
+  {
+    "omrade": "Borgen",
+    "antallBesok": 429,
+    "prosentAndel": 0.4
+  },
+  {
+    "omrade": "Ullern",
+    "antallBesok": 422,
+    "prosentAndel": 0.39
+  },
+  {
+    "omrade": "Nordmarka",
+    "antallBesok": 406,
+    "prosentAndel": 0.38
+  },
+  {
+    "omrade": "Skillebekk",
+    "antallBesok": 342,
+    "prosentAndel": 0.32
+  },
+  {
+    "omrade": "Huseby",
+    "antallBesok": 327,
+    "prosentAndel": 0.3
+  },
+  {
+    "omrade": "Skårer",
+    "antallBesok": 290,
+    "prosentAndel": 0.27
+  },
+  {
+    "omrade": "Snarøya",
+    "antallBesok": 361,
+    "prosentAndel": 0.34
+  },
+  {
+    "omrade": "Skøyen",
+    "antallBesok": 395,
+    "prosentAndel": 0.37
+  },
+  {
+    "omrade": "Bygdøy",
+    "antallBesok": 295,
+    "prosentAndel": 0.27
+  },
+  {
+    "omrade": "Marienlyst",
+    "antallBesok": 295,
+    "prosentAndel": 0.27
+  },
+  {
+    "omrade": "Slattum",
+    "antallBesok": 219,
+    "prosentAndel": 0.2
+  },
+  {
+    "omrade": "Kjenn - Fjellhamar",
+    "antallBesok": 206,
+    "prosentAndel": 0.19
+  },
+  {
+    "omrade": "Kolbotn",
+    "antallBesok": 197,
+    "prosentAndel": 0.18
+  },
+  {
+    "omrade": "Berger",
+    "antallBesok": 187,
+    "prosentAndel": 0.17
+  },
+  {
+    "omrade": "Lysaker",
+    "antallBesok": 282,
+    "prosentAndel": 0.26
+  },
+  {
+    "omrade": "Ås",
+    "antallBesok": 209,
+    "prosentAndel": 0.19
+  },
+  {
+    "omrade": "Jar",
+    "antallBesok": 190,
+    "prosentAndel": 0.18
+  },
+  {
+    "omrade": "Lilleaker",
+    "antallBesok": 193,
+    "prosentAndel": 0.18
+  },
+  {
+    "omrade": "Holmenkollen",
+    "antallBesok": 152,
+    "prosentAndel": 0.14
+  },
+  {
+    "omrade": "Kjeller",
+    "antallBesok": 183,
+    "prosentAndel": 0.17
+  },
+  {
+    "omrade": "Jessheim",
+    "antallBesok": 169,
+    "prosentAndel": 0.16
+  },
+  {
+    "omrade": "Langhus",
+    "antallBesok": 159,
+    "prosentAndel": 0.15
+  },
+  {
+    "omrade": "Filipstad",
+    "antallBesok": 226,
+    "prosentAndel": 0.21
+  },
+  {
+    "omrade": "Haneborglia",
+    "antallBesok": 146,
+    "prosentAndel": 0.14
+  },
+  {
+    "omrade": "Stalsberg",
+    "antallBesok": 153,
+    "prosentAndel": 0.14
+  },
+  {
+    "omrade": "Lysås - Løken",
+    "antallBesok": 141,
+    "prosentAndel": 0.13
+  },
+  {
+    "omrade": "Stabekk",
+    "antallBesok": 141,
+    "prosentAndel": 0.13
+  },
+  {
+    "omrade": "Voll",
+    "antallBesok": 139,
+    "prosentAndel": 0.13
+  },
+  {
+    "omrade": "Greverud",
+    "antallBesok": 139,
+    "prosentAndel": 0.13
+  },
+  {
+    "omrade": "Tangen",
+    "antallBesok": 137,
+    "prosentAndel": 0.13
+  },
+  {
+    "omrade": "Nordby",
+    "antallBesok": 140,
+    "prosentAndel": 0.13
+  },
+  {
+    "omrade": "Grav",
+    "antallBesok": 130,
+    "prosentAndel": 0.12
+  },
+  {
+    "omrade": "Vigernes",
+    "antallBesok": 155,
+    "prosentAndel": 0.14
+  },
+  {
+    "omrade": "Løkeberg - Blommenholm",
+    "antallBesok": 128,
+    "prosentAndel": 0.12
+  },
+  {
+    "omrade": "Sandvika - Valler",
+    "antallBesok": 176,
+    "prosentAndel": 0.16
+  },
+  {
+    "omrade": "Retten",
+    "antallBesok": 126,
+    "prosentAndel": 0.12
+  },
+  {
+    "omrade": "Hovinhøgda",
+    "antallBesok": 119,
+    "prosentAndel": 0.11
+  },
+  {
+    "omrade": "Ski Øst",
+    "antallBesok": 137,
+    "prosentAndel": 0.13
+  },
+  {
+    "omrade": "Bjørnholt - Kurland",
+    "antallBesok": 148,
+    "prosentAndel": 0.14
+  },
+  {
+    "omrade": "Tårnåsen",
+    "antallBesok": 117,
+    "prosentAndel": 0.11
+  },
+  {
+    "omrade": "Slependen - Tanum",
+    "antallBesok": 121,
+    "prosentAndel": 0.11
+  },
+  {
+    "omrade": "Høvik",
+    "antallBesok": 120,
+    "prosentAndel": 0.11
+  },
+  {
+    "omrade": "Gjelleråsen",
+    "antallBesok": 126,
+    "prosentAndel": 0.12
+  },
+  {
+    "omrade": "Stortorget",
+    "antallBesok": 128,
+    "prosentAndel": 0.12
+  },
+  {
+    "omrade": "Finstad - Losby",
+    "antallBesok": 115,
+    "prosentAndel": 0.11
+  },
+  {
+    "omrade": "Østre Bærumsmarka",
+    "antallBesok": 118,
+    "prosentAndel": 0.11
+  },
+  {
+    "omrade": "Vestby",
+    "antallBesok": 135,
+    "prosentAndel": 0.13
+  },
+  {
+    "omrade": "Gardermoen",
+    "antallBesok": 271,
+    "prosentAndel": 0.25
+  },
+  {
+    "omrade": "Rotnes",
+    "antallBesok": 117,
+    "prosentAndel": 0.11
+  },
+  {
+    "omrade": "Kløfta",
+    "antallBesok": 121,
+    "prosentAndel": 0.11
+  },
+  {
+    "omrade": "Rykkinn",
+    "antallBesok": 114,
+    "prosentAndel": 0.11
+  },
+  {
+    "omrade": "Gjelleråsen",
+    "antallBesok": 99,
+    "prosentAndel": 0.09
+  },
+  {
+    "omrade": "Haslum",
+    "antallBesok": 108,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Sofiemyr",
+    "antallBesok": 105,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Jong",
+    "antallBesok": 166,
+    "prosentAndel": 0.15
+  },
+  {
+    "omrade": "Skedsmokorset",
+    "antallBesok": 108,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Såner",
+    "antallBesok": 112,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Frogner",
+    "antallBesok": 111,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Rud",
+    "antallBesok": 106,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Gjerdrum",
+    "antallBesok": 111,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Kolsås",
+    "antallBesok": 108,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Hosle Sør",
+    "antallBesok": 108,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Østbygda Slemmestad",
+    "antallBesok": 109,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Vettre",
+    "antallBesok": 104,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Nesbru",
+    "antallBesok": 107,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Finstad",
+    "antallBesok": 106,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Bærums Verk",
+    "antallBesok": 116,
+    "prosentAndel": 0.11
+  },
+  {
+    "omrade": "Dønski - Rud",
+    "antallBesok": 101,
+    "prosentAndel": 0.09
+  },
+  {
+    "omrade": "Skjetten",
+    "antallBesok": 53,
+    "prosentAndel": 0.05
+  },
+  {
+    "omrade": "Åsenhagen",
+    "antallBesok": 93,
+    "prosentAndel": 0.09
+  },
+  {
+    "omrade": "Søndre Hakadal",
+    "antallBesok": 101,
+    "prosentAndel": 0.09
+  },
+  {
+    "omrade": "Ytre Enebakk",
+    "antallBesok": 96,
+    "prosentAndel": 0.09
+  },
+  {
+    "omrade": "Fusdal",
+    "antallBesok": 91,
+    "prosentAndel": 0.08
+  },
+  {
+    "omrade": "Frogn Nord",
+    "antallBesok": 98,
+    "prosentAndel": 0.09
+  },
+  {
+    "omrade": "Volla",
+    "antallBesok": 99,
+    "prosentAndel": 0.09
+  },
+  {
+    "omrade": "Lommedalen",
+    "antallBesok": 100,
+    "prosentAndel": 0.09
+  },
+  {
+    "omrade": "Frogn Syd",
+    "antallBesok": 96,
+    "prosentAndel": 0.09
+  },
+  {
+    "omrade": "Sørkedalen",
+    "antallBesok": 86,
+    "prosentAndel": 0.08
+  },
+  {
+    "omrade": "Strømsø",
+    "antallBesok": 94,
+    "prosentAndel": 0.09
+  },
+  {
+    "omrade": "Billingstad",
+    "antallBesok": 107,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Vollen",
+    "antallBesok": 53,
+    "prosentAndel": 0.05
+  },
+  {
+    "omrade": "Nesøya",
+    "antallBesok": 94,
+    "prosentAndel": 0.09
+  },
+  {
+    "omrade": "Nordby",
+    "antallBesok": 50,
+    "prosentAndel": 0.05
+  },
+  {
+    "omrade": "Øyene",
+    "antallBesok": 121,
+    "prosentAndel": 0.11
+  },
+  {
+    "omrade": "Kirkerud - Sollihøgda",
+    "antallBesok": 88,
+    "prosentAndel": 0.08
+  },
+  {
+    "omrade": "Hvam",
+    "antallBesok": 87,
+    "prosentAndel": 0.08
+  },
+  {
+    "omrade": "Sentrum",
+    "antallBesok": 105,
+    "prosentAndel": 0.1
+  },
+  {
+    "omrade": "Hvalstad",
+    "antallBesok": 87,
+    "prosentAndel": 0.08
+  },
+  {
+    "omrade": "Svartskog",
+    "antallBesok": 84,
+    "prosentAndel": 0.08
+  },
+  {
+    "omrade": "Østerås - Eiksmarka",
+    "antallBesok": 50,
+    "prosentAndel": 0.05
+  },
+  {
+    "omrade": "Borgen",
+    "antallBesok": 91,
+    "prosentAndel": 0.08
+  },
+  {
+    "omrade": "Sentrum",
+    "antallBesok": 90,
+    "prosentAndel": 0.08
+  },
+  {
+    "omrade": "Åssiden",
+    "antallBesok": 51,
+    "prosentAndel": 0.05
+  },
+  {
+    "omrade": "Udnes",
+    "antallBesok": 51,
+    "prosentAndel": 0.05
+  },
+  {
+    "omrade": "Siggerud",
+    "antallBesok": 84,
+    "prosentAndel": 0.08
+  },
+  {
+    "omrade": "Norderhov",
+    "antallBesok": 90,
+    "prosentAndel": 0.08
+  },
+  {
+    "omrade": "Danvik - Fjell",
+    "antallBesok": 48,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Heggedal",
+    "antallBesok": 50,
+    "prosentAndel": 0.05
+  },
+  {
+    "omrade": "Sørum",
+    "antallBesok": 43,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Riddersand",
+    "antallBesok": 45,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Algarheim",
+    "antallBesok": 52,
+    "prosentAndel": 0.05
+  },
+  {
+    "omrade": "Spydeberg",
+    "antallBesok": 49,
+    "prosentAndel": 0.05
+  },
+  {
+    "omrade": "Hosle Nord",
+    "antallBesok": 48,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Sørumsand",
+    "antallBesok": 46,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Harestua",
+    "antallBesok": 40,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Bragernes Sentrum",
+    "antallBesok": 93,
+    "prosentAndel": 0.09
+  },
+  {
+    "omrade": "Fjerdingby",
+    "antallBesok": 42,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Midtbygda",
+    "antallBesok": 43,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Drengsrud",
+    "antallBesok": 81,
+    "prosentAndel": 0.08
+  },
+  {
+    "omrade": "Hebekk",
+    "antallBesok": 45,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Borgen",
+    "antallBesok": 40,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Nannestad",
+    "antallBesok": 78,
+    "prosentAndel": 0.07
+  },
+  {
+    "omrade": "Blaker",
+    "antallBesok": 38,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Eidsvoll Verk",
+    "antallBesok": 40,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Råholt",
+    "antallBesok": 38,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Årnes",
+    "antallBesok": 88,
+    "prosentAndel": 0.08
+  },
+  {
+    "omrade": "Konnerud",
+    "antallBesok": 46,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Sand",
+    "antallBesok": 73,
+    "prosentAndel": 0.07
+  },
+  {
+    "omrade": "Leirsund",
+    "antallBesok": 71,
+    "prosentAndel": 0.07
+  },
+  {
+    "omrade": "Solberg",
+    "antallBesok": 39,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Løvenstad",
+    "antallBesok": 38,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Holter",
+    "antallBesok": 43,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Berg - Sponviken",
+    "antallBesok": 68,
+    "prosentAndel": 0.06
+  },
+  {
+    "omrade": "Gulskogen - Sundhaugen",
+    "antallBesok": 37,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Nordre Jeløy",
+    "antallBesok": 42,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Østsida",
+    "antallBesok": 40,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Hegg",
+    "antallBesok": 35,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Vikersund",
+    "antallBesok": 79,
+    "prosentAndel": 0.07
+  },
+  {
+    "omrade": "Blakstad",
+    "antallBesok": 43,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Fjellstrand",
+    "antallBesok": 39,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Bjerke",
+    "antallBesok": 38,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Fjellheim",
+    "antallBesok": 77,
+    "prosentAndel": 0.07
+  },
+  {
+    "omrade": "Dalen",
+    "antallBesok": 34,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Ås",
+    "antallBesok": 31,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Bjørnemyr",
+    "antallBesok": 40,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Grua",
+    "antallBesok": 38,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Nordøstre Hurum",
+    "antallBesok": 37,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Sem",
+    "antallBesok": 64,
+    "prosentAndel": 0.06
+  },
+  {
+    "omrade": "Tangen - Åskollen",
+    "antallBesok": 33,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Drøbak",
+    "antallBesok": 37,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Flateby",
+    "antallBesok": 42,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Myklerud",
+    "antallBesok": 38,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Ekholt",
+    "antallBesok": 40,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Krokstadelva",
+    "antallBesok": 34,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Mjøndalen",
+    "antallBesok": 37,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Høvik",
+    "antallBesok": 28,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Aurskog",
+    "antallBesok": 36,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Syverstad",
+    "antallBesok": 39,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Lierskogen",
+    "antallBesok": 41,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Nordre Ål",
+    "antallBesok": 43,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Ottestad",
+    "antallBesok": 38,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Skaugum",
+    "antallBesok": 35,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Rom",
+    "antallBesok": 35,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Hemsedal",
+    "antallBesok": 43,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Vormnes",
+    "antallBesok": 37,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Kongsberg Nord - Østre",
+    "antallBesok": 41,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Jaer",
+    "antallBesok": 36,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Vestbygda",
+    "antallBesok": 33,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Tjøme",
+    "antallBesok": 34,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Presterød",
+    "antallBesok": 39,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Melløs - Øre",
+    "antallBesok": 30,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Gjedsjø - Kråkstad",
+    "antallBesok": 34,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Ytre Soknedal",
+    "antallBesok": 30,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Sydøstre Jeløy",
+    "antallBesok": 27,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Dal",
+    "antallBesok": 32,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Vang",
+    "antallBesok": 38,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Våler",
+    "antallBesok": 39,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Brandbu",
+    "antallBesok": 27,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Sydøstre Hurum",
+    "antallBesok": 38,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Sylling",
+    "antallBesok": 20,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Kongsvinger 2",
+    "antallBesok": 36,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Borgen",
+    "antallBesok": 39,
+    "prosentAndel": 0.04
+  },
+  {
+    "omrade": "Bergen Sentrum",
+    "antallBesok": 34,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Vestre Hvaler",
+    "antallBesok": 30,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Ekeberg - Borgen",
+    "antallBesok": 31,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Løken",
+    "antallBesok": 26,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Bjørkelangen",
+    "antallBesok": 25,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Vestbygda",
+    "antallBesok": 36,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Nordre Rakkestad",
+    "antallBesok": 32,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Gran",
+    "antallBesok": 24,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Skoger",
+    "antallBesok": 21,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Halden Øst",
+    "antallBesok": 31,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Ytrebygda",
+    "antallBesok": 30,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Lund - Sødal",
+    "antallBesok": 31,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Østbygda Åros",
+    "antallBesok": 23,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Hurdal",
+    "antallBesok": 26,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Kongsberg Syd - Østre",
+    "antallBesok": 33,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Tomter",
+    "antallBesok": 23,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Sentrum Syd",
+    "antallBesok": 24,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Solbergelva",
+    "antallBesok": 27,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Jaren",
+    "antallBesok": 23,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Lustrafjorden",
+    "antallBesok": 36,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Mysen Vest",
+    "antallBesok": 18,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Vestre Råde",
+    "antallBesok": 30,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Midtbyen",
+    "antallBesok": 30,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Kongsvinger 1",
+    "antallBesok": 23,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Vestre Hol",
+    "antallBesok": 26,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Yven",
+    "antallBesok": 24,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Knapstad",
+    "antallBesok": 14,
+    "prosentAndel": 0.01
+  },
+  {
+    "omrade": "Lunner",
+    "antallBesok": 30,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Vestre Trøgstad",
+    "antallBesok": 21,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Innbygda",
+    "antallBesok": 23,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Borge",
+    "antallBesok": 20,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Søre Ål",
+    "antallBesok": 29,
+    "prosentAndel": 0.03
+  },
+  {
+    "omrade": "Skiptvet",
+    "antallBesok": 22,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Stein",
+    "antallBesok": 23,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Sentrum Nord",
+    "antallBesok": 26,
+    "prosentAndel": 0.02
+  },
+  {
+    "omrade": "Sydbygda",
+    "antallBesok": 25,
+    "prosentAndel": 0.02
+  }
+]

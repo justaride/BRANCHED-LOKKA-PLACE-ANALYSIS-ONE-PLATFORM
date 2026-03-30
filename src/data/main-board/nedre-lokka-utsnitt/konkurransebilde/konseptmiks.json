@@ -1,0 +1,77 @@
+[
+  {
+    "kategori": "Mat og opplevelser",
+    "underkategori": "Restaurant",
+    "antall": 52
+  },
+  {
+    "kategori": "Mat og opplevelser",
+    "underkategori": "Bakeri og kafé",
+    "antall": 10
+  },
+  {
+    "kategori": "Mat og opplevelser",
+    "underkategori": "Pub og bar",
+    "antall": 4
+  },
+  {
+    "kategori": "Mat og opplevelser",
+    "underkategori": "Barer",
+    "antall": 1
+  },
+  {
+    "kategori": "Handel",
+    "underkategori": "Elektrobutikker",
+    "antall": 1
+  },
+  {
+    "kategori": "Handel",
+    "underkategori": "Klesbutikker",
+    "antall": 24
+  },
+  {
+    "kategori": "Handel",
+    "underkategori": "Smykker og parfyme",
+    "antall": 1
+  },
+  {
+    "kategori": "Handel",
+    "underkategori": "Sport og fritid",
+    "antall": 5
+  },
+  {
+    "kategori": "Handel",
+    "underkategori": "Mat og drikke",
+    "antall": 13
+  },
+  {
+    "kategori": "Handel",
+    "underkategori": "Annen handel",
+    "antall": 11
+  },
+  {
+    "kategori": "Handel",
+    "underkategori": "Hjem og interiør",
+    "antall": 8
+  },
+  {
+    "kategori": "Tjenester",
+    "underkategori": "Skjønnhet og velvære",
+    "antall": 14
+  },
+  {
+    "kategori": "Tjenester",
+    "underkategori": "Profesjoner",
+    "antall": 6
+  },
+  {
+    "kategori": "Tjenester",
+    "underkategori": "Andre tjenester",
+    "antall": 1
+  },
+  {
+    "kategori": "Tjenester",
+    "underkategori": "Treningssentre",
+    "antall": 1
+  }
+]

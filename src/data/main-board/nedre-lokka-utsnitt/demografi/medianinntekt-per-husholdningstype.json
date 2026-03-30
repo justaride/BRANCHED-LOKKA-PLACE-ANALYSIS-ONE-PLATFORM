@@ -1,0 +1,22 @@
+[
+  {
+    "husholdningstype": "Alle husholdninger",
+    "medianinntekt": 478211
+  },
+  {
+    "husholdningstype": "Par uten hjemmeboende barn",
+    "medianinntekt": 824504
+  },
+  {
+    "husholdningstype": "Par med barn",
+    "medianinntekt": 1009153
+  },
+  {
+    "husholdningstype": "Aleneboende",
+    "medianinntekt": 382511
+  },
+  {
+    "husholdningstype": "Enslig forelder med barn",
+    "medianinntekt": 456264
+  }
+]

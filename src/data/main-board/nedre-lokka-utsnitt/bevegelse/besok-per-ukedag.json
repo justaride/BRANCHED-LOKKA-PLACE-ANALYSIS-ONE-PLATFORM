@@ -1,0 +1,44 @@
+[
+  {
+    "ukedag": "man.",
+    "besokende": 16637,
+    "paJobb": 6221,
+    "hjemme": 13390
+  },
+  {
+    "ukedag": "tir.",
+    "besokende": 17915,
+    "paJobb": 6597,
+    "hjemme": 13643
+  },
+  {
+    "ukedag": "ons.",
+    "besokende": 18974,
+    "paJobb": 6678,
+    "hjemme": 13732
+  },
+  {
+    "ukedag": "tor.",
+    "besokende": 19649,
+    "paJobb": 6669,
+    "hjemme": 13759
+  },
+  {
+    "ukedag": "fre.",
+    "besokende": 23066,
+    "paJobb": 6911,
+    "hjemme": 13863
+  },
+  {
+    "ukedag": "lør.",
+    "besokende": 25766,
+    "paJobb": 6421,
+    "hjemme": 13808
+  },
+  {
+    "ukedag": "søn.",
+    "besokende": 18941,
+    "paJobb": 4750,
+    "hjemme": 12836
+  }
+]

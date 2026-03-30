@@ -1,0 +1,107 @@
+[
+  {
+    "ar": "2020",
+    "grunerlokka": {
+      "omsetningMillioner": 106297.947454,
+      "vekstProsent": -3.24
+    },
+    "oslo": {
+      "omsetningMillioner": 2020,
+      "vekstProsent": -3.14
+    },
+    "norge": {
+      "omsetningMillioner": null,
+      "vekstProsent": null
+    }
+  },
+  {
+    "ar": "2021",
+    "grunerlokka": {
+      "omsetningMillioner": 114256.896482,
+      "vekstProsent": -25.83
+    },
+    "oslo": {
+      "omsetningMillioner": 2021,
+      "vekstProsent": -12.71
+    },
+    "norge": {
+      "omsetningMillioner": null,
+      "vekstProsent": null
+    }
+  },
+  {
+    "ar": "2022",
+    "grunerlokka": {
+      "omsetningMillioner": 118889.954082,
+      "vekstProsent": 62.88
+    },
+    "oslo": {
+      "omsetningMillioner": 2022,
+      "vekstProsent": 21.73
+    },
+    "norge": {
+      "omsetningMillioner": null,
+      "vekstProsent": null
+    }
+  },
+  {
+    "ar": "2023",
+    "grunerlokka": {
+      "omsetningMillioner": 118058.303143,
+      "vekstProsent": -3.16
+    },
+    "oslo": {
+      "omsetningMillioner": 2023,
+      "vekstProsent": -1.58
+    },
+    "norge": {
+      "omsetningMillioner": null,
+      "vekstProsent": null
+    }
+  },
+  {
+    "ar": "2024",
+    "grunerlokka": {
+      "omsetningMillioner": 119101.670642,
+      "vekstProsent": -9.59
+    },
+    "oslo": {
+      "omsetningMillioner": 2024,
+      "vekstProsent": -3.61
+    },
+    "norge": {
+      "omsetningMillioner": null,
+      "vekstProsent": null
+    }
+  },
+  {
+    "ar": "2025",
+    "grunerlokka": {
+      "omsetningMillioner": 117490.32751,
+      "vekstProsent": -12.18
+    },
+    "oslo": {
+      "omsetningMillioner": 2025,
+      "vekstProsent": -0.45
+    },
+    "norge": {
+      "omsetningMillioner": null,
+      "vekstProsent": null
+    }
+  },
+  {
+    "ar": "2026",
+    "grunerlokka": {
+      "omsetningMillioner": 117091.994638,
+      "vekstProsent": 6.59
+    },
+    "oslo": {
+      "omsetningMillioner": 2026,
+      "vekstProsent": -1.65
+    },
+    "norge": {
+      "omsetningMillioner": null,
+      "vekstProsent": null
+    }
+  }
+]

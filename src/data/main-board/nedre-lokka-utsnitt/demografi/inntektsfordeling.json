@@ -1,0 +1,62 @@
+[
+  {
+    "inntektsgruppe": "0 NOK",
+    "antall": 639,
+    "prosent": 12.4
+  },
+  {
+    "inntektsgruppe": "0 NOK - NOK 100k",
+    "antall": 735,
+    "prosent": 14.3
+  },
+  {
+    "inntektsgruppe": "NOK 100k - NOK 200k",
+    "antall": 661,
+    "prosent": 12.9
+  },
+  {
+    "inntektsgruppe": "NOK 200k - NOK 300k",
+    "antall": 544,
+    "prosent": 10.6
+  },
+  {
+    "inntektsgruppe": "NOK 300k - NOK 400k",
+    "antall": 561,
+    "prosent": 10.9
+  },
+  {
+    "inntektsgruppe": "NOK 400k - NOK 500k",
+    "antall": 592,
+    "prosent": 11.5
+  },
+  {
+    "inntektsgruppe": "NOK 500k - NOK 600k",
+    "antall": 454,
+    "prosent": 8.8
+  },
+  {
+    "inntektsgruppe": "NOK 600k - NOK 700k",
+    "antall": 289,
+    "prosent": 5.6
+  },
+  {
+    "inntektsgruppe": "NOK 700k - NOK 800k",
+    "antall": 203,
+    "prosent": 4
+  },
+  {
+    "inntektsgruppe": "NOK 800k - NOK 1 mill.",
+    "antall": 387,
+    "prosent": 7.5
+  },
+  {
+    "inntektsgruppe": "NOK 1 mill. - NOK 1,5 mill.",
+    "antall": 36,
+    "prosent": 0.7
+  },
+  {
+    "inntektsgruppe": "NOK 1,5 mill.+",
+    "antall": 39,
+    "prosent": 0.8
+  }
+]
