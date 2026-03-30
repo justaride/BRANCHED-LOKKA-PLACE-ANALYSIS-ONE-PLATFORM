@@ -1,12 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { isValidTenant } from '@/config/tenants';
-import type { TenantSlug } from '@/config/tenants';
-import {
-  verifySessionToken,
-  createUnifiedSessionToken,
-  resolveUserTenants,
-} from '@/lib/auth';
+import { verifySessionToken, createUnifiedSessionToken } from '@/lib/auth';
 
 const SLIDING_REFRESH_DAYS = 30;
 const SESSION_MAX_AGE = 60 * 60 * 24 * 90;
@@ -54,10 +49,10 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL('/', request.url));
   }
 
-  const unifiedCookie = request.cookies.get('lokka-session');
-  if (unifiedCookie) {
-    const payload = await verifySessionToken(unifiedCookie.value);
-    if (payload && payload.tenants.includes(tenantSlug as TenantSlug)) {
+  const cookie = request.cookies.get('lokka-session');
+  if (cookie) {
+    const payload = await verifySessionToken(cookie.value);
+    if (payload) {
       const response = NextResponse.next();
       setCacheHeaders(response);
 
@@ -75,32 +70,7 @@ export async function middleware(request: NextRequest) {
     }
   }
 
-  const cfAutoSession = await handleCfAutoSession(request, tenantSlug as TenantSlug);
-  if (cfAutoSession) return cfAutoSession;
-
   return redirectToLogin(request, pathname);
-}
-
-async function handleCfAutoSession(
-  request: NextRequest,
-  tenantSlug: TenantSlug
-): Promise<NextResponse | null> {
-  const cfEmail = request.headers.get('Cf-Access-Authenticated-User-Email');
-  if (!cfEmail) return null;
-
-  const email = cfEmail.trim().toLowerCase();
-  let { tenants } = resolveUserTenants(email);
-
-  if (tenants.length === 0 && email.endsWith('@naturalstate.no')) {
-    tenants = ['main-board'];
-  }
-
-  if (tenants.length === 0 || !tenants.includes(tenantSlug)) return null;
-
-  const token = await createUnifiedSessionToken(email, tenants, tenantSlug);
-  const response = NextResponse.redirect(request.url);
-  response.cookies.set('lokka-session', token, COOKIE_OPTS);
-  return response;
 }
 
 function redirectToLogin(request: NextRequest, pathname: string) {

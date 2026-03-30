@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createUnifiedSessionToken, resolveUserTenants } from '@/lib/auth';
+import { createUnifiedSessionToken } from '@/lib/auth';
 import type { TenantSlug } from '@/config/tenants';
+import { TENANTS } from '@/config/tenants';
 
 const SESSION_MAX_AGE = 60 * 60 * 24 * 90;
 
@@ -12,54 +13,25 @@ const COOKIE_OPTS = {
   path: '/',
 };
 
-async function handlePassword(body: {
-  email?: string;
-  password?: string;
-}): Promise<NextResponse> {
-  const { email, password } = body;
-
-  if (!email || !password) {
-    return NextResponse.json(
-      { error: 'E-post og passord er påkrevd' },
-      { status: 400 }
-    );
+async function handlePassword(body: { password?: string }): Promise<NextResponse> {
+  const { password } = body;
+  if (!password) {
+    return NextResponse.json({ error: 'Passord er påkrevd' }, { status: 400 });
   }
 
   const platformPassword = process.env.PLATFORM_PASSWORD;
   if (!platformPassword) {
-    return NextResponse.json(
-      { error: 'Serverkonfigurasjonsfeil' },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: 'Serverkonfigurasjonsfeil' }, { status: 500 });
   }
 
   if (password !== platformPassword) {
-    return NextResponse.json(
-      { error: 'Ugyldig e-post eller passord' },
-      { status: 401 }
-    );
+    return NextResponse.json({ error: 'Ugyldig passord' }, { status: 401 });
   }
 
-  const normalized = email.trim().toLowerCase();
-  const { tenants } = resolveUserTenants(normalized);
+  const allTenants = Object.keys(TENANTS) as TenantSlug[];
+  const token = await createUnifiedSessionToken('member', allTenants, 'main-board');
 
-  if (tenants.length === 0) {
-    return NextResponse.json(
-      { error: 'Denne e-postadressen har ikke tilgang. Kontakt din gårdeier.' },
-      { status: 403 }
-    );
-  }
-
-  const loginTenant = tenants.find((t) => t !== 'main-board') || tenants[0];
-  const token = await createUnifiedSessionToken(
-    normalized,
-    tenants,
-    loginTenant as TenantSlug
-  );
-
-  const redirectTo = `/${loginTenant}`;
-
-  const response = NextResponse.json({ success: true, redirectTo });
+  const response = NextResponse.json({ success: true });
   response.cookies.set('lokka-session', token, COOKIE_OPTS);
   return response;
 }
@@ -70,9 +42,6 @@ export async function POST(request: NextRequest) {
     return handlePassword(body);
   } catch (error) {
     console.error('Auth error:', error);
-    return NextResponse.json(
-      { error: 'Intern serverfeil' },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: 'Intern serverfeil' }, { status: 500 });
   }
 }
