@@ -14,6 +14,9 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import { safeNumber } from '@/lib/utils/safe-data';
+import DataMethodology from './DataMethodology';
+import InfoTooltip from '@/components/ui/InfoTooltip';
+import { METRIC_TOOLTIPS } from '@/lib/content/metric-tooltips';
 
 interface BevegelseChartsProps {
   basePath: string;
@@ -214,9 +217,9 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
         <h2 className="mb-2 text-2xl font-bold text-natural-forest md:mb-4 md:text-3xl">
           Bevegelse og besøk
         </h2>
-        <p className="text-xs text-gray-600 md:text-sm">
-          Analyse av bevegelsesmønstre og besøk på Grünerløkka
-        </p>
+        <div className="relative">
+          <DataMethodology variant="compact" />
+        </div>
       </div>
 
       {/* Tab Navigation */}
@@ -242,6 +245,7 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
           <div>
             <h3 className="mb-4 text-lg font-semibold text-teal-600">
               Besøk per time (24-timersprofil)
+              <InfoTooltip text={METRIC_TOOLTIPS.besokPerTime} />
             </h3>
             <div className="h-80 md:h-96">
               <ResponsiveContainer width="100%" height="100%">
@@ -300,6 +304,7 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
           <div>
             <h3 className="mb-4 text-lg font-semibold text-teal-600">
               Besøk per ukedag
+              <InfoTooltip text={METRIC_TOOLTIPS.besokPerUkedag} />
             </h3>
             <div className="h-80 md:h-96">
               <ResponsiveContainer width="100%" height="100%">
@@ -334,6 +339,7 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
           <div>
             <h3 className="mb-4 text-lg font-semibold text-teal-600">
               Bevegelsesmønster (kvartalsvis 2023-2025)
+              <InfoTooltip text={METRIC_TOOLTIPS.bevegelsesmonster} />
             </h3>
             <div className="h-80 md:h-96">
               <ResponsiveContainer width="100%" height="100%">
@@ -392,6 +398,7 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
           <div>
             <h3 className="mb-4 text-lg font-semibold text-teal-600">
               Top 20 områder besøkende kommer fra
+              <InfoTooltip text={METRIC_TOOLTIPS.omraderBesokende} />
             </h3>
             <div className="h-80 md:h-96">
               <ResponsiveContainer width="100%" height="100%">

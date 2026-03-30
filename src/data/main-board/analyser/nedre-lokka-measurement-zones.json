@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "description": "Målesoner for Nedre Løkka mikro-områder. Polygoner representerer Telia/Plaace.ai sine geografiske tellesoner.",
+    "kilde": "Plaace.ai / Telia",
+    "note": "Polygonene er tilnærmede grenser basert på gatestrukturer og kjente Plaace-utsnitt."
+  },
+  "zones": [
+    {
+      "id": "ovre-thorvald-meyers-gate",
+      "navn": "Øvre Thorvald Meyers gate",
+      "harData": true,
+      "polygon": [
+        [59.9245, 10.7568],
+        [59.9245, 10.7592],
+        [59.9265, 10.7592],
+        [59.9265, 10.7568]
+      ]
+    },
+    {
+      "id": "nedre-thorvald-meyers-gate",
+      "navn": "Nedre Thorvald Meyers gate",
+      "harData": true,
+      "polygon": [
+        [59.9182, 10.7558],
+        [59.9182, 10.7582],
+        [59.9208, 10.7582],
+        [59.9208, 10.7558]
+      ]
+    },
+    {
+      "id": "olaf-ryes-plass-boots",
+      "navn": "Olaf Ryes Plass (Boots)",
+      "harData": false,
+      "polygon": [
+        [59.9224, 10.7585],
+        [59.9224, 10.7605],
+        [59.9240, 10.7605],
+        [59.9240, 10.7585]
+      ]
+    },
+    {
+      "id": "olaf-ryes-plass-7eleven",
+      "navn": "Olaf Ryes Plass (7-Eleven)",
+      "harData": true,
+      "polygon": [
+        [59.9218, 10.7575],
+        [59.9218, 10.7595],
+        [59.9234, 10.7595],
+        [59.9234, 10.7575]
+      ]
+    },
+    {
+      "id": "midt-i-markveien",
+      "navn": "Midt i Markveien",
+      "harData": false,
+      "polygon": [
+        [59.9217, 10.7538],
+        [59.9217, 10.7562],
+        [59.9233, 10.7562],
+        [59.9233, 10.7538]
+      ]
+    },
+    {
+      "id": "nederst-i-markveien",
+      "navn": "Nederst i Markveien",
+      "harData": true,
+      "polygon": [
+        [59.9192, 10.7533],
+        [59.9192, 10.7557],
+        [59.9208, 10.7557],
+        [59.9208, 10.7533]
+      ]
+    }
+  ]
+}

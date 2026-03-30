@@ -1,10 +1,18 @@
 import { Metadata } from 'next';
+import nextDynamic from 'next/dynamic';
 import Link from 'next/link';
 import NedreLokkaOverview from '@/components/analyser/NedreLokkaOverview';
 import NedreLokkaBevegelseCharts from '@/components/analyser/NedreLokkaBevegelseCharts';
 import NedreLokkaDemografiCharts from '@/components/analyser/NedreLokkaDemografiCharts';
 import NedreLokkaVirksomheterCharts from '@/components/analyser/NedreLokkaVirksomheterCharts';
 import metadata from '@/data/main-board/analyser/nedre-lokka-omradeprofil.json';
+import footfallData from '@/data/main-board/analyser/arsmotet/footfall-aggregert.json';
+import measurementZonesData from '@/data/main-board/analyser/nedre-lokka-measurement-zones.json';
+
+const FootfallBubbleMap = nextDynamic(
+  () => import('@/components/analyser/FootfallBubbleMap'),
+  { ssr: false, loading: () => <div className="flex h-[600px] items-center justify-center rounded-xl bg-gray-50"><span className="text-gray-400">Laster kart...</span></div> }
+);
 
 export const dynamic = 'force-static';
 
@@ -75,6 +83,15 @@ export default function NedreLokkaOmradeprofilPage() {
 
         {/* Overview Component */}
         <NedreLokkaOverview />
+
+        {/* Footfall Map with Measurement Zones */}
+        <div className="mt-12">
+          <FootfallBubbleMap
+            mikrosoner={footfallData.mikrosoner}
+            measurementZones={measurementZonesData.zones as Array<{ id: string; navn: string; harData: boolean; polygon: [number, number][] }>}
+            height="600px"
+          />
+        </div>
 
         {/* Movement Patterns Section */}
         <div className="mt-12">

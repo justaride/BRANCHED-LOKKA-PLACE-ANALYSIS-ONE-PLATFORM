@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Container from '@/components/ui/Container';
+import DataMethodology from '@/components/analyser/DataMethodology';
 
 export default function OmProsjektetPage() {
   return (
@@ -126,6 +127,45 @@ export default function OmProsjektetPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* Data Methodology Section */}
+      <Container className="py-24">
+        <DataMethodology variant="full" />
+      </Container>
+
+      {/* Data Changelog */}
+      <section className="bg-gray-50 py-24">
+        <Container>
+          <h2 className="mb-8 text-3xl font-bold text-natural-forest">Endringslogg</h2>
+          <p className="mb-6 text-gray-600">
+            Vi dokumenterer vesentlige korreksjoner og oppdateringer i datagrunnlaget for full transparens.
+          </p>
+          <div className="space-y-4">
+            {[
+              {
+                date: 'Mars 2026',
+                title: 'Korrigering av aktør-omsetning',
+                description: '49 aktører hadde feilparsed omsetningsdata (tusen vs. millioner). Total omsetning korrigert fra 27 748M til 4 072M NOK, nå i tråd med Plaace handelsomsetning (4 265M).',
+              },
+              {
+                date: 'November 2025',
+                title: 'Nedre Løkka mikro-områder',
+                description: 'Lansering av 6 mikro-områder. 2 av 6 returnerer 0-data grunnet utilstrekkelig Telia-dekning (Olaf Ryes Plass v/Boots og Midt i Markveien).',
+              },
+            ].map(entry => (
+              <div key={entry.date} className="rounded-xl border border-gray-200 bg-white p-5">
+                <div className="mb-1 flex items-center gap-3">
+                  <span className="rounded-full bg-teal-100 px-3 py-0.5 text-xs font-semibold text-teal-700">
+                    {entry.date}
+                  </span>
+                  <h3 className="font-semibold text-gray-900">{entry.title}</h3>
+                </div>
+                <p className="mt-2 text-sm leading-relaxed text-gray-600">{entry.description}</p>
+              </div>
+            ))}
           </div>
         </Container>
       </section>
