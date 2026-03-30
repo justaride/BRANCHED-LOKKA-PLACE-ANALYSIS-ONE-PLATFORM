@@ -13,6 +13,9 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import type { BevegelseData } from '@/types/one-min-analysis';
+import DataMethodology from '@/components/analyser/DataMethodology';
+import InfoTooltip from '@/components/ui/InfoTooltip';
+import { METRIC_TOOLTIPS } from '@/lib/content/metric-tooltips';
 
 interface BevegelseChartProps {
   data: BevegelseData;
@@ -25,10 +28,18 @@ export default function BevegelseChart({ data }: BevegelseChartProps) {
 
   return (
     <div className="space-y-6">
+      {/* Data source */}
+      <div className="relative mb-2">
+        <DataMethodology variant="compact" />
+      </div>
+
       {/* Key metrics */}
       <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
         <div className="rounded-lg bg-lokka-light p-4 text-center">
-          <div className="text-sm text-gray-600">Daglig besøk</div>
+          <div className="text-sm text-gray-600">
+            Daglig besøk
+            <InfoTooltip text={METRIC_TOOLTIPS.dagligeBesokende} />
+          </div>
           <div className="text-2xl font-bold text-lokka-primary">
             {data.nøkkeltall.dagligBesøk.toLocaleString('nb-NO')}
           </div>
@@ -51,7 +62,10 @@ export default function BevegelseChart({ data }: BevegelseChartProps) {
 
       {/* Per weekday */}
       <div className="rounded-lg bg-white p-6 shadow-soft">
-        <h4 className="mb-4 text-base font-semibold text-gray-900">Bevegelse per ukedag</h4>
+        <h4 className="mb-4 text-base font-semibold text-gray-900">
+          Bevegelse per ukedag
+          <InfoTooltip text={METRIC_TOOLTIPS.besokPerUkedag} />
+        </h4>
         <ResponsiveContainer width="100%" height={300}>
           <BarChart data={data.perUkedag} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
@@ -74,7 +88,10 @@ export default function BevegelseChart({ data }: BevegelseChartProps) {
 
       {/* Per hour */}
       <div className="rounded-lg bg-white p-6 shadow-soft">
-        <h4 className="mb-4 text-base font-semibold text-gray-900">Bevegelse per time</h4>
+        <h4 className="mb-4 text-base font-semibold text-gray-900">
+          Bevegelse per time
+          <InfoTooltip text={METRIC_TOOLTIPS.besokPerTime} />
+        </h4>
         <ResponsiveContainer width="100%" height={300}>
           <LineChart data={data.perTime} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
@@ -109,6 +126,7 @@ export default function BevegelseChart({ data }: BevegelseChartProps) {
       <div className="rounded-lg bg-white p-6 shadow-soft">
         <h4 className="mb-4 text-base font-semibold text-gray-900">
           Kvartalsvis utvikling (2023-2025)
+          <InfoTooltip text={METRIC_TOOLTIPS.bevegelsesmonster} />
         </h4>
         <ResponsiveContainer width="100%" height={300}>
           <LineChart

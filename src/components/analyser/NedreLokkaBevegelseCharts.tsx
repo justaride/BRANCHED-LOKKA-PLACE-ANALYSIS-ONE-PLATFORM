@@ -9,6 +9,9 @@ import {
   CartesianGrid,
   Tooltip, Legend
 } from 'recharts';
+import DataMethodology from './DataMethodology';
+import InfoTooltip from '@/components/ui/InfoTooltip';
+import { METRIC_TOOLTIPS } from '@/lib/content/metric-tooltips';
 
 interface Props {
   basePath: string;
@@ -105,10 +108,11 @@ export default function NedreLokkaBevegelseCharts({ basePath }: Props) {
         <div className="mb-6">
           <h3 className="text-2xl font-bold text-gray-900 mb-2">
             Bevegelsesmønster Gjennom Dagen
+            <InfoTooltip text={METRIC_TOOLTIPS.besokPerTime} />
           </h3>
-          <p className="text-gray-600">
-            Antall besøkende per time i løpet av et døgn. Viser tydelig rush-timer mellom kl. 16-19.
-          </p>
+          <div className="relative">
+            <DataMethodology variant="compact" />
+          </div>
         </div>
 
         <ResponsiveContainer width="100%" height={400}>
@@ -240,6 +244,7 @@ export default function NedreLokkaBevegelseCharts({ basePath }: Props) {
         <div className="mb-6">
           <h3 className="text-2xl font-bold text-gray-900 mb-2">
             Ukentlig Besøksmønster
+            <InfoTooltip text={METRIC_TOOLTIPS.besokPerUkedag} />
           </h3>
           <p className="text-gray-600">
             Antall besøkende per ukedag. Lørdag er den mest besøkte dagen med tydelig helgetrafikk.
@@ -320,28 +325,8 @@ export default function NedreLokkaBevegelseCharts({ basePath }: Props) {
         </div>
       </div>
 
-      {/* Data Note */}
-      <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-        <h4 className="text-lg font-semibold text-blue-900 mb-2">📊 Om Bevegelsesdataen</h4>
-        <ul className="text-sm text-blue-800 space-y-2">
-          <li className="flex gap-2">
-            <span className="text-blue-600">•</span>
-            <span><span className="font-semibold">Besøkende:</span> Personer som besøker området, men ikke bor eller jobber der</span>
-          </li>
-          <li className="flex gap-2">
-            <span className="text-blue-600">•</span>
-            <span><span className="font-semibold">På jobb:</span> Personer som jobber i området</span>
-          </li>
-          <li className="flex gap-2">
-            <span className="text-blue-600">•</span>
-            <span><span className="font-semibold">Hjemme:</span> Fastboende i området</span>
-          </li>
-          <li className="flex gap-2">
-            <span className="text-blue-600">•</span>
-            <span><span className="font-semibold">Datakilde:</span> Aggregert fra 4 av 6 mikro-områder med Telia mobildata</span>
-          </li>
-        </ul>
-      </div>
+      {/* Data Methodology */}
+      <DataMethodology variant="inline" />
     </div>
   );
 }

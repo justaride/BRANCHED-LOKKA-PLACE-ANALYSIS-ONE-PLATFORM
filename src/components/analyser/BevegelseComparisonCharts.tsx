@@ -13,6 +13,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from 'recharts';
+import DataMethodology from './DataMethodology';
 
 interface BevegelseComparisonChartsProps {
   basePath: string;
@@ -167,9 +168,9 @@ export default function BevegelseComparisonCharts({
         <h2 className="mb-2 text-2xl font-bold text-natural-forest md:mb-4 md:text-3xl">
           Bevegelse - Områdesammenligning
         </h2>
-        <p className="text-xs text-gray-600 md:text-sm">
-          Sammenligning av bevegelsesmønstre på tvers av Oslo-områder
-        </p>
+        <div className="relative">
+          <DataMethodology variant="compact" />
+        </div>
       </div>
 
       {/* Tab Navigation */}

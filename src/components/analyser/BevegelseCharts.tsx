@@ -14,6 +14,7 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import { safeNumber } from '@/lib/utils/safe-data';
+import { aggregateToHalfYear } from '@/lib/utils/report-period';
 import DataMethodology from './DataMethodology';
 import InfoTooltip from '@/components/ui/InfoTooltip';
 import { METRIC_TOOLTIPS } from '@/lib/content/metric-tooltips';
@@ -45,6 +46,7 @@ interface OmraderBesokende {
 
 export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
   const [activeTab, setActiveTab] = useState(0);
+  const [periodView, setPeriodView] = useState<'quarterly' | 'halfyear'>('halfyear');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -141,6 +143,15 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
     });
     return flattened;
   }, [bevegelsesmonsterData]);
+
+  const halfYearData = useMemo(() => {
+    if (bevegelseLineData.length === 0) return [];
+    return aggregateToHalfYear(
+      bevegelseLineData.map(d => ({ ...d })),
+      'quarter',
+      ['Besøkende', 'På jobb', 'Hjemme']
+    );
+  }, [bevegelseLineData]);
 
   // Top 20 areas with null-safe sorting
   const top20Areas = useMemo(() => {
@@ -337,16 +348,43 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
 
         {activeTab === 2 && (
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-teal-600">
-              Bevegelsesmønster (kvartalsvis 2023-2025)
-              <InfoTooltip text={METRIC_TOOLTIPS.bevegelsesmonster} />
-            </h3>
+            <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+              <h3 className="text-lg font-semibold text-teal-600">
+                Bevegelsesmønster ({periodView === 'quarterly' ? 'kvartalsvis' : 'halvårlig'} 2023-2025)
+                <InfoTooltip text={METRIC_TOOLTIPS.bevegelsesmonster} />
+              </h3>
+              <div className="flex rounded-lg border border-gray-200 text-xs">
+                <button
+                  onClick={() => setPeriodView('halfyear')}
+                  className={`px-3 py-1.5 font-medium transition-colors ${
+                    periodView === 'halfyear'
+                      ? 'bg-teal-600 text-white'
+                      : 'text-gray-600 hover:bg-gray-50'
+                  } rounded-l-lg`}
+                >
+                  Halvårlig
+                </button>
+                <button
+                  onClick={() => setPeriodView('quarterly')}
+                  className={`px-3 py-1.5 font-medium transition-colors ${
+                    periodView === 'quarterly'
+                      ? 'bg-teal-600 text-white'
+                      : 'text-gray-600 hover:bg-gray-50'
+                  } rounded-r-lg`}
+                >
+                  Kvartalsvis
+                </button>
+              </div>
+            </div>
             <div className="h-80 md:h-96">
               <ResponsiveContainer width="100%" height="100%">
-                <LineChart data={bevegelseLineData} margin={{ top: 10, right: 30, left: 10, bottom: 60 }}>
+                <LineChart
+                  data={periodView === 'quarterly' ? bevegelseLineData : halfYearData}
+                  margin={{ top: 10, right: 30, left: 10, bottom: 60 }}
+                >
                   <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                   <XAxis
-                    dataKey="quarter"
+                    dataKey={periodView === 'quarterly' ? 'quarter' : 'period'}
                     tick={{ fontSize: 10, fill: '#6b7280' }}
                     angle={-45}
                     textAnchor="end"
