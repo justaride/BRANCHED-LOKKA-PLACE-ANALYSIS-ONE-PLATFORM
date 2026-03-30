@@ -94,17 +94,10 @@ export async function loadAllAnalyses(): Promise<PlaceAnalysis[]> {
           ),
       },
       {
-        id: "sammenligning-2024",
-        load: () =>
-          import("@/data/main-board/analyser/sammenligning-2024.json").then(
-            (m) => m.default as unknown as PlaceAnalysis,
-          ),
-      },
-      {
-        id: "sammenligning-2025",
+        id: "sammenligning/2025",
         load: () =>
           import("@/data/main-board/analyser/sammenligning-2025.json").then(
-            (m) => m.default as unknown as PlaceAnalysis,
+            (m) => ({ ...(m.default as unknown as PlaceAnalysis), id: "sammenligning/2025" }),
           ),
       },
       {
@@ -173,8 +166,8 @@ export async function getAllAnalysisIds(): Promise<string[]> {
     "midt-i-markveien",
     "olaf-ryes-plass-boots",
     "nederst-i-markveien",
-    "sammenligning-2024",
-    "sammenligning-2025",
+    "sammenligning/2024",
+    "sammenligning/2025",
     "nedre-lokka-utsnitt",
   ];
 }

@@ -53,7 +53,7 @@ export default function PlaceAnalysisCard({ analysis, basePath = '/analyser' }: 
     // Fallback to hardcoded images for specific analyses
     if (analysis.id === '2024-arsrapport') {
       return '/images/areas/grunerlokka.jpg';
-    } else if (analysis.id === 'sammenligning-2024') {
+    } else if (analysis.id.startsWith('sammenligning/')) {
       return '/images/areas/sammenligning-collage.jpg';
     } else if (analysis.id === 'kvartalsrapport-banktransaksjoner') {
       return '/images/analyser/grunerlokka-hero.jpg';

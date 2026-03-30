@@ -5,6 +5,18 @@ const nextConfig: NextConfig = {
   images: {
     qualities: [75, 80, 85, 90],
   },
+  redirects: async () => [
+    {
+      source: '/main-board/analyser/sammenligning-2024',
+      destination: '/main-board/analyser/sammenligning/2024',
+      permanent: true,
+    },
+    {
+      source: '/main-board/analyser/sammenligning-2025',
+      destination: '/main-board/analyser/sammenligning/2025',
+      permanent: true,
+    },
+  ],
   headers: async () => [
     {
       source: '/:path*',

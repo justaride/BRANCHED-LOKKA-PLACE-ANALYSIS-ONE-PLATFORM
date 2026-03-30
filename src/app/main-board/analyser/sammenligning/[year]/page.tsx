@@ -10,96 +10,80 @@ import InternasjonalComparisonCharts from '@/components/analyser/InternasjonalCo
 import BesokendeComparisonCharts from '@/components/analyser/BesokendeComparisonCharts';
 import KonkurranseComparisonCharts from '@/components/analyser/KonkurranseComparisonCharts';
 import KorthandelComparisonCharts from '@/components/analyser/KorthandelComparisonCharts';
+import YearSelector from '@/components/analyser/YearSelector';
 import { loadAnalysis } from '@/lib/loaders/place-loader';
 import { MainBoardLoaders } from '@/lib/loaders/main-board';
 import Link from 'next/link';
 import Image from 'next/image';
 
-interface AreaInfo {
+const VALID_YEARS = ['2024', '2025'] as const;
+
+type AreaInfo = {
   id: string;
   name: string;
   color: string;
-}
-
-export const metadata = {
-  title: 'Områdesammenligning 2024',
-  description: 'Sammenligning av Grünerløkka, Bjørvika, Sentrum og Majorstuen',
 };
 
-export default async function Sammenligning2024Page() {
-  const analysis = await loadAnalysis('sammenligning-2024');
+export function generateStaticParams() {
+  return VALID_YEARS.map((year) => ({ year }));
+}
 
+export async function generateMetadata({ params }: { params: Promise<{ year: string }> }) {
+  const { year } = await params;
+  return {
+    title: `Områdesammenligning ${year}`,
+    description: 'Sammenligning av Grünerløkka, Bjørvika, Sentrum og Majorstuen',
+  };
+}
+
+export default async function SammenligningPage({ params }: { params: Promise<{ year: string }> }) {
+  const { year } = await params;
+
+  if (!VALID_YEARS.includes(year as typeof VALID_YEARS[number])) {
+    notFound();
+  }
+
+  const analysis = await loadAnalysis(`sammenligning-${year}`);
   if (!analysis) {
     notFound();
   }
 
-  // Load actor data using multi-tenant loaders
-  let combinedData = null;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let combinedData: any = null;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let areaData: Record<string, any> = {};
 
-  try {
-    const allAreas = await MainBoardLoaders.loadAllSammenligningAreas();
-    combinedData = allAreas.combined;
-    areaData = {
-      lokka: allAreas.lokka,
-      'bjørvika': allAreas.bjorvika,
-      sentrum: allAreas.sentrum,
-      majorstuen: allAreas.majorstuen,
-    };
-  } catch (error) {
-    console.error('Could not load actor data:', error);
+  if (year === '2024') {
+    try {
+      const allAreas = await MainBoardLoaders.loadAllSammenligningAreas();
+      combinedData = allAreas.combined;
+      areaData = {
+        lokka: allAreas.lokka,
+        'bjørvika': allAreas.bjorvika,
+        sentrum: allAreas.sentrum,
+        majorstuen: allAreas.majorstuen,
+      };
+    } catch (error) {
+      console.error('Could not load actor data:', error);
+    }
   }
 
-  // Area info for components
   const areaInfo = [
     { key: 'lokka', name: 'Grünerløkka', color: '#2D5F3F' },
     { key: 'bjørvika', name: 'Bjørvika', color: '#4A90E2' },
     { key: 'sentrum', name: 'Sentrum', color: '#E74C3C' },
-    { key: 'majorstuen', name: 'Majorstuen', color: '#9B59B6' }
+    { key: 'majorstuen', name: 'Majorstuen', color: '#9B59B6' },
   ];
 
-  // Group screenshots by category (in specified order)
   const oversiktScreenshots = analysis.plaaceData.screenshots?.filter(
     (s) => s.kategori === 'oversikt'
   ) || [];
 
-  // Screenshot variables kept for potential fallback to static images
-  const _demografiScreenshots = analysis.plaaceData.screenshots?.filter(
-    (s) => s.kategori === 'demografi'
-  ) || [];
-
-  const _besokendeScreenshots = analysis.plaaceData.screenshots?.filter(
-    (s) => s.kategori === 'besokende'
-  ) || [];
-
-  const _bevegelseScreenshots = analysis.plaaceData.screenshots?.filter(
-    (s) => s.kategori === 'bevegelse'
-  ) || [];
-
-  const _konkurranseScreenshots = analysis.plaaceData.screenshots?.filter(
-    (s) => s.kategori === 'konkurranse'
-  ) || [];
-
-  const _korthandelScreenshots = analysis.plaaceData.screenshots?.filter(
-    (s) => s.kategori === 'korthandel'
-  ) || [];
-
-  const _internasjonalScreenshots = analysis.plaaceData.screenshots?.filter(
-    (s) => s.kategori === 'internasjonal'
-  ) || [];
-
-  // Suppress unused variable warnings for fallback screenshot variables
-  void _demografiScreenshots;
-  void _besokendeScreenshots;
-  void _bevegelseScreenshots;
-  void _internasjonalScreenshots;
-  void _konkurranseScreenshots;
-  void _korthandelScreenshots;
+  const chartBasePath = `/data/main-board/sammenligning-${year}`;
+  const analyserBasePath = `/data/main-board/analyser/sammenligning-${year}`;
 
   return (
     <>
-      {/* Hero Image Header Section */}
       <section className="relative overflow-hidden border-b border-gray-200">
         <div className="relative aspect-[21/9] w-full md:aspect-[24/9] lg:aspect-[32/9]">
           {analysis.metadata.heroImage && (
@@ -112,11 +96,9 @@ export default async function Sammenligning2024Page() {
               sizes="100vw"
             />
           )}
-          {/* Gradient overlay for text readability */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 via-purple-600/20 to-pink-600/20 opacity-50 mix-blend-overlay" />
 
-          {/* Content overlay */}
           <Container className="absolute inset-0 flex flex-col justify-between py-6 md:py-8">
             <div>
               <Link
@@ -128,7 +110,7 @@ export default async function Sammenligning2024Page() {
             </div>
 
             <div className="pb-4 md:pb-6">
-              <div className="mb-3 md:mb-4">
+              <div className="mb-3 flex items-center gap-4 md:mb-4">
                 <span className="rounded-full bg-white/20 px-4 py-1.5 text-xs font-medium backdrop-blur-sm md:text-sm">
                   Områdesammenligning
                 </span>
@@ -144,17 +126,19 @@ export default async function Sammenligning2024Page() {
         </div>
       </section>
 
-      {/* Area Colors Legend */}
-      {analysis.area.areas && (
-        <section className="border-b border-gray-200/30 bg-gradient-to-br from-blue-50/30 via-purple-50/20 to-pink-50/30 py-8 md:py-12">
-          <Container>
-            <div className="mb-6 md:mb-8">
+      <section className="border-b border-gray-200/30 bg-gradient-to-br from-blue-50/30 via-purple-50/20 to-pink-50/30 py-8 md:py-12">
+        <Container>
+          <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between md:mb-8">
+            <div>
               <h2 className="text-2xl font-bold text-natural-forest md:text-3xl">Områder</h2>
               <p className="mt-2 text-sm text-gray-600 md:text-base">
                 Fire sentrale bydeler i Oslo
               </p>
             </div>
+            <YearSelector years={[...VALID_YEARS]} currentYear={year} />
+          </div>
 
+          {analysis.area.areas && (
             <div className="grid grid-cols-2 gap-4 md:gap-6 lg:grid-cols-4">
               {analysis.area.areas.map((area: AreaInfo) => (
                 <div
@@ -178,13 +162,11 @@ export default async function Sammenligning2024Page() {
                 </div>
               ))}
             </div>
-          </Container>
-        </section>
-      )}
+          )}
+        </Container>
+      </section>
 
-      {/* Main Content */}
       <Container className="py-12 md:py-16 lg:py-20">
-        {/* 1. Oversikt */}
         {oversiktScreenshots.length > 0 && (
           <TabbedImageViewer
             screenshots={oversiktScreenshots}
@@ -192,32 +174,26 @@ export default async function Sammenligning2024Page() {
           />
         )}
 
-        {/* 2. Demografi - Interactive Charts */}
         <div className="mb-16">
-          <DemografiComparisonCharts basePath="/data/main-board/sammenligning-2024" />
+          <DemografiComparisonCharts basePath={chartBasePath} />
         </div>
 
-        {/* 3. Besøkende - Interactive Charts */}
         <div className="mb-16">
-          <BesokendeComparisonCharts basePath="/data/main-board/sammenligning-2024" />
+          <BesokendeComparisonCharts basePath={chartBasePath} />
         </div>
 
-        {/* 4. Bevegelse - Interactive Charts */}
         <div className="mb-16">
-          <BevegelseComparisonCharts basePath="/data/main-board/sammenligning-2024" />
+          <BevegelseComparisonCharts basePath={chartBasePath} />
         </div>
 
-        {/* 5. Konkurranse - Interactive Charts */}
         <div className="mb-16">
-          <KonkurranseComparisonCharts basePath="/data/main-board/analyser/sammenligning-2024" />
+          <KonkurranseComparisonCharts basePath={analyserBasePath} />
         </div>
 
-        {/* 6. Korthandel - Interactive Charts */}
         <div className="mb-16">
-          <KorthandelComparisonCharts basePath="/data/main-board/analyser/sammenligning-2024" />
+          <KorthandelComparisonCharts basePath={analyserBasePath} />
         </div>
 
-        {/* 6.5 Aktørkartlegging */}
         {combinedData && Object.keys(areaData).length > 0 && (
           <>
             <AreaComparisonStats data={combinedData} />
@@ -225,12 +201,10 @@ export default async function Sammenligning2024Page() {
           </>
         )}
 
-        {/* 7. Internasjonal Besøkende - Interactive Charts */}
         <div className="mb-16">
-          <InternasjonalComparisonCharts basePath="/data/main-board/sammenligning-2024" />
+          <InternasjonalComparisonCharts basePath={chartBasePath} />
         </div>
 
-        {/* Notes */}
         {analysis.metadata.notater && analysis.metadata.notater.length > 0 && (
           <div className="mt-16">
             <Card>
@@ -248,7 +222,6 @@ export default async function Sammenligning2024Page() {
           </div>
         )}
 
-        {/* Footer */}
         <div className="mt-12 text-center text-sm text-gray-500">
           Datakilder: {analysis.plaaceData.datakilder.join(', ')} |
           Oppdatert: {new Date(analysis.metadata.sistOppdatert).toLocaleDateString('nb-NO')}
