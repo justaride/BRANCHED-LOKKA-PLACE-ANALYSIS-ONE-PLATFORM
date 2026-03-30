@@ -1,12 +1,10 @@
-import { SignJWT, jwtVerify } from 'jose';
+import { SignJWT, jwtVerify, createRemoteJWKSet } from 'jose';
 import type { TenantSlug } from '@/config/tenants';
 import { TENANTS } from '@/config/tenants';
 import { getAllowedEmails, getAdminEmails } from '@/lib/tenant-emails';
 
 const ALGORITHM = 'HS256';
 const SESSION_EXPIRY = '90d';
-const OTP_EXPIRY = '5m';
-const OTP_LENGTH = 6;
 
 function getSecret(): Uint8Array {
   const secret = process.env.AUTH_SECRET;
@@ -15,30 +13,6 @@ function getSecret(): Uint8Array {
   }
   return new TextEncoder().encode(secret);
 }
-
-async function hashCode(code: string): Promise<string> {
-  const secret = process.env.AUTH_SECRET || '';
-  const data = new TextEncoder().encode(code + secret);
-  const hash = await crypto.subtle.digest('SHA-256', data);
-  return Array.from(new Uint8Array(hash))
-    .map((b) => b.toString(16).padStart(2, '0'))
-    .join('');
-}
-
-export async function createSessionToken(email: string, tenant: string): Promise<string> {
-  return new SignJWT({ sub: email, tenant })
-    .setProtectedHeader({ alg: ALGORITHM })
-    .setIssuedAt()
-    .setExpirationTime(SESSION_EXPIRY)
-    .sign(getSecret());
-}
-
-export type SessionPayload = {
-  sub: string;
-  tenant: string;
-  iat: number;
-  exp: number;
-};
 
 export type UnifiedSessionPayload = {
   sub: string;
@@ -50,19 +24,13 @@ export type UnifiedSessionPayload = {
 
 export async function verifySessionToken(
   token: string
-): Promise<(SessionPayload | UnifiedSessionPayload) | null> {
+): Promise<UnifiedSessionPayload | null> {
   try {
     const { payload } = await jwtVerify(token, getSecret());
-    return payload as unknown as SessionPayload | UnifiedSessionPayload;
+    return payload as unknown as UnifiedSessionPayload;
   } catch {
     return null;
   }
-}
-
-export function isUnifiedPayload(
-  payload: SessionPayload | UnifiedSessionPayload
-): payload is UnifiedSessionPayload {
-  return Array.isArray((payload as UnifiedSessionPayload).tenants);
 }
 
 export async function createUnifiedSessionToken(
@@ -105,39 +73,27 @@ export function resolveUserTenants(
   return { tenants, isAdmin: false };
 }
 
-export function generateOTP(): string {
-  const array = new Uint32Array(1);
-  crypto.getRandomValues(array);
-  return String(array[0] % 10 ** OTP_LENGTH).padStart(OTP_LENGTH, '0');
-}
+const GOOGLE_JWKS = createRemoteJWKSet(
+  new URL('https://www.googleapis.com/oauth2/v3/certs')
+);
 
-export async function createOTPToken(
-  code: string,
-  email: string,
-  tenant: string
-): Promise<string> {
-  const hashedCode = await hashCode(code);
-  return new SignJWT({ email, tenant, code: hashedCode, purpose: 'otp' })
-    .setProtectedHeader({ alg: ALGORITHM })
-    .setIssuedAt()
-    .setExpirationTime(OTP_EXPIRY)
-    .sign(getSecret());
-}
-
-export async function verifyOTPToken(
-  token: string,
-  code: string,
-  email: string,
-  tenant: string
-): Promise<boolean> {
+export async function verifyGoogleToken(
+  idToken: string
+): Promise<{ email: string; name?: string } | null> {
   try {
-    const { payload } = await jwtVerify(token, getSecret());
-    if (payload.purpose !== 'otp') return false;
-    if (payload.email !== email) return false;
-    if (payload.tenant !== tenant) return false;
-    const hashedCode = await hashCode(code);
-    return payload.code === hashedCode;
+    const clientId = process.env.GOOGLE_CLIENT_ID;
+    if (!clientId) throw new Error('GOOGLE_CLIENT_ID not configured');
+
+    const { payload } = await jwtVerify(idToken, GOOGLE_JWKS, {
+      issuer: ['https://accounts.google.com', 'accounts.google.com'],
+      audience: clientId,
+    });
+
+    const email = payload.email as string | undefined;
+    if (!payload.email_verified || !email) return null;
+
+    return { email, name: payload.name as string | undefined };
   } catch {
-    return false;
+    return null;
   }
 }
