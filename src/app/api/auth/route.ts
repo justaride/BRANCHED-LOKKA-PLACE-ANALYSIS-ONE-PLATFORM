@@ -1,9 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import {
-  createUnifiedSessionToken,
-  verifyGoogleToken,
-  resolveUserTenants,
-} from '@/lib/auth';
+import { createUnifiedSessionToken } from '@/lib/auth';
 import type { TenantSlug } from '@/config/tenants';
 import { TENANTS } from '@/config/tenants';
 
@@ -16,31 +12,6 @@ const COOKIE_OPTS = {
   maxAge: SESSION_MAX_AGE,
   path: '/',
 };
-
-async function handleGoogle(body: { credential?: string }): Promise<NextResponse> {
-  const { credential } = body;
-  if (!credential) {
-    return NextResponse.json({ error: 'Token mangler' }, { status: 400 });
-  }
-
-  const googleUser = await verifyGoogleToken(credential);
-  if (!googleUser) {
-    return NextResponse.json({ error: 'Ugyldig Google-token' }, { status: 401 });
-  }
-
-  const email = googleUser.email.trim().toLowerCase();
-  const { tenants } = resolveUserTenants(email);
-
-  const allTenants = tenants.length > 0
-    ? tenants
-    : (Object.keys(TENANTS) as TenantSlug[]);
-
-  const token = await createUnifiedSessionToken(email, allTenants, 'main-board');
-
-  const response = NextResponse.json({ success: true, tenants: allTenants });
-  response.cookies.set('lokka-session', token, COOKIE_OPTS);
-  return response;
-}
 
 async function handlePassword(body: { password?: string }): Promise<NextResponse> {
   const { password } = body;
@@ -60,7 +31,7 @@ async function handlePassword(body: { password?: string }): Promise<NextResponse
   const allTenants = Object.keys(TENANTS) as TenantSlug[];
   const token = await createUnifiedSessionToken('platform-user', allTenants, 'main-board');
 
-  const response = NextResponse.json({ success: true, tenants: allTenants });
+  const response = NextResponse.json({ success: true });
   response.cookies.set('lokka-session', token, COOKIE_OPTS);
   return response;
 }
@@ -68,16 +39,7 @@ async function handlePassword(body: { password?: string }): Promise<NextResponse
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const action = body.action || 'password';
-
-    switch (action) {
-      case 'google':
-        return handleGoogle(body);
-      case 'password':
-        return handlePassword(body);
-      default:
-        return NextResponse.json({ error: 'Ugyldig handling' }, { status: 400 });
-    }
+    return handlePassword(body);
   } catch (error) {
     console.error('Auth error:', error);
     return NextResponse.json({ error: 'Intern serverfeil' }, { status: 500 });

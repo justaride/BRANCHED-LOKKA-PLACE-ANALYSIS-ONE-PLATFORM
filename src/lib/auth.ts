@@ -1,4 +1,4 @@
-import { SignJWT, jwtVerify, createRemoteJWKSet } from 'jose';
+import { SignJWT, jwtVerify } from 'jose';
 import type { TenantSlug } from '@/config/tenants';
 import { TENANTS } from '@/config/tenants';
 import { getAllowedEmails, getAdminEmails } from '@/lib/tenant-emails';
@@ -71,29 +71,4 @@ export function resolveUserTenants(
   }
 
   return { tenants, isAdmin: false };
-}
-
-const GOOGLE_JWKS = createRemoteJWKSet(
-  new URL('https://www.googleapis.com/oauth2/v3/certs')
-);
-
-export async function verifyGoogleToken(
-  idToken: string
-): Promise<{ email: string; name?: string } | null> {
-  try {
-    const clientId = process.env.GOOGLE_CLIENT_ID;
-    if (!clientId) throw new Error('GOOGLE_CLIENT_ID not configured');
-
-    const { payload } = await jwtVerify(idToken, GOOGLE_JWKS, {
-      issuer: ['https://accounts.google.com', 'accounts.google.com'],
-      audience: clientId,
-    });
-
-    const email = payload.email as string | undefined;
-    if (!payload.email_verified || !email) return null;
-
-    return { email, name: payload.name as string | undefined };
-  } catch {
-    return null;
-  }
 }
