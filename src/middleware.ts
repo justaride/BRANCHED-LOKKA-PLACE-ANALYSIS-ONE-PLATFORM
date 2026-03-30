@@ -5,7 +5,6 @@ import type { TenantSlug } from '@/config/tenants';
 import {
   verifySessionToken,
   createUnifiedSessionToken,
-  isUnifiedPayload,
   resolveUserTenants,
 } from '@/lib/auth';
 
@@ -58,63 +57,28 @@ export async function middleware(request: NextRequest) {
   const unifiedCookie = request.cookies.get('lokka-session');
   if (unifiedCookie) {
     const payload = await verifySessionToken(unifiedCookie.value);
-    if (payload && isUnifiedPayload(payload)) {
-      if (payload.tenants.includes(tenantSlug as TenantSlug)) {
-        const response = NextResponse.next();
-        setCacheHeaders(response);
+    if (payload && payload.tenants.includes(tenantSlug as TenantSlug)) {
+      const response = NextResponse.next();
+      setCacheHeaders(response);
 
-        const ageInDays = (Date.now() / 1000 - payload.iat) / 86400;
-        if (ageInDays > SLIDING_REFRESH_DAYS) {
-          const newToken = await createUnifiedSessionToken(
-            payload.sub,
-            payload.tenants,
-            payload.loginTenant
-          );
-          response.cookies.set('lokka-session', newToken, COOKIE_OPTS);
-        }
-
-        return response;
+      const ageInDays = (Date.now() / 1000 - payload.iat) / 86400;
+      if (ageInDays > SLIDING_REFRESH_DAYS) {
+        const newToken = await createUnifiedSessionToken(
+          payload.sub,
+          payload.tenants,
+          payload.loginTenant
+        );
+        response.cookies.set('lokka-session', newToken, COOKIE_OPTS);
       }
-      return redirectToLogin(request, tenantSlug, pathname);
+
+      return response;
     }
   }
 
   const cfAutoSession = await handleCfAutoSession(request, tenantSlug as TenantSlug);
   if (cfAutoSession) return cfAutoSession;
 
-  const legacyCookie = request.cookies.get(`auth-${tenantSlug}`);
-  if (!legacyCookie) {
-    return redirectToLogin(request, tenantSlug, pathname);
-  }
-
-  if (legacyCookie.value === 'authenticated') {
-    const response = NextResponse.next();
-    setCacheHeaders(response);
-    return response;
-  }
-
-  const legacyPayload = await verifySessionToken(legacyCookie.value);
-  if (!legacyPayload) {
-    return redirectToLogin(request, tenantSlug, pathname);
-  }
-
-  const response = NextResponse.next();
-  setCacheHeaders(response);
-
-  if (!isUnifiedPayload(legacyPayload)) {
-    const { tenants } = resolveUserTenants(legacyPayload.sub);
-    const loginTenant = legacyPayload.tenant as TenantSlug;
-    const effectiveTenants =
-      tenants.length > 0 ? tenants : [loginTenant, 'main-board' as const];
-    const unifiedToken = await createUnifiedSessionToken(
-      legacyPayload.sub,
-      effectiveTenants,
-      loginTenant
-    );
-    response.cookies.set('lokka-session', unifiedToken, COOKIE_OPTS);
-  }
-
-  return response;
+  return redirectToLogin(request, pathname);
 }
 
 async function handleCfAutoSession(
@@ -139,9 +103,8 @@ async function handleCfAutoSession(
   return response;
 }
 
-function redirectToLogin(request: NextRequest, tenantSlug: string, pathname: string) {
+function redirectToLogin(request: NextRequest, pathname: string) {
   const loginUrl = new URL('/login', request.url);
-  loginUrl.searchParams.set('tenant', tenantSlug);
   loginUrl.searchParams.set('from', pathname);
   return NextResponse.redirect(loginUrl);
 }
