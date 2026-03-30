@@ -13,6 +13,26 @@ const CATEGORY_CONFIG: Record<AktorCategory | 'all', { color: string; label: str
 const GRUNERLOKKA_CENTER: [number, number] = [59.9225, 10.7575];
 const DEFAULT_ZOOM = 15;
 
+const GRUNERLOKKA_BOUNDS = {
+  latMin: 59.916, latMax: 59.932,
+  lngMin: 10.748, lngMax: 10.768,
+};
+
+const OUTSIDE_REASONS: Record<string, string> = {
+  'SANDAKERVEIEN 24': 'Torshov — like utenfor Løkka, del av handelsområdet',
+  'SANDAKERVEIEN 10 E': 'Torshov — like nord for Løkka-grensen',
+  'HAUSMANNS GATE 19 A': 'Grenseland mot Grønland — betjener Løkka-beboere',
+  'KARL JOHANS GATE 17': 'Registrert på kjede-hovedkontor, har lokaler på Løkka',
+  'MUNCHS GATE 9': 'Registrert utenfor Løkka',
+  'PLØENS GATE 4': 'Sør for Løkka — Tøyen-området',
+  'AKERSGATA 45': 'Registrert på hovedkontor utenfor Løkka',
+};
+
+function isOutsideBounds(lat: number, lng: number): boolean {
+  return lat < GRUNERLOKKA_BOUNDS.latMin || lat > GRUNERLOKKA_BOUNDS.latMax ||
+         lng < GRUNERLOKKA_BOUNDS.lngMin || lng > GRUNERLOKKA_BOUNDS.lngMax;
+}
+
 type AktorMapProps = {
   actors: AktorWithCoordinates[]
   height?: string
@@ -97,20 +117,27 @@ export default function AktorMap({
 
       filteredActors.forEach(actor => {
         const config = CATEGORY_CONFIG[actor.category];
+        const outside = isOutsideBounds(actor.lat, actor.lng);
         const marker = L.circleMarker([actor.lat, actor.lng], {
-          radius: 7,
+          radius: outside ? 6 : 7,
           fillColor: config.color,
-          color: '#fff',
-          weight: 2,
-          opacity: 1,
-          fillOpacity: 0.85,
+          color: outside ? '#F59E0B' : '#fff',
+          weight: outside ? 2.5 : 2,
+          opacity: outside ? 0.9 : 1,
+          fillOpacity: outside ? 0.5 : 0.85,
+          dashArray: outside ? '3 3' : undefined,
         }).addTo(mapInstance);
 
         marker.on('click', () => {
           setSelectedAktor(actor);
         });
 
-        marker.bindTooltip(actor.navn, {
+        const reason = OUTSIDE_REASONS[actor.adresse];
+        const tooltipText = outside && reason
+          ? `${actor.navn}<br><span style="font-size:10px;color:#F59E0B;">⚠ ${reason}</span>`
+          : actor.navn;
+
+        marker.bindTooltip(tooltipText, {
           direction: 'top',
           offset: [0, -8],
           className: 'aktor-tooltip',
@@ -191,6 +218,11 @@ export default function AktorMap({
                   </button>
                 </div>
                 <div className="mt-2 text-xs text-gray-500">{selectedAktor.adresse}</div>
+                {isOutsideBounds(selectedAktor.lat, selectedAktor.lng) && (
+                  <div className="mt-1.5 rounded-md bg-amber-50 px-2 py-1 text-[11px] text-amber-700">
+                    ⚠ {OUTSIDE_REASONS[selectedAktor.adresse] || 'Registrert utenfor Grünerløkka-utsnittet'}
+                  </div>
+                )}
                 <div className="mt-3 grid grid-cols-3 gap-2">
                   <div className="rounded-lg bg-gray-50 p-2 text-center">
                     <div className="text-xs font-bold text-natural-forest">
