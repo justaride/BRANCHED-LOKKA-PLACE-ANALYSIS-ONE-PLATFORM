@@ -18,6 +18,7 @@ function LoginForm() {
   const rawReturnUrl = searchParams.get('from') || '/main-board';
   const returnUrl = rawReturnUrl.startsWith('/') && !rawReturnUrl.startsWith('//') ? rawReturnUrl : '/main-board';
 
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
@@ -32,16 +33,17 @@ function LoginForm() {
       const res = await fetch('/api/auth', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ action: 'password', password }),
+        body: JSON.stringify({ action: 'password', email, password }),
       });
 
       const data = await res.json();
 
       if (res.ok && data.success) {
         setSuccess(true);
-        setTimeout(() => { window.location.href = returnUrl; }, 500);
+        const redirect = data.redirectTo || returnUrl;
+        setTimeout(() => { window.location.href = redirect; }, 500);
       } else {
-        setError(data.error || 'Ugyldig passord');
+        setError(data.error || 'Ugyldig e-post eller passord');
         setLoading(false);
       }
     } catch {
@@ -56,10 +58,28 @@ function LoginForm() {
         <div className="rounded-lg bg-white p-8 shadow-lg">
           <div className="mb-8 text-center">
             <h1 className="mb-2 text-2xl font-bold text-gray-900">Logg inn</h1>
-            <p className="text-gray-600">Løkka Gårdeierforening & Natural State</p>
+            <p className="text-gray-600">Løkka Gårdeierforening</p>
           </div>
 
           <form onSubmit={handlePasswordLogin} className="space-y-4">
+            <div>
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                E-post
+              </label>
+              <input
+                id="email"
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="din@epost.no"
+                className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                required
+                disabled={loading || success}
+                autoComplete="email"
+                autoFocus
+              />
+            </div>
+
             <div>
               <label htmlFor="password" className="block text-sm font-medium text-gray-700">
                 Passord
@@ -74,7 +94,6 @@ function LoginForm() {
                 required
                 disabled={loading || success}
                 autoComplete="current-password"
-                autoFocus
               />
             </div>
 

@@ -31,6 +31,67 @@ export default function ArsmotetPage() {
       </section>
 
       <Container className="py-8 md:py-12">
+        {/* SEKSJON 0: Siste oppdateringer */}
+        <section className="mb-12 md:mb-16 print:mb-6 print:break-inside-avoid">
+          <div className="rounded-xl border border-green-200/60 bg-gradient-to-br from-green-50/80 to-white p-5 md:p-8">
+            <div className="mb-4 flex items-center gap-2">
+              <div className="h-2 w-2 rounded-full bg-green-500" />
+              <h2 className="text-lg font-bold text-natural-forest">Siste oppdateringer i plattformen</h2>
+            </div>
+            <div className="grid gap-x-8 gap-y-3 text-sm sm:grid-cols-2">
+              <div className="flex items-start gap-2">
+                <span className="mt-0.5 text-green-600">+</span>
+                <div>
+                  <span className="font-semibold text-gray-800">Løkka i Tall</span>
+                  <span className="text-gray-500"> — Ny fokusert dashboard med fottrafikk, besøksmønstre og aktøroversikt</span>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="mt-0.5 text-green-600">+</span>
+                <div>
+                  <span className="font-semibold text-gray-800">Interaktivt aktørkart</span>
+                  <span className="text-gray-500"> — 329 av 350 aktører plottet med fargekoding og kategorifilter</span>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="mt-0.5 text-green-600">+</span>
+                <div>
+                  <span className="font-semibold text-gray-800">Nedre Løkka Utsnitt</span>
+                  <span className="text-gray-500"> — Komplett Plaace-analyse for 0,27 km² område</span>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="mt-0.5 text-green-600">+</span>
+                <div>
+                  <span className="font-semibold text-gray-800">Datatransparens</span>
+                  <span className="text-gray-500"> — Metodologisider, tooltips og endringslogg på alle analysesider</span>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="mt-0.5 text-green-600">+</span>
+                <div>
+                  <span className="font-semibold text-gray-800">Biblioteket utvidet</span>
+                  <span className="text-gray-500"> — 6 kategorier inkl. ny idrett- og mediebildetseksjon</span>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="mt-0.5 text-green-600">+</span>
+                <div>
+                  <span className="font-semibold text-gray-800">Sammenligning 2024/2025</span>
+                  <span className="text-gray-500"> — Dynamisk årssammenligning mellom 4 bydeler</span>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="mt-0.5 text-green-600">+</span>
+                <div>
+                  <span className="font-semibold text-gray-800">Forenklet innlogging</span>
+                  <span className="text-gray-500"> — Google-autentisering via Cloudflare Zero Trust</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* SEKSJON 1: Hero - Løkka i tall */}
         <section className="mb-16 md:mb-20 print:mb-8 print:break-inside-avoid">
           <div className="mb-8">
@@ -156,7 +217,7 @@ export default function ArsmotetPage() {
                 <tbody>
                   {topActors.map((actor) => (
                     <tr key={actor.rank} className="border-b border-gray-50 last:border-0">
-                      <td className="px-4 py-3 font-medium text-gray-400 md:px-6">{actor.rank}</td>
+                      <td className="px-4 py-3 font-medium text-gray-400 md:px-6">{actor.rank.replace('#', '')}</td>
                       <td className="px-4 py-3 font-semibold text-natural-forest md:px-6">{actor.navn}</td>
                       <td className="px-4 py-3 text-gray-600 md:px-6">{actor.type}</td>
                       <td className="px-4 py-3 text-right font-medium md:px-6">{actor.omsetning}M</td>
@@ -299,12 +360,12 @@ export default function ArsmotetPage() {
                 <PlatformRow
                   feature="Kulturhistorie"
                   standard="Ikke tilgjengelig"
-                  custom="Biblioteket: 170+ hendelser, ildsjeler, litteratur, idrett"
+                  custom="Biblioteket: 6 kategorier, 31 ildsjeler, 49 litteraturverk, 40 historiske hendelser, 15+ undersider"
                 />
                 <PlatformRow
                   feature="Tilgang"
                   standard="Delt login"
-                  custom="Per-gårdeier dashboards med sikker OTP-innlogging"
+                  custom="Per-gårdeier dashboards med sikker Google-innlogging (Cloudflare Zero Trust)"
                 />
               </tbody>
             </table>
