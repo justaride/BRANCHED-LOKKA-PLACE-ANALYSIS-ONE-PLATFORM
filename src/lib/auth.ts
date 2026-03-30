@@ -1,10 +1,10 @@
 import { SignJWT, jwtVerify } from 'jose';
 import type { TenantSlug } from '@/config/tenants';
 import { TENANTS } from '@/config/tenants';
-import { getAllowedEmails, getAdminEmails } from '@/lib/tenant-emails';
 
 const ALGORITHM = 'HS256';
 const SESSION_EXPIRY = '90d';
+const OTP_EXPIRY = '10m';
 
 function getSecret(): Uint8Array {
   const secret = process.env.AUTH_SECRET;
@@ -21,6 +21,39 @@ export type UnifiedSessionPayload = {
   iat: number;
   exp: number;
 };
+
+type OTPPayload = {
+  sub: string;
+  code: string;
+  purpose: 'otp';
+  iat: number;
+  exp: number;
+};
+
+export function generateOTP(): string {
+  const array = new Uint32Array(1);
+  crypto.getRandomValues(array);
+  return String(array[0] % 1000000).padStart(6, '0');
+}
+
+export async function createOTPToken(email: string, code: string): Promise<string> {
+  return new SignJWT({ sub: email, code, purpose: 'otp' })
+    .setProtectedHeader({ alg: ALGORITHM })
+    .setIssuedAt()
+    .setExpirationTime(OTP_EXPIRY)
+    .sign(getSecret());
+}
+
+export async function verifyOTPToken(token: string, code: string): Promise<string | null> {
+  try {
+    const { payload } = await jwtVerify(token, getSecret());
+    const p = payload as unknown as OTPPayload;
+    if (p.purpose !== 'otp' || p.code !== code) return null;
+    return p.sub;
+  } catch {
+    return null;
+  }
+}
 
 export async function verifySessionToken(
   token: string
@@ -45,30 +78,12 @@ export async function createUnifiedSessionToken(
     .sign(getSecret());
 }
 
-export function resolveUserTenants(
-  email: string
-): { tenants: TenantSlug[]; isAdmin: boolean } {
-  const normalized = email.trim().toLowerCase();
-  const adminEmails = getAdminEmails();
-  const isAdmin = adminEmails.includes(normalized);
+export function isAllowedEmail(email: string): boolean {
+  const raw = process.env.ALLOWED_EMAILS || '';
+  const allowed = raw.split(',').map(e => e.trim().toLowerCase()).filter(Boolean);
+  return allowed.includes(email.trim().toLowerCase());
+}
 
-  if (isAdmin) {
-    const allTenants = Object.keys(TENANTS) as TenantSlug[];
-    return { tenants: allTenants, isAdmin: true };
-  }
-
-  const tenants: TenantSlug[] = [];
-  for (const slug of Object.keys(TENANTS) as TenantSlug[]) {
-    if (slug === 'main-board') continue;
-    const allowed = getAllowedEmails(slug);
-    if (allowed.includes(normalized)) {
-      tenants.push(slug);
-    }
-  }
-
-  if (tenants.length > 0) {
-    tenants.push('main-board');
-  }
-
-  return { tenants, isAdmin: false };
+export function getAllTenantSlugs(): TenantSlug[] {
+  return Object.keys(TENANTS) as TenantSlug[];
 }

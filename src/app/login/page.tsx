@@ -18,12 +18,14 @@ function LoginForm() {
   const rawReturnUrl = searchParams.get('from') || '/main-board';
   const returnUrl = rawReturnUrl.startsWith('/') && !rawReturnUrl.startsWith('//') ? rawReturnUrl : '/main-board';
 
-  const [password, setPassword] = useState('');
+  const [step, setStep] = useState<'email' | 'otp'>('email');
+  const [email, setEmail] = useState('');
+  const [code, setCode] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
 
-  const handlePasswordLogin = async (e: React.FormEvent) => {
+  const handleSendOTP = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
     setLoading(true);
@@ -32,7 +34,34 @@ function LoginForm() {
       const res = await fetch('/api/auth', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ password }),
+        body: JSON.stringify({ email }),
+      });
+
+      const data = await res.json();
+
+      if (res.ok && data.success) {
+        setStep('otp');
+        setLoading(false);
+      } else {
+        setError(data.error || 'Noe gikk galt');
+        setLoading(false);
+      }
+    } catch {
+      setError('En feil oppstod. Vennligst prøv igjen.');
+      setLoading(false);
+    }
+  };
+
+  const handleVerifyOTP = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError('');
+    setLoading(true);
+
+    try {
+      const res = await fetch('/api/auth', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'verify-otp', code }),
       });
 
       const data = await res.json();
@@ -41,7 +70,7 @@ function LoginForm() {
         setSuccess(true);
         setTimeout(() => { window.location.href = returnUrl; }, 500);
       } else {
-        setError(data.error || 'Ugyldig passord');
+        setError(data.error || 'Ugyldig kode');
         setLoading(false);
       }
     } catch {
@@ -59,49 +88,102 @@ function LoginForm() {
             <p className="text-gray-600">Løkka Gårdeierforening</p>
           </div>
 
-          <form onSubmit={handlePasswordLogin} className="space-y-4">
-            <div>
-              <label htmlFor="password" className="block text-sm font-medium text-gray-700">
-                Passord
-              </label>
-              <input
-                id="password"
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                placeholder="Skriv inn passord"
-                className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-blue-500"
-                required
-                disabled={loading || success}
-                autoComplete="current-password"
-                autoFocus
-              />
-            </div>
-
-            {error && (
-              <div className="rounded-md bg-red-50 p-3 text-sm text-red-800">{error}</div>
-            )}
-
-            {success && (
-              <div className="rounded-md bg-green-50 p-3 text-sm text-green-800">
-                Innlogging vellykket! Videresender...
+          {step === 'email' ? (
+            <form onSubmit={handleSendOTP} className="space-y-4">
+              <div>
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                  E-post
+                </label>
+                <input
+                  id="email"
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="din@epost.no"
+                  className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                  required
+                  disabled={loading}
+                  autoComplete="email"
+                  autoFocus
+                />
               </div>
-            )}
 
-            <button
-              type="submit"
-              disabled={loading || success}
-              className="w-full rounded-md bg-blue-600 px-4 py-2 font-semibold text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 transition-all"
-            >
-              {success ? (
-                <span className="flex items-center justify-center gap-2"><Spinner /> Videresender...</span>
-              ) : loading ? (
-                <span className="flex items-center justify-center gap-2"><Spinner /> Logger inn...</span>
-              ) : (
-                'Logg inn'
+              {error && (
+                <div className="rounded-md bg-red-50 p-3 text-sm text-red-800">{error}</div>
               )}
-            </button>
-          </form>
+
+              <button
+                type="submit"
+                disabled={loading}
+                className="w-full rounded-md bg-blue-600 px-4 py-2 font-semibold text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 transition-all"
+              >
+                {loading ? (
+                  <span className="flex items-center justify-center gap-2"><Spinner /> Sender kode...</span>
+                ) : (
+                  'Send innloggingskode'
+                )}
+              </button>
+            </form>
+          ) : (
+            <form onSubmit={handleVerifyOTP} className="space-y-4">
+              <p className="text-sm text-gray-600 text-center">
+                Vi har sendt en kode til <strong>{email}</strong>
+              </p>
+
+              <div>
+                <label htmlFor="code" className="block text-sm font-medium text-gray-700">
+                  Kode
+                </label>
+                <input
+                  id="code"
+                  type="text"
+                  inputMode="numeric"
+                  pattern="[0-9]*"
+                  maxLength={6}
+                  value={code}
+                  onChange={(e) => setCode(e.target.value.replace(/\D/g, ''))}
+                  placeholder="123456"
+                  className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-center text-2xl tracking-widest shadow-sm focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                  required
+                  disabled={loading || success}
+                  autoComplete="one-time-code"
+                  autoFocus
+                />
+              </div>
+
+              {error && (
+                <div className="rounded-md bg-red-50 p-3 text-sm text-red-800">{error}</div>
+              )}
+
+              {success && (
+                <div className="rounded-md bg-green-50 p-3 text-sm text-green-800">
+                  Innlogging vellykket! Videresender...
+                </div>
+              )}
+
+              <button
+                type="submit"
+                disabled={loading || success || code.length !== 6}
+                className="w-full rounded-md bg-blue-600 px-4 py-2 font-semibold text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 transition-all"
+              >
+                {success ? (
+                  <span className="flex items-center justify-center gap-2"><Spinner /> Videresender...</span>
+                ) : loading ? (
+                  <span className="flex items-center justify-center gap-2"><Spinner /> Verifiserer...</span>
+                ) : (
+                  'Bekreft kode'
+                )}
+              </button>
+
+              <button
+                type="button"
+                onClick={() => { setStep('email'); setCode(''); setError(''); }}
+                className="w-full text-sm text-gray-500 hover:text-gray-700"
+              >
+                Bruk en annen e-post
+              </button>
+            </form>
+          )}
 
           <div className="mt-6 text-center">
             <Link href="/" className="text-sm text-blue-600 hover:text-blue-800">
