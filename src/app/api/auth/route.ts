@@ -1,231 +1,67 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getTenant } from '@/config/tenants';
 import {
-  createSessionToken,
   createUnifiedSessionToken,
-  generateOTP,
-  createOTPToken,
-  verifyOTPToken,
+  verifyGoogleToken,
   resolveUserTenants,
 } from '@/lib/auth';
-import { sendOTPEmail } from '@/lib/email';
-import { isEmailAllowed } from '@/lib/tenant-emails';
+import type { TenantSlug } from '@/config/tenants';
+import { TENANTS } from '@/config/tenants';
 
-const RATE_LIMIT_WINDOW = 5 * 60 * 1000;
-const MAX_OTP_REQUESTS = 5;
-const MAX_CODE_ATTEMPTS = 5;
 const SESSION_MAX_AGE = 60 * 60 * 24 * 90;
 
-type RateLimitEntry = { count: number; resetAt: number };
-const otpRequestLimits = new Map<string, RateLimitEntry>();
-const codeAttemptLimits = new Map<string, RateLimitEntry>();
+const COOKIE_OPTS = {
+  httpOnly: true,
+  secure: process.env.NODE_ENV === 'production',
+  sameSite: 'lax' as const,
+  maxAge: SESSION_MAX_AGE,
+  path: '/',
+};
 
-function isRateLimited(map: Map<string, RateLimitEntry>, key: string, max: number): boolean {
-  const now = Date.now();
-  const entry = map.get(key);
-
-  if (!entry || now > entry.resetAt) {
-    map.set(key, { count: 1, resetAt: now + RATE_LIMIT_WINDOW });
-    return false;
+async function handleGoogle(body: { credential?: string }): Promise<NextResponse> {
+  const { credential } = body;
+  if (!credential) {
+    return NextResponse.json({ error: 'Token mangler' }, { status: 400 });
   }
 
-  entry.count++;
-  return entry.count > max;
-}
-
-function getClientIP(request: NextRequest): string {
-  return (
-    request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||
-    request.headers.get('x-real-ip') ||
-    'unknown'
-  );
-}
-
-async function handleRequestOTP(
-  body: { email?: string; tenant?: string },
-  request: NextRequest
-): Promise<NextResponse> {
-  const { email, tenant } = body;
-
-  if (!email || !tenant) {
-    return NextResponse.json({ error: 'E-post og tenant er påkrevd' }, { status: 400 });
+  const googleUser = await verifyGoogleToken(credential);
+  if (!googleUser) {
+    return NextResponse.json({ error: 'Ugyldig Google-token' }, { status: 401 });
   }
 
-  const tenantConfig = getTenant(tenant);
-  if (!tenantConfig) {
-    return NextResponse.json({ error: 'Ugyldig tenant' }, { status: 400 });
-  }
+  const email = googleUser.email.trim().toLowerCase();
+  const { tenants } = resolveUserTenants(email);
 
-  const normalizedEmail = email.trim().toLowerCase();
-  const ip = getClientIP(request);
-  const rateLimitKey = `${ip}:${normalizedEmail}`;
+  const allTenants = tenants.length > 0
+    ? tenants
+    : (Object.keys(TENANTS) as TenantSlug[]);
 
-  if (isRateLimited(otpRequestLimits, rateLimitKey, MAX_OTP_REQUESTS)) {
-    return NextResponse.json(
-      { error: 'For mange forsøk. Vennligst vent noen minutter.' },
-      { status: 429 }
-    );
-  }
+  const token = await createUnifiedSessionToken(email, allTenants, 'main-board');
 
-  const { tenants: resolvedTenants } = resolveUserTenants(normalizedEmail);
-  const hasAccess =
-    isEmailAllowed(tenant, normalizedEmail) ||
-    resolvedTenants.includes(tenant as import('@/config/tenants').TenantSlug);
-
-  if (!hasAccess) {
-    return NextResponse.json({ success: true, hint: 'not-registered' });
-  }
-
-  const code = generateOTP();
-  const result = await sendOTPEmail(normalizedEmail, code, tenantConfig.displayName);
-
-  if (!result.success) {
-    return NextResponse.json(
-      { error: 'Kunne ikke sende e-post. Prøv igjen senere.' },
-      { status: 500 }
-    );
-  }
-
-  const otpToken = await createOTPToken(code, normalizedEmail, tenant);
-
-  const response = NextResponse.json({ success: true, hint: 'sent' });
-  response.cookies.set('otp-pending', otpToken, {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === 'production',
-    sameSite: 'lax',
-    maxAge: 5 * 60,
-    path: '/',
-  });
-
+  const response = NextResponse.json({ success: true, tenants: allTenants });
+  response.cookies.set('lokka-session', token, COOKIE_OPTS);
   return response;
 }
 
-async function handleVerifyOTP(
-  body: { email?: string; tenant?: string; code?: string },
-  request: NextRequest
-): Promise<NextResponse> {
-  const { email, tenant, code } = body;
-
-  if (!email || !tenant || !code) {
-    return NextResponse.json(
-      { error: 'E-post, tenant og kode er påkrevd' },
-      { status: 400 }
-    );
+async function handlePassword(body: { password?: string }): Promise<NextResponse> {
+  const { password } = body;
+  if (!password) {
+    return NextResponse.json({ error: 'Passord er påkrevd' }, { status: 400 });
   }
 
-  const tenantConfig = getTenant(tenant);
-  if (!tenantConfig) {
-    return NextResponse.json({ error: 'Ugyldig tenant' }, { status: 400 });
-  }
-
-  const normalizedEmail = email.trim().toLowerCase();
-  const ip = getClientIP(request);
-  const rateLimitKey = `${ip}:${normalizedEmail}:verify`;
-
-  if (isRateLimited(codeAttemptLimits, rateLimitKey, MAX_CODE_ATTEMPTS)) {
-    return NextResponse.json(
-      { error: 'For mange forsøk. Be om en ny kode.' },
-      { status: 429 }
-    );
-  }
-
-  const otpCookie = request.cookies.get('otp-pending');
-  if (!otpCookie) {
-    return NextResponse.json(
-      { error: 'Koden har utløpt. Be om en ny kode.' },
-      { status: 400 }
-    );
-  }
-
-  const valid = await verifyOTPToken(otpCookie.value, code, normalizedEmail, tenant);
-  if (!valid) {
-    return NextResponse.json({ error: 'Ugyldig kode' }, { status: 401 });
-  }
-
-  const { tenants } = resolveUserTenants(normalizedEmail);
-  const loginTenant = tenant as import('@/config/tenants').TenantSlug;
-  const effectiveTenants = tenants.length > 0 ? tenants : [loginTenant, 'main-board' as const];
-  const unifiedToken = await createUnifiedSessionToken(
-    normalizedEmail,
-    effectiveTenants,
-    loginTenant
-  );
-  const legacyToken = await createSessionToken(normalizedEmail, tenant);
-
-  const cookieOpts = {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === 'production',
-    sameSite: 'lax' as const,
-    maxAge: SESSION_MAX_AGE,
-    path: '/',
-  };
-
-  const response = NextResponse.json({ success: true });
-  response.cookies.set('lokka-session', unifiedToken, cookieOpts);
-  response.cookies.set(`auth-${tenant}`, legacyToken, cookieOpts);
-  response.cookies.delete('otp-pending');
-
-  return response;
-}
-
-async function handlePassword(
-  body: { tenant?: string; password?: string }
-): Promise<NextResponse> {
-  const { tenant, password } = body;
-
-  if (!tenant || !password) {
-    return NextResponse.json(
-      { error: 'Tenant og passord er påkrevd' },
-      { status: 400 }
-    );
-  }
-
-  const tenantConfig = getTenant(tenant);
-  if (!tenantConfig) {
-    return NextResponse.json({ error: 'Ugyldig tenant' }, { status: 400 });
-  }
-
-  const correctPassword = process.env[tenantConfig.passwordEnvVar];
-  const adminPassword = process.env.ADMIN_PASSWORD;
-
-  if (!correctPassword && !adminPassword) {
-    console.error('Missing password env var for tenant:', tenant);
+  const platformPassword = process.env.PLATFORM_PASSWORD;
+  if (!platformPassword) {
     return NextResponse.json({ error: 'Serverkonfigurasjonsfeil' }, { status: 500 });
   }
 
-  const isAdmin = adminPassword && password === adminPassword;
-  const isTenant = correctPassword && password === correctPassword;
-
-  if (!isAdmin && !isTenant) {
+  if (password !== platformPassword) {
     return NextResponse.json({ error: 'Ugyldig passord' }, { status: 401 });
   }
 
-  const email = isAdmin ? 'admin' : 'tenant-user';
-  const loginTenant = tenant as import('@/config/tenants').TenantSlug;
+  const allTenants = Object.keys(TENANTS) as TenantSlug[];
+  const token = await createUnifiedSessionToken('platform-user', allTenants, 'main-board');
 
-  let effectiveTenants: import('@/config/tenants').TenantSlug[];
-  if (isAdmin) {
-    const { tenants: allTenants } = resolveUserTenants(email);
-    effectiveTenants = allTenants;
-  } else {
-    effectiveTenants = [loginTenant, 'main-board' as const];
-  }
-
-  const unifiedToken = await createUnifiedSessionToken(email, effectiveTenants, loginTenant);
-  const legacyToken = await createSessionToken(email, tenant);
-
-  const cookieOpts = {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === 'production',
-    sameSite: 'lax' as const,
-    maxAge: SESSION_MAX_AGE,
-    path: '/',
-  };
-
-  const response = NextResponse.json({ success: true });
-  response.cookies.set('lokka-session', unifiedToken, cookieOpts);
-  response.cookies.set(`auth-${tenant}`, legacyToken, cookieOpts);
-
+  const response = NextResponse.json({ success: true, tenants: allTenants });
+  response.cookies.set('lokka-session', token, COOKIE_OPTS);
   return response;
 }
 
@@ -235,10 +71,8 @@ export async function POST(request: NextRequest) {
     const action = body.action || 'password';
 
     switch (action) {
-      case 'request-otp':
-        return handleRequestOTP(body, request);
-      case 'verify-otp':
-        return handleVerifyOTP(body, request);
+      case 'google':
+        return handleGoogle(body);
       case 'password':
         return handlePassword(body);
       default:
