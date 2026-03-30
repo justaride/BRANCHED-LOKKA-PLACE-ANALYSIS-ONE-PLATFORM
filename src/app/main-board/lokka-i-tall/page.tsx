@@ -8,6 +8,7 @@ import {
   HourlyChart,
   OriginChart,
 } from '@/components/lokka-i-tall/LokkaITallCharts';
+import LokkaMethodology from '@/components/lokka-i-tall/LokkaMethodology';
 
 import ovreTmgNokkel from '@/data/main-board/ovre-thorvald-meyers-gate/nokkeldata.json';
 import nedreTmgNokkel from '@/data/main-board/nedre-thorvald-meyers-gate/nokkeldata.json';
@@ -30,11 +31,11 @@ import midtMvAktorer from '@/data/main-board/aktorer/midt-i-markveien.json';
 import nederstMvAktorer from '@/data/main-board/aktorer/nederst-i-markveien.json';
 
 export const metadata = {
-  title: 'Lokka i tall',
-  description: 'Fokusert analyse: fottrafikk, besoksmonstre, aktoeroversikt og bevegelse for Grunerloekka',
+  title: 'Løkka i tall',
+  description: 'Fokusert analyse: fottrafikk, besøksmønstre, aktøroversikt og bevegelse for Grünerløkka',
 };
 
-const DAYS = ['man.', 'tir.', 'ons.', 'tor.', 'fre.', 'lor.', 'son.'];
+const DAYS = ['man.', 'tir.', 'ons.', 'tor.', 'fre.', 'lør.', 'søn.'];
 
 function extractBesokende(
   row: Record<string, unknown>,
@@ -114,7 +115,7 @@ export default function LokkaITallPage() {
       name: 'Thorvald Meyers gate',
       total: ovreDaglig + nedreDaglig,
       areas: [
-        { name: 'Ovre (TMG 30, 0.02 km\u00B2)', value: ovreDaglig },
+        { name: 'Øvre (TMG 30, 0.02 km\u00B2)', value: ovreDaglig },
         { name: 'Nedre (TMG 75, 0.04 km\u00B2)', value: nedreDaglig },
       ],
       color: '#1a4d2e',
@@ -132,8 +133,8 @@ export default function LokkaITallPage() {
       name: 'Olaf Ryes plass',
       total: orp7Daglig + bootsDaglig,
       areas: [
-        { name: '7-Eleven-omradet (0.01 km\u00B2)', value: orp7Daglig },
-        { name: 'Boots-omradet (0.01 km\u00B2)', value: bootsDaglig },
+        { name: '7-Eleven-området (0.01 km\u00B2)', value: orp7Daglig },
+        { name: 'Boots-området (0.01 km\u00B2)', value: bootsDaglig },
       ],
       color: '#4A8B4C',
     },
@@ -152,8 +153,8 @@ export default function LokkaITallPage() {
     { dag: 'ons.', besokende: 51681 },
     { dag: 'tor.', besokende: 53069 },
     { dag: 'fre.', besokende: 61241 },
-    { dag: 'lor.', besokende: 64185 },
-    { dag: 'son.', besokende: 48008 },
+    { dag: 'lør.', besokende: 64185 },
+    { dag: 'søn.', besokende: 48008 },
   ];
 
   const hourlyData = [
@@ -172,13 +173,13 @@ export default function LokkaITallPage() {
   ];
 
   const originData = [
-    { omrade: 'Grunerloekka', prosent: 14.59 },
+    { omrade: 'Grünerløkka', prosent: 14.59 },
     { omrade: 'Torshov', prosent: 7.33 },
-    { omrade: 'Rodelokka', prosent: 7.27 },
+    { omrade: 'Rodeløkka', prosent: 7.27 },
     { omrade: 'Sentrum', prosent: 6.35 },
     { omrade: 'Gamle Aker', prosent: 3.53 },
-    { omrade: 'Toyen', prosent: 3.02 },
-    { omrade: 'Gronland', prosent: 2.16 },
+    { omrade: 'Tøyen', prosent: 3.02 },
+    { omrade: 'Grønland', prosent: 2.16 },
     { omrade: 'Ila', prosent: 1.89 },
     { omrade: 'Hasle', prosent: 1.65 },
     { omrade: 'Bjerke', prosent: 1.48 },
@@ -188,9 +189,9 @@ export default function LokkaITallPage() {
   const top10 = actors.slice(0, 10);
 
   const areaActors = [
-    { name: 'Ovre TMG', count: ovreTmgAktorer.metadata.totalActors, revenue: Math.round(ovreTmgAktorer.metadata.totalRevenue), profile: 'Handels-dominert' },
+    { name: 'Øvre TMG', count: ovreTmgAktorer.metadata.totalActors, revenue: Math.round(ovreTmgAktorer.metadata.totalRevenue), profile: 'Handels-dominert' },
     { name: 'Nedre TMG', count: nedreTmgAktorer.metadata.totalActors, revenue: Math.round(nedreTmgAktorer.metadata.totalRevenue), profile: 'Restaurant-tungt' },
-    { name: 'Midt i Markveien', count: midtMvAktorer.metadata.totalActors, revenue: midtMvAktorer.metadata.totalRevenue, profile: 'Fa, sterke aktorer' },
+    { name: 'Midt i Markveien', count: midtMvAktorer.metadata.totalActors, revenue: midtMvAktorer.metadata.totalRevenue, profile: 'Få, sterke aktører' },
     { name: 'Nederst i Markveien', count: nederstMvAktorer.metadata.totalActors, revenue: nederstMvAktorer.metadata.totalRevenue, profile: 'Mat og uteliv' },
   ];
 
@@ -203,11 +204,11 @@ export default function LokkaITallPage() {
             Fokusert analyse 2026
           </div>
           <h1 className="mb-2 text-3xl font-bold text-natural-forest md:text-4xl">
-            Lokka i tall
+            Løkka i tall
           </h1>
           <p className="max-w-2xl text-gray-600">
-            Fottrafikk, besoksmonstre og naeringsaktorer for Grunerloekka.
-            Basert pa 3 ar med Telia mobildata og Plaace.ai aktoerkartlegging.
+            Fottrafikk, besøksmønstre og næringsaktører for Grünerløkka.
+            Basert på 3 år med Telia mobildata og Plaace.ai aktørkartlegging.
           </p>
         </div>
       </FadeIn>
@@ -217,36 +218,31 @@ export default function LokkaITallPage() {
         <div className="mb-12 grid gap-4 md:grid-cols-3">
           <Card>
             <CardContent className="text-center">
-              <div className="text-xs font-semibold uppercase tracking-wide text-gray-500">Daglige besokende (2025)</div>
+              <div className="text-xs font-semibold uppercase tracking-wide text-gray-500">Daglige besøkende (2025)</div>
               <div className="mt-1 text-3xl font-bold text-natural-forest">~53 700</div>
-              <div className="mt-1 text-xs text-gray-400">Hele Grunerloekka, 1.14 km2</div>
+              <div className="mt-1 text-xs text-gray-400">Hele Grünerløkka, 1.14 km²</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="text-center">
               <div className="text-xs font-semibold uppercase tracking-wide text-gray-500">Kartlagte virksomheter</div>
               <div className="mt-1 text-3xl font-bold text-natural-forest">{aktorMeta.totalActors}</div>
-              <div className="mt-1 text-xs text-gray-400">Plaace.ai aktoerkartlegging</div>
+              <div className="mt-1 text-xs text-gray-400">Plaace.ai aktørkartlegging</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="text-center">
               <div className="text-xs font-semibold uppercase tracking-wide text-gray-500">Datagrunnlag</div>
-              <div className="mt-1 text-3xl font-bold text-natural-forest">3 ar</div>
+              <div className="mt-1 text-3xl font-bold text-natural-forest">3 år</div>
               <div className="mt-1 text-xs text-gray-400">Okt 2022 - sept 2025 (Telia)</div>
             </CardContent>
           </Card>
         </div>
       </FadeIn>
 
-      {/* Info Box */}
+      {/* Metodologi */}
       <FadeIn delay={150} direction="up">
-        <div className="mb-12 rounded-xl border border-gray-200 bg-gray-50 p-5 text-sm text-gray-600">
-          <strong className="text-gray-800">Om tallene:</strong> Besokstallene er basert pa mobildata fra Telia, samlet over 3 ar.
-          Personene er delt i tre kategorier: <strong>Besokende</strong> (verken bor eller jobber der),{' '}
-          <strong>Pa jobb</strong> (arbeider i omradet), og <strong>Hjemme</strong> (bor i omradet).
-          Aktoerdata er fra Plaace.ai.
-        </div>
+        <LokkaMethodology />
       </FadeIn>
 
       {/* SEKSJON 1: FOTTRAFIKK */}
@@ -254,7 +250,7 @@ export default function LokkaITallPage() {
         <div className="mb-12">
           <div className="mb-1 text-xs font-bold uppercase tracking-widest text-green-600">Seksjon 1</div>
           <h2 className="mb-2 text-2xl font-bold text-natural-forest">Fottrafikk per gate</h2>
-          <p className="mb-6 text-sm text-gray-500">Gjennomsnittlig daglig trafikk malt med Telia mobildata over 3 ar.</p>
+          <p className="mb-6 text-sm text-gray-500">Gjennomsnittlig daglig trafikk målt med Telia mobildata over 3 år.</p>
 
           <div className="mb-6 grid gap-4 md:grid-cols-3">
             {streets.map(street => (
@@ -279,12 +275,12 @@ export default function LokkaITallPage() {
           </div>
 
           <div className="rounded-xl border border-gray-200 bg-gray-50 p-4 text-xs text-gray-500">
-            <strong className="text-gray-700">Slik leser du tallene:</strong> TMG har dobbelt sa mye trafikk som Markveien,
-            som reflekterer at den dekker et storre areal (0.06 km2 vs 0.014 km2).
-            Boots-omradet har kortere maleperiode (okt 2024 - des 2025). Alle tall er daglige gjennomsnitt.
+            <strong className="text-gray-700">Slik leser du tallene:</strong> TMG har dobbelt så mye trafikk som Markveien,
+            som reflekterer at den dekker et større areal (0.06 km² vs 0.014 km²).
+            Boots-området har kortere måleperiode (okt 2024 - des 2025). Alle tall er daglige gjennomsnitt.
           </div>
 
-          <h3 className="mb-4 mt-8 text-lg font-semibold text-gray-800">Besokende per ukedag (kun besokende, ikke bosatte/arbeidende)</h3>
+          <h3 className="mb-4 mt-8 text-lg font-semibold text-gray-800">Besøkende per ukedag (kun besøkende, ikke bosatte/arbeidende)</h3>
           <div className="grid gap-4 md:grid-cols-3">
             {[
               { title: 'Thorvald Meyers gate', data: tmgWeekly, color: '#1a4d2e' },
@@ -301,27 +297,27 @@ export default function LokkaITallPage() {
           </div>
 
           <div className="mt-4 rounded-lg border-l-4 border-green-700 bg-green-50 p-4 text-sm">
-            <strong className="text-green-800">Noekkelfunn:</strong> Lordag er den travleste dagen i alle gater,
-            med 50-65% flere besokende enn mandager.
+            <strong className="text-green-800">Nøkkelfunn:</strong> Lørdag er den travleste dagen i alle gater,
+            med 50-65% flere besøkende enn mandager.
           </div>
         </div>
       </FadeIn>
 
-      {/* SEKSJON 2: BESOKSMONSTRE */}
+      {/* SEKSJON 2: BESØKSMØNSTRE */}
       <FadeIn delay={250} direction="up">
         <div className="mb-12">
           <div className="mb-1 text-xs font-bold uppercase tracking-widest text-green-600">Seksjon 2</div>
-          <h2 className="mb-2 text-2xl font-bold text-natural-forest">Besoksmonstre gjennom aret og uka</h2>
-          <p className="mb-6 text-sm text-gray-500">Grunnlag for arshjul og arrangementsplanlegging med Visitt Lokka.</p>
+          <h2 className="mb-2 text-2xl font-bold text-natural-forest">Besøksmønstre gjennom året og uka</h2>
+          <p className="mb-6 text-sm text-gray-500">Grunnlag for årshjul og arrangementsplanlegging med Visitt Løkka.</p>
 
           <Card className="mb-6">
             <CardContent>
-              <h3 className="mb-1 text-base font-semibold text-gray-800">Sesongvariasjon: Besokende per kvartal (2023-2025)</h3>
-              <p className="mb-4 text-xs text-gray-500">Daglig gjennomsnitt besokende per kvartal, hele Grunerloekka.</p>
+              <h3 className="mb-1 text-base font-semibold text-gray-800">Sesongvariasjon: Besøkende per kvartal (2023-2025)</h3>
+              <p className="mb-4 text-xs text-gray-500">Daglig gjennomsnitt besøkende per kvartal, hele Grünerløkka.</p>
               <SeasonChart data={seasonData} />
               <div className="mt-4 rounded-lg border-l-4 border-green-700 bg-green-50 p-4 text-sm">
-                <strong className="text-green-800">For arrangementsplanlegging:</strong> Q2 (april-juni) er hoysesong med opp mot 63 000 daglig.
-                Q1 er lavsesong. Aktiviteter pa varen og forsommeren nar flest. Nedgang 2023-2025 (ca. 7%) sees ogsa nasjonalt i bysentra.
+                <strong className="text-green-800">For arrangementsplanlegging:</strong> Q2 (april-juni) er høysesong med opp mot 63 000 daglig.
+                Q1 er lavsesong. Aktiviteter på våren og forsommeren når flest. Nedgang 2023-2025 (ca. 7%) sees også nasjonalt i bysentra.
               </div>
             </CardContent>
           </Card>
@@ -329,21 +325,21 @@ export default function LokkaITallPage() {
           <div className="grid gap-4 md:grid-cols-2">
             <Card>
               <CardContent>
-                <h3 className="mb-1 text-base font-semibold text-gray-800">Ukemonster (2025)</h3>
-                <p className="mb-4 text-xs text-gray-500">Daglig gjennomsnitt besokende, hele Grunerloekka.</p>
+                <h3 className="mb-1 text-base font-semibold text-gray-800">Ukemønster (2025)</h3>
+                <p className="mb-4 text-xs text-gray-500">Daglig gjennomsnitt besøkende, hele Grünerløkka.</p>
                 <WholeAreaWeeklyChart data={wholeAreaWeekly} />
                 <div className="mt-4 rounded-lg border-l-4 border-green-700 bg-green-50 p-3 text-sm">
-                  <strong className="text-green-800">Topp:</strong> Lordag: 64 185. <strong>Bunn:</strong> Mandag: 47 616. Lordag har 35% flere enn mandag.
+                  <strong className="text-green-800">Topp:</strong> Lørdag: 64 185. <strong>Bunn:</strong> Mandag: 47 616. Lørdag har 35% flere enn mandag.
                 </div>
               </CardContent>
             </Card>
             <Card>
               <CardContent>
-                <h3 className="mb-1 text-base font-semibold text-gray-800">Timesmonster (2025)</h3>
-                <p className="mb-4 text-xs text-gray-500">Daglig gjennomsnitt besokende per klokketime.</p>
+                <h3 className="mb-1 text-base font-semibold text-gray-800">Timesmønster (2025)</h3>
+                <p className="mb-4 text-xs text-gray-500">Daglig gjennomsnitt besøkende per klokketime.</p>
                 <HourlyChart data={hourlyData} />
                 <div className="mt-4 rounded-lg border-l-4 border-green-700 bg-green-50 p-3 text-sm">
-                  <strong className="text-green-800">Topptime:</strong> kl. 17 med 9 225. <strong>Beste vindu:</strong> 15:00-18:00. Fortsatt hoyt 18-20.
+                  <strong className="text-green-800">Topptime:</strong> kl. 17 med 9 225. <strong>Beste vindu:</strong> 15:00-18:00. Fortsatt høyt 18-20.
                 </div>
               </CardContent>
             </Card>
@@ -351,12 +347,12 @@ export default function LokkaITallPage() {
         </div>
       </FadeIn>
 
-      {/* SEKSJON 3: AKTOEROVERSIKT */}
+      {/* SEKSJON 3: AKTØROVERSIKT */}
       <FadeIn delay={300} direction="up">
         <div className="mb-12">
           <div className="mb-1 text-xs font-bold uppercase tracking-widest text-green-600">Seksjon 3</div>
-          <h2 className="mb-2 text-2xl font-bold text-natural-forest">Aktoeroversikt</h2>
-          <p className="mb-6 text-sm text-gray-500">{aktorMeta.totalActors} virksomheter kartlagt pa Grunerloekka.</p>
+          <h2 className="mb-2 text-2xl font-bold text-natural-forest">Aktøroversikt</h2>
+          <p className="mb-6 text-sm text-gray-500">{aktorMeta.totalActors} virksomheter kartlagt på Grünerløkka.</p>
 
           {/* KPI row */}
           <div className="mb-6 grid gap-4 md:grid-cols-3">
@@ -406,12 +402,12 @@ export default function LokkaITallPage() {
           {/* Per-street actors */}
           <Card className="mb-6">
             <CardContent>
-              <h3 className="mb-3 text-base font-semibold text-gray-800">Aktoermiks per gate</h3>
+              <h3 className="mb-3 text-base font-semibold text-gray-800">Aktørmiks per gate</h3>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead>
                     <tr className="border-b border-gray-200 text-left text-xs uppercase tracking-wide text-gray-500">
-                      <th className="py-3 pr-4">Omrade</th>
+                      <th className="py-3 pr-4">Område</th>
                       <th className="py-3 pr-4">Antall</th>
                       <th className="py-3 pr-4">Omsetning</th>
                       <th className="py-3">Profil</th>
@@ -435,7 +431,7 @@ export default function LokkaITallPage() {
           {/* Top 10 */}
           <Card>
             <CardContent>
-              <h3 className="mb-3 text-base font-semibold text-gray-800">Topp 10 aktorer etter omsetning</h3>
+              <h3 className="mb-3 text-base font-semibold text-gray-800">Topp 10 aktører etter omsetning</h3>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead>
@@ -465,20 +461,20 @@ export default function LokkaITallPage() {
         </div>
       </FadeIn>
 
-      {/* SEKSJON 4: BEVEGELSESMONSTRE */}
+      {/* SEKSJON 4: BEVEGELSESMØNSTRE */}
       <FadeIn delay={350} direction="up">
         <div className="mb-12">
           <div className="mb-1 text-xs font-bold uppercase tracking-widest text-green-600">Seksjon 4</div>
-          <h2 className="mb-2 text-2xl font-bold text-natural-forest">Hvor kommer besokende fra?</h2>
+          <h2 className="mb-2 text-2xl font-bold text-natural-forest">Hvor kommer besøkende fra?</h2>
           <p className="mb-6 text-sm text-gray-500">Geografisk opprinnelse, Telia mobildata 2024 (99,4% dekning).</p>
 
           <Card>
             <CardContent>
-              <h3 className="mb-3 text-base font-semibold text-gray-800">Topp 10 opprinnelsesomrader</h3>
+              <h3 className="mb-3 text-base font-semibold text-gray-800">Topp 10 opprinnelsesområder</h3>
               <OriginChart data={originData} />
               <div className="mt-4 rounded-lg border-l-4 border-green-700 bg-green-50 p-4 text-sm">
-                <strong className="text-green-800">Noekkelfunn:</strong> Over 35% av besokende kommer fra Grunerloekka og de naermeste naboomradene.
-                Sentrum bidrar med 6,4%. Lokal markedsfoering og samarbeid med nabobydeler kan vaere svart effektivt.
+                <strong className="text-green-800">Nøkkelfunn:</strong> Over 35% av besøkende kommer fra Grünerløkka og de nærmeste naboområdene.
+                Sentrum bidrar med 6,4%. Lokal markedsføring og samarbeid med nabobydeler kan være svært effektivt.
               </div>
             </CardContent>
           </Card>
@@ -487,8 +483,8 @@ export default function LokkaITallPage() {
 
       {/* Footer */}
       <div className="border-t border-gray-200 pt-6 text-center text-xs text-gray-400">
-        <p>Utarbeidet av Natural State for Lokka Gardeierforening &mdash; April 2026</p>
-        <p className="mt-1">Datakilder: Telia mobildata (3 ar) &bull; Plaace.ai aktoerkartlegging</p>
+        <p>Utarbeidet av Natural State for Løkka Gårdeierforening &mdash; April 2026</p>
+        <p className="mt-1">Datakilder: Telia mobildata (3 år) &bull; Plaace.ai aktørkartlegging</p>
       </div>
     </Container>
   );

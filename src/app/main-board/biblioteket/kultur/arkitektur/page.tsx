@@ -309,7 +309,7 @@ export default function ArkitekturPage() {
                             Ikoniske Bygg
                         </motion.h2>
                         <motion.p variants={fadeUpVariants} className="mb-8 text-gray-600">
-                            Bygninger som definerer bydelens karakter gjennom 160 ar.
+                            Bygninger som definerer bydelens karakter gjennom 160 år.
                         </motion.p>
                         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                             {data.iconicBuildings.map((building) => (

@@ -54,7 +54,7 @@ const PercentTooltip = ({ active, payload, label }: {
       <p className="mb-1 text-xs font-medium text-gray-500">{label}</p>
       {payload.map((entry, i) => (
         <p key={i} className="text-sm font-semibold" style={{ color: entry.color }}>
-          {entry.value.toFixed(1)}% av alle besokende
+          {entry.value.toFixed(1)}% av alle besøkende
         </p>
       ))}
     </div>
@@ -74,7 +74,7 @@ export function StreetWeeklyChart({ data, color }: { data: StreetWeeklyData; col
         <Tooltip content={<CustomTooltip />} />
         <Bar
           dataKey="besokende"
-          name="Besokende"
+          name="Besøkende"
           fill={color}
           radius={[4, 4, 0, 0]}
         />
@@ -116,7 +116,7 @@ export function WholeAreaWeeklyChart({ data }: { data: StreetWeeklyData }) {
         <Tooltip content={<CustomTooltip />} />
         <Bar
           dataKey="besokende"
-          name="Besokende"
+          name="Besøkende"
           fill="#1a4d2e"
           radius={[4, 4, 0, 0]}
         />
@@ -143,7 +143,7 @@ export function HourlyChart({ data }: { data: HourlyData }) {
         <Line
           type="monotone"
           dataKey="besokende"
-          name="Besokende"
+          name="Besøkende"
           stroke="#1a4d2e"
           strokeWidth={2}
           dot={{ fill: '#1a4d2e', r: 3 }}
