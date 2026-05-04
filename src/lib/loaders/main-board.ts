@@ -209,7 +209,14 @@ export async function loadAllSammenligningAreas() {
  * Contains comprehensive demographic data
  */
 export async function loadDemografi2017_2023() {
-  return null;
+  try {
+    const data =
+      await import("@/data/main-board/demografi/demografi-2017-2023.json");
+    return data.default;
+  } catch (error) {
+    console.error("Error loading demografi-2017-2023:", error);
+    throw new Error("Failed to load demografi 2017-2023");
+  }
 }
 
 // ============================================================================
