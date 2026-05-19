@@ -72,6 +72,7 @@ export default function ImageCarousel({ images = carouselImages }: { images?: st
                         src={images[currentIndex]}
                         alt={`Bilde ${currentIndex + 1}`}
                         fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 960px"
                         className="object-cover"
                         priority={currentIndex === 0}
                     />

@@ -533,291 +533,839 @@
     {
       "title": "Birkelunden – Murbyens hjerte (Riksantikvaren)",
       "url": "https://www.riksantikvaren.no/kulturhistorie/birkelunden-murbyens-hjerte/",
-      "type": "primær"
+      "publisher": "Riksantikvaren",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Forskrift om fredning av Birkelunden kulturmiljø (Lovdata)",
       "url": "https://lovdata.no/dokument/LF/forskrift/2006-04-28-442",
-      "type": "primær"
+      "publisher": "Lovdata",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Slik ble Grünerløkka reddet fra rasering (Dagsavisen)",
       "url": "https://www.dagsavisen.no/debatt/slik-ble-grnerlokka-reddet-fra-rasering/7582817",
-      "type": "sekundær"
+      "publisher": "Dagsavisen",
+      "accessedAt": "2026-05-18",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Husk – det er våre hjem det gjelder – Grünerløkka leieboerforening (Samfunnsgeografen/UiO)",
       "url": "https://foreninger.uio.no/samfunnsgeografen/aktuelt/2017:1/%E2%80%9Dhusk-%E2%80%93-det-er-vare-hjem-det-gjelder%E2%80%9D-%E2%80%93-gr%C3%BCnerlokk.html",
-      "type": "sekundær"
+      "publisher": "Universitetet i Oslo / Samfunnsgeografen",
+      "accessedAt": "2026-05-18",
+      "sourceType": "academic",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Byfornyelse på 1980-tallet (Oslo Byarkiv / Tobias)",
       "url": "https://www.oslo.kommune.no/OBA/tobias/tobiasartikler/t3978.htm",
-      "type": "primær"
+      "publisher": "Oslo kommune",
+      "accessedAt": "2026-05-18",
+      "sourceType": "archive",
+      "evidenceLevel": "primary"
     },
     {
       "title": "På tegnebrettet går allting an... (Oslo Byarkiv / Tobias)",
       "url": "https://www.oslo.kommune.no/OBA/tobias/tobiasartikler/t3943.htm",
-      "type": "primær"
+      "publisher": "Oslo kommune",
+      "accessedAt": "2026-05-18",
+      "sourceType": "archive",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Grünerløkka – boligstrøk i Oslo (Store norske leksikon)",
       "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka_-_boligstr%C3%B8k_i_Oslo",
-      "type": "sekundær"
+      "publisher": "Store norske leksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Murbyen Oslo – historie og utvikling",
       "url": "https://www.murbyenoslo.no/historier/murbyen-oslo",
-      "type": "sekundær"
+      "publisher": "Murbyen Oslo",
+      "accessedAt": "2026-05-18",
+      "sourceType": "other",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Leiegårdene i Oslos historiske murby (Wikipedia)",
       "url": "https://no.wikipedia.org/wiki/Leieg%C3%A5rdene_i_Oslos_historiske_murby",
-      "type": "sekundær"
+      "publisher": "Wikipedia",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Grünerløkka (strøk) – Oslo byleksikon",
       "url": "https://oslobyleksikon.no/side/Gr%C3%BCnerl%C3%B8kka_(str%C3%B8k)",
-      "type": "sekundær"
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Vulkan – Aspelin Ramm",
       "url": "https://www.aspelinramm.no/referanse/vulkan/",
-      "type": "primær"
+      "publisher": "Aspelin Ramm",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "LPO arkitekter – Vulkan",
       "url": "https://www.lpo.no/prosjekter/vulkan",
-      "type": "primær"
+      "publisher": "LPO arkitekter",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Schous Bryggeri (Store norske leksikon)",
       "url": "https://snl.no/Schous_Bryggeri",
-      "type": "sekundær"
+      "publisher": "Store norske leksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Henrik Bull – arkitekt (Store norske leksikon)",
       "url": "https://snl.no/Henrik_Bull",
-      "type": "sekundær"
+      "publisher": "Store norske leksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Georg Andreas Bull – arkitekt (Store norske leksikon)",
       "url": "https://snl.no/Georg_Andreas_Bull",
-      "type": "sekundær"
+      "publisher": "Store norske leksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Motorveien over Grünerløkka (Dagsavisen)",
       "url": "https://www.dagsavisen.no/nyheter/motorveien-over-grnerlokka/4713865",
-      "type": "sekundær"
+      "publisher": "Dagsavisen",
+      "accessedAt": "2026-05-18",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Historikk – Sølvsmiekvartalet på Grünerløkka",
       "url": "https://www.solvsmiekvartalet.no/historikk/",
-      "type": "primær"
+      "accessedAt": "2026-05-18",
+      "sourceType": "other",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Akerselva Miljøpark (Oslo byleksikon)",
       "url": "https://oslobyleksikon.no/side/Akerselva_Milj%C3%B8park",
-      "type": "sekundær"
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Byfornyelsens betydning for byutviklingen (Bullby)",
       "url": "https://bullby.net/wp-content/uploads/2025/05/Byfornyelsens-betydning-for-byutviklingen.pdf",
-      "type": "sekundær"
+      "publisher": "Bullby",
+      "accessedAt": "2026-05-18",
+      "sourceType": "other",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Gul liste – Kulturminner og bevaring (Oslo kommune)",
       "url": "https://www.oslo.kommune.no/plan-bygg-og-eiendom/kulturminner-og-bevaring/gul-liste/",
-      "type": "primær"
+      "publisher": "Oslo kommune",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Nedre Foss park – Oslo kommune",
       "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/parker-og-lekeplasser/nedre-foss-park/",
-      "type": "primær"
+      "publisher": "Oslo kommune",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Nedre Foss bypark – DOGA",
       "url": "https://doga.no/aktiviteter/dogas-priser/doga-merket-design-arkitektur/vinnere-av-doga-merket/nedre-foss-bypark/",
-      "type": "sekundær"
+      "publisher": "DOGA",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Nedre Foss bypark åpnet for publikum – Norconsult",
       "url": "https://norconsult.no/aktuelt/nedre-foss-bypark-aapnet-for-publikum/",
-      "type": "primær"
+      "publisher": "Norconsult",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Parkteatret – Om Parkteatret",
       "url": "https://www.parkteatret.no/om-parkteateret",
-      "type": "primær"
+      "publisher": "Parkteatret",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Parkteatret – Oslo byleksikon",
       "url": "https://oslobyleksikon.no/side/Parkteatret",
-      "type": "sekundær"
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Schouskvartalet – Oslo byleksikon",
       "url": "https://oslobyleksikon.no/side/Schouskvartalet",
-      "type": "sekundær"
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Riksscenen – Om oss",
       "url": "https://www.riksscenen.no/om-oss.556094.no.html",
-      "type": "primær"
+      "publisher": "Riksscenen",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Popsenteret – Avvikles",
       "url": "https://www.popsenteret.no/program/popsenteret-avvikles",
-      "type": "primær"
+      "publisher": "Popsenteret",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Hauges Minde – Oslo kommune",
       "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/kunst-og-kultur/kultureiendommer/hauges-minde/",
-      "type": "primær"
+      "publisher": "Oslo kommune",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Hauges Minde – lokalhistoriewiki",
       "url": "https://lokalhistoriewiki.no/Hauges_Minde_(Oslo)",
-      "type": "sekundær"
+      "publisher": "Lokalhistoriewiki",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Paulus kirke – Norske kirker",
+      "url": "https://www.norske-kirker.net/home/oslo/paulus-kirke/",
+      "publisher": "Norske kirker",
+      "accessedAt": "2026-05-18",
+      "sourceType": "other",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Hjula Væveri – Teknisk museum",
+      "url": "https://www.tekniskmuseum.no/en/collections/wheel-vaeveri",
+      "publisher": "Norsk Teknisk Museum",
+      "accessedAt": "2026-05-18",
+      "sourceType": "archive",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Sofienberg jødiske gravlund – Riksantikvaren",
+      "url": "https://www.riksantikvaren.no/fredninger/sofienberg-jodiske-gravlund/",
+      "publisher": "Riksantikvaren",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Grünerløkka skole – Skolens historie",
+      "url": "https://grunerlokka.osloskolen.no/om-skolen/om-oss/skolens-historie2/",
+      "publisher": "Oslo kommune",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Grünerløkka skole – Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Gr%C3%BCnerl%C3%B8kka_skole",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Henrik Nissen – Store norske leksikon",
+      "url": "https://snl.no/Henrik_Nissen",
+      "publisher": "Store norske leksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Thorvald Meyers gate – Oslo byleksikon",
+      "url": "https://oslobyleksikon.no/side/Thorvald_Meyers_gate",
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Thorvald Meyers gate – lokalhistoriewiki",
+      "url": "https://lokalhistoriewiki.no/Thorvald_Meyers_gate",
+      "publisher": "Lokalhistoriewiki",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Akerselva Miljøpark – Akerselvas Venner",
+      "url": "https://www.akerselvasvenner.no/akerselvamiljopark/",
+      "publisher": "Akerselvas Venner",
+      "accessedAt": "2026-05-18",
+      "sourceType": "other",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Mathallen Oslo – Wikipedia",
+      "url": "https://no.wikipedia.org/wiki/Mathallen_Oslo",
+      "publisher": "Wikipedia",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "St. Hallvard - Slaget om Grünerløkka",
+      "url": "https://121667-www.web.tornado-node.net/wp-content/uploads/2020/04/SlagetOmGunerloka.pdf",
+      "publisher": "St. Hallvard / Oslo Byes Vel",
+      "accessedAt": "2026-05-18",
+      "sourceType": "archive",
+      "evidenceLevel": "secondary",
+      "notes": "Documents the 8 December 1971 founding and 900 paying members in 1975."
     }
   ],
   "claims": [
     {
-      "id": "arkitektur-claim-1",
-      "statement": "Birkelunden ble Norges første fredede bymiljø i 2006, med 139 bygninger over 116 dekar.",
-      "confidence": 0.95,
-      "source": "Riksantikvaren / Lovdata (kongelig resolusjon 28.04.2006)",
-      "status": "verified"
+      "claimId": "arkitektur-claim-1",
+      "claim": "Birkelunden ble Norges første fredede bymiljø i 2006, med 139 bygninger over 116 dekar.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Birkelunden – Murbyens hjerte (Riksantikvaren)",
+          "url": "https://www.riksantikvaren.no/kulturhistorie/birkelunden-murbyens-hjerte/",
+          "publisher": "Riksantikvaren",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Forskrift om fredning av Birkelunden kulturmiljø (Lovdata)",
+          "url": "https://lovdata.no/dokument/LF/forskrift/2006-04-28-442",
+          "publisher": "Lovdata",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-2",
-      "statement": "Georg Andreas Bull utarbeidet reguleringsplanen for Grünerløkka i 1862 basert på skisser av Peter Høier Holtermann.",
-      "confidence": 0.90,
-      "source": "Store norske leksikon / Oslo byleksikon",
-      "status": "verified"
+      "claimId": "arkitektur-claim-2",
+      "claim": "Georg Andreas Bull utarbeidet reguleringsplanen for Grünerløkka i 1862 basert på skisser av Peter Høier Holtermann.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Grünerløkka – boligstrøk i Oslo (Store norske leksikon)",
+          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka_-_boligstr%C3%B8k_i_Oslo",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Grünerløkka (strøk) – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Gr%C3%BCnerl%C3%B8kka_(str%C3%B8k)",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Georg Andreas Bull – arkitekt (Store norske leksikon)",
+          "url": "https://snl.no/Georg_Andreas_Bull",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-3",
-      "statement": "Stortinget vedtok i 1976 å erstatte saneringsloven med byfornyelsesloven.",
-      "confidence": 0.95,
-      "source": "Oslo Byarkiv (Tobias) / Dagsavisen",
-      "status": "verified"
+      "claimId": "arkitektur-claim-3",
+      "claim": "Stortinget vedtok i 1976 å erstatte saneringsloven med byfornyelsesloven.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Byfornyelse på 1980-tallet (Oslo Byarkiv / Tobias)",
+          "url": "https://www.oslo.kommune.no/OBA/tobias/tobiasartikler/t3978.htm",
+          "publisher": "Oslo kommune",
+          "accessedAt": "2026-05-18",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Slik ble Grünerløkka reddet fra rasering (Dagsavisen)",
+          "url": "https://www.dagsavisen.no/debatt/slik-ble-grnerlokka-reddet-fra-rasering/7582817",
+          "publisher": "Dagsavisen",
+          "accessedAt": "2026-05-18",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-4",
-      "statement": "Over 20 000 boliger ble fornyet i Oslo etter byfornyelsesvedtaket.",
-      "confidence": 0.85,
-      "source": "Oslo Byarkiv (Tobias)",
-      "status": "verified"
+      "claimId": "arkitektur-claim-4",
+      "claim": "Over 20 000 boliger ble fornyet i Oslo etter byfornyelsesvedtaket.",
+      "status": "verified",
+      "confidenceScore": 0.85,
+      "sources": [
+        {
+          "title": "Byfornyelse på 1980-tallet (Oslo Byarkiv / Tobias)",
+          "url": "https://www.oslo.kommune.no/OBA/tobias/tobiasartikler/t3978.htm",
+          "publisher": "Oslo kommune",
+          "accessedAt": "2026-05-18",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-5",
-      "statement": "Grünerløkka leieboerforening ble stiftet i 1971 med over 400 medlemmer.",
-      "confidence": 0.85,
-      "source": "Samfunnsgeografen (UiO)",
-      "status": "verified"
+      "claimId": "arkitektur-claim-5",
+      "claim": "Grünerløkka leieboerforening ble stiftet 8. desember 1971 og hadde 900 betalende medlemmer i 1975.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Husk – det er våre hjem det gjelder – Grünerløkka leieboerforening (Samfunnsgeografen/UiO)",
+          "url": "https://foreninger.uio.no/samfunnsgeografen/aktuelt/2017:1/%E2%80%9Dhusk-%E2%80%93-det-er-vare-hjem-det-gjelder%E2%80%9D-%E2%80%93-gr%C3%BCnerlokk.html",
+          "publisher": "Universitetet i Oslo / Samfunnsgeografen",
+          "accessedAt": "2026-05-18",
+          "sourceType": "academic",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "St. Hallvard - Slaget om Grünerløkka",
+          "url": "https://121667-www.web.tornado-node.net/wp-content/uploads/2020/04/SlagetOmGunerloka.pdf",
+          "publisher": "St. Hallvard / Oslo Byes Vel",
+          "accessedAt": "2026-05-18",
+          "sourceType": "archive",
+          "evidenceLevel": "secondary",
+          "notes": "Documents the 8 December 1971 founding and 900 paying members in 1975."
+        }
+      ],
+      "notes": "Claim text corrected from \"over 400 members\" to the more precise St. Hallvard figure: 900 paying members in 1975.",
+      "lastVerifiedAt": "2026-05-18"
     },
     {
-      "id": "arkitektur-claim-6",
-      "statement": "Paulus kirke ble tegnet av Henrik Bull etter en arkitektkonkurranse i 1887 og innviet 30. desember 1892.",
-      "confidence": 0.95,
-      "source": "Store norske leksikon / Oslo byleksikon / Norske kirker",
-      "status": "verified"
+      "claimId": "arkitektur-claim-6",
+      "claim": "Paulus kirke ble tegnet av Henrik Bull etter en arkitektkonkurranse i 1887 og innviet 30. desember 1892.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Henrik Bull – arkitekt (Store norske leksikon)",
+          "url": "https://snl.no/Henrik_Bull",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Grünerløkka (strøk) – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Gr%C3%BCnerl%C3%B8kka_(str%C3%B8k)",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Paulus kirke – Norske kirker",
+          "url": "https://www.norske-kirker.net/home/oslo/paulus-kirke/",
+          "publisher": "Norske kirker",
+          "accessedAt": "2026-05-18",
+          "sourceType": "other",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-7",
-      "statement": "Schous bryggeri ble tegnet av Asmus Lenschow i 1872 og var Norges eldste eksisterende bryggeri da det stengte i 1981.",
-      "confidence": 0.90,
-      "source": "Store norske leksikon / Oslo byleksikon",
-      "status": "verified"
+      "claimId": "arkitektur-claim-7",
+      "claim": "Schous bryggeri ble tegnet av Asmus Lenschow i 1872 og var Norges eldste eksisterende bryggeri da det stengte i 1981.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Schous Bryggeri (Store norske leksikon)",
+          "url": "https://snl.no/Schous_Bryggeri",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Schouskvartalet – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Schouskvartalet",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-8",
-      "statement": "Mathallen Oslo åpnet 2. oktober 2012 med over 30 matbutikker.",
-      "confidence": 0.90,
-      "source": "Aspelin Ramm / Wikipedia",
-      "status": "verified"
+      "claimId": "arkitektur-claim-8",
+      "claim": "Mathallen Oslo åpnet 2. oktober 2012 med over 30 matbutikker.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Vulkan – Aspelin Ramm",
+          "url": "https://www.aspelinramm.no/referanse/vulkan/",
+          "publisher": "Aspelin Ramm",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Mathallen Oslo – Wikipedia",
+          "url": "https://no.wikipedia.org/wiki/Mathallen_Oslo",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-9",
-      "statement": "Bellona-bygget var Norges mest energieffektive kontorbygg da det sto ferdig i 2010.",
-      "confidence": 0.85,
-      "source": "LPO arkitekter / NAL",
-      "status": "verified"
+      "claimId": "arkitektur-claim-9",
+      "claim": "Bellona-bygget var Norges mest energieffektive kontorbygg da det sto ferdig i 2010.",
+      "status": "verified",
+      "confidenceScore": 0.85,
+      "sources": [
+        {
+          "title": "LPO arkitekter – Vulkan",
+          "url": "https://www.lpo.no/prosjekter/vulkan",
+          "publisher": "LPO arkitekter",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "notes": "Legacy source string referenced unmatched source(s): NAL.",
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-10",
-      "statement": "Hjula Væveri ble grunnlagt i 1855 og hadde ca. 800 ansatte i sin storhetstid.",
-      "confidence": 0.85,
-      "source": "Teknisk museum / Akerselvas Venner",
-      "status": "verified"
+      "claimId": "arkitektur-claim-10",
+      "claim": "Hjula Væveri ble grunnlagt i 1855 og hadde ca. 800 ansatte i sin storhetstid.",
+      "status": "verified",
+      "confidenceScore": 0.85,
+      "sources": [
+        {
+          "title": "Hjula Væveri – Teknisk museum",
+          "url": "https://www.tekniskmuseum.no/en/collections/wheel-vaeveri",
+          "publisher": "Norsk Teknisk Museum",
+          "accessedAt": "2026-05-18",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-11",
-      "statement": "Grünerløkka skole ble tegnet av Henrik Nissen, ferdigstilt i 1895 og innviet med 1555 elever.",
-      "confidence": 0.90,
-      "source": "Grünerløkka skole / Oslo byleksikon",
-      "status": "verified"
+      "claimId": "arkitektur-claim-11",
+      "claim": "Grünerløkka skole ble tegnet av Henrik Nissen, ferdigstilt i 1895 og innviet med 1555 elever.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Grünerløkka skole – Skolens historie",
+          "url": "https://grunerlokka.osloskolen.no/om-skolen/om-oss/skolens-historie2/",
+          "publisher": "Oslo kommune",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Grünerløkka skole – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Gr%C3%BCnerl%C3%B8kka_skole",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Henrik Nissen – Store norske leksikon",
+          "url": "https://snl.no/Henrik_Nissen",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-12",
-      "statement": "Den jødiske gravlunden i Sofienbergparken ble fredet av Riksantikvaren 19. desember 2022.",
-      "confidence": 0.95,
-      "source": "Riksantikvaren (pressemelding)",
-      "status": "verified"
+      "claimId": "arkitektur-claim-12",
+      "claim": "Den jødiske gravlunden i Sofienbergparken ble fredet av Riksantikvaren 19. desember 2022.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Sofienberg jødiske gravlund – Riksantikvaren",
+          "url": "https://www.riksantikvaren.no/fredninger/sofienberg-jodiske-gravlund/",
+          "publisher": "Riksantikvaren",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-13",
-      "statement": "Motorveitrasé gjennom Grünerløkka ble vedtatt av bygningsrådet rundt 1968.",
-      "confidence": 0.80,
-      "source": "Dagsavisen / Oslo Byarkiv",
-      "status": "verified"
+      "claimId": "arkitektur-claim-13",
+      "claim": "Motorveitrasé gjennom Grünerløkka ble vedtatt av bygningsrådet rundt 1968.",
+      "status": "verified",
+      "confidenceScore": 0.8,
+      "sources": [
+        {
+          "title": "Motorveien over Grünerløkka (Dagsavisen)",
+          "url": "https://www.dagsavisen.no/nyheter/motorveien-over-grnerlokka/4713865",
+          "publisher": "Dagsavisen",
+          "accessedAt": "2026-05-18",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "På tegnebrettet går allting an... (Oslo Byarkiv / Tobias)",
+          "url": "https://www.oslo.kommune.no/OBA/tobias/tobiasartikler/t3943.htm",
+          "publisher": "Oslo kommune",
+          "accessedAt": "2026-05-18",
+          "sourceType": "archive",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-14",
-      "statement": "Thorvald Meyer ble eneeier av Grünerløkka fra 1869 og bekostet anleggelsen av Thorvald Meyers gate.",
-      "confidence": 0.90,
-      "source": "Store norske leksikon / lokalhistoriewiki",
-      "status": "verified"
+      "claimId": "arkitektur-claim-14",
+      "claim": "Thorvald Meyer ble eneeier av Grünerløkka fra 1869 og bekostet anleggelsen av Thorvald Meyers gate.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Grünerløkka – boligstrøk i Oslo (Store norske leksikon)",
+          "url": "https://snl.no/Gr%C3%BCnerl%C3%B8kka_-_boligstr%C3%B8k_i_Oslo",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Thorvald Meyers gate – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Thorvald_Meyers_gate",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Thorvald Meyers gate – lokalhistoriewiki",
+          "url": "https://lokalhistoriewiki.no/Thorvald_Meyers_gate",
+          "publisher": "Lokalhistoriewiki",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-15",
-      "statement": "Akerselva miljøpark ble etablert i 1990 som Norges første miljøpark.",
-      "confidence": 0.90,
-      "source": "Oslo byleksikon / Akerselvas Venner",
-      "status": "verified"
+      "claimId": "arkitektur-claim-15",
+      "claim": "Akerselva miljøpark ble etablert i 1990 som Norges første miljøpark.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Akerselva Miljøpark (Oslo byleksikon)",
+          "url": "https://oslobyleksikon.no/side/Akerselva_Milj%C3%B8park",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Akerselva Miljøpark – Akerselvas Venner",
+          "url": "https://www.akerselvasvenner.no/akerselvamiljopark/",
+          "publisher": "Akerselvas Venner",
+          "accessedAt": "2026-05-18",
+          "sourceType": "other",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-16",
-      "statement": "Nedre Foss park åpnet i 2017 etter Norconsults konkurransevinnende utkast «Flyt» fra 2008, og prosjektet fikk DOGA-merket i 2019.",
-      "confidence": 0.97,
-      "source": "Oslo kommune / Norconsult / DOGA / Oslo byleksikon",
-      "status": "verified"
+      "claimId": "arkitektur-claim-16",
+      "claim": "Nedre Foss park åpnet i 2017 etter Norconsults konkurransevinnende utkast «Flyt» fra 2008, og prosjektet fikk DOGA-merket i 2019.",
+      "status": "verified",
+      "confidenceScore": 0.97,
+      "sources": [
+        {
+          "title": "Nedre Foss park – Oslo kommune",
+          "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/parker-og-lekeplasser/nedre-foss-park/",
+          "publisher": "Oslo kommune",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Nedre Foss bypark – DOGA",
+          "url": "https://doga.no/aktiviteter/dogas-priser/doga-merket-design-arkitektur/vinnere-av-doga-merket/nedre-foss-bypark/",
+          "publisher": "DOGA",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Nedre Foss bypark åpnet for publikum – Norconsult",
+          "url": "https://norconsult.no/aktuelt/nedre-foss-bypark-aapnet-for-publikum/",
+          "publisher": "Norconsult",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Akerselva Miljøpark (Oslo byleksikon)",
+          "url": "https://oslobyleksikon.no/side/Akerselva_Milj%C3%B8park",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-17",
-      "statement": "Parkteatret åpnet som Grünerløkkens Kinematograf i 1907, fikk dagens navn og ny fasade i 1922, og gjenåpnet som teater- og konsertsal i 2002.",
-      "confidence": 0.97,
-      "source": "Parkteatret / Oslo byleksikon",
-      "status": "verified"
+      "claimId": "arkitektur-claim-17",
+      "claim": "Parkteatret åpnet som Grünerløkkens Kinematograf i 1907, fikk dagens navn og ny fasade i 1922, og gjenåpnet som teater- og konsertsal i 2002.",
+      "status": "verified",
+      "confidenceScore": 0.97,
+      "sources": [
+        {
+          "title": "Parkteatret – Om Parkteatret",
+          "url": "https://www.parkteatret.no/om-parkteateret",
+          "publisher": "Parkteatret",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Parkteatret – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Parkteatret",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-18",
-      "statement": "Etter at BI flyttet til Nydalen i 2005, etablerte staten og Oslo kommune Schous kulturbryggeri i 2007; anlegget fikk Øvingshotellet med 49 øvingsrom og rommet også Riksscenen og Popsenteret.",
-      "confidence": 0.96,
-      "source": "Oslo byleksikon / Riksscenen / Popsenteret",
-      "status": "verified"
+      "claimId": "arkitektur-claim-18",
+      "claim": "Etter at BI flyttet til Nydalen i 2005, etablerte staten og Oslo kommune Schous kulturbryggeri i 2007; anlegget fikk Øvingshotellet med 49 øvingsrom og rommet også Riksscenen og Popsenteret.",
+      "status": "verified",
+      "confidenceScore": 0.96,
+      "sources": [
+        {
+          "title": "Schouskvartalet – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Schouskvartalet",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Riksscenen – Om oss",
+          "url": "https://www.riksscenen.no/om-oss.556094.no.html",
+          "publisher": "Riksscenen",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Popsenteret – Avvikles",
+          "url": "https://www.popsenteret.no/program/popsenteret-avvikles",
+          "publisher": "Popsenteret",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "arkitektur-claim-19",
-      "statement": "Hauges Minde på Olaf Ryes plass 2 ble oppført som bedehus i 1875 og er i dag en kommunal kultureiendom med atelierer.",
-      "confidence": 0.97,
-      "source": "Oslo kommune / lokalhistoriewiki",
-      "status": "verified"
+      "claimId": "arkitektur-claim-19",
+      "claim": "Hauges Minde på Olaf Ryes plass 2 ble oppført som bedehus i 1875 og er i dag en kommunal kultureiendom med atelierer.",
+      "status": "verified",
+      "confidenceScore": 0.97,
+      "sources": [
+        {
+          "title": "Hauges Minde – Oslo kommune",
+          "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/kunst-og-kultur/kultureiendommer/hauges-minde/",
+          "publisher": "Oslo kommune",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Hauges Minde – lokalhistoriewiki",
+          "url": "https://lokalhistoriewiki.no/Hauges_Minde_(Oslo)",
+          "publisher": "Lokalhistoriewiki",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     }
   ],
   "researchMetadata": {
-    "lastVerified": "2026-03-30",
+    "lastVerifiedAt": "2026-05-18",
+    "verifiedBy": "biblioteket-research",
     "coverageScore": 0.89,
     "staleAfterDays": 180
   },
@@ -859,7 +1407,7 @@
     "parkCount": 6,
     "architectCount": 7,
     "heritageStatusCount": 5,
-    "sourceCount": 30,
+    "sourceCount": 40,
     "claimCount": 19,
     "urbanRenewalTimelineEvents": 14,
     "generatedAt": "2026-03-30"

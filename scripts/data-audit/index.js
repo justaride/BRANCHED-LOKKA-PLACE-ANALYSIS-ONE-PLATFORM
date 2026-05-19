@@ -27,6 +27,10 @@ const log = {
     console.log(`${COLORS.red}${COLORS.bold}CRITICAL${COLORS.reset} ${msg}`),
 };
 
+function isLocalDuplicateFile(fileName) {
+  return /\s2\.json$/i.test(fileName);
+}
+
 function findJsonFiles(dir, files = []) {
   if (!fs.existsSync(dir)) return files;
 
@@ -37,7 +41,7 @@ function findJsonFiles(dir, files = []) {
 
     if (stat.isDirectory()) {
       findJsonFiles(fullPath, files);
-    } else if (item.endsWith(".json")) {
+    } else if (item.endsWith(".json") && !isLocalDuplicateFile(item)) {
       files.push(fullPath);
     }
   }

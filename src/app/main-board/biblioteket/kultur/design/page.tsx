@@ -84,7 +84,6 @@ export default function DesignKreativPage() {
         <>
             {/* Hero Section */}
             <section className="relative overflow-hidden border-b border-gray-200 py-20 bg-gradient-to-br from-teal-900 via-cyan-800 to-emerald-900 text-white">
-                <div className="absolute inset-0 bg-[url('/images/noise.png')] opacity-5" />
                 <Container className="relative z-10">
                     <motion.div
                         className="max-w-3xl"

@@ -387,433 +387,1124 @@
     {
       "title": "Snøhetta – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Sn%C3%B8hetta_(company)",
-      "type": "sekundær"
+      "publisher": "Wikipedia",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Snøhetta – Store norske leksikon",
       "url": "https://snl.no/Sn%C3%B8hetta_-_arkitektkontor",
-      "type": "sekundær"
+      "publisher": "Store norske leksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Bleed Design Studio",
       "url": "https://bleed.com/",
-      "type": "primær"
+      "publisher": "Bleed Design Studio",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Bielke&Yang",
       "url": "https://bielkeyang.com/",
-      "type": "primær"
+      "publisher": "Bielke&Yang",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Tank Design – Kreativt Forum",
       "url": "https://www.kreativtforum.no/byraguide",
-      "type": "sekundær"
+      "publisher": "Kreativt Forum",
+      "accessedAt": "2026-05-18",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Om Vulkan – Vulkan Oslo",
       "url": "https://vulkanoslo.no/om-vulkan/",
-      "type": "primær"
+      "publisher": "Vulkan Oslo",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Vulkan – Oslo byleksikon",
       "url": "https://oslobyleksikon.no/side/Vulkan_(omr%C3%A5de)",
-      "type": "sekundær"
+      "publisher": "Oslo byleksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Mathallen Oslo – Wikipedia",
       "url": "https://no.wikipedia.org/wiki/Mathallen_Oslo",
-      "type": "sekundær"
+      "publisher": "Wikipedia",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Dansens Hus – Wikipedia",
       "url": "https://no.wikipedia.org/wiki/Dansens_Hus",
-      "type": "sekundær"
+      "publisher": "Wikipedia",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Westerdals – Wikipedia",
       "url": "https://no.wikipedia.org/wiki/Westerdals_(skole)",
-      "type": "sekundær"
+      "publisher": "Wikipedia",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "KHiO – Kunsthøgskolen i Oslo",
       "url": "https://khio.no/",
-      "type": "primær"
+      "publisher": "Kunsthøgskolen i Oslo",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "KHiO – Wikipedia",
       "url": "https://no.wikipedia.org/wiki/Kunsth%C3%B8gskolen_i_Oslo",
-      "type": "sekundær"
+      "publisher": "Wikipedia",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Norway Says – Store norske leksikon",
       "url": "https://snl.no/Norway_Says",
-      "type": "sekundær"
+      "publisher": "Store norske leksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Dapper Oslo",
       "url": "https://www.dapper.no/",
-      "type": "primær"
+      "publisher": "Dapper",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Dapper – Om oss",
       "url": "https://www.dapper.no/pages/om-oss",
-      "type": "primær"
+      "publisher": "Dapper",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Robot Oslo",
       "url": "https://www.robotoslo.com/",
-      "type": "primær"
+      "publisher": "Robot Oslo",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Velouria Vintage – Visit Norway",
       "url": "https://www.visitnorway.no/reisemal/ostlandet/oslo/listings-oslo/velouria-vintage/21467/",
-      "type": "sekundær"
+      "publisher": "Visit Norway",
+      "accessedAt": "2026-05-18",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Skaperverket",
       "url": "https://www.skaperverket.no",
-      "type": "primær"
+      "publisher": "Skaperverket",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Skaperverket – Om oss",
       "url": "https://www.skaperverket.no/om-oss",
-      "type": "primær"
+      "publisher": "Skaperverket",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Skaperverket – Kontakt",
       "url": "https://www.skaperverket.no/kontakt",
-      "type": "primær"
+      "publisher": "Skaperverket",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Kollekted by",
       "url": "https://kollektedby.no/",
-      "type": "primær"
+      "publisher": "Kollekted by",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Kollekted by – About",
       "url": "https://kollektedby.no/pages/about-us",
-      "type": "primær"
+      "publisher": "Kollekted by",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Kollekted by – Contact",
       "url": "https://kollektedby.no/pages/contact-us",
-      "type": "primær"
+      "publisher": "Kollekted by",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "SSB – Sysselsatte i kulturnæringene",
       "url": "https://www.ssb.no/kultur-og-fritid/artikler-og-publikasjoner/sysselsatte-i-kulturnaeringene-for-korona",
-      "type": "sekundær"
+      "publisher": "SSB",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Spaces Grünerløkka – Shifter",
       "url": "https://www.shifter.no/notis/spaces-apner-nye-lokaler-pa-grnerlokka/334988",
-      "type": "sekundær"
+      "publisher": "Shifter",
+      "accessedAt": "2026-05-18",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "657 Oslo – Home of CreativeTech",
       "url": "https://657.no/",
-      "type": "primær"
+      "accessedAt": "2026-05-18",
+      "sourceType": "other",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Schous kulturbryggeri – Arkitektur.no",
       "url": "https://www.arkitektur.no/prosjekter/kultur/schous-kulturbryggeri-popsenteret-riksscenen-oevingshotellet-og-oslo-musikk-og-kulturskole/",
-      "type": "sekundær"
+      "publisher": "Riksscenen",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Grünerløkka designbutikker – DN",
       "url": "https://www.dn.no/d2/design/kuratert/kollekted-by/eam/gir-grunerlokka-ny-form/2-1-218524",
-      "type": "sekundær"
+      "publisher": "Dagens Næringsliv",
+      "accessedAt": "2026-05-18",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Skaperverket – Visit Løkka",
       "url": "https://visitlokka.no/directory-visitlokka/listing/skaperverket/",
-      "type": "sekundær"
+      "publisher": "Skaperverket",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Hunting Lodge Oslo",
       "url": "https://www.huntinglodge.no/no",
-      "type": "primær"
+      "publisher": "Hunting Lodge",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Hunting Lodge – Oslo store",
       "url": "https://www.huntinglodge.no/no/pages/oslo-store",
-      "type": "primær"
+      "publisher": "Hunting Lodge",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Good Vibes Vintage",
       "url": "https://goodvibesvintage.no/",
-      "type": "primær"
+      "publisher": "Good Vibes Vintage",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Tom Wood Project",
       "url": "https://www.tomwoodproject.com/about-tom-wood/",
-      "type": "primær"
+      "publisher": "Tom Wood",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Tom Wood Careers – About us",
       "url": "https://career.tomwoodproject.com/pages/about-us",
-      "type": "primær"
+      "publisher": "Tom Wood",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Holzweiler konseptbutikk – Costume.no",
       "url": "https://costume.no/mote/motenyheter/holzweiler-apner-ny-konseptbutikk-pa-grunerlokka",
-      "type": "sekundær"
+      "accessedAt": "2026-05-18",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Kristin Jarmund – Store norske leksikon",
       "url": "https://snl.no/Kristin_Jarmund",
-      "type": "sekundær"
+      "publisher": "Store norske leksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Luck Oslo – Shoplabs",
       "url": "https://shoplabs.no/butikkbloggen/et-brol-for-lokka-luck-oslo/",
-      "type": "sekundær"
+      "accessedAt": "2026-05-18",
+      "sourceType": "other",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Popsenteret – Store norske leksikon",
       "url": "https://snl.no/Popsenteret",
-      "type": "sekundær"
+      "publisher": "Store norske leksikon",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "secondary"
     },
     {
       "title": "Riksscenen – Om oss",
       "url": "https://www.riksscenen.no/om-oss.556094.no.html",
-      "type": "primær"
+      "publisher": "Riksscenen",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Popsenteret – Besøk oss",
       "url": "https://www.popsenteret.no/besok-oss",
-      "type": "primær"
+      "publisher": "Popsenteret",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Popsenteret – Avvikles",
       "url": "https://www.popsenteret.no/program/popsenteret-avvikles",
-      "type": "primær"
+      "publisher": "Popsenteret",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Oslo kulturskole – Schous-undervisning",
       "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/kunst-og-kultur/oslo-kulturskole/undervisningstilbud/dans/schous-crew/",
-      "type": "primær"
+      "publisher": "Oslo kommune",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "KHiO – FAQs om opptak",
       "url": "https://khio.no/studier/sok-opptak/faqs-om-opptak",
-      "type": "primær"
+      "publisher": "Kunsthøgskolen i Oslo",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "KHiO – Avdelinger",
       "url": "https://khio.no/avdelinger",
-      "type": "primær"
+      "publisher": "Kunsthøgskolen i Oslo",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Bleed Design Studio – Studio",
       "url": "https://bleed.com/studio",
-      "type": "primær"
+      "publisher": "Bleed Design Studio",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Bleed Design Studio – Contact",
       "url": "https://bleed.com/contact",
-      "type": "primær"
+      "publisher": "Bleed Design Studio",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Bielke&Yang – Om oss",
       "url": "https://bielkeyang.com/om",
-      "type": "primær"
+      "publisher": "Bielke&Yang",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Bielke&Yang – Kontakt",
       "url": "https://bielkeyang.com/kontakt",
-      "type": "primær"
+      "publisher": "Bielke&Yang",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Good Vibes Vintage Shop",
       "url": "https://goodvibesvintage.no/pages/good-vibes-vintage-shop",
-      "type": "primær"
+      "publisher": "Good Vibes Vintage",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
     },
     {
       "title": "Good Vibes Vintage – About us",
       "url": "https://goodvibesvintage.no/pages/about-us",
-      "type": "primær"
+      "publisher": "Good Vibes Vintage",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Snøhetta – press contact",
+      "url": "https://snohetta.prezly.com/",
+      "publisher": "Snøhetta",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary"
+    },
+    {
+      "title": "Snøhetta AS – Proff",
+      "url": "https://www.proff.no/selskap/sn%C3%B8hetta-as/oslo/bygningstjenester/IGIJEDX07TQ",
+      "publisher": "Proff",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Tank Design AS – Yra company info",
+      "url": "https://yra.no/en/company/880526642",
+      "publisher": "Yra",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Spaces Grünerløkka – Spacefinder",
+      "url": "https://spacefinder.no/kontoristen/spaces-apner-ny-co-working-grunerlokka/",
+      "publisher": "Spacefinder",
+      "accessedAt": "2026-05-18",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Westerdals – Byggeprosjekter",
+      "url": "https://byggeprosjekter.bygg.no/2011-bildekarusell-oslo/westerdals/2469494",
+      "publisher": "Byggeprosjekter",
+      "accessedAt": "2026-05-18",
+      "sourceType": "news",
+      "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Mats Linder - Norway Says: norsk design på verdenskartet",
+      "url": "https://www.matslinder.no/2016/06/02/norway-says-norsk-design-pa-verdenskartet/",
+      "publisher": "Mats Linder",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Documents the move to Grünerløkka at the turn of 2002/2003 with drawing office and showroom."
+    },
+    {
+      "title": "Fineart - Norway says",
+      "url": "https://www.fineart.no/doc/norway_says",
+      "publisher": "Fineart",
+      "accessedAt": "2026-05-18",
+      "sourceType": "news",
+      "evidenceLevel": "secondary",
+      "notes": "Documents that the remaining Norway Says designers opened shop and offices at Grünerløkka in 2002."
+    },
+    {
+      "title": "Stylepark - Norway Says designer profile",
+      "url": "https://www.stylepark.com/en/designer/norway-says",
+      "publisher": "Stylepark",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Lists Norway Says studio address in Thorvald Meyers gate and states the studio opened in Oslo in 2002."
     }
   ],
   "claims": [
     {
-      "id": "design-claim-1",
-      "statement": "Bleed Design Studio oppgir Thorvald Meyers gate 9 som Oslo-adresse og beskriver seg som et prisvinnende skandinavisk designstudio.",
-      "confidence": 0.97,
-      "source": "Bleed Design Studio – Studio, Bleed Design Studio – Contact",
-      "status": "verified"
+      "claimId": "design-claim-1",
+      "claim": "Bleed Design Studio oppgir Thorvald Meyers gate 9 som Oslo-adresse og beskriver seg som et prisvinnende skandinavisk designstudio.",
+      "status": "verified",
+      "confidenceScore": 0.97,
+      "sources": [
+        {
+          "title": "Bleed Design Studio – Studio",
+          "url": "https://bleed.com/studio",
+          "publisher": "Bleed Design Studio",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Bleed Design Studio – Contact",
+          "url": "https://bleed.com/contact",
+          "publisher": "Bleed Design Studio",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-2",
-      "statement": "Bielke&Yang ble startet som et rent designbyrå i 2012 og holder til i Thorvald Meyers gate 7.",
-      "confidence": 0.97,
-      "source": "Bielke&Yang – Om oss, Bielke&Yang – Kontakt",
-      "status": "verified"
+      "claimId": "design-claim-2",
+      "claim": "Bielke&Yang ble startet som et rent designbyrå i 2012 og holder til i Thorvald Meyers gate 7.",
+      "status": "verified",
+      "confidenceScore": 0.97,
+      "sources": [
+        {
+          "title": "Bielke&Yang – Om oss",
+          "url": "https://bielkeyang.com/om",
+          "publisher": "Bielke&Yang",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Bielke&Yang – Kontakt",
+          "url": "https://bielkeyang.com/kontakt",
+          "publisher": "Bielke&Yang",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-3",
-      "statement": "Mathallen Oslo åpnet 2. oktober 2012 på Vulkan",
-      "confidence": 0.95,
-      "source": "Wikipedia, Aspelin Ramm, LPO Arkitekter",
-      "status": "verified"
+      "claimId": "design-claim-3",
+      "claim": "Mathallen Oslo åpnet 2. oktober 2012 på Vulkan",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Om Vulkan – Vulkan Oslo",
+          "url": "https://vulkanoslo.no/om-vulkan/",
+          "publisher": "Vulkan Oslo",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Vulkan – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Vulkan_(omr%C3%A5de)",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Mathallen Oslo – Wikipedia",
+          "url": "https://no.wikipedia.org/wiki/Mathallen_Oslo",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Legacy source string referenced unmatched source(s): Aspelin Ramm, LPO Arkitekter.",
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-4",
-      "statement": "Dansens Hus åpnet 29. februar 2008 på Vulkan, designet av Snøhetta",
-      "confidence": 0.95,
-      "source": "Wikipedia, Snøhetta, Dansens Hus",
-      "status": "verified"
+      "claimId": "design-claim-4",
+      "claim": "Dansens Hus åpnet 29. februar 2008 på Vulkan, designet av Snøhetta",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Snøhetta – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sn%C3%B8hetta_(company)",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Snøhetta – Store norske leksikon",
+          "url": "https://snl.no/Sn%C3%B8hetta_-_arkitektkontor",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Dansens Hus – Wikipedia",
+          "url": "https://no.wikipedia.org/wiki/Dansens_Hus",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-5",
-      "statement": "KHiO holder til i Fossveien 24 med 43 000 m² areal",
-      "confidence": 0.95,
-      "source": "KHiO, Wikipedia, utdanning.no",
-      "status": "verified"
+      "claimId": "design-claim-5",
+      "claim": "KHiO holder til i Fossveien 24 med 43 000 m² areal",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "KHiO – Kunsthøgskolen i Oslo",
+          "url": "https://khio.no/",
+          "publisher": "Kunsthøgskolen i Oslo",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "KHiO – Wikipedia",
+          "url": "https://no.wikipedia.org/wiki/Kunsth%C3%B8gskolen_i_Oslo",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Legacy source string referenced unmatched source(s): utdanning.no.",
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-6",
-      "statement": "Norway Says holdt til på Grünerløkka fra 2002–2003 med kontor og showroom",
-      "confidence": 0.85,
-      "source": "Store norske leksikon, Wikipedia",
-      "status": "verified"
+      "claimId": "design-claim-6",
+      "claim": "Norway Says åpnet butikk/kontor på Grünerløkka i 2002 og flyttet ved årsskiftet 2002/2003 inn i lokaler med tegnekontor og showroom.",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Norway Says – Store norske leksikon",
+          "url": "https://snl.no/Norway_Says",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Mats Linder - Norway Says: norsk design på verdenskartet",
+          "url": "https://www.matslinder.no/2016/06/02/norway-says-norsk-design-pa-verdenskartet/",
+          "publisher": "Mats Linder",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary",
+          "notes": "Documents the move to Grünerløkka at the turn of 2002/2003 with drawing office and showroom."
+        },
+        {
+          "title": "Fineart - Norway says",
+          "url": "https://www.fineart.no/doc/norway_says",
+          "publisher": "Fineart",
+          "accessedAt": "2026-05-18",
+          "sourceType": "news",
+          "evidenceLevel": "secondary",
+          "notes": "Documents that the remaining Norway Says designers opened shop and offices at Grünerløkka in 2002."
+        },
+        {
+          "title": "Stylepark - Norway Says designer profile",
+          "url": "https://www.stylepark.com/en/designer/norway-says",
+          "publisher": "Stylepark",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary",
+          "notes": "Lists Norway Says studio address in Thorvald Meyers gate and states the studio opened in Oslo in 2002."
+        }
+      ],
+      "notes": "Claim text tightened to match sources: Fineart documents shop/offices in 2002; Mats Linder documents drawing office and showroom at the turn of 2002/2003.",
+      "lastVerifiedAt": "2026-05-18"
     },
     {
-      "id": "design-claim-7",
-      "statement": "Westerdals-bygget på Vulkan ble designet av Kristin Jarmund Arkitekter og ferdigstilt i 2011",
-      "confidence": 0.90,
-      "source": "ArchDaily, Kristin Jarmund Arkitekter, SNL",
-      "status": "verified"
+      "claimId": "design-claim-7",
+      "claim": "Westerdals-bygget på Vulkan ble designet av Kristin Jarmund Arkitekter og ferdigstilt i 2011",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Westerdals – Wikipedia",
+          "url": "https://no.wikipedia.org/wiki/Westerdals_(skole)",
+          "publisher": "Wikipedia",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Kristin Jarmund – Store norske leksikon",
+          "url": "https://snl.no/Kristin_Jarmund",
+          "publisher": "Store norske leksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Westerdals – Byggeprosjekter",
+          "url": "https://byggeprosjekter.bygg.no/2011-bildekarusell-oslo/westerdals/2469494",
+          "publisher": "Byggeprosjekter",
+          "accessedAt": "2026-05-18",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Legacy source string referenced unmatched source(s): ArchDaily.",
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-8",
-      "statement": "41 % av alle sysselsatte i kulturell og kreativ næring i Norge jobber i Oslo",
-      "confidence": 0.90,
-      "source": "SSB – Sysselsatte i kulturnæringene",
-      "status": "verified"
+      "claimId": "design-claim-8",
+      "claim": "41 % av alle sysselsatte i kulturell og kreativ næring i Norge jobber i Oslo",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "SSB – Sysselsatte i kulturnæringene",
+          "url": "https://www.ssb.no/kultur-og-fritid/artikler-og-publikasjoner/sysselsatte-i-kulturnaeringene-for-korona",
+          "publisher": "SSB",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "notes": "SSB is treated as the primary official statistical source for this employment share.",
+      "lastVerifiedAt": "2026-05-18"
     },
     {
-      "id": "design-claim-9",
-      "statement": "Snøhettas hovedkontor ligger på Akershusstranda 21, ikke på Grünerløkka",
-      "confidence": 0.95,
-      "source": "snohetta.com/contact, arkitektbedriftene.no",
-      "status": "verified"
+      "claimId": "design-claim-9",
+      "claim": "Snøhettas hovedkontor ligger på Akershusstranda 21, ikke på Grünerløkka",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Snøhetta – press contact",
+          "url": "https://snohetta.prezly.com/",
+          "publisher": "Snøhetta",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Snøhetta AS – Proff",
+          "url": "https://www.proff.no/selskap/sn%C3%B8hetta-as/oslo/bygningstjenester/IGIJEDX07TQ",
+          "publisher": "Proff",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-10",
-      "statement": "Robot beskriver seg som en av Oslos eldste vintagebutikker, etablert i 2005, og oppgir Korsgata 22 som butikkadresse på Grünerløkka.",
-      "confidence": 0.96,
-      "source": "Robot Oslo",
-      "status": "verified"
+      "claimId": "design-claim-10",
+      "claim": "Robot beskriver seg som en av Oslos eldste vintagebutikker, etablert i 2005, og oppgir Korsgata 22 som butikkadresse på Grünerløkka.",
+      "status": "verified",
+      "confidenceScore": 0.96,
+      "sources": [
+        {
+          "title": "Robot Oslo",
+          "url": "https://www.robotoslo.com/",
+          "publisher": "Robot Oslo",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-11",
-      "statement": "Vulkan-området ble utviklet mellom 2004 og 2014 av Aspelin Ramm og Anthon B Nilsen etter masterplan av LPO arkitekter",
-      "confidence": 0.95,
-      "source": "vulkanoslo.no, Oslo byleksikon, LPO Arkitekter",
-      "status": "verified"
+      "claimId": "design-claim-11",
+      "claim": "Vulkan-området ble utviklet mellom 2004 og 2014 av Aspelin Ramm og Anthon B Nilsen etter masterplan av LPO arkitekter",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Om Vulkan – Vulkan Oslo",
+          "url": "https://vulkanoslo.no/om-vulkan/",
+          "publisher": "Vulkan Oslo",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Vulkan – Oslo byleksikon",
+          "url": "https://oslobyleksikon.no/side/Vulkan_(omr%C3%A5de)",
+          "publisher": "Oslo byleksikon",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Legacy source string referenced unmatched source(s): LPO Arkitekter.",
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-12",
-      "statement": "Spaces Grünerløkka på Markveien 57 har 2 143 m² og 32 private kontorer",
-      "confidence": 0.90,
-      "source": "Shifter, Spacefinder, NE.no",
-      "status": "verified"
+      "claimId": "design-claim-12",
+      "claim": "Spaces Grünerløkka på Markveien 57 har 2 143 m² og 32 private kontorer",
+      "status": "verified",
+      "confidenceScore": 0.9,
+      "sources": [
+        {
+          "title": "Spaces Grünerløkka – Shifter",
+          "url": "https://www.shifter.no/notis/spaces-apner-nye-lokaler-pa-grnerlokka/334988",
+          "publisher": "Shifter",
+          "accessedAt": "2026-05-18",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Spaces Grünerløkka – Spacefinder",
+          "url": "https://spacefinder.no/kontoristen/spaces-apner-ny-co-working-grunerlokka/",
+          "publisher": "Spacefinder",
+          "accessedAt": "2026-05-18",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "notes": "Legacy source string referenced unmatched source(s): NE.no.",
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-13",
-      "statement": "Tank Design holder til på Sagveien 18 og ble grunnlagt i 1999",
-      "confidence": 0.85,
-      "source": "proff.no, tank.no",
-      "status": "verified"
+      "claimId": "design-claim-13",
+      "claim": "Tank Design holder til på Sagveien 18 og ble grunnlagt i 1999",
+      "status": "verified",
+      "confidenceScore": 0.85,
+      "sources": [
+        {
+          "title": "Tank Design – Kreativt Forum",
+          "url": "https://www.kreativtforum.no/byraguide",
+          "publisher": "Kreativt Forum",
+          "accessedAt": "2026-05-18",
+          "sourceType": "news",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Tank Design AS – Yra company info",
+          "url": "https://yra.no/en/company/880526642",
+          "publisher": "Yra",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-14",
-      "statement": "Kollekted by driver en kuratert interiørbutikk i Schous plass 7A og tilbyr også skreddersydde interiørprosjekter i samarbeid med arkitekter og egen designavdeling",
-      "confidence": 0.96,
-      "source": "Kollekted by – About, Kollekted by – Contact",
-      "status": "verified"
+      "claimId": "design-claim-14",
+      "claim": "Kollekted by driver en kuratert interiørbutikk i Schous plass 7A og tilbyr også skreddersydde interiørprosjekter i samarbeid med arkitekter og egen designavdeling",
+      "status": "verified",
+      "confidenceScore": 0.96,
+      "sources": [
+        {
+          "title": "Kollekted by – About",
+          "url": "https://kollektedby.no/pages/about-us",
+          "publisher": "Kollekted by",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Kollekted by – Contact",
+          "url": "https://kollektedby.no/pages/contact-us",
+          "publisher": "Kollekted by",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-15",
-      "statement": "Skaperverket ble startet i 2004 og holder til i Markveien 60; kollektivet beskriver seg som rundt 15 designere og kreatører med tillegg av gjestedesignere",
-      "confidence": 0.96,
-      "source": "Skaperverket – Om oss, Skaperverket – Kontakt, Skaperverket – Visit Løkka",
-      "status": "verified"
+      "claimId": "design-claim-15",
+      "claim": "Skaperverket ble startet i 2004 og holder til i Markveien 60; kollektivet beskriver seg som rundt 15 designere og kreatører med tillegg av gjestedesignere",
+      "status": "verified",
+      "confidenceScore": 0.96,
+      "sources": [
+        {
+          "title": "Skaperverket – Om oss",
+          "url": "https://www.skaperverket.no/om-oss",
+          "publisher": "Skaperverket",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Skaperverket – Kontakt",
+          "url": "https://www.skaperverket.no/kontakt",
+          "publisher": "Skaperverket",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Skaperverket – Visit Løkka",
+          "url": "https://visitlokka.no/directory-visitlokka/listing/skaperverket/",
+          "publisher": "Skaperverket",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "secondary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-16",
-      "statement": "Schous kulturbryggeri i Trondheimsveien 2 ble utviklet som et felles anlegg for Popsenteret, Riksscenen, Øvingshotellet og Oslo Musikk- og Kulturskole",
-      "confidence": 0.95,
-      "source": "Schous kulturbryggeri – Arkitektur.no, Riksscenen – Om oss, Popsenteret – Besøk oss, Oslo kulturskole – Schous-undervisning",
-      "status": "verified"
+      "claimId": "design-claim-16",
+      "claim": "Schous kulturbryggeri i Trondheimsveien 2 ble utviklet som et felles anlegg for Popsenteret, Riksscenen, Øvingshotellet og Oslo Musikk- og Kulturskole",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Schous kulturbryggeri – Arkitektur.no",
+          "url": "https://www.arkitektur.no/prosjekter/kultur/schous-kulturbryggeri-popsenteret-riksscenen-oevingshotellet-og-oslo-musikk-og-kulturskole/",
+          "publisher": "Riksscenen",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Riksscenen – Om oss",
+          "url": "https://www.riksscenen.no/om-oss.556094.no.html",
+          "publisher": "Riksscenen",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Popsenteret – Besøk oss",
+          "url": "https://www.popsenteret.no/besok-oss",
+          "publisher": "Popsenteret",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Oslo kulturskole – Schous-undervisning",
+          "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/kunst-og-kultur/oslo-kulturskole/undervisningstilbud/dans/schous-crew/",
+          "publisher": "Oslo kommune",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-17",
-      "statement": "Popsenteret opplyser at museet i Trondheimsveien 2 bygg T er stengt permanent",
-      "confidence": 0.98,
-      "source": "Popsenteret – Besøk oss, Popsenteret – Avvikles",
-      "status": "verified"
+      "claimId": "design-claim-17",
+      "claim": "Popsenteret opplyser at museet i Trondheimsveien 2 bygg T er stengt permanent",
+      "status": "verified",
+      "confidenceScore": 0.98,
+      "sources": [
+        {
+          "title": "Popsenteret – Besøk oss",
+          "url": "https://www.popsenteret.no/besok-oss",
+          "publisher": "Popsenteret",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Popsenteret – Avvikles",
+          "url": "https://www.popsenteret.no/program/popsenteret-avvikles",
+          "publisher": "Popsenteret",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-18",
-      "statement": "Dapper på Nordre gate 20 beskriver seg som en gründerdrevet, uavhengig multi-brand konseptbutikk med både kafé og bar/eventdrift",
-      "confidence": 0.97,
-      "source": "Dapper – Om oss",
-      "status": "verified"
+      "claimId": "design-claim-18",
+      "claim": "Dapper på Nordre gate 20 beskriver seg som en gründerdrevet, uavhengig multi-brand konseptbutikk med både kafé og bar/eventdrift",
+      "status": "verified",
+      "confidenceScore": 0.97,
+      "sources": [
+        {
+          "title": "Dapper – Om oss",
+          "url": "https://www.dapper.no/pages/om-oss",
+          "publisher": "Dapper",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-19",
-      "statement": "Hunting Lodge på Markveien 58 er en designledet konseptbutikk som åpnet i 2006 og ble renovert i 2019",
-      "confidence": 0.97,
-      "source": "Hunting Lodge – Oslo store",
-      "status": "verified"
+      "claimId": "design-claim-19",
+      "claim": "Hunting Lodge på Markveien 58 er en designledet konseptbutikk som åpnet i 2006 og ble renovert i 2019",
+      "status": "verified",
+      "confidenceScore": 0.97,
+      "sources": [
+        {
+          "title": "Hunting Lodge – Oslo store",
+          "url": "https://www.huntinglodge.no/no/pages/oslo-store",
+          "publisher": "Hunting Lodge",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-20",
-      "statement": "KHiO ble etablert 1. august 1996 gjennom sammenslåing av fem tidligere høyskoler og består i dag av seks avdelinger",
-      "confidence": 0.97,
-      "source": "KHiO – FAQs om opptak, KHiO – Avdelinger",
-      "status": "verified"
+      "claimId": "design-claim-20",
+      "claim": "KHiO ble etablert 1. august 1996 gjennom sammenslåing av fem tidligere høyskoler og består i dag av seks avdelinger",
+      "status": "verified",
+      "confidenceScore": 0.97,
+      "sources": [
+        {
+          "title": "KHiO – FAQs om opptak",
+          "url": "https://khio.no/studier/sok-opptak/faqs-om-opptak",
+          "publisher": "Kunsthøgskolen i Oslo",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "KHiO – Avdelinger",
+          "url": "https://khio.no/avdelinger",
+          "publisher": "Kunsthøgskolen i Oslo",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-21",
-      "statement": "Tom Wood ble grunnlagt av Mona Jensen i 2013, er representert hos over 200 forhandlere globalt, og opplyser at hovedkontor og showroom ligger i hjertet av Grünerløkka",
-      "confidence": 0.97,
-      "source": "Tom Wood Project, Tom Wood Careers – About us",
-      "status": "verified"
+      "claimId": "design-claim-21",
+      "claim": "Tom Wood ble grunnlagt av Mona Jensen i 2013, er representert hos over 200 forhandlere globalt, og opplyser at hovedkontor og showroom ligger i hjertet av Grünerløkka",
+      "status": "verified",
+      "confidenceScore": 0.97,
+      "sources": [
+        {
+          "title": "Tom Wood Project",
+          "url": "https://www.tomwoodproject.com/about-tom-wood/",
+          "publisher": "Tom Wood",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Tom Wood Careers – About us",
+          "url": "https://career.tomwoodproject.com/pages/about-us",
+          "publisher": "Tom Wood",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-22",
-      "statement": "Good Vibes Vintage opplyser at butikken på Markveien 2 har solgt håndplukket vintageklær, skateboards og egne merkevarer siden 2018.",
-      "confidence": 0.96,
-      "source": "Good Vibes Vintage Shop, Good Vibes Vintage – About us",
-      "status": "verified"
+      "claimId": "design-claim-22",
+      "claim": "Good Vibes Vintage opplyser at butikken på Markveien 2 har solgt håndplukket vintageklær, skateboards og egne merkevarer siden 2018.",
+      "status": "verified",
+      "confidenceScore": 0.96,
+      "sources": [
+        {
+          "title": "Good Vibes Vintage Shop",
+          "url": "https://goodvibesvintage.no/pages/good-vibes-vintage-shop",
+          "publisher": "Good Vibes Vintage",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Good Vibes Vintage – About us",
+          "url": "https://goodvibesvintage.no/pages/about-us",
+          "publisher": "Good Vibes Vintage",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-23",
-      "statement": "Bleed oppgir 324 designpriser og framhever arbeid på tvers av merkevareutvikling, UX/UI, motion, romlige miljøer og utstillingsdesign.",
-      "confidence": 0.95,
-      "source": "Bleed Design Studio – Studio",
-      "status": "verified"
+      "claimId": "design-claim-23",
+      "claim": "Bleed oppgir 324 designpriser og framhever arbeid på tvers av merkevareutvikling, UX/UI, motion, romlige miljøer og utstillingsdesign.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Bleed Design Studio – Studio",
+          "url": "https://bleed.com/studio",
+          "publisher": "Bleed Design Studio",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-24",
-      "statement": "Bielke&Yang opplyser at byrået i dag arbeider på tvers av flere fagdisipliner for å bygge og utvikle merkevarer, møteplasser og opplevelser.",
-      "confidence": 0.95,
-      "source": "Bielke&Yang – Om oss",
-      "status": "verified"
+      "claimId": "design-claim-24",
+      "claim": "Bielke&Yang opplyser at byrået i dag arbeider på tvers av flere fagdisipliner for å bygge og utvikle merkevarer, møteplasser og opplevelser.",
+      "status": "verified",
+      "confidenceScore": 0.95,
+      "sources": [
+        {
+          "title": "Bielke&Yang – Om oss",
+          "url": "https://bielkeyang.com/om",
+          "publisher": "Bielke&Yang",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     },
     {
-      "id": "design-claim-25",
-      "statement": "Robot og Good Vibes Vintage dokumenterer to ulike vintageprofiler på Løkka: Robot fra Korsgata 22 med kuratert 2005-profil og Good Vibes fra Markveien 2 med 1990-/2000-talls og skateinspirert butikkprofil.",
-      "confidence": 0.93,
-      "source": "Robot Oslo, Good Vibes Vintage Shop",
-      "status": "verified"
+      "claimId": "design-claim-25",
+      "claim": "Robot og Good Vibes Vintage dokumenterer to ulike vintageprofiler på Løkka: Robot fra Korsgata 22 med kuratert 2005-profil og Good Vibes fra Markveien 2 med 1990-/2000-talls og skateinspirert butikkprofil.",
+      "status": "verified",
+      "confidenceScore": 0.93,
+      "sources": [
+        {
+          "title": "Robot Oslo",
+          "url": "https://www.robotoslo.com/",
+          "publisher": "Robot Oslo",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        },
+        {
+          "title": "Good Vibes Vintage Shop",
+          "url": "https://goodvibesvintage.no/pages/good-vibes-vintage-shop",
+          "publisher": "Good Vibes Vintage",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary"
+        }
+      ],
+      "lastVerifiedAt": "2026-03-30"
     }
   ],
   "researchMetadata": {
-    "lastVerified": "2026-03-30",
+    "lastVerifiedAt": "2026-05-18",
+    "verifiedBy": "biblioteket-research",
     "coverageScore": 0.93,
     "staleAfterDays": 180,
     "notes": "Adressen til Holzweiler Collage på Grünerløkka kunne ikke verifiseres med nøyaktig gateadresse. Snøhetta bekreftet å ikke ligge på Grünerløkka, men inkludert pga. relevans (Dansens Hus-prosjektet). Grünerløkka-spesifikk statistikk for kreativ næring finnes ikke på bydelsnivå fra SSB. Schous-kvartalet er oppdatert med presis historisk beskrivelse og eksplisitt note om at Popsenteret nå er stengt permanent. Ny sprint 2026-03-30 oppgraderte Bleed og Bielke&Yang til primærkilde-baserte claims og korrigerte Robot/Good Vibes-data mot offisielle butikkilder."
@@ -847,7 +1538,7 @@
     "educationCount": 3,
     "designerCount": 6,
     "claimCount": 25,
-    "sourceCount": 50,
+    "sourceCount": 55,
     "generatedAt": "2026-03-30"
   }
 }

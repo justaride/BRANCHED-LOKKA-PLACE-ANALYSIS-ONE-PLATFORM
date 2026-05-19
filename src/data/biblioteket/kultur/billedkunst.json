@@ -567,7 +567,7 @@
       "url": "https://www.osloway.no/post/edvards-gr%C3%BCnerl%C3%B8kka",
       "publisher": "Osloway",
       "accessedAt": "2026-03-02",
-      "sourceType": "article",
+      "sourceType": "news",
       "evidenceLevel": "secondary"
     },
     {
@@ -647,7 +647,7 @@
       "url": "https://www.kampenhistorielag.no/post/castus-fra-kampen",
       "publisher": "Kampen Historielag",
       "accessedAt": "2026-03-02",
-      "sourceType": "article",
+      "sourceType": "news",
       "evidenceLevel": "secondary"
     },
     {
@@ -719,7 +719,7 @@
       "url": "https://visitlokka.no/kunstnerlokka/",
       "publisher": "Visit Løkka",
       "accessedAt": "2026-03-02",
-      "sourceType": "article",
+      "sourceType": "news",
       "evidenceLevel": "secondary"
     },
     {
@@ -743,7 +743,7 @@
       "url": "https://www.splitcitymagazine.com/nyheter/oslo-street-art-festival-2025",
       "publisher": "SplitCity Magazine",
       "accessedAt": "2026-03-02",
-      "sourceType": "article",
+      "sourceType": "news",
       "evidenceLevel": "secondary"
     },
     {
@@ -751,7 +751,7 @@
       "url": "https://www.vartoslo.no/aspelin-ramm-bjarne-melgaard-bydel-grnerlokka/vulkan-er-allerede-oslos-paradis-for-gatekunst-na-apner-ogsa-en-kjempestor-kunsthall-for-street-art-her/529519",
       "publisher": "VårtOslo",
       "accessedAt": "2026-03-02",
-      "sourceType": "article",
+      "sourceType": "news",
       "evidenceLevel": "secondary"
     },
     {
@@ -783,7 +783,7 @@
       "url": "https://www.vartoslo.no/foto-historiske-oslo-morten-mitchell-larod/fotograf-morten-larod-viser-hvordan-oslo-sa-ut-for-og-na/243923",
       "publisher": "VårtOslo",
       "accessedAt": "2026-03-02",
-      "sourceType": "article",
+      "sourceType": "news",
       "evidenceLevel": "secondary"
     },
     {
@@ -833,6 +833,42 @@
       "accessedAt": "2026-03-30",
       "sourceType": "official",
       "evidenceLevel": "primary"
+    },
+    {
+      "title": "Nasjonalmuseet - Christian Krohg",
+      "url": "https://www.nasjonalmuseet.no/samlingen/produsent/53604/christian-krohg",
+      "publisher": "Nasjonalmuseet",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Museum profile describes Krohg as a major realist painter who painted the working class in nineteenth-century Kristiania."
+    },
+    {
+      "title": "Norsk kunstnerleksikon - Christian Krohg",
+      "url": "https://nkl.snl.no/Christian_Krohg",
+      "publisher": "Norsk kunstnerleksikon / SNL",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Documents Krohg as a socially and politically engaged realist artist."
+    },
+    {
+      "title": "DigitaltMuseum / Oslo byarkiv - Th. Kittelsens plass, 1935",
+      "url": "https://digitaltmuseum.no/011012631303/th-kittelsens-plass-1935",
+      "publisher": "Oslo byarkiv / DigitaltMuseum",
+      "accessedAt": "2026-05-18",
+      "sourceType": "archive",
+      "evidenceLevel": "primary",
+      "notes": "Archive photo documents Th. Kittelsens plass in 1935."
+    },
+    {
+      "title": "Norsk biografisk leksikon - Theodor Kittelsen",
+      "url": "https://nbl.snl.no/Theodor_Kittelsen",
+      "publisher": "Norsk biografisk leksikon / SNL",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Biographical source for Theodor Kittelsen."
     }
   ],
   "claims": [
@@ -875,10 +911,28 @@
           "accessedAt": "2026-03-02",
           "sourceType": "database",
           "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Nasjonalmuseet - Christian Krohg",
+          "url": "https://www.nasjonalmuseet.no/samlingen/produsent/53604/christian-krohg",
+          "publisher": "Nasjonalmuseet",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary",
+          "notes": "Museum profile describes Krohg as a major realist painter who painted the working class in nineteenth-century Kristiania."
+        },
+        {
+          "title": "Norsk kunstnerleksikon - Christian Krohg",
+          "url": "https://nkl.snl.no/Christian_Krohg",
+          "publisher": "Norsk kunstnerleksikon / SNL",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary",
+          "notes": "Documents Krohg as a socially and politically engaged realist artist."
         }
       ],
-      "notes": "Godt dokumentert i SNL og Nasjonalmuseet. Krohg hadde ikke fast adresse på Løkka, men hans sosialrealistiske motiver er ubestridelig knyttet til østkantens miljøer.",
-      "lastVerifiedAt": "2026-03-02"
+      "notes": "Verified with SNL, Nasjonalmuseet and Norsk kunstnerleksikon for Krohg as a realist/socially engaged artist with working-class Kristiania motifs.",
+      "lastVerifiedAt": "2026-05-18"
     },
     {
       "claimId": "billedkunst-003",
@@ -1048,7 +1102,7 @@
       "claimId": "billedkunst-009",
       "claim": "Th. Kittelsens plass på Grünerløkka er oppkalt etter Theodor Kittelsen i 1934.",
       "status": "verified",
-      "confidenceScore": 0.95,
+      "confidenceScore": 0.86,
       "sources": [
         {
           "title": "Oslo byleksikon - Th. Kittelsens plass",
@@ -1057,10 +1111,28 @@
           "accessedAt": "2026-03-02",
           "sourceType": "database",
           "evidenceLevel": "secondary"
+        },
+        {
+          "title": "DigitaltMuseum / Oslo byarkiv - Th. Kittelsens plass, 1935",
+          "url": "https://digitaltmuseum.no/011012631303/th-kittelsens-plass-1935",
+          "publisher": "Oslo byarkiv / DigitaltMuseum",
+          "accessedAt": "2026-05-18",
+          "sourceType": "archive",
+          "evidenceLevel": "primary",
+          "notes": "Archive photo documents Th. Kittelsens plass in 1935."
+        },
+        {
+          "title": "Norsk biografisk leksikon - Theodor Kittelsen",
+          "url": "https://nbl.snl.no/Theodor_Kittelsen",
+          "publisher": "Norsk biografisk leksikon / SNL",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary",
+          "notes": "Biographical source for Theodor Kittelsen."
         }
       ],
-      "notes": "Bekreftet via Oslo byleksikon. Plassen ligger i hjørnet av Søndre gate og Thorvald Meyers gate.",
-      "lastVerifiedAt": "2026-03-02"
+      "notes": "Oslo byleksikon gives the naming and 1934 date; Oslo byarkiv/DigitaltMuseum independently documents the place in 1935; NBL documents the person named.",
+      "lastVerifiedAt": "2026-05-18"
     },
     {
       "claimId": "billedkunst-010",
@@ -1230,7 +1302,7 @@
     }
   ],
   "researchMetadata": {
-    "lastVerifiedAt": "2026-03-30",
+    "lastVerifiedAt": "2026-05-18",
     "verifiedBy": "codex-gpt-5",
     "coverageScore": 0.92,
     "staleAfterDays": 150,

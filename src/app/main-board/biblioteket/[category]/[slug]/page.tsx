@@ -61,7 +61,17 @@ export default async function DetailPage({ params }: PageProps) {
         notFound();
     }
 
-    const getLinkDisplayName = (url: string) => {
+    const getLinkUrl = (link: string | { url: string; label?: string }) => {
+        return typeof link === 'string' ? link : link.url;
+    };
+
+    const getLinkDisplayName = (link: string | { url: string; label?: string }) => {
+        if (typeof link !== 'string' && link.label) {
+            return link.label;
+        }
+
+        const url = getLinkUrl(link);
+
         try {
             const urlObj = new URL(url);
             return urlObj.hostname.replace('www.', '');
@@ -175,7 +185,7 @@ export default async function DetailPage({ params }: PageProps) {
                                             {ildsjel.links.map((link, i) => (
                                                 <a
                                                     key={i}
-                                                    href={link}
+                                                    href={getLinkUrl(link)}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     className="flex items-center gap-2 rounded-lg bg-natural-forest/5 px-3 py-2 text-sm text-natural-forest hover:bg-natural-forest/10 transition-colors group"

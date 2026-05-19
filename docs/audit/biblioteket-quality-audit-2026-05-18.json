@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T07:49:30.985Z",
+  "generatedAt": "2026-05-18T17:32:40.982Z",
   "datasets": [
     {
       "key": "historie",
@@ -11,8 +11,9 @@
       "partiallyVerifiedCount": 0,
       "unverifiedCount": 0,
       "disputedCount": 0,
-      "coverageScore": 0.86,
-      "lastVerifiedAt": "2026-03-30"
+      "legacySourceCount": 0,
+      "legacyClaimCount": 0,
+      "issues": []
     },
     {
       "key": "ildsjeler",
@@ -24,8 +25,9 @@
       "partiallyVerifiedCount": 0,
       "unverifiedCount": 0,
       "disputedCount": 0,
-      "coverageScore": 0.87,
-      "lastVerifiedAt": "2026-03-30"
+      "legacySourceCount": 0,
+      "legacyClaimCount": 0,
+      "issues": []
     },
     {
       "key": "litteratur",
@@ -37,8 +39,9 @@
       "partiallyVerifiedCount": 0,
       "unverifiedCount": 0,
       "disputedCount": 0,
-      "coverageScore": 0.87,
-      "lastVerifiedAt": "2026-03-30"
+      "legacySourceCount": 0,
+      "legacyClaimCount": 0,
+      "issues": []
     },
     {
       "key": "kultur-master",
@@ -50,47 +53,51 @@
       "partiallyVerifiedCount": 0,
       "unverifiedCount": 0,
       "disputedCount": 0,
-      "coverageScore": 0.94,
-      "lastVerifiedAt": "2026-03-30"
+      "legacySourceCount": 0,
+      "legacyClaimCount": 0,
+      "issues": []
     },
     {
       "key": "kultur-jazz",
       "file": "src/data/biblioteket/kultur/jazz.json",
       "title": "Jazzhistorien på Grünerløkka",
-      "sourceCount": 32,
+      "sourceCount": 30,
       "claimCount": 15,
-      "verifiedCount": 15,
-      "partiallyVerifiedCount": 0,
+      "verifiedCount": 14,
+      "partiallyVerifiedCount": 1,
       "unverifiedCount": 0,
       "disputedCount": 0,
-      "coverageScore": 0.91,
-      "lastVerifiedAt": "2026-05-18"
+      "legacySourceCount": 0,
+      "legacyClaimCount": 0,
+      "issues": []
     },
     {
       "key": "kultur-hiphop",
       "file": "src/data/biblioteket/kultur/hiphop.json",
       "title": "Hiphop-miljøet på Grünerløkka",
-      "sourceCount": 35,
+      "sourceCount": 29,
       "claimCount": 18,
-      "verifiedCount": 18,
-      "partiallyVerifiedCount": 0,
+      "verifiedCount": 14,
+      "partiallyVerifiedCount": 4,
       "unverifiedCount": 0,
       "disputedCount": 0,
-      "coverageScore": 0.92,
-      "lastVerifiedAt": "2026-05-18"
+      "legacySourceCount": 0,
+      "legacyClaimCount": 0,
+      "issues": []
     },
     {
       "key": "kultur-film",
       "file": "src/data/biblioteket/kultur/film.json",
       "title": "Film og Grünerløkka",
-      "sourceCount": 34,
+      "sourceCount": 31,
       "claimCount": 14,
-      "verifiedCount": 14,
-      "partiallyVerifiedCount": 0,
+      "verifiedCount": 12,
+      "partiallyVerifiedCount": 2,
       "unverifiedCount": 0,
       "disputedCount": 0,
-      "coverageScore": 0.93,
-      "lastVerifiedAt": "2026-05-18"
+      "legacySourceCount": 0,
+      "legacyClaimCount": 0,
+      "issues": []
     },
     {
       "key": "kultur-teater",
@@ -102,47 +109,51 @@
       "partiallyVerifiedCount": 0,
       "unverifiedCount": 0,
       "disputedCount": 0,
-      "coverageScore": 0.93,
-      "lastVerifiedAt": "2026-03-30"
+      "legacySourceCount": 0,
+      "legacyClaimCount": 0,
+      "issues": []
     },
     {
       "key": "kultur-billedkunst",
       "file": "src/data/biblioteket/kultur/billedkunst.json",
       "title": "Billedkunst på Grünerløkka",
-      "sourceCount": 41,
+      "sourceCount": 37,
       "claimCount": 16,
-      "verifiedCount": 16,
-      "partiallyVerifiedCount": 0,
+      "verifiedCount": 14,
+      "partiallyVerifiedCount": 2,
       "unverifiedCount": 0,
       "disputedCount": 0,
-      "coverageScore": 0.92,
-      "lastVerifiedAt": "2026-05-18"
+      "legacySourceCount": 0,
+      "legacyClaimCount": 0,
+      "issues": []
     },
     {
       "key": "kultur-arkitektur",
       "file": "src/data/biblioteket/kultur/arkitektur.json",
       "title": "Arkitektur og Byrom på Grünerløkka",
-      "sourceCount": 41,
+      "sourceCount": 40,
       "claimCount": 19,
-      "verifiedCount": 19,
-      "partiallyVerifiedCount": 0,
+      "verifiedCount": 18,
+      "partiallyVerifiedCount": 1,
       "unverifiedCount": 0,
       "disputedCount": 0,
-      "coverageScore": 0.89,
-      "lastVerifiedAt": "2026-05-18"
+      "legacySourceCount": 0,
+      "legacyClaimCount": 0,
+      "issues": []
     },
     {
       "key": "kultur-design",
       "file": "src/data/biblioteket/kultur/design-kreativ.json",
       "title": "Design og Kreativ Næring på Grünerløkka",
-      "sourceCount": 58,
+      "sourceCount": 55,
       "claimCount": 25,
-      "verifiedCount": 25,
-      "partiallyVerifiedCount": 0,
+      "verifiedCount": 23,
+      "partiallyVerifiedCount": 2,
       "unverifiedCount": 0,
       "disputedCount": 0,
-      "coverageScore": 0.93,
-      "lastVerifiedAt": "2026-05-18"
+      "legacySourceCount": 0,
+      "legacyClaimCount": 0,
+      "issues": []
     },
     {
       "key": "idrett",
@@ -154,8 +165,9 @@
       "partiallyVerifiedCount": 0,
       "unverifiedCount": 0,
       "disputedCount": 0,
-      "coverageScore": 0.86,
-      "lastVerifiedAt": "2026-03-30"
+      "legacySourceCount": 0,
+      "legacyClaimCount": 0,
+      "issues": []
     },
     {
       "key": "mediebildet",
@@ -167,18 +179,26 @@
       "partiallyVerifiedCount": 0,
       "unverifiedCount": 0,
       "disputedCount": 0,
-      "coverageScore": 0.86,
-      "lastVerifiedAt": "2026-03-30"
+      "legacySourceCount": 0,
+      "legacyClaimCount": 0,
+      "issues": []
     }
   ],
   "summary": {
     "datasetCount": 13,
-    "sourceCount": 381,
+    "sourceCount": 362,
     "claimCount": 185,
-    "verifiedCount": 185,
-    "partiallyVerifiedCount": 0,
+    "verifiedCount": 173,
+    "partiallyVerifiedCount": 12,
     "unverifiedCount": 0,
     "disputedCount": 0,
-    "averageCoverageScore": 0.9
+    "legacySourceCount": 0,
+    "legacyClaimCount": 0,
+    "issueCount": 0,
+    "issuesBySeverity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    }
   }
 }

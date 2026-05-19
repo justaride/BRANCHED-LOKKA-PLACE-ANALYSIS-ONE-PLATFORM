@@ -665,19 +665,33 @@ export function getArtVenues(): ArtVenue[] {
 export interface SimpleSource {
     title: string;
     url: string;
-    type: string;
+    type?: string;
+    publisher?: string;
+    publishedAt?: string;
+    accessedAt?: string;
+    sourceType?: SourceItem['sourceType'];
+    evidenceLevel?: SourceItem['evidenceLevel'];
+    notes?: string;
 }
 
 export interface SimpleClaim {
-    id: string;
-    statement: string;
-    confidence: number;
-    source: string;
+    id?: string;
+    statement?: string;
+    confidence?: number;
+    source?: string;
+    claimId?: string;
+    claim?: string;
     status: string;
+    confidenceScore?: number;
+    sources?: SourceItem[];
+    notes?: string;
+    lastVerifiedAt?: string;
 }
 
 export interface SimpleResearchMetadata {
-    lastVerified: string;
+    lastVerified?: string;
+    lastVerifiedAt?: string;
+    verifiedBy?: string;
     coverageScore: number;
     staleAfterDays: number;
     notes?: string;
@@ -1458,7 +1472,7 @@ export function getBibliotekCategories(): BibliotekCategory[] {
             slug: 'mediebildet',
             title: 'Mediebildet',
             description: 'Grünerløkka i norske medier 2000-2025 – artikler, dokumentarer og podcaster.',
-            image: '/images/biblioteket/mediebildet-hero.jpg',
+            image: '/images/biblioteket/lokka-bibliotek-hero.jpg',
             itemCount: getTotalMediaItems(),
             color: 'slate',
             verification: verificationSummaries.mediebildet ?? undefined,

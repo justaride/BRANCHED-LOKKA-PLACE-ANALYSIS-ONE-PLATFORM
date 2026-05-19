@@ -240,10 +240,26 @@
       ],
       "connectionToLokka": "Opptrådte jevnlig på Oslo Jazzhus i Toftes gate og var mentor for yngre musikere i Løkka-miljøet",
       "keyAlbums": [
-        { "title": "Afric Pepperbird", "year": 1970, "label": "ECM" },
-        { "title": "Belonging", "year": 1974, "label": "ECM" },
-        { "title": "My Song", "year": 1978, "label": "ECM" },
-        { "title": "Solstice", "year": 1975, "label": "ECM" }
+        {
+          "title": "Afric Pepperbird",
+          "year": 1970,
+          "label": "ECM"
+        },
+        {
+          "title": "Belonging",
+          "year": 1974,
+          "label": "ECM"
+        },
+        {
+          "title": "My Song",
+          "year": 1978,
+          "label": "ECM"
+        },
+        {
+          "title": "Solstice",
+          "year": 1975,
+          "label": "ECM"
+        }
       ]
     },
     {
@@ -259,10 +275,26 @@
       ],
       "connectionToLokka": "Inspirerte generasjoner av musikere i Løkka-miljøet gjennom ECM-tilknytning og konserter",
       "keyAlbums": [
-        { "title": "Afric Pepperbird", "year": 1970, "label": "ECM" },
-        { "title": "Witchi-Tai-To", "year": 1974, "label": "ECM" },
-        { "title": "Dis", "year": 1976, "label": "ECM" },
-        { "title": "Officium", "year": 1994, "label": "ECM" }
+        {
+          "title": "Afric Pepperbird",
+          "year": 1970,
+          "label": "ECM"
+        },
+        {
+          "title": "Witchi-Tai-To",
+          "year": 1974,
+          "label": "ECM"
+        },
+        {
+          "title": "Dis",
+          "year": 1976,
+          "label": "ECM"
+        },
+        {
+          "title": "Officium",
+          "year": 1994,
+          "label": "ECM"
+        }
       ]
     },
     {
@@ -277,10 +309,26 @@
       ],
       "connectionToLokka": "Del av det sentrale Oslo-miljøet som formet norsk jazz gjennom ECM-innspillinger",
       "keyAlbums": [
-        { "title": "Terje Rypdal", "year": 1971, "label": "ECM" },
-        { "title": "Whenever I Seem To Be Far Away", "year": 1974, "label": "ECM" },
-        { "title": "Waves", "year": 1978, "label": "ECM" },
-        { "title": "Conspiracy", "year": 2020, "label": "ECM" }
+        {
+          "title": "Terje Rypdal",
+          "year": 1971,
+          "label": "ECM"
+        },
+        {
+          "title": "Whenever I Seem To Be Far Away",
+          "year": 1974,
+          "label": "ECM"
+        },
+        {
+          "title": "Waves",
+          "year": 1978,
+          "label": "ECM"
+        },
+        {
+          "title": "Conspiracy",
+          "year": 2020,
+          "label": "ECM"
+        }
       ]
     },
     {
@@ -298,10 +346,26 @@
       ],
       "connectionToLokka": "Del av kjernegruppen som definerte norsk jazz, opptrådte jevnlig i Oslo-miljøet",
       "keyAlbums": [
-        { "title": "Clouds In My Head", "year": 1975, "label": "ECM" },
-        { "title": "Shimri", "year": 1977, "label": "ECM" },
-        { "title": "Green Shading Into Blue", "year": 1978, "label": "ECM" },
-        { "title": "Lifelines", "year": 1981, "label": "ECM" }
+        {
+          "title": "Clouds In My Head",
+          "year": 1975,
+          "label": "ECM"
+        },
+        {
+          "title": "Shimri",
+          "year": 1977,
+          "label": "ECM"
+        },
+        {
+          "title": "Green Shading Into Blue",
+          "year": 1978,
+          "label": "ECM"
+        },
+        {
+          "title": "Lifelines",
+          "year": 1981,
+          "label": "ECM"
+        }
       ]
     },
     {
@@ -317,8 +381,16 @@
       ],
       "connectionToLokka": "Sentral i Oslo-jazzmiljøet, samarbeidet tett med musikere tilknyttet Løkka-scenene",
       "keyAlbums": [
-        { "title": "So I Write", "year": 1990, "label": "ECM" },
-        { "title": "Exile", "year": 1994, "label": "ECM" }
+        {
+          "title": "So I Write",
+          "year": 1990,
+          "label": "ECM"
+        },
+        {
+          "title": "Exile",
+          "year": 1994,
+          "label": "ECM"
+        }
       ]
     },
     {
@@ -334,8 +406,16 @@
       ],
       "connectionToLokka": "Sentral figur på Blå og andre Løkka-scener, del av future jazz-miljøet som hadde Blå som hjemmescene",
       "keyAlbums": [
-        { "title": "Khmer", "year": 1997, "label": "ECM" },
-        { "title": "Solid Ether", "year": 2000, "label": "ECM" }
+        {
+          "title": "Khmer",
+          "year": 1997,
+          "label": "ECM"
+        },
+        {
+          "title": "Solid Ether",
+          "year": 2000,
+          "label": "ECM"
+        }
       ]
     },
     {
@@ -350,9 +430,21 @@
       ],
       "connectionToLokka": "Del av det moderne Oslo-jazzmiljøet med røtter i Garbarek-tradisjonen",
       "keyAlbums": [
-        { "title": "Different Rivers", "year": 2000, "label": "ECM" },
-        { "title": "Sangam", "year": 2004, "label": "ECM" },
-        { "title": "Rumi Songs", "year": 2016, "label": "ECM" }
+        {
+          "title": "Different Rivers",
+          "year": 2000,
+          "label": "ECM"
+        },
+        {
+          "title": "Sangam",
+          "year": 2004,
+          "label": "ECM"
+        },
+        {
+          "title": "Rumi Songs",
+          "year": 2016,
+          "label": "ECM"
+        }
       ]
     },
     {
@@ -380,9 +472,21 @@
       ],
       "connectionToLokka": "Opptrer jevnlig på Blå og Parkteatret, del av den nye generasjonen Oslo-jazzmusikere",
       "keyAlbums": [
-        { "title": "The Door", "year": 2008, "label": "ECM" },
-        { "title": "Skala", "year": 2011, "label": "ECM" },
-        { "title": "Midwest", "year": 2015, "label": "ECM" }
+        {
+          "title": "The Door",
+          "year": 2008,
+          "label": "ECM"
+        },
+        {
+          "title": "Skala",
+          "year": 2011,
+          "label": "ECM"
+        },
+        {
+          "title": "Midwest",
+          "year": 2015,
+          "label": "ECM"
+        }
       ]
     },
     {
@@ -642,6 +746,24 @@
       "accessedAt": "2026-03-30",
       "sourceType": "official",
       "evidenceLevel": "primary"
+    },
+    {
+      "title": "Jazzprisen - Buddy-prisen mottakere",
+      "url": "https://jazzprisen.no/priskategorier/buddy-prisen/",
+      "publisher": "Norsk jazzforum / Jazzprisen",
+      "accessedAt": "2026-05-18",
+      "sourceType": "official",
+      "evidenceLevel": "primary",
+      "notes": "Official Buddy-prisen recipient list includes Arild Andersen in 1969."
+    },
+    {
+      "title": "Norsk biografisk leksikon - Arild Andersen",
+      "url": "https://nbl.snl.no/Arild_Andersen",
+      "publisher": "Norsk biografisk leksikon / SNL",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Documents both Buddy-prisen in 1969 and European Jazz Federation bassist of the year in 1975."
     }
   ],
   "claims": [
@@ -699,7 +821,7 @@
       "claimId": "jazz-003",
       "claim": "Oslo Jazzhus var lokalisert i Toftes gate 69 i perioden 1985-1994, deretter på Rodeløkka til nedleggelse i 1996.",
       "status": "verified",
-      "confidenceScore": 0.90,
+      "confidenceScore": 0.9,
       "sources": [
         {
           "title": "Store norske leksikon - Oslo Jazzhus",
@@ -799,7 +921,7 @@
       "claimId": "jazz-006",
       "claim": "Parkteatret ble gjenåpnet som konsert- og teaterscene i 2002 etter renovering.",
       "status": "verified",
-      "confidenceScore": 0.90,
+      "confidenceScore": 0.9,
       "sources": [
         {
           "title": "Oslo byleksikon - Parkteatret",
@@ -851,7 +973,7 @@
       "claimId": "jazz-008",
       "claim": "Grünerløkka er en sentral arena i Oslos jazzhistorie fra 1980-tallet og fremover.",
       "status": "verified",
-      "confidenceScore": 0.90,
+      "confidenceScore": 0.9,
       "sources": [
         {
           "title": "Oslo byarkiv - Tobias 1/2004",
@@ -901,7 +1023,7 @@
       "claimId": "jazz-010",
       "claim": "Jon Christensen medvirket på rundt 70 ECM-utgivelser og ble kåret til Europas beste jazztrommeslager i 1975.",
       "status": "verified",
-      "confidenceScore": 0.90,
+      "confidenceScore": 0.9,
       "sources": [
         {
           "title": "ECM Records - Jon Christensen",
@@ -927,7 +1049,7 @@
       "claimId": "jazz-011",
       "claim": "Arild Andersen mottok Buddy-prisen i 1969 og ble kåret til Europas beste jazzbasist i 1975.",
       "status": "verified",
-      "confidenceScore": 0.90,
+      "confidenceScore": 0.9,
       "sources": [
         {
           "title": "Store norske leksikon - Arild Andersen",
@@ -936,9 +1058,28 @@
           "accessedAt": "2026-03-02",
           "sourceType": "database",
           "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Jazzprisen - Buddy-prisen mottakere",
+          "url": "https://jazzprisen.no/priskategorier/buddy-prisen/",
+          "publisher": "Norsk jazzforum / Jazzprisen",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary",
+          "notes": "Official Buddy-prisen recipient list includes Arild Andersen in 1969."
+        },
+        {
+          "title": "Norsk biografisk leksikon - Arild Andersen",
+          "url": "https://nbl.snl.no/Arild_Andersen",
+          "publisher": "Norsk biografisk leksikon / SNL",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary",
+          "notes": "Documents both Buddy-prisen in 1969 and European Jazz Federation bassist of the year in 1975."
         }
       ],
-      "lastVerifiedAt": "2026-03-02"
+      "lastVerifiedAt": "2026-05-18",
+      "notes": "Verified with official Buddy-prisen recipient list and Norsk biografisk leksikon for the 1975 European Jazz Federation award."
     },
     {
       "claimId": "jazz-012",
@@ -1042,7 +1183,7 @@
     }
   ],
   "researchMetadata": {
-    "lastVerifiedAt": "2026-03-30",
+    "lastVerifiedAt": "2026-05-18",
     "verifiedBy": "claude-opus-4-6",
     "coverageScore": 0.91,
     "staleAfterDays": 180,

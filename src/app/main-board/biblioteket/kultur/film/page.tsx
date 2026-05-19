@@ -54,7 +54,6 @@ export default function FilmPage() {
         <>
             {/* Hero Section */}
             <section className="relative overflow-hidden border-b border-gray-200 py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 text-white">
-                <div className="absolute inset-0 bg-[url('/images/noise.png')] opacity-5" />
                 <Container className="relative z-10">
                     <motion.div
                         className="max-w-3xl"

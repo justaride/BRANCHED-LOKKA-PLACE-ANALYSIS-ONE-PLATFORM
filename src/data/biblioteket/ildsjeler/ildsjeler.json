@@ -28,7 +28,19 @@
     "imageUrl": "/images/ildsjeler/anna-rogstad.jpg",
     "profileUrl": "/ildsjeler/anna-rogstad",
     "links": [],
-    "isLiving": false
+    "isLiving": false,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "known",
+        "isLiving": "known",
+        "links": "missing"
+      },
+      "notes": [
+        "Profile has no direct source links in the current dataset."
+      ]
+    }
   },
   {
     "id": "rolf-hofmo",
@@ -58,7 +70,19 @@
     "imageUrl": "/images/ildsjeler/rolf-hofmo.jpg",
     "profileUrl": "/ildsjeler/rolf-hofmo",
     "links": [],
-    "isLiving": false
+    "isLiving": false,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "known",
+        "isLiving": "known",
+        "links": "missing"
+      },
+      "notes": [
+        "Profile has no direct source links in the current dataset."
+      ]
+    }
   },
   {
     "id": "randi-spenningsby",
@@ -87,7 +111,22 @@
     "imageUrl": "/images/ildsjeler/randi-spenningsby.jpg",
     "profileUrl": "/ildsjeler/randi-spenningsby",
     "links": [],
-    "isLiving": null
+    "isLiving": null,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "unknown",
+        "isLiving": "unknown",
+        "links": "missing"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset.",
+        "Death year is not documented in the current dataset.",
+        "Living status is not documented in the current dataset.",
+        "Profile has no direct source links in the current dataset."
+      ]
+    }
   },
   {
     "id": "magnhild-johansen",
@@ -116,7 +155,22 @@
     "imageUrl": "/images/ildsjeler/magnhild-johansen.jpg",
     "profileUrl": "/ildsjeler/magnhild-johansen",
     "links": [],
-    "isLiving": null
+    "isLiving": null,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "unknown",
+        "isLiving": "unknown",
+        "links": "missing"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset.",
+        "Death year is not documented in the current dataset.",
+        "Living status is not documented in the current dataset.",
+        "Profile has no direct source links in the current dataset."
+      ]
+    }
   },
   {
     "id": "jan-vardoen",
@@ -152,7 +206,19 @@
     "imageUrl": "/images/ildsjeler/jan-vardoen.jpg",
     "profileUrl": "/ildsjeler/jan-vardoen",
     "links": [],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "missing"
+      },
+      "notes": [
+        "Profile has no direct source links in the current dataset."
+      ]
+    }
   },
   {
     "id": "tim-wendelboe",
@@ -182,7 +248,19 @@
     "imageUrl": "/images/ildsjeler/tim-wendelboe.jpg",
     "profileUrl": "/ildsjeler/tim-wendelboe",
     "links": [],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "missing"
+      },
+      "notes": [
+        "Profile has no direct source links in the current dataset."
+      ]
+    }
   },
   {
     "id": "marianne-westbye",
@@ -212,7 +290,19 @@
     "imageUrl": "/images/ildsjeler/marianne-westbye.jpg",
     "profileUrl": "/ildsjeler/marianne-westbye",
     "links": [],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "missing"
+      },
+      "notes": [
+        "Profile has no direct source links in the current dataset."
+      ]
+    }
   },
   {
     "id": "torgny-hasaas",
@@ -243,7 +333,19 @@
     "imageUrl": "/images/ildsjeler/torgny-hasaas.jpg",
     "profileUrl": "/ildsjeler/torgny-hasaas",
     "links": [],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "missing"
+      },
+      "notes": [
+        "Profile has no direct source links in the current dataset."
+      ]
+    }
   },
   {
     "id": "vegard-holm",
@@ -273,7 +375,20 @@
     "imageUrl": "/images/ildsjeler/vegard-holm.jpg",
     "profileUrl": "/ildsjeler/vegard-holm",
     "links": [],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "missing"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset.",
+        "Profile has no direct source links in the current dataset."
+      ]
+    }
   },
   {
     "id": "sollin-saele",
@@ -301,7 +416,20 @@
     "imageUrl": "/images/ildsjeler/sollin-saele.jpg",
     "profileUrl": "/ildsjeler/sollin-saele",
     "links": [],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "missing"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset.",
+        "Profile has no direct source links in the current dataset."
+      ]
+    }
   },
   {
     "id": "jon-christensen",
@@ -331,7 +459,19 @@
     "imageUrl": "/images/ildsjeler/jon-christensen.jpg",
     "profileUrl": "/ildsjeler/jon-christensen",
     "links": [],
-    "isLiving": false
+    "isLiving": false,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "known",
+        "isLiving": "known",
+        "links": "missing"
+      },
+      "notes": [
+        "Profile has no direct source links in the current dataset."
+      ]
+    }
   },
   {
     "id": "claire-de-wangen",
@@ -360,7 +500,20 @@
     "imageUrl": "/images/ildsjeler/claire-de-wangen.jpg",
     "profileUrl": "/ildsjeler/claire-de-wangen",
     "links": [],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "missing"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset.",
+        "Profile has no direct source links in the current dataset."
+      ]
+    }
   },
   {
     "id": "guro-lidahl",
@@ -390,7 +543,20 @@
     "imageUrl": "/images/ildsjeler/guro-lidahl.jpg",
     "profileUrl": "/ildsjeler/guro-lidahl",
     "links": [],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "missing"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset.",
+        "Profile has no direct source links in the current dataset."
+      ]
+    }
   },
   {
     "id": "martin-horntveth",
@@ -422,7 +588,19 @@
     "imageUrl": "/images/ildsjeler/martin-horntveth.jpg",
     "profileUrl": "/ildsjeler/martin-horntveth",
     "links": [],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "missing"
+      },
+      "notes": [
+        "Profile has no direct source links in the current dataset."
+      ]
+    }
   },
   {
     "id": "anne-pleym",
@@ -457,7 +635,20 @@
         "label": "Dagsavisen: Pappagutten som lærte seg å spinne"
       }
     ],
-    "isLiving": false
+    "isLiving": false,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "unknown",
+        "isLiving": "known",
+        "links": "present"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset.",
+        "Death year is not documented in the current dataset."
+      ]
+    }
   },
   {
     "id": "oscar-nissen",
@@ -491,7 +682,16 @@
         "label": "Norsk biografisk leksikon"
       }
     ],
-    "isLiving": false
+    "isLiving": false,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "known",
+        "isLiving": "known",
+        "links": "present"
+      }
+    }
   },
   {
     "id": "johan-storjohann",
@@ -528,7 +728,16 @@
         "label": "Lokalhistoriewiki: Hauges Minde"
       }
     ],
-    "isLiving": false
+    "isLiving": false,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "known",
+        "isLiving": "known",
+        "links": "present"
+      }
+    }
   },
   {
     "id": "eugen-larsen",
@@ -561,7 +770,19 @@
         "label": "VårtOslo: Ramona Skosalon legger ned"
       }
     ],
-    "isLiving": false
+    "isLiving": false,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "unknown",
+        "isLiving": "known",
+        "links": "present"
+      },
+      "notes": [
+        "Death year is not documented in the current dataset."
+      ]
+    }
   },
   {
     "id": "christian-holtermann-knudsen",
@@ -598,7 +819,16 @@
         "label": "Wikipedia: Christian Holtermann Knudsen"
       }
     ],
-    "isLiving": false
+    "isLiving": false,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "known",
+        "isLiving": "known",
+        "links": "present"
+      }
+    }
   },
   {
     "id": "carl-jeppesen",
@@ -636,7 +866,16 @@
         "label": "Aftenposten: Fyrstikkpikene startet Norges første streik"
       }
     ],
-    "isLiving": false
+    "isLiving": false,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "known",
+        "isLiving": "known",
+        "links": "present"
+      }
+    }
   },
   {
     "id": "martin-tranmael",
@@ -674,7 +913,16 @@
         "label": "Wikipedia: Martin Tranmæl"
       }
     ],
-    "isLiving": false
+    "isLiving": false,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "known",
+        "isLiving": "known",
+        "links": "present"
+      }
+    }
   },
   {
     "id": "geir-storli-jensen",
@@ -711,7 +959,19 @@
         "label": "VårtOslo: Geir Storli Jensen"
       }
     ],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "present"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset."
+      ]
+    }
   },
   {
     "id": "melita-ringvold",
@@ -747,7 +1007,19 @@
         "label": "Oslonytt: Grønt lys for bærekraft"
       }
     ],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "present"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset."
+      ]
+    }
   },
   {
     "id": "cathrine-tumanjan-mortensen",
@@ -782,7 +1054,19 @@
         "label": "Aftenposten: 17. mai på Grünerløkka skole"
       }
     ],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "present"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset."
+      ]
+    }
   },
   {
     "id": "nina-roneid",
@@ -818,7 +1102,19 @@
         "label": "HL-senteret: Sofienberg skole tildeles Benjaminprisen"
       }
     ],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "present"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset."
+      ]
+    }
   },
   {
     "id": "james-finucane",
@@ -856,7 +1152,19 @@
         "label": "VårtOslo: Løkka-Lykke blir Oslo Street Art Festival"
       }
     ],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "present"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset."
+      ]
+    }
   },
   {
     "id": "siri-mittet",
@@ -891,7 +1199,19 @@
         "label": "VårtOslo: Siri Mittet lager østerssopp fra kaffegrut"
       }
     ],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "present"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset."
+      ]
+    }
   },
   {
     "id": "sverre-aksel-eilertsen",
@@ -929,7 +1249,16 @@
         "label": "Parkteatret: Nye daglige ledere"
       }
     ],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "known",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "present"
+      }
+    }
   },
   {
     "id": "ruben-normann-karlsen",
@@ -966,7 +1295,19 @@
         "label": "Parkteatret: Nye daglige ledere"
       }
     ],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "present"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset."
+      ]
+    }
   },
   {
     "id": "nasreen-begum",
@@ -1005,7 +1346,19 @@
         "label": "KS: Bydelsmødre til hele landet"
       }
     ],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "present"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset."
+      ]
+    }
   },
   {
     "id": "mathea-rehn",
@@ -1038,6 +1391,18 @@
         "label": "Oslonytt: Grønne midler og urbant landbruk"
       }
     ],
-    "isLiving": true
+    "isLiving": true,
+    "dataQuality": {
+      "reviewedAt": "2026-05-18",
+      "biographicalStatus": {
+        "birthYear": "unknown",
+        "deathYear": "not_applicable_living",
+        "isLiving": "known",
+        "links": "present"
+      },
+      "notes": [
+        "Birth year is not documented in the current dataset."
+      ]
+    }
   }
 ]

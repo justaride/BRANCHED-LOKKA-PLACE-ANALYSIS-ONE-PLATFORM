@@ -315,27 +315,39 @@
     {
       "location": "Gøteborggata, Rodeløkka",
       "description": "Innspillingssted for Gategutter (1949). Like ved Grünerløkka, på grensen til Rodeløkka.",
-      "filmsShot": ["Gategutter (1949)"]
+      "filmsShot": [
+        "Gategutter (1949)"
+      ]
     },
     {
       "location": "Paulus kirke",
       "description": "Sentral lokasjon i Erik Poppes De usynlige (2008). Hovedpersonen jobber som organist her.",
-      "filmsShot": ["De usynlige (2008)"]
+      "filmsShot": [
+        "De usynlige (2008)"
+      ]
     },
     {
       "location": "Fossveien / Olaf Ryes plass / Schous plass",
       "description": "Edvard Munchs barndomsadresser gjenskapt i Peter Watkins' film (1974). Munch bodde på tre adresser på Løkka mellom 1877 og 1889.",
-      "filmsShot": ["Edvard Munch (1974)"]
+      "filmsShot": [
+        "Edvard Munch (1974)"
+      ]
     },
     {
       "location": "Akerselva",
       "description": "Brukt som kulisse i flere produksjoner, blant annet skrekkfilmen 22 (2001). Elva danner Løkkas vestlige grense.",
-      "filmsShot": ["22 (2001)", "Grünerløkka (1973)"]
+      "filmsShot": [
+        "22 (2001)",
+        "Grünerløkka (1973)"
+      ]
     },
     {
       "location": "Grünerløkka generelt (bakgårder, leiegårder, gater)",
       "description": "Autentisk østkantmiljø brukt i dokumentarer om saneringsdebatten og i spillefilmer som skildrer arbeiderklassens Oslo.",
-      "filmsShot": ["Sanering – Grünerløkka (1972)", "22 (2001)"]
+      "filmsShot": [
+        "Sanering – Grünerløkka (1972)",
+        "22 (2001)"
+      ]
     }
   ],
   "sources": [
@@ -472,7 +484,7 @@
       "url": "https://www.osloway.no/post/edvards-gr%C3%BCnerl%C3%B8kka",
       "publisher": "OsloWay / VisitOslo",
       "accessedAt": "2026-03-02",
-      "sourceType": "guide",
+      "sourceType": "news",
       "evidenceLevel": "secondary",
       "notes": "Bekrefter Munchs adresser: Fossveien 7, Olaf Ryes plass 4, Schous plass 1."
     },
@@ -513,7 +525,7 @@
       "url": "https://www.visitoslo.com/en/articles/worst-person-in-the-world/",
       "publisher": "VisitOslo",
       "accessedAt": "2026-03-02",
-      "sourceType": "guide",
+      "sourceType": "news",
       "evidenceLevel": "secondary"
     },
     {
@@ -521,7 +533,7 @@
       "url": "https://tv.nrk.no/serie/kaveh-7-steg-mot-toppen/sesong/1",
       "publisher": "NRK",
       "accessedAt": "2026-03-02",
-      "sourceType": "primary",
+      "sourceType": "official",
       "evidenceLevel": "primary"
     },
     {
@@ -598,6 +610,33 @@
       "accessedAt": "2026-03-30",
       "sourceType": "database",
       "evidenceLevel": "secondary"
+    },
+    {
+      "title": "Nasjonalbiblioteket Norsk filmografi - 22",
+      "url": "https://www.nb.no/filmografi/show?id=802755",
+      "publisher": "Nasjonalbiblioteket",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "primary",
+      "notes": "Official Norwegian filmography entry for 22 with director, production and film metadata."
+    },
+    {
+      "title": "Rushprint - Filmen ved siden av: norsk films nye randsoner",
+      "url": "https://rushprint.no/2015/06/filmen-ved-siden-av-norsk-films-nye-randsoner/",
+      "publisher": "Rushprint",
+      "accessedAt": "2026-05-18",
+      "sourceType": "news",
+      "evidenceLevel": "secondary",
+      "notes": "Documents 22 as a 2001 horror film by Pål Aam and Eystein Hanssen, shot digitally over 16 days with minimal budget."
+    },
+    {
+      "title": "IMDb - The Worst Person in the World quotes",
+      "url": "https://www.imdb.com/title/tt10370710/characters/nm0509264",
+      "publisher": "IMDb",
+      "accessedAt": "2026-05-18",
+      "sourceType": "database",
+      "evidenceLevel": "secondary",
+      "notes": "Quote listing includes Aksel saying he would take the tram to Voices in Grünerløkka."
     }
   ],
   "claims": [
@@ -656,7 +695,7 @@
       "claimId": "film-003",
       "claim": "Erik Poppes Oslo-trilogi er innspilt i Grünerløkka/Grønland-området. Paulus kirke har sentral rolle i De usynlige (2008).",
       "status": "verified",
-      "confidenceScore": 0.90,
+      "confidenceScore": 0.9,
       "sources": [
         {
           "title": "Kristenfilm.com - De usynlige",
@@ -794,7 +833,7 @@
       "claimId": "film-008",
       "claim": "Filmen 22 (2001) ble innspilt on location på Grünerløkka, Grønland og langs Akerselva.",
       "status": "verified",
-      "confidenceScore": 0.88,
+      "confidenceScore": 0.86,
       "sources": [
         {
           "title": "Wikipedia - 22 (film)",
@@ -803,10 +842,37 @@
           "accessedAt": "2026-03-02",
           "sourceType": "database",
           "evidenceLevel": "secondary"
+        },
+        {
+          "title": "Nasjonalbiblioteket Norsk filmografi - 22",
+          "url": "https://www.nb.no/filmografi/show?id=802755",
+          "publisher": "Nasjonalbiblioteket",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "primary",
+          "notes": "Official Norwegian filmography entry for 22 with director, production and film metadata."
+        },
+        {
+          "title": "Rushprint - Filmen ved siden av: norsk films nye randsoner",
+          "url": "https://rushprint.no/2015/06/filmen-ved-siden-av-norsk-films-nye-randsoner/",
+          "publisher": "Rushprint",
+          "accessedAt": "2026-05-18",
+          "sourceType": "news",
+          "evidenceLevel": "secondary",
+          "notes": "Documents 22 as a 2001 horror film by Pål Aam and Eystein Hanssen, shot digitally over 16 days with minimal budget."
+        },
+        {
+          "title": "IMDb - 22 filming locations",
+          "url": "https://www.imdb.com/title/tt0312306/",
+          "publisher": "IMDb",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary",
+          "notes": "Lists Grünerløkka, Oslo among the filming locations."
         }
       ],
-      "notes": "Innspilt over 16 dager i 1999 med budsjett på 100 000 kr. Norges første rene skrekkfilm.",
-      "lastVerifiedAt": "2026-03-02"
+      "notes": "Production metadata verified by Nasjonalbiblioteket and Rushprint; location claim remains supported by IMDb/Wikipedia rather than a production primary source.",
+      "lastVerifiedAt": "2026-05-18"
     },
     {
       "claimId": "film-009",
@@ -906,7 +972,7 @@
       "claimId": "film-012",
       "claim": "Verdens verste menneske (2021) refererer til Grünerløkka via platebutikken Voices.",
       "status": "verified",
-      "confidenceScore": 0.88,
+      "confidenceScore": 0.84,
       "sources": [
         {
           "title": "Wikipedia - The Worst Person in the World",
@@ -915,10 +981,28 @@
           "accessedAt": "2026-03-02",
           "sourceType": "database",
           "evidenceLevel": "secondary"
+        },
+        {
+          "title": "IMDb - The Worst Person in the World quotes",
+          "url": "https://www.imdb.com/title/tt10370710/characters/nm0509264",
+          "publisher": "IMDb",
+          "accessedAt": "2026-05-18",
+          "sourceType": "database",
+          "evidenceLevel": "secondary",
+          "notes": "Quote listing includes Aksel saying he would take the tram to Voices in Grünerløkka."
+        },
+        {
+          "title": "Oslo Pictures - Verdens verste menneske",
+          "url": "https://www.oslo-pictures.com/no/filmer/verdens-verste-menneske",
+          "publisher": "Oslo Pictures",
+          "accessedAt": "2026-05-18",
+          "sourceType": "official",
+          "evidenceLevel": "primary",
+          "notes": "Official producer page for the film."
         }
       ],
-      "notes": "Karakteren Aksel nevner å ta trikken til Voices på Grünerløkka i en monolog. Filmen er primært filmet andre steder i Oslo.",
-      "lastVerifiedAt": "2026-03-02"
+      "notes": "Film metadata supported by official producer page; the specific Voices/Grünerløkka reference is documented in quote databases and reviews, not a screenplay primary source.",
+      "lastVerifiedAt": "2026-05-18"
     },
     {
       "claimId": "film-013",
@@ -966,7 +1050,7 @@
     }
   ],
   "researchMetadata": {
-    "lastVerifiedAt": "2026-03-30",
+    "lastVerifiedAt": "2026-05-18",
     "verifiedBy": "codex-gpt-5",
     "coverageScore": 0.93,
     "staleAfterDays": 120,

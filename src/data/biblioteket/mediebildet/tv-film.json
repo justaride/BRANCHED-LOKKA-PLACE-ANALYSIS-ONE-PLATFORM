@@ -11,8 +11,15 @@
       "date": "1972",
       "type": "dokumentar",
       "summary": "NRK TV-dokumentar om forfall og planlagte saneringer. Dokumenterte bomiljøet før rehabilitering.",
-      "themes": ["byfornyelse", "boligpolitikk", "arbeiderbydel"],
-      "significance": "høy"
+      "themes": [
+        "byfornyelse",
+        "boligpolitikk",
+        "arbeiderbydel"
+      ],
+      "significance": "høy",
+      "url": "https://tv.apple.com/no/movie/sanering---grunerlokka/umc.cmc.4mq8fiyqfju6r5q7df5vf79sk",
+      "urlStatus": "catalogue_reference",
+      "archiveReference": "NRK TV, \"Sanering - Grünerløkka\", 1972."
     },
     {
       "id": "nfi-1973-grunerlokka",
@@ -23,8 +30,15 @@
       "type": "dokumentar",
       "duration": "11 min",
       "summary": "Kortdokumentar som skildrer bydelens utvikling fra landbruksmark til moderne byområde.",
-      "themes": ["byhistorie", "industrialisering", "urbanisering"],
-      "significance": "høy"
+      "themes": [
+        "byhistorie",
+        "industrialisering",
+        "urbanisering"
+      ],
+      "significance": "høy",
+      "urlStatus": "archive_reference_only",
+      "archiveReference": "Norsk Filminstitutt, Finn Carlsby, \"Grünerløkka\", kortdokumentar, 1973.",
+      "urlNote": "Direkte NFI-URL ble ikke funnet i denne gjennomgangen."
     },
     {
       "id": "nrk-2012-kaveh",
@@ -34,8 +48,15 @@
       "date": "2012",
       "type": "dokumentarserie",
       "summary": "NRK-serie om rapperen Kaveh Kholardi fra Grünerløkka og hans vei mot gjennombrudd.",
-      "themes": ["hiphop", "ungdomskultur", "musikk"],
-      "significance": "medium"
+      "themes": [
+        "hiphop",
+        "ungdomskultur",
+        "musikk"
+      ],
+      "significance": "medium",
+      "urlStatus": "catalogue_reference_only",
+      "archiveReference": "NRK P3, \"Kaveh - 7 steg mot toppen\", dokumentarserie, 2012.",
+      "urlNote": "Direkte NRK-URL ble ikke funnet i denne gjennomgangen."
     },
     {
       "id": "nrk-2018-one-night",
@@ -45,8 +66,15 @@
       "date": "2018",
       "type": "TV-serie",
       "summary": "Dramaserie der kamera følger et par fra Birkelunden gjennom Grünerløkkas gater.",
-      "themes": ["relasjoner", "byliv", "drama"],
-      "significance": "medium"
+      "themes": [
+        "relasjoner",
+        "byliv",
+        "drama"
+      ],
+      "significance": "medium",
+      "url": "https://tv.nrk.no/serie/en-natt/KOIF75000218",
+      "urlStatus": "direct_official",
+      "archiveReference": "NRK TV, \"En natt\", 2018."
     },
     {
       "id": "nrk-2015-skam",
@@ -56,8 +84,15 @@
       "date": "2015-2017",
       "type": "TV-serie",
       "summary": "Den internasjonalt anerkjente ungdomsserien hadde flere scener innspilt på Grünerløkka.",
-      "themes": ["ungdom", "identitet", "vennskap"],
-      "significance": "høy"
+      "themes": [
+        "ungdom",
+        "identitet",
+        "vennskap"
+      ],
+      "significance": "høy",
+      "url": "https://info.nrk.no/skam/",
+      "urlStatus": "official_info_page",
+      "archiveReference": "NRK, \"SKAM\", 2015-2017."
     },
     {
       "id": "nrk-2014-mammon",
@@ -67,8 +102,15 @@
       "date": "2014-2016",
       "type": "TV-serie",
       "summary": "Krimdrama-serien med Jon Øigarden hadde flere scener innspilt på Grünerløkka.",
-      "themes": ["krim", "journalistikk", "drama"],
-      "significance": "medium"
+      "themes": [
+        "krim",
+        "journalistikk",
+        "drama"
+      ],
+      "significance": "medium",
+      "url": "https://tv.nrk.no/serie/mammon",
+      "urlStatus": "direct_official",
+      "archiveReference": "NRK TV, \"Mammon\", 2014-2016."
     },
     {
       "id": "film-1949-gategutter",
@@ -78,8 +120,15 @@
       "date": "1949",
       "type": "spillefilm",
       "summary": "Første store norske film fra Grünerløkka. Skildrer guttegjengen Doffen og Doffen på Løkka.",
-      "themes": ["oppvekst", "arbeiderbydel", "klassiker"],
-      "significance": "høy"
+      "themes": [
+        "oppvekst",
+        "arbeiderbydel",
+        "klassiker"
+      ],
+      "significance": "høy",
+      "url": "https://www.filmweb.no/film/CIN20130859",
+      "urlStatus": "catalogue_reference",
+      "archiveReference": "Filmweb/Norsk film, Arne Skouen, \"Gategutter\", 1949."
     },
     {
       "id": "film-1997-budbringeren",
@@ -89,8 +138,15 @@
       "date": "1997",
       "type": "spillefilm",
       "summary": "Svart komedie hvor deler av handlingen foregår i Grünerløkkas bakgater.",
-      "themes": ["krim", "svart humor", "byliv"],
-      "significance": "høy"
+      "themes": [
+        "krim",
+        "svart humor",
+        "byliv"
+      ],
+      "significance": "høy",
+      "url": "https://www.filmweb.no/film/UAV20225215",
+      "urlStatus": "catalogue_reference",
+      "archiveReference": "Filmweb/Norsk film, Pål Sletaune, \"Budbringeren\", 1997."
     },
     {
       "id": "film-2008-de-usynlige",
@@ -100,8 +156,15 @@
       "date": "2008",
       "type": "spillefilm",
       "summary": "Drama om rusmisbrukere i Oslo, delvis satt på Grünerløkka med Paulus kirke som location.",
-      "themes": ["rus", "sosialt drama", "Oslo"],
-      "significance": "høy"
+      "themes": [
+        "rus",
+        "sosialt drama",
+        "Oslo"
+      ],
+      "significance": "høy",
+      "url": "https://www.filmweb.no/streamingguide/film/50077",
+      "urlStatus": "catalogue_reference",
+      "archiveReference": "Filmweb/Norsk film, Erik Poppe, \"De usynlige\", 2008."
     },
     {
       "id": "film-2020-storste-forbrytelsen",
@@ -111,8 +174,15 @@
       "date": "2020",
       "type": "spillefilm",
       "summary": "Historisk drama om deportasjonen av jødene under krigen. Familien Braude bor på Grünerløkka.",
-      "themes": ["holocaust", "krigshistorie", "drama"],
-      "significance": "høy"
+      "themes": [
+        "holocaust",
+        "krigshistorie",
+        "drama"
+      ],
+      "significance": "høy",
+      "url": "https://www.filmweb.no/streamingguide/film/88945",
+      "urlStatus": "catalogue_reference",
+      "archiveReference": "Filmweb/Norsk film, Eirik Svensson, \"Den største forbrytelsen\", 2020."
     }
   ]
 }

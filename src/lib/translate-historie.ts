@@ -85,10 +85,19 @@ export function translateHistorieText(text: string): string {
         return translations[text];
     }
 
-    // Fall back to partial replacements
+    // Fall back to partial replacements without matching inside Norwegian words
+    // like "bygging", "innbyggere" or "standard".
     let result = text;
-    for (const [eng, nor] of Object.entries(translations)) {
-        result = result.replace(new RegExp(eng, 'gi'), nor);
+    const sortedTranslations = Object.entries(translations).sort(
+        ([left], [right]) => right.length - left.length,
+    );
+
+    for (const [eng, nor] of sortedTranslations) {
+        const escaped = eng.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        result = result.replace(
+            new RegExp(`(^|[^A-Za-z0-9_])${escaped}(?=$|[^A-Za-z0-9_])`, 'gi'),
+            `$1${nor}`,
+        );
     }
 
     return result;

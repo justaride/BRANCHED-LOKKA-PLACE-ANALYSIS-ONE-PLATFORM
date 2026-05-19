@@ -7,159 +7,270 @@
       "id": "kohne-2020-gentrifisering",
       "title": "Gentrifiseringens flertydighet: En kulturvitenskapelig studie av endringer i to byområder i Berlin og Oslo",
       "source": "Universitetet i Bergen",
-      "authors": ["Sara Kohne"],
+      "authors": [
+        "Sara Kohne"
+      ],
       "type": "doktoravhandling",
       "date": "2020",
       "year": 2020,
       "summary": "Sammenligner Grünerløkka med Prenzlauer Berg i Berlin og analyserer både materielle endringer og kulturelle fortellinger om gentrifisering.",
-      "themes": ["gentrifisering", "kulturell endring", "komparativ studie"],
-      "significance": "høy"
+      "themes": [
+        "gentrifisering",
+        "kulturell endring",
+        "komparativ studie"
+      ],
+      "significance": "høy",
+      "url": "https://hdl.handle.net/1956/21441",
+      "urlStatus": "direct_verified",
+      "archiveReference": "UiB BORA, Sara Kohne, PhD-avhandling, 2020."
     },
     {
       "id": "gjestvang-2015-boligattraktivitet",
       "title": "Boligattraktivitet på Grünerløkka gjennom teori og empiri",
       "source": "NTNU",
-      "authors": ["Thea C. Gjestvang"],
+      "authors": [
+        "Thea C. Gjestvang"
+      ],
       "type": "masteroppgave",
       "date": "2015",
       "year": 2015,
       "summary": "Undersøker hvorfor Grünerløkka oppfattes som attraktiv og dokumenterer endringer i prisnivå og beboersammensetning.",
-      "themes": ["boligmarked", "gentrifisering", "attraktivitet"],
-      "significance": "høy"
+      "themes": [
+        "boligmarked",
+        "gentrifisering",
+        "attraktivitet"
+      ],
+      "significance": "høy",
+      "url": "https://hdl.handle.net/11250/2349896",
+      "urlStatus": "direct_verified",
+      "archiveReference": "NTNU Open, Thea C. Gjestvang, masteroppgave, 2015."
     },
     {
       "id": "aaby-2016-barns-blikk",
       "title": "Barns blikk på Løkka",
       "source": "Universitetet i Oslo",
-      "authors": ["Anne Aaby"],
+      "authors": [
+        "Anne Aaby"
+      ],
       "type": "masteroppgave",
       "date": "2016",
       "year": 2016,
       "url": "https://core.ac.uk/download/pdf/30900643.pdf",
       "summary": "Studie av 17 barn (8-13 år) ved Grünerløkka skole: de tegner mentale kart over nabolaget og forteller hvordan de bruker Løkka.",
-      "themes": ["barn", "byrom", "nærmiljø"],
+      "themes": [
+        "barn",
+        "byrom",
+        "nærmiljø"
+      ],
       "significance": "høy"
     },
     {
       "id": "hernes-2019-bofaste",
       "title": "Bofaste barnefamilier i indre by",
       "source": "NMBU",
-      "authors": ["Helga Rognstad Hernes"],
+      "authors": [
+        "Helga Rognstad Hernes"
+      ],
       "type": "masteroppgave",
       "date": "2019",
       "year": 2019,
       "url": "https://hdl.handle.net/11250/2647004",
       "summary": "Kvalitativ studie av barnefamilier som velger å bli boende på Grünerløkka.",
-      "themes": ["barnefamilier", "bokvalitet", "gentrifisering"],
+      "themes": [
+        "barnefamilier",
+        "bokvalitet",
+        "gentrifisering"
+      ],
       "significance": "høy"
     },
     {
       "id": "andreassen-2009-ostkant",
       "title": "Østkantens beste vestkant",
       "source": "Universitetet i Oslo",
-      "authors": ["Ida Andreassen"],
+      "authors": [
+        "Ida Andreassen"
+      ],
       "type": "masteroppgave",
       "date": "2009",
       "year": 2009,
       "summary": "Analyserer eiendomsmegleres og utvikleres rolle i å 'rebrande' Grünerløkka og drive prisvekst.",
-      "themes": ["gentrifisering", "boligmarked", "markedsføring"],
-      "significance": "høy"
+      "themes": [
+        "gentrifisering",
+        "boligmarked",
+        "markedsføring"
+      ],
+      "significance": "høy",
+      "urlStatus": "archive_reference_only",
+      "archiveReference": "Universitetet i Oslo, Ida Andreassen, masteroppgave, 2009.",
+      "urlNote": "Direkte institusjons-URL ble ikke funnet i denne gjennomgangen."
     },
     {
       "id": "hansen-2004-skiftet-ham",
       "title": "Bydelen som 'skiftet ham': kulturhistoriske bilder av 1900-tallets Grünerløkka",
       "source": "Universitetet i Oslo",
-      "authors": ["Lars Emil Hansen"],
+      "authors": [
+        "Lars Emil Hansen"
+      ],
       "type": "masteroppgave",
       "date": "2004",
       "year": 2004,
       "summary": "Viser hvordan bydelens image endres fra 'fattigkvarter' til trendy strøk gjennom 1900-tallet.",
-      "themes": ["kulturhistorie", "identitet", "gentrifisering"],
-      "significance": "høy"
+      "themes": [
+        "kulturhistorie",
+        "identitet",
+        "gentrifisering"
+      ],
+      "significance": "høy",
+      "urlStatus": "archive_reference_only",
+      "archiveReference": "Universitetet i Oslo, Lars Emil Hansen, masteroppgave, 2004.",
+      "urlNote": "Direkte institusjons-URL ble ikke funnet i denne gjennomgangen."
     },
     {
       "id": "borrud-2005-hva-skjer",
       "title": "Hva skjer på Grünerløkka?",
       "source": "By og byliv i endring (red. Jonny Aspen)",
-      "authors": ["Elin Børrud"],
+      "authors": [
+        "Elin Børrud"
+      ],
       "type": "bokkapittel",
       "date": "2005",
       "year": 2005,
       "summary": "Dokumenterer hvordan nye, ressurssterke beboere og endret næringsliv endrer bylivet på Grünerløkka.",
-      "themes": ["gentrifisering", "byliv", "næringsliv"],
-      "significance": "høy"
+      "themes": [
+        "gentrifisering",
+        "byliv",
+        "næringsliv"
+      ],
+      "significance": "høy",
+      "urlStatus": "archive_reference_only",
+      "archiveReference": "Elin Børrud, \"Hva skjer på Grünerløkka?\", i Jonny Aspen (red.), By og byliv i endring, Scandinavian Academic Press, 2005."
     },
     {
       "id": "brattbakk-2001-byfornyelse",
       "title": "Byfornyelsen i Oslo 1998-2000: Evaluering av de nye virkemidlene",
       "source": "Byggforsk/NIBR",
-      "authors": ["Ingar Brattbakk", "Evelyn Dyb"],
+      "authors": [
+        "Ingar Brattbakk",
+        "Evelyn Dyb"
+      ],
       "type": "rapport",
       "date": "2001",
       "year": 2001,
       "summary": "Dokumenterer hvordan oppgraderingen ofte førte til at beboere med svak økonomi ble presset ut.",
-      "themes": ["byfornyelse", "fortrengning", "boligpolitikk"],
-      "significance": "høy"
+      "themes": [
+        "byfornyelse",
+        "fortrengning",
+        "boligpolitikk"
+      ],
+      "significance": "høy",
+      "url": "https://hdl.handle.net/11250/2417647",
+      "urlStatus": "direct_verified",
+      "archiveReference": "NIBR/Byggforsk, Ingar Brattbakk og Evelyn Dyb, rapport, 2001."
     },
     {
       "id": "myhre-1990-hovedstaden",
       "title": "Hovedstaden Christiania: fra 1814-1900",
       "source": "Oslo bys historie, bind 3",
-      "authors": ["Jan Eivind Myhre"],
+      "authors": [
+        "Jan Eivind Myhre"
+      ],
       "type": "bokkapittel",
       "date": "1990",
       "year": 1990,
       "summary": "Viser hvordan Grünerløkka blir en tydelig østkantbydel med industri langs Akerselva.",
-      "themes": ["byhistorie", "industrialisering", "arbeiderklasse"],
-      "significance": "høy"
+      "themes": [
+        "byhistorie",
+        "industrialisering",
+        "arbeiderklasse"
+      ],
+      "significance": "høy",
+      "urlStatus": "archive_reference_only",
+      "archiveReference": "Jan Eivind Myhre, Hovedstaden Christiania: fra 1814-1900, Oslo bys historie bind 3, Cappelen, 1990."
     },
     {
       "id": "kjeldstadli-1990-delte-byen",
       "title": "Den delte byen: fra 1900 til 1948",
       "source": "Oslo bys historie, bind 4",
-      "authors": ["Knut Kjeldstadli"],
+      "authors": [
+        "Knut Kjeldstadli"
+      ],
       "type": "bokkapittel",
       "date": "1990",
       "year": 1990,
       "summary": "Viser Grünerløkkas utvikling som arbeiderstrøk med organisasjonsliv og politisk mobilisering.",
-      "themes": ["byhistorie", "arbeiderklasse", "politisk historie"],
-      "significance": "høy"
+      "themes": [
+        "byhistorie",
+        "arbeiderklasse",
+        "politisk historie"
+      ],
+      "significance": "høy",
+      "urlStatus": "archive_reference_only",
+      "archiveReference": "Knut Kjeldstadli, Den delte byen: fra 1900 til 1948, Oslo bys historie bind 4, Cappelen, 1990."
     },
     {
       "id": "bull-1962-beste-ostkant",
       "title": "Grünerløkka: beste østkant",
       "source": "St. Hallvard",
-      "authors": ["Edvard Bull d.y."],
+      "authors": [
+        "Edvard Bull d.y."
+      ],
       "type": "artikkel",
-      "date": "1962",
-      "year": 1962,
+      "date": "1961",
+      "year": 1961,
       "summary": "Klassisk verk om Grünerløkkas historie som arbeiderstrøk.",
-      "themes": ["lokalhistorie", "arbeiderklasse", "industrihistorie"],
-      "significance": "høy"
+      "themes": [
+        "lokalhistorie",
+        "arbeiderklasse",
+        "industrihistorie"
+      ],
+      "significance": "høy",
+      "url": "https://www.akerselvasvenner.no/wp-content/uploads/2016/09/1961-5-6-201-301.pdf",
+      "urlStatus": "direct_archive_pdf",
+      "archiveReference": "Edvard Bull d.y., \"Grünerløkka: beste østkant\", St. Hallvard, 1961."
     },
     {
       "id": "hoel-1998-vandring",
       "title": "Grünerløkka – en vandring gjennom 1000 år",
       "source": "Grøndahl Dreyer",
-      "authors": ["Merete Lie Hoel", "Nils Petter Thuesen"],
+      "authors": [
+        "Merete Lie Hoel",
+        "Nils Petter Thuesen"
+      ],
       "type": "bokkapittel",
       "date": "1998",
       "year": 1998,
       "summary": "Kombinerer historiske fakta, kart og bilder med personlige historier om Grünerløkka.",
-      "themes": ["lokalhistorie", "kulturhistorie", "arkitektur"],
-      "significance": "medium"
+      "themes": [
+        "lokalhistorie",
+        "kulturhistorie",
+        "arkitektur"
+      ],
+      "significance": "medium",
+      "urlStatus": "catalogue_reference_only",
+      "archiveReference": "Merete Lie Hoel og Nils Petter Thuesen, Grünerløkka - en vandring gjennom 1000 år, Grøndahl Dreyer, 1998, ISBN 8250425253."
     },
     {
       "id": "hewitt-2025-kronikk",
       "title": "Når de rike flytter inn, må de fattige ut. Eller?",
       "source": "Dagsavisen",
-      "authors": ["Iselin Hewitt", "Ingar Brattbakk", "Roberta Cucca"],
+      "authors": [
+        "Iselin Hewitt",
+        "Ingar Brattbakk",
+        "Roberta Cucca"
+      ],
       "type": "artikkel",
       "date": "2025",
       "year": 2025,
       "summary": "Problematiserer fortrengning og foreslår sterkere sosial boligpolitikk for å holde en blandet befolkning i indre by.",
-      "themes": ["gentrifisering", "fortrengning", "boligpolitikk"],
-      "significance": "høy"
+      "themes": [
+        "gentrifisering",
+        "fortrengning",
+        "boligpolitikk"
+      ],
+      "significance": "høy",
+      "url": "https://www.dagsavisen.no/debatt/nar-de-rike-flytter-inn-ma-de-fattige-ut-eller/9763233",
+      "urlStatus": "direct_verified",
+      "archiveReference": "Dagsavisen, 2025, \"Når de rike flytter inn, må de fattige ut. Eller?\"."
     }
   ]
 }

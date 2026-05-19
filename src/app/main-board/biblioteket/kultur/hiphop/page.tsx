@@ -59,7 +59,6 @@ export default function HiphopPage() {
         <>
             {/* Hero Section */}
             <section className="relative overflow-hidden border-b border-gray-200 py-20 bg-gradient-to-br from-red-900 via-orange-800 to-amber-900 text-white">
-                <div className="absolute inset-0 bg-[url('/images/noise.png')] opacity-5" />
                 <Container className="relative z-10">
                     <motion.div
                         className="max-w-3xl"

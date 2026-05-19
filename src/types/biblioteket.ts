@@ -1,6 +1,24 @@
 // Types for Biblioteket (Library) content
 
 // Ildsjeler (Local Heroes)
+export interface BibliotekLink {
+    url: string;
+    label: string;
+}
+
+export interface BiographicalDataStatus {
+    birthYear: 'known' | 'unknown';
+    deathYear: 'known' | 'not_applicable_living' | 'unknown';
+    isLiving: 'known' | 'unknown';
+    links: 'present' | 'missing';
+}
+
+export interface IldsjelDataQuality {
+    reviewedAt: string;
+    biographicalStatus: BiographicalDataStatus;
+    notes?: string[];
+}
+
 export interface Ildsjel {
     id: string;
     name: string;
@@ -19,8 +37,9 @@ export interface Ildsjel {
     relatedPlaceIds: string[];
     imageUrl: string;
     profileUrl: string;
-    links: string[];
+    links: BibliotekLink[];
     isLiving: boolean | null;
+    dataQuality?: IldsjelDataQuality;
 }
 
 export interface IldsjelKategori {
@@ -290,6 +309,15 @@ export interface BibliotekCategory {
 }
 
 // Mediebildet (Media Coverage)
+export type MediaUrlStatus =
+    | 'direct_verified'
+    | 'direct_official'
+    | 'direct_archive_pdf'
+    | 'official_info_page'
+    | 'catalogue_reference'
+    | 'catalogue_reference_only'
+    | 'archive_reference_only';
+
 export interface MediaItem {
     id: string;
     title: string;
@@ -297,6 +325,10 @@ export interface MediaItem {
     author?: string;
     date: string;
     url?: string;
+    urlStatus?: MediaUrlStatus;
+    archiveReference?: string;
+    urlNote?: string;
+    alternateUrl?: string;
     summary: string;
     themes: string[];
     locations?: string[];
