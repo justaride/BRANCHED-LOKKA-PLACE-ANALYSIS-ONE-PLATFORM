@@ -33,6 +33,39 @@ function isOutsideBounds(lat: number, lng: number): boolean {
          lng < GRUNERLOKKA_BOUNDS.lngMin || lng > GRUNERLOKKA_BOUNDS.lngMax;
 }
 
+// Aktører som deler nøyaktig samme adresse/koordinat (f.eks. Fogg og Røtter i
+// Thorvald Meyers Gate 46) får ellers markører oppå hverandre. Vi sprer dem i en
+// liten sirkel rundt det reelle punktet — kun visuelt, ingen data endres.
+const MARKER_SPREAD_RADIUS = 0.00014;
+
+function buildDisplayPositions(
+  actors: AktorWithCoordinates[],
+): Map<AktorWithCoordinates, [number, number]> {
+  const groups = new Map<string, AktorWithCoordinates[]>();
+  actors.forEach(a => {
+    const key = `${a.lat},${a.lng}`;
+    const group = groups.get(key);
+    if (group) group.push(a);
+    else groups.set(key, [a]);
+  });
+
+  const positions = new Map<AktorWithCoordinates, [number, number]>();
+  groups.forEach(group => {
+    if (group.length === 1) {
+      positions.set(group[0], [group[0].lat, group[0].lng]);
+      return;
+    }
+    group.forEach((actor, idx) => {
+      const angle = (2 * Math.PI * idx) / group.length;
+      positions.set(actor, [
+        actor.lat + MARKER_SPREAD_RADIUS * Math.cos(angle),
+        actor.lng + MARKER_SPREAD_RADIUS * Math.sin(angle),
+      ]);
+    });
+  });
+  return positions;
+}
+
 type AktorMapProps = {
   actors: AktorWithCoordinates[]
   height?: string
@@ -115,10 +148,13 @@ export default function AktorMap({
       markersRef.current.forEach(m => m.remove());
       markersRef.current = [];
 
+      const displayPositions = buildDisplayPositions(filteredActors);
+
       filteredActors.forEach(actor => {
         const config = CATEGORY_CONFIG[actor.category];
         const outside = isOutsideBounds(actor.lat, actor.lng);
-        const marker = L.circleMarker([actor.lat, actor.lng], {
+        const [displayLat, displayLng] = displayPositions.get(actor) ?? [actor.lat, actor.lng];
+        const marker = L.circleMarker([displayLat, displayLng], {
           radius: outside ? 6 : 7,
           fillColor: config.color,
           color: outside ? '#F59E0B' : '#fff',
