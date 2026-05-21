@@ -20,7 +20,7 @@ interface DailyDataPoint {
 }
 
 export const metadata = {
-  title: "Kvartalsrapport - Banktransaksjoner 2019-2025",
+  title: "Kvartalsrapport - Banktransaksjoner 2019-2026",
   description: "Sammenligning av banktransaksjoner per kvartal på Grünerløkka",
 };
 
@@ -76,7 +76,7 @@ export default async function KvartalsrapportPage() {
             <div className="pb-4 md:pb-6">
               <div className="mb-3 md:mb-4">
                 <span className="rounded-full bg-white/20 px-4 py-1.5 text-xs font-medium backdrop-blur-sm md:text-sm">
-                  Kvartalsrapport 2019-2025
+                  Kvartalsrapport {analysis.period.label}
                 </span>
               </div>
               <h1 className="mb-2 text-3xl font-bold leading-tight tracking-tight text-white drop-shadow-lg md:mb-3 md:text-4xl lg:text-5xl">
@@ -99,7 +99,7 @@ export default async function KvartalsrapportPage() {
             <p className="mt-2 text-sm text-gray-600 md:text-base">
               {analysis.metadata.notater && analysis.metadata.notater.length > 0
                 ? analysis.metadata.notater[0]
-                : "Detaljert analyse av bankhandel-transaksjoner på Grünerløkka fordelt per kvartal fra 2019 til 2025."}
+                : `Detaljert analyse av bankhandel-transaksjoner på Grünerløkka fordelt per kvartal fra ${analysis.period.label}.`}
             </p>
           </div>
 

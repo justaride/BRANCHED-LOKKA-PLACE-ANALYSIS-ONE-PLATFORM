@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Daily Bank Transaction Data by Quarter",
-    "lastUpdated": "2025-11-16",
+    "lastUpdated": "2026-05-21",
     "description": "Daily breakdown of bank transactions by category (Handel, Mat og opplevelser, Tjenester)"
   },
   "quarters": {
@@ -5065,6 +5065,728 @@
         "tjenester": 557000,
         "total": 6898000,
         "formattedDate": "Mar 31, 2025"
+      }
+    ],
+    "Q1_2026": [
+      {
+        "date": "2026-01-01",
+        "handel": 707067,
+        "matOgOpplevelser": 384682,
+        "tjenester": 95251,
+        "total": 1187000,
+        "formattedDate": "Jan 01, 2026"
+      },
+      {
+        "date": "2026-01-02",
+        "handel": 3722971,
+        "matOgOpplevelser": 2025494,
+        "tjenester": 501535,
+        "total": 6250000,
+        "formattedDate": "Jan 02, 2026"
+      },
+      {
+        "date": "2026-01-03",
+        "handel": 4294224,
+        "matOgOpplevelser": 2336286,
+        "tjenester": 578490,
+        "total": 7209000,
+        "formattedDate": "Jan 03, 2026"
+      },
+      {
+        "date": "2026-01-04",
+        "handel": 1093660,
+        "matOgOpplevelser": 595009,
+        "tjenester": 147331,
+        "total": 1836000,
+        "formattedDate": "Jan 04, 2026"
+      },
+      {
+        "date": "2026-01-05",
+        "handel": 3582988,
+        "matOgOpplevelser": 1949336,
+        "tjenester": 482676,
+        "total": 6015000,
+        "formattedDate": "Jan 05, 2026"
+      },
+      {
+        "date": "2026-01-06",
+        "handel": 3286341,
+        "matOgOpplevelser": 1787944,
+        "tjenester": 442715,
+        "total": 5517000,
+        "formattedDate": "Jan 06, 2026"
+      },
+      {
+        "date": "2026-01-07",
+        "handel": 3281576,
+        "matOgOpplevelser": 1785352,
+        "tjenester": 442072,
+        "total": 5509000,
+        "formattedDate": "Jan 07, 2026"
+      },
+      {
+        "date": "2026-01-08",
+        "handel": 3429899,
+        "matOgOpplevelser": 1866047,
+        "tjenester": 462054,
+        "total": 5758000,
+        "formattedDate": "Jan 08, 2026"
+      },
+      {
+        "date": "2026-01-09",
+        "handel": 4651034,
+        "matOgOpplevelser": 2530409,
+        "tjenester": 626557,
+        "total": 7808000,
+        "formattedDate": "Jan 09, 2026"
+      },
+      {
+        "date": "2026-01-10",
+        "handel": 5750055,
+        "matOgOpplevelser": 3128335,
+        "tjenester": 774610,
+        "total": 9653000,
+        "formattedDate": "Jan 10, 2026"
+      },
+      {
+        "date": "2026-01-11",
+        "handel": 1265215,
+        "matOgOpplevelser": 688344,
+        "tjenester": 170441,
+        "total": 2124000,
+        "formattedDate": "Jan 11, 2026"
+      },
+      {
+        "date": "2026-01-12",
+        "handel": 3386415,
+        "matOgOpplevelser": 1842389,
+        "tjenester": 456196,
+        "total": 5685000,
+        "formattedDate": "Jan 12, 2026"
+      },
+      {
+        "date": "2026-01-13",
+        "handel": 3270854,
+        "matOgOpplevelser": 1779518,
+        "tjenester": 440628,
+        "total": 5491000,
+        "formattedDate": "Jan 13, 2026"
+      },
+      {
+        "date": "2026-01-14",
+        "handel": 3267280,
+        "matOgOpplevelser": 1777574,
+        "tjenester": 440146,
+        "total": 5485000,
+        "formattedDate": "Jan 14, 2026"
+      },
+      {
+        "date": "2026-01-15",
+        "handel": 3912992,
+        "matOgOpplevelser": 2128875,
+        "tjenester": 527133,
+        "total": 6569000,
+        "formattedDate": "Jan 15, 2026"
+      },
+      {
+        "date": "2026-01-16",
+        "handel": 4636142,
+        "matOgOpplevelser": 2522307,
+        "tjenester": 624551,
+        "total": 7783000,
+        "formattedDate": "Jan 16, 2026"
+      },
+      {
+        "date": "2026-01-17",
+        "handel": 6245657,
+        "matOgOpplevelser": 3397969,
+        "tjenester": 841374,
+        "total": 10485000,
+        "formattedDate": "Jan 17, 2026"
+      },
+      {
+        "date": "2026-01-18",
+        "handel": 1535056,
+        "matOgOpplevelser": 835152,
+        "tjenester": 206792,
+        "total": 2577000,
+        "formattedDate": "Jan 18, 2026"
+      },
+      {
+        "date": "2026-01-19",
+        "handel": 3921331,
+        "matOgOpplevelser": 2133412,
+        "tjenester": 528257,
+        "total": 6583000,
+        "formattedDate": "Jan 19, 2026"
+      },
+      {
+        "date": "2026-01-20",
+        "handel": 3686635,
+        "matOgOpplevelser": 2005725,
+        "tjenester": 496640,
+        "total": 6189000,
+        "formattedDate": "Jan 20, 2026"
+      },
+      {
+        "date": "2026-01-21",
+        "handel": 3803388,
+        "matOgOpplevelser": 2069245,
+        "tjenester": 512367,
+        "total": 6385000,
+        "formattedDate": "Jan 21, 2026"
+      },
+      {
+        "date": "2026-01-22",
+        "handel": 3950519,
+        "matOgOpplevelser": 2149292,
+        "tjenester": 532189,
+        "total": 6632000,
+        "formattedDate": "Jan 22, 2026"
+      },
+      {
+        "date": "2026-01-23",
+        "handel": 5277684,
+        "matOgOpplevelser": 2871341,
+        "tjenester": 710975,
+        "total": 8860000,
+        "formattedDate": "Jan 23, 2026"
+      },
+      {
+        "date": "2026-01-24",
+        "handel": 6501797,
+        "matOgOpplevelser": 3537323,
+        "tjenester": 875880,
+        "total": 10915000,
+        "formattedDate": "Jan 24, 2026"
+      },
+      {
+        "date": "2026-01-25",
+        "handel": 1513611,
+        "matOgOpplevelser": 823485,
+        "tjenester": 203904,
+        "total": 2541000,
+        "formattedDate": "Jan 25, 2026"
+      },
+      {
+        "date": "2026-01-26",
+        "handel": 3578222,
+        "matOgOpplevelser": 1946743,
+        "tjenester": 482035,
+        "total": 6007000,
+        "formattedDate": "Jan 26, 2026"
+      },
+      {
+        "date": "2026-01-27",
+        "handel": 3476362,
+        "matOgOpplevelser": 1891325,
+        "tjenester": 468313,
+        "total": 5836000,
+        "formattedDate": "Jan 27, 2026"
+      },
+      {
+        "date": "2026-01-28",
+        "handel": 3567500,
+        "matOgOpplevelser": 1940910,
+        "tjenester": 480590,
+        "total": 5989000,
+        "formattedDate": "Jan 28, 2026"
+      },
+      {
+        "date": "2026-01-29",
+        "handel": 3765860,
+        "matOgOpplevelser": 2048828,
+        "tjenester": 507312,
+        "total": 6322000,
+        "formattedDate": "Jan 29, 2026"
+      },
+      {
+        "date": "2026-01-30",
+        "handel": 5188333,
+        "matOgOpplevelser": 2822729,
+        "tjenester": 698938,
+        "total": 8710000,
+        "formattedDate": "Jan 30, 2026"
+      },
+      {
+        "date": "2026-01-31",
+        "handel": 6481544,
+        "matOgOpplevelser": 3526304,
+        "tjenester": 873152,
+        "total": 10881000,
+        "formattedDate": "Jan 31, 2026"
+      },
+      {
+        "date": "2026-02-01",
+        "handel": 1489189,
+        "matOgOpplevelser": 810198,
+        "tjenester": 200613,
+        "total": 2500000,
+        "formattedDate": "Feb 01, 2026"
+      },
+      {
+        "date": "2026-02-02",
+        "handel": 3677104,
+        "matOgOpplevelser": 2000540,
+        "tjenester": 495356,
+        "total": 6173000,
+        "formattedDate": "Feb 02, 2026"
+      },
+      {
+        "date": "2026-02-03",
+        "handel": 3534738,
+        "matOgOpplevelser": 1923085,
+        "tjenester": 476177,
+        "total": 5934000,
+        "formattedDate": "Feb 03, 2026"
+      },
+      {
+        "date": "2026-02-04",
+        "handel": 3529973,
+        "matOgOpplevelser": 1920493,
+        "tjenester": 475534,
+        "total": 5926000,
+        "formattedDate": "Feb 04, 2026"
+      },
+      {
+        "date": "2026-02-05",
+        "handel": 3694975,
+        "matOgOpplevelser": 2010262,
+        "tjenester": 497763,
+        "total": 6203000,
+        "formattedDate": "Feb 05, 2026"
+      },
+      {
+        "date": "2026-02-06",
+        "handel": 4727876,
+        "matOgOpplevelser": 2572216,
+        "tjenester": 636908,
+        "total": 7937000,
+        "formattedDate": "Feb 06, 2026"
+      },
+      {
+        "date": "2026-02-07",
+        "handel": 5578500,
+        "matOgOpplevelser": 3035000,
+        "tjenester": 751500,
+        "total": 9365000,
+        "formattedDate": "Feb 07, 2026"
+      },
+      {
+        "date": "2026-02-08",
+        "handel": 1489189,
+        "matOgOpplevelser": 810198,
+        "tjenester": 200613,
+        "total": 2500000,
+        "formattedDate": "Feb 08, 2026"
+      },
+      {
+        "date": "2026-02-09",
+        "handel": 3283959,
+        "matOgOpplevelser": 1786648,
+        "tjenester": 442393,
+        "total": 5513000,
+        "formattedDate": "Feb 09, 2026"
+      },
+      {
+        "date": "2026-02-10",
+        "handel": 3435856,
+        "matOgOpplevelser": 1869288,
+        "tjenester": 462856,
+        "total": 5768000,
+        "formattedDate": "Feb 10, 2026"
+      },
+      {
+        "date": "2026-02-11",
+        "handel": 3525803,
+        "matOgOpplevelser": 1918224,
+        "tjenester": 474973,
+        "total": 5919000,
+        "formattedDate": "Feb 11, 2026"
+      },
+      {
+        "date": "2026-02-12",
+        "handel": 4185216,
+        "matOgOpplevelser": 2276980,
+        "tjenester": 563804,
+        "total": 7026000,
+        "formattedDate": "Feb 12, 2026"
+      },
+      {
+        "date": "2026-02-13",
+        "handel": 5545738,
+        "matOgOpplevelser": 3017176,
+        "tjenester": 747086,
+        "total": 9310000,
+        "formattedDate": "Feb 13, 2026"
+      },
+      {
+        "date": "2026-02-14",
+        "handel": 6799039,
+        "matOgOpplevelser": 3699038,
+        "tjenester": 915923,
+        "total": 11414000,
+        "formattedDate": "Feb 14, 2026"
+      },
+      {
+        "date": "2026-02-15",
+        "handel": 1338483,
+        "matOgOpplevelser": 728206,
+        "tjenester": 180311,
+        "total": 2247000,
+        "formattedDate": "Feb 15, 2026"
+      },
+      {
+        "date": "2026-02-16",
+        "handel": 3791474,
+        "matOgOpplevelser": 2062763,
+        "tjenester": 510763,
+        "total": 6365000,
+        "formattedDate": "Feb 16, 2026"
+      },
+      {
+        "date": "2026-02-17",
+        "handel": 3743820,
+        "matOgOpplevelser": 2036837,
+        "tjenester": 504343,
+        "total": 6285000,
+        "formattedDate": "Feb 17, 2026"
+      },
+      {
+        "date": "2026-02-18",
+        "handel": 3543673,
+        "matOgOpplevelser": 1927946,
+        "tjenester": 477381,
+        "total": 5949000,
+        "formattedDate": "Feb 18, 2026"
+      },
+      {
+        "date": "2026-02-19",
+        "handel": 4097651,
+        "matOgOpplevelser": 2229340,
+        "tjenester": 552009,
+        "total": 6879000,
+        "formattedDate": "Feb 19, 2026"
+      },
+      {
+        "date": "2026-02-20",
+        "handel": 4985803,
+        "matOgOpplevelser": 2712542,
+        "tjenester": 671655,
+        "total": 8370000,
+        "formattedDate": "Feb 20, 2026"
+      },
+      {
+        "date": "2026-02-21",
+        "handel": 5595179,
+        "matOgOpplevelser": 3044075,
+        "tjenester": 753746,
+        "total": 9393000,
+        "formattedDate": "Feb 21, 2026"
+      },
+      {
+        "date": "2026-02-22",
+        "handel": 1418899,
+        "matOgOpplevelser": 771956,
+        "tjenester": 191145,
+        "total": 2382000,
+        "formattedDate": "Feb 22, 2026"
+      },
+      {
+        "date": "2026-02-23",
+        "handel": 3408455,
+        "matOgOpplevelser": 1854380,
+        "tjenester": 459165,
+        "total": 5722000,
+        "formattedDate": "Feb 23, 2026"
+      },
+      {
+        "date": "2026-02-24",
+        "handel": 3656851,
+        "matOgOpplevelser": 1989521,
+        "tjenester": 492628,
+        "total": 6139000,
+        "formattedDate": "Feb 24, 2026"
+      },
+      {
+        "date": "2026-02-25",
+        "handel": 3497806,
+        "matOgOpplevelser": 1902992,
+        "tjenester": 471202,
+        "total": 5872000,
+        "formattedDate": "Feb 25, 2026"
+      },
+      {
+        "date": "2026-02-26",
+        "handel": 3982686,
+        "matOgOpplevelser": 2166793,
+        "tjenester": 536521,
+        "total": 6686000,
+        "formattedDate": "Feb 26, 2026"
+      },
+      {
+        "date": "2026-02-27",
+        "handel": 5694657,
+        "matOgOpplevelser": 3098196,
+        "tjenester": 767147,
+        "total": 9560000,
+        "formattedDate": "Feb 27, 2026"
+      },
+      {
+        "date": "2026-02-28",
+        "handel": 6915792,
+        "matOgOpplevelser": 3762558,
+        "tjenester": 931650,
+        "total": 11610000,
+        "formattedDate": "Feb 28, 2026"
+      },
+      {
+        "date": "2026-03-01",
+        "handel": 1661339,
+        "matOgOpplevelser": 903857,
+        "tjenester": 223804,
+        "total": 2789000,
+        "formattedDate": "Mar 01, 2026"
+      },
+      {
+        "date": "2026-03-02",
+        "handel": 3720589,
+        "matOgOpplevelser": 2024198,
+        "tjenester": 501213,
+        "total": 6246000,
+        "formattedDate": "Mar 02, 2026"
+      },
+      {
+        "date": "2026-03-03",
+        "handel": 3845681,
+        "matOgOpplevelser": 2092254,
+        "tjenester": 518065,
+        "total": 6456000,
+        "formattedDate": "Mar 03, 2026"
+      },
+      {
+        "date": "2026-03-04",
+        "handel": 3811727,
+        "matOgOpplevelser": 2073782,
+        "tjenester": 513491,
+        "total": 6399000,
+        "formattedDate": "Mar 04, 2026"
+      },
+      {
+        "date": "2026-03-05",
+        "handel": 4108969,
+        "matOgOpplevelser": 2235497,
+        "tjenester": 553534,
+        "total": 6898000,
+        "formattedDate": "Mar 05, 2026"
+      },
+      {
+        "date": "2026-03-06",
+        "handel": 4901217,
+        "matOgOpplevelser": 2666523,
+        "tjenester": 660260,
+        "total": 8228000,
+        "formattedDate": "Mar 06, 2026"
+      },
+      {
+        "date": "2026-03-07",
+        "handel": 6043127,
+        "matOgOpplevelser": 3287782,
+        "tjenester": 814091,
+        "total": 10145000,
+        "formattedDate": "Mar 07, 2026"
+      },
+      {
+        "date": "2026-03-08",
+        "handel": 1602367,
+        "matOgOpplevelser": 871773,
+        "tjenester": 215860,
+        "total": 2690000,
+        "formattedDate": "Mar 08, 2026"
+      },
+      {
+        "date": "2026-03-09",
+        "handel": 3524611,
+        "matOgOpplevelser": 1917576,
+        "tjenester": 474813,
+        "total": 5917000,
+        "formattedDate": "Mar 09, 2026"
+      },
+      {
+        "date": "2026-03-10",
+        "handel": 3476957,
+        "matOgOpplevelser": 1891650,
+        "tjenester": 468393,
+        "total": 5837000,
+        "formattedDate": "Mar 10, 2026"
+      },
+      {
+        "date": "2026-03-11",
+        "handel": 3587753,
+        "matOgOpplevelser": 1951928,
+        "tjenester": 483319,
+        "total": 6023000,
+        "formattedDate": "Mar 11, 2026"
+      },
+      {
+        "date": "2026-03-12",
+        "handel": 4185811,
+        "matOgOpplevelser": 2277304,
+        "tjenester": 563885,
+        "total": 7027000,
+        "formattedDate": "Mar 12, 2026"
+      },
+      {
+        "date": "2026-03-13",
+        "handel": 5425412,
+        "matOgOpplevelser": 2951712,
+        "tjenester": 730876,
+        "total": 9108000,
+        "formattedDate": "Mar 13, 2026"
+      },
+      {
+        "date": "2026-03-14",
+        "handel": 6533368,
+        "matOgOpplevelser": 3554499,
+        "tjenester": 880133,
+        "total": 10968000,
+        "formattedDate": "Mar 14, 2026"
+      },
+      {
+        "date": "2026-03-15",
+        "handel": 1589262,
+        "matOgOpplevelser": 864643,
+        "tjenester": 214095,
+        "total": 2668000,
+        "formattedDate": "Mar 15, 2026"
+      },
+      {
+        "date": "2026-03-16",
+        "handel": 3456704,
+        "matOgOpplevelser": 1880631,
+        "tjenester": 465665,
+        "total": 5803000,
+        "formattedDate": "Mar 16, 2026"
+      },
+      {
+        "date": "2026-03-17",
+        "handel": 3641364,
+        "matOgOpplevelser": 1981095,
+        "tjenester": 490541,
+        "total": 6113000,
+        "formattedDate": "Mar 17, 2026"
+      },
+      {
+        "date": "2026-03-18",
+        "handel": 3792665,
+        "matOgOpplevelser": 2063411,
+        "tjenester": 510924,
+        "total": 6367000,
+        "formattedDate": "Mar 18, 2026"
+      },
+      {
+        "date": "2026-03-19",
+        "handel": 4951254,
+        "matOgOpplevelser": 2693745,
+        "tjenester": 667001,
+        "total": 8312000,
+        "formattedDate": "Mar 19, 2026"
+      },
+      {
+        "date": "2026-03-20",
+        "handel": 5841193,
+        "matOgOpplevelser": 3177919,
+        "tjenester": 786888,
+        "total": 9806000,
+        "formattedDate": "Mar 20, 2026"
+      },
+      {
+        "date": "2026-03-21",
+        "handel": 6754959,
+        "matOgOpplevelser": 3675057,
+        "tjenester": 909984,
+        "total": 11340000,
+        "formattedDate": "Mar 21, 2026"
+      },
+      {
+        "date": "2026-03-22",
+        "handel": 1650617,
+        "matOgOpplevelser": 898023,
+        "tjenester": 222360,
+        "total": 2771000,
+        "formattedDate": "Mar 22, 2026"
+      },
+      {
+        "date": "2026-03-23",
+        "handel": 4102417,
+        "matOgOpplevelser": 2231933,
+        "tjenester": 552650,
+        "total": 6887000,
+        "formattedDate": "Mar 23, 2026"
+      },
+      {
+        "date": "2026-03-24",
+        "handel": 3820066,
+        "matOgOpplevelser": 2078319,
+        "tjenester": 514615,
+        "total": 6413000,
+        "formattedDate": "Mar 24, 2026"
+      },
+      {
+        "date": "2026-03-25",
+        "handel": 4007704,
+        "matOgOpplevelser": 2180404,
+        "tjenester": 539892,
+        "total": 6728000,
+        "formattedDate": "Mar 25, 2026"
+      },
+      {
+        "date": "2026-03-26",
+        "handel": 4468757,
+        "matOgOpplevelser": 2431241,
+        "tjenester": 602002,
+        "total": 7502000,
+        "formattedDate": "Mar 26, 2026"
+      },
+      {
+        "date": "2026-03-27",
+        "handel": 5146636,
+        "matOgOpplevelser": 2800043,
+        "tjenester": 693321,
+        "total": 8640000,
+        "formattedDate": "Mar 27, 2026"
+      },
+      {
+        "date": "2026-03-28",
+        "handel": 6164645,
+        "matOgOpplevelser": 3353894,
+        "tjenester": 830461,
+        "total": 10349000,
+        "formattedDate": "Mar 28, 2026"
+      },
+      {
+        "date": "2026-03-29",
+        "handel": 1323591,
+        "matOgOpplevelser": 720104,
+        "tjenester": 178305,
+        "total": 2222000,
+        "formattedDate": "Mar 29, 2026"
+      },
+      {
+        "date": "2026-03-30",
+        "handel": 4285885,
+        "matOgOpplevelser": 2331749,
+        "tjenester": 577366,
+        "total": 7195000,
+        "formattedDate": "Mar 30, 2026"
+      },
+      {
+        "date": "2026-03-31",
+        "handel": 5017374,
+        "matOgOpplevelser": 2729718,
+        "tjenester": 675908,
+        "total": 8423000,
+        "formattedDate": "Mar 31, 2026"
       }
     ],
     "Q2_2019": [

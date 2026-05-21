@@ -1,6 +1,6 @@
 {
   "id": "kvartalsrapport-banktransaksjoner",
-  "title": "Kvartalsrapport - Banktransaksjoner 2019-2025",
+  "title": "Kvartalsrapport - Banktransaksjoner 2019-2026",
   "area": {
     "id": "grunerlokka",
     "name": "Grünerløkka",
@@ -10,20 +10,24 @@
   "analysisType": "timeline",
   "period": {
     "type": "custom",
-    "year": 2024,
+    "year": 2026,
     "startDate": "2019-01-01",
-    "endDate": "2025-12-31",
-    "label": "2019-2025"
+    "endDate": "2026-03-31",
+    "label": "2019-2026"
   },
   "metadata": {
     "heroImage": "/images/analyser/grunerlokka-hero.jpg",
     "opprettet": "2025-01-16",
-    "sistOppdatert": "2025-01-16",
+    "sistOppdatert": "2026-05-21",
     "status": "publisert",
     "versjon": 1,
-    "kilde": ["Plaace.co - Bankhandel", "Finn.no - Eiendomsdata", "SSB - Befolkningsstatistikk"],
+    "kilde": [
+      "Plaace.co - Bankhandel",
+      "Finn.no - Eiendomsdata",
+      "SSB - Befolkningsstatistikk"
+    ],
     "notater": [
-      "Detaljert analyse av bankhandel-transaksjoner på Grünerløkka fordelt per kvartal fra 2019 til 2025",
+      "Detaljert analyse av bankhandel-transaksjoner på Grünerløkka fordelt per kvartal fra 2019 til 2026",
       "Data inkluderer alle korthandel-transaksjoner i Grünerløkka +5 urbant område",
       "Q1 = Januar-Mars, Q2 = April-Juni, Q3 = Juli-September, Q4 = Oktober-Desember",
       "YoY (Year-over-Year) viser prosentvis endring fra samme kvartal året før",
@@ -31,15 +35,19 @@
     ]
   },
   "plaaceData": {
-    "rapportDato": "2025-01-16",
-    "datakilder": ["Plaace.co - Bankhandel", "Finn.no - Eiendomsdata", "SSB - Befolkningsstatistikk"],
+    "rapportDato": "2026-05-21",
+    "datakilder": [
+      "Plaace.co - Bankhandel",
+      "Finn.no - Eiendomsdata",
+      "SSB - Befolkningsstatistikk"
+    ],
     "screenshots": [],
     "nokkeldata": {}
   },
   "quarterlyData": {
-    "description": "Quarterly bank transaction data for Grünerløkka 2019-2025. Data should be uploaded as CSV or JSON.",
+    "description": "Quarterly bank transaction data for Grünerløkka 2019-2026. Data should be uploaded as CSV or JSON.",
     "format": {
-      "year": "number (2019-2025)",
+      "year": "number (2019-2026)",
       "quarter": "number (1-4)",
       "quarterLabel": "string (Q1, Q2, Q3, Q4)",
       "amount": "number (total transaction amount in NOK)",

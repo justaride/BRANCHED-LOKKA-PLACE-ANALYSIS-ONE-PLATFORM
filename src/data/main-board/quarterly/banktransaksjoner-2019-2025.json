@@ -1,11 +1,11 @@
 {
   "metadata": {
     "title": "Grünerløkka Banktransaksjoner per Kvartal",
-    "period": "2019-2025",
+    "period": "2019-2026",
     "area": "Grünerløkka +5 urbant område",
     "currency": "NOK",
     "dataSource": "Plaace.co",
-    "lastUpdated": "2026-01-26",
+    "lastUpdated": "2026-05-21",
     "notes": [
       "Q1 = Januar-Mars",
       "Q2 = April-Juni",
@@ -266,6 +266,15 @@
       "transactionCount": 92000,
       "averageTransaction": 6996,
       "note": "Parsed from CSV: 92 days"
+    },
+    {
+      "year": 2026,
+      "quarter": 1,
+      "quarterLabel": "Q1 2026",
+      "amount": 592008000,
+      "transactionCount": 90000,
+      "averageTransaction": 6578,
+      "note": "Parsed from CSV: 90 days"
     }
   ]
 }

@@ -124,7 +124,7 @@ export default function QuarterlyComparisonCharts({
         <p className="mt-2 text-sm text-yellow-700">
           Vennligst legg til dine kvartalsvise banktransaksjonsdata i{' '}
           <code className="rounded bg-yellow-100 px-2 py-1">
-            src/data/quarterly/banktransaksjoner-2019-2025.json
+            src/data/main-board/quarterly/banktransaksjoner-2019-2025.json
           </code>
         </p>
       </div>
@@ -136,7 +136,7 @@ export default function QuarterlyComparisonCharts({
       {/* 1. Time Series Line Chart - All Quarters Over Time */}
       <div>
         <h3 className="mb-4 text-xl font-bold text-natural-forest md:text-2xl">
-          Utvikling Over Tid (2019-2025)
+          Utvikling Over Tid ({quarterlyData.metadata.period})
         </h3>
         <p className="mb-6 text-sm text-gray-600">
           Totale banktransaksjoner per kvartal - tidslinje
