@@ -1,6 +1,7 @@
 'use client';
 
 import { toRechartsNumber } from '@/lib/utils/recharts';
+import { normalizeKorthandelWeekdayData } from '@/lib/utils/korthandel-weekday';
 import {
   LineChart,
   Line,
@@ -19,16 +20,6 @@ interface KorthandelChartProps {
   data: KorthandelData;
 }
 
-const UKEDAG_LABELS: Record<string, string> = {
-  Monday: 'Man',
-  Tuesday: 'Tir',
-  Wednesday: 'Ons',
-  Thursday: 'Tor',
-  Friday: 'Fre',
-  Saturday: 'Lør',
-  Sunday: 'Søn',
-};
-
 export default function KorthandelChart({ data }: KorthandelChartProps) {
   // Sample data for better performance (every 7th day)
   const sampledData = data.tidsserie.filter((_, index) => index % 7 === 0);
@@ -39,11 +30,7 @@ export default function KorthandelChart({ data }: KorthandelChartProps) {
     return date.toLocaleDateString('nb-NO', { month: 'short', year: 'numeric' });
   };
 
-  // Format ukedag data with Norwegian labels
-  const ukedagData = data.korthandelPerUkedag?.map((item) => ({
-    ...item,
-    dagNorsk: UKEDAG_LABELS[item.dag] || item.dag,
-  })) || [];
+  const ukedagData = normalizeKorthandelWeekdayData(data);
 
   return (
     <div className="space-y-8">
@@ -253,7 +240,7 @@ export default function KorthandelChart({ data }: KorthandelChartProps) {
       )}
 
       {/* Korthandel per ukedag */}
-      {ukedagData.length > 0 && (
+      {ukedagData.rows.length > 0 && ukedagData.series.length > 0 && (
         <div className="rounded-lg bg-white p-6 shadow-soft">
           <h4 className="mb-4 text-base font-semibold text-gray-900">
             Korthandel per ukedag
@@ -263,7 +250,7 @@ export default function KorthandelChart({ data }: KorthandelChartProps) {
           </p>
 
           <ResponsiveContainer width="100%" height={300}>
-            <BarChart data={ukedagData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+            <BarChart data={ukedagData.rows} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
               <XAxis dataKey="dagNorsk" stroke="#6b7280" />
               <YAxis
@@ -279,8 +266,14 @@ export default function KorthandelChart({ data }: KorthandelChartProps) {
                 formatter={(value) => [`${toRechartsNumber(value).toFixed(2)} mill`, '']}
               />
               <Legend />
-              <Bar dataKey="år2023" name="2023" fill="#3b82f6" />
-              <Bar dataKey="år2024" name="2024" fill="#8b5cf6" />
+              {ukedagData.series.map((series) => (
+                <Bar
+                  key={series.key}
+                  dataKey={series.key}
+                  name={series.name}
+                  fill={series.color}
+                />
+              ))}
             </BarChart>
           </ResponsiveContainer>
 
@@ -288,11 +281,11 @@ export default function KorthandelChart({ data }: KorthandelChartProps) {
           <div className="mt-4 grid grid-cols-2 gap-4 rounded-lg bg-gray-50 p-4">
             <div>
               <div className="text-xs text-gray-500">Travleste dag</div>
-              <div className="font-semibold text-gray-900">Lørdag</div>
+              <div className="font-semibold text-gray-900">{ukedagData.busiestDay}</div>
             </div>
             <div>
               <div className="text-xs text-gray-500">Roligste dag</div>
-              <div className="font-semibold text-gray-900">Søndag</div>
+              <div className="font-semibold text-gray-900">{ukedagData.quietestDay}</div>
             </div>
           </div>
         </div>
