@@ -84,6 +84,34 @@ interface CustomTooltipProps {
   active?: boolean;
   payload?: TooltipPayload[];
   label?: string;
+  activeTab?: number;
+}
+
+function formatPercentage(num: number) {
+  return `${num.toFixed(1)}%`;
+}
+
+function formatMNOK(num: number) {
+  return `${Math.round(num).toLocaleString('nb-NO')} MNOK`;
+}
+
+function CustomTooltip({ active, payload, label, activeTab }: CustomTooltipProps) {
+  if (!active || !payload || !payload.length) return null;
+  return (
+    <div className="bg-white p-3 border border-gray-200 shadow-lg rounded-lg">
+      <p className="font-semibold text-gray-700 mb-1">{label}</p>
+      {payload.map((entry, index) => (
+        <div key={index} className="text-sm flex justify-between gap-4" style={{ color: entry.color }}>
+          <span>{entry.name}:</span>
+          <span className="font-medium">
+            {activeTab === 3 || activeTab === 1
+              ? (typeof entry.value === 'number' && activeTab === 3 ? formatMNOK(entry.value) : `${typeof entry.value === 'number' ? entry.value.toFixed(1) : entry.value}%`)
+              : formatPercentage(typeof entry.value === 'number' ? entry.value : 0)}
+          </span>
+        </div>
+      ))}
+    </div>
+  );
 }
 
 export default function KonkurranseComparisonCharts({
@@ -123,9 +151,6 @@ export default function KonkurranseComparisonCharts({
     { id: 4, label: 'Over-/underandel' },
   ];
 
-  const formatPercentage = (num: number) => `${num.toFixed(1)}%`;
-  const formatMNOK = (num: number) => `${Math.round(num).toLocaleString('nb-NO')} MNOK`;
-
   if (loading) return <div className="h-64 flex items-center justify-center"><div className="animate-spin h-8 w-8 border-4 border-natural-forest border-t-transparent rounded-full"/></div>;
   if (error || !data) return <div className="h-64 flex items-center justify-center text-red-600">{error || 'Ingen data'}</div>;
 
@@ -157,25 +182,6 @@ export default function KonkurranseComparisonCharts({
     });
     return entry;
   });
-
-  const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
-    if (!active || !payload || !payload.length) return null;
-    return (
-      <div className="bg-white p-3 border border-gray-200 shadow-lg rounded-lg">
-        <p className="font-semibold text-gray-700 mb-1">{label}</p>
-        {payload.map((entry, index) => (
-          <div key={index} className="text-sm flex justify-between gap-4" style={{ color: entry.color }}>
-            <span>{entry.name}:</span>
-            <span className="font-medium">
-              {activeTab === 3 || activeTab === 1 
-                ? (typeof entry.value === 'number' && activeTab === 3 ? formatMNOK(entry.value) : `${typeof entry.value === 'number' ? entry.value.toFixed(1) : entry.value}%`)
-                : formatPercentage(typeof entry.value === 'number' ? entry.value : 0)}
-            </span>
-          </div>
-        ))}
-      </div>
-    );
-  };
 
   return (
     <div className="mb-12 md:mb-20">
@@ -212,7 +218,7 @@ export default function KonkurranseComparisonCharts({
                 <CartesianGrid strokeDasharray="3 3" horizontal={false} />
                 <XAxis type="number" tickFormatter={formatPercentage} domain={[0, 100]} />
                 <YAxis dataKey="name" type="category" width={100} tick={{fontSize: 12}} />
-                <Tooltip content={<CustomTooltip />} />
+                <Tooltip content={<CustomTooltip activeTab={activeTab} />} />
                 <Legend />
                 <Bar dataKey="Kjeder" stackId="a" fill="#E74C3C" name="Kjeder" />
                 <Bar dataKey="Uavhengige" stackId="a" fill="#2D5F3F" name="Uavhengige" />
@@ -222,7 +228,7 @@ export default function KonkurranseComparisonCharts({
                 <CartesianGrid strokeDasharray="3 3" horizontal={false} />
                 <XAxis type="number" tickFormatter={formatPercentage} domain={[0, 100]} />
                 <YAxis dataKey="name" type="category" width={100} tick={{fontSize: 12}} />
-                <Tooltip content={<CustomTooltip />} />
+                <Tooltip content={<CustomTooltip activeTab={activeTab} />} />
                 <Legend />
                 <Bar dataKey="Kjeder" stackId="a" fill="#E74C3C" name="Kjeder (Omsetning)" />
                 <Bar dataKey="Uavhengige" stackId="a" fill="#2D5F3F" name="Uavhengige (Omsetning)" />
@@ -232,7 +238,7 @@ export default function KonkurranseComparisonCharts({
                 <CartesianGrid strokeDasharray="3 3" vertical={false} />
                 <XAxis dataKey="name" tick={{fontSize: 12}} />
                 <YAxis tickFormatter={formatPercentage} />
-                <Tooltip content={<CustomTooltip />} />
+                <Tooltip content={<CustomTooltip activeTab={activeTab} />} />
                 <Legend />
                 {allCategories.map((cat, idx) => (
                   <Bar 
@@ -265,7 +271,7 @@ export default function KonkurranseComparisonCharts({
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis dataKey="year" />
                   <YAxis tickFormatter={(val) => `${val/1000}k`} label={{ value: 'MNOK', angle: -90, position: 'insideLeft' }} />
-                  <Tooltip content={<CustomTooltip />} />
+                  <Tooltip content={<CustomTooltip activeTab={activeTab} />} />
                   <Legend />
                   <Line type="monotone" dataKey={`lokka_${activeCategory}`} name="Grünerløkka" stroke="#2D5F3F" strokeWidth={3} dot={{r:4}} />
                   <Line type="monotone" dataKey={`bjørvika_${activeCategory}`} name="Bjørvika" stroke="#4A90E2" strokeWidth={3} dot={{r:4}} />
@@ -278,7 +284,7 @@ export default function KonkurranseComparisonCharts({
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="category" />
                 <YAxis tickFormatter={(val) => `${val}%`} label={{ value: 'Over-/underandel', angle: -90, position: 'insideLeft' }} />
-                <Tooltip content={<CustomTooltip />} />
+                <Tooltip content={<CustomTooltip activeTab={activeTab} />} />
                 <Legend />
                 <Bar dataKey="lokka" name="Grünerløkka" fill="#2D5F3F" />
                 <Bar dataKey="bjørvika" name="Bjørvika" fill="#4A90E2" />

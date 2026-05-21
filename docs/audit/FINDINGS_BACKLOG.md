@@ -12,7 +12,7 @@ Source of truth: `docs/audit/findings.json`
 | A-003 | high | type/data | Type-check fails on missing import + stale generated route types | `src/lib/loaders/one-min-loader.ts`, `tsconfig.json`, `.next/types` |
 | A-004 | high | lint/tooling | ESLint runtime crash prevents linting | `eslint` runtime dependency set |
 | A-005 | high | test/tooling | Jest is unstable (hang + invalid package config errors) | test harness/runtime deps |
-| A-006 | medium | qa/runtime | Tenant smoke script drifted from current tenant registry and dev port | `scripts/test-all-tenants.sh`, `src/config/tenants.ts` |
+| A-006 | medium | qa/runtime | ✅ Resolved 2026-05-21: tenant smoke script now uses current dev port and tenant registry | `scripts/test-all-tenants.sh`, `scripts/list-tenant-slugs.js`, `src/config/tenants.ts` |
 | A-007 | medium | verify/data | Verification warnings include schema false positives for non-property datasets | `scripts/verify-project.js` |
 | A-008 | medium | data/contracts | High null density without explicit nullable contract documentation | multiple `src/data/*.json` |
 | A-009 | low | data/semantics | Semantic INFO anomalies likely metric-label mismatch | `public/data/.../antall-hus.json` |
@@ -92,6 +92,8 @@ Source of truth: `docs/audit/findings.json`
 
 ## A-006 Medium: Outdated Smoke Script
 
+Status: Resolved 2026-05-21.
+
 - Symptom: script does not reflect current tenant slugs/port.
 - Evidence:
   - `scripts/test-all-tenants.sh:16` default URL is `localhost:3000` (dev runs on `3001`).
@@ -101,7 +103,8 @@ Source of truth: `docs/audit/findings.json`
   1. Generate tenant route list from `TENANTS` source.
   2. Align default port with `npm run dev`.
 - Acceptance:
-  1. Smoke script covers all current tenants and returns deterministic matrix output.
+  1. ✅ Smoke script covers all current tenants and returns deterministic matrix output.
+  2. ✅ Regression covered in `src/lib/utils/__tests__/verify-project-rules.test.ts`.
 
 ## A-007 Medium: Verification Warning Noise
 

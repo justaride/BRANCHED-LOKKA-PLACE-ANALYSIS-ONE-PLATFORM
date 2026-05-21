@@ -6,6 +6,7 @@ import {
     getIldsjelById,
     getIldsjeler
 } from '@/lib/loaders/biblioteket-loader';
+import type { IldsjelLink } from '@/types/biblioteket';
 
 interface PageProps {
     params: Promise<{
@@ -61,17 +62,16 @@ export default async function DetailPage({ params }: PageProps) {
         notFound();
     }
 
-    const getLinkUrl = (link: string | { url: string; label?: string }) => {
-        return typeof link === 'string' ? link : link.url;
-    };
+    const getLinkUrl = (link: IldsjelLink) => (
+        typeof link === 'string' ? link : link.url
+    );
 
-    const getLinkDisplayName = (link: string | { url: string; label?: string }) => {
+    const getLinkDisplayName = (link: IldsjelLink) => {
         if (typeof link !== 'string' && link.label) {
             return link.label;
         }
 
         const url = getLinkUrl(link);
-
         try {
             const urlObj = new URL(url);
             return urlObj.hostname.replace('www.', '');

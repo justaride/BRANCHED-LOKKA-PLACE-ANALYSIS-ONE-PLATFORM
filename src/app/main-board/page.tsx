@@ -34,7 +34,8 @@ export default function MainBoardPage() {
                   alt="Natural State"
                   width={64}
                   height={64}
-                  className="h-16 w-auto"
+                  className="object-contain"
+                  style={{ width: '64px', height: '64px' }}
                 />
                 <div className="inline-block rounded-full bg-white/20 px-4 py-1 text-sm font-medium text-white backdrop-blur-sm">
                   Natural State Place Analysis 2025
@@ -108,6 +109,7 @@ export default function MainBoardPage() {
               alt="Utforsk Analyser"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-110"
+              sizes="(max-width: 768px) 100vw, 66vw"
             />
             <div className="absolute inset-0 bg-black/40 transition-opacity duration-300 group-hover:bg-black/30" />
 
@@ -132,6 +134,7 @@ export default function MainBoardPage() {
               alt="Om Prosjektet"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-110"
+              sizes="(max-width: 768px) 100vw, 33vw"
             />
             <div className="absolute inset-0 bg-black/40 transition-opacity duration-300 group-hover:bg-black/30" />
 
@@ -174,6 +177,7 @@ export default function MainBoardPage() {
               alt="Biblioteket"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-110"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
             <div className="absolute inset-0 bg-black/50 transition-opacity duration-300 group-hover:bg-black/40" />
             <div className="relative z-10 flex h-full flex-col justify-end p-8">
@@ -203,6 +207,7 @@ export default function MainBoardPage() {
               alt="Markedsrapporter & Økonomi"
               fill
               className="object-cover"
+              sizes="(max-width: 768px) 100vw, 33vw"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-black/20" />
 
@@ -240,6 +245,7 @@ export default function MainBoardPage() {
               alt="Områdeprofiler & Demografi"
               fill
               className="object-cover"
+              sizes="(max-width: 768px) 100vw, 33vw"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-black/20" />
 
@@ -277,6 +283,7 @@ export default function MainBoardPage() {
               alt="Byliv & Bevegelse"
               fill
               className="object-cover"
+              sizes="(max-width: 768px) 100vw, 33vw"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-black/20" />
 

@@ -1,5 +1,6 @@
 'use client';
 
+import { toRechartsNumber } from '@/lib/utils/recharts';
 import { useMemo } from 'react';
 import {
   LineChart,
@@ -99,14 +100,14 @@ export default function QuarterlyComparisonCharts({
     if (value >= 1_000_000) {
       return `${(value / 1_000_000).toFixed(0)}M kr`;
     }
-    return `${value.toLocaleString('nb-NO')} kr`;
+    return `${toRechartsNumber(value).toLocaleString('nb-NO')} kr`;
   };
 
   // Format percentage
   const formatPercentage = (value: number | null) => {
     if (value === null) return 'N/A';
     const sign = value >= 0 ? '+' : '';
-    return `${sign}${value.toFixed(1)}%`;
+    return `${sign}${toRechartsNumber(value).toFixed(1)}%`;
   };
 
   const colorPalette = ['#8B4513', '#DC143C', '#FF8C00', '#32CD32', '#4169E1', '#9370DB', '#FF1493', '#00CED1', '#FF6347', '#2E8B57'];
@@ -157,7 +158,7 @@ export default function QuarterlyComparisonCharts({
                 tick={{ fontSize: 12 }}
               />
               <Tooltip
-                formatter={(value: number) => formatCurrency(value)}
+                formatter={(value) => formatCurrency(toRechartsNumber(value))}
                 contentStyle={{
                   backgroundColor: 'rgba(255, 255, 255, 0.95)',
                   borderRadius: '8px',
@@ -198,7 +199,7 @@ export default function QuarterlyComparisonCharts({
                 tick={{ fontSize: 12 }}
               />
               <Tooltip
-                formatter={(value: number) => formatCurrency(value)}
+                formatter={(value) => formatCurrency(toRechartsNumber(value))}
                 contentStyle={{
                   backgroundColor: 'rgba(255, 255, 255, 0.95)',
                   borderRadius: '8px',

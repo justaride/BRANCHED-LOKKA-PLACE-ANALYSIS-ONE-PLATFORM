@@ -8,6 +8,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { verifyPropertyData } = require('./verify-project-rules');
 
 const COLORS = {
   reset: '\x1b[0m',
@@ -30,7 +31,8 @@ const results = {
   passed: 0,
   failed: 0,
   warnings: 0,
-  errors: []
+  errors: [],
+  warningDetails: []
 };
 
 const PROJECT_ROOT = path.join(__dirname, '..');
@@ -83,43 +85,6 @@ function findJsonFiles(dir, files = []) {
   return files;
 }
 
-// Verify property data structure
-function verifyPropertyData(data, filePath) {
-  const issues = [];
-  const fileName = path.basename(filePath, '.json');
-
-  // Skip special files
-  if (['template', 'registry', 'combined'].includes(fileName)) {
-    return issues;
-  }
-
-  // Check for required fields in property files
-  if (data.id !== undefined) {
-    if (!data.name) issues.push('Missing: name');
-    if (!data.address) issues.push('Missing: address');
-    if (!data.tenant) issues.push('Missing: tenant');
-  }
-
-  // Check for null/undefined values that could cause silent failures
-  function checkForNulls(obj, prefix = '') {
-    for (const [key, value] of Object.entries(obj)) {
-      const path = prefix ? `${prefix}.${key}` : key;
-      if (value === null) {
-        issues.push(`Null value: ${path}`);
-      } else if (value === undefined) {
-        issues.push(`Undefined value: ${path}`);
-      } else if (typeof value === 'number' && isNaN(value)) {
-        issues.push(`NaN value: ${path}`);
-      } else if (typeof value === 'object' && value !== null && !Array.isArray(value)) {
-        checkForNulls(value, path);
-      }
-    }
-  }
-
-  checkForNulls(data);
-  return issues;
-}
-
 // Import analysis JSON validation
 const { runValidation: runAnalysisValidation } = require('./validate-analysis-json');
 
@@ -162,9 +127,10 @@ function runVerification() {
       validCount++;
 
       // Check data structure
-      const issues = verifyPropertyData(result.data, file);
+      const issues = verifyPropertyData(result.data, file, PROJECT_ROOT);
       if (issues.length > 0) {
         results.warnings++;
+        results.warningDetails.push({ file: relPath, issues });
         log.warn(`${relPath}: ${issues.length} potential issues`);
         issues.forEach(issue => log.warn(`  └─ ${issue}`));
       }
@@ -295,6 +261,7 @@ function runVerification() {
     status,
     summary: { passed: results.passed, warnings: results.warnings, failed: results.failed },
     errors: results.errors,
+    warnings: results.warningDetails,
     jsonFiles: { total: jsonFiles.length, valid: validCount, invalid: invalidCount },
     invalidFiles
   };

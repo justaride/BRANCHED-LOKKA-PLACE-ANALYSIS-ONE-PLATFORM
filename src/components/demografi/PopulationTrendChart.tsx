@@ -1,5 +1,6 @@
 'use client';
 
+import { toRechartsNumber } from '@/lib/utils/recharts';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { PopulationDataPoint } from '@/types/demografi';
 
@@ -30,7 +31,7 @@ export function PopulationTrendChart({ data }: PopulationTrendChartProps) {
           <YAxis
             stroke="#6b7280"
             style={{ fontSize: '14px' }}
-            tickFormatter={(value) => value.toLocaleString('nb-NO')}
+            tickFormatter={(value) => toRechartsNumber(value).toLocaleString('nb-NO')}
           />
           <Tooltip
             contentStyle={{
@@ -39,7 +40,7 @@ export function PopulationTrendChart({ data }: PopulationTrendChartProps) {
               borderRadius: '8px',
               padding: '12px'
             }}
-            formatter={(value: number) => [value.toLocaleString('nb-NO'), '']}
+            formatter={(value) => [toRechartsNumber(value).toLocaleString('nb-NO'), '']}
             labelFormatter={(label) => `År ${label}`}
           />
           <Legend

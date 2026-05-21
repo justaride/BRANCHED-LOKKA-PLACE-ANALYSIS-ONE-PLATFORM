@@ -1,6 +1,6 @@
 {
   "id": "olaf-ryes-plass-boots",
-  "title": "Olaf Ryes PlassV:Boots",
+  "title": "Olaf Ryes Plass v/ Boots",
   "analysisType": "location-specific",
   "period": {
     "type": "multi-year",
@@ -12,17 +12,17 @@
   },
   "area": {
     "id": "olaf-ryes-plass-boots",
-    "name": "Olaf Ryes PlassV:Boots",
-    "displayName": "Olaf Ryes PlassV:Boots område",
+    "name": "Olaf Ryes Plass v/ Boots",
+    "displayName": "Olaf Ryes Plass v/ Boots område",
     "type": "micro-area",
     "areaSize": "0.005 km²",
     "coordinates": {
       "lat": 59.921,
       "lng": 10.761
     },
-    "description": "Komplett stedsanalyse for Olaf Ryes PlassV:Boots med demografi, besøkende, virksomheter og omsetning"
+    "description": "Komplett stedsanalyse for Olaf Ryes Plass v/ Boots med demografi, besøkende, virksomheter og omsetning"
   },
-  "description": "Omfattende markedsanalyse for Olaf Ryes PlassV:Boots med fokus på besøksmønstre, demografisk profil, konseptmiks og korthandel. Området har høy daglig besøksfrekvens, dominert av Fitness 24 Seven (40.08% markedsandel) og Boots Apotek (22.15%), med total omsetning på NOK 89 millioner.",
+  "description": "Omfattende markedsanalyse for Olaf Ryes Plass v/ Boots med fokus på besøksmønstre, demografisk profil, konseptmiks og korthandel. Området har høy daglig besøksfrekvens, dominert av Fitness 24 Seven (40.08% markedsandel) og Boots Apotek (22.15%), med total omsetning på NOK 89 millioner.",
   "tags": [
     "stedsanalyse",
     "bevegelse",

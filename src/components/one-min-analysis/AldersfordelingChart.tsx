@@ -1,5 +1,6 @@
 'use client';
 
+import { toRechartsNumber } from '@/lib/utils/recharts';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import type { DemografiData } from '@/types/one-min-analysis';
 
@@ -54,11 +55,11 @@ export default function AldersfordelingChart({ data }: AldersfordelingChartProps
                 (dataMin: number) => Math.floor(dataMin * 1.1),
                 (dataMax: number) => Math.ceil(dataMax * 1.1),
               ]}
-              tickFormatter={(value) => Math.abs(value).toString()}
+              tickFormatter={(value) => Math.abs(toRechartsNumber(value)).toString()}
             />
             <YAxis type="category" dataKey="category" width={80} />
             <Tooltip
-              formatter={(value: number) => Math.abs(value)}
+              formatter={(value) => Math.abs(toRechartsNumber(value))}
               labelStyle={{ color: '#374151' }}
             />
             <Legend />

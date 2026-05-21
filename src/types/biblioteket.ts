@@ -3,8 +3,10 @@
 // Ildsjeler (Local Heroes)
 export interface BibliotekLink {
     url: string;
-    label: string;
+    label?: string;
 }
+
+export type IldsjelLink = string | BibliotekLink;
 
 export interface BiographicalDataStatus {
     birthYear: 'known' | 'unknown';
@@ -37,7 +39,7 @@ export interface Ildsjel {
     relatedPlaceIds: string[];
     imageUrl: string;
     profileUrl: string;
-    links: BibliotekLink[];
+    links: IldsjelLink[];
     isLiving: boolean | null;
     dataQuality?: IldsjelDataQuality;
 }

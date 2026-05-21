@@ -54,6 +54,7 @@ export default function TeaterPage() {
         <>
             {/* Hero Section */}
             <section className="relative overflow-hidden border-b border-gray-200 py-20 bg-gradient-to-br from-violet-900 via-purple-800 to-fuchsia-900 text-white">
+                <div className="absolute inset-0 bg-white/5" />
                 <Container className="relative z-10">
                     <motion.div
                         className="max-w-3xl"

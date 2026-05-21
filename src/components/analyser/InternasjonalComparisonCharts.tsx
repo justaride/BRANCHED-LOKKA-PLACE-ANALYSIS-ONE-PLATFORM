@@ -24,6 +24,32 @@ interface LandData {
   majorstuen: number | null;
 }
 
+interface TooltipPayload {
+  name: string;
+  value: number | null;
+  color: string;
+}
+
+function formatPercentage(num: number | null) {
+  if (num === null) return 'N/A';
+  return `${num.toFixed(1)}%`;
+}
+
+function CustomTooltip({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string }) {
+  if (!active || !payload || !payload.length) return null;
+
+  return (
+    <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
+      <p className="mb-1 text-xs font-medium text-gray-500">{label}</p>
+      {payload.map((entry, index) => (
+        <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
+          {entry.name}: {formatPercentage(entry.value)}
+        </p>
+      ))}
+    </div>
+  );
+}
+
 export default function InternasjonalComparisonCharts({
   basePath,
 }: InternasjonalComparisonChartsProps) {
@@ -64,32 +90,6 @@ export default function InternasjonalComparisonCharts({
       .sort((a, b) => b.maxValue - a.maxValue)
       .slice(0, 20);
   }, [landData]);
-
-  const formatPercentage = (num: number | null) => {
-    if (num === null) return 'N/A';
-    return `${num.toFixed(1)}%`;
-  };
-
-  interface TooltipPayload {
-    name: string;
-    value: number | null;
-    color: string;
-  }
-
-  const CustomTooltip = ({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string }) => {
-    if (!active || !payload || !payload.length) return null;
-
-    return (
-      <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
-        <p className="mb-1 text-xs font-medium text-gray-500">{label}</p>
-        {payload.map((entry, index) => (
-          <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
-            {entry.name}: {formatPercentage(entry.value)}
-          </p>
-        ))}
-      </div>
-    );
-  };
 
   if (loading) {
     return (

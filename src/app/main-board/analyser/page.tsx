@@ -55,11 +55,12 @@ export default async function AnalyserPage() {
                 </div>
 
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                  {otherAnalyses.map((analysis) => (
+                  {otherAnalyses.map((analysis, index) => (
                     <PlaceAnalysisCard
                       key={analysis.id}
                       analysis={analysis}
                       basePath="/main-board/analyser"
+                      priority={index === 0}
                     />
                   ))}
                 </div>
@@ -84,11 +85,12 @@ export default async function AnalyserPage() {
                 </div>
 
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                  {microAreaAnalyses.map((analysis) => (
+                  {microAreaAnalyses.map((analysis, index) => (
                     <PlaceAnalysisCard
                       key={analysis.id}
                       analysis={analysis}
                       basePath="/main-board/analyser"
+                      priority={otherAnalyses.length === 0 && index === 0}
                     />
                   ))}
                 </div>

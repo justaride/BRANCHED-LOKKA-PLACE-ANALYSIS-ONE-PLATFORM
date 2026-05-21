@@ -1,5 +1,6 @@
 'use client';
 
+import { toRechartsNumber } from '@/lib/utils/recharts';
 // @ts-nocheck
 import { useMemo } from 'react';
 import {
@@ -341,8 +342,8 @@ export default function PropertyOwnerAnalysis({
                       ))}
                     </Pie>
                     <Tooltip
-                      formatter={(value: number) =>
-                        `${(value / 1_000_000).toFixed(0)}M NOK`
+                      formatter={(value) =>
+                        `${(toRechartsNumber(value) / 1_000_000).toFixed(0)}M NOK`
                       }
                     />
                   </PieChart>
@@ -491,7 +492,7 @@ export default function PropertyOwnerAnalysis({
                 <XAxis dataKey="quarterLabel" />
                 <YAxis />
                 <Tooltip
-                  formatter={(value: number) => `${value.toFixed(1)}%`}
+                  formatter={(value) => `${toRechartsNumber(value).toFixed(1)}%`}
                 />
                 <Line
                   type="monotone"

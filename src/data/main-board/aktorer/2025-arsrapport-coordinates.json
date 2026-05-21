@@ -83,7 +83,10 @@
     "lat": 59.9286,
     "lng": 10.7597
   },
-  "ØSTRE AKER VEI 17": null,
+  "ØSTRE AKER VEI 17": {
+    "lat": 59.92777364865913,
+    "lng": 10.805665948089374
+  },
   "KARL JOHANS GATE 17": {
     "lat": 59.9127,
     "lng": 10.7434
@@ -182,7 +185,10 @@
     "lat": 59.9219,
     "lng": 10.7591
   },
-  "PETER MØLLERS VEI 2 B": null,
+  "PETER MØLLERS VEI 2 B": {
+    "lat": 59.929965943538484,
+    "lng": 10.791846771134464
+  },
   "SANNERGATA 5 A": {
     "lat": 59.9287,
     "lng": 10.766
@@ -231,14 +237,23 @@
     "lat": 59.9208,
     "lng": 10.7571
   },
-  "UNIVERSITETSGATA 26": null,
+  "UNIVERSITETSGATA 26": {
+    "lat": 59.91488327255446,
+    "lng": 10.73674595321969
+  },
   "OLAF RYES PLASS 9": { "lat": 59.9226, "lng": 10.7582 },
-  "AKERSHUSSTRANDA 25": null,
+  "AKERSHUSSTRANDA 25": {
+    "lat": 59.90181443747447,
+    "lng": 10.741166224169067
+  },
   "THORVALD MEYERS GATE 33 A": {
     "lat": 59.926,
     "lng": 10.7587
   },
-  "OLAV TRYGGVASONS GATE 40": null,
+  "OLAV TRYGGVASONS GATE 40": {
+    "lat": 63.433302148685854,
+    "lng": 10.394161385840167
+  },
   "OLAF RYES PLASS 12": { "lat": 59.9223, "lng": 10.7588 },
   "VULKAN 12": {
     "lat": 59.9224,
@@ -342,12 +357,18 @@
     "lng": 10.7578
   },
   "OSLO": null,
-  "LILLEAKERVEIEN 10": null,
+  "LILLEAKERVEIEN 10": {
+    "lat": 59.91630393115435,
+    "lng": 10.6378870540431
+  },
   "THORVALD MEYERS GATE 28 A": {
     "lat": 59.9274,
     "lng": 10.7595
   },
-  "STOKKAVEIEN 61 B": null,
+  "STOKKAVEIEN 61 B": {
+    "lat": 58.96973028103198,
+    "lng": 5.71479063655348
+  },
   "MARKVEIEN 35 A": {
     "lat": 59.9222,
     "lng": 10.7572
@@ -356,7 +377,10 @@
     "lat": 59.9274,
     "lng": 10.7652
   },
-  "MUNKERUDÅSEN 22 F": null,
+  "MUNKERUDÅSEN 22 F": {
+    "lat": 59.85596139643215,
+    "lng": 10.807932638933677
+  },
   "TORGGATA 27": {
     "lat": 59.9179,
     "lng": 10.7552
@@ -647,7 +671,10 @@
     "lat": 59.9322,
     "lng": 10.7595
   },
-  "NOREVEIEN 26": null,
+  "NOREVEIEN 26": {
+    "lat": 59.934372184882044,
+    "lng": 10.668844257002243
+  },
   "STORGATA 34": {
     "lat": 59.917,
     "lng": 10.7578
@@ -680,7 +707,10 @@
     "lat": 59.9141,
     "lng": 10.749
   },
-  "LANGKAIA 1": null,
+  "LANGKAIA 1": {
+    "lat": 59.90760281927637,
+    "lng": 10.746880614147818
+  },
   "MARKVEIEN 61": {
     "lat": 59.9193,
     "lng": 10.7572
@@ -710,8 +740,8 @@
     "lng": 10.7505
   },
   "HELGESENS GATE 32": {
-    "lat": 59.9243,
-    "lng": 10.7625
+    "lat": 59.92427985064719,
+    "lng": 10.762517927737335
   },
   "THORVALD MEYERS GATE 81": {
     "lat": 59.9204,
@@ -765,7 +795,10 @@
     "lat": 59.9274,
     "lng": 10.7633
   },
-  "GRØTSUNDVEGEN 63": null,
+  "GRØTSUNDVEGEN 63": {
+    "lat": 59.20443665774866,
+    "lng": 9.556285589523755
+  },
   "MØLLERVEIEN 4": {
     "lat": 59.9214,
     "lng": 10.7519
@@ -806,7 +839,10 @@
     "lat": 59.9253,
     "lng": 10.7548
   },
-  "BØLERLIA 59": null,
+  "BØLERLIA 59": {
+    "lat": 59.87978552886705,
+    "lng": 10.845159171670513
+  },
   "ROSTEDS GATE 1 A": {
     "lat": 59.9194,
     "lng": 10.751
@@ -899,7 +935,10 @@
     "lat": 59.9191,
     "lng": 10.7509
   },
-  "SØRKEDALSVEIEN 3 B": null,
+  "SØRKEDALSVEIEN 3 B": {
+    "lat": 59.93033209402757,
+    "lng": 10.712858830385478
+  },
   "MARIDALSVEIEN 21": {
     "lat": 59.9234,
     "lng": 10.7511
@@ -940,7 +979,10 @@
     "lat": 59.9168,
     "lng": 10.7574
   },
-  "BOGSTADVEIEN 42": null,
+  "BOGSTADVEIEN 42": {
+    "lat": 59.926822193636475,
+    "lng": 10.719620286570468
+  },
   "MARKVEIEN 16 B": {
     "lat": 59.9253,
     "lng": 10.7574
@@ -977,9 +1019,18 @@
     "lat": 59.9267,
     "lng": 10.7574
   },
-  "GLADENGVEIEN 3 B": null,
-  "OPERAGATA 45": null,
-  "LILLEAKERVEIEN 16": null,
+  "GLADENGVEIEN 3 B": {
+    "lat": 59.914740608392314,
+    "lng": 10.789915175151107
+  },
+  "OPERAGATA 45": {
+    "lat": 59.90654197480885,
+    "lng": 10.75635244706829
+  },
+  "LILLEAKERVEIEN 16": {
+    "lat": 59.91740452172528,
+    "lng": 10.63604701516379
+  },
   "OLAF RYES PLASS 4 A": { "lat": 59.9228, "lng": 10.7578 },
   "THORVALD MEYERS GATE 73": { "lat": 59.9209, "lng": 10.7589 },
   "NEDRE GATE 2": { "lat": 59.9221, "lng": 10.7535 },
@@ -988,6 +1039,10 @@
   "STORGATA 59": { "lat": 59.9178, "lng": 10.7584 },
   "PAULUS' PLASS 2 A": { "lat": 59.9293, "lng": 10.7600 },
   "SEILDUKSGATA 26 A": { "lat": 59.9254, "lng": 10.7605 },
+  "SEILDUKSGATA 5 C": {
+    "lat": 59.92534888700907,
+    "lng": 10.756779343888628
+  },
   "TORGGATA 36 A": { "lat": 59.9180, "lng": 10.7555 },
   "THORVALD MEYERS GATE 2 B": { "lat": 59.9297, "lng": 10.7585 },
   "SØNDRE GATE 2": { "lat": 59.9185, "lng": 10.7575 },
@@ -1004,8 +1059,25 @@
   "TOFTES GATE 25 D": { "lat": 59.9282, "lng": 10.7602 },
   "JESS CARLSENS GATE 4": { "lat": 59.9290, "lng": 10.7630 },
   "THORVALD MEYERS GATE 18 A": { "lat": 59.9282, "lng": 10.7596 },
-  "HOFFSVEIEN 40 B": null,
-  "BOGSTADVEIEN 20": null,
+  "MARIDALSVEIEN 19": {
+    "lat": 59.9231352128025,
+    "lng": 10.751291422960174
+  },
+  "PAULUS' PLASS 3 A": {
+    "lat": 59.926049805263865,
+    "lng": 10.757762924340087
+  },
+  "HOFFSVEIEN 40 B": {
+    "lat": 59.92990686650879,
+    "lng": 10.675348180022647
+  },
+  "BOGSTADVEIEN 20": {
+    "lat": 59.92533842758122,
+    "lng": 10.722513571345052
+  },
   "Thorvald Meyers Gate, Nedre": { "lat": 59.9210, "lng": 10.7592 },
-  "TRONDHEIMSVEIEN 197 A": null
+  "TRONDHEIMSVEIEN 197 A": {
+    "lat": 59.934919374874596,
+    "lng": 10.782161201418338
+  }
 }

@@ -1,5 +1,6 @@
 'use client';
 
+import { toRechartsNumber } from '@/lib/utils/recharts';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { AgeDistributionYear } from '@/types/demografi';
 import { useState } from 'react';
@@ -48,7 +49,7 @@ export function AgePyramidChart({ data }: AgePyramidChartProps) {
           <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
           <XAxis
             type="number"
-            tickFormatter={(value) => Math.abs(value).toLocaleString('nb-NO')}
+            tickFormatter={(value) => Math.abs(toRechartsNumber(value)).toLocaleString('nb-NO')}
             stroke="#6b7280"
           />
           <YAxis
@@ -59,7 +60,7 @@ export function AgePyramidChart({ data }: AgePyramidChartProps) {
             style={{ fontSize: '12px' }}
           />
           <Tooltip
-            formatter={(_value: number, name: string, props) => {
+            formatter={(_value, name, props) => {
               const payload = props?.payload as { maleAbs: number; femaleAbs: number } | undefined;
               const absValue = name === 'male' ? payload?.maleAbs : payload?.femaleAbs;
               return [absValue?.toLocaleString('nb-NO') ?? '0', name === 'male' ? 'Mann' : 'Kvinne'];

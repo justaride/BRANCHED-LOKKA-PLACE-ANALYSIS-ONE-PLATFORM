@@ -13,21 +13,32 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 # Configuration
-BASE_URL="${BASE_URL:-http://localhost:3000}"
+BASE_URL="${BASE_URL:-http://localhost:3001}"
 TIMEOUT=5
 
-# Tenants to test
-TENANTS=(
-  "main-board"
-  "aspelin-ramm"
-  "brodrene-evensen"
-  "eiendomsspar"
-  "malling-co"
-  "maya-eiendom"
-  "roger-vodal"
-  "sio"
-  "spabo-eiendom"
-)
+CONFIG_TENANTS=$(node scripts/list-tenant-slugs.js) || CONFIG_TENANTS=""
+
+TENANTS=()
+while IFS= read -r tenant; do
+  if [ -n "$tenant" ]; then
+    TENANTS+=("$tenant")
+  fi
+done <<< "$CONFIG_TENANTS"
+
+if [ ${#TENANTS[@]} -eq 0 ]; then
+  TENANTS=(
+    "main-board"
+    "aspelin-ramm"
+    "brodrene-evensen"
+    "carucel"
+    "eiendomsspar"
+    "front-real-estate"
+    "maya-eiendom"
+    "roger-vodal"
+    "sio"
+    "spabo"
+  )
+fi
 
 # Counter for results
 PASSED=0

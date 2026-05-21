@@ -10,6 +10,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from 'recharts';
+import { DEFAULT_RESPONSIVE_CHART_DIMENSION } from '@/lib/utils/recharts';
 
 interface BankTransactionChartProps {
   data: { date: string; amount: number }[];
@@ -125,7 +126,14 @@ export default function BankTransactionChart({
       </div>
 
       <div style={{ height }}>
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer
+          width="100%"
+          height="100%"
+          initialDimension={{
+            width: DEFAULT_RESPONSIVE_CHART_DIMENSION.width,
+            height,
+          }}
+        >
           <LineChart
             data={chartData}
             margin={{ top: 10, right: 30, left: 10, bottom: 40 }}

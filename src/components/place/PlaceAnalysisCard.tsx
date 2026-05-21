@@ -5,9 +5,14 @@ import type { PlaceAnalysis } from '@/types/place-analysis';
 interface PlaceAnalysisCardProps {
   analysis: PlaceAnalysis;
   basePath?: string; // For multi-tenant routing
+  priority?: boolean;
 }
 
-export default function PlaceAnalysisCard({ analysis, basePath = '/analyser' }: PlaceAnalysisCardProps) {
+export default function PlaceAnalysisCard({
+  analysis,
+  basePath = '/analyser',
+  priority = false,
+}: PlaceAnalysisCardProps) {
   const formatPeriod = (period: PlaceAnalysis['period']) => {
     if (period.type === 'month') {
       const monthNames = [
@@ -73,6 +78,7 @@ export default function PlaceAnalysisCard({ analysis, basePath = '/analyser' }: 
               src={heroImage}
               alt={analysis.title}
               fill
+              priority={priority}
               className="object-cover transition-transform duration-500 group-hover:scale-105"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />

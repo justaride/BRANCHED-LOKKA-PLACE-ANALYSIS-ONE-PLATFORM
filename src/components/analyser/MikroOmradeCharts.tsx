@@ -1,5 +1,4 @@
 'use client';
-
 import { useState, useEffect } from 'react';
 import {
   BarChart,
@@ -138,7 +137,7 @@ export default function MikroOmradeCharts({ basePath }: MikroOmradeChartsProps) 
                 ))}
               </Pie>
               <Tooltip
-                formatter={(value: number, name: string) => [`${value} konsepter`, name]}
+                formatter={(value, name) => [`${value} konsepter`, name]}
               />
               <Legend />
             </PieChart>
@@ -158,7 +157,7 @@ export default function MikroOmradeCharts({ basePath }: MikroOmradeChartsProps) 
               <XAxis type="number" />
               <YAxis dataKey="name" type="category" width={90} tick={{ fontSize: 12 }} />
               <Tooltip
-                formatter={(value: number) => [`${value} konsepter`, 'Antall']}
+                formatter={(value) => [`${value} konsepter`, 'Antall']}
               />
               <Bar dataKey="count" radius={[0, 4, 4, 0]}>
                 {barData.map((entry, index) => (

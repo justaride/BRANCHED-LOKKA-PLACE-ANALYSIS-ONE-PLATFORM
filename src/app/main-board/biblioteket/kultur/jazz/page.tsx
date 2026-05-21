@@ -56,6 +56,7 @@ export default function JazzPage() {
         <>
             {/* Hero Section */}
             <section className="relative overflow-hidden border-b border-gray-200 py-20 bg-gradient-to-br from-blue-900 via-indigo-800 to-sky-900 text-white">
+                <div className="absolute inset-0 bg-white/5" />
                 <Container className="relative z-10">
                     <motion.div
                         className="max-w-3xl"

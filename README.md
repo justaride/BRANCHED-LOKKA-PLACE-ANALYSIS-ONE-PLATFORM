@@ -2,10 +2,10 @@
 
 **Multi-tenant property analysis platform for Grünerløkka, Oslo**
 
-> A comprehensive place analysis platform serving property developers and the natural state research team with detailed demographic, market, and development data for 42 properties across Grünerløkka.
+> A comprehensive place analysis platform serving property developers and the Natural State research team with detailed demographic, market, and development data for 51 properties across Grünerløkka.
 
 [![Deployment](https://img.shields.io/badge/Deployed-Coolify-0f766e)](#-deployment)
-[![Framework](https://img.shields.io/badge/Next.js-16.0.8-black?logo=next.js)](https://nextjs.org)
+[![Framework](https://img.shields.io/badge/Next.js-16.2.6-black?logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript)](https://www.typescriptlang.org)
 [![License](https://img.shields.io/badge/License-Private-red)]()
 
@@ -49,10 +49,10 @@ This platform serves **10 separate tenants** under one codebase:
 
 ### Key Features
 
-✅ **Multi-Tenant Architecture** - One app, nine sites
-✅ **Separate Authentication** - Each tenant has own password
+✅ **Multi-Tenant Architecture** - One app, ten tenant surfaces
+✅ **Unified Authentication** - Email OTP/JWT session with shared platform access
 ✅ **Dynamic Routing** - Easy to add new companies
-✅ **42 Properties** - Complete place analysis data
+✅ **51 Properties** - Complete place analysis data
 ✅ **Professional Design** - Portfolio hero images & responsive UI
 ✅ **Type-Safe** - Full TypeScript coverage
 ✅ **Production Ready** - Live on Coolify (Hetzner) behind Cloudflare
@@ -79,17 +79,17 @@ This platform serves **10 separate tenants** under one codebase:
 | **Roger Vodal** | `/roger-vodal` | 3 | Brenneriveien |
 | **SiO** | `/sio` | 3 | Student housing |
 | **Eiendomsspar** | `/eiendomsspar` | 2 | Thorvald Meyers gate |
-| **Front Real Estate** | `/malling-co` | 1 | Single property |
+| **Front Real Estate** | `/front-real-estate` | 1 | Single property |
 | **Carucel** | `/carucel` | 1 | Olaf Ryes plass 4 (1-min analysis) |
 
-**Total: 44 properties with complete place analysis data**
+**Total: 51 properties with place analysis data**
 
 ---
 
 ## 🛠 Tech Stack
 
 ### Core
-- **[Next.js 16.0.8](https://nextjs.org)** - React framework with App Router (security patched)
+- **[Next.js 16.2.6](https://nextjs.org)** - React framework with App Router
 - **[React 19.2](https://react.dev)** - Latest React with Server Components
 - **[TypeScript](https://www.typescriptlang.org)** - Strict mode enabled
 - **[Tailwind CSS 4](https://tailwindcss.com)** - Utility-first styling
@@ -100,7 +100,7 @@ This platform serves **10 separate tenants** under one codebase:
 - ✅ Server Components for optimal performance
 - ✅ Static generation where possible
 - ✅ Image optimization with next/image
-- ✅ Route protection middleware
+- ✅ Route protection proxy
 - ✅ Type-safe data loading
 - ✅ Cookie-based authentication
 - ✅ Silent failure detection with prebuild verification
@@ -124,9 +124,10 @@ lokka-gardeierforening-platform/
 │   │   ├── login/                # Authentication
 │   │   ├── main-board/           # Natural State hub
 │   │   ├── aspelin-ramm/         # Company sites
-│   │   ├── brodrene-evensen/     # (8 total companies)
+│   │   ├── brodrene-evensen/     # Company sites
+│   │   ├── carucel/
 │   │   ├── eiendomsspar/
-│   │   ├── malling-co/
+│   │   ├── front-real-estate/
 │   │   ├── maya-eiendom/
 │   │   ├── roger-vodal/
 │   │   ├── sio/
@@ -138,8 +139,9 @@ lokka-gardeierforening-platform/
 │   ├── data/                    # Property JSON data
 │   │   ├── aspelin-ramm/
 │   │   ├── brodrene-evensen/
+│   │   ├── carucel/
 │   │   ├── eiendomsspar/
-│   │   ├── malling-co/
+│   │   ├── front-real-estate/
 │   │   ├── maya-eiendom/
 │   │   ├── roger-vodal/
 │   │   ├── sio/
@@ -157,7 +159,7 @@ lokka-gardeierforening-platform/
 │   └── images/                 # Images & screenshots
 │       ├── companies/          # Portfolio hero images
 │       └── areas/              # Area images
-├── middleware.ts               # Route protection
+├── proxy.ts                    # Route protection
 ├── jest.config.js              # Jest test configuration
 └── tailwind.config.ts         # Tailwind configuration
 ```
@@ -168,28 +170,21 @@ lokka-gardeierforening-platform/
 
 ### How It Works
 
-Each tenant has **separate authentication**:
-- Per-tenant cookie-based sessions
-- 7-day expiry
-- Password-protected routes
-- Cross-tenant navigation supported
+The platform uses **unified authentication**:
+- Email OTP flow with signed JWT session cookie
+- Single `lokka-session` cookie with 90-day expiry
+- Sliding refresh after 30 days
+- Authenticated users can access all tenant surfaces
 
-### Test Credentials
+### Local Development
 
+```bash
+DISABLE_TENANT_AUTH=true npm run dev
 ```
-Password (all tenants): test123
-```
 
-### Cookie Names
-- `auth-main-board`
-- `auth-aspelin-ramm`
-- `auth-brodrene-evensen`
-- `auth-eiendomsspar`
-- `auth-malling-co`
-- `auth-maya-eiendom`
-- `auth-roger-vodal`
-- `auth-sio`
-- `auth-spabo`
+### Cookie Name
+
+- `lokka-session`
 
 ---
 

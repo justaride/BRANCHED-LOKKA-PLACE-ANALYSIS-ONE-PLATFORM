@@ -1,5 +1,6 @@
 'use client';
 
+import { toRechartsNumber } from '@/lib/utils/recharts';
 import { useState, useEffect } from 'react';
 import {
   ResponsiveContainer,
@@ -144,7 +145,7 @@ export default function NedreLokkaBevegelseCharts({ basePath }: Props) {
             <YAxis
               stroke="#6b7280"
               style={{ fontSize: '12px' }}
-              tickFormatter={(value) => value.toLocaleString('nb-NO')}
+              tickFormatter={(value) => toRechartsNumber(value).toLocaleString('nb-NO')}
             />
             <Tooltip
               contentStyle={{
@@ -153,7 +154,7 @@ export default function NedreLokkaBevegelseCharts({ basePath }: Props) {
                 borderRadius: '8px',
                 padding: '12px'
               }}
-              formatter={(value: number) => value.toLocaleString('nb-NO')}
+              formatter={(value) => toRechartsNumber(value).toLocaleString('nb-NO')}
               labelStyle={{ fontWeight: 'bold', marginBottom: '8px' }}
             />
             <Legend
@@ -265,7 +266,7 @@ export default function NedreLokkaBevegelseCharts({ basePath }: Props) {
             <YAxis
               stroke="#6b7280"
               style={{ fontSize: '12px' }}
-              tickFormatter={(value) => value.toLocaleString('nb-NO')}
+              tickFormatter={(value) => toRechartsNumber(value).toLocaleString('nb-NO')}
             />
             <Tooltip
               contentStyle={{
@@ -274,7 +275,7 @@ export default function NedreLokkaBevegelseCharts({ basePath }: Props) {
                 borderRadius: '8px',
                 padding: '12px'
               }}
-              formatter={(value: number) => value.toLocaleString('nb-NO')}
+              formatter={(value) => toRechartsNumber(value).toLocaleString('nb-NO')}
               labelStyle={{ fontWeight: 'bold', marginBottom: '8px', textTransform: 'capitalize' }}
             />
             <Legend

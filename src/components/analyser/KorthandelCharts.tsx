@@ -16,6 +16,7 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import { safeNumber, createSafeFormatter } from '@/lib/utils/safe-data';
+import { DEFAULT_RESPONSIVE_CHART_DIMENSION, toRechartsNumber } from '@/lib/utils/recharts';
 
 interface KorthandelChartsProps {
   basePath: string;
@@ -51,6 +52,29 @@ interface IndeksertVekst {
   'Norway (Land)'?: number;
   'Valgte kategorier'?: number;
   [key: string]: string | number | undefined;
+}
+
+const safeValueFormatter = createSafeFormatter((v) => toRechartsNumber(v).toFixed(2), 'N/A');
+
+interface TooltipPayload {
+  name: string;
+  value: number;
+  color: string;
+}
+
+function CustomTooltip({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string | number }) {
+  if (!active || !payload || !payload.length) return null;
+
+  return (
+    <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
+      <p className="mb-1 text-xs font-medium text-gray-500">{label ?? 'Ukjent'}</p>
+      {payload.map((entry, index) => (
+        <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
+          {entry.name}: {safeValueFormatter(entry.value)}%
+        </p>
+      ))}
+    </div>
+  );
 }
 
 export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
@@ -169,29 +193,6 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
     { id: 3, label: 'Indeksert vekst' },
   ];
 
-  const safeValueFormatter = createSafeFormatter((v) => v.toFixed(2), 'N/A');
-
-  interface TooltipPayload {
-    name: string;
-    value: number;
-    color: string;
-  }
-
-  const CustomTooltip = ({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string | number }) => {
-    if (!active || !payload || !payload.length) return null;
-
-    return (
-      <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
-        <p className="mb-1 text-xs font-medium text-gray-500">{label ?? 'Ukjent'}</p>
-        {payload.map((entry, index) => (
-          <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
-            {entry.name}: {safeValueFormatter(entry.value)}%
-          </p>
-        ))}
-      </div>
-    );
-  };
-
   if (loading) {
     return (
       <div className="mb-12 rounded-xl bg-white p-6 shadow-sm md:mb-20">
@@ -256,7 +257,11 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
               Årlig vekst i korthandel
             </h3>
             <div className="h-80 md:h-96">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer
+                width="100%"
+                height="100%"
+                initialDimension={DEFAULT_RESPONSIVE_CHART_DIMENSION}
+              >
                 <LineChart data={vekstData} margin={{ top: 10, right: 30, left: 10, bottom: 40 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                   <XAxis
@@ -268,7 +273,7 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
                   />
                   <YAxis
                     tick={{ fontSize: 11, fill: '#6b7280' }}
-                    tickFormatter={(value) => `${value.toFixed(1)}%`}
+                    tickFormatter={(value) => `${toRechartsNumber(value).toFixed(1)}%`}
                     label={{
                       value: 'Vekst (%)',
                       angle: -90,
@@ -320,7 +325,11 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
               Korthandel i {yearKey} (månedlig)
             </h3>
             <div className="h-80 md:h-96">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer
+                width="100%"
+                height="100%"
+                initialDimension={DEFAULT_RESPONSIVE_CHART_DIMENSION}
+              >
                 <AreaChart data={monthlyData} margin={{ top: 10, right: 30, left: 10, bottom: 40 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                   <XAxis
@@ -332,7 +341,7 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
                   />
                   <YAxis
                     tick={{ fontSize: 11, fill: '#6b7280' }}
-                    tickFormatter={(value) => `${value.toFixed(0)} M`}
+                    tickFormatter={(value) => `${toRechartsNumber(value).toFixed(0)} M`}
                     label={{
                       value: 'NOK (millioner)',
                       angle: -90,
@@ -341,7 +350,7 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
                     }}
                   />
                   <Tooltip
-                    formatter={(value: number) => `NOK ${value.toFixed(2)} M`}
+                    formatter={(value) => `NOK ${toRechartsNumber(value).toFixed(2)} M`}
                     labelStyle={{ fontSize: '11px' }}
                   />
                   <Legend />
@@ -384,7 +393,11 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
               Korthandel fordelt på ukedag
             </h3>
             <div className="h-80 md:h-96">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer
+                width="100%"
+                height="100%"
+                initialDimension={DEFAULT_RESPONSIVE_CHART_DIMENSION}
+              >
                 <BarChart data={norwegianUkedagData} margin={{ top: 10, right: 30, left: 10, bottom: 40 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                   <XAxis
@@ -393,7 +406,7 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
                   />
                   <YAxis
                     tick={{ fontSize: 11, fill: '#6b7280' }}
-                    tickFormatter={(value) => `${value.toFixed(1)}%`}
+                    tickFormatter={(value) => `${toRechartsNumber(value).toFixed(1)}%`}
                     label={{
                       value: 'Andel (%)',
                       angle: -90,
@@ -402,7 +415,7 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
                     }}
                   />
                   <Tooltip
-                    formatter={(value: number) => `${value.toFixed(2)}%`}
+                    formatter={(value) => `${toRechartsNumber(value).toFixed(2)}%`}
                     labelStyle={{ fontSize: '11px' }}
                   />
                   <Bar dataKey="prosent" fill="#3b82f6" name="Andel av ukentlig omsetning" />
@@ -419,7 +432,11 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
             </h3>
             {indeksData.length > 0 && indeksData[0]['Valgte kategorier'] !== undefined ? (
               <div className="h-80 md:h-96">
-                <ResponsiveContainer width="100%" height="100%">
+                <ResponsiveContainer
+                  width="100%"
+                  height="100%"
+                  initialDimension={DEFAULT_RESPONSIVE_CHART_DIMENSION}
+                >
                   <LineChart data={indeksData} margin={{ top: 10, right: 30, left: 10, bottom: 40 }}>
                     <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                     <XAxis
@@ -441,7 +458,7 @@ export default function KorthandelCharts({ basePath }: KorthandelChartsProps) {
                       }}
                     />
                     <Tooltip
-                      formatter={(value: number) => `${value.toFixed(1)}`}
+                      formatter={(value) => `${toRechartsNumber(value).toFixed(1)}`}
                       labelStyle={{ fontSize: '11px' }}
                     />
                     <Legend />

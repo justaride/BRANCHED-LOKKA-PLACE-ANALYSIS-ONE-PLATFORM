@@ -1,5 +1,4 @@
 'use client';
-
 import { useState, useEffect } from 'react';
 import {
   ResponsiveContainer,
@@ -184,7 +183,7 @@ export default function NedreLokkaVirksomheterCharts({ basePath }: Props) {
                   borderRadius: '8px',
                   padding: '12px'
                 }}
-                formatter={(value: number, name: string) => [
+                formatter={(value, name) => [
                   `${value} virksomheter`,
                   name
                 ]}
@@ -290,7 +289,7 @@ export default function NedreLokkaVirksomheterCharts({ basePath }: Props) {
                 borderRadius: '8px',
                 padding: '12px'
               }}
-              formatter={(value: number) => [`${value}M NOK`, 'Omsetning']}
+              formatter={(value) => [`${value}M NOK`, 'Omsetning']}
               labelStyle={{ fontWeight: 'bold', marginBottom: '8px' }}
             />
             <Bar dataKey="omsetning" radius={[0, 8, 8, 0]}>
@@ -357,7 +356,7 @@ export default function NedreLokkaVirksomheterCharts({ basePath }: Props) {
                 borderRadius: '8px',
                 padding: '12px'
               }}
-              formatter={(value: number) => [`${value} virksomheter`, 'Antall']}
+              formatter={(value) => [`${value} virksomheter`, 'Antall']}
               labelStyle={{ fontWeight: 'bold', marginBottom: '8px' }}
             />
             <Bar dataKey="antall" fill="#3b82f6" radius={[8, 8, 0, 0]} />

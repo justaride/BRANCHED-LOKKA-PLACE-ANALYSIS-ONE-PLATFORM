@@ -24,6 +24,43 @@ interface AntallHusData {
   majorstuen: number;
 }
 
+interface TooltipPayload {
+  name: string;
+  value: number;
+  color: string;
+}
+
+function formatNumber(num: number) {
+  return num.toLocaleString("nb-NO");
+}
+
+function CustomTooltip({
+  active,
+  payload,
+  label,
+}: {
+  active?: boolean;
+  payload?: TooltipPayload[];
+  label?: string;
+}) {
+  if (!active || !payload || !payload.length) return null;
+
+  return (
+    <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
+      <p className="mb-1 text-xs font-medium text-gray-500">{label}</p>
+      {payload.map((entry, index) => (
+        <p
+          key={index}
+          className="text-sm font-semibold"
+          style={{ color: entry.color }}
+        >
+          {entry.name}: {formatNumber(Math.round(entry.value))}
+        </p>
+      ))}
+    </div>
+  );
+}
+
 export default function BesokendeComparisonCharts({
   basePath,
 }: BesokendeComparisonChartsProps) {
@@ -50,43 +87,6 @@ export default function BesokendeComparisonCharts({
 
     loadData();
   }, [basePath]);
-
-  const formatNumber = (num: number) => {
-    return num.toLocaleString("nb-NO");
-  };
-
-  interface TooltipPayload {
-    name: string;
-    value: number;
-    color: string;
-  }
-
-  const CustomTooltip = ({
-    active,
-    payload,
-    label,
-  }: {
-    active?: boolean;
-    payload?: TooltipPayload[];
-    label?: string;
-  }) => {
-    if (!active || !payload || !payload.length) return null;
-
-    return (
-      <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
-        <p className="mb-1 text-xs font-medium text-gray-500">{label}</p>
-        {payload.map((entry, index) => (
-          <p
-            key={index}
-            className="text-sm font-semibold"
-            style={{ color: entry.color }}
-          >
-            {entry.name}: {formatNumber(Math.round(entry.value))}
-          </p>
-        ))}
-      </div>
-    );
-  };
 
   if (loading) {
     return (

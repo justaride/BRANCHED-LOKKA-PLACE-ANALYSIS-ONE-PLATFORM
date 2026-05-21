@@ -54,6 +54,50 @@ interface MedianinntektData {
   majorstuen: number;
 }
 
+interface TooltipPayload {
+  name: string;
+  value: number;
+  color: string;
+}
+
+function formatNumber(num: number) {
+  return num.toLocaleString('nb-NO');
+}
+
+function formatCurrency(num: number) {
+  return `kr ${Math.round(num).toLocaleString('nb-NO')}`;
+}
+
+function CustomTooltip({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string }) {
+  if (!active || !payload || !payload.length) return null;
+
+  return (
+    <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
+      <p className="mb-1 text-xs font-medium text-gray-500">{label}</p>
+      {payload.map((entry, index) => (
+        <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
+          {entry.name}: {formatNumber(entry.value)}
+        </p>
+      ))}
+    </div>
+  );
+}
+
+function CurrencyTooltip({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string }) {
+  if (!active || !payload || !payload.length) return null;
+
+  return (
+    <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
+      <p className="mb-1 text-xs font-medium text-gray-500">{label}</p>
+      {payload.map((entry, index) => (
+        <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
+          {entry.name}: {formatCurrency(entry.value)}
+        </p>
+      ))}
+    </div>
+  );
+}
+
 export default function DemografiComparisonCharts({
   basePath,
 }: DemografiComparisonChartsProps) {
@@ -99,50 +143,6 @@ export default function DemografiComparisonCharts({
     { id: 2, label: 'Inntektsfordeling' },
     { id: 3, label: 'Medianinntekt' },
   ];
-
-  const formatNumber = (num: number) => {
-    return num.toLocaleString('nb-NO');
-  };
-
-  const formatCurrency = (num: number) => {
-    return `kr ${Math.round(num).toLocaleString('nb-NO')}`;
-  };
-
-  interface TooltipPayload {
-    name: string;
-    value: number;
-    color: string;
-  }
-
-  const CustomTooltip = ({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string }) => {
-    if (!active || !payload || !payload.length) return null;
-
-    return (
-      <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
-        <p className="mb-1 text-xs font-medium text-gray-500">{label}</p>
-        {payload.map((entry, index) => (
-          <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
-            {entry.name}: {formatNumber(entry.value)}
-          </p>
-        ))}
-      </div>
-    );
-  };
-
-  const CurrencyTooltip = ({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string }) => {
-    if (!active || !payload || !payload.length) return null;
-
-    return (
-      <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
-        <p className="mb-1 text-xs font-medium text-gray-500">{label}</p>
-        {payload.map((entry, index) => (
-          <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
-            {entry.name}: {formatCurrency(entry.value)}
-          </p>
-        ))}
-      </div>
-    );
-  };
 
   if (loading) {
     return (

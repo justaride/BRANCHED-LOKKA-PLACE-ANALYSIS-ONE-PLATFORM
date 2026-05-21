@@ -1,5 +1,6 @@
 'use client';
 
+import { toRechartsNumber } from '@/lib/utils/recharts';
 import { useState, useEffect } from 'react';
 import {
   ResponsiveContainer,
@@ -125,7 +126,7 @@ export default function NedreLokkaDemografiCharts({ basePath }: Props) {
             <XAxis
               type="number"
               domain={[-400, 400]}
-              tickFormatter={(value) => Math.abs(value).toString()}
+              tickFormatter={(value) => Math.abs(toRechartsNumber(value)).toString()}
               stroke="#6b7280"
               style={{ fontSize: '12px' }}
             />
@@ -143,8 +144,8 @@ export default function NedreLokkaDemografiCharts({ basePath }: Props) {
                 borderRadius: '8px',
                 padding: '12px'
               }}
-              formatter={(value: number, name: string) => [
-                Math.abs(value).toLocaleString('nb-NO'),
+              formatter={(value, name) => [
+                Math.abs(toRechartsNumber(value)).toLocaleString('nb-NO'),
                 name === 'mann' ? 'Menn' : 'Kvinner'
               ]}
               labelStyle={{ fontWeight: 'bold', marginBottom: '8px' }}
@@ -233,7 +234,7 @@ export default function NedreLokkaDemografiCharts({ basePath }: Props) {
             <YAxis
               stroke="#6b7280"
               style={{ fontSize: '12px' }}
-              tickFormatter={(value) => value.toLocaleString('nb-NO')}
+              tickFormatter={(value) => toRechartsNumber(value).toLocaleString('nb-NO')}
             />
             <Tooltip
               contentStyle={{
@@ -242,7 +243,7 @@ export default function NedreLokkaDemografiCharts({ basePath }: Props) {
                 borderRadius: '8px',
                 padding: '12px'
               }}
-              formatter={(value: number) => value.toLocaleString('nb-NO')}
+              formatter={(value) => toRechartsNumber(value).toLocaleString('nb-NO')}
               labelStyle={{ fontWeight: 'bold', marginBottom: '8px' }}
             />
             <Bar dataKey="total" radius={[8, 8, 0, 0]}>

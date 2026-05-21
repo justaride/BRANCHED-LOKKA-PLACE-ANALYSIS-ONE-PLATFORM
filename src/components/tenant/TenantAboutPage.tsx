@@ -8,7 +8,7 @@ interface TenantAboutPageProps {
   content: TenantAboutContent;
 }
 
-export default function TenantAboutPage({ tenant, content }: TenantAboutPageProps) {
+export default function TenantAboutPage({ content }: TenantAboutPageProps) {
   const feedbackUrl =
     content.feedbackUrl ||
     process.env.NEXT_PUBLIC_GOOGLE_FORM_URL ||

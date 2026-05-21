@@ -17,6 +17,7 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import { safeNumber, createSafeFormatter } from '@/lib/utils/safe-data';
+import { DEFAULT_RESPONSIVE_CHART_DIMENSION, toRechartsNumber } from '@/lib/utils/recharts';
 
 interface KonkurransebildeChartsProps {
   basePath: string;
@@ -45,6 +46,29 @@ interface UtviklingPerAr {
   'Mat og opplevelser': number;
   Handel: number;
   Tjenester: number;
+}
+
+const safeValueFormatter = createSafeFormatter((v) => toRechartsNumber(v).toFixed(1), 'N/A');
+
+interface TooltipPayload {
+  name: string;
+  value: number;
+  color: string;
+}
+
+function CustomTooltip({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string | number }) {
+  if (!active || !payload || !payload.length) return null;
+
+  return (
+    <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
+      <p className="mb-1 text-xs font-medium text-gray-500">{label ?? 'Ukjent'}</p>
+      {payload.map((entry, index) => (
+        <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
+          {entry.name}: {safeValueFormatter(entry.value)}%
+        </p>
+      ))}
+    </div>
+  );
 }
 
 export default function KonkurransebildeCharts({
@@ -92,29 +116,6 @@ export default function KonkurransebildeCharts({
     { id: 2, label: 'Over/underandel' },
     { id: 3, label: 'Utvikling per år' },
   ];
-
-  const safeValueFormatter = createSafeFormatter((v) => v.toFixed(1), 'N/A');
-
-  interface TooltipPayload {
-    name: string;
-    value: number;
-    color: string;
-  }
-
-  const CustomTooltip = ({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string | number }) => {
-    if (!active || !payload || !payload.length) return null;
-
-    return (
-      <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
-        <p className="mb-1 text-xs font-medium text-gray-500">{label ?? 'Ukjent'}</p>
-        {payload.map((entry, index) => (
-          <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
-            {entry.name}: {safeValueFormatter(entry.value)}%
-          </p>
-        ))}
-      </div>
-    );
-  };
 
   if (loading) {
     return (
@@ -202,7 +203,11 @@ export default function KonkurransebildeCharts({
               Kjeder vs. Uavhengige{kjederData.length > 0 && ` (${kjederData[0].Category}-${kjederData[kjederData.length - 1].Category})`}
             </h3>
             <div className="h-80 md:h-96">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer
+                width="100%"
+                height="100%"
+                initialDimension={DEFAULT_RESPONSIVE_CHART_DIMENSION}
+              >
                 <AreaChart data={kjederData} margin={{ top: 10, right: 30, left: 10, bottom: 40 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                   <XAxis
@@ -214,7 +219,7 @@ export default function KonkurransebildeCharts({
                   />
                   <YAxis
                     tick={{ fontSize: 11, fill: '#6b7280' }}
-                    tickFormatter={(value) => `${value.toFixed(0)}%`}
+                    tickFormatter={(value) => `${toRechartsNumber(value).toFixed(0)}%`}
                     label={{
                       value: 'Andel (%)',
                       angle: -90,
@@ -254,7 +259,11 @@ export default function KonkurransebildeCharts({
               Konseptmiks etter kategori
             </h3>
             <div className="h-80 md:h-96">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer
+                width="100%"
+                height="100%"
+                initialDimension={DEFAULT_RESPONSIVE_CHART_DIMENSION}
+              >
                 <BarChart data={konseptChartData} margin={{ top: 10, right: 30, left: 10, bottom: 40 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                   <XAxis
@@ -305,7 +314,11 @@ export default function KonkurransebildeCharts({
                 Over-/underandel vs. kommune
               </h3>
               <div className="h-80 md:h-96">
-                <ResponsiveContainer width="100%" height="100%">
+                <ResponsiveContainer
+                  width="100%"
+                  height="100%"
+                  initialDimension={DEFAULT_RESPONSIVE_CHART_DIMENSION}
+                >
                   <BarChart
                     data={overUnderChartData}
                     layout="vertical"
@@ -315,7 +328,7 @@ export default function KonkurransebildeCharts({
                     <XAxis
                       type="number"
                       tick={{ fontSize: 11, fill: '#6b7280' }}
-                      tickFormatter={(value) => `${value.toFixed(1)}%`}
+                      tickFormatter={(value) => `${toRechartsNumber(value).toFixed(1)}%`}
                     />
                     <YAxis
                       type="category"
@@ -324,7 +337,7 @@ export default function KonkurransebildeCharts({
                       width={140}
                     />
                     <Tooltip
-                      formatter={(value: number) => `${value.toFixed(1)}%`}
+                      formatter={(value) => `${toRechartsNumber(value).toFixed(1)}%`}
                       labelStyle={{ fontSize: '11px' }}
                     />
                     <Bar dataKey="value" name="Over-/underandel">
@@ -345,7 +358,11 @@ export default function KonkurransebildeCharts({
               Utvikling per år
             </h3>
             <div className="h-80 md:h-96">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer
+                width="100%"
+                height="100%"
+                initialDimension={DEFAULT_RESPONSIVE_CHART_DIMENSION}
+              >
                 <LineChart data={utviklingData} margin={{ top: 10, right: 30, left: 10, bottom: 40 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                   <XAxis
@@ -357,7 +374,7 @@ export default function KonkurransebildeCharts({
                   />
                   <YAxis
                     tick={{ fontSize: 11, fill: '#6b7280' }}
-                    tickFormatter={(value) => value.toLocaleString('nb-NO')}
+                    tickFormatter={(value) => toRechartsNumber(value).toLocaleString('nb-NO')}
                     label={{
                       value: 'Antall',
                       angle: -90,
@@ -366,7 +383,7 @@ export default function KonkurransebildeCharts({
                     }}
                   />
                   <Tooltip
-                    formatter={(value: number) => value.toLocaleString('nb-NO')}
+                    formatter={(value) => toRechartsNumber(value).toLocaleString('nb-NO')}
                     labelStyle={{ fontSize: '11px' }}
                   />
                   <Legend />

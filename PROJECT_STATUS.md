@@ -1,13 +1,19 @@
 # Løkka Gardeierforening Platform - Project Status
 
-**Last Updated:** March 29, 2026 - Interaktivt aktørkart + Omsetning enhetsfiks
-**Current Status:** 🚀 **PRODUCTION READY** (99% Complete)
+**Last Updated:** May 21, 2026 - Full audit, route crawl, and build gate hardening
+**Current Status:** 🚀 **PRODUCTION READY** (99% Complete, local worktree has uncommitted audit changes)
 **Deployment:** Stoppet - lokal utvikling
 **URL:** Cloudflare domain -> Coolify app
-**Build Status:** ✅ 122 static pages, ESLint 0 issues, Data Audit 0 CRITICAL
-**Test Status:** ✅ Jest configured with 70% coverage threshold
+**Build Status:** ✅ 159 generated static pages, route crawl 156/156 OK, ESLint 0 issues, Data Audit 0 CRITICAL
+**Test Status:** ✅ 49 Jest tests passing, 10 suites
 **Latest Updates:**
 
+- **May 21, 2026: Full Project Audit + Route Fix** - ✅ **COMPLETE** - Verified project health across build, tests, data, and browser/runtime surfaces:
+  - **Verification:** `npm run verify`, `npm run type-check`, `npm run lint`, `npm run test -- --runInBand`, `npm run build`
+  - **Route crawl:** 156 prerendered user-facing routes checked on local dev server with auth bypass, all returned 200 after fix
+  - **Runtime fix:** Removed stale `src/app/main-board/biblioteket/ildsjeler/[id]/page.tsx` stub that forced all ildsjel detail pages to 404
+  - **Build gate fix:** Moved `.next` cache cleanup into `prebuild` so stale generated types cannot break `type-check` before `next build`
+  - **Known residual:** `npm audit --omit=dev` reports a moderate Next/PostCSS advisory until upstream Next resolves nested PostCSS dependency; do not run `npm audit fix --force`
 - **March 29, 2026: Interaktivt Aktørkart** - ✅ **COMPLETE** - Leaflet-basert interaktivt kart med 329 av 350 aktører plassert på Grünerløkka:
   - **Ny avhengighet:** `leaflet`, `react-leaflet`, `@types/leaflet`
   - **Geocoding:** 267 unike adresser geocodet via Nominatim (OSM) + 11 Olaf Ryes Plass manuelt
@@ -28,7 +34,7 @@
 - **February 25, 2026: Email OTP Authentication** - ✅ **COMPLETE** - Migrated from shared passwords to email OTP with signed JWT cookies:
   - **New auth flow:** Email → 6-digit OTP code → JWT session (90 days)
   - **New files:** `src/lib/auth.ts` (JWT+OTP), `src/lib/email.ts` (Resend), `src/lib/tenant-emails.ts` (allowlists)
-  - **Modified:** middleware.ts (JWT validation, cache headers), login/page.tsx (two-step OTP UI), api/auth/route.ts (3 actions)
+  - **Modified:** middleware.ts at migration time; route protection now lives in `src/proxy.ts` for Next 16, plus login/page.tsx and api/auth/route.ts
   - **Security:** Signed JWT cookies, SHA-256 hashed OTP codes, rate limiting, cache-control headers
   - **Backward compatible:** Old password login + "authenticated" cookies still work during migration
   - **Dependencies added:** `jose` (JWT), `resend` (email)
@@ -596,14 +602,14 @@ Successfully replaced static screenshots with interactive, JSON-based visualizat
 - ✅ Recharts integration with Norwegian formatting
 - ✅ Tab-based navigation (12 tabs total)
 - ✅ Responsive design (mobile/tablet/desktop)
-- ✅ Middleware fixed for `/data` path access
+- ✅ Route protection fixed for `/data` path access
 - ✅ Client-side async data loading
 - ✅ Error handling and loading states
 - ✅ Natural-forest color palette maintained
 
 **Files Modified:**
 
-- `/src/middleware.ts` - Added `/data` to public routes
+- `/src/proxy.ts` - Public `/data` route allowance is now handled here
 - `/src/app/main-board/analyser/2024-arsrapport/page.tsx` - Integrated components
 - `/src/data/main-board/analyser/2024-arsrapport.json` - Updated metadata
 
@@ -810,7 +816,7 @@ All 8 company home pages now feature professional portfolio hero images:
 - ✅ Brødrene Evensen: `brodrene-evensen.webp` (3 properties)
 - ✅ Roger Vodal: `roger-vodal.jpg` (3 properties)
 - ✅ Eiendomsspar: `eiendomsspar.jpg` (2 properties)
-- ✅ Malling & Co: `malling-co.jpg` (1 property)
+- ✅ Front Real Estate: `malling-co.jpg` (1 property)
 - ✅ SIO: `sio.jpg` (3 student housing properties)
 
 **Features:**
@@ -925,7 +931,7 @@ Authentication:
 - **Status:** ✅ Complete with hero image
 - **Special:** Uses "begge eiendommene" text
 
-#### ✅ Front Real Estate (`/malling-co`)
+#### ✅ Front Real Estate (`/front-real-estate`)
 
 - **Properties:** 1 (Markveien 35)
 - **Status:** ✅ Complete with hero image + 1-min analysis
@@ -998,7 +1004,7 @@ Authentication:
 | `src/lib/tenant-emails.ts` | Per-tenant email allowlists from env vars |
 | `src/app/api/auth/route.ts` | 3 actions: request-otp, verify-otp, password |
 | `src/app/login/page.tsx` | Two-step OTP UI (email → code) |
-| `src/middleware.ts` | JWT validation, sliding refresh, cache headers |
+| `src/proxy.ts` | JWT validation, sliding refresh, cache headers |
 
 **Required Env Vars (Coolify):**
 
@@ -1356,7 +1362,7 @@ src/
 │   ├── aspelin-ramm/               ✅ Complete + Hero Image
 │   ├── brodrene-evensen/           ✅ Complete + Hero Image
 │   ├── eiendomsspar/               ✅ Complete + Hero Image
-│   ├── malling-co/                 ✅ Complete + Hero Image
+│   ├── front-real-estate/          ✅ Complete + Hero Image
 │   ├── maya-eiendom/               ✅ Complete + Hero Image
 │   ├── roger-vodal/                ✅ Complete + Hero Image
 │   ├── sio/                        ✅ Complete + Hero Image
@@ -1365,7 +1371,7 @@ src/
 │   ├── layout/                     ✅ Header, Footer, Navigation
 │   ├── property/                   ✅ Property components
 │   └── ui/                         ✅ UI components
-├── data/                           ✅ All 42 properties
+├── data/                           ✅ All 51 properties
 ├── lib/
 │   ├── loaders/                    ✅ All 8 loaders (with sanitization)
 │   └── utils/                      ✅ Utility modules

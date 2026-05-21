@@ -28,7 +28,7 @@ This file lists what is functioning correctly based on executed checks and direc
 5. Tenant configuration registry is complete and internally consistent.
    - Evidence:
      - `src/config/tenants.ts` declares 10 active tenants.
-     - Middleware tenant validation uses the same config source (`src/middleware.ts` with `isValidTenant`).
+     - Proxy tenant validation uses the same config source (`src/proxy.ts` with `isValidTenant`).
 
 ## Verified but Needs Follow-up
 

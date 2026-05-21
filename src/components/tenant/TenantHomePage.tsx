@@ -74,6 +74,7 @@ export default function TenantHomePage({ tenant, content }: TenantHomePageProps)
             src={content.heroImage}
             alt={content.heroImageAlt}
             fill
+            sizes="100vw"
             className="object-cover"
             priority
           />

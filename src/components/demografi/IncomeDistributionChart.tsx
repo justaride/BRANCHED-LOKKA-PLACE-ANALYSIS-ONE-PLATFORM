@@ -1,5 +1,6 @@
 'use client';
 
+import { toRechartsNumber } from '@/lib/utils/recharts';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { IncomeDistributionYear } from '@/types/demografi';
 import { useState } from 'react';
@@ -90,7 +91,7 @@ export function IncomeDistributionChart({ data }: IncomeDistributionChartProps) 
           <YAxis
             stroke="#6b7280"
             style={{ fontSize: '14px' }}
-            tickFormatter={(value) => value.toLocaleString('nb-NO')}
+            tickFormatter={(value) => toRechartsNumber(value).toLocaleString('nb-NO')}
           />
           <Tooltip
             contentStyle={{
@@ -99,7 +100,7 @@ export function IncomeDistributionChart({ data }: IncomeDistributionChartProps) 
               borderRadius: '8px',
               padding: '12px'
             }}
-            formatter={(value: number) => [value.toLocaleString('nb-NO') + ' personer', '']}
+            formatter={(value) => [toRechartsNumber(value).toLocaleString('nb-NO') + ' personer', '']}
           />
           <Legend wrapperStyle={{ paddingTop: '10px' }} />
           <Bar dataKey={selectedYear.toString()} fill={colors[0]} name={`${selectedYear}`} />

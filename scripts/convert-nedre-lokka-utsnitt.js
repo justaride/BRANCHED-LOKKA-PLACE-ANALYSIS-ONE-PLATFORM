@@ -4,7 +4,7 @@ const path = require('path');
 const SRC = '/Users/gabrielboen/Downloads/nedre løkka utsnitt -30.3.26';
 const DEST = path.join(__dirname, '..', 'src/data/main-board/nedre-lokka-utsnitt');
 
-function readCsv(filename, delimiter = ',') {
+function readCsv(filename) {
   const raw = fs.readFileSync(path.join(SRC, filename), 'utf8').replace(/^\uFEFF/, '');
   return raw;
 }
@@ -383,7 +383,6 @@ function convertKorthandel() {
   // Indeksert vekst - aggregate to annual
   const indeksRaw = readCsv('Indeksert vekst (indeks = 100).csv');
   const indeksLines = indeksRaw.trim().split('\n');
-  const indeksHeaders = parseRow(indeksLines[0]);
   const yearlyData = {};
   for (let i = 1; i < indeksLines.length; i++) {
     const vals = parseRow(indeksLines[i]);

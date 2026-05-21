@@ -1,5 +1,6 @@
 'use client';
 
+import { toRechartsNumber } from '@/lib/utils/recharts';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
 import { HouseholdTypeYear } from '@/types/demografi';
 import { useState } from 'react';
@@ -104,7 +105,7 @@ export function HouseholdCompositionChart({ data }: HouseholdCompositionChartPro
                 ))}
               </Pie>
               <Tooltip
-                formatter={(value: number) => [value.toLocaleString('nb-NO') + ' husholdninger', '']}
+                formatter={(value) => [toRechartsNumber(value).toLocaleString('nb-NO') + ' husholdninger', '']}
                 contentStyle={{
                   backgroundColor: 'white',
                   border: '1px solid #e5e7eb',
@@ -138,9 +139,9 @@ export function HouseholdCompositionChart({ data }: HouseholdCompositionChartPro
           <BarChart data={trendData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
             <XAxis dataKey="year" stroke="#6b7280" />
-            <YAxis stroke="#6b7280" tickFormatter={(value) => value.toLocaleString('nb-NO')} />
+            <YAxis stroke="#6b7280" tickFormatter={(value) => toRechartsNumber(value).toLocaleString('nb-NO')} />
             <Tooltip
-              formatter={(value: number) => [value.toLocaleString('nb-NO'), '']}
+              formatter={(value) => [toRechartsNumber(value).toLocaleString('nb-NO'), '']}
               contentStyle={{
                 backgroundColor: 'white',
                 border: '1px solid #e5e7eb',

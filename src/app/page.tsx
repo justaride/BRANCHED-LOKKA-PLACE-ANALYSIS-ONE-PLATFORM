@@ -49,6 +49,7 @@ export default function LandingPage() {
                 src="/images/areas/grunerlokka-banner.webp"
                 alt="Grünerløkka Områdeanalyse"
                 fill
+                priority
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, 1200px"
               />

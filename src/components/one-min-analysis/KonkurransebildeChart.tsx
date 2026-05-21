@@ -1,5 +1,6 @@
 'use client';
 
+import { toRechartsNumber } from '@/lib/utils/recharts';
 import {
   BarChart,
   Bar,
@@ -126,7 +127,7 @@ export default function KonkurransebildeChart({ data }: KonkurransebildeChartPro
                 border: '1px solid #e5e7eb',
                 borderRadius: '8px',
               }}
-              formatter={(value: number) => `${value.toFixed(1)}%`}
+              formatter={(value) => `${toRechartsNumber(value).toFixed(1)}%`}
             />
             <Legend />
             <Line

@@ -14,6 +14,7 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import { safeNumber } from '@/lib/utils/safe-data';
+import { DEFAULT_RESPONSIVE_CHART_DIMENSION, toRechartsNumber } from '@/lib/utils/recharts';
 import { aggregateToHalfYear } from '@/lib/utils/report-period';
 import DataMethodology from './DataMethodology';
 import InfoTooltip from '@/components/ui/InfoTooltip';
@@ -42,6 +43,32 @@ interface OmraderBesokende {
   Område: string;
   'Antall besøk': number;
   'Antall besøk(%)': number;
+}
+
+interface TooltipPayload {
+  name: string;
+  value: number;
+  color: string;
+}
+
+function formatNumber(num: unknown) {
+  const value = safeNumber(num, 0);
+  return toRechartsNumber(value).toLocaleString('nb-NO');
+}
+
+function CustomTooltip({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string }) {
+  if (!active || !payload || !payload.length) return null;
+
+  return (
+    <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
+      <p className="mb-1 text-xs font-medium text-gray-500">{label ?? 'Ukjent'}</p>
+      {payload.map((entry, index) => (
+        <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
+          {entry.name}: {formatNumber(entry.value)}
+        </p>
+      ))}
+    </div>
+  );
 }
 
 export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
@@ -153,6 +180,16 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
     );
   }, [bevegelseLineData]);
 
+  const bevegelsePeriodData = useMemo(() => {
+    if (periodView === 'quarterly') return bevegelseLineData;
+    return halfYearData.map(d => ({
+      quarter: String(d.period),
+      Besøkende: safeNumber(d.Besøkende, 0),
+      'På jobb': safeNumber(d['På jobb'], 0),
+      Hjemme: safeNumber(d.Hjemme, 0),
+    }));
+  }, [bevegelseLineData, halfYearData, periodView]);
+
   // Top 20 areas with null-safe sorting
   const top20Areas = useMemo(() => {
     return omraderData
@@ -167,32 +204,6 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
     { id: 2, label: 'Bevegelsesmønster' },
     { id: 3, label: 'Områder' },
   ];
-
-  const formatNumber = (num: unknown) => {
-    const value = safeNumber(num, 0);
-    return value.toLocaleString('nb-NO');
-  };
-
-  interface TooltipPayload {
-    name: string;
-    value: number;
-    color: string;
-  }
-
-  const CustomTooltip = ({ active, payload, label }: { active?: boolean; payload?: TooltipPayload[]; label?: string }) => {
-    if (!active || !payload || !payload.length) return null;
-
-    return (
-      <div className="rounded-lg border border-gray-200 bg-white p-3 shadow-lg">
-        <p className="mb-1 text-xs font-medium text-gray-500">{label ?? 'Ukjent'}</p>
-        {payload.map((entry, index) => (
-          <p key={index} className="text-sm font-semibold" style={{ color: entry.color }}>
-            {entry.name}: {formatNumber(entry.value)}
-          </p>
-        ))}
-      </div>
-    );
-  };
 
   if (loading) {
     return (
@@ -259,7 +270,11 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
               <InfoTooltip text={METRIC_TOOLTIPS.besokPerTime} />
             </h3>
             <div className="h-80 md:h-96">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer
+                width="100%"
+                height="100%"
+                initialDimension={DEFAULT_RESPONSIVE_CHART_DIMENSION}
+              >
                 <LineChart data={timeChartData} margin={{ top: 10, right: 30, left: 10, bottom: 40 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                   <XAxis
@@ -271,7 +286,7 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
                   />
                   <YAxis
                     tick={{ fontSize: 11, fill: '#6b7280' }}
-                    tickFormatter={(value) => formatNumber(value)}
+                    tickFormatter={(value) => formatNumber(toRechartsNumber(value))}
                     label={{
                       value: 'Antall',
                       angle: -90,
@@ -318,7 +333,11 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
               <InfoTooltip text={METRIC_TOOLTIPS.besokPerUkedag} />
             </h3>
             <div className="h-80 md:h-96">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer
+                width="100%"
+                height="100%"
+                initialDimension={DEFAULT_RESPONSIVE_CHART_DIMENSION}
+              >
                 <BarChart data={ukedagChartData} margin={{ top: 10, right: 30, left: 10, bottom: 40 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                   <XAxis
@@ -327,7 +346,7 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
                   />
                   <YAxis
                     tick={{ fontSize: 11, fill: '#6b7280' }}
-                    tickFormatter={(value) => formatNumber(value)}
+                    tickFormatter={(value) => formatNumber(toRechartsNumber(value))}
                     label={{
                       value: 'Antall',
                       angle: -90,
@@ -377,14 +396,18 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
               </div>
             </div>
             <div className="h-80 md:h-96">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer
+                width="100%"
+                height="100%"
+                initialDimension={DEFAULT_RESPONSIVE_CHART_DIMENSION}
+              >
                 <LineChart
-                  data={periodView === 'quarterly' ? bevegelseLineData : halfYearData}
+                  data={bevegelsePeriodData}
                   margin={{ top: 10, right: 30, left: 10, bottom: 60 }}
                 >
                   <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                   <XAxis
-                    dataKey={periodView === 'quarterly' ? 'quarter' : 'period'}
+                    dataKey="quarter"
                     tick={{ fontSize: 10, fill: '#6b7280' }}
                     angle={-45}
                     textAnchor="end"
@@ -392,7 +415,7 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
                   />
                   <YAxis
                     tick={{ fontSize: 11, fill: '#6b7280' }}
-                    tickFormatter={(value) => formatNumber(value)}
+                    tickFormatter={(value) => formatNumber(toRechartsNumber(value))}
                     label={{
                       value: 'Antall',
                       angle: -90,
@@ -439,7 +462,11 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
               <InfoTooltip text={METRIC_TOOLTIPS.omraderBesokende} />
             </h3>
             <div className="h-80 md:h-96">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer
+                width="100%"
+                height="100%"
+                initialDimension={DEFAULT_RESPONSIVE_CHART_DIMENSION}
+              >
                 <BarChart
                   data={top20Areas}
                   layout="vertical"
@@ -449,7 +476,7 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
                   <XAxis
                     type="number"
                     tick={{ fontSize: 11, fill: '#6b7280' }}
-                    tickFormatter={(value) => formatNumber(value)}
+                    tickFormatter={(value) => formatNumber(toRechartsNumber(value))}
                   />
                   <YAxis
                     type="category"
@@ -458,7 +485,7 @@ export default function BevegelseCharts({ basePath }: BevegelseChartsProps) {
                     width={110}
                   />
                   <Tooltip
-                    formatter={(value: number) => formatNumber(value)}
+                    formatter={(value) => formatNumber(toRechartsNumber(value))}
                     labelStyle={{ fontSize: '11px' }}
                     content={({ active, payload }) => {
                       if (!active || !payload || !payload.length) return null;

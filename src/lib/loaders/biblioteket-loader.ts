@@ -21,13 +21,6 @@ import type {
     KulturMasterData,
     BibliotekCategory,
     MediebildetData,
-    MediaItem,
-    AvisItem,
-    TvFilmItem,
-    PodcastItem,
-    DigitalItem,
-    AkademiskItem,
-    MediaCategoryData,
     SourceItem,
     ClaimEvidence,
     ResearchMetadata,
@@ -53,20 +46,48 @@ import teaterData from '@/data/biblioteket/kultur/teater.json';
 import billedkunstData from '@/data/biblioteket/kultur/billedkunst.json';
 import arkitekturData from '@/data/biblioteket/kultur/arkitektur.json';
 import designKreativData from '@/data/biblioteket/kultur/design-kreativ.json';
-import idrettData from '@/data/biblioteket/idrett/idrett.json';
 import ildsjelerVerificationData from '@/data/biblioteket/ildsjeler/verification.json';
 import mediebildetData from '@/data/biblioteket/mediebildet/mediebildet.json';
-import avisData from '@/data/biblioteket/mediebildet/avis.json';
-import tvFilmData from '@/data/biblioteket/mediebildet/tv-film.json';
-import podcastData from '@/data/biblioteket/mediebildet/podcast.json';
-import digitalData from '@/data/biblioteket/mediebildet/digital.json';
-import akademiskData from '@/data/biblioteket/mediebildet/akademisk.json';
 import {
     buildVerificationDataset,
     mergeVerificationDatasets,
     summarizeVerificationDataset,
     summarizeVerificationOverview,
 } from '@/lib/verifisering/biblioteket';
+import { getIdrettData, getIdrettTimeline } from '@/lib/loaders/biblioteket/idrett';
+import { getTotalMediaItems } from '@/lib/loaders/biblioteket/mediebildet';
+export {
+    getIdrettClubs,
+    getIdrettData,
+    getIdrettPioneers,
+    getIdrettSections,
+    getIdrettTimeline,
+    getIdrettVenues,
+    type IdrettClub,
+    type IdrettData,
+    type IdrettPioneer,
+    type IdrettSection,
+    type IdrettTimelineEvent,
+    type IdrettVenue,
+} from '@/lib/loaders/biblioteket/idrett';
+export {
+    getAkademiskData,
+    getAkademiskItems,
+    getAllMediaItems,
+    getAvisData,
+    getAvisItems,
+    getDigitalData,
+    getDigitalItems,
+    getMediaByTheme,
+    getMediaItemCount,
+    getMediaThemes,
+    getMediebildetData,
+    getPodcastData,
+    getPodcastItems,
+    getTotalMediaItems,
+    getTvFilmData,
+    getTvFilmItems,
+} from '@/lib/loaders/biblioteket/mediebildet';
 
 // ============================================================================
 // ILDSJELER (Local Heroes)
@@ -953,196 +974,6 @@ export function getIndustryStats(): IndustryStats {
 }
 
 // ============================================================================
-// IDRETT (Sports)
-// ============================================================================
-
-export interface IdrettData {
-    id: string;
-    title: string;
-    subtitle: string;
-    description: string;
-    heroImage: string;
-    sections: IdrettSection[];
-    timeline: IdrettTimelineEvent[];
-    clubs: IdrettClub[];
-    pioneers: IdrettPioneer[];
-    venues: IdrettVenue[];
-    sources: SourceItem[];
-    claims?: ClaimEvidence[];
-    researchMetadata?: ResearchMetadata;
-    crossReferences?: CrossReference[];
-    limitations?: string[];
-}
-
-export interface IdrettSection {
-    id: string;
-    title: string;
-    description: string;
-    founded?: number;
-    clubs?: string[];
-    sports?: string[];
-    facilities?: string[];
-    context?: string;
-    highlights?: string[];
-}
-
-export interface IdrettTimelineEvent {
-    year: number;
-    title: string;
-    description: string;
-}
-
-export interface IdrettClub {
-    id: string;
-    name: string;
-    founded: number | null;
-    dissolved: number | null;
-    type: string;
-    sports: string[];
-    achievements: string[];
-    description: string;
-}
-
-export interface IdrettPioneer {
-    id: string;
-    name: string;
-    role: string;
-    period: string;
-    description: string;
-}
-
-export interface IdrettVenue {
-    id: string;
-    name: string;
-    address: string;
-    founded: number;
-    description: string;
-    status: 'aktiv' | 'nedlagt';
-}
-
-export function getIdrettData(): IdrettData {
-    return idrettData as IdrettData;
-}
-
-export function getIdrettSections(): IdrettSection[] {
-    return idrettData.sections as IdrettSection[];
-}
-
-export function getIdrettTimeline(): IdrettTimelineEvent[] {
-    return idrettData.timeline as IdrettTimelineEvent[];
-}
-
-export function getIdrettClubs(): IdrettClub[] {
-    return idrettData.clubs as IdrettClub[];
-}
-
-export function getIdrettPioneers(): IdrettPioneer[] {
-    return idrettData.pioneers as IdrettPioneer[];
-}
-
-export function getIdrettVenues(): IdrettVenue[] {
-    return idrettData.venues as IdrettVenue[];
-}
-
-// ============================================================================
-// MEDIEBILDET (Media Coverage)
-// ============================================================================
-
-export function getMediebildetData(): MediebildetData {
-    const data = mediebildetData as MediebildetData;
-    data.subsections = data.subsections.map(sub => ({
-        ...sub,
-        count: getMediaItemCount(sub.slug)
-    }));
-    return data;
-}
-
-export function getMediaItemCount(category: string): number {
-    switch (category) {
-        case 'avis':
-            return (avisData as MediaCategoryData<AvisItem>).items.length;
-        case 'tv-film':
-            return (tvFilmData as MediaCategoryData<TvFilmItem>).items.length;
-        case 'podcast':
-            return (podcastData as MediaCategoryData<PodcastItem>).items.length;
-        case 'digital':
-            return (digitalData as MediaCategoryData<DigitalItem>).items.length;
-        case 'akademisk':
-            return (akademiskData as MediaCategoryData<AkademiskItem>).items.length;
-        default:
-            return 0;
-    }
-}
-
-export function getTotalMediaItems(): number {
-    return getMediaItemCount('avis') +
-        getMediaItemCount('tv-film') +
-        getMediaItemCount('podcast') +
-        getMediaItemCount('digital') +
-        getMediaItemCount('akademisk');
-}
-
-export function getAvisData(): MediaCategoryData<AvisItem> {
-    return avisData as MediaCategoryData<AvisItem>;
-}
-
-export function getAvisItems(): AvisItem[] {
-    return (avisData as MediaCategoryData<AvisItem>).items;
-}
-
-export function getTvFilmData(): MediaCategoryData<TvFilmItem> {
-    return tvFilmData as MediaCategoryData<TvFilmItem>;
-}
-
-export function getTvFilmItems(): TvFilmItem[] {
-    return (tvFilmData as MediaCategoryData<TvFilmItem>).items;
-}
-
-export function getPodcastData(): MediaCategoryData<PodcastItem> {
-    return podcastData as MediaCategoryData<PodcastItem>;
-}
-
-export function getPodcastItems(): PodcastItem[] {
-    return (podcastData as MediaCategoryData<PodcastItem>).items;
-}
-
-export function getDigitalData(): MediaCategoryData<DigitalItem> {
-    return digitalData as MediaCategoryData<DigitalItem>;
-}
-
-export function getDigitalItems(): DigitalItem[] {
-    return (digitalData as MediaCategoryData<DigitalItem>).items;
-}
-
-export function getAkademiskData(): MediaCategoryData<AkademiskItem> {
-    return akademiskData as MediaCategoryData<AkademiskItem>;
-}
-
-export function getAkademiskItems(): AkademiskItem[] {
-    return (akademiskData as MediaCategoryData<AkademiskItem>).items;
-}
-
-export function getAllMediaItems(): MediaItem[] {
-    return [
-        ...getAvisItems(),
-        ...getTvFilmItems(),
-        ...getPodcastItems(),
-        ...getDigitalItems(),
-        ...getAkademiskItems(),
-    ];
-}
-
-export function getMediaByTheme(theme: string): MediaItem[] {
-    return getAllMediaItems().filter(item => item.themes.includes(theme));
-}
-
-export function getMediaThemes(): string[] {
-    const themes = new Set<string>();
-    getAllMediaItems().forEach(item => item.themes.forEach(t => themes.add(t)));
-    return Array.from(themes).sort();
-}
-
-// ============================================================================
 // BIBLIOTEK VERIFICATION
 // ============================================================================
 
@@ -1164,23 +995,25 @@ const ildsjelerVerification = buildVerificationDataset({
     category: 'ildsjeler',
 });
 
+const idrettData = getIdrettData();
+
 const idrettVerification = buildVerificationDataset({
-    ...(idrettData as Partial<IdrettData>),
+    ...idrettData,
     id: 'idrett-verification',
     category: 'idrett',
-    title: (idrettData as IdrettData).title,
-    summary: (idrettData as IdrettData).description,
+    title: idrettData.title,
+    summary: idrettData.description,
     scope: [
         {
             id: 'idrett-core',
             title: 'Idrettsdata',
             dataFiles: ['src/data/biblioteket/idrett/idrett.json'],
             itemCount:
-                (idrettData as IdrettData).sections.length +
-                (idrettData as IdrettData).timeline.length +
-                (idrettData as IdrettData).clubs.length +
-                (idrettData as IdrettData).pioneers.length +
-                (idrettData as IdrettData).venues.length,
+                idrettData.sections.length +
+                idrettData.timeline.length +
+                idrettData.clubs.length +
+                idrettData.pioneers.length +
+                idrettData.venues.length,
             note: 'Dekker hovedfortellingen, tidslinjen, klubber, arenaer og pionerer.',
         },
     ],

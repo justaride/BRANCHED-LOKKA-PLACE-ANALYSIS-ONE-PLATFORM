@@ -36,6 +36,25 @@ interface CustomTooltipProps {
   active?: boolean;
   payload?: TooltipPayload[];
   label?: string;
+  activeTab?: number;
+}
+
+function CustomTooltip({ active, payload, label, activeTab }: CustomTooltipProps) {
+  if (!active || !payload || !payload.length) return null;
+  return (
+    <div className="bg-white p-3 border border-gray-200 shadow-lg rounded-lg">
+      <p className="font-semibold text-gray-700 mb-1">{label}</p>
+      {payload.map((entry, index) => (
+        <div key={index} className="text-sm flex justify-between gap-4" style={{ color: entry.color }}>
+          <span>{entry.name}:</span>
+          <span className="font-medium">
+            {typeof entry.value === 'number' ? entry.value.toLocaleString('nb-NO') : entry.value}
+            {activeTab === 0 ? ' MNOK' : activeTab === 2 ? '' : '%'}
+          </span>
+        </div>
+      ))}
+    </div>
+  );
 }
 
 export default function KorthandelComparisonCharts({
@@ -76,24 +95,6 @@ export default function KorthandelComparisonCharts({
   if (loading) return <div className="h-64 flex items-center justify-center"><div className="animate-spin h-8 w-8 border-4 border-blue-600 border-t-transparent rounded-full"/></div>;
   if (error || !data) return <div className="h-64 flex items-center justify-center text-red-600">{error || 'Ingen data'}</div>;
 
-  const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
-    if (!active || !payload || !payload.length) return null;
-    return (
-      <div className="bg-white p-3 border border-gray-200 shadow-lg rounded-lg">
-        <p className="font-semibold text-gray-700 mb-1">{label}</p>
-        {payload.map((entry, index) => (
-          <div key={index} className="text-sm flex justify-between gap-4" style={{ color: entry.color }}>
-            <span>{entry.name}:</span>
-            <span className="font-medium">
-              {typeof entry.value === 'number' ? entry.value.toLocaleString('nb-NO') : entry.value}
-              {activeTab === 0 ? ' MNOK' : activeTab === 2 ? '' : '%'}
-            </span>
-          </div>
-        ))}
-      </div>
-    );
-  };
-
   return (
     <div className="mb-12 md:mb-20">
       <div className="mb-6 md:mb-8">
@@ -129,7 +130,7 @@ export default function KorthandelComparisonCharts({
                 <CartesianGrid strokeDasharray="3 3" vertical={false} />
                 <XAxis dataKey="area" tick={{fontSize: 12}} />
                 <YAxis tickFormatter={(val) => `${val} M`} />
-                <Tooltip content={<CustomTooltip />} />
+                <Tooltip content={<CustomTooltip activeTab={activeTab} />} />
                 <Bar dataKey="value" name="Omsetning 2024" radius={[4, 4, 0, 0]}>
                   {data.totalOmsetning2024.map((entry, index) => (
                     <Cell key={`cell-${index}`} fill={entry.color} />
@@ -141,7 +142,7 @@ export default function KorthandelComparisonCharts({
                 <CartesianGrid strokeDasharray="3 3" vertical={false} />
                 <XAxis dataKey="area" tick={{fontSize: 12}} />
                 <YAxis tickFormatter={(val) => `${val}%`} />
-                <Tooltip content={<CustomTooltip />} />
+                <Tooltip content={<CustomTooltip activeTab={activeTab} />} />
                 <Bar dataKey="value" name="Årlig Vekst" radius={[4, 4, 0, 0]}>
                   {data.arligVekst.map((entry, index) => (
                     <Cell key={`cell-${index}`} fill={entry.color} />
@@ -153,7 +154,7 @@ export default function KorthandelComparisonCharts({
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="x" type="category" allowDuplicatedCategory={false} />
                 <YAxis domain={['auto', 'auto']} />
-                <Tooltip content={<CustomTooltip />} />
+                <Tooltip content={<CustomTooltip activeTab={activeTab} />} />
                 <Legend />
                 {data.indeksertVekst.map((series) => (
                   <Line
@@ -173,7 +174,7 @@ export default function KorthandelComparisonCharts({
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="x" type="category" allowDuplicatedCategory={false} />
                 <YAxis tickFormatter={(val) => `${val}%`} />
-                <Tooltip content={<CustomTooltip />} />
+                <Tooltip content={<CustomTooltip activeTab={activeTab} />} />
                 <Legend />
                 {data.ukedagFordeling.map((series) => (
                   <Line
@@ -195,4 +196,3 @@ export default function KorthandelComparisonCharts({
     </div>
   );
 }
-

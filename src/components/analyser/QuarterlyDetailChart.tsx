@@ -1,5 +1,6 @@
 'use client';
 
+import { toRechartsNumber } from '@/lib/utils/recharts';
 import { useMemo } from 'react';
 import {
   BarChart,
@@ -40,7 +41,7 @@ export default function QuarterlyDetailChart({
     if (value >= 1_000) {
       return `${(value / 1_000).toFixed(0)}k kr`;
     }
-    return `${value.toLocaleString('nb-NO')} kr`;
+    return `${toRechartsNumber(value).toLocaleString('nb-NO')} kr`;
   };
 
   // Calculate totals
@@ -146,7 +147,7 @@ export default function QuarterlyDetailChart({
               tick={{ fontSize: 12 }}
             />
             <Tooltip
-              formatter={(value: number) => formatCurrency(value)}
+              formatter={(value) => formatCurrency(toRechartsNumber(value))}
               contentStyle={{
                 backgroundColor: 'rgba(255, 255, 255, 0.95)',
                 borderRadius: '8px',

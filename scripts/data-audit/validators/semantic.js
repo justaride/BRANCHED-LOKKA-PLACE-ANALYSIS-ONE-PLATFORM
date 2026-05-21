@@ -1,6 +1,4 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
-const COLORS = require("../colors");
-
 const SEMANTIC_RULES = {
   urbanAreas: ["grunerlokka", "bjorvika", "sentrum", "majorstuen"],
 
@@ -20,7 +18,7 @@ const SEMANTIC_RULES = {
   },
 };
 
-function validateSemanticPlausibility(data, filePath, context = {}) {
+function validateSemanticPlausibility(data, filePath) {
   const issues = [];
 
   if (filePath.includes("antall-hus.json")) {
@@ -133,8 +131,6 @@ function validateDemografiData(data, filePath) {
   }
 
   if (Array.isArray(data.inntektsfordeling)) {
-    const prev = { category: null, value: 0 };
-
     for (const item of data.inntektsfordeling) {
       if (item.antall < 0) {
         issues.push({
@@ -157,7 +153,7 @@ function validateBevegelseData(data, filePath) {
   const issues = [];
 
   if (data.nøkkeltall) {
-    const { dagligBesøk, besøkPerKm2 } = data.nøkkeltall;
+    const { dagligBesøk } = data.nøkkeltall;
 
     if (typeof dagligBesøk === "number" && dagligBesøk < 0) {
       issues.push({

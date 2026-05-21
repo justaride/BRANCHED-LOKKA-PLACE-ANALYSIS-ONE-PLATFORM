@@ -84,6 +84,7 @@ export default function IldsjelerPage() {
                     src="/images/biblioteket/ildsjeler-banner-hero.jpg"
                     alt="Løkkas Ildsjeler"
                     fill
+                    sizes="100vw"
                     className="object-cover"
                     priority
                 />

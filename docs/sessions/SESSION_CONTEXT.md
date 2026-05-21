@@ -60,7 +60,7 @@
 
 ### Configuration
 - **Tenant Config:** `src/config/tenants.ts`
-- **Middleware:** `src/middleware.ts`
+- **Route Protection Proxy:** `src/proxy.ts`
 - **Tailwind Config:** `tailwind.config.ts`
 - **Environment:** `.env.local` (dev), `.env.example` (template)
 

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import {
   ComposedChart,
   Bar,
@@ -13,6 +13,7 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import type { EventReference } from '@/types/place-analysis';
+import { DEFAULT_RESPONSIVE_CHART_DIMENSION } from '@/lib/utils/recharts';
 import {
   transformEventsToTimeline,
   aggregateByMonth,
@@ -93,6 +94,27 @@ function SimpleTooltip({ active, payload, label, showBank, showVisitors }: Simpl
   );
 }
 
+function getDisplayYear(startDate: string): string {
+  const parsedDate = new Date(startDate);
+  return Number.isNaN(parsedDate.getTime()) ? '' : String(parsedDate.getFullYear());
+}
+
+function formatCompactNumber(value: number): string {
+  if (value >= 1_000_000_000) {
+    return `${(value / 1_000_000_000).toLocaleString('nb-NO', {
+      maximumFractionDigits: 2,
+    })} mrd`;
+  }
+
+  if (value >= 1_000_000) {
+    return `${(value / 1_000_000).toLocaleString('nb-NO', {
+      maximumFractionDigits: 1,
+    })} mill.`;
+  }
+
+  return value.toLocaleString('nb-NO');
+}
+
 export default function SimpleEventTimeline({
   events,
   startDate = '2024-01-01',
@@ -103,43 +125,38 @@ export default function SimpleEventTimeline({
 }: SimpleEventTimelineProps) {
   const [showBank, setShowBank] = useState(true); // Default to showing bank data
   const [showVisitors, setShowVisitors] = useState(true); // Default to showing visitor data
+  const displayYear = getDisplayYear(startDate);
+  const bankTotal = bankData.reduce((sum, item) => sum + item.amount, 0);
+  const visitorTotal = visitorData.reduce((sum, item) => sum + item.amount, 0);
 
   // Transform and aggregate data
-  const chartData = useMemo(() => {
-    console.log(`[Timeline] Processing ${events.length} events`);
+  let data = transformEventsToTimeline(events, startDate, endDate);
+  data = aggregateByMonth(data);
 
-    let data = transformEventsToTimeline(events, startDate, endDate);
-    data = aggregateByMonth(data);
-
-    console.log(`[Timeline] After aggregation: ${data.length} data points`);
-
-    // Add bank and visitor data
-    if (showBank && bankData.length > 0) {
-      const bankMap = new Map(bankData.map((d) => [d.date, d.amount]));
-      data = data.map((point) => ({
-        ...point,
-        banktransaksjoner: bankMap.get(point.date) || 0,
-      }));
-    }
-
-    if (showVisitors && visitorData.length > 0) {
-      const visitorMap = new Map(visitorData.map((d) => [d.date, d.amount]));
-      data = data.map((point) => ({
-        ...point,
-        besokende: visitorMap.get(point.date) || 0,
-      }));
-    }
-
-    // Format for display
-    return data.map((point) => ({
+  // Add bank and visitor data
+  if (showBank && bankData.length > 0) {
+    const bankMap = new Map(bankData.map((d) => [d.date, d.amount]));
+    data = data.map((point) => ({
       ...point,
-      name: formatTimelineDate(point.date, 'month'),
-      eventCount: point.eventCount || 0,
-      totalAttendees: (point.totalAttendees || 0) / 1000, // Scale down for better visualization
+      banktransaksjoner: bankMap.get(point.date) || 0,
     }));
-  }, [events, startDate, endDate, showBank, showVisitors, bankData, visitorData]);
+  }
 
-  console.log('[Timeline] Rendering with data:', chartData.slice(0, 3));
+  if (showVisitors && visitorData.length > 0) {
+    const visitorMap = new Map(visitorData.map((d) => [d.date, d.amount]));
+    data = data.map((point) => ({
+      ...point,
+      besokende: visitorMap.get(point.date) || 0,
+    }));
+  }
+
+  // Format for display
+  const chartData = data.map((point) => ({
+    ...point,
+    name: formatTimelineDate(point.date, 'month'),
+    eventCount: point.eventCount || 0,
+    totalAttendees: (point.totalAttendees || 0) / 1000, // Scale down for better visualization
+  }));
 
   // Memoized tooltip render function
   const renderTooltip = useCallback(
@@ -156,7 +173,7 @@ export default function SimpleEventTimeline({
       <div className="mb-4 flex items-start justify-between">
         <div>
           <h3 className="text-lg font-semibold text-natural-forest">
-            Arrangementer & Aktivitet 2024
+            Arrangementer & Aktivitet{displayYear ? ` ${displayYear}` : ''}
           </h3>
           <p className="text-sm text-gray-600">
             Månedlig oversikt med banktransaksjoner og besøkende
@@ -188,7 +205,11 @@ export default function SimpleEventTimeline({
 
       {/* Timeline Chart */}
       <div className="h-80">
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer
+          width="100%"
+          height="100%"
+          initialDimension={DEFAULT_RESPONSIVE_CHART_DIMENSION}
+        >
           <ComposedChart
             data={chartData}
             margin={{ top: 10, right: 30, left: 10, bottom: 40 }}
@@ -263,19 +284,19 @@ export default function SimpleEventTimeline({
       {/* Info */}
       <div className="mt-3 flex items-center justify-between text-xs text-gray-500">
         <div>
-          Totalt {events.length} arrangementer visualisert per måned i 2024
+          Totalt {events.length} arrangementer visualisert per måned{displayYear ? ` i ${displayYear}` : ''}
         </div>
         <div className="flex gap-4">
           {showBank && (
             <div className="flex items-center gap-1">
               <div className="h-2 w-2 rounded-full bg-blue-600"></div>
-              <span>Bank: 3,97 mrd kr årlig</span>
+              <span>Bank: {formatCompactNumber(bankTotal)} kr årlig</span>
             </div>
           )}
           {showVisitors && (
             <div className="flex items-center gap-1">
               <div className="h-2 w-2 rounded-full bg-green-600"></div>
-              <span>Besøkende: ~9M årlig estimat</span>
+              <span>Besøkende: {formatCompactNumber(visitorTotal)} årlig estimat</span>
             </div>
           )}
         </div>

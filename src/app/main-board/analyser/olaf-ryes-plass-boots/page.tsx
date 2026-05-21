@@ -10,8 +10,8 @@ import coordinates from '@/data/main-board/aktorer/2025-arsrapport-coordinates.j
 import type { AktorCategory } from '@/types/aktor-map';
 
 export const metadata: Metadata = {
-  title: 'Olaf Ryes PlassV:Boots - Stedsanalyse',
-  description: 'Komplett markedsanalyse for Olaf Ryes PlassV:Boots med demografi, besøkende, virksomheter og omsetning',
+  title: 'Olaf Ryes Plass v/ Boots - Stedsanalyse',
+  description: 'Komplett markedsanalyse for Olaf Ryes Plass v/ Boots med demografi, besøkende, virksomheter og omsetning',
 };
 
 export default function OlafRyesPlassBootsPage() {
@@ -37,7 +37,7 @@ export default function OlafRyesPlassBootsPage() {
         <div className="relative aspect-[16/9] w-full md:aspect-[21/9]">
           <Image
             src="/images/analyser/olaf-ryes-plass-boots-map.png"
-            alt="Fugleperspektiv av Olaf Ryes PlassV:Boots"
+            alt="Fugleperspektiv av Olaf Ryes Plass v/ Boots"
             fill
             priority
             className="object-cover"
@@ -71,7 +71,7 @@ export default function OlafRyesPlassBootsPage() {
                 Stedsanalyse
               </span>
               <h1 className="mb-3 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-                Olaf Ryes PlassV:Boots
+                Olaf Ryes Plass v/ Boots
               </h1>
               <p className="mb-4 text-lg text-white/90 md:text-xl">
                 Sofienberggata 6 og Olaf Ryes Plass område (0.005 km²)
@@ -174,7 +174,7 @@ export default function OlafRyesPlassBootsPage() {
           <div className="mb-8">
             <ExpandableImage
               src="/images/analyser/olaf-ryes-plass-boots-map.png"
-              alt="Detaljert lokasjonskart - Olaf Ryes PlassV:Boots"
+              alt="Detaljert lokasjonskart - Olaf Ryes Plass v/ Boots"
               width={1200}
               height={800}
               borderColor="natural-sage"
@@ -280,7 +280,7 @@ export default function OlafRyesPlassBootsPage() {
 
             <ExpandableImage
               src="/images/analyser/olaf-ryes-plass-boots-visitor-origins.png"
-              alt="Heat map - Geografisk opprinnelse av besøkende til Olaf Ryes PlassV:Boots"
+              alt="Heat map - Geografisk opprinnelse av besøkende til Olaf Ryes Plass v/ Boots"
               width={1200}
               height={800}
               borderColor="blue"
@@ -416,7 +416,7 @@ export default function OlafRyesPlassBootsPage() {
             </h3>
             <ExpandableImage
               src="/images/analyser/olaf-ryes-plass-boots-heatmap.png"
-              alt="Heatmap - Olaf Ryes PlassV:Boots"
+              alt="Heatmap - Olaf Ryes Plass v/ Boots"
               width={1600}
               height={1200}
               borderColor="purple"

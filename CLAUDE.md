@@ -8,7 +8,7 @@
 ## Quick Reference
 
 ```yaml
-Stack: Next.js 16.0.8 | React 19.2 | TypeScript (strict) | Tailwind CSS 4 | Recharts | Leaflet
+Stack: Next.js 16.2.6 | React 19.2 | TypeScript (strict) | Tailwind CSS 4 | Recharts | Leaflet
 Auth: Shared password → JWT session (jose) | All members get full access
 Deploy: Coolify (Hetzner) behind Cloudflare (live)
 Dev: npm run dev → localhost:3001
@@ -48,7 +48,7 @@ Løkka Internal Dashboard:
 /aspelin-ramm        → 6 properties (Mathallen + Vulkan Området 5-min analysis)
 /brodrene-evensen    → 3 properties
 /eiendomsspar        → 2 properties
-/malling-co          → 1 property (Front Real Estate)
+/front-real-estate   → 1 property (Front Real Estate)
 /maya-eiendom        → 4 properties
 /roger-vodal         → 9 properties (7 with 5-min analysis)
 /sio                 → 3 properties (student housing)
@@ -61,7 +61,7 @@ Løkka Internal Dashboard:
 | Purpose             | Path                                   |
 | ------------------- | -------------------------------------- |
 | **Entry Point**     | `src/app/page.tsx`                     |
-| **Middleware**      | `src/middleware.ts`                    |
+| **Route Proxy**     | `src/proxy.ts`                         |
 | **Tenant Config**   | `src/config/tenants.ts`                |
 | **Data Loaders**    | `src/lib/loaders/{tenant}.ts`          |
 | **Property Data**   | `src/data/{tenant}/{property-id}.json` |
@@ -119,7 +119,7 @@ const cleanData = filterValidRecords(rawData, ["value", "count"]);
 
 ```
 aspelin-ramm | brodrene-evensen | carucel | eiendomsspar
-main-board | malling-co | maya-eiendom | roger-vodal | sio | spabo
+front-real-estate | main-board | maya-eiendom | roger-vodal | sio | spabo
 ```
 
 ---
@@ -171,9 +171,9 @@ import { safeNumber } from '@/lib/utils/safe-data';
 value={safeNumber(item.value, 0)}
 ```
 
-### 3. Middleware Public Routes
+### 3. Proxy Public Routes
 
-Update `src/middleware.ts` to allow new public paths:
+Update `src/proxy.ts` to allow new public paths:
 
 ```typescript
 const publicRoutes = ["/", "/login", "/api/auth", "/data"];
@@ -192,7 +192,7 @@ Unified password login with single JWT cookie (90-day expiry, sliding refresh at
 - Cookie: `lokka-session` (unified JWT with all tenants)
 - Auth: Single shared password (`PLATFORM_PASSWORD` env var) → JWT with access to all tenants
 - No per-tenant gatekeeping — all authenticated users see everything
-- Key files: `src/lib/auth.ts`, `src/middleware.ts`, `src/app/api/auth/route.ts`
+- Key files: `src/lib/auth.ts`, `src/proxy.ts`, `src/app/api/auth/route.ts`
 - Cloudflare Zero Trust handles Google auth for Natural State team (not in app code)
 
 ### 6. JSON Field Names with Special Characters
@@ -310,7 +310,7 @@ Disse vises i aktørtabellen men ikke på kartet. Ved opprydding kan de flyttes 
 
 ```bash
 npm run build
-# Runs: npm run verify && npm run type-check && next build
+# Runs: clean .next cache, npm run verify, npm run type-check, then next build
 ```
 
 ### Manual Verification

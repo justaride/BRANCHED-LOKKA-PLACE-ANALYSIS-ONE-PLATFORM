@@ -1,5 +1,6 @@
 'use client';
 
+import { toRechartsNumber } from '@/lib/utils/recharts';
 import {
   LineChart,
   Line,
@@ -112,7 +113,7 @@ export default function KorthandelChart({ data }: KorthandelChartProps) {
                 borderRadius: '8px',
                 padding: '12px',
               }}
-              formatter={(value: number) => [`${value.toFixed(2)} mill`, '']}
+              formatter={(value) => [`${toRechartsNumber(value).toFixed(2)} mill`, '']}
             />
             <Legend />
             <Line
@@ -170,7 +171,7 @@ export default function KorthandelChart({ data }: KorthandelChartProps) {
                   border: '1px solid #e5e7eb',
                   borderRadius: '8px',
                 }}
-                formatter={(value: number) => [`${value.toFixed(1)}%`, '']}
+                formatter={(value) => [`${toRechartsNumber(value).toFixed(1)}%`, '']}
               />
               <Legend />
               <Bar dataKey="område" name="Området" fill="#8b5cf6" />
@@ -219,7 +220,7 @@ export default function KorthandelChart({ data }: KorthandelChartProps) {
                   border: '1px solid #e5e7eb',
                   borderRadius: '8px',
                 }}
-                formatter={(value: number) => [value.toFixed(1), '']}
+                formatter={(value) => [toRechartsNumber(value).toFixed(1), '']}
               />
               <Legend />
               <Line
@@ -275,7 +276,7 @@ export default function KorthandelChart({ data }: KorthandelChartProps) {
                   border: '1px solid #e5e7eb',
                   borderRadius: '8px',
                 }}
-                formatter={(value: number) => [`${value.toFixed(2)} mill`, '']}
+                formatter={(value) => [`${toRechartsNumber(value).toFixed(2)} mill`, '']}
               />
               <Legend />
               <Bar dataKey="år2023" name="2023" fill="#3b82f6" />

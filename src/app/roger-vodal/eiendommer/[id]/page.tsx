@@ -109,6 +109,7 @@ export default async function RogerVodalEiendomPage({ params }: PageProps) {
                       src={eiendom.heroImage}
                       alt={eiendom.adresse}
                       fill
+                      sizes="(max-width: 768px) 192px, 288px"
                       priority
                       className="object-cover transition-transform duration-700 hover:scale-110"
                       quality={85}
@@ -155,6 +156,7 @@ export default async function RogerVodalEiendomPage({ params }: PageProps) {
                       src={eiendom.mapImage}
                       alt={`Kartuttak ${eiendom.adresse}`}
                       fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
                       className="object-contain"
                       quality={80}
                       loading="lazy"

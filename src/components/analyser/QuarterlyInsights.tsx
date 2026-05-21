@@ -1,5 +1,6 @@
 'use client';
 
+import { toRechartsNumber } from '@/lib/utils/recharts';
 import { useMemo } from 'react';
 import {
   BarChart,
@@ -151,7 +152,7 @@ export default function QuarterlyInsights({ quarterlyData }: QuarterlyInsightsPr
   const formatPercent = (value: number | null) => {
     if (value === null) return 'N/A';
     const sign = value >= 0 ? '+' : '';
-    return `${sign}${value.toFixed(1)}%`;
+    return `${sign}${toRechartsNumber(value).toFixed(1)}%`;
   };
 
   return (
@@ -273,7 +274,7 @@ export default function QuarterlyInsights({ quarterlyData }: QuarterlyInsightsPr
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="quarter" />
                 <YAxis tickFormatter={formatCurrency} />
-                <Tooltip formatter={(value: number) => formatCurrency(value)} />
+                <Tooltip formatter={(value) => formatCurrency(toRechartsNumber(value))} />
                 <Bar dataKey="average" fill="#2D5F3F" name="Gjennomsnitt" />
               </BarChart>
             </ResponsiveContainer>
@@ -302,7 +303,7 @@ export default function QuarterlyInsights({ quarterlyData }: QuarterlyInsightsPr
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="year" />
                 <YAxis tickFormatter={formatCurrency} />
-                <Tooltip formatter={(value: number) => formatCurrency(value)} />
+                <Tooltip formatter={(value) => formatCurrency(toRechartsNumber(value))} />
                 <Area type="monotone" dataKey="total" stroke="#2D5F3F" fillOpacity={1} fill="url(#colorTotal)" name="Total Omsetning" />
               </AreaChart>
             </ResponsiveContainer>
