@@ -381,9 +381,16 @@ import type { AktorWithCoordinates, AktorCategory, CoordinateLookup } from '@/ty
 
 type AktorRaw = { rank: string; navn: string; type: string; adresse: string; omsetning: number; yoy_vekst: number | null; ansatte: number; markedsandel: number };
 
+// Nedlagte aktører som er erstattet av ny leietaker. Skjules på aktørkartet
+// (misvisende å vise en butikk som ikke finnes lenger), men beholdes i
+// aktørtabellen/regnskapet — tall og omsetning er uberørt.
+// Fogg Gildeskål AS er erstattet av Røtter Grünerløkka i Thorvald Meyers Gate 46.
+const MAP_EXCLUDED_AKTORER = new Set<string>(['Fogg Gildeskål AS']);
+
 function mapAktorsToCoordinates(actors: AktorRaw[], coords: CoordinateLookup): AktorWithCoordinates[] {
   return actors
     .filter(a => {
+      if (MAP_EXCLUDED_AKTORER.has(a.navn)) return false;
       const c = coords[a.adresse];
       return c && c.lat && c.lng;
     })
