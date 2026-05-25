@@ -28,7 +28,7 @@ done <<< "$CONFIG_TENANTS"
 if [ ${#TENANTS[@]} -eq 0 ]; then
   TENANTS=(
     "main-board"
-    "aspelin-ramm"
+    "aspelin-reitan"
     "brodrene-evensen"
     "carucel"
     "eiendomsspar"

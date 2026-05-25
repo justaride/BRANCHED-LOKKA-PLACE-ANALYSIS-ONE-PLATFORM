@@ -1,7 +1,7 @@
 import type { CompanyTenantSlug } from '@/config/tenants';
 
 export const TENANT_DATA_MANIFEST: Record<CompanyTenantSlug, readonly string[]> = {
-  'aspelin-ramm': [
+  'aspelin-reitan': [
     'bellonabygget',
     'mathallen',
     'nye-broverkstedet',

@@ -90,7 +90,7 @@ export default function LandingPage() {
             {companies.map((company) => {
               // Map slug to image file
               const imageMap: Record<string, string> = {
-                'aspelin-ramm': '/images/companies/aspelin-ramm.webp',
+                'aspelin-reitan': '/images/companies/aspelin-reitan.webp',
                 'brodrene-evensen': '/images/companies/brodrene-evensen.webp',
                 'eiendomsspar': '/images/companies/eiendomsspar.jpg',
                 'front-real-estate': '/images/companies/malling-co.jpg', // Using existing image for now

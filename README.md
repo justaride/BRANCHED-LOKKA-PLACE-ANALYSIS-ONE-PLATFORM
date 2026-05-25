@@ -73,7 +73,7 @@ This platform serves **10 separate tenants** under one codebase:
 | Company | Route | Properties | Focus |
 |---------|-------|-----------|-------|
 | **SPABO Eiendom** | `/spabo` | 22 | Largest portfolio |
-| **Aspelin Ramm** | `/aspelin-ramm` | 5 | FutureBuilt Vulkan + Mathallen |
+| **Aspelin Reitan** | `/aspelin-reitan` | 6 | FutureBuilt Vulkan + Mathallen |
 | **Maya Eiendom** | `/maya-eiendom` | 4 | Markveien |
 | **Brødrene Evensen** | `/brodrene-evensen` | 3 | Mixed portfolio |
 | **Roger Vodal** | `/roger-vodal` | 3 | Brenneriveien |
@@ -123,7 +123,7 @@ lokka-gardeierforening-platform/
 │   │   ├── page.tsx              # Landing page
 │   │   ├── login/                # Authentication
 │   │   ├── main-board/           # Natural State hub
-│   │   ├── aspelin-ramm/         # Company sites
+│   │   ├── [company]/            # Dynamic company sites
 │   │   ├── brodrene-evensen/     # Company sites
 │   │   ├── carucel/
 │   │   ├── eiendomsspar/
@@ -137,7 +137,7 @@ lokka-gardeierforening-platform/
 │   │   ├── property/            # Property components
 │   │   └── ui/                  # UI components
 │   ├── data/                    # Property JSON data
-│   │   ├── aspelin-ramm/
+│   │   ├── aspelin-ramm/         # Legacy data path for Aspelin Reitan
 │   │   ├── brodrene-evensen/
 │   │   ├── carucel/
 │   │   ├── eiendomsspar/
@@ -383,7 +383,7 @@ npm run test:coverage # Run tests with coverage report
 ### November 27, 2025
 
 **Mathallen Oslo - Interactive 1-Minute Analysis:**
-- ✅ Added Mathallen Oslo to Aspelin Ramm portfolio (5th property)
+- ✅ Added Mathallen Oslo to the Aspelin portfolio, now branded Aspelin Reitan
 - ✅ Implemented interactive 1-minute analysis with 4 data categories
 - ✅ Created OneMinAnalysisViewer component for interactive data display
 - ✅ Converted CSV data to JSON for bevegelse, korthandel, konkurransebilde, aktorer

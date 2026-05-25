@@ -1,5 +1,8 @@
 import { notFound } from 'next/navigation';
-import { loadEiendom, getAllPropertyIds } from '@/lib/loaders/aspelin-ramm';
+import type { Metadata } from 'next';
+import { getTenant, getCompanyTenants, isCompanyTenantSlug } from '@/config/tenants';
+import { getTenantPropertyIds } from '@/config/tenant-data-manifest';
+import { getTenantLoader } from '@/lib/loaders/tenant-registry';
 import { loadOneMinAnalysisData } from '@/lib/loaders/one-min-loader';
 import Container from '@/components/ui/Container';
 import AnalyseSelector from '@/components/property/AnalyseSelector';
@@ -16,20 +19,36 @@ import { getPropertyMetrics } from '@/lib/property-metrics';
 
 interface PageProps {
   params: Promise<{
+    company: string;
     id: string;
   }>;
 }
 
-export async function generateStaticParams() {
-  const ids = getAllPropertyIds();
-  return ids.map((id) => ({ id }));
+export function generateStaticParams() {
+  return getCompanyTenants().flatMap((tenant) =>
+    isCompanyTenantSlug(tenant.slug)
+      ? getTenantPropertyIds(tenant.slug).map((id) => ({
+          company: tenant.slug,
+          id,
+        }))
+      : [],
+  );
 }
 
-export async function generateMetadata({ params }: PageProps) {
-  const { id } = await params;
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { company, id } = await params;
+
+  if (!isCompanyTenantSlug(company)) {
+    return {
+      title: 'Eiendom ikke funnet',
+    };
+  }
+
+  const tenant = getTenant(company);
+  const { loadEiendom } = getTenantLoader(company);
   const eiendom = await loadEiendom(id);
 
-  if (!eiendom) {
+  if (!tenant || !eiendom) {
     return {
       title: 'Eiendom ikke funnet',
     };
@@ -38,23 +57,31 @@ export async function generateMetadata({ params }: PageProps) {
   const displayName = eiendom.navn || eiendom.adresse;
 
   return {
-    title: `${displayName} - Aspelin Ramm`,
+    title: `${displayName} - ${tenant.name}`,
     description: eiendom.beskrivelse || `Placeanalyse for ${displayName}`,
   };
 }
 
-export default async function AspelinRammEiendomPage({ params }: PageProps) {
-  const { id } = await params;
+export default async function CompanyEiendomPage({ params }: PageProps) {
+  const { company, id } = await params;
+
+  if (!isCompanyTenantSlug(company)) {
+    notFound();
+  }
+
+  const tenant = getTenant(company);
+  if (!tenant || tenant.type !== 'company') {
+    notFound();
+  }
+
+  const { loadEiendom } = getTenantLoader(company);
   const eiendom = await loadEiendom(id);
 
   if (!eiendom) {
     notFound();
   }
 
-  // Load 1-minute analysis data if available
-  const oneMinData = await loadOneMinAnalysisData('aspelin-ramm', id);
-
-  // Display name (use navn if available, otherwise adresse)
+  const oneMinData = await loadOneMinAnalysisData(company, id);
   const displayName = eiendom.navn || eiendom.adresse;
   const { totalRevenue, totalActors, topCategory } = getPropertyMetrics(eiendom);
 
@@ -66,7 +93,7 @@ export default async function AspelinRammEiendomPage({ params }: PageProps) {
           <FadeIn direction="down">
             <div className="mb-4 md:mb-6">
               <Link
-                href="/aspelin-ramm/eiendommer"
+                href={`/${tenant.slug}/eiendommer`}
                 className="inline-flex items-center gap-2 text-xs text-gray-500 transition-colors hover:text-gray-900 md:text-sm"
               >
                 <span>←</span> Tilbake til oversikt

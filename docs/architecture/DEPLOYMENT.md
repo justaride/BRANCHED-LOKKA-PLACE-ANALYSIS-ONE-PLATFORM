@@ -63,6 +63,8 @@ ADMIN_EMAILS=<comma-separated>
 
 # Tenant email allowlists
 MAIN_BOARD_EMAILS=
+ASPELIN_REITAN_EMAILS=
+# Legacy fallback during migration. Prefer ASPELIN_REITAN_EMAILS for new deploys.
 ASPELIN_RAMM_EMAILS=
 BRODRENE_EVENSEN_EMAILS=
 CARUCEL_EMAILS=
@@ -73,17 +75,7 @@ ROGER_VODAL_EMAILS=
 SIO_EMAILS=
 SPABO_EMAILS=
 
-# Password fallback (legacy)
-MAIN_BOARD_PASSWORD=
-ASPELIN_RAMM_PASSWORD=
-BRODRENE_EVENSEN_PASSWORD=
-CARUCEL_PASSWORD=
-EIENDOMSSPAR_PASSWORD=
-FRONT_REAL_ESTATE_PASSWORD=
-MAYA_EIENDOM_PASSWORD=
-ROGER_VODAL_PASSWORD=
-SIO_PASSWORD=
-SPABO_EIENDOM_PASSWORD=
+# Legacy password fallback is deprecated. Current tenant access uses email allowlists and OTP.
 ```
 
 Ved endring av env vars: kjør ny deploy fra Coolify.

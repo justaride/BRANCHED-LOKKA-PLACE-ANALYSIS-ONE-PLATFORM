@@ -84,23 +84,23 @@ const DEFAULT_DATA_SOURCES = [
 ];
 
 export const TENANT_PAGE_CONTENT: Record<CompanyTenantSlug, TenantPageContent> = {
-  'aspelin-ramm': {
+  'aspelin-reitan': {
     home: {
-      heroTitle: 'Aspelin Ramm Vulkan',
+      heroTitle: 'Aspelin Reitan Vulkan',
       heroDescription:
-        'Omfattende placeanalyser og eiendomsinformasjon for Aspelin Ramms portefølje på Vulkan. Utforsk demografi, markedsdata og utviklingstrender for fire bærekraftige eiendommer i FutureBuilt-området.',
+        'Omfattende placeanalyser og eiendomsinformasjon for Aspelin Reitans portefolje på Vulkan. Utforsk demografi, markedsdata og utviklingstrender for seks bærekraftige eiendommer i FutureBuilt-området.',
       primaryCtaLabel: 'Se Eiendommer',
       secondaryCtaLabel: 'Om Prosjektet',
-      heroImage: '/images/companies/aspelin-ramm.webp',
-      heroImageAlt: 'Vulkan - Aspelin Ramm portefølje',
-      heroOverlayTitle: 'Aspelin Ramm Vulkan',
-      heroOverlaySubtitle: '4 eiendommer på Vulkan',
+      heroImage: '/images/companies/aspelin-reitan.webp',
+      heroImageAlt: 'Vulkan - Aspelin Reitan portefolje',
+      heroOverlayTitle: 'Aspelin Reitan Vulkan',
+      heroOverlaySubtitle: '6 eiendommer på Vulkan',
       developmentIcon: '🚧',
       developmentTitle: 'Verktøy under utvikling',
       developmentDescription: DEFAULT_DEVELOPMENT_DESCRIPTION,
       propertiesCtaTitle: 'Utforsk Våre Eiendommer',
       propertiesCtaDescription:
-        'Se detaljerte placeanalyser, markedsdata og nøkkelinformasjon for alle 4 eiendommer i Aspelin Ramm sin portefølje på Vulkan.',
+        'Se detaljerte placeanalyser, markedsdata og nøkkelinformasjon for alle 6 eiendommer i Aspelin Reitan sin portefolje på Vulkan.',
       propertiesCtaLabel: 'Se Alle Eiendommer →',
       featuresHeading: 'Hva du finner her',
       features: [
@@ -114,11 +114,11 @@ export const TENANT_PAGE_CONTENT: Record<CompanyTenantSlug, TenantPageContent> =
       ],
     },
     about: {
-      metadataTitle: 'Om Prosjektet - Aspelin Ramm',
+      metadataTitle: 'Om Prosjektet - Aspelin Reitan',
       metadataDescription:
-        'Informasjon om Place Analysis for Aspelin Ramms eiendommer på Vulkan',
+        'Informasjon om Place Analysis for Aspelin Reitans eiendommer på Vulkan',
       purposeLead:
-        'Dette er en dedikert plattform for placeanalyser av Aspelin Ramms eiendommer på Vulkan-området. Vi samler Plaace-data og supplerer med historisk informasjon, miljødata og utviklingstrender for å gi et helhetlig bilde av hver eiendom.',
+        'Dette er en dedikert plattform for placeanalyser av Aspelin Reitans eiendommer på Vulkan-området. Vi samler Plaace-data og supplerer med historisk informasjon, miljødata og utviklingstrender for å gi et helhetlig bilde av hver eiendom.',
       purposeDetails:
         'Vulkan-området representerer et unikt FutureBuilt-prosjekt med fokus på bærekraftig byutvikling, energieffektivitet og sosial bærekraft. Disse analysene hjelper oss å forstå og dokumentere områdets utvikling og attraktivitet.',
       dataSources: [
@@ -129,10 +129,10 @@ export const TENANT_PAGE_CONTENT: Record<CompanyTenantSlug, TenantPageContent> =
       ],
     },
     properties: {
-      metadataTitle: 'Aspelin Ramm Eiendommer',
-      metadataDescription: 'Oversikt over Aspelin Ramms eiendommer på Vulkan',
+      metadataTitle: 'Aspelin Reitan Eiendommer',
+      metadataDescription: 'Oversikt over Aspelin Reitans eiendommer på Vulkan',
       headingDescription:
-        'Utforsk placeanalyser og eiendomsinformasjon for Aspelin Ramms portefølje på Vulkan',
+        'Utforsk placeanalyser og eiendomsinformasjon for Aspelin Reitans portefolje på Vulkan',
     },
   },
   'brodrene-evensen': {

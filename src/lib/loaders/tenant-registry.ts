@@ -19,7 +19,7 @@ export interface TenantLoaderApi {
 }
 
 const TENANT_LOADER_REGISTRY: Record<CompanyTenantSlug, TenantLoaderApi> = {
-  'aspelin-ramm': aspelinRamm,
+  'aspelin-reitan': aspelinRamm,
   'brodrene-evensen': brodreneEvensen,
   carucel,
   'eiendomsspar': eiendomsspar,

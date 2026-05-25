@@ -2,7 +2,7 @@ export type TenantType = 'main-board' | 'company';
 
 export type MainBoardTenantSlug = 'main-board';
 export type CompanyTenantSlug =
-  | 'aspelin-ramm'
+  | 'aspelin-reitan'
   | 'brodrene-evensen'
   | 'carucel'
   | 'eiendomsspar'
@@ -61,17 +61,17 @@ export const TENANTS: Record<TenantSlug, TenantConfig> = {
       showAnalyser: true,
     },
   },
-  'aspelin-ramm': {
-    slug: 'aspelin-ramm',
-    name: 'Aspelin Ramm',
-    displayName: 'Eiendomsanalyse - Aspelin Ramm',
+  'aspelin-reitan': {
+    slug: 'aspelin-reitan',
+    name: 'Aspelin Reitan',
+    displayName: 'Eiendomsanalyse - Aspelin Reitan',
     type: 'company',
     primaryLogo: '/images/logos/natural-state.png',
-    secondaryLogo: '/images/logos/aspelin-ramm.png',
-    websiteUrl: 'https://aspelinramm.no',
-    description: 'Placeanalyser og eiendomsinformasjon for Aspelin Ramm sin portefølje på Vulkan, Oslo',
-    keywords: ['Oslo', 'Vulkan', 'eiendom', 'placeanalyse', 'Aspelin Ramm'],
-    emailsEnvVar: 'ASPELIN_RAMM_EMAILS',
+    secondaryLogo: '/images/logos/aspelin-reitan.svg',
+    websiteUrl: 'https://www.aspelinreitan.no',
+    description: 'Placeanalyser og eiendomsinformasjon for Aspelin Reitan sin portefolje på Vulkan, Oslo',
+    keywords: ['Oslo', 'Vulkan', 'eiendom', 'placeanalyse', 'Aspelin Reitan'],
+    emailsEnvVar: 'ASPELIN_REITAN_EMAILS',
     requiresAuth: true,
     features: {
       showMainBoardLink: true,

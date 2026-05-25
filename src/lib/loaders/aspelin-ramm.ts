@@ -1,5 +1,5 @@
 /**
- * Data loaders for Aspelin Ramm properties
+ * Data loaders for Aspelin Reitan properties
  * Uses static imports for Vercel compatibility
  */
 
@@ -7,10 +7,10 @@ import type { Eiendom } from '@/types/eiendom';
 import { ensureEiendomDefaults, ensureAllEiendomDefaults } from '@/lib/utils/property-defaults';
 import { getTenantPropertyIds } from '@/config/tenant-data-manifest';
 
-const TENANT = 'aspelin-ramm';
+const TENANT = 'aspelin-reitan';
 
 /**
- * Load all Aspelin Ramm properties
+ * Load all Aspelin Reitan properties
  */
 export async function loadAllEiendommer(): Promise<Eiendom[]> {
   try {
@@ -25,7 +25,7 @@ export async function loadAllEiendommer(): Promise<Eiendom[]> {
 
     return ensureAllEiendomDefaults(data.map((m) => m.default), TENANT);
   } catch (error) {
-    console.error('Error loading Aspelin Ramm properties:', error);
+    console.error('Error loading Aspelin Reitan properties:', error);
     return [];
   }
 }
@@ -47,5 +47,5 @@ export async function loadEiendom(id: string): Promise<Eiendom | null> {
  * Get list of all property IDs
  */
 export function getAllPropertyIds(): string[] {
-  return getTenantPropertyIds('aspelin-ramm');
+  return getTenantPropertyIds('aspelin-reitan');
 }

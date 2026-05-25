@@ -7,6 +7,16 @@ const nextConfig: NextConfig = {
   },
   redirects: async () => [
     {
+      source: '/aspelin-ramm',
+      destination: '/aspelin-reitan',
+      permanent: true,
+    },
+    {
+      source: '/aspelin-ramm/:path*',
+      destination: '/aspelin-reitan/:path*',
+      permanent: true,
+    },
+    {
       source: '/main-board/analyser/sammenligning-2024',
       destination: '/main-board/analyser/sammenligning/2024',
       permanent: true,

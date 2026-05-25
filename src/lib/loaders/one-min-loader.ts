@@ -101,7 +101,7 @@ const STATIC_DATA: Record<string, () => Promise<OneMinAnalysisData>> = {
     };
   },
 
-  // Aspelin Ramm - Mathallen (legacy format)
+  // Aspelin Reitan - Mathallen, loaded from the legacy Aspelin Ramm data path.
   "aspelin-ramm/mathallen": async () => {
     const [konkurransebilde, korthandel, bevegelse, aktorer] =
       await Promise.all([
@@ -129,7 +129,7 @@ const STATIC_DATA: Record<string, () => Promise<OneMinAnalysisData>> = {
     };
   },
 
-  // Aspelin Ramm - Vulkan Området (5-min analysis)
+  // Aspelin Reitan - Vulkan Området, loaded from the legacy Aspelin Ramm data path.
   "aspelin-ramm/vulkan-omradet": async () => {
     const [
       demografi,
@@ -474,6 +474,10 @@ const STATIC_DATA: Record<string, () => Promise<OneMinAnalysisData>> = {
   },
 };
 
+function normalizeTenantForOneMinData(tenant: string): string {
+  return tenant === "aspelin-reitan" ? "aspelin-ramm" : tenant;
+}
+
 /**
  * Load 1-minute analysis data for a specific property
  *
@@ -485,7 +489,7 @@ export async function loadOneMinAnalysisData(
   tenant: string,
   propertyId: string,
 ): Promise<OneMinAnalysisData | null> {
-  const key = `${tenant}/${propertyId}`;
+  const key = `${normalizeTenantForOneMinData(tenant)}/${propertyId}`;
 
   if (STATIC_DATA[key]) {
     try {
@@ -511,7 +515,7 @@ export function hasOneMinAnalysisData(
   tenant: string,
   propertyId: string,
 ): boolean {
-  const key = `${tenant}/${propertyId}`;
+  const key = `${normalizeTenantForOneMinData(tenant)}/${propertyId}`;
   return key in STATIC_DATA;
 }
 

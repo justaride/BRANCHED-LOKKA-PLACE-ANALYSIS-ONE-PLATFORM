@@ -5,12 +5,20 @@ export function getAllowedEmails(tenant: string): string[] {
   if (!tenantConfig) return [];
 
   const envVar = tenantConfig.emailsEnvVar;
-  const raw = process.env[envVar] || '';
+  const raw = process.env[envVar] || getLegacyTenantEmailsEnv(tenant);
 
   return raw
     .split(',')
     .map((e) => e.trim().toLowerCase())
     .filter(Boolean);
+}
+
+function getLegacyTenantEmailsEnv(tenant: string): string {
+  if (tenant === 'aspelin-reitan') {
+    return process.env.ASPELIN_RAMM_EMAILS || '';
+  }
+
+  return '';
 }
 
 export function getAdminEmails(): string[] {
