@@ -18,6 +18,28 @@ const GRUNERLOKKA_BOUNDS = {
   lngMin: 10.748, lngMax: 10.768,
 };
 
+const FEIL_RAPPORT_EPOST = 'gabriel@naturalstate.no';
+
+function buildFeilMeldingMailto(aktor: AktorWithCoordinates): string {
+  const subject = `Feilmelding aktørkart: ${aktor.navn}`;
+  const pageUrl = typeof window !== 'undefined' ? window.location.href : '';
+  const body = [
+    'Beskriv kort hva som er feil (galt navn, feil adresse, feil kategori, aktøren finnes ikke lenger, ny aktør i lokalet, osv.):',
+    '',
+    '',
+    '---',
+    'Aktørdetaljer (ikke endre):',
+    `Navn: ${aktor.navn}`,
+    `Type: ${aktor.type}`,
+    `Kategori: ${aktor.category}`,
+    `Adresse: ${aktor.adresse}`,
+    `Koordinat: ${aktor.lat}, ${aktor.lng}`,
+    `Rang: ${aktor.rank}`,
+    pageUrl ? `Side: ${pageUrl}` : '',
+  ].filter(Boolean).join('\n');
+  return `mailto:${FEIL_RAPPORT_EPOST}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
 const OUTSIDE_REASONS: Record<string, string> = {
   'SANDAKERVEIEN 24': 'Torshov — like utenfor Løkka, del av handelsområdet',
   'SANDAKERVEIEN 10 E': 'Torshov — like nord for Løkka-grensen',
@@ -285,8 +307,18 @@ export default function AktorMap({
                     <div className="text-[10px] text-gray-400">Ansatte</div>
                   </div>
                 </div>
-                <div className="mt-2 text-right text-[10px] text-gray-400">
-                  Rang {selectedAktor.rank} | {selectedAktor.markedsandel}% markedsandel
+                <div className="mt-2 flex items-center justify-between gap-2 text-[10px] text-gray-400">
+                  <a
+                    href={buildFeilMeldingMailto(selectedAktor)}
+                    className="inline-flex items-center gap-1 rounded-md px-1.5 py-0.5 text-gray-500 hover:bg-gray-100 hover:text-natural-forest"
+                    title="Send oss en e-post hvis noe i kortet er feil"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
+                    </svg>
+                    Meld feil
+                  </a>
+                  <span>Rang {selectedAktor.rank} | {selectedAktor.markedsandel}% markedsandel</span>
                 </div>
               </div>
             </div>
