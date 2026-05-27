@@ -10,6 +10,8 @@ import KeyMetrics from '@/components/property/KeyMetrics';
 import EiendomsprofilExpander from '@/components/property/EiendomsprofilExpander';
 import BusinessActors from '@/components/property/BusinessActors';
 import OneMinAnalysisViewer from '@/components/one-min-analysis/OneMinAnalysisViewer';
+import EndringsloggTimeline from '@/components/eiendom/EndringsloggTimeline';
+import { loadEndringerForEiendom } from '@/lib/eiendom-endringer';
 import FadeIn from '@/components/ui/FadeIn';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -84,6 +86,12 @@ export default async function CompanyEiendomPage({ params }: PageProps) {
   const oneMinData = await loadOneMinAnalysisData(company, id);
   const displayName = eiendom.navn || eiendom.adresse;
   const { totalRevenue, totalActors, topCategory } = getPropertyMetrics(eiendom);
+  const endringer = loadEndringerForEiendom(company, id);
+  const meldEndringHref = `mailto:gabriel@naturalstate.no?subject=${encodeURIComponent(
+    `Ny endring – ${displayName}`,
+  )}&body=${encodeURIComponent(
+    `Eiendom: ${displayName}\nAdresse: ${eiendom.adresse}\nTenant: ${company}\n\nType endring (innflytting / utflytting / annet):\nDato:\nAktør (hvis relevant):\nBeskrivelse:\n`,
+  )}`;
 
   return (
     <>
@@ -220,6 +228,16 @@ export default async function CompanyEiendomPage({ params }: PageProps) {
             historikk={eiendom.tilleggsinfo.historikk}
             adresse={eiendom.adresse}
           />
+        )}
+
+        {endringer.length > 0 && (
+          <div className="mt-8 md:mt-12">
+            <EndringsloggTimeline
+              endringer={endringer}
+              eiendomNavn={displayName}
+              meldFeilHref={meldEndringHref}
+            />
+          </div>
         )}
 
         {/* Show interactive 1-min analysis OR legacy screenshots (not both) */}
