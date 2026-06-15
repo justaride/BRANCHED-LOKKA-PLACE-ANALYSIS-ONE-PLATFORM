@@ -108,7 +108,7 @@ export default function ArshjulDetailPanel({
             <button
               type="button"
               onClick={onClose}
-              className="mt-4 block text-xs text-gray-400 hover:text-gray-600"
+              className="mt-4 block text-xs text-gray-500 hover:text-gray-700"
             >
               Lukk
             </button>
@@ -126,7 +126,7 @@ export default function ArshjulDetailPanel({
             <p className="mt-2 text-sm text-gray-600">
               Klikk en hendelse i hjulet eller agendaen for å se detaljer.
             </p>
-            <p className="mt-4 text-xs text-gray-400">
+            <p className="mt-4 text-xs text-gray-600">
               Tips: bruk piltastene for å bla mellom hendelser, og filtrene for å
               vise eller skjule kategorier.
             </p>

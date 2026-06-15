@@ -2,15 +2,20 @@
 
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { useRouter } from "next/navigation";
-import type { HjulAr, HjulHendelse, HjulKategori } from "@/types/arshjul";
+import type { HjulAr, HjulHendelse, HjulKategori, HjulStatus } from "@/types/arshjul";
+import type { ArshjulKandidat } from "@/data/main-board/arshjul-kandidater-2026";
 import ArshjulWheel from "./ArshjulWheel";
 import ArshjulAgenda from "./ArshjulAgenda";
 import ArshjulDetailPanel from "./ArshjulDetailPanel";
 import ArshjulEditor from "./ArshjulEditor";
+import ArshjulKandidatOversikt from "./ArshjulKandidatOversikt";
 import {
   KATEGORI_FARGE,
   KATEGORI_LABEL,
   KATEGORI_REKKEFOLGE,
+  STATUS_LABEL,
+  STATUS_OPACITY,
+  STATUS_REKKEFOLGE,
   sorterHendelser,
 } from "./arshjulShared";
 
@@ -47,12 +52,16 @@ export default function Arshjul({ years }: ArshjulProps) {
   const [valgtKategorier, setValgtKategorier] = useState<Set<HjulKategori>>(
     new Set(),
   );
+  const [valgtStatuser, setValgtStatuser] = useState<Set<HjulStatus>>(new Set());
   const [valgtHendelse, setValgtHendelse] = useState<HjulHendelse | null>(null);
 
   // Redigering
   const [redaktor, setRedaktor] = useState(false);
   const [editorOpen, setEditorOpen] = useState(false);
   const [editorInitial, setEditorInitial] = useState<HjulHendelse | null>(null);
+  const [editorPrefill, setEditorPrefill] = useState<Partial<HjulHendelse> | null>(
+    null,
+  );
 
   // På små skjermer er agenda standard, men brukerens eget valg overstyrer.
   const erMobil = useSyncExternalStore(
@@ -69,9 +78,12 @@ export default function Arshjul({ years }: ArshjulProps) {
 
   const synlige = useMemo(() => {
     if (!data) return [];
-    if (valgtKategorier.size === 0) return data.hendelser;
-    return data.hendelser.filter((h) => valgtKategorier.has(h.kategori));
-  }, [data, valgtKategorier]);
+    return data.hendelser.filter(
+      (h) =>
+        (valgtKategorier.size === 0 || valgtKategorier.has(h.kategori)) &&
+        (valgtStatuser.size === 0 || valgtStatuser.has(h.status)),
+    );
+  }, [data, valgtKategorier, valgtStatuser]);
 
   function selectRelative(dir: 1 | -1) {
     const sortert = sorterHendelser(synlige);
@@ -97,6 +109,15 @@ export default function Arshjul({ years }: ArshjulProps) {
     });
   }
 
+  function toggleStatus(s: HjulStatus) {
+    setValgtStatuser((prev) => {
+      const ny = new Set(prev);
+      if (ny.has(s)) ny.delete(s);
+      else ny.add(s);
+      return ny;
+    });
+  }
+
   function byttAr(ar: number) {
     setAktivtAr(ar);
     setValgtHendelse(null);
@@ -104,11 +125,27 @@ export default function Arshjul({ years }: ArshjulProps) {
 
   function nyHendelse() {
     setEditorInitial(null);
+    setEditorPrefill(null);
     setEditorOpen(true);
   }
 
   function redigerHendelse(h: HjulHendelse) {
     setEditorInitial(h);
+    setEditorPrefill(null);
+    setEditorOpen(true);
+  }
+
+  function leggTilFraKandidat(kandidat: ArshjulKandidat) {
+    setEditorInitial(null);
+    setEditorPrefill({
+      tittel: kandidat.tittel,
+      ...(kandidat.start ? { start: kandidat.start } : {}),
+      ...(kandidat.slutt ? { slutt: kandidat.slutt } : {}),
+      kategori: kandidat.kategori,
+      status: "planlagt",
+      beskrivelse: kandidat.beskrivelse,
+      lenke: kandidat.kilde,
+    });
     setEditorOpen(true);
   }
 
@@ -191,6 +228,15 @@ export default function Arshjul({ years }: ArshjulProps) {
             </div>
           )}
 
+          <a
+            href={`/api/arshjul/ical?ar=${aktivtAr}`}
+            download={`arshjul-${aktivtAr}.ics`}
+            className="rounded-full border border-gray-200 bg-white px-4 py-1.5 text-sm font-medium text-gray-600 transition hover:text-gray-900"
+            title="Last ned årets hendelser som kalenderfil (.ics)"
+          >
+            Last ned .ics
+          </a>
+
           {redaktor && (
             <button
               type="button"
@@ -237,39 +283,95 @@ export default function Arshjul({ years }: ArshjulProps) {
             />
           )}
 
-          {/* Kategori-filtre (delt mellom visningene) */}
-          <div className="mt-4 flex flex-wrap justify-center gap-2">
-            {KATEGORI_REKKEFOLGE.map((k) => {
-              const aktiv = valgtKategorier.size === 0 || valgtKategorier.has(k);
-              return (
+          {/* Filtre (delt mellom visningene) — fungerer også som tegnforklaring */}
+          <div className="mt-4 space-y-2">
+            <div className="flex flex-wrap items-center justify-center gap-2">
+              <span className="mr-1 text-[11px] font-semibold uppercase tracking-wide text-gray-500">
+                Kategori
+              </span>
+              {KATEGORI_REKKEFOLGE.map((k) => {
+                const aktiv = valgtKategorier.size === 0 || valgtKategorier.has(k);
+                return (
+                  <button
+                    key={k}
+                    type="button"
+                    aria-pressed={valgtKategorier.has(k)}
+                    onClick={() => toggleKategori(k)}
+                    className={`flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium transition ${
+                      aktiv
+                        ? "bg-white shadow-sm ring-1 ring-gray-200"
+                        : "bg-gray-100 text-gray-400"
+                    }`}
+                  >
+                    <span
+                      className="h-2.5 w-2.5 rounded-full"
+                      style={{ backgroundColor: KATEGORI_FARGE[k] }}
+                      aria-hidden
+                    />
+                    {KATEGORI_LABEL[k]}
+                  </button>
+                );
+              })}
+              {valgtKategorier.size > 0 && (
                 <button
-                  key={k}
                   type="button"
-                  aria-pressed={valgtKategorier.has(k)}
-                  onClick={() => toggleKategori(k)}
-                  className={`flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium transition ${
-                    aktiv
-                      ? "bg-white shadow-sm ring-1 ring-gray-200"
-                      : "bg-gray-100 text-gray-400"
-                  }`}
+                  onClick={() => setValgtKategorier(new Set())}
+                  className="rounded-full px-3 py-1 text-xs font-medium text-natural-forest underline hover:no-underline"
                 >
-                  <span
-                    className="h-2.5 w-2.5 rounded-full"
-                    style={{ backgroundColor: KATEGORI_FARGE[k] }}
-                  />
-                  {KATEGORI_LABEL[k]}
+                  Nullstill
                 </button>
-              );
-            })}
-            {valgtKategorier.size > 0 && (
-              <button
-                type="button"
-                onClick={() => setValgtKategorier(new Set())}
-                className="rounded-full px-3 py-1 text-xs font-medium text-natural-forest underline hover:no-underline"
-              >
-                Nullstill
-              </button>
-            )}
+              )}
+            </div>
+
+            <div className="flex flex-wrap items-center justify-center gap-2">
+              <span className="mr-1 text-[11px] font-semibold uppercase tracking-wide text-gray-500">
+                Status
+              </span>
+              {STATUS_REKKEFOLGE.map((s) => {
+                const aktiv = valgtStatuser.size === 0 || valgtStatuser.has(s);
+                return (
+                  <button
+                    key={s}
+                    type="button"
+                    aria-pressed={valgtStatuser.has(s)}
+                    onClick={() => toggleStatus(s)}
+                    title={
+                      s === "avlyst"
+                        ? "Avlyst — vises som åpen ring i hjulet"
+                        : `${STATUS_LABEL[s]} — opasitet ${STATUS_OPACITY[s]}`
+                    }
+                    className={`flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium transition ${
+                      aktiv
+                        ? "bg-white shadow-sm ring-1 ring-gray-200"
+                        : "bg-gray-100 text-gray-400"
+                    }`}
+                  >
+                    {s === "avlyst" ? (
+                      <span
+                        className="h-2.5 w-2.5 rounded-full border-2 border-gray-600"
+                        aria-hidden
+                      />
+                    ) : (
+                      <span
+                        className="h-2.5 w-2.5 rounded-full bg-gray-700"
+                        style={{ opacity: STATUS_OPACITY[s] }}
+                        aria-hidden
+                      />
+                    )}
+                    {STATUS_LABEL[s]}
+                  </button>
+                );
+              })}
+              {valgtStatuser.size > 0 && (
+                <button
+                  type="button"
+                  onClick={() => setValgtStatuser(new Set())}
+                  className="rounded-full px-3 py-1 text-xs font-medium text-natural-forest underline hover:no-underline"
+                >
+                  Nullstill
+                </button>
+              )}
+            </div>
           </div>
         </div>
 
@@ -282,10 +384,16 @@ export default function Arshjul({ years }: ArshjulProps) {
         />
       </div>
 
+      <ArshjulKandidatOversikt
+        redaktor={redaktor}
+        onLeggTil={leggTilFraKandidat}
+      />
+
       {editorOpen && (
         <ArshjulEditor
-          key={editorInitial?.id ?? "ny"}
+          key={editorInitial?.id ?? editorPrefill?.tittel ?? "ny"}
           initial={editorInitial}
+          prefill={editorPrefill}
           onClose={() => setEditorOpen(false)}
           onSaved={lagret}
         />

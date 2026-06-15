@@ -10,6 +10,8 @@ const STATUSER: HjulStatus[] = ["planlagt", "bekreftet", "gjennomfort", "avlyst"
 interface Props {
   /** null = ny hendelse */
   initial: HjulHendelse | null;
+  /** Forhåndsutfylling ved ny hendelse (f.eks. fra en kandidat). Lagres som ny. */
+  prefill?: Partial<HjulHendelse> | null;
   onClose: () => void;
   onSaved: () => void;
 }
@@ -17,18 +19,29 @@ interface Props {
 const felt =
   "w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-natural-forest focus:outline-none focus:ring-1 focus:ring-natural-forest";
 
-export default function ArshjulEditor({ initial, onClose, onSaved }: Props) {
+export default function ArshjulEditor({
+  initial,
+  prefill,
+  onClose,
+  onSaved,
+}: Props) {
   const reduce = useReducedMotion();
-  const [tittel, setTittel] = useState(initial?.tittel ?? "");
-  const [start, setStart] = useState(initial?.start ?? "");
-  const [slutt, setSlutt] = useState(initial?.slutt ?? "");
+  const [tittel, setTittel] = useState(initial?.tittel ?? prefill?.tittel ?? "");
+  const [start, setStart] = useState(initial?.start ?? prefill?.start ?? "");
+  const [slutt, setSlutt] = useState(initial?.slutt ?? prefill?.slutt ?? "");
   const [kategori, setKategori] = useState<HjulKategori>(
-    initial?.kategori ?? "arrangement",
+    initial?.kategori ?? prefill?.kategori ?? "arrangement",
   );
-  const [status, setStatus] = useState<HjulStatus>(initial?.status ?? "planlagt");
-  const [beskrivelse, setBeskrivelse] = useState(initial?.beskrivelse ?? "");
-  const [lenke, setLenke] = useState(initial?.lenke ?? "");
-  const [ansvarlig, setAnsvarlig] = useState(initial?.ansvarlig ?? "");
+  const [status, setStatus] = useState<HjulStatus>(
+    initial?.status ?? prefill?.status ?? "planlagt",
+  );
+  const [beskrivelse, setBeskrivelse] = useState(
+    initial?.beskrivelse ?? prefill?.beskrivelse ?? "",
+  );
+  const [lenke, setLenke] = useState(initial?.lenke ?? prefill?.lenke ?? "");
+  const [ansvarlig, setAnsvarlig] = useState(
+    initial?.ansvarlig ?? prefill?.ansvarlig ?? "",
+  );
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
 

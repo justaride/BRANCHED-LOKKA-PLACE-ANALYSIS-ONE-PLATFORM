@@ -88,7 +88,7 @@ export default function ArshjulAgenda({
       <div className="space-y-6">
         {grupper.map(([maaned, hendelser]) => (
           <section key={maaned}>
-            <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-gray-400">
+            <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-gray-500">
               {MAANED_NAVN[maaned]}
             </h3>
             <ul className="space-y-1.5">
@@ -138,7 +138,7 @@ export default function ArshjulAgenda({
                             </span>
                           )}
                         </span>
-                        <span className="mt-0.5 flex items-center gap-2 text-xs text-gray-400">
+                        <span className="mt-0.5 flex items-center gap-2 text-xs text-gray-600">
                           <span>{KATEGORI_LABEL[h.kategori]}</span>
                           <span aria-hidden>·</span>
                           <span>{STATUS_LABEL[h.status]}</span>

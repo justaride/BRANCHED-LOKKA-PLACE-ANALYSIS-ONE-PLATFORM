@@ -2,15 +2,11 @@
 
 import { useMemo, useState } from "react";
 import { motion, useReducedMotion } from "framer-motion";
-import {
-  dayOfYear,
-  daysInYear,
-  hendelseTilPunkt,
-  tildelRadiusOffset,
-} from "@/lib/arshjul";
-import type { HjulAr, HjulHendelse } from "@/types/arshjul";
+import { dayOfYear, daysInYear, hendelseTilPunkt } from "@/lib/arshjul";
+import type { HjulAr, HjulHendelse, HjulKategori } from "@/types/arshjul";
 import {
   KATEGORI_FARGE,
+  KATEGORI_REKKEFOLGE,
   MAANEDER,
   STATUS_LABEL,
   STATUS_OPACITY,
@@ -28,8 +24,8 @@ interface Props {
 
 const CX = 280;
 const CY = 280;
-const BASE_RADIUS = 220;
-const INNER_RADIUS = 160;
+const OUTER_RING = 216;
+const INNER_RING = 120;
 const SVG_PRECISION = 4;
 
 function svgNum(value: number): number {
@@ -46,26 +42,43 @@ export default function ArshjulWheel({
   const reduce = useReducedMotion();
   const [hoveredId, setHoveredId] = useState<string | null>(null);
 
-  const radiusOffsets = useMemo(
-    () => tildelRadiusOffset(synlige, BASE_RADIUS, 18),
-    [synlige],
-  );
+  // Én konsentrisk ring per kategori som finnes i årets data.
+  // Layouten er stabil (basert på data, ikke filteret) slik at filtrering
+  // dimmer/skjuler prikker uten at ringene flytter seg.
+  const kategoriRinger = useMemo(() => {
+    const tilstede = KATEGORI_REKKEFOLGE.filter((k) =>
+      data.hendelser.some((h) => h.kategori === k),
+    );
+    const n = tilstede.length;
+    const map = new Map<HjulKategori, number>();
+    tilstede.forEach((k, i) => {
+      const r =
+        n <= 1
+          ? (OUTER_RING + INNER_RING) / 2
+          : OUTER_RING - (i * (OUTER_RING - INNER_RING)) / (n - 1);
+      map.set(k, r);
+    });
+    return map;
+  }, [data.hendelser]);
+
+  const ringFor = (k: HjulKategori): number =>
+    kategoriRinger.get(k) ?? (OUTER_RING + INNER_RING) / 2;
 
   const maanedSegmenter = useMemo(
     () =>
       MAANEDER.map((maaned, i) => {
         const vinkelStart = (i / 12) * 2 * Math.PI - Math.PI / 2;
         const vinkelMidt = vinkelStart + (1 / 12) * Math.PI;
-        const labelR = BASE_RADIUS + 30;
+        const labelR = OUTER_RING + 28;
         return {
           maaned,
           labelX: svgNum(CX + labelR * Math.cos(vinkelMidt)),
           labelY: svgNum(CY + labelR * Math.sin(vinkelMidt)),
           line: {
-            x1: svgNum(CX + (INNER_RADIUS - 10) * Math.cos(vinkelStart)),
-            y1: svgNum(CY + (INNER_RADIUS - 10) * Math.sin(vinkelStart)),
-            x2: svgNum(CX + (BASE_RADIUS + 10) * Math.cos(vinkelStart)),
-            y2: svgNum(CY + (BASE_RADIUS + 10) * Math.sin(vinkelStart)),
+            x1: svgNum(CX + (INNER_RING - 12) * Math.cos(vinkelStart)),
+            y1: svgNum(CY + (INNER_RING - 12) * Math.sin(vinkelStart)),
+            x2: svgNum(CX + (OUTER_RING + 10) * Math.cos(vinkelStart)),
+            y2: svgNum(CY + (OUTER_RING + 10) * Math.sin(vinkelStart)),
           },
         };
       }),
@@ -79,12 +92,12 @@ export default function ArshjulWheel({
     const iso = now.toISOString().slice(0, 10);
     const vinkel = (dayOfYear(iso) / daysInYear(data.ar)) * 2 * Math.PI - Math.PI / 2;
     return {
-      x1: svgNum(CX + (INNER_RADIUS - 6) * Math.cos(vinkel)),
-      y1: svgNum(CY + (INNER_RADIUS - 6) * Math.sin(vinkel)),
-      x2: svgNum(CX + (BASE_RADIUS + 14) * Math.cos(vinkel)),
-      y2: svgNum(CY + (BASE_RADIUS + 14) * Math.sin(vinkel)),
-      lx: svgNum(CX + (BASE_RADIUS + 30) * Math.cos(vinkel)),
-      ly: svgNum(CY + (BASE_RADIUS + 30) * Math.sin(vinkel)),
+      x1: svgNum(CX + (INNER_RING - 6) * Math.cos(vinkel)),
+      y1: svgNum(CY + (INNER_RING - 6) * Math.sin(vinkel)),
+      x2: svgNum(CX + (OUTER_RING + 14) * Math.cos(vinkel)),
+      y2: svgNum(CY + (OUTER_RING + 14) * Math.sin(vinkel)),
+      lx: svgNum(CX + (OUTER_RING + 30) * Math.cos(vinkel)),
+      ly: svgNum(CY + (OUTER_RING + 30) * Math.sin(vinkel)),
     };
   }, [data.ar]);
 
@@ -103,12 +116,23 @@ export default function ArshjulWheel({
       viewBox="0 0 560 560"
       className="mx-auto h-auto w-full max-w-[560px] outline-none focus-visible:ring-2 focus-visible:ring-natural-forest/40 rounded-2xl"
       role="group"
-      aria-label={`Årshjul for ${data.ar}. Bruk piltastene for å bla mellom ${synlige.length} hendelser.`}
+      aria-label={`Årshjul for ${data.ar} med ${kategoriRinger.size} kategori-ringer. Bruk piltastene for å bla mellom ${synlige.length} hendelser.`}
       tabIndex={0}
       onKeyDown={onKeyDown}
     >
-      <circle cx={CX} cy={CY} r={BASE_RADIUS} fill="none" stroke="#e5e7eb" strokeWidth={1} />
-      <circle cx={CX} cy={CY} r={INNER_RADIUS} fill="none" stroke="#f3f4f6" strokeWidth={1} />
+      {/* Kategori-ringer: én svakt farget guide-sirkel per kategori. */}
+      {[...kategoriRinger.entries()].map(([kat, r]) => (
+        <circle
+          key={kat}
+          cx={CX}
+          cy={CY}
+          r={svgNum(r)}
+          fill="none"
+          stroke={KATEGORI_FARGE[kat]}
+          strokeOpacity={0.25}
+          strokeWidth={1}
+        />
+      ))}
 
       {maanedSegmenter.map((s) => (
         <g key={s.maaned}>
@@ -171,7 +195,7 @@ export default function ArshjulWheel({
         }}
       >
         {synlige.map((h) => {
-          const r = radiusOffsets.get(h.id) ?? BASE_RADIUS;
+          const r = ringFor(h.kategori);
           const punkt = hendelseTilPunkt(h, CX, CY, r, data.ar);
           const punktX = svgNum(punkt.x);
           const punktY = svgNum(punkt.y);
@@ -179,6 +203,7 @@ export default function ArshjulWheel({
           const erHover = hoveredId === h.id;
           const farge = KATEGORI_FARGE[h.kategori];
           const opacity = STATUS_OPACITY[h.status];
+          const erAvlyst = h.status === "avlyst";
           const aria = `${h.tittel}, ${formatDateRange(h.start, h.slutt)}, ${STATUS_LABEL[h.status]}`;
 
           const harSlutt = h.slutt && h.slutt !== h.start;
@@ -199,6 +224,9 @@ export default function ArshjulWheel({
               onMouseLeave={() => setHoveredId((id) => (id === h.id ? null : id))}
             >
               <title>{aria}</title>
+
+              {/* Usynlig trefflate (≥24px) for tilgjengelig klikkmål (WCAG 2.5.8). */}
+              <circle cx={punktX} cy={punktY} r={14} fill="transparent" />
 
               {harSlutt &&
                 (() => {
@@ -227,9 +255,9 @@ export default function ArshjulWheel({
               <motion.circle
                 cx={punktX}
                 cy={punktY}
-                fill={farge}
+                fill={erAvlyst ? "none" : farge}
                 opacity={opacity}
-                stroke="white"
+                stroke={erAvlyst ? farge : "white"}
                 strokeWidth={2}
                 initial={false}
                 animate={{ r: dotR }}

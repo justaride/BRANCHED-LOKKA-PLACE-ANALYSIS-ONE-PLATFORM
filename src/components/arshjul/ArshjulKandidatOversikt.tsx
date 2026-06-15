@@ -47,7 +47,13 @@ function sorterKandidater(a: ArshjulKandidat, b: ArshjulKandidat): number {
   return aDato.localeCompare(bDato) || a.tittel.localeCompare(b.tittel);
 }
 
-export default function ArshjulKandidatOversikt() {
+interface Props {
+  /** Vis «Legg til i årshjul» når redaktørmodus er på. */
+  redaktor?: boolean;
+  onLeggTil?: (kandidat: ArshjulKandidat) => void;
+}
+
+export default function ArshjulKandidatOversikt({ redaktor, onLeggTil }: Props) {
   const [aktivStatus, setAktivStatus] = useState<ArshjulKandidatStatus | "alle">(
     "alle",
   );
@@ -233,14 +239,25 @@ export default function ArshjulKandidatOversikt() {
                   </p>
                 )}
 
-                <a
-                  href={kandidat.kilde}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-auto pt-4 text-sm font-medium text-natural-forest underline decoration-natural-forest/30 underline-offset-4 hover:decoration-natural-forest"
-                >
-                  Åpne kilde
-                </a>
+                <div className="mt-auto flex flex-wrap items-center justify-between gap-2 pt-4">
+                  {redaktor && onLeggTil && (
+                    <button
+                      type="button"
+                      onClick={() => onLeggTil(kandidat)}
+                      className="rounded-full bg-natural-forest px-3 py-1.5 text-xs font-medium text-white transition hover:bg-natural-forest/90"
+                    >
+                      + Legg til i årshjul
+                    </button>
+                  )}
+                  <a
+                    href={kandidat.kilde}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm font-medium text-natural-forest underline decoration-natural-forest/30 underline-offset-4 hover:decoration-natural-forest"
+                  >
+                    Åpne kilde
+                  </a>
+                </div>
               </article>
             ))}
           </div>

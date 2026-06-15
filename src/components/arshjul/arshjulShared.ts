@@ -61,6 +61,14 @@ export const STATUS_OPACITY: Record<HjulStatus, number> = {
   avlyst: 0.3,
 };
 
+/** Rekkefølge for status-filter og tegnforklaring. */
+export const STATUS_REKKEFOLGE: HjulStatus[] = [
+  "planlagt",
+  "bekreftet",
+  "gjennomfort",
+  "avlyst",
+];
+
 export const MAANEDER = [
   "JAN",
   "FEB",
