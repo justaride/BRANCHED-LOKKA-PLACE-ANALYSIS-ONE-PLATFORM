@@ -1,0 +1,141 @@
+{
+  "ar": 2026,
+  "hendelser": [
+    {
+      "id": "styremote-2026-q1",
+      "tittel": "Styremøte Q1",
+      "start": "2026-02-12",
+      "kategori": "styremote",
+      "status": "gjennomfort",
+      "ansvarlig": "Løkka Gårdeierforening"
+    },
+    {
+      "id": "aktor-aktivitet-var",
+      "tittel": "Aktør- og aktivitetsmøte vår",
+      "start": "2026-03-18",
+      "kategori": "aktor-aktivitet",
+      "status": "gjennomfort",
+      "beskrivelse": "Halvårlig fellesmøte med gårdeiere og næringsdrivende.",
+      "ansvarlig": "Løkka Gårdeierforening"
+    },
+    {
+      "id": "rapport-l04",
+      "tittel": "Kvartalsrapport L04",
+      "start": "2026-04-05",
+      "kategori": "rapport",
+      "status": "gjennomfort",
+      "lenke": "/main-board/lokka-i-tall"
+    },
+    {
+      "id": "dataverksted-mai",
+      "tittel": "Dataverksted 21. mai",
+      "start": "2026-05-21",
+      "kategori": "workshop",
+      "status": "gjennomfort",
+      "beskrivelse": "Workshop med Natural State og gårdeiere om datakvalitet og verktøyutvikling."
+    },
+    {
+      "id": "cross-pollination-2026",
+      "tittel": "Cross-Pollination Workshop",
+      "start": "2026-06-14",
+      "slutt": "2026-06-16",
+      "kategori": "fou",
+      "status": "bekreftet",
+      "beskrivelse": "FoU-samling om byutvikling og inkluderende handelsgater.",
+      "ansvarlig": "Natural State + partnere"
+    },
+    {
+      "id": "visit-lokka-sommerfest",
+      "tittel": "Vulkan Sommerfest",
+      "start": "2026-06-20",
+      "slutt": "2026-06-21",
+      "kategori": "visit-lokka",
+      "status": "bekreftet"
+    },
+    {
+      "id": "visit-lokka-jazz",
+      "tittel": "Oslo Jazzfestival på Løkka",
+      "start": "2026-08-15",
+      "slutt": "2026-08-22",
+      "kategori": "visit-lokka",
+      "status": "planlagt"
+    },
+    {
+      "id": "rapport-l05",
+      "tittel": "Kvartalsrapport L05",
+      "start": "2026-07-05",
+      "kategori": "rapport",
+      "status": "planlagt"
+    },
+    {
+      "id": "styremote-2026-q3",
+      "tittel": "Styremøte Q3",
+      "start": "2026-09-10",
+      "kategori": "styremote",
+      "status": "planlagt"
+    },
+    {
+      "id": "identitet-workshop",
+      "tittel": "Workshop: identitet og inntekt",
+      "start": "2026-09-03",
+      "kategori": "workshop",
+      "status": "planlagt",
+      "beskrivelse": "Strukturert kartlegging av Løkkas identitet sammen med gårdeiere."
+    },
+    {
+      "id": "aktor-aktivitet-host",
+      "tittel": "Aktør- og aktivitetsmøte høst",
+      "start": "2026-10-21",
+      "kategori": "aktor-aktivitet",
+      "status": "planlagt",
+      "ansvarlig": "Løkka Gårdeierforening"
+    },
+    {
+      "id": "kampanje-julehandel",
+      "tittel": "Julehandel-kampanje",
+      "start": "2026-11-15",
+      "slutt": "2026-12-23",
+      "kategori": "kampanje",
+      "status": "planlagt",
+      "ansvarlig": "Visit Løkka"
+    },
+    {
+      "id": "visit-lokka-julemarked",
+      "tittel": "Julemarked på Mathallen",
+      "start": "2026-12-04",
+      "slutt": "2026-12-13",
+      "kategori": "visit-lokka",
+      "status": "planlagt"
+    },
+    {
+      "id": "rapport-arsrapport",
+      "tittel": "Årsrapport 2026",
+      "start": "2026-12-15",
+      "kategori": "rapport",
+      "status": "planlagt"
+    },
+    {
+      "id": "styremote-2026-q4",
+      "tittel": "Styremøte Q4",
+      "start": "2026-12-09",
+      "kategori": "styremote",
+      "status": "planlagt"
+    },
+    {
+      "id": "inclusive-city",
+      "tittel": "Inclusive City presentasjon",
+      "start": "2026-11-04",
+      "kategori": "fou",
+      "status": "planlagt",
+      "beskrivelse": "Resultater fra inkluderende byutvikling-prosjekt."
+    },
+    {
+      "id": "kampanje-paske",
+      "tittel": "Påske-kampanje",
+      "start": "2026-03-25",
+      "slutt": "2026-04-06",
+      "kategori": "kampanje",
+      "status": "gjennomfort"
+    }
+  ]
+}
