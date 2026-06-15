@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Container from "@/components/ui/Container";
 import Arshjul from "@/components/arshjul/Arshjul";
+import ArshjulKandidatOversikt from "@/components/arshjul/ArshjulKandidatOversikt";
 import { getArshjulYears } from "@/lib/arshjul-store";
 
 export const dynamic = "force-dynamic";
@@ -35,6 +36,7 @@ export default async function ArshjulPage() {
       <section className="py-8 md:py-12">
         <Container>
           <Arshjul years={years} />
+          <ArshjulKandidatOversikt />
         </Container>
       </section>
     </main>
