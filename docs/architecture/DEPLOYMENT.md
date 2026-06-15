@@ -55,10 +55,7 @@ NODE_ENV=production
 NEXT_PUBLIC_SITE_URL=https://<production-domain>
 NEXT_PUBLIC_GOOGLE_FORM_URL=https://forms.gle/btff6meFZSHaYHUE9
 
-# Auth
-AUTH_SECRET=<openssl rand -hex 32>
-RESEND_API_KEY=<resend-api-key>
-AUTH_FROM_EMAIL=<sender@domain>
+# Cloudflare Access handles authentication before requests reach the app.
 ADMIN_EMAILS=<comma-separated>
 
 # Tenant email allowlists
@@ -75,7 +72,7 @@ ROGER_VODAL_EMAILS=
 SIO_EMAILS=
 SPABO_EMAILS=
 
-# Legacy password fallback is deprecated. Current tenant access uses email allowlists and OTP.
+# Legacy in-app OTP/password auth is removed. Keep access control in Cloudflare Access.
 ```
 
 Ved endring av env vars: kjør ny deploy fra Coolify.
@@ -98,8 +95,8 @@ Ved endring av env vars: kjør ny deploy fra Coolify.
 ## Etter deploy (checklist)
 
 - Landing page svarer 200
-- `/main-board` login fungerer
-- OTP-flow fungerer (request + verify)
+- Cloudflare Access protects the production domain
+- `/main-board` loads after Cloudflare authentication
 - Minst 2 tenant-sider fungerer
 - Nøkkel-analyser laster uten runtime-feil
 - Ingen kritiske errors i Coolify logs
@@ -110,7 +107,7 @@ Ved endring av env vars: kjør ny deploy fra Coolify.
 
 - Cache static assets normalt (`/_next/static`, bilder, fonts)
 - Bypass cache for HTML/auth-sensitive ruter
-- Bruk `Vary: Cookie` + private/no-store på auth-beskyttet innhold
+- Hold HTML/auth-sensitive ruter uten edge-cache
 
 ---
 
@@ -120,7 +117,7 @@ Ved endring av env vars: kjør ny deploy fra Coolify.
 
 1. Finn siste grønne deploy i Coolify.
 2. Redeploy den versjonen.
-3. Bekreft helse og login.
+3. Bekreft helse og Cloudflare Access.
 
 ### Option B: Git revert
 
@@ -146,11 +143,11 @@ Dette trigger ny deploy i Coolify med revert.
 - Sjekk start command og port i Coolify
 - Sjekk runtime logs for manglende env vars
 
-### Login/OTP feiler i produksjon
+### Cloudflare Access feiler i produksjon
 
-- Verifiser `AUTH_SECRET`, `RESEND_API_KEY`, `AUTH_FROM_EMAIL`
-- Verifiser tenant e-postallowlist env vars
-- Verifiser Cloudflare cache bypass for HTML/auth
+- Verifiser Cloudflare Access application policy
+- Verifiser Cloudflare DNS/proxy peker til riktig Coolify origin
+- Verifiser Cloudflare cache bypass for HTML
 
 ---
 

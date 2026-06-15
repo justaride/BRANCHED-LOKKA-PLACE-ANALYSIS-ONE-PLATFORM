@@ -43,7 +43,7 @@ Denne guiden beskriver aktiv drift: **Coolify + Hetzner + Cloudflare**.
 4. Bekreft auto-deploy i Coolify.
 5. Kjør produksjonssmoke:
    - landing page
-   - auth flow (OTP + fallback)
+   - Cloudflare Access-policy
    - sentrale analyser
 
 ---
@@ -102,11 +102,11 @@ git push origin main
 - Sjekk manglende env vars
 - Sjekk logs for auth/runtime exceptions
 
-## Auth-problemer
+## Cloudflare Access-problemer
 
-- Verifiser `AUTH_SECRET`, `RESEND_API_KEY`, `AUTH_FROM_EMAIL`
-- Verifiser `ADMIN_EMAILS` og tenant `*_EMAILS`
-- Verifiser Cloudflare cache bypass for HTML/auth-ruter
+- Verifiser Cloudflare Access application policy
+- Verifiser Cloudflare DNS/proxy peker til riktig Coolify origin
+- Verifiser Cloudflare cache bypass for HTML
 
 ---
 

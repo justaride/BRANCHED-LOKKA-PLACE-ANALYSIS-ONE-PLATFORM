@@ -33,8 +33,8 @@ Anbefalt tilnærming: bygg i **fire faser** der hver fase gir noe brukbart. Fase
 | Interaktivitet | Kategori-filter (chips), klikk → detaljpanel, hover-tooltip (`<title>`) | samme |
 | Rute | `/main-board/arshjul` (server-side `loadArshjul(2026)`) | `src/app/main-board/arshjul/page.tsx` |
 | Data | Statisk JSON, 17 hendelser, 2026, delt under `main-board` | `src/data/main-board/arshjul-2026.json` |
-| Auth | OTP-e-post → JWT (`jose`), 90 dager, delt tilgang | `src/lib/auth.ts` |
-| E-post | Resend, `noreply@naturalstateproject.com` | `src/lib/email.ts` |
+| Auth | Cloudflare Access foran appen; ingen intern `/login` eller OTP-API | Cloudflare |
+| E-post | Ikke brukt for innlogging; fremtidige påminnelser må få egen e-postmodul | TBD |
 | Deploy | Next 16 `output: 'standalone'`, Docker på Coolify/Hetzner | `next.config.ts`, `CLAUDE.md` |
 | Tema | Tailwind 4, `natural-forest #2C5F2D`, `sage`, `sand`, `lokka.accent #F4A259` | `tailwind.config.ts`, `src/lib/design-tokens.ts` |
 

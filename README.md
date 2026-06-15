@@ -50,7 +50,7 @@ This platform serves **10 separate tenants** under one codebase:
 ### Key Features
 
 ✅ **Multi-Tenant Architecture** - One app, ten tenant surfaces
-✅ **Unified Authentication** - Email OTP/JWT session with shared platform access
+✅ **Cloudflare Access** - Authentication is handled at the edge before traffic reaches the app
 ✅ **Dynamic Routing** - Easy to add new companies
 ✅ **51 Properties** - Complete place analysis data
 ✅ **Professional Design** - Portfolio hero images & responsive UI
@@ -100,9 +100,9 @@ This platform serves **10 separate tenants** under one codebase:
 - ✅ Server Components for optimal performance
 - ✅ Static generation where possible
 - ✅ Image optimization with next/image
-- ✅ Route protection proxy
+- ✅ Cloudflare Access at the edge
 - ✅ Type-safe data loading
-- ✅ Cookie-based authentication
+- ✅ Maintenance mode and tenant route guard
 - ✅ Silent failure detection with prebuild verification
 - ✅ Jest unit tests with 70% coverage threshold
 
@@ -159,7 +159,7 @@ lokka-gardeierforening-platform/
 │   └── images/                 # Images & screenshots
 │       ├── companies/          # Portfolio hero images
 │       └── areas/              # Area images
-├── proxy.ts                    # Route protection
+├── proxy.ts                    # Maintenance mode and tenant route guard
 ├── jest.config.js              # Jest test configuration
 └── tailwind.config.ts         # Tailwind configuration
 ```
@@ -170,21 +170,9 @@ lokka-gardeierforening-platform/
 
 ### How It Works
 
-The platform uses **unified authentication**:
-- Email OTP flow with signed JWT session cookie
-- Single `lokka-session` cookie with 90-day expiry
-- Sliding refresh after 30 days
-- Authenticated users can access all tenant surfaces
+Authentication is handled by **Cloudflare Access** in front of the Coolify app. The Next.js app does not expose a `/login` route or an OTP auth API.
 
-### Local Development
-
-```bash
-DISABLE_TENANT_AUTH=true npm run dev
-```
-
-### Cookie Name
-
-- `lokka-session`
+`src/proxy.ts` only handles maintenance mode and redirects unknown tenant slugs back to the landing page.
 
 ---
 
