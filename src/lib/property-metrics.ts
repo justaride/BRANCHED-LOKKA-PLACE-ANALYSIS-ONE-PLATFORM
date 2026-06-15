@@ -1,4 +1,4 @@
-import type { Eiendom } from '@/types/eiendom';
+import type { EiendomMaskert } from '@/lib/synlighet/eiendom';
 
 export interface PropertyMetrics {
   totalRevenue: number;
@@ -6,10 +6,10 @@ export interface PropertyMetrics {
   topCategory: string;
 }
 
-export function getPropertyMetrics(eiendom: Eiendom): PropertyMetrics {
+export function getPropertyMetrics(eiendom: EiendomMaskert): PropertyMetrics {
   const totalRevenue =
     eiendom.naringsaktorer?.actors?.reduce(
-      (sum, actor) => sum + (actor.omsetning || 0),
+      (sum, actor) => sum + (typeof actor.omsetning === 'number' ? actor.omsetning : 0),
       0,
     ) || 0;
 
