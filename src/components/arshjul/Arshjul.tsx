@@ -1,10 +1,12 @@
 "use client";
 
 import { useMemo, useState, useSyncExternalStore } from "react";
+import { useRouter } from "next/navigation";
 import type { HjulAr, HjulHendelse, HjulKategori } from "@/types/arshjul";
 import ArshjulWheel from "./ArshjulWheel";
 import ArshjulAgenda from "./ArshjulAgenda";
 import ArshjulDetailPanel from "./ArshjulDetailPanel";
+import ArshjulEditor from "./ArshjulEditor";
 import {
   KATEGORI_FARGE,
   KATEGORI_LABEL,
@@ -30,6 +32,8 @@ interface ArshjulProps {
 }
 
 export default function Arshjul({ years }: ArshjulProps) {
+  const router = useRouter();
+
   const aarListe = useMemo(
     () => [...years].map((y) => y.ar).sort((a, b) => b - a),
     [years],
@@ -44,6 +48,11 @@ export default function Arshjul({ years }: ArshjulProps) {
     new Set(),
   );
   const [valgtHendelse, setValgtHendelse] = useState<HjulHendelse | null>(null);
+
+  // Redigering
+  const [redaktor, setRedaktor] = useState(false);
+  const [editorOpen, setEditorOpen] = useState(false);
+  const [editorInitial, setEditorInitial] = useState<HjulHendelse | null>(null);
 
   // På små skjermer er agenda standard, men brukerens eget valg overstyrer.
   const erMobil = useSyncExternalStore(
@@ -93,15 +102,46 @@ export default function Arshjul({ years }: ArshjulProps) {
     setValgtHendelse(null);
   }
 
+  function nyHendelse() {
+    setEditorInitial(null);
+    setEditorOpen(true);
+  }
+
+  function redigerHendelse(h: HjulHendelse) {
+    setEditorInitial(h);
+    setEditorOpen(true);
+  }
+
+  function lagret() {
+    setEditorOpen(false);
+    router.refresh(); // re-render server-komponenten med ferske DB-data
+  }
+
+  async function slettHendelse(h: HjulHendelse) {
+    if (!confirm(`Slette «${h.tittel}»?`)) return;
+    const res = await fetch(`/api/arshjul/${h.id}`, { method: "DELETE" });
+    if (res.ok) {
+      setValgtHendelse(null);
+      router.refresh();
+    } else {
+      const d = (await res.json().catch(() => null)) as { error?: string } | null;
+      alert(
+        d?.error === "Database ikke konfigurert"
+          ? "Sletting krever at databasen er koblet til."
+          : "Sletting feilet.",
+      );
+    }
+  }
+
   if (!data) return null;
 
   return (
     <div
       onKeyDown={(e) => {
-        if (e.key === "Escape") setValgtHendelse(null);
+        if (e.key === "Escape" && !editorOpen) setValgtHendelse(null);
       }}
     >
-      {/* Kontroller: visningsbytte + år */}
+      {/* Kontroller: visningsbytte + år + redigering */}
       <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
         <div
           className="inline-flex rounded-full border border-gray-200 bg-white p-1"
@@ -126,29 +166,54 @@ export default function Arshjul({ years }: ArshjulProps) {
           ))}
         </div>
 
-        {aarListe.length > 1 && (
-          <div
-            className="inline-flex rounded-full border border-gray-200 bg-white p-1"
-            role="group"
-            aria-label="Velg år"
+        <div className="flex flex-wrap items-center gap-2">
+          {aarListe.length > 1 && (
+            <div
+              className="inline-flex rounded-full border border-gray-200 bg-white p-1"
+              role="group"
+              aria-label="Velg år"
+            >
+              {aarListe.map((ar) => (
+                <button
+                  key={ar}
+                  type="button"
+                  aria-pressed={aktivtAr === ar}
+                  onClick={() => byttAr(ar)}
+                  className={`rounded-full px-3 py-1.5 text-sm font-medium tabular-nums transition ${
+                    aktivtAr === ar
+                      ? "bg-natural-forest text-white shadow-sm"
+                      : "text-gray-600 hover:text-gray-900"
+                  }`}
+                >
+                  {ar}
+                </button>
+              ))}
+            </div>
+          )}
+
+          {redaktor && (
+            <button
+              type="button"
+              onClick={nyHendelse}
+              className="rounded-full bg-natural-forest px-4 py-1.5 text-sm font-medium text-white shadow-sm hover:bg-natural-forest/90"
+            >
+              + Ny hendelse
+            </button>
+          )}
+
+          <button
+            type="button"
+            onClick={() => setRedaktor((r) => !r)}
+            aria-pressed={redaktor}
+            className={`rounded-full border px-4 py-1.5 text-sm font-medium transition ${
+              redaktor
+                ? "border-natural-forest bg-natural-forest/10 text-natural-forest"
+                : "border-gray-200 bg-white text-gray-600 hover:text-gray-900"
+            }`}
           >
-            {aarListe.map((ar) => (
-              <button
-                key={ar}
-                type="button"
-                aria-pressed={aktivtAr === ar}
-                onClick={() => byttAr(ar)}
-                className={`rounded-full px-3 py-1.5 text-sm font-medium tabular-nums transition ${
-                  aktivtAr === ar
-                    ? "bg-natural-forest text-white shadow-sm"
-                    : "text-gray-600 hover:text-gray-900"
-                }`}
-              >
-                {ar}
-              </button>
-            ))}
-          </div>
-        )}
+            {redaktor ? "Redigerer" : "Rediger"}
+          </button>
+        </div>
       </div>
 
       <div className="grid gap-6 lg:grid-cols-[1fr,320px]">
@@ -211,8 +276,20 @@ export default function Arshjul({ years }: ArshjulProps) {
         <ArshjulDetailPanel
           hendelse={valgtHendelse}
           onClose={() => setValgtHendelse(null)}
+          editable={redaktor}
+          onEdit={redigerHendelse}
+          onDelete={slettHendelse}
         />
       </div>
+
+      {editorOpen && (
+        <ArshjulEditor
+          key={editorInitial?.id ?? "ny"}
+          initial={editorInitial}
+          onClose={() => setEditorOpen(false)}
+          onSaved={lagret}
+        />
+      )}
     </div>
   );
 }

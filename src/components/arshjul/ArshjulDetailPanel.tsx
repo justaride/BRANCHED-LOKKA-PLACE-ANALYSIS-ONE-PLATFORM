@@ -13,9 +13,18 @@ import {
 interface Props {
   hendelse: HjulHendelse | null;
   onClose: () => void;
+  editable?: boolean;
+  onEdit?: (h: HjulHendelse) => void;
+  onDelete?: (h: HjulHendelse) => void;
 }
 
-export default function ArshjulDetailPanel({ hendelse, onClose }: Props) {
+export default function ArshjulDetailPanel({
+  hendelse,
+  onClose,
+  editable,
+  onEdit,
+  onDelete,
+}: Props) {
   const reduce = useReducedMotion();
 
   return (
@@ -78,6 +87,24 @@ export default function ArshjulDetailPanel({ hendelse, onClose }: Props) {
                   Se mer →
                 </a>
               ))}
+            {editable && (
+              <div className="mt-4 flex gap-2 border-t border-gray-100 pt-3">
+                <button
+                  type="button"
+                  onClick={() => onEdit?.(hendelse)}
+                  className="rounded-lg bg-natural-forest/10 px-3 py-1.5 text-xs font-medium text-natural-forest hover:bg-natural-forest/20"
+                >
+                  Rediger
+                </button>
+                <button
+                  type="button"
+                  onClick={() => onDelete?.(hendelse)}
+                  className="rounded-lg px-3 py-1.5 text-xs font-medium text-red-600 hover:bg-red-50"
+                >
+                  Slett
+                </button>
+              </div>
+            )}
             <button
               type="button"
               onClick={onClose}

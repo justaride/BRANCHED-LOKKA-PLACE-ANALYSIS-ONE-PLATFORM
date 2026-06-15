@@ -30,6 +30,11 @@ const CX = 280;
 const CY = 280;
 const BASE_RADIUS = 220;
 const INNER_RADIUS = 160;
+const SVG_PRECISION = 4;
+
+function svgNum(value: number): number {
+  return Number(value.toFixed(SVG_PRECISION));
+}
 
 export default function ArshjulWheel({
   data,
@@ -54,13 +59,13 @@ export default function ArshjulWheel({
         const labelR = BASE_RADIUS + 30;
         return {
           maaned,
-          labelX: CX + labelR * Math.cos(vinkelMidt),
-          labelY: CY + labelR * Math.sin(vinkelMidt),
+          labelX: svgNum(CX + labelR * Math.cos(vinkelMidt)),
+          labelY: svgNum(CY + labelR * Math.sin(vinkelMidt)),
           line: {
-            x1: CX + (INNER_RADIUS - 10) * Math.cos(vinkelStart),
-            y1: CY + (INNER_RADIUS - 10) * Math.sin(vinkelStart),
-            x2: CX + (BASE_RADIUS + 10) * Math.cos(vinkelStart),
-            y2: CY + (BASE_RADIUS + 10) * Math.sin(vinkelStart),
+            x1: svgNum(CX + (INNER_RADIUS - 10) * Math.cos(vinkelStart)),
+            y1: svgNum(CY + (INNER_RADIUS - 10) * Math.sin(vinkelStart)),
+            x2: svgNum(CX + (BASE_RADIUS + 10) * Math.cos(vinkelStart)),
+            y2: svgNum(CY + (BASE_RADIUS + 10) * Math.sin(vinkelStart)),
           },
         };
       }),
@@ -74,12 +79,12 @@ export default function ArshjulWheel({
     const iso = now.toISOString().slice(0, 10);
     const vinkel = (dayOfYear(iso) / daysInYear(data.ar)) * 2 * Math.PI - Math.PI / 2;
     return {
-      x1: CX + (INNER_RADIUS - 6) * Math.cos(vinkel),
-      y1: CY + (INNER_RADIUS - 6) * Math.sin(vinkel),
-      x2: CX + (BASE_RADIUS + 14) * Math.cos(vinkel),
-      y2: CY + (BASE_RADIUS + 14) * Math.sin(vinkel),
-      lx: CX + (BASE_RADIUS + 30) * Math.cos(vinkel),
-      ly: CY + (BASE_RADIUS + 30) * Math.sin(vinkel),
+      x1: svgNum(CX + (INNER_RADIUS - 6) * Math.cos(vinkel)),
+      y1: svgNum(CY + (INNER_RADIUS - 6) * Math.sin(vinkel)),
+      x2: svgNum(CX + (BASE_RADIUS + 14) * Math.cos(vinkel)),
+      y2: svgNum(CY + (BASE_RADIUS + 14) * Math.sin(vinkel)),
+      lx: svgNum(CX + (BASE_RADIUS + 30) * Math.cos(vinkel)),
+      ly: svgNum(CY + (BASE_RADIUS + 30) * Math.sin(vinkel)),
     };
   }, [data.ar]);
 
@@ -168,6 +173,8 @@ export default function ArshjulWheel({
         {synlige.map((h) => {
           const r = radiusOffsets.get(h.id) ?? BASE_RADIUS;
           const punkt = hendelseTilPunkt(h, CX, CY, r, data.ar);
+          const punktX = svgNum(punkt.x);
+          const punktY = svgNum(punkt.y);
           const erValgt = valgtHendelse?.id === h.id;
           const erHover = hoveredId === h.id;
           const farge = KATEGORI_FARGE[h.kategori];
@@ -199,13 +206,13 @@ export default function ArshjulWheel({
                   const vStart = (dayOfYear(h.start) / total) * 2 * Math.PI - Math.PI / 2;
                   const vSlutt = (dayOfYear(h.slutt!) / total) * 2 * Math.PI - Math.PI / 2;
                   const largeArc = dayOfYear(h.slutt!) - dayOfYear(h.start) > total / 2 ? 1 : 0;
-                  const xS = CX + r * Math.cos(vStart);
-                  const yS = CY + r * Math.sin(vStart);
-                  const xE = CX + r * Math.cos(vSlutt);
-                  const yE = CY + r * Math.sin(vSlutt);
+                  const xS = svgNum(CX + r * Math.cos(vStart));
+                  const yS = svgNum(CY + r * Math.sin(vStart));
+                  const xE = svgNum(CX + r * Math.cos(vSlutt));
+                  const yE = svgNum(CY + r * Math.sin(vSlutt));
                   return (
                     <motion.path
-                      d={`M ${xS} ${yS} A ${r} ${r} 0 ${largeArc} 1 ${xE} ${yE}`}
+                      d={`M ${xS} ${yS} A ${svgNum(r)} ${svgNum(r)} 0 ${largeArc} 1 ${xE} ${yE}`}
                       stroke={farge}
                       fill="none"
                       opacity={opacity}
@@ -218,8 +225,8 @@ export default function ArshjulWheel({
                 })()}
 
               <motion.circle
-                cx={punkt.x}
-                cy={punkt.y}
+                cx={punktX}
+                cy={punktY}
                 fill={farge}
                 opacity={opacity}
                 stroke="white"

@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import Container from "@/components/ui/Container";
 import Arshjul from "@/components/arshjul/Arshjul";
-import { getAvailableArshjulYears, loadArshjul } from "@/lib/arshjul";
-import type { HjulAr } from "@/types/arshjul";
+import { getArshjulYears } from "@/lib/arshjul-store";
+
+export const dynamic = "force-dynamic";
 
 export const metadata = {
   title: "Årshjul — Grünerløkka",
@@ -10,10 +11,8 @@ export const metadata = {
     "Sirkulær oversikt over arrangementer, markeder, kampanjer, kultur og sesongaktiviteter på Grünerløkka gjennom året.",
 };
 
-export default function ArshjulPage() {
-  const years = getAvailableArshjulYears()
-    .map((y) => loadArshjul(y))
-    .filter((y): y is HjulAr => y !== null);
+export default async function ArshjulPage() {
+  const years = await getArshjulYears();
 
   if (years.length === 0) notFound();
 
