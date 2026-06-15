@@ -3,7 +3,15 @@
 import { useState, type FormEvent } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import type { HjulHendelse, HjulKategori, HjulStatus } from "@/types/arshjul";
-import { KATEGORI_LABEL, KATEGORI_REKKEFOLGE, STATUS_LABEL } from "./arshjulShared";
+import {
+  GJENTAKELSE_OPSJONER,
+  KATEGORI_LABEL,
+  KATEGORI_REKKEFOLGE,
+  STATUS_LABEL,
+  byggGjentakelse,
+  lesGjentakelse,
+  type GjentakelsePreset,
+} from "./arshjulShared";
 
 const STATUSER: HjulStatus[] = ["planlagt", "bekreftet", "gjennomfort", "avlyst"];
 
@@ -42,6 +50,12 @@ export default function ArshjulEditor({
   const [ansvarlig, setAnsvarlig] = useState(
     initial?.ansvarlig ?? prefill?.ansvarlig ?? "",
   );
+  const [gjentakelse, setGjentakelse] = useState<GjentakelsePreset | "">(() => {
+    return lesGjentakelse(initial?.gjentakelse ?? prefill?.gjentakelse)?.preset ?? "";
+  });
+  const [gjentakelseTil, setGjentakelseTil] = useState(() => {
+    return lesGjentakelse(initial?.gjentakelse ?? prefill?.gjentakelse)?.until ?? "";
+  });
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -56,6 +70,10 @@ export default function ArshjulEditor({
       setError("Sluttdato kan ikke være før startdato.");
       return;
     }
+    if (gjentakelse && gjentakelseTil && gjentakelseTil < start) {
+      setError("«Gjenta til» kan ikke være før startdato.");
+      return;
+    }
     setPending(true);
     const payload = {
       tittel: tittel.trim(),
@@ -66,6 +84,9 @@ export default function ArshjulEditor({
       beskrivelse: beskrivelse.trim() || null,
       lenke: lenke.trim() || null,
       ansvarlig: ansvarlig.trim() || null,
+      gjentakelse: gjentakelse
+        ? byggGjentakelse(gjentakelse, gjentakelseTil || null)
+        : null,
     };
     try {
       const res = initial
@@ -188,6 +209,41 @@ export default function ArshjulEditor({
                 ))}
               </select>
             </div>
+          </div>
+
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <label className="mb-1 block text-xs font-medium text-gray-600">
+                Gjentakelse
+              </label>
+              <select
+                className={felt}
+                value={gjentakelse}
+                onChange={(e) =>
+                  setGjentakelse(e.target.value as GjentakelsePreset | "")
+                }
+              >
+                <option value="">Ingen (engang)</option>
+                {GJENTAKELSE_OPSJONER.map((o) => (
+                  <option key={o.value} value={o.value}>
+                    {o.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+            {gjentakelse && (
+              <div>
+                <label className="mb-1 block text-xs font-medium text-gray-600">
+                  Gjenta til
+                </label>
+                <input
+                  type="date"
+                  className={felt}
+                  value={gjentakelseTil}
+                  onChange={(e) => setGjentakelseTil(e.target.value)}
+                />
+              </div>
+            )}
           </div>
 
           <div>

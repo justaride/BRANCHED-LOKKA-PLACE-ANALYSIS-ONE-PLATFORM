@@ -36,6 +36,7 @@ const baseObject = z.object({
   lenke: z.string().max(500).nullable().optional(),
   ansvarlig: z.string().max(200).nullable().optional(),
   tenant: z.string().max(100).nullable().optional(),
+  gjentakelse: z.string().max(500).nullable().optional(),
 });
 
 export const hendelseInputSchema = baseObject.refine(

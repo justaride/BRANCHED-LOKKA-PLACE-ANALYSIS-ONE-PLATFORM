@@ -30,12 +30,16 @@ interface Row {
   lenke: string | null;
   ansvarlig: string | null;
   tenant: string | null;
+  gjentakelse?: string | null;
 }
 
-const SELECT_COLS = `id, ar, tittel,
+const SELECT_COLS_BASE = `id, ar, tittel,
   to_char(start_dato, 'YYYY-MM-DD') AS start,
   to_char(slutt_dato, 'YYYY-MM-DD') AS slutt,
   kategori, status, beskrivelse, lenke, ansvarlig, tenant`;
+const SELECT_COLS = `${SELECT_COLS_BASE}, gjentakelse`;
+/** Kolonnesett uten gjentakelse — brukes hvis migrasjon 0002 ikke er kjørt ennå. */
+const SELECT_COLS_LEGACY = SELECT_COLS_BASE;
 
 function rowToHendelse(r: Row): HjulHendelse {
   return {
@@ -49,18 +53,32 @@ function rowToHendelse(r: Row): HjulHendelse {
     ...(r.lenke ? { lenke: r.lenke } : {}),
     ...(r.ansvarlig ? { ansvarlig: r.ansvarlig } : {}),
     ...(r.tenant ? { tenant: r.tenant } : {}),
+    ...(r.gjentakelse ? { gjentakelse: r.gjentakelse } : {}),
   };
+}
+
+/**
+ * Leser rader, men tåler at gjentakelse-kolonnen (migrasjon 0002) ikke er kjørt
+ * ennå — da faller den tilbake til kolonnesettet uten gjentakelse i stedet for
+ * å la hele lesningen falle til statisk JSON.
+ */
+async function lesRader(): Promise<Row[]> {
+  const order = "ORDER BY ar DESC, start_dato ASC";
+  try {
+    return await query<Row>(`SELECT ${SELECT_COLS} FROM arshjul_hendelse ${order}`);
+  } catch (err) {
+    console.warn("[arshjul] SELECT med gjentakelse feilet, prøver uten:", err);
+    return await query<Row>(
+      `SELECT ${SELECT_COLS_LEGACY} FROM arshjul_hendelse ${order}`,
+    );
+  }
 }
 
 export async function getArshjulYears(): Promise<HjulAr[]> {
   if (!hasDatabase()) return STATIC_YEARS;
 
   try {
-    const rows = await query<Row>(
-      `SELECT ${SELECT_COLS}
-         FROM arshjul_hendelse
-        ORDER BY ar DESC, start_dato ASC`,
-    );
+    const rows = await lesRader();
 
     if (rows.length === 0) return STATIC_YEARS; // tom DB → bruk seed-data
 
@@ -98,8 +116,8 @@ export async function createHendelse(input: HendelseInput): Promise<HjulHendelse
   await query(
     `INSERT INTO arshjul_hendelse
        (id, ar, tittel, start_dato, slutt_dato, kategori, status,
-        beskrivelse, lenke, ansvarlig, tenant, sist_oppdatert)
-     VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11, now())`,
+        beskrivelse, lenke, ansvarlig, tenant, gjentakelse, sist_oppdatert)
+     VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12, now())`,
     [
       id,
       ar,
@@ -112,6 +130,7 @@ export async function createHendelse(input: HendelseInput): Promise<HjulHendelse
       input.lenke ?? null,
       input.ansvarlig ?? null,
       input.tenant ?? null,
+      input.gjentakelse ?? null,
     ],
   );
   const created = await getHendelse(id);
@@ -135,7 +154,7 @@ export async function updateHendelse(
     `UPDATE arshjul_hendelse SET
        tittel = $2, start_dato = $3, slutt_dato = $4, kategori = $5, status = $6,
        beskrivelse = $7, lenke = $8, ansvarlig = $9, tenant = $10, ar = $11,
-       sist_oppdatert = now()
+       gjentakelse = $12, sist_oppdatert = now()
      WHERE id = $1`,
     [
       id,
@@ -149,6 +168,7 @@ export async function updateHendelse(
       keep(patch.ansvarlig, existing.ansvarlig),
       keep(patch.tenant, existing.tenant),
       ar,
+      keep(patch.gjentakelse, existing.gjentakelse),
     ],
   );
 

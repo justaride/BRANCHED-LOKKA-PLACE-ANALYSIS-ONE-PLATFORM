@@ -8,6 +8,7 @@ import {
   KATEGORI_LABEL,
   STATUS_LABEL,
   formatDateRange,
+  gjentakelseLabel,
   sorterHendelser,
 } from "./arshjulShared";
 
@@ -135,6 +136,11 @@ export default function ArshjulAgenda({
                           {erNeste && (
                             <span className="shrink-0 rounded-full bg-natural-forest px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white">
                               Neste
+                            </span>
+                          )}
+                          {gjentakelseLabel(h.gjentakelse) && (
+                            <span className="shrink-0 rounded-full bg-gray-100 px-1.5 py-0.5 text-[10px] font-medium text-gray-600">
+                              ↻ {gjentakelseLabel(h.gjentakelse)}
                             </span>
                           )}
                         </span>

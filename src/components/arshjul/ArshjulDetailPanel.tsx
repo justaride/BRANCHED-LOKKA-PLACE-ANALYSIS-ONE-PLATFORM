@@ -8,6 +8,7 @@ import {
   KATEGORI_LABEL,
   STATUS_LABEL,
   formatDateRange,
+  gjentakelseLabel,
 } from "./arshjulShared";
 
 interface Props {
@@ -56,6 +57,11 @@ export default function ArshjulDetailPanel({
             <p className="mt-1 text-sm text-gray-600">
               {formatDateRange(hendelse.start, hendelse.slutt)}
             </p>
+            {gjentakelseLabel(hendelse.gjentakelse) && (
+              <p className="mt-1 text-xs text-gray-500">
+                ↻ Gjentas: {gjentakelseLabel(hendelse.gjentakelse)}
+              </p>
+            )}
             <p className="mt-2 inline-block rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-700">
               {STATUS_LABEL[hendelse.status]}
             </p>

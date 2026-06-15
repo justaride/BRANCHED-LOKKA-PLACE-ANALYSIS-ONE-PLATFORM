@@ -91,6 +91,7 @@ export function byggICal(hendelser: HjulHendelse[], opts: ICalOpts = {}): string
     linjer.push(`DTSTAMP:${dtstamp}`);
     linjer.push(`DTSTART;VALUE=DATE:${tilICalDato(h.start)}`);
     linjer.push(`DTEND;VALUE=DATE:${nesteDag(sluttKilde)}`);
+    if (h.gjentakelse) linjer.push(`RRULE:${h.gjentakelse}`);
     linjer.push(`SUMMARY:${escapeText(h.tittel)}`);
     if (beskrivelse) linjer.push(`DESCRIPTION:${escapeText(beskrivelse)}`);
     linjer.push(`CATEGORIES:${escapeText(KATEGORI_LABEL[h.kategori])}`);

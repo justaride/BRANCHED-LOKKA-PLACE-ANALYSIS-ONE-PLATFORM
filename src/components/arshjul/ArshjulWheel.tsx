@@ -6,11 +6,13 @@ import { dayOfYear, daysInYear, hendelseTilPunkt } from "@/lib/arshjul";
 import type { HjulAr, HjulHendelse, HjulKategori } from "@/types/arshjul";
 import {
   KATEGORI_FARGE,
+  KATEGORI_LABEL,
   KATEGORI_REKKEFOLGE,
   MAANEDER,
   STATUS_LABEL,
   STATUS_OPACITY,
   formatDateRange,
+  lesGjentakelse,
 } from "./arshjulShared";
 
 interface Props {
@@ -26,10 +28,24 @@ const CX = 280;
 const CY = 280;
 const OUTER_RING = 216;
 const INNER_RING = 120;
+const MID_RING = (OUTER_RING + INNER_RING) / 2;
 const SVG_PRECISION = 4;
+/** Hendelser på samme ring nærmere enn dette (dager) forskyves radielt. */
+const KLYNGE_DAGER = 6;
 
 function svgNum(value: number): number {
   return Number(value.toFixed(SVG_PRECISION));
+}
+
+function trunkér(s: string, maks: number): string {
+  return s.length > maks ? `${s.slice(0, Math.max(1, maks - 1))}…` : s;
+}
+
+interface Plassert {
+  h: HjulHendelse;
+  r: number;
+  x: number;
+  y: number;
 }
 
 export default function ArshjulWheel({
@@ -42,9 +58,8 @@ export default function ArshjulWheel({
   const reduce = useReducedMotion();
   const [hoveredId, setHoveredId] = useState<string | null>(null);
 
-  // Én konsentrisk ring per kategori som finnes i årets data.
-  // Layouten er stabil (basert på data, ikke filteret) slik at filtrering
-  // dimmer/skjuler prikker uten at ringene flytter seg.
+  // Én konsentrisk ring per kategori som finnes i årets data. Stabil layout
+  // (basert på data, ikke filteret) slik at filtrering ikke flytter ringene.
   const kategoriRinger = useMemo(() => {
     const tilstede = KATEGORI_REKKEFOLGE.filter((k) =>
       data.hendelser.some((h) => h.kategori === k),
@@ -52,17 +67,73 @@ export default function ArshjulWheel({
     const n = tilstede.length;
     const map = new Map<HjulKategori, number>();
     tilstede.forEach((k, i) => {
-      const r =
-        n <= 1
-          ? (OUTER_RING + INNER_RING) / 2
-          : OUTER_RING - (i * (OUTER_RING - INNER_RING)) / (n - 1);
+      const r = n <= 1 ? MID_RING : OUTER_RING - (i * (OUTER_RING - INNER_RING)) / (n - 1);
       map.set(k, r);
     });
     return map;
   }, [data.hendelser]);
 
-  const ringFor = (k: HjulKategori): number =>
-    kategoriRinger.get(k) ?? (OUTER_RING + INNER_RING) / 2;
+  // Neste kommende hendelse (kun inneværende år) — får en svak puls.
+  const nesteId = useMemo(() => {
+    const now = new Date();
+    if (now.getFullYear() !== data.ar) return null;
+    const iso = now.toISOString().slice(0, 10);
+    const fremtidige = synlige
+      .filter((h) => h.start >= iso)
+      .sort((a, b) => a.start.localeCompare(b.start));
+    return fremtidige[0]?.id ?? null;
+  }, [synlige, data.ar]);
+
+  // Plassér hver synlig hendelse: kategoriens ring + radiell forskyvning for
+  // tette klynger (så prikker på samme ring og nær dato ikke overlapper).
+  const plasserte = useMemo<Plassert[]>(() => {
+    const byKat = new Map<HjulKategori, HjulHendelse[]>();
+    for (const h of synlige) {
+      const list = byKat.get(h.kategori) ?? [];
+      list.push(h);
+      byKat.set(h.kategori, list);
+    }
+
+    const offset = new Map<string, number>();
+    for (const [, list] of byKat) {
+      const sortert = [...list].sort(
+        (a, b) => dayOfYear(a.start) - dayOfYear(b.start),
+      );
+      let i = 0;
+      while (i < sortert.length) {
+        let j = i + 1;
+        while (
+          j < sortert.length &&
+          dayOfYear(sortert[j].start) - dayOfYear(sortert[j - 1].start) <= KLYNGE_DAGER
+        ) {
+          j++;
+        }
+        const klynge = sortert.slice(i, j);
+        const n = klynge.length;
+        klynge.forEach((h, k) => {
+          const o = n === 1 ? 0 : Math.max(-6, Math.min(6, (k - (n - 1) / 2) * 5));
+          offset.set(h.id, o);
+        });
+        i = j;
+      }
+    }
+
+    return synlige.map((h) => {
+      const r = (kategoriRinger.get(h.kategori) ?? MID_RING) + (offset.get(h.id) ?? 0);
+      const punkt = hendelseTilPunkt(h, CX, CY, r, data.ar);
+      return { h, r, x: svgNum(punkt.x), y: svgNum(punkt.y) };
+    });
+  }, [synlige, kategoriRinger, data.ar]);
+
+  const hoveredPlassert = hoveredId
+    ? (plasserte.find((p) => p.h.id === hoveredId) ?? null)
+    : null;
+  const valgtPlassert = valgtHendelse
+    ? (plasserte.find((p) => p.h.id === valgtHendelse.id) ?? null)
+    : null;
+  const tooltipMål = hoveredPlassert ?? valgtPlassert;
+  const aktivKategori =
+    hoveredPlassert?.h.kategori ?? valgtPlassert?.h.kategori ?? null;
 
   const maanedSegmenter = useMemo(
     () =>
@@ -90,14 +161,13 @@ export default function ArshjulWheel({
     const now = new Date();
     if (now.getFullYear() !== data.ar) return null;
     const iso = now.toISOString().slice(0, 10);
-    const vinkel = (dayOfYear(iso) / daysInYear(data.ar)) * 2 * Math.PI - Math.PI / 2;
+    const vinkel =
+      (dayOfYear(iso) / daysInYear(data.ar)) * 2 * Math.PI - Math.PI / 2;
     return {
       x1: svgNum(CX + (INNER_RING - 6) * Math.cos(vinkel)),
       y1: svgNum(CY + (INNER_RING - 6) * Math.sin(vinkel)),
-      x2: svgNum(CX + (OUTER_RING + 14) * Math.cos(vinkel)),
-      y2: svgNum(CY + (OUTER_RING + 14) * Math.sin(vinkel)),
-      lx: svgNum(CX + (OUTER_RING + 30) * Math.cos(vinkel)),
-      ly: svgNum(CY + (OUTER_RING + 30) * Math.sin(vinkel)),
+      x2: svgNum(CX + (OUTER_RING + 16) * Math.cos(vinkel)),
+      y2: svgNum(CY + (OUTER_RING + 16) * Math.sin(vinkel)),
     };
   }, [data.ar]);
 
@@ -120,18 +190,45 @@ export default function ArshjulWheel({
       tabIndex={0}
       onKeyDown={onKeyDown}
     >
-      {/* Kategori-ringer: én svakt farget guide-sirkel per kategori. */}
+      {/* Kategori-ringer: tegnes inn ved lasting, lyser opp ved hover/valg. */}
+      {[...kategoriRinger.entries()].map(([kat, r], i) => {
+        const aktiv = kat === aktivKategori;
+        return (
+          <motion.circle
+            key={kat}
+            cx={CX}
+            cy={CY}
+            r={svgNum(r)}
+            fill="none"
+            stroke={KATEGORI_FARGE[kat]}
+            strokeOpacity={aktiv ? 0.6 : 0.25}
+            strokeWidth={aktiv ? 2 : 1}
+            initial={reduce ? false : { pathLength: 0, opacity: 0 }}
+            animate={{ pathLength: 1, opacity: 1 }}
+            transition={{
+              duration: reduce ? 0 : 0.7,
+              delay: reduce ? 0 : i * 0.06,
+              ease: "easeInOut",
+            }}
+          />
+        );
+      })}
+
+      {/* Ring-etiketter (kategorinavn ved hver ring, hvit halo for lesbarhet). */}
       {[...kategoriRinger.entries()].map(([kat, r]) => (
-        <circle
-          key={kat}
-          cx={CX}
-          cy={CY}
-          r={svgNum(r)}
-          fill="none"
-          stroke={KATEGORI_FARGE[kat]}
-          strokeOpacity={0.25}
-          strokeWidth={1}
-        />
+        <text
+          key={`lbl-${kat}`}
+          x={CX}
+          y={svgNum(CY - r - 6)}
+          textAnchor="middle"
+          className="text-[10px] font-medium"
+          fill={KATEGORI_FARGE[kat]}
+          stroke="white"
+          strokeWidth={2.5}
+          style={{ paintOrder: "stroke" }}
+        >
+          {KATEGORI_LABEL[kat]}
+        </text>
       ))}
 
       {maanedSegmenter.map((s) => (
@@ -167,12 +264,34 @@ export default function ArshjulWheel({
             strokeWidth={1.5}
             strokeDasharray="3 3"
           />
+          <circle cx={idag.x2} cy={idag.y2} r={4} fill="#2C5F2D" />
+          {!reduce && (
+            <motion.circle
+              cx={idag.x2}
+              cy={idag.y2}
+              fill="none"
+              stroke="#2C5F2D"
+              strokeWidth={1.5}
+              initial={{ r: 4, opacity: 0.55 }}
+              animate={{ r: [4, 12], opacity: [0.55, 0] }}
+              transition={{ duration: 2.2, repeat: Infinity, ease: "easeOut" }}
+            />
+          )}
+          {/* Fast «I dag»-brikke øverst til venstre — kolliderer aldri med månedsmerkene. */}
+          <line
+            x1={22}
+            y1={26}
+            x2={44}
+            y2={26}
+            stroke="#2C5F2D"
+            strokeWidth={1.5}
+            strokeDasharray="3 3"
+          />
           <text
-            x={idag.lx}
-            y={idag.ly}
-            textAnchor="middle"
+            x={50}
+            y={26}
             dominantBaseline="middle"
-            className="fill-natural-forest text-[9px] font-semibold uppercase tracking-wide"
+            className="fill-natural-forest text-[11px] font-semibold uppercase tracking-wide"
           >
             I dag
           </text>
@@ -194,19 +313,22 @@ export default function ArshjulWheel({
           show: { transition: reduce ? {} : { staggerChildren: 0.012 } },
         }}
       >
-        {synlige.map((h) => {
-          const r = ringFor(h.kategori);
-          const punkt = hendelseTilPunkt(h, CX, CY, r, data.ar);
-          const punktX = svgNum(punkt.x);
-          const punktY = svgNum(punkt.y);
+        {plasserte.map(({ h, r, x, y }) => {
           const erValgt = valgtHendelse?.id === h.id;
           const erHover = hoveredId === h.id;
+          const erNeste = nesteId === h.id;
           const farge = KATEGORI_FARGE[h.kategori];
           const opacity = STATUS_OPACITY[h.status];
           const erAvlyst = h.status === "avlyst";
           const aria = `${h.tittel}, ${formatDateRange(h.start, h.slutt)}, ${STATUS_LABEL[h.status]}`;
 
           const harSlutt = h.slutt && h.slutt !== h.start;
+          const gjent = h.gjentakelse ? lesGjentakelse(h.gjentakelse) : null;
+          const aarSlutt = `${data.ar}-12-31`;
+          const gjentSlutt =
+            gjent?.until && gjent.until < aarSlutt ? gjent.until : aarSlutt;
+          // Stiplet bue gir bare mening for sub-årlige kadenser (årlig = én prikk).
+          const visBand = gjent !== null && gjent.preset !== "arlig";
           const dotR = erValgt ? 9 : erHover ? 8 : harSlutt ? 5 : 6;
 
           return (
@@ -226,14 +348,32 @@ export default function ArshjulWheel({
               <title>{aria}</title>
 
               {/* Usynlig trefflate (≥24px) for tilgjengelig klikkmål (WCAG 2.5.8). */}
-              <circle cx={punktX} cy={punktY} r={14} fill="transparent" />
+              <circle cx={x} cy={y} r={14} fill="transparent" />
 
-              {harSlutt &&
+              {erNeste && !erValgt && !reduce && (
+                <motion.circle
+                  cx={x}
+                  cy={y}
+                  fill="none"
+                  stroke={farge}
+                  strokeWidth={1.5}
+                  initial={{ r: dotR, opacity: 0.5 }}
+                  animate={{ r: [dotR, dotR + 10], opacity: [0.5, 0] }}
+                  transition={{ duration: 2, repeat: Infinity, ease: "easeOut" }}
+                />
+              )}
+
+              {erValgt && !erAvlyst && (
+                <circle cx={x} cy={y} r={dotR + 6} fill={farge} opacity={0.15} />
+              )}
+
+              {(visBand || harSlutt) &&
                 (() => {
                   const total = daysInYear(data.ar);
+                  const sluttDato = visBand ? gjentSlutt : h.slutt!;
                   const vStart = (dayOfYear(h.start) / total) * 2 * Math.PI - Math.PI / 2;
-                  const vSlutt = (dayOfYear(h.slutt!) / total) * 2 * Math.PI - Math.PI / 2;
-                  const largeArc = dayOfYear(h.slutt!) - dayOfYear(h.start) > total / 2 ? 1 : 0;
+                  const vSlutt = (dayOfYear(sluttDato) / total) * 2 * Math.PI - Math.PI / 2;
+                  const largeArc = dayOfYear(sluttDato) - dayOfYear(h.start) > total / 2 ? 1 : 0;
                   const xS = svgNum(CX + r * Math.cos(vStart));
                   const yS = svgNum(CY + r * Math.sin(vStart));
                   const xE = svgNum(CX + r * Math.cos(vSlutt));
@@ -245,16 +385,17 @@ export default function ArshjulWheel({
                       fill="none"
                       opacity={opacity}
                       strokeLinecap="round"
+                      strokeDasharray={visBand ? "1 6" : undefined}
                       initial={false}
-                      animate={{ strokeWidth: erValgt ? 6 : erHover ? 5 : 4 }}
+                      animate={{ strokeWidth: erValgt ? 6 : erHover ? 5 : visBand ? 3 : 4 }}
                       transition={{ type: "spring", stiffness: 300, damping: 22 }}
                     />
                   );
                 })()}
 
               <motion.circle
-                cx={punktX}
-                cy={punktY}
+                cx={x}
+                cy={y}
                 fill={erAvlyst ? "none" : farge}
                 opacity={opacity}
                 stroke={erAvlyst ? farge : "white"}
@@ -267,6 +408,47 @@ export default function ArshjulWheel({
           );
         })}
       </motion.g>
+
+      {/* Hover/valg-tooltip — tittel + dato, klemt innenfor viewBox. */}
+      {tooltipMål &&
+        (() => {
+          const tittel = tooltipMål.h.tittel;
+          const dato = formatDateRange(tooltipMål.h.start, tooltipMål.h.slutt);
+          const bredde = Math.min(248, Math.max(96, Math.max(tittel.length, dato.length) * 6.2 + 18));
+          const høyde = 40;
+          const maksTegn = Math.floor((bredde - 18) / 6.2);
+          const bx = Math.max(4, Math.min(560 - bredde - 4, tooltipMål.x - bredde / 2));
+          const overDot = tooltipMål.y - høyde - 12;
+          const by = overDot < 4 ? tooltipMål.y + 14 : overDot;
+          return (
+            <g style={{ pointerEvents: "none" }}>
+              <rect
+                x={svgNum(bx)}
+                y={svgNum(by)}
+                width={svgNum(bredde)}
+                height={høyde}
+                rx={8}
+                fill="white"
+                stroke="#e5e7eb"
+                strokeWidth={1}
+              />
+              <text
+                x={svgNum(bx + 9)}
+                y={svgNum(by + 16)}
+                className="fill-gray-900 text-[11px] font-semibold"
+              >
+                {trunkér(tittel, maksTegn)}
+              </text>
+              <text
+                x={svgNum(bx + 9)}
+                y={svgNum(by + 31)}
+                className="fill-gray-500 text-[10px]"
+              >
+                {dato}
+              </text>
+            </g>
+          );
+        })()}
     </svg>
   );
 }

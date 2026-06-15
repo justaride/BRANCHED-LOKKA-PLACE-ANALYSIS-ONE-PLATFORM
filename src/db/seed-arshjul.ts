@@ -27,8 +27,8 @@ async function seed() {
       await pool.query(
         `INSERT INTO arshjul_hendelse
            (id, ar, tittel, start_dato, slutt_dato, kategori, status,
-            beskrivelse, lenke, ansvarlig, tenant, sist_oppdatert)
-         VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11, now())
+            beskrivelse, lenke, ansvarlig, tenant, gjentakelse, sist_oppdatert)
+         VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12, now())
          ON CONFLICT (id) DO UPDATE SET
            ar = EXCLUDED.ar,
            tittel = EXCLUDED.tittel,
@@ -40,6 +40,7 @@ async function seed() {
            lenke = EXCLUDED.lenke,
            ansvarlig = EXCLUDED.ansvarlig,
            tenant = EXCLUDED.tenant,
+           gjentakelse = EXCLUDED.gjentakelse,
            sist_oppdatert = now()`,
         [
           h.id,
@@ -53,6 +54,7 @@ async function seed() {
           h.lenke ?? null,
           h.ansvarlig ?? null,
           h.tenant ?? null,
+          h.gjentakelse ?? null,
         ],
       );
     }

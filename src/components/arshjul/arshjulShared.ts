@@ -108,3 +108,60 @@ export function sorterHendelser<T extends { start: string; tittel: string }>(
     (a, b) => a.start.localeCompare(b.start) || a.tittel.localeCompare(b.tittel),
   );
 }
+
+/** Gjentakelse (RFC 5545 RRULE) — forhåndsvalg som dekker de vanlige tilfellene. */
+export type GjentakelsePreset = "ukentlig" | "annenhver" | "manedlig" | "arlig";
+
+export const GJENTAKELSE_OPSJONER: { value: GjentakelsePreset; label: string }[] = [
+  { value: "ukentlig", label: "Ukentlig" },
+  { value: "annenhver", label: "Annenhver uke" },
+  { value: "manedlig", label: "Månedlig" },
+  { value: "arlig", label: "Årlig" },
+];
+
+const GJENTAKELSE_FREQ: Record<GjentakelsePreset, string> = {
+  ukentlig: "FREQ=WEEKLY",
+  annenhver: "FREQ=WEEKLY;INTERVAL=2",
+  manedlig: "FREQ=MONTHLY",
+  arlig: "FREQ=YEARLY",
+};
+
+const GJENTAKELSE_LABEL: Record<GjentakelsePreset, string> = {
+  ukentlig: "Ukentlig",
+  annenhver: "Annenhver uke",
+  manedlig: "Månedlig",
+  arlig: "Årlig",
+};
+
+/** Bygg en RRULE-streng fra et forhåndsvalg (+ valgfri sluttdato YYYY-MM-DD). */
+export function byggGjentakelse(
+  preset: GjentakelsePreset,
+  until?: string | null,
+): string {
+  const base = GJENTAKELSE_FREQ[preset];
+  return until ? `${base};UNTIL=${until.replace(/-/g, "")}` : base;
+}
+
+/** Tolk en RRULE tilbake til forhåndsvalg + sluttdato (for redigering). */
+export function lesGjentakelse(
+  rrule?: string | null,
+): { preset: GjentakelsePreset; until?: string } | null {
+  if (!rrule) return null;
+  let preset: GjentakelsePreset | null = null;
+  if (/FREQ=WEEKLY/.test(rrule)) {
+    preset = /INTERVAL=2/.test(rrule) ? "annenhver" : "ukentlig";
+  } else if (/FREQ=MONTHLY/.test(rrule)) {
+    preset = "manedlig";
+  } else if (/FREQ=YEARLY/.test(rrule)) {
+    preset = "arlig";
+  }
+  if (!preset) return null;
+  const m = rrule.match(/UNTIL=(\d{4})(\d{2})(\d{2})/);
+  return m ? { preset, until: `${m[1]}-${m[2]}-${m[3]}` } : { preset };
+}
+
+/** Kort etikett for gjentakelse (til badge), eller null. */
+export function gjentakelseLabel(rrule?: string | null): string | null {
+  const g = lesGjentakelse(rrule);
+  return g ? GJENTAKELSE_LABEL[g.preset] : null;
+}

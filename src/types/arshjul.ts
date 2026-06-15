@@ -25,6 +25,8 @@ export interface HjulHendelse {
   ansvarlig?: string;
   status: HjulStatus;
   tenant?: string;
+  /** RFC 5545 RRULE for gjentakelse, f.eks. "FREQ=WEEKLY". Udefinert = engangshendelse. */
+  gjentakelse?: string;
 }
 
 export interface HjulAr {

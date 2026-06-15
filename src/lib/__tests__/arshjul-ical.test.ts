@@ -79,4 +79,13 @@ describe("byggICal", () => {
       byggICal([ev({ lenke: "/main-board/analyser" })], { now: NOW }),
     ).not.toContain("URL:");
   });
+
+  it("legger til RRULE for gjentakende hendelser", () => {
+    const ics = byggICal([ev({ gjentakelse: "FREQ=WEEKLY" })], { now: NOW });
+    expect(ics).toContain("RRULE:FREQ=WEEKLY");
+  });
+
+  it("utelater RRULE når hendelsen ikke gjentas", () => {
+    expect(byggICal([ev()], { now: NOW })).not.toContain("RRULE:");
+  });
 });
