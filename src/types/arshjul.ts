@@ -3,13 +3,13 @@
  */
 
 export type HjulKategori =
-  | "aktor-aktivitet"
-  | "styremote"
-  | "visit-lokka"
+  | "arrangement"
+  | "marked"
   | "kampanje"
-  | "fou"
-  | "rapport"
-  | "workshop"
+  | "visit-lokka"
+  | "kultur"
+  | "sesong"
+  | "apning"
   | "annet";
 
 export type HjulStatus = "planlagt" | "bekreftet" | "gjennomfort" | "avlyst";

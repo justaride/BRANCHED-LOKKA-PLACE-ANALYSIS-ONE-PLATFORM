@@ -6,42 +6,43 @@
 import type { HjulKategori, HjulStatus } from "@/types/arshjul";
 
 /**
- * Kategori-farger. Et par er knyttet til Natural State / Løkka brand-tokens:
- *  - styremote → natural.forest (#2C5F2D)
+ * Kategori-farger for stedsaktivitet. Et par er knyttet til brand-tokens:
+ *  - arrangement → natural.forest (#2C5F2D)
  *  - visit-lokka → lokka.accent (#F4A259)
+ *  - kultur → natural.earth (#8B7355, samme som Biblioteket)
  * Resten holdes distinkte for å skille 8 kategorier tydelig.
  */
 export const KATEGORI_FARGE: Record<HjulKategori, string> = {
-  "aktor-aktivitet": "#10b981",
-  styremote: "#2C5F2D",
-  "visit-lokka": "#F4A259",
+  arrangement: "#2C5F2D",
+  marked: "#CA8A04",
   kampanje: "#a855f7",
-  fou: "#ef4444",
-  rapport: "#6b7280",
-  workshop: "#06b6d4",
+  "visit-lokka": "#F4A259",
+  kultur: "#8B7355",
+  sesong: "#DB2777",
+  apning: "#10b981",
   annet: "#94a3b8",
 };
 
 export const KATEGORI_LABEL: Record<HjulKategori, string> = {
-  "aktor-aktivitet": "Aktør-aktivitet",
-  styremote: "Styremøte",
-  "visit-lokka": "Visit Løkka",
+  arrangement: "Arrangement",
+  marked: "Marked",
   kampanje: "Kampanje",
-  fou: "FoU",
-  rapport: "Rapport",
-  workshop: "Workshop",
+  "visit-lokka": "Visit Løkka",
+  kultur: "Kultur",
+  sesong: "Sesong & høytid",
+  apning: "Åpning",
   annet: "Annet",
 };
 
 /** Rekkefølge for filter-chips og tegnforklaring. */
 export const KATEGORI_REKKEFOLGE: HjulKategori[] = [
-  "styremote",
-  "aktor-aktivitet",
-  "visit-lokka",
+  "arrangement",
+  "marked",
   "kampanje",
-  "workshop",
-  "fou",
-  "rapport",
+  "visit-lokka",
+  "kultur",
+  "sesong",
+  "apning",
   "annet",
 ];
 

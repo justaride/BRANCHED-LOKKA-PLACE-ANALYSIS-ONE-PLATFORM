@@ -7,7 +7,7 @@ import type { HjulAr } from "@/types/arshjul";
 export const metadata = {
   title: "Årshjul — Grünerløkka",
   description:
-    "Sirkulær oversikt over møter, arrangementer, kampanjer og FoU-aktiviteter på Grünerløkka gjennom året.",
+    "Sirkulær oversikt over arrangementer, markeder, kampanjer, kultur og sesongaktiviteter på Grünerløkka gjennom året.",
 };
 
 export default function ArshjulPage() {
@@ -25,10 +25,10 @@ export default function ArshjulPage() {
             Årshjul
           </h1>
           <p className="mt-2 max-w-3xl text-sm text-gray-600 md:text-base">
-            Alt som skjer på Grünerløkka samlet i ett bilde: gårdeierforeningens
-            møter, Visit Løkka-arrangementer, kampanjer, FoU-aktiviteter og
-            rapporter. Velg en hendelse for detaljer, bytt mellom hjul og agenda,
-            eller filtrer på kategori.
+            Alt som skjer på Grünerløkka samlet i ett bilde: arrangementer,
+            markeder, kampanjer, Visit Løkka, kultur og sesongaktiviteter. Velg
+            en hendelse for detaljer, bytt mellom hjul og agenda, eller filtrer
+            på kategori.
           </p>
         </Container>
       </section>
