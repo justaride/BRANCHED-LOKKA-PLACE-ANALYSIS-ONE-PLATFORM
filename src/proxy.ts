@@ -17,6 +17,7 @@ export async function proxy(request: NextRequest) {
     pathname.startsWith('/_next') ||
     pathname.startsWith('/api') ||
     pathname.startsWith('/images') ||
+    pathname.startsWith('/documents') ||
     pathname.startsWith('/pdf') ||
     pathname.startsWith('/fonts') ||
     pathname.startsWith('/data') ||
@@ -37,6 +38,6 @@ export async function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
-    '/((?!_next/static|_next/image|favicon.ico|images|pdf|fonts|data).*)',
+    '/((?!_next/static|_next/image|favicon.ico|images|documents|pdf|fonts|data).*)',
   ],
 };

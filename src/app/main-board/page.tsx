@@ -150,13 +150,20 @@ export default function MainBoardPage() {
           </Link>
         </div>
 
-        {/* Løkka i Tall & Biblioteket - Full width cards */}
+        {/* Main Board tools */}
         <div className="mt-6 grid gap-6 md:grid-cols-2">
           <Link
             href="/main-board/lokka-i-tall"
             className="group relative block h-64 overflow-hidden rounded-2xl shadow-lg transition-all hover:scale-[1.01] hover:shadow-xl"
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-natural-forest via-natural-forest/90 to-natural-sage/80" />
+            <Image
+              src="/images/analyser/nedre-lokka-aerial.jpg"
+              alt="Løkka i Tall"
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-110"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-natural-forest/90 via-natural-forest/70 to-black/35 transition-opacity duration-300 group-hover:from-natural-forest/80" />
             <div className="relative z-10 flex h-full flex-col justify-end p-8">
               <div className="mb-2 inline-block w-fit rounded-full bg-white/20 px-3 py-1 text-xs font-medium text-white backdrop-blur-sm">
                 Nytt
@@ -184,6 +191,54 @@ export default function MainBoardPage() {
               <h3 className="mb-2 text-3xl font-bold text-white drop-shadow-md">Biblioteket</h3>
               <p className="text-lg text-white/90 drop-shadow-sm">
                 Grünerløkkas historie, kultur, ildsjeler og litteratur samlet på ett sted.
+              </p>
+            </div>
+          </Link>
+
+          <Link
+            href="/main-board/arshjul"
+            className="group relative block h-64 overflow-hidden rounded-2xl shadow-lg transition-all hover:scale-[1.01] hover:shadow-xl"
+          >
+            <Image
+              src="/images/areas/grunerlokka.jpg"
+              alt="Årshjul"
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-110"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/65 via-natural-forest/55 to-black/35 transition-opacity duration-300 group-hover:from-black/55" />
+            <div className="relative z-10 flex h-full flex-col justify-end p-8">
+              <div className="mb-2 inline-block w-fit rounded-full bg-white/20 px-3 py-1 text-xs font-medium text-white backdrop-blur-sm">
+                Plan
+              </div>
+              <h3 className="mb-2 text-3xl font-bold text-white drop-shadow-md">Årshjul</h3>
+              <p className="text-lg text-white/90 drop-shadow-sm">
+                Se aktiviteter, sesonger, markeder og viktige datoer gjennom året.
+              </p>
+            </div>
+          </Link>
+
+          <Link
+            href="/documents/lokka-rapport-mars-2-0-30-03-26.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative block h-64 overflow-hidden rounded-2xl shadow-lg transition-all hover:scale-[1.01] hover:shadow-xl"
+          >
+            <Image
+              src="/images/analyser/grunerlokka-hero.jpg"
+              alt="Løkka Rapport Mars 2026"
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-110"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/45 to-natural-earth/45 transition-opacity duration-300 group-hover:from-black/60" />
+            <div className="relative z-10 flex h-full flex-col justify-end p-8">
+              <div className="mb-2 inline-block w-fit rounded-full bg-white/20 px-3 py-1 text-xs font-medium text-white backdrop-blur-sm">
+                Presentasjon
+              </div>
+              <h3 className="mb-2 text-3xl font-bold text-white drop-shadow-md">Løkka Rapport Mars</h3>
+              <p className="text-lg text-white/90 drop-shadow-sm">
+                Åpne presentasjonen som ble oversendt 30.03.26.
               </p>
             </div>
           </Link>
