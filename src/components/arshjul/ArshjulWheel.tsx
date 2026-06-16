@@ -29,6 +29,8 @@ const CY = 280;
 const OUTER_RING = 216;
 const INNER_RING = 120;
 const MID_RING = (OUTER_RING + INNER_RING) / 2;
+/** Vinkel (øvre venstre, ~235°) der ring-etikettene plasseres — åpent felt med god luft. */
+const LABEL_VINKEL = (235 * Math.PI) / 180;
 const SVG_PRECISION = 4;
 /** Hendelser på samme ring nærmere enn dette (dager) forskyves radielt. */
 const KLYNGE_DAGER = 6;
@@ -190,6 +192,28 @@ export default function ArshjulWheel({
       tabIndex={0}
       onKeyDown={onKeyDown}
     >
+      <defs>
+        {/* Svak lyskuppel: gir hjulet krumning (lysere oppe til venstre). */}
+        <radialGradient id="hjul-dome" cx="38%" cy="32%" r="75%">
+          <stop offset="0%" stopColor="#ffffff" />
+          <stop offset="60%" stopColor="#fbfbfa" />
+          <stop offset="100%" stopColor="#eef0ee" />
+        </radialGradient>
+        {/* Myk skygge som løfter hendelses-prikkene av ringene. */}
+        <filter id="hjul-prikk-skygge" x="-60%" y="-60%" width="220%" height="220%">
+          <feDropShadow
+            dx="0"
+            dy="1.4"
+            stdDeviation="1.6"
+            floodColor="#1f2937"
+            floodOpacity="0.28"
+          />
+        </filter>
+      </defs>
+
+      {/* Bakgrunns-kuppel bak ringene for et mykt, buet inntrykk. */}
+      <circle cx={CX} cy={CY} r={OUTER_RING + 34} fill="url(#hjul-dome)" />
+
       {/* Kategori-ringer: tegnes inn ved lasting, lyser opp ved hover/valg. */}
       {[...kategoriRinger.entries()].map(([kat, r], i) => {
         const aktiv = kat === aktivKategori;
@@ -214,22 +238,29 @@ export default function ArshjulWheel({
         );
       })}
 
-      {/* Ring-etiketter (kategorinavn ved hver ring, hvit halo for lesbarhet). */}
-      {[...kategoriRinger.entries()].map(([kat, r]) => (
-        <text
-          key={`lbl-${kat}`}
-          x={CX}
-          y={svgNum(CY - r - 6)}
-          textAnchor="middle"
-          className="text-[10px] font-medium"
-          fill={KATEGORI_FARGE[kat]}
-          stroke="white"
-          strokeWidth={2.5}
-          style={{ paintOrder: "stroke" }}
-        >
-          {KATEGORI_LABEL[kat]}
-        </text>
-      ))}
+      {/* Ring-etiketter: kategorinavn høyrejustert oppe til venstre, der hver bue
+          har god luft. Plassert på sin egen ring (radius = mapping) i stedet for
+          stablet i det tette midtpartiet. Hvit halo for lesbarhet over ringer/prikker. */}
+      {[...kategoriRinger.entries()].map(([kat, r]) => {
+        const x = svgNum(CX + r * Math.cos(LABEL_VINKEL) - 7);
+        const y = svgNum(CY + r * Math.sin(LABEL_VINKEL));
+        return (
+          <text
+            key={`lbl-${kat}`}
+            x={x}
+            y={y}
+            textAnchor="end"
+            dominantBaseline="middle"
+            className="text-[10px] font-medium"
+            fill={KATEGORI_FARGE[kat]}
+            stroke="white"
+            strokeWidth={2.5}
+            style={{ paintOrder: "stroke" }}
+          >
+            {KATEGORI_LABEL[kat]}
+          </text>
+        );
+      })}
 
       {maanedSegmenter.map((s) => (
         <g key={s.maaned}>
@@ -400,6 +431,7 @@ export default function ArshjulWheel({
                 opacity={opacity}
                 stroke={erAvlyst ? farge : "white"}
                 strokeWidth={2}
+                filter="url(#hjul-prikk-skygge)"
                 initial={false}
                 animate={{ r: dotR }}
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
