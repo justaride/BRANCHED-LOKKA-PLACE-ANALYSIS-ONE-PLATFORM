@@ -21,6 +21,12 @@ import {
 
 type Visning = "hjul" | "agenda";
 
+/** Mulige visningsbredder (px) for hjulet — brukes av +/− zoom-kontrollen. */
+const HJUL_STORRELSER = [560, 680, 760, 860, 960];
+/** Standard er klart større enn den gamle faste bredden (560px). */
+const STANDARD_STORRELSE_INDEX = 2; // 760px
+const STORRELSE_LAGER_NOKKEL = "arshjul-storrelse-index";
+
 const MOBIL_MQ = "(max-width: 768px)";
 function subscribeMobil(cb: () => void) {
   if (typeof window === "undefined") return () => {};
@@ -30,6 +36,39 @@ function subscribeMobil(cb: () => void) {
 }
 const getMobilSnapshot = () => window.matchMedia(MOBIL_MQ).matches;
 const getMobilServerSnapshot = () => false;
+
+// Hjulstørrelse (zoom) — lagres i localStorage og deles via en liten ekstern
+// store, slik at useSyncExternalStore gir hydrerings-trygg lesing (server =
+// standard, klient = lagret valg) uten setState i en effekt.
+const storrelseListeners = new Set<() => void>();
+function lesLagretStorrelse(): number {
+  try {
+    const lagret = window.localStorage.getItem(STORRELSE_LAGER_NOKKEL);
+    if (lagret !== null) {
+      const n = Number(lagret);
+      if (Number.isInteger(n) && n >= 0 && n < HJUL_STORRELSER.length) return n;
+    }
+  } catch {
+    /* localStorage utilgjengelig */
+  }
+  return STANDARD_STORRELSE_INDEX;
+}
+function subscribeStorrelse(cb: () => void) {
+  storrelseListeners.add(cb);
+  return () => {
+    storrelseListeners.delete(cb);
+  };
+}
+const getStorrelseSnapshot = () => lesLagretStorrelse();
+const getStorrelseServerSnapshot = () => STANDARD_STORRELSE_INDEX;
+function settLagretStorrelse(index: number) {
+  try {
+    window.localStorage.setItem(STORRELSE_LAGER_NOKKEL, String(index));
+  } catch {
+    /* ignorer */
+  }
+  storrelseListeners.forEach((cb) => cb());
+}
 
 interface ArshjulProps {
   /** Ett eller flere år. Komponenten viser ett av gangen med år-velger. */
@@ -54,6 +93,18 @@ export default function Arshjul({ years }: ArshjulProps) {
   );
   const [valgtStatuser, setValgtStatuser] = useState<Set<HjulStatus>>(new Set());
   const [valgtHendelse, setValgtHendelse] = useState<HjulHendelse | null>(null);
+
+  // Hjulstørrelse (zoom). Standarden er bevisst større enn før (760px).
+  const storrelseIndex = useSyncExternalStore(
+    subscribeStorrelse,
+    getStorrelseSnapshot,
+    getStorrelseServerSnapshot,
+  );
+
+  function settStorrelse(nyIndex: number) {
+    const klemt = Math.max(0, Math.min(HJUL_STORRELSER.length - 1, nyIndex));
+    settLagretStorrelse(klemt);
+  }
 
   // Redigering
   const [redaktor, setRedaktor] = useState(false);
@@ -266,12 +317,38 @@ export default function Arshjul({ years }: ArshjulProps) {
         <div>
           {visning === "hjul" ? (
             <div className="overflow-hidden rounded-2xl border border-gray-200 bg-gradient-to-br from-white to-gray-50/30 p-4">
+              <div className="mb-2 flex items-center justify-end gap-1.5">
+                <span className="mr-1 text-[11px] font-semibold uppercase tracking-wide text-gray-400">
+                  Størrelse
+                </span>
+                <button
+                  type="button"
+                  onClick={() => settStorrelse(storrelseIndex - 1)}
+                  disabled={storrelseIndex === 0}
+                  aria-label="Mindre hjul"
+                  title="Mindre hjul"
+                  className="flex h-7 w-7 items-center justify-center rounded-full border border-gray-200 bg-white text-base font-semibold leading-none text-gray-600 transition hover:text-gray-900 disabled:cursor-not-allowed disabled:opacity-40"
+                >
+                  −
+                </button>
+                <button
+                  type="button"
+                  onClick={() => settStorrelse(storrelseIndex + 1)}
+                  disabled={storrelseIndex === HJUL_STORRELSER.length - 1}
+                  aria-label="Større hjul"
+                  title="Større hjul"
+                  className="flex h-7 w-7 items-center justify-center rounded-full border border-gray-200 bg-white text-base font-semibold leading-none text-gray-600 transition hover:text-gray-900 disabled:cursor-not-allowed disabled:opacity-40"
+                >
+                  +
+                </button>
+              </div>
               <ArshjulWheel
                 data={data}
                 synlige={synlige}
                 valgtHendelse={valgtHendelse}
                 onSelect={setValgtHendelse}
                 onArrowNav={selectRelative}
+                maxBredde={HJUL_STORRELSER[storrelseIndex]}
               />
             </div>
           ) : (

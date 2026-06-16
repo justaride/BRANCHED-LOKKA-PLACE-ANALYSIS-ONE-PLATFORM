@@ -22,6 +22,8 @@ interface Props {
   onSelect: (h: HjulHendelse) => void;
   /** Bla kronologisk med piltaster (+1 = neste, -1 = forrige). */
   onArrowNav: (dir: 1 | -1) => void;
+  /** Maks visningsbredde i px. Hjulet fyller kolonnen opp til denne grensen. */
+  maxBredde?: number;
 }
 
 const CX = 280;
@@ -56,6 +58,7 @@ export default function ArshjulWheel({
   valgtHendelse,
   onSelect,
   onArrowNav,
+  maxBredde = 760,
 }: Props) {
   const reduce = useReducedMotion();
   const [hoveredId, setHoveredId] = useState<string | null>(null);
@@ -186,7 +189,8 @@ export default function ArshjulWheel({
   return (
     <svg
       viewBox="0 0 560 560"
-      className="mx-auto h-auto w-full max-w-[560px] outline-none focus-visible:ring-2 focus-visible:ring-natural-forest/40 rounded-2xl"
+      className="mx-auto h-auto w-full outline-none focus-visible:ring-2 focus-visible:ring-natural-forest/40 rounded-2xl"
+      style={{ maxWidth: maxBredde }}
       role="group"
       aria-label={`Årshjul for ${data.ar} med ${kategoriRinger.size} kategori-ringer. Bruk piltastene for å bla mellom ${synlige.length} hendelser.`}
       tabIndex={0}
