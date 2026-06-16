@@ -166,8 +166,9 @@ Visit http://localhost:3000
 
 ## 🔐 Authentication
 
-Each tenant has separate password authentication.
-Development password: test123
+Authentication is handled entirely by Cloudflare Access (Zero Trust) in front of the app.
+There is no in-app login. Locally (npm run dev) the app runs without any auth gate.
+To grant someone production access, add their email to the Cloudflare Access policy.
 
 ## 📊 Status
 
@@ -221,15 +222,10 @@ After pushing to GitHub:
 In Coolify app settings → Environment Variables:
 
 ```
-MAIN_BOARD_PASSWORD=[secure-password-1]
-ASPELIN_RAMM_PASSWORD=[secure-password-2]
-BRODRENE_EVENSEN_PASSWORD=[secure-password-3]
-EIENDOMSSPAR_PASSWORD=[secure-password-4]
-MALLING_CO_PASSWORD=[secure-password-5]
-MAYA_EIENDOM_PASSWORD=[secure-password-6]
-ROGER_VODAL_PASSWORD=[secure-password-7]
-SIO_PASSWORD=[secure-password-8]
-SPABO_EIENDOM_PASSWORD=[secure-password-9]
+# Authentication is handled by Cloudflare Access — no app passwords.
+# {TENANT}_EMAILS / ADMIN_EMAILS below are only for internal utilities/tests.
+ADMIN_EMAILS=
+MAIN_BOARD_EMAILS=
 
 NEXT_PUBLIC_SITE_URL=https://your-production-domain
 NEXT_PUBLIC_GOOGLE_FORM_URL=https://forms.google.com/your-form-id
@@ -277,10 +273,9 @@ git ls-files
 
 ## ⚠️ Important Notes
 
-### Passwords
-- Current: `test123` (development only)
-- Production: Use strong, unique passwords
-- Distribute securely to respective companies
+### Access control
+- Handled by Cloudflare Access (Zero Trust), not in the app.
+- Grant access by adding emails to the Cloudflare Access policy.
 
 ### Git Workflow
 ```bash

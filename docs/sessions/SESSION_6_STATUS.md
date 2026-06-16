@@ -13,14 +13,11 @@
 
 **Løsning:**
 - Endret tenant slug fra `spabo-eiendom` til `spabo`
-- Oppdatert passwordEnvVar til `SPABO_PASSWORD`
-- Lagt til `SPABO_PASSWORD=test123` i `.env.local`
 
 **Resultat:**
 - ✅ SPABO tilgjengelig på `http://localhost:3000/spabo`
-- ✅ Login med passord: `test123`
 
-**Fil endret:** `src/config/tenants.ts`, `.env.local`
+**Fil endret:** `src/config/tenants.ts`
 
 ---
 
@@ -100,7 +97,6 @@ Modified:
   src/config/tenants.ts
   src/components/property/TabbedImageViewer.tsx
   src/components/layout/Header.tsx
-  .env.local
 
 Created:
   src/app/brodrene-evensen/om-prosjektet/page.tsx
@@ -214,7 +210,7 @@ public/images/sofienberggata-6/1min-kart.png
 ## 🧪 TESTING STATUS
 
 ### Manuell Testing Utført
-- ✅ SPABO login og navigasjon
+- ✅ SPABO navigasjon
 - ✅ Om Prosjektet sider for alle tenants
 - ✅ Tab-synlighet på property pages
 - ✅ Hjemknapp navigasjon
@@ -238,7 +234,6 @@ feat: UX improvements - fix SPABO, add Om Prosjektet pages, improve navigation
   Eiendomsspar, Maya Eiendom, Malling & Co, SPABO, SiO)
 - Improve tab menu visibility with better styling
 - Add home button in header for easy navigation to main page
-- Update .env.local with SPABO_PASSWORD
 
 All 8 tenants now fully operational with complete navigation.
 ```
@@ -249,7 +244,6 @@ git add src/config/tenants.ts
 git add src/components/property/TabbedImageViewer.tsx
 git add src/components/layout/Header.tsx
 git add src/app/*/om-prosjektet/page.tsx
-git add .env.local
 git add UX_IMPROVEMENTS_REPORT.md
 git add NEXT_IMPLEMENTATION_1MIN_ANALYSIS.md
 git add SESSION_6_STATUS.md
@@ -308,10 +302,8 @@ Companies:
   SPABO:             /spabo
 ```
 
-### Alle Passord
-```
-test123 (for alle tenants)
-```
+### Tilgang
+_(Autentisering håndteres nå av Cloudflare Access — se docs/architecture/DEPLOYMENT.md. Opprinnelig passord/OTP-innhold er fjernet.)_
 
 ---
 

@@ -72,7 +72,8 @@ ROGER_VODAL_EMAILS=
 SIO_EMAILS=
 SPABO_EMAILS=
 
-# Legacy in-app OTP/password auth is removed. Keep access control in Cloudflare Access.
+# Access control is handled entirely by Cloudflare Access (see comment above).
+# There is no in-app login. {TENANT}_EMAILS / ADMIN_EMAILS are only for internal utils/tests.
 ```
 
 Ved endring av env vars: kjør ny deploy fra Coolify.

@@ -281,7 +281,6 @@ npm run dev
 
 ### View the Page
 Open browser to: **http://localhost:3000/main-board/analyser/sammenligning-2024**
-Login with password: **test123**
 
 ### Test Data Endpoints
 ```bash

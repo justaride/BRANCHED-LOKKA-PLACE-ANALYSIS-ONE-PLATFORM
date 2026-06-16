@@ -202,10 +202,6 @@ Protected (Companies - all 8):
 /[company]/eiendommer      → Properties list
 /[company]/eiendommer/[id] → Individual property details
 /[company]/om-prosjektet   → About
-
-Auth:
-/login?tenant=X&from=URL   → Login page
-/api/auth                  → Authentication API
 ```
 
 ### Company-Specific Features
@@ -314,16 +310,7 @@ cafcc05 - Fix all TypeScript strict mode errors for production deployment
 
 ## 🔐 Authentication
 
-**Current Setup:**
-- Per-tenant cookies maintained
-- 7-day session expiry
-- Separate passwords per tenant
-- Cross-tenant navigation supported
-
-**Test Credentials:**
-```
-All tenants: test123
-```
+_(Autentisering håndteres nå av Cloudflare Access — se docs/architecture/DEPLOYMENT.md. Opprinnelig passord/OTP-innhold er fjernet.)_
 
 ---
 
@@ -332,7 +319,7 @@ All tenants: test123
 ### Completed Features (85%)
 
 1. ✅ **Infrastructure** - Complete
-2. ✅ **Authentication** - Working perfectly
+2. ✅ **Authentication** - Via Cloudflare Access
 3. ✅ **Routing** - All routes functional
 4. ✅ **Visual Design** - Professional images
 5. ✅ **UI Polish** - Clean, focused features
@@ -423,7 +410,6 @@ The platform is live, fully functional, and looking professional. All major feat
 - ✅ 8 company sites with portfolio images
 - ✅ Property detail pages
 - ✅ Feedback system
-- ✅ Authentication system
 - ✅ Cross-tenant navigation
 
 **What's Next:**

@@ -12,12 +12,10 @@
 **Årsak:**
 - Folder: `src/app/spabo/`
 - Tenant config: `'spabo-eiendom'`
-- Passordenvironment variable: `SPABO_EIENDOM_PASSWORD`
 
 **Løsning:**
 - Oppdatert `src/config/tenants.ts`:
   - Endret slug fra `'spabo-eiendom'` til `'spabo'`
-  - Endret passwordEnvVar fra `SPABO_EIENDOM_PASSWORD` til `SPABO_PASSWORD`
   - Endret secondaryLogo path fra `/images/logos/spabo-eiendom.png` til `/images/logos/spabo.png`
 
 **Resultat:** SPABO-prosjektet er nå fullt operativt på `/spabo`
@@ -212,14 +210,13 @@ Alle metoder fungerer. Ingen endring nødvendig.
 ## ✅ KVALITETSSIKRING
 
 ### Testing Anbefalt
-- [ ] Test SPABO login med oppdatert `SPABO_PASSWORD` environment variable
+- [ ] Test SPABO-navigasjon på `/spabo`
 - [ ] Verifiser alle 7 nye "Om Prosjektet"-sider lastes korrekt
 - [ ] Test hjem-knapp fra forskjellige sider/tenants
 - [ ] Sjekk tab-synlighet på mobile, tablet, desktop
 - [ ] Verifiser at alle lenker fungerer (ingen 404)
 
 ### Deployment Checklist
-- [x] Oppdater `.env` eller `.env.local` med `SPABO_PASSWORD`
 - [x] Sjekk at spabo-logo finnes på `/images/logos/spabo.png`
 - [x] Bekreft at alle nye sider bygger uten feil
 - [x] Verifiser TypeScript kompilerer uten errors

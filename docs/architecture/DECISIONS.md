@@ -187,103 +187,21 @@ export default function CompanyLayout({
 
 ---
 
-## Decision 3: Cookie-Based Authentication
+## Decision 3: Cookie-Based Authentication — ⚠️ SUPERSEDED
 
 **Date:** 2025-11-19
-**Status:** ✅ Implemented
+**Status:** ⚠️ **SUPERSEDED (June 15 2026)** — replaced by Cloudflare Access (Zero Trust).
+All in-app auth (per-tenant password cookies, and the later email-OTP system) has been
+removed. See `docs/architecture/DEPLOYMENT.md` for the current model. The text below is
+kept only as a historical record of the original decision.
 
-### Decision
-Use **simple cookie-based authentication** with per-tenant passwords.
+### Original decision (superseded)
 
-### Context
-Need to protect content but:
-- No user accounts needed
-- No social login needed
-- Simple password protection sufficient
-
-### Rationale
-
-#### Why Cookies?
-1. **Simplicity:** Easy to implement and understand
-2. **No Database:** No user management needed
-3. **Per-Tenant:** Separate cookie per tenant
-4. **Persistence:** 7-day expiry, stays logged in
-5. **Cost:** Zero external dependencies
-
-#### Why Per-Tenant Passwords?
-1. **Security:** Breach of one doesn't affect others
-2. **Control:** Different access levels per tenant
-3. **Sharing:** Can share one password without exposing all
-
-### Alternatives Considered
-
-#### Option A: No Authentication (Rejected)
-**Pros:** Simplest possible
-
-**Cons:**
-- Content publicly accessible
-- Not suitable for client data
-
-#### Option B: NextAuth.js (Rejected)
-**Pros:**
-- Full-featured
-- Social login support
-
-**Cons:**
-- Overkill for use case
-- Requires database
-- More complex
-- Higher maintenance
-
-#### Option C: Cookie-Based (✅ Chosen)
-**Pros:**
-- Simple
-- No database
-- Fast
-- Sufficient for use case
-
-**Cons:**
-- Less secure than OAuth
-- No user management
-- Shared passwords
-
-### Implementation Details
-```typescript
-// Login sets cookie per tenant
-response.cookies.set(`auth-${tenant}`, 'authenticated', {
-  httpOnly: true,
-  secure: process.env.NODE_ENV === 'production',
-  sameSite: 'lax',
-  maxAge: 60 * 60 * 24 * 7, // 7 days
-  path: '/',
-});
-
-// Middleware checks cookie
-const authCookie = request.cookies.get(`auth-${tenantSlug}`);
-if (!authCookie || authCookie.value !== 'authenticated') {
-  // Redirect to login
-}
-```
-
-### Environment Variables
-```bash
-MAIN_BOARD_PASSWORD=secret123
-ASPELIN_RAMM_PASSWORD=secret456
-# ... etc
-```
-
-### Security Considerations
-1. **HTTPS Only in Production:** `secure: true`
-2. **HttpOnly Cookies:** Prevents XSS access
-3. **SameSite Protection:** CSRF mitigation
-4. **Environment Variables:** Passwords not in code
-
-### Future Migration Path
-If user management needed later:
-1. Keep cookie system
-2. Add database for users
-3. Store user ID in cookie instead of "authenticated"
-4. Maintain backward compatibility
+The platform originally used a simple cookie-based authentication scheme. This was later
+replaced entirely by **Cloudflare Access (Zero Trust)** in front of the app — there is now
+no in-app authentication (no login page, no auth API, no auth cookies). The detailed
+rationale for the original approach has been removed; see
+`docs/architecture/DEPLOYMENT.md` for the current access model.
 
 ---
 
@@ -606,25 +524,21 @@ Use **environment variables** for all sensitive configuration.
 ### Implementation
 ```bash
 # .env.local (development)
-MAIN_BOARD_PASSWORD=test123
-ASPELIN_RAMM_PASSWORD=test123
-# ...
+NEXT_PUBLIC_GOOGLE_FORM_URL=https://forms.gle/...
+# Authentication is handled by Cloudflare Access — no app passwords.
 
 # .env (production - in Coolify)
-MAIN_BOARD_PASSWORD=<strong-password>
-ASPELIN_RAMM_PASSWORD=<strong-password>
-# ...
+# {TENANT}_EMAILS / ADMIN_EMAILS — optional, only for internal utilities/tests
 ```
 
 ### Security Rules
 1. ✅ Never commit `.env.local`
 2. ✅ Provide `.env.example` template
-3. ✅ Use strong passwords in production
-4. ✅ Rotate passwords periodically
+3. ✅ Keep secrets (API keys) in env vars, never in code
 
 ### Accessed Via
 ```typescript
-const password = process.env.ASPELIN_RAMM_PASSWORD;
+const adminEmails = process.env.ADMIN_EMAILS;
 ```
 
 ---

@@ -31,16 +31,12 @@
   - **Påvirket:** totalRevenue, categoryStats, markedsandel for alle 350 aktører rekalkulert
   - **Kategori-korreksjon:** Handel 8,423M→2,129M | Mat&opplevelser 14,187M→1,629M | Tjenester 5,138M→313M
   - **Fix-script:** `/private/tmp/claude-501/fix-revenue-units.js` (engangskjøring)
-- **February 25, 2026: Email OTP Authentication** - ✅ **COMPLETE** - Migrated from shared passwords to email OTP with signed JWT cookies:
-  - **New auth flow:** Email → 6-digit OTP code → JWT session (90 days)
-  - **New files:** `src/lib/auth.ts` (JWT+OTP), `src/lib/email.ts` (Resend), `src/lib/tenant-emails.ts` (allowlists)
-  - **Modified:** middleware.ts at migration time; route protection now lives in `src/proxy.ts` for Next 16, plus login/page.tsx and api/auth/route.ts
-  - **Security:** Signed JWT cookies, SHA-256 hashed OTP codes, rate limiting, cache-control headers
-  - **Backward compatible:** Old password login + "authenticated" cookies still work during migration
-  - **Dependencies added:** `jose` (JWT), `resend` (email)
-  - **Env vars needed:** AUTH_SECRET, RESEND_API_KEY, AUTH_FROM_EMAIL, ADMIN_EMAILS, per-tenant *_EMAILS
-  - **Session log:** `docs/sessions/2026-02-25-AUTH-OTP-MIGRATION.md`
-  - **Also fixed:** Pre-existing build errors in one-min-loader, main-board loader, place-loader (deleted JSON refs)
+- **June 15, 2026: Removed all in-app auth → Cloudflare Access** - ✅ **CURRENT** - Authentication is now handled entirely by Cloudflare Access (Zero Trust) in front of the app (commit `10089c8`):
+  - **No in-app login:** deleted `src/lib/auth.ts`, `src/lib/email.ts`, `/login`, `/api/auth`; `src/proxy.ts` only does maintenance + tenant-slug validation.
+  - **Grant access:** add emails to the Cloudflare Access policy (no code change/deploy).
+  - **Supersedes** the Feb 2026 email-OTP system and the earlier per-tenant passwords — both fully removed.
+  - **Env vars:** `{TENANT}_EMAILS` / `ADMIN_EMAILS` remain only for internal utilities/tests.
+  - **Retained build fixes (from Feb 2026 work):** one-min-loader, main-board loader, place-loader (deleted JSON refs)
 - **January 29, 2026: Markveien 35 Footfall Data Enhancement** - ✅ **COMPLETE** - Enhanced 1-min analysis with visitor origin and international data:
   - **New data files:** `besokende.json` (25 visitor origin areas) + `internasjonalt.json` (20 countries)
   - **Loader updated:** `one-min-loader.ts` now loads besokende/internasjonalt for Markveien 35
@@ -983,50 +979,21 @@ Authentication:
 
 ## 🔐 Authentication System ✅
 
-**Current Implementation (February 2026):** Email OTP + JWT Sessions
+**Current Implementation (June 2026):** Cloudflare Access (Zero Trust)
 
-- ✅ **Primary:** Email OTP (6-digit code via Resend → signed JWT session, 90 days)
-- ✅ **Fallback:** Password login (for admin during migration)
-- ✅ **Backward compatible:** Old "authenticated" cookies still accepted
-- ✅ JWT signing/verification with `jose` (edge-compatible)
-- ✅ SHA-256 hashed OTP codes in signed pending-token
-- ✅ In-memory rate limiting (5 OTP requests/5min, 5 code attempts/OTP)
-- ✅ Sliding window refresh (new JWT if >30 days old)
-- ✅ Cache-Control headers: `private, no-cache, no-store, must-revalidate`
-- ✅ Security headers: X-Content-Type-Options, X-Frame-Options, Referrer-Policy
+- ✅ Authentication happens in **Cloudflare Access** in front of the app — requests are
+  already authenticated before they reach Next.js.
+- ✅ **No in-app login:** no `src/middleware.ts`, no `/login`, no `/api/auth`, no `src/lib/auth.ts`.
+- ✅ `src/proxy.ts` only handles maintenance mode + tenant-slug validation.
 
-**Key Files:**
+**Grant access:** add the person's email to the Cloudflare Access application policy
+(one.dash.cloudflare.com → Access → Applications → Policies → Include → Emails).
+No code change or deploy required.
 
-| File | Purpose |
-|------|---------|
-| `src/lib/auth.ts` | JWT signing, OTP generation, verification |
-| `src/lib/email.ts` | Resend integration (Norwegian OTP emails) |
-| `src/lib/tenant-emails.ts` | Per-tenant email allowlists from env vars |
-| `src/app/api/auth/route.ts` | 3 actions: request-otp, verify-otp, password |
-| `src/app/login/page.tsx` | Two-step OTP UI (email → code) |
-| `src/proxy.ts` | JWT validation, sliding refresh, cache headers |
+**Env Vars (Coolify):** `{TENANT}_EMAILS` / `ADMIN_EMAILS` exist only for internal
+utilities/tests via `src/lib/tenant-emails.ts` — they do NOT control production access.
 
-**Required Env Vars (Coolify):**
-
-```bash
-AUTH_SECRET=<openssl rand -hex 32>
-RESEND_API_KEY=re_xxxxxxxxxxxxx
-AUTH_FROM_EMAIL=noreply@naturalstate.no
-ADMIN_EMAILS=gabriel@naturalstate.no
-# Per tenant: SPABO_EMAILS=a@b.no,c@d.no (see tenants.ts emailsEnvVar)
-```
-
-**Migration Status:**
-
-- [x] Code deployed with both systems active
-- [ ] Set up Resend account + DNS (SPF, DKIM, DMARC for naturalstate.no)
-- [ ] Add env vars in Coolify (AUTH_SECRET, RESEND_API_KEY, etc.)
-- [ ] Test OTP flow with own email
-- [ ] Collect email addresses from property developers
-- [ ] Configure Cloudflare cache rules (bypass for non-static)
-- [ ] Remove password UI after full migration
-
-**Cookie Names:** `auth-{tenant-slug}` (same pattern, now contains JWT instead of "authenticated")
+**History:** per-tenant passwords → email OTP (Feb 2026) → Cloudflare Access (June 15 2026, current). The first two are fully removed.
 
 ---
 
@@ -1041,12 +1008,8 @@ ADMIN_EMAILS=gabriel@naturalstate.no
 **Environment Variables:**
 
 - ✅ `NEXT_PUBLIC_GOOGLE_FORM_URL` configured
-- ✅ `AUTH_SECRET` — JWT signing secret (required for OTP auth)
-- ✅ `RESEND_API_KEY` — Resend email service (required for OTP auth)
-- ✅ `AUTH_FROM_EMAIL` — Sender address (noreply@naturalstate.no)
-- ✅ `ADMIN_EMAILS` — Admin email addresses (all tenants)
-- ✅ Per-tenant `*_EMAILS` env vars (e.g. SPABO_EMAILS)
-- ✅ Per-tenant `*_PASSWORD` env vars (fallback during migration)
+- ✅ Authentication: handled by Cloudflare Access (no app auth env vars required)
+- `{TENANT}_EMAILS` / `ADMIN_EMAILS` — optional, only for internal utilities/tests
 
 **Build Status:**
 
@@ -1487,11 +1450,7 @@ scripts/
 **Repository:** GitHub
 **Platform:** Coolify (Hetzner) behind Cloudflare
 
-**Test Login:**
-
-```
-Password: test123 (all tenants)
-```
+**Access:** via Cloudflare Access (Zero Trust). Locally the app runs without a login gate.
 
 ---
 

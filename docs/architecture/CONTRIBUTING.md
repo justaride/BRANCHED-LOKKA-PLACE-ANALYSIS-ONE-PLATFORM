@@ -54,8 +54,8 @@ npm install
 # Copy example environment file
 cp .env.example .env.local
 
-# All passwords are "test123" in development
-# No need to modify .env.local for local development
+# Authentication is handled by Cloudflare Access, not the app — there is no
+# local login gate. No need to modify .env.local for local development.
 ```
 
 #### 4. Run Development Server
@@ -68,8 +68,7 @@ Open http://localhost:3000
 
 **Expected:**
 - Landing page loads
-- Can login to /main-board (password: test123)
-- Can login to any company (password: test123)
+- /main-board and company pages load directly (no login gate locally)
 - No console errors
 
 ---

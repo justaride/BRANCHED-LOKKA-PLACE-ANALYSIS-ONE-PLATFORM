@@ -38,8 +38,7 @@ docs/
 │   ├── CONTRIBUTING.md        # Development workflow
 │   ├── GIT_WORKFLOW.md        # Git best practices
 │   ├── MAINTENANCE.md         # Long-term maintenance
-│   ├── GITHUB_SETUP.md        # GitHub configuration
-│   └── PASSWORDS.md           # Authentication details
+│   └── GITHUB_SETUP.md        # GitHub configuration
 │
 ├── guides/             # Implementation guides
 │   ├── ANALYSIS_PLAN.md                    # Analysis implementation

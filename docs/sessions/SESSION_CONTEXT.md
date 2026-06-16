@@ -11,14 +11,9 @@
 
 ### What's FULLY Working
 
-#### 1. Authentication System
-- Cookie-based auth per tenant
-- Per-tenant passwords via environment variables
-- 7-day cookie expiry
-- Middleware protecting all routes
-- Login/logout functionality complete
+#### 1. Authentication
 
-**Test Credentials:** All tenants use `test123` in development
+_(Autentisering håndteres nå av Cloudflare Access — se docs/architecture/DEPLOYMENT.md. Opprinnelig passord/OTP-innhold er fjernet.)_
 
 #### 2. Multi-Tenant Configuration
 - 9 tenants configured in `src/config/tenants.ts`
@@ -32,7 +27,6 @@
 #### 3. Dynamic Routing Structure
 ```
 /                          → Landing page (Løkka branding)
-/login                     → Login page (tenant-aware)
 /main-board                → Main Board home
 /main-board/om-prosjektet  → About project
 /main-board/analyser       → Analysis listing
@@ -64,10 +58,10 @@
 - **Tailwind Config:** `tailwind.config.ts`
 - **Environment:** `.env.local` (dev), `.env.example` (template)
 
-### Authentication
-- **Auth API:** `src/app/api/auth/route.ts`
-- **Login Page:** `src/app/login/page.tsx`
+### Tenant Context
 - **Tenant Context:** `src/lib/tenant-context.tsx`
+
+_(Autentisering håndteres nå av Cloudflare Access — se docs/architecture/DEPLOYMENT.md. Opprinnelig passord/OTP-innhold er fjernet.)_
 
 ### Layouts & Pages
 - **Root Layout:** `src/app/layout.tsx`
@@ -205,7 +199,6 @@ export async function loadArsrapport2024() {
 - Replicate for remaining 7 companies
 
 #### 7. Testing & QA
-- Test all authentication flows
 - Test cross-tenant navigation
 - Browser compatibility
 - Mobile responsive testing
@@ -221,18 +214,15 @@ export async function loadArsrapport2024() {
 
 ---
 
-## Testing Credentials & URLs
+## Test URLs
 
 ### Development Server
 **URL:** http://localhost:3000 (or 3001 if 3000 is in use)
 
 ### Main Board
 - **URL:** http://localhost:3000/main-board
-- **Password:** `test123`
-- **Env Var:** `MAIN_BOARD_PASSWORD`
 
 ### Company Sites (All 8)
-- **Password:** `test123` (all companies in development)
 - **URLs:**
   - http://localhost:3000/aspelin-ramm
   - http://localhost:3000/brodrene-evensen
@@ -243,18 +233,7 @@ export async function loadArsrapport2024() {
   - http://localhost:3000/sio
   - http://localhost:3000/spabo-eiendom
 
-### Environment Variables (Development)
-```bash
-MAIN_BOARD_PASSWORD=test123
-ASPELIN_RAMM_PASSWORD=test123
-BRODRENE_EVENSEN_PASSWORD=test123
-EIENDOMSSPAR_PASSWORD=test123
-MALLING_CO_PASSWORD=test123
-MAYA_EIENDOM_PASSWORD=test123
-ROGER_VODAL_PASSWORD=test123
-SIO_PASSWORD=test123
-SPABO_EIENDOM_PASSWORD=test123
-```
+_(Autentisering håndteres nå av Cloudflare Access — se docs/architecture/DEPLOYMENT.md. Opprinnelig passord/OTP-innhold er fjernet.)_
 
 ---
 
@@ -287,8 +266,7 @@ Clean working directory (after Session 1 completion)
 
 ### Technical Debt
 1. **TypeScript Strict Mode:** Some components have TypeScript checking temporarily disabled
-2. **Middleware Deprecation:** Using cookies API that may need proxy in future
-3. **Hard-coded Paths:** Some components have hard-coded paths that should be dynamic
+2. **Hard-coded Paths:** Some components have hard-coded paths that should be dynamic
 
 ### Future Improvements
 1. Add database for user management (future)
@@ -312,13 +290,6 @@ Clean working directory (after Session 1 completion)
 - Scalable (easy to add new companies)
 - Clean URL structure
 - Tenant-aware everything
-
-### Why Cookie-Based Auth?
-- Simple to implement
-- No external dependencies
-- Works perfectly for use case
-- Per-tenant isolation
-- 7-day persistence
 
 ### Why JSON Files Over Database?
 - Data is mostly static
@@ -418,8 +389,8 @@ Located in: `~/Downloads/LØKKA PROJECTS UPDATED AND BACKUPS FOLDER/`
 
 4. **Check current state:**
    - Landing page loads
-   - Can login to main-board (test123)
-   - Can login to any company (test123)
+   - Can open main-board
+   - Can open any company
    - Navigation works
 
 5. **Next task:**
@@ -431,7 +402,6 @@ Located in: `~/Downloads/LØKKA PROJECTS UPDATED AND BACKUPS FOLDER/`
 
 ### Session 1 Complete
 - [x] Multi-tenant infrastructure
-- [x] Authentication system
 - [x] Dynamic routing
 - [x] All layouts and components
 - [x] 75% of Main Board content migrated

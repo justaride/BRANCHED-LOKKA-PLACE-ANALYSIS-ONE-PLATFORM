@@ -1,4 +1,4 @@
-# Løkka Gardeierforening Platform - Claude Context
+# Løkka Gardeierforening Platform - Codex Context
 
 > Multi-tenant property analysis platform for Grünerløkka, Oslo
 > **Status:** 99% complete | **Live:** Coolify production (Cloudflare domain)
@@ -27,7 +27,7 @@ Løkka Internal Dashboard:
   relationship: "Dette prosjektet (platform) = kundevendt | Dashboard = intern styring"
 
 # Når du trenger kontekst fra begge prosjekter:
-# Si: "Les CLAUDE.md fra /Users/gabrielboen/Documents/Løkka Internal Dashboard"
+# Si: "Les AGENTS.md fra /Users/gabrielboen/Documents/Løkka Internal Dashboard"
 ```
 
 **Kobling mellom prosjektene:**
@@ -192,7 +192,7 @@ happens **entirely in Cloudflare Access (Zero Trust)** in front of the app:
 
 - No `src/middleware.ts`, no `/login` page, no `/api/auth` route, no `src/lib/auth.ts`.
 - `src/proxy.ts` only handles maintenance mode + tenant-slug validation — it does NOT
-  authenticate. (It is exported, not wired as Next.js middleware.)
+  authenticate.
 - Cloudflare Access protects the production domain; requests are already authenticated
   before they reach the app.
 
@@ -347,7 +347,7 @@ git add . && git commit -m "message" && git push
 
 ```
 README.md           # Project overview
-CLAUDE.md           # This file (Claude context)
+AGENTS.md           # This file (Codex context)
 PROJECT_STATUS.md   # Current state & progress
 package.json        # Dependencies
 ```
@@ -435,7 +435,7 @@ When ending session:
 ---
 
 _Last Updated: March 29, 2026_
-_Maintained by: Claude Code_
+_Maintained by: Codex Code_
 
 ---
 

@@ -15,7 +15,7 @@ We've built a **fully functional multi-tenant platform** from scratch and starte
 
 1. **✅ Project Structure** - Next.js 16 + TypeScript + Tailwind
 2. **✅ Tenant Configuration** - 9 tenants (Main Board + 8 companies)
-3. **✅ Multi-Tenant Authentication** - Per-tenant passwords, cookie-based
+3. **✅ Multi-Tenant Authentication** (now via Cloudflare Access)
 4. **✅ Landing Page** - Løkka Gårdeierforening branding
 5. **✅ Dynamic Routing** - Main Board + company routes
 6. **✅ Cross-Tenant Navigation** - Working perfectly
@@ -35,10 +35,8 @@ We've built a **fully functional multi-tenant platform** from scratch and starte
 ```
 ✅ Multi-tenant architecture
 ✅ Dynamic routing system
-✅ Authentication middleware
 ✅ Tenant context provider
 ✅ Landing page
-✅ Login system
 ✅ Header/Footer/Navigation
 ```
 
@@ -66,9 +64,8 @@ We've built a **fully functional multi-tenant platform** from scratch and starte
 
 ### What's Working
 - ✅ Landing page: http://localhost:3000
-- ✅ Main Board routes: /main-board (login: test123)
-- ✅ All 8 company routes: /[company] (login: test123)
-- ✅ Authentication for all tenants
+- ✅ Main Board routes: /main-board
+- ✅ All 8 company routes: /[company]
 - ✅ Cross-tenant navigation
 - ✅ All layouts and navigation
 
@@ -94,10 +91,8 @@ We've built a **fully functional multi-tenant platform** from scratch and starte
 
 **Core Infrastructure (15 files):**
 - Config: 1 file (tenants.ts)
-- Middleware: 1 file
-- API: 1 file (auth route)
 - Context: 1 file (tenant provider)
-- Pages: 6 files (landing, login, placeholder pages)
+- Pages: 6 files (landing, placeholder pages)
 - Layout components: 3 files (Header, Footer, Navigation)
 - Environment: 2 files (.env.local, .env.example)
 
@@ -116,7 +111,7 @@ We've built a **fully functional multi-tenant platform** from scratch and starte
 
 ### Git Commits: 6 total
 1. Initial Next.js setup
-2. Foundation: Tenant config, auth, landing, login
+2. Foundation: Tenant config, landing page
 3. Project status docs
 4. Dynamic routing complete
 5. Progress update
@@ -130,16 +125,12 @@ We've built a **fully functional multi-tenant platform** from scratch and starte
 - **URL:** http://localhost:3000
 - **Status:** Running
 
-### Test Credentials
+### URLs
 ```
-All tenants: test123
-
 Main Board:
-  Password: test123
   URL: http://localhost:3000/main-board
 
 Companies (all 8):
-  Password: test123
   URLs:
     - /aspelin-ramm
     - /brodrene-evensen
@@ -151,6 +142,8 @@ Companies (all 8):
     - /spabo-eiendom
 ```
 
+_(Autentisering håndteres nå av Cloudflare Access — se docs/architecture/DEPLOYMENT.md. Opprinnelig passord/OTP-innhold er fjernet.)_
+
 ---
 
 ## 🏗️ Architecture Highlights
@@ -158,28 +151,27 @@ Companies (all 8):
 ### Multi-Tenancy Features
 1. **Single Codebase** - 9 websites from one application
 2. **Dynamic Routing** - `[company]` parameter handles all companies
-3. **Per-Tenant Auth** - Separate cookies per tenant
-4. **Context-Aware UI** - Navigation changes per tenant
-5. **Cross-Tenant Access** - Users can access multiple tenants
+3. **Context-Aware UI** - Navigation changes per tenant
+4. **Cross-Tenant Access** - Users can access multiple tenants
 
 ### Tech Stack
 - Next.js 16 (App Router)
 - React 19
 - TypeScript 5.9
 - Tailwind CSS 4.1
-- Cookie-based authentication
+- Authentication via Cloudflare Access
 
 ---
 
 ## 📈 Progress Timeline
 
 ### Week 1, Day 1 (Today) ✅
-**Planned:** Project setup, config, basic auth
+**Planned:** Project setup, config, basic structure
 **Actual:** All of the above PLUS dynamic routing, navigation, AND started content migration!
 
 **Time Breakdown:**
-- Hour 1: Project setup, tenant config, authentication
-- Hour 2: Landing page, login page, testing auth
+- Hour 1: Project setup, tenant config
+- Hour 2: Landing page, testing navigation
 - Hour 3: Dynamic routing, layouts, navigation
 - Hour 4: Main Board content migration
 
@@ -199,7 +191,6 @@ Companies (all 8):
 ### Week 4
 - Deploy to Coolify
 - Configure production environment
-- Set up strong passwords
 - Go live!
 
 ---
@@ -273,8 +264,6 @@ Companies (all 8):
 1. Next.js 16 dynamic routing is powerful
 2. Multi-tenancy at app level is elegant
 3. Context API perfect for tenant data
-4. Middleware great for route protection
-5. Cookie-based auth simple and effective
 
 ### Project Insights
 1. Your sites are 95% identical (perfect for multi-tenancy!)
@@ -288,7 +277,7 @@ Companies (all 8):
 
 **Planned Goals for Day 1:**
 - [x] Initialize project
-- [x] Set up authentication
+- [x] Set up tenant configuration
 - [x] Create basic structure
 
 **Actual Achievement:**
@@ -332,7 +321,7 @@ If you want to continue tomorrow:
 
 ### Delivered Today
 - Fully functional platform infrastructure
-- 9 tenant sites with authentication
+- 9 tenant sites
 - Professional landing page
 - Dynamic routing system
 - Cross-tenant navigation
@@ -351,7 +340,6 @@ If you want to continue tomorrow:
 
 ### Before Next Time
 - Review the platform: http://localhost:3000
-- Test authentication flows
 - Check all navigation
 - Think about any desired changes
 
@@ -373,7 +361,6 @@ Just say: "Continue Main Board migration" or "Show me next steps"
 We've built:
 - A sophisticated multi-tenant platform
 - Professional UI/UX
-- Complete authentication system
 - Dynamic routing infrastructure
 - And migrated 75% of Main Board!
 

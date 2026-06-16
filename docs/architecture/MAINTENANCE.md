@@ -53,7 +53,7 @@ Denne guiden beskriver aktiv drift: **Coolify + Hetzner + Cloudflare**.
 Ved nye tenants må du oppdatere begge:
 
 - kode/config (`src/config/tenants.ts`, loader/data)
-- Coolify env vars (`*_EMAILS`, eventuelt `*_PASSWORD` fallback)
+- Coolify env vars (`*_EMAILS` — kun for interne verktøy/tester; tilgang styres i Cloudflare Access)
 
 Når env vars endres: kjør redeploy i Coolify.
 

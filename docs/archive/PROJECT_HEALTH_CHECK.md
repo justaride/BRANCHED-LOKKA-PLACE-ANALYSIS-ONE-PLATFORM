@@ -125,10 +125,10 @@ The Løkka Gardeierforening Platform is **fully operational** with all systems f
 
 **Status:** ✅ All 42 property detail pages generated
 
-### Authentication Routes ✅
-- `/login` - Login page
-- `/api/auth` - Authentication API
+### API Routes ✅
 - `/api/test-env` - Environment testing
+
+_(Autentisering håndteres nå av Cloudflare Access — se docs/architecture/DEPLOYMENT.md. Opprinnelig passord/OTP-innhold er fjernet.)_
 
 **Status:** ✅ All functional
 
@@ -244,7 +244,6 @@ Suggested: use "proxy" instead
 - Main Board layout - ✅ Working
 - Company layouts (8) - ✅ All working
 - Property detail layouts - ✅ Working
-- Authentication layout - ✅ Working
 
 **Status:** ✅ All layouts functional
 
@@ -285,10 +284,7 @@ Suggested: use "proxy" instead
 - **Server Components:** Functional ✅
 
 ### Authentication
-- **Multi-tenant Auth:** Working ✅
-- **Cookie Management:** Functional ✅
-- **Route Protection:** Working ✅
-- **Login/Logout:** Functional ✅
+- **Access control:** via Cloudflare Access (Zero Trust) — not in app code ✅
 
 ---
 
@@ -318,8 +314,7 @@ b3a27b6 - docs: Update progress with Session 8 improvements
 
 ### Environment Variables
 - `NEXT_PUBLIC_GOOGLE_FORM_URL` - ✅ Set
-- Authentication secrets - ✅ Set
-- Tenant passwords - ✅ All configured
+- Access control - ✅ Cloudflare Access (no app auth secrets needed)
 
 **Deployment Health:** 🟢 EXCELLENT
 
@@ -348,7 +343,7 @@ All warnings are informational only and do not affect functionality.
 | Route Generation | ✅ All working | A+ |
 | Component Health | ✅ Functional | A+ |
 | Data Loaders | ✅ Working | A+ |
-| Authentication | ✅ Functional | A+ |
+| Authentication | ✅ Cloudflare Access | A+ |
 | Deployment | ✅ Live | A+ |
 | Performance | ✅ Excellent | A+ |
 | **OVERALL** | **✅ PRODUCTION READY** | **A+** |

@@ -37,7 +37,7 @@ Gjennomgang av repo-oppsett, data, dokumentasjon, bygg, tester og lokal runtime 
 
 3. Toppdokumentasjon var delvis utdatert.
    - Oppdatert `README.md`, `CLAUDE.md` og `PROJECT_STATUS.md` for dagens status:
-     51 eiendommer, Next.js 16.2.6, `src/proxy.ts`, unified OTP/JWT-session,
+     51 eiendommer, Next.js 16.2.6, `src/proxy.ts`, Cloudflare Access,
      `/front-real-estate`, `carucel`, og gjeldende verifikasjonsstatus.
 
 ## Restpunkter
@@ -46,7 +46,7 @@ Gjennomgang av repo-oppsett, data, dokumentasjon, bygg, tester og lokal runtime 
   `npm audit fix --force` ble ikke brukt, fordi den foreslo en feilaktig Next-
   downgrade.
 - `npm outdated --long` viser kun storre migreringer: Jest 30, TypeScript 6,
-  ESLint 10, Resend 6 og Node/Jest typepakker.
+  ESLint 10 og Node/Jest typepakker.
 - `eslint-config-next` er oppdatert til 16.2.6. Regelen
   `react-hooks/static-components` er eksplisitt deaktivert forelopig fordi
   eksisterende chart-tooltips defineres inne i komponentene. Kontrollkjøring med

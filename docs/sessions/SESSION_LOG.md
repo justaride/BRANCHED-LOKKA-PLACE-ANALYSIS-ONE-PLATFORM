@@ -1,9 +1,9 @@
 # Session Log - Løkka Gårdeierforening Platform
 **Dato:** 20. november 2024
-**Arbeidsøkt:** Visual Design & Password Protection Implementation
+**Arbeidsøkt:** Visual Design & Deployment Fixes
 
 ## Oversikt
-Denne økten fokuserte på å legge til visuelle elementer, implementere passord-beskyttelse, og fikse deployment-feil for produksjon.
+Denne økten fokuserte på å legge til visuelle elementer og fikse deployment-feil for produksjon.
 
 ---
 
@@ -40,38 +40,9 @@ Kopiert 8 selskapsbilder til `public/images/companies/`:
 
 ---
 
-## 2. Passord-Beskyttelse
+## 2. Tilgangsstyring
 
-### Implementasjon
-- ✅ Unike passord for hvert selskap og hovedstyret
-- ✅ Admin-passord som fungerer på alle sider
-- ✅ 7-dagers session med HTTP-only cookies
-- ✅ Middleware som sjekker autentisering før tilgang
-- ✅ Login-side med redirect til ønsket side etter innlogging
-
-### Passord (se PASSWORDS.md)
-**Admin-passord (alle sider):**
-- `NaturalState2024Admin`
-
-**Hovedstyret:**
-- `MainBoard2024Analysis`
-
-**Selskaper:**
-- Aspelin Ramm: `AspelinRamm2024Secure`
-- Brødrene Evensen: `BrodreneEvensen2024Key`
-- Eiendomsspar: `Eiendomsspar2024Pass`
-- Malling & Co: `MallingCo2024Access`
-- Maya Eiendom: `MayaEiendom2024Login`
-- Roger Vødal: `RogerVodal2024Entry`
-- SiO: `SIO2024Protected`
-- SPABO: `Spabo2024Private`
-
-### Filer Endret
-- `.env.local` - Miljøvariabler med passord
-- `src/app/api/auth/route.ts` - Admin-passord støtte
-- `src/middleware.ts` - Allerede eksisterende
-- `src/app/login/page.tsx` - Allerede eksisterende
-- `PASSWORDS.md` - Dokumentasjon (ny fil)
+_(Autentisering håndteres nå av Cloudflare Access — se docs/architecture/DEPLOYMENT.md. Opprinnelig passord/OTP-innhold er fjernet.)_
 
 ---
 
@@ -137,7 +108,7 @@ ef6172e - Add missing eiendom.ts type definitions
 c1e164b - Fix TypeScript error in PieChart label rendering
 cbf2fba - Fix TypeScript error in kvartalsrapport page
 196812a - Fix deployment build errors and add Natural State logo
-8709a24 - Add password protection and update main page design
+8709a24 - Update main page design
 6b2a587 - Add visual elements and Natural State section
 ```
 
@@ -161,16 +132,9 @@ cbf2fba - Fix TypeScript error in kvartalsrapport page
 ## 7. Neste Steg
 
 ### For Produksjon
-1. ⚠️ **VIKTIG:** Endre passord i produksjon (ikke bruk development-passord)
-2. Sett opp miljøvariabler i Coolify med produksjons-passord
-3. Test autentisering på alle sider i produksjon
-4. Verifiser at alle bilder lastes korrekt i produksjon
+1. Verifiser at alle bilder lastes korrekt i produksjon
 
 ### Potensielle Forbedringer
-- Vurdere å bruke bcrypt for passord-hashing
-- Implementere rate-limiting på login-endepunkt
-- Legge til "Forgot password" funksjonalitet
-- Vurdere 2FA for admin-tilgang
 - Optimalisere bildestørrelser (spesielt malling-co.jpg på 1.8MB)
 
 ---
@@ -181,12 +145,8 @@ cbf2fba - Fix TypeScript error in kvartalsrapport page
 - `.env.local` - Miljøvariabler (IKKE commit til Git)
 - `tsconfig.json` - TypeScript-konfigurasjon
 - `package.json` - Dependencies og scripts
-- `PASSWORDS.md` - Passord-dokumentasjon
 
-### Autentisering
-- `src/app/api/auth/route.ts` - Login API
-- `src/middleware.ts` - Auth middleware
-- `src/app/login/page.tsx` - Login-side
+### Tenant-konfigurasjon
 - `src/config/tenants.ts` - Tenant-konfigurasjon
 
 ### Types
@@ -208,13 +168,9 @@ cbf2fba - Fix TypeScript error in kvartalsrapport page
 # .env.local (lokal utvikling)
 NODE_ENV=development
 NEXT_PUBLIC_SITE_URL=http://localhost:3001
-
-# Autentisering
-ADMIN_PASSWORD=NaturalState2024Admin
-MAIN_BOARD_PASSWORD=MainBoard2024Analysis
-ASPELIN_RAMM_PASSWORD=AspelinRamm2024Secure
-# ... (se PASSWORDS.md for alle)
 ```
+
+_(Autentisering håndteres nå av Cloudflare Access — se docs/architecture/DEPLOYMENT.md. Opprinnelig passord/OTP-innhold er fjernet.)_
 
 ---
 
@@ -225,8 +181,6 @@ ASPELIN_RAMM_PASSWORD=AspelinRamm2024Secure
 - ✅ Bilder kopiert til riktig plassering
 - ✅ Natural State-logo tilgjengelig
 - ✅ Template-filer ekskludert fra bygg
-- ✅ Middleware konfigurert korrekt
-- ✅ Passord satt opp i miljøvariabler
 - ✅ Port-konfigurasjon oppdatert
 - ✅ Git repository oppdatert
 - ✅ Alle commits pushet til main branch
