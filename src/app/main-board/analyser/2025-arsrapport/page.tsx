@@ -6,6 +6,8 @@ import AktorOversikt from "@/components/analyser/AktorOversikt";
 import AktorMapWrapper from "@/components/analyser/AktorMapWrapper";
 import SimpleEventTimeline from "@/components/analyser/SimpleEventTimeline";
 import BankTransactionChart from "@/components/analyser/BankTransactionChart";
+import EventImpactCard from "@/components/analyser/EventImpactCard";
+import { analyseEventImpacts } from "@/lib/event-impact";
 import KonkurransebildeCharts from "@/components/analyser/KonkurransebildeCharts";
 import KorthandelCharts from "@/components/analyser/KorthandelCharts";
 import BevegelseCharts from "@/components/analyser/BevegelseCharts";
@@ -44,6 +46,28 @@ export default async function Analyse2025Page() {
 
   const monthlyBankData = aggregateToMonthly(dailyBankData);
   const monthlyVisitorData = aggregateToMonthly(dailyVisitorData);
+
+  const eventImpacts = analyseEventImpacts(
+    timelineEvents.map((e) => ({
+      id: e.id,
+      title: e.title,
+      date: e.date,
+      endDate: e.endDate,
+    })),
+    { besok: dailyVisitorData, omsetning: dailyBankData },
+  );
+  const topImpacts = [...eventImpacts]
+    .filter((i) => i.besok || i.omsetning)
+    .sort((a, b) => {
+      const scoreA = Math.abs(
+        (a.besok?.delta_event_pct ?? 0) + (a.omsetning?.delta_event_pct ?? 0),
+      );
+      const scoreB = Math.abs(
+        (b.besok?.delta_event_pct ?? 0) + (b.omsetning?.delta_event_pct ?? 0),
+      );
+      return scoreB - scoreA;
+    })
+    .slice(0, 3);
 
   const allKonkurranseScreenshots =
     analysis.plaaceData.screenshots?.filter(
@@ -417,6 +441,36 @@ export default async function Analyse2025Page() {
                   antall arrangementer per måned med grønne bars.
                 </p>
               </div>
+            </div>
+          </Container>
+        </section>
+      )}
+
+      {topImpacts.length > 0 && (
+        <section className="border-b border-gray-200/30 bg-gradient-to-br from-amber-50/40 via-orange-50/20 to-yellow-50/30 py-8 md:py-12">
+          <Container>
+            <div className="mb-6 flex flex-wrap items-end justify-between gap-3 md:mb-8">
+              <div>
+                <h2 className="text-2xl font-bold text-natural-forest md:text-3xl">
+                  Effekt av arrangementer
+                </h2>
+                <p className="mt-2 max-w-3xl text-sm text-gray-600 md:text-base">
+                  Tre arrangementer med størst målt effekt på besøk og omsetning
+                  i 2025, sammenlignet mot et ukedag-justert baseline-vindu.
+                </p>
+              </div>
+              <Link
+                href="/main-board/arrangementer/effekt"
+                className="rounded-full border border-natural-forest px-4 py-2 text-sm font-medium text-natural-forest hover:bg-natural-forest hover:text-white transition"
+              >
+                Se alle arrangementer →
+              </Link>
+            </div>
+
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+              {topImpacts.map((impact) => (
+                <EventImpactCard key={impact.event_id} impact={impact} />
+              ))}
             </div>
           </Container>
         </section>
