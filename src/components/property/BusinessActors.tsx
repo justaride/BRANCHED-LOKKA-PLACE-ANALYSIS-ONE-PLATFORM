@@ -2,9 +2,14 @@
 
 import { useState } from 'react';
 import type { BusinessActor, CategoryStats } from '@/types/eiendom';
+import type { Maskert } from '@/lib/synlighet/filter';
+import { erMaskert } from '@/types/synlighet';
+import RestriktertFelt from '@/components/ui/RestriktertFelt';
+
+type SynligBusinessActor = Maskert<BusinessActor>;
 
 interface BusinessActorsProps {
-  actors: BusinessActor[];
+  actors: SynligBusinessActor[];
   categoryStats: Record<string, CategoryStats>;
   metadata: {
     totalActors: number;
@@ -17,12 +22,18 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
   const [isExpanded, setIsExpanded] = useState(true); // Changed to true - show all actors by default
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
+  const numericValue = (value: number | null | unknown): number | null =>
+    typeof value === 'number' && Number.isFinite(value) ? value : null;
+
+  const textValue = (value: string | null | unknown): string =>
+    typeof value === 'string' ? value : '';
+
   // Filter actors by category and sort by revenue (highest first)
   const safeActors = actors || [];
   const filteredActors = (selectedCategory === 'all'
-    ? safeActors
-    : safeActors.filter(a => a.type === selectedCategory))
-    .sort((a, b) => (b.omsetning || 0) - (a.omsetning || 0));
+    ? [...safeActors]
+    : safeActors.filter(a => textValue(a.type) === selectedCategory))
+    .sort((a, b) => (numericValue(b.omsetning) || 0) - (numericValue(a.omsetning) || 0));
 
   // Top 3 categories by count
   const safeCategoryStats = categoryStats || {};
@@ -31,7 +42,13 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
     .slice(0, 3);
 
   // Calculate total revenue
-  const totalRevenue = safeActors.reduce((sum, a) => sum + (a.omsetning || 0), 0);
+  const totalRevenue = safeActors.reduce((sum, a) => sum + (numericValue(a.omsetning) || 0), 0);
+  const revenueRestricted = safeActors.some(a => erMaskert(a.omsetning));
+  const topActor = revenueRestricted
+    ? undefined
+    : [...safeActors].sort(
+      (a, b) => (numericValue(b.omsetning) || 0) - (numericValue(a.omsetning) || 0),
+    )[0];
 
   // Format number with thousand separators
   const formatNumber = (num: number) => {
@@ -65,7 +82,13 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
             <div className="mb-2 text-xs font-medium uppercase tracking-wider text-slate-600 md:text-sm">
               Total omsetning
             </div>
-            <div className="text-3xl font-bold text-slate-900 md:text-4xl">{formatNumber(totalRevenue)}</div>
+            <div className="text-3xl font-bold text-slate-900 md:text-4xl">
+              {revenueRestricted ? (
+                <RestriktertFelt verdi={null} niva="internt" />
+              ) : (
+                formatNumber(totalRevenue)
+              )}
+            </div>
             <div className="mt-1 text-xs text-indigo-600 md:mt-2 md:text-sm">NOK millioner</div>
           </div>
 
@@ -81,8 +104,18 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
             <div className="mb-2 text-xs font-medium uppercase tracking-wider text-slate-600 md:text-sm">
               Største aktør
             </div>
-            <div className="text-base font-bold text-slate-900 md:text-lg line-clamp-2">{safeActors[0]?.navn || 'N/A'}</div>
-            <div className="mt-1 text-xs text-indigo-600 md:mt-2 md:text-sm">NOK {safeActors[0]?.omsetning || 0} mill.</div>
+            <div className="text-base font-bold text-slate-900 md:text-lg line-clamp-2">
+              <RestriktertFelt verdi={topActor?.navn}>{textValue(topActor?.navn) || 'N/A'}</RestriktertFelt>
+            </div>
+            <div className="mt-1 text-xs text-indigo-600 md:mt-2 md:text-sm">
+              {revenueRestricted ? (
+                <RestriktertFelt verdi={null} niva="internt" visBadge={false} />
+              ) : (
+                <RestriktertFelt verdi={topActor?.omsetning} visBadge={false}>
+                  NOK {numericValue(topActor?.omsetning) || 0} mill.
+                </RestriktertFelt>
+              )}
+            </div>
           </div>
         </div>
 
@@ -103,7 +136,12 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
                 </div>
                 <div className="mb-1 text-sm font-semibold text-slate-900 md:mb-2 md:text-base">{category}</div>
                 <div className="text-xs text-indigo-600 md:text-sm">
-                  Snitt omsetning: NOK {formatNumber(stats.avgRevenue)} mill.
+                  Snitt omsetning:{' '}
+                  {revenueRestricted ? (
+                    <RestriktertFelt verdi={null} niva="internt" />
+                  ) : (
+                    <>NOK {formatNumber(stats.avgRevenue)} mill.</>
+                  )}
                 </div>
               </div>
             ))}
@@ -220,46 +258,56 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
                       {index + 1}
                     </td>
                     <td className="px-4 py-3 text-sm font-medium text-slate-900 md:px-6 md:py-4">
-                      {aktor.navn}
+                      <RestriktertFelt verdi={aktor.navn}>{textValue(aktor.navn)}</RestriktertFelt>
                     </td>
                     <td className="whitespace-nowrap px-4 py-3 text-xs text-slate-600 md:px-6 md:py-4">
-                      {aktor.type}
+                      <RestriktertFelt verdi={aktor.type}>{textValue(aktor.type)}</RestriktertFelt>
                     </td>
                     <td className="hidden whitespace-nowrap px-4 py-3 text-sm text-slate-600 md:table-cell md:px-6 md:py-4">
-                      {aktor.adresse}
+                      <RestriktertFelt verdi={aktor.adresse}>{textValue(aktor.adresse)}</RestriktertFelt>
                     </td>
                     <td className="px-4 py-3 text-right text-sm md:px-6 md:py-4">
                       <div className="font-medium text-slate-900">
-                        {aktor.omsetning ? `${formatNumber(aktor.omsetning)} mill.` : '-'}
+                        <RestriktertFelt verdi={aktor.omsetning}>
+                          {numericValue(aktor.omsetning) !== null ? `${formatNumber(numericValue(aktor.omsetning) ?? 0)} mill.` : '-'}
+                        </RestriktertFelt>
                       </div>
-                      {aktor.kjedeProsent && (
+                      {textValue(aktor.kjedeProsent) && (
                         <div className="text-xs text-indigo-600">
-                          {aktor.kjedeProsent} av kjede
+                          {textValue(aktor.kjedeProsent)} av kjede
                         </div>
                       )}
                     </td>
                     <td
-                      className={`hidden whitespace-nowrap px-4 py-3 text-right text-sm font-semibold md:table-cell md:px-6 md:py-4 ${aktor.yoyVekst === null
+                      className={`hidden whitespace-nowrap px-4 py-3 text-right text-sm font-semibold md:table-cell md:px-6 md:py-4 ${numericValue(aktor.yoyVekst) === null
                         ? 'text-slate-600'
-                        : aktor.yoyVekst < 0
+                        : (numericValue(aktor.yoyVekst) ?? 0) < 0
                           ? 'text-red-600'
                           : 'text-green-600'
                         }`}
                     >
-                      {aktor.yoyVekst !== null ? `${aktor.yoyVekst > 0 ? '+' : ''}${aktor.yoyVekst}%` : '-'}
+                      <RestriktertFelt verdi={aktor.yoyVekst}>
+                        {numericValue(aktor.yoyVekst) !== null
+                          ? `${(numericValue(aktor.yoyVekst) ?? 0) > 0 ? '+' : ''}${numericValue(aktor.yoyVekst)}%`
+                          : '-'}
+                      </RestriktertFelt>
                     </td>
                     <td className="hidden px-4 py-3 text-right text-sm lg:table-cell md:px-6 md:py-4">
                       <div className="font-medium text-slate-900">
-                        {aktor.ansatteLokalt !== null ? aktor.ansatteLokalt : '-'}
+                        <RestriktertFelt verdi={aktor.ansatteLokalt}>
+                          {numericValue(aktor.ansatteLokalt) !== null ? numericValue(aktor.ansatteLokalt) : '-'}
+                        </RestriktertFelt>
                       </div>
-                      {aktor.ansatteKjede && aktor.kjedeLokasjoner && (
+                      {numericValue(aktor.ansatteKjede) !== null && numericValue(aktor.kjedeLokasjoner) !== null && (
                         <div className="text-xs text-indigo-600">
-                          {aktor.ansatteKjede} i {aktor.kjedeLokasjoner} lok.
+                          {numericValue(aktor.ansatteKjede)} i {numericValue(aktor.kjedeLokasjoner)} lok.
                         </div>
                       )}
                     </td>
                     <td className="hidden whitespace-nowrap px-4 py-3 text-right text-sm font-medium text-slate-900 lg:table-cell md:px-6 md:py-4">
-                      {aktor.markedsandel !== null ? `${aktor.markedsandel.toFixed(2)}%` : '-'}
+                      <RestriktertFelt verdi={aktor.markedsandel}>
+                        {numericValue(aktor.markedsandel) !== null ? `${(numericValue(aktor.markedsandel) ?? 0).toFixed(2)}%` : '-'}
+                      </RestriktertFelt>
                     </td>
                   </tr>
                 ))}
@@ -318,7 +366,13 @@ export default function BusinessActors({ actors, categoryStats, metadata }: Busi
                     </div>
                     <div className="flex items-center justify-between text-xs text-slate-600">
                       <span>{stats.count} bedrifter</span>
-                      <span>Ø {formatNumber(stats.avgRevenue)} mill.</span>
+                      <span>
+                        {revenueRestricted ? (
+                          <RestriktertFelt verdi={null} niva="internt" visBadge={false} />
+                        ) : (
+                          <>Ø {formatNumber(stats.avgRevenue)} mill.</>
+                        )}
+                      </span>
                     </div>
                   </div>
                 );

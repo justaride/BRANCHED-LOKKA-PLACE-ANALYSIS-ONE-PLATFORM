@@ -1,8 +1,5 @@
 import { notFound } from "next/navigation";
-import {
-  loadEiendom,
-  getAllPropertyIds,
-} from "@/lib/loaders/front-real-estate";
+import { loadEiendom } from "@/lib/loaders/front-real-estate";
 import { loadOneMinAnalysisData } from "@/lib/loaders/one-min-loader";
 import Container from "@/components/ui/Container";
 import AnalyseSelector from "@/components/property/AnalyseSelector";
@@ -15,16 +12,18 @@ import Link from "next/link";
 import Image from "next/image";
 import { formaterDato } from "@/lib/utils";
 import { getPropertyMetrics } from "@/lib/property-metrics";
+import { maskerEiendom } from '@/lib/synlighet';
+import { tilgangsKontekstFraRequest } from '@/lib/synlighet/request-kontekst';
+import RestriktertFelt from '@/components/ui/RestriktertFelt';
+
+// Dynamisk render: leser Cloudflare Access-headeren per request for å maskere
+// sensitive felt via synlighet-laget. Se src/lib/synlighet/README.md.
+export const dynamic = 'force-dynamic';
 
 interface PageProps {
   params: Promise<{
     id: string;
   }>;
-}
-
-export async function generateStaticParams() {
-  const ids = getAllPropertyIds();
-  return ids.map((id) => ({ id }));
 }
 
 export async function generateMetadata({ params }: PageProps) {
@@ -53,10 +52,14 @@ export default async function FrontRealEstateEiendomPage({
     notFound();
   }
 
+  // Synlighet: utled tilgang fra Cloudflare Access og masker sensitive felt.
+  const tilgang = await tilgangsKontekstFraRequest('front-real-estate');
+  const synlig = maskerEiendom(eiendom, tilgang);
+
   // Load 1-minute analysis data if available
   const oneMinData = await loadOneMinAnalysisData("front-real-estate", id);
 
-  const { totalRevenue, totalActors, topCategory } = getPropertyMetrics(eiendom);
+  const { totalRevenue, totalActors, topCategory } = getPropertyMetrics(synlig);
 
   return (
     <>
@@ -101,6 +104,12 @@ export default async function FrontRealEstateEiendomPage({
                     <span className="font-semibold">Rapport:</span>{" "}
                     {eiendom.plaaceData?.rapportDato ? formaterDato(eiendom.plaaceData.rapportDato) : 'N/A'}
                   </div>
+                  {eiendom.plaaceData?.nokkeldata?.leieinntekter != null && (
+                    <div className="flex items-center gap-1 rounded-lg bg-gray-200 px-3 py-1.5 text-gray-700 md:px-4 md:py-2">
+                      <span className="font-semibold">Leienivå:</span>{' '}
+                      <RestriktertFelt verdi={synlig.plaaceData.nokkeldata.leieinntekter} />
+                    </div>
+                  )}
                 </div>
               </FadeIn>
             </div>
@@ -212,11 +221,11 @@ export default async function FrontRealEstateEiendomPage({
       </Container>
 
       {/* Business Actors Section */}
-      {eiendom.naringsaktorer && (
+      {synlig.naringsaktorer && (
         <BusinessActors
-          actors={eiendom.naringsaktorer.actors}
-          categoryStats={eiendom.naringsaktorer.categoryStats}
-          metadata={eiendom.naringsaktorer.metadata}
+          actors={synlig.naringsaktorer.actors}
+          categoryStats={synlig.naringsaktorer.categoryStats}
+          metadata={synlig.naringsaktorer.metadata}
         />
       )}
     </>

@@ -1,12 +1,20 @@
 # Løkka Gardeierforening Platform - Project Status
 
-**Last Updated:** May 21, 2026 - Full audit, route crawl, and build gate hardening
+**Last Updated:** June 15, 2026 - Synlighet/delingsnivå-lag (#9) review-fikset (arbeidstre, uncommitted)
 **Current Status:** 🚀 **PRODUCTION READY** (99% Complete, local worktree has uncommitted audit changes)
 **Deployment:** Stoppet - lokal utvikling
 **URL:** Cloudflare domain -> Coolify app
 **Build Status:** ✅ 159 generated static pages, route crawl 156/156 OK, ESLint 0 issues, Data Audit 0 CRITICAL
 **Test Status:** ✅ 49 Jest tests passing, 10 suites
 **Latest Updates:**
+
+- **June 15, 2026: Synlighet / delingsnivå-lag (#9)** - ✅ **COMPLETE (klassifisering + maskering + B2-resolver + utrulling på alle eiendomssider)** - Avledet fra Dataverksted 21. mai 2026 (delingsmodell slide 6 + trafikklys slide 10):
+  - **Nye filer:** `src/types/synlighet.ts`, `src/lib/synlighet/{registry,filter,session,request-kontekst,eiendom,index}.ts`, `src/components/ui/{SynlighetsBadge,RestriktertFelt}.tsx`, `src/lib/synlighet/README.md`, tester i `src/lib/synlighet/__tests__/{synlighet,b2-integrasjon}.test.ts`
+  - **Modell:** Fire nivåer (felles/internt/fortrolig/privat) + rolle→tilgang-matrise (gjest/medlem/gardeier/eier/admin). Leienivå/leieinntekt klassifisert som `privat` — bevisst strengere enn planutkastet, jf. møtets Rødt.
+  - **Verifikasjon:** 138 Jest-tester grønne, `tsc --noEmit` (strict) = 0 feil, ESLint 0 errors (samme eksisterende warning i `.remember/tmp/last-ndc.ts`), lokal `npm run build` pass. Build viser de 10 eiendomsrutene som `ƒ Dynamic`.
+  - **B2 + utrulling:** Identitet via Cloudflare Access (`Cf-Access-Authenticated-User-Email`) → rolle/eier via `tenant-emails.ts` (`request-kontekst.ts`). Rullet ut til alle 10 eiendoms-detaljruter (carucel, [company], roger-vodal, maya-eiendom, sio, eiendomsspar, front-real-estate [id]+markveien-35, spabo, brodrene-evensen): nå `force-dynamic`, maskerer via `maskerEiendom`, viser `Leienivå` via `RestriktertFelt`, og sender maskerte næringsaktører til aktørvisningen. Fem beslutninger avklart, dokumentert i `src/lib/synlighet/README.md`.
+  - **Gjenstår:** sette tenant-`*_EMAILS` + `ADMIN_EMAILS` for at eiere skal se egne privat-data. Main-board-analyser er bevisst utenfor (aggregert NS-visning).
+  - **Status:** Ikke committet/pushet — ligger i arbeidstreet for review.
 
 - **May 21, 2026: Full Project Audit + Route Fix** - ✅ **COMPLETE** - Verified project health across build, tests, data, and browser/runtime surfaces:
   - **Verification:** `npm run verify`, `npm run type-check`, `npm run lint`, `npm run test -- --runInBand`, `npm run build`

@@ -1,7 +1,6 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { getTenant, getCompanyTenants, isCompanyTenantSlug } from '@/config/tenants';
-import { getTenantPropertyIds } from '@/config/tenant-data-manifest';
+import { getTenant, isCompanyTenantSlug } from '@/config/tenants';
 import { getTenantLoader } from '@/lib/loaders/tenant-registry';
 import { loadOneMinAnalysisData } from '@/lib/loaders/one-min-loader';
 import Container from '@/components/ui/Container';
@@ -16,23 +15,19 @@ import Image from 'next/image';
 import PropertyMapEmbed from '@/components/property/PropertyMapEmbed';
 import { formaterDato } from '@/lib/utils';
 import { getPropertyMetrics } from '@/lib/property-metrics';
+import { maskerEiendom } from '@/lib/synlighet';
+import { tilgangsKontekstFraRequest } from '@/lib/synlighet/request-kontekst';
+import RestriktertFelt from '@/components/ui/RestriktertFelt';
+
+// Dynamisk render: leser Cloudflare Access-headeren per request for å maskere
+// sensitive felt via synlighet-laget. Se src/lib/synlighet/README.md.
+export const dynamic = 'force-dynamic';
 
 interface PageProps {
   params: Promise<{
     company: string;
     id: string;
   }>;
-}
-
-export function generateStaticParams() {
-  return getCompanyTenants().flatMap((tenant) =>
-    isCompanyTenantSlug(tenant.slug)
-      ? getTenantPropertyIds(tenant.slug).map((id) => ({
-          company: tenant.slug,
-          id,
-        }))
-      : [],
-  );
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -81,9 +76,13 @@ export default async function CompanyEiendomPage({ params }: PageProps) {
     notFound();
   }
 
+  // Synlighet: utled tilgang fra Cloudflare Access og masker sensitive felt.
+  const tilgang = await tilgangsKontekstFraRequest(company);
+  const synlig = maskerEiendom(eiendom, tilgang);
+
   const oneMinData = await loadOneMinAnalysisData(company, id);
   const displayName = eiendom.navn || eiendom.adresse;
-  const { totalRevenue, totalActors, topCategory } = getPropertyMetrics(eiendom);
+  const { totalRevenue, totalActors, topCategory } = getPropertyMetrics(synlig);
 
   return (
     <>
@@ -126,6 +125,12 @@ export default async function CompanyEiendomPage({ params }: PageProps) {
                     <span className="font-semibold">Rapport:</span>{' '}
                     {eiendom.plaaceData?.rapportDato ? formaterDato(eiendom.plaaceData.rapportDato) : 'N/A'}
                   </div>
+                  {eiendom.plaaceData?.nokkeldata?.leieinntekter != null && (
+                    <div className="flex items-center gap-1 rounded-lg bg-gray-200 px-3 py-1.5 text-gray-700 md:px-4 md:py-2">
+                      <span className="font-semibold">Leienivå:</span>{' '}
+                      <RestriktertFelt verdi={synlig.plaaceData.nokkeldata.leieinntekter} />
+                    </div>
+                  )}
                 </div>
               </FadeIn>
             </div>
@@ -236,11 +241,11 @@ export default async function CompanyEiendomPage({ params }: PageProps) {
       </Container>
 
       {/* Business Actors Section - only show if we don't have 1-min data (which includes aktorer) */}
-      {!oneMinData && eiendom.naringsaktorer && eiendom.naringsaktorer.actors.length > 0 && (
+      {!oneMinData && synlig.naringsaktorer && synlig.naringsaktorer.actors.length > 0 && (
         <BusinessActors
-          actors={eiendom.naringsaktorer.actors}
-          categoryStats={eiendom.naringsaktorer.categoryStats}
-          metadata={eiendom.naringsaktorer.metadata}
+          actors={synlig.naringsaktorer.actors}
+          categoryStats={synlig.naringsaktorer.categoryStats}
+          metadata={synlig.naringsaktorer.metadata}
         />
       )}
     </>
