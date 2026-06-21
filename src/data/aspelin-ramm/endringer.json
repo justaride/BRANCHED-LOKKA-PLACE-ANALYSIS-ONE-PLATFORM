@@ -1,0 +1,111 @@
+{
+  "mathallen": [
+    {
+      "id": "mathallen-20220301-hitchhiker-inn",
+      "eiendom_id": "mathallen",
+      "dato": "2022-03-01",
+      "type": "innflytting",
+      "aktor_navn": "Hitchhiker",
+      "notat": "Asiatisk gatekjøkken — utvider Mathallens internasjonale tilbud.",
+      "kilde": "manuell"
+    },
+    {
+      "id": "mathallen-20230601-coffee-shop-bytte",
+      "eiendom_id": "mathallen",
+      "dato": "2023-06-01",
+      "type": "navnebytte",
+      "aktor_navn": "Tim Wendelboe Mathallen",
+      "fra": "Coffee Shop",
+      "til": "Tim Wendelboe Mathallen",
+      "kilde": "manuell"
+    },
+    {
+      "id": "mathallen-20240115-bruksendring",
+      "eiendom_id": "mathallen",
+      "dato": "2024-01-15",
+      "type": "bruksendring",
+      "fra": "Engros",
+      "til": "Servering",
+      "notat": "Andre etasje konvertert fra engrosareal til serveringslokaler.",
+      "kilde": "gardeier",
+      "registrert_av": "Aspelin Ramm",
+      "registrert_dato": "2024-01-20T10:00:00Z"
+    }
+  ],
+  "bellonabygget": [
+    {
+      "id": "bellonabygget-20210601-bellona-inn",
+      "eiendom_id": "bellonabygget",
+      "dato": "2021-06-01",
+      "type": "innflytting",
+      "aktor_navn": "Miljøstiftelsen Bellona",
+      "notat": "Bellona flytter inn som ankerleietaker.",
+      "kilde": "brreg"
+    },
+    {
+      "id": "bellonabygget-20230401-kategoriendring",
+      "eiendom_id": "bellonabygget",
+      "dato": "2023-04-01",
+      "type": "kategoriendring",
+      "fra": "Kontor",
+      "til": "Kontor + serveringslokale",
+      "notat": "Første etasje åpnet for kafé etter ombygging.",
+      "kilde": "gardeier"
+    }
+  ],
+  "vulkan-arena": [
+    {
+      "id": "vulkan-arena-20240801-konsertarrangor",
+      "eiendom_id": "vulkan-arena",
+      "dato": "2024-08-01",
+      "type": "innflytting",
+      "aktor_navn": "Live Nation Norway",
+      "notat": "Ny arrangør-partner for konsertserien høst 2024.",
+      "kilde": "manuell"
+    }
+  ],
+  "scandic-hotel-vulkan": [
+    {
+      "id": "scandic-vulkan-20250101-oppussing",
+      "eiendom_id": "scandic-hotel-vulkan",
+      "dato": "2025-01-15",
+      "dato_til": "2025-03-30",
+      "type": "oppussing",
+      "notat": "Lobby og restaurant under oppussing — hotell delvis i drift.",
+      "kilde": "gardeier",
+      "registrert_av": "Aspelin Ramm"
+    }
+  ],
+  "nye-broverkstedet": [
+    {
+      "id": "nye-broverkstedet-20230301-kafe-inn",
+      "eiendom_id": "nye-broverkstedet",
+      "dato": "2023-03-01",
+      "type": "innflytting",
+      "aktor_navn": "Lokal Kaffebar",
+      "kilde": "brreg"
+    },
+    {
+      "id": "nye-broverkstedet-20251015-utflytting",
+      "eiendom_id": "nye-broverkstedet",
+      "dato": "2025-10-15",
+      "type": "utflytting",
+      "aktor_navn": "Lokal Kaffebar",
+      "notat": "Avsluttet drift — lokalet ledig fra november 2025.",
+      "kilde": "gardeier",
+      "registrert_av": "Aspelin Ramm",
+      "registrert_dato": "2025-10-20T14:00:00Z"
+    }
+  ],
+  "vulkan-omradet": [
+    {
+      "id": "vulkan-omradet-20240601-festival",
+      "eiendom_id": "vulkan-omradet",
+      "dato": "2024-06-15",
+      "dato_til": "2024-06-17",
+      "type": "notat",
+      "notat": "Vulkan Sommerfest — første gang i nytt format. Estimert 12 000 besøkende.",
+      "kilde": "manuell"
+    }
+  ]
+}
